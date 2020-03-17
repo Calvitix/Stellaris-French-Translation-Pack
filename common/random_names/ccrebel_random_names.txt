@@ -1,0 +1,330 @@
+
+# Free Republic Names
+
+empire_name_parts_list = {
+	key = "freed_slaves"
+	parts = {
+		"NAME_REBEL_Free_Citizens" = 3
+		"NAME_REBEL_Free_Republic" = 3
+		"NAME_REBEL_Free_State" = 2
+		"NAME_REBEL_Chainbreakers" = 4
+		"NAME_REBEL_Uprising" = 2
+		"NAME_REBEL_Masterless" = 3
+		"NAME_REBEL_Abolitionists" = 2
+		"NAME_REBEL_Ungovernables" = 2
+		"NAME_REBEL_Unshackled Citizens" = 1
+	}
+}
+
+empire_name_parts_list = {
+	key = "freed_slaves_desc"
+	parts = {
+		"NAME_REBEL_Free" = 3
+		"NAME_REBEL_Unshackled" = 3
+		"NAME_REBEL_Unbowed" = 3
+		"NAME_REBEL_Unchained" = 4
+		"NAME_REBEL_Liberated" = 3
+		"NAME_REBEL_Masterless" = 2
+	}
+}
+
+empire_name_parts_list = {
+	key = "freed_slaves_1"
+	parts = {
+		"NAME_REBEL_Citizens" = 3
+		"NAME_REBEL_Republic" = 3
+		"NAME_REBEL_Union" = 3
+		"NAME_REBEL_Abolitionists" = 2
+		"NAME_REBEL_Planets" = 2
+		"NAME_REBEL_Confederated_Suns" = 1
+	}
+}
+
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_authority = auth_democratic
+			has_valid_civic = civic_broken_shackles
+			has_valid_civic = civic_free_republic
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.freed_slaves.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <freed_slaves>"
+	# Human Empire
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 50
+			has_authority = auth_democratic
+			has_valid_civic = civic_broken_shackles
+			has_valid_civic = civic_free_republic
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.freed_slaves.2"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <freed_slaves>"
+	# Great Human Empire
+}
+
+
+# War Names
+
+# Counter-Revolutionary Struggle
+
+war_name_parts_list = {
+	key = "cc_counter_revolution_1"
+	parts = {
+		"NAME_REBEL_Counter_Revolutionary_War" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "cc_counter_revolution_2"
+	parts = {
+		"NAME_REBEL_Re_Enslavement" = 2
+		"NAME_REBEL_Re_Shackling" = 1
+		"NAME_REBEL_Enchaining" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "cc_counter_revolution_adj"
+	parts = {
+		"NAME_REBEL_Escaped" = 1
+		"NAME_REBEL_Upstart" = 1
+		"NAME_REBEL_Rebellious" = 1
+	}
+}
+
+
+
+# Free Republic attacks slavers
+
+war_name_parts_list = {
+	key = "cc_freedom_1"
+	parts = {
+		"NAME_REBEL_Liberation" = 1
+		"NAME_REBEL_Emancipation" = 1
+		"NAME_REBEL_Unchaining" = 1
+		"NAME_REBEL_Unshackling" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "cc_freedom_2"
+	parts = {
+		"NAME_REBEL_War_of_Emancipation" = 2
+		"NAME_REBEL_War_of_Liberation" = 1
+		"NAME_REBEL_War_to_Abolish_Slavery" = 2
+		"NAME_REBEL_Shackle_Breaking_War" = 1
+	}
+}
+
+
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			attacker = {
+				has_policy_flag = slavery_allowed
+			}
+			defender = {
+				has_valid_civic = civic_broken_shackles
+				has_valid_civic = civic_free_republic
+				NOT = { is_same_species = prev.attacker }
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAdj] - [This.MainDefender.GetAdj] <cc_counter_revolution_1>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			attacker = {
+				has_policy_flag = slavery_allowed
+			}
+			defender = {
+				has_valid_civic = civic_broken_shackles
+				has_valid_civic = civic_free_republic
+				NOT = { is_same_species = prev.attacker }
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAdj] <cc_counter_revolution_2> of the [This.MainDefender.GetName]"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			attacker = {
+				has_policy_flag = slavery_allowed
+			}
+			defender = {
+				has_valid_civic = civic_broken_shackles
+				has_valid_civic = civic_free_republic
+				is_same_species = prev.attacker
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAdj] <cc_counter_revolution_2> of their <cc_counter_revolution_adj> Slaves"
+}
+
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			attacker = {
+				has_valid_civic = civic_broken_shackles
+				has_valid_civic = civic_free_republic
+			}
+			defender = {
+				has_policy_flag = slavery_allowed
+				NOT = { is_same_species = prev.attacker }
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAdj] <cc_freedom_1> of the [This.MainDefender.GetName]'s Slaves"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			attacker = {
+				has_valid_civic = civic_broken_shackles
+				has_valid_civic = civic_free_republic
+			}
+			defender = {
+				has_policy_flag = slavery_allowed
+				NOT = { is_same_species = prev.attacker }
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAdj] <cc_freedom_2>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			attacker = {
+				has_valid_civic = civic_broken_shackles
+				has_valid_civic = civic_free_republic
+			}
+			defender = {
+				has_policy_flag = slavery_allowed
+				is_same_species = prev.attacker
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAdj] Slave <ccrebel_independence_2>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			attacker = {
+				has_valid_civic = civic_broken_shackles
+				has_valid_civic = civic_free_republic
+			}
+			defender = {
+				has_policy_flag = slavery_allowed
+				is_same_species = prev.attacker
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAdj] Slave <ccrebel_independence_2>"
+}
+
+
+
+# Rebellion
+
+war_name_parts_list = {
+	key = "ccrebel_independence_1"
+	parts = {
+		"Liberation" = 1
+		"Liberty" = 1
+		"Freedom" = 1
+		"Independence" = 3
+	}
+}
+
+war_name_parts_list = {
+	key = "ccrebel_independence_2"
+	parts = {
+		"NAME_REBEL_Revolt" = 1
+		"NAME_REBEL_Uprising" = 1
+		"NAME_REBEL_Rebellion" = 1
+	}
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			using_war_goal = {
+				type = wg_ccrebel_independence
+				owner = attacker
+			}
+			attacker = {
+				NOR = {
+					has_valid_civic = civic_broken_shackles
+					has_valid_civic = civic_free_republic
+				}
+			}
+		}
+	}
+	format = "War of [This.MainAttacker.GetAdj] <ccrebel_independence_1>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 500
+			using_war_goal = {
+				type = wg_ccrebel_independence
+				owner = attacker
+			}
+			attacker = {
+				NOR = {
+					has_valid_civic = civic_broken_shackles
+					has_valid_civic = civic_free_republic
+				}
+			}
+		}
+	}
+	format = "The [This.MainAttacker.GetAdj] <ccrebel_independence_2>"
+}
+
+
