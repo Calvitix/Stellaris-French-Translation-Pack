@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 5.11.2019
- # Translation check : 5.11.2019
+ # Update check : 19.03.2020
+ # Translation check : 19.03.2020
  ####################################
 
 
@@ -1203,9 +1203,9 @@
  distar.3016.desc:1 "Les scientifiques sont heureux de pouvoir rapporter que le déplacement des $NAME_Nivlacs$ sur une planète leur convenant a été un véritable succès.\n\nDepuis l'arrivée du jeune fongoïde sur [nivlac_planet.GetName], il est visible que son développement explosif s'est poursuivi. Il s'est établi comme un véritable petit peuple, et a récemment développé la technologie PRL - sans aucun doute aidé en cela par la technologie que nous avons laissée à sa disposition.\n\nNous devrions continuer de surveiller son développement à l'avenir."
  distar.3017.name:0 "[Root.Owner.GetSpeciesNamePlural] et $NAME_Nivlacs$"
  distar.3017.desc:0 "L'intégration des $NAME_Nivlacs$ fongoïdes au sein de la société [Root.Owner.GetAdj] est en cours.\n\nLes interactions entre $NAME_Nivlacs$ et [Root.Owner.GetSpeciesNamePlural] continuent de s'avérer positives, et les deux espèces semblent destinées à suivre un chemin prometteur, côte à côte."
- distar.3017.a.tooltip:1 "Des £pops£pops£ de $NAME_Nivlacs$ ont poussé sur les tuiles vides de [nivlac_joint_planet.GetName]."
+ distar.3017.a.tooltip:2 "Des £pops£pops de $NAME_Nivlacs$ ont poussé sur [nivlac_joint_planet.GetName]."
  distar.3020.name:0 "Scientifique bloquée"
- distar.3020.desc:1 "L'épave qui se trouve sur l'astéroïde [From.GetName] appartient à une scientifique bloquée là, [stranded_scientist_leader.GetName], qui s'identifie en tant que membre d'une espèce jusque-là inconnue, l'espèce [stranded_scientist_leader.GetSpeciesName].\n\nDepuis la carcasse de son vaisseau, elle est apparemment parvenue à contacter [Root.GetLeaderName], l'officier scientifique se trouvant à bord du [Root.GetName], afin de demander à être secourue. Elle a expliqué que la collision de son appareil était due à des capteurs de navigation défectueux, et qu'elle avait été incapable de quitter l'astéroïde depuis plusieurs années.\n\nElle prétend que ses connaissances scientifiques sont inégalées, et qu'elle serait pour la [Root.Owner.GetName] un atout indéniable - en faisant bien remarquer que sa survie en est une preuve évidente."
+ distar.3020.desc:2 "L'épave qui se trouve sur l'astéroïde §Y[From.GetName]§! appartient à une scientifique bloquée là, [stranded_scientist_leader.GetName], qui s'identifie en tant que membre de l'espèce [stranded_scientist_species.GetName], jusque-là inconnue.\n\nDepuis la carcasse de son vaisseau, elle est apparemment parvenue à contacter [Root.GetLeaderName], l'officier scientifique se trouvant à bord du [Root.GetName], afin de demander à être secourue. Elle a expliqué que la collision de son appareil était due à des capteurs de navigation défectueux, et qu'elle avait été incapable de quitter l'astéroïde depuis plusieurs années.\n\nElle prétend que ses connaissances scientifiques sont inégalées, et qu'elle serait pour la [Root.Owner.GetName] un atout indéniable - en faisant bien remarquer que sa survie en est une preuve évidente."
  distar.3020.a:0 "Autorisons-la à se joindre à nous"
  distar.3020.a.tooltip:0 "[stranded_scientist_leader.GetName] intègre la [Root.Owner.GetName] et partagera avec nous ses connaissances technologiques."
  distar.3020.b:0 "Non, laissons-la"
@@ -1947,7 +1947,7 @@
  distar.3013.b.no_room.kill:0 "Nous manquons de place, brûlons-les donc"
  distar.3013.b.no_room.kill.tooltip:0 "Les fongoïdes vont être détruits."
  distar.3017.desc.assim:0 "L'assimilation des $NAME_Nivlacs$ fongoïdes au sein de la société [Root.Owner.GetAdj] est en cours.\n\nSi ces $NAME_Nivlacs$ sont résistants au processus, leur conscience finira par être sublimée au sein de la totalité [Root.Owner.GetAdj]."
- distar.3017.a.assi.tooltip:0 "Des £pops£pops£ de $NAME_Nivlacs$ ont été ajoutées sur les tuiles vides de [nivlac_joint_planet.GetName]."
+ distar.3017.a.assi.tooltip:1 "Des £pops£pops de $NAME_Nivlacs$ ont poussé sur [nivlac_joint_planet.GetName]."
  distar.3017.a.serv.tooltip:0 "Des £pops£pops£ de $NAME_Nivlacs$ sont dorlotées dans les sanctuaires récemment construits sur [nivlac_joint_planet.GetName]."
  distar.10956.name:0 "L'attraction de l'amas-L"
  distar.10956.desc:0 "Les espions rapportent que la §H[lgate_warning_country.GetName]§! est toute proche de posséder suffisamment d'informations sur les portes-L pour en débloquer une qui se trouve sous son contrôle. Elle aurait alors accès à l'amas-L et à tous ses secrets !\n\nSi nous voulons y arriver les premiers, nous allons devoir redoubler d'efforts et trouver plus de détails sur ces portes-L !"
@@ -2263,3 +2263,8 @@
  d_zro_deposit_4:0 "Zro"
  d_zro_deposit_5:0 "Zro"
  distar.1050.desc_lithoid:0 "Flottant en bordure du champ de débris qui entoure [From.GetName] se trouve la forme pitoyable d'un vaisseau scientifique tout cabossé, dont l'origine ne peut être identifiée. La présence de marques de morsures et de fluides digestifs sur la coque suggère qu'il a été mâchouillé, puis régurgité par quelque prédateur de belle taille.\n\nIroniquement, l'équipage de ce vaisseau était lui-même en route pour une odyssée culinaire, puisqu'il était à la recherche d'un nouveau met exotique lorsqu'il s'est trouvé être placé sur le menu.\n\nIl avait malgré tout eu le temps d'attribuer des notes à un nombre proprement stupéfiant de formes de vie, avec des critères allant de l'importance des nutriments jusqu'à leur texture. Parmi leurs premiers choix se trouvait l'espèce [delicious_aliens.GetName], particulièrement appréciée pour [delicious_aliens.GetSpeciesOrganName] tendre et le tempérament épicé. Nous n'avons quant à nous été placés qu'à la toute fin de la liste, et de nombreux astérisques sont portés autour du nom de notre espèce, grâce à l'absence totale de comestibilité de notre chair et au fait que nous chasser ne procure visiblement aucun plaisir. Certains aiment véritablement jouer avec leur nourriture..."
+ distar.1071.name:0 "Rien qu'une minute..."
+ distar.1071.desc:0 "Après avoir broyé du noir durant quelques jours, l'officier scientifique [Root.GetLeaderName] n'a pu qu'admettre avoir commis une erreur. Il ne se trouve aucun schéma caché dans les pulsations d'étoiles lointaines, rien non plus qu'aucune théorie métaphysique ou vision de mauvais augure puisse étayer. Selon les propres mots de [Root.GetLeaderName], « Il s'agissait de paranoïa, ni plus ni moins. Tout cela est parfaitement illogique, incohérent et inapproprié lorsque l'on parle de sciences. »\n\nMais, tout aussi embarrassant que cela puisse être, cette faute n'a pas été sans intérêt : les failles de notre scientifique lui auront au moins permis de mieux se connaître."
+ distar.1071.a:0 "Bien, affaire réglée donc"
+ distar.1081.a.tooltip:0 "4 £pop£pops d'§YAziziens§! apparaissent sur [This.GetName]."
+ NAME_Ketling_Army:0 "Armée fougeuse"

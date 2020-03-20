@@ -652,13 +652,17 @@ war_name_format = {
 			add = 999
 			OR = {
 				using_war_goal = {
+					type = wg_renegade_containment
+					owner = attacker
+				}
+				using_war_goal = {
 					type = wg_end_threat
 					owner = attacker
 				}
 				using_war_goal = {
 					type = wg_end_threat_swarm
 					owner = attacker
-				}				
+				}
 			}
             attacker = {
 				has_federation = no
@@ -678,6 +682,10 @@ war_name_format = {
 		modifier = {
 			add = 999
 			OR = {
+				using_war_goal = {
+					type = wg_renegade_containment
+					owner = attacker
+				}
 				using_war_goal = {
 					type = wg_end_threat
 					owner = attacker

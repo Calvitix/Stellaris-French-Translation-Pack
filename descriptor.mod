@@ -1,11 +1,7 @@
-version="0.6.3"
-path="E:/Documents/Paradox Interactive/Stellaris/mod/frenchtranslationpack"
+version="0.1"
 tags={
 	"Translation"
-	"Fixes"
-	"French"
 }
-picture="thumbnail.png"
-name="French Translation Pack [2.5]"
-supported_version="2.5.*"
-remote_file_id="1896110541"
+name="Frenchtranslationpack [2.6.1]"
+supported_version="2.6.1"
+remote_file_id="2027745745"
