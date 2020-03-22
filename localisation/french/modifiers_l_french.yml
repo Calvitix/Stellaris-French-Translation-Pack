@@ -5,13 +5,20 @@
  # It has been reordered to match with modifiers_l_english.yml file
  # (to improve diff. check) 
  #
- # Update check : 5.11.2019
- # Translation check : 5.11.2019
+ # Update check : 20.03.2020
+ # Translation check : 20.03.2020
  ####################################
 
  ####################################
  # Modifiers
  ####################################
+
+ #Federation
+ MOD_FEDERATION_COHESION_ADD:0 "Cohésion mensuelle "
+ MOD_FEDERATION_COHESION_ETHICS_PENALTY_MULT:0 "Pénalité en cohésion pour question éthique "
+ MOD_FEDERATION_FLEET_COUNTRIBUTION_FACTOR:0 "Contribution à la flotte "
+ MOD_FEDERATION_JOIN_MALUS_MULT:0 "Perte de cohésion pour entrée dans la fédération "
+ MOD_FEDERATION_LEAVE_MALUS_MULT:0 "Perte de cohésion pour départ de la fédération "
 
  #Country
  MOD_BLANK_MODIFIER:0 "Modificateur vide"
@@ -75,6 +82,15 @@
  MOD_MEGASTRUCTURE_BUILD_SPEED_ADD:0 "Vitesse de construction des mégastructures"
  MOD_MEGASTRUCTURE_PRODUCTION_MULT:0 "Production de ressources des mégastructures"
  MOD_MEGASTRUCTURE_BUILD_COST_MULT:0 "Coût des mégastructures"
+ MOD_DIPLO_WEIGHT_SPRAWL_MULT:0 "£diplo_weight£Poids dipl. grâce à l'ext. de l'empire "
+ MOD_DIPLO_WEIGHT_NAVAL_MULT:0 "£diplo_weight£Poids dipl. grâce à la puiss. de la flotte "
+ MOD_DIPLO_WEIGHT_ECONOMY_MULT:0 "£diplo_weight£Poids dipl. grâce à la puiss. éco. "
+ MOD_DIPLO_WEIGHT_TECHNOLOGY_MULT:0 "£diplo_weight£Poids dipl. grâce aux techn. "
+ MOD_DIPLO_WEIGHT_STANCE_MULT:0 "Effets des postures dipl. sur le £diplo_weight£poids diplomatique "
+ MOD_DIPLO_WEIGHT_POPS_MULT:0 "£diplo_weight£Poids dipl. grâce aux £pop£pops "
+ MOD_DIPLO_WEIGHT_ENVOYS_MULT:0 "£diplo_weight£Poids dipl. grâce aux émissaires "
+ MOD_DIPLO_WEIGHT_COUNCIL_MULT:0 "£diplo_weight£Poids dipl. grâce au Conseil "
+ MOD_DIPLO_WEIGHT_MULT:0 "£diplo_weight£Poids diplomatique "
  MOD_DISTANCE_TO_CAPITAL_STATIC_MODIFIER_EFFICIENCY_MULT:0 "Pénalités causées par l'éloignement d'avec la capitale"
  MOD_COUNTRY_ASCENSION_PERKS_ADD:0 "Atouts de l'ascension"
  MOD_COUNTRY_MODIFY_SPECIES_COST_MULT:0 "Modificateur de coût des projets spéciaux liés aux espèces"
@@ -105,8 +121,8 @@
  MOD_POP_HAPPINESS_DESC:0 "Le bonheur des différentes pops de l'empire dépend de cette valeur."
  MOD_BIOLOGICAL_POP_HAPPINESS:0 "Bonheur des pops biologiques"
  MOD_BIOLOGICAL_POP_HAPPINESS_DESC:1 "Le bonheur des pops biologiques dépend de cette valeur."
- MOD_LITHOID_POP_HAPPINESS: "Bonheur des pops Lithoïdes"
- MOD_LITHOID_POP_HAPPINESS_DESC: "Le bonheur des pops lithoïdes dépend de cette valeur."
+ MOD_LITHOID_POP_HAPPINESS:1 "Bonheur des pops Lithoïdes"
+ MOD_LITHOID_POP_HAPPINESS_DESC:1 "Le bonheur des pops lithoïdes dépend de cette valeur."
  MOD_FACTION_APPROVAL:0 "Approbation de la faction"
  MOD_POP_RADIATION_HAPPINESS:0 "Bonheur dû aux radiations"
  MOD_POP_RADIATION_HAPPINESS_DESC:0 "Le bonheur de toutes les pops mécaniques de l'empire est ajusté selon cette valeur."
@@ -139,12 +155,12 @@
  MOD_POP_GROWTH_SPEED_REDUCTION:0 "Réduction du développement des pops"
  MOD_POP_GROWTH_SPEED:1 "Vitesse de développement des pops"
  MOD_POP_GROWTH_SPEED_DESC:0 "Cette valeur détermine la vitesse à laquelle une pop se développe."
- MOD_BIO_POP_GROWTH_SPEED_REDUCTION: "Réduction du développement des pops biologiques"
- MOD_BIO_POP_GROWTH_SPEED: "Vitesse de développement des pops biologiques"
- MOD_BIO_POP_GROWTH_SPEED_DESC: "Cette valeur détermine la vitesse à laquelle une nouvelle pop biologique se développe."
- MOD_LITH_POP_GROWTH_SPEED_REDUCTION: "Réduction du développement des pops lithoïde"
- MOD_LITH_POP_GROWTH_SPEED: "Vitesse de développement des pops lithoïdes"
- MOD_LITH_POP_GROWTH_SPEED_DESC: "Cette valeur détermine la vitesse à laquelle une nouvelle pop lithoïde se développe."
+ MOD_BIO_POP_GROWTH_SPEED_REDUCTION:1 "Réduction du développement des pops biologiques"
+ MOD_BIO_POP_GROWTH_SPEED:1 "Vitesse de développement des pops biologiques"
+ MOD_BIO_POP_GROWTH_SPEED_DESC:1 "Cette valeur détermine la vitesse à laquelle une nouvelle pop biologique se développe."
+ MOD_LITH_POP_GROWTH_SPEED_REDUCTION:1 "Réduction du développement des pops lithoïde"
+ MOD_LITH_POP_GROWTH_SPEED:1 "Vitesse de développement des pops lithoïdes"
+ MOD_LITH_POP_GROWTH_SPEED_DESC:1 "Cette valeur détermine la vitesse à laquelle une nouvelle pop lithoïde se développe."
  MOD_POP_ASSEMBLY_SPEED:0 "Vitesse d'assemblage des pops"
  MOD_PLANET_POP_ASSEMBLY_ADD:0 "Assemblage mensuel des pops"
  MOD_PLANET_POP_ASSEMBLY_MULT:0 "$MOD_POP_ASSEMBLY_SPEED$"
@@ -152,8 +168,8 @@
  MOD_PLANET_MIGRATION_ALL_MULT:0 "Toutes les migrations"
  MOD_POP_DECLINE_FROM_EMIGRATION:0 "Déclin des pops du fait de l'émigration"
  MOD_POP_GROWTH_FROM_IMMIGRATION:0 "Développement des pops du fait de l'immigration"
- MOD_BIO_POP_GROWTH_FROM_IMMIGRATION: "Biological Pop Growth from Immigration"
- MOD_LITH_POP_GROWTH_FROM_IMMIGRATION: "Lithoid Pop Growth from Immigration"
+ MOD_BIO_POP_GROWTH_FROM_IMMIGRATION:1 "Dév. des £pop£pops biologiques par l'immigration "
+ MOD_LITH_POP_GROWTH_FROM_IMMIGRATION:1 "Dév. des £pop£pops lithoïdes par l'immigration "
  MOD_PLANET_IMMIGRATION_PULL_ADD:0 "Incitations à immigrer"
  MOD_PLANET_IMMIGRATION_PULL_MULT:0 "$MOD_PLANET_IMMIGRATION_PULL_ADD$"
  MOD_PLANET_EMIGRATION_PUSH_ADD:0 "Incitations à émigrer"
@@ -230,6 +246,7 @@
  MOD_SHIP_BUILD_SPEED_MULT:0 "Vitesse de construction des vaisseaux"
  MOD_SHIP_REPARATION_COST_MULT:0 "Coût de réparation des vaisseaux"
  MOD_SHIP_WEAPON_RANGE_MULT:1 "Portée des armes des vaisseaux"
+ MOD_SHIP_ENGAGEMENT_RANGE_MULT:0 "Portée d'engagement "
  MOD_SHIP_FIRE_RATE_MULT:1 "Cadence de tir des vaisseaux"
  MOD_FORCE_DISPARITY_FIRE_RATE_MULT:0 "Avantage au combat du fait de la disparité des forces"
  MOD_SHIP_HOME_TERRITORY_FIRE_RATE_MULT:0 "Cadence de tir au sein des frontières"
@@ -241,8 +258,8 @@
  MOD_SHIP_ACCURACY_MULT:0 "Précision"
  MOD_SHIP_ACCURACY_ADD:0 "Chance de toucher"
  MOD_SHIP_SENSOR_RANGE_MULT:0 "Portée des capteurs"
- MOD_SHIP_WINDDOWN_MULT:0 "Délai de récupération après un bond"
- MOD_SHIP_WINDUP_MULT:0 "Délai de chargement des bonds"
+ MOD_SHIP_WINDDOWN_MULT:1 "Délai de récupération après un bond"
+ MOD_SHIP_WINDUP_MULT:1 "Délai de chargement des bonds"
  MOD_SHIP_INTERSTELLAR_SPEED_MULT:1 "Vitesse en mode PRL"
  MOD_SHIP_EMERGENCY_FTL:2 "Risques de dommages lors des PRL d'urgence"
  EMERGENCY_JUMP:0 "Bond d'urgence"
@@ -255,7 +272,7 @@
  MOD_SHIP_TRACKING_MULT:0 "Ciblage"
  MOD_SHIP_STARTING_EXPERIENCE_ADD:0 "Expérience de départ des vaisseaux"
  MOD_SHIP_EXPERIENCE_GAIN_MULT:0 "Gain d'expérience des vaisseaux"
- 
+ MOD_SHIP_JUMPDRIVE_COOLDOWN_MULT:0 "Rechargement entre deux bonds " 
  #Army
  MOD_ARMY_DISENGAGE_CHANCE_MULT:0 "Chances de désengagement des armées"
  MOD_ARMY_UPKEEP_MULT:0 "Entretien des armées"
@@ -379,7 +396,7 @@
  mod_planet_district_arcology_civilian_industry_build_speed_mult:0 "Vitesse de construction des arcologies industrielles"
 
  MOD_PLANET_BUILD_UPKEEP_MULT:0 "Maintenance planétaire"
- 
+
  #Fleet
  MOD_COUNTRY_NAVAL_CAP_ADD:0 "$NAVY_SIZE_TITLE$"
  MOD_COUNTRY_NAVAL_CAP_MULT:0 "$MOD_COUNTRY_NAVAL_CAP_ADD$"
@@ -524,7 +541,7 @@
  mod_country_base_sr_living_metal_produces_add:0 "£sr_living_metal£Métal vivant par mois"
  mod_country_base_sr_dark_matter_produces_add:0 "£sr_dark_matter£Matière noire par mois"
  mod_country_base_sr_zro_produces_add:0 "£sr_zro£Zro par mois"
- 
+
  ####################################
  # Dynamic Modifiers
  ####################################
@@ -1419,3 +1436,13 @@
  MOD_COUNTRY_EMIGRATION_PUSH_ADD:0 "Incitations à émigrer dans l'empire"
  MOD_COUNTRY_EMIGRATION_PUSH_MULT:0 "$MOD_COUNTRY_EMIGRATION_PUSH_ADD$"
  fe_ship_cost_modifier:0 "Expertise de l'ascendance en construction spatiale"
+ MOD_SHIP_FEDERATION_TERRITORY_SPEED_MULT:0 "Vit. subluminique des vaisseaux fédéraux "
+ MOD_SHIP_FEDERATION_TERRITORY_SPEED_MULT_DESC:0 "Détermine la vitesse subluminique des vaisseaux parcourant les systèmes relevant des membres de la fédération."
+ MOD_FEDERATION_RESEARCH_SHARING_MULT:0 "Partage des découvertes fédérales "
+ MOD_FEDERATION_RESEARCH_SHARING_MULT_DESC:0 "Accélère la vitesse de recherche pour toutes les technologies déjà découvertes par un autre membre de la fédération."
+ MOD_FEDERATION_LEADER_FLEET_SCALE_MODIFIER:0 "£unity£Unité suscitée par la taille de la flotte fédérale "
+ MOD_COUNTRY_FEDERATION_FLEET_CONTRIBUTION_DISCOUNT:0 "Réduction de la contribution à la flotte fédérale "
+ MOD_FEDERATION_DIPLO_WEIGHT_CONTRIBUTION_ADD:0 "Contribution au poids diplomatique fédéral "
+ MOD_FEDERATION_LEADER_DIPLO_WEIGHT_FROM_MEMBERS_MULT:0 "£diplo_weight£Poids dipl. grâce aux membres de la fédération "
+ MOD_COUNTRY_FEDERATION_FLEET_CONTRIBUTION_NAVAL_CAP_REDUCTION_DISCOUNT:0 "Réduction maximale de la contribution à la flotte fédérale "
+ MOD_FEDERATION_FLEET_CAP_ADD:0 "Modif. de limite de flotte fédérale "

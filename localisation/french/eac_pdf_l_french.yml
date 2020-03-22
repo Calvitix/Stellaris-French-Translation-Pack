@@ -1,0 +1,262 @@
+﻿l_french:
+
+ ###################
+ # Decisions
+ ###################
+ decision_eac_pdf_interface:0 "Forces de Défense Planétaire"
+ decision_eac_pdf_interface_desc:1 "Ouvrez l'écran principal de Forces de Défense Planétaire"
+ decision_eac_pdf_interface.tooltip:0 "$decision_eac_pdf_interface_desc$"
+
+ ###################
+ # Edicts
+ ###################
+ edict_eac_pdf_set_all_bases_system_stance:0 "Toutes les bases FDP en posture §HSystèmes hostiles§!"
+ edict_eac_pdf_set_all_bases_system_stance_desc:0 "Toutes les bases FDP seront configurées pour gérer les hostilités à dans la galaxie."
+ eac_pdf_set_all_bases_system_stance_allow:0 "£trigger_no A au moins une base avec posture §HPlanète Attaquée§!"
+
+ edict_eac_pdf_set_all_bases_planet_stance:0 "Toutes les bases FDP en posture §HPlanète attaquée§!"
+ edict_eac_pdf_set_all_bases_planet_stance_desc:0 "Toutes les bases PDF seront configurées pour gérer uniquement les hostilités en orbite planétaire."
+ eac_pdf_set_all_bases_planet_stance_allow:0 "£trigger_no A au moins une base avec posture §HSystem Hostiles§!"
+ ###################
+ # Buildings
+ ###################
+ eac_pdf_base:0 "Base des Forces de Défense Planétaire"
+ eac_pdf_base_desc:0 "Base d'accueil des Forces de Défense Planétaire. Utilisez la décision planétaire '§B$decision_eac_pdf_interface$§!' pour interagir avec la base."
+
+ planet_shipbuilders:0 "Emplois de constructeurs spatiaux"
+
+ ###################
+ # Jobs
+ ###################
+ job_eac_pdf_shipbuilder:0 "Constructeur FDP"
+ job_eac_pdf_shipbuilder_plural:0 "Constructeurs FDP"
+ job_eac_pdf_shipbuilder_desc:0 "Responsable de la construction et de l'entretien de la flotte de Défense Planétaire. \nL'entretien de l'alliage est stocké pour la construction navale."
+ job_eac_pdf_shipbuilder_effect_desc:0 "£job_eac_pdf_shipbuilder£ $job_eac_pdf_shipbuilder_plural$ stocke §Y2§! £alloys pour la construction de vaisseaux de patrouille, utilise §Y1§! £energy pour la construction et l'entretien, et produit £engineering£ §Y$engineering_research$§! et £unity£ §Y$unity$§!"
+ mod_job_eac_pdf_shipbuilder_add:0 "Emplois de $job_eac_pdf_shipbuilder$"
+ mod_job_eac_pdf_shipbuilder_per_pop:0 "§G+1§! emploi de $job_eac_pdf_shipbuilder$ par $VALUE$ Pops"
+ mod_job_eac_pdf_shipbuilder_per_pop_short:0 "\n§G+1§! £mod_job_eac_pdf_shipbuilder_add£ par $VALUE$ £pop£"
+
+ job_eac_pdf_drone_shipbuilder:0 "Drone Constructeur FDP"
+ job_eac_pdf_drone_shipbuilder_plural:0 "Drones Constructeurs FDP"
+ job_eac_pdf_drone_shipbuilder_desc:0 "Responsable de la construction et de l'entretien de la flotte de Défense Planétaire."
+ job_eac_pdf_drone_shipbuilder_effect_desc:0 "£job_eac_pdf_drone_shipbuilder£ $job_eac_pdf_drone_shipbuilder_plural$ stocke §Y2§! £alloys pour la construction de vaisseaux de patrouille, utilise §Y1§! £energy pour la construction et l'entretien, et produit £engineering£ §Y$engineering_research$§! et £unity£ §Y$unity$§!"
+ mod_job_eac_pdf_drone_shipbuilder_add:0 "Emplois de $job_eac_pdf_drone_shipbuilder$"
+ mod_job_eac_pdf_drone_shipbuilder_per_pop:0 "§G+1§! emploi de $job_eac_pdf_drone_shipbuilder$ par $VALUE$ Pops"
+ mod_job_eac_pdf_drone_shipbuilder_per_pop_short:0 "\n§G+1§! £mod_job_eac_pdf_drone_shipbuilder_add£ per $VALUE$ £pop£"
+
+ ###################
+ # Messages
+ ###################
+ EAC_MESSAGE_PLANETARY_FLEET_DETECTED:0 "Forces de Défense Planétaire Fleet Launching"
+ EAC_MESSAGE_PLANETARY_FLEET_DETECTED_DESC:0 "La $FLEET|H$ a détecté le lancement imminent d'une flotte des Forces de Défense Planétaire $PLANET|H$.\n§YTout le monde à son poste de combat!§!\n"
+
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING:0 "Ennemis Détectés - Lancement d'une flotte planétaire"
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_SYSTEM_FLEET_DESC:0 "Nous avons détecté une flotte hostile $FLEET|H$ en train d'entrer dans notre système. Préparation du lancement de la flotte des Forces de Défense Planétaire de $PLANET|H$.\n§YTous les pilotes et le personnel de lancement se présentent à leurs postes! Ce n'est pas un exercice! Je répète! Ce n'est pas un exercice!§!\n"
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_SYSTEM_COLOSSUS_DESC:0 "Nous avons détecté un Colosse hostile $FLEET|H$ en train d'entrer dans notre système. Préparation du lancement de la flotte des Forces de Défense Planétaire de $PLANET|H$. §YTous les pilotes et le personnel de lancement se présentent à leurs postes! Ce n'est pas un exercice! Je répète! Ce n'est pas un exercice!§!\n"
+ EAC_MESSAGE_PLANETARY_FLEET_LAUNCHING_ORBIT_FLEET_DESC:0 ""Nous avons détecté une flotte hostile $FLEET|H$ en train d'entrer dans l'orbite de $PLANET|H$. Préparation du lancement de la flotte des Forces de Défense Planétaire de $PLANET|H$. §YTous les pilotes et le personnel de lancement se présentent à leurs postes! Ce n'est pas un exercice! Je répète! Ce n'est pas un exercice!§!\n"
+
+ ###################
+ # Ship Components
+ ###################
+ EAC_PDF_PATROL_CRAFT_FISSION_REACTOR:0 "$FISSION_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_FISSION_REACTOR_DESC:0 "$FISSION_REACTOR_DESC$"
+ EAC_PDF_PATROL_CRAFT_FUSION_REACTOR:0 "$FUSION_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_FUSION_REACTOR_DESC:0 "$FUSION_REACTOR_DESC$"
+ EAC_PDF_PATROL_CRAFT_COLD_FUSION_REACTOR:0 "$COLD_FUSION_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_COLD_FUSION_REACTOR_DESC:0 "$COLD_FUSION_REACTOR_DESC$"
+ EAC_PDF_PATROL_CRAFT_ANTIMATTER_REACTOR:0 "$ANTIMATTER_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_ANTIMATTER_REACTOR_DESC:0 "$ANTIMATTER_REACTOR_DESC$"
+ EAC_PDF_PATROL_CRAFT_ZERO_POINT_REACTOR:0 "$ZERO_POINT_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_ZERO_POINT_REACTOR_DESC:0 "$ZERO_POINT_REACTOR_DESC$E"
+ EAC_PDF_PATROL_CRAFT_DARK_MATTER_REACTOR:0 "$DARK_MATTER_REACTOR$"
+ EAC_PDF_PATROL_CRAFT_DARK_MATTER_REACTOR_DESC:0 "$DARK_MATTER_REACTOR_DESC$"
+
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_DEFAULT:0 "$COMBAT_COMPUTER_SWARM_DEFAULT$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_BASIC:0 "$COMBAT_COMPUTER_SWARM_BASIC$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_ADVANCED:0 "$COMBAT_COMPUTER_SWARM_ADVANCED$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_SAPIENT:0 "$COMBAT_COMPUTER_SWARM_SAPIENT$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_AUTONOMOUS:0 "$COMBAT_COMPUTER_SWARM_AUTONOMOUS$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_SWARM_PRECOG:0 "$COMBAT_COMPUTER_SWARM_PRECOG$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_PICKET_BASIC:0 "$COMBAT_COMPUTER_PICKET_BASIC$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_PICKET_ADVANCED:0 "$COMBAT_COMPUTER_PICKET_ADVANCED$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_PICKET_SAPIENT:0 "$COMBAT_COMPUTER_PICKET_SAPIENT$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_PICKET_AUTONOMOUS:0 "$COMBAT_COMPUTER_PICKET_AUTONOMOUS$"
+ EAC_PDF_PATROL_CRAFT_COMBAT_COMPUTER_PICKET_PRECOG:0 "$COMBAT_COMPUTER_PICKET_PRECOG$"
+
+ EAC_PDF_PATROL_CRAFT_THRUSTER_1:0 "$THRUSTER_1$"
+ EAC_PDF_PATROL_CRAFT_THRUSTER_2:0 "$THRUSTER_2$"
+ EAC_PDF_PATROL_CRAFT_THRUSTER_3:0 "$THRUSTER_3$"
+ EAC_PDF_PATROL_CRAFT_THRUSTER_4:0 "$THRUSTER_4$"
+ EAC_PDF_PATROL_CRAFT_THRUSTER_5:0 "$THRUSTER_5$"
+
+ ###################
+ # Ships & Sections
+ ###################
+ EAC_PDF_PATROL_CRAFT_1_MID_S2:0 "$CORVETTE_MID_S3$"
+ EAC_PDF_PATROL_CRAFT_1_MID_T1:0 "$CORVETTE_MID_M1S1$"
+ EAC_PDF_PATROL_CRAFT_1_MID_M1:0 "Intercepteur"
+ EAC_PDF_PATROL_CRAFT_1_MID_S1PD1:0 "$CORVETTE_MID_S2PD1$"
+
+ EAC_PDF_PATROL_CRAFT_2_MID_M1S1:0 "Intercepteur lourd"
+ EAC_PDF_PATROL_CRAFT_2_MID_T1S1:0 "$CORVETTE_MID_M1S1$"
+ EAC_PDF_PATROL_CRAFT_2_MID_S3:0 "$CORVETTE_MID_S3$"
+ EAC_PDF_PATROL_CRAFT_2_MID_S2PD1:0 "$CORVETTE_MID_S2PD1$"
+ EAC_PDF_PATROL_CRAFT_2_MID_T1P2:0 "Intercepteur à Missiles"
+
+ eac_pdf_patrol_craft_1:0 "Patrouilleur I"
+ eac_pdf_patrol_craft_1_plural:0 "Patrouilleur  I"
+ mod_shipsize_eac_pdf_patrol_craft_1_build_speed_mult:0 "Vitesse de construction de $eac_pdf_patrol_craft_1$"
+ shipsize_eac_pdf_patrol_craft_1_construction_speed_mult:0 "$mod_shipsize_eac_pdf_patrol_craft_1_build_speed_mult$"
+ shipsize_eac_pdf_patrol_craft_1_build_cost_mult:0 "Coût de construction $eac_pdf_patrol_craft_1$"
+ shipsize_eac_pdf_patrol_craft_1_upkeep_mult:0 "Entretien $eac_pdf_patrol_craft_1$"
+ mod_shipsize_eac_pdf_patrol_craft_1_hull_add:0 "Coque $eac_pdf_patrol_craft_1$"
+
+ eac_pdf_patrol_craft_2:0 "Patrouilleur II"
+ eac_pdf_patrol_craft_2_plural:0 "Patrouilleur II"
+ mod_shipsize_eac_pdf_patrol_craft_2_build_speed_mult:0 "Vitesse de construction de $eac_pdf_patrol_craft_2$"
+ shipsize_eac_pdf_patrol_craft_2_construction_speed_mult:0 "$mod_shipsize_eac_pdf_patrol_craft_2_build_speed_mult$"
+ shipsize_eac_pdf_patrol_craft_2_build_cost_mult:0 "Coût de construction $eac_pdf_patrol_craft_2$"
+ shipsize_eac_pdf_patrol_craft_2_upkeep_mult:0 "Entretien $eac_pdf_patrol_craft_2$"
+ mod_shipsize_eac_pdf_patrol_craft_2_hull_add:0 "Coque $eac_pdf_patrol_craft_2$"
+
+ ###################
+ # Technologies
+ ###################
+ eac_tech_planetary_defense_force:0 "Forces de Défense Planétaire"
+ eac_tech_planetary_defense_force_desc:0 "Une flotte terrestre capable d'entrer dans l'espace pour faire face aux ennemis orbitaux et systémiques. La flotte utilise une coque de corvette modifiée, sans moteur FTL."
+ eac_tech_patrol_craft_1:0 "Patrouilleur I"
+ eac_tech_patrol_craft_1_desc:0 "Une coque de corvette modifiée, sans moteur FTL. Construit et entretenu à la $eac_pdf_base$."
+ EAC_TECH_UNLOCK_PATROL_CRAFT_1_CONSTRUCTION_TITLE:0 "§HDébloque les vaisseaux de type:§! Patrouilleur I"
+ EAC_TECH_UNLOCK_PATROL_CRAFT_1_CONSTRUCTION_DESC:0 "§HPatrouilleur I§!\nThe Patrouilleur I est le petit vaisseau militaire le plus élémentaire, sans moteur FTL, armé et prêt en cas de contacts hostiles avec le système."
+ eac_tech_patrol_craft_2:0 "Patrouilleur II"
+ eac_tech_patrol_craft_2_desc:0 "Une coque de corvette modifiée améliorée sans entraînement FTL. Construit et entretenu à la $eac_pdf_base$.\n§RLes modèles $eac_pdf_patrol_craft_1$ ne pourront plus être utilisés.§!\nAjoute §G+2§! emplois de constructeurs à la $eac_pdf_base$."
+ EAC_TECH_UNLOCK_PATROL_CRAFT_2_CONSTRUCTION_TITLE:0 "§HDébloque les vaisseaux de type:§! Patrouilleur II"
+ EAC_TECH_UNLOCK_PATROL_CRAFT_2_CONSTRUCTION_DESC:0 "§HPatrouilleur II§!\nThe Patrouilleur II est un petit vaisseau militaire amélioré, sans moteur FTL, armé et prêt en cas de contacts hostiles avec le système."
+
+ eac_tech_patrol_craft_hull_1:0 "Coque de $eac_pdf_patrol_craft_1$ améliorée I"
+ eac_tech_patrol_craft_hull_1_desc:0 "Les progrès des techniques de construction permettront la construction de $eac_pdf_patrol_craft_1_plural$ plus robustes et plus durables. Augmente le coût du $eac_pdf_patrol_craft_1$ de 25 £alloys"
+ eac_tech_patrol_craft_hull_2:0 "Coque de $eac_pdf_patrol_craft_1$ améliorée II"
+ eac_tech_patrol_craft_hull_2_desc:0 "Les progrès des techniques de construction permettront la construction de $eac_pdf_patrol_craft_1_plural$ plus robustes et plus durables. Augmente le coût du $eac_pdf_patrol_craft_1$ de 25 £alloys"
+ eac_tech_patrol_craft_hull_3:0 "Coque de $eac_pdf_patrol_craft_2$ améliorée I"
+ eac_tech_patrol_craft_hull_3_desc:0 "Les progrès des techniques de construction permettront la construction de $eac_pdf_patrol_craft_2_plural$ plus robustes et plus durables. Augmente le coût du $eac_pdf_patrol_craft_2$ de 25 £alloys"
+ eac_tech_patrol_craft_hull_4:0 "Coque de $eac_pdf_patrol_craft2$ améliorée II"
+ eac_tech_patrol_craft_hull_4_desc:0 "Les progrès des techniques de construction permettront la construction de $eac_pdf_patrol_craft_2_plural$ plus robustes et plus durables. Augmente le coût du $eac_pdf_patrol_craft_2$ de 25 £alloys"
+ eac_tech_patrol_craft_build_speed_1:0 "Schémas de $eac_pdf_patrol_craft_2$ Standardisés"
+ eac_tech_patrol_craft_build_speed_1_desc:0 "L'établissement de nouvelles normes pour la modélisation et la construction des $eac_pdf_patrol_craft_2_plural$ améliore considérablement l'efficacité des lignes de production. Réduit le temps de construction de base du $eac_pdf_patrol_craft_2$ de 25%"
+ eac_tech_patrol_craft_build_speed_2:0 "Lignes d'assemblage de $eac_pdf_patrol_craft_2$ améliorées"
+ eac_tech_patrol_craft_build_speed_2_desc:0 "L'établissement de nouvelles normes pour la modélisation et la construction des $eac_pdf_patrol_craft_2_plural$ améliore considérablement l'efficacité des lignes de production. Réduit le temps de construction de base du $eac_pdf_patrol_craft_2$ de 50%"
+
+ ###################
+ # Scripted Loc
+ ###################
+ eac_pdf_fleet_stance_system:0 "Système Hostiles"
+ eac_pdf_fleet_stance_planet:0 "Planète attaquée"
+ eac_pdf_shipyard_status_active_1:0 "Construire un $eac_pdf_patrol_craft_1$"
+ eac_pdf_shipyard_status_active_2:0 "Construire un $eac_pdf_patrol_craft_2$"
+ eac_pdf_shipyard_status_idle_waiting:0 "Inactif - En attente de ressources supplémentaires"
+ eac_pdf_shipyard_status_idle:0 "Inactif - Capacité max de la flotte"
+ eac_pdf_fleet_deployment_status_deployed:0 "Déployé"
+ eac_pdf_fleet_deployment_status_on_base:0 "A la Base"
+
+ eac_pdf_gain_0:0 "§W0§!"
+ eac_pdf_gain_2:0 "§G+2§!"
+ eac_pdf_gain_4:0 "§G+4§!"
+ eac_pdf_gain_6:0 "§G+6§!"
+ eac_pdf_gain_8:0 "§G+8§!"
+  
+ eac_pdf_num_0:0 "0"
+ eac_pdf_num_1:0 "1"
+ eac_pdf_num_2:0 "2"
+ eac_pdf_num_3:0 "3"
+ eac_pdf_num_4:0 "4"
+ eac_pdf_num_5:0 "5"
+ eac_pdf_num_6:0 "6"
+ eac_pdf_num_7:0 "7"
+ eac_pdf_num_8:0 "8"
+ eac_pdf_num_9:0 "9"
+ eac_pdf_num_10:0 "10"
+ eac_pdf_num_11:0 "11"
+ eac_pdf_num_12:0 "12"
+ eac_pdf_num_13:0 "13"
+ eac_pdf_num_14:0 "14"
+ eac_pdf_num_15:0 "15"
+ eac_pdf_num_16:0 "16"
+ eac_pdf_num_17:0 "17"
+ eac_pdf_num_18:0 "18"
+ eac_pdf_num_19:0 "19"
+ eac_pdf_num_20:0 "20"
+ eac_pdf_num_21:0 "21"
+ eac_pdf_num_22:0 "22"
+ eac_pdf_num_23:0 "23"
+ eac_pdf_num_24:0 "24"
+ eac_pdf_num_25:0 "25"
+ eac_pdf_num_26:0 "26"
+ eac_pdf_num_27:0 "27"
+ eac_pdf_num_28:0 "28"
+ eac_pdf_num_29:0 "29"
+ eac_pdf_num_30:0 "30"
+ eac_pdf_num_31:0 "31"
+ eac_pdf_num_32:0 "32"
+ eac_pdf_num_33:0 "33"
+ eac_pdf_num_34:0 "34"
+ eac_pdf_num_35:0 "35"
+ eac_pdf_num_36:0 "36"
+ eac_pdf_num_37:0 "37"
+ eac_pdf_num_38:0 "38"
+ eac_pdf_num_39:0 "39"
+ eac_pdf_num_40:0 "40"
+
+ ###################
+ # Events
+ ###################
+
+ eac_pdf_pdf_fleet_size:0 "§WTaille de Flotte Planétaire (déployé / total / max): £navy_size §Y[This.GetDeployedShipCount] / [This.GetTotalFleetSize] / [This.Planetary_Defense_Force_Max]§!\n"
+ eac_pdf_pdf_fleet_stance:0 "§WPosture de Flotte Planétaire : §Y[This.GetPDFFleetStance]§!\n"
+ eac_pdf_fleet_deployment_status:0 "§WStatut de Déploiement: §Y[This.GetFleetDeploymentStatus]§!\n"
+ eac_pdf_ship_cost:0 "§WCoût des vaisseaux de Défense Planétaire: §Y[This.Owner.Planetary_Defense_Ship_Cost]§! £alloys\n"
+ eac_pdf_ship_size:0 "§WTaille de vaisseau utilisé : §Y[This.GetCurrentPatrolCraftSize]§!\n"
+
+ eac_pdf_fleet_reinforce_cost:0 "§WCoût de renforcement: £navy_size §Y[This.GetPDFFleetReinfocementShips] §Y[This.PDF_Reinforce_Cost]§! £alloys\n"
+ eac_pdf_fleet_reinforce_cost_0:0 "§WCoût de renforcement: £navy_size §Y[This.GetPDFFleetReinfocementShips] §Y0§! £alloys\n"
+ 
+ eac_pdf_ship_build_speed:0 "§WVitesse de Constuction : £resource_time §Y[This.Owner.Planetary_Defense_Ship_Build_Speed]§!\n"
+ eac_pdf_shipyard_status:0 "§WStatut du Chantier naval : §Y[This.GetPDFShipyardStatus]§!\n"
+ 
+ eac_pdf_local_storage:0 "§WStockage des ressources locales : §Y[This.Alloy_Storage] £alloys / [This.PDF_Maximum_Storage]§!\n"
+ eac_pdf_local_storage_0:0 "§WStockage des ressources locales : §Y0 £alloys / [This.PDF_Maximum_Storage]§!\n"
+ 
+ eac_pdf_monthly_gain:0 "§WApport mensuel: £alloys [This.GetMonthlyAllowGain]"
+ 
+ eac_pdf_events.100.title:0 "Forces de Défense Planétaire sur [This.GetName]"
+ 
+ eac_pdf_events.100.desc:0 " $eac_pdf_pdf_fleet_size$ $eac_pdf_pdf_fleet_stance$ $eac_pdf_fleet_deployment_status$\n $eac_pdf_ship_size$ $eac_pdf_ship_cost$ $eac_pdf_ship_build_speed$ $eac_pdf_fleet_reinforce_cost$ $eac_pdf_shipyard_status$\n $eac_pdf_local_storage$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.100.desc_0_1:0 " $eac_pdf_pdf_fleet_size$ $eac_pdf_pdf_fleet_stance$ $eac_pdf_fleet_deployment_status$\n $eac_pdf_ship_size$ $eac_pdf_ship_cost$ $eac_pdf_ship_build_speed$ $eac_pdf_fleet_reinforce_cost_0$ $eac_pdf_shipyard_status$\n $eac_pdf_local_storage$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.100.desc_1_0:0 " $eac_pdf_pdf_fleet_size$ $eac_pdf_pdf_fleet_stance$ $eac_pdf_fleet_deployment_status$\n $eac_pdf_ship_size$ $eac_pdf_ship_cost$ $eac_pdf_ship_build_speed$ $eac_pdf_fleet_reinforce_cost$ $eac_pdf_shipyard_status$\n $eac_pdf_local_storage_0$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.100.desc_0_0:0 " $eac_pdf_pdf_fleet_size$ $eac_pdf_pdf_fleet_stance$ $eac_pdf_fleet_deployment_status$\n $eac_pdf_ship_size$ $eac_pdf_ship_cost$ $eac_pdf_ship_build_speed$ $eac_pdf_fleet_reinforce_cost_0$ $eac_pdf_shipyard_status$\n $eac_pdf_local_storage_0$ $eac_pdf_monthly_gain$"
+ 
+ eac_pdf_events.100.TransferResources:0 "Transférer Ressources vers/depuis [This.GetName]"
+ eac_pdf_events.100.FleetStanceSystem:0 "Définir la posture : $eac_pdf_fleet_stance_system$"
+ eac_pdf_events.100.FleetStancePlanet:0 "Définir la posture : $eac_pdf_fleet_stance_planet$"
+ eac_pdf_events.100.DeployFleet:0 "Déployer manuellement la flotte"
+ eac_pdf_events_close:0 "Fermer"
+ eac_pdf_events_return:0 "Retour"
+ eac_pdf_events_refhesh:0 "Rafraîchir les Informations"
+
+ eac_pdf_events.101.title:0 "Transférer des Ressources"
+
+ eac_pdf_events.101.desc:0 "§WTransfer resources either from the emprire to the planet or from the planet to the empire.§!\n\n $eac_pdf_fleet_reinforce_cost$ $eac_pdf_local_storage$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.101.desc_0_1:0 "§WTransfer resources either from the emprire to the planet or from the planet to the empire.§!\n\n $eac_pdf_fleet_reinforce_cost_0$ $eac_pdf_local_storage$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.101.desc_1_0:0 "§WTransfer resources either from the emprire to the planet or from the planet to the empire.§!\n\n $eac_pdf_fleet_reinforce_cost$ $eac_pdf_local_storage_0$ $eac_pdf_monthly_gain$"
+ eac_pdf_events.101.desc_0_0:0 "§WTransfer resources either from the emprire to the planet or from the planet to the empire.§!\n\n $eac_pdf_fleet_reinforce_cost_0$ $eac_pdf_local_storage_0$ $eac_pdf_monthly_gain$"
+
+ eac_pdf_events.101.ToPlanetHeader:0 "De [This.Owner.GetName] à [This.GetName]"
+ eac_pdf_events.101.ToPlanet50:0 "Transférer 50 £alloys"
+ eac_pdf_events.101.ToPlanet100:0 "Transférer 100 £alloys"
+ eac_pdf_events.101.ToPlanet500:0 "Transférer 500 £alloys"
+ eac_pdf_events.101.ToPlanet1000:0 "Transférer 1000 £alloys"
+ eac_pdf_events.101.FromPlanetHeader:0 "De [This.GetName] à [This.Owner.GetName]"
+ eac_pdf_events.101.FromPlanet50:0 "Transférer 50 £alloys"
+ eac_pdf_events.101.FromPlanet100:0 "Transférer 100 £alloys"
+ eac_pdf_events.101.FromPlanet500:0 "Transférer 500 £alloys"
+ eac_pdf_events.101.FromPlanet1000:0 "Transférer 1000 £alloys"
+ eac_pdf_events.101.FromPlanetAll:0 "Transférer tout l'£alloys"
