@@ -1,0 +1,285 @@
+﻿### Plantoid 2
+### Created by Maximilian Olbers and Miranda van den Brink
+
+PLANT2 = {	
+
+	language = "l_french"
+
+	category = "Plantoid"
+	ship_names = {
+	
+		generic = {
+		}
+	
+		corvette = { 
+			Aurore "Fier Créateur" Résineux Tubéreux "Sentinelle Verte" "Sentinelle Rouge" "Sentinelle Dorée" "Veilleur Vert" "Veilleur Rouge" "Veilleur Dorée" "Veilleur Céleste" "Assaut Vert" "Force Stellaire" "Feuille des Étoiles" "Feuille Céleste" "Frappe-étoile" "Frappeur Vert" "Frappe-fougère" "Frappe-sapin" "Frappe-brindille" "Cieux Lointains" "Tue-Ciel" "Éclair Vert" "Épine" "Coureur" "Coureur Céleste" "Frappe-Ciel" "Tue-Ciel" "Lin" "Fierté de la Forêt" "Créateur Tenace" "Créateur Incontestable" "Créateur Magnifique" "Créateur Exalté" "Pétiole Exaltée" "Pétiole Magnifique" "Pétiole Tenace" "Pétiole Orgueilleuse" 
+# VANILLE	Aurora "Fierce Crenator" Resinous Tuberous "Green Sentinel" "Red Sentinel" "Golden Sentinel" "Green Sentry" "Red Sentry" "Golden Sentry" Skysentry "Green Assault" Starforce Starleaf "Skyleaf" "Starstriker" "Green Striker" "Fern Striker" "Fir Striker" "Twig Striker" Farskies Skyshooter "Green Flash" Dart Rusher Skyrusher Skystriker Starshoot Triffid "Pride of the Forest" "Tenacious Crenator" "Unassailable Crenator" "Magnificent Crenator" "Exalted Crenator" "Exalted Petiole" "Magnificent Petiole" "Tenacious Petiole" "Fierce Petiole" 
+		}
+		
+		destroyer = { 
+			"Orgueil du Bosquet" "Orgueil de la Prairie" "Orgueil des Marais" Rabatteur "Rabatteur Céleste" "Rabatteur Verdoyant" "Rabatteur Stellaire" "Éclair verdoyant" "Orgueil Verdoyant" "Orgueil de la Tourbière" "Orgueil du Val" "Orgueil des Océans" "Orgueil de la Vallée" "Orgueil du Yax Imix Che" "Orgueil de Kalpavriksha" "Orgueil de Bo" "Orgueil de Akshayavat" "Orgueil de grand-mère Cèdre" "Orgueil d'Irminsul" "Orgueil de Somb" "Orgueil de Tulé" "Orgueil d'Ashvattha" "Orgueil de Fusang" 
+# VANILLE	"Pride of the Grove" "Pride of the Grasslands" "Pride of the Marshes" Stalker Skystalker "Green Stalker" Starstalker "Green Lightning" "Green Pride" "Pride of the Moors" "Pride of the Glade" "Pride of the Ocean" "Pride of the Valley" "Pride of Yax Imix Che" "Pride of Kalpavriksha" "Pride of Bo" "Pride of Akshayavat" "Pride of Nookomis Giizhig" "Pride of Irminsul" "Pride of Somb" "Pride of Tule" "Pride of Ashvattha" "Pride of Fusang" 
+		}
+		
+		cruiser = { 
+			"Protecteur des Vallées" "Protecteur des Marais" "Protecteur des Forêts" "Protecteur des Océans" "Protecteur des Fleuves" "Protecteur des Bosquets"
+# VANILLE	"Protector of the Valleys" "Protector of the Marshes" "Protector of the Forests" "Protector of the Oceans" "Protector of the Rivers" "Protector of the Groves"
+		}
+		
+		battleship = { 
+			"Défenseur d'Yggdrasil" "Défenseur du Yax Imix Che" "Défenseur de Kalpavriksha" "Défenseur de Bo" "Défenseur d'Akshayavat" "Défenseur d'Irminsul" "Défenseur de Somb" "Défenseur de Tulé" "Défenseur d'Ashvattha" "Défenseur de Fusang"
+# VANILLE	"Defender of Yggdrasil" "Defender of Yax Imix Che" "Defender of Kalpavriksha" "Defender of Bo" "Defender of Akshayavat" "Defender of Irminsul" "Defender of Somb" "Defender of Tule" "Defender of Ashvattha" "Defender of Fusang"
+		}
+		
+		titan = {
+			"Champion des Vallées" "Champion des Marais" "Champion des Forêts" "Champion des Océans" "Champion des Fleuves" "Champion des Bosquets"
+# VANILLE	"Champion of the Valleys" "Champion of the Marshes" "Champion of the Forests" "Champion of the Oceans" "Champion of the Rivers" "Champion of the Groves"
+		}
+		
+		colossus = {
+			"Courroux de la Nature" "Furie de la Nature" "Rage de la Nature" "Éréthisme de la Nature"
+# VANILLE	"Nature's Wrath" "Nature's Fury" "Nature's Rage" "Nature's Spite"
+		}
+
+		juggernaut = {
+			"Bosquet Glorieux" "Bosquet Courageux" "Bosquet Tenace" "Bosquet Vaillant" "Bosquet Vengeur" "Bosquet Furieux"
+# VANILLE	"Glorious Copse" "Hardy Copse" "Tenacious Copse" "Valiant Copse" "Vengeful Copse" "Wrathful Copse"
+		}
+		
+		science = { 
+			Léguminant Perennia Essence Verdoyeur
+# VANILLE	Leguminant Perennia Pithy Evergreener
+		}
+		
+		colonizer = { 
+			Brindille Ondulateur Verticille Pétiole
+# VANILLE	Twig Undulator Whorler Petiole 
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names
+			Brindille Ondulateur Verticille Pétiole
+# VANILLE	Twig Undulator Whorler Petiole 
+		}
+		
+		constructor = { 
+			"Créateur Verdoyant" "Créateur Roux" "Créateur Doré"
+# VANILLE	"Green Crenator" "Rust Crenator" "Golden Crenator"
+		}
+
+		transport = {
+			"Convoyeur Verdoyant" "Convoyeur Roux" "Convoyeur Doré"
+# VANILLE	"Green Conveyor" "Rust Conveyor" "Golden Conveyor"
+		}
+		
+		military_station_small = {
+			"Orgueil de la Toundra" "Orgueil des Fleuves"
+# VANILLE	"Pride of the Tundra" "Pride of the Rivers"
+		}
+		
+		ion_cannon = {
+			"Orgueil d'Yggdrasil" # VANILLE "Pride of Yggdrasil"
+		}
+
+		### For Fallen Empires
+		small_ship_fallen_empire = {
+			Aurore "Fier Créateur" Résineux Tubéreux "Sentinelle Verte" "Sentinelle Rouge" "Sentinelle Dorée" "Veilleur Vert" "Veilleur Rouge" "Veilleur Dorée" "Veilleur Céleste" "Assaut Vert" "Force Stellaire" "Feuille des Étoiles" "Feuille Céleste" "Frappe-étoile" "Frappeur Vert" "Frappe-fougère" "Frappe-sapin" "Frappe-brindille" "Cieux Lointains" "Tue-Ciel" "Éclair Vert" "Épine" "Coureur" "Coureur Céleste" "Frappe-Ciel" "Tue-Ciel" "Lin" "Fierté de la Forêt" "Créateur Tenace" "Créateur Incontestable" "Créateur Magnifique" "Créateur Exalté" "Pétiole Exaltée" "Pétiole Magnifique" "Pétiole Tenace" "Pétiole Orgueilleuse" 
+# VANILLE	Aurora "Fierce Crenator" Resinous Tuberous "Green Sentinel" "Red Sentinel" "Golden Sentinel" "Green Sentry" "Red Sentry" "Golden Sentry" Skysentry "Green Assault" Starforce Starleaf "Skyleaf" "Starstriker" "Green Striker" "Fern Striker" "Fir Striker" "Twig Striker" Farskies Skyshooter "Green Flash" Dart Rusher Skyrusher Skystriker Starshoot Triffid "Pride of the Forest" "Tenacious Crenator" "Unassailable Crenator" "Magnificent Crenator" "Exalted Crenator" "Exalted Petiole" "Magnificent Petiole" "Tenacious Petiole" "Fierce Petiole" 
+		}
+		large_ship_fallen_empire = {
+			"Défenseur d'Yggdrasil" "Défenseur du Yax Imix Che" "Défenseur de Kalpavriksha" "Défenseur de Bo" "Défenseur d'Akshayavat" "Défenseur d'Irminsul" "Défenseur de Somb" "Défenseur de Tulé" "Défenseur d'Ashvattha" "Défenseur de Fusang"
+# VANILLE	"Defender of Yggdrasil" "Defender of Yax Imix Che" "Defender of Kalpavriksha" "Defender of Bo" "Defender of Akshayavat" "Defender of Irminsul" "Defender of Somb" "Defender of Tule" "Defender of Ashvattha" "Defender of Fusang"
+		}
+		massive_ship_fallen_empire = {
+			"Champion des Vallées" "Champion des Marais" "Champion des Forêts" "Champion des Océans" "Champion des Fleuves" "Champion des Bosquets"
+# VANILLE	"Champion of the Valleys" "Champion of the Marshes" "Champion of the Forests" "Champion of the Oceans" "Champion of the Rivers" "Champion of the Groves"
+		}
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Bouquet Verdoyant" "Bouquet Florissant" "Bouquet Écrasant" "Bouquet Tournoyant" "Bouquet Bourgeonnant"
+# VANILLE	"Blossoming Bouquet" "Flourishing Bouquet" "Vanquishing Bouquet" "Whirling Bouquet" "Burgeoning Bouquet"
+		}
+		sequential_name = "%R%e Bouquet" # VANILLE "%O% Bouquet"
+	}
+
+	army_names = {
+		defense_army = {
+			sequential_name = "%R%e Tige protectrice" # VANILLE "%O% Protective Stalk"
+		}
+			
+		assault_army = {
+			sequential_name = "%R%e Tige vénéneuse" # VANILLE "%O% Poison Stalk"
+		}
+		
+		slave_army = {
+			sequential_name = "%R%e Tige enracinée" # VANILLE "%O% Bound Stalk"
+		}
+		
+		clone_army = { 
+			sequential_name = "%R%e Tige bouturée" # VANILLE "Stalk of Many %R%"
+		}
+		
+		robotic_army = {
+			sequential_name = "%R%e Tige artificielle" # VANILLE "Iron Stalk %R%"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%R%e Branche artificielle" # VANILLE "Iron Branch %R%"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%R%e Tige à lobes" # VANILLE "%O% Lobed Stalk"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%R%e Tige étrange" # VANILLE "%O% Strange Stalk"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%R%e Tige hybride" # VANILLE "%O% Hybrid Stalk"
+		}
+
+		occupation_army = {
+			sequential_name = "%R%e Tige d'occupation" # VANILLE "%O% Occupation Stalk"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%R%e Branche d'occupation artificielle" # VANILLE "%O% Iron Occupation Branch"
+		}
+
+		primitive_army = {
+			sequential_name = "%R%e Armée primitive" # VANILLE "Primitive Army %C%"
+		}
+		industrial_army = {
+			sequential_name = "%R%e Armée industrielle" # VANILLE "Industrial Army %C%"
+		}
+		postatomic_army = {
+			sequential_name = "%R%e Armée post-atomique" # VANILLE "Post-Atomic Army %C%"
+		}
+	}
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Moussue Arboretum Herbacée Horticulturée Verdoyante Noisette Buisson Tronc Fougère Trèfle Fernutopie Avenir Bylbe Fusang "Bosquet Céleste" "Nouvelles-Racines" "Fleur Stellaire" Vérano "Nouvelle-Espérance" "Bosquet de Fougères" "Gloire de Tulé" "Yax Imix Che" Kalpavriksha Bo Akshayavat "Nookomis Giizhig" Irminsul Somb Tulé Ashvattha Terremousse Paradis "Her d'Or" "Feuillue" "Noisette Stellaire" "Béatitude" "Fleur d'Or" "Nouveau-Sol" "Havrefeuille"
+# VANILLE		Mosshome Arborealis Herbaceon Horticultured Grasslands Nutfall Shrubbery Trunksite Fernfield Cloverbed Fernutopia Future Bulb Fusang "Star Grove" "New Roots" "Starflower" Verano "New Hope" Fernglade "Tule's Glory" "Yax Imix Che" Kalpavriksha Bo Akshayavat "Nookomis Giizhig" Irminsul Somb Tule Ashvattha Mosslands Paradise "Goldgrass" "Leafy" "Starnut" "Bliss" "Golden Flower" "New Soil" "Leaf's Haven"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	character_names = {
+		names1 = { # MASCULIN SINGULIER
+			weight = 36
+
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Bulbe Fruit Nectar Cône
+# VANILLE		White Grey Black Burgundy Red Blue Indigo Cyan Yellow Orange Ivory Ebony Purple Brown Teal Green Aquamarine Khaki Magenta Gold Silver
+# VANILLE		Bronze Honeydew Lavender Maroon Olive
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Blanc Gris Noir Bordeaux Kermès Bleu Indigo Cyan Jaune Orange Ivoire Ébène Pourpre Brun Verdoyant Vert "Bleu marine" Kaki Magenta Doré Argenté
+				Bronze Miellat Lavande Marron Olive
+# VANILLE		Root Bulb Germination Frond Fruit Needle Nectar Weed Shoot Pod Cone
+			}
+
+			use_full_regnal_name = yes
+
+			regnal_first_names = {
+				"Fleur" # VANILLE "Flower of"
+			}
+			
+			regnal_second_names = {
+				"d'Yggdrasil" "du Yax Imix Che" "de Kalpavriksha" "de la Bodhi" "d'Akshayavat" "de grand-mère Cèdre" "d'Irminsul" "de Prosopis" "de Jonc" "d'Ashvattha" "de Fusang"
+# VANILLE		Yggdrasil "Yax Imix Che" Kalpavriksha Bo Akshayavat "Nookomis Giizhig" Irminsul Somb Tule Ashvattha Fusang
+			}
+		}
+
+		names2 = { # FÉMININ SINGULIER
+			weight = 64
+
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Racine Germination Fronde Aiguille Herbe Pousse Cosse
+# VANILLE		White Grey Black Burgundy Red Blue Indigo Cyan Yellow Orange Ivory Ebony Purple Brown Teal Green Aquamarine Khaki Magenta Gold Silver
+# VANILLE		Bronze Honeydew Lavender Maroon Olive
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				Blanche Grise Noire Bordeaux Kermès Bleue Indigo Cyan Jaune Orange Ivoire Ébène Pourpre Brun Verdoyante Verte "Bleu marine" Kaki Magenta Dorée Argentée
+				Bronze Miellat Lavande Marron Olive
+# VANILLE		Root Bulb Germination Frond Fruit Needle Nectar Weed Shoot Pod Cone
+			}
+
+			use_full_regnal_name = yes
+
+			regnal_first_names = {
+				"Fleur" # VANILLE "Flower of"
+			}
+			
+			regnal_second_names = {
+				"d'Yggdrasil" "du Yax Imix Che" "de Kalpavriksha" "de la Bodhi" "d'Akshayavat" "de grand-mère Cèdre" "d'Irminsul" "de Prosopis" "de Jonc" "d'Ashvattha" "de Fusang"
+# VANILLE		Yggdrasil "Yax Imix Che" Kalpavriksha Bo Akshayavat "Nookomis Giizhig" Irminsul Somb Tule Ashvattha Fusang
+			}
+		}
+	}
+}

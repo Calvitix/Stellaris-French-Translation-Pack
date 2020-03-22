@@ -1,16 +1,6 @@
 ﻿l_french:
 
  ####################################
- # Warning : Original Stellaris File (Adaptation by Calvitix)
- # It has been reordered alphabetically
- # (to improve diff. check) 
- #
- # Update check : 20.03.2020
- # Translation check : 20.03.2020
- # modifs : points de coque --> coque
- ####################################
-
- ####################################
  # Modifiers
  ####################################
 
@@ -417,7 +407,7 @@
  MOD_COUNTRY_RIVALRY_INFLUENCE_GAIN:0 "Influence tirée des rivalités"
  MOD_COUNTRY_SECTOR_CAP_ADD:0 "Limite de secteur"
  MOD_COUNTRY_SENSOR_RANGE_ADD:0 "Portée des capteurs de l'empire"
- MOD_COUNTRY_SENSOR_RANGE_MULT:0 "Portée des capteurs de l'empire"
+ MOD_COUNTRY_SENSOR_RANGE_MULT:0 "Portée des capteurs du pays"
  MOD_COUNTRY_SHIP_BUILD_COST_MULT:0 "Coût des vaisseaux"
  MOD_COUNTRY_SHIP_BUILD_COST_MULT_DESC:0 "Détermine les ressources requises pour construire des vaisseaux au sein de l'empire, en augmentant ou réduisant le coût de construction de ceux-ci."
  MOD_COUNTRY_SHIP_BUILD_TIME_MULT:0 "Délai de construction des vaisseaux"
@@ -864,8 +854,8 @@
  MOD_SHIP_FTL_WORMHOLE_RANGE_MULT:0 "Portée des trous de ver"
  MOD_SHIP_FTL_WORMHOLE_SPEED_MULT:0 "Vitesse de génération des trous de ver"
  MOD_SHIP_FTL_WORMHOLES_PER_STATION:0 "Trous de ver simultanés par station"
- MOD_SHIP_HITPOINTS_ADD:1 "Coque des vaisseaux"
- MOD_SHIP_HITPOINTS_MULT:1 "Coque des vaisseaux"
+ MOD_SHIP_HITPOINTS_ADD:1 "Points de coque des vaisseaux"
+ MOD_SHIP_HITPOINTS_MULT:1 "Points de coque des vaisseaux"
  MOD_SHIP_HOME_TERRITORY_FIRE_RATE_MULT:0 "Cadence de tir au sein des frontières"
  MOD_SHIP_HULL_ADD:0 "$MOD_SHIP_HITPOINTS_ADD$"
  MOD_SHIP_HULL_DAMAGE_MULT:0 "Dommages aux coques"
@@ -923,35 +913,35 @@
  mod_ship_wormhole_station_cost_mult:0 "Coût des stations trou de ver"
  mod_shipclass_military_station_build_cost_mult:0 "Coût des plateformes défensives"
  mod_shipclass_military_station_damage_mult:0 "Dégâts causés par les plateformes défensives"
- mod_shipclass_military_station_hull_mult:0 "Coque des plateformes défensives"
+ mod_shipclass_military_station_hull_mult:0 "Points de coque des plateformes défensives"
  mod_shipclass_science_ship_disengage_mult:0 "Chances de désengagement des vaisseaux scientifiques"
  mod_shipclass_starbase_build_cost_mult:0 "Coût de construction des bases stellaires"
  mod_shipclass_starbase_damage_mult:0 "Dégâts causés par les bases stellaires"
- mod_shipclass_starbase_hull_mult:0 "Coque des bases stellaires"
+ mod_shipclass_starbase_hull_mult:0 "Points de coque des bases stellaires"
  mod_shipsize_battleship_build_speed_mult:0 "Vitesse de construction des cuirassés"
  mod_shipsize_battleship_hull_add:0 "$mod_shipsize_battleship_hull_mult$"
- mod_shipsize_battleship_hull_mult:0 "Coque des cuirassés"
+ mod_shipsize_battleship_hull_mult:0 "Points de coque des cuirassés"
  mod_shipsize_battleship_upkeep_mult:0 "Entretien des cuirassés"
  mod_shipsize_colonizer_build_speed_mult:0 "Vitesse de construction des vaisseaux coloniaux"
  mod_shipsize_colonizer_upkeep_mult:0 "Entretien des vaisseaux coloniaux"
  mod_shipsize_constructor_upkeep_mult:0 "Entretien des vaisseaux de construction"
  mod_shipsize_corvette_build_speed_mult:0 "Vitesse de construction des corvettes"
  mod_shipsize_corvette_hull_add:0 "$mod_shipsize_corvette_hull_mult$"
- mod_shipsize_corvette_hull_mult:0 "Coque des corvettes"
+ mod_shipsize_corvette_hull_mult:0 "Points de coque des corvettes"
  mod_shipsize_corvette_upkeep_mult:0 "Entretien des corvettes"
  mod_shipsize_cruiser_build_speed_mult:0 "Vitesse de construction des croiseurs"
  mod_shipsize_cruiser_hull_add:0 "$mod_shipsize_cruiser_hull_mult$"
- mod_shipsize_cruiser_hull_mult:0 "Coque des croiseurs"
+ mod_shipsize_cruiser_hull_mult:0 "Points de coque des croiseurs"
  mod_shipsize_cruiser_upkeep_mult:0 "Entretien des croiseurs"
  mod_shipsize_destroyer_build_speed_mult:0 "Vitesse de construction des destroyers"
  mod_shipsize_destroyer_hull_add:0 "$mod_shipsize_destroyer_hull_mult$"
- mod_shipsize_destroyer_hull_mult:0 "Coque des destroyers"
+ mod_shipsize_destroyer_hull_mult:0 "Points de coque des destroyers"
  mod_shipsize_destroyer_upkeep_mult:0 "Entretien des destroyers"
  mod_shipsize_military_station_large_upkeep_mult:0 "Entretien des forteresses"
  mod_shipsize_military_station_medium_upkeep_mult:0 "Entretien des stations de défense"
  mod_shipsize_military_station_small_build_speed_mult:0 "Vitesse de construction des plateformes de défense"
  mod_shipsize_military_station_small_hull_add:0 "$mod_shipsize_military_station_small_hull_mult$"
- mod_shipsize_military_station_small_hull_mult:0 "Coque des plateformes de défense"
+ mod_shipsize_military_station_small_hull_mult:0 "Points de coque des plateformes de défense"
  mod_shipsize_military_station_small_upkeep_mult:0 "Entretien des plateformes de défense"
  mod_shipsize_mining_station_upkeep_mult:0 "Entretien des stations minières"
  mod_shipsize_observation_station_upkeep_mult:0 "Entretien des stations d'observation"
@@ -970,7 +960,7 @@
  mod_shipsize_starbase_starport_upkeep_mult:0 "Maintenance des ports stellaires"
  mod_shipsize_terraform_station_upkeep_mult:0 "Entretien des stations de terraformation"
  mod_shipsize_titan_hull_add:0 "$mod_shipsize_titan_hull_mult$"
- mod_shipsize_titan_hull_mult:0 "Coque des titans"
+ mod_shipsize_titan_hull_mult:0 "Points de coque des titans"
  mod_shipsize_titan_upkeep_mult:0 "Entretien des titans"
  mod_shipsize_wormhole_station_upkeep_mult:0 "Entretien des stations trou de ver"
  MOD_SPACEPORT_MODULE_COST_MULT:0 "Coût des modules ajoutés aux spatioports"
