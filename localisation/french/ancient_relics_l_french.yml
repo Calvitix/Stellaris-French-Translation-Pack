@@ -1,4 +1,12 @@
 ﻿l_french:
+ 
+ ####################################
+ # Warning : Original Stellaris File (Adaptation by Calvitix)
+ # Update check : 19.03.2020
+ # Translation check : 19.03.2020
+ ####################################
+
+ 
  minor_artifacts:0 "Artefacts mineurs"
  minor_artifacts_desc:0 "Les £minor_artifacts£§Hartefacts mineurs§! représentent un savoir technologique obscur et à demi-oublié, retrouvé en s'intéressant à des civilisations antiques. Ce savoir n'est qu'en partie compris par nos propres sciences. Ces artefacts sont plus communs que les reliques, et peuvent être utilisés pour avoir des effets dans tout l'empire."
  artifact_actions:0 "Actions des artefacts"
@@ -29,13 +37,13 @@
  MINOR_ARTIFACTS:0 "Artefacts mineurs"
  RELICS_FOUND:0 "Reliques trouvées"
  RELICS_FOUND_TOOLTIP:1 "Nous avons trouvé $NUM|Y$ reliques."
- ACTIVATE_RELIC_FOR_TRIUMPH:0 "Utiliser une relique pour organiser un triomphe"
- CLICK_ACTIVATE_RELIC_FOR_TRIUMPH:0 "§GCliquer pour organiser un triomphe grâce à une relique§!"
- ACTIVATE_RELIC_FOR_TRIUMPH_TOOLTIP:0 "Cliquer sur une relique pour organiser un triomphe et profiter temporairement d'avantages dans tout l'empire."
- ACTIVE_TRIUMPH:0 "Triomphe en cours"
- ACTIVE_TRIUMPH_TEXT:0 "Triomphe en cours pour :"
+ ACTIVATE_RELIC_FOR_TRIUMPH:0 "Utiliser une relique"
+ CLICK_ACTIVATE_RELIC_FOR_TRIUMPH:0 "§GCliquer pour enclencher une 'Apogée' grâce à une relique§!"
+ ACTIVATE_RELIC_FOR_TRIUMPH_TOOLTIP:0 "Cliquer sur une relique pour organiser une 'Apogée' et profiter temporairement d'avantages dans tout l'empire."
+ ACTIVE_TRIUMPH:0 "Apogée en cours"
+ ACTIVE_TRIUMPH_TEXT:0 "Apogée en cours pour :"
  ACTIVE_TRIUMPH_VALUE:0 "$VALUE|0$£time£"
- ACTIVE_TRIUMPH_TOOLTIP:0 "La relique $NAME|Y$ est actuellement utilisée pour un triomphe.\nCelui-ci durera encore $NUM|Y0$ jours."
+ ACTIVE_TRIUMPH_TOOLTIP:0 "La relique $NAME|Y$ est actuellement utilisée pour une Apogée.\nCelui-ci durera encore $NUM|Y0$ jours."
  ACTIVE_EFFECTS:0 "§EAvantages actifs :§!"
  PASSIVE_EFFECTS:0 "§EAvantages passifs :§!"
  PASSIVE_EFFECTS_RESOURCE_TOOLTIP:0 "$NAME$ : §G+$AMOUNT|*0$§! "
@@ -126,8 +134,8 @@
  IS_ARCHAEOLOGICAL_SITE_CLUES_TRIGGER:0 "Indices du site $COMPARE$s à $NUM_COMPARE$"
  IS_NOT_ARCHAEOLOGICAL_SITE_DAYS_LEFT_TO_ROLL_TRIGGER:0 "Jours restants jusqu'au prochain lancer PAS $COMPARE$s à $NUM_COMPARE$"
  IS_ARCHAEOLOGICAL_SITE_DAYS_LEFT_TO_ROLL_TRIGGER:0 "Jours restant jusqu'au prochain lancer $COMPARE$s à $NUM_COMPARE$"
- IS_NOT_ARCHAEOLOGICAL_SITE_LAST_EXCAVATOR_TRIGGER:0 "Le dernier fouilleur n'était PAS la $COUNTRY$"
- IS_ARCHAEOLOGICAL_SITE_LAST_EXCAVATOR_TRIGGER:0 "Le dernier fouilleur était la $COUNTRY$"
+ IS_NOT_ARCHAEOLOGICAL_SITE_LAST_EXCAVATOR_TRIGGER:0 "Le dernier fouilleur n'était PAS '$COUNTRY$'"
+ IS_ARCHAEOLOGICAL_SITE_LAST_EXCAVATOR_TRIGGER:0 "Le dernier fouilleur était '$COUNTRY$'"
  IS_NOT_ARCHAEOLOGICAL_SITE_TYPE_TRIGGER:0 "Le site n'est PAS de type $TYPE$"
  IS_ARCHAEOLOGICAL_SITE_TYPE_TRIGGER:0 "Le site est de type $TYPE$"
  IS_NOT_ARCHAEOLOGICAL_SITE_FINISHED_TRIGGER:0 "Le site n'est PAS terminé"
@@ -580,7 +588,7 @@
  evermore_joy:0 "Éternité fantasmée"
  evermore_joy_desc:0 "La population alien numérisée contenue dans cet ancien paradis virtuel contribue désormais au plaisir de notre propre population."
  drums_of_war:0 "Les tambours de la guerre"
- ether_drake_triumph:0 "Triomphe du ver d'éther"
+ ether_drake_triumph:0 "Apogée du ver d'éther"
  worm_scales:0 "Influence des écailles du ver"
  unbidden_ritual:0 "Rituel du Spontané"
  contingency_calculation:0 "Calculs de la Contingence"
@@ -796,14 +804,14 @@
  space_dragon_blue:0 "Grand dragon"
  space_dragon_blue_plural:0 "Grands dragons"
 
- STEAL_ALL_ARTIFACT:0 "La $THIEF|Y$ vole §YTOUS§! les artefacts de la $VICTIM|Y$."
- STEAL_RANDOM_ARTIFACT:0 "La $THIEF|Y$ vole §YUN§! artefact aléatoire à la $VICTIM|Y$."
- STEAL_ONE_ARTIFACT:0 "La $THIEF|Y$ vole l'artefact $ARTIFACT|Y$ à la $VICTIM|Y$."
+ STEAL_ALL_ARTIFACT:0 "'$THIEF|Y$' vole §YTOUS§! les artefacts de '$VICTIM|Y$'."
+ STEAL_RANDOM_ARTIFACT:0 "'$THIEF|Y$' vole §YUN§! artefact aléatoire à '$VICTIM|Y$'."
+ STEAL_ONE_ARTIFACT:0 "'$THIEF|Y$' vole l'artefact $ARTIFACT|Y$ à '$VICTIM|Y$'."
  
- IS_LAST_LOST_RELIC:0 "$RELIC|Y$ est la dernière relique perdue par la $COUNTRY|Y$."
- IS_NOT_LAST_LOST_RELIC:0 "$RELIC|Y$ n'est PAS la dernière relique perdue par la $COUNTRY|Y$."
- IS_LAST_RECEIVED_RELIC:0 "$RELIC|Y$ est la dernière relique reçue par la $COUNTRY|Y$."
- IS_NOT_LAST_RECEIVED_RELIC:0 "$RELIC|Y$ n'est pas la dernière relique reçue par la $COUNTRY|Y$."
+ IS_LAST_LOST_RELIC:0 "$RELIC|Y$ est la dernière relique perdue par '$COUNTRY|Y$'."
+ IS_NOT_LAST_LOST_RELIC:0 "$RELIC|Y$ n'est PAS la dernière relique perdue par '$COUNTRY|Y$'."
+ IS_LAST_RECEIVED_RELIC:0 "$RELIC|Y$ est la dernière relique reçue par '$COUNTRY|Y$'."
+ IS_NOT_LAST_RECEIVED_RELIC:0 "$RELIC|Y$ n'est pas la dernière relique reçue par '$COUNTRY|Y$'."
  
  Herald_repair:0 "Révision du Héraut Majestueux "
  Herald_repair_TITLE:0 "Réviser le Héraut Majestueux"

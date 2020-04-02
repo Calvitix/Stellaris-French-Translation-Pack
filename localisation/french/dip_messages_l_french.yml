@@ -3,7 +3,7 @@
  # Diplomacy text
  ####################################
  
- 01_FALLEN_MACHINE_EMPIRE_ANGRY_GREETING:0 "Note d'information : protocoles de châtiment activés. Déploiement des moyens militaires dans l'espace de la [From.GetName] imminent."
+ 01_FALLEN_MACHINE_EMPIRE_ANGRY_GREETING:0 "Note d'information : protocoles de châtiment activés. Déploiement imminent des moyens militaires dans l'espace de '[From.GetName]'."
  
  01_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_O:1 "Service public d'information : l'accès au refuge dépend de la place disponible et de la vulnérabilité de l'espèce. Il y a actuellement §R<<ERREUR : LOT DE DONNÉES CORROMPUES>>§! §R<<ERREUR : LOT DE DONNÉES CORROMPUES>>§! §R<<ERREUR : LOT DE DONNÉES CORROMPUES>>§! §R<<ERREUR : LIEN SUBSPATIAL HORS-LIGNE>>§! unités de stase disponibles."
  02_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_O:1 "Service public d'information : tous les formulaires pour le statut de réfugié sont gérés par le Traitement Centralisé. §Y<NOTA : le Traitement Centralisé est actuellement confronté à une panne de communication. Veuillez patienter pendant la résolution du problème. La panne dure depuis §R<<ERREUR : CACHE PLEIN>>§! cycles.>§!"
@@ -224,7 +224,7 @@
  HW_NEUTRAL_GREETING_04:0 "Tout comme nous, vous êtes des guerriers. Mais la force n'est rien sans le courage. Montrez-nous ce dont vous êtes capables, et alors seulement nous vous traiterons en égaux, que vous soyez nos amis ou nos ennemis."
  HW_THREATENED_GREETING_01:0 "Votre puissance est incontestablement supérieure à la nôtre. Mais sachez bien que nous autres, [Root.GetSpeciesNamePlural], ne craignons nul ennemi."
  HW_FRIENDLY_GREETING_01:0 "Puissions-nous rester droits et unis dans les cendres et le sang de nos ennemis !"
- HW_FRIENDLY_GREETING_02:0 "Quelle meilleure manière de nous occuper en cette période de paix que de célébrer les triomphes passés et à venir avec nos amis les [From.GetSpeciesNamePlural] ?"
+ HW_FRIENDLY_GREETING_02:0 "Quelle meilleure manière de nous occuper en cette période de paix que de célébrer les apogées passés et à venir avec nos amis les [From.GetSpeciesNamePlural] ?"
  HW_FRIENDLY_GREETING_03:0 "Les légendes qu'inspirera le conflit actuel traverseront les millénaires. Et vous serez bientôt invités à célébrer notre gloire, [From.GetSpeciesNamePlural]."
  HW_FRIENDLY_GREETING_04:0 "Puisse votre innocence rester préservée de ces scélérats qui sévissent dans la galaxie, [From.GetSpeciesNamePlural]."
  HW_FRIENDLY_GREETING_05:0 "Ce sera pour nous un réel plaisir que de combattre au côté des nobles [From.GetSpeciesNamePluralCompliment] que vous êtes."
@@ -2170,8 +2170,8 @@
  MECH_OPEN_BORDERS_PROPOSE:0 "Alerte : la superintelligence [From.GetAdj] a décidé de vous ouvrir ses frontières, [Root.GetSpeciesNamePlural]."
  MECH_OPEN_BORDERS_ACCEPT:0 "Affirmatif. Merci d'accorder l'accès frontalier de la [From.GetName] aux [Root.GetSpeciesNamePlural]."
  MECH_CLOSE_BORDERS_SELECT:0 "Attention ! Vous tentez de fermer l'espace de la [From.GetName] à tous les [Root.GetSpeciesNamePlural]. Veuillez confirmer."
- MECH_CLOSE_BORDERS_PROPOSE:0 "Alerte : la superintelligence [From.GetAdj] ne trouve aucun avantage aux intrusions de '[Root.GetName]' dans l'espace de la [From.GetName]. Par conséquent, nous avons lancé la fermeture à effet immédiat de nos frontières aux [Root.GetSpeciesNamePlural]."
- MECH_CLOSE_BORDERS_ACCEPT:0 "Votre annulation de l'accès frontalier aux [Root.GetSpeciesNamePlural] a été reçue. '[Root.GetName]' n'entrera plus dans l'espace de la [From.GetName]."
+ MECH_CLOSE_BORDERS_PROPOSE:0 "Alerte : la superintelligence [From.GetAdj] ne trouve aucun avantage aux intrusions de '[Root.GetName]' dans l'espace de '[From.GetName]'. Par conséquent, nous avons lancé la fermeture à effet immédiat de nos frontières aux [Root.GetSpeciesNamePlural]."
+ MECH_CLOSE_BORDERS_ACCEPT:0 "Votre annulation de l'accès frontalier aux [Root.GetSpeciesNamePlural] a été reçue. '[Root.GetName]' n'entrera plus dans l'espace de '[From.GetName]'."
  MECH_KICK_FROM_ALLIANCE_SELECT:0 "Attention ! Vous tentez d'exclure '[Root.GetName]' de la §Y[From.GetAllianceName]§!. Veuillez confirmer avant de lancer le processus."
  MECH_KICK_FROM_ALLIANCE_PROPOSE:0 "Nous avons l'honneur de vous informer que votre statut de membre de la §Y[From.GetAllianceName]§! a été révoqué du fait d'une impossibilité de synchroniser les intérêts de '[Root.GetName]' et de la [From.GetAllianceName]."
  MECH_KICK_FROM_ALLIANCE_ACCEPT:0 "Vous avez voté pour exclure '[Root.GetName]' de la §Y[From.GetAllianceName]§!. Nous espérons que les simulations des conséquences diplomatiques menées par la [From.GetAllianceName] avant de prendre cette décision étaient précises, afin que vous n'ayez pas à regretter cette décision."
