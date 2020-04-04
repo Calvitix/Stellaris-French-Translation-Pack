@@ -10,7 +10,7 @@
 ASCENSION_PERKS_NEW:0 "Ascensions"
 PLENTIFUL_TRADITIONS_VERSION:0 "Plentiful Traditions §GV2.5§! par §EBirdy§! & §MAbominus§!"
 
-plentiful_traditions_announcement.3.name:0 "Mise à jour de Plentiful Traditions - Mise à jour"
+plentiful_traditions_announcement.3.name:0 "Mise à jour de Plentiful Traditions"
 plentiful_traditions_announcement.3.desc:0 "L'ancienne version et définitive de ce mod est maintenant disponible sur le Steam Workshop sous le nom Plentiful Traditions OLD. Cette version est destinée aux personnes jouant sous §RStellaris 1.6§!. Pour les autres qui jouent sur §GStellaris 1.8§! et versions ultérieures, veuillez ignorer ce message.\n\n§YFIN DE TRANSMISSION§!"
 
 ################################################################
@@ -216,13 +216,13 @@ modifier_plentiful_traditions_adaptive_foundry_9_desc:1 "$modifier_plentiful_tra
 modifier_plentiful_traditions_adaptive_foundry_10:0 "Niveau de la fonderie adaptative 10/10"
 modifier_plentiful_traditions_adaptive_foundry_10_desc:1 "$modifier_plentiful_traditions_adaptive_foundry_1_desc$"
 
-modifier_plentiful_traditions_blockchain_1:0 "Niveau de blockchain Quantique 1/4"
+modifier_plentiful_traditions_blockchain_1:0 "Niveau des chaînes de bloc Quantique 1/4"
 modifier_plentiful_traditions_blockchain_1_desc:1 "Notre planète utilise la technologie des chaînes de bloc Quantique pour transférer des données entre nos machines et nos robots."
-modifier_plentiful_traditions_blockchain_2:0 "Niveau de blockchain Quantique 2/4"
+modifier_plentiful_traditions_blockchain_2:0 "Niveau des chaînes de bloc Quantique 2/4"
 modifier_plentiful_traditions_blockchain_2_desc:1 "$modifier_plentiful_traditions_blockchain_1_desc$"
-modifier_plentiful_traditions_blockchain_3:0 "Niveau de blockchain Quantique 3/4"
+modifier_plentiful_traditions_blockchain_3:0 "Niveau des chaînes de bloc Quantique 3/4"
 modifier_plentiful_traditions_blockchain_3_desc:1 "$modifier_plentiful_traditions_blockchain_1_desc$"
-modifier_plentiful_traditions_blockchain_4:0 "Niveau de blockchain Quantique 4/4"
+modifier_plentiful_traditions_blockchain_4:0 "Niveau des chaînes de bloc Quantique 4/4"
 modifier_plentiful_traditions_blockchain_4_desc:1 "$modifier_plentiful_traditions_blockchain_1_desc$"
 
 # Cybernetic Blueprints
@@ -251,7 +251,7 @@ tr_plentiful_biogenesis_adopt_effect:0 "§E$TRADITIONS_ADOPT$ :§!\n§Y$mod_cate
 tr_plentiful_biogenesis_finish:0 "Traditions Biogénétiques Finies"
 tr_plentiful_biogenesis_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\nAdopter toutes les $tr_plentiful_biogenesis_adopt$ augmentera nos §Y$species_trait_points_add$§! de §G+3§! et diminue le §Y$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$§! de §G-20%§!.\n\n"
  
-tr_plentiful_biogenesis_1:0 "Génétique"
+tr_plentiful_biogenesis_1:0 "Convergence évolutionnaire"
 tr_plentiful_biogenesis_1_desc:0 "§Y$mod_planet_pops_organics_food_upkeep_mult$§! diminuée de §G-15%§! et §Y$mod_planet_livestock_food_produces_add$§! augmentée de §G+6§!."
 tr_plentiful_biogenesis_1_delayed:0 "§LLes populations spécialisées devraient être plus efficaces. L'injection d'hormones n'a jamais fait de mal à personne.§!"
  
@@ -270,6 +270,14 @@ tr_plentiful_biogenesis_4_delayed:0 "§LNos citoyens commencent à réfléchir �
 tr_plentiful_biogenesis_5:0 "Thérapie hormonale"
 tr_plentiful_biogenesis_5_desc:0 "Rendement de £society  §Yrecherche sociétale§! augmenté de §G+15%§!."
 tr_plentiful_biogenesis_5_delayed:0 "§LPermet à nos citoyens de prendre des bains génétiques rafraîchissants pour atteindre la perfection.§!"
+
+# Swaped Biogenesis
+tr_plentiful_biogenesis_finish:0 "Traditions Biogénétiques Finies"
+tr_plentiful_biogenesis_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter toutes les $tr_plentiful_biogenesis_adopt$ augmentera §Y$mod_BIOLOGICAL_species_trait_points_add$§! de §G+1§!, §Y$mod_ROBOT_species_trait_points_add$§! de §G+3§!, §Y$mod_MACHINE_species_trait_points_add$§! de §G+3§! et diminue le §Y$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$§! de §G-20%§!.\n\n"
+
+tr_plentiful_biogenesis_machine_1:0 "Convergence Evolutionaire"
+tr_plentiful_biogenesis_machine_1_desc:0 "§Y$mod_planet_pop_assemblers_alloys_upkeep_mult$§! diminué de §G-15%§!, §Y$MOD_PLANET_POP_ASSEMBLY_ADD$§! des £job_replicator£ augmenté de §G+25%§!, et §Y$mod_job_organic_battery_energy_produces_add$§! augmenté de §G+2§!."
+tr_plentiful_biogenesis_machine_1_delayed:0 "Les sensualistes spécialisés ont une bien meilleure compréhension des aliments cultivés. Une injection d'hormones n'a jamais fait de mal à personne. Et nous pouvons également apprendre des erreurs de l'organique, copier et optimiser leur processus de reproduction, également pour nous."
 
 # Biogenesis buildings
 building_plentiful_traditions_biogenesis_lab:0 "Laboratoire de biogenèse"
@@ -503,6 +511,14 @@ tr_plentiful_aspiration_4_delayed:0 "§LLa reconnaissance de ses succès et de s
 tr_plentiful_aspiration_5:0 "Zèle"
 tr_plentiful_aspiration_5_desc:0 "§Y$MOD_COUNTRY_TRUST_GROWTH$§! augmentée de §G+5%§! pour chaque £energy  §Y1.000§! §Ycrédits énergétiques§! (avec un facteur de 2) en stock. Cela peut s'additionner jusqu'à §Y6§! fois pour un total de §G+30%§! à §Y32 000§! £energy  §Ycrédits énergétiques§!."
 tr_plentiful_aspiration_5_delayed:0 "§LLa confiance et l'approbation contribuent au profit et à la stratégie.§!"
+# Aspiration Swapped
+tr_plentiful_aspiration_gestalt_adopt:0 "Aspiration"
+tr_plentiful_aspiration_gestalt_adopt_desc:0 "$tradition_plentiful_aspiration_desc$\n\n$tr_plentiful_aspiration_gestalt_adopt_effect$\n\n$tr_plentiful_aspiration_gestalt_finish_effect$"
+tr_plentiful_aspiration_gestalt_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\nChaque fois que nous construisons des §YStations§ Minières§! qui produisent des l'£energy§YEnergie§!, nous gagnons en bonus d'£energy§YEnergie§! égal à §Y0.5§! fois notre £energy§YEnergie§! mensuelle. Cet effet ne fonctionne qu'une fois par emplacement."
+
+tr_plentiful_aspiration_gestalt_finish:0 "Aspiration Traditions Finished"
+tr_plentiful_aspiration_gestalt_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter toutes les $tr_plentiful_aspiration_adopt$ augmente  §Y$mod_planet_jobs_complex_drone_produces_mult$§! £pop_cat_complex_drone£ de §G+10%§!.\n\n"
+
 
 # Aspiration buildings
 building_plentiful_traditions_trading_terminal:0 "Centre de négoce"
@@ -675,9 +691,17 @@ tr_plentiful_mutagenesis_5:0 "Fermes d'élevage"
 tr_plentiful_mutagenesis_5_desc:1 "§Y$MOD_POP_FOOD_MULT$§! augmentée de §G+15%§!."
 tr_plentiful_mutagenesis_5_delayed:0 "§LL'industrialisation de la nourriture pose des questions d'optimisation qui sont, en grande partie, résolues par la modification de l'ADN des plantes.§!"
 
+# Mutagenesis Swapped
+tr_plentiful_mutagenesis_adopt_machine:0 "Mutagénèse"
+tr_plentiful_mutagenesis_adopt_machine_desc:0 "$tradition_plentiful_mutagenesis_desc$\n\n$tr_plentiful_mutagenesis_adopt_machine_effect$\n\n$tr_plentiful_mutagenesis_finish_effect$"
+tr_plentiful_mutagenesis_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§HPermet le bâtiment§!\n£building  $building_plentiful_traditions_clone_vats$, un bâtiment unique qui augmente la §Y$MOD_POP_GROWTH_SPEED$§! des £planet_pop_organics£ de §G+50%§! sur la planète."
+
 # Mutagenesis buildings
 building_plentiful_traditions_pillar_of_affliction:0 "Pilier d'affliction"
 building_plentiful_traditions_pillar_of_affliction_desc:0 "Un pilier qui semble vivant et qui est en mutation continuelle en absorbant les matériaux génétiques proches. Sa structure est de plus en plus grande à mesure que l'empire prend de l'ampleur..."
+
+building_plentiful_traditions_clone_vats:0 "centre de Clonage"
+building_plentiful_traditions_clone_vats_desc:0 "Dans un monde mécanique parfait, il peut parfois être agréable d'avoir quelques créatures organiques autour de vous, que ce soit en tant qu'animaux de compagnie, fournisseurs d'énergie ou concitoyens assimilés."
 
 #####################
 # INDUSTRY
@@ -1147,12 +1171,12 @@ ap_plentiful_traditions_fire_to_each_side_desc:0 "Que m'importe les jongleurs et
 ap_plentiful_traditions_trade_empire:0 "Empire marchand"
 ap_plentiful_traditions_trade_empire_desc:0 "L'argent est le pouvoir, la richesse ne peut jamais être suffisante et l'argent ne pue pas."
 ap_plentiful_traditions_food_is_life:0 "La nourriture c'est la vie"
-ap_plentiful_traditions_food_is_life_desc:0 "We are nothing without food, we have to keep the people at bay."
-ap_plentiful_traditions_metaverse_ecosystem:0 "Metaverse Ecosystem"
-ap_plentiful_traditions_metaverse_ecosystem_desc:0 "Decentralization of the technology and links between the real and digital world is of utmost importance."
+ap_plentiful_traditions_food_is_life_desc:0 "Nous ne sommes rien sans nourriture, nous devons tenir les gens à distance."
+ap_plentiful_traditions_metaverse_ecosystem:0 "Écosystème Metaverse"
+ap_plentiful_traditions_metaverse_ecosystem_desc:0 "La décentralisation de la technologie et les liens entre le monde réel et le numérique sont de la plus haute importance."
 tooltip_plentiful_traditions_metaverse_ecosystem:1 "$tech_plentiful_traditions_metaverse_ecosystem_desc$"
-requires_plentiful_metaverse_ecosystem:1 "$TRIGGER_FAIL$Requires a completely finished §Y$tradition_plentiful_cybernetics$§! tradition tree."
-ap_plentiful_traditions_mechanical_alternative:0 "Mechanical alternative"
+requires_plentiful_metaverse_ecosystem:1 "$TRIGGER_FAIL$Nécessite un arbre de tradition complètement fini de §Y$tradition_plentiful_cybernetics$§!."
+ap_plentiful_traditions_mechanical_alternative:0 "Alternative mécanique"
 ap_plentiful_traditions_mechanical_alternative_desc:0 "The advantages of a mechanical units are, in particular, that parts can be exchanged quickly and easily. By optimizing the space usage, we can now reduce the §Y$MOD_POP_HOUSING_USAGE_MULT$§! for robots/machines by §G-25%§!."
 tooltip_plentiful_traditions_mechanical_alternative:1 "$ap_plentiful_traditions_mechanical_alternative_desc$"
 requires_plentiful_traditions_mechanical_alternative:1 "$TRIGGER_FAIL$Requires ascension perk §Y$ap_plentiful_traditions_metaverse_ecosystem$§!."
@@ -1188,6 +1212,12 @@ describe_decision_transformation_mastery:0 "§EThis is a Decision that permanent
 ap_plentiful_traditions_justice:0 "Justice"
 ap_plentiful_traditions_justice_desc:0 "The most unjust peace is still better than the just war."
 tooltip_plentiful_traditions_justice:1 "$ap_plentiful_traditions_justice_desc$"
+ap_plentiful_traditions_discovery:0 "Boucle temporelle archéologique"
+ap_plentiful_traditions_discovery_desc:0 "Nous recevons régulièrement des messages des voyageurs du temps, même si c'est difficile à croire. Ajur et Boratus sont leurs noms."
+tooltip_plentiful_traditions_discovery:1 "$ap_plentiful_traditions_discovery_desc$"
+ap_hive_mind_ascension:0 "évolution biologique"
+ap_hive_mind_ascension_desc:0 "Il est temps de se débarrasser de notre existence individuelle défectueuse et d'atteindre l'immortalité comme un seul esprit. Nous devons préparer toute la population à ce projet, puis commencer la fusion des consciences."
+tooltip_plentiful_traditions_hive_mind_ascension:1 "$ap_hive_mind_ascension_desc$"
 
 ################################################################
 # PLENTIFUL PERKS - Technology
@@ -1228,7 +1258,7 @@ pt_civic_slave_nation_desc:0 "90% unserer Bevölkerung sind nun versklavt. Die o
 # PLENTIFUL PERKS - Deposits
 ################################################################
 
-d_arid_highlands_special_reservation:0 "£energy Arid Highlands"xxx
+d_arid_highlands_special_reservation:0 "£energy Arid Highlands"
 d_arid_highlands_special_reservation_desc:1 "An elevated, dry ecoregion bearing sparse vegetation of desert grasses and scrubs."
 d_hot_springs_special_reservation:0 "£energy Hot Springs"
 d_hot_springs_special_reservation_desc:1 "Groundwater heated by geothermal processes steams from the surface of these springs."
@@ -1322,6 +1352,32 @@ decision_transformation_mastery:0 "§HNew decision:§! Transformation Master"
 decision_transformation_mastery_desc:1 "The planet receives eight more districts."
 decision_excavation:0 "§HNeue decision:§! Excessive mining"
 decision_excavation_desc:1 "The planet should continue to be exploited."
+
+################################################################
+# PLENTIFUL PERKS - Events
+################################################################
+
+plentiful_perks_ascension.1000.name:0 "Evolution Biologique"
+plentiful_perks_ascension.1000.desc:0 "We want to reach the next stage of evolution and get together to form a superorganism.\n\nAfter a lot of trial-and-error, our scientists have finally found a way to connect the consciousness of all our citizens All that's missing now is to prepare every single [Root.GetName]-citizen."
+plentiful_perks_ascension.1000.a:0 "Immortality is palpable!"
+plentiful_perks_ascension.1001.name:0 "The Age of One Mind!"
+plentiful_perks_ascension.1001.desc:1 "Finally. We are no longer alone. We are a connected consciousness, a huge organism. Now all paths are open to us. The galaxy belongs to us!"
+plentiful_perks_ascension.1001.a:0 "We are now so much more than we used to be."
+
+plentiful_perks_ascension.1003.1.desc:0 "As a final step in turning away from their individual roots, the [From.GetName]-citizens have united their minds in one consciousness. We welcome you!"
+plentiful_perks_ascension.1003.2.desc:0 "The [From.GetName] population has crowned their relentless pursuit of desecration of the inviolability of their natural bodies with a final outrageous act of depravity - connecting their minds in one consciousness."
+plentiful_perks_ascension.1003.a:0 "So be it."
+plentiful_perks_ascension.1003.b:0 "We will not be fooled."
+plentiful_perks_ascension.1004.desc:0 "Attention! To all the inhabitants of the galaxy!\n\nThe rumors you heard are true. We have joined together to form a gigantic organism and will once again show the level of power we are now in able to win. Everyone who stands in our way will be erased!"
+plentiful_perks_ascension.1004.a:0 "Greetings to you!"
+plentiful_perks_ascension.1004.b:0 "An abomination, but it doesn't matter to us."
+plentiful_perks_ascension.1004.c:0 "We'll take apart your synapses!"
+plentiful_perks_ascension.1004.d:0 "We'll see."
+
+hive_evolution_tooltip:0 "We will prepare a special project to unite the minds of our citizens in one unit."
+HIVE_EVOLUTION_PROJECT:0 "Biological Evolution"
+HIVE_EVOLUTION_PROJECT_DESC:0 "It is time to shed our faulty, individual existence and reach immortality as a spirit. We have to prepare the entire population and then start to merge consciousness."
+ 
 
 ################################################################
 # FACTIONS
@@ -1578,12 +1634,46 @@ mod_planet_livestock_energy_produces_mult:0 "£energy£ $energy$ des £job_lives
 mod_planet_livestock_minerals_produces_add:0 "£minerals£ $minerals$ des £job_livestock£ §Y$job_livestock_plural$§!"
 mod_planet_livestock_minerals_produces_mult:0 "£minerals£ $minerals$ des £job_livestock£ §Y$job_livestock_plural$§!"
 mod_planet_livestock_food_produces_mult:0 "£food£ $food$ des £job_livestock£ §Y$job_livestock_plural$§!"
-mod_planet_jobs_organic_battery_energy_produces_add:0 "£energy£ $energy$ des £job_organic_battery£ §Y$jobs_organic_battery_plural$§!"
-mod_planet_jobs_organic_battery_energy_produces_mult:0 "£energy£ $energy$ des £job_organic_battery£ §Y$job_organic_battery_plural$§!"
-mod_planet_jobs_organic_battery_minerals_produces_add:0 "£minerals£ $minerals$ des £job_organic_battery£ §Y$jobs_organic_battery_plural$§!"
-mod_planet_jobs_organic_battery_minerals_produces_mult:0 "£minerals£ $minerals$ des £job_organic_battery£ §Y$jobs_organic_battery_plural$§!"
-mod_planet_jobs_organic_battery_food_produces_add:0 "£food£ $food$ des £job_organic_battery£ §Y$jobs_organic_battery_plural$§!"
-mod_planet_jobs_organic_battery_food_produces_mult:0 "£food£ $food$ des £job_organic_battery£ §Y$jobs_organic_battery_plural$§!"
+mod_jobs_organic_battery_energy_produces_add:0 "£energy£ $energy$ des £job_organic_battery£ §Y$jobs_organic_battery_plural$§!"
+mod_jobs_organic_battery_energy_produces_mult:0 "£energy£ $energy$ des £job_organic_battery£ §Y$job_organic_battery_plural$§!"
+mod_jobs_organic_battery_minerals_produces_add:0 "£minerals£ $minerals$ des £job_organic_battery£ §Y$jobs_organic_battery_plural$§!"
+mod_jobs_organic_battery_minerals_produces_mult:0 "£minerals£ $minerals$ des £job_organic_battery£ §Y$jobs_organic_battery_plural$§!"
+mod_jobs_organic_battery_food_produces_add:0 "£food£ $food$ des £job_organic_battery£ §Y$jobs_organic_battery_plural$§!"
+mod_jobs_organic_battery_food_produces_mult:0 "£food£ $food$ des £job_organic_battery£ §Y$jobs_organic_battery_plural$§!"
+mod_planet_jobs_specialist_energy_produces_add:0 "£energy£ $energy$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_energy_produces_mult:0 "£energy£ $energy$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_minerals_produces_add:0 "£minerals£ $minerals$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_minerals_produces_mult:0 "£minerals£ $minerals$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_food_produces_add:0 "£food£ $food$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_food_produces_mult:0 "£food£ $food$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_alloys_produces_add:0 "£alloys£ $alloys$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_alloys_produces_mult:0 "£alloys£ $alloys$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_physics_research_produces_add:0 "£physics_research£ $physics_research$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_physics_research_produces_mult:0 "£physics_research£ $physics_research$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_society_research_produces_add:0 "£society_research£ $society_research$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_society_research_produces_mult:0 "£society_research£ $society_research$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_engineering_research_produces_add:0 "£engineering_research£ $engineering_research$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_engineering_research_produces_mult:0 "£engineering_research£ $engineering_research$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_influence_produces_add:0 "£influence£ $influence$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_influence_produces_mult:0 "£influence£ $influence$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_unity_produces_add:0 "£unity£ $unity$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_unity_produces_mult:0 "£unity£ $unity$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_consumer_goods_produces_add:0 "£consumer_goods£ $consumer_goods$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_consumer_goods_produces_mult:0 "£consumer_goods£ $consumer_goods$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_volatile_motes_produces_add:0 "£volatile_motes£ $volatile_motes$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_volatile_motes_produces_mult:0 "£volatile_motes£ $volatile_motes$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_exotic_gases_produces_add:0 "£exotic_gases£ $exotic_gases$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_exotic_gases_produces_mult:0 "£exotic_gases£ $exotic_gases$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_rare_crystals_produces_add:0 "£rare_crystals£ $rare_crystals$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_rare_crystals_produces_mult:0 "£rare_crystals£ $rare_crystals$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_sr_living_metal_produces_add:0 "£sr_living_metal£ $sr_living_metal$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_sr_living_metal_produces_mult:0 "£sr_living_metal£ $sr_living_metal$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_sr_zro_produces_add:0 "£sr_zro£ $sr_zro$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_sr_zro_produces_mult:0 "£sr_zro£ $sr_zro$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_sr_dark_matter_produces_add:0 "£sr_dark_matter£ $sr_dark_matter$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_sr_dark_matter_produces_mult:0 "£sr_dark_matter£ $sr_dark_matter$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_nanites_produces_add:0 "£nanites£ $nanites$ des £job£ $pop_cat_specialist$"
+mod_planet_jobs_specialist_nanites_produces_mult:0 "£nanites£ $nanites$ des £job£ $pop_cat_specialist$"
 mod_planet_jobs_worker_energy_produces_add:0 "£energy£ $energy$ des £job£ $pop_cat_worker$"
 mod_planet_jobs_worker_energy_produces_mult:0 "£energy£ $energy$ des £job£ $pop_cat_worker$"
 mod_planet_jobs_worker_minerals_produces_add:0 "£minerals£ $minerals$ des £job£ $pop_cat_worker$"
@@ -1620,9 +1710,13 @@ mod_planet_jobs_worker_nanites_produces_add:0 "£nanites£ $nanites$ des £job£
 mod_planet_jobs_worker_nanites_produces_mult:0 "£nanites£ $nanites$ des £job£ $pop_cat_worker$"
 mod_planet_telepaths_unity_produces_add:0 "£unity£ $unity$ des £job£ $job_telepath$"
 mod_planet_telepaths_unity_produces_mult:0 "£unity£ $unity$ des £job£ $job_telepath$"
+mod_planet_pop_assemblers_alloys_upkeep_mult:0 "£alloys£ $alloys$ entretien des £job£ $job_replicator$"
+mod_planet_replicator_produces_add:0 "Production des £job£ $job_replicator$"
+mod_planet_replicator_alloys_upkeep_mult:0 "£alloys£ $alloys$ entretien des £job_replicator£ $job_replicator$"
 mod_country_resource_max_energy_add:0 "Capacité de stockage (£energy£ énergie)"
 mod_country_resource_max_minerals_add:0 "Capacité de stockage (£minerals£ mineraux)"
 mod_country_resource_max_food_add:0 "Capacité de stockage (£food£ nourriture)"
+mod_country_resource_max_alloys_add:0 "Capacité de stockage (£alloys£ alliages)"
 mod_country_resource_max_influence_add:0 "Capacité de stockage (£influence£ Influence)"
 mod_megastructures_cost_mult:0 "Coût de construction (Mégastructures)"
 mod_ship_colonizer_cost_mult:0 "Coût de construction (Vaisseaux colonisateurs)"
@@ -1630,8 +1724,8 @@ mod_rivalries_physics_research_produces_add:0 "Physique (Rivaux)"
 mod_rivalries_influence_produces_mult:0 "Influence (Rivaux)"
 mod_weapon_type_point_defense_weapon_damage_mult:0 "Dégâts des armes (Point-Defense)"
 mod_weapon_type_point_defense_weapon_fire_rate_mult:0 "Cadence de tir (Point-Defense)"
-mod_station_gatherers_energy_produces_mult:0 "Energie (Gatherers)"
-mod_station_gatherers_alloys_produces_mult:0 "Alliage (Gatherers)"
+mod_station_gatherers_energy_produces_mult:0 "Energie (Récolteurs)"
+mod_station_gatherers_alloys_produces_mult:0 "Alliage (Récolteurs)"
 mod_orbital_mining_deposits:0 "Alliage (Dépots miniers)"
 mod_megastructures_produces_mult:0 "Production (Mégastructures)"
 mod_extra_large_weapon_damage_mult:0 "Dégâts des armes (Armes XL)"
@@ -1641,21 +1735,58 @@ mod_damage_vs_country_type_pirate_mult:0 "Dégâts aux  Pirates"
 mod_damage_vs_country_type_dormant_marauders_mult:0 "Dégâts aux Maraudeurs en attente"
 mod_damage_vs_country_type_ruined_marauders_mult:0 "Dégâts aux Maraudeurs défaits"
 mod_damage_vs_country_type_awakened_marauders_mult:0 "Dégâts aux Maraudeurs éveillés"
-mod_decisions_food_cost_mult:0 "Coût en nourriture (Décisions)"
-mod_campaigns_food_cost_mult:0 "Coût en nourriture (Campagnes)"
-mod_edicts_food_cost_mult:0 "Coût en nourriture (Edits)"
+
+mod_decisions_food_cost_mult:0 "Coût en £food£nourriture (Décisions)"
+mod_decisions_minerals_cost_mult:0 "Coût en £minerals£Minéraux (Décisions)"
+mod_decisions_energy_cost_mult:0 "Coût en £energy£Energie (Décisions)"
+mod_decisions_alloys_cost_mult:0 "Coût en £alloys£ Alliages (Décisions)"
+
+mod_campaigns_food_cost_mult:0 "Coût en £food£nourriture (Campagnes)"
+mod_campaigns_minerals_cost_mult:0 "Coût en £minerals£Minéraux (Campagnes)"
+mod_campaigns_energy_cost_mult:0 "Coût en £energy£Energie (Campagnes)"
+mod_campaigns_alloys_cost_mult:0 "Coût en £alloys£Alliages (Campagnes)"
+
+mod_edicts_food_cost_mult:0 "Coût en nourriture (Décrets)"
+mod_edicts_minerals_cost_mult:0 "Coût en £minerals£Minéraux (Décrets)"
+mod_edicts_energy_cost_mult:0 "Coût en £energy£Energie (Décrets)"
+mod_edicts_alloys_cost_mult:0 "Coût en £alloys£Alliages (Décrets)"
+
 mod_ships_food_cost_mult:0 "Coût en nourriture (Vaisseaux)"
+mod_ships_minerals_cost_mult:0 "Coût en £minerals£Minéraux (vaisseaux)"
+mod_ships_energy_cost_mult:0 "Coût en £energy£Energie (vaisseaux)"
+mod_ships_alloys_cost_mult:0 "Coût en £alloys£Alliages (vaisseaux)"
+
 mod_ships_food_upkeep_mult:0 "Entretien en nourriture (Vaisseaux)"
+mod_ships_minerals_upkeep_mult:0 "Entretien en £minerals£Minéraux (vaisseaux)"
+mod_ships_energy_upkeep_mult:0 "Entretien en £energy£Energie (vaisseaux)"
+mod_ships_alloys_upkeep_mult:0 "Entretien en £alloys£Alliages (vaisseaux)"
+
 mod_planet_structures_food_upkeep_mult:0 "Entretien en nourriture (Bâtiments & Districts)"
+mod_planet_structures_minerals_upkeep_mult:0 "Entretien en £minerals£Minéraux (Bâtiments & Districts)"
+mod_planet_structures_energy_upkeep_mult:0 "Entretien en £energy£Energie (Bâtiments & Districts)"
+mod_planet_structures_alloys_upkeep_mult:0 "Entretien en £alloys£Alliages (Bâtiments & Districts)"
+
 mod_planet_buildings_food_upkeep_mult:0 "Entretien en nourriture (Bâtiments)"
+mod_planet_buildings_minerals_upkeep_mult:0 "Entretien en £minerals£Minéraux (Bâtiments)"
+mod_planet_buildings_energy_upkeep_mult:0 "Entretien en £energy£Energie (Bâtiments)"
+mod_planet_buildings_alloys_upkeep_mult:0 "Entretien en £alloys£Alliages (Bâtiments)"
+
 mod_planet_buildings_food_produces_mult:0 "production de nourriture (Bâtiments)"
+mod_planet_buildings_minerals_produces_mult:0 "production de £minerals£Minéraux (Bâtiments)"
+mod_planet_buildings_energy_produces_mult:0 "production de £energy£Energie (Bâtiments)"
+mod_planet_buildings_alloys_produces_mult:0 "production de £alloys£Alliages (Bâtiments)"
+
 mod_planet_districts_food_produces_mult:0 "production de nourriture (Districts)"
+mod_planet_districts_minerals_produces_mult:0 "production de £minerals£Minéraux (Districts)"
+mod_planet_districts_energy_produces_mult:0 "production de £energy£Energie (Districts)"
+mod_planet_districts_alloys_produces_mult:0 "production de £alloys£Alliages (Districts)"
+
 mod_planet_structures_physics_research_produces_mult:0 "Physique (Bâtiments & Districts)"
 
 FROM_STARBASE_MODULE:0 "Von Sternenbasenmodulen"
 FROM_STARBASE_MODULES:0 "Von Sternenbasenmodulens"
 
-d_plentiful_traditions_planet_minerals5:0 "Exorbitant mineral fields"
+d_plentiful_traditions_planet_minerals5:0 "Champs de Exorbitant mineral fields"
 d_plentiful_traditions_planet_minerals5_desc:0 "We have uncovered exorbitant £minerals §Ymineral fields§!."
 d_plentiful_traditions_planet_minerals4:0 "Huge mineral fields"
 d_plentiful_traditions_planet_minerals4_desc:0 "We have uncovered huge £minerals §Ymineral fields§!."
