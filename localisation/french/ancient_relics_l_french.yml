@@ -520,6 +520,7 @@
  #relic_triumph_cooldown: "\n§Y$relic_activation_cooldown$§! modifier added for §Y120§! months."
  relic_triumph_cooldown:0 "\n$relic_activation_cooldown$ : §Y3600§!£time£"
  relic_triumph_cooldown_short:0 "\n$relic_activation_cooldown$ : §Y1800§!£time£"
+ relic_triumph_cooldown_veryshort: "\n$relic_activation_cooldown$ : §Y900§!£time£"
  requires_relic_no_cooldown:0 "$TRIGGER_FAIL$ §RImpossible d'activer une autre relique tant que le modificateur §Y$relic_activation_cooldown$§! a cours.§!"
  relic_queen_spawn:0 "Donne naissance à une petite flotte préthoryne."
  relic_rubricator_active:0 "Crée §Y30§! £minor_artifacts£artefacts mineurs."
@@ -570,7 +571,12 @@
  r_cryo_core:0 "Le cryonoyau yuht"
  r_cryo_core_desc:0 "Les Yuht n'ayant jamais découvert l'existence de l'hyperespace, c'est grâce à leur très longue espérance de vie et aux techniques de cryogénisation qu'ils pouvaient voyager parmi les étoiles. Ce prototype de cryonoyau a été créé par les scientifiques yuht peu avant que leur empire ne s'effondre face aux Jabbardîni.\n\nLe cryochamp généré par ce noyau dépasse très largement notre niveau technologique actuel."
  r_war_forge:0 "La forge militaire de la Cybrex"
- r_war_forge_desc:0 "Cette forge militaire, relativement petite et mobile, est la dernière de la sorte dans l'univers. Il s'agit d'une relique remontant à l'époque où la Cybrex combattait l'ensemble de la galaxie, avant qu'elle revienne sur cette attitude à la suite de son « Ajustement ».\n\nLa capacité de la forge à produire des machines de combat a été désactivée de manière définitive par la Cybrex, mais si un plan lui est fourni elle a encore la capacité de construire des robots extrêmement complexes à une vitesse inégalée."
+ r_war_forge_desc:1 "Cette forge militaire, relativement petite et mobile, est la dernière de la sorte dans l'univers. Il s'agit d'une relique remontant à l'époque où la Cybrex combattait l'ensemble de la galaxie, avant qu'elle revienne sur cette attitude à la suite de son « Ajustement ».\n\nLa capacité de la forge à produire des vaisseaux de combat a été désactivée de manière définitive par la Cybrex, mais sa capacité lui a été conservée de convertir des quantités énormes de minéraux en alliages."
+
+ cybrex_warform: "Robot de combat de la Cybrex"
+ cybrex_warform_desc: "Ce robot titanesque dépasse au-dessus de la plupart des bâtiments et dispose d'une puissance de feu suffisante pour dévaster des cités entières."
+ relic_cybrex_passive: "Permet de construire des armées de §Yrobots de combats de la Cybrex§! sur le monde-capitale."
+ relic_cybrex_active: "Produit §Y5000§!£alloys£"
 
  ##################
  # Decisions
@@ -692,7 +698,7 @@
  ##################
  d_archaeological_site:0 "£blocker£Site archéologique"
  d_archaeological_site_desc:0 "Une trouvaille archéologique a été faite dans cette région, qui mérite que des fouilles soient menées."
- d_sentinels:0 "£blocker£Sentinelles"
+ d_sentinels:1 "Sentinelles"
  d_sentinels_desc:1 "Les Sentinelles gardent cette région, qu'il vaut mieux éviter de troubler. Elles ont intégré nos armées défensives, et protégeront ce monde en cas d'invasion."
  d_hab_gas_1:0 "Gisement de gaz exotiques"
  d_hab_gas_1_desc:0 "Cet habitat est construit non loin d'un gisement exploitable de gaz exotiques."
@@ -821,3 +827,4 @@
  herald_25:0 "$herald_75$"
  NAME_Sentinels:0 "Sentinelles"
  sentinel_army:0 "$NAME_Sentinels$"
+ sentinel_army_desc:0 "Des statues vivantes d'essence essentiellement mécaniques, aux corps bruissants et à la peau rayonnante, des radiations émanant depuis leur intérieur, prêtes à détruire leurs ennemis."

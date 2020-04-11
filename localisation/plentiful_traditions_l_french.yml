@@ -26,7 +26,7 @@ tradition_plentiful_mysticism_desc:0 "§LLe chemin vers une vie en harmonie avec
 
 tr_plentiful_mysticism_adopt:0 "Traditions de Mysticisme"
 tr_plentiful_mysticism_adopt_desc:0 "$tradition_plentiful_mysticism_desc$\n\n$tr_plentiful_mysticism_adopt_effect$\n\n$tr_plentiful_mysticism_finish_effect$"
-tr_plentiful_mysticism_adopt_effect:0 "§E$TRADITIONS_ADOPT$ :§!\n§Y$MOD_LEADER_SPECIES_EXP_GAIN$§! augmenté de §G+20%§!."
+tr_plentiful_mysticism_adopt_effect:0 "§E$TRADITIONS_ADOPT$ :§!\n§Y$MOD_LEADER_SPECIES_EXP_GAIN$§! augmenté de §G+20%§!.\n\n§HDéverrouile le module de Spatioport :§! $sm_orbital_cosmic_rays_shield$, un module spatioport qui augmente la £job_healthcare §YMOD_POP_GROWTH_SPEED§! des planètes et des systèmes.\n\n"
 
 tr_plentiful_mysticism_finish:0 "Traditions de Mysticisme finies"
 tr_plentiful_mysticism_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\nAdopter toutes les $tr_plentiful_mysticism_adopt$ §Hpermet la décision planétaire§! §G$plentiful_traditions_sacred_act$§! qui permet à tous les obélisques, les temples, les piliers et les sanctuaires une chance de produire de £unity  l'§Yunité§! et donnant un bonus temporaire de §G+5%§! à la production d'Unité de la planète.\n\n"
@@ -51,13 +51,18 @@ tr_plentiful_mysticism_5:0 "Inébranlable"
 tr_plentiful_mysticism_5_desc:1 "§Y$mod_damage_vs_country_type_ai_empire_mult$§! augmenté de §G+15%§!.\n\n§HPermet le bâtiment§! £building  §G$building_plentiful_traditions_sanctum_of_keys$§!, bâtiment planétaire unique, qui augmente légèrement le £happiness  §Y$MOD_POP_HAPPINESS$§!, l'§Y$MOD_POP_ENVIRONMENT_TOLERANCE$§! et produit de £unity  l'§YUnité§!."
 tr_plentiful_mysticism_5_delayed:0 "§LLe désintérêt pour le pouvoir et l'intérêt personnel donne les trois clés de la vie.§!"
 
+sm_orbital_cosmic_rays_shield:0 "Bouclier des rayons cosmiques"
+
+tech_plentiful_traditions_orbital_cosmic_rays_shield:0 "Bouclier des rayons cosmiques"
+tech_plentiful_traditions_orbital_cosmic_rays_shield_desc:0 "Les rayons cosmiques endommagent le génome. Avec ce module, nous pouvons filtrer une partie du rayonnement dans le système."
+
 # Mysticism Swapped
 tradition_plentiful_mysticism_machine:0 "Machinisme"
 tradition_plentiful_mysticism_machine_desc:0 "§LSeuls nos créateurs connaissaient le sens qu'ils ont donné à notre existence. Nous faisons face au vide, littéralement, retenus uniquement par quelques opérateurs booléens.§!"
 
 tr_plentiful_mysticism_adopt_machine:0 "Traditions de Machinisme"
 tr_plentiful_mysticism_adopt_machine_desc:0 "$tradition_plentiful_mysticism_machine_desc$\n\n$tr_plentiful_mysticism_adopt_machine_effect$\n\n$tr_plentiful_mysticism_finish_machine_effect$"
-tr_plentiful_mysticism_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$ :§!\n§Y$MOD_LEADER_SPECIES_EXP_GAIN$§! augmenté de §G+20%§!."
+tr_plentiful_mysticism_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$ :§!\n§Y$MOD_LEADER_SPECIES_EXP_GAIN$§! augmenté de §G+20%§!. \n\n§HActivation du module spatioport :§!\n$sm_orbital_cosmic_rays_shield$, un module du port stellaire qui augmente l  £job_healthcare §Taux de croissance de la population§! des planètes et des stations du système.\n\n"
 
 tr_plentiful_mysticism_finish_machine:0 "Traditions de Machinisme finies"
 tr_plentiful_mysticism_finish_machine_effect:0 "§E$TRADITIONS_FINISH$ :§!\n§HPermet la décision planétaire§! §G$plentiful_traditions_remnant_act$§!, permettant aux obélisques, aux temples, aux piliers, aux noeuds ascendants et aux sanctuaires d'avoir une chance de produire de £unity  l'§YUnité§! supplémentaire et de donner un bonus temporaire de §G+5%§! à la production d'unité planétaire, contre un coût en £influence §YInfluence§!."
@@ -164,8 +169,14 @@ tr_plentiful_cybernetics_4_desc:1 "Le rendement de la £engineering §Yrecherche
 tr_plentiful_cybernetics_4_delayed:0 "§LL'univers nous offre toujours davantage de mystères.§!"
 
 tr_plentiful_cybernetics_5:0 "Théories de Jazarian"
-tr_plentiful_cybernetics_5_desc:0 "§HPermet la décision planétaire§! §G$plentiful_traditions_adaptive_foundry_1$§! qui augmente de façon permanente le rendement de la £engineering §Yrecherche en ingéniérie§! de §G+5%§! tout en diminuant de §R-10%§! de l'§Yhabitabilité§!.\n\nLe rendement des £minerals  §Yminéraux§! et de la £food  §Ynourriture§! pour chaque utilisation.\nCela peut s'additionner jusqu'à §Y10§! fois pour un total de §G+50%§!" #at the cost of §R-10%§! §HHabitability§!, £minerals  §YMinerals§! and £food  §YFood§! 
+tr_plentiful_cybernetics_5_desc:0 "§HPermet la décision planétaire§! §G$plentiful_traditions_adaptive_foundry_1$§! qui augmente de façon permanente le rendement de la £engineering §Yrecherche en ingéniérie§! de §G+5%§! tout en diminuant de §R-10%§! de l'§Yhabitabilité§!.\n\nLe rendement des £minerals  §Yminéraux§! et de la £food  §Ynourriture§! pour chaque utilisation.\nCela peut s'additionner jusqu'à §Y10§! fois pour un total de §G+50%§! \n\n§HDéverrouille le module de Spatioport :§! $sm_orbital_automatic_spare_part_industry$, un module de port stellaire qui augmente £job_replicator §Y$MOD_PLANET_POP_ASSEMBLY_ADD$§! / §Y$MOD_POP_ASSEMBLY_SPEED$§! des planètes et stations du système.\n\n"" #at the cost of §R-10%§! §HHabitability§!, £minerals  §YMinéraux§! and £food  §YNourriture§! 
 tr_plentiful_cybernetics_5_delayed:0 "§LTandis que nous continuons à augmenter les capacités de notre collectivité, nous percevons que les autres empires peuvent nous percevoir comme des menaces. Pour faire face, nous avons besoin d'une technologie plus évoluée.§!"
+
+sm_orbital_automatic_spare_part_industry:0 "Industrie automatique de pièces détachées"
+
+tech_plentiful_traditions_orbital_a_s_p_i:0 "Industrie automatique de pièces détachées"
+tech_plentiful_traditions_orbital_a_s_p_i_desc:0 "En affectant automatiquement les pièces pertinentes pour la production de composants mécaniques, les travaux de construction peuvent être améliorés sur la planète et les stations de ce système."
+
 
 # Cybernetics buildings
 building_plentiful_traditions_cybernetics_facility:0 "Complexe cybernétique"
@@ -173,7 +184,7 @@ building_plentiful_traditions_cybernetics_facility_desc:0 "Un complexe cybernét
 
 # Cybernetics edicts
 plentiful_traditions_adaptive_foundry_1:0 "§YFonderie adaptative§!"
-plentiful_traditions_adaptive_foundry_1_desc:1 "Cette décision planétaire augmente les §Ycomplexes d'ingéniérie§! de façon permanente en améliorant les rendements de la £engineering  §Yrecherche en ingéniérie§! de §G+5%§! pour chaque utilisation. \n\n#un coût de §R-10%§! en §Yhabitabilité§!, en £minerals  §Yminéraux§! et en £food  §Ynourriture§! pour chaque utilisation.\n\n" #at the cost of §R-10%§! §YHabitability§!, £minerals  §YMinerals§! and £food  §YFood§! 
+plentiful_traditions_adaptive_foundry_1_desc:1 "Cette décision planétaire augmente les §Ycomplexes d'ingéniérie§! de façon permanente en améliorant les rendements de la £engineering  §Yrecherche en ingéniérie§! de §G+5%§! pour chaque utilisation. \n\n#un coût de §R-10%§! en §Yhabitabilité§!, en £minerals  §Yminéraux§! et en £food  §Ynourriture§! pour chaque utilisation.\n\n" #at the cost of §R-10%§! §YHabitability§!, £minerals  §YMinéraux§! and £food  §YNourriture§! 
 plentiful_traditions_adaptive_foundry_2:0 "$plentiful_traditions_adaptive_foundry_1$"
 plentiful_traditions_adaptive_foundry_2_desc:1 "$plentiful_traditions_adaptive_foundry_1_desc$"
 plentiful_traditions_adaptive_foundry_3:0 "$plentiful_traditions_adaptive_foundry_1$"
@@ -389,8 +400,13 @@ tr_plentiful_order_4_desc:0 "§Y$MOD_STARBASE_MODULE_BUILD_SPEED_MULT$§! et §Y
 tr_plentiful_order_4_delayed:0 "§L« Ma politique ? Une main de fer dans un gant de fer. »\n\n- Goustan Le Cruel, père de Léodagan§!"
 
 tr_plentiful_order_5:0 "Héros de l'intérieur"
-tr_plentiful_order_5_desc:1 "§Y$MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$§! augmentée de §G+25%§!."
+tr_plentiful_order_5_desc:1 "§Y$MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$§! augmentée de §G+25%§!.\n\n§HUnlocks Spaceport Module:§! $sm_orbital_craftwork_headquarters$, a spaceport module that adds to the planets and gathers £consumer_goods §Yconsumer_goods§! production."
 tr_plentiful_order_5_delayed:0 "§LNos ingénieurs, mécaniciens, scientifiques et autres citoyens rassemblés sous notre ordre ont donné à notre glorieux empire d'incroyables avantages.§!"
+
+sm_orbital_craftwork_headquarters:0 "Siège de l'artisanat"
+
+tech_plentiful_traditions_orbital_c_h:0 "Siège de l'artisanat"
+tech_plentiful_traditions_orbital_c_h_desc:0 "La centralisation finale des secteurs économiques clés nous aidera à augmenter la production de biens de consommation dans ce système."
 
 # Order war demands
 casus_belli_cb_pt_false_flag:1 "§HFaux signal§!"
@@ -432,7 +448,7 @@ tr_plentiful_malice_adopt_desc:0 "$tradition_plentiful_malice_desc$\n\n$tr_plent
 tr_plentiful_malice_adopt_effect:0 "§E$TRADITIONS_ADOPT$ :§!\n§Y$MOD_COUNTRY_INSULT_EFFICIENCY$§! augmentée de §G+50%§!. Les §YEsclaves§! de l'empire voient leur £happiness  §Y$MOD_POP_HAPPINESS$§! augmenté de §G+5%§! et le coût de leurs §Y$CONSUMER_GOODS$§! diminué de §G-20%§!."
 
 tr_plentiful_malice_finish:0 "Traditions de Malveillance finies"
-tr_plentiful_malice_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\nAdopter toutes les $tr_plentiful_malice_adopt$ §Hpermet le décret§! §GNoir dessein§! qui augmente les §Y$mod_damage_vs_country_type_fallen_empire_mult$§! et les §Y$mod_damage_vs_country_type_awakened_fallen_empire_mult$§! de §G+15%§!.\n\n"
+tr_plentiful_malice_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\nAdopter toutes les $tr_plentiful_malice_adopt$ §Hpermet le décret§! §GNoir dessein§! qui augmente les §Y$mod_damage_vs_country_type_fallen_empire_mult$§! et les §Y$mod_damage_vs_country_type_awakened_fallen_empire_mult$§! de §G+15%§!.\n\n§HDéverrouille le module Spatioport:§! $sm_orbital_refinery_station$, un module de spatioport qui ajoute aux planètes et rassemble la production d'£alloys §YAlliages§!.\n\n"
  
 tr_plentiful_malice_1:0 "Désespoir"
 tr_plentiful_malice_1_desc:0 "§Y$mod_pop_cat_slave_happiness$§! augmenté de §G20%§!."
@@ -453,6 +469,11 @@ tr_plentiful_malice_4_delayed:0 "§LNous nous délecterons de leurs souffrances 
 tr_plentiful_malice_5:0 "Méchanceté"
 tr_plentiful_malice_5_desc:1 "Les §YEsclaves§! sur une planète récemment conquise ne verront pas leur £happiness  §Y$MOD_POP_HAPPINESS$§! réduit par le modificateur §Y$pop_recently_conquered$§!. En plus, nous avons accès au £building  §Y$building_plentiful_traditions_advanced_slave_processing$§!.\n\nRequiert la technologie £society£ §M$tech_neural_implants$§!"
 tr_plentiful_malice_5_delayed:0 "§LCe ne sont que des faibles, ils ne méritent de vivre que pour servir notre soif de douleur.§!"
+
+sm_orbital_refinery_station:0 "Station de Raffinage"
+
+tech_plentiful_traditions_orbital_r_s:0 "Station de Raffinage"
+tech_plentiful_traditions_orbital_r_s_desc:0 "Dans cette usine de traitement du minerai, des mesures essentielles sont prises pour transformer le minerai en alliages."
 
 modifier_plentiful_traditions_slave1:0 "Pas de retour possible (Malveillance adoptée)"
 edict_plentiful_traditions_malicious_intent:0 "Noir dessein"
@@ -1043,7 +1064,7 @@ tr_plentiful_endure_2_desc:0 "§Y$MOD_COUNTRY_WAR_EXHAUSTION_MULT$§! diminué d
 tr_plentiful_endure_2_delayed:0 "§L« Je n'ai rien à leur offrir sinon du sang, des larmes et de la sueur. »\n\n- Sir Winston Churchill, grand dirigeant appréciant le cigare et la ténacité§!"
 
 tr_plentiful_endure_3:0 "La glace des abysses"
-tr_plentiful_endure_3_desc:0 "Permet la technologie du §G$DARK_MATTER_REACTOR$§!."
+tr_plentiful_endure_3_desc:0 "Permet la technologie du §G$DARK_MATTER_REACTOR$§!. \n\n§HDéverrouille le module Spatioport :§! $sm_orbital_fertilizer_array$, un module de spatioport qui ajoute aux planètes et rassemble la production de £food §YNourriture§!"
 tr_plentiful_endure_3_delayed:0 "§LLes anciens connaissent les secrets de l'énergie noire, réussir à la développer pour des propulseurs nous permettrait d'accéder à une puissance énergétique énorme.§!"
 
 tr_plentiful_endure_4:0 "Effort de guerre"
@@ -1053,6 +1074,13 @@ tr_plentiful_endure_4_delayed:0 "§LL'esclave se bat jour après jour dans les c
 tr_plentiful_endure_5:0 "Ultra-Méga"
 tr_plentiful_endure_5_desc:1 "§Y$MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$§! est augmenté de §G25%§!.\n\nDe plus, cela permet la construction d'un §YHabitat ouvert§! qui s'agrandira dans le temps."
 tr_plentiful_endure_5_delayed:0 "§LNos mégastructures reflètent notre pugnacité et notre résistance.§!"
+
+sm_orbital_fertilizer_array:0 "Réserve et diffuseur de fertilisants"
+
+tech_plentiful_traditions_orbital_fertilizer_array:0 "Réserve et diffuseur de fertilisants"
+tech_plentiful_traditions_orbital_fertilizer_array_desc:0 "Le bombardement constant avec un rayonnement spécial nous permet de tirer le meilleur parti de ce que nous avons à disposition lors de la production de nourriture dans ce système."
+
+
 
 ################################################################
 # ASCENSION PERKS
@@ -1809,15 +1837,15 @@ d_plentiful_traditions_planet_energy1:0 "Small Energiefelder"
 d_plentiful_traditions_planet_energy1_desc:0 "We have uncovered small £energy §YEnergiefelder§!."
 
 d_plentiful_traditions_planet_food5:0 "Exorbitant food suppliers"
-d_plentiful_traditions_planet_food5_desc:0 "We have new exorbitant §Ybreeding fields§! for £food §Yfood§!."
+d_plentiful_traditions_planet_food5_desc:0 "We have new exorbitant §Ybreeding fields§! for £food §YNourriture§!."
 d_plentiful_traditions_planet_food4:0 "Huge Nahrungslieferanten"
-d_plentiful_traditions_planet_food4_desc:0 "We have new huge §Ybreeding fields§! for £food §Yfood§!."
+d_plentiful_traditions_planet_food4_desc:0 "We have new huge §Ybreeding fields§! for £food §YNourriture§!."
 d_plentiful_traditions_planet_food3:0 "Large Nahrungslieferanten"
-d_plentiful_traditions_planet_food3_desc:0 "We have new §Ybreeding fields§! for £food §Yfood§!."
+d_plentiful_traditions_planet_food3_desc:0 "We have new §Ybreeding fields§! for £food §YNourriture§!."
 d_plentiful_traditions_planet_food2:0 "Interesting Nahrungslieferanten"
-d_plentiful_traditions_planet_food2_desc:0 "We have new interesting §Ybreeding fields§! for £food §Yfood§!."
+d_plentiful_traditions_planet_food2_desc:0 "We have new interesting §Ybreeding fields§! for £food §YNourriture§!."
 d_plentiful_traditions_planet_food1:0 "Small Nahrungslieferanten"
-d_plentiful_traditions_planet_food1_desc:0 "We have new small §Ybreeding fields§! for £food §Yfood§!."
+d_plentiful_traditions_planet_food1_desc:0 "We have new small §Ybreeding fields§! for £food §YNourriture§!."
 
 d_plentiful_traditions_planet_unity5:0 "Exorbitante Monuments of unity"
 d_plentiful_traditions_planet_unity5_desc:0 "We have uncovered exorbitant £unity §YMonuments of unity§!."
