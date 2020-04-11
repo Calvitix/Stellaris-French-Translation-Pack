@@ -2,11 +2,13 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 30.03.2020
- # Translation check : 30.03.2020
+ # Update check : 11.04.2020
+ # Translation check : 11.04.2020
  ####################################
 
-
+ SECTOR_ADD_ALREADY_ASSIGNED:0 "§RLe système de $SYSTEM|Y$ relève déjà d'un secteur.§!"
+ SECTOR_ADD_DONT_OWN_STARBASE:0 "§RLa base stellaire du système de $SYSTEM|Y$ ne nous appartient pas.§!"
+ SECTOR_ADD_FOREIGN_COLONIES:0 "§RLe système de $SYSTEM|Y$ est colonisé par un autre empire.§!"
  BASE_JOB_INPUT:0 "Entretien brut des emplois : $RESOURCES$"
  BASE_JOB_OUTPUT:0 "Production brute des emplois : $RESOURCES$"
  PLANET_BUILDQUEUE_UP:0 "$STARBASE_BUILDQUEUE_UP$"
@@ -3835,7 +3837,7 @@
  CORP_ITOA_SELECT_01:1 "Êtes-vous prêts à donner le meilleur de vous-mêmes, [Root.GetSpeciesNamePlural] ? Avec '§Y[From.GetName]§!', le niveau est relevé..."
  CORP_ITOA_PROPOSE_01:1 "Simple rappel des faits : la marque [Root.GetAdj] est réputée dans toute la galaxie pour sa recherche constante de qualité. Notre réputation pourrait vous assurer d'un surcroît de crédibilité, dont vous aurez bien besoin pour obtenir le succès dans vos prochaines entreprises."
  CORP_CORP_ITOA_PROPOSE_01:0 "[From.GetSpeciesNamePlural], ensemble nous pourrions contrecarrer nos concurrents, gonfler les prix et dominer le marché. Qu'en pensez-vous ?"
- CORP_ITOA_ACCEPT_01:1 "Les projections de revenu d'une coopération [From.GetSpeciesAdj]-[Root.GetSpeciesAdj] paraissent tout à fait intéressantes, [From.GetLeaderName]. Ou devrais-je dire, « partenaire » ! Allez, laissez-vous tenter !"
+ CORP_ITOA_ACCEPT_01:1 "Les projections de revenu d'une coopération [From.GetSpeciesAdj]-[Root.GetSpeciesAdj] paraissent tout à fait intéressantes, [From.GetRulerName]. Ou devrais-je dire, « partenaire » ! Allez, laissez-vous tenter !"
  CORP_ITOA_REFUSE_01:1 "La marque [Root.GetAdj] est synonyme de qualité exigeante. Nous ne pouvons donc nous permettre de la voir associée à '[From.GetName]'."
  CORP_ASK_JOIN_A_SELECT_01:1 "En avez-vous vraiment les capacités, [From.GetSpeciesNamePlural] ? Avez-vous ce qu'il faut pour intégrer la §Y[Root.GetAllianceName]§! ?"
  CORP_ASK_JOIN_A_PROPOSE_01:1 "Des solutions flexibles et centrées sur l'utilisateur, ainsi que l'optimisation des résultats ne sont que l'un des nombreux aspects de ce que '[From.GetName]' a à offrir à la §Y[Root.GetAllianceName]§!. Est-ce un « oui » ? Je crois que j'ai entendu « oui »..."

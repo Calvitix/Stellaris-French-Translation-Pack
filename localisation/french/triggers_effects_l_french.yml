@@ -2,14 +2,23 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 19.03.2020
- # Translation check : 19.03.2020
+ # Update check : 11.04.2020
+ # Translation check : 11.04.2020
  ####################################
 
 
  ####################################
  # Triggers
  ####################################
+ NUM_SYSTEM_PLANETS_TRIGGER:0 "Nombre de mondes du système ($VALUE1|0Y$) $COMPARE$ à $VALUE2|0Y$."
+ NUM_SYSTEM_PLANETS_NOT_TRIGGER:0 "Nombre de mondes du système ($VALUE1|0Y$) PAS $COMPARE$ à $VALUE2|0Y$."
+ effect_every_owned_species:0 "$effect_every_owned_pop_species$"
+ GALAXY_SIZE_IS:0 "Taille de la galaxie : $SIZE|Y$"
+ GALAXY_SIZE_IS_NOT:0 "Taille de la galaxie : PAS $SIZE|Y$"
+ HAS_HAPPINESS_TRIGGER:0 "A du bonheur"
+ HAS_NOT_HAPPINESS_TRIGGER:0 "N'a PAS de bonheur"
+ IS_IN_BREACH_OF_TRIGGER:0 "Enfreint la loi galactique $RESOLUTION$"
+ IS_NOT_IN_BREACH_OF_TRIGGER:0 "N'enfreint PAS la loi galactique $RESOLUTION$"
  TRIGGER_IS_IN_COMBAT:0 "Est au combat"
  TRIGGER_IS_NOT_IN_COMBAT:0 "N'est PAS au combat"
  HAS_OWNER:0 "Est colonisée"
