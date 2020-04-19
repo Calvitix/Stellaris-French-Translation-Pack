@@ -1,0 +1,64 @@
+﻿l_french:
+#_无尽整合
+ z_modmenu_button: "§GInfinite Stellaris: Mod Menu§!"
+ z_modmenu_button_white: "IS Mod Menu Panel"
+ z_modmenu.1.name: "Infinite Stellaris MOD Customization Menu"
+ z_modmenu.2.name: "Sub Mods of Infinite Stellaris"
+ z_modmenu.3.name: "Mods Supported by Infinite Stellaris"
+ z_modmenu.1.desc: "Detailed setting for all IC sub mods."
+ z_modmenu_exit: "§RCancel§!"
+ z_modmenu_start_title: "§GInfinite Stellaris Customization Menu§! Initialized"
+ z_modmenu_start_title_desc: "§YDo you know?§! You can access this modmenu by using edict.\n\nIn this customization menu, you can set key parameters of all IC sub mods like §G!! 00 Performance, !! 00 Performance Plus, 00 Protectors of the Empire, 00 Technology Leaps§!, etc. Some functions are initially disabled, you need to turn it on manaully. Make proper use of this modmenu, and your game experience will be better."
+ z_modmenu.12.a: "Excellent!"
+ 
+###_tooltips
+ z_tooltip_mid_game_passed: "§YMid-Game Stage§! has passed"
+ z_tooltip_wip: "This feature is §Yunder development§!"
+ z_mm_sub_mod_not_activited: "This sub module is not properly installed and cannot be toggled."
+ z_mm_sub_modmenu_on: "Multiple submodule windows toggled is not allowed."
+ z_mm_pf_manual_job_checking: "Manually job check ongoing."
+ z_mm_pf_manual_job_check_button: "$edict_z_performance_manual_edict$\n$edict_z_performance_manual_edict_desc$"
+ z_mm_pf2_ai_species_merging: "Merging AI species ongoing."
+ z_mm_pf2_merge_ai_species_button: "$z_performance_misc.11.f1$\n$z_performance_misc.11.f1.tooltip$""
+
+
+
+
+###_other
+ tech_z_dummy: "§RIt is not something that you should have!§!"
+
+###_无尽整合主事件链
+ z_chain_main_title: "§GInfinite Collection: Core System§!"
+ z_chain_main_desc: "Detailed variables for Infinite Collection.\n\n§G$z_desire_for_star_var$§! left §G[This.z_desire_for_star_var]§!"
+
+#_z modmenu开启设置
+ edict_z_modmenu_edt: "§GInfinite Stellaris§!: Customization Menu"
+ edict_z_modmenu_edt_desc: "Open Infinite Collection Customization Menu. Detailed setting for all IC sub mods."
+#_初始化modmenu
+ edict_z_modmenu_initialization_edt: "§GInfinite Stellaris§!: modmenu initialization"
+ edict_z_modmenu_initialization_edt_desc: "If you have installed the Infinite Stellaris mod menu, but there is no shortcut button in the leftbar or edict to open the menu, please use this edict to initialize the mod."
+#_修复modmenu 按钮
+ edict_z_modmenu_restoration_edt: "§GInfinite Stellaris§!: modmenu button restoration"
+ edict_z_modmenu_restoration_edt_desc: "If your modmenu shortcut button is grayed out, please use this command to fix it."
+ 
+###_mod支持 ############################################################################################
+ z_modmenu_no_mod: "§RThis mod is not activited§!"
+ z_modmenu_no_mod_desc: "It may be because of improper installation."
+ z_modmenu_pity: "OH NOOOOOOOO..."
+###_功能 misc modmenu
+ z_misc_modmenu_button:0 "§GInfinite Stellaris§!: Supported Customization Menu"
+ z_misc_modmenu_button.tooltip:0 "§HOpen§! Supported Mod Customization Menu"
+ z_misc_modmenu.1.name:0 "$z_misc_modmenu_button$"
+ z_misc_modmenu.1.desc:0 "Only when supported mods are activited, those customization button will appear."
+ z_misc_modmenu_desc:0 "$z_misc_modmenu_button$\n$z_misc_modmenu.1.desc$"
+ 
+ z_mm_performance_desc: "§GInfintie Stellaris§!: Performance\nA mod which optimizes the job checking system to improve late game performance. Sub mod of Infinite Stellaris Project."
+ z_mm_pf2_desc: "§GInfintie Stellaris§!: Performance Plus\nA mod that optimizes the game in all aspects to improve late game performance. Sub mod of Infinite Stellaris Project."
+ z_mm_statistic_desc: "§GInfintie Stellaris§!: Performance Statistics\nA mod for game data statistics, which provides reference for optimization and debugging. Sub mod of Infinite Stellaris Project."
+ z_mm_cm_desc: "§GInfintie Stellaris§!: Crisis Master\nA powerful crisis manager and crisis expansion mod which make crisis and the War in Haven more challenging and interesting. Sub mod of Infinite Stellaris Project."
+ 
+ z_mm_sm_dduc_desc: "§BDynamic Difficulty - Ultimate Customization§!\nThis mod allows you to adjust the strength of all enemies in the game, including resources and combat power, giving you more challenges."
+ z_mm_sm_mem_desc: "§BMore Events Mod§!\nThis mod adds new anomalies and events to your game, focusing on spicing up the game after exploration has slowed down."
+ z_mm_sm_esc_desc: "§BExtra Ship Components§!\nThis mod aims to provide an extended and expanded technology tree, adding advanced weapons, shields and armor."
+ z_mm_sm_rls_desc: "§BRuler Level System§!\nRLS let every Ruler has their own level system! Make ruler role playing like a rpg game."
+ z_mm_sm_acot_desc: "§BAncient Cache of Technologies§!\nThis mod introduces a large varieties of new technologies based on the enigmatic dark matter/dark energies. From ship weapons, to buildings, to armies or planetary decisions."
