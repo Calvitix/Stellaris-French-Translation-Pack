@@ -1,0 +1,278 @@
+﻿l_french:
+
+
+###_[main]  ##############################################################################################
+#_evts
+ z_fw_evt_good:0 "Excellent !"
+ z_fw_evt_terrible:0 "C'est terrible !"
+ z_fw_evt_incredible:0 "C'est incroyable !"
+ 
+#_technologies
+ tech_z_dummy:0 "§RCe n'est pas quelque chose que vous devriez avoir ! §!"
+
+#_mian event chain SP用Root EC用This,EC等同country本身
+ z_chain_main_title:0 "§GInfinite Collection : Core System§!"
+ z_chain_main_desc:0 "Variables détaillées pour Infinite Collection.\n\n§G$z_desire_for_star_var$§! reste §G[This.z_desire_for_star_var]§!"
+
+###_Eager for stars
+#_evts
+ z_fw_start_title:0 "Bienvenue sur §GIfinite Stellaris§!"
+ z_fw_start_desc:0 "§GInfinite Stellaris§! se consacre à la construction d'un tout nouveau système de jeu en intégrant de nombreux mods §Yde haute qualité§!. Dans ce système, un framework rend différents mods §Ycompatibles§! tout en conservant §Yles caractéristiques propres§!. Ce qui rend Infinite Stellaris différent des autres packs de collection de mods, c'est le contenu original, qui contient §l'équilibre des valeurs, l'optimisation des performances, la coopération de plusieurs mods et même de nombreux nouveaux contenus§!. Sans aucun doute, cela commencera un nouveau voyage pour votre gameplay Stellaris.\n\nVotre soutien est ma motivation, c'est §H 小伞 INFINI7E§!.\n\n§BDesire for stars§! vous permet d'avoir 6 points de désir et une relique appelée §Y$z_fw_r_monument$§!, qui est utilisée pour augmenter la croissance de la population des colonies et lancer la Grande Croisade.\n§BPlan Ahead§! peut vous fournir une quantité initiale de ressources, ce qui est de la triche. Il est désactivé par défaut, vous pouvez le basculer par votre choix."
+ z_fw1_misc.1.a1:0 "Désir d'étoiles §GOn§!"
+ z_fw1_misc.1.a1.tooltip:0 "Cette espèce a hâte d'étendre son territoire, vous obtiendrez $z_fw_r_monument$. Rendra le jeu difficile et s'adaptera à l'environnement mod avec des ennemis de haute intensité. Points de désir §G+6§! et la planète capitale obtiennent un buff de croissance pop initial.\n\nLes points de désir peuvent être utilisés pour déclencher la décision de la planète $ z_fw_dec_desire_for_stars $ ou démarrer une grande croisade en basculant $ z_fw_r_monument $."
+ z_fw1_misc.1.a2:0 "Désir d'étoiles §HOff§!"
+ z_fw1_misc.1.a2.tooltip:0 "Vous n'obtiendrez pas $z_fw_r_monument$, qui peut être appelé dans le panneau de configuration du framework."
+ z_fw1_misc.1.b1:0 "Planifiez à l'avance §GOn§!"
+ z_fw1_misc.1.b1.tooltip:0 "Vous obtiendrez un certain montant de subvention des ressources. §Attention, c'est de la triche ! §! Vous n'avez pas besoin de ce buff si vous utilisez un démarrage avancé."
+ z_fw1_misc.1.b2:0 "Planifiez à l'avance §HOff§!"
+ z_fw1_misc.1.b2.tooltip:0 "Il n'y aura pas de subventions aux ressources au début du jeu."
+ z_fw1_misc.1.c:0 "§BDémarrage du jeu terminé§!"
+ z_fw1_misc.1.c.tooltip:0 "Et nous commençons donc"
+#_[evt13]
+ z_fw_desire_point_add_war_title:0 "Vainqueur de la guerre : point de désir §G+1.§!"
+ z_fw_desire_point_add_war_desc:0 "Personne ne peut nous arrêter, personne ! Gagner une guerre initiée par nous, tout l'empire est excité."
+
+#_tooltips
+ z_fw_desire_point_required:0 "Manque de points de désir."
+ z_fw_r_monument_activited:0 "Le monument d'Infinite Stellaris est activé."
+ z_fw_r_monument_effect:0 "Activite Monument of Infinite Stellaris, points de désir -3, Great Crusade Buff ajouté, et personne ne connaîtra mieux les guerres que vous !"
+#_relic
+ z_fw_r_monument:0 "§GMonument d'étoiles infinies§!"
+ z_fw_r_monument_desc:0 "Je vois, je conquiert. Lorsque notre grande civilisation est entrée dans la course des étoiles, ils ont fait ce monument avec un savoir-faire exquis. Il porte le désir de notre grande civilisation pour l'espace, et annonce également notre gloire dans l'avenir. Le basculer consommera des points de désir, utilisez également $z_fw_dec_desire_for_stars$. Gagner une guerre initiée par nous ou terminer certains événements spéciaux peut §Gagner§! Points de désir.\n§BOur voyage est une mer d'étoiles.§!\n\nPoints de désir restés §G [root.z_fw_desire_point_var]§!"
+
+ z_fw_r_monument_effect:0 "Activite it will consume desire points by §G3§!. Depending on the game period, different Great Crusade buff will be obtained. Do everything you can to defeat your enemies within 10 years!"
+#_决策
+ z_fw_dec_desire_for_stars:0 "§GEager pour les étoiles§! : Croissance rapide"
+ z_fw_dec_desire_for_stars_desc:0 "Le temps c'est de l'argent, le temps c'est la vie. Nous devons rattraper les autres civilisations, grandir plus vite, plus de personnes, une productivité plus puissante."
+ z_fw_dec_desire_for_stars_effect:0 "Ajouter $z_fw_mod_desire_growth_normal$ à une planète dans une certaine période, augmenter considérablement le taux de croissance de la population, consommer des points de désir par §G1§!."
+#_modifier
+ z_fw_mod_desire_growth_normal:0 "§GEager pour les étoiles§!"
+ z_fw_mod_desire_growth_normal_desc:0 "L'avenir est attendu ! Notre objectif est la mer des étoiles！"
+ z_fw_mod_desire_growth_hive:0 "§GEager pour les étoiles§!"
+ z_fw_mod_desire_growth_hive_desc:0 "Nous sommes un, nous sommes tous ! Essaim, omnipotent !"
+ z_fw_mod_desire_assembly_machine:0 "§GEager pour les étoiles§!"
+ z_fw_mod_desire_assembly_machine_desc:0 "Explorer l'espace inconnu augmentera la probabilité de survie de notre civilisation !"
+
+ z_fw_mod_desire_crusade_early:0 "§Une grande croisade de l'âge d'or§!"
+ z_fw_mod_desire_crusade_early_desc:1 "Notre civilisation doit accélérer son expansion, avant que les extraterrestres maléfiques envahissent la galaxie, prennent les devants. Croyez-moi, personne ne comprend mieux les agressions précoces que nous."
+ z_fw_mod_desire_crusade_mid:0 "§Une grande croisade de l'ère des conflits§!"
+ z_fw_mod_desire_crusade_mid_desc:1 "Dans la sombre obscurité du 23e siècle, il n'y a que la guerre, mais personne ne peut nous empêcher d'avancer. Croyez-moi, personne ne connaît mieux l'extinction que nous."
+ z_fw_mod_desire_crusade_late:0 "§Une grande croisade de l'âge des ténèbres§!"
+ z_fw_mod_desire_crusade_late_desc:1 "Notre civilisation est confrontée à la crise de l'extinction, et les démons d'étoiles lointaines consomment notre espace. Nous devons survivre. Croyez-moi, personne ne connaît mieux suivival que nous."
+#_变量
+ z_fw_desire_point_var:0 "Points de désir"
+
+
+
+
+
+
+
+
+###_[全局]    ##############################################################################################
+
+###_地图模式    
+ z_map_mode_fleet:0 "§GFleet Power§! map mode"
+ z_map_mode_fleet_desc:0 "Le plus faible, le §Bluer§!. Le plus fort, le §Reader§!."
+ z_map_mode_fleet_negligible:0 "§Y[This.GetName]§! n'a presque pas de puissance navale décente."
+ z_map_mode_fleet_lv1:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [1k]."
+ z_map_mode_fleet_lv2:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [5k]."
+ z_map_mode_fleet_lv3:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [10k]."
+ z_map_mode_fleet_lv4:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [25k]."
+ z_map_mode_fleet_lv5:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [50k]."
+ z_map_mode_fleet_lv6:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [100k]."
+ z_map_mode_fleet_lv7:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [250k]."
+ z_map_mode_fleet_lv8:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [500k]."
+ z_map_mode_fleet_lv9:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [750k]."
+ z_map_mode_fleet_lv10:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [1m]."
+ z_map_mode_fleet_lv11:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [2.5m]."
+ z_map_mode_fleet_lv12:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [5m]."
+ z_map_mode_fleet_lv13:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [10m]."
+ z_map_mode_fleet_lv14:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [25m]."
+ z_map_mode_fleet_lv15:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [50m]."
+ z_map_mode_fleet_lv16:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [100m]."
+ z_map_mode_fleet_lv17:0 "§Y[This.GetName]§! avoir au moins la puissance de la flotte de [250m]."
+ 
+ z_map_mode_science:0 "§GTechnology Power§! map mode"
+ z_map_mode_science_desc:0 "Le plus d'avantages technologiques sur nous, le §Rreder§!. La puissance technologique plus faible que nous, le §Bbluer§!."
+ z_map_mode_science_more_4:0 "§Y[This.GetName]§! >>>> §G [From.GetName]§!"
+ z_map_mode_science_more_3:0 "§Y[This.GetName]§! >>> §G [From.GetName]§!"
+ z_map_mode_science_more_2:0 "§Y[This.GetName]§! >> §G [From.GetName]§!"
+ z_map_mode_science_more_1:0 "§Y[This.GetName]§! > §G [From.GetName]§!"
+ z_map_mode_science_equal:0 "§Y[This.GetName]§! = §G [From.GetName]§!"
+ z_map_mode_science_less_1:0 "§Y[This.GetName]§! <§G [From.GetName]§!"
+ z_map_mode_science_less_2:0 "§Y[This.GetName]§! << §G [From.GetName]§!"
+ z_map_mode_science_less_3:0 "§Y[This.GetName]§! <<< §G [From.GetName]§!"
+ z_map_mode_science_less_4:0 "§Y[This.GetName]§! <<<< §G [From.GetName]§!"
+ 
+ z_map_mode_relic:0 "§GRelic Holder§! map mode"
+ z_map_mode_relic_desc:0 "Le plus relique détenu, le §Reader§!. Lorsqu'une pierre à l'infini est tenue, indique §Bleu§!."
+ z_map_mode_relic_infinite:0 "§Y[This.GetName]§! contient au moins une pierre infinie."
+ z_map_mode_relic_3:0 "§Y[This.GetName]§! détient de nombreuses reliques."
+ z_map_mode_relic_2:0 "§Y[This.GetName]§! contient 2 reliques."
+ z_map_mode_relic_1:0 "§Y[This.GetName]§! contient 1 relique."
+ z_map_mode_relic_none:0 "§Y[This.GetName]§! ne possède aucune relique."
+ 
+ z_map_mode_zenith:0 "§Fallen Empire§! map mode"
+ z_map_mode_zenith_desc:0 "Les empires déchus éveillés montrent §Rred§!, les empires déchus montrent §Jaunes§!, les empires ascendants ZONE montrent §Bblue§!, ZOFE les empires perdus montrent §Cyan§!, les empires normaux montrent §Wwhite§!."
+ z_map_mode_zenith_awakened:0 "§Y[X_1]§! est un empire éveillé."
+ z_map_mode_zenith_fallen:0 "§Y[This.GetName]§! est un empire déchu."
+ z_map_mode_zenith_ascended:0 "§Y[This.GetName]§! est un empire ascensionné."
+ z_map_mode_zenith_lost:0 "§Y[This.GetName]§! est un empire perdu."
+ z_map_mode_zenith_default:0 "§Y[This.GetName]§! est un empire normal."
+
+ z_map_mode_rivals:0 "§GRival§! map mode"
+ z_map_mode_rivals_desc:0 "Les rivaux s'affichent §Jaune§!, leur rival montre §Bleu§!, notre rival montre §Rred§!."
+ z_map_mode_rivals_both:0 "§Y[This.GetName]§! et §G [From.GetName]§! sont rivaux les uns aux autres."
+ z_map_mode_rivals_ours:0 "§Y[This.GetName]§! est le rival de §G [From.GetName]§! unidirectionnellement."
+ z_map_mode_rivals_their:0 "§Y[This.GetName]§! déclaré §G [From.GetName]§! comme un rival unidirectionnellement."
+ z_map_mode_rivals_none:0 "§Y[This.GetName]§!"
+
+ z_map_mode_borders:0 "§GBorder Relationship§! map mode"
+ z_map_mode_borders_desc:0 "La bordure fermée les uns des autres montre §Jaune§!, la frontière fermée par nous montre §Bleu§!, la frontière fermée de nous montre §Rred§!, aucune bordure fermée ne montre §Vert§!."
+ z_map_mode_borders_both:0 "§Y[This.GetName]§! et §G [From.GetName]§! ont fermé la frontière les uns des autres."
+ z_map_mode_borders_ours:0 "§Y[This.GetName]§! a été interdit d'entrer à la frontière par le §G [From.GetName]§!."
+ z_map_mode_borders_their:0 "§Y[This.GetName]§! a fermé sa bordure du §G [From.GetName]§!."
+ z_map_mode_borders_none:0 "§Y[This.GetName]§! et §G [From.GetName]§! n'ont pas de frontière fermée."
+
+ z_map_mode_claims:0 "§GClaim§! map mode"
+ z_map_mode_claims_desc:0 "Avoir une réclamation sur le territoire de l'autre montre §Jaune§!, avoir été réclamé par nous montre §Bleu§!, avoir une réclamation sur notre territoire montre §Rred§!."
+ z_map_mode_claims_both:0 "§Y[This.GetName]§! et §G [From.GetName]§! avoir des droits sur le territoire de l'autre."
+ z_map_mode_claims_ours:0 "Le territoire de §Y[This.GetName]§! A été revendiqué par §G [From.GetName]§!."
+ z_map_mode_claims_their:0 "§Y[This.GetName]§! a revendiqué le territoire de §G [From.GetName]§!."
+ z_map_mode_claims_none:0 "§Y[This.GetName]§!"
+
+
+
+
+
+ 
+ 
+ 
+###_[WG]    ##########################################################################################
+#_去军事化
+ casus_belli_z_fw_cb_demilitarize:0 "Menace militaire"
+ war_goal_z_fw_wg_demilitarize:0 "Démilitarisation"
+ war_goal_z_fw_wg_demilitarize_desc:0 "Lancez une guerre pour affaiblir le potentiel de guerre de l'ennemi."
+ z_fw_demilitarize_accept:0 "'§Y[From.GetName]§!' a été démilitarisé, §R25%§! de son §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! sera réduit en §Y20§! ans et il ne peut pas déclencher une guerre.\n§Y[Root.GetName]§! a gagné §G+100§! £influence£\n"
+#_modifier
+ z_fw_demilitarized:0 "Démilitarisation"
+ z_fw_demilitarized_desc:0 "§LNous avons été démilitarisés par un autre empire.§!"
+ 
+#_圣遗物争夺战
+ casus_belli_z_fw_cb_plunder_relic:0 "S'emparer d'une relique"
+ casus_belli_z_fw_cb_plunder_relic_all:0 "S'emparer des reliques"
+ war_goal_z_fw_plunder_one_relic:0 "Guerre pour une relique"
+ war_goal_z_fw_plunder_one_relic_desc:0 "Utilisez cette cible de guerre pour saisir la relique appartenant à l'ennemi. S'ils ont plusieurs trésors différents, ils n'en sélectionneront qu'un au hasard et l'enverront dans notre capitale."
+ war_goal_z_fw_plunder_all_relics:0 "Guerre pour les reliques"
+ war_goal_z_fw_plunder_all_relics_desc:0 "Prenez tous les trésors de l'ennemi. L'utilisation de cet objectif de guerre peut avoir un impact diplomatique sérieux."
+#_通知event
+ z_fw_relic_wars.name:0 "S'emparer d'une relique"
+ z_fw_relic_wars.desc:0 "[From.From.GetName] s'est rendu à nous. La relique en tant que butin a été transférée en toute sécurité dans notre capitale. Comme nos archéologues s'y attendaient, ce précieux artefact est finalement revenu à son véritable propriétaire."
+ z_fw1_misc.21.a:0 "Oui, c'est la nôtre."
+ z_fw_relic_wars_lost.name:0 "Tribulation de l'échec"
+ z_fw_relic_wars_lost.desc:0 "La guerre est finie ! Nous devons admettre l'échec. En compensation de la guerre, nous transmettrons une relique que nous devons à '[From.GetName]'. Aujourd'hui, des journalistes de tout le pays ont décrit l'incident comme une défaite honteuse."
+ z_fw1_misc.22.a:0 "Ils paieront pour cela."
+ z_fw_relic_wars_all.name:0 "S'emparer des trésors"
+ z_fw_relic_wars_all.desc:0 "[From.From.GetName] a été complètement vaincu par nous, et la vie de son peuple est entre nos mains. En tant qu'empire interstellaire civilisé, nous ne nous amuserons pas par des tueries insignifiantes, mais ces trésors poussiéreux dans leurs musées deviendront la gloire suprême de nos braves guerriers."
+ z_fw1_misc.23.a:0 "Prenez tout ici !"
+ z_fw_relic_wars_all_lost.name:0 "Une bonne nouvelle"
+ z_fw_relic_wars_all_lost.desc:0 "Notre flotte autrefois puissante est devenue de la poussière spatiale, nos forces de défense se sont rendues aux combattants ennemis et nos trésors nationaux ont été pillés. Les barbares de '[From.GetName]' ne nous ont laissé qu'un coffre-fort vide."
+ z_fw1_misc.24.a:0 "Vivre est la plus grande fortune."
+#_modifier
+ z_fw_relic_obtained:0 "Pilleur de Reliques"
+ z_fw_relic_obtained_desc:0 "Les autres sont l'enfer et leur haine est la source de notre force et de notre fierté."
+#_态度
+ z_fw_opinion_wg_relic:0 "A Pillé nos reliques sacrées"
+ z_fw_opinion_wg_relic_all:0 "Nous a tout pillé"
+ z_fw_opinion_wg_relic_all_others:0 "Pilleur de Reliques"
+
+#_打开边境
+ casus_belli_z_fw_cb_border:0 "Frontières fermées"
+ war_goal_z_fw_wg_open_border:0 "Guerre d'Ouverture des Frontières"
+ war_goal_z_fw_wg_open_border_desc:0 "Commencez une guerre pour ouvrir les frontières de la civilisation hostile et obtenez 20 ans de droit de passage."
+ z_fw_open_border_tooltip:0 "§Y[From.GetName]§! a été vaincu, ils ont réprimé leur arrogance et ont accepté de nous ouvrir la frontière dans le §Y20§! ans.\n§Y[Root.GetName]§! a gagné §G+100§! £influence£\n"
+ war_goal_z_fw_wg_open_border_long:0 "Port ouvert"
+ war_goal_z_fw_wg_open_border_long_desc:0 "Commencez une guerre pour ouvrir les frontières des civilisations hostiles, gagner 40 ans de droit de passage et mettre fin à la compétition."
+ z_fw_open_border_long_tooltip:0 "§Y[From.GetName]§! a été complètement vaincu, ils ont dû réprimer leur arrogance et ont accepté de nous ouvrir la frontière dans le §Y40§!. Dans le même temps, nous avons également mis fin à l'état des rivaux avec eux, mais ils n'étaient évidemment pas d'accord avec ce résultat et riposteraient un jour à l'avenir.\n§Y[Root.GetName]§! a gagné §G+150§! £influence£\n"
+#_态度
+ z_fw_opinion_wg_open_boder_long:0 "Soyez endémique sur notre territoire"
+
+
+
+
+
+
+
+
+###_[ambient] ############################################################################################
+#_planet
+ z_pc_nova:0 "§GSupernova§!"
+ z_pc_nova_desc:0 "Cette supernova n'est évidemment pas naturelle, ce qui la rend extrêmement instable. Elle s'effondrera dans quelques mois. Mais avant cela, ce sera l'étoile la plus brillante du ciel."
+
+
+
+
+
+
+
+
+###_[cheat]    ############################################################################################
+
+###_璀璨星图
+#_evts
+ z_fw_r_co_choice_power.name:0 "§GCelestial Orrey§! : Fire Mode"
+ z_fw_r_co_choice_power.desc:0 "Ressentez la colère de Dieu. Nous devons choisir un moyen de faire exploser l'étoile. Immédiatement, tout sera calme. L'ordre retournera dans la galaxie avec la lumière brillante de l'étoile qui explose."
+ z_fw1_misc.31.a1:0 "Faire exploser le noyau étoile"
+ z_fw1_misc.31.a2:0 "Faire exploser toutes les étoiles dans ce système"
+ z_fw1_misc.31.a3:0 "Faire exploser toutes les étoiles de ce système et des systèmes voisins"
+ z_fw1_misc.31.a4:0 "Faire exploser les étoiles pour détruire cet empire"
+ z_fw1_misc.313.name:0 "[LastKilledCountryName] has been completely destroyed"
+ z_fw1_misc.313.desc:0 "We learned that [LastKilledCountryName] has been completely destroyed by some mysterious power. Within less than a month, the stars in their territory have erupted one after another, making their territory extremely bright, but unfortunately they have become light as well. Their precious fleets, the megastructures which is covering the sky dome, their prosperous and glorious planets, now has become nothing left except wreckage. The twinkling supernova and the fragments of the celestial body are intertwined to form an extremely magnificent picture, which is intoxicating."
+ z_fw1_misc.314.name:0 "[LastKilledCountryName] has been completely destroyed"
+ z_fw1_misc.314.desc:0 "We learned that the mighty [LastKilledCountryName] has been completely destroyed by some mysterious power. Within less than a month, the stars in their territory have erupted one after another, making their territory extremely bright, but unfortunately they have become light as well. Their unmatched fleets, the megastructures which is covering the sky dome, their prosperous and glorious planets, now has become nothing left except wreckage. The twinkling supernova and the fragments of the celestial body are intertwined to form an extremely magnificent picture, which is intoxicating."
+ z_fw1_misc.315.name:0 "[LastKilledCountryName] has been completely destroyed"
+ z_fw1_misc.315.desc:0 "We learned that [LastKilledCountryName] has been completely destroyed by some mysterious terrible power. Within a month, the stars in their territory have erupted one after another, making their territory extremely shining, but unfortunately they have become light as well. We do not know what kind of history they have, and the communication with them is only some short conversation, just as they never existed for us. Today, only the twinkling supernova and the fragments of the celestial body are intertwined in the systems that originally belonged to them, forming a very magnificent picture, which is intoxicating."
+ z_fw1_misc.316.name:0 "An unknown interstellar civilization has been completely destroyed"
+ z_fw1_misc.316.desc:0 "We learned that an unknown interstellar civilization has been completely destroyed by some mysterious terrible power. Within a month, the stars in their territory have erupted one after another, making their territory extremely shining, but unfortunately they have become light as well. We do not know what kind of history they have, and the communication with them is only some short conversation, just as they never existed for us. Today, only the twinkling supernova and the fragments of the celestial body are intertwined in the systems that originally belonged to them, forming a very magnificent picture, which is intoxicating."
+ 
+#_tooltips
+ z_fw_r_celestial_orrey_not_activited:0 "Orrery céleste est §Non activé.§!"
+ z_fw_r_celestial_orrey_activited:0 "Celestial Orrey est §GActivé§!. Spécifiez les coordonnées de positionnement dans §Panneau de construction de la structure§§! du vaisseau du génie pour faire exploser un corps céleste."
+ z_fw_target_marker_co_ongoing:0 "Il existe un marqueur cible Orrey céleste."
+ z_fw_target_marker_co_1_placement:0 "Doit être fixé sur des étoiles."
+ z_fw_target_marker_co_2_placement:0 "Doit être placé sur des corps célestes spéciaux, tels que des trous noirs, des étoiles à neutrons, etc."
+#_megastructures
+ z_mm_mega_target_marker_co_1:0 "Marqueur de cible du détonateur à coeur étoilé"
+ z_mm_mega_target_marker_co_1_DESC:0 "Cela n'a rien à voir avec vous si nous voulons vous détruire. Nous avons été témoins des cendres de trop de civilisations. Peu importe à quel point la culture et les réalisations sont brillantes, elles ne sont que la poussière de l'histoire devant l'Infinite Stellaris."
+ z_mm_mega_target_marker_co_1_MEGASTRUCTURE_DETAILS:0 "Marquez une étoile normale et faites exploser son noyau, tout sera détruit."
+ z_mm_mega_target_marker_co_2:0 "Marqueur cible d'impact de gravité"
+ z_mm_mega_target_marker_co_2_DESC:0 "$$ Z_mm_mega_target_marker_co_1_desc"
+ z_mm_mega_target_marker_co_2_MEGASTRUCTURE_DETAILS:0  "Marquez un corps céleste spécial et déclenchez l'éclatement de la gravité, tout sera détruit."
+#_relic
+ z_fw_r_celestial_orrey:0 "§Infinite Stellaris§! : Orrery céleste"
+ z_fw_r_celestial_orrey_desc:0 "Équipement mystérieux de l'ancienne dynastie Necron des Oruscar, il montre un immense réseau de cartes d'étoiles couvrant toute la galaxie. Cliquez sur l'un des points forts, et une étoile deviendra une supernova en un instant.\n§BWow, tache lumineuse brillante partout.§!"
+ z_fw_r_celestial_orrey_effect:0 "L'activer vous permettra d'avoir une gamme complète de capteurs et d'utiliser la décision de faire exploser une étoile au cours de la prochaine année."
+#_决策
+ z_fw_dec_detonate_star:0 "§GCelestial Orrery§! : Faire exploser l'étoile"
+ z_fw_dec_detonate_star_desc:0 "La perturbation du coeur de l'étoile arrive à la fin de sa vie. Ce sera la dernière fois à s'épanouir."
+ z_fw_dec_detonate_star_effect:0 "Cette étoile sera obligée d'exécuter une explosion de supernovae, détruisant tout dans le système. Selon la masse de l'étoile, elle pourrait s'effondrer dans un trou noir, une étoile à neutrons ou une naine blanche en quelques mois. Quoi qu'il en soit, tout sera détruit."
+
+
+
+
+###_[relic]    ############################################################################################
+
+#_evts
+ z_fw_evt_good_karyl: "Excellent, but they are so stinky!"
+ z_fw_evt_terrible_karyl: "We have big trouble now, and they are so stinky!"
+ z_fw1_misc.324.name: "The population of the planet has been totally assimilated"
+ z_fw1_misc.324.desc.1: "Accompanied by a noisy girly voice, the intelligent species of the entire planet, regardless of organisms, intelligent machines, stone men or other messy existence, have become dark-haired beast-eared girls with two strands of white hair. Although we have not yet understood why these tentacled heads can assimilate even bread machines and stones, there is no doubt that the planet has no other species, and if there are, it will soon become them. But fortunately, with $z_fw_r_head_of_karyl$, we can create high-quality beast-eared girls, not like those on alien's plenets."
+ z_fw1_misc.324.desc.2: "Accompanied by a noisy girly voice, the intelligent species of the entire planet, regardless of organisms, intelligent machines, stone men or other messy existence, have become dark-haired beast-eared girls with two strands of white hair. Although we have not yet understood why these tentacled heads can assimilate even bread machines and stones, there is no doubt that the planet has no other species, and if there are, it will soon become them. It's really terrible, OMG, if left unattended, it may infect other worlds!"
+ z_fw1_misc.325.name: "This planet is polluted!"
+ z_fw1_misc.325.desc: "Wait, what's going on, what is this? A group of lively ... heads? The following are also covered with horrible sticky tentacles, oh my god, they actually jumped on everyone and tore everyone's heads off to replace them. What the hell is this monster?"
+
+#_relic
+ z_fw_r_head_of_karyl:0 "§GInfinte Stellaris§!: Strange head"
+ z_fw_r_head_of_karyl_desc:0 "A strange head, covered with sticky tentacles, once it comes into contact with living things, whether it is a living thing or a machine, it will immediately jump to the opposite body to tear off the opposite head and replace it, and it will split to duplicate themselves from time to time. It seems very dangerous, so we sealed it, but it seems that throwing these replicas on the colony may be a good choice.\n§BHowever, this thing is really stinky.§!"
+ z_fw_r_head_of_karyl_effect:0 "Activited this will unlock the megastructure $z_fw_mega_target_marker_hok$, and only one can be built each time you activited this relic. Then you will specify any colony and sow replica of $z_fw_r_head_of_karyl$ on it."

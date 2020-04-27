@@ -1,64 +1,124 @@
 ﻿l_french:
-#_无尽整合
- z_modmenu_button: "§GInfinite Stellaris: Mod Menu§!"
- z_modmenu_button_white: "IS Mod Menu Panel"
- z_modmenu.1.name: "Infinite Stellaris MOD Customization Menu"
- z_modmenu.2.name: "Sub Mods of Infinite Stellaris"
- z_modmenu.3.name: "Mods Supported by Infinite Stellaris"
- z_modmenu.1.desc: "Detailed setting for all IC sub mods."
- z_modmenu_exit: "§RCancel§!"
- z_modmenu_start_title: "§GInfinite Stellaris Customization Menu§! Initialized"
- z_modmenu_start_title_desc: "§YDo you know?§! You can access this modmenu by using edict.\n\nIn this customization menu, you can set key parameters of all IC sub mods like §G!! 00 Performance, !! 00 Performance Plus, 00 Protectors of the Empire, 00 Technology Leaps§!, etc. Some functions are initially disabled, you need to turn it on manaully. Make proper use of this modmenu, and your game experience will be better."
- z_modmenu.12.a: "Excellent!"
+###_测试
+ z_modmenu.11.name: "§GEndless Stars : Test§!"
+ z_modmenu.11.desc: "Ce n'est pas quelque chose que vous devriez toucher !"
+ z_modmenu_test_1: "Chômage rafraîchi-chômage"
+ z_modmenu_test_2: "Actualisation de la classification des chômeurs"
+ z_modmenu_test_3: "Espèces rafraîchies sans emploi"
+ z_modmenu_test_4: "Actualisation de la population sans emploi - factions de test obligatoires"
+ z_modmenu_test_5: "Rafraîchissement-rafraîchissement sans emploi"
+ z_modmenu_test_6: "Test de création d'objet"
+
+
+
+
+###_IS panel
+ z_modmenu_button: "§GInfinite Stellaris : Menu Mod§!"
+ z_modmenu_button_white: "Menu : §BMod IS§!"
+ z_modmenu.1.name: "Menu de personnalisation : Infinite Stellaris MOD"
+ z_modmenu.2.name: "Sous Mods d'Infinite Stellaris"
+ z_modmenu.3.name: "Mods pris en charge par Infinite Stellaris"
+ z_modmenu.1.desc: "Réglage détaillé pour tous les sous-modules IC."
+ z_modmenu_exit: "§RAnnuler§!"
+ z_modmenu_start_title: "§HMenu de personnalisation Stellaris infini§! Initialisé"
+ z_modmenu_start_title_desc: "§YLe savez-vous ? §! Vous pouvez accéder à ce menu mod en utilisant un décret, ou en utilisant le bouton tout en bas de la barre de navigation de gauche.\n\nDans ce menu de personnalisation, vous pouvez définir les paramètres clés de tous les sous-mods IC comme §G!! 00 Performance, !! 00 Performance Plus, 00 Protecteurs de l'Empire, 00 Technology Leaps§!, etc.§! Certaines fonctions sont initialement désactivées, vous devez les activer manuellement. Faites un bon usage de ce menu, et votre expérience de jeu en sera meilleure. une partie des éléments du mod §BInfinite Collection§! ont été intégrés à présent dans ce Mod Menu."
+ z_modmenu.12.a: "Excellent !"
+ z_modmenu.12.a1: "Excellent, gloire au §Infinite Stellaris§! !"
+ z_modmenu.12.a3: "Excellent, gloire au §Infinite Stellaris§! !"
+ z_modmenu.12.a3.tooltip: "Démarrez le jeu avec de nouveaux bâtiments, de nouveaux types de guerre et commencez l'aide au jeu depuis les frameworks Infinite Stellaris."
+ z_modmenu.12.a2: "Excellent, mais je veux seulement le panneau §YModmenu§!."
+ z_modmenu.12.a2.tooltip: "Démarrez le jeu sans nouveau contenu à partir des frameworks Infinite Stellaris."
+ z_modmenu.12.a4: "Excellent, mais je ne veux que le panneau §YModmenu§! et ne touchez jamais à aucun élément du framework."
+ z_modmenu.12.a4.tooltip: "Démarrez le jeu sans nouveau contenu des frameworks Infinite Stellaris, et désactivez également les paramètres des frameworks dans le jeu.\nSi vous ne pouvez vraiment pas contrôler vos mains pour toucher un paramètre de framework ou utiliser une fonction de triche, c'est votre choix !"
  
 ###_tooltips
- z_tooltip_mid_game_passed: "§YMid-Game Stage§! has passed"
- z_tooltip_wip: "This feature is §Yunder development§!"
- z_mm_sub_mod_not_activited: "This sub module is not properly installed and cannot be toggled."
- z_mm_sub_modmenu_on: "Multiple submodule windows toggled is not allowed."
- z_mm_pf_manual_job_checking: "Manually job check ongoing."
+ z_mm_tips_mid_game_passed: "Période de la partie '§Ymid-game§!' est passée"
+ z_mm_tips_wip: "Cette fonctionnalité est §YEn cours de développement§!"
+ z_mm_tips_framework_disabled: "Vous avez choisi de désactiver complètement le paramétrage des frameworks, il n'y a aucun regret.\n\nBien sûr, si vous deviez le regretter, demandez à l'auteur de récupérer le code de la console."
+ z_mm_tips_sub_mod_not_activited: "Ce sous-module n'est pas correctement installé et ne peut pas être activé."
+ z_mm_tips_sub_modmenu_on: "Les fenêtres de sous-modules multiples activées ne sont pas autorisées."
+ z_mm_pf_manual_job_checking: "Vérification manuelle des 'jobs' en cours."
  z_mm_pf_manual_job_check_button: "$edict_z_performance_manual_edict$\n$edict_z_performance_manual_edict_desc$"
- z_mm_pf2_ai_species_merging: "Merging AI species ongoing."
- z_mm_pf2_merge_ai_species_button: "$z_performance_misc.11.f1$\n$z_performance_misc.11.f1.tooltip$""
+ z_mm_pf2_ai_species_merging: "Fusion des espèces d'IA en cours."
+ z_mm_pf2_merge_ai_species_button: "$z_performance_misc.11.f1$\n$z_performance_misc.11.f1.tooltip$"
 
 
 
 
 ###_other
- tech_z_dummy: "§RIt is not something that you should have!§!"
+ tech_z_dummy: "§RIt ce n'est pas quelque chose que vous devriez voir ! §!"
 
 ###_无尽整合主事件链
- z_chain_main_title: "§GInfinite Collection: Core System§!"
- z_chain_main_desc: "Detailed variables for Infinite Collection.\n\n§G$z_desire_for_star_var$§! left §G[This.z_desire_for_star_var]§!"
+ z_chain_main_title: "§GInfinite Collection : Core System§!"
+ z_chain_main_desc: "Variables détaillées pour Infinite Collection.\n\n§G $z_desire_for_star_var$§! gauche §G [This.z_desire_for_star_var]§!"
 
+
+
+###_功能edit  ############################################################################################
 #_z modmenu开启设置
- edict_z_modmenu_edt: "§GInfinite Stellaris§!: Customization Menu"
- edict_z_modmenu_edt_desc: "Open Infinite Collection Customization Menu. Detailed setting for all IC sub mods."
+ edict_z_modmenu_edt: "Options du mod §BInfinite Stellaris§!"
+ edict_z_modmenu_edt_desc: "Ouvrez le menu de configuration Infinite Collection. Réglage détaillé pour tous les sous-modules IC."
 #_初始化modmenu
- edict_z_modmenu_initialization_edt: "§GInfinite Stellaris§!: modmenu initialization"
- edict_z_modmenu_initialization_edt_desc: "If you have installed the Infinite Stellaris mod menu, but there is no shortcut button in the leftbar or edict to open the menu, please use this edict to initialize the mod."
+ edict_z_modmenu_initialization_edt: "§GInfinite Stellaris§! : initialisation du modmenu"
+ edict_z_modmenu_initialization_edt_desc: "Si vous avez installé le menu du mod Infinite Stellaris, mais qu'il n'y a pas de bouton de raccourci dans la barre de gauche ou l'édit pour ouvrir le menu, veuillez utiliser cet édit pour initialiser le mod."
 #_修复modmenu 按钮
- edict_z_modmenu_restoration_edt: "§GInfinite Stellaris§!: modmenu button restoration"
- edict_z_modmenu_restoration_edt_desc: "If your modmenu shortcut button is grayed out, please use this command to fix it."
+ edict_z_modmenu_restoration_edt: "§Infinite Stellaris§! : Restauration des boutons du menu mod"
+ edict_z_modmenu_restoration_edt_desc: "Si votre bouton de raccourci modmenu est grisé, veuillez utiliser cette commande pour le corriger."
  
-###_mod支持 ############################################################################################
- z_modmenu_no_mod: "§RThis mod is not activited§!"
- z_modmenu_no_mod_desc: "It may be because of improper installation."
- z_modmenu_pity: "OH NOOOOOOOO..."
-###_功能 misc modmenu
- z_misc_modmenu_button:0 "§GInfinite Stellaris§!: Supported Customization Menu"
- z_misc_modmenu_button.tooltip:0 "§HOpen§! Supported Mod Customization Menu"
+ 
+ 
+ 
+###_mod未安装提示 ############################################################################################
+ z_modmenu_no_mod: "§Ce mod n'est pas activé§!"
+ z_modmenu_no_mod_desc: "Cela peut être dû à une mauvaise installation."
+ z_modmenu_pity: "OH NOOOOOOOO ..."
+ 
+ 
+ 
+ 
+###_按钮  ############################################################################################
+#_evts z modmenu
+ z_mm_desc_framework:0 "§GInfinite Stellaris§! : Menu de personnalisation du framework"
+ z_modmenu.13.name:0 "$z_mm_desc_framework$"
+ z_modmenu.13.desc:0 "Il s'agit du menu de personnalisation du contenu original d'Infinite Stellaris Core Framework, et vous pouvez basculer sur certaines fonctions de base, y compris le système de difficulté adaptative, le menu de triche, etc."
+ z_modmenu.13.a1:0 "Mode de triche §HEnabled§!"
+ z_modmenu.13.a1.tooltip:0 "Le mode de triche vous permet de détruire n'importe quel système avec le Celestial Orrery et donne aux amiraux des traits spéciaux."
+ z_modmenu.13.a2:0 "Mode de triche §GDésactivé§!"
+ z_modmenu.13.a2.tooltip:0 "$ Zamdeen.13.1tl"
+ z_modmenu.13.b1:0 "Acquire §H$z_fw_r_monument$§!"
+ z_modmenu.13.b1.tooltip:0 "Vous n'avez pas $z_fw_r_monument$ maintenant, mais vous pouvez l'obtenir directement via cette commande."
+ z_modmenu.13.b2:0 "Tricher : $z_fw_desire_point_var$ §G+3§!"
+ z_modmenu.13.b3:0 "Tricher : $z_fw_desire_point_var$ §G+30§!"
+ z_modmenu.13.c1:0 "Infinite Collection Framework §Enabled§!"
+ z_modmenu.13.c1.tooltip:0 "Le contenu original d'Infintie Stellaris, si vous utilisez Infintie Collection, il sera automatiquement changé, ajoutant de nouveaux bâtiments, de nouveaux objectifs de guerre, une aide au démarrage du jeu et le désir des étoiles, etc."
+ z_modmenu.13.c2:0 "Infinite Collection Framework §Disabled§!"
+ z_modmenu.13.c2.tooltip:0 "$Zamzd.13.13.1$"
+ z_modmenu.13.c3:0 "Obtenez les technologies initiales"
+ z_modmenu.13.c3.tooltip:0 "Dans le système Infinite Stellaris, certaines technologies non initiales seront définies comme technologies initiales, telles que l'exploration automatique."
+#_evts z modmenu misc
+ z_modmenu.131.name:0 "Le tricheur apparaît"
+ z_modmenu.131.desc:0 "Il est honteux que [event_target:z_fw_tgt_country_last_cheater.GetName] vient de basculer la fonction de triche de §GInfinite Stellaris§!, et nous savons tous que c'est un jeu multijoueur !"
+#_IS sub modules
+ z_mm_performance_desc: "§GInfintie Stellaris§! : Performance\nUn mod qui optimise le système de vérification des tâches pour améliorer les performances en fin de partie. Sous-mod du projet Infinite Stellaris."
+ z_mm_pf2_desc: "§GInfintie Stellaris§! : Performance Plus\nUn mod qui optimise le jeu sous tous ses aspects pour améliorer les performances en fin de partie. Sous-mod du projet Infinite Stellaris."
+ z_mm_statistic_desc: "§GInfintie Stellaris§! : Statistiques de performances\nUn mod pour les statistiques de données de jeu, qui fournit une référence pour l'optimisation et le débogage. Sous-mod du projet Infinite Stellaris."
+ z_mm_cm_desc: "§GInfintie Stellaris§! : Crisis Master\nUn puissant gestionnaire de crise et un mod d'expansion de crise qui rendent la crise et la guerre de Haven plus difficiles et intéressantes. Sous-mod du projet Infinite Stellaris."
+#_misc mods
+ z_misc_modmenu_button:0 "§GInfinite Stellaris§! : Menu de personnalisation pris en charge"
+ z_misc_modmenu_button.tooltip:0 "§HOuvre§! Menu de personnalisation des modules pris en charge"
  z_misc_modmenu.1.name:0 "$z_misc_modmenu_button$"
- z_misc_modmenu.1.desc:0 "Only when supported mods are activited, those customization button will appear."
- z_misc_modmenu_desc:0 "$z_misc_modmenu_button$\n$z_misc_modmenu.1.desc$"
- 
- z_mm_performance_desc: "§GInfintie Stellaris§!: Performance\nA mod which optimizes the job checking system to improve late game performance. Sub mod of Infinite Stellaris Project."
- z_mm_pf2_desc: "§GInfintie Stellaris§!: Performance Plus\nA mod that optimizes the game in all aspects to improve late game performance. Sub mod of Infinite Stellaris Project."
- z_mm_statistic_desc: "§GInfintie Stellaris§!: Performance Statistics\nA mod for game data statistics, which provides reference for optimization and debugging. Sub mod of Infinite Stellaris Project."
- z_mm_cm_desc: "§GInfintie Stellaris§!: Crisis Master\nA powerful crisis manager and crisis expansion mod which make crisis and the War in Haven more challenging and interesting. Sub mod of Infinite Stellaris Project."
- 
- z_mm_sm_dduc_desc: "§BDynamic Difficulty - Ultimate Customization§!\nThis mod allows you to adjust the strength of all enemies in the game, including resources and combat power, giving you more challenges."
- z_mm_sm_mem_desc: "§BMore Events Mod§!\nThis mod adds new anomalies and events to your game, focusing on spicing up the game after exploration has slowed down."
- z_mm_sm_esc_desc: "§BExtra Ship Components§!\nThis mod aims to provide an extended and expanded technology tree, adding advanced weapons, shields and armor."
- z_mm_sm_rls_desc: "§BRuler Level System§!\nRLS let every Ruler has their own level system! Make ruler role playing like a rpg game."
- z_mm_sm_acot_desc: "§BAncient Cache of Technologies§!\nThis mod introduces a large varieties of new technologies based on the enigmatic dark matter/dark energies. From ship weapons, to buildings, to armies or planetary decisions."
+ z_misc_modmenu.1.desc:0 "Ce n'est que lorsque les mods pris en charge sont activés que ces boutons de personnalisation apparaissent."
+ z_misc_modmenu_desc:0 "$z_misc_modmenu_button$\n$ z_misc_modmenu.1.desc $"
+
+#_standalone shortcut buttons
+ z_mm_sm_dduc_desc: "§BDynamic Difficulty - Ultimate Customization§!\nCe mod vous permet d'ajuster la force de tous les ennemis dans le jeu, y compris les ressources et la puissance de combat, vous donnant plus de défis."
+ z_mm_sm_mem_desc: "§BMore Events Mod§!\nCe mod ajoute de nouvelles anomalies et événements à votre jeu, en se concentrant sur l'épicage du jeu après que l'exploration ait ralenti."
+ z_mm_sm_esc_desc: "§BExtra Ship Components§!\nCe mod vise à fournir une arborescence technologique étendue et étendue, ajoutant des armes, des boucliers et des armures avancées."
+ z_mm_sm_rls_desc: "§ Système de niveau de règle§!\nRLS permet à chaque règle d'avoir son propre système de niveau ! Faites jouer le rôle de règle comme un jeu de rôle."
+ z_mm_sm_acot_desc: "§BAncient Cache of Technologies§!\nCe mod présente une grande variété de nouvelles technologies basées sur l'énigmatique matière noire / énergies sombres. Des armes de Vaisseau, aux bâtiments, aux armées ou aux décisions planétaires."
+ z_mm_sm_cmn_desc: "§BCrisis Manager Unofficial§!\nCe mod vous permet de définir les détails de toutes les crises d'origine, y compris la crise de fin de partie, la menace à moyen terme et la fin du cercle. §RRemarque : conflit avec le Crisis Master, choisissez l'un ou l'autre.§!"
+ z_mm_sm_tgu_desc: "§L'Université Galactique§! {XXSFXX} Ce mode vous permet d'embaucher des leaders basés sur le trait en dépensant suffisamment de crédits d'énergie."
+
+
+
+
