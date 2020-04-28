@@ -2418,7 +2418,7 @@ civic_commonwealth:0 "Collectif Harmonieux"
 civic_commonwealth_desc:0 "§LCette société est caractérisée par un fort sentiment de communauté culturelle et de développement du bien commun parmi ses citoyens.§!"
 
 civic_consumerism:0 "Consumérisme dépensier"
-civic_consumerism_desc:0 "§LCette société préserve une idéologie sociale et économique qui encourage l'acquisition de biens et services en quantités toujours croissantes.§! \n\nLes emplois de §YClercs§! procure des emplois, avec §Y0.25§! £trade_value£ et §Y0.5§! £amenities£ \n\nLes bâtiments §YZone Commerciale§!, §YMégaplexe Commercial§! et Les §YDistricts urbains§! procurent des emplois de £job_clerk£ §YClerk§!\n\nLa faction §YEntrepreneurs§! sera mécontente concernant la politique §YRéglementation environnementale accrue§!, et sera contente avec la politique §YAvantages pour le consommateur§!"
+civic_consumerism_desc:0 "§LCette société préserve une idéologie sociale et économique qui encourage l'acquisition de biens et services en quantités toujours croissantes.§! \n\nLes emplois de §YClercs§! procure des emplois, avec §Y0.25§! £trade_value£ et §Y0.5§! £amenities£ \n Les emplois de §YMerchant§! produisent §G+1§! £consumer_goods£ §YBiens de consommation§! \n Les §YIndustries civiles§! procurent des £job_artisan£ §YArtisan§! supplémentaires\n\nLes bâtiments §YZone Commerciale§!, §YMégaplexe Commercial§! et Les §YDistricts urbains§! procurent des emplois de £job_clerk£ §YClerk§!\n\nLa faction §YEntrepreneurs§! sera mécontente concernant la politique §YRéglementation environnementale accrue§!, et sera contente avec la politique §YAvantages pour le consommateur§!"
 
 
 civic_military_dictatorship:0 "Seigneur de guerre"
@@ -2483,7 +2483,7 @@ FANATIC_LIBERTARIAN_GOVERNMENT:0 "Pluralisme Politique (0/0)"
 NO_FANATIC_LIBERTARIAN_GOVERNMENT:0"Pas de Political Pluralisme (0/0)"
 FANATIC_LIBERTARIAN_GOVERNMENT_DESC:0 "Toutes les factions, sauf les §YTotalitaires§! et les §YAristocratique§!, sont plus heureux quand la doctrine §YPluralisme politique§! est active."
 
-empire_not_pluralist_collectivist:0 "$TRIGGER_FAIL$Notre empire n'adhère pas aux idéaux §YFanatiquement Coopératif§!."
+empire_not_pluralist_collectivist:0 "$TRIGGER_FAIL$Notre Empire doit avoir la doctrine §YIdéaux socialistes§!."
 empire_is_elitist:0 "$TRIGGER_FAIL$Notre empire adhère aux idéaux §Y$ethic_elitist$§!."
 empire_not_elitist:0 "$TRIGGER_FAIL$Notre empire n'adhère pas aux idéaux nécessaires : §Y$ethic_elitist$§!."
 
@@ -2909,7 +2909,6 @@ civic_aristocratic_elite:0 "Élites aristocratiques"
 gov_timocracy:0 "Timocratie"
 gov_timocracy_desc:0 "Un État, où les droits politiques de la population sont stratifiés en fonction de la quantité de biens qu'ils possèdent."
 
-TOTALITARIAN_STRATIFICATION_DESC:1 "Assurer une société stratifiée - que ce soit par une économie stratifiée, l'esclavage, le privilège académique ou même la purge - plaira à la faction '[Root.GetName]'."
 
 gov_par_monarchy:0 "Monarchie Parlementaire"
 gov_par_monarchy_desc:0 "Un État dirigé par un monarque qui ne participe pas activement à l'élaboration ou à la mise en oeuvre des politiques. Le véritable gouvernement est exercé par un cabinet et son chef - un Premier ministre, un Premier ministre ou un chancelier - qui est issu du Parlement."
@@ -2918,7 +2917,7 @@ civic_naval_traditions:0 "Traditions Navales"
 civic_naval_traditions_desc:0 "§LCette société a des traditions profondément enracinées de la glorieuse flotte militaire.§! \n\nChaque fois que votre flotte en bat une autre, votre empire reçoit un modificateur de 30 jours §YVictoire glorieuse!§!. Chaque fois que votre flotte est vaincu par une autre, votre empire reçoit un modificateur de 30 jours §YMalheur aux vaincus !§!."
 
 civic_spiritual_democracy:0 "République Théocratique"
-civic_spiritual_democracy_desc:0 "§LUne forme de république, où les citoyens sont liés d'une tradition religieuse, basée sur un ensemble de valeurs morales fortes et d'impératifs éthiques.§! \n\nDans les £building£ §YBâtiments Capitoles§!, remplacement des emplois d'£job_administrator£ §Y$job_administrator$§! par des emplois de £job_high_priest §Y$job_high_priest_plural$§!, les bâtiments §YNexus Sacré§! et §YCitadelle de la Foi§! procurent des emplois de §YGrands Prêtres§!.\nLes £job_priest£ §Y$job_priest_plural$§! produisent §Y1§! £unity£ Unité supplémentaire \n\n§YEsclavage§! de personnes de sa propre espèce. §YDrogues§! et §YContrôle des populations§! ne sont pas autorisées. \n\nLes £job_high_priest£ §Y$job_high_priest_plural$§! procurent des emplois £society£ §YRecherche Sociétale§! et £amenities£ §YServices§!"
+civic_spiritual_democracy_desc:0 "§LUne forme de république, où les citoyens sont liés d'une tradition religieuse, basée sur un ensemble de valeurs morales fortes et d'impératifs éthiques.§! \n\nDans les £building£ §YBâtiments Capitoles§!, remplacement des emplois d'£job_administrator£ §Y$job_administrator$§! par des emplois de £job_high_priest §Y$job_high_priest_plural$§!, les bâtiments §YNexus Sacré§! et §YCitadelle de la Foi§! procurent des emplois de §YGrands Prêtres§!.\nLes £job_priest£ §Y$job_priest_plural$§! produisent §Y1§! £unity£ Unité supplémentaire \n\n§YEsclavage§! de personnes de sa propre espèce. Le §YContrôle des populations§! n'est pas autorisé. \n\nLes £job_high_priest£ §Y$job_high_priest_plural$§! procurent des emplois £society£ §YRecherche Sociétale§! et £amenities£ §YServices§!"
 
 
 glorious_fleet:0 "Victoire Glorieuse!"
@@ -3188,7 +3187,7 @@ ALLOWS_MORE_ENSLAVEMENT:0 "§EPermet d'asservir jusqu'à 50% Pops en utilisant l
 
 PROHIBITS_WELFARE:0 "§EInterdit le Niveau de vie §YBien-être Social§! §!"
 
-empire_not_capitalist_authoritarian:0 "$TRIGGER_FAIL$Requiert d'avoir la combinaison d'éthiques, soit §YFanatiquement Compétitif§!/§Ynon-démocratique§! ou §YAutoritaire§!/§Ynon-Coopératif§!."
+empire_not_capitalist_authoritarian:0 "$TRIGGER_FAIL$Requiert d'avoir la combinaison d'éthiques soit §YFanatiquement Compétitif§! ou alors §YAutoritaire§!/§Ynon-Coopératif§!."
 
 civic_ultimate_collective:0 "Hiérarchie immuable"
 civic_ultimate_collective_desc:0 "§LUne société totalitaire ferme, où toute l'économie est sous contrôle gouvernemental strict, et les citoyens sont dévoués à l'Etat sans aucune contrainte.§! \n\nNe peut pas choisir de politique économique §YMarché libre§! et §YInnovation et Progrès§!."
@@ -3344,14 +3343,17 @@ ap_socialism_utopia_desc:0 "Débloque la politique de niveau de vie §YUtopie§!
 
 requires_civic_shared_burden:0 "$TRIGGER_FAIL$L'éthique §Yfanatiquement Coopératif§! est requise."
 
-SOCIAL_WELFARE:0 "Bien-être Social (+10/-10)"
-NO_SOCIAL_WELFARE:0 "Bien-être Social (+10/-10)"
+SOCIAL_WELFARE:0 "Bien-être Social (+15/-10)"
+NO_SOCIAL_WELFARE:0 "Bien-être Social (+15/-10)"
 SOCIAL_WELFARE_DESC:0 "Définir la stratégie commerciale §YEquité Sociale§!, et les niveaux de vie §YBien-être Social§! ou §YUtopie§! plaira à la faction '[Root.GetName]'."
 
-TOTALITARIAN_STRATIFICATION:0 "Stratification Economique (+10/-10)"
+TOTALITARIAN_STRATIFICATION:0 "Stratification Economique (+15/-10)"
+TOTALITARIAN_STRATIFICATION_DESC:1 "Assurer une société économiquement stratifiée - que ce soit par le biais de la politique d'§YÉconomie stratifiée§! ou le Niveau de vie §YPrivileges Académiques§! - plaira à la faction '[Root.GetName]'."
 
-TOTALITARIAN_PERSONALITY_CULT:0 "Culte de la Personalité (+5/0)"
-TOTALITARIAN_NO_PERSONALITY_CULT:0 "Culte de la Personalité (+5/0)"
+
+
+TOTALITARIAN_PERSONALITY_CULT:0 "Culte de la Personnalité (+5/0)"
+TOTALITARIAN_NO_PERSONALITY_CULT:0 "Culte de la Personnalité (+5/0)"
 TOTALITARIAN_PERSONALITY_CULT_DESC:0 "Des doctrines comme §YSeigneur de Guerres§!, §YRois Sages§! ou §YCulte impérial§! plaira à la faction '[Root.GetName]'."
 
 TOTALITARIAN_ARISTOCRACY:0 "Dirigeants Nobles (+5/0)"
@@ -3490,8 +3492,8 @@ personality_spiritual_seekers_machine:0 "Chercheurs Spirituels"
 personality_spiritual_seekers_machine_desc:0 "Les Chercheurs Spirituels croient que toute vie est connectée par une puissance supérieure qui peut être comprise à travers ses créations. Ils chercheront une coopération pacifique avec d'autres empires dans l'espoir d'étudier leur lien avec le divin."
 
 civic_merchant_guilds:1 "Elite financière"
- civic_merchant_guilds_desc:2 "§LDans cette société, la «richesse» est égale au «pouvoir». Les échelons supérieurs de la société sont occupés par les riches, tandis que les gens de la classe ouvrière sont systématiquement opprimés.§! \n\nLes §YBâtiments Capitoles§! remplacent les £job_administrator£ §YAdministrateurs§! par des £job_mogul£ §Y$job_mogul$§!, qui augmentent les §YServices§!, produisent §YValeur commerciale§! et multiplient : $mod_planet_jobs_energy_produces_mult$ planétaire. \nLe bâtiment §YBourse galactique§! procurent des emplois de £job_mogul£ §Y$job_mogul$§! supplémentaires et multiplie  §YValeur commerciale§! planétaire de §G+5%§! \nDémarre avec la technologie §Y$tech_power_hub_1$§! déjà déverouillée \n\nNe peut pas choisir de politique §YSanté Publique§! ou §YEducation Nationale§!  \nLa faction §YEntrepreneurs§! procure plus d'approbation" 
+ civic_merchant_guilds_desc:2 "§LDans cette société, la «richesse» est égale au «pouvoir». Les échelons supérieurs de la société sont occupés par les riches, tandis que les gens de la classe ouvrière sont systématiquement opprimés.§! \n\nLes §YBâtiments Capitoles§! remplacent les £job_administrator£ §YAdministrateurs§! par des £job_mogul£ §Y$job_mogul$§!, qui augmentent les §YServices§!, produisent §YValeur commerciale§! et multiplient : $mod_planet_jobs_energy_produces_mult$ planétaire. \nLe bâtiment §YBourse galactique§! procurent des emplois de £job_mogul£ §Y$job_mogul$§! supplémentaires et multiplie  §YValeur commerciale§! planétaire de §G+5%§! \nDémarre avec la technologie §Y$tech_power_hub_1$§! déjà déverouillée \n\nNe peut pas choisir de politique §YSanté Publique§! ou §YEducation Nationale§!  \nLa faction §YEntrepreneurs§! procure plus d'approbation.\n§YExploitation impitoyable§!: chaque §Y$job_mogul$§! augmente la production des travailleurs locaux en £energy£ §YEnergie§! par §G+4%§!" 
  
  
  civic_state_monopoly:0 "Monople d'Etat"
-civic_state_monopoly_desc:0 "Dans cette société, les secteurs économiques les plus essentiels sont dirigés par des oligarques, dont les monopoles sont sous la protection directe de l'État.  \n\nUne version avancée de la doctrine §YElite financière§! \n\nLes §YBâtiments Capitoles§! remplacent les £job_administrator£ §YAdministrateurs§! par des £job_mogul£ §Y$job_mogul$§! \nLe bâtiment §YBourse galactique§! procurent des emplois de £job_mogul£ §Y$job_mogul$§! supplémentaires et multiplie  §YValeur commerciale§! planétaire de §G+5%§! \nLe §YLobby d'entrepreneurs:§! procure plus d'aprobation \nStarts with the §Y$tech_power_hub_1$§! technology \nDémarre avec la technologie §Y$tech_power_hub_1$§! déjà déverouillée \n\nNe peut pas choisir de politique §YSanté Publique§! ou §YEducation Nationale§!\nNe peut choisir la Doctrine §YMarché libre§!" 
+civic_state_monopoly_desc:0 "Dans cette société, les secteurs économiques les plus essentiels sont dirigés par des oligarques, dont les monopoles sont sous la protection directe de l'État.  \n\nUne version avancée de la doctrine §YElite financière§! \n\nLes §YBâtiments Capitoles§! remplacent les £job_administrator£ §YAdministrateurs§! par des £job_mogul£ §Y$job_mogul$§! \nLe bâtiment §YBourse galactique§! procurent des emplois de £job_mogul£ §Y$job_mogul$§! supplémentaires et multiplie  §YValeur commerciale§! planétaire de §G+5%§! \nLe §YLobby d'entrepreneurs:§! procure plus d'aprobation. \n§YExploitation impitoyable§!: chaque §Y$job_mogul$§! augmente la production des travailleurs locaux en £energy£ §YEnergie§! par §G+4%§!\nDémarre avec la technologie §Y$tech_power_hub_1$§! déjà déverouillée \n\nNe peut pas choisir de politique §YSanté Publique§! ou §YEducation Nationale§!\nNe peut choisir la Doctrine §YMarché libre§!" 

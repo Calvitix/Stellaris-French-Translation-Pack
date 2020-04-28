@@ -27,6 +27,8 @@ building_spices_advanced:0 "Grands champs de d'Epices"
 building_spices_advanced_desc:0 "Des dizaines de biodomes différents sont regroupés ici, chacun dédié à une variété d'épices. De petites usines parsèment les champs, nourrissant la planète de plats délicats et d'échantillons d'épices colorés."
 building_spices_ultimate:0 "Biodome Planétaire d'Epices"
 building_spices_advanced_desc:0 "Des écosystèmes entiers ont été assemblés les uns sur les autres dans ces dômes tentaculaires, optimisant les paramètres de température et d'humidité pour chaque espèce. Des milliers de produits différents sont assemblés ici, puis expédiés partout dans le monde."
+building_red_flowers:0 "Champs de fleurs rouges."
+building_red_flowers_desc:0 "Des fleurs rouge foncé poussent ici, comme un coucher de soleil gelé au fond des vallées."
 
 #buildings_upgrades_other
 building_silence_flowers2:0 "Maison Des Fleurs"
@@ -108,6 +110,13 @@ job_shady_botanist_effect_desc:0 "Les £job_shady_botanist£ $job_shady_botanist
 mod_job_shady_botanist_add:0 "Emplois de Botanistes clandestins"
 mod_job_shady_botanist_per_pop_short:0 "\n§G+1§! £mjob_shady_botanist_add£ par $VALUE$ £pop£"
 mod_job_shady_botanist_per_pop:0 "§G+1§! emplois de $job_shady_botanist$ par $VALUE$ Pops"
+job_militant_botanist:0 "Botanist militant"
+job_militant_botanist_plural:0 "Botanistes militants"
+job_militant_botanist_desc:0 "Les spécialistes qualifiés qui sont en contact étroit avec les fleurs rouges ont tendance à rendre les gens nerveux. Ils se sentent étrangement distants, et leur voix n'est plus exactement la leur."
+job_militant_botanist_effect_desc:0 "£job_militant_botanist£ $job_militant_botanist_plural$ turn £food£ §YFood§! into §YCapacité Navale§! and §YDéfense des Armées§!. They also decrease £amenities£ §YServices§!"
+mod_job_militant_botanist_add:0 "Emplois de Botaniste militant."
+mod_job_militant_botanist_per_pop_short:0 "\n§G+1§! £mjob_militant_botanist_add£ par $VALUE$ £pop£"
+mod_job_militant_botanist_per_pop:0 "§G+1§! emplois de $job_militant_botanist$ par $VALUE$ Pops"
 
 job_tea_cultivator_drone:0 "Drone Cultivateur de Thé"
 job_tea_cultivator_drone_plural:0 "Drones Cultivateurs de Thé"
@@ -144,6 +153,15 @@ job_silence_flower_drone_effect_desc:0 "Les £job_silence_flower_drone£ $job_si
 mod_job_silence_flower_drone_add:0 "Emplois de drones cultivateurs du Silence"
 mod_job_silence_flower_drone_per_pop_short:0 "\n§G+1§! £mjob_silence_flower_drone_add£ par $VALUE$ £pop£"
 mod_job_silence_flower_drone_per_pop:0 "§G+1§! emplois de $job_silence_flower_drone$ par $VALUE$ Pops"
+job_militant_flower_drone:0 "Drone fleuriste militant"
+job_militant_flower_drone_plural:0 "Drones fleuristes militants"
+job_militant_flower_drone_desc:0 "Les drones spécialisés qui sont en contact étroit avec les Fleurs Rouges. Ils se sentent étrangement distants, et leur voix n'est plus exactement la leur."
+job_militant_flower_drone_effect_desc:0 "Les £job_militant_flower_drone£ $job_militant_flower_drone_plural$ convertissent la £food£ §YNourriture§! en §YRecherche§! £physics£, £engineering£ et £society£ ainsi qu'en £amenities£ §YServices§!. Ils diminuent les £amenities£ §YServices§!"
+mod_job_militant_flower_drone_add:0 "Emplois de $job_militant_flower_drone_plural$."
+mod_job_militant_flower_drone_per_pop:0 "\n§G+1§! £mjob_flower_drone_add£ par $VALUE$ £pop£"
+mod_job_militant_flower_drone_per_pop:0 "§G+1§! emplois de $job_militant_flower_drone$ par $VALUE$ Pops "
+
+
 
 job_algae_fabricator:0 "Fabricateur d'Algues"
 job_algae_fabricator_plural:0 "Fabricateurs d'Algues"
@@ -224,8 +242,8 @@ communal_garden:0 "Parc communautaire"
 communal_garden_desc:0 "Le parc du peuple et la capitale symbolique des coopératives agricoles de votre empire."
 industrial_garden:0 "Parc industriel"
 industrial_garden_desc:0 "Un parc immense, intimement lié aux usines et aux manufactures de ce monde." 
-pale_garden:0 "Pale Garden"
-pale_garden_desc:0 "L'arbre couvrait autrefois les cieux. Il est tombé depuis et le papillon l'a remplacé en tant que centre de la création: mais ses branches pâles subsistent et leur lumière fuit d'un lieu étranger."
+pale_garden:0 "Jardin pâle"
+pale_garden_desc:0 "L'arbre a autrefois couvert les cieux. Il est depuis tombé et le papillon l'a remplacé comme centre de création : mais ses branches pâles restent et leur lumière s'échappe d'un lieu étranger."
 
 
 #colony types
@@ -252,6 +270,10 @@ civic_biological_industries:0 "Industries biologiques"
 civic_biological_industries_desc:0 "§LL'industrie a toujours été un élément clé de notre économie: mais il y a peu de différence entre notre industrie et notre agriculture.§!\n\n Cette doctrine débloque les §YParcs industriels.§!"
 civic_tree_cult:0 "Religion de l'Arbre"
 civic_tree_cult_desc:0 "§LUne fois le monde était uni. Il était une fois un arbre aux branches sans fin, qui s'étendait dans le temps et l'espace.§! \n\nCette doctrine débloque les §YParcs 'Pale'§! et l'§YArbre-Temple§!."
+civic_plantation_corporate:0 "Biotechnologies Conglomerate"
+civic_plantation_corporate_desc:0 "Cette société planétaire est née dans les champs et les serres de son monde natal. Beaucoup ont ri quand il a commencé à prendre le pouvoir. Quelles étaient les plantes et les fleurs à l'ère spatiale ? Mais à la fin, les jardiniers ont prévalu."
+civic_plantation_corporate_effects:0 "Les §YCultivateurs§!, les §Yagriculteurs§! et §YBotanistes§! de cette Mégacorp produisent 15% de plus que leur semblables, mais au détriment des §YMiners§! et §YMétallurgistes.§! qui reçoivent un malus de 15% à la production."
+
 
 #Events
 
