@@ -5,50 +5,51 @@
  # Code by Malthus
  # Text by ViolentBeetle and Malthus
  # Proofreading by Z8MB1E
+ # Translation by Calvitix
  ########################
  
  #Anomaly
- mem_dwarf_fortress_category:0 "Inside the Fire"
- mem_dwarf_fortress_category_desc:0 "Deep scans indicate an unusual shape on the surface. This could imply the presence of an artificial structure."
+ mem_dwarf_fortress_category:0 "Dans le feu"
+ mem_dwarf_fortress_category_desc:0 "Des Scans en profondeur indiquent une forme inhabituelle à la surface. Cela pourrait impliquer la présence d'une structure artificielle."
 
  #simple fail 
- mem_dwarf_fortress.1.name:0 "Just Hot Air"
- mem_dwarf_fortress.1.desc:0 "It appears the strange shape was just a plateau where heat and an uneven density of magma distorted the scans. Nothing artificial was found at the site."
- mem_dwarf_fortress.1.a:0 "We should move on."
+ mem_dwarf_fortress.1.name:0 "Juste de l'air chaud"
+ mem_dwarf_fortress.1.desc:0 "Il semble que la forme étrange n'était qu'un plateau où la chaleur et une densité inégale de magma perturbaient les scanners. Rien d'artificiel n'a été trouvé sur le site."
+ mem_dwarf_fortress.1.a:0 "Nous devons continuer."
  
  #spawn the site later
- mem_dwarf_fortress.2.name:0 "Discovery Inside the Fire"
- mem_dwarf_fortress.2.desc:0 "Our miners have located an entrance to a cave system of apparently artificial origin beneath the scorching surface of [mem_dwarf_fortress_planet.GetName].\n\nStarting an excavation would mean the complete halt of any mining operations present, but who knows what secrets the depths may hold?"
- mem_dwarf_fortress.2.a:0 "Start the excavation."
- mem_dwarf_fortress.2.b:0 "We cannot cease our mining operations for this."
+ mem_dwarf_fortress.2.name:0 "Découverte dans le feu"
+ mem_dwarf_fortress.2.desc:0 "Nos mineurs ont localisé une entrée d'un système de grottes d'origine apparemment artificielle sous la surface brûlante de [mem_dwarf_fortress_planet.GetName].\n\nDémarrer une excavation signifierait l'arrêt complet de toutes les opérations minières présentes, mais qui sait quels secrets les profondeurs peuvent contenir ?"
+ mem_dwarf_fortress.2.a:0 "Commencez l'excavation."
+ mem_dwarf_fortress.2.b:0 "Nous ne pouvons pas cesser nos opérations minières pour cela."
  
  #anomaly success, found digsite
- mem_dwarf_fortress.3.name:0 "Strike the Earth"
- mem_dwarf_fortress.3.desc:0 "After various exploratory drillings, our science team located multiple underground passages belonging to an elaborate cave system of apparently artificial origin.\n\nIt is impossible to estimate how far it reaches."
- mem_dwarf_fortress.3.a:0 "Investigate it further."
+ mem_dwarf_fortress.3.name:0 "Forage souterrains"
+ mem_dwarf_fortress.3.desc:0 "Après divers forages exploratoires, notre équipe scientifique a localisé plusieurs passages souterrains appartenant à un système de grottes élaboré d'origine apparemment artificielle.\n\nIl est impossible d'estimer sa distance."
+ mem_dwarf_fortress.3.a:0 "Enquêter plus avant."
 
  #Dwarf fortress digsite
- mem_dwarf_fortress_site:0 "Into the Depths"
- mem_dwarf_fortress_site_desc:0 "An apparently artificial cave system has been located beneath the scorching surface of [mem_dwarf_fortress_planet.GetName]. Though temperatures are dangerously high, sufficient heat resistant equipment should allow for further exploration."
+ mem_dwarf_fortress_site:0 "Dans les profondeurs"
+ mem_dwarf_fortress_site_desc:0 "Un système de grottes apparemment artificiel a été localisé sous la surface brûlante de [mem_dwarf_fortress_planet.GetName]. Bien que les températures soient dangereusement élevées, un équipement résistant à la chaleur suffisant devrait permettre une exploration plus approfondie."
  
  #Dwarf fortress digsite stage 1 Pressure plate
- mem_dwarf_fortress.4.name:0 "Hot Feet"
- mem_dwarf_fortress.4.desc:0 "After following the largest of the winding tunnels for quite some time, the expedition finally found definitive proof of this place having been constructed rather than being a random natural occurrence.\n\nBefore the scientists, the tunnel abruptly deepens into a quarry-like pit. A stone plate with unidentified writing on it marks the beginning of roughly hewn stone stairs. These stairs lead down on one side and up again on the other, leaving an empty floor dozens of meters long in between them."
+ mem_dwarf_fortress.4.name:0 "Des Pieds chauds"
+ mem_dwarf_fortress.4.desc:0 "Après avoir suivi le plus grand des tunnels sinueux pendant un certain temps, l'expédition a finalement trouvé la preuve définitive que la construction de cet endroit n'est pas un phénomène naturel aléatoire :\n\nDevant les scientifiques, le tunnel se transforme brusquement en un carrière, comme une fosse. Une plaque de pierre avec une écriture non identifiée marque le début d'un escalier en pierre grossièrement taillé. Ces escaliers descendent d'un côté et remontent de l'autre, laissant un sol vide des dizaines de mètres de long entre eux."
  #Pressure plate - Fire hot - Scientist dead
- mem_dwarf_fortress.4.desc_01:0 "$mem_dwarf_fortress.4.desc$ \n\nWhile crossing the pit, Science Officer [Root.GetLeaderName] stepped upon a hidden pressure plate, unwittingly activating a trap mechanism. Lava quickly flooded the pit, stopping shortly before reaching the top of the stairs. Unfortunately, none of the team made it out in time.\n\nThe lava has already started to cool down and is expected to be safely traversable in a few days."
+ mem_dwarf_fortress.4.desc_01:0 "$mem_dwarf_fortress.4.desc$\n\nEn traversant la fosse, l'officier scientifique [Root.GetLeaderName] a marché sur une plaque de pression cachée, activant involontairement un mécanisme de piège. La lave a rapidement inondé la fosse, s'arrêtant peu de temps avant d'atteindre le haut des escaliers. Malheureusement, aucune équipe n'a réussi à sortir à temps.\n\nLa lave a déjà commencé à se refroidir et devrait être traversée en toute sécurité dans quelques jours."
  #Pressure plate - Fire hot - Scientist injured
- mem_dwarf_fortress.4.desc_02:0 "$mem_dwarf_fortress.4.desc$  \n\nWhile crossing the pit, one of Science Officer [Root.GetLeaderName]'s assistants stepped upon a hidden pressure plate, unwittingly activating a trap mechanism. Lava quickly flooded the pit, stopping shortly before reaching the top of the stairs. Unfortunately, the exploration team did not make it out of the pit unharmed. Science Officer [Root.GetLeaderName] will never be the same."
+ mem_dwarf_fortress.4.desc_02:0 "$mem_dwarf_fortress.4.desc$\n\nEn traversant la fosse, l'un des assistants de l'officier scientifique [Root.GetLeaderName] a marché sur une plaque de pression cachée, activant involontairement un mécanisme de piège. La lave a rapidement inondé la fosse, s'arrêtant peu de temps avant d'atteindre le haut des escaliers. Malheureusement, l'équipe d'exploration n'est pas sortie indemne de la fosse. L'agent scientifique [Root.GetLeaderName] ne sera plus jamais le même."
  #Pressure plate - Fire hot - Scientist alive and well
- mem_dwarf_fortress.4.desc_03:0 "$mem_dwarf_fortress.4.desc$  \n\nWhile crossing the pit, Science Officer [Root.GetLeaderName] spotted a hidden pressure plate. After a quick investigation, it was revealed to be part of an elaborate trap mechanism that would have - if activated - flooded the entire pit with lava. The team is on the lookout for similar traps deeper within."
- mem_dwarf_fortress.4.a:0 "A terrible outcome, but we have to move on."
- mem_dwarf_fortress.4.b:0 "This is unfortunate, but we must keep pushing forward."
- mem_dwarf_fortress.4.c:0 "Good work. Continue."
+ mem_dwarf_fortress.4.desc_03:0 "$mem_dwarf_fortress.4.desc$\n\nEn traversant la fosse, l'agent scientifique [Root.GetLeaderName] a repéré une plaque de pression cachée. Après une enquête rapide, il a été révélé qu'elle faisait partie d'un mécanisme de piège élaboré qui, s'il avait été activé, aurait inondé la fosse entière de lave. L'équipe est à la recherche de pièges similaires plus profondément à l'intérieur."
+ mem_dwarf_fortress.4.a:0 "Un résultat terrible, mais nous devons continuer."
+ mem_dwarf_fortress.4.b:0 "C'est malheureux, mais nous devons continuer d'avancer."
+ mem_dwarf_fortress.4.c:0 "Bon travail. Continuer."
  
  #Dwarf fortress digsite stage 2 Cave in column
- mem_dwarf_fortress.5.name:0 "More Traps"
- mem_dwarf_fortress.5.desc:0 "From the pit onward, the quality of the tunnel steadily improved as smooth stone surfaces replaced the naturally jagged rock walls. Our expedition team eventually stumbles into a bigger cavern containing what is apparently the entrance of some kind of bunker-like structure. In the middle of the cavern, a single large column holds the weight of the entire ceiling. On it, another stone plate with indecipherable writing resides above what the expedition team makes out to be some sort of... lever?"
+ mem_dwarf_fortress.5.name:0 "Plus de pièges"
+ mem_dwarf_fortress.5.desc:0 "À partir de la fosse, la qualité du tunnel s'est régulièrement améliorée, les surfaces lisses en pierre remplaçant les parois rocheuses naturellement dentelées. Notre équipe d'expédition finit par tomber dans une plus grande caverne contenant ce qui est apparemment l'entrée d'une sorte de structure semblable à un bunker. Au milieu de la caverne, une seule grande colonne retient le poids de tout le plafond. Sur celle-ci, une autre plaque de pierre avec une écriture indéchiffrable réside au-dessus de ce que l'équipe d'expédition prétend être une sorte de ... levier ?"
  #Cave in collumn - Smash - Scientist dead
- mem_dwarf_fortress.5.desc_01:0 "$mem_dwarf_fortress.5.desc$ \n\nScience Officer [Root.GetLeaderName] and [Root.Leader.GetHerHis] colleagues were compelled by curiousity to uncover the mystery of what this mechanism was built to do. Leaving all precaution behind, [Root.Leader.GetSheHe] moved the lever.\n\nA clicking noise followed by a loud crumbling filled the hall. Nearly instantaneously, the column and the ceiling above came crashing down to the ground before slowly rising back to their former position, revealing those unfortunate enough to have been caught by their weight."
+ mem_dwarf_fortress.5.desc_01:0 "$mem_dwarf_fortress.5.desc$\n\nL'officier scientifique [Root.GetLeaderName] et ses collègues ont été poussés par la curiosité à découvrir le mystère de ce mécanisme. Laissant toute précaution derrière, [Root.Leader.GetSheHe] a actionné le levier.\n\nUn bruit de cliquetis suivi d'un crissement bruyant emplit la salle. Presque instantanément, la colonne et le plafond au-dessus se sont écrasés sur le sol avant de remonter lentement à leur ancienne position, révélant ce qu'il reste de ceux qui ont été assez malheureux pour avoir été écrasé par cette masse."
  #Cave in collumn - Smash - Scientist injured
  mem_dwarf_fortress.5.desc_02:0 "$mem_dwarf_fortress.5.desc$ \n\nScience Officer [Root.GetLeaderName] and [Root.Leader.GetHerHis] colleagues were compelled by curiousity to uncover the mystery of what this mechanism was built to do. Leaving all precaution behind, [Root.Leader.GetSheHe] moved the lever.\n\nA clicking noise followed by a loud crumbling filled the hall. Nearly instantaneously, the column and the ceiling above came crashing down to the ground before slowly rising back to their former position, revealing those unfortunate enough to have been caught by their weight. Though having escaped death by a heartbeat, this has had a lasting impression on Science Officer [Root.GetLeaderName]."
  #Cave in collumn - Smash - Scientist alive and well

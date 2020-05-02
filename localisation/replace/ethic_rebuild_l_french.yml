@@ -2483,7 +2483,7 @@ FANATIC_LIBERTARIAN_GOVERNMENT:0 "Pluralisme Politique (0/0)"
 NO_FANATIC_LIBERTARIAN_GOVERNMENT:0"Pas de Political Pluralisme (0/0)"
 FANATIC_LIBERTARIAN_GOVERNMENT_DESC:0 "Toutes les factions, sauf les §YTotalitaires§! et les §YAristocratique§!, sont plus heureux quand la doctrine §YPluralisme politique§! est active."
 
-empire_not_pluralist_collectivist:0 "$TRIGGER_FAIL$Notre Empire doit avoir la doctrine §YIdéaux socialistes§!."
+empire_not_pluralist_collectivist:0 "$TRIGGER_FAIL$Notre Empire doit avoir la combinaison d'éthiques : §YFanatiquement Coopératif/non-Autoritaire§!."
 empire_is_elitist:0 "$TRIGGER_FAIL$Notre empire adhère aux idéaux §Y$ethic_elitist$§!."
 empire_not_elitist:0 "$TRIGGER_FAIL$Notre empire n'adhère pas aux idéaux nécessaires : §Y$ethic_elitist$§!."
 
@@ -2993,8 +2993,8 @@ gov_absolute_monarchy_desc:0 "Une forme de monarchie dans laquelle le monarque d
 gov_cor_dictatorship:0 "Dictature des Corporations"
 gov_cor_dictatorship_desc:0 "Une forme de gouvernement extrêmement capitaliste, où de puissantes corporations ont complètement repris la vie politique et économique de la société."
 
-EGALITARIAN_ETHIC_ALLOWS_UTOPIA:0 "§ELa Combination avec §Hnon-Autoritaire§! permet le Niveau de vie §YEquité Sociale§!§!"
-ELITIST_ETHIC_ALLOWS_STRATIFIED:0 "§ELa Combination avec §Hnon-Libertaire§! permet Niveau de vie §YEconomie Stratifié§! §!"
+EGALITARIAN_ETHIC_ALLOWS_UTOPIA:0 "§EPermet le Niveau de vie §YEquité Sociale§!§!"
+ELITIST_ETHIC_ALLOWS_STRATIFIED:0 "§EPermet Niveau de vie §YEconomie Stratifié§!§!"
 
 
 civic_mining_guilds_desc:0 "§LPlusieurs guildes minières importantes ont accédé à une position prédomiannte au sein de cette société. Le gouvernement ne se prive pas de se reposer sur elles.§! \n\nLes §YDistricts Miniers§! procurent §G+1§! Emploi et §G+1§! Logement, et coûtent §R+20%§! en entretien chacun."
@@ -3201,7 +3201,7 @@ civic_innovative_economy_desc:0 "§LLa base coopérative de l'économie encourag
 mod_planet_researchers_upkeep_mult:0 "Entretien des chercheurs"
 
 civic_industrial_economy:0 "Industrialisme impitoyable"
-civic_industrial_economy_desc:0 "§LCette société industrielle considère toutes les ressources naturelles comme quelque chose à utiliser ou à commercialiser. Ils se préoccupent peu des résultats environnementaux possibles.§! \n\nDémarre la partie avec la technologie §YPurification Minérale§! débloquée.\n\nPeut apprendre la technologie §YExploitation minière profonde§!, permettant de construire le §YForage thermique§! et recruter des §YIngénieurs de minage du noyau§! \n\nNe peut pas utiliser la politique §YRéglementation environnementale amélioré§!  \n\nLa faction §YEntrepreneurs§! exigera la politique §YRéglementation environnementale réduite§!. \n\nUne version avancée de la doctrine §YGuildes Minières§!"
+civic_industrial_economy_desc:0 "§LCette société industrielle considère toutes les ressources naturelles comme quelque chose à utiliser ou à commercialiser. Ils se préoccupent peu des résultats environnementaux possibles.§! \n\nDémarre la partie avec la technologie §YPurification Minérale§! débloquée.\n\nPeut apprendre la technologie §YExploitation minière profonde§!, permettant de construire le §YForage thermique§! et recruter des §YIngénieurs de minage du noyau§! \n\nNe peut pas utiliser la politique §YRéglementation environnementale amélioré§! ni de §YCampagnes de recyclage§!\n\nLa faction §YEntrepreneurs§! exigera la politique §YRéglementation environnementale réduite§!. \n\nUne version avancée de la doctrine §YGuildes Minières§!"
 
 trait_ruler_immortal:0 "Dirigeant à vie"
 trait_ruler_immortal_desc:0 "§LCet individu est béni de Dieux pour le règne éternel.§!\n"
@@ -3290,8 +3290,8 @@ HEALTHCARE_CAMPAIGN_DESC:0 "Invoquer un décret §YCampagnes de Soins§! plaira 
 
 SOCIAL_WELFARE_POP_EFFECTS:0 "$RULERS$ : $VERY_HIGH_LUXURIES$, $10_HAPPINESS$ ;\n$SPECIALISTS$ : $HIGH_LUXURIES$, $7_HAPPINESS$ ;\n$WORKERS$ : $HIGH_LUXURIES$, $5_HAPPINESS$; \n$SLAVES$ : $LOW_LUXURIES$, $5_HAPPINESS$"
 
-LIBERATION_PHILOSOPHY:0 "Libérateurs galactiques (+10/0)"
-LIBERATION_NO_PHILOSOPHY:0 "Libérateurs galactiques (+10/0)"
+LIBERATION_PHILOSOPHY:0 "Libérateurs galactiques (+20/0)"
+LIBERATION_NO_PHILOSOPHY:0 "Libérateurs galactiques (+20/0)"
 LIBERATION_PHILOSOPHY_DESC:0 "Activer la Philosophie de Guerre §YLiberation Wars§! plaira à la faction '[Root.GetName]'."
 
 job_templar:0 "Templier"
@@ -3497,3 +3497,7 @@ civic_merchant_guilds:1 "Elite financière"
  
  civic_state_monopoly:0 "Monople d'Etat"
 civic_state_monopoly_desc:0 "Dans cette société, les secteurs économiques les plus essentiels sont dirigés par des oligarques, dont les monopoles sont sous la protection directe de l'État.  \n\nUne version avancée de la doctrine §YElite financière§! \n\nLes §YBâtiments Capitoles§! remplacent les £job_administrator£ §YAdministrateurs§! par des £job_mogul£ §Y$job_mogul$§! \nLe bâtiment §YBourse galactique§! procurent des emplois de £job_mogul£ §Y$job_mogul$§! supplémentaires et multiplie  §YValeur commerciale§! planétaire de §G+5%§! \nLe §YLobby d'entrepreneurs:§! procure plus d'aprobation. \n§YExploitation impitoyable§!: chaque §Y$job_mogul$§! augmente la production des travailleurs locaux en £energy£ §YEnergie§! par §G+4%§!\nDémarre avec la technologie §Y$tech_power_hub_1$§! déjà déverouillée \n\nNe peut pas choisir de politique §YSanté Publique§! ou §YEducation Nationale§!\nNe peut choisir la Doctrine §YMarché libre§!" 
+
+NO_CAMPAIGNS:0 "§ENe peut pas utiliser les campagnes de §YSanté§! ni d'§YEducation§! §!" 
+
+requires_megacorp_or_merchant:0 "§RRequiert d'avoir l'éthique §YCompétitif§!.§!"
