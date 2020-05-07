@@ -2,17 +2,39 @@
 
 
 ###_[main]  ##############################################################################################
+#_names
+ NAME_z_fw_npc_1: "§GInfinite Stellaris§!"
+ NAME_z_fw_misc_autostation_fleet: "§GAutomatic Station§! Constructor"
+ NAME_z_fw_autostation_ship: "Fully Automatic Constructor"
+
 #_evts
+ z_fw_evt_crious: "Quelque-chose va arriver !"
  z_fw_evt_good:0 "Excellent !"
  z_fw_evt_terrible:0 "C'est terrible !"
  z_fw_evt_incredible:0 "C'est incroyable !"
  
 #_technologies
  tech_z_dummy:0 "§RCe n'est pas quelque chose que vous devriez avoir ! §!"
+ 
+#_traits
+#_traits_leader
+ z_fw_trait_leader_test_ancrel:0 "无尽的赐福-考古"
+ z_fw_trait_leader_test_ancrel_desc:0 "就是学识渊博！"
+ 
+#_modifiers
+ z_fw_temp_function:0 "§BFunctional Modifier§!"
+ z_fw_temp_function_desc:0 "A modifier for a temporary function."
 
 #_mian event chain SP用Root EC用This,EC等同country本身
  z_chain_main_title:0 "§GInfinite Collection : Core System§!"
  z_chain_main_desc:0 "Variables détaillées pour Infinite Collection.\n\n§G$z_desire_for_star_var$§! reste §G[This.z_desire_for_star_var]§!"
+
+
+
+
+
+
+
 
 ###_Eager for stars
 #_evts
@@ -26,6 +48,10 @@
  z_fw1_misc.1.b1.tooltip:0 "Vous obtiendrez un certain montant de subvention des ressources. §Attention, c'est de la triche ! §! Vous n'avez pas besoin de ce buff si vous utilisez un démarrage avancé."
  z_fw1_misc.1.b2:0 "Planifiez à l'avance §HOff§!"
  z_fw1_misc.1.b2.tooltip:0 "Il n'y aura pas de subventions aux ressources au début du jeu."
+ z_fw1_misc.1.c1: "Infinite Stellaris Relics §GEnabled§!"
+ z_fw1_misc.1.c1.tooltip: "Refresh the original relics of Infinite Stellaris among the galaxy near a random player empire, surprise!"
+ z_fw1_misc.1.c2: "Infinite Stellaris Relics §HDisabled§!"
+ z_fw1_misc.1.c2.tooltip: "No new original relics."
  z_fw1_misc.1.c:0 "§BDémarrage du jeu terminé§!"
  z_fw1_misc.1.c.tooltip:0 "Et nous commençons donc"
 #_[evt13]
@@ -39,7 +65,6 @@
 #_relic
  z_fw_r_monument:0 "§GMonument d'étoiles infinies§!"
  z_fw_r_monument_desc:0 "Je vois, je conquiert. Lorsque notre grande civilisation est entrée dans la course des étoiles, ils ont fait ce monument avec un savoir-faire exquis. Il porte le désir de notre grande civilisation pour l'espace, et annonce également notre gloire dans l'avenir. Le basculer consommera des points de désir, utilisez également $z_fw_dec_desire_for_stars$. Gagner une guerre initiée par nous ou terminer certains événements spéciaux peut §Gagner§! Points de désir.\n§BOur voyage est une mer d'étoiles.§!\n\nPoints de désir restés §G [root.z_fw_desire_point_var]§!"
-
  z_fw_r_monument_effect:0 "Activite it will consume desire points by §G3§!. Depending on the game period, different Great Crusade buff will be obtained. Do everything you can to defeat your enemies within 10 years!"
 #_决策
  z_fw_dec_desire_for_stars:0 "§GEager pour les étoiles§! : Croissance rapide"
@@ -272,7 +297,12 @@
  z_fw1_misc.325.name: "This planet is polluted!"
  z_fw1_misc.325.desc: "Wait, what's going on, what is this? A group of lively ... heads? The following are also covered with horrible sticky tentacles, oh my god, they actually jumped on everyone and tore everyone's heads off to replace them. What the hell is this monster?"
 
+###_永恒星炬
+#_tooltips
+ z_fw_r_cheat_quantum_beacon_effect:0 "Turning on the Eternal Star Torch will give the fleet Infinite asylum within 10 years, the chance of disengage, the aerospace speed and jump drive efficiency are greatly improved, and the borders of all countries will be opened. Full sensor range for 10 years as well."
+ z_fw_r_cheat_quantum_beacon_activited:0 "Eternal Star Torch has been §Gactivated§!"
 #_relic
- z_fw_r_head_of_karyl:0 "§GInfinte Stellaris§!: Strange head"
- z_fw_r_head_of_karyl_desc:0 "A strange head, covered with sticky tentacles, once it comes into contact with living things, whether it is a living thing or a machine, it will immediately jump to the opposite body to tear off the opposite head and replace it, and it will split to duplicate themselves from time to time. It seems very dangerous, so we sealed it, but it seems that throwing these replicas on the colony may be a good choice.\n§BHowever, this thing is really stinky.§!"
- z_fw_r_head_of_karyl_effect:0 "Activited this will unlock the megastructure $z_fw_mega_target_marker_hok$, and only one can be built each time you activited this relic. Then you will specify any colony and sow replica of $z_fw_r_head_of_karyl$ on it."
+ z_fw_r_cheat_quantum_beacon:0 "§GInfinite Stellaris§!: Eternal Star Torch"
+ z_fw_r_cheat_quantum_beacon_desc:0 "The glory of the Infini7e will always shine upon the galaxy, providing shelter for those tortured souls, so that they will not be lost in the turbulence of the shround. ——Alpha plane, lord of Infinite Stellaris"
+ 
+ 
