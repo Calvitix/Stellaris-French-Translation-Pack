@@ -1374,8 +1374,8 @@ PROGRESSIVE_CASTE:0 "$PROGRESSIVE_NO_CASTE$"
  TOTALITARIAN_GUN_RIGHTS:0 "Bannir les Armes personnelles (+5/0)"
  TOTALITARIAN_NO_GUN_RIGHTS_DESC:0 "Interdire aux citoyens ordinaires de notre Empire de porter des §YArmes personnelles§! plaira à la faction '[Root.GetName]'."
  
- PROGRESSIVE_GUN_RIGHTS:0 "Armes personnelles autorisées (+5/0)"
- PROGRESSIVE_NO_GUN_RIGHTS:0 "Autoriser les Armes personnelles (+5/0)"
+ PROGRESSIVE_GUN_RIGHTS:0 "Armes personnelles autorisées (+7/-3)"
+ PROGRESSIVE_NO_GUN_RIGHTS:0 "Autoriser les Armes personnelles (+7/-3)"
  PROGRESSIVE_GUN_RIGHTS_DESC:0 "Permettre aux citoyens de notre Empire de porter et d'utiliser des §YArmes personnelles§! plaira à la faction '[Root.GetName]'."
  
  civic_tooltip_egalitarian:0 "Est un peu §YEgalitaire§!"
@@ -2385,8 +2385,9 @@ civic_elite_troops_desc:0 "Le gouvernement alloue des ressources importantes à 
  mod_job_techno_priest_per_pop_short:0 "\n§G+1§! £mod_job_techno_priest_add£ par $VALUE$ £pop£" 
  
  
- civic_socialistic:0 "Confrérie de Drones"
- civic_socialistic_desc:0 "§LDans cette société, les gens de la classe ouvrière sont traditionnellement glorifiés et forment une communauté mondiale, basée sur des principes idéalistes de collectivisme et d'égalité.§!\n\nLes districts §YMinier§!, §YAgricole§! et §YGénérateurs§! procurent §G+1§! Emplois chacun, et l'entretien est augmenté de §R+15%§!\nPermet l'Emploi d'Ouvrier spécifique : Les £job_primitive_laborer£ §YTravailleurs exemplaires§!, qui produisent une petite quantité de £minerals£ §YMinéraux§!, £food£ §YNourriture§!, £energy£ §YEnergie§! et £unity£ §YUnité§!" 
+ civic_socialistic:0 "Démocratie industrielle"
+ civic_socialistic_desc:0 "§LUn arrangement qui implique que les travailleurs réguliers prennent des décisions, partagent la responsabilité et l'autorité sur le lieu de travail, ce qui se traduit par une productivité et une prestation de services accrues d'une main-d'oeuvre plus engagée et plus heureuse.§!" 
+ 
  
  
  civic_keepers_harmony:0 "Gardiens de l'Harmonie"
@@ -2449,14 +2450,14 @@ civic_centralized_state:0 "Autorité centralisée"
 civic_centralized_state_desc:0 " "
 
 civic_welfare_state:0 "Etat providence"
-civic_welfare_state_desc:0 "§LDans cette société, l'État joue traditionnellement un rôle clé dans la protection et la promotion du bien-être économique et social de ses citoyens.§! \n\nLes §YDistricts urbains§! fournissent §G+1§! £housing£ §YLogement§!, Les §YAdministrateurs§! fournissent §G+2§! £amenities£ §YServices§!. Impossible d'utiliser les politiques §YSanté privée§! ou §YEducation privée§!. \n\nObligé de vivre avec le niveau de vie §YService social§!. \n\nLa version avancée de cette civique est §YIdéaux socialistes§!."
+civic_welfare_state_desc:0 "§LDans cette société, l'État joue traditionnellement un rôle clé dans la protection et la promotion du bien-être économique et social de ses citoyens.§! \n\nLes §YDistricts urbains§! fournissent §G+1§! £housing£ §YLogement§!, Les §YAdministrateurs§! fournissent §G+2§! £amenities£ §YServices§!.\n§YSyndicats§! : Les districts §YMinier§!, §YAgricole§! et §YGénérateurs§! procurent §G+1§! Emplois chacun, et l'entretien est augmenté de §R+15%§!. \nImpossible d'utiliser les politiques §YSanté privée§! ou §YEducation privée§!. \n\nObligé de vivre avec le niveau de vie §YService social§!. \n\nLa version avancée de cette civique est §YIdéaux socialistes§!."
 
 
 
 #Clearing such blockers would also provide quelque one-time resource gaining.
 
 civic_globalism:0 "Globalisme"
-civic_globalism_desc:0 "§LCe n'est pas seulement la fascination pour l'inconnu et l'inhabituel, qui nous pousse dans l'espace, mais aussi les affaires rentables, nous pouvons en sortir.§! \n\nLeurs planètes ont plus de chances d'être nominées pour accueillir le §YMarché Galactique§! à travers le §YBoost§!. La Décision §YInfluencer la Nomination des marchés§! demande moins d'influence pour être invoqué. \n\nLes §YPactes Commerciaux§! ne coûtent pas d'influence pour l'entretien\n\nObtient une opinion accrue des enclaves de §YConglomérat commercial§!.\n\n La faction des §YEntrepreneurs§! fournira un soutien supplémentaire pour la position diplomatique §YMercantile§!"
+civic_globalism_desc:0 "§LCe n'est pas seulement la fascination pour l'inconnu et l'inhabituel, qui nous pousse dans l'espace, mais aussi les affaires rentables, nous pouvons en sortir.§! \n\nLeurs planètes ont plus de chances d'être nominées pour accueillir le §YMarché Galactique§! à travers le §YBoost§!. La Décision §YInfluencer la Nomination des marchés§! demande moins d'influence pour être invoqué. \n\nLes §YPactes Commerciaux§! ne coûtent pas d'influence pour l'entretien\n\nObtient une opinion accrue des enclaves de §YConglomérat commercial§!.\n\n La faction des §YEntrepreneurs§! fournira un soutien supplémentaire en cas d'appartenance à une §YFédération commerciale§!"
 
 civic_exalted_priesthood: "Théocratie"
 civic_exalted_priesthood_desc:0 "§LPour se prémunir de l'hérésie, cette société est gouvernée par un conseil religieux composé des membres les plus sages et les plus pieux du clergé.§!\n\nDémarre avec la technologie §YRituels holographiques§!. \nLes bâtiments §YNexus Sacré§! et §YCitadelle de la Foi§! procurent des emplois de §YGrands Prêtres§!. \nCombiné avec la doctrine §YCulte de la Machine§!, Les §YGrands Prêtres§! multiplient de manière supplémentaire §YProduction de Robots§! et §YRecherche en Ingénierie§! sur la planète, et les §YTechnoPrêtres§! produisent des §YUnité§! et §YRecherche en Ingénierie§! supplémentaire."
@@ -3312,7 +3313,7 @@ opinion_industrialist_vs_ecologist:0 "Amoureux des arbres stupides"
 opinion_vs_ecologist_industrialist:0 "Les haineux de la nature"
 
 civic_shared_burden:1 "Idéaux Socialistes"
-civic_shared_burden_desc:1 "§LCette société croit en une distribution équitable des ressources et fait peu de distinctions entre les besoins des gouvernants et des gouvernés. Tous travaillent de concert au bénéfice de tous.§! \n\nLes §YDistricts urbains§! procurent §G+1§! £housing£ §YLogement§!, Les §YAdministrateurs§! procurent §G+2§! £amenities£ §YServices§!. \n\nNécessite d'avoir le niveau de vie §YEquité Sociale§!, et les politiques §YSanté Publique§! et §YEducation Nationale§!\n\nLa faction §YSocialites§! procure plus d'approbation"
+civic_shared_burden_desc:1 "§LCette société croit en une distribution équitable des ressources et fait peu de distinctions entre les besoins des gouvernants et des gouvernés. Tous travaillent de concert au bénéfice de tous.§! \n\nLes §YDistricts urbains§! procurent §G+1§! £housing£ §YLogement§!, Les §YAdministrateurs§! procurent §G+2§! £amenities£ §YServices§!. §YSyndicats§! : Les districts §YMinier§!, §YAgricole§! et §YGénérateurs§! procurent §G+1§! Emplois chacun, et l'entretien est augmenté de §R+15%§!.\n\nNécessite d'avoir le niveau de vie §YEquité Sociale§!, et les politiques §YSanté Publique§! et §YEducation Nationale§!\n\nLa faction §YSocialites§! procure plus d'approbation"
 
 civic_reeducated_labor:0 "Despotes esclavagistes"
 civic_reeducated_labor_desc:0 "§LL'économie de cette société est dominée par un certain nombre de propriétaires puissants et impitoyables de maisons de commerce d'esclaves.§! \n\nUne version avancée de la doctrine §YGuilde d'esclavagistes§!\n\nObligation d'avoir comme niveau de vie §YÉconomie stratifiée§! \n\nDémarre la partie avec la technologie §YImplants Neuraux§! déjà déverrouillé \n\nLes §YSurveillants d'esclaves§! produisent de l'£unity£ §YUnité§! supplémentaire \n\nLes Non §YFanatiquement Pacifistes§! ont la possibilité de construire un bâtiment spécial - §YNéo-Colisée§!, qui ajoute des emplois de £job_gladiator£ §YGladiator§!, produisent quelque £trade_value£ §YValeur commerciale§! et augmente les §YDégats des Armées§! locales"
@@ -3501,3 +3502,12 @@ civic_state_monopoly_desc:0 "Dans cette société, les secteurs économiques les
 NO_CAMPAIGNS:0 "§ENe peut pas utiliser les campagnes de §YSanté§! ni d'§YEducation§! §!" 
 
 requires_megacorp_or_merchant:0 "§RRequiert d'avoir l'éthique §YCompétitif§!.§!"
+
+TRADE_FEDERATION_DEMAND:0 "Fédération de Commerce (+15/-0)"
+TRADE_FEDERATION_DEMAND_DESC: "Faire partie d'une §YFédération commerciale§! plaira à la faction '[Root.GetName]'."
+
+triggered_machine_cult_opinion_of_robot_empires:0 "Mécanismes Divins"
+triggered_robot_empires_opinion_of_machine_cult:0 "Fidèles serviteurs"
+
+PEACEFUL_ECONOMY:0 "Economie Civile (+10/-0)"
+PEACEFUL_ECONOMY_DESC:0 "Définir les §YPriorités de Production§! à §YCivil§! plaira à la faction '[Root.GetName]'."
