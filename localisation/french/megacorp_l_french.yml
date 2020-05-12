@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 11.04.2020
- # Translation check : 11.04.2020
+ # Update check : 12.05.2020
+ # Translation check : 12.05.2020
  ####################################
 
  SECTOR_ADD_ALREADY_ASSIGNED:0 "§RLe système de $SYSTEM|Y$ relève déjà d'un secteur.§!"
@@ -1093,7 +1093,7 @@
  job_roboticist:0 "Roboticiens"
  job_roboticist_plural:0 "Roboticiens"
  job_roboticist_desc:1 "Ces techniciens construisent des robots qui construisent des robots qui construisent notre civilisation."
- job_roboticist_effect_desc:0 "(les £job_roboticist£roboticiens transforment les £alloys£§Yalliages§! en de nouvelles £pop£pops de §Yrobots§!)"
+ job_roboticist_effect_desc:1 "(les £job_roboticist£roboticiens transforment les £alloys£§Yalliages§! en de nouvelles £pop£pops de §Yrobots§!)"
  mod_job_roboticist_add:0 "Emplois de roboticiens"
  mod_job_roboticist_per_pop:0 "§G+1§! emploi de roboticien par palier de $VALUE$ pops"
  mod_job_roboticist_per_pop_short:0 "\n§G+1§! £mod_job_roboticist_add£ pour $VALUE$ £pop£"
@@ -1417,6 +1417,7 @@
  mod_planet_chemists_produces_mult:0 "Production des £job_chemist£chimistes"
  mod_planet_refiners_produces_mult:0 "Production des £job_gas_refiner£raffineurs de gaz"
  mod_planet_translucers_produces_mult:1 "Production des £job_translucers£transluceurs"
+ mod_planet_priests_produces_mult:0 "Production des £job_priest£prêtres "
  mod_planet_branch_offices_energy_produces_add:0 "Production £energy£ des succursales"
  mod_planet_bio_trophies_unity_produces_mult:0 "£unity£$unity$ suscitée par les biotrophées"
  mod_planet_pops_organics_food_upkeep_mult:0 "Nourriture consommée par les pops"
@@ -4265,3 +4266,11 @@
  no_upgraded_capital_tooltip:0 "£trigger_no£ Ce monde ne peut disposer d'un capitole amélioré."
  planet_evaluators:0 "Emplois d'évaluateurs"
  planet_synapse_drones:0 "Emplois de drones synaptiques"
+ dportal_trade_increases_tooltip:0 "La production de £amenities£services et de £trade_value£valeur commerciale des §Ychercheurs sur le portail dimensionnel§! va s'accroître."
+ dportal_trade_increases_gestalt_tooltip:0 "La production de £amenities£services et d'£energy£énergie des §Ydrones du portail dimensionnel§! va s'accroître."
+ dportal_trade_reduces_tooltip:0 "La production de £amenities£services et de £trade_value£valeur commerciale des §Ychercheurs sur le portail dimensionnel§! va être réduite."
+ dportal_trade_reduces_gestalt_tooltip:0 "La production de £amenities£services et d'£energy£énergie des §Ydrones du portail dimensionnel§! va être réduite."
+ SECTOR_ADD_ALREADY_ASSIGNED:0 "§RLe système de $SYSTEM|Y$ relève déjà d'un secteur.§!"
+ SECTOR_ADD_DONT_OWN_STARBASE:0 "§RLa base stellaire du système de $SYSTEM|Y$ ne nous appartient pas.§!"
+ SECTOR_ADD_FOREIGN_COLONIES:0 "§RLe système de $SYSTEM|Y$ est colonisé par un autre empire.§!"
+ SPECIES_RIGHTS_NO_POPS:0 "Les §Ydroits des espèces§! ne peuvent être définis pour les modèles d'espèces n'ayant aucune pop."

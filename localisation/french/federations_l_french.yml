@@ -1,23 +1,63 @@
 ﻿l_french:
- IS_YOU:1 "C'est nous."
 
- FEDERATION_LAW_COHESION:0 "$CATEGORY$ - $LAW$ : $VALUE|2+=$"
- FEDERATION_DIVERSE_ETHICS_PEN:0 "$COUNT$ éthiques divergentes : $VALUE|2+=$"
- FEDERATION_OPPOSING_ETHICS_PEN:0 "$COUNT$ éthiques opposées : $VALUE|2+=$"
- FEDERATION_LAW_COHESION_DESC:0 "$MOD_FEDERATION_COHESION_ADD$: $VALUE|2+=$"
- ENVOY_UNASSIGN_TITLE:0 "Rappeler les émissaires"
- ENVOY_UNASSIGN_DESC:0 "Rappeler les émissaires va les faire rentrer sur notre monde-capitale et permettra de les réaffecter sur une autre mission."
- CALL_IN_FAVOR_UNABLE:0 "Nous ne pouvons nous voir retourner aucune faveur."
- CALL_IN_FAVOR_ONLY_IF_VOTING:0 "Nous devons d'abord prendre parti pour ou contre la résolution avant de nous voir retourner la moindre faveur."
- CALL_IN_FAVOR_ONLY_IF_IN_FAVOR:0 "Nous ne pouvons nous voir retourner de faveur que si nous soutenons la résolution."
- d_ruin_bluelotus:0 "Ruines du Lotus bleu"
- d_ruin_bluelotus_desc:0 "Le site en ruines d'un complexe d'expérimentation autrefois prometteur, destiné à permettre de transmuter la pierre et d'autres matériaux en alliages de grande valeur. Il n'en reste désormais plus rien, à l'exception de cette veine très réduite."
+ ####################################
+ # Warning : Copie of Original Stellaris File
+ # Update check : 12.05.2020
+ # Translation check OK : 12.05.2020
+ ####################################
+
+ 
+ #Ruler specific
+ federation_acceptance_ruler_cyborg:0 "Dirigeant cyborg"
+ federation_acceptance_ruler_synthetic:0 "Dirigeant synthétique"
+ federation_acceptance_ruler_psionic:0 "Dirigeant psychiste"
+ federation_acceptance_ruler_very_strong:0 "Dirigeant très fort"
+ federation_acceptance_ruler_chosen:0 "Dirigeant Élu"
+ 
+ #Federation specific
+ federation_acceptance_hegemony_federation:0 "$hegemony_federation$"
+ federation_acceptance_military_federation:0 "$military_federation$"
+ federation_acceptance_trade_league:0 "$trade_federation$"
+ 
+ #Empire specific
+ federation_acceptance_authoritarian:0 "$ethic_authoritarian$"
+ federation_acceptance_militarist:0 "$ethic_militarist$"
+ federation_acceptance_xenophobe:0 "$ethic_xenophobe$"
+ federation_acceptance_xenophile:0 "$ethic_xenophile$"
+ federation_acceptance_materialist:0 "$ethic_materialist$"
+ federation_acceptance_erudite_explorers_in_research_federation:0 "$personality_erudite_explorers$ et $research_federation$"
+ federation_acceptance_honorbound_warriors_in_military_federation:0 "$personality_honorbound_warriors$ et $military_federation$"
+ federation_acceptance_ruthless_capitalists_in_trade_federation:0 "$personality_ruthless_capitalists$ et $trade_federation$"
+ federation_acceptance_peaceful_traders_in_trade_federation:0 "$personality_peaceful_traders$ et $trade_federation$"
+ #federation_acceptance_erudite_explorers_in_research_federation: "$erudite_explorers$ in a $research_federation$"
+ #federation_acceptance_honorbound_warriors_in_military_federation: "$honorbound_warriors$ in a $military_federation$"
+ #federation_acceptance_ruthless_capitalists_in_trade_federation: "$ruthless_capitalists$ in a $trade_federation$"
+ #federation_acceptance_peaceful_traders_in_trade_federation: "$peaceful_traders$ in a $trade_federation$"
+ federation_acceptance_warrior_culture:0 "$civic_warrior_culture$"
+ federation_acceptance_technocracy:0 "$civic_technocracy$"
+ federation_acceptance_psionic:0 "Psionique"
+ federation_acceptance_corporate:0 "$gov_megacorporation$"
+ 
+ federation_acceptance_generally_positive:0 "Généralement positive"
+ federation_acceptance_better_cohesion:0 "La cohésion n'est pas d'au moins §G90§!"
+ federation_acceptance_poor_cohesion:0 "Faible cohésion"
+ federation_acceptance_dont_lower_centralization:0 "Cohésion d'au moins §G50§!"
+ federation_acceptance_president:0 "Exerce la présidence fédérale"
+ federation_acceptance_reduce_centralization:0 "Souhaite réduire la centralisation"
+ federation_acceptance_reduce_fleet:0 "Souhaite réduire la contribution à la flotte"
+ federation_acceptance_rotating:0 "Veut une rotation"
+ federation_acceptance_term_limit:0 "Veut une limite de mandat"
+ federation_acceptance_crisis:0 "Crise en cours"
+ federation_acceptance_subject:0 "Est une dépendance"
+ federation_acceptance_strong_president:0 "Plus puissante et exerce la présidence"
+ federation_acceptance_weaker:0 "Moins puissante"
+ federation_acceptance_has_subjects:0 "A des dépendances"
+ federation_acceptance_no_psionic:0 "N'a pas le trait psionique"
  ORIGIN:0 "Origine"
  EMPIRE_ORIGIN:0 "$ORIGIN$"
  TOOLTIP_SETUP_ORIGIN:0 "Choisissez une origine à votre empire."
  GAMESETUP_COUNTRY_INVALID_ORIGIN:0 "Vous devez choisir une origine avant de pouvoir poursuivre."
  ORIGIN_INITIALIZER_RESTRICTION:0 "Impossible à modifier à cause de l'origine choisie."
-
  origin_default:0 "Unification durable"
  origin_default_desc:0 "L'unification durable de ce monde a permis à sa civilisation de se développer et prospérer."
  origin_tooltip_default_effects:0 "Lance la partie avec §Y4§! £pop£pops et §Y2§! £district£districts supplémentaires."
@@ -673,7 +713,7 @@
  hegemony_federation_passive_desc:0 "$hegemony_federation_desc$"
 
  default_federation_passive_effect:0 "Pénalité de cohésion en cas de divergences éthiques : §Y-50%§!"
- trade_federation_passive_effect:0 "Une politique commerciale de §Yligue commerciale§! est appliquée, qui combine en une seule tous les avantages permis par toutes les politiques commerciales."
+ trade_federation_passive_effect:1 "Permet la politique commerciale de la §Yligue commerciale§!, qui cumule les avantages des politiques de §Ybénéfice des consommateurs§! et du §Ymarché des idées§!."
  hegemony_federation_passive_effect:1 "Les membres ne peuvent quitter librement la fédération sans avoir reçu l'accord de la présidence. Si celle-ci refuse, ce membre obtiendra le casus belli §Y$casus_belli_cb_secession$§! contre elle."
  research_federation_passive_effect:0 "Des §Yconventions de recherche§! gratuites et automatiques sont conclues entre tous les membres de la fédération."
 
@@ -1268,17 +1308,14 @@
  resolution_galactic_focus_crisis_nanites:0 "Priorité : la Tempête Grise"
  resolution_galactic_focus_crisis_nanites_desc:0 "Les nanites de l'amas-L constituent une menace pour l'ensemble de la galaxie. Si nous ne nous unissons pas pour l'arrêter, elle nous détruira tous. Nous devons donc rassembler l'ensemble de la Communauté pour faire de cette crise la priorité galactique."
  resolution_galactic_focus_crisis_nanites_effect_success:0 "$resolution_galactic_focus_crisis_effect_success$"
-
- resolution_galactic_focus_war_in_heaven_support_side_1:0 "Priorité : s'opposer à la [SecondSleeper.GetName]"
- resolution_galactic_focus_war_in_heaven_support_side_1_desc:1 "La [SecondSleeper.GetName] a bien évidemment tous les torts dans le conflit qui déchire la galaxie. La Communauté devrait donc s'unir face à elle et soutenir la [FirstSleeper.GetName]."
- resolution_galactic_focus_war_in_heaven_support_side_1_success:1 "Ne pas rejoindre le camp de la §Y[FirstSleeper.GetName]§! dans la §YGuerre dans les cieux§! sera considéré comme une §Rinfraction§! aux lois galactiques."
-
- resolution_galactic_focus_war_in_heaven_support_side_2:0 "Priorité : s'opposer à la [FirstSleeper.GetName]"
- resolution_galactic_focus_war_in_heaven_support_side_2_desc:1 "La [FirstSleeper.GetName] a bien évidemment tous les torts dans le conflit qui déchire la galaxie. La Communauté devrait donc s'unir face à elle pour soutenir la [SecondSleeper.GetName]."
- resolution_galactic_focus_war_in_heaven_support_side_2_success:1 "Ne pas rejoindre le camp de la §Y[SecondSleeper.GetName]§! dans la §YGuerre dans les cieux§! sera considéré comme une §Rinfraction§! aux lois galactiques."
-
- resolution_galactic_focus_war_in_heaven_denounce_both:0 "Priorité : s'opposer aux deux empires renaissants"
- resolution_galactic_focus_war_in_heaven_denounce_both_desc:0 "Aussi bien la [FirstSleeper.GetName] que la [SecondSleeper.GetName] agissent comme des enfants puérils. Nous devons préparer une lettre de réprobation ferme à toutes deux."
+ resolution_galactic_focus_war_in_heaven_support_side_1:1 "Priorité : s'opposer à la [SecondSleeper.GetName]"
+ resolution_galactic_focus_war_in_heaven_support_side_1_desc:2 "La [SecondSleeper.GetName] a bien évidemment tous les torts dans le conflit qui déchire la galaxie. La Communauté devrait donc s'unir face à elle et soutenir la [FirstSleeper.GetName]."
+ resolution_galactic_focus_war_in_heaven_support_side_1_success:2 "Ne pas rejoindre le camp de la §Y[FirstSleeper.GetName]§! dans la §YGuerre dans les cieux§! sera considéré comme une §Rinfraction§! aux lois galactiques."
+ resolution_galactic_focus_war_in_heaven_support_side_2:1 "Priorité : s'opposer à la [FirstSleeper.GetName]"
+ resolution_galactic_focus_war_in_heaven_support_side_2_desc:2 "La [FirstSleeper.GetName] a bien évidemment tous les torts dans le conflit qui déchire la galaxie. La Communauté devrait donc s'unir face à elle pour soutenir la [SecondSleeper.GetName]."
+ resolution_galactic_focus_war_in_heaven_support_side_2_success:2 "Ne pas rejoindre le camp de la §Y[SecondSleeper.GetName]§! dans la §YGuerre dans les cieux§! sera considéré comme une §Rinfraction§! aux lois galactiques."
+ resolution_galactic_focus_war_in_heaven_denounce_both:0 "Priorité : dénoncer les deux empires renaissants"
+ resolution_galactic_focus_war_in_heaven_denounce_both_desc:1 "Aussi bien la [FirstSleeper.GetName] que la [SecondSleeper.GetName] agissent comme des enfants puérils. Nous devons préparer une lettre de réprobation ferme à toutes deux."
  resolution_galactic_focus_war_in_heaven_denounce_both_success:0 "Rejoindre n'importe lequel des deux camps dans la §YGuerre dans les cieux§! sera considéré comme une §Rinfraction§! aux lois galactiques.\n\nLes membres qui ne sont pas vassaux d'un empire renaissant vont bénéficier d'avantages."
 
  galactic_focus_crisis_prethoryn:2 "$TRIGGER_FAIL$ Défaite des Préthoryns"
@@ -3167,7 +3204,7 @@
  REMOVE_WAR_PARTICIPANT_EFFECT:1 "La $COUNTRY$ quitte $WAR$."
  effect_random_war:1 "une guerre aléatoire"
  effect_every_war:1 "toutes les guerres"
- count_war_trigger:1 "Le nombre de fédérations $IS_NOT$ $COMPARATOR$ à $NUM|Y$."
+ count_war_trigger:2 "Nombre de guerres$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$."
  effect_every_galaxy_species:1 "Chaque espèce de la galaxie"
  effect_random_galaxy_species:1 "Une espèce aléatoire de la galaxie"
 
@@ -3229,3 +3266,22 @@
 
  federations.10330.desc:0 "La Communauté galactique a adopté la résolution portant sur l'§Yinitiative de démobilisation§!, qui interdit la politique d'§Yéconomie militariste§!.\n\nLa [Root.GetName] se trouve donc en infraction avec cette résolution, et doit décider dès à présent si elle doit procéder aux changements pour se mettre en conformité."
  federations.10330.comply:0 "Notre §Ypolitique économique§! sera désormais celle de l'§Yéconomie mixte§!."
+
+ CURRENT_TERM_ENDS:0 "Fin du mandat actuel : $DATE|Y$"
+ FEDERATION_LAW_COHESION:0 "$CATEGORY$ - $LAW$ : $VALUE|2+=$"
+ FEDERATION_DIVERSE_ETHICS_PEN:0 "$COUNT$ éthiques divergentes : $VALUE|2+=$"
+ FEDERATION_OPPOSING_ETHICS_PEN:0 "$COUNT$ éthiques opposées : $VALUE|2+=$"
+ FEDERATION_LAW_COHESION_DESC:0 "$MOD_FEDERATION_COHESION_ADD$: $VALUE|2+=$"
+ ENVOY_UNASSIGN_TITLE:0 "Rappeler les émissaires"
+ ENVOY_UNASSIGN_DESC:0 "Rappeler les émissaires va les faire rentrer sur notre monde-capitale et permettra de les réaffecter sur une autre mission."
+ CALL_IN_FAVOR_UNABLE:0 "Nous ne pouvons nous voir retourner aucune faveur."
+ CALL_IN_FAVOR_ONLY_IF_VOTING:0 "Nous devons d'abord prendre parti pour ou contre la résolution avant de nous voir retourner la moindre faveur."
+ CALL_IN_FAVOR_ONLY_IF_IN_FAVOR:0 "Nous ne pouvons nous voir retourner de faveur que si nous soutenons la résolution."
+ d_ruin_bluelotus:0 "Ruines du Lotus bleu"
+ d_ruin_bluelotus_desc:0 "Le site en ruines d'un complexe d'expérimentation autrefois prometteur, destiné à permettre de transmuter la pierre et d'autres matériaux en alliages de grande valeur. Il n'en reste désormais plus rien, à l'exception de cette veine très réduite."
+ SANCTIONS_MODIFIERS:0 "§HModificateurs liés aux sanctions :§!"
+ FAVORS_SAME_SIDE:1 "§RCet empire soutient déjà la résolution. Il n'y a aucun besoin de demander le retour de faveurs pour obtenir son appui.§!"
+ CURRENT_PLAN:0 "Plan économique : $PLAN|Y$"
+ count_war_all_trigger:0 "$IS_ALL_NOT$ guerres remplissent ces conditions"
+ ACTION_VOTE_FOR_FEDERATION_LAW_ACTIVE_DESC:0 "§GLoi en cours :§! $CATEGORY|Y$ : $LAW|W$"
+ requires_doomsday_colony:0 "§RNous devons au préalable avoir une colonie.§!"
