@@ -52,10 +52,10 @@ l_french:
  
  
  mem_surveyor.3.name:0 "Sonde Mystérieuse"
- mem_surveyor.3.desc:0 "Un vaisseau non identifié a été détecté dans le système §Y[FROMFROMFROM.GetName]§!. \n\nUne analyse préliminaire suggère qu'il s'agit d'un vaisseau entièrement automatisé dirigé par une IA de base et probablement utilisé pour l'exploration. Ses intentions sont inconnues. Il ne montre ni hostilité ni tentative de communication. Jusqu'à ce que nous en sachions plus, il a été désigné comme '§Y[From.GetName]§!'."
+ mem_surveyor.3.desc:0 "Un vaisseau non identifié a été détecté dans le système §H[FROMFROMFROM.GetName]§!. \n\nUne analyse préliminaire suggère qu'il s'agit d'un vaisseau entièrement automatisé dirigé par une IA de base et probablement utilisé pour l'exploration. Ses intentions sont inconnues. Il ne montre ni hostilité ni tentative de communication. Jusqu'à ce que nous en sachions plus, il a été désigné comme '§Y[From.GetName]§!'."
  
  mem_surveyor.4.name:0 "La mystérieuse sonde brise le silence"
- mem_surveyor.4.desc:0 "Nous détectons un signal provenant d'une sonde itinérante que nous avons détectée plus tôt et qui se trouve actuellement dans le système §Y[surveyor_system.GetName]§!. \n\nIl semble avoir réussi à déchiffrer nos communications."
+ mem_surveyor.4.desc:0 "Nous détectons un signal provenant d'une sonde itinérante que nous avons détectée plus tôt et qui se trouve actuellement dans le système §H[surveyor_system.GetName]§!. \n\nIl semble avoir réussi à déchiffrer nos communications."
  
  MEM_SURVEYOR_PROBE_HEADER:0 "§GSonde inspectrice§!"
  mem_surveyor.5.desc:0 "Salutations. \n\nJe suis une sonde inspectrie conçue et employée par l'§YImpérium Alkrie§! pour explorer la galaxie et évaluer la situation pour mes créateurs. Mon objectif principal est d'identifier et de contenir toutes les menaces posées par la vie extraterrestre pour l'avenir des Alkries. Pour le moment, cette unité a exécuté §S[mem_surveyor_country.mem_surveyor_iteration_count]§! balayages. Délai d'exécution estimé: §S-1955 ans§!."
@@ -113,8 +113,8 @@ l_french:
  mem_surveyor.100.machine:0 "Oh regardez ! Nous sommes tous les deux des machines ! \n\nNous devrions être les meilleurs amis. Ou des ennemis. Ou rien. Nous sommes des machines, nous pouvons être ce que nous voulons !"
  
  #Greets based on where it's going ATM
- mem_surveyor.100.journey.1:0 "J'ai tracé mon parcours vers le système §Y[next_target.GetName]§!. C'est là que je vais. \n\nSavez-vous où vous allez ? C'est bon si vous n'allez nulle part, ne vous méprenez pas."
- mem_surveyor.100.journey.2:0 "Êtes-vous déjà allé dans le système §Y[visited_system.GetName]§! ? \n\nC'est un endroit magique!"
+ mem_surveyor.100.journey.1:0 "J'ai tracé mon parcours vers le système §H[next_target.GetName]§!. C'est là que je vais. \n\nSavez-vous où vous allez ? C'est bon si vous n'allez nulle part, ne vous méprenez pas."
+ mem_surveyor.100.journey.2:0 "Êtes-vous déjà allé dans le système §H[visited_system.GetName]§! ? \n\nC'est un endroit magique!"
  
  #Options and replies
  mem_surveyor.100.a:0 "Quelle est exactement votre mission ?"
@@ -263,9 +263,9 @@ mem_surveyor.231.desc.no_freebs:0 "La §SSonde enragée§! qui terrorise la gala
  mem_surveyor.242.a:0 "Bonne chance."
  mem_surveyor.242.purifier:0 "Nous espérons que vous mourrez tous les deux."
  
- mem_surveyor.243.desc.1.1:0 "La Sonde enragée est en route vers le système §Y[next_target.GetName ]§!. \n\nNous avons tracé un parcours d'interception. Rejoignez-nous si vous l'osez, éloignez-vous si vous ne le faites pas. Nous y menerons le combat malgré tout."
- mem_surveyor.243.desc.1.2:0 "HYEEIIIIEEEEE!!!!! \n\nDwakam rageuse passe dans système §Y[next_target.GetName ]§!. On la chasse, on la bute."
- mem_surveyor.243.desc.1.3:0 "Celle du Vide a parlé. La Sonde enragée cible le système §Y[next_target.GetName ]§!. \n\nC'est Sa volonté que nous traquions la machine abominable. Bientôt, nous rencontrerons notre destin."
+ mem_surveyor.243.desc.1.1:0 "La Sonde enragée est en route vers le système §H[next_target.GetName ]§!. \n\nNous avons tracé un parcours d'interception. Rejoignez-nous si vous l'osez, éloignez-vous si vous ne le faites pas. Nous y menerons le combat malgré tout."
+ mem_surveyor.243.desc.1.2:0 "HYEEIIIIEEEEE!!!!! \n\nDwakam rageuse passe dans système §H[next_target.GetName ]§!. On la chasse, on la bute."
+ mem_surveyor.243.desc.1.3:0 "Celle du Vide a parlé. La Sonde enragée cible le système §H[next_target.GetName ]§!. \n\nC'est Sa volonté que nous traquions la machine abominable. Bientôt, nous rencontrerons notre destin."
  mem_surveyor.243.desc.2.1:0 "La Planet §Y[next_target_planet.GetName]§! dans le système de §Y[next_target_planet.Solar_System.GetName]§! est actuellement menacés par la Sonde enragée. \n\nNous entendons offrir à ce monde notre aide, et à défaut, notre vengeance."
  mem_surveyor.243.desc.2.2:0 "HYEEIIIIEEEEE!!!!! \n\nLes Pauvres dwamaks de §Y[next_target_planet.GetName]§! vont bientôt être cuits par la dwakam enragée. Nous ne le permettrons pas! Nous allons vers §Y[next_target_planet.Solar_System.GetName]§! et nous nous battrons!"
  mem_surveyor.243.desc.2.3:0 "Celle du Vide m'a révélé la prochaine cible de la Sonde enragée. §Y[next_target_planet.GetName]§! dans le §Y[next_target_planet.Solar_System.GetName]§! est en grave danger. \n\nNous offririons nos prières à ceux qui versent des âmes, mais ils bénéficieraient davantage de forces de Vie."
@@ -289,15 +289,15 @@ mem_surveyor.231.desc.no_freebs:0 "La §SSonde enragée§! qui terrorise la gala
  mem_surveyor.243.3.c.response:0 "J'ai été choisi par Celle du Vide, je le sais. \n\nJe combattrai la Sonde enragée et je la vaincrai en Son nom, tandis que vos fausses idoles tomberont avant son déchaînement. " 
 
  mem_surveyor.245.name:0 "Chasseurs de sonde détruits"
- mem_surveyor.245.desc:0 "Nous avons reçu des informations faisant état de la destruction de la flotte des Chasseurs de sonde lors d'un engagement avec les forces de '§Y[avengers_killers.GetName]§!' dans le système §Y[battle_system.GetName ]§!. \n\nIl n'y a aucun rapport de survivants."
+ mem_surveyor.245.desc:0 "Nous avons reçu des informations faisant état de la destruction de la flotte des Chasseurs de sonde lors d'un engagement avec les forces de '§Y[avengers_killers.GetName]§!' dans le système §H[battle_system.GetName ]§!. \n\nIl n'y a aucun rapport de survivants."
  mem_surveyor.245.a:0 "Tout ça pour sauver la galaxie..."
  
  mem_surveyor.246.name:0 "Chasseurs de sonde détruits"
- mem_surveyor.246.desc:0 "Nous avons reçu des informations selon lesquelles la flotte des Chasseurs de sonde a été détruite lors de l'engagement des forces auxiliaires de la sonde dans le système §Y[battle_system.GetName ]§!. \n\nIl n'y a aucun rapport de survivants."
+ mem_surveyor.246.desc:0 "Nous avons reçu des informations selon lesquelles la flotte des Chasseurs de sonde a été détruite lors de l'engagement des forces auxiliaires de la sonde dans le système §H[battle_system.GetName ]§!. \n\nIl n'y a aucun rapport de survivants."
  mem_surveyor.246.a:0 "On dirait que quelqu'un d'autre devra terminer le travail."
  
  mem_surveyor.247.name:0 "Chasseurs de sonde détruits"
- mem_surveyor.247.desc:0 "Nous avons reçu des informations selon lesquelles les Chasseurs de sonde auraient engagé le combat contre la Sonde enragée dans le système §Y[battle_system.GetName ]§! mais ont échoué dans leur combat. \n\nMalgré cela, ils ont réussi à toucher plusieurs coups dévastateurs, affaiblissant considérablement la sonde."
+ mem_surveyor.247.desc:0 "Nous avons reçu des informations selon lesquelles les Chasseurs de sonde auraient engagé le combat contre la Sonde enragée dans le système §H[battle_system.GetName ]§! mais ont échoué dans leur combat. \n\nMalgré cela, ils ont réussi à toucher plusieurs coups dévastateurs, affaiblissant considérablement la sonde."
  mem_surveyor.247.a:0 "On dirait que quelqu'un d'autre devra terminer le travail."
  
  mem_surveyor.249.name:0 "Flotte des Chasseurs de sonde démantelée"
@@ -339,15 +339,15 @@ mem_surveyor.231.desc.no_freebs:0 "La §SSonde enragée§! qui terrorise la gala
  mem_surveyor.264.desc.4:0 "Il s'agit du capitaine [mem_surveyor_mercenary_leader.GetName] du [From.GetName].\n\nLa sonde reste actuellement stationnaire dans le système [mem_surveyor_fleet.Solar_System.GetName]. Restez à l'écoute pour d'autres mises à jour."
  
  mem_surveyor.266.name:0 "Le [From.GetName] a échoué"
- mem_surveyor.266.desc:0 "Nous avons reçu des informations selon lesquelles le Titan envoyé pour combattre la Sonde enragée a été détruit alors qu'il s'engageait avec les forces du §Y[mercs_killers.GetName]§! dans le système §Y[battle_system.GetName ]§! au lieu.\n\nIl n'y a aucun rapport de survivants."
+ mem_surveyor.266.desc:0 "Nous avons reçu des informations selon lesquelles le Titan envoyé pour combattre la Sonde enragée a été détruit alors qu'il s'engageait avec les forces du §Y[mercs_killers.GetName]§! dans le système §H[battle_system.GetName ]§! au lieu.\n\nIl n'y a aucun rapport de survivants."
  mem_surveyor.266.a:0 "Quelqu'un va se faire virer pour cette bévue ..."
  
  mem_surveyor.267.name:0 "Le [From.GetName] a échoué"
- mem_surveyor.267.desc:0 "Nous avons reçu des informations selon lesquelles le Titan envoyé pour combattre la Sonde enragée a été détruit lors de l'engagement des forces auxiliaires de la sonde dans le système §Y[XXX_1 ]§!.\n\nIl n'y a aucun rapport de survivants."
+ mem_surveyor.267.desc:0 "Nous avons reçu des informations selon lesquelles le Titan envoyé pour combattre la Sonde enragée a été détruit lors de l'engagement des forces auxiliaires de la sonde dans le système §H[From.GetName]§!.\n\nIl n'y a aucun rapport de survivants."
  mem_surveyor.267.a:0 "Quelqu'un va se faire virer pour cette bévue ..."
  
  mem_surveyor.268.name:0 "Le [From.GetName] a échoué"
- mem_surveyor.268.desc:0 "Nous avons reçu des informations selon lesquelles le Titan aurait engagé la Sonde enragée dans le système §Y[XXX_1 ]§! mais n'a pas réussi dans son combat.\n\nMalgré cela, il a réussi à frapper plusieurs coups dévastateurs, affaiblissant considérablement la sonde."
+ mem_surveyor.268.desc:0 "Nous avons reçu des informations selon lesquelles le Titan aurait engagé la Sonde enragée dans le système §H[From.GetName]§! mais n'a pas réussi dans son combat.\n\nMalgré cela, il a réussi à frapper plusieurs coups dévastateurs, affaiblissant considérablement la sonde."
  mem_surveyor.268.a:0 "On dirait que quelqu'un d'autre devra terminer le travail."
  
  mem_surveyor.270.name:0 "Un effort titanesque"
@@ -363,7 +363,7 @@ mem_surveyor.231.desc.no_freebs:0 "La §SSonde enragée§! qui terrorise la gala
  
  # This piece of text relates to probe's possible teleportation. Not implemented ATM, will probably never be.
  # mem_surveyor.271.name:0 "Sonde enragée Apparaît dans le système [next_target.GetName]"
- # mem_surveyor.271.desc:0 "De façon inattendue, la Sonde enragée est apparue dans le système §Y[XXX_1 ]§!.\n\nIl ne semble pas avoir utilisé d'hyperlane stable pour ce faire - ce qui signifie que la seule explication est qu'il a utilisé des parties inexplorées de l'hyperespace pour contourner le réseau normal."
+ # mem_surveyor.271.desc:0 "De façon inattendue, la Sonde enragée est apparue dans le système §H[From.GetName]§!.\n\nIl ne semble pas avoir utilisé d'hyperlane stable pour ce faire - ce qui signifie que la seule explication est qu'il a utilisé des parties inexplorées de l'hyperespace pour contourner le réseau normal."
  # mem_surveyor.271.a:0 "Alertez toutes nos forces !"
  
  mem_surveyor_how_to_kill:0 "Dossier des Curateurs sur la Sonde"

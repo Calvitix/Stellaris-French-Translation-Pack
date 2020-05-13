@@ -1,11 +1,10 @@
 ﻿l_french:
 
-
 ###_[main]  ##############################################################################################
 #_names
  NAME_z_fw_npc_1: "§GInfinite Stellaris§!"
- NAME_z_fw_misc_autostation_fleet: "§GAutomatic Station§! Constructor"
- NAME_z_fw_autostation_ship: "Fully Automatic Constructor"
+ NAME_z_fw_misc_autostation_fleet: "Constructeur de §GStation automatique§!"
+ NAME_z_fw_autostation_ship: "Constructeur automatisé"
 
 #_evts
  z_fw_evt_crious: "Quelque-chose va arriver !"
@@ -18,15 +17,15 @@
  
 #_traits
 #_traits_leader
- z_fw_trait_leader_test_ancrel:0 "无尽的赐福-考古"
- z_fw_trait_leader_test_ancrel_desc:0 "就是学识渊博！"
+ z_fw_trait_leader_test_ancrel:0 "Bénédiction sans fin-Archéologie"
+ z_fw_trait_leader_test_ancrel_desc:0 "Est bien informé !"
  
 #_modifiers
  z_fw_temp_function:0 "§BFunctional Modifier§!"
- z_fw_temp_function_desc:0 "A modifier for a temporary function."
+ z_fw_temp_function_desc:0 "Un modificateur pour une fonction temporaire."
 
 #_mian event chain SP用Root EC用This,EC等同country本身
- z_chain_main_title:0 "§GInfinite Collection : Core System§!"
+ z_chain_main_title:0 "§GInfinite Collection : Système principal§!"
  z_chain_main_desc:0 "Variables détaillées pour Infinite Collection.\n\n§G$z_desire_for_star_var$§! reste §G[This.z_desire_for_star_var]§!"
 
 
@@ -48,10 +47,10 @@
  z_fw1_misc.1.b1.tooltip:0 "Vous obtiendrez un certain montant de subvention des ressources. §Attention, c'est de la triche ! §! Vous n'avez pas besoin de ce buff si vous utilisez un démarrage avancé."
  z_fw1_misc.1.b2:0 "Planifiez à l'avance §HOff§!"
  z_fw1_misc.1.b2.tooltip:0 "Il n'y aura pas de subventions aux ressources au début du jeu."
- z_fw1_misc.1.c1: "Infinite Stellaris Relics §GEnabled§!"
- z_fw1_misc.1.c1.tooltip: "Refresh the original relics of Infinite Stellaris among the galaxy near a random player empire, surprise!"
+ z_fw1_misc.1.c1: "Reliques infinies de Stellaris §GEnabled§!"
+ z_fw1_misc.1.c1.tooltip: "Rafraîchissez les reliques originales d'Infinite Stellaris dans la galaxie près d'un empire de joueurs aléatoires, surprise !"
  z_fw1_misc.1.c2: "Infinite Stellaris Relics §HDisabled§!"
- z_fw1_misc.1.c2.tooltip: "No new original relics."
+ z_fw1_misc.1.c2.tooltip: "Pas de nouvelles reliques originales."
  z_fw1_misc.1.c:0 "§BDémarrage du jeu terminé§!"
  z_fw1_misc.1.c.tooltip:0 "Et nous commençons donc"
 #_[evt13]
@@ -65,7 +64,6 @@
 #_relic
  z_fw_r_monument:0 "§GMonument d'étoiles infinies§!"
  z_fw_r_monument_desc:0 "Je vois, je conquiert. Lorsque notre grande civilisation est entrée dans la course des étoiles, ils ont fait ce monument avec un savoir-faire exquis. Il porte le désir de notre grande civilisation pour l'espace, et annonce également notre gloire dans l'avenir. Le basculer consommera des points de désir, utilisez également $z_fw_dec_desire_for_stars$. Gagner une guerre initiée par nous ou terminer certains événements spéciaux peut §Gagner§! Points de désir.\n§BOur voyage est une mer d'étoiles.§!\n\nPoints de désir restés §G [root.z_fw_desire_point_var]§!"
- z_fw_r_monument_effect:0 "Activite it will consume desire points by §G3§!. Depending on the game period, different Great Crusade buff will be obtained. Do everything you can to defeat your enemies within 10 years!"
 #_决策
  z_fw_dec_desire_for_stars:0 "§GEager pour les étoiles§! : Croissance rapide"
  z_fw_dec_desire_for_stars_desc:0 "Le temps c'est de l'argent, le temps c'est la vie. Nous devons rattraper les autres civilisations, grandir plus vite, plus de personnes, une productivité plus puissante."
@@ -252,14 +250,14 @@
  z_fw1_misc.31.a2:0 "Faire exploser toutes les étoiles dans ce système"
  z_fw1_misc.31.a3:0 "Faire exploser toutes les étoiles de ce système et des systèmes voisins"
  z_fw1_misc.31.a4:0 "Faire exploser les étoiles pour détruire cet empire"
- z_fw1_misc.313.name:0 "[LastKilledCountryName] has been completely destroyed"
- z_fw1_misc.313.desc:0 "We learned that [LastKilledCountryName] has been completely destroyed by some mysterious power. Within less than a month, the stars in their territory have erupted one after another, making their territory extremely bright, but unfortunately they have become light as well. Their precious fleets, the megastructures which is covering the sky dome, their prosperous and glorious planets, now has become nothing left except wreckage. The twinkling supernova and the fragments of the celestial body are intertwined to form an extremely magnificent picture, which is intoxicating."
- z_fw1_misc.314.name:0 "[LastKilledCountryName] has been completely destroyed"
- z_fw1_misc.314.desc:0 "We learned that the mighty [LastKilledCountryName] has been completely destroyed by some mysterious power. Within less than a month, the stars in their territory have erupted one after another, making their territory extremely bright, but unfortunately they have become light as well. Their unmatched fleets, the megastructures which is covering the sky dome, their prosperous and glorious planets, now has become nothing left except wreckage. The twinkling supernova and the fragments of the celestial body are intertwined to form an extremely magnificent picture, which is intoxicating."
- z_fw1_misc.315.name:0 "[LastKilledCountryName] has been completely destroyed"
- z_fw1_misc.315.desc:0 "We learned that [LastKilledCountryName] has been completely destroyed by some mysterious terrible power. Within a month, the stars in their territory have erupted one after another, making their territory extremely shining, but unfortunately they have become light as well. We do not know what kind of history they have, and the communication with them is only some short conversation, just as they never existed for us. Today, only the twinkling supernova and the fragments of the celestial body are intertwined in the systems that originally belonged to them, forming a very magnificent picture, which is intoxicating."
- z_fw1_misc.316.name:0 "An unknown interstellar civilization has been completely destroyed"
- z_fw1_misc.316.desc:0 "We learned that an unknown interstellar civilization has been completely destroyed by some mysterious terrible power. Within a month, the stars in their territory have erupted one after another, making their territory extremely shining, but unfortunately they have become light as well. We do not know what kind of history they have, and the communication with them is only some short conversation, just as they never existed for us. Today, only the twinkling supernova and the fragments of the celestial body are intertwined in the systems that originally belonged to them, forming a very magnificent picture, which is intoxicating."
+ z_fw1_misc.313.name:0 "[LastKilledCountryName] a été complètement détruit"
+ z_fw1_misc.313.desc:0 "Nous avons appris que [LastKilledCountryName] a été complètement détruit par un pouvoir mystérieux. En moins d'un mois, les étoiles de leur territoire ont éclaté les unes après les autres, rendant leur territoire extrêmement lumineux, mais malheureusement elles sont également devenues légères. Leurs précieuses flottes, les mégastructures qui recouvrent le dôme du ciel, leurs planètes prospères et glorieuses, ne sont plus que des épaves. La supernova scintillante et les fragments du corps céleste sont entrelacés pour former un tableau extrêmement magnifique, qui est enivrant."
+ z_fw1_misc.314.name:0 "[LastKilledCountryName] a été complètement détruit"
+ z_fw1_misc.314.desc:0 "Nous avons appris que le puissant [LastKilledCountryName] a été complètement détruit par un pouvoir mystérieux. En moins d'un mois, les étoiles de leur territoire ont éclaté les unes après les autres, rendant leur territoire extrêmement lumineux, mais malheureusement elles sont également devenues légères. Leurs flottes inégalées, les mégastructures qui recouvrent le dôme du ciel, leurs planètes prospères et glorieuses, ne sont plus que des épaves. La supernova scintillante et les fragments du corps céleste sont entrelacés pour former un tableau extrêmement magnifique, qui est enivrant."
+ z_fw1_misc.315.name:0 "[LastKilledCountryName] a été complètement détruit"
+ z_fw1_misc.315.desc:0 "Nous avons appris que [LastKilledCountryName] a été complètement détruit par un pouvoir mystérieux et terrible. En l'espace d'un mois, les étoiles de leur territoire ont éclaté les unes après les autres, rendant leur territoire extrêmement brillant, mais malheureusement elles sont également devenues légères. Nous ne savons pas quel genre d'histoire ils ont, et la communication avec eux n'est qu'une courte conversation, tout comme ils n'ont jamais existé pour nous. Aujourd'hui, seules la supernova scintillante et les fragments du corps céleste sont entrelacés dans les systèmes qui leur appartenaient à l'origine, formant un tableau très magnifique, enivrant."
+ z_fw1_misc.316.name:0 "Une civilisation interstellaire inconnue a été complètement détruite"
+ z_fw1_misc.316.desc:0 "Nous avons appris qu'une civilisation interstellaire inconnue a été complètement détruite par un pouvoir mystérieux et terrible. En l'espace d'un mois, les étoiles de leur territoire ont éclaté les unes après les autres, rendant leur territoire extrêmement brillant, mais malheureusement elles sont également devenues légères. Nous ne savons pas quel genre d'histoire ils ont, et la communication avec eux n'est qu'une courte conversation, tout comme ils n'ont jamais existé pour nous. Aujourd'hui, seules la supernova scintillante et les fragments du corps céleste sont entrelacés dans les systèmes qui leur appartenaient à l'origine, formant un tableau très magnifique, enivrant."
  
 #_tooltips
  z_fw_r_celestial_orrey_not_activited:0 "Orrery céleste est §Non activé.§!"
@@ -289,20 +287,20 @@
 ###_[relic]    ############################################################################################
 
 #_evts
- z_fw_evt_good_karyl: "Excellent, but they are so stinky!"
- z_fw_evt_terrible_karyl: "We have big trouble now, and they are so stinky!"
- z_fw1_misc.324.name: "The population of the planet has been totally assimilated"
- z_fw1_misc.324.desc.1: "Accompanied by a noisy girly voice, the intelligent species of the entire planet, regardless of organisms, intelligent machines, stone men or other messy existence, have become dark-haired beast-eared girls with two strands of white hair. Although we have not yet understood why these tentacled heads can assimilate even bread machines and stones, there is no doubt that the planet has no other species, and if there are, it will soon become them. But fortunately, with $z_fw_r_head_of_karyl$, we can create high-quality beast-eared girls, not like those on alien's plenets."
- z_fw1_misc.324.desc.2: "Accompanied by a noisy girly voice, the intelligent species of the entire planet, regardless of organisms, intelligent machines, stone men or other messy existence, have become dark-haired beast-eared girls with two strands of white hair. Although we have not yet understood why these tentacled heads can assimilate even bread machines and stones, there is no doubt that the planet has no other species, and if there are, it will soon become them. It's really terrible, OMG, if left unattended, it may infect other worlds!"
- z_fw1_misc.325.name: "This planet is polluted!"
- z_fw1_misc.325.desc: "Wait, what's going on, what is this? A group of lively ... heads? The following are also covered with horrible sticky tentacles, oh my god, they actually jumped on everyone and tore everyone's heads off to replace them. What the hell is this monster?"
+ z_fw_evt_good_karyl: "Excellent, mais ils sont tellement puants !"
+ z_fw_evt_terrible_karyl: "Nous avons de gros problèmes maintenant, et ils sont tellement puants !"
+ z_fw1_misc.324.name: "La population de la planète a été totalement assimilée"
+ z_fw1_misc.324.desc.1: "Accompagnées d'une voix girly bruyante, les espèces intelligentes de la planète entière, quels que soient les organismes, les machines intelligentes, les hommes de pierre ou toute autre existence en désordre, sont devenues des filles aux oreilles de bête aux cheveux noirs avec deux mèches de cheveux blancs. Bien que nous n'ayons pas encore compris pourquoi ces têtes tentaculées peuvent assimiler même des machines à pain et des pierres, il ne fait aucun doute que la planète n'a pas d'autres espèces, et s'il y en a, elles deviendront bientôt elles. Mais heureusement, avec $z_fw_r_head_of_karyl$, nous pouvons créer des filles aux oreilles de bête de haute qualité, pas comme celles des plenets d'alien."
+ z_fw1_misc.324.desc.2: "Accompagnées d'une voix girly bruyante, les espèces intelligentes de la planète entière, quels que soient les organismes, les machines intelligentes, les hommes de pierre ou toute autre existence en désordre, sont devenues des filles aux oreilles de bête aux cheveux noirs avec deux mèches de cheveux blancs. Bien que nous n'ayons pas encore compris pourquoi ces têtes tentaculées peuvent assimiler même des machines à pain et des pierres, il ne fait aucun doute que la planète n'a pas d'autres espèces, et s'il y en a, elles deviendront bientôt elles. C'est vraiment terrible, OMG, s'il est laissé sans surveillance, il peut infecter d'autres mondes !"
+ z_fw1_misc.325.name: "Cette planète est polluée !"
+ z_fw1_misc.325.desc: "Attendez, qu'est-ce qui se passe, qu'est-ce que c'est ? Un groupe de têtes ... animées ? Les éléments suivants sont également couverts d'horribles tentacules collantes, oh mon dieu, ils ont en fait sauté sur tout le monde et ont déchiré la tête de tout le monde pour les remplacer. Qu'est-ce que c'est que ce monstre ?"
 
 ###_永恒星炬
 #_tooltips
- z_fw_r_cheat_quantum_beacon_effect:0 "Turning on the Eternal Star Torch will give the fleet Infinite asylum within 10 years, the chance of disengage, the aerospace speed and jump drive efficiency are greatly improved, and the borders of all countries will be opened. Full sensor range for 10 years as well."
- z_fw_r_cheat_quantum_beacon_activited:0 "Eternal Star Torch has been §Gactivated§!"
+ z_fw_r_cheat_quantum_beacon_effect:0 "L'activation de la torche éternelle donnera à la flotte un asile infini dans les 10 ans, les chances de désengagement, la vitesse aérospatiale et l'efficacité de la conduite de saut seront grandement améliorées et les frontières de tous les pays seront ouvertes. Gamme complète de capteurs pendant 10 ans également."
+ z_fw_r_cheat_quantum_beacon_activited:0 "Eternal Star Torch a été §Gactivé§!"
 #_relic
- z_fw_r_cheat_quantum_beacon:0 "§GInfinite Stellaris§!: Eternal Star Torch"
- z_fw_r_cheat_quantum_beacon_desc:0 "The glory of the Infini7e will always shine upon the galaxy, providing shelter for those tortured souls, so that they will not be lost in the turbulence of the shround. ——Alpha plane, lord of Infinite Stellaris"
+ z_fw_r_cheat_quantum_beacon:0 "§GInfinite Stellaris§! : Eternal Star Torch"
+ z_fw_r_cheat_quantum_beacon_desc:0 "La gloire de l'Infini7e brillera toujours sur la galaxie, offrant un abri à ces âmes torturées, afin qu'elles ne soient pas perdues dans la turbulence de la furie. ——Alpha plane, seigneur d'Infinite Stellaris"
  
  

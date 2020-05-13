@@ -62,7 +62,7 @@
  leviathans.99.desc:1 "Après avoir réussi à traduire leur langue, nous avons établi des communications avec la station spatiale indépendante de la §Y[From.From.GetName]§!."
 
  curator_government:0 "Enclave des Conservateurs"
- curator_government_desc:0 "§LUn ordre antique de savants, dédié à la préservation de la connaissance et des technologies.§!"
+ curator_government_desc:0 "§LUne congrégation antique d'érudits, dédié à la préservation de la connaissance et des technologies.§!"
  RT_HIGH_CURATOR:0 "Grand Conservateur"
  RT_HIGH_CURATOR_FEMALE:0 "Grande Conservatrice"
  trader_government:0 "Enclave de Marchands"
@@ -70,7 +70,7 @@
  RT_HIGH_TRADER:0 "Négociant en Chef"
  RT_HIGH_TRADER_FEMALE:0 "Négociante en Chef"
 
- artist_government:0 "Enclave d'artistes"
+ artist_government:0 "Enclave des Artisans"
  artist_government_desc:0 "§LUne union interstellaire d'artistes, unis par leur désir de créer un art supérieur à tout autre.§!"
  RT_HIGH_ARTIST:0 "Proviseur"
  RT_HIGH_ARTIST_FEMALE:0 "Proviseure"
@@ -238,8 +238,8 @@
  leviathans.163c.desc:0 "Jamais plus nous n'accorderons le moindre crédit à la [Root.GetName]."
  
  ### GUARDIAN 300-399 ARTIST
- leviathans.300.name:0 "La Troupe des Artistes"
- leviathans.300.desc:0 "Salutations, [my_country.GetRulerName]. Je suis [artist_enclave.GetRulerName], grand maître de la Troupe des Artistes, et vous souhaite la bienvenue.\n\nQue pouvons-nous pour vous ? Peut-être produire quelque oeuvre d'art dont vous aimeriez jouir ? À moins que vous ne souhaitiez parrainer notre enclave dans la création de beautés éthérées ?"
+ leviathans.300.name:0 "La Troupe des Artisans"
+ leviathans.300.desc:1 "Salutations, [my_country.GetRulerName]. Au nom de la Troupe des Artisans, je vous souhaite la bienvenue.\n\nQue pouvons-nous pour vous ? Peut-être produire quelque oeuvre d'art dont vous aimeriez jouir ? À moins que vous ne souhaitiez parrainer notre enclave dans la création de beautés éthérées ?"
  leviathans.300.desc.continued:0 "Très bien. En ce cas, y a-t-il autre chose que nous puissions faire pour vous ?"
  leviathans.300.a:0 "Nous souhaiterions commander une oeuvre d'art"
  leviathans.300.a.reply:0 "Malheureusement, nous n'en avons pas d'autres à vous proposer. À moins que vous sous-entendiez que vous n'appréciez pas celles que vous avez déjà achetées ? Vous comprenez, j'en suis sûr, que nous devons songer aussi à notre intégrité."
@@ -248,10 +248,10 @@
  leviathans.300.b.stop.tooltip:0 "§RMet fin§! au gain mensuel d'£opinion£opinion\n\n"
  leviathans.300.b.reply:0 "Oh, je vois. C'est bien dommage, [my_country.GetSpeciesNamePlural]. Malgré tout, soyez remerciés de votre soutien passé.\n\nAu revoir."
  leviathans.300.c:0 "Nous souhaiterions organiser une fête sur tous nos mondes"
- leviathans.300.c.allow:0 "Requiert que la §YTroupe des Artistes§! ait :\nOpinion : +50£opinion "
- leviathans.300.c.outofstock:1 "Nous ne pouvons organiser un §YFestival des Artistes§! que tous les 20 ans."
+ leviathans.300.c.allow:0 "Requiert que la §YTroupe des Artisans§! ait :\nOpinion : +50£opinion£ "
+ leviathans.300.c.outofstock:1 "Nous ne pouvons organiser une §YCélébration de tous les mondes§! que tous les 20 ans."
  leviathans.300.d:0 "Dites-nous-en plus sur votre troupe"
- leviathans.300.d.reply:0 "Nous sommes la Troupe des Artistes, un rassemblement de plusieurs stations habitées par des créateurs venus de bien des mondes, tous unis par leur désir de créer de nouvelles beautés dans ces refuges où ils ont trouvé refuge. Ils y amènent des idées et des méthodes venues de toute la galaxie, et à nous tous nous recherchons l'expression ultime de l'identité.\n\nNous rendons de très nombreux services à ceux qui souhaitent jouir de l'art. Si vous patronnez notre travail, nous pourrions même songer à organiser de plus grandes choses pour la population de votre empire."
+ leviathans.300.d.reply:0 "Nous sommes la Troupe des Artisans, un rassemblement de plusieurs stations habitées par des créateurs venus de bien des mondes, tous unis par leur désir de créer de nouvelles beautés dans ces refuges où ils ont trouvé refuge. Ils y amènent des idées et des méthodes venues de toute la galaxie, et à nous tous nous recherchons l'expression ultime de l'identité.\n\nNous rendons de très nombreux services à ceux qui souhaitent jouir de l'art. Si vous patronnez notre travail, nous pourrions même songer à organiser de plus grandes choses pour la population de votre empire."
  leviathans.300.e:0 "Que pouvez-vous faire d'autre ?"
  leviathans.300.f:0 "Nous souhaiterions investir dans un Ministère de la culture"
  leviathans.316.name:0 "Le Ministère de la culture"
@@ -268,16 +268,16 @@
  leviathans.307.desc:1 "Notre économie ne nous permet plus de patronner la Troupe des Artisans. Notre empire ne la financera désormais plus, ce qui va certainement dégrader nos relations avec cette enclave."
  leviathans.307.a.tooltip:0 "§RRetire§! le modificateur d'empire §Y$enclave_artist_patron$§!"
  leviathans.310.name:0 "La catastrophe"
- leviathans.310.desc:0 "Le Festival des Artistes, organisée par la Troupe des Artistes, a suscité la joie de toute la population [Root.GetAdj]. Hélas, cela n'a guère duré.\n\nSur [this_planet.GetName], la fête s'est terminée par une gigantesque bousculade qui a fait des milliers de victimes."
+ leviathans.310.desc:0 "La Célébration de tous les mondes, organisée par la Troupe des Artisans, a suscité la joie de toute la population [Root.GetAdj]. Hélas, cela n'a guère duré.\n\nSur [this_planet.GetName], la fête s'est terminée par une gigantesque bousculade qui a fait des milliers de victimes."
  leviathans.310.b:0 "Détournons l'attention des médias"
  leviathans.311.name:0 "La joie"
  leviathans.311.desc:0 "Grâce à tout ce bonheur répandu par la Célébration de tous les mondes, certains des organisateurs sont tombés amoureux de nos mondes et souhaitent rester après le terme des festivités, afin de s'établir et devenir citoyens de notre empire."
  leviathans.311.a:0 "Laissons-les rester"
  leviathans.311.b:0 "Ils feraient mieux de partir"
  leviathans.312.name:0 "La trahison"
- leviathans.312.desc:0 "Le Festival des Artistes a connu une fin soudaine. La Troupe des Artistes a fait ses bagages et est repartie, sans donner un mot d'explication.\n\nLes fouilles menées dans les campements et les enceintes de spectacle des artistes ont révélé qu'une énorme quantité de ressources avait disparu."
+ leviathans.312.desc:0 "La Célébration de tous les mondes a connu une fin soudaine. La Troupe des Artisans a fait ses bagages et est repartie, sans donner un mot d'explication.\n\nLes fouilles menées dans les campements et les enceintes de spectacle des artistes ont révélé qu'une énorme quantité de ressources avait disparu."
  leviathans.312.a:0 "Voleurs !"
- leviathans.313.desc:0 "La Troupe des Artistes ne répond à aucune de nos demandes d'explication."
+ leviathans.313.desc:0 "La Troupe des Artisans ne répond à aucune de nos demandes d'explication."
  leviathans.313.desc.unknown:1 "Sans que ce soit un quelconque problème de traduction, une fois nos informations échangées avec la [From.GetName] elle a fermé tous les canaux et refuse depuis lors de communiquer avec nous."
  leviathans.313.a:0 "Comment osent-ils !?"
  leviathans.315.desc:0 "Oh, des visiteurs ! Quelle joie ! Mmm, pardonnez mes manières. Je pense que des présentations seraient appropriées. Nous sommes la Troupe des Artisans.\n\nNos membres ont dédié leur vie à la découverte des arts, de la musique, de la culture et de toutes ces choses qui permettent de rendre l'existence vivable aux êtres conscients. Si vous souhaitez découvrir nos créations merveilleuses, n'hésitez pas à nous contacter !"
@@ -329,7 +329,7 @@
  leviathans.500c.desc:0 "Saviez-vous que cette conversation est étroitement surveillée par les entités de sept plans dimensionnels subspatiaux ? Malheureusement, étant données les capacités technologiques encore trop réduites de votre civilisation, j'ai bien peur qu'entrer en communication avec eux soit pour vous plus dangereux qu'autre chose."
  leviathans.500d.desc:0 "Ne craignez rien. Nous avons mis à jour les informations sur la [Root.GetName] que contiennent nos archives, pour le bénéfice des générations futures. Nous nous souviendrons de vous très longtemps après la chute inéluctable de votre empire stellaire."
  leviathans.500e.desc:0 "Il y a tant de choses que j'aimerais vous dire, mais vous comprenez que je ne peux pas le faire gratuitement. Cette station nécessite beaucoup d'énergie pour fonctionner... Nous devons prendre en considération les frais généraux."
- leviathans.500f.desc:0 "Au nom de l'ordre des Conservateurs, soyez les bienvenus. Que souhaitiez-vous ?"
+ leviathans.500f.desc:0 "Au nom de la congrégation des Conservateurs, soyez les bienvenus. Que souhaitiez-vous ?"
  leviathans.500g.desc:0 "Comme toujours, c'est un véritable plaisir de faire affaire avec votre gouvernement. Pouvons-nous vous intéresser à quelque technologie ?"
  leviathans.500h.desc:0 "Nous sommes contents de vous revoir. Nous sommes persuadés de parvenir à un accord réciproquement avantageux avant la fin du jour."
  leviathans.500i.desc:0 "La connaissance, placée entre de mauvais appendices préhenseurs, peut être dangereuse. Mais qu'y pouvons-nous ? Il nous faut de l'énergie pour garder la lumière allumée..."
@@ -368,7 +368,7 @@
  leviathans.508.c:0 "Dites-nous en plus sur la $leviathans.515.name$" #enigmatic fortress
  leviathans.508.d:0 "Dites-nous en plus sur le $leviathans.520.name$" #stellar devourer
  leviathans.508.e:0 "Dites-nous en plus sur l'$leviathans.525.name$" #dimensional horror
- leviathans.508.f:0 "Dites-nous en plus sur les $leviathans.530.name$" #astéroïde hiver
+ leviathans.508.f:0 "Dites-nous en plus sur les $leviathans.530.name$" #asteroid hiver
  leviathans.508.g:0 "Dites-nous en plus sur la $leviathans.535.name$" #infinity machine
  leviathans.508.h:0 "Dites-nous en plus sur le $leviathans.540.name$" #automated dreadnought
  leviathans.508.i:0 "Dites-nous en plus sur les $leviathans.545.name$" #wraith
@@ -382,7 +382,7 @@
  leviathans.597a.desc:0 "Fous que vous êtes ! En nous attaquant, vous condamnez tous vos descendants à une existence misérable de technologie primitive !"
  leviathans.597b.desc:0 "Vos instincts primitifs vous ont poussés à nous attaquer, et vous devez maintenant en payer le prix. Jamais plus nous ne partagerons nos connaissances avec la [Root.GetName]."
  leviathans.597c.desc:0 "Nous avions tant à vous offrir, [Root.GetSpeciesNamePlural], et pourtant vous rejetez tout ça ? Bande de racailles néo-barbares !"
- leviathans.597d.desc:0 "Vous êtes désormais les ennemis de l'ensemble de l'ordre des Conservateurs."
+ leviathans.597d.desc:0 "Vous êtes désormais les ennemis de l'ensemble de la congrégation des Conservateurs."
 
  leviathans.510.name:0 "Ver d'éther"
  leviathans.510.desc:0 "L'espèce des vers d'éther est mal adaptée à la vie dans notre univers. Le dernier dragon est certes fort, mais pas invincible."
@@ -676,7 +676,7 @@
  
  ### DIMENSIONAL HORROR
  leviathans.3001:0 "Horreur dans le néant"
- leviathans.3001.desc:0 "Nous avons rencontré une sorte d'entité gigantesque, non loin du système de [horror_system.GetName]. Elle semble n'exister que partiellement dans notre univers, la plus grande partie de son corps étant encore piégée dans le plan d'existence cauchemardesque d'où elle est apparue.\n\nIl y a quelque intelligence malveillante qui est à l'oeuvre ici, ancienne au point que notre conception du temps ne peut la dater, et entièrement étrangère de par sa conception. Quant à ses intentions, nous ne pouvons qu'émettre des hypothèses."
+ leviathans.3001.desc:0 "Nous avons rencontré une sorte d'entité gigantesque, dans le système de §Y[horror_system.GetName]§!. Elle semble n'exister que partiellement dans notre univers, la plus grande partie de son corps étant encore piégée dans le plan d'existence cauchemardesque d'où elle est apparue.\n\nIl y a quelque intelligence malveillante qui est à l'oeuvre ici, ancienne au point que notre conception du temps ne peut la dater, et entièrement étrangère de par sa conception. Quant à ses intentions, nous ne pouvons qu'émettre des hypothèses."
  leviathans.3001.a:0 "Cela ne saurait être bon..."
  leviathans.3003:0 "Bannie"
  leviathans.3003.desc:2 "L'entité malveillante qui tentait de pénétrer dans notre univers, non loin du système de [guardians_horror_system.GetName], a été renvoyée dans son propre plan d'existence. Le temps seul dira si son influence a été suffisamment réduite pour qu'elle y demeure.\n\nUne sorte d'énergie résiduelle inhabituelle peut être détectée, sans doute une trace des déchirures dimensionnelles ouvertes par la créature. Peut-être l'étude de cette énergie résiduelle pourrait-elle permettre des avancées scientifiques ?"
@@ -816,13 +816,13 @@
  building_artist_patron:0 "Ministère de la culture"
  building_artist_patron_desc:0 "Un bâtiment au goût du jour, pour le Ministère de la culture, contribuant à répandre la connaissance, les loisirs et l'art auprès des masses."
  building_artist_tooltip:0 "§RAucun autre §Y$building_artist$§! n'est disponible à la construction. Il faut soit en acheter un nouveau, soit en désassembler un déjà existant.§!"
- enclave_artist_patron:0 "Mécène des Artistes"
+ enclave_artist_patron:0 "Mécènes des Artisans"
  enclave_artist_patron_desc:1 "Nous dédions du temps et des ressources à soutenir le développement des arts novateurs."
- enclave_artist_festival:0 "Festival des Artistes"
- enclave_artist_festival_desc:1 "Une grande fête a été organisée par la Troupe des Artistes, répandant la joie dans tout l'empire."
+ enclave_artist_festival:0 "Célébration de tous les mondes"
+ enclave_artist_festival_desc:1 "Une grande fête a été organisée par la Troupe des Artisans, répandant la joie dans tout l'empire."
  enclave_artist_festival_outrage:0 "Panique organisée"
  guardian.deal.tooltip:0 "Nous ne pouvons nous le permettre"
- enclave_artist_festival_outrage_desc:0 "Le Festival des Artistes a semé la confusion sur cette planète, des habitants ayant été piétinés par leurs concitoyens."
+ enclave_artist_festival_outrage_desc:0 "La Célébration de tous les mondes a semé la confusion sur cette planète, des habitants ayant été piétinés par leurs concitoyens."
 
  draconic_beats:0 "Pulsations draconiques"
  draconic_beats_desc:0 "Les flottes militaires ont reçu ordre de faire feu sur le ver d'éther selon un rythme très spécifique."
