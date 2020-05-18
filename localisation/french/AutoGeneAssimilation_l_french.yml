@@ -1,0 +1,49 @@
+﻿l_french:
+ 
+ ########################################
+ ########################################
+ #####                              #####
+ #####    Auto Gene Assimilation    #####
+ #####                              #####
+ #####    localisations             #####
+ #####                              #####
+ ########################################
+ ########################################
+ 
+ 
+ 
+ ###########################
+ ###  Edicts, Modifiers  ###
+ ###########################
+ 
+ ### Policies
+ policy_AgaPolicyGeneAssimilation:0 "Gene Assimilation"
+ policy_AgaPolicyGeneAssimilation_desc:0 "Biodiversity of pops may contribute to empire growth, and also may hinder economic optimization. We can decide whether to assimilate genes of sub-species or protect biodiversity.\n"
+ AgaPolicyGeneAssimilationForbidden:0 "Unexecuted"
+ AgaPolicyGeneAssimilationForbidden_name:1 "$AgaPolicyGeneAssimilationForbidden$"
+ AgaPolicyGeneAssimilationForbidden_desc:0 "Does not perform gene assimilation for protection of biodiversity."
+ AgaPolicyGeneAssimilationAllowed:0 "Executed"
+ AgaFlagGeneAssimilationAllowed_name:1 "$AgaPolicyGeneAssimilationAllowed$"
+ AgaPolicyGeneAssimilationAllowed_desc:0 "Assimilate all sub-species to the one last modified among this species group. However, the pops will NOT be assimilated until any sub-species in this species group is manually modified once.\n\n$AgaPolicyGeneAssimilationEffectDesc$"
+ AgaPolicyGeneAssimilationForced:0 "Full Executed"
+ AgaFlagGeneAssimilationForced_name:1 "$AgaPolicyGeneAssimilationForced$"
+ AgaPolicyGeneAssimilationForced_desc:0 "Assimilate all sub-species to the sub-species last modified among this species group. The pops will be assimilated to most populous sub-species if no sub-species in this species group have been modified manually.\n\n$AgaPolicyGeneAssimilationEffectDesc$"
+ 
+ AgaPolicyGeneAssimilationFailText:0 "\n\n£trigger_no£ §RMonthly income of £society_research£ $society_research$ must be at least 100.§!"
+ AgaPolicyGeneAssimilationEffectDesc:0 "§HThe assimilation will start automatically if this policy is accepted.§! (At most 3 £pops£ $POPS$ per month)"
+ 
+ ### Country Modifiers
+ AgaModifierGeneAssimilated_0a:0 "Gene Assimilation Has Finished"
+ AgaModifierGeneAssimilated_0b:0 "Insufficient $society_research$ for Gene Assimilation"
+ AgaModifierGeneAssimilated_1:0 "Gene Assimilation Ongoing"
+ AgaModifierGeneAssimilated_2:1 "$AgaModifierGeneAssimilated_1$"
+ AgaModifierGeneAssimilated_3:1 "$AgaModifierGeneAssimilated_1$"
+ 
+ AgaModifierGeneAssimilated_0a_desc:0 "The gene assimilation has been finished, and is in suspension. The assimilation will resume if pops who should be assimilated immigrate or are spawned."
+ AgaModifierGeneAssimilated_0b_desc:0 "§RThe gene assimilation be suspended because of insufficient £society_research£ $society_research$.§!"
+ AgaModifierGeneAssimilated_x_desc:0 "The genes of sub-species are being assimilated."
+ AgaModifierGeneAssimilated_1_desc:0 "$AgaModifierGeneAssimilated_x_desc$\n(1 £pops£ $POP$ per Month)"
+ AgaModifierGeneAssimilated_2_desc:0 "$AgaModifierGeneAssimilated_x_desc$\n(2 £pops£ $POPS$ per Month)"
+ AgaModifierGeneAssimilated_3_desc:0 "$AgaModifierGeneAssimilated_x_desc$\n(3 £pops£ $POPS$ per Month)"
+ 
+ mod_country_base_society_research_produces_add:0 "$mod_country_society_research_produces_mult$"

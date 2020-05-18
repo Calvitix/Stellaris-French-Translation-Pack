@@ -36,7 +36,7 @@ tr_plentiful_mysticism_1_desc:0 "§Y$MOD_LEADER_AGE$§! augmenté de §G+20§!.\
 tr_plentiful_mysticism_1_delayed:0 "§LRien n'est plus noble que l'empathie face à l'animosité.§!"
 
 tr_plentiful_mysticism_2:0 "Ascétisme"
-tr_plentiful_mysticism_2_desc:0 "§Y$mod_planet_structures_cost_mult$§! diminué de §G-15%§!.\n\n§HPermet le bâtiment§! £building  §G$building_plentiful_traditions_obelisk2$§!, bâtiment planétaire unique améliorable depuis la Fondation bénie, qui augmente la production d'£energy  §Y$planet_jobs_energy_produces_mult$§! et de  £minerals §Y$planet_jobs_minerals_produces_mult$§!. Un seul Obélisque par planète."
+tr_plentiful_mysticism_2_desc:0 "§Y$mod_planet_structures_cost_mult$§! diminué de §G-15%§!.\n\n§HPermet le bâtiment§! £building  §G$building_plentiful_traditions_obelisk2$§!, bâtiment planétaire unique améliorable depuis la Fondation bénie, qui augmente la production d'£energy  §Y$planet_jobs_energy_produces_mult$§! et de £minerals §Y$planet_jobs_minerals_produces_mult$§!. Un seul Obélisque par planète."
 tr_plentiful_mysticism_2_delayed:0 "§LLa consommation modérée et la résistance face aux tentations nous mènent à voir la beauté de la nature dans toute sa splendeur et son rayonnement.§!"
 
 tr_plentiful_mysticism_3:0 "Cercle de modestie"
@@ -1073,7 +1073,7 @@ tr_plentiful_endure_4_desc:0 "§Y$mod_planet_jobs_slave_produces_mult$§! est au
 tr_plentiful_endure_4_delayed:0 "§LL'esclave se bat jour après jour dans les champs et les mines pour le bien de notre empire, tel un cheval de campagne.§!"
 
 tr_plentiful_endure_5:0 "Ultra-Méga"
-tr_plentiful_endure_5_desc:1 "§Y$MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$§! est augmenté de §G25%§!.\n\nDe plus, cela permet la construction d'un §YHabitat ouvert§! qui s'agrandira dans le temps."
+tr_plentiful_endure_5_desc:1 "§Y$MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$§! est augmenté de §G25%§!.\n\nDe plus, cela permet la construction d'une §YMégastructure§! supplémentaire en même temps."
 tr_plentiful_endure_5_delayed:0 "§LNos mégastructures reflètent notre pugnacité et notre résistance.§!"
 
 sm_orbital_fertilizer_array:0 "Réserve et diffuseur de fertilisants"
@@ -1251,6 +1251,10 @@ tooltip_plentiful_traditions_discovery:1 "$ap_plentiful_traditions_discovery_des
 ap_hive_mind_ascension:0 "évolution biologique"
 ap_hive_mind_ascension_desc:0 "Il est temps de se débarrasser de notre existence individuelle défectueuse et d'atteindre l'immortalité comme un seul esprit. Nous devons préparer toute la population à ce projet, puis commencer la fusion des consciences."
 tooltip_plentiful_traditions_hive_mind_ascension:1 "$ap_hive_mind_ascension_desc$"
+ap_total_assimilation:0 "Assimilation Totale"
+ap_total_assimilation_desc:0 "Nous sommes l'organisme parfait."
+tooltip_plentiful_traditions_total_assimilation:1 "$ap_total_assimilation_desc$"
+total_assimilation:1 "Nous pouvons transformer d'autres espèces en nos espèces primaires (tant qu'elles ne servent pas de source de nourriture). \n\nEn plus, nos bâtiments capitaux sur le monde d'§YOrigine§! et dans §Y$pc_hive$§! -les mondes reçoivent une §P$job_queen$§! et la possibilité de créer deux bâtiments §T$building_cocoon_assembly_plant$§! chacun"
 
 ################################################################
 # PLENTIFUL PERKS - Technology
@@ -1379,12 +1383,20 @@ mod_district_special_coldland_max:0 "Max $district_special_coldland_plural$"
 # PLENTIFUL PERKS - Modifier
 ################################################################
 
-modifier_transformation_mastery:0 "Transformation Master"
+modifier_transformation_mastery:0 "Maître de la Transformation"
 modifier_transformation_mastery_desc:1 "La planète reçoit huit autres districts."
 decision_transformation_mastery:0 "§HNouvelle décision : §!Maître de la transformation"
 decision_transformation_mastery_desc:1 "La planète reçoit huit autres districts."
 decision_excavation:0 "§HNouvelle décision : §!Exploitation minière excessive"
 decision_excavation_desc:1 "La planète doit continuer à être exploitée."
+
+modifier_plentiful_perks_feeding:0 "Allaitement des filateurs-cocons"
+modifier_plentiful_perks_feeding_desc:1 "Sur cette planète, les filateurs cocons reçoivent des denrées alimentaires supplémentaires."
+decision_plentiful_perks_feeding:0 "§HNouvelle Décision : §! Allaitement des filateurs-cocons"
+decision_plentiful_perks_feeding_desc:1 "Sur cette planète, les filateurs cocons reçoivent des denrées alimentaires supplémentaires."
+
+decision_plentiful_perks_coocon_extraction:0 "§HNouvelle Décisiong : §! Nouvelles soeurs"
+decision_plentiful_perks_coocon_extraction_desc:1 "Maintenant, nous pouvons enfin nous consacrer à l'objectif que nous avions toujours en tête: assimiler la vie biologique inférieure à la nôtre."
 
 ################################################################
 # PLENTIFUL PERKS - Events
@@ -1407,10 +1419,44 @@ plentiful_perks_ascension.1004.b:0 "Une abomination, mais cela n'a pas d'importa
 plentiful_perks_ascension.1004.c:0 "Nous démonterons vos synapses!"
 plentiful_perks_ascension.1004.d:0 "Nous verrons."
 
+plentiful_perks_ascension.1100.name:0 "Filage de Cocon"
+plentiful_perks_ascension.1100.desc:0 "Nous avons filé un autre cocon et pouvons maintenant convertir un autre pop de §Y[This.GetName]§! vers notre espèce."
+plentiful_perks_ascension.1100.a:0 "Voilà comment elle devrait être."
+plentiful_perks_ascension.1100.b:0 "Non, le cocon doit rester pour une utilisation ultérieure."
+
+plentiful_perks_ascension.1101.name:0 "La pop a grandi"
+plentiful_perks_ascension.1101.desc:0 "Une autre pop sur §Y[This.GetName]§! a été élevée et peut maintenant se convertir à notre espèce."
+plentiful_perks_ascension.1101.a:0 "Voilà comment elle devrait être."
+plentiful_perks_ascension.1101.b:0 "Non, cet individu peut rester ... lui-même."
+
+plentiful_perks_ascension.1200.name:0 "Cycle de reproduction sur §Y[From.GetName]§!."
+plentiful_perks_ascension.1200.desc:0 "En raison de l'abondance de cocons sur la planète, d'autres résidents peuvent maintenant éclore."
+plentiful_perks_ascension.1200.a:0 "Une espèce exotique devrait servir de base."
+plentiful_perks_ascension.1200.b:0 "Un habitant de nos nids d'élevage !"
+plentiful_perks_ascension.1200.c:0 "Ouvrir tous les cocons !"
+
+
 hive_evolution_tooltip:0 "Nous préparerons un projet spécial pour unir les esprits de nos concitoyens en une seule unité."
 HIVE_EVOLUTION_PROJECT:0 "Evolution biologique"
 HIVE_EVOLUTION_PROJECT_DESC:0 "Il est temps de se débarrasser de notre existence individuelle défectueuse et d'atteindre l'immortalité en tant qu'esprit. Nous devons préparer l'ensemble de la population, puis commencer à fusionner la conscience."
+
+pop_generated:1 "Une pop de notre espèce sera créée."
+more_pop_generated:1 "Des pops de notre espèce seront créés."
+pop_not_generated:1 "Aucune pop ne sera créée."
  
+################################################################
+# PLENTIFUL PERKS - Species
+################################################################
+
+NAME_Cocoon:0 "Cocon"
+COCOON:0 "Cocon"
+
+building_cocoon_assembly_plant:0 "Nid de tissage de Cocons"
+building_cocoon_assembly_plant_desc:0 "Des cocons sont filés dans ce bâtiment, qui sera ensuite utilisé pour convertir d'autres espèces en nôtres."
+trait_plentiful_traditions_cocoon:0 "Cocon"
+trait_plentiful_traditions_cocoon_desc:0 "§Ceci est un cocon 'sans vie' qui peut être utilisé plus tard.§!\n"
+
+
 
 ################################################################
 # FACTIONS
@@ -1624,6 +1670,42 @@ job_gardeners_effect_desc:1 "£job_gardener£ $job_gardener_plural$ produire ou 
 mod_job_gardener_add:0 "Emplois de $job_gardener$"
 mod_job_gardener_per_pop:0 "§G+1§! $job_gardener$ par $VALUE$ Pops"
 mod_job_gardener_per_pop_short:0 "\n§G+1§! £mod_job_gardener_add£ par $VALUE$ £pop£"
+
+
+job_cocoon_spinner:0 "Tisseuse de cocon"
+job_cocoon_spinner_plural:0 "Tisseuse de cocon"
+job_cocoon_spinner_desc:0 "Les Tisseuses de cocon produisent des cocons pour modifier d'autres espèces plus tard."
+job_cocoon_spinner_effect_desc:1 "Les £job_cocoon_spinner£ $job_cocoon_spinner_plural$ produisent des cocons."
+mod_job_cocoon_spinner_add:0 "Emplois de $job_cocoon_spinner$"
+mod_job_cocoon_spinner_per_pop:0 "§G+1§! $job_cocoon_spinner$ par $VALUE$ £pop£"
+mod_job_cocoon_spinner_per_pop_short:0 "\n§G+1§! £mod_job_cocoon_spinner_add£ par $VALUE$ £pop£"
+
+job_cocoon:0 "Cocon"
+job_cocoon_plural:0 "Cocons"
+job_cocoon_desc:0 "Cette forme (presque) sans vie peut ensuite être utilisée pour transformer d'autres espèces."
+job_cocoon_effect_desc:1 "Les £job_cocoon£ $job_cocoon_plural$ produisent des cocons."
+mod_job_cocoon_add:0 "Job $job_cocoon$"
+mod_job_cocoon_per_pop:0 "§G+1§! $job_cocoon$ pro $VALUE$ £pop£"
+mod_job_cocoon_per_pop_short:0 "\n§G+1§! £mod_job_cocoon_add£ pro $VALUE$ £pop£"
+
+pop_cat_cocoon_cat:0 "Cocon"
+pop_cat_cocoon_cat_plural:0 "Cocon"
+pop_cat_cocoon_cat_desc:1 "Cette forme (presque) sans vie peut ensuite être utilisée pour transformer d'autres espèces."
+mod_pop_cat_cocoon_cat_political_power:1 "Pouvoir politique de $pop_cat_cocoon_cat_plural$"
+mod_pop_cat_cocoon_cat_happiness:0 "satisfaction $pop_cat_cocoon_cat$"
+
+pop_cat_queen_drone:0 "Reine"
+pop_cat_queen_drone_plural:0 "$pop_cat_queen_drone$"
+pop_cat_queen_drone_desc:0 "La reine est constamment occupée à produire de nouveaux drones et de nouveaux cocons."
+job_queen:0 "Reine"
+job_queen_plural:0 "$job_queen$"
+job_queen_desc:0 "La reine est constamment occupée à produire de nouveaux drones et de nouveaux cocons."
+mod_job_queen_add:0 "Job $job_queen$"
+
+POP_ASSEMBLY_COCOON_TITLE:0 "Capacité de filage de Cocon"
+POP_ASSEMBLY_COCOON:0 "Konkons mensuels : $VALUE | Y$"
+POP_ASSEMBLY_COCOON_DESC:0 "§E$POP_ASSEMBLY_COCOON_TITLE$ représente la capacité totale de la planète à filer artificiellement de nouveaux cocons. £job_queen£ §Y$job_queen$§! et £job_cocoon_spinner£ §Y$job_cocoon_spinner$§! sont en mesure de le faire.§!"
+
 
 MOD_COUNTRY_WAR_EXHAUSTION_MULT: "Lassitude liée à la guerre"
 mod_pop_category_slave_food_upkeep_mult:0 "Entretien de £food£ $food$ ($pop_cat_slave$)"
