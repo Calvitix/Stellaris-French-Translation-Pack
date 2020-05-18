@@ -437,3 +437,130 @@ pop_faction_name_format = {
 	}
 	format = "format.xenoist.1"
 }
+
+###############################
+#
+#  Faction names from Ethic & Cicics alternative
+#
+
+
+## Conservatives
+
+#deleted by calvitix 
+
+## Environmentalists
+
+#...
+
+
+
+
+## Socialists
+
+pop_faction_name_parts_list = {
+	key = "socialists_names_1"
+	parts = {
+
+		"NAME_FACTION_Social_Prosperity" = 1
+		"NAME_FACTION_Welfare_and_Care" = 1
+		"NAME_FACTION_Compassion" = 1
+		"NAME_FACTION_Social_Security" = 1
+		"NAME_FACTION_Social_Progress" = 1
+		"NAME_FACTION_Solidarity" = 1
+		"NAME_FACTION_Socialist_Alternative" = 1
+		"NAME_FACTION_Economic_Equality" = 1
+
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "socialists_nom"
+	parts = {
+		"NAME_FACTION_Coalition" = 1
+		"NAME_FACTION_Council" = 1
+		"NAME_FACTION_Committee" = 1
+		"NAME_FACTION_Center" = 1
+		"NAME_FACTION_Foundation" = 1
+		"NAME_FACTION_Initiative" = 1
+		"NAME_FACTION_Society" = 1
+		"NAME_FACTION_Watch" = 1
+		"NAME_FACTION_Alliance" = 1
+		"NAME_FACTION_Movement" = 1
+		"NAME_FACTION_Group" = 1
+		"NAME_FACTION_Organization" = 1
+		"NAME_FACTION_Network" = 1
+		"NAME_FACTION_Forum" = 1
+		"NAME_FACTION_Association" = 1
+		"NAME_FACTION_League" = 1
+		"NAME_FACTION_Party" = 1
+		"NAME_FACTION_Convention" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 1
+		modifier = {
+			add = 99
+			is_pop_faction_type = "socialists"
+		}
+	}
+	format = "<socialists_nom> <socialists_adj>"
+}
+
+
+
+
+## Traders
+
+pop_faction_name_parts_list = {
+	key = "bankers_adj"
+	parts = {
+
+		"NAME_FACTION_Market_Development" = 1
+		"NAME_FACTION_National_Trading" = 1
+		"NAME_FACTION_Free_Trade" = 1
+		"NAME_FACTION_Entrepreneurship_and_Trade" = 1
+		"NAME_FACTION_Business_Investments" = 1
+		"NAME_FACTION_Business_Development" = 1
+		"NAME_FACTION_Financial_Independence" = 1
+		"NAME_FACTION_Financial_Investments" = 1
+		"NAME_FACTION_Prosperity_and_Trade" = 1
+
+
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "bankers_nom"
+	parts = {
+		"NAME_FACTION_Coalition" = 1
+		"NAME_FACTION_Council" = 1
+		"NAME_FACTION_Committee" = 1
+		"NAME_FACTION_Center" = 1
+		"NAME_FACTION_Foundation" = 1
+		"NAME_FACTION_Initiative" = 1
+		"NAME_FACTION_Watch" = 1
+		"NAME_FACTION_Alliance" = 1
+		"NAME_FACTION_Group" = 1
+		"NAME_FACTION_Organization" = 1
+		"NAME_FACTION_Network" = 1
+		"NAME_FACTION_Forum" = 1
+		"NAME_FACTION_Association" = 1
+		"NAME_FACTION_League" = 1
+		"NAME_FACTION_Party" = 1
+		"NAME_FACTION_Convention" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 1
+		modifier = {
+			add = 99
+			is_pop_faction_type = "bankers"
+		}
+	}
+	format = "<bankers_nom> <bankers_adj>"
+}
+
