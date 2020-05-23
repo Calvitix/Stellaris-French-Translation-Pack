@@ -1,0 +1,1820 @@
+﻿l_french:
+ 
+ ################\
+ # english translation
+ ##################\
+
+##### GENERIC UI STUFF ######
+ industrialEnigmatic:0 "L'ingénierie énigmatique de la cible rend impossible l'espionnage industriel."
+
+
+ menuAlreadyOpen:0 "Gestionnaire des réseaux d'espionnage déjà ouvert."
+
+ displayAlphaIntelPoints.a:0 "[playerAgency.getAlphaIntelPoints]"
+ displayBetaIntelPoints.a:0 "[playerAgency.getBetaIntelPoints]"
+
+ advancedIntel.1.close:0 ""
+ AlphaF-IntelReport-Unnasigned:0 "Non attribué"
+ BetaF-IntelReport-Unnasigned:0 "Non attribué"
+
+ spy_openAdvancedIntel.tooltip:0 "§SInformations détaillées§!"
+ spy_openAdvancedIntelBeta.tooltip:0 "§SInformations détaillées§!"
+
+
+ AlphaF-Raid.a:0 "Raid à court terme et à fort impact. Peut être exécuté parallèlement à des opérations régulières à long terme."
+
+ BetaF-Raid.a:0 "Raid à court terme et à fort impact. Peut être exécuté parallèlement à des opérations régulières à long terme."
+
+ Manage_Networks:0 "        Réseaux"
+ sr_beta_points:0 "Niveau de renseignement du réseau Oméga"
+ sr_beta_points_desc:0 "Une mesure de la quantité d'informations exploitables collectées par le réseau Oméga. Le taux de collecte est affecté par le contre-espionnage des cibles."
+ sr_alpha_points:0 "Niveau de renseignement du réseau Alpha"
+ sr_alpha_points_desc:0 "Une mesure de la quantité de renseignements exploitables que le réseau Alpha a recueillis. Le taux de collecte est affecté par le contre-espionnage des cibles."
+
+ Intelligence_Networks_Header:0 "§SRéseaux de renseignements§!"
+ spy_openMenuButton.tooltip:0 "§SGérer les réseaux§! \nPrésentation des réseaux de renseignement."
+ 
+ spy_configMenuButton.tooltip:0 "Configuration du mod 'Propagande & Espionnage'."
+
+ closeSpyHidden.name:0 ""
+ noClickUi:0 ""
+ closeMenuOption.a:0 ""
+ blankFailTooltip:0 ""
+
+ edict_openNetworkManager:0 "Gérer les réseaux"
+ edict_openNetworkManager_desc:0 "Gérez vos réseaux de renseignement."
+ 
+ progressButton10:0 "Environ §S490 jours§! restant jusqu'à la fin de l'opération."
+ progressButton20:0 "Environ §S400 jours§! restant jusqu'à la fin de l'opération."
+ progressButton30:0 "Environ §S320 jours§! restant jusqu'à la fin de l'opération."
+ progressButton40:0 "Environ §S240 jours§! restant jusqu'à la fin de l'opération."
+ progressButton50:0 "Environ §S160 jours§! restant jusqu'à la fin de l'opération."
+ progressButton60:0 "Environ §S80 jours§! restant jusqu'à la fin de l'opération."
+
+ spyBanned_tooltip:0 "Interdit de mener l'espionnage dans cet empire."
+
+ deployCoolDownAlpha_F:0 "Doit attendre autour de §R50§! jours pour se redéployer.\nImpossible de se redéployer tant qu'il y a une opportunité ou un raid en cours."
+ deployCoolDownBeta_F:0 "Doit attendre autour de §R50§! jours pour se redéployer.\nImpossible de se redéployer tant qu'il y a une opportunité ou un raid en cours."
+
+ alpha_d_name:0 "§SRéseau Alpha§!"
+ alpha_f_name:0 "§SRéseau Alpha§!"
+
+ beta_d_name:0 "§SRéseau Beta§!"
+ beta_f_name:0 "§SRéseau Beta§!"
+########## FEDERATION LAWS #############
+ spyFedLaw_tooltip:0 "La loi de la Fédération nous empêche de viser cet empire."
+ spy_unregulated_espionage:0 "Non réglementé"
+ spy_regulated_espionage:0 "Réglementé"
+ spy_unregulated_espionage_desc:0 "L'espionnage inter-fédérations n'est pas réglementé."
+ spy_regulated_espionage_desc:0 "L'espionnage inter-fédérations est réglementé, surveillé et interdit."
+ law_category_inter_fed_espionage:0 "Règlement d'espionnage"
+ law_category_inter_fed_espionage_desc:0 "Cela détermine si nous autorisons ou non les membres de la fédération à mener l'espionnage inter-fédération."
+
+
+########## POLICIES #############
+policy_espionage_stance:0 "Priorités d'espionnage"
+policy_espionage_stance_desc:0 "Nous pouvons décider si nous souhaitons ou non spécialiser nos réseaux de renseignement, en les rendant plus efficaces dans différents domaines."
+
+pol_op_spy_offensive_focus:0 "Étranger"
+pol_op_spy_offensive_focus_name:0 "Opérations à l'étranger"
+pol_op_spy_offensive_focus_desc:0 "Nous devons concentrer nos efforts vers l'extérieur, ébranler et manipuler nos ennemis.\n\nLes réseaux affectés aux opérations à l'étranger auront plus de succès à mener des opérations. Cependant, les réseaux nationaux fourniront un effet de contre-espionnage moindre et auront moins de succès dans la conduite des opérations."
+
+pol_op_spy_balanced_focus:0 "Équilibré"
+pol_op_spy_balanced_focus_name:0 "Opérations équilibrées"
+pol_op_spy_balanced_focus_desc:0 "Nous devons poursuivre nos intérêts à la fois étrangers et nationaux."
+
+pol_op_spy_defensive_focus:0 "National"
+pol_op_spy_defensive_focus_name:0 "Opérations nationales"
+pol_op_spy_defensive_focus_desc:0 "Nous devons concentrer nos efforts vers l'intérieur, protéger nos citoyens contre l'influence étrangère et assurer la stabilité interne.\n\nLes réseaux affectés aux opérations nationales auront un effet de contre-espionnage plus élevé et auront plus de succès dans la conduite des opérations. Cependant, les réseaux étrangers auront moins de succès à mener des opérations."
+
+
+
+########## MODIFIERS ############
+ sowUnrest_mod:0 "Troubles civils"
+ 
+ sowUnrestHigh_mod:0 "Troubles civils majeurs"
+
+ sowUnrest_mod_desc:0 ""
+ 
+ sowUnrestHigh_mod_desc:0 ""
+ 
+ opinion_boostRep_high:0 "Excellent Reputation"
+ opinion_boostRep_low:0 "Bonne réputation"
+ 
+ opinion_saboRep_high:0 "Terrible réputation"
+ opinion_saboRep_low:0 "Mauvaise réputation"
+ 
+ sm_stationSab:0 "Station sabotée"
+ sm_stationSab_desc:0 "Station sabotée"
+ cb_fabricated_claim:0 "Revendication fabriquée"
+
+
+ opinion_spy_discovered:0 "Espionnage découvert"
+ 
+
+ ### TECH STUFF ###
+ needsIndustrialEspTech:0 "Nécessite la technologie §SEspionnage industriel§!."
+ needsSocialPropEspTech:0 "Nécessite la technologie §SSocial Espionage§!."
+
+ tech_spy_socialPropaganda:0 "Espionnage social"
+ tech_spy_socialPropaganda_desc:0 "Permet à nos réseaux de renseignement de tenter de manipuler l'éthique de cibles étrangères ou nationales."
+
+ tech_spy_industrial:0 "Espionnage industriel"
+ tech_spy_industrial_desc:0 "Permet à nos réseaux de renseignement de tenter de voler les données de recherche d'une cible.\nNous permet de collecter des informations détaillées sur les revenus technologiques d'une cible."
+
+ tech_spy_tactical:0 "Espionnage tactique"
+ tech_spy_tactical_desc:0 "Permet à nos réseaux de renseignement de tenter des raids hostiles sur les bases stellaires ennemies et nous permet de collecter des informations détaillées sur l'armée d'une cible."
+ feature_tech_spy_tactical:0 "§SDéverrouille l'action d'espionnage : §! Sabotage de station.\nNous permet de collecter des informations détaillées sur la force militaire d'une cible."
+ feature_tech_spy_tactical_desc:0 ""
+
+ feature_spy_socialPropaganda:0 "§SDéverrouille l'action d'espionnage : §! Propagande étrangère.\n\n§SDéverrouille l'action d'espionnage : §! Propagande intérieure."
+ feature_spy_socialPropaganda_desc:0 ""
+
+ feature_spy_industrialEspionage:0 "§SDéverrouille l'action d'espionnage : §! Espionnage industriel."
+ feature_spy_industrialEspionage_desc:0 ""
+
+
+ #### STOP CRIME MODIFIERS ####
+ stopCrime:0 "Répression de la criminalité"
+ stopCrime_desc:0 ""
+ 
+ stopCrime_high:0 "Répression de la criminalité majeure"
+ stopCrime_high_desc:0 ""
+ 
+ ### FUND CRIME BETA MODS
+ fundCrime_level_1_mod_B:0 "Vague de criminalité mineure"
+ fundCrime_level_1_mod_B_desc:0 ""
+ 
+ fundCrime_level_2_mod_B:0 "Vague de criminalité majeure"
+ fundCrime_level_2_mod_B_desc:0 ""
+ 
+ fundCrime_level_3_mod_B:0 "Vague de criminalité massive"
+ fundCrime_level_3_mod_B_desc:0 ""
+ 
+ fundCrime_level_1_gains_mod_B:0 "Les réseaux Oméga ont siphonné des fonds criminels - Étape 1/3"
+ fundCrime_level_1_gains_mod_B_desc:0 ""
+ 
+ fundCrime_level_2_gains_mod_B:0 "Les réseaux Oméga ont siphonné des fonds criminels - Étape 2/3"
+ fundCrime_level_2_gains_mod_B_desc:0 ""
+ 
+ fundCrime_level_3_gains_mod_B:0 "Les réseaux Oméga ont siphonné des fonds criminels - Étape 3/3"
+ fundCrime_level_3_gains_mod_B_desc:0 ""
+ 
+ crimeCaught:0 "Vague de criminalité"
+ crimeCaught_desc:0 "Échec de l'opération d'espionnage criminel."
+ 
+ ### FUND CRIME ALPHA MODS
+ fundCrime_level_1_gains_mod_A:0 "Les réseaux Alpha ont siphonné des fonds criminels - Étape 1/3"
+ fundCrime_level_1_gains_mod_A_desc:0 ""
+ 
+ fundCrime_level_2_gains_mod_A:0 "Les réseaux Alpha ont siphonné des fonds criminels - Étape 2/3"
+ fundCrime_level_2_gains_mod_A_desc:0 ""
+ 
+ fundCrime_level_3_gains_mod_A:0 "Les réseaux Alpha ont siphonné des fonds criminels - Étape 3/3"
+ fundCrime_level_3_gains_mod_A_desc:0 ""
+ 
+ fundCrime_level_1_mod_A:0 "Vague de criminalité mineure"
+ fundCrime_level_1_mod_A_desc:0 ""
+ 
+ fundCrime_level_2_mod_A:0 "Vague de criminalité majeure"
+ fundCrime_level_2_mod_A_desc:0 ""
+ 
+ fundCrime_level_3_mod_A:0 "Vague de criminalité massive"
+ fundCrime_level_3_mod_A_desc:0 ""
+ 
+ ### FUND CRIME AI MODS
+ fundCrime_level_1_mod_AI:0 "Vague de criminalité mineure"
+ fundCrime_level_1_mod_AI_desc:0 ""
+ 
+ fundCrime_level_2_mod_AI:0 "Vague de criminalité majeure"
+ fundCrime_level_2_mod_AI_desc:0 ""
+ 
+ fundCrime_level_3_mod_AI:0 "Vague de criminalité massive"
+ fundCrime_level_3_mod_AI_desc:0 ""
+
+ fundCrime_level_1_gains_mod_AI:0 ""
+ fundCrime_level_2_gains_mod_AI:0 ""
+ fundCrime_level_3_gains_mod_AI:0 ""
+ fundCrime_level_1_gains_mod_AI_desc:0 ""
+ fundCrime_level_2_gains_mod_AI_desc:0 ""
+ fundCrime_level_3_gains_mod_AI_desc:0 ""
+ 
+ spy_swingAuthoritarian:0 "Autoritarisme accru"
+ spy_swingAuthoritarian_desc:0 ""
+ spy_swingEgalitarian:0 "Égalitarisme accru"
+ spy_swingEgalitarian_desc:0 ""
+ spy_swingMaterialist:0 "Matérialisme accru"
+ spy_swingMaterialist_desc:0 ""
+ spy_swingMilitarist:0 "Militarisme accru"
+ spy_swingMilitarist_desc:0 ""
+ spy_swingPacifist:0 "Pacifisme accru"
+ spy_swingPacifist_desc:0 ""
+ spy_swingSpiritualist:0 "Spiritisme accru"
+ spy_swingSpiritualist_desc:0 ""
+ spy_swingXenophile:0 "Augmentation de la xénophilie"
+ spy_swingXenophile_desc:0 ""
+ spy_swingXenophobe:0 "Augmentation de la xénophobie"
+ spy_swingXenophobe_desc:0 ""
+ 
+ ######## Ethics and Civics Classic 2.7 #####################
+ spy_swingGreen:0 "Ecocentrisme accru"
+ spy_swingGreen_desc:0 ""
+ spy_swingIndustrial:0 "Anthropocentrisme accru"
+ spy_swingIndustrial_desc:0 ""
+ spy_swingElitist:0 "Elitisme accru"
+ spy_swingElitist_desc:0 ""
+ spy_swingSocialist:0 "Cooperativisme accru"
+ spy_swingSocialist_desc:0 ""
+ spy_swingPluralist:0 "Pluralisme accru"
+ spy_swingPluralist_desc:0 ""
+ spy_swingCapitalist:0 "Competitisme accru"
+ spy_swingCapitalist_desc:0 ""
+ 
+ spy_swingAuthoritarian_high:0 "Autoritarisme grandement accru"
+ spy_swingAuthoritarian_high_desc:0 ""
+ spy_swingEgalitarian_high:0 "Égalitarisme grandement accru"
+ spy_swingEgalitarian_high_desc:0 ""
+ spy_swingMaterialist_high:0 "Matérialisme grandement accru"
+ spy_swingMaterialist_high_desc:0 ""
+ spy_swingMilitarist_high:0 "Militarisme grandement accru"
+ spy_swingMilitarist_high_desc:0 ""
+ spy_swingPacifist_high:0 "Pacifisme grandement accru"
+ spy_swingPacifist_high_desc:0 ""
+ spy_swingSpiritualist_high:0 "Spiritualisme grandement accru"
+ spy_swingSpiritualist_high_desc:0 ""
+ spy_swingXenophile_high:0 "Augmentation majeure de la xénophilie"
+ spy_swingXenophile_high_desc:0 ""
+ spy_swingXenophobe_high:0 "Augmentation majeure de la xénophobie"
+ spy_swingXenophobe_high_desc:0 ""
+
+######## Ethics and Civics Classic 2.7 #####################
+ spy_swingGreen_high:0 "Ecocentrisme grandement accru"
+ spy_swingGreen_high_desc:0 ""
+ spy_swingIndustrial_high:0 "Anthropocentrisme grandement accru"
+ spy_swingIndustrial_high_desc:0 ""
+ spy_swingElitist_high:0 "Elitisme grandement accru"
+ spy_swingElitist_high_desc:0 ""
+ spy_swingSocialist_high:0 "Cooperativisme grandement accru"
+ spy_swingSocialist_high_desc:0 ""
+ spy_swingPluralist_high:0 "Pluralisme grandement accru"
+ spy_swingPluralist_high_desc:0 ""
+ spy_swingCapitalist_high:0 "Competitisme grandement accru"
+ spy_swingCapitalist_high_desc:0 ""
+
+ 
+ 
+########## MESSAGES ############
+### POINTS FULL NOTIFICATIONS ###
+ pointsAlphaFull:0 "Le Réseau Alpha a atteint le niveau maximum de renseignement d'espionnage."
+ pointsBetaFull:0 "Le Réseau Oméga a atteint le niveau maximum de renseignement d'espionnage."
+### SABOTAGE REPUTATION - AI ###
+ SABREP_NOTE_1:0 "Incident diplomatique"
+ SABREP_NOTE_1_MESSAGE:0 "Un faux pas diplomatique de l'un de nos ambassadeurs a gravement offensé les fonctionnaires en visite des empires voisins. Les relations se sont tendues."
+ 
+ SABREP_NOTE_2:0 "Incident diplomatique"
+ SABREP_NOTE_2_MESSAGE:0 "Au cours d'une réunion diplomatique de routine un peu plus tôt dans la journée, plusieurs délégués sont sortis après un débat houleux. L'incident a ébouriffé quelques plumes.\n\nNotre réputation diplomatique a pris un coup."
+ 
+ SABREP_NOTE_3:0 "Incident diplomatique"
+ SABREP_NOTE_3_MESSAGE:0 "Plus tôt dans la journée, un fonctionnaire de premier plan a été secrètement enregistré en train d'exprimee des vues xénophobes extrémistes, et nous n'avons pas pu empêcher la diffusion de l'enregistrement dans le temps. Plusieurs de nos voisins ont exprimé leur mécontentement."
+ 
+ ### SUPPORT ORGANISED CRIME - AI ###
+ fundCrime_NOTE_1:0 "Augmentation de l'activité criminelle"
+ fundCrime_NOTE_1_MESSAGE:0 "Les forces de sécurité intérieure font état d'une forte augmentation du crime organisé."
+ 
+ fundCrime_NOTE_2:0 "Augmentation de l'activité criminelle"
+ fundCrime_NOTE_2_MESSAGE:0 "Les forces de sécurité intérieure font état d'une forte augmentation du crime organisé."
+ 
+ fundCrime_NOTE_3:0 "Augmentation de l'activité criminelle"
+ fundCrime_NOTE_3_MESSAGE:0 "Les forces de sécurité intérieure font état d'une forte augmentation du crime organisé."
+ 
+ 
+ fundCrime_STOPPED_1_MESSAGE:0 "La sécurité intérieure rapporte que la récente vague de crimes semble enfin toucher à sa fin."
+ 
+ fundCrime_INCREASE_1_MESSAGE:0 "La sécurité intérieure nous a alertés sur une nouvelle augmentation des taux de criminalité intérieure. Les forces de sécurité sont désormais au maximum de leurs capacités."
+ 
+ ### INDUSTRIAL ESPIONAGE - AI ###
+ TECHSTEAL_NOTE_1_MESSAGE:0 "Des techniciens travaillant dans l'un de nos laboratoires de recherche ont signalé la découverte d'un mouchard attaché secrètement à un serveur principal. Son origine est inconnue, mais il est clair que l'agresseur s'est enfui avec de précieux renseignements technologiques."
+ 
+ TECHSTEAL_NOTE_2_MESSAGE:0 "Un scientifique important a récemment disparu, les forces de sécurité ont trouvé des preuves qu'il se serait enfui dans un empire voisin, que nous n'avons pas pu identifier pour l'instant. Ils ont probablement acquis une certaine connaissance de notre technologie."
+ 
+ TECHSTEAL_NOTE_3_MESSAGE:0 "L'une de nos fermes de serveurs a fait l'objet d'une attaque plus tôt dans la journée, une petite force bien entraînée est intervenue, a exécuté le personnel sur place et s'est enfuie avec plusieurs banques de données avant que les forces de sécurité ne puissent réagir."
+ 
+ ### ETHICS PROPAGANDA - AI ###
+ AIswingEthics_SPIRITUALIST_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §SSpiritualistes§!."
+ AIswingEthics_EGALITARIAN_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §SEgalitaires§!."
+ AIswingEthics_MILITARIST_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §SMilitaristes§!."
+ AIswingEthics_AUTHORITARIAN_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §SAutoritaristes§!."
+ AIswingEthics_XENOPHOBE_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §Xénophobe§!."
+ AIswingEthics_MATERIALIST_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §SMatérialistes§!."
+ AIswingEthics_PACIFIST_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §SPacifistes§!."
+ AIswingEthics_XENOPHILE_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §SXénophile§!."
+
+ AIswingEthics_GREEN_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §SEcocentristes§!."
+ AIswingEthics_INDUSTRIAL_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §Anthropocentristes§!."
+ AIswingEthics_ELITIST_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §SElitistes§!."
+ AIswingEthics_SOCIALISM_MESSAGE:0 "Il y a eu récemment une recrudescence des idéaux §SCooperativiste§!."
+ AIswingEthics_PLURALIST_MESSAGE:0 "Il y a eu récemment une recrudescence du §SPluraliste§!."
+ AIswingEthics_CAPITALISM_MESSAGE:0 "Il y a eu récemment une recrudescence des §SCompétitifs§!."
+
+ ### AI SOW UNREST ####
+ ### SUCCESS ###
+ sowUnrest_NOTE_1_MESSAGE:0 "Sans prévenir, beaucoup de nos colons sur §S$PLANET|Y$§! se sont révoltés. Les manifestants prennent d'assaut les rues, bien que la cause exacte de ces troubles civils soit inconnue."
+ 
+ sowUnrest_NOTE_2_MESSAGE:0 "Des troubles civils généralisés ont éclaté dans notre colonie, §S$PLANET|Y$§!. La cause exacte est encore inconnue actuellement, mais les forces de l'ordre locales s'efforcent de rétablir l'ordre dès que possible."
+ 
+ ### UNREST CONTINUES
+  sowUnrest_CONTINUE_1_MESSAGE:0 "Les troubles civils sur $PLANET|Y$ ne montrent aucun signe d'arrêt prochain."
+ 
+ ### UNREST ENDS
+  sowUnrest_STOPPED_1_MESSAGE:0 "Les troubles civils sur §S$PLANET|Y$§! touchent enfin à leur fin. Des enquêtes sont en cours, mais il est peu probable que la véritable cause soit connue un jour."
+ 
+ 
+ 
+########## WAR GOALS / CASUS BELLI ############
+ casus_belli_cb_stopSpying:0 "Cessez d'espionner"
+ casus_belli_cb_continueSpying:0 "Continuer l'espionnage"
+ 
+ war_goal_wg_stopSpying:0 "Cessez d'espionner"
+ war_goal_wg_stopSpying_desc:1 "La guerre est menée pour forcer l'ennemi à signer un traité d'espionnage."
+ war_goal_wg_continueSpying:0 "Continuer l'espionnage"
+ war_goal_wg_continueSpying_desc:1 "La guerre est menée pour résister à la signature d'un traité d'espionnage."
+ 
+ wg_stopSpying_accept:0 "L'ennemi sera contraint de signer nos demandes anti-espionnage, bloquant toute tentative d'établir des réseaux sur notre territoire pendant cinq ans au total."
+ wg_stopSpying_accept:0 "L'ennemi niera nos demandes anti-espionnage."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+########## MAIN MENU STUFF ########################
+### CHOOSE RAID STUFF ###
+ AlphaF-conductRaid:0 "Raids"
+ BetaF-conductRaid:0 "Raids"
+ chooseRaid.title:0 "Choisissez un Raid"
+
+ chooseRaidAlpha_None.desc:0 "Maintenant que le réseau alpha est établi dans le §S[alphaNetworkTarget_temp.GetName]§!, nous pouvons leur demander d'envoyer des petites équipes en raids rapides parallèlement à leurs opérations à long terme."
+
+ chooseRaidAlpha_Station.desc:0 "Le réseau Alpha est actuellement engagé dans un raid de sabotage d'une §Sbase stellaire§!. Nous ne pourrons pas les redéployer ou les réaffecter tant qu'ils ne seront pas terminés. Cela pourrait prendre plusieurs mois."
+
+ chooseRaidBeta_None.desc:0 "Maintenant que le réseau Oméga est établi dans le §S[betaNetworkTarget_temp.GetName]§!, nous pouvons leur demander d'envoyer des petites équipes en raids rapides parallèlement à leurs opérations à long terme."
+
+ chooseRaidBeta_Station.desc:0 "Le réseau Oméga est actuellement engagé dans un raid de sabotage de §Sbase stellaire§!. Nous ne pourrons pas les redéployer ou les réaffecter tant qu'ils ne seront pas terminés. Cela pourrait prendre plusieurs mois."
+
+ ongoingRaidTooltip:0 "Notre réseau est actuellement déjà occupé sur un raid."
+
+ raidCostTooltipintelPoints:0 "§R Requiert 40 niveaux de renseignement.§!"
+
+ raidCostTooltipInfluence:0 "§RRequiert 50 d'influence.§!"
+
+ chooseRaid.z:0 "Annuler."
+ chooseRaid.a:0 "Saboter une base stellaire."
+
+
+
+
+
+
+
+ convertCooldownAlpha_F_to_D:0 "Doit attendre autour de §R50§! jours après avoir changé d'opération."
+ convertCooldownAlpha_D_to_F:0 "Doit attendre autour de §R50§! jours après avoir changé d'opération."
+ convertCooldownBeta_F_to_D:0 "Doit attendre autour de §R50§! jours après avoir changé d'opération."
+ convertCooldownBeta_D_to_F:0 "Doit attendre autour de §R50§! jours après avoir changé d'opération."
+#### GET NEIGHBORS LIST MENU ####
+ agencyNeighborslist.desc:0 "Où allons-nous établir notre réseau de renseignement ?\n\nUne fois établis, nos agents mettront encore du temps à collecter suffisamment de renseignements utiles pour exécuter les opérations.\n\nLe redéploiement nous fera perdre toutes les informations recueillies sur notre cible actuelle."
+ agencyNeighborslist.title:0 "Déployer le réseau"
+ 
+ agencyNeighborslistOption.1:0 "Cibler '§S[possibleAgencyTarget_1.GetName]§!'."
+ agencyNeighborslistOption.2:0 "Cibler §S[possibleAgencyTarget_2.GetName]§!."
+ agencyNeighborslistOption.3:0 "Cibler §S[possibleAgencyTarget_3.GetName]§!."
+ agencyNeighborslistOption.4:0 "Cibler §S[possibleAgencyTarget_4.GetName]§!."
+ agencyNeighborslistOption.5:0 "Cibler §S[possibleAgencyTarget_5.GetName]§!."
+ agencyNeighborslistOption.6:0 "Cibler §S[possibleAgencyTarget_6.GetName]§!."
+ agencyNeighborslistOption.7:0 "Cibler §S[possibleAgencyTarget_7.GetName]§!."
+ agencyNeighborslistOption.8:0 "Cibler §S[possibleAgencyTarget_8.GetName]§!."
+ agencyNeighborslistOption.9:0 "Cibler §S[possibleAgencyTarget_9.GetName]§!."
+ agencyNeighborslistOption.10:0 "Cibler §S[possibleAgencyTarget_10.GetName]§!."
+ agencyNeighborslistOption.11:0 "Cibler §S[possibleAgencyTarget_11.GetName]§!."
+ agencyNeighborslistOption.12:0 "Cibler §S[possibleAgencyTarget_12.GetName]§!."
+ agencyNeighborslistOption.13:0 "Cibler §S[possibleAgencyTarget_13.GetName]§!."
+ agencyNeighborslistOption.14:0 "Cibler §S[possibleAgencyTarget_14.GetName]§!."
+ agencyNeighborslistOption.15:0 "Cibler §S[possibleAgencyTarget_15.GetName]§!."
+ agencyNeighborslistOption.16:0 "Cibler §S[possibleAgencyTarget_16.GetName]§!."
+ agencyNeighborslistOption.17:0 "Cibler §S[possibleAgencyTarget_17.GetName]§!."
+ agencyNeighborslistOption.18:0 "Cibler §S[possibleAgencyTarget_18.GetName]§!."
+ agencyNeighborslistOption.19:0 "Cibler §S[possibleAgencyTarget_19.GetName]§!."
+ agencyNeighborslistOption.20:0 "Cibler §S[possibleAgencyTarget_20.GetName]§!."
+ 
+ agencyNeighborslistOption.21:0 "Cibler §S[possibleAgencyTarget_21.GetName]§!."
+ agencyNeighborslistOption.22:0 "Cibler §S[possibleAgencyTarget_22.GetName]§!."
+ agencyNeighborslistOption.23:0 "Cibler §S[possibleAgencyTarget_23.GetName]§!."
+ agencyNeighborslistOption.24:0 "Cibler §S[possibleAgencyTarget_24.GetName]§!."
+ agencyNeighborslistOption.25:0 "Cibler §S[possibleAgencyTarget_25.GetName]§!."
+ agencyNeighborslistOption.26:0 "Cibler §S[possibleAgencyTarget_26.GetName]§!."
+ agencyNeighborslistOption.27:0 "Cibler §S[possibleAgencyTarget_27.GetName]§!."
+ agencyNeighborslistOption.28:0 "Cibler §S[possibleAgencyTarget_28.GetName]§!."
+ agencyNeighborslistOption.29:0 "Cibler §S[possibleAgencyTarget_29.GetName]§!."
+ agencyNeighborslistOption.30:0 "Cibler §S[possibleAgencyTarget_30.GetName]§!."
+ agencyNeighborslistOption.31:0 "Cibler §S[possibleAgencyTarget_31.GetName]§!."
+ agencyNeighborslistOption.32:0 "Cibler §S[possibleAgencyTarget_32.GetName]§!."
+ agencyNeighborslistOption.33:0 "Cibler §S[possibleAgencyTarget_33.GetName]§!."
+ agencyNeighborslistOption.34:0 "Cibler §S[possibleAgencyTarget_34.GetName]§!."
+ agencyNeighborslistOption.35:0 "Cibler §S[possibleAgencyTarget_35.GetName]§!."
+ agencyNeighborslistOption.36:0 "Cibler §S[possibleAgencyTarget_36.GetName]§!."
+ agencyNeighborslistOption.37:0 "Cibler §S[possibleAgencyTarget_37.GetName]§!."
+ agencyNeighborslistOption.38:0 "Cibler §S[possibleAgencyTarget_38.GetName]§!."
+ agencyNeighborslistOption.39:0 "Cibler §S[possibleAgencyTarget_39.GetName]§!."
+ agencyNeighborslistOption.40:0 "Cibler §S[possibleAgencyTarget_40.GetName]§!."
+ agencyNeighborslistOption.41:0 "Cibler §S[possibleAgencyTarget_41.GetName]§!."
+ agencyNeighborslistOption.42:0 "Cibler §S[possibleAgencyTarget_42.GetName]§!."
+ agencyNeighborslistOption.43:0 "Cibler §S[possibleAgencyTarget_43.GetName]§!."
+ agencyNeighborslistOption.44:0 "Cibler §S[possibleAgencyTarget_44.GetName]§!."
+ agencyNeighborslistOption.45:0 "Cibler §S[possibleAgencyTarget_45.GetName]§!."
+ agencyNeighborslistOption.46:0 "Cibler §S[possibleAgencyTarget_46.GetName]§!."
+ agencyNeighborslistOption.47:0 "Cibler §S[possibleAgencyTarget_47.GetName]§!."
+ agencyNeighborslistOption.48:0 "Cibler §S[possibleAgencyTarget_48.GetName]§!."
+ agencyNeighborslistOption.49:0 "Cibler §S[possibleAgencyTarget_49.GetName]§!."
+ agencyNeighborslistOption.50:0 "Cibler §S[possibleAgencyTarget_50.GetName]§!."
+ agencyNeighborslistOption.51:0 "Cibler §S[possibleAgencyTarget_51.GetName]§!."
+ agencyNeighborslistOption.52:0 "Cibler §S[possibleAgencyTarget_52.GetName]§!."
+ agencyNeighborslistOption.53:0 "Cibler §S[possibleAgencyTarget_53.GetName]§!."
+ agencyNeighborslistOption.54:0 "Cibler §S[possibleAgencyTarget_54.GetName]§!."
+ agencyNeighborslistOption.55:0 "Cibler §S[possibleAgencyTarget_55.GetName]§!."
+ 
+ agencyNeighborslist.z:0 "Annuler."
+ agencyNeighborslist.y:0 "Rappeler le Réseau."
+ agencyNeighborslist.y.a:0 "Rappelez les membres du réseau d'espionnage. Cela nous fera perdre tous les niveaux de renseignement de la cible."
+ 
+########## MAIN MENU TOOLTIPS ##########
+ pointsRequiredAlpha.tooltip:0 "Nécessite §S15§! niveaux de renseignement."
+ 
+ pointsRequiredAlphaD.tooltip:0 "Nécessite §S15§! niveaux de renseignement."
+ 
+ pointsRequiredBeta.tooltip:0 "Nécessite §S15§! niveaux de renseignement."
+ 
+ pointsRequiredBetaD.tooltip:0 "Nécessite §S15§! niveaux de renseignement."
+ 
+ 
+ pointsRequiredandOpChangeCoolDownAlpha_F:0 "Nécessite §S15§! niveaux de renseignement.\n\nChanger le temps de recharge de l'opération - §R50§! journées."
+ 
+ pointsRequiredandOpChangeCoolDownAlpha_D:0 "Nécessite §S15§! niveaux de renseignement.\n\nChanger le temps de recharge de l'opération - §R50§! journées."
+ 
+ pointsRequiredandOpChangeCoolDownBeta_F:0 "Nécessite §S15§! niveaux de renseignement.\n\nChanger le temps de recharge de l'opération - §R50§! journées."
+ 
+ pointsRequiredandOpChangeCoolDownBeta_D:0 "Nécessite §S15§! niveaux de renseignement.\n\nChanger le temps de recharge de l'opération - §R50§! journées."
+ 
+########## ALPHA F MENU TOOLTIPS #########
+ noClickATargetName:0 "Le Réseau Alpha est secrètement établi au sein de cet empire cible."
+ noClickANoTarget:0 "Actuellement non déployé."
+ 
+ AlphaF-GathIntel.a:0 "Recueillir progressivement des renseignements au sein de §S[alphaNetworkTarget_temp.GetName]§!. Nous pouvons utiliser ces renseignements pour mener des opérations à l'étranger. Le montant gagné dépend du niveau de contre-espionnage des cibles.\n\nSe répétera automatiquement une fois terminé."
+ 
+ noClickANoOperation:0 "Actuellement non déployé."
+ 
+
+ AlphaF-opportunityMission.a:0 "Occupé à travailler sur une mission d'opportunité. Impossible de redéployer ou de réaffecter."
+
+ AlphaF-saboRep.a:0 "Saboter la réputation diplomatique de §S[alphaNetworkTarget_temp.GetName]§!."
+ 
+ AlphaF-sowUnrest.a:0 "Semer des troubles civils sur la cible, la colonie §S[alphaNetworkTarget_temp.GetName]§!."
+
+ AlphaF-sabstation.a:0 "Saboter une base stellaire de §S[alphaNetworkTarget_temp.GetName]§!."
+
+ 
+ AlphaF-fundCrime0.a:0 "Soutenir les éléments du crime organisé au sein de §S[alphaNetworkTarget_temp.GetName]§!. Alors que leur taux de criminalité s'aggrave, nous commencerons à siphonner secrètement les profits volés pour nous-mêmes."
+ 
+ AlphaF-fundCrime1.b:0 "Soutenir les éléments du crime organisé au sein de §S[alphaNetworkTarget_temp.GetName]§!. Alors que leur taux de criminalité s'aggrave, nous commencerons à siphonner secrètement les profits volés pour nous-mêmes. Niveau de support 1/3."
+ 
+ AlphaF-fundCrime2.c:0 "Soutenir les éléments du crime organisé au sein de §S[alphaNetworkTarget_temp.GetName]§!. Alors que leur taux de criminalité s'aggrave, nous commencerons à siphonner secrètement les profits volés pour nous-mêmes. Niveau de soutien 2/3."
+ 
+ AlphaF-fundCrime3.d:0 "Soutenir les éléments du crime organisé au sein de §S[alphaNetworkTarget_temp.GetName]§!. Alors que leur taux de criminalité s'aggrave, nous commencerons à siphonner secrètement les profits volés pour nous-mêmes. Niveau de soutien 3/3."
+ 
+ AlphaF-studyTech.a:0 "Tenter de mener un espionnage industriel et de voler les secrets des projets de recherche de la cible."
+ 
+ AlphaF-intelPoints.a:0 "Notre niveau actuel de renseignement sur : §S[alphaNetworkTarget_temp.GetName]§!."
+ 
+ AlphaF-intelPoints.b:0 "Nous ne disposons actuellement d'aucune information utilisable."
+ 
+ AlphaF-swingAuthoritarian:0 "Tenter de déplacer l'éthique de la cible vers l'§SAutoritarisme§!"
+ AlphaF-swingEgalitarian:0 "Tenter de déplacer l'éthique de la cible vers l'§SSégalitarisme§!"
+ AlphaF-swingMaterialist:0 "Tenter de déplacer l'éthique de la cible vers le §SMatérialisme§!"
+ AlphaF-swingMilitarist:0 "Tenter de déplacer l'éthique de la cible vers le §SMilitarisme§!"
+ AlphaF-swingPacifist:0 "Tenter de déplacer l'éthique de la cible vers le §SPacifisme§!"
+ AlphaF-swingSpiritualist:0 "Tenter de déplacer l'éthique de la cible vers le §SSpiritualisme§!"
+ AlphaF-swingXenophile:0 "Tenter de déplacer l'éthique de la cible vers la §SXénophilie§!"
+ AlphaF-swingXenophobe:0 "Tenter de déplacer l'éthique de la cible vers la §SXénophobie§!"
+ 
+ AlphaF-deploy.a:0 "Déployez le Réseau Alpha dans un empire étranger."
+ 
+ AlphaF-deploy.b:0 "Actuellement non déployé."
+ 
+ AlphaF-redeploy.a:0 "Redéployez le Réseau Alpha dans un autre empire, nous perdrons toutes les informations recueillies sur le §S[alphaNetworkTarget_temp.GetName]§!."
+ 
+ AlphaF-changeOP.a:0 "Modifier l'opération à l'étranger, la progression de l'opération en cours sera perdue. \n\nIl faudra attendre environ deux mois entre les opérations changées."
+ 
+ AlphaF-changeOP.a.b:0 "Déployez d'abord le Réseau Alpha dans un empire étranger."
+ 
+ 
+ 
+ 
+ ########## BETA F TOOLTIPS #########
+ noClickBTargetName:0 "Le Réseau Oméga a établi des cellules d'infiltration et des agents dans tout l'empire cible."
+ noClickBNoTarget:0 "Actuellement non déployé."
+ 
+ BetaF-GathIntel.a:0 "Recueillir progressivement des renseignements au sein de §S[betaNetworkTarget_temp.GetName]§!. Nous pouvons utiliser ces renseignements pour mener des opérations à l'étranger. Le montant gagné dépend du niveau de contre-espionnage des cibles.\n\nSe répétera automatiquement une fois terminé."
+ 
+ noClickBNoOperation:0 "Actuellement non déployé."
+ 
+
+ BetaF-opportunityMission.a:0 "Occupé à travailler sur une mission d'opportunité. Impossible de redéployer ou de réaffecter."
+
+ BetaF-saboRep.a:0 "Saboter la réputation diplomatique de §S[betaNetworkTarget_temp.GetName]§!."
+ 
+ BetaF-sowUnrest.a:0 "Semer des troubles civils sur la colonie cible §S[betaNetworkTarget_temp.GetName]§!."
+
+
+ BetaF-sabstation.a:0 "Saboter une base stellaire de §S[betaNetworkTarget_temp.GetName]§!"
+ 
+ BetaF-fundCrime0.a:0 "Soutenir les éléments du crime organisé au sein de §S[betaNetworkTarget_temp.GetName]§!. Alors que leur taux de criminalité s'aggrave, nous commencerons à siphonner secrètement les profits volés pour nous-mêmes."
+ 
+ BetaF-fundCrime1.b:0 "Soutenir les éléments du crime organisé au sein de §S[betaNetworkTarget_temp.GetName]§!. Alors que leur taux de criminalité s'aggrave, nous commencerons à siphonner secrètement les profits volés pour nous-mêmes. Niveau de support 1/3"
+ 
+ BetaF-fundCrime2.c:0 "Soutenir les éléments du crime organisé au sein de §S[betaNetworkTarget_temp.GetName]§!. Alors que leur taux de criminalité s'aggrave, nous commencerons à siphonner secrètement les profits volés pour nous-mêmes. Niveau de support 2/3"
+ 
+ BetaF-fundCrime3.d:0 "Soutenir les éléments du crime organisé au sein de §S[betaNetworkTarget_temp.GetName]§!. Alors que leur taux de criminalité s'aggrave, nous commencerons à siphonner secrètement les profits volés pour nous-mêmes. Niveau de support 3/3"
+ 
+ BetaF-studyTech.a:0 "Tenter de mener un espionnage industriel et de voler les secrets des projets de recherche de la cible."
+ 
+ BetaF-swingAuthoritarian:0 "Tenter de déplacer l'éthique de la cible vers l'§SAutoritarisme§!"
+ BetaF-swingEgalitarian:0 "Tenter de déplacer l'éthique de la cible vers l'§Ségalitarisme§!"
+ BetaF-swingMaterialist:0 "Tenter de déplacer l'éthique de la cible vers le §SMatérialisme§!"
+ BetaF-swingMilitarist:0 "Tenter de déplacer l'éthique de la cible vers le §SMilitarisme§!"
+ BetaF-swingPacifist:0 "Tenter de déplacer l'éthique de la cible vers le §SPacifisme§!"
+ BetaF-swingSpiritualist:0 "Tenter de déplacer l'éthique de la cible vers le §SSpiritualisme§!"
+ BetaF-swingXenophile:0 "Tenter de déplacer l'éthique de la cible vers la §SXénophilie§!"
+ BetaF-swingXenophobe:0 "Tenter de déplacer l'éthique de la cible vers la §SXénophobie§!"
+ 
+ BetaF-intelPoints.a:0 "Notre niveau actuel de renseignement sur le §S[betaNetworkTarget_temp.GetName]§!."
+ 
+ BetaF-intelPoints.b:0 "Nous ne disposons actuellement d'aucune information utilisable."
+ 
+ BetaF-deploy.a:0 "Déployez le réseau Oméga dans un empire étranger."
+ 
+ BetaF-deploy.b:0 "Le réseau Oméga n'est actuellement pas déployé."
+ 
+ BetaF-redeploy.a:0 "Redéployez le réseau Oméga dans un autre empire, nous perdrons toutes les informations recueillies sur le §S[betaNetworkTarget_temp.GetName]§!."
+ 
+ BetaF-changeOP.a:0 "Modifier l'opération à l'étranger, la progression de l'opération en cours sera perdue. \n\nIl faudra attendre environ deux mois entre les opérations changées."
+ 
+ BetaF-changeOP.a.b:0 "Déployez d'abord le réseau Oméga dans un empire étranger."
+ 
+ 
+ 
+ ########## ALPHA D TOOLTIPS #########
+ AlphaD-TName.a:0 "Quelle que soit l'opération secondaire que nous choisissons, le réseau Alpha travaillera en permanence pour renforcer notre sécurité interne et entraver la progression des réseaux hostiles."
+ 
+ AlphaD-TName.b:0 ""
+ 
+ AlphaD-GathIntel.a:0 "Collecte progressive des informations sur les factions internes et les menaces, qui peuvent ensuite être utilisées pour effectuer des opérations nationales secondaires.\n\nSe répétera automatiquement une fois terminé."
+ 
+ AlphaD-boostRep.a:0 "Renforcer notre réputation diplomatique."
+ 
+ AlphaD-stopCrime.a:0 "Lutter contre le crime organisé national."
+ 
+ AlphaD-boostEthics.a:0 "Mener une opération de propagande dans le but d'influencer notre population civile vers notre éthique de gouvernement."
+ 
+ AlphaD-intelPoints.a:0 "Notre niveau actuel de renseignement nationale."
+ 
+ AlphaD-intelPoints.b:0 "Nous ne disposons actuellement d'aucune information utilisable."
+ 
+ AlphaD-changeOP.a:0 "Définir le fonctionnement national secondaire, perdra tout progrès en cours vers le fonctionnement en cours."
+ 
+ 
+ 
+ 
+ ########## BETA D TOOLTIPS #########
+ BetaD-TName.a:0 "Quelle que soit l'opération secondaire que nous choisissons, le réseau Oméga travaillera constamment pour renforcer notre sécurité interne et entraver la progression des réseaux hostiles."
+
+ 
+ BetaD-TName.b:0 ""
+ 
+ BetaD-GathIntel.a:0 "Collecte progressive des informations sur les factions internes et les menaces, qui peuvent ensuite être utilisées pour effectuer des opérations nationales secondaires.\n\nSe répétera automatiquement une fois terminé."
+ 
+ BetaD-boostRep.a:0 "Renforcer notre réputation diplomatique."
+ 
+ BetaD-stopCrime.a:0 "Lutter contre le crime organisé national."
+ 
+ BetaD-boostEthics.a:0 "Mener des opérations de propagande dans le but d'influencer notre population civile vers notre éthique de gouvernement."
+ 
+ BetaD-intelPoints.a:0 "Notre niveau actuel de renseignement nationale."
+ 
+ BetaD-intelPoints.b:0 "Nous ne disposons actuellement d'aucune information utilisable."
+ 
+ BetaD-changeOP.a:0 "Définir le fonctionnement nationale secondaire, perdra tout progrès en cours vers le fonctionnement en cours."
+ 
+ 
+ 
+######## ALPHA F MENU NAMES ######
+ ###### ALPHA FOREIGN MENU STUFF
+ AlphaF-TName:0 "§S[alphaNetworkTarget_temp.GetName]§!"
+ AlphaF-TName.a:0 "Le Réseau Alpha a établi des cellules d'infiltration et des agents dans tout l'empire cible."
+ 
+ AlphaF-Unnasigned:0 "[Root.alpha_foreign_unnassigned_cover_or_not]"
+ AlphaF-Unnasigned.a:0 "Actuellement non déployé."
+ 
+ AlphaF-GathIntel:0 "§SRécolter des renseignements§!"
+
+ 
+ AlphaF-Op-Unnasigned:0 "[Root.alpha_foreign_optype_cover_or_not]"
+ 
+ AlphaF-saboRep:0 "§SSaboter la Réputation§!"
+ AlphaF-opportunityMission:0 "§SMission d'opportunité§!"
+ AlphaF-sowUnrest:0 "§SGénérer des troubles civils§!"
+ AlphaF-fabClaim:0 "§Fabriquer un motif de guerre§!"
+ AlphaF-studyTech:0 "§SEsponnage Industriel§!"
+ AlphaF-sabstation:0 "§SSaboter une base stellaire§!"
+ 
+ AlphaF-fundCrime0:0 "§Opérations criminelles - Étape 0 / 3§!"
+ AlphaF-fundCrime1:0 "§Opérations criminelles - Étape 1 / 3§!"
+ AlphaF-fundCrime2:0 "§Opérations criminelles - Étape 2 / 3§!"
+ AlphaF-fundCrime3:0 "§Opérations criminelles - Étape 3 / 3§!"
+ 
+ AlphaF-swingEthics:0 "§SPropagande étrangère§!"
+ AlphaF-intelPoints:0 ""
+ AlphaF-intelPoints-none:0 "[Root.alpha_foreign_intel_cover_or_not]"
+ 
+ AlphaF-deploy:0 "Déployer"
+ AlphaF-deploy-cover:0 ""
+ AlphaF-redeploy:0 "Redéployer"
+ AlphaF-changeOP:0 "Opérations"
+ AlphaF-changeOP-cover:0 ""
+ cover_foreign_alpha_unnassigned:0 ""
+ foreign_alpha_unnassigned:0 "Non attribué"
+ cover_foreign_alpha_optype:0 ""
+ foreign_alpha_optype:0 "Non attribué"
+ cover_foreign_alpha_intel:0 ""
+ foreign_alpha_intel:0 ""
+ 
+ 
+ 
+ ###### ALPHA DOMESTIC MENU STUFF
+ AlphaD-TName:0 "§SContre-espionnage§!"
+ 
+ AlphaD-Unnasigned:0 "[Root.alpha_domestic_unnassigned_cover_or_not]"
+ 
+ AlphaD-GathIntel:0 "§SRécolter des renseignements§!"
+ 
+ AlphaD-Op-Unnasigned:0 "[Root.alpha_domestic_optype_cover_or_not]"
+ 
+ AlphaD-boostRep:0 "§SAméliorer la Réputation§!"
+ AlphaD-stopCrime:0 "§SRépression de la Criminalité§!"
+ AlphaD-boostEthics:0 "§SPropagande nationale§!"
+ 
+ AlphaD-intelPoints:0 ""
+ AlphaD-intelPoints-none:0 "[Root.alpha_domestic_intel_cover_or_not]§!"
+ AlphaD-changeOP:0 "Opérations"
+ AlphaD-changeOP-cover:0 ""
+ cover_domestic_alpha_optype:0 ""
+ domestic_alpha_optype:0 "Non attribué"
+ cover_domestic_alpha_intel:0 ""
+ domestic_alpha_intel:0 ""
+ 
+ 
+ 
+ ###### BETA DOMESTIC MENU STUFF
+ BetaD-TName:0 "§SContre-espionnage§!"
+ BetaD-Unnasigned:0 "[Root.beta_domestic_unnassigned_cover_or_not]"
+ BetaD-GathIntel:0 "§SRécolter des renseignements§!"
+ BetaD-Op-Unnasigned:0 "[Root.beta_domestic_optype_cover_or_not]"
+ 
+ BetaD-boostRep:0 "§SAméliorer la Réputation§!"
+ BetaD-stopCrime:0 "§SRépression de la criminalité§!"
+ BetaD-boostEthics:0 "§SPropagande nationale§!"
+ 
+ BetaD-intelPoints:0 ""
+ BetaD-intelPoints-none:0 "[Root.beta_domestic_intel_cover_or_not]"
+ BetaD-changeOP:0 "Opérations"
+ BetaD-changeOP-cover:0 ""
+ 
+ cover_domestic_beta_optype:0 ""
+ domestic_beta_optype:0 "Non attribué"
+ 
+ cover_domestic_beta_intel:0 ""
+ domestic_beta_intel:0 ""
+ 
+ 
+ 
+ ###### BETA FOREIGN MENU STUFF
+ BetaF-TName:0 "§S[betaNetworkTarget_temp.GetName]§!"
+ BetaF-Unnasigned:0 "[Root.beta_foreign_unnassigned_cover_or_not]"
+ BetaF-GathIntel:0 "§SRécolter des renseignements§!"
+ 
+ BetaF-Op-Unnasigned:0 "[Root.beta_foreign_optype_cover_or_not]"
+ BetaF-saboRep:0 "§SSaboter la Réputation§!"
+ 
+ BetaF-fabClaim:0 "§Fabriquer un motif de guerre§!"
+ BetaF-studyTech:0 "§SEspionnage Industriel§!"
+ BetaF-swingEthics:0 "§SPropagande étrangère§!"
+ BetaF-intelPoints:0 ""
+ BetaF-sowUnrest:0 "§SGénérer des troubles civils§!"
+ BetaF-sabstation:0 "§SSaboter une base stellaire§!"
+ BetaF-opportunityMission:0 "§SMission d'Opportunité§!"
+
+ BetaF-Unnasigned.a:0 "Actuellement non déployé."
+ 
+ BetaF-intelPoints-none:0 "[Root.beta_foreign_intel_cover_or_not]"
+ BetaF-deploy:0 "Déployer"
+ BetaF-deploy-cover:0 ""
+ BetaF-redeploy:0 "Redéployer"
+ BetaF-changeOP:0 "Opérations"
+ BetaF-changeOP-cover:0 ""
+ 
+ cover_foreign_beta_unnassigned:0 ""
+ foreign_beta_unnassigned:0 "Non attribué"
+ 
+ cover_foreign_beta_optype:0 ""
+ foreign_beta_optype:0 "Non attribué"
+ 
+ cover_foreign_beta_intel:0 ""
+ foreign_beta_intel:0 ""
+ 
+ BetaF-fundCrime0:0 "§Opérations criminelles - Étape 0 / 3§!"
+ BetaF-fundCrime1:0 "§Opérations criminelles - Étape 1 / 3§!"
+ BetaF-fundCrime2:0 "§Opérations criminelles - Étape 2 / 3§!"
+ BetaF-fundCrime3:0 "§Opérations criminelles - Étape 3 / 3§!"
+ 
+ 
+ 
+######### CONVERT MENU STUFF #########
+ ### TOOLTIPS ###
+ agencyMenu.1.1b.tooltip:0 "Convertit le réseau Alpha en opérations §Ynationales§!. Perdra tous les niveaux de renseignement actuels."
+ agencyMenu.1.1bb.tooltip:0 "Convertit le réseau Alpha en opérations §Yétrangères§!. Perdra tous les niveaux de renseignement actuels."
+ agencyMenu.1.1c.tooltip:0 "Convertit le réseau Oméga en opérations §Ynationales§!. Perdra tous les niveaux de renseignement actuels."
+ agencyMenu.1.1cc.tooltip:0 "Convertit le réseau Oméga en opérations §Yétrangères§!. Perdra tous les niveaux de renseignement actuels."
+ 
+ ### MAIN ###
+ convertWarningAtoD.title:0 "Convertir le réseau Alpha en opérations nationales"
+ convertWarningAtoD.desc:0 "Convertit le réseau Alpha en §YOpérations nationales§!. Perdra tous les niveaux de renseignement actuels."
+ convertWarningAtoF.title:0 "Convertir le réseau Alpha en opérations à l'étranger"
+ convertWarningAtoF.desc:0 "Convertit le réseau Alpha en opérations §Yétrangères§!. Perdra tous les niveaux de renseignement actuels."
+ convertWarningBtoF.title:0 "Convertir le réseau Oméga en opérations à l'étranger"
+ convertWarningBtoF.desc:0 "Convertit le réseau Oméga en opérations §Yétrangères§!. Perdra tous les niveaux de renseignement actuels."
+ convertWarningBtoD.title:0 "Convertir le réseau Oméga en opérations nationales"
+ convertWarningBtoD.desc:0 "Convertit le réseau Oméga en opérations §Ynationales§!. Perdra tous les niveaux de renseignement actuels."
+ convertWarning.a:0 "Confirmer."
+ convertWarning.b:0 "Annuler."
+ 
+ agencyMenu.1.c:0 " "
+ agencyMenu.1.1b:0 " "
+ agencyMenu.1.1bb:0 " "
+ agencyMenu.1.1c:0 " "
+ agencyMenu.1.1cc:0 " "
+ 
+ cover_domestic_alpha_unnassigned:0 ""
+ domestic_alpha_unnassigned:0 "Non attribué"
+ cover_domestic_beta_unnassigned:0 ""
+ domestic_beta_unnassigned:0 "Non attribué"
+ 
+ ADN_GetCover:0 "couverture"
+ ADN_NoCover:0 "§S[betaNetworkTarget_temp.GetName]§!"
+ ADN_NoCover_nc:0 "aucun pays"
+ 
+ 
+ 
+############### MAIN MAIN SELECT OPERATION #####################
+### TOOLTIPS ###
+ AF_chooseOP.a.a:0 "Saboter la réputation diplomatique de §S[alphaNetworkTarget_temp.GetName]§!.\n\nNécessite §S15§! niveaux de renseignement."
+ BF_chooseOP.a.a:0 "Saboter la réputation diplomatique de §S[betaNetworkTarget_temp.GetName]§!.\n\nNécessite §S15§! niveaux de renseignement."
+ 
+ AF_chooseOP.c.a:0 "Infiltrer §S[alphaNetworkTarget_temp.GetName]§! les instituts de recherche et les réseaux de données, tentant de voler des informations sur les technologies recherchées\n\nNécessite §S15§! niveaux de renseignement."
+ BF_chooseOP.c.a:0 "Infiltrer §S[betaNetworkTarget_temp.GetName]§! les instituts de recherche et les réseaux de données, tentant de voler des informations sur les technologies recherchées\n\nNécessite §S15§! niveaux de renseignement."
+ 
+ AF_chooseOP.f.a:0 "Soutenir les éléments du crime organisé au sein de §S[alphaNetworkTarget_temp.GetName]§!. Alors que leur niveau de criminalité augmentera, nous siphonnerons les bénéfices pour nous-mêmes.\n\nChaque fois que nous répétons l'opération, les effets augmenteront.\n\nNécessite §S15§! niveaux de renseignement."
+ BF_chooseOP.f.a:0 "Soutenir les éléments du crime organisé au sein de §S[betaNetworkTarget_temp.GetName]§!. Alors que leur niveau de criminalité augmentera, nous siphonnerons les bénéfices pour nous-mêmes.\n\nChaque fois que nous répétons l'opération, les effets augmenteront.\n\nNécessite §S15§! niveaux de renseignement."
+ 
+ AF_chooseOP.g.a:0 "L'utilisation d'une variété de méthodes de propagande tente de changer l'éthique des citoyens de §S[alphaNetworkTarget_temp.GetName]§!.\n\nNécessite §S15§! niveaux de renseignement."
+ BF_chooseOP.g.a:0 "L'utilisation d'une variété de méthodes de propagande tente de changer l'éthique de la citoyens de §S[alphaNetworkTarget_temp.GetName]§!.\n\nNécessite §S15§! niveaux de renseignement."
+ 
+ AF_chooseOP.h.a:0 "Nos agents tenteront de déclencher des troubles civils à grande échelle sur une colonie appartenant à §S[alphaNetworkTarget_temp.GetName]§!.\n\nNécessite §S15§! niveaux de renseignement."
+ BF_chooseOP.h.a:0 "Nos agents tenteront de déclencher des troubles civils à grande échelle sur une colonie appartenant à §S[betaNetworkTarget_temp.GetName]§!.\n\nNécessite §S15§! niveaux de renseignement."
+
+ AF_chooseOP.i.a:0 "Infiltrer une base stellaire ennemie et abattez ses défenses de l'intérieur.\nNécessite §S15§! niveaux de renseignement."
+ BF_chooseOP.i.a:0 "Infiltrer une base stellaire ennemie et abattez ses défenses de l'intérieur.\nNécessite §S15§! niveaux de renseignement."
+ 
+ ### MAIN ###
+ ABF_chooseOP.title:0 "Sélectionnez l'opération"
+ AF_chooseOP.desc:0 "Nos agents du réseau Alpha se sont établis dans le §S[alphaNetworkTarget_temp.GetName]§! pour recueillir des renseignements, et se tiennent prêt à commencer des opérations à l'étranger.\n\nQuels sont vos ordres ?"
+ BF_chooseOP.desc:0 "Nos agents du réseau Alpha se sont établis dans le §S[betaNetworkTarget_temp.GetName]§! pour recueillir des renseignements, et se tiennent prêt à commencer des opérations à l'étranger.\n\nQuels sont vos ordres ?"
+ 
+ ABF_chooseOP.a:0 "Saboter la Réputation diplomatique."
+ ABF_chooseOP.b:0 "Fabriquer un motif de guerre."
+ ABF_chooseOP.c:0 "Faire de l'Espionnage industriel."
+ ABF_chooseOP.f:0 "Soutenir le crime organisé."
+ ABF_chooseOP.g:0 "Réaliser de la Propagande étrangère."
+ ABF_chooseOP.h:0 "Semez des troubles civils."
+ ABF_chooseOP.i:0 "Saboter une base stellaire."
+ ABF_chooseOP.e:0 "Retour."
+ 
+ 
+###### SELECT DOMESTIC OPERATION ######
+### TOOLTIPS ###
+ AD_chooseOP.a:0 "Améliorez notre réputation diplomatique.\nNécessite §S15§! niveaux de renseignement."
+ BD_chooseOP.a:0 "Améliorez notre réputation diplomatique.\nNécessite §S15§! niveaux de renseignement."
+
+ 
+ AD_chooseOP.b:0 "Lutte contre le crime organisé national.\nNécessite §S15§! niveaux de renseignement."
+ BD_chooseOP.b:0 "Lutte contre le crime organisé national\nRequiert §S15§! niveaux de renseignement."
+ 
+ AD_chooseOP.c:0 "Gouvernance de la propagande éthique.\nNécessite §S15§! niveaux de renseignement."
+ BD_chooseOP.c:0 "Gouvernance de la propagande éthique.\nNécessite §S15§! niveaux de renseignement."
+ 
+ ### MAIN ###
+ ABD_chooseOP.title:0 "Sélectionner une opération secondaire"
+ ABD_chooseOP.desc:0 "Une fois que les agents opérant à travers notre réseau ont rassemblé suffisamment de renseignements, nous pouvons leur ordonner de mener un certain nombre d'opérations internes différentes. Cela réduira notre niveau de renseignement."
+ 
+ ABD_chooseOP.a:0 "Améliorez la réputation diplomatique."
+ ABD_chooseOP.b:0 "Répression du crime organisé."
+ ABD_chooseOP.d:0 "Propagande intérieure."
+ ABD_chooseOP.c:0 "Retour."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+########## MAIN FOREIGN OPERATIONS ############
+##### SABOTAGE RELATIONS #####
+### MAIN ###
+ sabotageRepSuccess.title:0 "Sabotage de la Réputation"
+ sabotageRepSuccess.desc:0 "§YSuccès Majeur ! §!. Nos agents du réseau Alpha ont réussi à saboter la réputation diplomatique de §S[alphaNetworkTarget_temp.GetName]§!.\n\nLes relations entre eux et leurs contacts diplomatiques se sont tendues."
+ sabotageRepSuccess2.title:0 "Sabotage de la Réputation"
+ sabotageRepSuccess2.desc:0 "§YSuccès Majeur ! §!. Nos agents du réseau Oméga ont réussi à saboter la réputation diplomatique de §S[betaNetworkTarget_temp.GetName]§!.\n\nLes relations entre eux et leurs contacts diplomatiques se sont tendues."
+ 
+ sabotageRepSuccess.a:0 "Répéter l'opération"
+ sabotageRepSuccess.a.alpha:0 "Nécessite §S15§! niveaux de renseignement."
+ sabotageRepSuccess.a.beta:0 "Nécessite §S15§! niveaux de renseignement."
+ sabotageRepSuccess.b:0 "Retour à la collecte de renseignements"
+ 
+ sabotageRepSuccessPartial.title:0 "Sabotage de la Réputation"
+ sabotageRepSuccessPartial.desc:0 "§YSuccès ! §!. Nos agents du réseau Alpha ont rencontré un succès limité en sabotant la réputation diplomatique de §S[alphaNetworkTarget_temp.GetName]§!.\n\nLes relations entre eux et leurs voisins directs se sont quelque peu tendues."
+ 
+ sabotageRepSuccessPartial2.title:0 "Sabotage de la Réputation"
+ sabotageRepSuccessPartial2.desc:0 "§YSuccès ! §!. Nos agents du réseau Oméga ont rencontré un succès limité en sabotant la réputation diplomatique de §S[betaNetworkTarget_temp.GetName]§!.\n\nLes relations entre eux et leurs voisins directs sont devenues quelque peu tendues."
+ 
+ 
+##### SOW UNREST #####
+### MAIN ###
+ spySowUnrest.title:0 "Planète cible"
+ spySowUnrest.desc:0 "Le réseau Alpha est prêt, quelle colonie étrangère de §S[alphaNetworkTarget_temp.GetName]§! devrait être notre cible ?"
+ 
+ spySowUnrestB.title:0 "Planète cible"
+ spySowUnrestB.desc:0 "Le Réseau Oméga est prêt, quelle colonie étrangère de §S[betaNetworkTarget_temp.GetName]§! devrait être notre cible ?"
+ 
+ spySowUnrest.1.1:0 "§S[target_planet_1.GetName]§! dans le système §S[target_system_1.GetName]§!."
+ spySowUnrest.1.2:0 "§S[target_planet_2.GetName]§! dans le système §S[target_system_2.GetName]§!."
+ spySowUnrest.1.3:0 "§S[target_planet_3.GetName]§! dans le système §S[target_system_3.GetName]§!."
+ spySowUnrest.1.4:0 "§S[target_planet_4.GetName]§! dans le système §S[target_system_4.GetName]§!."
+ spySowUnrest.1.5:0 "§S[target_planet_5.GetName]§! dans le système §S[target_system_5.GetName]§!."
+ spySowUnrest.1.6:0 "§S[target_planet_6.GetName]§! dans le système §S[target_system_6.GetName]§!."
+ spySowUnrest.1.7:0 "§S[target_planet_7.GetName]§! dans le système §S[target_system_7.GetName]§!."
+ spySowUnrest.1.8:0 "§S[target_planet_8.GetName]§! dans le système §S[target_system_8.GetName]§!."
+ spySowUnrest.1.9:0 "§S[target_planet_9.GetName]§! dans le système §S[target_system_9.GetName]§!."
+ spySowUnrest.1.10:0 "§S[target_planet_10.GetName]§! dans le système §S[target_system_10.GetName]§!."
+
+ spySowUnrest.1.11:0 "§S[target_planet_10.GetName]§! dans le système §S[target_system_11.GetName]§!."
+ spySowUnrest.1.12:0 "§S[target_planet_10.GetName]§! dans le système §S[target_system_13.GetName]§!."
+ spySowUnrest.1.13:0 "§S[target_planet_10.GetName]§! dans le système §S[target_system_14.GetName]§!."
+ spySowUnrest.1.14:0 "§S[target_planet_10.GetName]§! dans le système §S[target_system_14.GetName]§!."
+ spySowUnrest.1.15:0 "§S[target_planet_10.GetName]§! dans le système §S[target_system_15.GetName]§!."
+ spySowUnrest.1.16:0 "§S[target_planet_10.GetName]§! dans le système §S[target_system_16.GetName]§!."
+ spySowUnrest.1.17:0 "§S[target_planet_10.GetName]§! dans le système §S[target_system_17.GetName]§!."
+ spySowUnrest.1.18:0 "§S[target_planet_10.GetName]§! dans le système §S[target_system_18.GetName]§!."
+ spySowUnrest.1.19:0 "§S[target_planet_10.GetName]§! dans le système §S[target_system_19.GetName]§!."
+ spySowUnrest.1.20:0 "§S[target_planet_10.GetName]§! dans le système §S[target_system_20.GetName]§!."
+ 
+ spySowUnrestB.1.1:0 "§S[target_planet_1_2.GetName]§! dans le système §S[target_system_1_2.GetName]§!."
+ spySowUnrestB.1.2:0 "§S[target_planet_2_2.GetName]§! dans le système §S[target_system_2_2.GetName]§!."
+ spySowUnrestB.1.3:0 "§S[target_planet_3_2.GetName]§! dans le système §S[target_system_3_2.GetName]§!."
+ spySowUnrestB.1.4:0 "§S[target_planet_4_2.GetName]§! dans le système §S[target_system_4_2.GetName]§!."
+ spySowUnrestB.1.5:0 "§S[target_planet_5_2.GetName]§! dans le système §S[target_system_5_2.GetName]§!."
+ spySowUnrestB.1.6:0 "§S[target_planet_6_2.GetName]§! dans le système §S[target_system_6_2.GetName]§!."
+ spySowUnrestB.1.7:0 "§S[target_planet_7_2.GetName]§! dans le système §S[target_system_7_2.GetName]§!."
+ spySowUnrestB.1.8:0 "§S[target_planet_8_2.GetName]§! dans le système §S[target_system_8_2.GetName]§!."
+ spySowUnrestB.1.9:0 "§S[target_planet_9_2.GetName]§! dans le système §S[target_system_9_2.GetName]§!."
+ spySowUnrestB.1.10:0 "§S[target_planet_10_2.GetName]§! dans le système §S[target_system_10_2.GetName]§!."
+
+ spySowUnrestB.1.11:0 "§S[target_planet_10_2.GetName]§! dans le système §S[target_system_11_2.GetName]§!."
+ spySowUnrestB.1.12:0 "§S[target_planet_10_2.GetName]§! dans le système §S[target_system_12_2.GetName]§!."
+ spySowUnrestB.1.13:0 "§S[target_planet_10_2.GetName]§! dans le système §S[target_system_13_2.GetName]§!."
+ spySowUnrestB.1.14:0 "§S[target_planet_10_2.GetName]§! dans le système §S[target_system_14_2.GetName]§!."
+ spySowUnrestB.1.15:0 "§S[target_planet_10_2.GetName]§! dans le système §S[target_system_15_2.GetName]§!."
+ spySowUnrestB.1.16:0 "§S[target_planet_10_2.GetName]§! dans le système §S[target_system_16_2.GetName]§!."
+ spySowUnrestB.1.17:0 "§S[target_planet_10_2.GetName]§! dans le système §S[target_system_17_2.GetName]§!."
+ spySowUnrestB.1.18:0 "§S[target_planet_10_2.GetName]§! dans le système §S[target_system_18_2.GetName]§!."
+ spySowUnrestB.1.19:0 "§S[target_planet_10_2.GetName]§! dans le système §S[target_system_19_2.GetName]§!."
+ spySowUnrestB.1.20:0 "§S[target_planet_10_2.GetName]§! dans le système §S[target_system_20_2.GetName]§!."
+
+
+ 
+###### SUCCESS ######
+ spySowUnrest2.title:0 "Générer des Troubles civils"
+ spySowUnrest2.desc:0 "§YSuccès Majeur ! §!. Nos agents du réseau Alpha ont réussi à galvaniser le soutien aux radicaux et aux groupes marginaux sur la colonie §S[alphaNetworkTarget_temp.GetName]§!, §S[finalPlanetTarget.GetName]§! dans le système §S[finalPlanetTarget.Solar_System.GetName]§!. La population civile prend d'assaut les rues et les forces de l'ordre locales ont été poussées à bout."
+ 
+ spySowUnrest.2.a:0 "Répéter l'opération"
+ spySowUnrest.2.b:0 "Retour à la collecte de renseignements"
+ 
+ spySowUnrest3.title:0 "Générer des Troubles civils"
+ spySowUnrest3.desc:0 "§YSuccès ! §!. Notre réseau Alpha a réussi à susciter des troubles et du mécontentement au sein de la population civile de la colonie §S[alphaNetworkTarget_temp.GetName]§!, §S[finalPlanetTarget.GetName]§! dans le système §S[finalPlanetTarget.Solar_System.GetName]§!. Des informations éparses ont fait état de civils qui manifestaient dans les rues."
+ 
+ spySowUnrest2B.title:0 "Générer des Troubles civils"
+ spySowUnrest2B.desc:0 "§YSuccès Majeur ! §!. Nos agents du réseau Oméga ont réussi à galvaniser le soutien aux radicaux et aux groupes marginaux sur la colonie §S[betaNetworkTarget_temp.GetName]§!, §S[finalPlanetTarget_2.GetName]§! dans le système §S[finalPlanetTarget_2.Solar_System.GetName]§!. La population civile prend d'assaut les rues et les forces de l'ordre locales ont été poussées à bout."
+ 
+ spySowUnrestB.2.a:0 "Répéter l'opération"
+ spySowUnrestB.2.b:0 "Retour à la collecte de renseignements"
+ 
+ spySowUnrest3B.title:0 "Générer des Troubles civils"
+ spySowUnrest3B.desc:0 "§YSuccès ! §!. Notre réseau Oméga a réussi à susciter l'agitation et le mécontentement de la population civile de la colonie §S[betaNetworkTarget_temp.GetName]§!, §S[finalPlanetTarget_2.GetName]§! dans le système §S[finalPlanetTarget_2.Solar_System.GetName]§!. Des informations éparses ont fait état de civils qui manifestaient dans les rues."
+ 
+ 
+##### SUPPORT ORGANISED CRIME #####
+### TOOLTIPS ###
+ fundCrime.2.c.a:0 "La répétition de l'opération augmentera également les niveaux de criminalité cibles et le montant des profits volés que nous pourrons siphonner.\nRequiert §S15§! niveaux de renseignement."
+ 
+ fundCrime2.2.c.a:0 "La répétition de l'opération augmentera également les niveaux de criminalité cibles et le montant des profits volés que nous pourrons siphonner.\nRequiert §S15§! niveaux de renseignement."
+ 
+ ### MAIN ###
+ ### ALPHA ###
+ fundCrimeSuccess.title:0 "Opérations criminelles"
+ fundCrimeSuccess.desc:0 "§YSuccès ! §!. Nos agents du réseau Alpha ont réussi à infiltrer plusieurs éléments du crime organisé au sein de §S[alphaNetworkTarget_temp.GetName]§!.\n\nNous avons commencé à siphonner les bénéfices vers nos propres avoirs discrets. - Étape 1/3"
+ 
+ fundCrimeSuccess2.desc:0 "§YSuccès ! §!. Plusieurs agents du Réseau Alpha sont désormais profondément ancrés dans les éléments criminels organisés de §S[alphaNetworkTarget_temp.GetName]§!, et ont commencé à étendre leurs opérations.\n\nLes bénéfices volés siphonnés dans nos propres avoirs discrets ont augmenté. - Étape 2/3"
+ 
+ fundCrimeSuccess3.desc:0 "§YSuccès ! §!. Nos agents du réseau Alpha sont désormais chargés de soutenir les organisations criminelles les plus puissantes au sein de §S[alphaNetworkTarget_temp.GetName]§!.\n\nLes bénéfices sont à un niveau record comme §S[alphaNetworkTarget_temp.GetAdjective]§! des cargaisons sont volées et des raids stellaires sur une base presque continue. - Étape 3/3"
+ 
+#  fundCrime.2.a:0 "Répétez, maintenez le soutien au niveau actuel."
+ fundCrime.2.a.a:0 "Continuez à fonctionner au niveau actuel de soutien et de risque."
+ fundCrime.2.b:0 "Revenez à la collecte de renseignements."
+ fundCrime.2.c:0 "Continuer l'opération."
+ 
+ ### BETA ###
+ fundCrime2Success.title:0 "Opérations criminelles"
+ 
+ fundCrime2Success.desc:0 "§YSuccès ! §!. Nos agents du réseau Oméga ont réussi à infiltrer plusieurs éléments du crime organisé au sein de §S[betaNetworkTarget_temp.GetName]§!.\n\nNous avons commencé à siphonner les bénéfices vers nos propres avoirs discrets. - Étape 1/3"
+ 
+ fundCrime2Success2.desc:0 "§YSuccès ! §!. Plusieurs agents du réseau Oméga sont désormais profondément ancrés dans les éléments criminels organisés de §S[betaNetworkTarget_temp.GetName]§!, et ont commencé à étendre leurs opérations.\n\nLes profits volés siphonnés dans nos propres avoirs discrets ont augmenté. - Étape 2/3"
+ 
+ fundCrime2Success3.desc:0 "§YSuccès ! §!. Nos agents du réseau Oméga sont désormais chargés de soutenir les organisations criminelles les plus puissantes au sein de §S[betaNetworkTarget_temp.GetName]§!.\n\nLes bénéfices sont à un niveau record comme §S[betaNetworkTarget_temp.GetAdjective]§! des cargaisons sont volées et des raids stellaires sur une base presque continue. - Étape 3/3"
+ 
+#  fundCrime2.2.a:0 "Répéter l'opération"
+#  fundCrime2.2.a.a:0 "Continuez à fonctionner au niveau actuel de soutien et de risque."
+ fundCrime2.2.b:0 "Retour à la collecte de renseignements"
+ fundCrime2.2.c:0 "Continuer l'opération"
+ 
+ 
+##### INDUSTRIAL ESPIONAGE #####
+### MAIN ###
+### SUCCESS ###
+ studyTechSuccess.title:0 "Espionnage industriel"
+ studyTechSuccess.desc:0 "§YSuccès Majeur ! §!. Les agents du Réseau Alpha ont attaqué un §S[alphaNetworkTarget_temp.GetName]§! centre de données, s'échappant sans être détecté avec des schémas détaillés.\n\nNous avons acquis une compréhension d'un §S[alphaNetworkTarget_temp.GetAdjective]§! La technologie."
+ studyTechSuccess.a:0 "Répétez l'opération."
+ studyTechSuccess2.b:0 "Retour à la collecte de renseignements."
+
+ studyTechSuccess.4.title:0 "Espionnage industriel"
+ studyTechSuccess.4.desc:0 "§YSuccès ! §!. Les agents du Réseau Alpha ont ​​pu installer un mouchard discret sur un centre de données de recherche de §S[alphaNetworkTarget_temp.GetName]§!. Cependant, alors que nous avons rassemblé suffisamment d'informations pour stimuler nos propres efforts de recherche, il semble que le §S[alphaNetworkTarget_temp.GetAdjective]§! n'ont fait aucune percée majeure dont nous ne soyons pas déjà conscients."
+
+ studyTechSuccess.4.a:0 "Compris."
+ 
+ studyTechSuccess2.title:0 "Espionnage industriel"
+ studyTechSuccess2.desc:0 "§YSuccès Majeur ! §!. Les agents du réseau Oméga ont attaqué un centre de données de recherche de §S[betaNetworkTarget_temp.GetName]§!, s'échappant sans être détecté avec des plans détaillés.\n\nNous avons acquis une compréhension d'une technologie §S[betaNetworkTarget_temp.GetAdjective]§!."
+ studyTechSuccess2.a:0 "Répétez l'opération."
+ studyTechSuccess.b:0 "Revenez à la collecte de renseignements."
+
+ studyTechSuccess2.4.title:0 "Espionnage industriel"
+ studyTechSuccess2.4.desc:0 "§YSuccès ! §!. Les agents du réseau Oméga ont pu installer un mouchard discret sur un centre de données de recherche §S[betaNetworkTarget_temp.GetName]§!. Cependant, alors que nous avons rassemblé suffisamment d'informations pour stimuler nos propres efforts de recherche, il semble que le §S[betaNetworkTarget_temp.GetAdjective]§! n'ont fait aucune percée majeure dont nous ne soyons pas déjà conscients."
+
+ studyTechSuccess2.4.a:0 "Compris."
+ 
+ 
+### PARTIAL ###
+ techGeneric.1.name:0 "Espionnage industriel"
+ techGeneric.1.desc:0 "§YSuccès ! §!. Les agents du Réseau Alpha ont ​​acquis un cache de données techniques de §S[alphaNetworkTarget_temp.GetName]§!.\n\nIl a été ajouté à nos recherches stockées."
+ techGeneric.1.a:0 "Répétez l'opération."
+ techGeneric.1.b:0 "Revenez à la collecte de renseignements."
+ 
+ techGeneric.2.name:0 "Espionnage industriel"
+ techGeneric.2.desc:0 "§YSuccès ! §!. Les agents du réseau Oméga ont acquis un cache de données techniques de §S[betaNetworkTarget_temp.GetName]§!.\n\nIl a été ajouté à nos recherches stockées."
+ techGeneric.2.a:0 "Répétez l'opération."
+ techGeneric.2.b:0 "Revenez à la collecte de renseignements."
+ 
+ 
+##### FOREIGN PROPAGANDA #####
+### MAIN ###
+### CHOOSE ETHICS ###
+ ABF_chooseEthic.title:0 "Sélectionnez l'éthique souhaitée"
+ ABF_chooseEthic.desc:0 "Quelle éthique notre agence devrait-elle essayer de promouvoir au sein de l'empire cible ?"
+ 
+ ABF_chooseEthic.a:0 "Autoritarisme."
+ ABF_chooseEthic.b:0 "Egalitarisme."
+ ABF_chooseEthic.c:0 "Xénophobie."
+ ABF_chooseEthic.d:0 "Xénophilie."
+ ABF_chooseEthic.e:0 "Militarisme."
+ ABF_chooseEthic.f:0 "Pacifisme."
+ ABF_chooseEthic.g:0 "Matérialisme."
+ ABF_chooseEthic.h:0 "Spiritualisme."
+######## Ethics and Civics Classic 2.7 #####################
+ ABF_chooseEthic.i:0 "Vert."
+ ABF_chooseEthic.j:0 "Industrialisme."
+ ABF_chooseEthic.k:0 "Élitétisme."
+ ABF_chooseEthic.l:0 "Socialisme."
+ ABF_chooseEthic.m:0 "Pluralisme."
+ ABF_chooseEthic.n:0 "Capitalisme."
+ 
+ ### ALPHA ###
+ ### SUCCESS ###
+ swingEthicsSuccess.title:0 "Succès de la propagande étrangère !"
+ 
+ swingEthicsSuccessAuthoritarian.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir l'autoritarisme parmi les citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessEgalitarian.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir l'égalitarisme parmi les citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessMaterialist.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir le matérialisme parmi les citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessMilitarist.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir le militarisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPacifist.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir le pacifisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessSpiritualist.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir le Spiritualisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessXenophile.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir la xénophilie auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessXenophobe.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir la xénophobie auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+######## Ethics and Civics Classic 2.7 #####################
+ swingEthicsSuccessGreen.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir l'éthique verte auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessIndustrial.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir l'industrialisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessElitist.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir l'élitisme parmi les citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessSocialist.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir le socialisme parmi les citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPluralist.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir le pluralisme parmi les citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessCapitalist.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a réussi à promouvoir le capitalisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ 
+
+
+ ### PARTIAL SUCCESS ###
+ swingEthicsSuccessPartial.title:0 "Succès partiel de la propagande étrangère !"
+ 
+ swingEthicsSuccessPartialAuthoritarian.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir l'autoritarisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialEgalitarian.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir l'égalitarisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialMaterialist.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir le matérialisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialMilitarist.desc:0 "§YSuccès ! §!. Notre réseau Alpha a réussi partiellement à promouvoir le militarisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialPacifist.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir le pacifisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialSpiritualist.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir le Spiritualisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialXenophile.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir la xénophilie auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialXenophobe.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir la xénophobie auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+######## Ethics and Civics Classic 2.7 #####################
+ swingEthicsSuccessPartialGreen.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir l'éthique verte auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialIndustrial.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir l'industrialisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialElitist.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir l'élitisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialSocialist.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir le socialisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialPluralist.desc:0 "§YSuccès ! §!. Notre réseau Alpha a partiellement réussi à promouvoir le pluralisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialCapitalist.desc:0 "§YSuccès ! §!. Notre réseau Alpha a eu un succès partiel dans la promotion du capitalisme auprès des citoyens de §S[alphaNetworkTarget_temp.GetName]§!."
+ 
+ ### BETA ###
+ ### SUCCESS ###
+ swingEthicsSuccess2.title:0 "Succès de la propagande étrangère !"
+ 
+ swingEthicsSuccessAuthoritarian2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir l'autoritarisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessEgalitarian2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir l'égalitarisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessMaterialist2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir le matérialisme parmi les citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessMilitarist2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir le militarisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPacifist2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir le pacifisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessSpiritualist2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir le Spiritualisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessXenophile2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir la xénophilie auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessXenophobe2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir la xénophobie auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+######## Ethics and Civics Classic 2.7 #####################
+ swingEthicsSuccessGreen2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir l'éthique verte auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessIndustrial2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir l'industrialisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessElitist2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir l'élitisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessSocialist2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir le socialisme parmi les citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPluralist2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir le pluralisme parmi les citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessCapitalist2.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a réussi à promouvoir le capitalisme parmi les citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ ### PARTIAL SUCCESS ###
+ swingEthicsSuccessPartial2.title:0 "Succès partiel de la propagande étrangère !"
+ 
+ swingEthicsSuccessPartialAuthoritarian2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir l'autoritarisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialEgalitarian2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir l'égalitarisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialMaterialist2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir le matérialisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialMilitarist2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir le militarisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialPacifist2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir le pacifisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialSpiritualist2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir le Spiritualisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialXenophile2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir la xénophilie auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialXenophobe2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir la xénophobie auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+
+######## Ethics and Civics Classic 2.7 #####################
+ swingEthicsSuccessPartialGreen2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir l'éthique verte auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialIndustrial2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir l'industrialisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialElitist2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir l'élitisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialSocialist2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir le socialisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialPluralist2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a partiellement réussi à promouvoir le pluralisme auprès des citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ swingEthicsSuccessPartialCapitalist2.desc:0 "§YSuccès ! §!. Notre réseau Oméga a réussi à promouvoir le capitalisme parmi les citoyens de §S[betaNetworkTarget_temp.GetName]§!."
+ 
+
+#### SABOTAGE STATION ####
+### SELECT STATION ###
+ stationManager.1.name:0 "Sélectionner la base stellaire cible"
+ stationManager.1.desc:0 "Notre réseau tentera d'infiltrer secrètement la base stellaire cible.\n\nIls se prépareront à attaquer le centre de commandement local et les systèmes d'armes, dans le but de saboter la défense de la base stellaire par tous les moyens nécessaires."
+
+ stationManager.1.1:0 "Base stellaire de §Y[potentialSabStation_1.System.GetName]§!."
+ stationManager.1.2:0 "Base stellaire de §Y[potentialSabStation_2.System.GetName]§!."
+ stationManager.1.3:0 "Base stellaire de §Y[potentialSabStation_3.System.GetName]§!."
+ stationManager.1.4:0 "Base stellaire de §Y[potentialSabStation_4.System.GetName]§!."
+ stationManager.1.5:0 "Base stellaire de §Y[potentialSabStation_5.System.GetName]§!."
+ stationManager.1.6:0 "Base stellaire de §Y[potentialSabStation_6.System.GetName]§!."
+ stationManager.1.7:0 "Base stellaire de §Y[potentialSabStation_7.System.GetName]§!."
+ stationManager.1.8:0 "Base stellaire de §Y[potentialSabStation_8.System.GetName]§!."
+ stationManager.1.9:0 "Base stellaire de §Y[potentialSabStation_9.System.GetName]§!."
+ stationManager.1.10:0 "Base stellaire de §Y[potentialSabStation_10.System.GetName]§!."
+ stationManager.1.11:0 "Base stellaire de §Y[potentialSabStation_11.System.GetName]§!."
+ stationManager.1.12:0 "Base stellaire de §Y[potentialSabStation_12.System.GetName]§!."
+ stationManager.1.13:0 "Base stellaire de §Y[potentialSabStation_13.System.GetName]§!."
+ stationManager.1.14:0 "Base stellaire de §Y[potentialSabStation_14.System.GetName]§!."
+ stationManager.1.15:0 "Base stellaire de §Y[potentialSabStation_15.System.GetName]§!."
+ stationManager.1.16:0 "Base stellaire de §Y[potentialSabStation_16.System.GetName]§!."
+ stationManager.1.17:0 "Base stellaire de §Y[potentialSabStation_17.System.GetName]§!."
+ stationManager.1.18:0 "Base stellaire de §Y[potentialSabStation_18.System.GetName]§!."
+ stationManager.1.19:0 "Base stellaire de §Y[potentialSabStation_19.System.GetName]§!."
+ stationManager.1.20:0 "Base stellaire de §Y[potentialSabStation_20.System.GetName]§!."
+
+ stationManager.1.z:0 "Annuler."
+
+ ### ALPHA ###
+ ### NEED MORE FUNDS ###
+ stationSabotage.2.name:0 "Raid - Fonds supplémentaires"
+ stationSabotage.2.desc:0 "Nos agents ont réussi à infiltrer Labase de §S[finalStationTarget.GetName]§!.\n\nCependant, ils n'ont connu qu'un succès limité dans la contrebande d'armes et l'approvisionnement en cargaisons, sans lesquels ils ne seront pas en mesure de mener efficacement leurs opérations. Ils demandent des ressources supplémentaires."
+
+ stationSabotage.2.a:0 "Annulez le raid."
+ stationSabotage.2.b:0 "Fournir le financement supplémentaire."
+ 
+ ### OPERATION READY TO BEGIN ###
+ stationSabotage.3.name:0 "Raid - Préparation terminée"
+ stationSabotage.3.desc:0 "Nos agents ont réussi à infiltrer la base stellaire de §S[finalStationTarget.GetName]§!, ils ont recruté parmi les habitants locaux et ont supervisé une opération de contrebande de masse pour apporter des armes et des fournitures."
+ 
+ stationSabotage.3.a:0 "Annulez le raid, la situation a changé."
+ stationSabotage.3.b:0 "Commencez le raid."
+ stationSabotage.3.c:0 "Attendez, nous ne sommes pas encore prêts. (1 mois)."
+ 
+ ### BATTLE UNDER WAY FULL SUCCESS###
+ stationSabotage.4.name:0 "Raid - Bataille en cours"
+ stationSabotage.4.desc:0 "§YMajor Succès ! §! Nos forces se frayent un chemin à travers les couloirs et les ponts de la base stellaire de §S[finalStationTarget.GetName]§!, éliminant le personnel de sécurité et assiégeant les centres de commandement.\nNos forces sont bien équipées et font d'excellents progrès.\n\nPendant environ §Quatre mois§! les systèmes d'armes de la station seront fortement affectés."
+ stationSabotage.4.a:0 "Excellent."
+
+ ### BATTLE UNDER WAY PARTIAL SUCCESS###
+ stationSabotage.5.name:0 "Raid - Bataille en cours"
+ stationSabotage.5.desc:0 "Nos forces se frayent un chemin à travers les couloirs et les ponts de la base stellaire de §S[finalStationTarget.GetName]§!, éliminant le personnel de sécurité et assiégeant les centres de commandement.\nCependant, nos forces sont sous-équipées et ne pourrons pas aller plus loin.\n\nPendant environ §Quatre mois§! les systèmes d'armes de la station seront partiellement affectés."
+ stationSabotage.5.a:0 "Excellent."
+
+ ### BATTLE OVER ###
+ stationSabotage.6.name:0 "Raid - Bataille terminée"
+ stationSabotage.6.desc:0 "La bataille qui a fait rage à travers la base stellaire de §S[finalStationTarget.GetName]§! a finalement pris fin. La sécurité de la station a repris le pouvoir de la station, et tous nos agents sont morts ou extraits."
+
+ stationSabotage.6.desc_1:0 "Nos agents au sein de la base stellaire de §S[finalStationTarget.GetName]§! s'est retiré après que nos troupes aient occupé la station."
+
+ stationSabotage.6.a:0 "Compris."
+ 
+
+ ### NOTIFIY DEFENDER BEGIN ###
+ stationSabotage.7.name:0 "Base stellaire attaquée  !"
+ stationSabotage.7.desc:0 "Le commandant de la station de notre base stellaire de §S[finalStationTarget.GetName]§! a signalé d'urgence une incursion de soldats hostiles non identifiés. La sécurité de la station tente actuellement de maîtriser les intrus, mais les systèmes d'armes des stations ont déjà été endommagés."
+ stationSabotage.7.b:0 "C'est Inacceptable, faites tout ce qu'il faut pour reprendre le contrôle de cette station. (environ §Ydeux§! mois)."
+ stationSabotage.7.a:0 "Nous surveillerons de près la situation. (environ §Yquatre§! mois)."
+
+ stationSabotage.7.a.tooltip:0 "Réduira le temps d'affaiblissement de la station."
+ stationSabotage.7.b.tooltip:0 ""
+
+ stationSabotage.77.name:0 "Raid - Réponse ciblée"
+ stationSabotage.77.desc:0 "§PComplication§!. Les [raid_target_alpha.GetName] ont mobilisé une réponse étonnamment forte à notre raid sur leur base stellaire de §S[finalStationTarget.GetName]§!. Il y a peu de choses que nous pouvons faire maintenant, mais notre fenêtre d'opportunité est réduite à seulement §Rdeux mois§!."
+ stationSabotage.77.a:0 "C'est Malheureux."
+
+  ### NOTIFIY DEFENDER ENDED ###
+ stationSabotage.8.name:0 "Bataille terminée"
+ stationSabotage.8.desc:0 "Les insurgés se battant à l'intérieur de la base stellaire de §S[finalStationTarget.GetName]§! ont finalement été neutralisé par la sécurité de la station."
+ stationSabotage.8.a:0 "Compris."
+
+
+ ### BETA ###
+ ### NEED MORE FUNDS ###
+ stationSabotageBeta.2.name:0 "Raid - Fonds supplémentaires"
+ stationSabotageBeta.2.desc:0 "Nos agents ont réussi à infiltrer la base stellaire de §S[finalStationTarget.GetName]§!.\n\nCependant, ils n'ont connu qu'un succès limité dans la contrebande d'armes et l'approvisionnement en cargaisons, sans lesquels ils ne seront pas en mesure de mener efficacement leurs opérations. Ils demandent des ressources supplémentaires."
+
+ stationSabotageBeta.2.a:0 "Annulez le raid."
+ stationSabotageBeta.2.b:0 "Fournir le financement supplémentaire."
+ 
+ ### OPERATION READY TO BEGIN ###
+ stationSabotageBeta.3.name:0 "Raid - Préparation terminée"
+ stationSabotageBeta.3.desc:0 "Nos agents ont réussi à infiltrer la base stellaire de §S[finalStationTarget.GetName]§!, ils ont recruté parmi les habitants locaux et ont supervisé une opération de contrebande de masse pour apporter des armes et des fournitures."
+ 
+ stationSabotageBeta.3.a:0 "Annulez le raid, la situation a changé."
+ stationSabotageBeta.3.b:0 "Commencez le raid."
+ stationSabotageBeta.3.c:0 "Attendez, nous ne sommes pas encore prêts. (1 mois)."
+ 
+ ### BATTLE UNDER WAY FULL SUCCESS###
+ stationSabotageBeta.4.name:0 "Raid - Bataille en cours"
+ stationSabotageBeta.4.desc:0 "§YMajor Succès ! §! Nos forces se frayent un chemin à travers les couloirs et les ponts de la base stellaire de §S[finalStationTarget.GetName]§!, éliminant le personnel de sécurité et assiégeant les centres de commandement.\nNos forces sont bien équipées et font d'excellents progrès.\n\nPendant environ §Quatre mois§! les systèmes d'armes de la station seront fortement affectés."
+ stationSabotageBeta.4.a:0 "Excellent."
+
+ ### BATTLE UNDER WAY PARTIAL SUCCESS###
+ stationSabotageBeta.5.name:0 "Raid - Bataille en cours"
+ stationSabotageBeta.5.desc:0 "§YSuccès ! §! Nos forces se frayent un chemin à travers les couloirs et les ponts de la base stellaire de §S[finalStationTarget.GetName]§!, éliminant le personnel de sécurité et assiégeant les centres de commandement.\nCependant, nos forces sont sous-équipées et ne feront plus de progression.\n\nPendant environ §Quatre mois§! les systèmes d'armes de la station seront partiellement affectés."
+ stationSabotageBeta.5.a:0 "Excellent."
+
+ ### BATTLE OVER ###
+ stationSabotageBeta.6.name:0 "Raid - Bataille terminée"
+ stationSabotageBeta.6.desc:0 "La bataille qui a fait rage à travers la base stellaire de §S[finalStationTarget.GetName]§! a finalement pris fin. La sécurité de la station a repris le pouvoir de la station, et tous nos agents sont morts ou extraits."
+
+ stationSabotageBeta.6.desc_1:0 "Nos agents au sein de la base stellaire de §S[finalStationTarget.GetName]§! se sont retirés après que nos troupes aient occupé la station."
+
+ stationSabotageBeta.6.a:0 "Compris."
+ 
+
+ ### NOTIFY DEFENDER BEGIN ###
+ stationSabotageBeta.7.name:0 "Base stellaire attaquée  !"
+ stationSabotageBeta.7.desc:0 "Le commandant de la station de notre base stellaire de §S[finalStationTarget.GetName]§! a signalé d'urgence une incursion de soldats hostiles non identifiés. La sécurité de la station tente actuellement de maîtriser les intrus, mais les systèmes d'armes des stations ont déjà été endommagés."
+ stationSabotageBeta.7.a:0 "Nous surveillerons de près la situation. (environ §Yquatre§! mois)."
+ stationSabotageBeta.7.b:0 "C'est Inacceptable, faites tout ce qu'il faut pour reprendre le contrôle de cette station. (environ §Ydeux§! mois)."
+
+ stationSabotageBeta.77.name:0 "Raid - Réponse cible"
+ stationSabotageBeta.77.desc:0 "§PComplication§!. Les [raid_target_beta.GetName] ont mobilisé une réponse étonnamment forte à notre raid sur leur base stellaire de §S[finalStationTarget.GetName]§!. Il y a peu de choses que nous pouvons faire maintenant, mais notre fenêtre d'opportunité est réduite à seulement §Rdeux mois§!."
+ stationSabotageBeta.77.a:0 "C'est Malheureux."
+
+  ### NOTIFY DEFENDER ENDED ###
+ stationSabotageBeta.8.name:0 "Bataille terminée"
+ stationSabotageBeta.8.desc:0 "Les insurgés se battant à l'intérieur de la base stellaire de §S[finalStationTarget.GetName]§! ont finalement été neutralisés par la sécurité de la station.\n\n"
+ stationSabotageBeta.8.a:0 "Compris."
+ 
+ 
+########## MAIN DOMESTIC OPERATIONS ############
+##### DOMESTIC PROPAGANDA #####
+### MAIN ###
+######## BOOST ETHICS EVENTS ###########
+ boostEthicBSuccess.title:0 "Propagande intérieure"
+ boostEthicBSuccess.desc:0 "§YSuccès ! §!. Les agents du Réseau Oméga ont ​​terminé une opération de propagande nationale. Le soutien à notre éthique de gouvernance a augmenté."
+ 
+ boostEthicBSuccess.a:0 "Répétez l'opération."
+ boostEthicBSuccess.b:0 "Revenez à la collecte de renseignements."
+ 
+ boostEthicASuccess.title:0 "Propagande intérieure"
+ boostEthicASuccess.desc:0 "§YSuccès ! §!. Les agents du Réseau Alpha ont ​​achevé une opération de propagande nationale. Le soutien à notre éthique de gouvernance a augmenté."
+ 
+ boostEthicASuccess.a:0 "Répétez l'opération."
+ boostEthicASuccess.b:0 "Revenez à la collecte de renseignements."
+ 
+ 
+##### IMPROVE DIPLOMATIC RELATIONS #####
+### MAIN ###
+### SUCCESS ###
+ boostRepBSuccess.title:0 "Amélioration de la réputation"
+ boostRepBSuccess.desc:0 "§YSuccès Majeur ! §!. Notre réseau Oméga a terminé une vaste campagne de relations publiques. Notre réputation diplomatique s'est améliorée et, pendant un certain temps, nous pouvons entretenir de meilleures relations avec tous nos contacts diplomatiques."
+ 
+ boostRepASuccess.title:0 "Amélioration de la réputation"
+ boostRepASuccess.desc:0 "§YSuccès Majeur ! §!. Notre réseau Alpha a terminé une vaste campagne de relations publiques. Notre réputation diplomatique s'est améliorée et, pendant un certain temps, nous pouvons entretenir de meilleures relations avec tous nos contacts diplomatiques."
+ 
+ ### PARTIAL SUCCESS ###
+ boostRepBSuccessPartial.desc:0 "§YSuccès ! §!. Notre réseau Oméga a terminé une vaste campagne de relations publiques. Son impact a été quelque peu limité, mais notre réputation diplomatique locale s'est améliorée et pendant un certain temps, nous pouvons profiter de meilleures relations avec nos voisins directs."
+ 
+ boostRepASuccessPartial.desc:0 "§YSuccès ! §!. Notre réseau Alpha a terminé une vaste campagne de relations publiques. Son impact a été quelque peu limité, mais notre réputation diplomatique locale s'est améliorée et pendant un certain temps, nous pouvons profiter de meilleures relations avec nos voisins directs."
+ 
+ boostRepBSuccess.a:0 "Répétez l'opération."
+ boostRepBSuccess.b:0 "Revenez à la collecte de renseignements."
+ 
+ boostRepASuccess.a:0 "Répétez l'opération."
+ boostRepASuccess.b:0 "Revenez à la collecte de renseignements."
+ 
+ 
+##### ORGANISED CRIME CRACKDOWN #####
+### MAIN ###
+### SUCCESS ###
+ stopCrimeASuccess.title:0 "Anti-criminalité nationale"
+ stopCrimeASuccess.desc:0 "§YSuccès ! §!. Notre réseau Alpha a terminé un balayage interne ciblant les principaux syndicats du crime sur notre territoire. L'activité criminelle sera réduite pendant un certain temps."
+ 
+ stopCrimeASuccess.a:0 "Répétez l'opération."
+ stopCrimeASuccess.b:0 "Revenez à la collecte de renseignements."
+ 
+ stopCrimeBSuccess.title:0 "Anti-criminalité nationale"
+ stopCrimeBSuccess.desc:0 "§YSuccès ! §!. Notre réseau Oméga a terminé un balayage interne, ciblant les principaux syndicats du crime sur notre territoire. L'activité criminelle sera réduite pendant un certain temps."
+ 
+ stopCrimeBSuccess.a:0 "Répétez l'opération."
+ stopCrimeBSuccess.b:0 "Revenez à la collecte de renseignements."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+########## TODO OPERATIONS ############
+### MAIN ###
+#### SABOTAGE REP CRIT EVENTS ####
+ sabRepCrit_Terror_title:0 "Opportunité de sabotage de réputation"
+ sabRepCrit_Terror_desc:0 "Une opportunité se présente - les agents du Réseau Alpha ont ​​acquis une information précieuse que plusieurs diplomates en visite de grande valeur arriveront bientôt sur le §S[alphaNetworkTarget_temp.GetName]§! capital de §S[alphaNetworkTarget_temp.Capital.GetName]§!.\n\nLes Agents opérant déjà sur §S[alphaNetworkTarget_temp.Capital.GetName]§! sont prêts à éliminer ces délégués et à qualifier l'attaque de travail de groupes extrémistes locaux.\nEn cas de succès, l'attaque pourrait bouleverser considérablement les relations diplomatiques §S[alphaNetworkTarget_temp.GetName]§!, mais rien ne garantit que notre participation restera secrète.\n\nNos agents auront besoin de fournitures supplémentaires."
+ sabRepCrit_Terror.a:0 "Approuvez l'opération."
+ sabRepCrit_Terror.b:0 "Abandonnez-vous, trouvez une autre solution."
+ sabRepCrit_Terror_desc2:0 "Une opportunité se présente - les agents du Réseau Oméga ont ​​acquis une information précieuse que plusieurs diplomates de grande valeur arriveront bientôt sur le §S[betaNetworkTarget_temp.GetName]§! capital de §S[betaNetworkTarget_temp.Capital.GetName]§!.\n\nLes Agents opérant déjà sur §S[betaNetworkTarget_temp.Capital.GetName]§! sont prêts à éliminer ces délégués et à qualifier l'attaque de travail de groupes extrémistes locaux.\nEn cas de succès, l'attaque pourrait bouleverser considérablement les relations diplomatiques §S[betaNetworkTarget_temp.GetName]§!, mais rien ne garantit que notre participation restera secrète.\n\nNos agents auront besoin de fournitures supplémentaires."
+ sabRepCrit_Terror_success.title:0 "Attaque diplomatique - Succès"
+ sabRepCrit_Terror_success.desc:0 "Alors que le convoi diplomatique était à mi-chemin de la surface de §S[alphaNetworkTarget_temp.Capital.GetName]§!, nos agents du réseau Alpha ont fait exploser à distance un engin explosif caché dans la soute du vaisseau de tête. L'ensemble du convoi a été détruit lors de l'explosion qui a suivi, et tous les diplomates en visite ont été confirmés morts.\n\nLe §S[alphaNetworkTarget_temp.GetName]§! a nié toute responsabilité dans l'attaque, mais nous avons veillé à ce que les enquêteurs étrangers trouvent certaines «preuves» de leur implication.\n\nPlusieurs empires voisins ont gagné le casus belli temporaire contre le §S[alphaNetworkTarget_temp.GetName]§!, dont la réputation diplomatique générale a été considérablement affectée."
+ sabRepCrit_Terror_success.a:0 "Excellent."
+ sabRepCrit_Terror_success.desc2:0 "Alors que le convoi diplomatique était à mi-chemin de la surface de §S[betaNetworkTarget_temp.Capital.GetName]§!, nos agents du réseau Oméga ont fait exploser à distance un engin explosif caché dans la soute du vaisseau de tête. L'ensemble du convoi a été détruit lors de l'explosion qui a suivi, et tous les diplomates en visite ont été confirmés morts.\n\nLe §S[betaNetworkTarget_temp.GetName]§! a nié toute responsabilité dans l'attaque, mais nous avons veillé à ce que les enquêteurs étrangers trouvent certaines «preuves» de leur implication.\n\nPlusieurs empires voisins ont gagné le casus belli temporaire contre le §S[betaNetworkTarget_temp.GetName]§!, dont la réputation diplomatique générale a été considérablement affectée."
+ sabRepCrit_Terror_fail.title:0 "Atta que diplomatique - Échec"
+ sabRepCrit_Terror_fail.desc:0 "Notre  opération de sabotage s'est terminée par un désastre. Les événements exacts sont incertains, mais nous pensons qu'en préparant leur opération, plusieurs agents ont été découverts en train de faire passer des explosifs sur un vaisseau de diplomates. Lors de la fusillade qui a suivi, les explosifs ont explosé\n\nPlusieurs autres agents du Réseau Alpha ont ​​été appréhendés lors des contrôles de sécurité suivants, ainsi que des journaux et des fichiers qui suggèrent à tout le moins notre implication.\n\nLes autorités §S[alphaNetworkTarget_temp.GetName]§! n'ont pas perdu de temps pour diffuser et condamner publiquement notre implication."
+ sabRepCrit_Terror_fail.a:0 "C'est Inacceptable"
+ sabRepCrit_Terror_fail.desc2:0 "Notre opération de sabotage s'est terminée par un désastre. Les événements exacts sont incertains, mais nous pensons qu'en préparant leur opération, plusieurs agents ont été découverts en train de faire passer des explosifs sur un vaisseau de diplomates. Lors de la fusillade qui a suivi, les explosifs ont explosé\n\nPlusieurs autres agents du réseau Oméga ont été appréhendés lors des contrôles de sécurité suivants, ainsi que des journaux et des fichiers qui suggèrent à tout le moins notre implication.\n\nLe §S[betaNetworkTarget_temp.GetName]§! les autorités n'ont pas perdu de temps pour diffuser et condamner publiquement notre implication."
+ ##### BIO WEAPONS #####
+ sabRepCrit_Extreme.title:0 "Opportunité de sabotage de réputation"
+ sabRepCrit_Extreme.desc:0 "Une opportunité se présente - les agents du réseau Alpha surveillent l'activité d'un groupe militant xénophobe au sein de §S[alphaNetworkTarget_temp.GetName]§!. Nous avons découvert des preuves que plusieurs hauts fonctionnaires du gouvernement soutiennent secrètement les finances de ce groupe.\n\nNos agents pensent qu'avec une manipulation prudente et un soutien discret, nous pourrions inciter le groupe à lancer des attaques contre les empires voisins. Des paquets d'informations contenant l'identité des bailleurs de fonds du groupe pourraient alors être rendus publics.\n\nEn cas de succès, les attaques bouleverseraient considérablement les relations diplomatiques §S[alphaNetworkTarget_temp.GetName]§!, mais rien ne garantit que notre participation restera secrète.\n\nNos agents auront besoin de fournitures supplémentaires."
+ 
+ sabRepCrit_Extreme2.title:0 "Opportunité de sabotage de réputation"
+ sabRepCrit_Extreme2.desc:0 "Une opportunité se présente - les agents du réseau Oméga surveillent l'activité d'un groupe militant xénophobe au sein de §S[betaNetworkTarget_temp.GetName]§!. Nous avons découvert des preuves que plusieurs hauts fonctionnaires du gouvernement soutiennent secrètement les finances de ce groupe.\n\nNos agents pensent qu'avec une manipulation prudente et un soutien discret, nous pourrions inciter le groupe à lancer des attaques contre les empires voisins. Des paquets d'informations contenant l'identité des bailleurs de fonds du groupe pourraient alors être rendus publics.\n\nEn cas de succès, les attaques bouleverseraient considérablement les relations diplomatiques §S[betaNetworkTarget_temp.GetName]§!, mais rien ne garantit que notre participation restera secrète.\n\nNos agents auront besoin de fournitures supplémentaires."
+ 
+ sabRepCrit_Extreme_success.title:0 "Militantisme xénophobe - Succès"
+ sabRepCrit_Extreme_success.desc:0 "En raison de nos provocations subtiles, le mouvement extrémiste a été poussé à la violence contre les empires bordant le §S[alphaNetworkTarget_temp.GetName]§!.\n\nImmédiatement après les attaques, §S[alphaNetworkTarget_temp.GetName]§! les autorités ont publiquement nié tout lien avec le groupe, mais nos trousses d'information préparées étaient déjà diffusées secrètement.\n\nLes empires affectés ont gagné le TEMP casus belli contre le §S[alphaNetworkTarget_temp.GetName]§!, dont les relations diplomatiques ont été gravement affectées."
+ sabRepCrit_Extreme_success.a:0 "Excellent."
+ 
+ sabRepCrit_Extreme_success2.title:0 "Militantisme xénophobe - Succès"
+ sabRepCrit_Extreme_success2.desc:0 "En raison de nos provocations subtiles, le groupe xénophobe a été incité à la violence contre les empires bordant le §S[betaNetworkTarget_temp.GetName]§!.\n\nImmédiatement après les attaques, §S[betaNetworkTarget_temp.GetName]§! les autorités ont publiquement nié tout lien avec le groupe, mais nos trousses d'information préparées étaient déjà diffusées secrètement.\n\nLes empires affectés ont gagné le TEMP casus belli contre le §S[betaNetworkTarget_temp.GetName]§!, dont les relations diplomatiques ont été gravement affectées."
+ 
+ sabRepCrit_Extreme_fail.title:0 "Militantisme xénophobe - Échec"
+ sabRepCrit_Extreme_fail.desc:0 "Nos efforts pour manipuler secrètement le groupe extrémiste au sein de §S[alphaNetworkTarget_temp.GetName]§! ont rencontré un désastre.\nAprès une fuite de données qui a conduit le groupe à apprendre la véritable loyauté de nos agents, plusieurs bombardements ont été orchestrés sur des cibles civiles sur §S[root.Capital.GetName]§!.\n\nLe groupe a dénoncé publiquement notre ingérence, et bien que la communauté duplomatique plus large n'ait pas été affectée, nos relations avec le §S[alphaNetworkTarget_temp.GetName]§! ont été gravement endommagés."
+ 
+ sabRepCrit_Extreme_fail2.title:0 "Militantisme xénophobe - Échec"
+ sabRepCrit_Extreme_fail2.desc:0 "Nos efforts pour manipuler secrètement le groupe extrémiste au sein de §S[betaNetworkTarget_temp.GetName]§! ont rencontré un désastre.\nAprès une fuite de données qui a conduit le groupe à apprendre la véritable loyauté de nos agents, plusieurs bombardements ont été orchestrés sur des cibles civiles sur §S[root.Capital.GetName]§!.\n\nLe groupe a dénoncé publiquement notre ingérence, et bien que la communauté duplomatique plus large n'ait pas été affectée, nos relations avec le §S[betaNetworkTarget_temp.GetName]§! ont été gravement endommagés."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+########## FIRST CONTACT - BIRTH OF ESPIONAGE EVENTS ############
+ ### NO FIRST CONTACT YET ###
+ espionageUnlock.3.title:0 "Réseaux de renseignement"
+ espionageUnlock.3.desc:0 "Nos réseaux de renseignement sont actuellement occupés par la sécurité intérieure, mais nous allons sûrement étendre nos opérations en cas de découverte de menaces extérieures."
+ 
+ espionageUnlock.3.a:0 "Compris."
+ 
+ ### FIRST CONTACT MADE
+ espionageUnlock.5.title:0 "La naissance de l'espionnage galactique"
+ 
+ espionageUnlock.5.desc:0 "Alors que notre population civile accepte la découverte d'une vie extraterrestre avancée, nos services de sécurité le sont aussi. Nous élargissons déjà nos opérations afin d'être prêts à mener une guerre secrète à une toute nouvelle échelle.\n\nNous pouvons désormais affecter nos réseaux de renseignement via le panneau de renseignement."
+ 
+ espionageUnlock.5.a:0 "Gérer les réseaux."
+ espionageUnlock.5.b:0 "Fermer."
+ 
+ 
+######### ESPIONAGE TARGET DESTROYED EVENTS ###########
+ agencyGlobal.8.title:0 "Cible d'espionnage détruite"
+ agencyGlobal.8.desc:0 "Une cible de l'un de nos réseaux de renseignement, §S[LastKilledCountryName]§!, a été détruite. Nos agents ont tous été extraits à temps et notre réseau de renseignement a été rappelé."
+ agencyGlobal.8.a:0 "Compris."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+########## AI EVENTS ############
+##### AI TO PLAYER EVENTS ALPHA #####
+ ### OPERATIVES INTERROGATED ###
+ spyFailEvt.10.name:0 "Agents manquants"
+ spyFailEvt.10.desc:0 "§REchec ! §!. Une de nos équipes travaillant au §S[spyDefender.GetName]§! sur notre récente opération ne donne plus de nouvelles. Les enquêtes sur leur statut se sont révélées infructueuses et il est probable qu'elles ont été neutralisées par les forces locales de contre-espionnage.\n\nNotre réputation diplomatique avec le §S[spyDefender.GetAdjective]§! a pris un coup.\n\nAllons-nous recommencer l'opération ?"
+ spyFailEvt.10.a:0 "Répétez l'opération."
+ spyFailEvt.10.b:0 "Revenez à la collecte de renseignements."
+
+ ### DENOUNCED ###
+ spyFailEvt.11.name:0 "Dénoncé !"
+ spyFailEvt.11.desc:0 "§REchec ! §!. Les fils d'actualités galactiques bourdonnent d'émissions du §S[spyDefender.GetName]§! nous dénonçant pour nos actions secrètes sur leur territoire. Il semble que notre opération ait été découverte avant la fin.\n\nBien que nous ayons pu par la suite sécuriser tous nos agents et actifs, nous avons porté un coup dur à notre réputation diplomatique."
+
+ ### DEMAND TO STOP SPYING ###
+
+ spyFailEvt.102.name:0 "Échec de l'opération"
+ spyFailEvt.102.desc:0 "§REchec ! §!. Notre opération au sein du §S[spyDefender.GetName]§! a abouti à un désastre après que les forces locales de contre-espionnage, dans un mouvement décisif, ont appréhendé et tué tous nos agents sur le terrain. Pire encore le §S[spyDefender.GetAdjective]§! est tellement enragé qu'ils exigent que nous signions immédiatement un traité anti-espionnage."
+ spyFailEvt.102.a:0 "C'est Inacceptable."
+
+
+ spyFailEvt.12.name:0 "Traité anti-espionnage"
+ spyFailEvt.12.desc:0 "Ça suffit, vos opérations sournoises sur notre territoire ne sont pas passées inaperçues. Nos forces de contre-espionnage plus que capables ont déjoué vos efforts cette fois.\n\nNous vous demandons de mettre immédiatement un terme à toutes les activités d'espionnage sur notre territoire et de signer publiquement un traité à cet effet."
+
+ spyFailEvt.12.a:0 "Très bien, dans l'intérêt de la paix."
+ spyFailEvt.12.b:0 "Nous faisons ce que nous voulons."
+
+ ### STOP SPYING DENY FOR DEFENDER ###
+ spyFailEvt.1201.name:0 "Traité anti-espionnage"
+ spyFailEvt.1201.desc:0 "Nous faisons ce que nous voulons."
+
+ spyFailEvt.1201.a:0 "C'est Malheureux."
+
+ ### STOP SPYING ACCEPT FOR DEFENDER ###
+ spyFailEvt.1202.name:0 "Traité anti-espionnage"
+ spyFailEvt.1202.desc:0 "Très bien, dans l'intérêt de la paix."
+
+ spyFailEvt.1202.a:0 "Excellent."
+
+ ### STOP SPYING TREATY SIGNED ###
+ spyFailEvt.1203.name:0 "Traité anti-espionnage"
+ spyFailEvt.1203.desc:0 "Délégués du §S[spyDefender.GetName]§! et les empires voisins sont arrivés au §S[spyAttacker.Capital.GetName]§! aujourd'hui pour assister officiellement et publiquement à notre chant d'un traité anti-espionnage. Nous ne pourrons pas établir de réseau de renseignement sur leur territoire pendant 10 ans."
+
+ spyFailEvt.1203.a:0 "C'est fait."
+
+ ### GENERIC REDO OP OR RETURN TO INTEL GATHER ###
+ spyFailEvt.15.name:0 "Opération suivante"
+ spyFailEvt.15.desc:0 "Notre réseau est à nouveau prêt à être affecté, quels sont vos ordres ?"
+
+ ### USE FOR PROPAGANDA ###
+ ### ATTACKER MESSAGE ###
+ spyFailEvt.16.name:0 "Opération découverte"
+ spyFailEvt.16.desc:0 "§REchec ! §!. Notre opération a été découverte par les forces de contre-espionnage du §S[spyDefender.GetName]§!. Nous avons réussi à extraire tous les agents et actifs encore sur le terrain, mais notre opération actuelle a échoué.\n\nDe plus, il semble que le §S[spyDefender.GetAdjective]§! a utilisé cela comme carburant pour leur propre propagande nationale.\n\nNotre réputation diplomatique avec le §S[spyDefender.GetAdjective]§! a pris un coup."
+
+
+
+##### AI TO PLAYER EVENTS BETA#####
+ ### OPERATIVES INTERROGATED ###
+ spyFailEvt_B.10.name:0 "Agents manquants"
+ spyFailEvt_B.10.desc:0 "§REchec ! §!. Une des équipes du réseau Oméga travaillant au §S[spyDefender.GetName]§! sur notre récente opération ne donne plus de nouvelles. Les enquêtes sur leur statut se sont révélées infructueuses et il est probable qu'elles ont été neutralisées par les forces locales de contre-espionnage.\n\nNotre réputation diplomatique avec le §S[spyDefender.GetAdjective]§! a pris un coup.\n\nAllons-nous recommencer l'opération ?"
+ spyFailEvt_B.10.a:0 "Répétez l'opération."
+ spyFailEvt_B.10.b:0 "Revenez à la collecte de renseignements."
+
+ ### DENOUNCED ###
+ spyFailEvt_B.11.name:0 "Dénoncé !"
+ spyFailEvt_B.11.desc:0 "§REchec ! §!. Les fils d'actualités galactiques bourdonnent d'émissions du §S[spyDefender.GetName]§! nous dénonçant pour nos actions secrètes sur leur territoire. Il semble que notre opération Les réseaux Oméga ait été découverte avant la fin. Nous avons obtenu tous les agents et actifs non découverts.\n\nNous avons porté un coup dur à notre réputation diplomatique."
+
+ ### DEMAND TO STOP SPYING ###
+ spyFailEvt_B.12.name:0 "Traité anti-espionnage"
+ spyFailEvt_B.12.desc:0 "Ça suffit, vos opérations sournoises sur notre territoire ne sont pas passées inaperçues. Nos forces de contre-espionnage, plus que capables, ont contrecarré vos efforts.\n\nNous vous demandons de mettre fin immédiatement à toute activité d'espionnage sur notre territoire et de signer publiquement un traité à cet effet."
+
+ spyFailEvt_B.12.a:0 "Très bien, dans l'intérêt de la paix."
+ spyFailEvt_B.12.b:0 "Nous faisons ce que nous voulons."
+
+ ### STOP SPYING DENY FOR DEFENDER ###
+ spyFailEvt_B.1201.name:0 "Traité anti-espionnage"
+ spyFailEvt_B.1201.desc:0 "Nous faisons ce que nous voulons."
+
+ spyFailEvt_B.1201.a:0 "C'est Malheureux."
+
+ ### STOP SPYING ACCEPT FOR DEFENDER ###
+ spyFailEvt_B.1202.name:0 "Traité anti-espionnage"
+ spyFailEvt_B.1202.desc:0 "Très bien, dans l'intérêt de la paix."
+
+ spyFailEvt_B.1202.a:0 "Excellent."
+
+ ### STOP SPYING TREATY SIGNED ###
+ spyFailEvt_B.1204.name:0 "Traité anti-espionnage"
+ spyFailEvt_B.1204.desc:0 "Délégués du §S[spyDefender.GetName]§! et les empires voisins sont arrivés au §S[spyAttacker.Capital.GetName]§! aujourd'hui pour assister officiellement et publiquement à notre chant d'un traité anti-espionnage. Nous ne pourrons pas établir de réseau de renseignement sur leur territoire pendant 10 ans."
+
+ spyFailEvt_B.1204.a:0 "C'est fait."
+
+ ### GENERIC REDO OP OR RETURN TO INTEL GATHER ###
+ spyFailEvt_B.15.name:0 "Opération suivante"
+ spyFailEvt_B.15.desc:0 "Le Réseau Oméga est à nouveau prêt à être affecté, quels sont vos ordres ?"
+
+ ### USE FOR PROPAGANDA ###
+ ### ATTACKER MESSAGE ###
+ spyFailEvt_B.16.name:0 "Opération découverte"
+ spyFailEvt_B.16.desc:0 "§REchec ! §!. Notre réseau Alpha a été découvert par les forces de contre-espionnage du §S[spyDefender.GetName]§!. Nous avons réussi à extraire tous les agents et actifs encore sur le terrain, mais notre opération actuelle a échoué.\n\nDe plus, il semble que le §S[spyDefender.GetAdjective]§! a utilisé cela comme carburant pour leur propre propagande nationale.\n\nNotre réputation diplomatique avec le §S[spyDefender.GetAdjective]§! a pris un coup."
+
+
+
+
+ #### MAINN CAPTURE EVENT - FOR DEFENDER - ALPHA ###
+ spyFailEvt.1.title:0 "Des agents étrangers capturés"
+ 
+ spyFailEvtSabRep.1.desc:0 "Nos forces de contre-espionnage ont capturé des agents appartenant au §S[spyAttacker.GetName]§! alors qu'ils tentaient de saboter nos relations diplomatiques. Nous avons une preuve indéniable et les agents étrangers sécurisés. Quelle sera notre réponse ?"
+ 
+ spyFailEvtFundCrime.1.desc:0 "Nos forces de contre-espionnage ont capturé des agents appartenant au §S[spyAttacker.GetName]§! alors qu'ils tentaient d'infiltrer certaines de nos organisations criminelles nationales. Nous avons une preuve indéniable et les agents étrangers sécurisés. Quelle sera notre réponse ?"
+ 
+ spyFailEvtStealTech.1.desc:0 "Nos forces de contre-espionnage ont capturé des agents appartenant au §S[spyAttacker.GetName]§! alors qu'ils tentaient d'infiltrer l'une de nos archives de recherche. Nous avons une preuve indéniable et les agents étrangers sécurisés. Quelle sera notre réponse ?"
+ 
+ spyFailEvtSwingEthics.1.desc:0 "Nos forces de contre-espionnage ont capturé des agents appartenant au §S[spyAttacker.GetName]§! qui étaient secrètement derrière une opération de propagande à grande échelle. Nous avons une preuve indéniable et les agents étrangers sécurisés. Quelle sera notre réponse ?"
+ 
+ spyFailEvtSowUnrest.1.desc:0 "Nos forces de contre-espionnage ont capturé des agents appartenant au §S[spyAttacker.GetName]§! qui tentaient de semer le trouble dans notre empire. Nous avons une preuve indéniable et les agents étrangers sécurisés. Quelle sera notre réponse ?"
+ 
+ spyFailEvt.1.a:0 "Interrogez en privé les agents."
+ spyFailEvt.1.a.tooltip:0 "Si nous avons une agence établie au sein de l'empire fautif, nous augmenterons considérablement notre niveau de renseignement."
+ 
+ spyFailEvt.1.a.failTooltip:0 "Doit avoir une agence déjà établie au sein de l'empire cible."
+ 
+ spyFailEvt.1.b:0 "Communiquez les informations et dénoncez-les."
+ spyFailEvt.1.b.tooltip:0 "L'empire offensant subira une lourde sanction diplomatique avec tous ses contacts diplomatiques."
+ 
+ spyFailEvt.1.c:0 "Exigez qu'ils mettent un terme à leurs opérations d'espionnage."
+ spyFailEvt.1.c.tooltip:0 "Nous exigerons que l'empire incriminé signe un traité interdisant toute activité d'espionnage sur notre territoire.\n\nS'ils acceptent, ils ne pourront pas établir une agence sur notre territoire pendant dix ans.\n\nS'ils refusent, nous obtiendrons un casus belli pour forcer nos demandes."
+ 
+ spyFailEvt.1.d:0 "Montrez à nos concitoyens le vrai visage de l'ennemi."
+ spyFailEvt.1.d.tooltip:0 "Utilisez les agents capturés pour la propagande interne."
+
+
+ #### MAINN CAPTURE EVENT - FOR DEFENDER - BETA ###
+ spyFailEvt_B.1.title:0 "Des agents étrangers capturés"
+ 
+ spyFailEvt_BSabRep.1.desc:0 "Nos forces de contre-espionnage ont capturé des agents appartenant au §S[spyAttacker.GetName]§! alors qu'ils tentaient de saboter nos relations diplomatiques. Nous avons une preuve indéniable et les agents étrangers sécurisés. Quelle sera notre réponse ?"
+ 
+ spyFailEvt_BFundCrime.1.desc:0 "Nos forces de contre-espionnage ont capturé des agents appartenant au §S[spyAttacker.GetName]§! alors qu'ils tentaient d'infiltrer certaines de nos organisations criminelles nationales. Nous avons une preuve indéniable et les agents étrangers sécurisés. Quelle sera notre réponse ?"
+ 
+ spyFailEvt_BStealTech.1.desc:0 "Nos forces de contre-espionnage ont capturé des agents appartenant au §S[spyAttacker.GetName]§! alors qu'ils tentaient d'infiltrer l'une de nos archives de recherche. Nous avons une preuve indéniable et les agents étrangers sécurisés. Quelle sera notre réponse ?"
+ 
+ spyFailEvt_BSwingEthics.1.desc:0 "Nos forces de contre-espionnage ont capturé des agents appartenant au §S[spyAttacker.GetName]§! qui étaient secrètement derrière une opération de propagande à grande échelle. Nous avons une preuve indéniable et les agents étrangers sécurisés. Quelle sera notre réponse ?"
+ 
+ spyFailEvt_BSowUnrest.1.desc:0 "Nos forces de contre-espionnage ont capturé des agents appartenant au §S[spyAttacker.GetName]§! qui tentaient de semer le trouble dans notre empire. Nous avons une preuve indéniable et les agents étrangers sécurisés. Quelle sera notre réponse ?"
+ 
+ spyFailEvt_B.1.a:0 "Interroger les opérateurs"
+ spyFailEvt_B.1.a.tooltip:0 "Si nous avons une agence établie au sein de l'empire fautif, nous augmenterons considérablement notre niveau de renseignement."
+ 
+ spyFailEvt_B.1.a.failTooltip:0 "Doit avoir une agence déjà établie au sein de l'empire cible."
+ 
+ spyFailEvt_B.1.b:0 "Nous les dénoncerons à tous."
+ spyFailEvt_B.1.b.tooltip:0 "L'empire offensant subira une lourde sanction diplomatique avec tous ses contacts diplomatiques."
+ 
+ spyFailEvt_B.1.c:0 "Exigez l'arrêt de leur opération d'espionnage."
+ spyFailEvt_B.1.c.tooltip:0 "Nous exigerons que l'empire incriminé signe un traité interdisant toute activité d'espionnage sur notre territoire.\n\nS'ils acceptent, ils ne pourront pas établir une agence sur notre territoire pendant dix ans.\n\nS'ils refusent, nous obtiendrons un casus belli pour forcer nos demandes."
+ 
+ spyFailEvt_B.1.d:0 "Montrez à nos concitoyens le vrai visage de l'ennemi."
+ spyFailEvt_B.1.d.tooltip:0 "Utilisez les agents capturés pour la propagande interne."
+ 
+
+ ### DEMAND TO STOP SPYING - AI ####
+ opinion_AI_Denounced:0 "Dénoncé pour espionnage"
+ opinion_AItoAI_caughtSpying:0 "Découverte d'opérations d'espionnage"
+ 
+ spyFailEvt.5.name:0 "Transmission diplomatique"
+ spyFailEvt.5.desc:0 "Nous ne vous répondons pas et nous ne nous plions pas à vos demandes."
+ spyFailEvt.5.a:0 "C'est Inacceptable."
+ 
+ spyFailEvt.4.name:0 "Transmission diplomatique"
+ spyFailEvt.4.desc:0 "Très bien, nous nous excusons pour cet incident."
+ spyFailEvt.4.a:0 "Excellent."
+ 
+ agencyNeighbors_doubleTargetFail:0 "Impossible d'avoir un réseau déjà établi dans la cible."
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+#### OPPORTUNITY EVENTS ####
+### INDUSTRIAL ESPIONAGE ###
+ spyOpportunity.2.name:0 "Opportunité d'espionnage"
+ spyOpportunity.2.desc:0 "Nous avons reçu un communiqué codé d'un §S[spyOpportunityTarget.GetName] § insatisfait ! scientifique principal cherchant à faire défaut. En raison de la nature de leur travail, ils sont étroitement surveillés dans un laboratoire de recherche discret sur la planète §S[spyOpportunityTarget.Capital.GetName]§!.\nNos agents pensent que nous n'avons qu'une petite fenêtre d'opportunité pour extraire le scientifique avant qu'ils sont déplacés dans un endroit plus sûr."
+
+ spyOpportunity.2.a:0 "Préparez une équipe de frappe, extrayez-la avec force."
+ spyOpportunity.2.b:0 "Préparez une équipe d'infiltration secrète, extrayez-les soigneusement."
+ spyOpportunity.2.c:0 "Cela ne vaut pas le risque, continuez l'opération normalement."
+
+#  spyOpportunity.2.name:0 "Défection scientifique"
+#  spyOpportunity.2.desc:0 "§PComplication§!. L'imagerie orbitale du site noir contenant le scientifique défectueux a révélé un niveau de sécurité beaucoup plus élevé que nous attendions. Nos agents sont en position et prêts à commencer le raid, mais l'opposition sera forte."
+#  spyOpportunity.2.a:0 "Allez-y avec l'opération."
+#  spyOpportunity.2.b:0 "Ça ne vaut pas le risque."
+
+ spyOpportunity.3.name:0 "Opportunité - Défection scientifique"
+ spyOpportunity.3.desc:0 "§PComplication§!. Après s'être frayé un chemin jusqu'à l'enceinte principale, nos agents ont été encerclés par les forces de défense locales. Ils sont actuellement engagés dans un échange de tirs vicieux de tous les côtés.\nLe commandant de l'opération nous a discrètement informés de la mise à mort à distance d'implants dans tous les agents. Nous pourrions les activer pour les empêcher d'être capturés ou attendre de voir s'ils peuvent s'en sortir."
+ spyOpportunity.3.a:0 "Déclenchez les commutateurs, aucune chance."
+ spyOpportunity.3.b:0 "Attendons, donnons-leur une chance."
+
+#  spyOpportunity.4.name:0 "Défection scientifique"
+#  spyOpportunity.4.desc:0 "§REchec ! §!. Nos agents ont découvert nos efforts, les interrupteurs ont échoué et ils savent que nous avons essayé de les tuer. Ils se sont battus pour échapper à la fusillade et ont disparu dans les rues du §S[spyOpportunityTarget.Capital.GetName] §. Nous pouvons certainement nous attendre à une vengeance."
+#  spyOpportunity.4.a:0 "Un échec complet."
+
+ spyOpportunity.4.name:0 "Opportunité - Défection scientifique"
+ spyOpportunity.4.desc:0 "§REchec ! §!. Les charges explosives se sont déclenchés et notre équipe est morte. Notre implication n'a pas été découverte."
+ spyOpportunity.4.a:0 "Un échec complet."
+
+ spyOpportunity.5.name:0 "Défection scientifique"
+ spyOpportunity.5.desc:0 "§REchec ! §!. Notre équipe a été tuée ou capturée par les forces de contre-espionnage. Notre implication n'a pas été découverte."
+ spyOpportunity.5.a:0 "Un échec complet."
+
+ spyOpportunity.6.name:0 "Opportunité - Défection scientifique"
+ spyOpportunity.6.desc:0 "§YSuccess§!. Notre pari a porté ses fruits, l'équipe s'est frayée un chemin et a terminé la mission."
+ spyOpportunity.6.a:0 "Excellent."
+
+ spyOpportunity.7.name:0 "Opportunité - Défection scientifique"
+ spyOpportunity.7.desc:0 "§YSuccess§!. Une mission propre, le scientifique a été extrait."
+ spyOpportunity.7.a:0 "Excellent."
+
+
+
+ spyOpportunity.18.name:0 "Opportunité - Défection scientifique"
+ spyOpportunity.18.desc:0 "§PComplication§!. L'équipe d'infiltration a fait une chute de planète et s'est secrètement approchée du complexe où se trouvait le scientifique en défaut. Cependant, ils ont signalé que les défenses périmétriques sont bien plus complètes que prévu.\nDeux options s'offrent à nous; Essayez de trouver un point d'accès secondaire, ou tenez une embuscade à l'une des patrouilles avec des armes réduites au silence pour créer un espace dans le périmètre à traverser."
+ spyOpportunity.18.a:0 "Entrée secondaire."
+ spyOpportunity.18.b:0 "Patrouille en embuscade."
+
+ spyOpportunity.8.name:0 "Opportunité - Défection scientifique"
+ spyOpportunity.8.desc:0 "§PComplication§!. L'équipe d'infiltration a trouvé une entrée secondaire sous la forme d'un puits de ventilation, mais ce n'est qu'après avoir pénétré à l'intérieur qu'ils ont réalisé que le puits entier avait été gréé avec un piège à grille laser. Ils tentent de s'y faufiler."
+ spyOpportunity.8.a:0 "Tiens-moi au courant."
+
+ spyOpportunity.19.name:0 "Opportunité - Défection scientifique"
+ spyOpportunity.19.desc:0 "§PComplication§!. Notre équipe a réussi à tendre une embuscade et à tuer silencieusement l'une des patrouilles, et nous en avons maintenant la possibilité. Nous pourrions soit les dépouiller de leurs uniformes et tenter de les utiliser et entrer directement dans l'enceinte, soit poursuivre le plan normalement."
+ spyOpportunity.19.a:0 "Prenez les uniformes."
+ spyOpportunity.19.b:0 "Continue as normal."
+
+ spyOpportunity.9.name:0 "Opportunité - Défection scientifique"
+ spyOpportunity.9.desc:0 "§Succès§!. Une mission propre, le scientifique a été extrait et nos agents ont glissé hors du plan sans être détectés."
+ spyOpportunity.9.a:0 "Excellent."
+
+ spyOpportunity.10.name:0 "Opportunité - Défection scientifique"
+ spyOpportunity.10.desc:0 "§REchec ! §!. Nos agents ont été découverts et tués ou capturés par les forces locales de contre-espionnage. Il semble que notre implication soit restée inconnue."
+ spyOpportunity.10.a:0 "C'est Malheureux."
+
+
+
+
+
+
+
+
+
+
+
+
+
+########### ADVANCED INTEL REPORT SCREEN ###############
+ 
+ 
+
+ counterIntel_VeryHigh:0 "§STrès haute sécurité intérieure§!"
+ counterIntel_High:0 "§SHaute sécurité intérieure§!"
+ counterIntel_Medium:0 "§SSécurité intérieure moyenne§!"
+ counterIntel_Low:0 "§SSécurité intérieure faible§!"
+
+ toolTipIntelReportLow:0 "Une estimation du niveau de contre-espionnage de la cible.\n\nNous avons à peu près 100% de chances de réussir une opération."
+ toolTipIntelReportMedium:0 "Une estimation du niveau de contre-espionnage de la cible.\n\nNous avons environ 60% de chances de réussir une opération."
+ toolTipIntelReportHigh:0 "Une estimation du niveau de contre-espionnage de la cible.\n\nNous avons environ 50% de chances de réussir une opération."
+ toolTipIntelReportVeryHigh:0 "Une estimation du niveau de contre-espionnage de la cible.\n\nNous avons environ 10% de chances de réussir une opération."
+
+ BetaF-IntelReport.a:0 "Une estimation du niveau de contre-espionnage de la cible. Des niveaux plus élevés signifieront moins de renseignements recueillis par notre réseau et plus de chances d'échec de nos opérations."
+
+ AlphaF-IntelReport.a:0 "Une estimation du niveau de contre-espionnage de la cible. Des niveaux plus élevés signifieront moins de renseignements recueillis par notre réseau et plus de chances d'échec de nos opérations."
+
+ advancedIntel.1.empireName:0 "§S[alphaNetworkTarget_temp.GetName]§!"
+ advancedIntelBeta.1.empireName:0 "§S[betaNetworkTarget_temp.GetName]§!"
+
+ ### resources
+ ## ALPHA ##
+ advancedIntel.1.minerals:0 "[Root.advancedIntel_Minerals]"
+ advancedIntel.1.minerals_true:0 "£minerals£ Minéraux - [owner_Intel.spy_minerals]"
+ advancedIntel.1.minerals_false:0 "£minerals£ §RMinéraux§!"
+
+ advancedIntel.1.energy:0 "[Root.advancedIntel_Energy]"
+ advancedIntel.1.energy_true:0 "£energy£ Énergie - [owner_Intel.spy_energy]"
+ advancedIntel.1.energy_false:0 "£energy£ §REnergie§!"
+
+ advancedIntel.1.food:0 "[Root.advancedIntel_Food]"
+ advancedIntel.1.food_true:0 "£food£ Nourriture - [owner_Intel.spy_food]"
+ advancedIntel.1.food_false:0 "£food£ §RNourriture§!"
+
+ advancedIntel.1.consumergoods:0 "[Root.advancedIntel_Consumergoods]"
+ advancedIntel.1.consumergoods_true:0 "£consumer_goods£ Biens de cons. - [owner_Intel.spy_consumer_goods]"
+ advancedIntel.1.consumergoods_false:0 "£consumer_goods£ §RBiens de cons.§!"
+
+ advancedIntel.1.alloys:0 "[Root.advancedIntel_Alloys]"
+ advancedIntel.1.alloys_true:0 "£alloys£ Alliages - [owner_Intel.spy_alloys]"
+ advancedIntel.1.alloys_false:0 "£alloys£ §RAlliages§!"
+
+ advancedIntel.1.influence:0 "[Root.advancedIntel_Influence]"
+ advancedIntel.1.influence_true:0 "£influence£ Influence - [owner_Intel.spy_influence]"
+ advancedIntel.1.influence_false:0 "£influence£ §RInfluence§!"
+
+ advancedIntel.1.unity:0 "[Root.advancedIntel_Unity]"
+ advancedIntel.1.unity_true:0 "£unity£ Unité - [owner_Intel.spy_unity]"
+ advancedIntel.1.unity_false:0 "£unity£ §RUnité§!"
+
+ advancedIntel.1.socres:0 "[Root.advancedIntel_Socres]"
+ advancedIntel.1.socres_true:0 "£society£ Société - [owner_Intel.spy_society_research]"
+ advancedIntel.1.socres_false:0 "£society£ §RSociétale§!"
+
+ advancedIntel.1.physres:0 "[Root.advancedIntel_Physres]"
+ advancedIntel.1.physres_true:0 "£physics£ Physique - [owner_Intel.spy_physics_research]"
+ advancedIntel.1.physres_false:0 "£physics£ §RPhysique§!"
+
+ advancedIntel.1.engres:0 "[Root.advancedIntel_Engres]"
+ advancedIntel.1.engres_true:0 "£engineering£ Ingénierie - [owner_Intel.spy_engineering_research]"
+ advancedIntel.1.engres_false:0 "£engineering£ §RIngénierie§!"
+
+
+
+
+ ## BETA ##
+ advancedIntelBeta.1.minerals:0 "[Root.advancedIntelBeta_Minerals]"
+ advancedIntelBeta.1.minerals_true:0 "£minerals£ Minéraux - [owner_Intel.spy_mineralsbeta]"
+ advancedIntelBeta.1.minerals_false:0 "£minerals£ §RMinéraux§!"
+
+ advancedIntelBeta.1.energy:0 "[Root.advancedIntelBeta_Energy]"
+ advancedIntelBeta.1.energy_true:0 "£energy£ Énergie - [owner_Intel.spy_energybeta]"
+ advancedIntelBeta.1.energy_false:0 "£energy£ §REnergie§!"
+
+ advancedIntelBeta.1.food:0 "[Root.advancedIntelBeta_Food]"
+ advancedIntelBeta.1.food_true:0 "£food£ Nourriture - [owner_Intel.spy_foodbeta]"
+ advancedIntelBeta.1.food_false:0 "£food£ §RNourriture§!"
+
+ advancedIntelBeta.1.consumergoods:0 "[Root.advancedIntelBeta_Consumergoods]"
+ advancedIntelBeta.1.consumergoods_true:0 "£consumer_goods£ Biens de consommation - [owner_Intel.spy_consumer_goodsbeta]"
+ advancedIntelBeta.1.consumergoods_false:0 "£consumer_goods£ §RBiens de consommation§!"
+
+ advancedIntelBeta.1.alloys:0 "[Root.advancedIntelBeta_Alloys]"
+ advancedIntelBeta.1.alloys_true:0 "£alloys£ Alliages - [owner_Intel.spy_alloysbeta]"
+ advancedIntelBeta.1.alloys_false:0 "£alloys£ §RAlliages§!"
+
+ advancedIntelBeta.1.influence:0 "[Root.advancedIntelBeta_Influence]"
+ advancedIntelBeta.1.influence_true:0 "£influence£ Influence - [owner_Intel.spy_influencebeta]"
+ advancedIntelBeta.1.influence_false:0 "£influence£ §RInfluence§!"
+
+ advancedIntelBeta.1.unity:0 "[Root.advancedIntelBeta_Unity]"
+ advancedIntelBeta.1.unity_true:0 "£unity£ Unité - [owner_Intel.spy_unitybeta]"
+ advancedIntelBeta.1.unity_false:0 "£unity£ §RUnité§!"
+
+ advancedIntelBeta.1.socres:0 "[Root.advancedIntelBeta_Socres]"
+ advancedIntelBeta.1.socres_true:0 "£society£ Sociétale - [owner_Intel.spy_society_researchbeta]"
+ advancedIntelBeta.1.socres_false:0 "£society£ §RSociétale§!"
+
+ advancedIntelBeta.1.physres:0 "[Root.advancedIntelBeta_Physres]"
+ advancedIntelBeta.1.physres_true:0 "£physics£ Physique - [owner_Intel.spy_physics_researchbeta]"
+ advancedIntelBeta.1.physres_false:0 "£physics£ §RPhysique§!"
+
+ advancedIntelBeta.1.engres:0 "[Root.advancedIntelBeta_Engres]"
+ advancedIntelBeta.1.engres_true:0 "£engineering£ Ingénierie - [owner_Intel.spy_engineering_researchbeta]"
+ advancedIntelBeta.1.engres_false:0 "£engineering£ §RIngénierie§!"
+
+
+
+### MILITARY ###
+## ALPHA ##
+ advancedIntel.1.fleetPower:0 "[Root.advancedIntel_Fleetpower]"
+ advancedIntel.1.fleetpower_true:0 "£navy_size£ Puissance totale de la flotte - [owner_Intel.spy_totalFleetPower]"
+ advancedIntel.1.fleetpower_false:0 "£navy_size£ §RPuissance totale de la flotte§!"
+
+ advancedIntel.1.totalships:0 "[Root.advancedIntel_Totalships]"
+ advancedIntel.1.totalships_true:0 "£military_ship£ Nombre total de vaisseaux - [owner_Intel.spy_totalShipNums]"
+ advancedIntel.1.totalships_false:0 "£military_ship£ §RTotal des vaisseaux§!"
+
+ advancedIntel.1.totalarmies:0 "[Root.advancedIntel_Totalarmies]"
+ advancedIntel.1.totalarmies_true:0 "£army_ship£ Total des armées - [owner_Intel.spy_totalArmyNums]"
+ advancedIntel.1.totalarmies_false:0 "£army_ship£ §RTotal des armées§!"
+
+
+## BETA ##
+ advancedIntelBeta.1.fleetPower:0 "[Root.advancedIntelBeta_Fleetpower]"
+ advancedIntelBeta.1.fleetpower_true:0 "£navy_size£ Puissance totale de la flotte - [owner_Intel.spy_totalFleetPowerbeta]"
+ advancedIntelBeta.1.fleetpower_false:0 "£navy_size£ §RPuissance totale de la flotte§!"
+
+ advancedIntelBeta.1.totalships:0 "[Root.advancedIntelBeta_Totalships]"
+ advancedIntelBeta.1.totalships_true:0 "£military_ship£ Nombre total de vaisseaux - [owner_Intel.spy_totalShipNumsbeta]"
+ advancedIntelBeta.1.totalships_false:0 "£military_ship£ §RTotal des vaisseaux§!"
+
+ advancedIntelBeta.1.totalarmies:0 "[Root.advancedIntelBeta_Totalarmies]"
+ advancedIntelBeta.1.totalarmies_true:0 "£army_ship£ Total des armées - [owner_Intel.spy_totalArmyNumsbeta]"
+ advancedIntelBeta.1.totalarmies_false:0 "£army_ship£ §RTotal des armées§!"
+
+### TOOLTIPS ###
+## BASIC INTEL RESOURCES ##
+ intelResourceBasic:0 "Requiert le niveau de renseignement §S100§!."
+ intelResourceTech:0 "Requiert le niveau de renseignement §S100§!. \nRequiert la technologie §SEspionnage industriel§! ."
+ intelResourceMil:0 "Requiert le niveau de renseignement §S150§!. \nNécessite la technologie §SEspionnage tactique§!."
+
+
+ 
+##### CONFIGURATION MENU #####
+spyModConfig.1.name:0 "Configuration"
+spyModConfig.1.desc:0 "Par défaut, Empires déchus et Consciences collectives ne peuvent ni utiliser d'espionnage, et on ne pas utiliser d'espionnage contre eux. Si vous souhaitez modifier cela, il vous suffit de basculer les boutons ci-dessous.\nVous pouvez le faire à tout moment, même si cela peut prendre un certain temps avant que vos modifications prennent effet.\n\n[Root.spy_FallenEmpire_Status]\n\n[Root.spy_HiveMinds_Status]"
+spyModConfig.a:0 "Basculez les Esprits de la ruche."
+spyModConfig.b:0 "Basculez les empires déchus."
+spyModConfig.c:0 "Désinstallez le Mod."
+spyModConfig.d:0 "Sortie."
+
+spy_HiveMinds_Enabled:0 "Esprits de la ruche §Yactivé§!."
+spy_HiveMinds_Disabled:0 "Esprits de la ruche §Rdésactivé§!."
+spy_FallenEmpires_Enabled:0 "Empires déchus §Yactivé§!."
+spy_FallenEmpires_Disabled:0 "Empires déchus §Rdésactivé§!."
+
+spyModConfig.2.name:0 "Désinstaller"
+spyModConfig.2.desc:0 "Cela supprimera plusieurs indicateurs et modificateurs, garantissant une désinstallation complètement propre d'une sauvegarde. Ne rouvrez pas le menu intelligence après l'avoir utilisé."
+spyModConfig.2.a:0 "Désinstaller."
+spyModConfig.2.a:0 "Annuler."
