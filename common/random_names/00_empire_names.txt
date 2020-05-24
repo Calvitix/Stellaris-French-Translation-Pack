@@ -1480,8 +1480,8 @@ empire_name_format = {
 			}
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
-			NOT = { is_country_type = awakened_fallen_empire }
+			#NOT = { is_country_type = fallen_empire }  #Calvitix test to avoid empty names
+			#NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
 	format = "format.imp_mil.1"
@@ -1502,7 +1502,7 @@ empire_name_format = {
 			}
 			is_pirate = no
 			is_primitive = no
-			NOT = { is_country_type = fallen_empire }
+			#NOT = { is_country_type = fallen_empire }  #Calvitix test to avoid empty names
 			NOT = { is_country_type = awakened_fallen_empire }
 		}
 	}
