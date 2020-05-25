@@ -1,0 +1,117 @@
+﻿# I spent a lot of time on this mod out of my own free time, and nobody would like it if someone took their creation
+# and stole it, and tried to claim it as their's. If you want to learn to mod Stellaris, I'm not the best person to
+# ask, but I'm always open to help and if you'd like to make new features or add-ons to this mod, send me a message,
+# and we'll discuss together about either integrating them into this mod, or creating an add-on to this one.
+
+l_french:
+ ##################
+# Options and Cheats Menus
+ ##################
+
+  # OPTIONS MENU
+
+ ig_menu.0.name:0 "Zer0's Pierres d'infinité: Redux"
+ ig_menu.0.desc:0 "Hello all, this is the configuration menu for §HZer0's Pierres d'infinité: Redux§!. From here you can disabled features of the mod.\n\nIf you are unsure about what to pick, select the default option at the top, which will allow you to play the mod in the way the mod maker intended.\n\nSelect §Y"Done"§! when you are finished."
+ ig_menu.0.a:0 "Reset to default options"
+ ig_menu.0.b:0 "Configure §YAI opinions§!"
+ ig_menu.0.c:0 "Configure §YInfinity Gauntlet§!"
+ ig_menu.0.d:0 "Configure §YStone Miscellaneous Effects§!"
+ ig_menu.0.e:0 "Configure §YEvent Leaders§!"
+ ig_menu.0.f:0 "Configure §YInfinity Drive§!"
+ ig_menu.0.cheats.enabled:0 "Cheat Menu: §GENABLED§!"
+ cheat_menu_tooltip:1 "The cheat menu can be found under edicts."
+ ig_menu.0.cheats.disabled:0 "Cheat Menu: §RDISABLED§!"
+ ig_menu.0.g:0 "Done"
+
+ ig_menu.2.name:0 "Configure §YAI opinions§!"
+ ig_menu.2.desc:0 "By default, AI empires get an opinion malice when you hold an Pierres d'infinité. Normal Empires get a £opinion£ §R-50§! opinion modifier when you have a stone and Fallen Empires get a £opinion£ §R-20§! opinion modifier.\n\nWhilst AI opinions can be boosted through several means, some players may want to disable ths."
+ ig_menu.2.fallenempire.enabled:0 "Negative Fallen Empire Opinions: §GENABLED§!"
+ ig_menu.2.fallenempire.disabled:0 "Negative Fallen Empire Opinions: §RDISABLED§!"
+ ig_menu.2.normalempire.enabled:0 "Negative Normal Empire Opinions: §GENABLED§!"
+ ig_menu.2.normalempire.disabled:0 "Negative Normal Empire Opinions: §RDISABLED§!"
+ ig_menu.2.back:0 "Back to main menu"
+
+ ig_menu.3.name:0 "Configure §YInfinity Gauntlet§!"
+ ig_menu.3.desc:0 "By default, the §YInfinity Gauntlet§! is given to any empire after they receive 2 Pierres d'infinité. The Gauntlet can then be used to remove the cooldown on Pierres d'infinité to allow multiple stones to be used at the same time.\n\nUsing certain stones at the same time will give addition modifiers to improve your empire, this is called the §YInfinity Circuit§!.\n\nBoth effects of the gauntlet can be considered quite powerful, therefore, some players may want to disable one or both the effects. (The gauntlet will always be given if the play has all six stones but can only be used to snap)"
+ ig_menu.3.infinitygauntlet.enabled:0 "Infinity Gauntlet: §GENABLED§!"
+ ig_menu.3.infinitygauntlet.disabled:0 "Infinity Gauntlet: §RDISABLED§!"
+ ig_menu.3.infinitycircuit.enabled:0 "Infinity Circuit: §GENABLED§!"
+ ig_menu.3.infinitycircuit.disabled:0 "Infinity Circuit: §RDISABLED§!"
+
+ ig_menu.4.name:0 "Configure §YStone Miscellaneous Effects§!"
+ ig_menu.4.desc:0 "The option first below will allow you to disable the §RReality Stone§! from creating §GMachine worlds, Hive worlds and Ecumenopolises§! so the §RReality Stone§! can only create Gaia Worlds.\n\nThe Second option below will allow you to disable the §HSoul Stone§! from giving a random leader the §MPsionic§! trait every ~7.5 years."
+ ig_menu.4.realitystone.enabled:0 "Reality Stone can create special worlds: §GENABLED§!"
+ ig_menu.4.realitystone.disabled:0 "Reality Stone can create special worlds: §RDISABLED§!"
+ ig_menu.4.soulstone.enabled:0 "Soul Stone can create Psionic leaders: §GENABLED§!"
+ ig_menu.4.soulstone.disabled:0 "Soul Stone can create Psionic leaders: §RDISABLED§!"
+
+ ig_menu.5.name:0 "Configure §YEvent Leaders§!"
+ ig_menu.5.desc:0 "By default, during the progression of the dig-sites for the Pierres d'infinité, you may receive unique leaders. These leaders are references to characters in the MCU that have ties to the Pierres d'infinité.\n\nIn the past, some players have stated that they just want the Pierres d'infinité and nothing more, so these options exist to allow those players to disable the leaders."
+ ig_menu.5.thor.enabled:0 "Thor (Admiral): §GENABLED§!"
+ ig_menu.5.thor.disabled:0 "Thor (Admiral): §RDISABLED§!"
+ ig_menu.5.captainmarvel.enabled:0 "Captain Marvel (Admiral): §GENABLED§!"
+ ig_menu.5.captainmarvel.disabled:0 "Captain Marvel (Admiral): §RDISABLED§!"
+ ig_menu.5.vision.enabled:0 "The Vision (Scientist): §GENABLED§!"
+ ig_menu.5.vision.disabled:0 "The Vision (Scientist): §RDISABLED§!"
+ ig_menu.5.ultron.enabled:0 "Ultron (multi-role): §GENABLED§!"
+ ig_menu.5.ultron.disabled:0 "Ultron (multi-role): §RDISABLED§!"
+
+ ig_menu.6.name:0 "Configure §YInfinity Drive§!"
+ ig_menu.6.desc:0 "By default, the §YInfinity Drive§! is a special technology that players can research after around a year after getting the §YSpace Stone§!. The drive functions identically to the vanilla Psi Jumpdrive.\n\nDisabling the §YInfinity Drive§! would mean you have to rely on the base game Jumpdrive And Psi Jumpdrive to use the effects of the Space Stone."
+ ig_menu.6.infinitydrive.enabled:0 "Infinity Drive: §GENABLED§!"
+ ig_menu.6.infinitydrive.disabled:0 "Infinity Drive: §RDISABLED§!"
+
+ # CHEAT MENU
+
+ ig_cheats.0.name:0 "Cheat Menu"
+ ig_cheats.0.desc:0 "This menu contains many cheats to either tailor your experience or fix you game:\n\n§YRelic cheats§! - add and remove the 8 relics.\n\n§YOpen the options menu§! - opens the the mod setting menu.\n\n§YSpawn in leaders§! - spawn in the various event leaders.\n\n§YSnap menu§! - allows ativation of some of the snap options without the Infinity Gauntlet.\n\n§YMid-save game options§! - allows adding the Pierres d'infinité to the game if you add the mod mid-save.\n\n§YMisc cheats§! - various cheats used to test the mod.\n\nPress §YDone§! when you are finished."
+ ig_cheats.0.a:0 "§YRelic cheats§!"
+ ig_cheats.0.b:0 "§YOpen the options menu§!"
+ ig_cheats.0.c:0 "§YSpawn in leaders§!"
+ ig_cheats.0.d:0 "§YSnap menu§!"
+ ig_cheats.0.e:0 "§YMid-save game options§!"
+ ig_cheats.0.f:0 "§YMisc cheats§!"
+ ig_cheats.0.g:0 "§YDone§!"
+
+ ig_cheats.1.name:0 "Relic Cheats"
+ ig_cheats.1.desc:0 "From this menu, you can add and remove all of the Relics in this mod."
+ ig_cheats.1.allstones.give:0 "§GAdd§! All Pierres d'infinité"
+ ig_cheats.1.allstones.remove:0 "§RRemove§! All Pierres d'infinité"
+ ig_cheats.1.powerstone.give:0 "§GAdd§! Power Stone"
+ ig_cheats.1.powerstone.remove:0 "§RRemove§! Power Stone"
+ ig_cheats.1.realitystone.give:0 "§GAdd§! Reality Stone"
+ ig_cheats.1.realitystone.remove:0 "§RRemove§! Reality Stone"
+ ig_cheats.1.timestone.give:0 "§GAdd§! Time Stone"
+ ig_cheats.1.timestone.remove:0 "§RRemove§! Time Stone"
+ ig_cheats.1.soulstone.give:0 "§GAdd§! Soul Stone"
+ ig_cheats.1.soulstone.remove:0 "§RRemove§! Soul Stone"
+ ig_cheats.1.mindstone.give:0 "§GAdd§! Mind Stone"
+ ig_cheats.1.mindstone.remove:0 "§RRemove§! Mind Stone"
+ ig_cheats.1.spacestone.give:0 "§GAdd§! Space Stone"
+ ig_cheats.1.spacestone.remove:0 "§RRemove§! Space Stone"
+ ig_cheats.1.infinitygauntlet.give:0 "§GAdd§! Infinity Gauntlet"
+ ig_cheats.1.infinitygauntlet.remove:0 "§RRemove§! Infinity Gauntlet"
+ ig_cheats.1.mjolnir.give:0 "§GAdd§! Mjolnir"
+ ig_cheats.1.mjolnir.remove:0 "§RRemove§! Mjolnir"
+
+ ig_cheats.4.name:0 "Snap Cheat Menu"
+ ig_cheats.4.desc:0 "This menu allows you to fire the events for several (but not all) of the various snap options available when you have all 6 infinity stones. Hover over options to get more details.\n\n§HIT IS HIGHLY RECOMENDED YOU SAVE BEFORE USING ANYTHING ON THIS LIST!§!"
+ ig_cheats.4.a:0 "Purge Organics"
+ gauntlet_option_organics:1 "All organic life will be purged from the galaxy."
+
+ ig_cheats.5.name:0 "Mid-save game options"
+ ig_cheats.5.desc:0 "This menu will allow you to add the infinity stones to a save game.\n\nSelecting "§YSpawn Systems§!" will spawn in the systems and dig-sites for the stone into your save.\n\nSelecting "§YSpawn Stones§!" will randomly add the stones to empires in your save.\n\nIf you don't see any options here, you should already have the stones in your galaxy."
+ ig_cheats.5.systems:0 "§YSpawn Systems§!"
+ ig_cheats.5.stones:0 "§YSpawn Stones§!"
+
+ ig_cheats.3.name:0 "Spawn in leaders menu"
+ ig_cheats.3.desc:0 "From this menu, you can spawn in various event leaders added by this mod. Leaders can be dismissed through the leader menu."
+ ig_cheats.3.thor:0 "Spawn §YThor§! (Admiral)"
+ ig_cheats.3.captainmarvel:0 "Spawn §YCaptain Marvel§! (Admiral)"
+ ig_cheats.3.vision:0 "Spawn §YThe Vision§! (Scientist)"
+ ig_cheats.3.soulborn:0 "Spawn in a §YSoulborn§! of your choice"
+
+ ig_cheats.6.name:0 "Misc Cheats options"
+ ig_cheats.6.desc:0 "This menu contains a list of miscellaneous cheats I used in the development of this mod. Probably worth saving before you use any of these as they cannot be undone."
+ ig_cheats.6.ifdrive:0 "Give Infinity Drive technology."
+ ig_cheats.6.explore:0 "Exploring Aid Event"

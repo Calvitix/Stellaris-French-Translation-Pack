@@ -1,0 +1,62 @@
+﻿# I spent a lot of time on this mod out of my own free time, and nobody would like it if someone took their creation
+# and stole it, and tried to claim it as their's. If you want to learn to mod Stellaris, I'm not the best person to
+# ask, but I'm always open to help and if you'd like to make new features or add-ons to this mod, send me a message,
+# and we'll discuss together about either integrating them into this mod, or creating an add-on to this one.
+
+l_french:
+ ##################
+ # Infinity Stone Relics
+ ##################
+
+ # Relics
+
+ infinity_stone_relic_activation_cooldown:0 "Infinity Stone Activation Cooldown"
+ requires_infinty_stone_no_cooldown:0 "$TRIGGER_FAIL$§RCannot activate another Infinity Stone while §Y$infinity_stone_relic_activation_cooldown$§! is active.§!"
+
+ r_power_stone:0 "The Power Stone"
+ r_power_stone_desc:0 "The Big Bang sent six elemental crystals hurtling across the virgin universe. These Pierres d'infinité each control an essential aspect of existence. The Power Stone embodies both the sustaining and destructive forces of the universe, granting its wielder tremendous energy manipulation capabilities."
+ power_stone_activated:1 "\nFleets can now use the §YPower Stone Annihilation§! Orbital Bombardment stance against planets."
+ requires_relic_power_stone:0 "$TRIGGER_FAIL$§RCannot activate the §YPower Stone§! while it is already active.§!"
+
+ r_time_stone:0 "The Time Stone"
+ r_time_stone_desc:0 "The Big Bang sent six elemental crystals hurtling across the virgin universe. These Pierres d'infinité each control an essential aspect of existence. The Time Stone represents and governs over the flow of time, allowing its wielder control over the 4th dimension."
+ time_stone_activated:1 "\n§HUnlocks Decision:§! §Y$decision_planet_time_stone$§!, granting the ability accelerated time on one planet, increasing §GPop Growth Speed§!, §GMachine Pop Build Speed§!, §GBuilding Construction Speed§! and §GBlocker Clear Speed§! at the cost of increasing §RPop Upkeep§! and §RJob Upkeep§! on the planet."
+ requires_relic_time_stone:0 "$TRIGGER_FAIL$§RCannot activate the §YTime Stone§! while it is already active.§!"
+
+ r_reality_stone:0 "The Reality Stone"
+ r_reality_stone_desc:0 "The Big Bang sent six elemental crystals hurtling across the virgin universe. These Pierres d'infinité each control an essential aspect of existence. The Reality Stone grants its user absolute control over reality itself, converting antimatter into matter."
+ reality_stone_activated:1 "\n§HUnlocks Decision:§! §Y$decision_planet_reality_stone$§!, which allows us to instantly terraform planets into §EGaia worlds§!, §EMachine worlds§! and §EHive worlds§!."
+ reality_stone_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y360§!"
+ requires_relic_reality_stone:0 "$TRIGGER_FAIL$§RCannot activate the §YReality Stone§! while it is already active.§!"
+
+ r_soul_stone:0 "The Soul Stone"
+ r_soul_stone_desc:0 "The Big Bang sent six elemental crystals hurtling across the virgin universe. These Pierres d'infinité each control an essential aspect of existence. The Soul Stone has the ability to manipulate the soul, the essence that makes up an individual, and has the ability to resurrect and conjure the spiritual representation of the people who are dead."
+ soul_stone_activated:1 "\nCreates a §YGovernor§!, §YScientist§!, §YAdmiral§! or §YGeneral§!, made up of the souls of the greatest minds of our people."
+ soul_stone_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y1800§!"
+ requires_relic_soul_stone:0 "$TRIGGER_FAIL$§RCannot activate the §YSoul Stone§! while it is already active.§!"
+
+ r_mind_stone:0 "The Mind Stone"
+ r_mind_stone_desc:0 "The Big Bang sent six elemental crystals hurtling across the virgin universe. These Pierres d'infinité each control an essential aspect of existence. The Mind Stone represents and governs the fabric of mind and grants whoever holds it complete control over the hearts and minds of others."
+ mind_stone_activated:1 "Empire Opinion Modifier: §G+1000§!"
+ relic_mind_stone_passive:1 "Monthly Influence: §G+2§!\nTrust Growth: §G+100%§!\nTrust Cap: §G+50§!\nAvailable Envoys: §G+5§!"
+ requires_relic_mind_stone:0 "$TRIGGER_FAIL$§RCannot activate the §YMind Stone§! while it is already active.§!"
+
+ r_space_stone:0 "The Space Stone"
+ r_space_stone_desc:0 "The Big Bang sent six elemental crystals hurtling across the virgin universe. These Pierres d'infinité each control an essential aspect of existence. The Space Stone grants the wielder absolute control over space itself, primarily used to open portals to other locations but can also allow interdimensional travel."
+ #space_stone_activated:1 ""
+ space_stone_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y200§!"
+ requires_relic_space_stone:0 "$TRIGGER_FAIL$§RCannot activate the §YSpace Stone§! while it is already active.§!"
+
+ r_mjolnir:0 "Mjölnir"
+ r_mjolnir_desc:0 ""§MWhosoever holds this hammer, if thee be worthy, shall possess the power of Thor.§!""
+ mjolnir_activated:1 "Begins the hunt for someone worthy to wield the hammer."
+
+ r_infinity_gauntlet:0 "§RThe Infinity Gauntlet§!"
+ r_infinity_gauntlet_desc:0 "A gauntlet made of the strongest alloys we can find, the Infinity Gauntlet will allow us to balance the universe with a snap of our fingers."
+ gauntlet_activated:1 "Resets the cooldown for the §YPierres d'infinité§!."
+ requires_relic_no_cooldown_and_stones:0 "$TRIGGER_FAIL$§RCannot activate another relic while §Y$relic_activation_cooldown$§! is active.§!"
+ requires_relic_six_stones:0 "$TRIGGER_FAIL$§RMust have all 6 Pierres d'infinité.§!"
+ requires_relic_no_war:0 "$TRIGGER_FAIL$§RMust not be at war.§!"
+ requires_has_infinity_stone_cooldown:0 "§RCannot activate the §YInfinity Gauntlet§! while no §YInfinity Stone§! is on cooldown.§!"
+ requires_all_six_stones:0 "§RHas all 6 §YPierres d'infinité§!.§!"
+ requires_has_gauntlet_not_in_use:0 "$TRIGGER_FAIL$§RThe Gauntlet is currently not in use§!"

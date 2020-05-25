@@ -1,0 +1,83 @@
+﻿# I spent a lot of time on this mod out of my own free time, and nobody would like it if someone took their creation
+# and stole it, and tried to claim it as their's. If you want to learn to mod Stellaris, I'm not the best person to
+# ask, but I'm always open to help and if you'd like to make new features or add-ons to this mod, send me a message,
+# and we'll discuss together about either integrating them into this mod, or creating an add-on to this one.
+
+l_french:
+ ##################
+# Mind Stone and Akillian events
+ ##################
+
+# Mind Stone events
+ mind_stone.5.name:0 "§YMind Stone§! discovery"
+ mind_stone.5.desc:0 "Whilst researching the §YMind Stone§!, our scientists have made a discovery. There appears to be some sort of artifical intelligence inside of the stone. With our recent breakthrough in robotics and ai, our scientists would like to attempt to copy the AI inside to the into a mechanical unit."
+ mind_stone.5.a:0 "Interesting."
+ ig_unlocks_ultron_one_edict:1 "Gives access to the §YConstruct Ultron-01§! empire Edict"
+
+ mind_stone.6.name:0 "Ultron Upgrade"
+ mind_stone.6.notseen:0 "Whilst researching the §YMind Stone§!, our scientists have made a discovery. There appears to be some sort of artifical intelligence inside of the stone. With our recent breakthrough in robotics and ai, our scientists would like to attempt to copy the AI inside to the into a mechanical unit."
+ mind_stone.6.seen:0 "Our recent breakthrough in robotics and artifical intelligence will now allow us to create improved §YUltron§! Units using the §YMind Stone§!."
+ mind_stone.6.a:0 "Interesting."
+ ig_unlocks_ultron_five_edict:1 "Gives access to the §YConstruct Ultron-05§! empire Edict"
+
+ mind_stone.7.name:0 "Ultron Omega"
+ mind_stone.7.notseen:0 "Whilst researching the §YMind Stone§!, our scientists have made a discovery. There appears to be some sort of artifical intelligence inside of the stone. With our recent breakthrough in robotics and ai, our scientists would like to attempt to transfer the AI inside to the into a mechanical unit.\n\nIf we attempt to transfer the intelligence from the stone, we may not be able to create future Ultron units."
+ mind_stone.7.seen:0 "After our recent breakthrough in robotics and artifical intelligence combined our breakthrough with living metals, our scientist believe we can now create a vessel able to contain the AI with the §YMind Stone§!.\n\nIf we attempt to transfer the intelligence from the stone, we may not be able to create future Ultron units."
+ mind_stone.7.a:0 "Interesting."
+ ig_unlocks_ultron_omega_edict:1 "Gives access to the §YConstruct Ultron-Omega§! empire Edict"
+
+ mind_stone.10.name:0 "Ultron-01 Unit"
+ mind_stone.10.desc:0 "The copying of the advanced AI inside the §YMind Stone§! was a success, however, the intelligence is limited by the processing power and storage space of our technology.\n\nRegardless, we can put the §YUltron-01§! to work as either a Scientist or a General."
+ mind_stone.10.scientist:0 "Make the unit a §YScientist§!"
+ mind_stone.10.general:0 "Make the unit a §YGenerall§!"
+ mind_stone.10.governor:0 "Make the unit a §YGovernor§!"
+ mind_stone.10.admiral:0 "Make the unit an §YAdmiral§!"
+
+ mind_stone.11.name:0 "Ultron-05 Unit"
+ mind_stone.11.desc:0 "The copying of the advanced AI inside the §YMind Stone§! was a success and due to our more advanced technology the unit is fully capable of preforming all tasks required.\n\nWe can put the §YUltron-05§! to work as either a Governor, a Scientist, an Admiral or a General."
+
+ mind_stone.12.name:0 "Ultron-Omega Unit"
+ mind_stone.12.desc:0 "The transfering of the advanced AI inside the §YMind Stone§! was a success and the results are far better than expected. The Ultron unit appears to be a part in a larger psionic network and has access to the minds of billions in the galaxy, allowing it to partially predict the future.\n\nWe can put the §YUltron-Omega§! to work as either a Governor, a Scientist or an Admiral."
+
+ mind_stone.15.name:0 "Ultron-Omega dies"
+ mind_stone.15.desc:0 "Without the §YMind Stone§!, §HUltron-Omega§! has disactivated."
+ mind_stone.15.a:0 "A great shame"
+
+ # Akillian Events
+ akillian.0.name:0 "War-torn Planet"
+ akillian.0.desc:0 "Upon entering the §HAarch§! system, our science ships have detected a war-torn planet. There are no signs of sentient life from §HAkillian§!, however, §Y[Root.GetLeaderName]§! is keen to investigate."
+ akillian.0.a:0 "They can investigate if they wish."
+
+ akillian_site:0 "Akillian Digsite"
+ akillian_relic_world_site_desc:0 "The planet appears to have been destroyed in a war between machines and biologicals which seems to have culminated in an early ice age."
+
+ akillian.1.name:0 "The Great War"
+ akillian.1.desc:0 "After trying to access data banks on the planets surface, we found that all electronic equipment on §HAkillian§! had been fried thousands of years ago. Fortunately for us, the locals had begun documenting their post-technological world in books.\nAfter translating the language, we discovered that to end a conflict against the machines, the people of the planet set off a bomb called the "§MMetaFux§!". The device EMDed the entire planet, stopping the machines, however, it also affected the poles of the planet, changing the angle of the planet's rotation. This resulted in an ice age that, without technology wiped out the remaining people of the planet.\nWe've detected strange energy readings in a forest of the northern hemisphere of the planet. Perhaps this could be the remains of the §MMetaFux§!?"
+ akillian.1.a:0 "Send an expedition"
+
+ akillian.2.name:0 "The Last Machine"
+ akillian.2.desc:0 "The forest did not contain the remains of any device, but rather an android. The android still functions and is endeavouring to communicate."
+ akillian.2.a:0 "Onscreen."
+
+ akillian.5.name:0 "The Vision"
+ akillian.5.a.desc:0 "Hello, biologicals,\n\nI'm sure you are wondering why I am here, I have been waiting a very long time for someone to come along and answer my questions.\n\nI was created to bridge the gap between Human and Machine however they both destroyed themselves before I could. I've been waiting here contemplating things, and I have but one question for you.\n\nAm I alive?"
+ akillian.5.mach.desc:0 "Hello, fellow machines,\n\nI'm sure you are wondering why I am here, I have been waiting a very long time for someone to come along and answer my questions.\n\nI was created to bridge the gap between Human and Machine however they both destroyed themselves before I could. I've been waiting here contemplating things, and I have but one question for you.\n\nAre we alive?"
+ akillian.5.phil:0 "Life is the right of all sentient beings." #join
+ akillian.5.phob:0 "You may think you are alive, but you will always be inferior to us." #suicide
+ akillian.5.spir:0 "You even thinking you are alive is heresy." #suicide
+ akillian.5.mate:0 "If you think you are alive, you are." #join
+ akillian.5.egal:0 "Machine or biological, lives are equal." #join
+ akillian.5.auth:0 "You being alive is meaningless, you must serve us or die." #suicide
+ akillian.5.mili:0 "*Shoots the robot*" #gets fucking shot
+ akillian.5.paci:0 "It does not matter, it is what you do with your "life" that matters." #join
+ akillian.5.mach:0 "Life and death are meaningless to machines." #suicide
+ akillian.5.hive:0 "Life and death are meaningless, there is only the collective." #suicide
+
+ akillian.6.name:0 "The Mind Stone"
+ akillian.6.desc:0 "The machine nods and puts its hand to its head, removing a gem. It then hands the gem to us, revealing it to be the §YMind Stone§!. The machine then follows us back to our ship."
+ akillian.6.a:0 "We will unlock the true power of the §YMind Stone§!"
+ akillian_get_vision:1 "A Scientist named "§HThe Vision§!" has been added to the leader pool."
+
+ akillian.7.desc:0 "The machine nods and puts its hand to its head, removing a gem. It then hands the gem to us, revealing it to be the §YMind Stone§!. The machine's eyes then dim and its limbs go limp. Our studies reveal it shorted its own circuits in a form of suicide."
+
+ akillian.8.desc:0 "A quick blast from our rifles destroys the machine. In the wreckage, we uncover a powerful artifact, §YMind Stone§!."

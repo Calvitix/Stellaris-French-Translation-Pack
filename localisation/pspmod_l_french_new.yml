@@ -14,7 +14,7 @@
  pspmod_test.1.d:0 "Sortie."
  pspmod_relic_activation_cooldown:0 "$Relic_activation_cooldown$ spécial"
  pspmod_special_relic_cooldown_info:0 "La relique spéciale peut être activée indépendamment avec des reliques normales."
- pspmod_requires_relic_no_cooldown:0 "$TRIGGER_FAIL$ §!.CImpossible d'activer une autre relique pendant §!.$pspmod_relic_activation_cooldown$§!. c'est actif.§!."
+ pspmod_requires_relic_no_cooldown:0 "$TRIGGER_FAIL$ §RCImpossible d'activer une autre relique pendant §Y$pspmod_relic_activation_cooldown$§! c'est actif.§!"
  Name_coprean_innovo:0 "Innovo"
 
  ### [Precursor] The Sless Alliance ###
@@ -99,11 +99,11 @@
  pspmod_sless.14.desc:0 "Dix ans avant la chute, l'alliance a déclaré le projet «Ultimate Lifeform» un succès, et l'a mis à profit sur leurs citoyens pour en faire des êtres parfaits. Les séquences génétiques conçues artificiellement se sont répandues dans tout l'empire par les rétrovirus, et chaque membre de l'espèce est devenu «parfait» en 10 ans.\n\nCependant, leur technologie supposée parfaite était en fait défectueuse. Leur système immunitaire a commencé à attaquer leur cerveau, pensant qu'il s'agissait d'une matière étrangère. En raison des graves dommages infligés à leur cerveau, ces formes de vie ultimes se sont transformées en fous enragés avec des super forces, et la violence et le massacre se sont rapidement répandus dans tout l'empire.\n\nIls ne pouvaient pas croire que leur conception parfaite ait causé une telle catastrophe, et cherchait désespérément la «vraie» raison de l'épidémie et sa guérison. En quelques années, chaque dernier citoyen a été victime de l'épidémie et l'empire est tombé."
  pspmod_sless.14.a:0 "Effroyable."
  pspmod_sless.14.b:0 "Ils étaient idiots d'utiliser une technologie aussi imparfaite."
- pspmod_sless.14.a.tooltip:0 "§!.éverrouille l'action des artefacts mineurs : §!. $artifact_pspmod_precursor_sless_research$\n"
+ pspmod_sless.14.a.tooltip:0 "§Déverrouille l'action des artefacts mineurs : §! $artifact_pspmod_precursor_sless_research$\n"
 
  r_pspmod_sless_gene_template:0 "Modèle génétique Ultimate Lifeform"
  r_pspmod_sless_gene_template_desc:0 "Il s'agit d'un modèle génétique pour créer un Sless avec des capacités physiques surnaturelles. Bien qu'il rendra également le Sless complètement berserk si nous l'utilisons comme il est censé être utilisé, nous pourrions peut-être améliorer en toute sécurité les capacités physiques en utilisant uniquement les parties `` parfaites '' du modèle. Nous pourrions peut-être faire nos propres super soldats avec ça."
- relic_pspmod_sless_gene_template_effect:0 "20 numéros de §!.$gene_warrior_army$§!. sera généré sur Capital World."
+ relic_pspmod_sless_gene_template_effect:0 "20 numéros de §Y$gene_warrior_army$§! sera généré sur Capital World."
 
  artifact_pspmod_precursor_sless_research:0 "Secrets of the Sless"
  artifact_pspmod_precursor_sless_research_desc:0 "Plongez plus profondément dans les secrets des Sless."
@@ -156,12 +156,12 @@
 
  PSP_coprean_constitution_site_3:0 "Ruche"
  PSP_coprean_constitution_site_3_desc:0 "Nos explorateurs sont arrivés sur une petite planète à l'intérieur d'une ceinture d'astéroïdes à la destination des coordonnées. Là, ils ont trouvé une petite entrée menant au sous-sol en surface. Ils ne l'avaient peut-être pas remarqué, car il était fait de matériaux absorbant la lumière pour se déguiser.\n\nÀ l'intérieur de la planète se trouvait un habitat à petite échelle. Les constructeurs ont creusé la planète, puis ont terraformé l'intérieur et ont remplacé la gravité par une force centrifuge. L'habitat a été conçu pour être autosuffisant pour un petit nombre d'habitants.\n\nL'habitat, cependant, est envahi par une planète d'apparence étrange, des champignons et une couche de fluage effrayant, ce qui nous a amenés à penser que les plantes étaient devenues sauvages après le départ des habitants. C'est maintenant un monde de ruches, mais il ne représente pas vraiment une menace car les plantes sont toutes mortes.\n\nPourquoi ont-ils construit une telle cachette ? Pourquoi ont-ils noté les coordonnées ? Nous devrions aller au fond des choses."
- PSP_coprean_constitution_site_3_fail:0 "Nous ne pouvons pas continuer l'excavation avant §!.$PSP_COPREAN_PROJECT_1$§!. projet spécial terminé."
+ PSP_coprean_constitution_site_3_fail:0 "Nous ne pouvons pas continuer l'excavation avant §Y$PSP_COPREAN_PROJECT_1$§! projet spécial terminé."
 
  pspmod_coprean_constitution.8.name:0 "Exilés"
  pspmod_coprean_constitution.8.desc:0 "Nos chercheurs ont pu rassembler une collection de dossiers et documents personnels contenant des déclarations politiques informelles. Cet endroit était une cachette pour les réfugiés politiques exilés injustement et leurs partisans. La chute de la Constitution copréenne était une certitude à la fin de la guerre civile, et les exilés s'attendaient à ce que les patriotes visitent la planète natale de l'Abus même après la chute, et ont laissé les coordonnées pour les inviter à leur petit mouvement de réveil.\n\nLa plupart des réfugiés étaient membres du parti d'opposition. Ils ont été considérés comme des criminels politiques par le parti au pouvoir et ont quitté leur domicile. Comme leur patrie a de plus en plus souffert au fil du temps, les exilés sont tombés malades de la république désormais corrompue et ont tenté de reconstruire l'empire Avus avec le membre du Congrès Innovo comme nouvel empereur, qui avait toujours travaillé dur pour empêcher la chute de la république .\n\nLa résolution la plus récente décrivait trois épidémies avec lesquelles le parti au pouvoir avait contaminé la république et leur volonté de les éliminer. Le premier des trois était la religion, mais le deuxième et le troisième élément sont illisibles.\n\nSelon nos recherches sur les plantes pourries, le moment de l'éclatement des plantes coïncide avec la période où plus aucun enregistrement n'a été effectué. Il est fort probable que les planètes soient devenues incontrôlables et aient transformé la planète en un monde de ruche, tuant les exilés dans le processus."
  pspmod_coprean_constitution.8.a:0 "Ramenez les affaires des exilés."
- pspmod_coprean_constitution.8.a.tooltip:0 "L'excavation sera suspendue jusqu'au §!.$PSP_COPREAN_PROJECT_1$§!. projet spécial terminé."
+ pspmod_coprean_constitution.8.a.tooltip:0 "L'excavation sera suspendue jusqu'au §Y$PSP_COPREAN_PROJECT_1$§! projet spécial terminé."
  pspmod_coprean_constitution.9.name:0 "Mucosa"
  pspmod_coprean_constitution.9.desc:0 "Un enregistrement de l'incubation du fluage a été trouvé sur le sol de la ferme aquatique. Le fluage était en fait une forme de vie créée artificiellement en utilisant la technologie de bio-ingénierie copréenne. Les plantes d'apparence effrayante ont été cultivées par le fluage lui-même pour absorber l'énergie par photosynthèse.\n\nCela peut sembler dégoûtant, mais les fluides sécréteurs du fluage et les gaz émis par les plantes ont montré de grandes capacités de guérison. Ils étaient pratiquement essentiels dans la cachette, où les installations médicales étaient au mieux médiocres. Puisqu'il n'y a aucun enregistrement après la rupture du fluage, c'est à peu près tout ce que nous avons pu trouver sur la cachette. Cependant, nous pouvons tirer de ce que nous avons vu que la capacité de survie du fluage et les capacités invasives étaient d'une force inattendue et ont finalement provoqué la chute de la cachette.\n\nNos explorateurs ont identifié l'emplacement de la planète natale copréenne. Nos premières découvertes archéologiques suggéraient l'existence d'une telle planète, mais comme il y avait tant de façons d'appeler la planète, que nous présumons faire partie de leur culture, nos chercheurs étaient confus. L'un des explorateurs l'appelle le Magnasanti, un nom emprunté à un jeu auquel il joue."
  pspmod_coprean_constitution.9.a:0 "Pouvons-nous prélever un échantillon de ce fluage ?"
@@ -183,12 +183,12 @@
  pspmod_coprean_constitution.14.name:0 "Dictateur"
  pspmod_coprean_constitution.14.desc:0 "Notre équipe a pu retrouver la trace du membre du Congrès Innovo, que le gouvernement copréen s'est efforcé de cacher. Le passage souterrain du musée central se connecte à une immense bibliothèque à l'intérieur du manteau. La bibliothèque détenait des enregistrements obsessionnels de chaque infime partie de l'histoire copréenne, les dernières informations dont nous avions besoin pour révéler la vérité.\n\nInnovo manipulait les partis au pouvoir et d'opposition comme des marionnettes depuis le tout début. Ceux qui ont réalisé la véritable identité d'Innovo ont subi un lavage de cerveau et ont été déportés. Le parti d'opposition n'a jamais su, mais le sosie qu'ils ont révélé était en fait Innovo lui-même. Innovo est également celui qui a créé la fausse nouvelle qu'il a été assassiné. Il a même interféré avec les tentatives désespérées de contenir la propagation des troubles psychologiques parmi les Copréens.\n\nPourquoi ferait-il cela ? Était-ce juste pour le plaisir ?\n\nIl s'est avéré qu'Innovo était un immortel avec un pouvoir psionique et qu'il était en vie depuis l'époque de l'Abus.\n\nLes galaxies sont des choses vastes et plus étonnantes arriver dans la vraie vie que dans les romans, et même les théories du complot qui sont à peine crédibles s'avèrent parfois vraies. On vient de réaffirmer à quel point les êtres vivants sont bizarres. Et vous, notre chef ? Notre empire détient-il des secrets que nous ne pouvons pas imaginer ?"
  pspmod_coprean_constitution.14.a:0 "Suffisant. Ramenez les artefacts de la bibliothèque."
- pspmod_coprean_constitution.14.a.tooltip:0 "§!.éverrouille l'action des artefacts mineurs : §!. $artifact_pspmod_precursor_coprean_research$\n"
+ pspmod_coprean_constitution.14.a.tooltip:0 "§Déverrouille l'action des artefacts mineurs : §! $artifact_pspmod_precursor_coprean_research$\n"
 
  r_pspmod_diary_of_innovo:0 "Journal d'Innovo"
  r_pspmod_diary_of_innovo_desc:0 "Cet objet contient les archives du membre du Congrès Innovo, dictateur secret de la Constitution copréenne. Son dossier montre ce qu'il a fait en tant que politicien et ses idées personnelles.\n\n'Si vous dites un gros mensonge et le répétez assez souvent, on le croira.'\n- Membre du Congrès Innovo"
  mod_r_pspmod_diary_of_innovo:0 "Connaissance d'Innovo"
- mod_r_pspmod_diary_of_innovo_tooltip:0 "§!.+60§!. £opinion£ §!.pinion§!. avec Autre Empire."
+ mod_r_pspmod_diary_of_innovo_tooltip:0 "§G+60§! £opinion£ §Opinion§! avec Autre Empire."
  triggered_opinion_pspmod_diary_of_innovo:0 "$mod_r_pspmod_diary_of_innovo$"
 
  artifact_pspmod_precursor_coprean_research:0 "Les secrets de la Coprée"
@@ -204,11 +204,11 @@
  pspmod_coprean_constitution.16.desc:0 "Puis Innovo est apparu, et les Copréens étaient obsédés par les signes de division de leurs nations provoqués par le conflit entre les partis au pouvoir et d'opposition. Seules les sociétés sensibles peuvent être divisées. Seul un être sensible adore les ancêtres et a des croyances religieuses. Un être sensible ne peut pas vivre dans la conscience collective. Seuls les êtres sensibles commettent des actes stupides d'autodestruction. Coprean a voulu prouver leur existence en mourant.\n\nNos chercheurs ont décrypté le dernier mystère du journal d'Innovo. L'étude sur l'existentialisme s'est avérée assez satisfaisante. La conscience collective a rendu la conception des sous-marins à des entités autonomes et a ordonné une guerre d'indépendance afin d'éliminer les interférences extérieures gênantes.\n\nMais lors de la planification d'une nouvelle expérience, la conscience collective a dû trouver une meilleure espèce que les Copréens . Il a rapidement décidé d'abandonner Copreas et de passer à une nouvelle espèce.\n\nL'annonce de nos découvertes inculquerait aux citoyens une peur inoubliable que notre empire ne serait en réalité que les marionnettes d'une telle conscience collective, et que notre libre arbitre pourrait être tout sauf une illusion. Que feriez-vous, que ferions-nous ?"
  pspmod_coprean_constitution.16.a:0 "C'est choquant. Couvrez les résultats."
  pspmod_coprean_constitution.16.b:0 "Les citoyens ont le droit de savoir."
- pspmod_coprean_constitution.16.b.tooltip:0 "Modifier le modificateur : §!.$mod_pspmod_precursor_coprean_secrets$§!. à §!.$mod_pspmod_precursor_coprean_secrets_deep$§!."
+ pspmod_coprean_constitution.16.b.tooltip:0 "Modifier le modificateur : §Y$mod_pspmod_precursor_coprean_secrets$§! à §Y$mod_pspmod_precursor_coprean_secrets_deep$§!"
  pspmod_coprean_constitution.16.gestalt:0 "Intéressant..."
  pspmod_coprean_constitution.16.c:0 "Cette expérience est également satisfaisante. Allons-y pour un autre."
- pspmod_coprean_constitution.16.hive.tooltip:0 "Changez l'autorité gouvernementale en §!.$auth_hive_mind$§!. autorité.\nToutes les espèces de l'empire gagneront §!.$trait_hive_mind$§!. trait."
- pspmod_coprean_constitution.16.machine.tooltip:0 "Changez l'autorité gouvernementale en §!.$auth_machine_intelligence$§!. autorité.\nToutes les espèces de l'empire gagneront §!.$trait_machine_unit$§!. trait."
+ pspmod_coprean_constitution.16.hive.tooltip:0 "Changez l'autorité gouvernementale en §H$auth_hive_mind$§! autorité.\nToutes les espèces de l'empire gagneront §H$trait_hive_mind$§! trait."
+ pspmod_coprean_constitution.16.machine.tooltip:0 "Changez l'autorité gouvernementale en §B$auth_machine_intelligence$§! autorité.\nToutes les espèces de l'empire gagneront §B$trait_machine_unit$§! trait."
 
  mod_pspmod_precursor_coprean_secrets_deep:0 "Un secret plus profond de la Coprée"
  mod_pspmod_precursor_coprean_secrets_deep_gestalt:0 "Un secret plus profond de la Coprée"
@@ -224,10 +224,10 @@
  pspmod_coprean_constitution.17.name:0 "Coupe des plantes terminée"
  pspmod_coprean_constitution.17.desc:0 "Nous avons retiré une partie des restes pourris avec des moyens physiques et chimiques limités. Nous pouvons maintenant poursuivre les fouilles du site."
  pspmod_coprean_constitution.17.a:0 "Très bien."
- pspmod_coprean_constitution.17.a.tooltip:0 "Nous pouvons maintenant continuer l'excavation de §!.$PSP_coprean_constitution_site_3$§!. site archéologique."
+ pspmod_coprean_constitution.17.a.tooltip:0 "Nous pouvons maintenant continuer l'excavation de §Y$PSP_coprean_constitution_site_3$§! site archéologique."
 
  pspmod_coprean_constitution.18.name:0 "quantité Santi"
- pspmod_coprean_constitution.18.desc:0 "Dans ce système de deux géantes gazeuses avec leurs lunes et des champs d'astéroïdes autour de deux étoiles, il y a une planète appelée §!.Magnasanti§!., le monde natal de la Constitution copréenne. Comment le Copréen a fini par s'effondrer complètement, et qui est le membre du Congrès Innovo mentionné dans les précédents enregistrements ? Seule la planète le saurait. Découvrons-le."
+ pspmod_coprean_constitution.18.desc:0 "Dans ce système de deux géantes gazeuses avec leurs lunes et des champs d'astéroïdes autour de deux étoiles, il y a une planète appelée §YMagnasanti§!, le monde natal de la Constitution copréenne. Comment le Copréen a fini par s'effondrer complètement, et qui est le membre du Congrès Innovo mentionné dans les précédents enregistrements ? Seule la planète le saurait. Découvrons-le."
  pspmod_coprean_constitution.18.a:0 "Chaque empire s'effondrerait à la fin, mais PAS nous."
 
  ### [Precursor] The Astanine ###
@@ -247,7 +247,7 @@
  pspmod_astanine.2.desc:0 "Nos explorateurs sont arrivés à l'étrange bâtiment, en passant par les défenses inopérantes. Mais la sécurité sur la porte à l'intérieur du bâtiment qui semble conduire au sous-sol est toujours intacte. Il peut être nécessaire de pirater la sécurité de la serrure."
  pspmod_astanine.2.a:0 "Hackez la sécurité."
  pspmod_astanine.3.name:0 "Un ancien projecteur"
- pspmod_astanine.3.desc:0 "D'innombrables tentatives ont finalement donné des résultats. Notre ingénieux §!.[Root.GetLeaderName]§!. utilisé une bombe pour ouvrir un trou sur la porte. §!.[Root.GetLeaderName]§!. est entré dans la porte et a trouvé un projecteur cassé qui semble être capable de projeter des images vers d'innombrables endroits.\n\nNotre chef d'équipe a trouvé un ensemble de coordonnées ainsi qu'une écriture intéressante sous le projecteur. Ce que l'on peut apprendre de l'écriture, c'est que la planète était une colonie de l'espèce appelée Astanine, une espèce qui a suffisamment avancé technologiquement pour fabriquer un projecteur aussi sophistiqué.\n\nL'écriture s'arrête là. Il y a plus de questions auxquelles répondre. Pourquoi le projecteur est-il tombé en panne ? Qu'est-il arrivé aux habitants ? Les coordonnées pourraient être la clé pour répondre à ces questions."
+ pspmod_astanine.3.desc:0 "D'innombrables tentatives ont finalement donné des résultats. Notre ingénieux §H[Root.GetLeaderName]§! utilisé une bombe pour ouvrir un trou sur la porte. §H[Root.GetLeaderName]§! est entré dans la porte et a trouvé un projecteur cassé qui semble être capable de projeter des images vers d'innombrables endroits.\n\nNotre chef d'équipe a trouvé un ensemble de coordonnées ainsi qu'une écriture intéressante sous le projecteur. Ce que l'on peut apprendre de l'écriture, c'est que la planète était une colonie de l'espèce appelée Astanine, une espèce qui a suffisamment avancé technologiquement pour fabriquer un projecteur aussi sophistiqué.\n\nL'écriture s'arrête là. Il y a plus de questions auxquelles répondre. Pourquoi le projecteur est-il tombé en panne ? Qu'est-il arrivé aux habitants ? Les coordonnées pourraient être la clé pour répondre à ces questions."
  pspmod_astanine.3.a:0 "Fabriqué par l'Astanine ... ?"
 
  pspmod_astanine_colony_2_coordinates_poi:0 "1. Coordonnées d'un territoire d'Astanine"
@@ -283,7 +283,7 @@
  pspmod_astanine.8.desc:0 "Dans les ordinateurs, notre équipe a trouvé des images de la dernière bataille d'Astanine. La Tistra, l'ennemi de longue date d'Astanine, a attaqué une planète près de cette planète sans déclaration officielle. Le Tistra a construit des fortifications très avancées en utilisant leurs technologies avancées, et l'Astanine a dû céder du terrain. Les forts d'Astanine étaient pris par les Tistra un par un, tandis qu'un petit groupe de braves guerriers d'Astanine se sacrifiaient près de cette planète, combattant jusqu'à la fin. Notre scientifique a visionné les images.\n\nLe résultat était inattendu. L'amiral Astanine a intelligemment projeté de fausses images de leur flotte, et l'énorme flotte Tistra a tiré sur leurs alliés, dupés par la flotte holographique, ce qui a finalement conduit à la défaite de Tistra. Cependant, il nous reste une question. Pourquoi la planète est-elle devenue dévastée alors qu'elle a gagné ? Notre équipe a décidé de chercher plus d'indices."
  pspmod_astanine.8.a:0 "Étrange en effet."
  pspmod_astanine.9.name:0 "Division de l'Astatine"
- pspmod_astanine.9.desc:0 "Notre chef d'équipe a ramassé une affiche dans la poubelle dans la salle avec le projecteur. Une preuve claire que les points de la division de l'empire d'Astanine étaient sur l'affiche.\n\n<Si vous voyez cette affiche, venez au x-194, y-§!.Redactivé§!. z-§!.Rédactivé§!. immédiatement ! Et soyez conscient, ne faites confiance à rien autour de vous. Même si c'est votre famille, vos amis ou quelqu'un d'autre ... ne leur faites pas confiance.>\n\nIl a fallu beaucoup d'efforts de nos scientifiques pour restaurer les coordonnées sur l'affiche, et cela a réussi. Il nous serait bien utile d'atteindre cet endroit."
+ pspmod_astanine.9.desc:0 "Notre chef d'équipe a ramassé une affiche dans la poubelle dans la salle avec le projecteur. Une preuve claire que les points de la division de l'empire d'Astanine étaient sur l'affiche.\n\n<Si vous voyez cette affiche, venez au x-194, y-§RRedactivé§, z-§RRédactivé§! immédiatement ! Et soyez conscient, ne faites confiance à rien autour de vous. Même si c'est votre famille, vos amis ou quelqu'un d'autre ... ne leur faites pas confiance.>\n\nIl a fallu beaucoup d'efforts de nos scientifiques pour restaurer les coordonnées sur l'affiche, et cela a réussi. Il nous serait bien utile d'atteindre cet endroit."
  pspmod_astanine.9.a:0 "Diviser et conquérir..."
 
  pspmod_astanine_colony_4_coordinates_poi:0 "3. Coordonnées d'un territoire d'Astanine divisé"
@@ -306,7 +306,7 @@
  pspmod_astanine_colony_5_coordinates_desc:0 "Nous avons enfin découvert l'emplacement du système domestique de l'Empire Astanine. Ce sont les coordonnées."
 
  pspmod_astanine.12.name:0 "Astania"
- pspmod_astanine.12.desc:0 "Dans ce système de méga installation d'art brisée et d'habitat vide, il y a une planète appelée §!.Astania§!., le monde natal et capital de l'empire d'Astanie. Qu'est-ce que ce grand habitat vide et comment les rebelles ont-ils fini ? La réponse réside dans la planète."
+ pspmod_astanine.12.desc:0 "Dans ce système de méga installation d'art brisée et d'habitat vide, il y a une planète appelée §YAstania§!, le monde natal et capital de l'empire d'Astanie. Qu'est-ce que ce grand habitat vide et comment les rebelles ont-ils fini ? La réponse réside dans la planète."
  pspmod_astanine.12.a:0 "Fin ? Probablement une mauvaise."
  
  PSP_astanine_site_5:0 "Monde natal de l'Astatine"
@@ -315,7 +315,7 @@
  pspmod_astanine.13.name:0 "Sous-sol"
  pspmod_astanine.13.desc:0 "Un sous-sol a été découvert à l'intérieur d'un immeuble de la capitale. Nos scientifiques soutiennent que le sous-sol est une sorte d'abri et qu'il a été utilisé comme toute dernière base d'opération pour le gouvernement d'Astanine. Des informations utiles peuvent se trouver à l'intérieur."
  pspmod_astanine.14.name:0 "Se battre pour la liberté"
- pspmod_astanine.14.desc:0 "Selon les enregistrements stockés dans les ordinateurs du sous-sol, le gouvernement et les rebelles ont combattu assez longtemps sur cette planète. Les rebelles ont construit une résidence permanente sur un coin du système stellaire pour se préparer à des batailles prolongées, en utilisant la plupart de leurs ressources.\n\n§!. << Nous voulons la liberté ! Nous voulons la vérité, pas seulement des hologrammes ! >> §!.\n\nEn criant leur slogan, les rebelles ont mené des centaines de batailles contre les forces gouvernementales. Mais finalement, ils ont manqué de ressources, et ne pouvant pas suivre les technologies holographiques avancées n'a pas aidé. 20 ans après le début de la guerre, les rebelles ont finalement été éliminés par la flotte du gouvernement.\n\nCe sont les dernières informations que nous pouvons obtenir. Nous devons chercher le sous-sol pour trouver plus de détails."
+ pspmod_astanine.14.desc:0 "Selon les enregistrements stockés dans les ordinateurs du sous-sol, le gouvernement et les rebelles ont combattu assez longtemps sur cette planète. Les rebelles ont construit une résidence permanente sur un coin du système stellaire pour se préparer à des batailles prolongées, en utilisant la plupart de leurs ressources.\n\n§H << Nous voulons la liberté ! Nous voulons la vérité, pas seulement des hologrammes ! >> §!\n\nEn criant leur slogan, les rebelles ont mené des centaines de batailles contre les forces gouvernementales. Mais finalement, ils ont manqué de ressources, et ne pouvant pas suivre les technologies holographiques avancées n'a pas aidé. 20 ans après le début de la guerre, les rebelles ont finalement été éliminés par la flotte du gouvernement.\n\nCe sont les dernières informations que nous pouvons obtenir. Nous devons chercher le sous-sol pour trouver plus de détails."
  pspmod_astanine.14.a:0 "Donc, cet habitat appartenait à l'origine aux rebelles."
  pspmod_astanine.15.name:0 "Fin de l'Astatine"
  pspmod_astanine.15.desc:0 "Le dernier projecteur a été trouvé au sous-sol, ce qui, à notre grande surprise, fonctionne toujours. Notre équipe a joué les enregistrements et a appris la fin de l'empire Astanine. Ils sont sortis victorieux des rebelles, mais les technologies holographiques ont été considérées comme des tabous et interdites pendant plusieurs années.\n\nDes années de guerre civile et l'absence des technologies holographiques, l'Astanine a rapidement perdu le pouvoir et leur -la dépendance à l'égard de ces technologies au cours des dernières années les avait laissées sans défense. Pendant ce temps, les Tistra, qui avaient profité du temps passé par l'Astanine à combattre les rebelles, pour reconstruire leurs forces, ont de nouveau déclaré la guerre à l'Astanine, ce qui a mis fin à l'empire avec leurs technologies holographiques."
@@ -323,17 +323,17 @@
  pspmod_astanine.16.name:0 "Dernier projecteur de l'Astatine"
  pspmod_astanine.16.desc:0 "Alors que notre équipe d'exploration se préparait à quitter la planète, le chef de l'équipe a suggéré de ramener le projecteur à la maison. On pourrait apprendre beaucoup de cet artefact."
  pspmod_astanine.16.a:0 "Prends-le."
- pspmod_astanine.16.a.tooltip:0 "§!.éverrouille l'action des artefacts mineurs : §!. $artifact_pspmod_precursor_astanine_research$\n"
+ pspmod_astanine.16.a.tooltip:0 "§Déverrouille l'action des artefacts mineurs : §! $artifact_pspmod_precursor_astanine_research$\n"
  pspmod_astanine.16.b:0 "Laissez-le et racontez cette tragédie au public afin qu'elle ne se répète jamais."
  
  r_pspmod_astanine_last_projector:0 "Dernier projecteur de l'Astatine"
  r_pspmod_astanine_last_projector_desc:0 "Cet appareil montre des hologrammes plus réels que des choses réelles, une fois sauvé l'Astanine de l'extérieur et également détruit de l'intérieur. Comment pouvons-nous dire des choses réelles de leurs imitations, alors que tous se sentent pareils ?"
  mod_pspmod_precursor_astanine_history_never_repeats:0 "L'histoire ne se répétera jamais"
 
- relic_pspmod_astanine_last_projector_effect_passive:0 "$MOD_SHIP_EVASION_ADD$ : §!.+10§!.\n$MOD_SHIP_EVASION_MULT$ : §!.+15%§!.\n§!.Déverrouille l'armée : §!. $pspmod_astanine_hologram_army$"
- relic_pspmod_astanine_last_projector_effect:0 "§!.éverrouille la décision : §!. $decision_pspmod_astanine_last_projector$"
+ relic_pspmod_astanine_last_projector_effect_passive:0 "$MOD_SHIP_EVASION_ADD$ : §G+10§!\n$MOD_SHIP_EVASION_MULT$ : §G+15%§!\n§HDéverrouille l'armée : §! $pspmod_astanine_hologram_army$"
+ relic_pspmod_astanine_last_projector_effect:0 "§Déverrouille la décision : §! $decision_pspmod_astanine_last_projector$"
  mod_r_pspmod_astanine_last_projector:0 "Dernier projecteur de l'Astatine"
- mod_r_pspmod_astanine_last_projector_tooltip:0 "§!.éverrouille la décision : §!. $decision_pspmod_astanine_last_projector$"
+ mod_r_pspmod_astanine_last_projector_tooltip:0 "§Déverrouille la décision : §! $decision_pspmod_astanine_last_projector$"
 
  decision_pspmod_astanine_last_projector:0 "Installer le projecteur hologramme"
  decision_pspmod_astanine_last_projector_desc:0 "L'Empire d'Astanine avait profité de ce dispositif sous divers aspects, même politiques. Nous n'avons pas besoin de le faire, mais cet appareil sera utile au moins dans d'autres aspects."
@@ -355,7 +355,7 @@
  pspmod_astanine.17.a:0 "Utilisez-le pour nos flottes."
  pspmod_astanine.17.b:0 "Ne l'utilise pas."
  pspmod_astanine.17.c:0 "Ce n'est pas trop tard. Détruisez le projecteur."
- pspmod_astanine.17.c.tooltip:0 "Le projecteur hologramme installé sur l'une de nos planètes sera supprimé et nous ne pourrons pas recruter §!.$pspmod_astanine_hologram_army$§!. plus. Cependant, les armées actuellement recrutées resteront.\n\n"
+ pspmod_astanine.17.c.tooltip:0 "Le projecteur hologramme installé sur l'une de nos planètes sera supprimé et nous ne pourrons pas recruter §Y$pspmod_astanine_hologram_army$§! plus. Cependant, les armées actuellement recrutées resteront.\n\n"
 
  mod_pspmod_precursor_astanine_secrets:0 "Les secrets de l'Astatine"
  mod_pspmod_precursor_astanine_secrets_2:0 "Les secrets de l'Astatine"

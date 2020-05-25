@@ -1,0 +1,79 @@
+﻿# I spent a lot of time on this mod out of my own free time, and nobody would like it if someone took their creation
+# and stole it, and tried to claim it as their's. If you want to learn to mod Stellaris, I'm not the best person to
+# ask, but I'm always open to help and if you'd like to make new features or add-ons to this mod, send me a message,
+# and we'll discuss together about either integrating them into this mod, or creating an add-on to this one.
+
+l_french:
+ ##################
+# Debug Events
+ ##################
+
+  ################### DEBUG EVENTS #############
+ ig_debug.0.name:0 "Exploring Aid"
+ ig_debug.0.desc:0 "Gives jumpdrive tech, infinity jump-range and a Scientist to explore with."
+ ig_debug.0.a:0 "Sweet"
+ ig_debug.0.b:0 "I don't want this"
+
+ ig_debug.1.name:0 "6 stones request"
+ ig_debug.1.desc:0 "Gives all six infinity stones"
+ ig_debug.1.a:0 "Sweet"
+ ig_debug.1.b:0 "I don't want this"
+
+ ig_debug.2.name:0 "6 stones remove"
+ ig_debug.2.desc:0 "Removes all six infinity stones"
+ ig_debug.2.a:0 "Sweet"
+ ig_debug.2.b:0 "I don't want this"
+
+ ig_debug.50.name:0 "Gauntlet Fixer"
+ ig_debug.50.desc:0 "Removes gauntlet and stones from all nations"
+ ig_debug.50.a:0 "Sweet"
+ ig_debug.50.b:0 "I don't want this"
+
+ ig_debug.99.name:0 "Colony Destroyer"
+ ig_debug.99.desc:0 "Colony is already destroyed, rip if you did by accidentally."
+ ig_debug.99.a:0 "..."
+
+  #########################################################################################################
+ # NEW MENU TEST #
+ ig_debug.10.name:0 "Find the Pierres d'infinité"
+ ig_debug.10.desc:0 "Below you can see which empires own which stone. If a stone is not listed, it has not been found yet.\n\nIf you click on a empire in the list, you can request them to trade the stone with you. AI empires will never accept this, however, this can be used in multiplayer for players to trade stones as it cannot be done through regular diplomacy."
+ ig_debug.10.powerstone:0 "§MPower Stone§!: [event_target:power_stone_holder.GetName]"
+ ig_debug.10.timestone:0 "§GTime Stone§!: [event_target:time_stone_holder.GetName]"
+ ig_debug.10.realitystone:0 "§RReality Stone§!: [event_target:reality_stone_holder.GetName]"
+ ig_debug.10.soulstone:0 "§HSoul Stone§!: [event_target:soul_stone_holder.GetName]"
+ ig_debug.10.mindstone:0 "§YMind Stone§!: [event_target:mind_stone_holder.GetName]"
+ ig_debug.10.spacestone:0 "§BSpace Stone§!: [event_target:space_stone_holder.GetName]"
+
+ ig_debug.11.name:0 "Trading the Power Stone"
+ ig_debug.11.desc:0 "The §Y[From.GetName]§! has asked if we will give them the §MPower Stone§!.\n\nIt is recommended you trade anything additional through the regular trade interface before you trade the stone."
+ ig_debug.11.no:0 "§RAbsolutely not§!"
+ ig_debug.11.yes:0 "§GOf course they can have the stone§!"
+ ig_debug.12.desc:0 "The §Y[From.GetName]§! has rejected our request to trade the §MPower Stone§!"
+ ig_debug.12.a:0 "A shame"
+ ig_debug.13.desc:0 "The §Y[From.GetName]§! has accepted our request to trade the §MPower Stone§!"
+ ig_debug.13.a:0 "Excellent!"
+
+ ig_debug.14.name:0 "Trading the Time Stone"
+ ig_debug.14.desc:0 "The §Y[From.GetName]§! has asked if we will give them the §GTime Stone§!.\n\nIt is recommended you trade anything additional through the regular trade interface before you trade the stone."
+ ig_debug.15.desc:0 "The §Y[From.GetName]§! has rejected our request to trade the §GTime Stone§!"
+ ig_debug.16.desc:0 "The §Y[From.GetName]§! has accepted our request to trade the §GTime Stone§!"
+
+ ig_debug.17.name:0 "Trading the Reality Stone"
+ ig_debug.17.desc:0 "The §Y[From.GetName]§! has asked if we will give them the §RReality Stone§!.\n\nIt is recommended you trade anything additional through the regular trade interface before you trade the stone."
+ ig_debug.18.desc:0 "The §Y[From.GetName]§! has rejected our request to trade the §RReality Stone§!"
+ ig_debug.19.desc:0 "The §Y[From.GetName]§! has accepted our request to trade the §RReality Stone§!"
+
+ ig_debug.20.name:0 "Trading the Soul Stone"
+ ig_debug.20.desc:0 "The §Y[From.GetName]§! has asked if we will give them the §HSoul Stone§!.\n\nIt is recommended you trade anything additional through the regular trade interface before you trade the stone."
+ ig_debug.21.desc:0 "The §Y[From.GetName]§! has rejected our request to trade the §HSoul Stone§!"
+ ig_debug.22.desc:0 "The §Y[From.GetName]§! has accepted our request to trade the §HSoul Stone§!"
+
+ ig_debug.23.name:0 "Trading the Mind Stone"
+ ig_debug.23.desc:0 "The §Y[From.GetName]§! has asked if we will give them the §YMind Stone§!.\n\nIt is recommended you trade anything additional through the regular trade interface before you trade the stone."
+ ig_debug.24.desc:0 "The §Y[From.GetName]§! has rejected our request to trade the §YMind Stone§!"
+ ig_debug.25.desc:0 "The §Y[From.GetName]§! has accepted our request to trade the §YMind Stone§!"
+
+ ig_debug.26.name:0 "Trading the Space Stone"
+ ig_debug.26.desc:0 "The §Y[From.GetName]§! has asked if we will give them the §BSpace Stone§!.\n\nIt is recommended you trade anything additional through the regular trade interface before you trade the stone."
+ ig_debug.27.desc:0 "The §Y[From.GetName]§! has rejected our request to trade the §BSpace Stone§!"
+ ig_debug.28.desc:0 "The §Y[From.GetName]§! has accepted our request to trade the §BSpace Stone§!"

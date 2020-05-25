@@ -1,0 +1,79 @@
+﻿# I spent a lot of time on this mod out of my own free time, and nobody would like it if someone took their creation
+# and stole it, and tried to claim it as their's. If you want to learn to mod Stellaris, I'm not the best person to
+# ask, but I'm always open to help and if you'd like to make new features or add-ons to this mod, send me a message,
+# and we'll discuss together about either integrating them into this mod, or creating an add-on to this one.
+
+l_french:
+ ##################
+# Debug Events
+ ##################
+
+  ################### DEBUG EVENTS #############
+ ig_debug.0.name:0 "Explorer l'aide"
+ ig_debug.0.desc:0 "Donne la technologie jumpdrive, la plage de saut infini et un scientifique à explorer."
+ ig_debug.0.a:0 "Doux"
+ ig_debug.0.b:0 "Je ne veux pas ça"
+
+ ig_debug.1.name:0 "Demande de 6 pierres"
+ ig_debug.1.desc:0 "Donne les six pierres à l'infini"
+ ig_debug.1.a:0 "Doux"
+ ig_debug.1.b:0 "Je ne veux pas ça"
+
+ ig_debug.2.name:0 "6 pierres retirées"
+ ig_debug.2.desc:0 "Supprime les six pierres à l'infini"
+ ig_debug.2.a:0 "Doux"
+ ig_debug.2.b:0 "Je ne veux pas ça"
+
+ ig_debug.50.name:0 "Gauntlet Fixer"
+ ig_debug.50.desc:0 "Enlève le gant et les pierres de toutes les nations"
+ ig_debug.50.a:0 "Doux"
+ ig_debug.50.b:0 "Je ne veux pas ça"
+
+ ig_debug.99.name:0 "Destructeur de colonies"
+ ig_debug.99.desc:0 "La colonie est déjà détruite, déchirez si vous l'avez fait accidentellement."
+ ig_debug.99.a:0 "..."
+
+  #########################################################################################################
+ # NEW MENU TEST #
+ ig_debug.10.name:0 "Trouvez les Pierres d'infinité"
+ ig_debug.10.desc:0 "Ci-dessous, vous pouvez voir quels empires possèdent quelle pierre. Si une pierre n'est pas répertoriée, elle n'a pas encore été trouvée.\n\nSi vous cliquez sur un empire dans la liste, vous pouvez lui demander de l'échanger avec vous. Les empires de l'IA n'accepteront jamais cela, cependant, cela peut être utilisé en multijoueur pour que les joueurs échangent des pierres car cela ne peut pas être fait par la diplomatie régulière."
+ ig_debug.10.powerstone:0 "§MPower Stone§! : [event_target:power_stone_holder.GetName]"
+ ig_debug.10.timestone:0 "§GTime Stone§! : [event_target:time_stone_holder.GetName]"
+ ig_debug.10.realitystone:0 "§RReality Stone§! : [event_target:reality_stone_holder.GetName]"
+ ig_debug.10.soulstone:0 "§HSoul Stone§! : [event_target:soul_stone_holder.GetName]"
+ ig_debug.10.mindstone:0 "§YMind Stone§! : [event_target:mind_stone_holder.GetName]"
+ ig_debug.10.spacestone:0 "§BSpace Stone§! : [event_target:space_stone_holder.GetName]"
+
+ ig_debug.11.name:0 "Échanger la pierre de puissance"
+ ig_debug.11.desc:0 "Le §Y[From.GetName]§! a demandé si nous leur donnerions la §Power Stone§!. {XXSFXX} {XXSFXX} Il est recommandé d'échanger quoi que ce soit de plus via l'interface de commerce habituelle avant de négocier la pierre."
+ ig_debug.11.no:0 "§RAbsolutely not§!"
+ ig_debug.11.yes:0 "§Bien sûr, ils peuvent avoir la pierre§!"
+ ig_debug.12.desc:0 "Le §Y[From.GetName]§! a rejeté notre demande d'échange du §MPower Stone§!"
+ ig_debug.12.a:0 "Une honte"
+ ig_debug.13.desc:0 "Le §Y[From.GetName]§! a accepté notre demande d'échange du §MPower Stone§!"
+ ig_debug.13.a:0 "Excellent !"
+
+ ig_debug.14.name:0 "Échanger la pierre du temps"
+ ig_debug.14.desc:0 "Le §Y[From.GetName]§! a demandé si nous leur donnerions la §Time Stone§!. {XXSFXX} {XXSFXX} Il est recommandé d'échanger quelque chose de plus via l'interface de trading habituelle avant de négocier la pierre."
+ ig_debug.15.desc:0 "Le §Y[From.GetName]§! a rejeté notre demande d'échange du §GTime Stone§!"
+ ig_debug.16.desc:0 "Le §Y[From.GetName]§! a accepté notre demande d'échange du §GTime Stone§!"
+
+ ig_debug.17.name:0 "Échanger la pierre de réalité"
+ ig_debug.17.desc:0 "Le §Y[From.GetName]§! a demandé si nous leur donnerions la §RReality Stone§!.\n\nIl est recommandé d'échanger quoi que ce soit de plus via l'interface de trading habituelle avant de négocier la pierre."
+ ig_debug.18.desc:0 "Le §Y[From.GetName]§! a rejeté notre demande d'échange de la §RReality Stone§!"
+ ig_debug.19.desc:0 "Le §Y[From.GetName]§! a accepté notre demande d'échange de §RReality Stone§!"
+
+ ig_debug.20.name:0 "Échanger la pierre d'âme"
+ ig_debug.20.desc:0 "Le §Y[From.GetName]§! a demandé si nous leur donnerions la §HSoul Stone§!.\n\nIl est recommandé d'échanger quoi que ce soit de plus via l'interface de trading habituelle avant de négocier la pierre."
+ ig_debug.21.desc:0 "Le §Y[From.GetName]§! a rejeté notre demande d'échange du §HSoul Stone§!"
+ ig_debug.22.desc:0 "Le §Y[From.GetName]§! a accepté notre demande pour échanger le §HSoul Stone§!"
+
+ ig_debug.23.name:0 "Échanger la pierre d'esprit"
+ ig_debug.23.desc:0 "Le §Y[From.GetName]§! a demandé si nous leur donnerions la §YMind Stone§!.\n\nIl est recommandé d'échanger quoi que ce soit de plus via l'interface de trading habituelle avant de négocier la pierre."
+ ig_debug.24.desc:0 "Le §Y[From.GetName]§! a rejeté notre demande d'échange du §YMind Stone§!"
+ ig_debug.25.desc:0 "Le §Y[From.GetName]§! a accepté notre demande d'échange de §YMind Stone§!"
+
+ ig_debug.26.name:0 "Échanger la pierre de l'espace"
+ ig_debug.26.desc:0 "Le §Y[From.GetName]§! a demandé si nous leur donnerions la §Space Stone§!. {XXSFXX} {XXSFXX} Il est recommandé d'échanger quoi que ce soit de plus via l'interface de commerce habituelle avant de négocier la pierre."
+ ig_debug.27.desc:0 "Le §Y[From.GetName]§! a rejeté notre demande d'échange du §BSpace Stone§!"
+ ig_debug.28.desc:0 "Le §Y[From.GetName]§! a accepté notre demande d'échange du §BSpace Stone§!"
