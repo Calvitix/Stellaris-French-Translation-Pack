@@ -41,8 +41,8 @@
  closeMenuOption.a:0 ""
  blankFailTooltip:0 ""
 
- edict_openNetworkManager:0 "Gérer les réseaux"
- edict_openNetworkManager_desc:0 "Gérez vos réseaux de renseignement."
+ edict_openNetworkManager:0 "Ouvrir le menu : §BRéseaux de renseignement§!"
+ edict_openNetworkManager_desc:0 "Gérez vos réseaux de renseignement vie l'interface."
  
  progressButton10:0 "Environ §S490 jours§! restant jusqu'à la fin de l'opération."
  progressButton20:0 "Environ §S400 jours§! restant jusqu'à la fin de l'opération."
@@ -108,9 +108,19 @@ pol_op_spy_defensive_focus_desc:0 "Nous devons concentrer nos efforts vers l'int
  sm_stationSab_desc:0 "Station sabotée"
  cb_fabricated_claim:0 "Revendication fabriquée"
 
+ sabStationHigh_mod:0 ""
+ sabStationLow_mod:0 ""
+
 
  opinion_spy_discovered:0 "Espionnage découvert"
  
+ domStability_low:0 "Campagne de Stabilité interne."
+ domStability_high:0 "Campagne majeure de Stabilité interne."
+ 
+ domStability_low_desc:0 "Campagne de Stabilité interne."
+ domStability_high_desc:0 "Campagne majeure de Stabilité interne."
+
+
 
  ### TECH STUFF ###
  needsIndustrialEspTech:0 "Nécessite la technologie §SEspionnage industriel§!."
@@ -229,7 +239,9 @@ pol_op_spy_defensive_focus_desc:0 "Nous devons concentrer nos efforts vers l'int
  spy_swingPluralist_desc:0 ""
  spy_swingCapitalist:0 "Competitisme accru"
  spy_swingCapitalist_desc:0 ""
- 
+
+
+
  spy_swingAuthoritarian_high:0 "Autoritarisme grandement accru"
  spy_swingAuthoritarian_high_desc:0 ""
  spy_swingEgalitarian_high:0 "Égalitarisme grandement accru"
@@ -1287,6 +1299,14 @@ pol_op_spy_defensive_focus_desc:0 "Nous devons concentrer nos efforts vers l'int
  
  boostRepASuccess.a:0 "Répétez l'opération."
  boostRepASuccess.b:0 "Revenez à la collecte de renseignements."
+
+
+ ### CRIT SUCCESS ###
+ boostRepACritSuccess.title:0 "Faveur gagnée"
+ boostRepACritSuccess.desc:0 "§YBonus de Succès!§!. Grâce à une diplomatie et une gestion des relations minutieuses, notre réseau Alpha nous a valu une faveur diplomatique de '§S[randomFavorCountryAlpha.GetName]§!. \n\nNotre réputation diplomatique a également été améliorée et pendant un certain temps, nous pouvons profiter de meilleures relations avec tous de nos contacts à l'étranger."
+
+ boostRepBCritSuccess.title:0 "Faveur gagnée"
+ boostRepBCritSuccess.desc:0 "§YBonus de Succès!§!. Grâce à une diplomatie et une gestion des relations minutieuses, notre réseau Oméga nous a valu une faveur diplomatique de '§S[randomFavorCountryBeta.GetName]§!. \n\nNotre réputation diplomatique a également été améliorée et pendant un certain temps, nous pouvons profiter de meilleures relations avec tous de nos contacts à l'étranger."
  
  
 ##### ORGANISED CRIME CRACKDOWN #####
@@ -1303,6 +1323,139 @@ pol_op_spy_defensive_focus_desc:0 "Nous devons concentrer nos efforts vers l'int
  
  stopCrimeBSuccess.a:0 "Répétez l'opération."
  stopCrimeBSuccess.b:0 "Revenez à la collecte de renseignements."
+ 
+
+##### BOOST STABILITY ######
+### CHOOSE TARGET ###
+## ALPHA ## 
+ spyDomStability.1.name:0 "Target System"
+ spyDomStability.1.desc:0 "We can order the Alpha Network to focus its operations on a single system, conducting widescale grassroots propaganda campaigns to improve the stability of all colonies within."
+
+ spyDomStabilityBeta.1.name:0 "Target System"
+ spyDomStabilityBeta.1.desc:0 "We can order the Beta Network to focus its operations on a single system, conducting widescale grassroots propaganda campaigns to improve the stability of all colonies within."
+
+ spyDomStability.1.1:0 "§S[stability_target_system_1.GetName]§!."
+ spyDomStability.1.2:0 "§S[stability_target_system_2.GetName]§!."
+ spyDomStability.1.3:0 "§S[stability_target_system_3.GetName]§!."
+ spyDomStability.1.4:0 "§S[stability_target_system_4.GetName]§!."
+ spyDomStability.1.5:0 "§S[stability_target_system_5.GetName]§!."
+ spyDomStability.1.6:0 "§S[stability_target_system_6.GetName]§!."
+ spyDomStability.1.7:0 "§S[stability_target_system_7.GetName]§!."
+ spyDomStability.1.8:0 "§S[stability_target_system_8.GetName]§!."
+ spyDomStability.1.9:0 "§S[stability_target_system_9.GetName]§!."
+ spyDomStability.1.10:0 "§S[stability_target_system_10.GetName]§!."
+ spyDomStability.1.11:0 "§S[stability_target_system_11.GetName]§!."
+ spyDomStability.1.12:0 "§S[stability_target_system_12.GetName]§!."
+ spyDomStability.1.13:0 "§S[stability_target_system_13.GetName]§!."
+ spyDomStability.1.14:0 "§S[stability_target_system_14.GetName]§!."
+ spyDomStability.1.15:0 "§S[stability_target_system_15.GetName]§!."
+ spyDomStability.1.16:0 "§S[stability_target_system_16.GetName]§!."
+ spyDomStability.1.17:0 "§S[stability_target_system_17.GetName]§!."
+ spyDomStability.1.18:0 "§S[stability_target_system_18.GetName]§!."
+ spyDomStability.1.19:0 "§S[stability_target_system_19.GetName]§!."
+ spyDomStability.1.20:0 "§S[stability_target_system_20.GetName]§!."
+ spyDomStability.1.21:0 "§S[stability_target_system_21.GetName]§!."
+ spyDomStability.1.22:0 "§S[stability_target_system_22.GetName]§!."
+ spyDomStability.1.23:0 "§S[stability_target_system_23.GetName]§!."
+ spyDomStability.1.24:0 "§S[stability_target_system_24.GetName]§!."
+ spyDomStability.1.25:0 "§S[stability_target_system_25.GetName]§!."
+ spyDomStability.1.26:0 "§S[stability_target_system_26.GetName]§!."
+ spyDomStability.1.27:0 "§S[stability_target_system_27.GetName]§!."
+ spyDomStability.1.28:0 "§S[stability_target_system_28.GetName]§!."
+ spyDomStability.1.29:0 "§S[stability_target_system_29.GetName]§!."
+ spyDomStability.1.30:0 "§S[stability_target_system_30.GetName]§!."
+ spyDomStability.1.31:0 "§S[stability_target_system_31.GetName]§!."
+ spyDomStability.1.32:0 "§S[stability_target_system_32.GetName]§!."
+ spyDomStability.1.33:0 "§S[stability_target_system_33.GetName]§!."
+ spyDomStability.1.34:0 "§S[stability_target_system_34.GetName]§!."
+ spyDomStability.1.35:0 "§S[stability_target_system_35.GetName]§!."
+ spyDomStability.1.36:0 "§S[stability_target_system_36.GetName]§!."
+ spyDomStability.1.37:0 "§S[stability_target_system_37.GetName]§!."
+ spyDomStability.1.38:0 "§S[stability_target_system_38.GetName]§!."
+ spyDomStability.1.39:0 "§S[stability_target_system_39.GetName]§!."
+ spyDomStability.1.40:0 "§S[stability_target_system_40.GetName]§!."
+ spyDomStability.1.41:0 "§S[stability_target_system_41.GetName]§!."
+ spyDomStability.1.42:0 "§S[stability_target_system_42.GetName]§!."
+ spyDomStability.1.43:0 "§S[stability_target_system_43.GetName]§!."
+ spyDomStability.1.44:0 "§S[stability_target_system_44.GetName]§!."
+ spyDomStability.1.45:0 "§S[stability_target_system_45.GetName]§!."
+ spyDomStability.1.46:0 "§S[stability_target_system_46.GetName]§!."
+ spyDomStability.1.47:0 "§S[stability_target_system_47.GetName]§!."
+ spyDomStability.1.48:0 "§S[stability_target_system_48.GetName]§!."
+ spyDomStability.1.49:0 "§S[stability_target_system_49.GetName]§!."
+ spyDomStability.1.50:0 "§S[stability_target_system_50.GetName]§!."
+
+
+ spyDomStabilityBeta.1.1:0 "§S[stability_target_system_beta_1.GetName]§!."
+ spyDomStabilityBeta.1.2:0 "§S[stability_target_system_beta_2.GetName]§!."
+ spyDomStabilityBeta.1.3:0 "§S[stability_target_system_beta_3.GetName]§!."
+ spyDomStabilityBeta.1.4:0 "§S[stability_target_system_beta_4.GetName]§!."
+ spyDomStabilityBeta.1.5:0 "§S[stability_target_system_beta_5.GetName]§!."
+ spyDomStabilityBeta.1.6:0 "§S[stability_target_system_beta_6.GetName]§!."
+ spyDomStabilityBeta.1.7:0 "§S[stability_target_system_beta_7.GetName]§!."
+ spyDomStabilityBeta.1.8:0 "§S[stability_target_system_beta_8.GetName]§!."
+ spyDomStabilityBeta.1.9:0 "§S[stability_target_system_beta_9.GetName]§!."
+ spyDomStabilityBeta.1.10:0 "§S[stability_target_system_beta_10.GetName]§!."
+ spyDomStabilityBeta.1.11:0 "§S[stability_target_system_beta_11.GetName]§!."
+ spyDomStabilityBeta.1.12:0 "§S[stability_target_system_beta_12.GetName]§!."
+ spyDomStabilityBeta.1.13:0 "§S[stability_target_system_beta_13.GetName]§!."
+ spyDomStabilityBeta.1.14:0 "§S[stability_target_system_beta_14.GetName]§!."
+ spyDomStabilityBeta.1.15:0 "§S[stability_target_system_beta_15.GetName]§!."
+ spyDomStabilityBeta.1.16:0 "§S[stability_target_system_beta_16.GetName]§!."
+ spyDomStabilityBeta.1.17:0 "§S[stability_target_system_beta_17.GetName]§!."
+ spyDomStabilityBeta.1.18:0 "§S[stability_target_system_beta_18.GetName]§!."
+ spyDomStabilityBeta.1.19:0 "§S[stability_target_system_beta_19.GetName]§!."
+ spyDomStabilityBeta.1.20:0 "§S[stability_target_system_beta_20.GetName]§!."
+ spyDomStabilityBeta.1.21:0 "§S[stability_target_system_beta_21.GetName]§!."
+ spyDomStabilityBeta.1.22:0 "§S[stability_target_system_beta_22.GetName]§!."
+ spyDomStabilityBeta.1.23:0 "§S[stability_target_system_beta_23.GetName]§!."
+ spyDomStabilityBeta.1.24:0 "§S[stability_target_system_beta_24.GetName]§!."
+ spyDomStabilityBeta.1.25:0 "§S[stability_target_system_beta_25.GetName]§!."
+ spyDomStabilityBeta.1.26:0 "§S[stability_target_system_beta_26.GetName]§!."
+ spyDomStabilityBeta.1.27:0 "§S[stability_target_system_beta_27.GetName]§!."
+ spyDomStabilityBeta.1.28:0 "§S[stability_target_system_beta_28.GetName]§!."
+ spyDomStabilityBeta.1.29:0 "§S[stability_target_system_beta_29.GetName]§!."
+ spyDomStabilityBeta.1.30:0 "§S[stability_target_system_beta_30.GetName]§!."
+ spyDomStabilityBeta.1.31:0 "§S[stability_target_system_beta_31.GetName]§!."
+ spyDomStabilityBeta.1.32:0 "§S[stability_target_system_beta_32.GetName]§!."
+ spyDomStabilityBeta.1.33:0 "§S[stability_target_system_beta_33.GetName]§!."
+ spyDomStabilityBeta.1.34:0 "§S[stability_target_system_beta_34.GetName]§!."
+ spyDomStabilityBeta.1.35:0 "§S[stability_target_system_beta_35.GetName]§!."
+ spyDomStabilityBeta.1.36:0 "§S[stability_target_system_beta_36.GetName]§!."
+ spyDomStabilityBeta.1.37:0 "§S[stability_target_system_beta_37.GetName]§!."
+ spyDomStabilityBeta.1.38:0 "§S[stability_target_system_beta_38.GetName]§!."
+ spyDomStabilityBeta.1.39:0 "§S[stability_target_system_beta_39.GetName]§!."
+ spyDomStabilityBeta.1.40:0 "§S[stability_target_system_beta_40.GetName]§!."
+ spyDomStabilityBeta.1.41:0 "§S[stability_target_system_beta_41.GetName]§!."
+ spyDomStabilityBeta.1.42:0 "§S[stability_target_system_beta_42.GetName]§!."
+ spyDomStabilityBeta.1.43:0 "§S[stability_target_system_beta_43.GetName]§!."
+ spyDomStabilityBeta.1.44:0 "§S[stability_target_system_beta_44.GetName]§!."
+ spyDomStabilityBeta.1.45:0 "§S[stability_target_system_beta_45.GetName]§!."
+ spyDomStabilityBeta.1.46:0 "§S[stability_target_system_beta_46.GetName]§!."
+ spyDomStabilityBeta.1.47:0 "§S[stability_target_system_beta_47.GetName]§!."
+ spyDomStabilityBeta.1.48:0 "§S[stability_target_system_beta_48.GetName]§!."
+ spyDomStabilityBeta.1.49:0 "§S[stability_target_system_beta_49.GetName]§!."
+ spyDomStabilityBeta.1.50:0 "§S[stability_target_system_beta_50.GetName]§!."
+ 
+ spyDomStabilityBeta.2.z:0 "Cancel."
+
+
+## SUCCESS PARTIAL ##
+spyDomStability.3.name:0 "Domestic Stability"
+spyDomStability.3.desc:0 "§YSuccess!§!. Our Alpha Network operatives have successfully a campaign to increase the stability of all colonies within the §S[domStability_TargetPlanet.GetName]§! system."
+
+## SUCCESS PARTIAL ##
+spyDomStabilityBeta.3.name:0 "Domestic Stability"
+spyDomStabilityBeta.3.desc:0 "§YSuccess!§!. Our Beta Network operatives have successfully a campaign to increase the stability of all colonies within the §S[domStability_TargetPlanetBeta.GetName]§! system."
+
+## SUCCESS MAJOR ##
+spyDomStability.4.name:0 "Domestic Stability"
+spyDomStability.4.desc:0 "§YMajor Success!§!. Our Alpha Network operatives have successfully a campaign to increase the stability of all colonies within the §S[domStability_TargetPlanet.GetName]§! system."
+
+
+## SUCCESS MAJOR ##
+spyDomStabilityBeta.4.name:0 "Domestic Stability"
+spyDomStabilityBeta.4.desc:0 "§YMajor Success!§!. Our Beta Network operatives have successfully a campaign to increase the stability of all colonies within the §S[domStability_TargetPlanetBeta.GetName]§! system."
  
  
  
@@ -1818,3 +1971,17 @@ spyModConfig.2.name:0 "Désinstaller"
 spyModConfig.2.desc:0 "Cela supprimera plusieurs indicateurs et modificateurs, garantissant une désinstallation complètement propre d'une sauvegarde. Ne rouvrez pas le menu intelligence après l'avoir utilisé."
 spyModConfig.2.a:0 "Désinstaller."
 spyModConfig.2.a:0 "Annuler."
+
+
+
+
+
+
+
+
+
+####################
+ ### RESOLUTIONS
+ ####################
+
+ galactic_espionage:0 "Espionnage Galactique"
