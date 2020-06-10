@@ -102,7 +102,7 @@
  WAITING_WORLD_HYPERAPPEARANCE_DESC:0 "Il y avait auparavant trop de colons, et maintenant il semble qu'il s'agit d'une population entièrement différente. Que s'est-il passé ?"
  
  WAITING_WORLD_PURGE:0 "Purger la population des copies aliens supposées"
- WAITING_WORLD_PURGE_DESC:0 "La seule manière de mettre fin au mystérieux remplacement de la population de [Root.GetName] est d'effectuer un bombardement orbital qui les purgera tous."
+ WAITING_WORLD_PURGE_DESC:0 "La seule manière de mettre fin au mystérieux remplacement de la population de §Y[Root.GetName]§! est d'effectuer un bombardement orbital qui les purgera tous."
  
  WORM_ENTRY_POINT:0 "Générer le Point d'entrée"
  WORM_ENTRY_POINT_DESC:0 "La théorie suggère que les anomalies temporelles que nous avons rencontrées sont à la source de cette chose que nous appelons la Boucle, ou le Ver. C'est un noeud enchevêtré de paradoxes ayant pris conscience ; une corrélation entre conscience et désir, au-delà du temps. Sa cause, ou sa conséquence - il est difficile de se prononcer, avec une telle chose. Mais c'est attiré par les fins et les commencements. Nous pouvons utiliser l'Alignement oméga pour le faire traverser vers notre système natal. Si nous le faisons, quelque chose va très certainement se produire. C'est bien des choses mais, avant tout, c'est de la science."
@@ -122,7 +122,7 @@
  #create the HORIZON_SIGNAL_PROJECT project
 
  akx.9001.name:0 "Le signal de l'horizon : §HLA GRAVITÉ C'EST LE DÉSIR§!"
- akx.9001.desc:0 "L'officier scientifique [Root.GetLeaderName] a rapporté que le signal était, de façon inattendue, très facile à déchiffrer... mais que son équipe a passé du temps dessus pour prouver qu'il ne s'agit pas d'un canular. Il s'agit en effet d'un message répété en boucle, à moitié cohérent, dans la langue [Root.Owner.GetSpeciesAdj]. Une sorte de poème...\n\nLes phrases §HLA GRAVITÉ EST LE DÉSIR§! et §HLE TEMPS EST UNE VISION§! ne cessent de s'y répéter. Y sont contenues des coordonnées proches du trou noir. Et à la fin se trouve une dédicace portant §Gle nom de notre officier scientifique§! - qui ajoute, froidement, qu'il est confirmé que ce signal est projeté dans l'espace interstellaire depuis une époque remontant à bien avant la naissance du membre de l'équipage le plus âgé. En fait, il pourrait même être plus ancien que notre civilisation..."
+ akx.9001.desc:0 "L'officier scientifique §Y[Root.GetLeaderName]§! a rapporté que le signal était, de façon inattendue, très facile à déchiffrer... mais que son équipe a passé du temps dessus pour prouver qu'il ne s'agit pas d'un canular. Il s'agit en effet d'un message répété en boucle, à moitié cohérent, dans la langue [Root.Owner.GetSpeciesAdj]. Une sorte de poème...\n\nLes phrases §HLA GRAVITÉ EST LE DÉSIR§! et §HLE TEMPS EST UNE VISION§! ne cessent de s'y répéter. Y sont contenues des coordonnées proches du trou noir. Et à la fin se trouve une dédicace portant §Gle nom de notre officier scientifique§! - qui ajoute, froidement, qu'il est confirmé que ce signal est projeté dans l'espace interstellaire depuis une époque remontant à bien avant la naissance du membre de l'équipage le plus âgé. En fait, il pourrait même être plus ancien que notre civilisation..."
  akx.9001.a:0 "Fascinant ! Envoyons le vaisseau à ces coordonnées"
  akx.a.tooltip:0 "Cela va lancer la chaîne d'événements §YLe signal de l'horizon§!."
  akx.9001.b:0 "Soit une farce, soit un piège. Enregistrons-le et passons à autre chose"
@@ -272,7 +272,7 @@
  ##A RENDEZVOUS: Worm-related event
  
  akx.9300.name:0 "Un rendez-vous"
- akx.9300.desc:1 "L'un de nos vaisseaux, le [Root.GetName], est salué par... le §HSyzygie§!, de la [Root.Owner.GetName]. Cela en dépit du fait qu'il n'envoie aucun code d'identification connu, et qu'aucun vaisseau n'a jamais été immatriculé sous ce nom. L'officier commandant du Syzygie prétend être le Capitaine §H[mirrored_syzygy_admiral.GetName]§!."
+ akx.9300.desc:1 "L'un de nos vaisseaux, le [Root.GetName], est salué par... le §HSyzygie§!, de '§Y[Root.Owner.GetName]§!'. Cela en dépit du fait qu'il n'envoie aucun code d'identification connu, et qu'aucun vaisseau n'a jamais été immatriculé sous ce nom. L'officier commandant du Syzygie prétend être le Capitaine §H[mirrored_syzygy_admiral.GetName]§!."
  akx.9300.a.admiralabsent:0 "Mmmm... Notre amiral portant ce nom est bien vivant et ailleurs"
  akx.9300.a.admiralabsent.tooltip:0 "Cela va ouvrir un canal de communication."
  akx.9300.a.admiralpresent:0 "Intéressant. Ici [mirrored_syzygy_admiral.GetName]"
@@ -323,7 +323,7 @@
  akx.9321.b:0 "Ce qui a été sera ; ce qui sera a été"
 
  akx.9330.name:0 "Un rendez-vous : le jour et l'heure"
- akx.9330.desc:0 "Au cours des années qui suivirent, on rapporta à plusieurs reprises avoir aperçu l'amiral [From.GetName], aussi bien dans l'espace de la [Root.GetName] qu'au-delà. Bien évidemment, ce n'est pas un cas unique, après la mort d'un chef admiré. C'en est même devenu une sorte de légende depuis le rendez-vous avec le Syzygie. Mais nous ne pouvons être sûrs de rien."
+ akx.9330.desc:0 "Au cours des années qui suivirent, on rapporta à plusieurs reprises avoir aperçu l'amiral [From.GetName], aussi bien dans l'espace de '§Y[Root.GetName]§!' qu'au-delà. Bien évidemment, ce n'est pas un cas unique, après la mort d'un chef admiré. C'en est même devenu une sorte de légende depuis le rendez-vous avec le Syzygie. Mais nous ne pouvons être sûrs de rien."
  akx.9330.a:0 "On ne sait jamais"
  akx.9330.b:0 "Oh que si, on peut"
 
@@ -421,7 +421,7 @@
  akx.9535.desc:0 "Notre équipe a rapporté que [waiting_world.GetName] est effectivement désertée : non seulement de ses colons, mais aussi de tout signe que la colonie y a un jour existé. Les bâtiments ont disparu, les satellites et structures orbitales de même, l'atmosphère ne recèle aucune trace d'une civilisation technologique. Selon les paroles des membres de l'équipe, c'est comme si quelqu'un avait remis la planète à zéro.\n\nIls ont aussi mentionné des fluctuations dans les radiations de l'étoile locale, ce qui est caractéristique des pré-supernovae, et un certain nombre d'« événements lumineux » en surface, où la lumière semble s'être en quelque sorte accumulée avant d'être libérée par des éléments prismatiques de l'atmosphère. Il s'agit là de données particulières, et de grande valeur. Mais cela ne nous éclaire pas sur ce que sont devenus les colons."
 
  akx.9540.name:0 "Le monde en attente : tous là"
- akx.9540.desc:0 "D'autres nouvelles inattendues sont arrivées de [waiting_world.GetName], où la population, pour des raisons mystérieuses, n'a cessé de croître. Les chiffres sont revenus à un niveau normal, mais il semble y avoir une manipulation des rapports, ou... ou quelque chose, les administrateurs ne sont pas très sûrs. Aucun des individus sur la planète n'est présent dans nos archives. Tous les colons originels sont absents - comme s'ils avaient été remplacés par de complets étrangers.\n\nEn dépit de tout ça, ils prétendent être de loyaux citoyens de la [Root.Owner.GetName]. Ils sont tous productifs, et apparemment sains d'esprit. Dans tous les échanges que nous avons avec eux, ils nient toute confusion, et semblent persuadés que si erreur il y a, elle ne peut venir que de notre part."
+ akx.9540.desc:0 "D'autres nouvelles inattendues sont arrivées de [waiting_world.GetName], où la population, pour des raisons mystérieuses, n'a cessé de croître. Les chiffres sont revenus à un niveau normal, mais il semble y avoir une manipulation des rapports, ou... ou quelque chose, les administrateurs ne sont pas très sûrs. Aucun des individus sur la planète n'est présent dans nos archives. Tous les colons originels sont absents - comme s'ils avaient été remplacés par de complets étrangers.\n\nEn dépit de tout ça, ils prétendent être de loyaux citoyens de '§Y[Root.Owner.GetName]§!'. Ils sont tous productifs, et apparemment sains d'esprit. Dans tous les échanges que nous avons avec eux, ils nient toute confusion, et semblent persuadés que si erreur il y a, elle ne peut venir que de notre part."
  akx.9540.a:0 "Abandonnons immédiatement la colonie, avant que ça s'aggrave"
  ##grant independence to the colony
  akx.9540.a.tooltip:0 "La colonie va se voir accorder l'indépendance."

@@ -6,69 +6,69 @@
  # Ambient Objects
  ########################################################
 
- mem_vazuran_event_system_starbase_object:0 "Ancient Debris Field"
- mem_vazuran_event_system_swarm_large_object:0 "Remains of Voidborn Organisms"
+ mem_vazuran_event_system_starbase_object:0 "Champ de débris antiques"
+ mem_vazuran_event_system_swarm_large_object:0 "Restes d'organismes spatiaux"
 
  ########################################################
  # Technology
  ########################################################
 
- tech_mem_scourge_damage_bonus:0 "Voidborn Carapace Weak Spots"
- tech_mem_scourge_damage_bonus_desc:0 "Facing the possibility of another swarm invasion, the only reasonable course of action is to prepare as well as we can. Having access to the collected specimens, our scientists will find whatever weakness these beasts might have - if they have one at all. We will need any edge we can get to protect what is rightfully ours should they ever return."
+ tech_mem_scourge_damage_bonus:0 "Points faibles des carapaces des organismes spatiaux"
+ tech_mem_scourge_damage_bonus_desc:0 "Face à la possibilité d'une nouvelle invasion d'essaims, la seule ligne de conduite raisonnable est de nous préparer le mieux possible. Ayant accès aux spécimens collectés, nos scientifiques trouveront la faiblesse que ces bêtes pourraient avoir - si elles en ont une. Nous aurons besoin de tous les avantages que nous pourrons obtenir pour protéger ce qui nous appartient de droit s'ils reviennent un jour."
 
  ########################################################
  # System 1 Events
  ########################################################
 
  # A ship reaches the system
- mem_vazuran_systems.1.name:0 "A Graveyard"
+ mem_vazuran_systems.1.name:0 "Un cimetière"
 
  ########################################################
  # Scourge Event Chain
  ########################################################
 
  # Scourge Story Line Intro
- mem_vazuran_systems.1a.desc:0 "The [root.GetName] reports to have reached the [root.solar_system.GetName] system. The captain describes a gruesome scene. Multiple planets are shattered, and the entire system is littered with debris fields. Even more peculiarly, seemingly organic husks which do not match anything in our database are scattered among these. Further investigation is required."
- mem_vazuran_systems.1.a:0 "Commence an investigation."
+ mem_vazuran_systems.1a.desc:0 "'§Y[root.GetName]§!' signale avoir atteint le système §Y[root.solar_system.GetName]§!. Le capitaine décrit une scène horrible. Plusieurs planètes sont brisées et le système entier est jonché de champs de débris. Encore plus particulier, des enveloppes apparemment organiques qui ne correspondent à rien dans notre base de données sont dispersées parmi celles-ci. Une enquête plus approfondie est nécessaire."
+ mem_vazuran_systems.1.a:0 "Commencer une enquête."
 
  # Scourge Event Chain
- mem_vazuran_event_system_scourge_chain_title:0 "Devastated System"
- mem_vazuran_event_system_scourge_chain_desc:0 "Research the remains of the apocalyptic event that took place in the [mem_vazuran_event_system_01.GetName] system."
- mem_vazuran_event_system_scourge_projects_researched:0 "Finished Investigations"
+ mem_vazuran_event_system_scourge_chain_title:0 "Système dévasté"
+ mem_vazuran_event_system_scourge_chain_desc:0 "Rechercher les restes de l'événement apocalyptique qui a eu lieu dans le système §Y[mem_vazuran_event_system_01.GetName]§!."
+ mem_vazuran_event_system_scourge_projects_researched:0 "Enquêtes terminées"
  
- MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_01:0 "Bioship Investigation"
- MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_01_DESC:0 "Our scientists in the [root.solar_system.GetName] system have already identified at least two distinct types of dead spaceborn lifeforms amidst the debris fields, though as of yet it is unclear whether they are just different growth stages of one and the same species or two different species altogether. "
+ MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_01:0 "Enquête du vaisseau biologique"
+ MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_01_DESC:0 "Nos scientifiques dans le système [root.solar_system.GetName] ont déjà identifié au moins deux types distincts de formes de vie mortes dans l'espace au milieu des champs de débris, bien qu'il ne soit pas encore clair s'il s'agit simplement de stades de croissance différents d'une même espèce ou de deux espèces différentes. ."
  
- MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_02:0 "Debris Investigation"
- MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_02_DESC:0 "Among the countless debris fields, a number of bigger wrecks remain. They seem to be our best chance of finding out more about what happened here."
+ MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_02:0 "Enquête sur les débris"
+ MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_02_DESC:0 "Parmi les innombrables champs de débris, il reste un certain nombre d'épaves plus importantes. Ils semblent être notre meilleure chance d'en savoir plus sur ce qui s'est passé ici."
 
  # Finishing Bioship Investigation
- mem_vazuran_systems.101.name:0 "Genetic Engineering?"
- mem_vazuran_systems.101.desc:0 "After studying multiple specimens, it is now clear that the different phenotypes - classified as [root.solar_system.GetName]-X1 and -X2 - are in fact different species, despite sharing several genetic markers and characteristics. There is no genetic variation between individual specimens of each of the two classifications, implying either asexual reproduction or cloning.\n\nThe organisms themselves appear to be the product of genetic engineering, as natural evolution to their current state is highly unlikely. Both X1 and X2 feature exceptionally hardened carapaces similar in durability to military grade armor plates, as well as organs which seemingly acted as mass drivers for organic projectiles, of which our exploration team has found a multitude still buried inside of various wrecks. Judging by the debris fields, they must have been formidable combatants."
- mem_vazuran_systems.101.a:0 "Disconcerting."
+ mem_vazuran_systems.101.name:0 "Ingénierie génétique ?"
+ mem_vazuran_systems.101.desc:0 "Après avoir étudié plusieurs spécimens, il est maintenant clair que les différents phénotypes - classés comme [root.solar_system.GetName] -X1 et -X2 - sont en fait des espèces différentes, malgré le partage de plusieurs marqueurs et caractéristiques génétiques. Il n'y a pas de variation génétique entre les spécimens individuels de chacune des deux classifications, impliquant une reproduction asexuée ou un clonage.\n\nLes organismes eux-mêmes semblent être le produit du génie génétique, car l'évolution naturelle vers leur état actuel est hautement improbable . Les X1 et X2 comportent des carapaces exceptionnellement durcies similaires en durabilité aux plaques d'armure de qualité militaire, ainsi que des organes qui semblaient agir comme des moteurs de masse pour les projectiles organiques, dont notre équipe d'exploration a trouvé une multitude encore enfouie à l'intérieur de diverses épaves. A en juger par les champs de débris, ils devaient être de formidables combattants."
+ mem_vazuran_systems.101.a:0 "C'est déroutant."
 
  # Finishing Debris Investigation
- mem_vazuran_systems.102.name:0 "Sacrifice And Duty"
- mem_vazuran_systems.102.desc:0 "After spending multiple weeks exploring various wrecks within the vast debris field spanning the [root.solar_system.GetName] system, our exploration team made a major breakthrough. When investigating one of the wrecks, it became clear that they had identified the former fleet's flagship. Furthermore, the ship was found to house a still intact data storage, from which our [root.owner.GetScientistResearchSubroutinePlural] were able to reconstruct the events that took place here roughly four thousand years ago.\n\nTheir empire fought a desperate war against an extragalactic invading force of voidborn lifeforms which consumed all biomass in their way, growing ever stronger the more they consumed.\n\nWith the swarm closing in on this once thriving population center of multiple settled worlds, and only a token force in range to meet the attackers in time, the admiral had to make a hard decision. Knowing he could neither save his people nor defeat his foes, he decided to instead destroy every colonized world in the system in an effort to deny the enemy the biomass they were coming for, before engaging them in battle to give the rest of his people's fleet as much time as possible to close in on the threat.\n\nThe last entry of the admiral's log reads: §SSome may question my right to destroy planets with tens of billions of souls, but those who understand will realize that I had no right to let them live. No sacrifice can be too great when our entire galaxy is at stake. They did their duty and so shall we...§!\n\nOur mere existence seems to prove that his sacrifice was not in vain."
- mem_vazuran_systems.102.a:0 "The needs of the many outweigh the needs of the few."
- mem_vazuran_systems.102.b:0 "Extermination process already completed. Our service is not needed here."
- mem_vazuran_systems.102.c:0 "How polite of them... They purged themselves so we don't have to."
- mem_vazuran_systems.102.d:0 "So much wasted biomass..."
+ mem_vazuran_systems.102.name:0 "Sacrifice et devoir"
+ mem_vazuran_systems.102.desc:0 "Après avoir passé plusieurs semaines à explorer diverses épaves dans le vaste champ de débris qui couvre le système [root.solar_system.GetName], notre équipe d'exploration a fait une percée majeure. Lors de l'enquête sur l'une des épaves, il est devenu clair qu'ils avaient identifié le navire amiral de l'ancienne flotte. En outre, il a été découvert que le navire abritait un stockage de données encore intact, à partir duquel nos [root.owner.GetScientistResearchSubroutinePlural] ont pu reconstituer les événements qui se sont déroulés ici il y a environ quatre mille ans.\n\nLeur empire a mené une guerre désespérée contre un force envahissante extragalactique des formes de vie nées du vide qui consommaient toute la biomasse à leur manière, devenant de plus en plus forte au fur et à mesure qu'elles consommaient. portée pour rencontrer les assaillants à temps, l'amiral a dû prendre une décision difficile. Sachant qu'il ne pouvait ni sauver son peuple ni vaincre ses ennemis, il a plutôt décidé de détruire tous les mondes colonisés du système dans le but de refuser à l'ennemi la biomasse pour laquelle il venait, avant de les engager dans une bataille pour donner le reste de la flotte de son peuple. autant de temps que possible pour se rapprocher de la menace.\n\nLa dernière entrée du journal de l'amiral se lit comme suit : § Certains peuvent remettre en question mon droit de détruire des planètes avec des dizaines de milliards d'âmes, mais ceux qui comprennent comprendront Je n'avais pas le droit de les laisser vivre. Aucun sacrifice ne peut être trop grand lorsque toute notre galaxie est en jeu. Ils ont fait leur devoir et nous aussi ... §!\n\nNotre simple existence semble prouver que son sacrifice n'a pas été vain."
+ mem_vazuran_systems.102.a:0 "Les besoins de beaucoup l'emportent sur les besoins de quelques-uns."
+ mem_vazuran_systems.102.b:0 "Processus d'extermination déjà terminé. Notre service n'est pas nécessaire ici."
+ mem_vazuran_systems.102.c:0 "Comme ils sont polis ... Ils se sont purgés pour que nous n'ayons pas à le faire."
+ mem_vazuran_systems.102.d:0 "Tant de biomasse gaspillée ..."
 
  # Finishing Scourge Event Chain
- mem_vazuran_systems.103.name:0 "The Swarm"
- mem_vazuran_systems.103.desc:0 "With the knowledge of what once happened here and the threat of another extragalactic invasion, our [root.owner.GetScientistResearchSubroutinePlural] call for wide-ranging preparations as a contingency in case the swarm should return. For all we know, this invasion force could have merely been a vanguard, despite how dangerous and threatening it clearly was. Given this looming shadow on the horizon, a few of them have already put forward a proposal to carry out in-depth studies on the available samples in order to find possible weaknesses to exploit, should we ever face this foe."
- mem_vazuran_systems.103.a:0 "We should prepare for this scenario."
+ mem_vazuran_systems.103.name:0 "L'essaim"
+ mem_vazuran_systems.103.desc:0 "Avec la connaissance de ce qui s'est passé ici et de la menace d'une autre invasion extragalactique, nos [root.owner.GetScientistResearchSubroutinePlural] appellent à de vastes préparatifs en tant que contingence au cas où l'essaim reviendrait. Pour autant que nous le sachions, cette force d'invasion aurait pu être simplement une avant-garde, malgré son danger et sa menace manifestes. Compte tenu de cette ombre qui se profile à l'horizon, certains d'entre eux ont déjà avancé une proposition pour mener des études approfondies sur les échantillons disponibles afin de trouver d'éventuelles faiblesses à exploiter, si jamais nous devions affronter cet ennemi."
+ mem_vazuran_systems.103.a:0 "Nous devons nous préparer à ce scénario."
 
  ########################################################
  # Colony Trap Event Chain
  ########################################################
 
  # Colony Trap Story Line Intro
- mem_vazuran_systems.1b.desc:0 "REPLACE_ME"
- mem_vazuran_systems.1.b:0 "Commence an investigation."
+ mem_vazuran_systems.1b.desc:0 "REMPLACEZ-MOI"
+ mem_vazuran_systems.1.b:0 "Commencer une enquête."
 
  # Scourge Event Chain
- mem_vazuran_event_system_colony_trap_chain_title:0 "Devastated System"
- mem_vazuran_event_system_colony_trap_chain_desc:0 "Research the remains of the apocalyptic event that took place in the [mem_vazuran_event_system_01.GetName] system."
- mem_vazuran_event_system_colony_trap_projects_researched:0 "Finished Investigations"
+ mem_vazuran_event_system_colony_trap_chain_title:0 "Système dévasté"
+ mem_vazuran_event_system_colony_trap_chain_desc:0 "Rechercher les restes de l'événement apocalyptique qui a eu lieu dans le système [mem_vazuran_event_system_01.GetName]."
+ mem_vazuran_event_system_colony_trap_projects_researched:0 "Enquêtes terminées"

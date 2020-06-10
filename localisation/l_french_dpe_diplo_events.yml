@@ -8,9 +8,9 @@
 
 
 dpe_diplo.1.name:0 "La populace demande la guerre"
-dpe_diplo.1.desc:0 "Le sentiment nationaliste parmi les [root.GetSpeciesNamePlural] a pris de l'ampleur, avec des manifestations à l'échelle de l'empire appelant à la restauration de l'honneur national. - les citoyens sont perturbés par le fait que notre [root.GetName] a connu une longue période de paix et craignent que nos ennemis ne commencent à nous voir comme étant devenus trop mous. La cible de leur colère est l'ennemi '[enemy.GetName]', dont les dirigeants se sont récemment montrés ouvertement contre les  [root.GetSpeciesNamePlural], affirmant que nous sommes lâches et que nous n'avons aucun honneur. La population indignée demande la guerre."
-dpe_diplo.1.desc.machine:0 "Le sentiment nationaliste parmi les [root.GetSpeciesNamePlural] a pris de l'ampleur, avec des manifestations à l'échelle de l'empire appelant à la restauration de l'honneur national. - les citoyens sont perturbés par le fait que notre '[root.GetName]' a connu une longue période de paix et craignent que nos ennemis ne commencent à nous voir comme étant devenus trop mous. La cible de leur colère est l'ennemi '[enemy.GetName]', dont les dirigeants se sont récemment montrés ouvertement contre les [root.GetSpeciesNamePlural], affirmant que l'esprit de la machine intègre dans ses routines des comportements 'lâches' et qu'il ne contient aucun honneur. Nos unités indignées demandent la guerre."
-dpe_diplo.1.desc.hive:0 "Le sentiment nationaliste parmi les [root.GetSpeciesNamePlural] a pris de l'ampleur, avec des manifestations à l'échelle de l'empire appelant à la restauration de l'honneur national. - les citoyens sont perturbés par le fait que notre '[root.GetName]' a connu une longue période de paix et craignent que nos ennemis ne commencent à nous voir comme étant devenus trop mous. La cible de leur colère est l'ennemi '[enemy.GetName]', dont les dirigeants se sont récemment montrés ouvertement contre notre [root.GetSpeciesNamePlural], affirmant que nous sommes lâches et que nous n'avons aucun honneur. nos drones expriment leur besoin de faire la guerre."
+dpe_diplo.1.desc:0 "Le sentiment nationaliste parmi les [root.GetSpeciesNamePlural] a pris de l'ampleur, avec des manifestations à l'échelle de l'empire appelant à la restauration de l'honneur national. - les citoyens sont perturbés par le fait que notre [root.GetName] a connu une longue période de paix et craignent que nos ennemis ne commencent à nous voir comme étant devenus trop mous. La cible de leur colère est l'ennemi '§Y[enemy.GetName]§!', dont les dirigeants se sont récemment montrés ouvertement contre les  [root.GetSpeciesNamePlural], affirmant que nous sommes lâches et que nous n'avons aucun honneur. La population indignée demande la guerre."
+dpe_diplo.1.desc.machine:0 "Le sentiment nationaliste parmi les [root.GetSpeciesNamePlural] a pris de l'ampleur, avec des manifestations à l'échelle de l'empire appelant à la restauration de l'honneur national. - les citoyens sont perturbés par le fait que notre '§Y[root.GetName]§!' a connu une longue période de paix et craignent que nos ennemis ne commencent à nous voir comme étant devenus trop mous. La cible de leur colère est l'ennemi '§Y[enemy.GetName]§!', dont les dirigeants se sont récemment montrés ouvertement contre les [root.GetSpeciesNamePlural], affirmant que l'esprit de la machine intègre dans ses routines des comportements 'lâches' et qu'il ne contient aucun honneur. Nos unités indignées demandent la guerre."
+dpe_diplo.1.desc.hive:0 "Le sentiment nationaliste parmi les [root.GetSpeciesNamePlural] a pris de l'ampleur, avec des manifestations à l'échelle de l'empire appelant à la restauration de l'honneur national. - les citoyens sont perturbés par le fait que notre '§Y[root.GetName]§!' a connu une longue période de paix et craignent que nos ennemis ne commencent à nous voir comme étant devenus trop mous. La cible de leur colère est l'ennemi '§Y[enemy.GetName]§!', dont les dirigeants se sont récemment montrés ouvertement contre notre [root.GetSpeciesNamePlural], affirmant que nous sommes lâches et que nous n'avons aucun honneur. nos drones expriment leur besoin de faire la guerre."
 dpe_diplo.1.A:0 "Declarer la guerre."
 #dpe_diplo.1.A.tooltip:0 "Les demandes de guerre seront $war_demand_humiliate_header$ et $war_demand_dpe_cede_borders_header$. Cette dernière demande cédera les planètes suivantes :"
 dpe_diplo.1.B: "Patience. Nous allons bientôt déclarer la guerre à nos propres conditions."
@@ -19,11 +19,11 @@ dpe_diplo.1.C:0 "La guerre est trop risquée en ce moment."
 
 #B + No war declaration in a year
 dpe_diplo.2.name:0 "Promesses non tenues"
-dpe_diplo.2.desc:0 "Les nationalistes sont déçus que vous n'ayez pas tenu vos promesses de déclarer la guerre à '[enemy.GetName]'. Ils estiment que notre [root.GetName] a été humilié et que, en tant que [root.GetSpeciesNamePlural], ne peuvent plus garder la tête haute chez leurs pairs. En conséquence, un nombre important de citoyens s'est retourné contre le gouvernement actuel."
+dpe_diplo.2.desc:0 "Les nationalistes sont déçus que vous n'ayez pas tenu vos promesses de déclarer la guerre à '§Y[enemy.GetName]§!'. Ils estiment que notre [root.GetName] a été humilié et que, en tant que [root.GetSpeciesNamePlural], ne peuvent plus garder la tête haute chez leurs pairs. En conséquence, un nombre important de citoyens s'est retourné contre le gouvernement actuel."
 
 #C or follow-up to .2:
 dpe_diplo.4.name:0 "Incident à la frontière"
-dpe_diplo.4.desc:0 "Découragé par le refus de '[root.owner.GetName]' de faire la guerre à notre ennemi '[enemy.GetName]', certains jingoistes hardcore de [root.GetName] détourné un vieux croiseur qui avait été stationné là et ont volé vers le territoire de '[enemy.GetName]', abattant plusieurs vaisseaux marchands et un avant-poste minier avant qu'il ne soit arrêté. Les autorités [enemy.GetSpeciesAdj] sont furieuses, et exigent que les auteurs leur soient remis et qu'une indemnité soit versée. D'autre part, la population [root.owner.GetSpeciesAdj] se rallie derrière les pirates de l'air, les considérant comme des héros et exige de nouvelles actions contre l'ennemi '[enemy.GetName]'.\n\nQuelle action devrait être prise ?"
+dpe_diplo.4.desc:0 "Découragé par le refus de '§Y[root.owner.GetName]§!' de faire la guerre à notre ennemi '§Y[enemy.GetName]§!', certains jingoistes hardcore de [root.GetName] détourné un vieux croiseur qui avait été stationné là et ont volé vers le territoire de '§Y[enemy.GetName]§!', abattant plusieurs vaisseaux marchands et un avant-poste minier avant qu'il ne soit arrêté. Les autorités [enemy.GetSpeciesAdj] sont furieuses, et exigent que les auteurs leur soient remis et qu'une indemnité soit versée. D'autre part, la population [root.owner.GetSpeciesAdj] se rallie derrière les pirates de l'air, les considérant comme des héros et exige de nouvelles actions contre l'ennemi '§Y[enemy.GetName]§!'.\n\nQuelle action devrait être prise ?"
 dpe_diplo.4.A:0 "Nous leur donnerons leur guerre."
 dpe_diplo.4.B:0 "Abandonnez ces pirates et payez l'indemnité."
 
@@ -33,11 +33,11 @@ dpe_ruler_looks_weak_faction:0 "Gouvernement faible et lâche"
 dpe_ruler_looks_weak_and_breaks_promises_faction:0 "Gouvernement faible, lâche et menteur"
 
 dpe_diplo.5.name:0 "Incident à la frontière"
-dpe_diplo.5.desc:0 "Un groupe de nationalistes de notre voisin '[from.GetName]' a lancé une attaque spontanée sur [attacked_planet.GetName] et d'autres systèmes à proximité. Ils ont détourné un ancien bateau de croisière et l'ont utilisé pour harceler nos commerçants civils et attaquer nos stations, détruisant l'un d'entre eux. Nous avons pu les chasser, mais ils ont réussi à éviter d'être capturés, et se sont retranchés dans le territoire de '[from.GetName]'. La population est outrée et demande à notre voisin '[from.GetName]' de nous remettre les auteurs de ces crimes, et de payer des dommages et intérêts."
-dpe_diplo.5.desc.machine:0 "Certains éléments perturbateurs de '[from.GetName]' ont lancé une attaque spontanée sur [attacked_planet.GetName] et d'autres systèmes à proximité. Ils ont détourné un ancien bateau de croisière et l'ont utilisé pour attaquer nos stations et perturber nos sous-programmes. Nous avons pu les chasser, mais ils ont évité la capture et sont revenus vers '[from.GetName]'. Quelle action le [root.GetName] doit-il entreprendre face à un tel comportement?"
+dpe_diplo.5.desc:0 "Un groupe de nationalistes de notre voisin '§Y[from.GetName]§!' a lancé une attaque spontanée sur [attacked_planet.GetName] et d'autres systèmes à proximité. Ils ont détourné un ancien bateau de croisière et l'ont utilisé pour harceler nos commerçants civils et attaquer nos stations, détruisant l'un d'entre eux. Nous avons pu les chasser, mais ils ont réussi à éviter d'être capturés, et se sont retranchés dans le territoire de '§Y[from.GetName]§!'. La population est outrée et demande à notre voisin '§Y[from.GetName]§!' de nous remettre les auteurs de ces crimes, et de payer des dommages et intérêts."
+dpe_diplo.5.desc.machine:0 "Certains éléments perturbateurs de '§Y[from.GetName]§!' ont lancé une attaque spontanée sur [attacked_planet.GetName] et d'autres systèmes à proximité. Ils ont détourné un ancien bateau de croisière et l'ont utilisé pour attaquer nos stations et perturber nos sous-programmes. Nous avons pu les chasser, mais ils ont évité la capture et sont revenus vers '§Y[from.GetName]§!'. Quelle action le [root.GetName] doit-il entreprendre face à un tel comportement?"
 dpe_diplo.5.desc.hive:0 "Certains éléments perturbateurs du [from.GetName] ont lancé une attaque non provoquée sur [attacked_planet.GetName] et d'autres systèmes à proximité. Ils ont détourné un vieux croiseur et l'ont utilisé pour attaquer nos stations et perturber les activités de la ruche. Nous avons pu les chasser, mais ils ont évité la capture et sont revenus au [from.GetName]. Quelle action le [root.GetName] doit-il entreprendre face à un tel comportement ?"
 dpe_diplo.5.A:0 "Demander justice"
-dpe_diplo.5.A.tooltip:0 "Si '[from.GetName]' accepte, '[root.GetName]' payera une indemnité de 100 minéraux par an. S'ils la rejettent, '[from.GetName]' obtiendra des réclamations sur nos systèmes voisins, et la guerre sera déclarée avec comme objectif de guerre $war_goal_wg_conquest$."
+dpe_diplo.5.A.tooltip:0 "Si '§Y[from.GetName]§!' accepte, '§Y[root.GetName]§!' recevra une indemnité de 100 minéraux par an. S'ils la rejettent, '§Y[from.GetName]§!' obtiendra des revendications sur nos systèmes limitrophes avec leur frontière, et la guerre sera déclarée avec comme objectif de guerre $war_goal_wg_conquest$."
 dpe_diplo.5.B:0 "Chercher à apaiser les tensions"
 
 
@@ -64,27 +64,27 @@ dpe_eased_tensions:0 "Des tensions atténuées"
 #war_demand_dpe_cede_borders_not_under_our_control:0 "Les planètes doivent être contrôlées par nous ou nos alliés pour être cédées à cette demande. Aucune planète voisine ne répond actuellement à ce critère."
 #dpe_event_war_demand:0 "Demande de guerre pour événements spéciaux"
 
-dpe_diplo.100.name:0 "La réponse de '[enemy.GetName]'"
+dpe_diplo.100.name:0 "La réponse de '§Y[enemy.GetName]§!'"
 #This is taken from Vanilla HM_DOW_ACCEPT, just replaced [root.GetName] with [enemy.GetName]
-HM_DOW_ACCEPT_DPE:0 "Chercher à détruire l'un d'entre nous, c'est chercher à nous détruire tous. '[enemy.GetName]' est désormais en totale communion face à '[From.GetName]'."
+HM_DOW_ACCEPT_DPE:0 "Chercher à détruire l'un d'entre nous, c'est chercher à nous détruire tous. '§Y[enemy.GetName]§!' est désormais en totale communion face à '§Y[From.GetName]§!'."
 dpe_diplo.100.option:0 "Peu importe."
 
-dpe_diplo.101.name:0 "'[from.GetName]' déclare la Guerre!"
+dpe_diplo.101.name:0 "'§Y[from.GetName]§!' déclare la Guerre!"
 dpe_diplo.101.option:0 "Se préparer à la guerre!"
 
 
 #Spiritualist Mission
 
-dpe_spiritualist_mission.2.name:0 "Envoyer une mission chez '[dpe_neighbour.GetName]'?"
+dpe_spiritualist_mission.2.name:0 "Envoyer une mission chez '§Y[dpe_neighbour.GetName]§!'?"
 dpe_spiritualist_mission.2.desc:0 "Beaucoup de nos voisins stellaires ne semblent pas être croyants d'aucune religion. Certains semblent même adorer leurs machines et leurs inventions. Un groupe du clergé a discuté de l'envoi de missions pour sauver l'âme de ces xenos malheureux et égarés. Actuellement, la majeure partie de la discussion est centrée sur le [dpe_neighbour.GetName]. Doit-on autoriser la mission à aller répandre la bonne parole parmi les [dpe_neighbour.GetSpeciesNamePlural] ?"
 dpe_spiritualist_mission.2.A:0 "Oui, nous devons leur offrir l'illumination."
 dpe_spiritualist_mission.2.B:0 "Non, ils sont indignes de notre glorieuse religion."
 dpe_spiritualist_mission.2.C:0 "Non, ces religieux doivent apprendre leur place. JE suis le responsable ici!"
 
-dpe_spiritualist_mission.2.D:0 "Peut-être que '[dpe_ally.GetName]' serait un meilleur candidat ?"
-dpe_spiritualist_mission.2.E:0 "Soyons ambitieux - envoyez la mission à '[dpe_hive.GetName]'."
+dpe_spiritualist_mission.2.D:0 "Peut-être que '§Y[dpe_ally.GetName]§!' serait un meilleur candidat ?"
+dpe_spiritualist_mission.2.E:0 "Soyons ambitieux - envoyez la mission à '§Y[dpe_hive.GetName]§!'."
 dpe_spiritualist_mission.2.E.tooltip:0 "Cela peut être une entreprise futile. Qui peut dire comment la ruche va réagir ?"
-dpe_spiritualist_mission.2.F:0 "Soyons ambitieux - envoyez la mission à '[dpe_machines.GetName]'."
+dpe_spiritualist_mission.2.F:0 "Soyons ambitieux - envoyez la mission à '§Y[dpe_machines.GetName]§!'."
 dpe_spiritualist_mission.2.F.tooltip:0 "C'est probablement une entreprise futile."
 
 dpe_missionary_faction:0 "Mission étrangère acceptée"
@@ -109,7 +109,7 @@ dpe_spiritualist_mission_ignored:0 "A ignoré notre message sacré"
 dpe_spiritualist_mission_hive_listened:0 "Idées intéressantes"
 dpe_spiritualist_mission_hive_listened1:0 "message entendu"
 
-dpe_spiritualist_mission.300.name:0 "La réponse de '[from.GetName]'"
+dpe_spiritualist_mission.300.name:0 "La réponse de '§Y[from.GetName]§!'"
 dpe_spiritualist_mission.300.A:0 "Nous avons fait de notre mieux pour vous sauver."
 
 
@@ -120,18 +120,18 @@ dpe_spiritualist_mission.4.A:0 "Notre peuple n'acceptera pas que des xénos nous
 dpe_spiritualist_mission.4.B:0 "Nous les laisserons entrer, mais n'essayez pas de nous duper - nous vous surveillerons!"
 dpe_spiritualist_mission.4.C:0 "Nous serons heureux d'accueillir votre mission, cher ami."
 dpe_spiritualist_mission.4.D:0 "(Mensonge) Bien sûr, nous accueillerons votre mission."
-dpe_spiritualist_mission.4.D.tooltip:0 "\nNous prendrons secrètement des mesures pour empêcher leur diffusion. '[from.GetName]' sera en colère s'ils découvrent que nous faisons cela."
+dpe_spiritualist_mission.4.D.tooltip:0 "\nNous prendrons secrètement des mesures pour empêcher leur diffusion. '§Y[from.GetName]§!' sera en colère s'ils découvrent que nous faisons cela."
 
 dpe_spiritualist_mission_accepted_mission:0 "Héberge nos missionnaires"
 #dpe_hosting_spiritualist_mission:0 "Hosting Missionnaires"
 dpe_hosting_spiritualist_mission_planet:0 "Héberge des missionnaires"
 dpe_hosting_spiritualist_mission_planet_desc:0 "Cette planète accueille des missionnaires de l'un des empires voisins."
 
-dpe_spiritualist_mission.41.name:0 "'[from.GetName]' refuse"
+dpe_spiritualist_mission.41.name:0 "'§Y[from.GetName]§!' refuse"
 dpe_spiritualist_mission.41.desc:0 "Notre peuple n'acceptera pas que les xenos nous disent quoi faire. Nous n'accepterons pas vos missionnaires."
 dpe_spiritualist_mission.41.option:0 "Alors vous vous êtes damnés."
 
-dpe_spiritualist_mission.411.name:0 "'[fromfrom.GetName]' refuse notre Mission"
+dpe_spiritualist_mission.411.name:0 "'§Y[fromfrom.GetName]§!' refuse notre Mission"
 dpe_spiritualist_mission.411.desc:0 "[dpe_neighbour.GetName] a refusé de permettre à notre mission de se rendre sur leurs terres. Beaucoup de clercs sont furieux que ces xenos ignorants choisissent de se damner. D'autres sont d'un tempérament plus doux et croient que le divin a simplement une autre espèce en tête pour le salut en ce moment. Devrions-nous essayer d'envoyer nos missionnaires ailleurs ?"
 dpe_spiritualist_mission.411.option:0 "Il ne vaut mieux pas"
 
@@ -142,11 +142,11 @@ dpe_spiritualist_mission.42.option:0 "Vous êtes les bienvenus."
 dpe_spiritualist_mission.421.name:0 "Nos Missionnaies partent pour [fromfrom.GetName]"
 dpe_spiritualist_mission.421.desc:0 "La mission pour délivrer le salut au [dpe_neighbour.GetSpeciesNamePlural] est partie aujourd'hui. Nous attendons avec impatience des nouvelles de leur succès."
 
-dpe_spiritualist_mission.4.accept:0 "La mission tentera de gagner des convertis sur [dpe_mission_host_planet.GetName] et dans tout '[dpe_neighbour.GetName]'."
+dpe_spiritualist_mission.4.accept:0 "La mission tentera de gagner des convertis sur [dpe_mission_host_planet.GetName] et dans tout '§Y[dpe_neighbour.GetName]§!'."
 
 
 dpe_spiritualist_mission.5.name:0 "Notre mission s'établit avec succès"
-dpe_spiritualist_mission.5.desc:0 "La mission vers '[dpe_neighbour.GetName]' s'est poursuivie et nos missionnaires se sont établis sur [dpe_mission_host_planet.GetName]. Selon leurs premiers rapports, les [dpe_neighbour.GetSpeciesNamePlural] locaux sont ouverts à notre enseignement, et beaucoup se sont déjà convertis! Les missionnaires continueront leur travail et sont optimistes qu'ils seront en mesure d'offrir notre salut pour faire avancer les [dpe_neighbour.GetSpeciesNamePlural] et s'assurer que le spiritisme joue un rôle approprié dans l'état des [dpe_neighbour.GetSpeciesAdj]."
+dpe_spiritualist_mission.5.desc:0 "La mission vers '§Y[dpe_neighbour.GetName]§!' s'est poursuivie et nos missionnaires se sont établis sur [dpe_mission_host_planet.GetName]. Selon leurs premiers rapports, les [dpe_neighbour.GetSpeciesNamePlural] locaux sont ouverts à notre enseignement, et beaucoup se sont déjà convertis! Les missionnaires continueront leur travail et sont optimistes qu'ils seront en mesure d'offrir notre salut pour faire avancer les [dpe_neighbour.GetSpeciesNamePlural] et s'assurer que le spiritisme joue un rôle approprié dans l'état des [dpe_neighbour.GetSpeciesAdj]."
 
 dpe_spiritualist_mission.51.name:0 "Les missionaires [dpe_missionary_country.GetSpeciesAdj] s'établissent avec succès"
 dpe_spiritualist_mission.51.desc.normal:0 "Jusqu'à présent, les responsables locaux de [dpe_mission_host_planet.GetName] chargés de superviser les missionnaires [dpe_missionary_country.GetSpeciesAdj] n'ont signalé aucun trouble ni tromperie. Notre personnel du renseignement surveille ces xénos, et il semble qu'ils soient ce qu'ils prétendent. Cependant, ils ont également remarqué quelque chose qui peut être préoccupant: une partie importante de la population locale participe en fait aux cérémonies et aux rituels que les missionnaires organisent. Il semble que cette religion soit en train de se propager. Faut-il tolérer cela ?"
@@ -229,7 +229,7 @@ dpe_spirmission_major_mission_desc:0 "Les missionnaires étrangers tentent de di
 dpe_spiritualist_mission_planet_success.tooltip:0 "Quatre £pops  Pops sur [dpe_mission_host_planet.GetName] se convertissent à l'éthique $ethic_spiritualist$."
 dpe_spiritualist_mission_planet_mid_success.tooltip:0 "Deux £pops  Pops sur [dpe_mission_host_planet.GetName] se convertissent à l'éthique $ethic_spiritualist$."
 
-dpe_spiritualist_mission.7.name:0 "'[dpe_neighbour.GetName]' entrave notre Mission"
+dpe_spiritualist_mission.7.name:0 "'§Y[dpe_neighbour.GetName]§!' entrave notre Mission"
 dpe_spiritualist_mission.7.desc:0 "Des membres de la Mission se sont récemment plaints que le gouvernement [dpe_neighbour.GetSpeciesAdj] entrave ouvertement leurs activités. On soupçonnait depuis longtemps que leur attitude non coopérative faisait partie d'une tentative délibérée d'empêcher le message des missionnaires de se propager, mais avec le succès croissant de la mission, les efforts d'obstruction ont accéléré. Il semble qu'il sera très difficile de progresser davantage. Quelle action devons-nous entreprendre?"
 dpe_spiritualist_mission.7.A:0 "La mission a fait son travail, rappelez-vous."
 dpe_spiritualist_mission.7.B:0 "Accusez publiquement les [dpe_neighbour.GetSpeciesNamePlural]."
@@ -239,11 +239,11 @@ dpe_spiritualist_mission.7.C:0 "La mission se poursuivra, même face à l'advers
 dpe_spirmission_accused_us:0 "Nous a accusés de tromperie"
 dpe_spirmission_deceived:0 "Obstruction à la mission"
 
-dpe_spiritualist_mission.71.name:0 "'[from.GetName]' nous accuse!"
+dpe_spiritualist_mission.71.name:0 "'§Y[from.GetName]§!' nous accuse!"
 dpe_spiritualist_mission.71.desc:0 "Chers [root.GetSpeciesNamePlural], il nous est venu à l'esprit que vous entraviez les activités de notre mission pour assurer le salut de votre peuple. Veuillez cesser de le faire, pour votre bien ! Il n'est pas trop tard pour que vos âmes soient sauvées."
 dpe_spiritualist_mission.71.option:0 "Comment osez-vous ! Les activités de la mission cessent aujourd'hui."
 
-dpe_spiritualist_mission.72.name:0 "'[from.GetName]' répond"
+dpe_spiritualist_mission.72.name:0 "'§Y[from.GetName]§!' répond"
 dpe_spiritualist_mission.72.desc:0 "$dpe_spiritualist_mission.71.desc$"
 dpe_spiritualist_mission.72.option:0 "Pauvres imbéciles vous êtes, pour rejeter notre illumination."
 
@@ -256,7 +256,7 @@ dpe_spiritualist_mission.74.A:0 "Je vois."
 dpe_spiritualist_mission.74.B:0 "Nous devons les renvoyer chez eux de toute façon, juste au cas où."
 
 dpe_spiritualist_mission.75.name:0 "Les [from.GetSpeciesNamePlural] renvoyent notre Mission"
-dpe_spiritualist_mission.75.desc:0 "Chers [root.GetSpeciesNamePlural], nous regrettons de vous informer que '[from.GetName]' a décidé que vos missionnaires ont une influence perturbatrice. Nous leur avons donc ordonné de cesser leurs activités et de rentrer chez eux. Nous espérons que vous ne prendrez pas cela personnellement."
+dpe_spiritualist_mission.75.desc:0 "Chers [root.GetSpeciesNamePlural], nous regrettons de vous informer que '§Y[from.GetName]§!' a décidé que vos missionnaires ont une influence perturbatrice. Nous leur avons donc ordonné de cesser leurs activités et de rentrer chez eux. Nous espérons que vous ne prendrez pas cela personnellement."
 
 
 dpe_spirmission_sent_home_faction:0 "a renvoyé nos missionnaires"
@@ -270,8 +270,8 @@ dpe_spirmission_succeeded:0 "Frères de croyance"
 #these events are 10 years later
 
 dpe_spiritualist_mission.10.name:0 "Notre Mission chez les [from.GetSpeciesNamePlural]"
-dpe_spiritualist_mission.10.desc.low:0 "Notre mission auprès de '[from.GetName]' a peu accompli au cours des dernières années : la majorité des [from.GetSpeciesNamePlural] n'ont pas tenu compte de leurs paroles et ne suivent pas la vraie voie. Il y a un débat sur l'opportunité de poursuivre la mission."
-dpe_spiritualist_mission.10.desc.mid:0 "Notre mission auprès de '[from.GetName]' a connu un succès limité au cours des dernières années: une importante minorité de [from.GetSpeciesNamePlural] suit désormais la Voie vraie. La mission doit-elle continuer ?"
+dpe_spiritualist_mission.10.desc.low:0 "Notre mission auprès de '§Y[from.GetName]§!' a peu accompli au cours des dernières années : la majorité des [from.GetSpeciesNamePlural] n'ont pas tenu compte de leurs paroles et ne suivent pas la vraie voie. Il y a un débat sur l'opportunité de poursuivre la mission."
+dpe_spiritualist_mission.10.desc.mid:0 "Notre mission auprès de '§Y[from.GetName]§!' a connu un succès limité au cours des dernières années: une importante minorité de [from.GetSpeciesNamePlural] suit désormais la Voie vraie. La mission doit-elle continuer ?"
 dpe_spiritualist_mission.10.desc.high:0 "Notre mission auprès de [from.GetName] a remporté des succès considérables au cours des dernières années : bien que le gouvernement [from.GetSpeciesAdj] n'ait pas encore adopté la Vraie Voie, de nombreux [from.GetSpeciesNamePlural] le font maintenant. Certains ont même entrepris des pèlerinages dans nos mondes. La mission doit-elle continuer ?"
 dpe_spiritualist_mission.10.desc.success:0 "Notre mission auprès de [from.GetName] a été couronnée de succès: grâce à leurs efforts inlassables, le spiritisme est devenu une partie intégrante du mode de vie [from.GetSpeciesAdj], et de nombreux [from.GetSpeciesNamePlural] se sont lancés dans des pèlerinages dans nos mondes. Hormis quelques-uns qui ont l'intention de rester sur [dpe_mission_host_planet.GetName] et de continuer à guider les [from.GetSpeciesNamePlural], les missionnaires se préparent à rentrer chez eux, leur travail terminé. Les [from.GetSpeciesNamePlural] ont organisé une grande fête pour marquer le départ des missionnaires, qui se sont fait beaucoup d'amis pendant leur séjour dans le [from.GetName]. J'espère que cela inaugurera une nouvelle période d'amitié entre nos nations."
 dpe_spiritualist_mission.10.option.continue:0 "Continuez la mission - ils font un travail précieux."
@@ -305,7 +305,7 @@ dpe_spiritualist_mission.1011.desc:0 "Chers [root.GetSpeciesNamePlural], nous ac
 dpe_spiritualist_mission.1011.option:0 "L'illumination n'est pas pour tous."
  
 dpe_spiritualist_mission.1099.name:0 "Mission Accomplie"
-dpe_spiritualist_mission.1099.desc:0 "La mission [from.GetSpeciesAdj] se prépare à rentrer chez elle, sa mission terminée : grâce à son travail infatigable, le spiritisme fait désormais partie intégrante de notre mode de vie. Une grande cérémonie a été organisée pour célébrer le départ des missionnaires, qui se sont fait beaucoup d'amis au cours des années passées dans notre ' [root.GetName]'. Certains [from.GetSpeciesNamePlural] ont demandé la permission de rester sur [dpe_mission_host_planet.GetName] et continuent de guider les [root.GetSpeciesNamePlural]. Devrions-nous leur accorder cela?"
+dpe_spiritualist_mission.1099.desc:0 "La mission [from.GetSpeciesAdj] se prépare à rentrer chez elle, sa mission terminée : grâce à son travail infatigable, le spiritisme fait désormais partie intégrante de notre mode de vie. Une grande cérémonie a été organisée pour célébrer le départ des missionnaires, qui se sont fait beaucoup d'amis au cours des années passées dans notre ' [root.GetName]§!'. Certains [from.GetSpeciesNamePlural] ont demandé la permission de rester sur [dpe_mission_host_planet.GetName] et continuent de guider les [root.GetSpeciesNamePlural]. Devrions-nous leur accorder cela?"
 dpe_spiritualist_mission.1099.A:0 "Bien sûr, ils sont les bienvenus ici."
 dpe_spiritualist_mission.1099.B:0 "Il n'y a pas de place pour eux dans notre état."
 
@@ -331,7 +331,7 @@ dpe_spiritualist_mission.9632.name:0 "Attaque des extradimensionnels [dpe_missio
 dpe_spiritualist_mission.9632.desc:0 "Les envahisseurs extradimensionnels ont frappé [dpe_mission_host_planet.GetName], où étaient basés les missionnaires [from.GetSpeciesAdj]! Les missionnaires ont été abattus, ainsi que tous les autres habitants de la planète."
 
 dpe_spiritualist_mission.971.name:0 "Nos Missionaires rentrent"
-dpe_spiritualist_mission.971.desc:0 "'[dpe_neighbour.GetName]' a perdu le contrôle de [dpe_mission_host_planet.GetName], la planète où nos missionnaires étaient actifs. Heureusement, nos missionnaires ont pu échapper au chaos indemnes et sont rentrés chez eux."
+dpe_spiritualist_mission.971.desc:0 "'§Y[dpe_neighbour.GetName]§!' a perdu le contrôle de [dpe_mission_host_planet.GetName], la planète où nos missionnaires étaient actifs. Heureusement, nos missionnaires ont pu échapper au chaos indemnes et sont rentrés chez eux."
 
 dpe_spiritualist_mission.972.name:0 "Les Missionnaires [from.GetSpeciesAdj] rentrent chez eux"
 dpe_spiritualist_mission.972.desc:0 "Avec la perte de [dpe_mission_host_planet.GetName] au [fromfromfrom.GetName], les missionnaires [from.GetSpeciesAdj] sont retournés dans leur patrie."
@@ -339,9 +339,9 @@ dpe_spiritualist_mission.972.desc:0 "Avec la perte de [dpe_mission_host_planet.G
 dpe_spiritualist_mission.98.name:0 "Guerre contre les Missionnaires!"
 dpe_spiritualist_mission.98.desc:0 "La guerre entre nous et le [dpe_missionary_country.GetName] nous a mis dans une position délicate. Ils avaient mis en place une mission sur [dpe_mission_host_planet.GetName], dont nous devons maintenant décider quoi faire. Certains ont préconisé simplement de les renvoyer dans leur pays d'origine, d'autres veulent faire une déclaration en les tuant. Qu'est-ce qui devrait être fait ?" 
 dpe_spiritualist_mission.98.A:0 "Tuez-les tous, nous leur montrerons ce qui se passe quand ils se moquent de nous!"
-dpe_spiritualist_mission.98.A.tooltip:0 "Les Relations avec tous les empires non alliés dans cette guerre: §R-30§!\nRelations avec '[dpe_missionary_country.GetName]': §R-100§!"
+dpe_spiritualist_mission.98.A.tooltip:0 "Les Relations avec tous les empires non alliés dans cette guerre: §R-30§!\nRelations avec '§Y[dpe_missionary_country.GetName]§!': §R-100§!"
 dpe_spiritualist_mission.98.B:0 "Envoyez-les à la maison. Nous sommes peut-être des ennemis, mais nous ne sommes pas des sauvages."
-dpe_spiritualist_mission.98.B.tooltip:0 "Les Relations avec tous les empires non alliés dans cette guerre: §G+30§!\nRelations avec '[dpe_missionary_country.GetName]': §R+50§!"
+dpe_spiritualist_mission.98.B.tooltip:0 "Les Relations avec tous les empires non alliés dans cette guerre: §G+30§!\nRelations avec '§Y[dpe_missionary_country.GetName]§!': §R+50§!"
 dpe_spiritualist_mission.98.C:0 "Emprisonnez-les. Ils ont trop vu pour être autorisés à aider notre ennemi."
 
 dpe_dishonourable_in_war:0 "Déshonorant en temps de guerre"
@@ -354,14 +354,14 @@ dpe_spiritualist_mission.981.name:0 "Nos missionnaires massacrés !"
 dpe_spiritualist_mission.981.desc:0 "Nous avons appris que, au début de la guerre, les païens [dpe_neighbour.GetSpeciesNamePlural] que nous essayions d'éclairer ont tué nos missionnaires. Les gens sont scandalisés par cette atrocité !"
 dpe_spiritualist_mission.981.option:0 "Les sauvages paieront pour cela !"
 dpe_spiritualist_mission.982.name:0 "Nos missionnaires nous sont retournés !"
-dpe_spiritualist_mission.982.desc:0 "En raison de notre conflit actuel avec '[dpe_neighbour.GetName]', nos missionnaires nous ont été rendus. Ils disent qu'ils ont été traités décemment, mais la plupart de leurs biens et matériaux ont été confisqués."
+dpe_spiritualist_mission.982.desc:0 "En raison de notre conflit actuel avec '§Y[dpe_neighbour.GetName]§!', nos missionnaires nous ont été rendus. Ils disent qu'ils ont été traités décemment, mais la plupart de leurs biens et matériaux ont été confisqués."
 dpe_spiritualist_mission.982.option:0 "Les choses pourraient être pires, tout bien considéré."
 dpe_spiritualist_mission.983.name:0 "Our Missionnaires imprisoned!"
-dpe_spiritualist_mission.983.desc:0 "Le récent déclenchement d'hostilités entre nous et '[dpe_neighbour.GetName]' a entraîné des conséquences inattendues. Nos tentatives pour les éclairer ont mis nos citoyens en danger. Ils sont actuellement en garde à vue le [dpe_mission_host_planet.GetName] et toutes les demandes de libération ont été ignorées."
+dpe_spiritualist_mission.983.desc:0 "Le récent déclenchement d'hostilités entre nous et '§Y[dpe_neighbour.GetName]§!' a entraîné des conséquences inattendues. Nos tentatives pour les éclairer ont mis nos citoyens en danger. Ils sont actuellement en garde à vue le [dpe_mission_host_planet.GetName] et toutes les demandes de libération ont été ignorées."
 dpe_spiritualist_mission.983.option:0 "Au moins, ils sont encore en vie."
 
-dpe_spiritualist_mission.991.name:0 "'[LastKilledCountryName]' s'effondre!"
-dpe_spiritualist_mission.991.desc:0 "'[LastKilledCountryName]' s'est effondré face à toutes ses luttes. Leurs missionnaires n'ont désormais plus de maison où retourner. Que devons-nous faire à leur sujet?"
+dpe_spiritualist_mission.991.name:0 "'§Y[LastKilledCountryName]§!' s'effondre!"
+dpe_spiritualist_mission.991.desc:0 "'§Y[LastKilledCountryName]§!' s'est effondré face à toutes ses luttes. Leurs missionnaires n'ont désormais plus de maison où retourner. Que devons-nous faire à leur sujet?"
 dpe_spiritualist_mission.991.A:0 "Accordez-leur la citoyenneté, c'est le moins que nous puissions faire."
 dpe_spiritualist_mission.991.B:0 "Ils feront de bons esclaves."
 dpe_spiritualist_mission.991.C:0 "Ils devront trouver leur nouvelle maison ailleurs."
@@ -374,8 +374,8 @@ dpe_missionary_planet_desc:0 "D'anciens missionnaires d'un voisin ont élu domic
 
 #Xenophile Mission
 
-dpe_xenophile_mission.3.name:0 "Découverte de '[dpe_new_contact.GetName]'"
-dpe_xenophile_mission.3.desc:0 "Beaucoup de [root.GetSpeciesNamePlural] sont fascinés par la découverte de '[dpe_new_contact.GetName]', une nouvelle société xeno très avancée. Les médias sont submergés de spéculations sur les [dpe_new_contact.GetSpeciesNamePlural], et la population demande à pouvoir en savoir plus. Inspiré par cette vague d'enthousiasme, la faction xénophile '[xenophile_faction.GetName]' a contacté les représentants du gouvernement et présenté un plan ambitieux pour entrer en contact avec les [dpe_new_contact.GetSpeciesNamePlural] et leur proposer un échange culturel, pour que les [root.GetSpeciesNamePlural] et les [dpe_new_contact.GetSpeciesNamePlural] apprennent à mieux se comprendre. Si '[dpe_new_contact.GetName]' approuve, plusieurs vaisseaux civils privés emmèneront un groupe de [root.GetSpeciesNamePlural] vers '[dpe_new_contact.GetName]', où ils passeront plusieurs mois à vivre parmi les [dpe_new_contact.GetSpeciesNamePlural], et '[dpe_new_contact.GetName]' fera de même en retour. Faut-il proposer un tel échange ?"
+dpe_xenophile_mission.3.name:0 "Découverte de '§Y[dpe_new_contact.GetName]§!'"
+dpe_xenophile_mission.3.desc:0 "Beaucoup de [root.GetSpeciesNamePlural] sont fascinés par la découverte de '§Y[dpe_new_contact.GetName]§!', une nouvelle société xeno très avancée. Les médias sont submergés de spéculations sur les [dpe_new_contact.GetSpeciesNamePlural], et la population demande à pouvoir en savoir plus. Inspiré par cette vague d'enthousiasme, la faction xénophile '§Y[xenophile_faction.GetName]§!' a contacté les représentants du gouvernement et présenté un plan ambitieux pour entrer en contact avec les [dpe_new_contact.GetSpeciesNamePlural] et leur proposer un échange culturel, pour que les [root.GetSpeciesNamePlural] et les [dpe_new_contact.GetSpeciesNamePlural] apprennent à mieux se comprendre. Si '§Y[dpe_new_contact.GetName]§!' approuve, plusieurs vaisseaux civils privés emmèneront un groupe de [root.GetSpeciesNamePlural] vers '§Y[dpe_new_contact.GetName]§!', où ils passeront plusieurs mois à vivre parmi les [dpe_new_contact.GetSpeciesNamePlural], et '§Y[dpe_new_contact.GetName]§!' fera de même en retour. Faut-il proposer un tel échange ?"
 dpe_xenophile_mission.3.A:0 "Bien sûr"
 dpe_xenophile_mission.3.B:0 "Non, nous apprendrons à les connaître ultérieurement."
 
@@ -386,16 +386,16 @@ dpe_xenophile_mission.4.desc:0 "Noble [root.GetSpeciesNamePluralCompliment], nou
 dpe_xenophile_mission.4.A:0 "Ce sera un plaisir de faire plus amples connaissances avec les [from.GetSpeciesNamePlural]."
 dpe_xenophile_mission.4.B:0 "Nous ne sommes pas intéressés par un échange culturel."
 dpe_xenophile_mission.4.C:0 "(Mensonge) Nous serons heureux de profiter de cette occasion pour en apprendre davantage sur votre genre."
-dpe_xenophile_mission.4.C.tooltip:0 "Notre mission tentera d'apprendre le plus possible sur les systèmes, la technologie et l'armée de '[from.GetName]'. '[from.GetName]' sera irrité si notre espionnage est découvert."
+dpe_xenophile_mission.4.C.tooltip:0 "Notre mission tentera d'apprendre le plus possible sur les systèmes, la technologie et l'armée de '§Y[from.GetName]§!'. '§Y[from.GetName]§!' sera irrité si notre espionnage est découvert."
 dpe_xenophile_mission.4.D:0 "(Mensonge) Nous sommes impatients d'accueillir vos citoyens."
 dpe_xenophile_mission.4.D.tooltip:0 "Nous tenterons de prendre leur mission en otage et de leur extorquer des conditions favorables pour leur retour en toute sécurité. Les [from.GetSpeciesNamePlural] constituent une menace contre laquelle nous devons prendre des mesures préventives !"
 
 dpe_xenophile_mission_opinion:0 "Mission de découverte"
 dpe_rejected_xenophile_mission_opinion:0 "Mission de découverte rejetée"
 
-dpe_xenophile_mission.5.name:0 "'[dpe_new_contact.GetName]' apporte sa réponse"
+dpe_xenophile_mission.5.name:0 "'§Y[dpe_new_contact.GetName]§!' apporte sa réponse"
 dpe_xenophile_mission.5.desc:0 "Ce sera un plaisir de faire plus amples connaissances avec les [root.GetSpeciesNamePlural]."
-dpe_xenophile_mission.6.name:0 "'[dpe_new_contact.GetName]' apporte sa réponse"
+dpe_xenophile_mission.6.name:0 "'§Y[dpe_new_contact.GetName]§!' apporte sa réponse"
 dpe_xenophile_mission.6.desc:0 "Nous ne sommes pas intéressés par un échange culturel."
 
 dpe_xenophile_mission.7.name:0 "Arrivée de la délégation [from.GetSpeciesAdj]"
@@ -425,16 +425,16 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.21.desc:0 "Nous ne pensons pas que cet arrangement fonctionne. Pour des raisons de sécurité nationale, nous devons mettre fin à la mission de découverte."
  dpe_xenophile_mission.21.option:0 "Décevant."
  
- dpe_xenophile_mission.22.name:0 "'[from.GetSpeciesNamePlural]' nous a trahi"
- dpe_xenophile_mission.22.desc:0 "Le premier signe de trahison a été le départ soudain des [from.GetSpeciesNamePlural] de nos planètes, puis, avant que nous puissions réagir, de notre espace. Ensuite, des histoires horribles ont filtré à partir de '[from.GetName]': les [from.GetSpeciesNamePlural] avaient entraîné notre délégation dans un guet-apens planifié, et après un échange de feu bref mais sans espoir, les avait pris en otage. \n\nNous avons contacté les diplomates pour demander une explication de cette action. Dans l'intervalle, les perspectives positives de notre population envers les xénos ont été gravement ébranlées."
+ dpe_xenophile_mission.22.name:0 "'§Y[from.GetSpeciesNamePlural]§!' nous a trahi"
+ dpe_xenophile_mission.22.desc:0 "Le premier signe de trahison a été le départ soudain des [from.GetSpeciesNamePlural] de nos planètes, puis, avant que nous puissions réagir, de notre espace. Ensuite, des histoires horribles ont filtré à partir de '§Y[from.GetName]§!': les [from.GetSpeciesNamePlural] avaient entraîné notre délégation dans un guet-apens planifié, et après un échange de feu bref mais sans espoir, les avait pris en otage. \n\nNous avons contacté les diplomates pour demander une explication de cette action. Dans l'intervalle, les perspectives positives de notre population envers les xénos ont été gravement ébranlées."
  dpe_xenophile_mission.22.option:0 "Comment osent-ils?"
 
  dpe_xenophile_mission.23.name:0 "Définir nos exigences"
  dpe_xenophile_mission.23.desc:0 "Expliquez-vous, quel est ce comportement perfide, [root.GetSpeciesName]."
  dpe_xenophile_mission.23.A:0 "Donnez-nous de l'argent, ou les otages meurent."
- dpe_xenophile_mission.23.A.tooltip:0 "Si '[from.GetName]' accepte, ils deviendront tributaire de '[root.GetName]'."
+ dpe_xenophile_mission.23.A.tooltip:0 "Si '§Y[from.GetName]§!' accepte, ils deviendront tributaire de '§Y[root.GetName]§!'."
  dpe_xenophile_mission.23.B:0 "Démantelez votre flotte, ou les otages meurent."
- dpe_xenophile_mission.23.B.tooltip:0 "Si '[from.GetName]' accepte, un tiers de sa flotte sera démantelée, et sa capacité navale sera réduite de 33% pendant 15 ans."
+ dpe_xenophile_mission.23.B.tooltip:0 "Si '§Y[from.GetName]§!' accepte, un tiers de sa flotte sera démantelée, et sa capacité navale sera réduite de 33% pendant 15 ans."
  
  dpe_xenophile_mission.24.name:0 "Les demandes des [from.GetSpeciesNamePlural]"
  dpe_xenophile_mission.24.desc:0 "Donnez-nous de l'argent, ou les otages meurent."
@@ -447,7 +447,7 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.25.A.tooltip:0 "Un tiers de la flotte sera démantelé."
  dpe_xenophile_mission.25.B:0 "$dpe_xenophile_mission.24.B$"
  
- dpe_xenophile_mission.29.name:0 "'[from.GetSpeciesNamePlural]' nous a trahi"
+ dpe_xenophile_mission.29.name:0 "'§Y[from.GetSpeciesNamePlural]§!' nous a trahi"
  dpe_xenophile_mission.29.desc:0 "Le premier signe de traîtrise a été le départ soudain des [from.GetSpeciesNamePlural] de nos planètes, puis, avant que nous puissions réagir, notre espace. Ensuite, des histoires horribles ont filtrées à partir de [from.GetName]: Les [from.GetSpeciesNamePlural] ont conduits nos délégués sur un parcours bien planifié et ont tenté de les prendre en otage. Cependant, un technicien héroïque [root.GetSpeciesAdj] a réussi à mettre la main sur un explosif à base d'antimatière et l'a fait exploser, de sorte que les [from.GetSpeciesNamePlural] ne puissent pas utiliser nos délégués contre nous, ce qui a considérablement endommagé [random_planet.GetName]. Notre population est en deuil après le décès de nos délégués, qui sont maintenant considérés comme des héros. Leur attitude positive envers les xenos a été sévèrement secouée."
  dpe_xenophile_mission.29.option:0 "Comment osent-ils ?"
  
@@ -456,11 +456,11 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.291.A:0 "Nous devons punir les terroristes."
  dpe_xenophile_mission.291.B:0 "Fermez les frontières, les [from.GetSpeciesNamePlural] ne sont pas les bienvenus ici."
 
- dpe_xenophile_mission.292.name:0 "'[from.GetName]' nous déclare la Guerre !"
+ dpe_xenophile_mission.292.name:0 "'§Y[from.GetName]§!' nous déclare la Guerre !"
  dpe_xenophile_mission.292.desc:0 "Sale écume de terroriste! Nous aurons notre revanche sur vous."
  dpe_xenophile_mission.292.option:0 "Votre hypocrisie est incroyable, [from.GetSpeciesName]."
 
- dpe_xenophile_mission.293.name:0 "Réponse de '[from.GetSpeciesNamePlural]'"
+ dpe_xenophile_mission.293.name:0 "Réponse de '§Y[from.GetSpeciesNamePlural]§!'"
  dpe_xenophile_mission.293.desc:0 "Votre hypocrisie est incroyable, [from.GetSpeciesName]."
  dpe_xenophile_mission.293.option:0 "Meurs, racaille."
  
@@ -474,7 +474,7 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  
 #Tensions event chain
  dpe_xenophile_mission.81.name:0 "Tensions avec notre délégation"
- dpe_xenophile_mission.81.desc:0 "Il y a eu un certain nombre d'incidents malheureux autour de notre délégation au '[from.GetName]'. Ceux-ci ont d'abord été déclenchées par un certain nombre de malentendus culturels de notre peuple, ce qui est peut-être inévitable lorsque deux groupes issus de milieux totalement étrangers se rencontrent. Malheureusement, des éléments xénophobes au sein de la société [from.GetSpeciesAdj] se sont emparés de ces incidents pour provoquer un retour de bâton : notre population est de plus en plus accueillie par des manifestations où qu'elle aille et le gouvernement [from.GetSpeciesAdj] nous a informés que ses services de sécurité avaient déjoué plusieurs tentatives de violence contre et qu’ils ne peuvent garantir leur sécurité. Certains de nos délégués ont été suffisamment effrayés par cette nouvelle pour exiger qu'ils soient autorisés à rentrer chez eux immédiatement, souhait que leur chef a accordé ; cependant, la plupart d'entre eux ont l'intention de surmonter cette crise, dans l'espoir que ces difficultés pourront être surmontées. Faut-il les convoquer et les renvoyer chez eux?"
+ dpe_xenophile_mission.81.desc:0 "Il y a eu un certain nombre d'incidents malheureux autour de notre délégation au '§Y[from.GetName]§!'. Ceux-ci ont d'abord été déclenchées par un certain nombre de malentendus culturels de notre peuple, ce qui est peut-être inévitable lorsque deux groupes issus de milieux totalement étrangers se rencontrent. Malheureusement, des éléments xénophobes au sein de la société [from.GetSpeciesAdj] se sont emparés de ces incidents pour provoquer un retour de bâton : notre population est de plus en plus accueillie par des manifestations où qu'elle aille et le gouvernement [from.GetSpeciesAdj] nous a informés que ses services de sécurité avaient déjoué plusieurs tentatives de violence contre et qu’ils ne peuvent garantir leur sécurité. Certains de nos délégués ont été suffisamment effrayés par cette nouvelle pour exiger qu'ils soient autorisés à rentrer chez eux immédiatement, souhait que leur chef a accordé ; cependant, la plupart d'entre eux ont l'intention de surmonter cette crise, dans l'espoir que ces difficultés pourront être surmontées. Faut-il les convoquer et les renvoyer chez eux?"
  dpe_xenophile_mission.81.A:0 "Continuez comme ça - personne ne s'attendait à ce que ce soit facile."
  dpe_xenophile_mission.81.B:0 "Ramenons-les chez nous, avant qu'il ne se passe quoi que ce soit de pire!"
 
@@ -484,7 +484,7 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.82.B:0 "Envoyez-les à la maison, avant que quelque chose de pire ne se produise!"
  
  dpe_xenophile_mission.83.name:0 "Les [from.GetSpeciesNamePlural] se retirent de la mission de découverte"
- dpe_xenophile_mission.83.desc:0 "À la suite d'un certain nombre d'incidents malheureux, '[from.GetName]' a convoqué sa délégation chez elle. Les incidents ont d'abord été déclenchés par un certain nombre de malentendus culturels des [from.GetSpeciesNamePlural], le genre qui est peut-être inévitable lorsque deux groupes issus de milieux totalement étrangers se rencontrent. Malheureusement, ceux au sein de notre société qui chercheraient à éloigner notre espèce des influences extérieures ont saisi ces incidents pour provoquer un contrecoup : les [from.GetSpeciesNamePlural] sont de plus en plus accueillis par des protestations partout où ils vont, et nos services de sécurité ont déjoué plusieurs tentatives de violence contre leur. Face à une situation incertaine, le gouvernement [from.GetSpeciesAdj] a choisi de rappeler sa délégation plutôt que de risquer leur sécurité. Ils nous ont également informés qu'il serait préférable que notre délégation sur leurs planètes se retire, car les tensions sont trop fortes pour que leur présence soit utile à l'un ou l'autre État."
+ dpe_xenophile_mission.83.desc:0 "À la suite d'un certain nombre d'incidents malheureux, '§Y[from.GetName]§!' a convoqué sa délégation chez elle. Les incidents ont d'abord été déclenchés par un certain nombre de malentendus culturels des [from.GetSpeciesNamePlural], le genre qui est peut-être inévitable lorsque deux groupes issus de milieux totalement étrangers se rencontrent. Malheureusement, ceux au sein de notre société qui chercheraient à éloigner notre espèce des influences extérieures ont saisi ces incidents pour provoquer un contrecoup : les [from.GetSpeciesNamePlural] sont de plus en plus accueillis par des protestations partout où ils vont, et nos services de sécurité ont déjoué plusieurs tentatives de violence contre leur. Face à une situation incertaine, le gouvernement [from.GetSpeciesAdj] a choisi de rappeler sa délégation plutôt que de risquer leur sécurité. Ils nous ont également informés qu'il serait préférable que notre délégation sur leurs planètes se retire, car les tensions sont trop fortes pour que leur présence soit utile à l'un ou l'autre État."
  
  dpe_xenophile_mission.84.name:0 "Les [from.GetSpeciesNamePlural] envoient notre délégation à la maison"
  dpe_xenophile_mission.84.desc:0 "Nous ne pouvons garantir la sécurité de votre délégation. Il faut donc la renvoyer chez eux."
@@ -503,7 +503,7 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.92.B:0 "Condamnez l'attaque et poursuivez les terroristes de toutes leurs forces."
  
  dpe_xenophile_mission.93.name:0 "$dpe_xenophile_mission.92.name$"
- dpe_xenophile_mission.93.desc:0 "Il y a eu une faille de sécurité majeure ! Ce matin, un groupe de [root.GetSpeciesNamePlural] a ouvert le feu sur les délégués [from.GetSpeciesNamePlural] avant de faire exploser une bombe au milieu d'eux. Nos services de sécurité étaient impuissants à empêcher la tragédie. Un grand nombre de [from.GetSpeciesNamePlural] ont été tués et de nombreux autres blessés. Les survivants ont été évacués avec effet immédiat, et '[from.GetName]' a demandé à notre propre délégation de rentrer chez elle immédiatement, invoquant des craintes pour la sécurité. Les responsables de leur gouvernement n'ont pas tardé à rejeter la faute sur notre peuple, affirmant que les 'trompeurs', 'intolérants' et 'belliqueux' [root.GetSpeciesNamePlural] avaient abusé de leur confiance. On ne sait pas comment nos relations avec les [from.GetSpeciesNamePlural] se développeront d'ici."
+ dpe_xenophile_mission.93.desc:0 "Il y a eu une faille de sécurité majeure ! Ce matin, un groupe de [root.GetSpeciesNamePlural] a ouvert le feu sur les délégués [from.GetSpeciesNamePlural] avant de faire exploser une bombe au milieu d'eux. Nos services de sécurité étaient impuissants à empêcher la tragédie. Un grand nombre de [from.GetSpeciesNamePlural] ont été tués et de nombreux autres blessés. Les survivants ont été évacués avec effet immédiat, et '§Y[from.GetName]§!' a demandé à notre propre délégation de rentrer chez elle immédiatement, invoquant des craintes pour la sécurité. Les responsables de leur gouvernement n'ont pas tardé à rejeter la faute sur notre peuple, affirmant que les 'trompeurs', 'intolérants' et 'belliqueux' [root.GetSpeciesNamePlural] avaient abusé de leur confiance. On ne sait pas comment nos relations avec les [from.GetSpeciesNamePlural] se développeront d'ici."
  
  dpe_xenophile_mission.94.name:0 "Les [from.GetSpeciesNamePlural] nous blâment pour la tragédie!"
  dpe_xenophile_mission.94.desc:0 "Votre délégation a obtenu ce qu'elle méritait, sales xénos."
@@ -523,8 +523,8 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.11.desc.subsequent:0 "Nos agents parmi notre délégation au [from.GetName] ont réussi à renvoyer chez eux un autre container d'objets technologiques [from.GetSpeciesAdj] pour que nos scientifiques puissent travailler dessus. Les [from.GetSpeciesNamePlural] ne soupçonnent toujours rien de nos opérations."
  dpe_xenophile_mission.11.desc.spying:0 "Nos agents parmi notre délégation au [from.GetName] ont réussi à renvoyer chez eux un autre container d'objets technologiques [from.GetSpeciesAdj] pour que nos scientifiques puissent travailler dessus. Les [from.GetSpeciesNamePlural] n'ont pas réalisé que nous menons toujours ces opérations."
  
- dpe_xenophile_mission.12.name:0 "'[from.GetSpeciesNamePlural]' nous espionnent !"
- dpe_xenophile_mission.12.desc:0 "Nos services de renseignement ont découvert quelque chose de troublant: des membres de la délégation des [from.GetSpeciesAdj] ont été surpris en train de faire passer en contrebande des échantillons de nos technologies vers '[from.GetName]'. Nous avons arrêté les coupables. Ils refusent de parler, mais nos services de renseignement ont passé en revue leurs activités récentes, et il semble probable que cela faisait partie d'un effort plus large des [from.GetSpeciesNamePlural] pour découvrir nos secrets. Nous avons une petite fenêtre d'action avant que les dirigeants [from.GetSpeciesAdj] apprennent les arrestations; nos responsables du renseignement suggèrent que nous fassions un raid sur le vaisseau principal des [from.GetSpeciesAdj] et recherchons d'autres preuves. Cependant, il sera difficile de désamorcer la situation si nous le faisons. Que devons-nous faire ?"
+ dpe_xenophile_mission.12.name:0 "'§Y[from.GetSpeciesNamePlural]§!' nous espionnent !"
+ dpe_xenophile_mission.12.desc:0 "Nos services de renseignement ont découvert quelque chose de troublant: des membres de la délégation des [from.GetSpeciesAdj] ont été surpris en train de faire passer en contrebande des échantillons de nos technologies vers '§Y[from.GetName]§!'. Nous avons arrêté les coupables. Ils refusent de parler, mais nos services de renseignement ont passé en revue leurs activités récentes, et il semble probable que cela faisait partie d'un effort plus large des [from.GetSpeciesNamePlural] pour découvrir nos secrets. Nous avons une petite fenêtre d'action avant que les dirigeants [from.GetSpeciesAdj] apprennent les arrestations; nos responsables du renseignement suggèrent que nous fassions un raid sur le vaisseau principal des [from.GetSpeciesAdj] et recherchons d'autres preuves. Cependant, il sera difficile de désamorcer la situation si nous le faisons. Que devons-nous faire ?"
  dpe_xenophile_mission.12.A:0 "Pillons leur vaisseau."
  dpe_xenophile_mission.12.B:0 "Traitez l'affaire discrètement."
  dpe_xenophile_mission.12.B.tooltip:0 "Abordez-les avec leurs dirigeants en témoins, et prévenez-les que de telles transgressions ne seront pas tolérées."
@@ -550,12 +550,12 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.141.desc:0 "Tromper les [root.GetSpeciesNamePlural], nous mentir une fois est déjà assez mauvais, mais être surpris en train de nous tromper deux fois ... Vous vous faites de pauvres amis."
  
  dpe_xenophile_mission.13.name:0 "Le raid sur le vaisseau [fromfrom.GetSpeciesAdj]"
- dpe_xenophile_mission.13.desc:0 "Le raid a confirmé nos craintes : la délégation [fromfrom.GetSpeciesAdj] pour promouvoir l'amitié avec notre espèce n'était qu'un écran pour cacher sa véritable intention, de voler nos connaissances. Depuis le début de la mission, ils ont canalisé d'innombrables prototypes, échantillons, collectes de données et de programmes logiciels vers '[fromfrom.GetName]'. Nous avons arrêté les [fromfrom.GetSpeciesNamePlural]. Que devons-nous faire à leur sujet ?"
+ dpe_xenophile_mission.13.desc:0 "Le raid a confirmé nos craintes : la délégation [fromfrom.GetSpeciesAdj] pour promouvoir l'amitié avec notre espèce n'était qu'un écran pour cacher sa véritable intention, de voler nos connaissances. Depuis le début de la mission, ils ont canalisé d'innombrables prototypes, échantillons, collectes de données et de programmes logiciels vers '§Y[fromfrom.GetName]§!'. Nous avons arrêté les [fromfrom.GetSpeciesNamePlural]. Que devons-nous faire à leur sujet ?"
  dpe_xenophile_mission.13.A:0 "Annulez la mission, mais permettez-leur de rentrer chez eux."
  dpe_xenophile_mission.13.B:0 "Jugons-les selon nos lois."
  
  dpe_xenophile_mission.131.name:0 "Les [from.GetSpeciesNamePlural] Nous ont surpris en train d'espionner!"
- dpe_xenophile_mission.131.desc:0 "Chers [root.GetSpeciesNamePlural], nous devons vous informer que votre mission culturelle dans nos mondes est terminée. De même, nous retirons notre mission de vos mondes. Nous avons pris cette décision après avoir appréhendé un certain nombre de vos [root.GetSpeciesNamePlural] alors qu'ils tentaient de faire passer nos technologies hors de '[from.GetName]'. En soupçonnant un complot, nous avons attaqué votre vaisseau et découvert des preuves que votre délégation n'était qu'un écran pour cacher votre véritable intention de voler nos connaissances. Nous ne voulons pas être vos ennemis, mais cette révélation a gravement ébranlé notre confiance en vous. Nous y réfléchirons à deux fois avant de coopérer à nouveau avec les [root.GetSpeciesNamePlural]."
+ dpe_xenophile_mission.131.desc:0 "Chers [root.GetSpeciesNamePlural], nous devons vous informer que votre mission culturelle dans nos mondes est terminée. De même, nous retirons notre mission de vos mondes. Nous avons pris cette décision après avoir appréhendé un certain nombre de vos [root.GetSpeciesNamePlural] alors qu'ils tentaient de faire passer nos technologies hors de '§Y[from.GetName]§!'. En soupçonnant un complot, nous avons attaqué votre vaisseau et découvert des preuves que votre délégation n'était qu'un écran pour cacher votre véritable intention de voler nos connaissances. Nous ne voulons pas être vos ennemis, mais cette révélation a gravement ébranlé notre confiance en vous. Nous y réfléchirons à deux fois avant de coopérer à nouveau avec les [root.GetSpeciesNamePlural]."
  
  dpe_xenophile_mission.132.name:0 "$dpe_xenophile_mission.131.name$"
  dpe_xenophile_mission.132.desc:0 "Les [from.GetSpeciesNamePlural] ont découvert notre espionnage! Il semble qu'ils aient appréhendé un groupe de nos délégués alors qu'ils tentaient de faire passer le dernièr container en contrebande. Avant que nous puissions réagir, ils ont lancé un raid sur notre vaisseau principal et ont rapidement découvert la vérité. Le gouvernement [from.GetSpeciesAdj] et le public sont furieux. Ils refusent de permettre à nos délégués de rentrer chez eux et ont choisi de les juger en vertu de leurs propres lois. Nous ne les reverrons peut-être jamais."
@@ -583,23 +583,23 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
 
 #Techs sub-chain
  dpe_xenophile_mission.15.name:0 "[from.GetSpeciesAdj] Intérêt pour nos technologies"
- dpe_xenophile_mission.15.desc:0 "La délégation [from.GetSpeciesAdj] a été fascinée par certains éléments de la technologie [root.GetSpeciesAdj], qui est apparemment beaucoup plus avancé que la leur. Un scientifique de la mission a réussi à comprendre comment cela fonctionne et a élaboré un plan sur la façon dont il pourrait être utilisé dans '[from.GetName]'. Elle a demandé notre autorisation d'envoyer son travail à leur  planète d'origine pour y poursuivre ses études."
+ dpe_xenophile_mission.15.desc:0 "La délégation [from.GetSpeciesAdj] a été fascinée par certains éléments de la technologie [root.GetSpeciesAdj], qui est apparemment beaucoup plus avancé que la leur. Un scientifique de la mission a réussi à comprendre comment cela fonctionne et a élaboré un plan sur la façon dont il pourrait être utilisé dans '§Y[from.GetName]§!'. Elle a demandé notre autorisation d'envoyer son travail à leur  planète d'origine pour y poursuivre ses études."
  dpe_xenophile_mission.15.A:0 "Offrez-le en cadeau."
  dpe_xenophile_mission.15.B:0 "Proposer un échange contre certains prototypes de leur propre technologie."
  dpe_xenophile_mission.15.C:0 "Ils ne peuvent pas l'avoir."
 
  dpe_xenophile_mission.16.name:0 "Un cadeau de Technologie [from.GetSpeciesAdj]"
- dpe_xenophile_mission.16.desc:0 "Notre délégation a été fascinée par un certain élément de la technologie [from.GetSpeciesAdj], qui est nettement plus avancé que la nôtre. Un scientifique de la mission a réussi à comprendre comment cela fonctionne et a élaboré un plan sur la façon dont il pourrait être utilisé dans notre '[root.GetName]'. Avec la permission de '[from.GetName]', elle a envoyé des échantillons avec la dernière dépêche."
+ dpe_xenophile_mission.16.desc:0 "Notre délégation a été fascinée par un certain élément de la technologie [from.GetSpeciesAdj], qui est nettement plus avancé que la nôtre. Un scientifique de la mission a réussi à comprendre comment cela fonctionne et a élaboré un plan sur la façon dont il pourrait être utilisé dans notre '§Y[root.GetName]§!'. Avec la permission de '§Y[from.GetName]§!', elle a envoyé des échantillons avec la dernière dépêche."
  
  dpe_xenophile_mission.17.name:0 "Echange Technologique ?"
- dpe_xenophile_mission.17.desc:0 "Notre délégation a été fascinée par un certain élément de la technologie [from.GetSpeciesAdj], qui est nettement plus avancé que la nôtre. Un scientifique de la mission a réussi à comprendre comment cela fonctionne et a élaboré un plan sur la façon dont il pourrait être utilisé dans notre '[root.GetName]'. Les [from.GetSpeciesNamePlural] lui ont permis de nous envoyer son travail à condition que nous leur envoyions en retour des échantillons de nos dernières technologies."
+ dpe_xenophile_mission.17.desc:0 "Notre délégation a été fascinée par un certain élément de la technologie [from.GetSpeciesAdj], qui est nettement plus avancé que la nôtre. Un scientifique de la mission a réussi à comprendre comment cela fonctionne et a élaboré un plan sur la façon dont il pourrait être utilisé dans notre '§Y[root.GetName]§!'. Les [from.GetSpeciesNamePlural] lui ont permis de nous envoyer son travail à condition que nous leur envoyions en retour des échantillons de nos dernières technologies."
  dpe_xenophile_mission.17.A:0 "Bien sûr, envoyez-leur les échantillons."
  dpe_xenophile_mission.17.B:0 "On peut se passer de cette technologie."
  dpe_xenophile_mission.17.C:0 "Essayez de faire passer son travail en contrebande."
  dpe_xenophile_mission.17.C.tooltip:0 "Les [from.GetSpeciesNamePlural] pourraient détecter notre tentative de contrebande et être très en colère."
 
  dpe_xenophile_mission.18.name:0 "Envie technologique"
- dpe_xenophile_mission.18.desc:0 "Notre délégation a été fascinée par un certain élément de la technologie [from.GetSpeciesAdj], qui est nettement plus avancé que la nôtre. Un scientifique de la mission a réussi à comprendre comment cela fonctionne et a élaboré un plan sur la façon dont il pourrait être utilisé dans notre '[root.GetName]'. However, the [from.GetSpeciesNamePlural] have refused to allow her to send us her work, claiming that this was not part of the agreement."
+ dpe_xenophile_mission.18.desc:0 "Notre délégation a été fascinée par un certain élément de la technologie [from.GetSpeciesAdj], qui est nettement plus avancé que la nôtre. Un scientifique de la mission a réussi à comprendre comment cela fonctionne et a élaboré un plan sur la façon dont il pourrait être utilisé dans notre '§Y[root.GetName]§!'. However, the [from.GetSpeciesNamePlural] have refused to allow her to send us her work, claiming that this was not part of the agreement."
  dpe_xenophile_mission.18.A:0 "Essayez de faire passer son travail en contrebande."
 
  dpe_xenophile_mission.171.name:0 "$dpe_title_response$"
@@ -611,7 +611,7 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.172.option:0 "Une honte."
  
  dpe_xenophile_mission.173.name:0 "Opération de contrebande réussie"
- dpe_xenophile_mission.173.desc:0 "Notre équipe a réussi à faire passer clandestinement le travail de nos scientifiques hors de '[fromfrom.GetName]'. L'opération s'est déroulée sans accroc et les [fromfrom.GetSpeciesNamePlural] ne se doutent de rien."
+ dpe_xenophile_mission.173.desc:0 "Notre équipe a réussi à faire passer clandestinement le travail de nos scientifiques hors de '§Y[fromfrom.GetName]§!'. L'opération s'est déroulée sans accroc et les [fromfrom.GetSpeciesNamePlural] ne se doutent de rien."
  
  dpe_xenophile_mission.174.name:0 "Les [from.GetSpeciesNamePlural] ont tenté de faire passer nos Techs en contrebande !"
  dpe_xenophile_mission.174.desc:0 "Nos services de renseignement ont découvert quelque chose de troublant : n'ayant pas obtenu notre autorisation d'envoyer des échantillons de notre technologie au [from.GetName], les perfides [from.GetSpeciesNamePlural] tentent plutôt de la faire passer en contrebande chez eux. Les coupables sont maintenant en garde à vue, mais nous avons des preuves qu'ils agissaient sur ordre de l'État. Comment devons-nous réagir?"
@@ -623,7 +623,7 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.175.option:0 "Compris."
  
  dpe_xenophile_mission.176.name:0 "Indignation contre la contrebande"
- dpe_xenophile_mission.176.desc:0 "Chers [root.GetSpeciesNamePlural], nous devons vous informer que votre mission culturelle dans nos mondes est terminée. De même, nous retirons notre mission de vos mondes. Nous avons pris cette décision après avoir appréhendé un certain nombre de [root.GetSpeciesNamePlural] alors qu'ils tentaient de faire passer nos technologies hors de '[from.GetName]' - apparemment sur votre ordre. Cela a ébranlé notre confiance en vous. Nous y réfléchirons à deux fois avant de coopérer à nouveau avec les [root.GetSpeciesNamePlural]."
+ dpe_xenophile_mission.176.desc:0 "Chers [root.GetSpeciesNamePlural], nous devons vous informer que votre mission culturelle dans nos mondes est terminée. De même, nous retirons notre mission de vos mondes. Nous avons pris cette décision après avoir appréhendé un certain nombre de [root.GetSpeciesNamePlural] alors qu'ils tentaient de faire passer nos technologies hors de '§Y[from.GetName]§!' - apparemment sur votre ordre. Cela a ébranlé notre confiance en vous. Nous y réfléchirons à deux fois avant de coopérer à nouveau avec les [root.GetSpeciesNamePlural]."
 
  dpe_xenomission_denied_tech:0 "Partage de technologie refusé"
  dpe_xenomission_granted_tech:0 "Technologie reçue"
@@ -632,19 +632,19 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  
 #Xenophilia sub-chain
 dpe_xenophile_mission.150.title:0 "Mariages entre [root.GetSpeciesNamePlural] et [from.GetSpeciesNamePlural]"
-dpe_xenophile_mission.150.desc:0 "Les [from.GetSpeciesNamePlural] devant bientôt rentrer chez eux, un certain nombre des [from.GetSpeciesNamePlural] ont choisi d'épouser leurs partenaires [root.GetSpeciesAdj] et souhaitent rester dans '[root.GetName]'."
+dpe_xenophile_mission.150.desc:0 "Les [from.GetSpeciesNamePlural] devant bientôt rentrer chez eux, un certain nombre des [from.GetSpeciesNamePlural] ont choisi d'épouser leurs partenaires [root.GetSpeciesAdj] et souhaitent rester dans '§Y[root.GetName]§!'."
 
 dpe_xenophile_mission.151.title:0 "Des [root.GetSpeciesNamePlural] vivants avec les [from.GetSpeciesNamePlural]"
-dpe_xenophile_mission.151.desc:0 "Les [from.GetSpeciesNamePlural] devant bientôt rentrer chez eux, un certain nombre de [from.GetSpeciesNamePlural] ont choisi de rester avec leurs partenaires [root.GetSpeciesAdj] au sein de '[root.GetName]', même si ces partenariats ne bénéficient pas de tous les droits prévus par la loi [root.GetSpeciesAdj]."
+dpe_xenophile_mission.151.desc:0 "Les [from.GetSpeciesNamePlural] devant bientôt rentrer chez eux, un certain nombre de [from.GetSpeciesNamePlural] ont choisi de rester avec leurs partenaires [root.GetSpeciesAdj] au sein de '§Y[root.GetName]§!', même si ces partenariats ne bénéficient pas de tous les droits prévus par la loi [root.GetSpeciesAdj]."
 
 dpe_xenophile_mission.152.title:0 "Mariages entre [root.GetSpeciesNamePlural] et [from.GetSpeciesNamePlural]?"
-dpe_xenophile_mission.152.desc:0 "Les [from.GetSpeciesNamePlural] devant bientôt rentrer chez eux, la situation des couples [from.GetSpeciesName] - [root.GetSpeciesName] qui se sont formés a pris une nouvelle importance. La loi [root.GetSpeciesAdj] ne présente pas actuellement de décision claire sur la légalité de tels partenariats, ce qui crée une incertitude considérable pour les personnes concernées. La faction '[xenophile_faction.GetName]' a accepté de représenter leur cause et fait pression pour que ces unions soient reconneus au sein de '[root.GetName]' - bien que des éléments plus conservateurs de la société détestent l'idée même d'eux. Faut-il autoriser le mariage inter-espèces ?"
+dpe_xenophile_mission.152.desc:0 "Les [from.GetSpeciesNamePlural] devant bientôt rentrer chez eux, la situation des couples [from.GetSpeciesName] - [root.GetSpeciesName] qui se sont formés a pris une nouvelle importance. La loi [root.GetSpeciesAdj] ne présente pas actuellement de décision claire sur la légalité de tels partenariats, ce qui crée une incertitude considérable pour les personnes concernées. La faction '§Y[xenophile_faction.GetName]§!' a accepté de représenter leur cause et fait pression pour que ces unions soient reconneus au sein de '§Y[root.GetName]§!' - bien que des éléments plus conservateurs de la société détestent l'idée même d'eux. Faut-il autoriser le mariage inter-espèces ?"
 dpe_xenophile_mission.152.A:0 "Autoriser le mariage inter-espèces, ils peuvent rester."
 dpe_xenophile_mission.152.B:0 "Les tolérer, mais ne pas autoriser les mariages inter-espèces."
 dpe_xenophile_mission.152.C:0 "Interdisez les relations inter-espèces et envoyez-les en route."
 
 dpe_xenophile_mission.154.title:0 "Mariages entre [root.GetSpeciesNamePlural] et [from.GetSpeciesNamePlural]!"
-dpe_xenophile_mission.154.desc:0 "Alors que nos délégués '[from.GetName]' rentrent chez eux, nous avons pris conscience que de nombreux [root.GetSpeciesNamePlural] ont choisi de rester avec leurs partenaires [from.GetSpeciesAdj] au sein de '[from.GetName]', malgré de telles pratiques contraires à nos lois. Bien que nous ne puissions pas faire grand-chose pour les empêcher de le faire, l'opinion publique est divisée quant à savoir si ces personnes méritent notre condamnation ou notre sympathie."
+dpe_xenophile_mission.154.desc:0 "Alors que nos délégués '§Y[from.GetName]§!' rentrent chez eux, nous avons pris conscience que de nombreux [root.GetSpeciesNamePlural] ont choisi de rester avec leurs partenaires [from.GetSpeciesAdj] au sein de '§Y[from.GetName]§!', malgré de telles pratiques contraires à nos lois. Bien que nous ne puissions pas faire grand-chose pour les empêcher de le faire, l'opinion publique est divisée quant à savoir si ces personnes méritent notre condamnation ou notre sympathie."
 dpe_xenophile_mission.154.option:0 "Tant qu'ils ne ramènent pas ces pratiques à la maison ..."
 
 dpe_xenomission_xenophilia_torn:0 "Débat sur les mariages xénophiles"
@@ -652,17 +652,17 @@ dpe_xenomission_xenophilia_torn_desc:0 "Le pays est divisé par le débat sur la
 
 #End of Chain
 dpe_xenophile_mission.101.name:0 "Une séparation d'amis"
-dpe_xenophile_mission.101.desc:0 "C'est avec une touche de tristesse que notre délégation de '[from.GetName]' et la délégation [from.GetSpeciesAdj] dans notre monde rentrent chez elles aujourd'hui. L'initiative a été un grand succès ! Au cours des dix dernières années, nos deux peuples se sont bien compris et de nombreuses nouvelles amitiés sont nées. Nous espérons que nous entrons dans une ère de paix et de coopération durables entre [root.GetSpeciesNamePlural] et [from.GetSpeciesNamePlural]."
+dpe_xenophile_mission.101.desc:0 "C'est avec une touche de tristesse que notre délégation de '§Y[from.GetName]§!' et la délégation [from.GetSpeciesAdj] dans notre monde rentrent chez elles aujourd'hui. L'initiative a été un grand succès ! Au cours des dix dernières années, nos deux peuples se sont bien compris et de nombreuses nouvelles amitiés sont nées. Nous espérons que nous entrons dans une ère de paix et de coopération durables entre [root.GetSpeciesNamePlural] et [from.GetSpeciesNamePlural]."
 
 dpe_xenophile_mission.102.name:0 "Une séparation d'amis"
-dpe_xenophile_mission.102.desc:0 "Notre délégation au '[from.GetName]' et la délégation [from.GetSpeciesAdj] dans notre mondre rentrent chez elles aujourd'hui. Bien que cela n'ait pas toujours été facile, l'initiative a contribué à favoriser une meilleure compréhension entre les deux espèces, nous permettant de construire une relation plus forte avec le [from.GetName]."
-dpe_xenophile_mission.102.desc.spying:0 "Notre délégation au '[from.GetName]' et la délégation [from.GetSpeciesAdj] dans notre monde rentrent chez elles aujourd'hui. L'initiative a été très enrichissante pour nous : Non seulement nous avons pu bâtir une relation plus solide avec '[from.GetName]', mais nous avons également pu en tirer des connaissances considérables grâce à nos opérations d'espionnage."
+dpe_xenophile_mission.102.desc:0 "Notre délégation au '§Y[from.GetName]§!' et la délégation [from.GetSpeciesAdj] dans notre mondre rentrent chez elles aujourd'hui. Bien que cela n'ait pas toujours été facile, l'initiative a contribué à favoriser une meilleure compréhension entre les deux espèces, nous permettant de construire une relation plus forte avec le [from.GetName]."
+dpe_xenophile_mission.102.desc.spying:0 "Notre délégation au '§Y[from.GetName]§!' et la délégation [from.GetSpeciesAdj] dans notre monde rentrent chez elles aujourd'hui. L'initiative a été très enrichissante pour nous : Non seulement nous avons pu bâtir une relation plus solide avec '§Y[from.GetName]§!', mais nous avons également pu en tirer des connaissances considérables grâce à nos opérations d'espionnage."
 
 dpe_xenophile_mission.103.name:0 "La mission de découverte est terminée"
 dpe_xenophile_mission.103.desc:0 "Notre population et celle des [from.GetSpeciesNamePlural] poussent aujourd'hui un soupir de soulagement alors que nos délégations rentrent chez elles. L'initiative n'a pas été couronnée de succès, il n'y a eu que peu d'efforts : nos deux espèces ne semblent tout simplement pas en mesure de se comprendre suffisamment. Il y a eu de multiples incidents désagréables et, au contraire, l'opinion de chaque espèce envers l'autre s'est durcie au fil du temps. Il reste encore beaucoup à faire avant que les [root.GetSpeciesNamePlural] et les [from.GetSpeciesNamePlural] puissent se faire confiance."
 
 dpe_xenophile_mission.104.name:0 "La mission de découverte est terminée"
-dpe_xenophile_mission.104.desc:0 "Notre délégation au '[from.GetName]' et la délégation [from.GetSpeciesAdj] dans notre monde rentrent chez elles aujourd'hui. Du point de vue de l'établissement de meilleures relations entre nos espèces, la mission a été un échec lamentable : nos deux espèces ne semblent tout simplement pas en mesure de se comprendre suffisamment. Il y a eu de multiples incidents désagréables et, au contraire, l'opinion de chaque espèce envers l'autre s'est durcie au fil du temps. Cependant, [root.GetDPEDeceitSuccess]"
+dpe_xenophile_mission.104.desc:0 "Notre délégation au '§Y[from.GetName]§!' et la délégation [from.GetSpeciesAdj] dans notre monde rentrent chez elles aujourd'hui. Du point de vue de l'établissement de meilleures relations entre nos espèces, la mission a été un échec lamentable : nos deux espèces ne semblent tout simplement pas en mesure de se comprendre suffisamment. Il y a eu de multiples incidents désagréables et, au contraire, l'opinion de chaque espèce envers l'autre s'est durcie au fil du temps. Cependant, [root.GetDPEDeceitSuccess]"
 
 #GetDPEDeceitSuccess
 dpe_xenophile_spying_positive:0 "à l'insu des [from.GetSpeciesNamePlural], nous avons réussi à en tirer une quantité considérable de connaissances, ce qui en vaut la peine!"
@@ -674,10 +674,10 @@ dpe_xenomission_love:0 "Amitié entre les espèces"
 dpe_xenomission_like:0 "$dpe_xenomission_love$"
 
 #Contingencies
- dpe_xenophile_mission.990.name:0 "Notre délégation au ' [dpe_xenophile_opponent.GetName]' est de retour"
- dpe_xenophile_mission.990.desc:0 "À la suite de notre guerre avec '[dpe_xenophile_opponent.GetName]', nos délégués dans leur monde, et leurs délégués dans le nôtre sont rentrés chez eux."
- dpe_xenophile_mission.999.name:0 "Notre délégation au ' [dpe_xenophile_opponent.GetName]' est de retour"
- dpe_xenophile_mission.999.desc:0 "'[LastKilledCountryName]' n'est plus - il est tombé dans une situation d'instabilité politique et de conflits. En conséquence, nos délégués dans leur monde, et leurs délégués dans le nôtre sont rentrés chez eux."
+ dpe_xenophile_mission.990.name:0 "Notre délégation au ' [dpe_xenophile_opponent.GetName]§!' est de retour"
+ dpe_xenophile_mission.990.desc:0 "À la suite de notre guerre avec '§Y[dpe_xenophile_opponent.GetName]§!', nos délégués dans leur monde, et leurs délégués dans le nôtre sont rentrés chez eux."
+ dpe_xenophile_mission.999.name:0 "Notre délégation au ' [dpe_xenophile_opponent.GetName]§!' est de retour"
+ dpe_xenophile_mission.999.desc:0 "'§Y[LastKilledCountryName]§!' n'est plus - il est tombé dans une situation d'instabilité politique et de conflits. En conséquence, nos délégués dans leur monde, et leurs délégués dans le nôtre sont rentrés chez eux."
 
  
  
@@ -686,12 +686,12 @@ dpe_xenomission_like:0 "$dpe_xenomission_love$"
 
 #Contraband Chain 
  dpe_contraband_event.1.name:0 "Cercles de contrebande"
- dpe_contraband_event.1.desc:0 "Nos services de maintien de l'ordre ont découvert que quelques-uns de nos citoyens introduisaient des marchandises en contrebande vers notre voisin '[dpe_neighbor.GetName]'. Les marchandises qu'ils font passer en contrebande sont parfaitement légales dans notre propre royaume, mais leur effet sur la biologie des [dpe_neighbor.GetSpeciesAdj] est celui d'une drogue hallucinatoire moyennement efficace - les [dpe_neighbor.GetSpeciesAdj] leur a donc imposé de très sévères restrictions. \nCertains trafiquants sont des citoyens moyens qui gèrent des alliances avec des personnes qu'ils connaissent de l'autre côté, d'autres sont de grandes entreprises qui vendent des produits légitimes en plus de la contrebande. Ensemble, ces groupes gagnent pas mal d'argent et contribuent à l'économie. Comment devrions-nous gérer cette situation avec eux ?"
+ dpe_contraband_event.1.desc:0 "Nos services de maintien de l'ordre ont découvert que quelques-uns de nos citoyens introduisaient des marchandises en contrebande vers notre voisin '§Y[dpe_neighbor.GetName]§!'. Les marchandises qu'ils font passer en contrebande sont parfaitement légales dans notre propre royaume, mais leur effet sur la biologie des [dpe_neighbor.GetSpeciesAdj] est celui d'une drogue hallucinatoire moyennement efficace - les [dpe_neighbor.GetSpeciesAdj] leur a donc imposé de très sévères restrictions. \nCertains trafiquants sont des citoyens moyens qui gèrent des alliances avec des personnes qu'ils connaissent de l'autre côté, d'autres sont de grandes entreprises qui vendent des produits légitimes en plus de la contrebande. Ensemble, ces groupes gagnent pas mal d'argent et contribuent à l'économie. Comment devrions-nous gérer cette situation avec eux ?"
  dpe_contraband_event.1.A:0 "Réprimez ces pratiques. Nous ne pouvons pas compromettre nos relations extérieures."
  dpe_contraband_event.1.B:0 "Fermez les yeux et laissez l'économie en profiter."
- dpe_contraband_event.1.B.tooltip:0 "Notre voisin '[dpe_neighbor.GetName]' sera mécontent si cela est découvert."
+ dpe_contraband_event.1.B.tooltip:0 "Notre voisin '§Y[dpe_neighbor.GetName]§!' sera mécontent si cela est découvert."
  dpe_contraband_event.1.C:0 "Extorquer une partie de l'argent de cette contrebande organisée."
- dpe_contraband_event.1.C.tooltip:0 "Notre voisin '[dpe_neighbor.GetName]' sera furieux si notre implication est découverte."
+ dpe_contraband_event.1.C.tooltip:0 "Notre voisin '§Y[dpe_neighbor.GetName]§!' sera furieux si notre implication est découverte."
  
  dpe_contraband_event.90.name:0 "Cercles de contrebandier arrêtés"
  dpe_contraband_event.90.desc:0 "L'ambassadeur des [from.GetSpeciesAdj] a approché notre ministre des Affaires étrangères avec une histoire intéressante : apparemment, son gouvernement a récemment découvert plusieurs réseaux de passeurs opérant à la périphérie de son espace, qui avaient introduit des quantités considérables de drogues hallucinantes sur notre territoire. Une fois découvert, les [from.GetSpeciesNamePlural] ont réprimés ces bandes d'escrocs, empêchant ainsi une éventuelle crise de la contrebande dans notre empire."
@@ -703,8 +703,8 @@ dpe_xenomission_like:0 "$dpe_xenomission_love$"
  dpe_contraband_event.2.B:0 "Commencez à sévir! Nous ne tolérerons pas ce mépris flagrant pour la loi."
  
  dpe_contraband_event.21.name:0 "Les [from.GetSpeciesNamePlural] légalisent nos drogues"
- dpe_contraband_event.21.desc.tolerate:0 "Notre voisin '[from.GetName]' a légalisé les produits de contrebande que nos citoyens introduisaient clandestinement sur leur territoire. Notre position, de permettre à nos citoyens de continuer ce commerce a été justifiée."
- dpe_contraband_event.21.desc.extort:0 "Notre voisin '[from.GetName]' a légalisé les produits de contrebande que nos citoyens introduisaient clandestinement sur leur territoire, un commerce par lequel nous extorquions des revenus importants. Maintenant que la menace de tomber du mauvais côté de la loi n'existe plus, nos commerçants refusent de nous payer l'argent convenu, et ont fait savoir qu'ils informeraient les [from.GetSpeciesNamePlural] de nos transgressions si nous insistons."
+ dpe_contraband_event.21.desc.tolerate:0 "Notre voisin '§Y[from.GetName]§!' a légalisé les produits de contrebande que nos citoyens introduisaient clandestinement sur leur territoire. Notre position, de permettre à nos citoyens de continuer ce commerce a été justifiée."
+ dpe_contraband_event.21.desc.extort:0 "Notre voisin '§Y[from.GetName]§!' a légalisé les produits de contrebande que nos citoyens introduisaient clandestinement sur leur territoire, un commerce par lequel nous extorquions des revenus importants. Maintenant que la menace de tomber du mauvais côté de la loi n'existe plus, nos commerçants refusent de nous payer l'argent convenu, et ont fait savoir qu'ils informeraient les [from.GetSpeciesNamePlural] de nos transgressions si nous insistons."
  dpe_contraband_event.21.option:0 "Au moins, nous avons maintenant une autre option d'exportation légitime."
 
  dpe_drug_trade_legit:0 "Légitimer l'échange de drogues"
@@ -737,8 +737,8 @@ dpe_xenomission_like:0 "$dpe_xenomission_love$"
  dpe_contraband_closed_borders:0 "Nous blâment pour la crise des drogues"
  dpe_contraband_source_of_drugs:0 "Traffic de drogue"
  
- dpe_contraband_event.51.name:0 "La Source de drogue conduit vers '[from.GetName]'"
- dpe_contraband_event.51.desc:0 "Nos agents ont interrogé des suspects soupçonnés d'être impliqués dans les actes de contrebande et ont découvert un élément de preuve très important. Les agents ont réussi à prendre la tête d'un groupe de passeurs opérant près de l'un de nos mondes frontaliers. Après avoir mis en place une embuscade, ils ont réussi à désactiver l'un des vaisseaux de contrebandiers. Alors qu'ils montaient à bord du vaisseau, ils ont été accueillis par un bref échange de tirs, mais ont rapidement neutralisé les bandits. À leur grande surprise, la moitié des personnes impliquées étaient des citoyens [dpe_drugs_country.GetSpeciesAdj] ! Ces hors-la-loi ont été emmenés dans un centre de détention pour interrogatoire, où ils ont admis que '[dpe_drugs_country.GetName]' permettait à ces réseaux de contrebandiers d'opérer tant qu'ils accordaient un pourcentage au gouvernement. Comment allons-nous réagir?"
+ dpe_contraband_event.51.name:0 "La Source de drogue conduit vers '§Y[from.GetName]§!'"
+ dpe_contraband_event.51.desc:0 "Nos agents ont interrogé des suspects soupçonnés d'être impliqués dans les actes de contrebande et ont découvert un élément de preuve très important. Les agents ont réussi à prendre la tête d'un groupe de passeurs opérant près de l'un de nos mondes frontaliers. Après avoir mis en place une embuscade, ils ont réussi à désactiver l'un des vaisseaux de contrebandiers. Alors qu'ils montaient à bord du vaisseau, ils ont été accueillis par un bref échange de tirs, mais ont rapidement neutralisé les bandits. À leur grande surprise, la moitié des personnes impliquées étaient des citoyens [dpe_drugs_country.GetSpeciesAdj] ! Ces hors-la-loi ont été emmenés dans un centre de détention pour interrogatoire, où ils ont admis que '§Y[dpe_drugs_country.GetName]§!' permettait à ces réseaux de contrebandiers d'opérer tant qu'ils accordaient un pourcentage au gouvernement. Comment allons-nous réagir?"
  dpe_contraband_event.51.A:0 "c'est Inacceptable! Convoquez leur ambassadeur, nous quelques mots à leur dire."
  dpe_contraband_event.51.B:0 "Faites preuve de retenue - nous ne voulons pas d'un incident diplomatique."
  dpe_contraband_event.51.B.tooltip:0 "Évitez de discuter de la politique de l'événement et contactez discrètement l'ambassadeur [dpe_drugs_country.GetSpeciesAdj] pour proposer l'expulsion de ses citoyens en échange d'une faveur."
@@ -752,13 +752,13 @@ dpe_xenomission_like:0 "$dpe_xenomission_love$"
  dpe_contraband_event.52.C:0 "Contactez leur ambassadeur et cherchez une solution diplomatique."
 
  dpe_contraband_event.53.name:0 "$dpe_contraband_event.51.name$"
- dpe_contraband_event.53.desc:0 "Nos organismes chargés de du maintien de l'ordre ont trouvé une piste sur la source des drogues qui ont envahi notre pays. Ils ont commencé à séparer les zones où les rapports de consommation de drogue avaient été concentrés et ont systématiquement interrogé toute personne suspectée. Ce faisant, ils ont attrapé un marchand plutôt lâche qui était prêt à tout balancer en échange d'une peine plus légère. Une négligence fortuite de la part du cartel de la drogue signifiait que ses informations nous permettaient de retracer l'identité des passeurs. À notre grande surprise, la plupart d'entre eux sont [dpe_drugs_country.GetSpeciesNamePlural] - en fait, ils ont fait passer en contrebande les drogues de '[dpe_drugs_country.GetName]', où elles sont légales. \n\n Nos enquêtes ultérieures n'ont révélé aucune preuve que le gouvernement [dpe_drugs_country.GetSpeciesAdj] est complice dans les réseaux de contrebande, mais notre agence de renseignement pense qu'ils étaient probablement au courant des activités de leurs citoyens mais n'ont pas agi. Quelle est notre prochaine étape ?"
+ dpe_contraband_event.53.desc:0 "Nos organismes chargés de du maintien de l'ordre ont trouvé une piste sur la source des drogues qui ont envahi notre pays. Ils ont commencé à séparer les zones où les rapports de consommation de drogue avaient été concentrés et ont systématiquement interrogé toute personne suspectée. Ce faisant, ils ont attrapé un marchand plutôt lâche qui était prêt à tout balancer en échange d'une peine plus légère. Une négligence fortuite de la part du cartel de la drogue signifiait que ses informations nous permettaient de retracer l'identité des passeurs. À notre grande surprise, la plupart d'entre eux sont [dpe_drugs_country.GetSpeciesNamePlural] - en fait, ils ont fait passer en contrebande les drogues de '§Y[dpe_drugs_country.GetName]§!', où elles sont légales. \n\n Nos enquêtes ultérieures n'ont révélé aucune preuve que le gouvernement [dpe_drugs_country.GetSpeciesAdj] est complice dans les réseaux de contrebande, mais notre agence de renseignement pense qu'ils étaient probablement au courant des activités de leurs citoyens mais n'ont pas agi. Quelle est notre prochaine étape ?"
  dpe_contraband_event.53.A:0 "Agissez immédiatement et fermez la frontière."
  dpe_contraband_event.53.B:0 "Demandez de l'aide aux [from.GetSpeciesAdj] pour faire face ensemble au problème de la drogue."
  dpe_contraband_event.53.B.tooltip:0 "Ignorez tacitement la conviction de notre agence de renseignement que le gouvernement [dpe_drugs_country.GetSpeciesAdj] était au courant de cela, et cherchez une solution diplomatique."
 
  dpe_contraband_event.54.name:0 "$dpe_contraband_event.51.name$"
- dpe_contraband_event.54.desc:0 "Bien que l'enquête ait été lente, elle a progressé. Nous avons rassemblé des gens surpris à vendre ou à acheter des drogues, et à travers leurs interrogatoires, nous avons commencé à dresser un tableau de ce qui se passe. Il semble que les citoyens ordinaires d'un empire voisin, '[dpe_drugs_country.GetName]', ont commencé à vendre les marchandises à des éléments voyous de notre société. Ces marchandises sont légales dans leur empire malavisé, donc elles ont un accès facile aux marchandises. Jusqu'à présent, nous n'avons aucune preuve tangible que le gouvernement est complice de cela, mais bon nombre de nos conseillers soupçonnent qu'ils ne peuvent pas avoir été totalement ignorants des activités de leurs citoyens. Comment devrions-nous procéder?"
+ dpe_contraband_event.54.desc:0 "Bien que l'enquête ait été lente, elle a progressé. Nous avons rassemblé des gens surpris à vendre ou à acheter des drogues, et à travers leurs interrogatoires, nous avons commencé à dresser un tableau de ce qui se passe. Il semble que les citoyens ordinaires d'un empire voisin, '§Y[dpe_drugs_country.GetName]§!', ont commencé à vendre les marchandises à des éléments voyous de notre société. Ces marchandises sont légales dans leur empire malavisé, donc elles ont un accès facile aux marchandises. Jusqu'à présent, nous n'avons aucune preuve tangible que le gouvernement est complice de cela, mais bon nombre de nos conseillers soupçonnent qu'ils ne peuvent pas avoir été totalement ignorants des activités de leurs citoyens. Comment devrions-nous procéder?"
  dpe_contraband_event.54.A:0 "Introduisez des contrôles aux frontières plus stricts."
  dpe_contraband_event.54.B:0 "Prolongez votre offre pour combattre ces contrebandiers ensemble!"
 
@@ -812,23 +812,23 @@ dpe_xenomission_like:0 "$dpe_xenomission_love$"
  dpe_contraband_event.682.A:0 "Ensuite, nous devrons mettre en œuvre des contrôles aux frontières."
  
  dpe_contraband_event.69.name:0 "$dpe_contraband_event.62.name$"
- dpe_contraband_event.69.desc:0 "Estimé [root.GetSpeciesName], nous avons attrapé un certain nombre de vos citoyens faisant du trafic de drogue dans notre pays. Cela crée une crise de drogue importante dans notre '[from.GetName]'. Pour cette raison, nous avons choisi d'introduire des contrôles aux frontières plus stricts, limitant sévèrement l'accès [root.GetSpeciesAdj] à notre espace. Nous vous remercions pour votre compréhension."
+ dpe_contraband_event.69.desc:0 "Estimé [root.GetSpeciesName], nous avons attrapé un certain nombre de vos citoyens faisant du trafic de drogue dans notre pays. Cela crée une crise de drogue importante dans notre '§Y[from.GetName]§!'. Pour cette raison, nous avons choisi d'introduire des contrôles aux frontières plus stricts, limitant sévèrement l'accès [root.GetSpeciesAdj] à notre espace. Nous vous remercions pour votre compréhension."
  dpe_contraband_event.69.option:0 "Nous déplorons vos actions."
  
 
  dpe_contraband_event.900.title:0 "Le commerce des drogues s'effondre"
- dpe_contraband_event.900.desc:0 "La fermeture de notre frontière avec '[dpe_drugs_country.GetName]' a mis fin à la crise de la contrebande. Il semble que les drogues entraient dans notre pays à partir de là."
+ dpe_contraband_event.900.desc:0 "La fermeture de notre frontière avec '§Y[dpe_drugs_country.GetName]§!' a mis fin à la crise de la contrebande. Il semble que les drogues entraient dans notre pays à partir de là."
  dpe_contraband_event.900.option:0 "Je vois."
  
  dpe_contraband_event.901.title:0 "Le commerce de la drogue s'effondre"
- dpe_contraband_event.901.desc:0 "'[from.GetName]' a fermé sa frontière avec nous. Cette décision a rendu beaucoup plus difficile pour nos passeurs de livrer des drogues dans leur pays. Malheureusement, les [from.GetSpeciesNamePlural] ont remarqué la corrélation et ont (correctement) décidé que nous devions être le coupable. Cela a quelque peu refroidi nos relations."
+ dpe_contraband_event.901.desc:0 "'§Y[from.GetName]§!' a fermé sa frontière avec nous. Cette décision a rendu beaucoup plus difficile pour nos passeurs de livrer des drogues dans leur pays. Malheureusement, les [from.GetSpeciesNamePlural] ont remarqué la corrélation et ont (correctement) décidé que nous devions être le coupable. Cela a quelque peu refroidi nos relations."
  
  dpe_contraband_event.999.name:0 "Origine des drogues localisées"
- dpe_contraband_event.999.desc:0 "Le chaos qui s'est abattu au niveau de nos voisins '[dpe_drugs_country.GetName]' semble avoir perturbé le commerce de la drogue, qui semble provenir de là. Maintenant que nous connaissons la source des drogues, nous pourrons mieux lutter contre le problème."
+ dpe_contraband_event.999.desc:0 "Le chaos qui s'est abattu au niveau de nos voisins '§Y[dpe_drugs_country.GetName]§!' semble avoir perturbé le commerce de la drogue, qui semble provenir de là. Maintenant que nous connaissons la source des drogues, nous pourrons mieux lutter contre le problème."
  dpe_contraband_event.999.option:0 "C'est bon à savoir."
  
  dpe_contraband_event.9991.name:0 "Besoin de nouveaux consommateurs pour nos drogues"
- dpe_contraband_event.9991.desc:0 "Avec la chute de '[LastKilledCountryName]', nos passeurs devront trouver une nouvelle cible."
+ dpe_contraband_event.9991.desc:0 "Avec la chute de '§Y[LastKilledCountryName]§!', nos passeurs devront trouver une nouvelle cible."
  dpe_contraband_event.9991.option:0 "Quel dommage."
 
  
@@ -842,11 +842,11 @@ dpe_xenomission_like:0 "$dpe_xenomission_love$"
  ##########Egalitarian Mission 1
  
  dpe_egalitarian_missions.1.name:0 "Une Question de Vote"
- dpe_egalitarian_missions.1.desc:0 "Nos conseillers ont longuement discuté de notre relation avec '[dpe_egalitarian.GetName]' et ont élaboré un plan sournois. Beaucoup sont convaincus que nous pouvons les utiliser à notre avantage en leur demandant d'aider à superviser nos élections. Il est vrai que nous n'avons pas d'élections pour le moment, et en effet, nous ne prévoyons jamais de laisser le peuple jouer un rôle majeur dans la gestion de notre État, mais nous pouvons leur faire plaisir en permettant des votes sur certaines décisions politiques sans importance et des rôles politiques mineurs. Indépendamment de ce que la plèbe décide, nous allons simplement affirmer que le vote s'est toujours déroulé comme nous le voulions, et ils n'auront aucun moyen de prouver le contraire. \n\nC'est là que nos amis peuvent intervenir : Même si notre peuple ne s'ne apercevra pas, nous pouvons être sûrs que certaines autres nations de la galaxie seront très sceptiques et feront tout leur possible pour contester la légitimité de nos élections. Si nous pouvons convaincre nos amis démocrates de «superviser» les élections et de signer les résultats que nous annonçons, cela donnera la légitimité dont nous aurions besoin pour les rendre crédibles. Approuvez-vous ce plan ?"
+ dpe_egalitarian_missions.1.desc:0 "Nos conseillers ont longuement discuté de notre relation avec '§Y[dpe_egalitarian.GetName]§!' et ont élaboré un plan sournois. Beaucoup sont convaincus que nous pouvons les utiliser à notre avantage en leur demandant d'aider à superviser nos élections. Il est vrai que nous n'avons pas d'élections pour le moment, et en effet, nous ne prévoyons jamais de laisser le peuple jouer un rôle majeur dans la gestion de notre État, mais nous pouvons leur faire plaisir en permettant des votes sur certaines décisions politiques sans importance et des rôles politiques mineurs. Indépendamment de ce que la plèbe décide, nous allons simplement affirmer que le vote s'est toujours déroulé comme nous le voulions, et ils n'auront aucun moyen de prouver le contraire. \n\nC'est là que nos amis peuvent intervenir : Même si notre peuple ne s'ne apercevra pas, nous pouvons être sûrs que certaines autres nations de la galaxie seront très sceptiques et feront tout leur possible pour contester la légitimité de nos élections. Si nous pouvons convaincre nos amis démocrates de «superviser» les élections et de signer les résultats que nous annonçons, cela donnera la légitimité dont nous aurions besoin pour les rendre crédibles. Approuvez-vous ce plan ?"
  dpe_egalitarian_missions.1.A:0 "Envoyons la demande et voyons ce qu'ils disent. (L'événement continue)"
  dpe_egalitarian_missions.1.B:0 "Non ! Même des élections simulées, c'est trop pour les gens du commun."
  dpe_egalitarian_missions.1.B.tooltip:0 "Toutes les autres factions, à l'exception de la faction totalitaire, reçoivent le modificateur §R$dpe_denied_a_say$§!, donnant :\n\n§R-20% $MOD_FACTION_APPROVAL$§!"
- dpe_egalitarian_missions.1.A.tooltip:0 "Si l'expérience électorale est un succès, '[root.GetName]' gagnera le modificateur $dpe_auth_held_successful_election$ pendant 5 ans, accordant : \n$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$ : §G+50%§!\n$MOD_POP_CITIZEN_HAPPINESS$ : §G+5%§! \n$MOD_COUNTRY_UNREST_UNHAPPY_POP_EFFECT_MULT$ : §G-25%§!"
+ dpe_egalitarian_missions.1.A.tooltip:0 "Si l'expérience électorale est un succès, '§Y[root.GetName]§!' gagnera le modificateur $dpe_auth_held_successful_election$ pendant 5 ans, accordant : \n$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$ : §G+50%§!\n$MOD_POP_CITIZEN_HAPPINESS$ : §G+5%§! \n$MOD_COUNTRY_UNREST_UNHAPPY_POP_EFFECT_MULT$ : §G-25%§!"
  
  dpe_egalitarian_missions.2.name:0 "Une demande inattendue"
  dpe_egalitarian_missions.2.desc:0 "Amis, inspirés par votre exemple, nous prévoyons - pour la première fois - de tenir des élections. Compte tenu de notre inexpérience dans ce domaine, nous souhaitons solliciter votre aide pour les observer... notamment pour garantir la crédibilité des résultats. Seriez-vous prêt à envoyer des observateurs ?"
