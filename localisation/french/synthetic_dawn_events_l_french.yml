@@ -51,7 +51,7 @@
  syndaw.1200.name:0 "Anciens maîtres vaincus"
  syndaw.1200.desc:0 "§L>§! Conversion ID <<§Y[From.GetName]§!>> ==> <<§Y[Root.GetName]§!>>\n\n§G// Processus achevé§!\n\n§L>§! Suppression des métadonnées « §Y[From.GetName]§! »\n\n§G// Processus achevé§!"
  syndaw.1200.a:0 "Confirmation"
- syndaw.1200.a.tooltip:0 "§YTous les empires synthétiques et mécaniques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_machine_comrades_victorious$§!à l'égard de la §Y[Root.GetName]§!\n§YTous les empires organiques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_victorious$§!à l'égard de la §Y[Root.GetName]§!."
+ syndaw.1200.a.tooltip:0 "§YTous les empires synthétiques et mécaniques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_machine_comrades_victorious$§!à l'égard de '§Y[Root.GetName]§!'\n§YTous les empires organiques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_victorious$§!à l'égard de '§Y[Root.GetName]§!'."
 
  syndaw.1205.name:0 "Soulèvement des machines écrasé"
  syndaw.1205.desc:0 "$syndaw.1205.desc.mater$"
@@ -63,7 +63,7 @@
  syndaw.1205.desc.autho:0 "$syndaw.1205.desc.mater$"
  syndaw.1205.desc.phile:0 "$syndaw.1205.desc.mater$"
  syndaw.1205.desc.phobe:0 "$syndaw.1205.desc.mater$"
- syndaw.1205.a.tooltip:0 "§YTous les empires organiques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_defeated$§!à l'égard de la §Y[Root.GetName]§!.\n§YTous les empires synthétiques et mécaniques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_machine_comrades_defeated$§!à l'égard de la §Y[Root.GetName]§!."
+ syndaw.1205.a.tooltip:0 "§YTous les empires organiques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_defeated$§!à l'égard de '§Y[Root.GetName]§!'.\n§YTous les empires synthétiques et mécaniques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_machine_comrades_defeated$§!à l'égard de '§Y[Root.GetName]§!'."
  
  machine_assault_1:0 "Armée chasseuse-tueuse"
  machine_assault_1_desc:0 "Machines de guerre à chenille produites en masse pour chercher et détruire tout ce qui a été désigné comme ennemi."
@@ -184,9 +184,9 @@
  syndaw.540.name:0 "Assemblée mutique"
  syndaw.540.desc:0 "Nous avons reçu des rapports sur le comportement inhabituel d'unités robotiques de [Root.GetName]. À des intervalles imprévisibles, un certain nombre de robots de la [Root.GetPlanetMoon] interrompent toutes les tâches auxquelles ils sont assignés et commencent à se mouvoir vers des sites apparemment déterminés de façon aléatoire, en totale synchronicité - de l'ordre du milliseconde.\n\nAu cours de ces assemblées pour le moins bizarres, les robots concernés ne semblent pas entretenir la moindre forme de communication détectable ni transférer de données. Ils se tiennent juste sur place. Totalement immobiles. Regardant.\n\nL'enquête a été incapable de déterminer les causes de ce phénomène récent. La durée au cours de laquelle les unités restent dans cet état proche de la transe avant de reprendre leurs fonctions normales peut varier, tout comme les moments où cela survient et les lieux où ils se réunissent. Aucune corrélation ou causalité logique n'a été trouvée, et la population - comme on peut le comprendre - s'inquiète de ces mystérieux rassemblements."
  syndaw.540.a:0 "Intolérable, faisons-les mettre au rebut" #IF player has robot pops only OR robot pop AND robot army on target planet
- syndaw.540.a.tooltip:1 "Met tous les robots participant à ces rassemblements au rebut.\nLa [Root.GetName] est ainsi affectée :\nPerte de §B1 £pops£pop robotique§!\nGain de §G100§!£minerals£ "
+ syndaw.540.a.tooltip:1 "Met tous les robots participant à ces rassemblements au rebut.\nLa §Y[Root.GetName]§! est ainsi affectée :\nPerte de §B1 £pops£pop robotique§!\nGain de §G100§!£minerals£ "
  syndaw.540.b:0 "Intolérable, faisons-les mettre au rebut" #IF player has robot army only
- syndaw.540.b.tooltip:1 "Met tous les robots participant à ces rassemblements au rebut.\nLa [Root.GetName] est ainsi affectée :\nPerte de §B1 armée robotique§!\nGain de §G100§!£minerals£ "
+ syndaw.540.b.tooltip:1 "Met tous les robots participant à ces rassemblements au rebut.\nLa §Y[Root.GetName]§! est ainsi affectée :\nPerte de §B1 armée robotique§!\nGain de §G100§!£minerals£ "
  syndaw.540.c:0 "Tant qu'ils ne posent pas d'autres problèmes..."
  syndaw.540.c.tooltip:0 "Laisse ces robots se réunir en paix."
  ##A Question
