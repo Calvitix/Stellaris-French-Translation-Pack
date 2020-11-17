@@ -358,6 +358,7 @@
  distar.82.name:0 "Divinité du trépas"
  distar.82.desc:0 "Après avoir submergé les défenses primitives dressées en toute hâte par les indigènes de §Y[dead_god_planet.GetName]§!, nos forces ont été approchées par un certain nombre de représentants des habitants. Il semble que ceux-ci vénèrent les restes de quelque créature gigantesque se trouvant sur la lune de cette planète, qu'ils identifient à une divinité du trépas depuis des générations et des temps immémoriaux. Ils pensent qu'un jour cette divinité se lèvera d'entre les morts pour devenir une divinité de la renaissance et inaugurer une ère nouvelle de prospérité pour leur peuple.\n\nEt, puisque nous sommes venus des étoiles, porteurs d'une technologie au-delà de leur compréhension, nombre des indigènes semblent convaincus que nous sommes les hérauts de cette divinité du trépas."
  distar.82.a:0 "Cela va très certainement jouer en notre faveur"
+ distar.82.a.tt:0 "Confère à chaque pop §H[worshipper_species.GetAdj]§! le modificateur §YConviction§! pour §Y240§! mois : §G+33%§! en £happiness£bonheur ; §G+25%§! sur les ressources produites par les £job£emplois des pops."
  distar.82.b:0 "C'est ridicule, ne rentrons pas dans leur petit jeu"
  distar.82.c:0 "Oui, leur divinité nous a envoyés pour qu'ils la rejoignent"
  distar.82.d:0 "Dégageons ces idiots de cette planète !"
@@ -783,8 +784,8 @@
  soothing_crystals_desc:0 "Les cristaux qui constituent la croûte tectonique de ce monde résonnent à une fréquence médicalement thérapeutique pour les membres de notre espèce."
  good_vibrations:0 "Magnétisme apaisant"
  good_vibrations_desc:0 "La magnétosphère de ce monde résonne à une fréquence qui permet à nos réseaux neuraux une plus grande concentration."
- exofungus:0 "Infestation d'exochampignons"
- exofungus_desc:0 "Un exochampignon extrémophile se répand sur ce monde comme un cancer, étouffant toute la végétation."
+ exofungus:0 "£blocker£Croissance d'exochampignons"
+ exofungus_desc:0 "Les exochampignons qui ont envahi ce monde se propagent comme un cancer, étouffant la végétation et interférant avec les infrastructures."
  watery_grave:0 "$distar.120.name$"
  watery_grave_desc:0 "Les ruines d'une ancienne civilisation arthropoïde s'étendent d'un pôle à l'autre de ce monde, depuis longtemps englouties sous ses eaux."
  big_friendly_warform_power:0 "Coque hautement résistante"
@@ -793,7 +794,7 @@
  brainslug_woes_desc:0 "La population de ce monde éprouve certaines appréhensions envers les colons ayant choisi de procéder à une union symbiotique avec les molluscoïdes neuraux."
  brainslug_woes_phobe:0 "$brainslug_woes$"
  brainslug_woes_phobe_desc:0 "$brainslug_woes_desc$"
- predatory_plants:0 "Flore prédatrice"
+ predatory_plants:0 "Plantes prédatrices"
  predatory_plants_desc:0 "Une mégaflore vicieuse domine les paysages de ce monde, créant autant d'occasions de recherche, mais constituant aussi des obstacles dangereux pour les habitants."
  living_sea:0 "Mer consciente"
  living_sea_desc:0 "Si la nature de la mer sur ce monde nous échappe, elle est malgré tout incontestablement vivante. Des pensées, des visions et des pulsions semblables à de doux chants dansent dans l'esprit des êtres organiques qui se trouvent à sa portée."
@@ -931,11 +932,12 @@
  seismological_phenomena_2:0 "$seismological_phenomena$"
  seismological_phenomena_2_desc:0 "$seismological_phenomena_desc$"
  egg_rifts:0 "Failles"
- mod_damage_vs_country_type_guardian_hatchling_mult:0 "Dégâts infligés à l'être du vide "
+ egg_rifts_desc:0 "Des boues et gaz s'échappent des profondes failles qui balafrent la surface de ce monde. Toute la surface empeste une odeur d'oeuf pourri."
+ mod_damage_vs_country_type_guardian_hatchling_mult:1 "Des boues et gaz s'échappent des profondes failles qui balafrent la surface de ce monde. Toute la surface empeste une odeur d'oeuf pourri."
  damage_vs_country_type_guardian_hatchling_mult:0 "Dégâts infligés à l'être du vide "
 # TILE BLOCKERS:
- fungoid_extermination:0 "£blocker£Désert toxique"
- fungoid_extermination_desc:0 "Un nuage nocif de solvants chimiques et de matières organiques dissoutes rend cette zone totalement inhabitable."
+ fungoid_extermination:1 "£blocker£Désert toxique"
+ fungoid_extermination_desc:1 "Un nuage nocif de solvants chimiques et de matières organiques dissoutes rend cette zone totalement inhabitable."
  egg_cracking:0 "£blocker£Failles"
  egg_cracking_desc:0 "Des phénomènes sismiques font apparaître des failles dans la croûte de ce monde, répandant des gaz sulfuriques et une sorte de vase toxique."
 # POINTS OF INTEREST:
@@ -1206,6 +1208,8 @@
  # Primordial Soup
  distar.2015.name:0 "Soupe primordiale"
  distar.2015.desc:0 "Nichée dans des poches bien abritées à la surface de §Y[From.GetName]§! se trouve une boue très riche en composants organiques simples, dont les chercheurs pensent qu'elle pourrait être un milieu propice à l'abiogenèse, la formation spontanée de la vie organique à partir d'une matière qui en est dépourvue. De fait, l'atmosphère de cette [From.GetPlanetMoon] est inhabituellement dense pour un monde désolé, la rendant hospitalière pour des formes de vie simples.\n\nSi c'est une occasion unique d'étudier les premiers temps de l'apparition de la vie, il vaut mieux ne pas trop en attendre car il se peut qu'il faille encore des millions d'années avant que la vie évolue naturellement sur §Y[From.GetName]§! - si elle le fait même un jour."
+ distar.2015.desc.terminator:0 "Nichée dans des poches bien abritées à la surface de §Y[From.GetName]§! se trouve une boue très riche en composants organiques simples, dont les drones scientifiques pensent qu'elle pourrait être un milieu propice à l'abiogenèse, la formation spontanée de la vie organique à partir d'une matière qui en est dépourvue. De fait, l'atmosphère de cette [From.GetPlanetMoon] est inhabituellement dense pour un monde désolé, la rendant hospitalière pour des formes de vie simples.\n\nUne telle chose est évidemment intolérable. Nous devons annihiler ce cloaque de matières organiques avant que toute forme de vie ait la moindre chance de s'y développer, même si cela ne se produit que dans plusieurs millions d'années."
+ distar.2015.A.machine:0 "Tout doit brûler !"
  # Single-Minded
  distar.2020.name:0 "Esprit unique"
  distar.2020.desc:0 "À première vue, §Y[From.GetName]§! semble habitée par une grande variété de formes de vie, coexistant au sein d'un écosystème similaire au nôtre, dans lequel les nutriments parcourent en cycle la chaîne alimentaire par la photosynthèse, la décomposition et la prédation.\n\nÀ y regarder de plus près, néanmoins, l'équipage du §Y[Root.GetName]§! a découvert que si toutes les créatures vivantes de la [From.GetPlanetMoon] se sont au départ développées sous la forme d'individus différenciés, elles agissent désormais, pour quelque raison mystérieuse, comme un seul organisme. Un organisme qui réagit à toute interférence extérieure par une agressivité féroce et indiscriminée."
@@ -2360,7 +2364,7 @@
 
  distar.9000.lcluster_clue_desc_1:1 "Nous avons découvert que le composé trouvé dans la cache énigmatique est constitué des fragments réduits en poudre d'entités robotiques microscopiques, des nanites. Certaines des éraflures sur la coque contenaient même encore des griffes mécaniques prises dedans, et dans l'une d'elles nous avons découvert une nanite encore active mais gravement endommagée, puisant son énergie de la cache. De ce qu'il restait du disque dur de cette nanite, nous avons pu extraire des données qui pourraient s'avérer cruciales pour la compréhension du réseau des portails de l'amas-L."
 
- distar.9000.lcluster_clue_desc_2:0 "Parmi les objets récupérés dans les ruines de [big_rip_planet.GetName] se trouvait un hologramme défectueux de la société qui avait interféré avec les primitifs plantoïdes. Si la plus grande partie des données était corrompue ou inintelligible du fait d'un bruit de souffle ininterrompu et de l'état de panique de l'expéditeur, nous sommes parvenus à restaurer plusieurs fragments contenant des informations de grande valeur sur le réseau des portails.\n\nLa plus grande partie de l'hologramme, cependant, était consacrée aux prémonitions inquiétantes sur la Tempête Grise les morts qui surviendraient lorsqu'elle surgirait."
+ distar.9000.lcluster_clue_desc_2:0 "Parmi les objets récupérés dans les ruines de §Y[big_rip_planet.GetName]§! se trouvait un hologramme défectueux de la société qui avait interféré avec les primitifs plantoïdes. Si la plus grande partie des données était corrompue ou inintelligible du fait d'un bruit de souffle ininterrompu et de l'état de panique de l'expéditeur, nous sommes parvenus à restaurer plusieurs fragments contenant des informations de grande valeur sur le réseau des portails.\n\nLa plus grande partie de l'hologramme, cependant, était consacrée aux prémonitions inquiétantes sur la Tempête Grise les morts qui surviendraient lorsqu'elle surgirait."
 
  distar.9000.lcluster_clue_desc_3:0 "Lorsque l'équipe envoyée dans les laboratoires de Xvan est passée à la décontamination, une substance alien a été identifiée sur les combinaisons de protection. En l'examinant, il s'est avéré qu'il s'agissait de fragments de robots minuscules, devenus une sorte de fine poussière grise. Parmi les échantillons une nanite intacte a malgré tout été retrouvée, comportant des instructions pour assembler des verrous sur une structure donc tout laisse croire qu'il pourrait s'agir d'un portail.\n\nIl y a des chances, donc, que cette construction moléculaire ait joué un rôle dans l'élaboration de l'ensemble du réseau des portes-L."
 
@@ -2610,3 +2614,15 @@
  action.37.desc.ketlings:1 "Nous soumettons, cédons ! Vous rappelez vos flottes, partez, §Hkssk§ !"
  action.38.desc.ketlings:1 "Oui ! Nous sommes victorieux, l'avons emporté ! Venez à nous encore, si votre métal et vos gemmes et vos vies sont trop nombreux !"
  action.39.desc.ketlings:0 "Très bien. Pas de gagnants, vainqueurs. Seulement des vies perdues, déchets perdus..."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ distar.145.lythuric.tooltip:0 "Découverte de gaz lythurique."
+ distar.145.satramene.tooltip:0 "Découverte de gaz satramène."
+ distar.145.engos.tooltip:0 "Découverte de vapeur d'engos."
+ distar.5056.name:0 "Départ de la cache énigmatique"
+ distar.5056.desc:0 "Quel qu'ait pu être l'intérêt de la cache énigmatique à l'égard de [Root.GetName], il semble soudain être arrivé à son terme. De façon aussi abrupte qu'elle est arrivée, elle est désormais partie."
+ distar.5056.a:0 "Au grand soulagement de la population"
+ distar.5056.b:0 "Quel dommage"
+ d_nanoactuator_deposit:0 "$sr_distar_nanoactuator$ découverts\n"
+ REMOVE_ORBITAL_DEPOSIT:0 "Retire les gisements orbitaux de $PLANET$."
+ living_sea_station_built:0 "Station scientifique construite"

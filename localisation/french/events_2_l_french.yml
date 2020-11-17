@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 12.05.2020
- # Translation check : 12.05.2020
+ # Update check : 17.11.2020
+ # Translation check : 17.11.2020
  ####################################
  FANTASTIC:0 "Formidable"
 
@@ -41,7 +41,7 @@
  FROZ_BASE_DESC:0 "Les capteurs ont détecté une activité inattendue à un emplacement précis de la surface gelée de §Y[Root.GetName]§!."
  FROZ_BASE2_CAT:0 "Plaines gelées"
  FROZ_BASE2_DESC:0 "Les capteurs ont détecté une activité inattendue à un emplacement précis de la surface polaire de §Y[Root.GetName]§!."
- TROP_PETS_CAT:0 "Courses"
+ TROP_PETS_CAT:0 "Déplacements rapides"
  TROP_PETS_DESC:0 "Des déplacements sporadiques ont été détectés au coeur de la végétation tropicale extrêmement dense de §Y[Root.GetName]§!."
  BARR_BASE_CAT:0 "Sur les plaines stériles"
  BARR_BASE_DESC:0 "Un balayage rapide de la surface de §Y[Root.GetName]§! a permis de détecter un faible signal émis en direction de l'espace."
@@ -49,7 +49,7 @@
  PROJ_MOON_DESC:0 "Les analyses préliminaires ont révélé que §Y[Root.GetName]§! présente d'étranges propriétés ; pour une planète de ce type, certains relevés sont très étonnants..."
  SEA_CAT:0 "Kaléidoscopique"
  SEA_DESC:0 "Des formes diffuses tourbillonnent dans les courants des vastes océans de §Y[Root.GetName]§!."
- MOLTEN_BASE_CAT:0 "Cadence surchauffée"
+ MOLTEN_BASE_CAT:0 "Cadence infernale"
  MOLTEN_BASE_DESC:0 "Une activité cadencée a été détectée à la surface infernale de §Y[Root.GetName]§!."
  LEVELED_CAT:0 "Écrabouillement"
  LEVELED_DESC:0 "§Y[Root.GetName]§! a tout l'air de ne présenter qu'une seule et unique caractéristique géologique digne du moindre intérêt..."
@@ -61,7 +61,7 @@
  HAB_MAT_DESC:0 "Les capteurs spectrométriques de rétrodiffusion indiquent la présence de matériaux intéressants dans l'écorce de la planète."
  ATM_ANOMALY_CAT:0 "Anomalie atmosphérique"
  ATM_ANOMALY_DESC:0 "Les relevés atmosphériques effectués sur §Y[Root.GetName]§! ne correspondent pas aux projections des simulateurs."
- FRBR_GRIMACING_CAT:0 "Clignotement"
+ FRBR_GRIMACING_CAT:0 "Incohérence"
  FRBR_GRIMACING_DESC:0 "Les balayages répétés de la surface de §Y[Root.GetName]§! donnent des résultats incohérents, comme si c'était la planète elle-même qui était perpétuellement en mutation."
  FROZ_ILLUMINATED_CAT:0 "Lueurs dans la glace"
  FROZ_ILLUMINATED_DESC:0 "Un phénomène optique inexplicable et nettement visible depuis l'espace se produit à la surface de §Y[Root.GetName]§!."
@@ -1876,9 +1876,18 @@
  nomad.530.desc.30ships:0 "Conformément à notre accord avec la flotte des Eaux Poursuivantes - ainsi que celui avec les intermédiaires inquiets - deux flottes, constituées en tout de §Y10§! vaisseaux militaires, ont été livrées dans le système de §Y[Root.Capital.GetStarName]§! et se trouvent en orbite de notre monde-capitale."
 
 
-####################
-### TO BE ERASED ###
-####################
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ anomaly.186.desc:0 "L'abri est un tombeau pour candidats à l'immortalité.\n\nL'officier scientifique [Root.GetLeaderName] affirme que les énormes blocs de codes ternaires trouvés dans les banques de données sont des images neuronales ; des scans de cerveaux numérisés. Les aliens de [From.From.GetName] pensaient apparemment qu'il s'agissait de leur seule chance de survie après la catastrophe qui a frappé leur planète. N'ayant pas les moyens de se ressusciter, ils ont tout misé sur le fait - tout aussi improbable que cela puisse paraître - qu'un jour quelqu'un aurait les moyens de le faire en téléchargeant leurs modèles neuronaux."
+ fallen_empires_tasks.2.desc:0 "[Root.GetSpeciesNamePlural], en signe de notre bienveillance inépuisable, nous avons décidé de faire un don à votre empire. Veillez toutefois à ne pas gaspiller ce cadeau généreux que nous vous offrons, ou à prendre notre faveur comme acquise."
+ war_in_heaven.7.name:0 "La Guerre dans les cieux : victoire"
+ war_in_heaven.7.desc:0 "Au terme d'un conflit long et sanglant, la §H[WarInHeavenWinnerFE.GetName]§! est sortie victorieuse de sa lutte contre la §H[WarInHeavenLoserFE.GetName]§!. L'empire vaincu de ces précurseurs a été entièrement annexé par son ancienne rivale, et les §H[WarInHeavenWinnerFE.GetSpeciesNamePlural]§! sont désormais sans conteste la puissante dominante de la galaxie.\n\nEn tant que membres du camp des vainqueurs, nos suzerains ont jugé que nous méritions être récompensés et nous ont alloué des planètes prises à nos ennemis vaincus."
+ war_in_heaven.7.a:0 "Nous l'avons bien mérité"
+ war_in_heaven.8.name:0 "La Guerre dans les cieux : défaite"
+ war_in_heaven.8.desc:0 "Au terme d'un conflit long et sanglant, la §H[WarInHeavenWinnerFE.GetName]§! est sortie victorieuse de sa lutte contre la §H[WarInHeavenLoserFE.GetName]§!. L'empire vaincu de ces précurseurs a été entièrement annexé par son ancienne rivale, et les §H[WarInHeavenWinnerFE.GetSpeciesNamePlural]§! sont désormais sans conteste la puissance dominante de la galaxie.\n\nEn dépit du fait que nous avons soutenu les vaincus, les vainqueurs ont été suffisamment cléments pour ne nous priver d'aucune de nos planètes - soit parce qu'ils ont estimé que nous ne méritions pas ce châtiment, soit tout simplement parce qu'ils ne voyaient aucun intérêt immédiat dans notre espace."
+ war_in_heaven.8.a:0 "Au moins n'ont-ils pas été trop durs"
+ war_in_heaven.9.name:0 "La Guerre dans les cieux : défaite"
+ war_in_heaven.9.desc:0 "Au terme d'un conflit long et sanglant, la §H[WarInHeavenWinnerFE.GetName]§! est sortie victorieuse de sa lutte contre la §H[WarInHeavenLoserFE.GetName]§!. L'empire vaincu de ces précurseurs a été entièrement annexé par son ancienne rivale, et les §H[WarInHeavenWinnerFE.GetSpeciesNamePlural]§! sont désormais sans conteste la puissance dominante de la galaxie.\n\nAyant soutenu le camp des vaincus, nous avons été dépouillés de planètes par les vainqueurs, qui vont certainement les distribuer en récompense aux empires qui les ont soutenus."
+ war_in_heaven.9.a:0 "Un bien sombre jour pour nous tous..."
  new_tastes_chain_title:0 "Nouvelles saveurs"
  new_tastes_chain_desc:0 "Découvrir de nouveaux aliments"
  tasted:0 "Goûté"

@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 19.03.2020
- # Translation check : 19.03.2020
+ # Update check : 17.11.2020
+ # Translation check : 17.11.2020
  ####################################
 
 
@@ -28,6 +28,7 @@
  gov_marauder_clans:0 "Clans de maraudeurs"
  gov_marauder_clans_desc:0 "Un ensemble de clans et de tribus, perpétuellement déchiré par les luttes internes dès lors qu'il n'est pas occupé à razzier ses voisins."
  RT_RELUCTANT_EMISSARY:0 "Émissaire réticent"
+ RT_RELUCTANT_EMISSARY_FEMALE:0 "Émissaire Réticente"
  civic_anarcho_tribalism:0 "Anarcho-tribalisme"
  civic_anarcho_tribalism_desc:0 ""
  gov_marauder_khanate:0 "Bannière des maraudeurs"
@@ -138,15 +139,15 @@
  marauder.34.1.a:0 "L'Armada des Nés du Vide"
  marauder.34.2.a:0 "La 234ème des Écrase-dwamaks"
  marauder.34.3.a:0 "L'Escadre des Champions à Elle"
- voidborn_hire:0 "\nPermet de recruter cette flotte mercenaire pour une durée de 5 ans. Elle est composée de :\n\n§Y6 croiseurs\n8 frégates\n16 pillards§!"
+ voidborn_hire:0 "\nPermet de recruter cette flotte mercenaire pour une durée de §Y5§! ans, composée de §Y6 croiseurs§!, §Y8 frégates§! et §Y16 pillards§!."
  marauder.34.1.b:0 "La Flotte des Cavaliers stellaires"
  marauder.34.2.b:0 "La Flotte des Hurleurs dérangés"
  marauder.34.3.b:0 "La Chapelle de la Nuit Éternelle"
- star_riders_hire:0 "\nPermet de recruter cette flotte mercenaire pour une durée de 5 ans. Elle est composée de :\n\n§Y4 croiseurs\n6 frégates\n12 pillards§!"
+ star_riders_hire:0 "\nPermet de recruter cette flotte mercenaire pour une durée de §Y5§! ans, composée de §Y4 croiseurs§!, §Y6 frégates§! et §Y12 pillards§!."
  marauder.34.1.c:0 "L'Escadrille de la Première tempête"
  marauder.34.2.c:0 "L'Escadre des Hystériques volontaires"
  marauder.34.3.c:0 "La Congrégation du Crépuscule"
- storm_wing_hire:0 "\nPermet de recruter cette flotte mercenaire pour une durée de 5 ans. Elle est composée de :\n\n§Y2 croiseurs\n4 frégates\n8 pillards§!"
+ storm_wing_hire:0 "\nPermet de recruter cette flotte mercenaire pour une durée de §Y5§! ans, composée de §Y2 croiseurs§!, §Y4 frégates§! et §Y8 pillards§!."
  marauder.34.d:0 "Peu importe, il y a d'autres sujets à discuter"
  marauder.34.e:0 "Au revoir"
  marauder.37.1.a.desc:0 "Bravo, [Root.GetSpeciesNamePlural]. Avec la flotte que vous venez de choisir, vous pourriez même ravager la [random_fallen_empire.GetName] !\n\nEnfin, peut-être pas quand même... Mais en tout cas, y'a pas d'erreur : c'est une sacrée flotte !"
@@ -181,6 +182,8 @@
  leader_trait_general_mercenary_warrior_desc:0 "$leader_trait_mercenary_warrior_desc$"
  leader_trait_great_khan:0 "Le Grand Khan"
  leader_trait_great_khan_desc:0 "Le Grand Khan est un chef charismatique, un tacticien brillant et - si les rumeurs disent vrai - un puissant psychiste."
+ leader_trait_ruler_great_khan:0 "$leader_trait_great_khan$"
+ leader_trait_ruler_great_khan_desc:0 "$leader_trait_great_khan_desc$"
  marauder.50.name:0 "Fin de contrat des mercenaires"
  marauder.50.desc:0 "Le contrat d'engagement des mercenaires au service de la §H[Root.GetName]§! arrive à échéance. Leur chef, l'amiral [Root.Leader.GetName], a proposé d'immédiatement prolonger le service de ses vaisseaux pour cinq nouvelles années. Pour un coût supplémentaire.\n\nEn cas de refus, ces mercenaires partiront évidemment chercher du travail ailleurs."
  marauder.50.a:0 "Prolongeons leur contrat"
@@ -192,6 +195,10 @@
  marauder.76.a:0 "Mais, on avait un contrat !"
  marauder.77.name:0 "Les mercenaires rejoignent le Grand Khan"
  marauder.77.desc:0 "La montée en puissance de la [raider_khanate.GetName] sous la houlette de son Grand Khan tant vanté a déclenché des défections en masse parmi tous les [raider_khanate.GetSpeciesNamePlural] que nous employions comme mercenaires. Saisis d'un soudain sentiment de ferveur nationaliste, ces traîtres ont tous rompu leur contrat et nous ont abandonnés pour intégrer la machine de guerre de plus en plus imposante du Grand Khan."
+ marauder.86.a.desc:0 "Votre attention, [Root.GetSpeciesNamePlural].\n\nSi vous avez besoin d'autres pour combattre pour vous, sachez que les flottes des [marauder_mercenary_country.GetSpeciesNamePlural] sont maintenant disponibles pour le mercenariat. Oui, vous avez bien entendu. Si vous pouvez payer, les meilleurs mercenaires de la galaxie sont prêts à se battre pour vous."
+ marauder.86.a:0 "C'est bon à savoir"
+ marauder.87.a.desc:0 "YYYAAAHHHOOOUUU !!!! Votre attention, dwamaks !\n\nNos guerriers s'ennuient et font du grabuge ! Ils passent leur temps à se battre, et ça commence à faire pas mal de morts ! Mais on a la solution : on envoie les plus dingues d'entre eux se battre pour les dwamaks, en échange de crédits sonnants et trébuchants ! Si vous voulez les meilleurs mercenaires de la galaxie, c'est le moment où jamais !"
+ marauder.88.a.desc:0 "Celle du Vide a un message pour vous :\n\nSi vous voulez, vous pouvez solder certaines flottes à nous comme mercenaires. Nos équipages sont disciplinés et obéiront à vos ordres, à partir du moment où vous pouvez payer.\n\nC'est un joli petit cadeau que vous fait Celle du Vide, alors faut pas gâcher."
  marauder.101.1.desc:0 "Faibles [Root.GetSpeciesNamePlural], nos guerriers sont en route pour piller vos systèmes. Opposez-vous à eux si vous en avez le courage, ou cachez-vous jusqu'à ce qu'ils se soient rassasiés de toutes vos richesses.\n\nÀ moins que vous préfériez, bien sûr, verser tribut pour éviter les massacres à venir. Si vous nous versez assez, nos guerriers pourraient accepter de faire demi-tour..."
  marauder.101.2.desc:0 "YAHOOOUUUYOU !!!!!!! [Root.GetSpeciesNamePlural]-dwamaks ! Nous venons visiter vos systèmes ! C'est un service qu'on vous rend en vous empêchant de devenir trop gras et trop riches, ouais !\n\nSauf si vous pensez qu'on peut faire de vous du bon ragoût de dwamak ?"
  marauder.101.3.desc:0 "[Root.GetSpeciesNamePlural]. Celle du Vide nous a communiqué Son désir d'utiliser vos systèmes comme sites de cérémonie où célébrer Sa domination éternelle sur l'espace. Comme nous sommes Ses humbles serviteurs, nous n'avons pas le choix, nous devons Lui obéir.\n\nUne flotte de combat de nos meilleurs guerriers, venus de toutes nos factions combattantes, est en route pour collecter le tribut et des serviteurs. Pour repousser l'inévitable, et satisfaire Sa faim, vous pouvez verser tribut maintenant. Si c'est assez, on rappellera Sa flotte."
@@ -237,6 +244,14 @@
  marauder.112.2.a.response:0 "Ah, mais c'est un secret, dwamaks ! C'était des dwamaks, comme vous, mais juste d'autres dwamaks. C'est tout ce qu'on peut dire."
  marauder.112.3.a.response:0 "Des infidèles. Des incroyants. Des hérétiques.\n\nOn aura bientôt plus aucun rapport avec eux, mais en attendant leurs crédits énergétiques nous aident à accomplir Sa volonté."
  marauder.112.b:0 "Fin de la transmission"
+ marauder.114.name:0 "Raid repoussé"
+ marauder.114.desc:0 "Les lourds dommages infligés à la flotte des [marauder_country.GetSpeciesNamePlural] ont suffi à faire réfléchir ses guerriers. Après avoir étudié les possibilités qui s'offraient à eux, ils ont apparemment décidé de renoncer au raid et de se retirer dans leur propre espace."
+ marauder.114.a:0 "Ils ont eu les yeux plus gros que la panse"
+ marauder.116.name:0 "Flotte de raid détruite"
+ marauder.116.desc:0 "La flotte des [From.GetSpeciesNamePlural] qui avait l'intention de mener un raid dans notre espace a été détruite lors de l'engagement dans le système de [destroyed_fleet_system.GetName]. Aucun survivant n'a été retrouvé parmi les débris."
+ marauder.116.a:0 "Que cela leur serve de leçon"
+ marauder.117.desc:0 "Les §H[marauder_country.GetSpeciesNamePlural]§! que nous avions « encouragés » à lancer un raid contre la §H[marauder_target.GetName]§! ont tourné casque et se sont repliés dans leur espace ! Les pertes subies par leur flotte d'attaque étaient apparemment suffisamment importantes pour les obliger à renoncer."
+ marauder.117.a:0 "Quels lâches !"
  marauder.120.name:0 "Raid des [raiding_marauder.GetSpeciesNamePlural]"
  marauder.120.desc:0 "Une flotte de raid §H[raiding_marauder.GetSpeciesName]§! a été détectée en approche de notre espace ! Les communications interceptées indiquent qu'elle a été payée par une puissance rivale pour attaquer nos systèmes. Elle nous envoie en ce moment même une transmission sur un canal ouvert."
  marauder.121.1.desc:0 "Des lâches qui se cachent dans l'ombre nous ont demandé de vous faire face, puisqu'ils ont trop peur de faire ça eux-mêmes. Alors, est-ce qu'il y a des [Root.GetSpeciesNamePlural] assez honorables pour se battre avec nous, ou on doit piller vos systèmes sans que fassiez rien ? Montrez-nous ce que vous valez !"
@@ -262,6 +277,9 @@
  marauder.506.desc:0 "En dépit de son génie militaire tant vanté, [great_khan.GetName], le Grand Khan de '§Y[From.GetName]§!', a été vaincu dans le système de [khan_death_system.GetName]. Lorsque la flotte qu'il commandait a été perdue dans la bataille qui l'opposait aux forces de la [khan_destroyer.GetName], lui et ses plus proches officiers ont fui en hyperespace dans une petite navette.\n\nEn ce moment même, il semble occupé à rassembler une nouvelle flotte pour reprendre ses conquêtes, mais le revers qu'il vient de subir permet de redonner un peu d'espoir à tous ceux qui s'opposent à l'avance implacable des [From.GetSpeciesNamePlural]."
  marauder.506.a:0 "Ainsi donc, il n'est pas invincible..."
  marauder.508.desc:1 "Je suis le Grand Khan [great_khan.GetName] de '§Y[From.GetName]§!'. Ma défaite face à la [khan_destroyer.GetName] n'est qu'un revers temporaire, rien de plus. Les [khan_destroyer.GetSpeciesNamePlural] sont des guerriers courageux et des ennemis de valeur, mais ils se coucheront eux aussi devant nous.\n\nLes vents du changement et de l'histoire balaient la galaxie, et rien ne peut les arrêter. Ma nouvelle flotte est rassemblée."
+ marauder.508.desc.1:0 "$marauder.508.desc$ Lorsque cette guerre sera terminée, mes loyaux satrapes seront récompensés de leur appui."
+ marauder.508.desc.2:0 "$marauder.508.desc$ Jurez-moi fidélité immédiatement, pendant que vous en avez encore le temps."
+ marauder.508.desc.3:0 "$marauder.508.desc$ Quiconque se dressera sur ma route sera écrasé."
  marauder.508.a:0 "On dirait qu'un nouveau massacre va avoir lieu..."
  marauder.510.name:0 "Mort du Grand Khan"
  marauder.510.desc:0 "Le Grand Khan [great_khan.GetName] est mort. Après la seconde défaite de sa flotte, dans le système de [khan_death_system.GetName], il n'a fait aucune tentative pour s'échapper de son vaisseau amiral au moment de sa destruction par les forces de la [khan_destroyer.GetName].\n\nAvec la mort de leur chef révéré, les [raider_khanate.GetSpeciesNamePlural] semblent être déchirés par un conflit intérieur brutal. Les seigneurs de guerre du Grand Khan sont désormais engagés dans une guerre sans merci pour reprendre les rênes de l'empire. Reste à voir qui en sortira vainqueur..."
@@ -285,6 +303,9 @@
  marauder.519.desc:0 "Après avoir attaqué avec succès §H[liberated_planet.GetName]§! et avoir vaincu les forces du Grand Khan stationnées à la surface, la §H[From.GetName]§! a gracieusement offert de nous rétrocéder la [liberated_planet.GetPlanetMoon] en la remettant sous notre contrôle."
  opinion_returned_marauder_planet:0 "A libéré notre planète"
  opinion_kept_marauder_planet:0 "A conservé notre planète libérée"
+ marauder.526.name:0 "L'éveil des [From.GetSpeciesNamePlural]"
+ marauder.526.desc:0 "La destruction toute récente de l'une des grandes stations spatiales de la §H[awakened_horde.GetName]§! a poussé les §H[From.GetSpeciesNamePlural]§! à s'unir, pour la première fois de leur histoire, derrière un Grand Khan unique. Ce seigneur de guerre mystérieux, qui selon certaines rumeurs serait un puissant psychiste, a convaincu les [From.GetSpeciesNamePlural] de mettre de côté leurs différends pour assurer la survie de tous.\n\nDe puissantes flottes de guerre, en provenance d'ancrages auparavant cachés, reçoivent des équipages de [From.GetSpeciesNamePlural] avides de batailles et remises en état de se battre. Inspirés par leur Grand Khan, ces guerriers veulent exercer à l'encontre de la galaxie leur vengeance pour les leurs qu'ils ont perdus."
+
  marauder.550.a.desc:0 "Je n'échouerai pas. Les millions de [raider_khanate.GetSpeciesNamePlural] de la [raider_khanate.GetName] comptent sur moi."
  marauder.550.b.desc:0 "Je suis le Grand Khan [great_khan.GetName]. Êtes-vous venus vous soumettre à mon autorité ?"
  marauder.550.c.desc:0 "À celui qui essaie, rien n'est impossible."

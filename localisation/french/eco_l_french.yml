@@ -1,6 +1,6 @@
 ﻿l_french:
 
- # Translation (Calvitix) Ok, 14.05.2020
+ # Translation (Calvitix) Ok, 17.11.2020
 
  waste:0 "déchets"
  mod_planet_jobs_waste_produces_mult:0 "£waste£ §Y$waste$§! des Emplois"
@@ -125,8 +125,10 @@
  eco_fragile_ecosystem_effect:0 "Stabilité: §R-5§!\n§REvénements liés à la Pollution amplifiés sur ce monde.§!"
  eco_species_rich: "Riche en biodiversité"
  eco_species_rich_desc: "Ce monde, riche en biodiversité, apporte de nombreux avantages au bonheur de sa population."
+ eco_species_rich_effects:0 "£waste£ §Y$waste$§! £job£ des Emplois: §G-1§!"
  eco_species_poor: "Pauvre en biodiversité"
  eco_species_poor_desc: "Ce monde a de faibles niveaux de biodiversité, ce qui réduit sa santé."
+ eco_species_poor_effect:0 "£waste£ §Y$waste$§! des £job£ Emplois: §R+1§!"
  eco_visual:0 "Pollution visuelle"
  eco_visual_desc:0 "Les infrastructures disgracieuses dominent les régions habitées de ce monde."
  eco_visual_success:0 "Architecture inspirante"
@@ -231,6 +233,8 @@
  d_eco_junkheap_desc:0 "Les £waste£ §Y$waste$§! se sont accumulés dans son propre environnement."
  d_eco_graveyard:0 "£blocker£ Cimetière d'espèces"
  d_eco_graveyard_desc:0 "La perte de biodiversité a entraîné la création d'écosystèmes plus vulnérables. Si on l'ignore, cela accélérera l'effondrement écologique."
+ d_eco_titan_graveyard:0 "£blocker£ Titan Graveyard"
+ d_eco_titan_graveyard_desc:0 "Loss of biodiversity has resulted in more vulnerable ecosystems. If ignored, this will accelerate ecological collapse."
  d_eco_unstable_climate:0 "£blocker£ Climat instable"
  d_eco_unstable_climate_tooltip:0 "§REngendre la Dévastation§!"
  d_eco_unstable_climate_desc:0 "Des conditions météorologiques imprévisibles endommagent les infrastructures et menacent les populations."
@@ -483,6 +487,10 @@
  job_anger_drone_effect_desc:0 "Les £job_ranger_drone£ £job_ranger_drone_plural£ produisent §Y2§! £unity£ §Y$unity$§!, §Y2§! £food£ §Y$food$§!, §Y2§! £society£ §Y$society_research$§!, et réduisent les §SDéchets§! de §Y10§!."
  job_ranger_drone_desc:0 "Ces drones sont affectés à la protection de l'environnement autochtone afin qu'il puisse fournir ses services à la ruche."
  mod_job_ranger_drone_add:0 "Emplois de drones gardes forestiers"
+ # Ecology Origins
+ origin_ecology:0 "Développement durable"
+ origin_ecology_desc:0 "Cette civilisation s'est développée grâce à une utilisation prudente des terres et des ressources, conduisant à un monde d'origine inhabituellement vierge et à une base stable pour une société cherchant à s'étendre à d'autres mondes."
+ origin_ecology_effects:0 "Le monde capitale gagne §YEcosystèmes Résilients§!, §YParc Urbains§!, en tant que §YDépots§! bonus, Natural £blocker£ §YBlockers§!, and £planet£ §YPlanet Size§! is §G20§!.\n\nDémarre avec une £pop£ §YPops§!."
  # Ecology Civics
  civic_tooltip_environmentalist_effects:1 "Les £building£ §YBatiments Capitole§! remplacent quelques emplois de £job_administrator£ §Y$job_administrator$§! contre des £job_waste_manager£ §Y$job_waste_manager_plural$§!\nLes £job_waste_handler£ §Y$job_waste_handler_plural$§! produisent §Y1§! £unity£ Unité"
  civic_tooltip_nonviolent:0 "à un certain degré §YPacifiste§!, §YSpiritualiste§!, §YXénophile§!, ou §YEgalitaire§!"
@@ -530,11 +538,12 @@
  eco_tech_waste_processing_3_desc:0 "Utilise la matière noire pour convertir les £waste£ §Y$waste$§! en une sorte de matière que nous ne pouvons pas encore observer, ou le néant. Nous ne sommes pas sûrs. C'est probablement en sécurité."
  eco_tech_waste_recycling:0 "Recyclage des £waste£ §Y$waste$§!"
  eco_tech_waste_recycling_desc:0 "L'amélioration du recyclage des matériaux entraîne une réduction de la pollution liée à la production et une plus grande quantité de matériaux recyclés."
+ eco_tech_waste_recycling_tooltip:0 "£job_waste_handler£ Efficience des Récupérateurs de £waste£ : §Y+20%§!\nLes décharges £building£ procurent §Y+1§! £job_waste_handler£ Emploi de récupérateurs."
  eco_tech_waste_recycling_2:0 "Recyclage des £waste£ §Y$waste$§! Avancé"
  eco_tech_waste_recycling_2_desc:0 "Des techniques de recyclage avancées maximisent notre capacité à convertir les £waste£ §Y$waste$§! non désirés en matières premières."
  eco_tech_waste_recycling_3:0 "Prévention des £waste£ §Y$waste$§!"
  eco_tech_waste_recycling_3_desc:0 "Le moyen le plus durable est de ne pas faire les choses. Le deuxième moyen le plus durable est de créer quelque chose de très utile, de résoudre un problème qui n'a pas été résolu."
- eco_tech_waste_recycling_tooltip:0 "£job_waste_handler£ Efficience des Récupérateurs de £waste£ §Y$waste$§! : §Y+50%§!\n£building£ Les décharges procurent §Y+1§! Emploi de £job_waste_handler£ Récupérateur de £waste£ §Y$waste$."
+ eco_tech_waste_recycling_3_tooltip:0 "£job_waste_handler£ Efficience des Récupérateurs de £waste£ §Y$waste$§! : §Y+50%§!\n£building£ Les décharges procurent §Y+1§! Emploi de £job_waste_handler£ Récupérateur de £waste£ §Y$waste$."
  eco_tech_trash_colonies:0 "Mondes-poubelles"
  eco_tech_trash_colonies_desc:0 "Désigner un monde entier qui sera utiliser essentiellement pour l'élimination des £waste£ §Y$waste$§! de l'Empire. Réduit considérablement la pollution sur toutes les autres planètes à l'intérieur de vos frontières."
  eco_tech_planetary_restoration:0 "Restauration planétaire"

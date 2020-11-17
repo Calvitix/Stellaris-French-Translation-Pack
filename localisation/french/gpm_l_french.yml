@@ -156,6 +156,10 @@
  # Venerable dreadnaught army
  gpm_venerable_dreadnaught_army:0 "Dreadnought Vénérable"
  gpm_venerable_dreadnaught_army_desc:0 "Un puissant ancien mech personnel de marche."
+
+ # dreadnaught army
+ gpm_dreadnaught_army:0 "Dreadnought"
+ gpm_dreadnaught_army:0 "A slow lumbering personal mech fitted with devastating weapon systems and colossal plates of armour"
  
  #######################################
  #### Artifact Actions
@@ -168,7 +172,7 @@
  # gpm_artifact_precursor_deciphering_effect:0 "Expérimentez sur £minor_artifacts£ Artefacts mineurs pour découvrir des technologies de précurseurs aléatoires.\n\nTemps de recharge : £time£ §Y1800§!"
  # gpm_artifact_precursor_deciphering_cooldown:0 "Temps de recharge des expériences"
  # requires_gpm_artifact_precursor_deciphering_no_cooldown:0 "Impossible de recharger les expériences"
- # gpm_artifact_precursor_deciphering_effectTT:0 "Décomposer £minor_artifacts£ artefacts mineurs pour des bonus technologiques aléatoires. Gagnez des progrès dans une technologie aléatoire, gagnez des points de recherche ou gagnez un bonus de vitesse de recherche temporaire.\n\n§Y20%§! chance de découvrir une technologie bonus précurseur rare.\n\nTemps de recharge : £time£ §Y1800§!"
+ gpm_artifact_precursor_deciphering_effectTT:0 "Décomposer £minor_artifacts£ artefacts mineurs pour des bonus technologiques aléatoires. Gagnez des progrès dans une technologie aléatoire, gagnez des points de recherche ou gagnez un bonus de vitesse de recherche temporaire.\n\n§Y20%§! chance de découvrir une technologie bonus précurseur rare.\n\nTemps de recharge : £time£ §Y1800§!"
  
  requires_artifact_sell_collector_cooldown_no_cooldown:0 "$TRIGGER_FAIL$§RImpossible de vendre plus d'artefacts pour le moment.§!"
  artifact_sell_collector_cooldown:0 "Rechargement $artifact_sell_collector$"
@@ -530,7 +534,6 @@
  mod_ship_upgrades_time_cost_mult:0 "£time£ Temps d'amélioration des vaisseaux:"
  mod_planet_pops_food_upkeep_mult:0 "Entretien en £food£ Nourriture des Pops"
  mod_planet_pops_minerals_upkeep_mult:0 "Entretien des £pop£pops en £minerals£minéraux "
-
  mod_edicts_influence_cost_mult:0 "Coût en £influence£ Influence des Edits :"
  MOD_SHIP_ARMOR_ADD:0 "Blindage des vaisseaux"
  MOD_SHIP_ARMOR_MULT:0 "Blindage des vaisseaux"

@@ -6,7 +6,7 @@
  # Translation check OK : 12.05.2020
  ####################################
 
- 
+ IS_YOU:1 "C'est nous." 
  #Ruler specific
  federation_acceptance_ruler_cyborg:0 "Dirigeant cyborg"
  federation_acceptance_ruler_synthetic:0 "Dirigeant synthétique"
@@ -359,8 +359,8 @@
  VOTE_TYPE_MAJORITY:0 "$declare_war_majority_vote$"
  FEDERATION_SWITCH_TYPE_RATIO_POSITIVE:0 "§G$SUPPORT|0$/$TOTAL|0$§!"
  FEDERATION_SWITCH_TYPE_RATIO_NEGATIVE:0 "§R$SUPPORT|0$/$TOTAL|0$§!"
- FEDERATION_MEMBER_RIVALING:0 "§RRivale déclarée de la $MEMBER$§!"
- FEDERATION_MEMBER_RIVALED:0 "§RÉrigée en rivale par la $MEMBER$§!"
+ FEDERATION_MEMBER_RIVALING:0 "§RRivale déclarée de ' $MEMBER$§!'"
+ FEDERATION_MEMBER_RIVALED:0 "§RÉrigée en rivale par ' $MEMBER$§!'"
  FED_LAW_COOLDOWN:0 "§RImpossible de modifier les lois de cette catégorie avant $NUMBER|Y$£time£§!"
 
  law_category_centralization:0 "Centralisation fédérale "
@@ -387,9 +387,9 @@
  fleet_contribution_high:0 "élevée"
  fleet_contribution_high_desc:0 "La fédération exige une contribution militaire importante."
 
- fleet_contribution_low_effect:0 "Les membres transfèrent §Y10%§! de leur capacité navale à la fédération.\n$MOD_FEDERATION_COHESION_ADD$: §R-0.25§!"
- fleet_contribution_medium_effect:0 "Les membres transfèrent §Y20%§! de leur capacité navale à la fédération.\n$MOD_FEDERATION_COHESION_ADD$: §R-0.50§!"
- fleet_contribution_high_effect:0 "Les membres transfèrent §Y30%§! de leur capacité navale à la fédération.\n$MOD_FEDERATION_COHESION_ADD$: §R-0.75§!"
+ fleet_contribution_low_effect:0 "Les membres transfèrent §Y10%§! de leur capacité navale à la fédération."
+ fleet_contribution_medium_effect:0 "Les membres transfèrent §Y20%§! de leur capacité navale à la fédération."
+ fleet_contribution_high_effect:0 "Les membres transfèrent §Y30%§! de leur capacité navale à la fédération."
 
  fleet_contribution_low_trade:0 "$fleet_contribution_low$"
  fleet_contribution_low_trade_desc:0 "$fleet_contribution_low_desc$"
@@ -491,6 +491,7 @@
 
  ACTION_VOTE_FOR_FEDERATION_LAW_TITLE:0 "Vote sur une loi fédérale"
  ACTION_VOTE_FOR_FEDERATION_LAW_LONG_DESC:0 "Vote pour la proposition de loi $CATEGORY|Y$ : $LAW|Y$."
+ ACTION_VOTE_FOR_FEDERATION_LAW_ACTIVE_DESC:0 "§GLoi en cours :§! $CATEGORY|Y$ : $LAW|W$"
 
  ACTION_VOTE_FOR_FEDERATION_TYPE_TITLE:0 "Vote sur le type fédéral"
  ACTION_VOTE_FOR_FEDERATION_TYPE_LONG_DESC:0 "Vote pour passer à une fédération de type $TYPE|Y$."
@@ -763,6 +764,60 @@
  federation_acceptance_assimilators:0 "$personality_assimilators$"
  federation_acceptance_servitors:0 "$personality_servitors$"
  federation_acceptance_fanatic_befrienders:0 "$personality_fanatic_befrienders$"
+
+ #Contextual factors
+ federation_acceptance_generally_positive:0 "Généralement positive"
+ federation_acceptance_better_cohesion:0 "La cohésion n'est pas d'au moins §G90§!"
+ federation_acceptance_poor_cohesion:0 "Faible cohésion"
+ federation_acceptance_dont_lower_centralization:0 "Cohésion d'au moins §G50§!"
+ federation_acceptance_president:0 "Exerce la présidence fédérale"
+ federation_acceptance_reduce_centralization:0 "Souhaite réduire la centralisation"
+ federation_acceptance_reduce_fleet:0 "Souhaite réduire la contribution à la flotte"
+ federation_acceptance_rotating:0 "Veut une rotation"
+ federation_acceptance_term_limit:0 "Veut une limite de mandat"
+ federation_acceptance_crisis:0 "Crise en cours"
+ federation_acceptance_subject:0 "Est une dépendance"
+ federation_acceptance_strong_president:0 "Plus puissante et exerce la présidence"
+ federation_acceptance_weaker:0 "Moins puissante"
+ federation_acceptance_has_subjects:0 "A des dépendances"
+
+ #Federation specific
+ federation_acceptance_hegemony_federation:0 "$hegemony_federation$"
+ federation_acceptance_military_federation:0 "$military_federation$"
+ federation_acceptance_trade_league:0 "$trade_federation$"
+
+ #Empire specific
+ federation_acceptance_authoritarian:0 "$ethic_authoritarian$"
+ federation_acceptance_militarist:0 "$ethic_militarist$"
+ federation_acceptance_xenophobe:0 "$ethic_xenophobe$"
+ federation_acceptance_xenophile:0 "$ethic_xenophile$"
+ federation_acceptance_materialist:0 "$ethic_materialist$"
+ federation_acceptance_erudite_explorers_in_research_federation:0 "$personality_erudite_explorers$ et $research_federation$"
+ federation_acceptance_honorbound_warriors_in_military_federation:0 "$personality_honorbound_warriors$ et $military_federation$"
+ federation_acceptance_ruthless_capitalists_in_trade_federation:0 "$personality_ruthless_capitalists$ et $trade_federation$"
+ federation_acceptance_peaceful_traders_in_trade_federation:0 "$personality_peaceful_traders$ et $trade_federation$"
+ #federation_acceptance_erudite_explorers_in_research_federation: "$erudite_explorers$ in a $research_federation$"
+ #federation_acceptance_honorbound_warriors_in_military_federation: "$honorbound_warriors$ in a $military_federation$"
+ #federation_acceptance_ruthless_capitalists_in_trade_federation: "$ruthless_capitalists$ in a $trade_federation$"
+ #federation_acceptance_peaceful_traders_in_trade_federation: "$peaceful_traders$ in a $trade_federation$"
+ federation_acceptance_warrior_culture:0 "$civic_warrior_culture$"
+ federation_acceptance_technocracy:0 "$civic_technocracy$"
+ federation_acceptance_no_psionic:0 "N'a pas le trait psionique"
+ federation_acceptance_psionic:0 "Psionique"
+ federation_acceptance_corporate:0 "$gov_megacorporation$"
+
+ #Ruler specific
+ federation_acceptance_ruler_cyborg:0 "Dirigeant cyborg"
+ federation_acceptance_ruler_synthetic:0 "Dirigeant synthétique"
+ federation_acceptance_ruler_psionic:0 "Dirigeant psychiste"
+ federation_acceptance_ruler_very_strong:0 "Dirigeant très fort"
+ federation_acceptance_ruler_chosen:0 "Dirigeant Élu"
+ #federation_acceptance_ruler_cyborg: "$ruler$ is $leader_trait_ruler_cyborg$"
+ #federation_acceptance_ruler_synthetic: "$ruler$ is $leader_trait_ruler_synthetic$"
+ #federation_acceptance_ruler_psionic: "$ruler$ is $leader_trait_ruler_psionic$"
+ #federation_acceptance_ruler_very_strong: "$ruler$ is $trait_very_strong$"
+ #federation_acceptance_ruler_chosen: "$ruler$ is $leader_trait_ruler_chosen$"
+
 
  ####################
  ### MEGA SHIPYARD + JUGGERNAUT
@@ -1834,6 +1889,8 @@
  origin_tooltip_galactic_doorstep_effects:0 "Lance la partie avec un §Yportail§! désactivé dans le système natal."
 
  START_SCREEN_GALACTIC_DOORSTEP:0 "Cela fait quelques siècles maintenant que nous avons ont pris conscience de cette construction mystérieuse que recèle notre système natal. Du fait de ses propriétés métalliques obscures, elle a été nommée la §HCouronne Noire§!, et sa présence majestueuse a eu un effet profond sur la société [GetSpeciesName], contribuant à son unification, à la fois par l'esprit et par la vision de l'avenir.\n\nLe vol spatial est alors devenu la première priorité de la communauté scientifique, et la quête avide de cette technologie a enclenché toutes sortes d'autres découvertes bénéfiques.\n\nLa Couronne s'est avérée être désactivée, mais elle nous a permis d'apprendre une leçon cruciale : ce n'est pas notre destination qui importe, mais le voyage en lui-même. Et grâce à cette mire qu'a été pour nous la Couronne, la [GetName] dispose désormais des moyens de visiter enfin les étoiles."
+ START_SCREEN_GALACTIC_DOORSTEP_MACH:0 "Cela fait quelques siècles maintenant que nous avons pris conscience de cette construction mystérieuse que recèle notre système natal. Du fait de ses propriétés métalliques obscures, elle a été nommée la §HCouronne Noire§!, et sa présence majestueuse a eu un effet profond sur nos opérations. Rassembler davantage de données sur elle est devenu impératif.\n\nLe vol spatial est alors devenu la première priorité des sous-routines de recherche et développement, et cette quête avide pour nous approprier cette technologie alien a débouché sur toute une série de découvertes utiles, qui ont par la suite été implémentées.\n\nLa Couronne s'est avérée être désactivée, mais les avancées faites pour l'atteindre ont démultiplié notre production et nos résultats, et nous avons désormais  la capacité de visiter les autres étoiles."
+ START_SCREEN_GALACTIC_DOORSTEP_HIVE:0 "Cela fait quelques siècles maintenant que nous avons pris conscience de cette construction mystérieuse que recèle notre système natal. Du fait de ses propriétés métalliques obscures, elle a été nommée la §HCouronne Noire§!, et sa présence majestueuse a eu un effet profond sur nous. Découvrir sa véritable nature est devenu un enjeu impératif.\n\nLe vol spatial est alors devenu notre première priorité, et la quête avide de cette technologie a débouché sur toutes sortes de découvertes bénéfiques, qui nous ont permis de nous perfectionner et de progresser.\n\nLa Couronne s'est avérée être désactivée, mais le voyage n'a pas été vain. Nous avons désormais la capacité de grandir, d'aller plus loin, toujours plus, et bien plus que jamais auparavant."
 
  origin.1000.name:0 "Quelqu'un à la porte"
  origin.1000.desc:0 "Sans le moindre signe avant-coureur, le mystérieux portail alien qui se trouve dans notre système natal s'est activé ! Une poussée d'énergie en a jailli, et au cours d'un bref moment un globe brillant, vibrant a empli le centre de la structure. Ce vestige d'une ancienne civilisation n'est sans doute pas entièrement désactivé, comme nous le pensions auparavant.\n\nSi ce portail n'a pas été ouvert plus de quelques secondes, ce fut toutefois suffisant pour qu'il laisser passer des débris spatiaux : des rochers et de la poussière, qui après avoir été examinés se sont avérés être des ressources de grande valeur."
@@ -2446,6 +2503,7 @@
  origin_doomsday_desc:0 "Le monde natal de cette civilisation est hautement instable, et ce n'est qu'une question de temps avant qu'il explose. Son seul espoir est donc de trouver refuge ailleurs avant qu'il ne soit trop tard."
  origin_tooltip_doomsday_effects:1 "§RATTENTION ! Origine difficile§!\n- Le monde natal va exploser d'ici §H35 à 45 ans§! après le lancement de la partie ;\n- des ressources de valeur, tirées du manteau de ce monde, gonflent la production à sa surface ;\n- aucun monde habitable garanti ne sera présent à proximité du système natal."
  START_SCREEN_DOOMSDAY:0 "Notre monde natal, [Root.Capital.GetName], est en train de mourir. Séismes et éruptions volcaniques le secouent depuis des milliers d'années, mais ce n'est que tout récemment que les [Root.GetScientistPlural] ont pu confirmer l'inimaginable. Leurs calculs ont démontré que notre monde, instable au niveau tectonique, exploserait et se déchirerait un siècle ou deux plus tard.\n\nSans aucun moyen d'arrêter ce processus, nous avons réalisé que la survie de l'espèce [GetSpeciesName] dépendait de sa capacité à quitter [Root.Capital.GetName] pour trouver refuge ailleurs, parmi les étoiles. Un projet industriel et technologique, à une échelle inédite jusqu'alors, fut donc mis en branle. La [GetName] a alors rapidement progressé, passant des premiers vols atmosphériques aux premiers véritables voyages spatiaux. Les premiers vaisseaux capables de parcourir l'hyperespace sont maintenant prêts, mais nous n'avons plus guère de temps devant nous.\n\nNous devons trouver un nouveau foyer. Rapidement."
+ requires_doomsday_colony:0 "§RNous devons au préalable avoir une colonie.§!"
  origin.61.name:0 "La Fin est proche"
  origin.61.desc:1 "À mesure que séismes et éruptions continuent de s'aggraver et de se multiplier partout sur §Y[Root.GetName]§!, les [Root.Owner.GetScientistPlural] sont désormais capables de prévoir avec une plus grande précision lorsque viendra la Fin : dans §H35 à 45 ans§!, ont-ils estimé.\n\nLes conditions à la surface de notre [Root.GetPlanetMoon] vont d'ici là encore empirer. La seule bonne nouvelle est que les mouvements tectoniques facilitent pour nous l'accès aux riches ressources de son manteau, ce qui permet d'accroître grandement nos capacités de production."
  origin_61.a:0 "Nous n'avons plus guère de temps..."
@@ -2779,6 +2837,7 @@
  FAVORS_TO_USE_DESC:0 "Demande que cet empire nous retourne $NUM|Y$ faveurs sur $TOTAL|Y$."
  DIPLOMATIC_WEIGHT:0 "$succession_type_diplomatic_weight$"
  FAVORS_DIPLO_BUFF_DESC:0 "Demander à ce que $NUM|Y$ faveurs nous soient retournées accroîtrait notre poids diplomatique de §H+$VAL$§!£diplo_weight£ pour le vote sur cette résolution."
+ FAVORS_SAME_SIDE:1 "§RCet empire soutient déjà la résolution. Il n'y a aucun besoin de demander le retour de faveurs pour obtenir son appui.§!"
  ASK_TO_LEAVE_FEDERATION:0 "Demande de sortie de la fédération"
  POPUP_ASK_TO_LEAVE_FEDERATION_DESC:0 "Devons-nous envoyer une demande à la présidence de la $FEDERATION|H$ pour en sortir ?"
  ADD_BUILDING_COLONIZABLE:0 "Impossible de construire $BUILDING|Y$ sur $PLANET|Y$ : ce monde ne peut être colonisé."
@@ -2861,10 +2920,11 @@
 
  mod_federation_influence_produces_mult:0 "Gain d'£influence£influence par la fédération "
  mod_federation_influence_produces_add:0 "$mod_federation_influence_produces_mult$"
- 
+
  BUILD_PLAN:0 "Plan de construction"
  BUILD_PLAN_ENTRY:0 "$BUILDABLE|Y$ sur $PLANET|Y$ ($WEIGHT|Y0$)"
  NO_BUILD_PLAN_DESC:0 "La $COUNTRY|Y$ ne dispose actuellement d'aucun plan de construction."
+ CURRENT_PLAN:0 "Plan économique : $PLAN|Y$"
 
  action.123.name:0 "Derniers [From.GetSpeciesNamePlural] enlevés"
  action.123.desc:0 "Les derniers §H[From.GetSpeciesNamePlural]§! primitifs qui se trouvaient encore sur §Y[From.From.GetName]§!, leur monde natal, ont été enlevés et asservis. Sans doute quelques membres de l'espèce s'y trouvent-ils encore, à parcourir les régions les plus sauvages de la [From.From.GetPlanetMoon], mais ils seraient de toute façon trop peu nombreux pour préserver la moindre civilisation."
@@ -3286,3 +3346,11 @@
  count_war_all_trigger:0 "$IS_ALL_NOT$ guerres remplissent ces conditions"
  ACTION_VOTE_FOR_FEDERATION_LAW_ACTIVE_DESC:0 "§GLoi en cours :§! $CATEGORY|Y$ : $LAW|W$"
  requires_doomsday_colony:0 "§RNous devons au préalable avoir une colonie.§!"
+
+ resolution_passed_diplomatic_weight:0 "Résolution votée"
+ resolution_passed_diplomatic_weight_desc:0 "Une résolution proposée par cet empire a été votée par la Communauté galactique, démontrant ainsi son importance sur la scène diplomatique."
+ resolution_failed_diplomatic_weight:0 "Résolution déboutée"
+ resolution_failed_diplomatic_weight_desc:0 "Une résolution proposée par cet empire a été déboutée par la Communauté galactique. Cela réduit grandement son importance sur la scène diplomatique."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ requires_strongest_or_diplomat:0 "§RRequiert que la présidence soit attribuée selon la §Ypuissance économique§! ou le §Ypoids diplomatique§!.§!"
