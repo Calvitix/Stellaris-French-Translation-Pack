@@ -2,13 +2,357 @@
 
  ####################################
  # NSC2 Mod Initial Translation by EDA (update by Calvitix)
- # Translation check : OK 27.04.2020
+ # Translation check : OK 18.11.2020
  ####################################
 
+##################################################################################################################################################################################################################
+### SECTION NAMES ###
+#####################
 
-################################################################################################################################################
-# HULL SIZES & STARBASE MODULES/BUILDINGS
-################################################################################################################################################
+CORVETTE_MID_T1PD1: "Baie de Missiles 2"
+CORVETTE_MID_S3: "Intercepteur"
+CORVETTE_MID_S2PD1: "Proue"
+#-------------------------------------------------------------------#
+DESTROYER_BOW_M1S2: "Batterie de proue"
+DESTROYER_BOW_S3: "Arc de proue"
+DESTROYER_BOW_PD4_U: "proue de Destroyer SD"
+
+DESTROYER_STERN_S2: "Poupe d'interception"
+DESTROYER_STERN_M1: "Batterie de poupe"
+DESTROYER_STERN_PD2_U: "poupe de Destroyer SD"
+#-------------------------------------------------------------------#
+CRUISER_BOW_L1: "Artillerie de proue"
+CRUISER_BOW_G1S2: "Proue L.-Missiles"
+CRUISER_BOW_M2: "Bordée de proue"
+CRUISER_BOW_G1PD2: "Proue défensive"
+
+CRUISER_MID_L1M1: "Artillerie centrale"
+CRUISER_MID_M3: "Bordée centrale"
+CRUISER_MID_G2S2: "L.-Missile central"
+CRUISER_MID_G2PD2: "Défense centrale"
+
+CRUISER_STERN_M1: "Poupe de Bordée"
+CRUISER_STERN_S2: "Cannonage poupe"
+CRUISER_STERN_PD2: "Poupe SD"
+#-------------------------------------------------------------------#
+EXPLORATIONSHIP_BOW_L1: "Arc d'artillerie (L1)"
+EXPLORATIONSHIP_BOW_G1S2: "Arc de Fusillade (L1)"
+EXPLORATIONSHIP_BOW_M2: "Arc de Bordée (L1)"
+EXPLORATIONSHIP_BOW_L2: "Arc d'artillerie (L2)"
+EXPLORATIONSHIP_BOW_G2S2: "Arc de Fusillade (L2)"
+EXPLORATIONSHIP_BOW_M3: "Arc de Bordée (L2)"
+EXPLORATIONSHIP_BOW_L4: "Arc d'artillerie (L3)"
+EXPLORATIONSHIP_BOW_G4S4: "Arc de Fusillade (L3)"
+EXPLORATIONSHIP_BOW_M6: "Arc de Bordée (L3)"
+
+EXPLORATIONSHIP_MID1_L1G1: "Section de Barrage 1 (L1)"
+EXPLORATIONSHIP_MID1_L1M1: "Section Artillerie 1 (L1)"
+EXPLORATIONSHIP_MID1_M2S2: "Section de Salve 1 (L1)"
+EXPLORATIONSHIP_MID1_G3: "Section de Missiles 1 (L1)"
+EXPLORATIONSHIP_MID1_M3: "Section de Bordée 1 (L1)"
+EXPLORATIONSHIP_MID1_L1G2: "Section de Barrage 1 (L2)"
+EXPLORATIONSHIP_MID1_L2M1: "Section Artillerie 1 (L2)"
+EXPLORATIONSHIP_MID1_M3S3: "Section de Salve 1 (L2)"
+EXPLORATIONSHIP_MID1_G4H1: "Section de Missiles 1 (L2)"
+EXPLORATIONSHIP_MID1_M4: "Section de Bordée 1 (L2)"
+EXPLORATIONSHIP_MID1_L2G4: "Section de Barrage 1 (L3)"
+EXPLORATIONSHIP_MID1_L4M2: "Section Artillerie 1 (L3)"
+EXPLORATIONSHIP_MID1_M6S6: "Section de Salve 1 (L3)"
+EXPLORATIONSHIP_MID1_G8H2: "Section de Missiles 1 (L3)"
+EXPLORATIONSHIP_MID1_M8: "Section de Bordée 1 (L3)"
+
+EXPLORATIONSHIP_MID2_L1G1: "Section de Barrage 2 (L1)"
+EXPLORATIONSHIP_MID2_L1M1: "Section Artillerie 2 (L1)"
+EXPLORATIONSHIP_MID2_M2S2: "Section de Salve 2 (L1)"
+EXPLORATIONSHIP_MID2_G3: "Section de Missiles 2 (L1)"
+EXPLORATIONSHIP_MID2_M3: "Section de Bordée 2 (L1)"
+EXPLORATIONSHIP_MID2_L1G2: "Section de Barrage 2 (L2)"
+EXPLORATIONSHIP_MID2_L2M1: "Section Artillerie 2 (L2)"
+EXPLORATIONSHIP_MID2_M3S3: "Section de Salve 2 (L2)"
+EXPLORATIONSHIP_MID2_G4H1: "Section de Missiles 2 (L2)"
+EXPLORATIONSHIP_MID2_M4: "Section de Bordée 2 (L2)"
+EXPLORATIONSHIP_MID2_L2G4: "Section de Barrage 2 (L3)"
+EXPLORATIONSHIP_MID2_L4M2: "Section Artillerie 2 (L3)"
+EXPLORATIONSHIP_MID2_M6S6: "Section de Salve 2 (L3)"
+EXPLORATIONSHIP_MID2_G8H2: "Section de Missiles 2 (L3)"
+EXPLORATIONSHIP_MID2_M8: "Section de Bordée 2 (L3)"
+
+EXPLORATIONSHIP_STERN_M1: "Arrière de Bordée (L1)"
+EXPLORATIONSHIP_STERN_L1: "Arrière Artillerie (L1)"
+EXPLORATIONSHIP_STERN_S3: "Arrière Canonage (L1)"
+EXPLORATIONSHIP_STERN_PD3: "Arrière Syst. Déf. (L1)"
+EXPLORATIONSHIP_STERN_M4: "Arrière de Bordée (L2)"
+EXPLORATIONSHIP_STERN_L2: "Arrière Artillerie (L2)"
+EXPLORATIONSHIP_STERN_S6: "Arrière Canonage (L2)"
+EXPLORATIONSHIP_STERN_PD6: "Arrière Syst. Déf. (L2)"
+EXPLORATIONSHIP_STERN_M8: "Arrière de Bordée (L3)"
+EXPLORATIONSHIP_STERN_L4: "Arrière Artillerie (L3)"
+EXPLORATIONSHIP_STERN_S12: "Arrière Canonage (L3)"
+EXPLORATIONSHIP_STERN_PD12: "Arrière Syst. Déf. (L3)"
+#-------------------------------------------------------------------#
+ESCORTCARRIER_BOW_L1: "Arc d'artillerie"
+ESCORTCARRIER_BOW_M1S2: "Arc de Bordée"
+ESCORTCARRIER_BOW_G2: "Arc de Missiles"
+
+ESCORTCARRIER_MID1_PD2H2: "Porteur central 1"
+
+ESCORTCARRIER_MID2_PD2H2: "Porteur central 2"
+ESCORTCARRIER_MID2_INV: "Secteur d'Invasion"
+
+ESCORTCARRIER_STERN_M1: "Bordée en Poupe"
+ESCORTCARRIER_STERN_G1: "Missiles en Poupe"
+ESCORTCARRIER_STERN_S2: "Cannonage en Poupe"
+ESCORTCARRIER_STERN_PD2: "SD en Poupe"
+#-------------------------------------------------------------------#
+STRIKECRUISER_BOW_M2S2: "Proue de Volée"
+STRIKECRUISER_BOW_M2PD2: "Proue défensive"
+STRIKECRUISER_BOW_G1S4: "Fusillade proue"
+STRIKECRUISER_BOW_G2: "Lance-missiles de proue"
+STRIKECRUISER_BOW_L1: "Artillerie de proue"
+STRIKECRUISER_BOW_M3: "Bordée de proue"
+
+STRIKECRUISER_MID_M2S2: "Section de volée"
+STRIKECRUISER_MID_S6: "Noyau spitfire"
+STRIKECRUISER_MID_M3: "Bordée centrale"
+
+STRIKECRUISER_STERN_M2: "Poupe de Bordée"
+STRIKECRUISER_STERN_S2PD2: "Pinpoint poupe"
+STRIKECRUISER_STERN_S4: "Cannonage poupe"
+#-------------------------------------------------------------------#
+BATTLECRUISER_BOW_L2: "Artillerie de proue"
+BATTLECRUISER_BOW_G2S2: "Fusillade proue"
+BATTLECRUISER_BOW_M3: "Bordée de proue"
+
+BATTLECRUISER_MID1_L1G2: "Section de barrage 1"
+BATTLECRUISER_MID1_L2M1: "Artillerie centrale 1"
+BATTLECRUISER_MID1_M2S2: "Section de volée 1"
+BATTLECRUISER_MID1_G4: "Lance-missiles central 1"
+BATTLECRUISER_MID1_M4: "Bordée centrale 1"
+
+BATTLECRUISER_MID2_L1G2: "Section de barrage 2"
+BATTLECRUISER_MID2_L2M1: "Artillerie centrale 2"
+BATTLECRUISER_MID2_M2S2: "Section de volée 2"
+BATTLECRUISER_MID2_G4: "Lance-missiles central 2"
+BATTLECRUISER_MID2_M4: "Bordée centrale 2"
+
+BATTLECRUISER_MID3_L1G2: "Section de Barrage 3"
+BATTLECRUISER_MID3_L2M1: "Section Artillerie 3"
+BATTLECRUISER_MID3_M2S2: "Section de Salve 3"
+BATTLECRUISER_MID3_G4: "Section de Missiles 3"
+BATTLECRUISER_MID3_M4: "Section de Bordée 3"
+
+BATTLECRUISER_STERN_M2: "Poupe de Bordée"
+BATTLECRUISER_STERN_L1: "Artillerie de poupe"
+BATTLECRUISER_STERN_S3: "Cannonage poupe"
+BATTLECRUISER_STERN_PD3: "Défense rapprochée poupe"
+#-------------------------------------------------------------------#
+BATTLESHIP_BOW_L3M3S3: "Couverture de proue"
+BATTLESHIP_BOW_L4: "Artillerie de proue"
+BATTLESHIP_BOW_L3S4: "Caronade de proue"
+BATTLESHIP_BOW_M6S6: "Volley proue"
+BATTLESHIP_BOW_SFU: "Cannonage proue"
+BATTLESHIP_BOW_XL1PD1: "XL Turret Bow"
+BATTLESHIP_BOW_XL1: "XL Spinal Mount Bow"
+
+BATTLESHIP_MID_L3M3: "Section de bombardement"
+BATTLESHIP_MID_L4: "Artillerie centrale"
+BATTLESHIP_MID_L2M6: "Bordée centrale"
+BATTLESHIP_MID_L3S5: "Section de caronade"
+BATTLESHIP_MID_SFU: "Section de spitfire"
+
+BATTLESHIP_STERN_L4: "Artillerie de poupe"
+BATTLESHIP_STERN_M8: "Poupe de Bordée"
+BATTLESHIP_STERN_M6S6: "Volley poupe"
+BATTLESHIP_STERN_M6PD4: "Pinpoint poupe"
+BATTLESHIP_STERN_SFU: "Cannonage poupe"
+#-------------------------------------------------------------------#
+CARRIER_BOW_M1S2PD2: "Salve de proue"
+CARRIER_BOW_M1G2PD4: "Défense rapprochée proue"
+CARRIER_BOW_G3PD2: "Barrage proue"
+CARRIER_BOW_G2S4PD2: "Caronade de proue"
+
+CARRIER_MID1_G2HB: "Lance-missiles central 1"
+CARRIER_MID1_S2PD2HB: "Section de Syst. Déf. 1"
+CARRIER_MID1_PD4HB: "Section de défense rapprochée 1"
+CARRIER_MID1_INVASION: "Noyau d'Invasion 1"
+
+CARRIER_MID1_G4HB_HU: "HC Lance-missiles central 1"
+CARRIER_MID1_S2PD2HB_HU: "HC Section de Syst. Déf. 1"
+CARRIER_MID1_PD4HB_HU: "HC PD Noyau 1"
+
+CARRIER_MID1_G4HB_SU: "SC Lance-missiles central 1"
+CARRIER_MID1_S2PD2HB_SU: "SC Section de Syst. Déf. 1"
+CARRIER_MID1_PD4HB_SU: "SC Section de défense rapprochée 1"
+
+CARRIER_MID2_G2HB: "Lance-missiles central 2"
+CARRIER_MID2_S2PD2HB: "Section de Syst. Déf. 2"
+CARRIER_MID2_PD4HB: "Section de défense rapprochée 2"
+
+CARRIER_MID2_G4HB_HU: "HC Lance-missiles central 2"
+CARRIER_MID2_S2PD2HB_HU: "HC Section de Syst. Déf. 2"
+CARRIER_MID2_PD4HB_HU: "HC Section de défense rapprochée 2"
+
+CARRIER_MID2_G4HB_SU: "SC Lance-missiles central 2"
+CARRIER_MID2_S2PD2HB_SU: "SC Section de Syst. Déf. 2"
+CARRIER_MID2_PD4HB_SU: "SC Section de défense rapprochée 2"
+
+CARRIER_STERN_G2: "Missile de poupe"
+CARRIER_STERN_M1PD2: "Couverture de poupe"
+CARRIER_STERN_S2PD2: "Pinpoint poupe"
+#-------------------------------------------------------------------#
+DREADNOUGHT_BOW_L2M4S4: "Couverture de proue"
+DREADNOUGHT_BOW_L4: "Artillerie de proue"
+DREADNOUGHT_BOW_L2S2PD6: "Caronade de proue"
+DREADNOUGHT_BOW_X2: "Devastateur de proue"
+DREADNOUGHT_BOW_XL2: "XL Turret Bow"
+
+DREADNOUGHT_MID1_L2G5: "Section de barrage 1"
+DREADNOUGHT_MID1_L6: "Artillerie centrale 1"
+DREADNOUGHT_MID1_L2M7: "Section de bombardement 1"
+DREADNOUGHT_MID1_L2PD9: "Section de Syst. Déf. 1"
+
+DREADNOUGHT_MID2_L2G5: "Section de barrage 2"
+DREADNOUGHT_MID2_L6: "Artillerie centrale 2"
+DREADNOUGHT_MID2_L2M7: "Section de bombardement 2"
+DREADNOUGHT_MID2_L2PD9: "Section de Syst. Déf. 2"
+
+DREADNOUGHT_MID3_L2G5: "Section de Barrage 3"
+DREADNOUGHT_MID3_L6: "Section Artillerie 3"
+DREADNOUGHT_MID3_L2M7: "Section de Bombardement 3"
+DREADNOUGHT_MID3_L2PD9: "Section de SD 3"
+
+DREADNOUGHT_STERN_L2: "Artillerie de poupe"
+DREADNOUGHT_STERN_M6: "Poupe de Bordée"
+DREADNOUGHT_STERN_M4S4PD2: "Volley poupe"
+DREADNOUGHT_STERN_G4: "Missile de poupe"
+#-------------------------------------------------------------------#
+TITAN_BOW_T2: "Nova proue"
+TITAN_BOW_XL3: "Annihilateur de proue"
+
+TITAN_MID1_G16: "Lance-missiles central"
+TITAN_MID1_L4G10PD2: "Section de barrage"
+TITAN_MID1_L12PD4: "Artillerie centrale"
+
+TITAN_STERN_G16: "Missile de poupe"
+TITAN_STERN_L4G10PD2: "Barrage de poupe"
+TITAN_STERN_L10PD4: "Artillerie de poupe"
+#-------------------------------------------------------------------#
+FLAGSHIP_BOW_T4H6_1: "Brise siège de poue 1"
+FLAGSHIP_BOW_T4H6_2: "Brise siège de poue 2"
+FLAGSHIP_BOW_T4H6_3: "Brise siège de poue 3"
+FLAGSHIP_BOW_T1XL8H6_1: "Basilic de proue 1"
+FLAGSHIP_BOW_T1XL8H6_2: "Basilic de proue 2"
+FLAGSHIP_BOW_T1XL8H6_3: "Basilic de proue 3"
+FLAGSHIP_BOW_XL12H6_1: "Arme de proue 1"
+FLAGSHIP_BOW_XL12H6_2: "Arme proue 2"
+FLAGSHIP_BOW_XL12H6_3: "Arme de proue 3"
+FLAGSHIP_BOW_G6S4H6: "Hailfire de proue"
+FLAGSHIP_BOW_M7S2H6: "Bordée de proue"
+
+FLAGSHIP_MID1_L16: "Artillerie centrale 1"
+FLAGSHIP_MID1_L8M8: "Section de bombardement 1"
+FLAGSHIP_MID1_L6S6PD4: "Section de caronade 1"
+FLAGSHIP_MID1_L8G8: "Section de barrage 1"
+FLAGSHIP_MID1_G16: "Lance-missiles central 1"
+FLAGSHIP_MID1_M16: "Bordée centrale 1"
+FLAGSHIP_MID1_G8M8: "Section de salve 1"
+FLAGSHIP_MID1_H12PD4: "Noyau porteur 1"
+
+FLAGSHIP_MID2_L16: "Artillerie centrale 2"
+FLAGSHIP_MID2_L8M8: "Section de bombardement 2"
+FLAGSHIP_MID2_L6S6PD4: "Section de caronade 2"
+FLAGSHIP_MID2_L8G8: "Section de barrage 2"
+FLAGSHIP_MID2_G16: "Lance-missiles central 2"
+FLAGSHIP_MID2_M16: "Bordée centrale 2"
+FLAGSHIP_MID2_G8M8: "Section de salve 2"
+FLAGSHIP_MID2_H12PD4: "Noyau porteur 2"
+
+FLAGSHIP_MID3_L16: "Artillerie centrale 3"
+FLAGSHIP_MID3_L8M8: "Section de bombardement 3"
+FLAGSHIP_MID3_L6S6PD4: "Section de caronade 3"
+FLAGSHIP_MID3_L8G8: "Section de barrage 3"
+FLAGSHIP_MID3_G16: "Lance-missiles central 3"
+FLAGSHIP_MID3_M16: "Bordée centrale 3"
+FLAGSHIP_MID3_G8M8: "Section de salve 3"
+FLAGSHIP_MID3_H12PD4: "Noyau porteur 3"
+
+FLAGSHIP_MID4_L16: "Artillerie centrale 4"
+FLAGSHIP_MID4_L8M8: "Section de bombardement 4"
+FLAGSHIP_MID4_L6S6PD4: "Section de caronade 4"
+FLAGSHIP_MID4_L8G8: "Section de barrage 4"
+FLAGSHIP_MID4_G16: "Lance-missiles central 4"
+FLAGSHIP_MID4_M16: "Bordée centrale 4"
+FLAGSHIP_MID4_G8M8: "Section de salve 4"
+FLAGSHIP_MID4_H12PD4: "Noyau porteur 4"
+
+FLAGSHIP_STERN_L16: "Artillerie de poupe"
+FLAGSHIP_STERN_M16: "Poupe de Bordée"
+FLAGSHIP_STERN_G16: "Missile de poupe"
+FLAGSHIP_STERN_M8PD8: "Déluge de poupe"
+FLAGSHIP_STERN_G8PD8: "Salve de poupe"
+FLAGSHIP_STERN_H6PD10: "PD Poupe"
+#-------------------------------------------------------------------#
+STRONGHOLD_STARBASE_SECTION_T: "Section de Grande Citadelle"
+STRONGHOLD_STARBASE_SECTION_XL: "Section de Grande Citadelle"
+#-------------------------------------------------------------------#
+HEADQUARTERS_STARBASE_SECTION_T: "Section de Base principale QG"
+HEADQUARTERS_STARBASE_SECTION_XL: "Section de Base principale QG"
+#-------------------------------------------------------------------#
+HEAVY_MISSILE_MILITARY_STATION_SECTION: "Section lance-missiles"
+PDSMALL_MILITARY_STATION_SECTION: "PD Section légère"
+#-------------------------------------------------------------------#
+XL_CANNON_CORE: "Section de canon annihilateur"
+T_CANNON_CORE: "Section de canon oblitérateur"
+#-------------------------------------------------------------------#
+MISSILE_JUGGERNAUT_SECTION: "Missile Mastodonte"
+ARTILLERY_JUGGERNAUT_SECTION: "Artillerie Mastodonte"
+STRIKECRAFT_JUGGERNAUT_SECTION: "Porteur Mastodonte"
+#-------------------------------------------------------------------#
+CORE1_HEADQUARTERS_SECTION: "Section de QG 1"
+CORE2_HEADQUARTERS_SECTION: "Section de QG 2"
+CORE3_HEADQUARTERS_SECTION: "Section de QG 3"
+CORE4_HEADQUARTERS_SECTION: "Section de QG 4"
+
+
+##################################################################################################################################################################################################################
+### EXPLORATION CRUISER EVENTS ###
+##################################
+
+PROTOTYPE_EXPLORATION_CRUISER_PROJECT:0 "Prototype de croiseur d'exploration"
+PROTOTYPE_EXPLORATION_CRUISER_PROJECT_DESC:0 "Nos ingénieurs pensent qu'ils peuvent créer un nouveau type de vaisseau scientifique spécialement conçu pour l'exploration de l'espace lointain, mais qui sera également suffisamment armé pour faire face aux dangers inhérents qui nous attendent alors que nous nous dirigeons vers les étoiles."
+
+EXPLORATION_CRUISER_UPGRADE_PROJECT:0 "Projet d'amélioration du vaisseau scientifique"
+EXPLORATION_CRUISER_UPGRADE_PROJECT_DESC:0 "Nos ingénieurs de flotte sont prêts à commencer la tâche monumentale de modernisation de l'un de nos vaisseaux scientifiques existants dans la nouvelle classe 'Croiseur d'Exploration'. On s'attend à ce que ce projet prenne environ 250 jours pour se terminer. Une fois terminé, le chef scientifique du vaisseau sera transféré automatiquement sur son nouveau vaisseau."
+
+expcruiser.01.name: "Prototype de croiseur d'exploration"
+expcruiser.01.desc: "Alors que nous partons pour nos premières expéditions pour explorer la galaxie, nous avons découvert de nombreux dangers et menaces cachés. Pour assurer la sécurité de nos meilleurs dirigeants scientifiques tout en explorant, nos ingénieurs pensent qu'ils peuvent créer un nouveau type de vaisseau scientifique spécialement conçu pour l'exploration de l'espace lointain, mais qui sera également suffisamment armé pour faire face aux dangers inhérents qui nous attendent alors que nous partons. dans les étoiles. Nous avons obtenu les ressources d'ingénierie nécessaires pour démarrer un projet spécial, et nous pouvons commencer à créer cette conception immédiatement. Alternativement, nous pouvons affecter nos recherches d'ingénierie sauvegardées à d'autres tâches. Nous attendons votre décision."
+
+expcruiser.01.a: "Une excellente idée. Commencez le projet immédiatement !"
+expcruiser.01.b: "Je ne pense pas que nous ayons besoin d'un tel vaisseau pour le moment."
+
+expcruiser.02.name: "Prototype de croiseur d'exploration terminé"
+expcruiser.02.desc: "Nos ingénieurs ont réussi ! Le tout nouveau Prototype de croiseur d'exploration est terminé et est prêt pour les commandes !"
+
+expcruiser.03.name: "Amélioration de la flotte scientifique"
+expcruiser.03.desc:0 "Maintenant que nous avons finalisé la conception permanente du croiseur d'exploration, notre équipe de logistique de flotte aimerait savoir si vous souhaitez mettre à niveau notre flotte de vaisseaux scientifiques avec cette nouvelle conception améliorée. La mise à niveau de chaque vaisseau prendra environ §G250 jours§! et nécessitera un investissement de §B400 Alliages§! et §Y50 Énergie§! par vaisseau, mais donnerait à nos principaux chercheurs en exploration une bien meilleure chance de survie dans un univers de plus en plus hostile. Nous pouvons améliorer jusqu'à 8 vaisseaux scientifiques vers la nouvelle classe. Un projet spécial sera créé pour chaque vaisseau que vous souhaitez mettre à niveau, ce qui nécessitera de déplacer ce vaisseau vers notre système d'origine pour commencer le projet. Il n'y a pas de limite de temps sur la rapidité avec laquelle vous terminez les projets. Nous attendons votre décision."
+
+expcruiser.03.1:0 "Choisissez de mettre à jour §Y1§! vaisseau. (§B400 Alliages§! & §Y50 Énergie§!)"
+expcruiser.03.2:0 "Choisissez de mettre à jour §Y2§! vaisseaux. (§B800 Alliages§! & §Y100 Énergie§!)"
+expcruiser.03.3:0 "Choisissez de mettre à jour §Y3§! vaisseaux. (§B1200 Alliages§! & §Y150 Énergie§!)"
+expcruiser.03.4:0 "Choisissez de mettre à jour §Y4§! vaisseaux. (§B1600 Alliages§! & §Y200 Energy§!)"
+expcruiser.03.5:0 "Choisissez de mettre à jour §Y5§! vaisseaux. (§B2000 Alliages§! & §Y250 Énergie§!)"
+expcruiser.03.6:0 "Choisissez de mettre à jour §Y6§! vaisseaux. (§B2400 Alliages§! & §Y300 Energy§!)"
+expcruiser.03.7:0 "Choisissez de mettre à jour §Y7§! vaisseaux. (§B2800 Alliages§! & §Y350 Energy§!)"
+expcruiser.03.8:0 "Choisissez de mettre à jour §Y8§! vaisseaux. (§B3200 Alliages§! & §Y400 Energy§!)"
+expcruiser.03.end: "Choisissez de ne mettre à niveau aucun vaisseau du tout. (§M+25 Influence§!)"
+
+expcruiser.04.name: "Mise à niveau du vaisseau scientifique terminée"
+expcruiser.04.desc: "Nous avons terminé un projet de mise à niveau du vaisseau scientifique. Le chef scientifique a pris son poste et le nouveau vaisseau attend maintenant vos ordres."
+
+
+##################################################################################################################################################################################################################
+### HULL SIZES/STARBASE MODULES/BUILDINGS ###
+#############################################
 
 STRIKECRUISER:0 "Croiseur d'assaut"
 BATTLECRUISER:0 "Croiseur de bataille"
@@ -21,7 +365,7 @@ EXPLORATIONSHIP:0 "Croiseur d'exploration"
 StrikeCruiser:0 "Croiseur d'assaut"
 StrikeCruiser_plural:0 "Croiseurs d'assaut"
 Battlecruiser:0 "Croiseur de bataille"
-Battlecruiser_plural:0 "Croiseurs de bataille" 
+Battlecruiser_plural:0 "Croiseurs de bataille"
 Carrier:0 "Transporteur"
 Carrier_plural:0 "Transporteurs"
 Dreadnought:0 "Cuirassé Dreadnought"
@@ -95,9 +439,9 @@ sm_orbital_housing:0 "Logement orbital"
 sm_orbital_housing_desc:0 "Certains habitats deviennent plus que des installations purement militaires ou administratives. En hébergeant des civils sur notre base stellaire, nous pouvons transformer cette installation en une petite tranche de maison pour tous ceux qui y vivent - et fournir en même temps un logement à notre population toujours croissante."
 
 
-################################################################################################################################################
-# MEGASTRUCTURES
-################################################################################################################################################
+##################################################################################################################################################################################################################
+### MEGASTRUCTURES ###
+######################
 
 hyperlane_creator_emisor_0:0 "Site de constr. du Générateur d'hyperlignes (Émetteur)"
 hyperlane_creator_emisor_0_DESC:0 "Le site initial servira de base pour la construction d'un futur générateur d'hyperlignes (Émetteur)."
@@ -109,16 +453,12 @@ hyperlane_creator_emisor_1_DESC:0 "Une station émettrice permettant de créer u
 hyperlane_creator_emisor_2:0 "Générateur d'hyperligne (Émetteur) - Activation"
 hyperlane_creator_emisor_2_DESC:0 "Débuter la séquence d'activation du faisceau tachyonique pour le lancer vers la station réceptrice afin de générer la nouvelle hyperligne."
 
-
-
 hyperlane_creator_receptor_0:0 "Site de constr. Générateur d'hyperlignes (Récepteur)"
 hyperlane_creator_receptor_0_DESC:0 "Le site initial servira de base pour la construction d'un futur générateur d'hyperlignes (Récepteur)."
 hyperlane_creator_receptor_0_MEGASTRUCTURE_DETAILS:0 "Une station réceptrice permettant de créer une nouvelle hyperligne en recevant un faisceau tachyonique d'une station émettrice."
 
 hyperlane_creator_receptor_1:0 "Générateur d'hyperligne (Récepteur)"
 hyperlane_creator_receptor_1_DESC:0 "Une station réceptrice permettant de créer une nouvelle hyperligne en recevant un faisceau tachyonique d'une station émettrice."
-
-
 
 hyperlane_remover_emisor_0:0 "Site de constr. d'Inhibiteur d'hyperlignes (Émetteur)"
 hyperlane_remover_emisor_0_DESC:0 "Le site initial servira de base pour la construction d'un futur dispositif de retrait d'hyperlignes (Émetteur)."
@@ -130,16 +470,12 @@ hyperlane_remover_emisor_1_DESC:0 "Une station émettrice permettant le retrait 
 hyperlane_remover_emisor_2:0 "Inhibiteur d'hyperlignes (Émetteur) - Activation"
 hyperlane_remover_emisor_2_DESC:0 "Débuter la séquence d'activation du faisceau tachyonique pour le lancer vers la station réceptrice afin de retirer l'hyperligne existante."
 
-
-
 hyperlane_remover_receptor_0:0 "Site de constr. d'Inhibiteur d'hyperlignes (Récepteur)"
 hyperlane_remover_receptor_0_DESC:0 "Le site initial servira de base pour la construction d'un futur dispositif de retrait d'hyperlignes (Récepteur)."
 hyperlane_remover_receptor_0_MEGASTRUCTURE_DETAILS:0 "Une station réceptrice permettant le retrait d'une hyperligne existante en recevant un faisceau tachyonique d'une station émettrice."
 
 hyperlane_remover_receptor_1:0 "Inhibiteur d'hyperlignes (Récepteur)"
 hyperlane_remover_receptor_1_DESC:0 "Une station réceptrice permettant le retrait d'une hyperligne existante en recevant un faisceau tachyonique d'une station émettrice."
-
-
 
 nsc_strategic_resource_factory_0_MEGASTRUCTURE_DETAILS:0 "Un énorme complexe industriel capable de produire la plupart des ressources stratégiques de la galaxie à un coût élevé en minéraux et en énergie."
 nsc_strategic_resource_factory_0:0 "Site de constr. d'une Usine de ressources stratégiques"
@@ -153,8 +489,6 @@ nsc_strategic_resource_factory_1_MEGASTRUCTURE_DETAILS:0 "Un énorme complexe in
 
 requires_no_existing_nsc_factory:0 "Vous ne pouvez construire qu'une seule usine de ressources stratégiques"
 
-
-
 nsc_galactic_mall_0_MEGASTRUCTURE_DETAILS:0 "Le plus grand centre commercial de la galaxie, capable de produire une quantité impressionnante de biens de consommation, et la destination de shopping ultime pour les accros les plus dévoués de la galaxie"
 
 nsc_galactic_mall_0:0 "Site de constr. Centre commercial galactique"
@@ -167,8 +501,6 @@ nsc_galactic_mall_1_CONSTRUCTION_INFO_DELAYED:0 "Le plus grand centre commercial
 nsc_galactic_mall_1_MEGASTRUCTURE_DETAILS:0 "Le plus grand centre commercial de la galaxie, capable de produire une quantité impressionnante de biens de consommation."
 
 requires_no_existing_mall:0 "Vous ne pouvez construire qu'un seul centre commercial galactique."
-
-
 
 nsc_hospital_0_MEGASTRUCTURE_DETAILS:0 "Un hôpital immense dédié à l'étude des différentes races de la galaxie et à l'analyse et au traitement des différentes maladies qui affectent ces espèces."
 
@@ -198,34 +530,19 @@ triggered_opinion_of_nsc_hopsital_3:0 "$triggered_opinion_of_nsc_hopsital_1$"
 requires_no_existing_hospital:0 "Vous ne pouvez construire qu'un seul hôpital général galactique."
 
 
+##################################################################################################################################################################################################################
+### ASCENSION PERKS ###
+#######################
 
-nsc_headquarters_0_MEGASTRUCTURE_DETAILS:0 "Une grande station spatiale servant de centre de commandement et de contrôle pour toutes les flottes de l'empire."
-
-nsc_headquarters_0:0 "Site de constr. Quartier général de la flotte"
-nsc_headquarters_0_DESC:0 "Une grande station spatiale servant de centre de commandement et de contrôle pour toutes les flottes de l'empire."
-nsc_headquarters_0_CONSTRUCTION_INFO_DELAYED:0 "Une grande station spatiale servant de centre de commandement et de contrôle pour toutes les flottes de l'empire."
-
-nsc_headquarters_1:0 "Quartier général de la flotte"
-nsc_headquarters_1_DESC:0 "Une grande station spatiale servant de centre de commandement et de contrôle pour toutes les flottes de l'empire."
-nsc_headquarters_1_CONSTRUCTION_INFO_DELAYED:0 "Une grande station spatiale servant de centre de commandement et de contrôle pour toutes les flottes de l'empire."
-nsc_headquarters_1_MEGASTRUCTURE_DETAILS:0 "Une grande station spatiale servant de centre de commandement et de contrôle pour toutes les flottes de l'empire."
-
-requires_no_existing_hq:0 "Vous ne pouvez construire qu'un seul quartier général de la flotte."
-
-
-################################################################################################################################################
-# ASCENSION PERKS
-################################################################################################################################################
-
-ap_nsc2_matterenergy:0 "Manipulation matière-énergie"
-ap_nsc2_matterenergy_desc:0 "Nos scientifiques ont découvert comment manipuler les modèles matière-énergie, nous permettant de créer les ressources dont nous avons besoin en convertissant d'autres ressources dont nous disposons déjà."
+ap_nsc_matterenergy:0 "Matter-Energy Manipulation"
+ap_nsc_matterenergy_desc:0 "Our scientists have discovered how to manipulate matter-energy patterns, allowing us to create the resources we need by converting other resources we already have."
 
 allow_resource_factory:0 "§HPermet la mégastructure:§! Usine de ressources stratégiques"
 
 
-################################################################################################################################################
-# TECH STUFF
-################################################################################################################################################
+##################################################################################################################################################################################################################
+### TECHNOLOGIES ###
+####################
 
 tech_pd_destroyer_1:0 "Destroyer amélioré (SD)"
 tech_pd_destroyer_1_desc:0 "Des techniques de construction avancées permettent aux destroyers d'équiper un large éventail d'armes de défense rapprochée. Nos ingénieurs navals suggèrent de reconcevoir nos destroyers pour monter une gamme de nombreuses armes de défense ponctuelle pour abattre ces cibles avant qu'elles ne puissent atteindre nos vaisseaux."
@@ -255,10 +572,10 @@ tech_Dreadnought_1:0 "Cuirassé Dreadnought"
 tech_Dreadnought_1_desc:0 "Le cuirassé a inauguré une nouvelle ère de conception de vaisseaux et de combat naval. La capacité à la fois de délivrer et de subir des dégâts massifs à longue distance et l'avènement d'armes XL dévastatrices ont complètement changé la nature de la guerre. Nos ingénieurs navals estiment que nous devons développer une version encore meilleure de ces puissants vaisseaux. Leurs `` Dreadnoughts '' proposés seraient capables de monter des défenses plus lourdes, plus de canons et même deux des incroyables armes XL qui ont si bien réussi sur le champ de bataille."
 
 tech_Flagship_1:0 "Vaisseau amiral"
-tech_Flagship_1_desc:0 "Après plusieurs décennies d'expérience du combat et de l'ingénierie, nous avons maintenant la capacité de construire un vaisseau amiral unique et très imposant pour représenter notre empire. Ce vaisseau amiral proposé sera le vaisseau de guerre ultime. Conçue pour une polyvalence maximale, chaque section aura de nombreuses configurations possibles, nous permettant de concevoir notre vaisseau amiral en fonction de nos besoins. Montant beaucoup plus de propulseurs par tonne que n'importe quel autre vaisseau, le Flagship pourra prendre n'importe quelle position dans la flotte, d'une batterie longue portée à l'arrière, à un énorme bagarreur à la pointe de la lance d'une flotte.\n\nCependant, cette puissance et cette polyvalence auront un coût élevé. La simple construction du vaisseau amiral sera une entreprise énorme, nécessitant un stock colossal de ressources et un investissement important en temps et en main-d'oeuvre. Une fois terminé, il faudra tout le PIB d'une petite nation vedette pour le maintenir; en conséquence, il faudra une énorme influence politique pour obtenir l'approbation du projet" 
+tech_Flagship_1_desc:0 "Après plusieurs décennies d'expérience du combat et de l'ingénierie, nous avons maintenant la capacité de construire un vaisseau amiral unique et très imposant pour représenter notre empire. Ce vaisseau amiral proposé sera le vaisseau de guerre ultime. Conçue pour une polyvalence maximale, chaque section aura de nombreuses configurations possibles, nous permettant de concevoir notre vaisseau amiral en fonction de nos besoins. Montant beaucoup plus de propulseurs par tonne que n'importe quel autre vaisseau, le Flagship pourra prendre n'importe quelle position dans la flotte, d'une batterie longue portée à l'arrière, à un énorme bagarreur à la pointe de la lance d'une flotte.\n\nCependant, cette puissance et cette polyvalence auront un coût élevé. La simple construction du vaisseau amiral sera une entreprise énorme, nécessitant un stock colossal de ressources et un investissement important en temps et en main-d'oeuvre. Une fois terminé, il faudra tout le PIB d'une petite nation vedette pour le maintenir; en conséquence, il faudra une énorme influence politique pour obtenir l'approbation du projet"
 
 tech_supportcruiser_1:0 "Amélioration Croiseur de soutien"
-tech_supportcruiser_1_desc:0 "Au fur et à mesure que nos flottes grandissent et que la distance à parcourir depuis leurs chantiers stellaires augmente, il devient nécessaire de les soutenir étroitement au lieu d'essayer de les réapprovisionner à longue distance. Le vaisseau de soutien est la réponse à ce problème." 
+tech_supportcruiser_1_desc:0 "Au fur et à mesure que nos flottes grandissent et que la distance à parcourir depuis leurs chantiers stellaires augmente, il devient nécessaire de les soutenir étroitement au lieu d'essayer de les réapprovisionner à longue distance. Le vaisseau de soutien est la réponse à ce problème."
 
 tech_explorationship_1:0 "Croiseur d'exploration (Niveau 1)"
 tech_explorationship_1_desc:0 "Un grand vaisseau scientifique apte au combat qui se consacre à l'exploration de nouveaux mondes, à la recherche de nouvelles vies et de nouvelles civilisations en allant là où personne n'est jamais allé auparavant."
@@ -358,7 +675,6 @@ tech_dreadnought_hull_1_desc:0 "Les progrès des techniques de construction perm
 tech_dreadnought_hull_2:0 "Coques avancées de cuirassé dreadnought"
 tech_dreadnought_hull_2_desc:0 "La dernière génération de coques pour le cuirassé dreadnought possède des champs d'intégrité structurelle optimisées et des cloisons améliorées."
 
-
 tech_flagship_build_speed:0 "Modèles standardisés des vaisseaux amiraux"
 tech_flagship_build_speed_desc:0 "L'établissement de nouvelles normes pour la modélisation et la construction du vaisseau amiral améliore considérablement l'efficacité de production."
 tech_flagship_hull_1:0 "Coques améliorées de vaisseau amiral "
@@ -368,7 +684,6 @@ tech_flagship_hull_2_desc:0 "La dernière génération de coques pour le vaissea
 
 tech_stronghold_upgrades:0 "Bases stellaire améliorées"
 tech_stronghold_upgrades_desc:0 "L'établissement de nouvelles normes pour la modélisation et la construction de bases stellaire améliore considérablement l'efficacité de production."
-
 
 tech_mining_base:0 "Raffinerie de minéraux"
 tech_mining_base_desc:0 "Au fur et à mesure que nous prenons de l'expansion parmi les étoiles, nous avons besoin de plus en plus de ressources pour soutenir notre civilisation. La création de raffineries spécialisées pourrait aider à centraliser la production et à accroître l'efficacité, ce qui entraînerait une augmentation des rendements en minéraux."
@@ -406,6 +721,11 @@ tech_galactic_mall_desc:0 "Le plus grand centre commercial de la galaxie, capabl
 tech_hyperlane_generation:0 "Générateur d'hyperligne"
 tech_hyperlane_generation_desc:0 "Les développements récents dans la conception des hyperpropulseurs et l'activation de portails abandonnés peuvent nous permettre de développer la façon de créer de nouvelles hyperlignes et de supprimer celles qui existent déjà, nous permettant finalement de remodeler la géographie galactique selon nos besoins et objectifs."
 
+
+##################################################################################################################################################################################################################
+### TECH UNLOCKS ###
+####################
+
 TECH_UNLOCK_HYPERLANE_GENERATION_TITLE:0 "§HPermet:§! Générateur d'hyperligne"
 TECH_UNLOCK_HYPERLANE_GENERATION_DESC:0 "§HGénérateur d'hyperligne§!\nPermet la création et la suppression d'hyperlignes."
 
@@ -424,8 +744,6 @@ TECH_UNLOCK_MULTIDIMENSIONAL_POWER_DESC:0 "§H$MULTIDIMENSIONAL_REACTOR$§!\n$MU
 TECH_UNLOCK_OPTIMIZED_ENIGMATIC_POWER_TITLE:0 "§HDébloque le composant:§! $OPTIMIZED_ENIGMATIC_REACTOR$"
 TECH_UNLOCK_OPTIMIZED_ENIGMATIC_POWER_DESC:0 "§H$OPTIMIZED_ENIGMATIC_REACTOR$§!\n$OPTIMIZED_ENIGMATIC_REACTOR_DESC$"
 
-TECH_UNLOCK_OPTIMIZED_ENIGMATIC_POWER_TITLE:0 "§HDébloque le composant:§! $OPTIMIZED_ENIGMATIC_REACTOR$"
-TECH_UNLOCK_OPTIMIZED_ENIGMATIC_POWER_DESC:0 "§H$OPTIMIZED_ENIGMATIC_REACTOR$§!\n$OPTIMIZED_ENIGMATIC_REACTOR_DESC$"
 
 TECH_UNLOCK_BH_POWER_TITLE:0 "§HDébloque le composant:§! $FLAGSHIP_BLACK_HOLE_REACTOR_1$"
 TECH_UNLOCK_BH_POWER_DESC:0 "§H$FLAGSHIP_BLACK_HOLE_REACTOR_1$§!\n$FLAGSHIP_BLACK_HOLE_REACTOR_1_DESC$"
@@ -515,9 +833,9 @@ TECH_UNLOCK_HOPSITAL_TITLE:0 "§HMégastructure:§! Hôpital général galactiqu
 TECH_UNLOCK_HOSPITAL_DESC:0 "Un hôpital immense dédié à l'étude des différentes races de la galaxie et à l'analyse et au traitement des différentes maladies qui affectent ces espèces."
 
 
-################################################################################################################################################
-# COMPONENTS
-################################################################################################################################################
+##################################################################################################################################################################################################################
+### COMPONENTS ###
+##################
 
 NSC_STRIKE_CRUISER_AURA_EMPTY:0 "Emplacement vide"
 NSC_TITAN_AURA_EMPTY:0 "Emplacement vide"
@@ -610,6 +928,16 @@ EXPLORATION_SLOT_SOCIETY_LAB_DESC:0 "Un laboratoire de pointe dédié à la rech
 EXPLORATION_SLOT_ENGINEERING_LAB:0 "Laboratoire d'ingénierie avancée"
 EXPLORATION_SLOT_ENGINEERING_LAB_DESC:0 "Un laboratoire de pointe dédié à la recherche en ingénierie."
 
+EXPLORATION_SLOT_MINING_FACILITY:0 "Asteroid Mining Facility"
+EXPLORATION_SLOT_MINING_FACILITY_DESC:0 "§HProduces:§! 7 Minerals\nThis facility allows an empire to convert an old Exploration Cruiser into an advanced mining platform, able to produce a small amount of minerals each month."
+
+EXPLORATION_SLOT_SOLAR_ARRAY:0 "Solar Panel Array"
+EXPLORATION_SLOT_SOLAR_ARRAY_DESC:0 "§HProduces:§! 7 Energy\nThis facility allows an empire to convert an old Exploration Cruiser into a large solar panel array and battery system, able to produce a small amount of energy each month."
+
+EXPLORATION_SLOT_ALLOY_REFINERY:0 "Alloy Refinery"
+EXPLORATION_SLOT_ALLOY_REFINERY_DESC:0 "§HProduces:§! 7 Alloys\nThis facility allows an empire to convert an old Exploration Cruiser into a modern alloy refinery, able to produce a small amount of alloys each month."
+
+
 NSC_REACTOR_BOOSTER_1:0 "Impulseurs graviton"
 NSC_REACTOR_BOOSTER_1_DESC:0 "Impulseurs augmenté par la technologie d'énergie graviton"
 NSC_REACTOR_BOOSTER_2:0 "Impulseurs au naquadria"
@@ -634,55 +962,51 @@ nsc_starbase_nanite_aura_DESC:0 "Nanites avancées qui rongent le blindage des v
 sm_nsc_nanite_field:0 "Champ dispensaire de nanites"
 sm_nsc_nanite_field_desc:0 "Cette installation abrite et déploie des nanites de pointe qui rongent le blindage des vaisseaux hostiles en perturbant les liaisons moléculaires."
 
+FLAGSHIP_JUMP_DRIVE:0 "Propulseur de bond du vaisseau amiral"
+FLAGSHIP_JUMP_DRIVE_DESC:0 "Le propulseur de bond du vaisseau amiral déchire des trous de la taille d'un vaisseau dans le tissu même de la réalité, permettant un mouvement quasi instantané entre les systèmes. La nature de l'espace que le vaisseau traverse pendant ce voyage est encore mal comprise."
 
-################################################################################################################################################
-# REACTORS
-################################################################################################################################################
 
-## Fission Reactors ##
+##################################################################################################################################################################################################################
+### REACTORS ###
+################
 
+### FISSION REACTORS ###
 STRIKECRUISER_FISSION_REACTOR:0 "$FISSION_REACTOR$"
 BATTLECRUISER_FISSION_REACTOR:0 "$FISSION_REACTOR$"
 CARRIER_FISSION_REACTOR:0 "$FISSION_REACTOR$"
 DREADNOUGHT_FISSION_REACTOR:0 "$FISSION_REACTOR$"
 
-## Fusion Reactors ##
-
+### FUSION REACTORS ###
 STRIKECRUISER_FUSION_REACTOR:0 "$FUSION_REACTOR$"
 BATTLECRUISER_FUSION_REACTOR:0 "$FUSION_REACTOR$"
 CARRIER_FUSION_REACTOR:0 "$FUSION_REACTOR$"
 DREADNOUGHT_FUSION_REACTOR:0 "$FUSION_REACTOR$"
 
-## Cold Fusion Reactors ##
-
+### COLD FUSION REACTORS ###
 STRIKECRUISER_COLD_FUSION_REACTOR:0 "$COLD_FUSION_REACTOR$"
 BATTLECRUISER_COLD_FUSION_REACTOR:0 "$COLD_FUSION_REACTOR$"
 CARRIER_COLD_FUSION_REACTOR:0 "$COLD_FUSION_REACTOR$"
 DREADNOUGHT_COLD_FUSION_REACTOR:0 "$COLD_FUSION_REACTOR$"
 
-## Antimatter Reactors ##
-
+### ANTIMATTER REACTORS ###
 STRIKECRUISER_ANTIMATTER_REACTOR:0 "$ANTIMATTER_REACTOR$"
 BATTLECRUISER_ANTIMATTER_REACTOR:0 "$ANTIMATTER_REACTOR$"
 CARRIER_ANTIMATTER_REACTOR:0 "$ANTIMATTER_REACTOR$"
 DREADNOUGHT_ANTIMATTER_REACTOR:0 "$ANTIMATTER_REACTOR$"
 
-## Zero Point Reactor ##
-
+### ZERO POINT REACTOR ###
 STRIKECRUISER_ZERO_POINT_REACTOR:0 "$ZERO_POINT_REACTOR$"
 BATTLECRUISER_ZERO_POINT_REACTOR:0 "$ZERO_POINT_REACTOR$"
 CARRIER_ZERO_POINT_REACTOR:0 "$ZERO_POINT_REACTOR$"
 DREADNOUGHT_ZERO_POINT_REACTOR:0 "$ZERO_POINT_REACTOR$"
 
-## Dark Matter Reactor ##
-
+### DARK MATTER REACTOR ###
 STRIKECRUISER_DARK_MATTER_REACTOR:0 "$DARK_MATTER_REACTOR$"
 BATTLECRUISER_DARK_MATTER_REACTOR:0 "$DARK_MATTER_REACTOR$"
 CARRIER_DARK_MATTER_REACTOR:0 "$DARK_MATTER_REACTOR$"
 DREADNOUGHT_DARK_MATTER_REACTOR:0 "$DARK_MATTER_REACTOR$"
 
-## Graviton Reactors ##
- 
+### GRAVITON REACTORS ###
 CORVETTE_GRAVITON_REACTOR:0 "Réacteur graviton"
 DESTROYER_GRAVITON_REACTOR:0 "Réacteur graviton"
 CRUISER_GRAVITON_REACTOR:0 "Réacteur graviton"
@@ -694,12 +1018,11 @@ TITAN_GRAVITON_REACTOR:0 "Réacteur graviton"
 PLATFORM_GRAVITON_REACTOR:0 "Réacteur graviton"
 STATION_GRAVITON_REACTOR:0 "Réacteur graviton"
 FORTRESS_GRAVITON_REACTOR:0 "Réacteur graviton"
- 
+
 GRAVITON_REACTOR:0 "Réacteur graviton"
 GRAVITON_REACTOR_DESC:0 "L'ajout de particules gravitationnelles à base de graviton pour renforcer une réaction antimatière augmente considérablement la production d'énergie de nos réacteurs."
- 
-## Naquadria Reactors ##
- 
+
+### NAQUADRIA REACTORS ###
 CORVETTE_NAQUADRIA_REACTOR:0 "Réacteur au naquadria"
 DESTROYER_NAQUADRIA_REACTOR:0 "Réacteur au naquadria"
 CRUISER_NAQUADRIA_REACTOR:0 "Réacteur au naquadria"
@@ -711,12 +1034,11 @@ TITAN_NAQUADRIA_REACTOR:0 "Réacteur au naquadria"
 PLATFORM_NAQUADRIA_REACTOR:0 "Réacteur au naquadria"
 STATION_NAQUADRIA_REACTOR:0 "Réacteur au naquadria"
 FORTRESS_NAQUADRIA_REACTOR:0 "Réacteur au naquadria"
- 
+
 NAQUADRIA_REACTOR:0 "Réacteur au naquadria"
 NAQUADRIA_REACTOR_DESC:0 "Réacteur alimenté par des cristaux anciens et rares."
- 
-## Singularity Reactors ##
- 
+
+### SINGULARITY REACTORS ###
 CORVETTE_SINGULARITY_REACTOR:0 "Réacteur de singularité"
 DESTROYER_SINGULARITY_REACTOR:0 "Réacteur de singularité"
 CRUISER_SINGULARITY_REACTOR:0 "Réacteur de singularité"
@@ -728,12 +1050,11 @@ TITAN_SINGULARITY_REACTOR:0 "Réacteur de singularité"
 PLATFORM_SINGULARITY_REACTOR:0 "Réacteur de singularité"
 STATION_SINGULARITY_REACTOR:0 "Réacteur de singularité"
 FORTRESS_SINGULARITY_REACTOR:0 "Réacteur de singularité"
- 
+
 SINGULARITY_REACTOR:0 "Réacteur de singularité"
 SINGULARITY_REACTOR_DESC:0 "Réacteur alimenté par une singularité quantique."
- 
-## Multi Dimensional Reactors ##
- 
+
+### MULTI DIMENSIONAL REACTORS ###
 CORVETTE_MULTIDIMENSIONAL_REACTOR:0 "Réacteur multidimensionnel"
 DESTROYER_MULTIDIMENSIONAL_REACTOR:0 "Réacteur multidimensionnel"
 CRUISER_MULTIDIMENSIONAL_REACTOR:0 "Réacteur multidimensionnel"
@@ -745,12 +1066,11 @@ TITAN_MULTIDIMENSIONAL_REACTOR:0 "Réacteur multidimensionnel"
 PLATFORM_MULTIDIMENSIONAL_REACTOR:0 "Réacteur multidimensionnel"
 STATION_MULTIDIMENSIONAL_REACTOR:0 "Réacteur multidimensionnel"
 FORTRESS_MULTIDIMENSIONAL_REACTOR:0 "Réacteur multidimensionnel"
- 
+
 MULTIDIMENSIONAL_REACTOR:0 "Réacteur multidimensionnel"
 MULTIDIMENSIONAL_REACTOR_DESC:0 "Créer un pont de matière entre différentes dimensions et réalités alternatives permet de générer un courant d'énergie constant, quoique quelque peu limité, pour alimenter notre dernière génération de réacteurs."
- 
-## Optimized Dark Matter Reactors ##
 
+### OPTIMIZED DARK MATTER REACTORS ###
 CORVETTE_OPTIMIZED_ENIGMATIC_REACTOR:0 "Réacteur à matière noire optimisé"
 DESTROYER_OPTIMIZED_ENIGMATIC_REACTOR:0 "Réacteur à matière noire optimisé"
 CRUISER_OPTIMIZED_ENIGMATIC_REACTOR:0 "Réacteur à matière noire optimisé"
@@ -765,9 +1085,8 @@ FORTRESS_OPTIMIZED_ENIGMATIC_REACTOR:0 "Réacteur à matière noire optimisé"
 
 OPTIMIZED_ENIGMATIC_REACTOR:0 "Réacteur à matière noire optimisé"
 OPTIMIZED_ENIGMATIC_REACTOR_DESC:0 "En tirant profit des connaissances découvertes dans la forteresse énigmatique et nos propres découvertes, nous pouvons maintenant prendre l'énergie du point zéro directement dans le sous-espace de notre propre univers sans risquer de créer des particules exotiques instables, permettant une énergie continue limitée uniquement par notre capacité à contrôler le flux d'énergie."
-
-
-## Special Reactors ##
+ 
+### SPECIAL REACTORS ###
 FLAGSHIP_BLACK_HOLE_REACTOR_1:0 "Réacteur à trou noir"
 FLAGSHIP_BLACK_HOLE_REACTOR_1_DESC:0 "Réacteur alimenté par un trou noir artificiel."
 FLAGSHIP_BLACK_HOLE_REACTOR_2:0 "Réacteur à trou noir II"
@@ -775,15 +1094,15 @@ FLAGSHIP_BLACK_HOLE_REACTOR_2_DESC:0 "Réacteur alimenté par un trou noir artif
 FLAGSHIP_BLACK_HOLE_REACTOR_3:0 "Réacteur à trou noir III"
 FLAGSHIP_BLACK_HOLE_REACTOR_3_DESC:0 "Réacteur alimenté par un trou noir artificiel."
 CITADEL_DARK_MATTER_REACTOR:0 "Réacteur à matière noire"
- 
-## Defense Station Secondary Reactors ##
+
+### DEFENSE STATION SECONDARY REACTORS ###
 STATION_FISSION_REACTOR:0 "Réacteur à fission secondaire"
 STATION_FUSION_REACTOR:0 "Réacteur à fusion secondaire"
 STATION_COLD_FUSION_REACTOR:0 "Réacteur à fusion à froid secondaire"
 STATION_ANTIMATTER_REACTOR:0 "Réacteur à antimatière secondaire"
 STATION_ZERO_POINT_REACTOR:0 "Réacteur point zéro secondaire"
 
-## Defense Fortress Secondary Reactors ##
+### DEFENSE FORTRESS SECONDARY REACTORS ###
 FORTRESS_FISSION_REACTOR:0 "Réacteur à fission secondaire"
 FORTRESS_FUSION_REACTOR:0 "Réacteur à fusion secondaire"
 FORTRESS_COLD_FUSION_REACTOR:0 "Réacteur à fusion à froid secondaire"
@@ -796,12 +1115,11 @@ XL_CANNON_DARK_MATTER_REACTOR:0 "Canon annihilateur réacteur à matière noire"
 T_CANNON_DARK_MATTER_REACTOR:0 "Canon oblitérateur réacteur à matière noire"
 
 
-################################################################################################################################################
-# THRUSTERS
-################################################################################################################################################
+##################################################################################################################################################################################################################
+### THRUSTERS ###
+#################
 
-## Level 1 Thrusters ##
-
+### LEVEL 1 ###
 STRIKECRUISER_SHIP_THRUSTER_1:0 "$SHIP_THRUSTER_1$"
 STRIKECRUISE_SHIP_THRUSTER_1_DESC:0 "$SHIP_THRUSTER_1_DESC$"
 BATTLECRUISER_SHIP_THRUSTER_1:0 "$SHIP_THRUSTER_1$"
@@ -813,8 +1131,7 @@ DREADNOUGHT_SHIP_THRUSTER_1_DESC:0 "$SHIP_THRUSTER_1_DESC$"
 FLAGSHIP_SHIP_THRUSTER_1:0 "$SHIP_THRUSTER_1$"
 FLAGSHIP_SHIP_THRUSTER_1_DESC:0 "$SHIP_THRUSTER_1_DESC$"
 
-## Level 2 Thrusters ##
-
+### LEVEL 2 ###
 STRIKECRUISER_SHIP_THRUSTER_2:0 "$SHIP_THRUSTER_2$"
 STRIKECRUISERSHIP_THRUSTER_2_DESC:0 "$SHIP_THRUSTER_2_DESC$"
 BATTLECRUISER_SHIP_THRUSTER_2:0 "$SHIP_THRUSTER_2$"
@@ -826,8 +1143,7 @@ DREADNOUGHT_SHIP_THRUSTER_2_DESC:0 "$SHIP_THRUSTER_2_DESC$"
 FLAGSHIP_SHIP_THRUSTER_2:0 "$SHIP_THRUSTER_2$"
 FLAGSHIP_SHIP_THRUSTER_2_DESC:0 "$SHIP_THRUSTER_2_DESC$"
 
-## Level 3 Thrusters ##
-
+### LEVEL 3 ###
 STRIKECRUISER_SHIP_THRUSTER_3:0 "$SHIP_THRUSTER_3$"
 STRIKECRUISER_SHIP_THRUSTER_3_DESC:0 "$SHIP_THRUSTER_3_DESC$"
 BATTLECRUISER_SHIP_THRUSTER_3:0 "$SHIP_THRUSTER_3$"
@@ -839,8 +1155,7 @@ DREADNOUGHT_SHIP_THRUSTER_3_DESC:0 "$SHIP_THRUSTER_3_DESC$"
 FLAGSHIP_SHIP_THRUSTER_3:0 "$SHIP_THRUSTER_3$"
 FLAGSHIP_SHIP_THRUSTER_3_DESC:0 "$SHIP_THRUSTER_3_DESC$"
 
-## Level 4 Thrusters ##
-
+### LEVEL 4 ###
 STRIKECRUISER_SHIP_THRUSTER_4:0 "$SHIP_THRUSTER_4$"
 STRIKECRUISER_SHIP_THRUSTER_4_DESC:0 "$SHIP_THRUSTER_4_DESC$"
 BATTLECRUISER_SHIP_THRUSTER_4:0 "$SHIP_THRUSTER_4$"
@@ -852,8 +1167,7 @@ DREADNOUGHT_SHIP_THRUSTER_4_DESC:0 "$SHIP_THRUSTER_4_DESC$"
 FLAGSHIP_SHIP_THRUSTER_4:0 "$SHIP_THRUSTER_4$"
 FLAGSHIP_SHIP_THRUSTER_4_DESC:0 "$SHIP_THRUSTER_4_DESC$"
 
-## Level 5 Thrusters ##
-
+### LEVEL 5 ###
 STRIKECRUISER_SHIP_THRUSTER_5:0 "$SHIP_THRUSTER_5$"
 STRIKECRUISER_SHIP_THRUSTER_5_DESC:0 "$SHIP_THRUSTER_5_DESC$"
 BATTLECRUISER_SHIP_THRUSTER_5:0 "$SHIP_THRUSTER_5$"
@@ -865,15 +1179,10 @@ DREADNOUGHT_SHIP_THRUSTER_5_DESC:0 "$SHIP_THRUSTER_5_DESC$"
 FLAGSHIP_SHIP_THRUSTER_5:0 "$SHIP_THRUSTER_5$"
 FLAGSHIP_SHIP_THRUSTER_5_DESC:0 "$SHIP_THRUSTER_5_DESC$"
 
-## Flagship Jump Drive ##
 
-FLAGSHIP_JUMP_DRIVE:0 "Propulseur de bond du vaisseau amiral"
-FLAGSHIP_JUMP_DRIVE_DESC:0 "Le propulseur de bond du vaisseau amiral déchire des trous de la taille d'un vaisseau dans le tissu même de la réalité, permettant un mouvement quasi instantané entre les systèmes. La nature de l'espace que le vaisseau traverse pendant ce voyage est encore mal comprise."
-
-
-################################################################################################################################################
-# WEAPONS
-################################################################################################################################################
+##################################################################################################################################################################################################################
+### WEAPONS ###
+###############
 
 PERDITION_BEAM_FLAGSHIP:0 "L'ambassadeur de la justice"
 PERDITION_BEAM_FLAGSHIP_DESC:0 "Le plus grand laser qui existe, pour le plus grand vaisseau qui existe, pour surcompenser un leader pas si grand que ça."
@@ -903,318 +1212,11 @@ NSC_BB_SNIPER:0 "Canon à flux électromagnétique"
 NSC_BB_SNIPER_DESC:0 "Ces tourelles spécialisées à haute vitesse sont conçues pour engager des corvettes et petits vaisseaux agile. Ils ont une grande précision à longue portée, mais luttent contre les coques plus épaisses des grands vaisseaux."
 
 
-################################################################################################################################################
-# SECTION NAMES
-################################################################################################################################################
+##################################################################################################################################################################################################################
+### MISCELLANEOUS ###
+#####################
 
-#######################################
-CORVETTE_MID_T1PD1:0 "Baie de Missiles 2"
-CORVETTE_MID_S3:0 "Intercepteur"
-CORVETTE_MID_S2PD1:0 "Proue"
-#######################################
-DESTROYER_BOW_M1S2:0 "Batterie de proue"
-DESTROYER_BOW_S3:0 "Arc de proue"
-DESTROYER_BOW_PD4_U:0 "proue de Destroyer SD"
-
-DESTROYER_STERN_S2:0 "Poupe d'interception"
-DESTROYER_STERN_M1:0 "Batterie de poupe"
-DESTROYER_STERN_PD2_U:0 "poupe de Destroyer SD"
-#######################################
-CRUISER_BOW_L1:0 "Artillerie de proue"
-CRUISER_BOW_M1S2:0 "Lance-missiles de proue"
-CRUISER_BOW_M2:0 "Bordée de proue"
-CRUISER_BOW_M1PD2:0 "Arc de Syst. Déf."
-
-CRUISER_MID_L1M1:0 "Artillerie centrale"
-CRUISER_MID_M3:0 "Bordée centrale"
-CRUISER_MID_M2S2:0 "Lance-missiles central"
-CRUISER_MID_M2PD2:0 "Section de Syst. Déf."
-
-CRUISER_STERN_M1:0 "Poupe de Bordée"
-CRUISER_STERN_S2:0 "Cannonage poupe"
-CRUISER_STERN_PD2:0 "Poupe SD"
-#######################################
-EXPLORATIONSHIP_BOW_L1:0 "Arc d'artillerie (L1)"
-EXPLORATIONSHIP_BOW_G1S2:0 "Arc de Fusillade (L1)"
-EXPLORATIONSHIP_BOW_M2:0 "Arc de Bordée (L1)"
-EXPLORATIONSHIP_BOW_L2:0 "Arc d'artillerie (L2)"
-EXPLORATIONSHIP_BOW_G2S2:0 "Arc de Fusillade (L2)"
-EXPLORATIONSHIP_BOW_M3:0 "Arc de Bordée (L2)"
-EXPLORATIONSHIP_BOW_L4:0 "Arc d'artillerie (L3)"
-EXPLORATIONSHIP_BOW_G4S4:0 "Arc de Fusillade (L3)"
-EXPLORATIONSHIP_BOW_M6:0 "Arc de Bordée (L3)"
-
-EXPLORATIONSHIP_MID1_L1G1:0 "Section de Barrage 1 (L1)"
-EXPLORATIONSHIP_MID1_L1M1:0 "Section Artillerie 1 (L1)"
-EXPLORATIONSHIP_MID1_M2S2:0 "Section de Salve 1 (L1)"
-EXPLORATIONSHIP_MID1_G3:0 "Section de Missiles 1 (L1)"
-EXPLORATIONSHIP_MID1_M3:0 "Section de Bordée 1 (L1)"
-EXPLORATIONSHIP_MID1_L1G2:0 "Section de Barrage 1 (L2)"
-EXPLORATIONSHIP_MID1_L2M1:0 "Section Artillerie 1 (L2)"
-EXPLORATIONSHIP_MID1_M3S3:0 "Section de Salve 1 (L2)"
-EXPLORATIONSHIP_MID1_G4:0 "Section de Missiles 1 (L2)"
-EXPLORATIONSHIP_MID1_M4:0 "Section de Bordée 1 (L2)"
-EXPLORATIONSHIP_MID1_L2G4:0 "Section de Barrage 1 (L3)"
-EXPLORATIONSHIP_MID1_L4M2:0 "Section Artillerie 1 (L3)"
-EXPLORATIONSHIP_MID1_M6S6:0 "Section de Salve 1 (L3)"
-EXPLORATIONSHIP_MID1_G8:0 "Section de Missiles 1 (L3)"
-EXPLORATIONSHIP_MID1_M8:0 "Section de Bordée 1 (L3)"
-
-EXPLORATIONSHIP_MID2_L1G1:0 "Section de Barrage 2 (L1)"
-EXPLORATIONSHIP_MID2_L1M1:0 "Section Artillerie 2 (L1)"
-EXPLORATIONSHIP_MID2_M2S2:0 "Section de Salve 2 (L1)"
-EXPLORATIONSHIP_MID2_G3:0 "Section de Missiles 2 (L1)"
-EXPLORATIONSHIP_MID2_M3:0 "Section de Bordée 2 (L1)"
-EXPLORATIONSHIP_MID2_L1G2:0 "Section de Barrage 2 (L2)"
-EXPLORATIONSHIP_MID2_L2M1:0 "Section Artillerie 2 (L2)"
-EXPLORATIONSHIP_MID2_M3S3:0 "Section de Salve 2 (L2)"
-EXPLORATIONSHIP_MID2_G4:0 "Section de Missiles 2 (L2)"
-EXPLORATIONSHIP_MID2_M4:0 "Section de Bordée 2 (L2)"
-EXPLORATIONSHIP_MID2_L2G4:0 "Section de Barrage 2 (L3)"
-EXPLORATIONSHIP_MID2_L4M2:0 "Section Artillerie 2 (L3)"
-EXPLORATIONSHIP_MID2_M6S6:0 "Section de Salve 2 (L3)"
-EXPLORATIONSHIP_MID2_G8:0 "Section de Missiles 2 (L3)"
-EXPLORATIONSHIP_MID2_M8:0 "Section de Bordée 2 (L3)"
-
-EXPLORATIONSHIP_STERN_M1:0 "Arrière de Bordée (L1)"
-EXPLORATIONSHIP_STERN_L1:0 "Arrière Artillerie (L1)"
-EXPLORATIONSHIP_STERN_S3:0 "Arrière Canonage (L1)"
-EXPLORATIONSHIP_STERN_PD3:0 "Arrière Syst. Déf. (L1)"
-EXPLORATIONSHIP_STERN_M4:0 "Arrière de Bordée (L2)"
-EXPLORATIONSHIP_STERN_L2:0 "Arrière Artillerie (L2)"
-EXPLORATIONSHIP_STERN_S6:0 "Arrière Canonage (L2)"
-EXPLORATIONSHIP_STERN_PD6:0 "Arrière Syst. Déf. (L2)"
-EXPLORATIONSHIP_STERN_M8:0 "Arrière de Bordée (L3)"
-EXPLORATIONSHIP_STERN_L4:0 "Arrière Artillerie (L3)"
-EXPLORATIONSHIP_STERN_S12:0 "Arrière Canonage (L3)"
-EXPLORATIONSHIP_STERN_PD12:0 "Arrière Syst. Déf. (L3)"
-#######################################
-ESCORTCARRIER_BOW_L1:0 "Arc d'artillerie"
-ESCORTCARRIER_BOW_M1S2:0 "Arc de Bordée"
-ESCORTCARRIER_BOW_G2:0 "Arc de Missiles"
-
-ESCORTCARRIER_MID1_CARRIER:0 "Noyau Porteur 1"
-
-ESCORTCARRIER_MID2_CARRIER:0 "Noyau Porteur 1"
-ESCORTCARRIER_MID2_INVASION:0 "Noyau d'invasion"
-
-ESCORTCARRIER_STERN_M1:0 "Bordée en Poupe"
-ESCORTCARRIER_STERN_G1:0 "Missiles en Poupe"
-ESCORTCARRIER_STERN_S2:0 "Cannonage en Poupe"
-ESCORTCARRIER_STERN_PD2:0 "SD en Poupe"
-#######################################
-STRIKECRUISER_BOW_M2S2:0 "Volley proue"
-STRIKECRUISER_BOW_M2PD2:0 "Pinpoint proue"
-STRIKECRUISER_BOW_G1S4:0 "Fusillade proue"
-STRIKECRUISER_BOW_G2:0 "Lance-missiles de proue"
-STRIKECRUISER_BOW_L1:0 "Artillerie de proue"
-STRIKECRUISER_BOW_M3:0 "Bordée de proue"
-
-STRIKECRUISER_MID_M2S2:0 "Section de volée"
-STRIKECRUISER_MID_S6:0 "Noyau spitfire"
-STRIKECRUISER_MID_M3:0 "Bordée centrale"
-
-STRIKECRUISER_STERN_M2:0 "Poupe de Bordée"
-STRIKECRUISER_STERN_S2PD2:0 "Pinpoint poupe"
-STRIKECRUISER_STERN_S4:0 "Cannonage poupe"
-#######################################
-BATTLECRUISER_BOW_L2:0 "Artillerie de proue"
-BATTLECRUISER_BOW_G2S2:0 "Fusillade proue"
-BATTLECRUISER_BOW_M3:0 "Bordée de proue"
-
-BATTLECRUISER_MID1_L1G2:0 "Section de barrage 1"
-BATTLECRUISER_MID1_L2M1:0 "Artillerie centrale 1"
-BATTLECRUISER_MID1_M2S2:0 "Section de volée 1"
-BATTLECRUISER_MID1_G4:0 "Lance-missiles central 1"
-BATTLECRUISER_MID1_M4:0 "Bordée centrale 1"
-
-BATTLECRUISER_MID2_L1G2:0 "Section de barrage 2"
-BATTLECRUISER_MID2_L2M1:0 "Artillerie centrale 2"
-BATTLECRUISER_MID2_M2S2:0 "Section de volée 2"
-BATTLECRUISER_MID2_G4:0 "Lance-missiles central 2"
-BATTLECRUISER_MID2_M4:0 "Bordée centrale 2"
-
-BATTLECRUISER_MID3_L1G2:0 "Section de Barrage 3"
-BATTLECRUISER_MID3_L2M1:0 "Section Artillerie 3"
-BATTLECRUISER_MID3_M2S2:0 "Section de Salve 3"
-BATTLECRUISER_MID3_G4:0 "Section de Missiles 3"
-BATTLECRUISER_MID3_M4:0 "Section de Bordée 3"
-
-BATTLECRUISER_STERN_M2:0 "Poupe de Bordée"
-BATTLECRUISER_STERN_L1:0 "Artillerie de poupe"
-BATTLECRUISER_STERN_S3:0 "Cannonage poupe"
-BATTLECRUISER_STERN_PD3:0 "Défense rapprochée poupe"
-#######################################
-BATTLESHIP_BOW_L3M3S3:0 "Couverture de proue"
-BATTLESHIP_BOW_L4:0 "Artillerie de proue"
-BATTLESHIP_BOW_L3S4:0 "Caronade de proue"
-BATTLESHIP_BOW_M6S6:0 "Volley proue"
-BATTLESHIP_BOW_SFU:0 "Cannonage proue"
-
-BATTLESHIP_MID_L3M3:0 "Section de bombardement"
-BATTLESHIP_MID_L4:0 "Artillerie centrale"
-BATTLESHIP_MID_L2M6:0 "Bordée centrale"
-BATTLESHIP_MID_L3S5:0 "Section de caronade"
-BATTLESHIP_MID_SFU:0 "Section de spitfire"
-
-BATTLESHIP_STERN_L4:0 "Artillerie de poupe"
-BATTLESHIP_STERN_M8:0 "Poupe de Bordée"
-BATTLESHIP_STERN_M6S6:0 "Volley poupe"
-BATTLESHIP_STERN_M6PD4:0 "Pinpoint poupe"
-BATTLESHIP_STERN_SFU:0 "Cannonage poupe"
-#######################################
-CARRIER_BOW_M1S2PD2:0 "Salve de proue"
-CARRIER_BOW_M1G2PD4:0 "Défense rapprochée proue"
-CARRIER_BOW_G3PD2:0 "Barrage proue"
-CARRIER_BOW_G2S4PD2:0 "Caronade de proue"
-
-CARRIER_MID1_G2HB:0 "Lance-missiles central 1"
-CARRIER_MID1_S2PD2HB:0 "Section de Syst. Déf. 1"
-CARRIER_MID1_PD4HB:0 "Section de défense rapprochée 1"
-CARRIER_MID1_INVASION:0 "Noyau d'Invasion 1"
-
-CARRIER_MID1_G4HB_HU:0 "HC Lance-missiles central 1"
-CARRIER_MID1_S2PD2HB_HU:0 "HC Section de Syst. Déf. 1"
-CARRIER_MID1_PD4HB_HU:0 "HC PD Noyau 1"
-
-CARRIER_MID1_G4HB_SU:0 "SC Lance-missiles central 1"
-CARRIER_MID1_S2PD2HB_SU:0 "SC Section de Syst. Déf. 1"
-CARRIER_MID1_PD4HB_SU:0 "SC Section de défense rapprochée 1"
-
-
-CARRIER_MID2_G2HB:0 "Lance-missiles central 2"
-CARRIER_MID2_S2PD2HB:0 "Section de Syst. Déf. 2"
-CARRIER_MID2_PD4HB:0 "Section de défense rapprochée 2"
-
-CARRIER_MID2_G4HB_HU:0 "HC Lance-missiles central 2"
-CARRIER_MID2_S2PD2HB_HU:0 "HC Section de Syst. Déf. 2"
-CARRIER_MID2_PD4HB_HU:0 "HC Section de défense rapprochée 2"
-
-CARRIER_MID2_G4HB_SU:0 "SC Lance-missiles central 2"
-CARRIER_MID2_S2PD2HB_SU:0 "SC Section de Syst. Déf. 2"
-CARRIER_MID2_PD4HB_SU:0 "SC Section de défense rapprochée 2"
-
-CARRIER_STERN_G2:0 "Missile de poupe"
-CARRIER_STERN_M1PD2:0 "Couverture de poupe"
-CARRIER_STERN_S2PD2:0 "Pinpoint poupe"
-#######################################
-DREADNOUGHT_BOW_L2M4S4:0 "Couverture de proue"
-DREADNOUGHT_BOW_L4:0 "Artillerie de proue"
-DREADNOUGHT_BOW_L2S2PD6:0 "Caronade de proue"
-DREADNOUGHT_BOW_X2:0 "Devastateur de proue"
-
-DREADNOUGHT_MID1_L2G5:0 "Section de barrage 1"
-DREADNOUGHT_MID1_L6:0 "Artillerie centrale 1"
-DREADNOUGHT_MID1_L2M7:0 "Section de bombardement 1"
-DREADNOUGHT_MID1_L2PD9:0 "Section de Syst. Déf. 1"
-
-DREADNOUGHT_MID2_L2G5:0 "Section de barrage 2"
-DREADNOUGHT_MID2_L6:0 "Artillerie centrale 2"
-DREADNOUGHT_MID2_L2M7:0 "Section de bombardement 2"
-DREADNOUGHT_MID2_L2PD9:0 "Section de Syst. Déf. 2"
-
-DREADNOUGHT_MID3_L2G5:0 "Section de Barrage 3"
-DREADNOUGHT_MID3_L6:0 "Section Artillerie 3"
-DREADNOUGHT_MID3_L2M7:0 "Section de Bombardement 3"
-DREADNOUGHT_MID3_L2PD9:0 "Section de SD 3"
-
-DREADNOUGHT_STERN_L2:0 "Artillerie de poupe"
-DREADNOUGHT_STERN_M6:0 "Poupe de Bordée"
-DREADNOUGHT_STERN_M4S4PD2:0 "Volley poupe"
-DREADNOUGHT_STERN_G4:0 "Missile de poupe"
-#######################################
-TITAN_BOW_T2:0 "Nova proue"
-TITAN_BOW_XL3:0 "Annihilateur de proue"
-
-TITAN_MID1_G16:0 "Lance-missiles central"
-TITAN_MID1_L4G10PD2:0 "Section de barrage"
-TITAN_MID1_L12PD4:0 "Artillerie centrale"
-
-TITAN_STERN_G16:0 "Missile de poupe"
-TITAN_STERN_L4G10PD2:0 "Barrage de poupe"
-TITAN_STERN_L10PD4:0 "Artillerie de poupe"
-#######################################
-FLAGSHIP_BOW_T4H6_1:0 "Brise siège de poue 1"
-FLAGSHIP_BOW_T4H6_2:0 "Brise siège de poue 2"
-FLAGSHIP_BOW_T4H6_3:0 "Brise siège de poue 3"
-FLAGSHIP_BOW_T1XL8H6_1:0 "Basilic de proue 1"
-FLAGSHIP_BOW_T1XL8H6_2:0 "Basilic de proue 2"
-FLAGSHIP_BOW_T1XL8H6_3:0 "Basilic de proue 3"
-FLAGSHIP_BOW_XL12H6_1:0 "Arme de proue 1"
-FLAGSHIP_BOW_XL12H6_2:0 "Arme proue 2"
-FLAGSHIP_BOW_XL12H6_3:0 "Arme de proue 3"
-FLAGSHIP_BOW_G6S4H6:0 "Hailfire de proue"
-FLAGSHIP_BOW_M7S2H6:0 "Bordée de proue"
-
-FLAGSHIP_MID1_L16:0 "Artillerie centrale 1"
-FLAGSHIP_MID1_L8M8:0 "Section de bombardement 1"
-FLAGSHIP_MID1_L6S6PD4:0 "Section de caronade 1"
-FLAGSHIP_MID1_L8G8:0 "Section de barrage 1"
-FLAGSHIP_MID1_G16:0 "Lance-missiles central 1"
-FLAGSHIP_MID1_M16:0 "Bordée centrale 1"
-FLAGSHIP_MID1_G8M8:0 "Section de salve 1"
-FLAGSHIP_MID1_H12PD4:0 "Noyau porteur 1"
-
-FLAGSHIP_MID2_L16:0 "Artillerie centrale 2"
-FLAGSHIP_MID2_L8M8:0 "Section de bombardement 2"
-FLAGSHIP_MID2_L6S6PD4:0 "Section de caronade 2"
-FLAGSHIP_MID2_L8G8:0 "Section de barrage 2"
-FLAGSHIP_MID2_G16:0 "Lance-missiles central 2"
-FLAGSHIP_MID2_M16:0 "Bordée centrale 2"
-FLAGSHIP_MID2_G8M8:0 "Section de salve 2"
-FLAGSHIP_MID2_H12PD4:0 "Noyau porteur 2"
-
-FLAGSHIP_MID3_L16:0 "Artillerie centrale 3"
-FLAGSHIP_MID3_L8M8:0 "Section de bombardement 3"
-FLAGSHIP_MID3_L6S6PD4:0 "Section de caronade 3"
-FLAGSHIP_MID3_L8G8:0 "Section de barrage 3"
-FLAGSHIP_MID3_G16:0 "Lance-missiles central 3"
-FLAGSHIP_MID3_M16:0 "Bordée centrale 3"
-FLAGSHIP_MID3_G8M8:0 "Section de salve 3"
-FLAGSHIP_MID3_H12PD4:0 "Noyau porteur 3"
-
-FLAGSHIP_MID4_L16:0 "Artillerie centrale 4"
-FLAGSHIP_MID4_L8M8:0 "Section de bombardement 4"
-FLAGSHIP_MID4_L6S6PD4:0 "Section de caronade 4"
-FLAGSHIP_MID4_L8G8:0 "Section de barrage 4"
-FLAGSHIP_MID4_G16:0 "Lance-missiles central 4"
-FLAGSHIP_MID4_M16:0 "Bordée centrale 4"
-FLAGSHIP_MID4_G8M8:0 "Section de salve 4"
-FLAGSHIP_MID4_H12PD4:0 "Noyau porteur 4"
-
-FLAGSHIP_STERN_L16:0 "Artillerie de poupe"
-FLAGSHIP_STERN_M16:0 "Poupe de Bordée"
-FLAGSHIP_STERN_G16:0 "Missile de poupe"
-FLAGSHIP_STERN_M8PD8:0 "Déluge de poupe"
-FLAGSHIP_STERN_G8PD8:0 "Salve de poupe"
-FLAGSHIP_STERN_H6PD10:0 "PD Poupe"
-#######################################
-STRONGHOLD_STARBASE_SECTION_T:0 "Section de Grande Citadelle"
-STRONGHOLD_STARBASE_SECTION_XL:0 "Section de Grande Citadelle"
-#######################################
-HEADQUARTERS_STARBASE_SECTION_T:0 "Section de Base principale QG"
-HEADQUARTERS_STARBASE_SECTION_XL:0 "Section de Base principale QG"
-#######################################
-HEAVY_MISSILE_MILITARY_STATION_SECTION:0 "Section lance-missiles"
-PDSMALL_MILITARY_STATION_SECTION:0 "PD Section légère"
-#######################################
-XL_CANNON_CORE:0 "Section de canon annihilateur"
-T_CANNON_CORE:0 "Section de canon oblitérateur"
-#######################################
-MISSILE_JUGGERNAUT_SECTION:0 "Missile Mastodonte"
-ARTILLERY_JUGGERNAUT_SECTION:0 "Artillerie Mastodonte"
-STRIKECRAFT_JUGGERNAUT_SECTION:0 "Porteur Mastodonte"
-#######################################
-CORE1_HEADQUARTERS_SECTION:0 "Section de QG 1"
-CORE2_HEADQUARTERS_SECTION:0 "Section de QG 2"
-CORE3_HEADQUARTERS_SECTION:0 "Section de QG 3"
-CORE4_HEADQUARTERS_SECTION:0 "Section de QG 4"
-
-
-
-################################################################################################################################################
-# MISCELLANEOUS
-################################################################################################################################################
+TBA:0 "\n§g(- Description To Be Added -)§!\n"
 
 hq_limit:0 "§Un seul §Y$sm_hq_annex$§! peut exister par empire.§!"
 drydock_limit:0 "§Un seul §Y$sm_drydock$§! peut exister par empire.§!"
@@ -1226,13 +1228,13 @@ requires_stronghold:0 "Requiert la base de la grande citadelle"
 nsc_headquarters_bonus:0 "Headquarters Modifier"
 
 requires_tech_hyperlane_generation:0 "$TRIGGER_FAIL$Nécessite la technologie £physics  §Y$tech_hyperlane_generation$§!."
- 
+
 requires_no_existing_generator_emisor:0 "$TRIGGER_FAIL$Construction impossible car il existe déjà un §YGénérateur d'hyperlignes (Émetteur)§! dans l'empire."
 requires_existing_generator_receptor:0 "$TRIGGER_FAIL$Nécessite un §YGénérateur d'hyperlignes (Récepteur)§! dans l'empire."
 requires_existing_generator_emisor:0 "$TRIGGER_FAIL$Nécessite un §YGénérateur d'hyperlignes (Émetteur)§! dans l'empire, dans un système non connecté par une hyperligne à §Y[Root.GetName]§!."
 requires_no_existing_system_generator_emisor:0 "$TRIGGER_FAIL$Construction impossible car il existe déjà un §YGénérateur d'hyperlignes (Émetteur)§! dans le système."
 requires_no_existing_generator_receptor:0 "$TRIGGER_FAIL$Impossible de construire car il existe déjà un §YGénérateur d'hyperlignes (Récepteur)§! dans l'empire."
- 
+
 requires_no_existing_remover_emisor:0 "$TRIGGER_FAIL$Construction impossible car il existe déjà un §YDispositif de retrait d'hyperlignes (Émetteur)§! dans l'empire."
 requires_existing_remover_receptor:0 "$TRIGGER_FAIL$Nécessite un §YDispositif de retrait d'hyperlignes (Récepteur)§! dans l'empire."
 requires_existing_remover_emisor:0 "$TRIGGER_FAIL$Nécessite un §YDispositif de retrait d'hyperlignes (Émetteur)§! dans l'empire, dans un système connecté par une hyperligne à §Y[Root.GetName]§!."
@@ -1240,9 +1242,9 @@ requires_no_existing_system_remover_emisor:0 "$TRIGGER_FAIL$Construction impossi
 requires_no_existing_remover_receptor:0 "$TRIGGER_FAIL$Impossible de construire car il existe déjà un §YDispositif de retrait d'hyperlignes (Récepteur)§! dans l'empire."
 
 
-################################################################################################################################################
-# NAME LISTS
-################################################################################################################################################
+##################################################################################################################################################################################################################
+### NAME LISTS ###
+##################
 
 name_list_1-NSC-Arthopoid:0 "NSC2 Arthropoïde"
 name_list_1-NSC-Avian:0 "NSC2 Aviaire"
@@ -1253,13 +1255,15 @@ name_list_1-NSC-Humanoid:0 "NSC2 Humanoide"
 name_list_1-NSC-Machine:0 "NSC2 Artificielle"
 name_list_1-NSC-Mammalian:0 "NSC2 Mammalienne"
 name_list_1-NSC-Molluscoid:0 "NSC2 Molluscoïde"
+name_list_1-NSC-Necroid:0 "NSC2 Necroid"
 name_list_1-NSC-Plantoid:0 "NSC2 Plantoïde"
 name_list_1-NSC-Reptilian:0 "NSC2 Reptilienne"
+name_list_1-NSC-Steve:0 "NSC2 Steve"
 
 
-################################################################################################################################################
-# DOCTRINES
-################################################################################################################################################
+##################################################################################################################################################################################################################
+### DOCTRINES ###
+#################
 
 policy_armament_doctrine:0 "Emploi des armes des vaisseaux"
 policy_armament_doctrine_desc:0 "Cette doctrine permet à un empire de choisir l'armement qu'il souhaite principalement utiliser sur ses vaisseaux."
@@ -1378,9 +1382,10 @@ swarm_protocol:0 "Protocole d'essaim"
 swarm_protocol_name:0 "Protocole d'essaim"
 swarm_protocol_desc:0 "Pour l'essaim"
 
-################################################################################################################################################
-# MODIFIERS
-################################################################################################################################################
+
+##################################################################################################################################################################################################################
+### MODIFIERS ###
+#################
 
 mod_shipsize_StrikeCruiser_upkeep_mult:0 "Entretien des croiseurs d'assaut"
 mod_shipsize_StrikeCruiser_construction_speed_mult:0 "Vitesse de construction des croiseurs d'assaut"
@@ -1430,14 +1435,14 @@ mod_country_resource_max_energy_add:0 "Énergie max"
 mod_leader_admirals_upkeep_mult:0 "Maintenance des amiraux"
 
 mod_weapon_type_point_defense_weapon_damage_mult:0 "Dégâts des armes de défense rapprochée"
- 
+
 mod_planet_livestock_produces_mult:0 "Production de cheptel"
 mod_pop_category_purge_produces_mult:0 "Production des pops purgées"
 
 
-################################################################################################################################################
-# JOBS
-################################################################################################################################################
+##################################################################################################################################################################################################################
+### JOBS ###
+############
 
 job_diagnostician:0 "Diagnosticien"
 job_diagnostician_plural:0 "Diagnosticiens"
@@ -1446,104 +1451,104 @@ job_diagnostician_desc:0 "Ces travailleurs spécialisés de l'hôpital galactiqu
 mod_job_diagnostician_add:0 "Emploi de $job_diagnostician$"
 
 
-################################################################################################################################################
-# EVENTS
-################################################################################################################################################
+##################################################################################################################################################################################################################
+### HYPERLANE CREATION/REMOVAL ###
+##################################
 
 hyperlane_generation.1.name:0 "Création d'une hyperligne"
 hyperlane_generation.1.desc:0 "Nos efforts pour la création d'une nouvelle hyperligne entre §Y[hyperlane_creator_emisor.GetName]§! et §Y[hyperlane_creator_receptor.GetName]§! ont été couronnés de succès."
- 
+hyperlane_generation.a:0 "Excellent"
+
 hyperlane_generation.3.name:0 "Suppression d'une hyperligne"
 hyperlane_generation.3.desc:0 "Nos efforts pour la suppresion d'une hyperligne existante entre §Y[hyperlane_remover_emisor.GetName]§! et §Y[hyperlane_remover_receptor.GetName]§! ont été couronnés de succès."
- 
+
 hyperlane_generation.5.name:0 "Générateur d'hyperligne en construction (Émetteur)"
 hyperlane_generation.5.desc:0 "Nous avons terminé les premières étapes de la construction de notre générateur d'hyperligne (Émetteur) à §Y[hyperlane_generator_1.GetName]§!."
- 
+
 hyperlane_generation.7.name:0 "Générateur d'hyperligne en construction (Récepteur)"
 hyperlane_generation.7.desc:0 "Nous avons terminé les premières étapes de la construction de notre générateur d'hyperligne (Récepteur) à §Y[hyperlane_generator_2.GetName]§!."
- 
+
 hyperlane_generation.9.name:0 "Dispositif d'Inhibition d'hyperligne en construction (Émetteur)"
 hyperlane_generation.9.desc:0 "Nous avons terminé les premières étapes de la construction de notre dispositif de retrait d'hyperligne (Émetteur) à §Y[hyperlane_generator_3.GetName]§!."
- 
+
 hyperlane_generation.11.name:0 "Dispositif d'Inhibition d'hyperligne en construction (Récepteur)"
 hyperlane_generation.11.desc:0 "Nous avons terminé les premières étapes de la construction de notre dispositif de retrait d'hyperligne (Récepteur) à §Y[hyperlane_generator_4.GetName]§!."
- 
+
 hyperlane_generation.6.name:0 "Générateur d'hyperligne construit (Émetteur)"
 hyperlane_generation.6.desc:0 "Nous avons enfin terminé les dernières étapes de la construction de notre générateur d'hyperligne (Émetteur) à §Y[From.From.GetName]§!."
- 
+
 hyperlane_generation.8.name:0 "Générateur d'hyperligne construit (Récepteur)"
 hyperlane_generation.8.desc:0 "Nous avons enfin terminé les dernières étapes de la construction de notre générateur d'hyperligne (Récepteur) à §Y[From.From.GetName]§!."
- 
+
 hyperlane_generation.10.name:0 "Dispositif de retrait d'hyperligne construit (Émetteur)"
 hyperlane_generation.10.desc:0 "Nous avons enfin terminé les dernières étapes de la construction de notre dispositif de retrait d'hyperligne (Émetteur) à §Y[From.From.GetName]§!."
- 
+
 hyperlane_generation.12.name:0 "Dispositif de retrait d'hyperligne construit (Récepteur)"
 hyperlane_generation.12.desc:0 "Nous avons enfin terminé les dernières étapes de la construction de notre dispositif de retrait d'hyperligne (Récepteur) à §Y[From.From.GetName]§!."
 
 
-################################################################################################################################################
-# ADVANCED BEHAVIORS
-################################################################################################################################################
+##################################################################################################################################################################################################################
+### ADVANCED BEHAVIORS ###
+##########################
 
 ai_behaviour:0 "Tactiques I.A."
 ai_behaviour_DESC:0 "Emplacement des Tactiques I.A."
 
 ai_behaviour_default:0 "Tactique par défaut (Non NSC 2)"
-ai_behaviour_default_DESC:1 "Utilise le comportement tactique défini sur l'ordinateur d'origine. À utiliser avec les ordinateurs vanilla (Ne provenant pas de NSC 2).\n\n§GComment utiliser : §!§BChoississez cet ordinateur si vous souhaitez utiliser un comportement vanille dans la fente ci-dessus et NE PAS utiliser une tactique avancée. Si vous souhaitez utiliser une tactique avancée pour cette classe de vaisseau, choisissez d'abord un ordinateur vanille dans l'emplacement ci-dessus, puis choisissez une tactique pour cet emplacement.§!\n\n"
+ai_behaviour_default_DESC:0 "Utilise le comportement tactique défini sur l'ordinateur d'origine. À utiliser avec les ordinateurs vanilla (Ne provenant pas de NSC 2).\n\n§GComment utiliser : §!§BChoississez cet ordinateur si vous souhaitez utiliser un comportement vanille dans la fente ci-dessus et NE PAS utiliser une tactique avancée. Si vous souhaitez utiliser une tactique avancée pour cette classe de vaisseau, choisissez d'abord un ordinateur vanille dans l'emplacement ci-dessus, puis choisissez une tactique pour cet emplacement.§!\n\n"
 
 ai_behaviour_follow:0 "Tactique d'escorte"
-ai_behaviour_follow_DESC:1 "Les vaisseaux suivront le reste de la flotte. Tactique par défaut équilibré."
+ai_behaviour_follow_DESC:0 "Les vaisseaux suivront le reste de la flotte. Tactique par défaut équilibré."
 
 ai_behaviour_charge:0 "Tactique d'assaut"
-ai_behaviour_charge_DESC:1 "Les vaisseaux tenteront de se rapprocher le plus directement possible de la flotte ennemie et s'engageront à bout portant."
+ai_behaviour_charge_DESC:0 "Les vaisseaux tenteront de se rapprocher le plus directement possible de la flotte ennemie et s'engageront à bout portant."
 
-#avec mod RS : Battle  55 = 17
 ai_behaviour_stationary_40:0 "Tactique d'artillerie (Portée: 40)"
-ai_behaviour_stationary_40_DESC:1 "Les vaisseaux se déplaceront à la distance indiquée (40) puis maintiendront leur position en tirant sur l'ennemi."
+ai_behaviour_stationary_40_DESC:0 "Les vaisseaux se déplaceront à la distance indiquée (40) puis maintiendront leur position en tirant sur l'ennemi."
 ai_behaviour_stationary_50:0 "Tactique d'artillerie (Portée: 50)"
-ai_behaviour_stationary_50_DESC:1 "Les vaisseaux se déplaceront à la distance indiquée (50) puis maintiendront leur position en tirant sur l'ennemi."
+ai_behaviour_stationary_50_DESC:0 "Les vaisseaux se déplaceront à la distance indiquée (50) puis maintiendront leur position en tirant sur l'ennemi."
 ai_behaviour_stationary_60:0 "Tactique d'artillerie (Portée: 60)"
-ai_behaviour_stationary_60_DESC:1 "Les vaisseaux se déplaceront à la distance indiquée (60) puis maintiendront leur position en tirant sur l'ennemi."
+ai_behaviour_stationary_60_DESC:0 "Les vaisseaux se déplaceront à la distance indiquée (60) puis maintiendront leur position en tirant sur l'ennemi."
 ai_behaviour_stationary_70:0 "Tactique d'artillerie (Portée: 70)"
-ai_behaviour_stationary_70_DESC:1 "Les vaisseaux se déplaceront à la distance indiquée (70) puis maintiendront leur position en tirant sur l'ennemi."
+ai_behaviour_stationary_70_DESC:0 "Les vaisseaux se déplaceront à la distance indiquée (70) puis maintiendront leur position en tirant sur l'ennemi."
 ai_behaviour_stationary_80:0 "Tactique d'artillerie (Portée: 80)"
-ai_behaviour_stationary_80_DESC:1 "Les vaisseaux se déplaceront à la distance indiquée (80) puis maintiendront leur position en tirant sur l'ennemi."
+ai_behaviour_stationary_80_DESC:0 "Les vaisseaux se déplaceront à la distance indiquée (80) puis maintiendront leur position en tirant sur l'ennemi."
 ai_behaviour_stationary_90:0 "Tactique d'artillerie (Portée: 90)"
-ai_behaviour_stationary_90_DESC:1 "Les vaisseaux se déplaceront à la distance indiquée (90) puis maintiendront leur position en tirant sur l'ennemi."
+ai_behaviour_stationary_90_DESC:0 "Les vaisseaux se déplaceront à la distance indiquée (90) puis maintiendront leur position en tirant sur l'ennemi."
 ai_behaviour_stationary_100:0 "Tactique d'artillerie (Portée: 100)"
-ai_behaviour_stationary_100_DESC:1 "Les vaisseaux se déplaceront à la distance indiquée (100) puis maintiendront leur position en tirant sur l'ennemi."
+ai_behaviour_stationary_100_DESC:0 "Les vaisseaux se déplaceront à la distance indiquée (100) puis maintiendront leur position en tirant sur l'ennemi."
 ai_behaviour_stationary_110:0 "Tactique d'artillerie (Portée: 110)"
-ai_behaviour_stationary_110_DESC:1 "Les vaisseaux se déplaceront à la distance indiquée (110) puis maintiendront leur position en tirant sur l'ennemi."
+ai_behaviour_stationary_110_DESC:0 "Les vaisseaux se déplaceront à la distance indiquée (110) puis maintiendront leur position en tirant sur l'ennemi."
 ai_behaviour_stationary_120:0 "Tactique d'artillerie (Portée: 120)"
-ai_behaviour_stationary_120_DESC:1 "Les vaisseaux se déplaceront à la distance indiquée (120) puis maintiendront leur position en tirant sur l'ennemi."
+ai_behaviour_stationary_120_DESC:0 "Les vaisseaux se déplaceront à la distance indiquée (120) puis maintiendront leur position en tirant sur l'ennemi."
 
 ai_behaviour_stationary_200:0 "Tactique de maintien à distance (Portée: 200)"
-ai_behaviour_stationary_200_DESC:1 "Les vaisseaux se déplaceront à la distance indiquée (200) puis maintiendront leur position. NOTE: Ce réglage garantira que les vaisseaux seront hors de portées des armes ennemies, ce qui les protégeront contre la plupart des tirs ennemis, mais les empêcheront également de faire feu."
+ai_behaviour_stationary_200_DESC:0 "Les vaisseaux se déplaceront à la distance indiquée (200) puis maintiendront leur position. NOTE: Ce réglage garantira que les vaisseaux seront hors de portées des armes ennemies, ce qui les protégeront contre la plupart des tirs ennemis, mais les empêcheront également de faire feu."
 
 ai_behaviour_flank_40:0 "Tactique de contournement (Portée: 40)"
-ai_behaviour_flank_40_DESC:1 "Les vaisseaux encercleront la flotte ennemie à une distance de (40) en tirant avec leurs armes."
+ai_behaviour_flank_40_DESC:0 "Les vaisseaux encercleront la flotte ennemie à une distance de (40) en tirant avec leurs armes."
 ai_behaviour_flank_60:0 "Tactique de contournement (Portée: 60)"
-ai_behaviour_flank_60_DESC:1 "Les vaisseaux encercleront la flotte ennemie à une distance de (60) en tirant avec leurs armes."
+ai_behaviour_flank_60_DESC:0 "Les vaisseaux encercleront la flotte ennemie à une distance de (60) en tirant avec leurs armes."
 ai_behaviour_flank_80:0 "Tactique de contournement (Portée: 80)"
-ai_behaviour_flank_80_DESC:1 "Les vaisseaux encercleront la flotte ennemie à une distance de (80) en tirant avec leurs armes."
+ai_behaviour_flank_80_DESC:0 "Les vaisseaux encercleront la flotte ennemie à une distance de (80) en tirant avec leurs armes."
 ai_behaviour_flank_100:0 "Tactique de contournement (Portée: 100)"
-ai_behaviour_flank_100_DESC:1 "Les vaisseaux encercleront la flotte ennemie à une distance de (100) en tirant avec leurs armes."
+ai_behaviour_flank_100_DESC:0 "Les vaisseaux encercleront la flotte ennemie à une distance de (100) en tirant avec leurs armes."
 
 ai_behaviour_hitnrun_40:0 "Tactique d'escarmouche (Portée: 40)"
-ai_behaviour_hitnrun_40_DESC:1 "Les vaisseaux se déplaceront jusqu'à la distance indiquée (40) puis attaqueront avant de se replier."
+ai_behaviour_hitnrun_40_DESC:0 "Les vaisseaux se déplaceront jusqu'à la distance indiquée (40) puis attaqueront avant de se replier."
 ai_behaviour_hitnrun_60:0 "Tactique d'escarmouche (Portée: 60)"
-ai_behaviour_hitnrun_60_DESC:1 "Les vaisseaux se déplaceront jusqu'à la distance indiquée (60) puis attaqueront avant de se replier."
+ai_behaviour_hitnrun_60_DESC:0 "Les vaisseaux se déplaceront jusqu'à la distance indiquée (60) puis attaqueront avant de se replier."
 ai_behaviour_hitnrun_80:0 "Tactique d'escarmouche (Portée: 80)"
-ai_behaviour_hitnrun_80_DESC:1 "Les vaisseaux se déplaceront jusqu'à la distance indiquée (80) puis attaqueront avant de se replier."
+ai_behaviour_hitnrun_80_DESC:0 "Les vaisseaux se déplaceront jusqu'à la distance indiquée (80) puis attaqueront avant de se replier."
 ai_behaviour_hitnrun_100:0 "Tactique d'escarmouche (Portée: 100)"
-ai_behaviour_hitnrun_100_DESC:1 "Les vaisseaux se déplaceront jusqu'à la distance indiquée (100) puis attaqueront avant de se replier."
+ai_behaviour_hitnrun_100_DESC:0 "Les vaisseaux se déplaceront jusqu'à la distance indiquée (100) puis attaqueront avant de se replier."
 
 FIGHTERS_HANGAR_PD_1:0 "Escadrille de chasseurs (PD)"
-FIGHTERS_HANGAR_PD_1_DESC:1 "Les chasseurs de combat sont déployés pour engager les cibles hostiles avoisinantes dès lors que le vaisseau-mère engage le combat. Restera près de son transporteur pour intercepter les bombardiers et les missiles."
+FIGHTERS_HANGAR_PD_1_DESC:0 "Les chasseurs de combat sont déployés pour engager les cibles hostiles avoisinantes dès lors que le vaisseau-mère engage le combat. Restera près de son transporteur pour intercepter les bombardiers et les missiles."
 FIGHTERS_HANGAR_PD_2:0 "Escadrille de chasseurs améliorés (PD)"
-FIGHTERS_HANGAR_PD_2_DESC:1 "Les chasseurs améliorés ciblent de façon coordonnée les plus petits vaisseaux ennemis ainsi que les bombardiers et appareils d'attaque. Restera près de son transporteur pour intercepter les bombardiers et les missiles."
+FIGHTERS_HANGAR_PD_2_DESC:0 "Les chasseurs améliorés ciblent de façon coordonnée les plus petits vaisseaux ennemis ainsi que les bombardiers et appareils d'attaque. Restera près de son transporteur pour intercepter les bombardiers et les missiles."
 FIGHTERS_HANGAR_PD_3:0 "Escadrille de chasseurs avancés (PD)"
-FIGHTERS_HANGAR_PD_3_DESC:1 "Une escadrille de chasseurs avancés est capable d'infliger des dégâts importants aux plus petits vaisseaux ennemis et peut se défendre contre les appareils hostiles. Restera près de son transporteur pour intercepter les bombardiers et les missiles."
+FIGHTERS_HANGAR_PD_3_DESC:0 "Une escadrille de chasseurs avancés est capable d'infliger des dégâts importants aux plus petits vaisseaux ennemis et peut se défendre contre les appareils hostiles. Restera près de son transporteur pour intercepter les bombardiers et les missiles."
 
 LARGE_FIGHTERS_HANGAR_PD_1:0 "Escadrille de chasseurs (PD)"
 LARGE_FIGHTERS_HANGAR_PD_2:0 "Escadrille de chasseurs améliorés (PD)"
@@ -1559,14 +1564,129 @@ NOAI_COMBAT_COMPUTER_1_DESC:0 "Ordinateur de combat élémentaire, permettant un
 NOAI_COMBAT_COMPUTER_2_DESC:0 "Ordinateur de combat standard, permettant une variété de manoeuvres tactiques. Sélectionnez une tactique de combat dans la case ci-dessous."
 NOAI_COMBAT_COMPUTER_3_DESC:0 "Ordinateur de combat amélioré, permettant une variété de manoeuvres tactiques. Sélectionnez une tactique de combat dans la case ci-dessous."
 NOAI_COMBAT_COMPUTER_4_DESC:0 "Ordinateur de combat conscient, permettant une variété de manoeuvres tactiques. Sélectionnez une tactique de combat dans la case ci-dessous."
-NOAI_COMBAT_COMPUTER_5_DESC:0 "Ordinateur de combat précognitif, permettant une variété de manoeuvres tactiques. Sélectionnez une tactique de combat dans la case ci-dessous." 
-################################################################################################################################################
-# DROP PODS
-################################################################################################################################################
-#voir le fichier planetaryassaultshipmod_l_french.yml
-# Techs #
+NOAI_COMBAT_COMPUTER_5_DESC:0 "Ordinateur de combat précognitif, permettant une variété de manoeuvres tactiques. Sélectionnez une tactique de combat dans la case ci-dessous."
 
- tech_pasmod_basic_drop_pod:0 "Nouvelles barges orbitales d'assaut"
- tech_pasmod_basic_drop_pod_desc:0 "Ce nouveau pod de largage peut fournir une force d'invasion de troupes d'élite spécialisées pour capturer des mondes ennemis légèrement défendus."
- TECH_UNLOCK_PASMOD_ASSAULT_ARMY_DEFAULT_DROP_POD_TITLE:0 "§HDéverrouille le composant :0§! $pasmod_orbital_drop_pod_default$"
- TECH_UNLOCK_PASMOD_ASSAULT_ARMY_DEFAULT_DROP_POD_DESC:0 "§H$pasmod_orbital_drop_pod_default$§!\nCe nouveau pod de largage peut fournir une force d'invasion de troupes d'élite spécialisées pour capturer des mondes ennemis légèrement défendus."
+
+##################################################################################################################################################################################################################
+### PASMOD ###
+##############
+
+### TIER I ###
+pasmod_orbital_drop_pod_default:0 "Small Orbital Drop Pod"
+pasmod_orbital_drop_pod_default_DESC:0 "§HArmy Type: $pasmod_assault_army_default$§!\n$pasmod_assault_army_default_DESC$\n\n§YSmall§! Drop Pod will drop §Y5§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_clone:0 "$pasmod_orbital_drop_pod_default$"
+pasmod_orbital_drop_pod_clone_DESC:0 "§HArmy Type: $pasmod_assault_army_clone$§!\n$pasmod_assault_army_clone_DESC$\n\n§YSmall§! Drop Pod will drop §Y5§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_gene:0 "$pasmod_orbital_drop_pod_default$"
+pasmod_orbital_drop_pod_gene_DESC:0 "§HArmy Type: $pasmod_assault_army_gene$§!\n$pasmod_assault_army_gene_DESC$\n\n§YSmall§! Drop Pod will drop §Y5§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+
+pasmod_orbital_drop_pod_psionic_force:0 "$pasmod_orbital_drop_pod_default$"
+pasmod_orbital_drop_pod_psionic_force_DESC:0 "§HArmy Type: $pasmod_assault_army_psionic_force$§!\n$pasmod_assault_army_psionic_force_DESC$\n\n§YSmall§! Drop Pod will drop §Y5§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_slave_army:0 "$pasmod_orbital_drop_pod_default$"
+pasmod_orbital_drop_pod_slave_army_DESC:0 "§HArmy Type: $pasmod_assault_army_slave_army$§!\n$pasmod_assault_army_slave_army_DESC$\n\n§YSmall§! Drop Pod will drop §Y5§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_droid_army:0 "$pasmod_orbital_drop_pod_default$"
+pasmod_orbital_drop_pod_droid_army_DESC:0 "§HArmy Type: $pasmod_assault_army_droid_army$§!\n$pasmod_assault_army_droid_army_DESC$\n\n§YSmall§! Drop Pod will drop §Y5§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+
+### TIER II ###
+pasmod_orbital_drop_pod_default_2:0 "Medium Orbital Drop Pod"
+pasmod_orbital_drop_pod_default_2_DESC:0 "§HArmy Type: $pasmod_assault_army_default$§!\n$pasmod_assault_army_default_DESC$\n\n§YMedium§! Drop Pod will drop §Y10§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_clone_2:0 "$pasmod_orbital_drop_pod_default_2$"
+pasmod_orbital_drop_pod_clone_2_DESC:0 "§HArmy Type: $pasmod_assault_army_clone$§!\n$pasmod_assault_army_clone_DESC$\n\n§YMedium§! Drop Pod will drop §Y10§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_gene_2:0 "$pasmod_orbital_drop_pod_default_2$"
+pasmod_orbital_drop_pod_gene_2_DESC:0 "§HArmy Type: $pasmod_assault_army_gene$§!\n$pasmod_assault_army_gene_DESC$\n\n§YMedium§! Drop Pod will drop §Y10§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+
+pasmod_orbital_drop_pod_psionic_force_2:0 "$pasmod_orbital_drop_pod_default_2$"
+pasmod_orbital_drop_pod_psionic_force_2_DESC:0 "§HArmy Type: $pasmod_assault_army_psionic_force$§!\n$pasmod_assault_army_psionic_force_DESC$\n\n§YMedium§! Drop Pod will drop §Y10§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_slave_army_2:0 "$pasmod_orbital_drop_pod_default_2$"
+pasmod_orbital_drop_pod_slave_army_2_DESC:0 "§HArmy Type: $pasmod_assault_army_slave_army$§!\n$pasmod_assault_army_slave_army_DESC$\n\n§YMedium§! Drop Pod will drop §Y10§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_droid_army_2:0 "$pasmod_orbital_drop_pod_default_2$"
+pasmod_orbital_drop_pod_droid_army_2_DESC:0 "§HArmy Type: $pasmod_assault_army_droid_army$§!\n$pasmod_assault_army_droid_army_DESC$\n\n§YMedium§! Drop Pod will drop §Y10§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+
+### TIER III ###
+pasmod_orbital_drop_pod_default_3:0 "Large Orbital Drop Pod"
+pasmod_orbital_drop_pod_default_3_DESC:0 "§HArmy Type: $pasmod_assault_army_default$§!\n$pasmod_assault_army_default_DESC$\n\n§YLarge§! Drop Pod will drop §Y20§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_clone_3:0 "$pasmod_orbital_drop_pod_default_3$"
+pasmod_orbital_drop_pod_clone_3_DESC:0 "§HArmy Type: $pasmod_assault_army_clone$§!\n$pasmod_assault_army_clone_DESC$\n\n§YLarge§! Drop Pod will drop §Y20§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_gene_3:0 "$pasmod_orbital_drop_pod_default_3$"
+pasmod_orbital_drop_pod_gene_3_DESC:0 "§HArmy Type: $pasmod_assault_army_gene$§!\n$pasmod_assault_army_gene_DESC$\n\n§YLarge§! Drop Pod will drop §Y20§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+
+pasmod_orbital_drop_pod_psionic_force_3:0 "$pasmod_orbital_drop_pod_default_3$"
+pasmod_orbital_drop_pod_psionic_force_3_DESC:0 "§HArmy Type: $pasmod_assault_army_psionic_force$§!\n$pasmod_assault_army_psionic_force_DESC$\n\n§YLarge§! Drop Pod will drop §Y20§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_slave_army_3:0 "$pasmod_orbital_drop_pod_default_3$"
+pasmod_orbital_drop_pod_slave_army_3_DESC:0 "§HArmy Type: $pasmod_assault_army_slave_army$§!\n$pasmod_assault_army_slave_army_DESC$\n\n§YLarge§! Drop Pod will drop §Y20§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+pasmod_orbital_drop_pod_droid_army_3:0 "$pasmod_orbital_drop_pod_default_3$"
+pasmod_orbital_drop_pod_droid_army_3_DESC:0 "§HArmy Type: $pasmod_assault_army_droid_army$§!\n$pasmod_assault_army_droid_army_DESC$\n\n§YLarge§! Drop Pod will drop §Y20§! army units to the ground at one time. Can only be equipped on an Secteur d'Invasion on the Escort Carrier or Carrier.\n\n§BThe Pod will automatically deploy when Planetary Devastation reaches 30%.§!"
+
+### ARMIES ###
+pasmod_assault_army_default:0 "Planetary Assault Army"
+pasmod_assault_army_default_plural:0 "Planetary Assault Armies"
+pasmod_assault_army_default_DESC:0 "Basic planetary assault army which is capable of using the orbital drop pod."
+pasmod_assault_army_clone:0 "Clone Assault Unit"
+pasmod_assault_army_clone_plural:0 "Clone Assault army units"
+pasmod_assault_army_clone_DESC:0 "An army of manufactured clones, which have designed to become cost effective and immune to morale damages."
+pasmod_assault_army_gene:0 "Orbital Drop Assault Division"
+pasmod_assault_army_gene_plural:0 "Orbital Drop Assault Divisions"
+pasmod_assault_army_gene_DESC:0 "Massive assault division including genetically engineered special forces."
+
+pasmod_assault_army_psionic_force:0 "Psionic Special Forces"
+pasmod_assault_army_psionic_force_DESC:0 "They usually crumble hostile entity's mind as well as its morale with their own extraordinary willpower."
+pasmod_assault_army_slave_army:0 "Slave Troops"
+pasmod_assault_army_slave_army_DESC:0 "An army unit full of personnel who is recruited against their will. They will serve their own duty even at the moment they die."
+pasmod_assault_army_droid_army:0 "Droid Army"
+pasmod_assault_army_droid_army_DESC:0 "These brainless tin-cans always follow orders given to them without hesitation. \n§L"Roger, Roger" - A Droid unit, right before killed in action§!"
+
+### PASMOD TECHS ###
+tech_pasmod_basic_drop_pod:0 "Nouvelles barges orbitales d'assaut"
+tech_pasmod_basic_drop_pod_desc:0 "Ce nouveau pod de largage peut fournir une force d'invasion de troupes d'élite spécialisées pour capturer des mondes ennemis légèrement défendus."
+TECH_UNLOCK_PASMOD_ASSAULT_ARMY_DEFAULT_DROP_POD_TITLE:0 "§HDéverrouille le composant :0§! $pasmod_orbital_drop_pod_default$"
+TECH_UNLOCK_PASMOD_ASSAULT_ARMY_DEFAULT_DROP_POD_DESC:0 "§H$pasmod_orbital_drop_pod_default$§!\nCe nouveau pod de largage peut fournir une force d'invasion de troupes d'élite spécialisées pour capturer des mondes ennemis légèrement défendus."
+
+
+##################################################################################################################################################################################################################
+### ARCHEOLOGY ###
+##################
+
+### DESERTS OF KHARAK ###
+nsc_deserts_of_kharak:0 "Deserts Of Kharak"
+nsc_deserts_of_kharak_desc:0 "$TBA$"
+
+nsc_archaeology_events.101.title:0 "$nsc_deserts_of_kharak$"
+nsc_archaeology_events.101.desc:0 "$nsc_deserts_of_kharak_desc$"
+nsc_archaeology_events.101.a:0 "Curious"
+
+nsc_archaeology_events.1001.title:0 "The Primary Anomaly"
+nsc_archaeology_events.1001.desc:0 "$TBA$"
+nsc_archaeology_events.1001.a:0 "OK"
+nsc_archaeology_events.1002.title:0 "Great Banded Desert"
+nsc_archaeology_events.1002.desc:0 "$TBA$"
+nsc_archaeology_events.1002.a:0 "OK"
+nsc_archaeology_events.1003.title:0 "Kalash Site"
+nsc_archaeology_events.1003.desc:0 "$TBA$"
+nsc_archaeology_events.1003.a:0 "OK"
+nsc_archaeology_events.1004.title:0 "Tombs Of The Ancients"
+nsc_archaeology_events.1004.desc:0 "$TBA$"
+nsc_archaeology_events.1004.a:0 "OK"
+nsc_archaeology_events.1005.title:0 "Khar-Toba"
+nsc_archaeology_events.1005.desc:0 "$TBA$"
+nsc_archaeology_events.1005.a:0 "OK"
+
+
+##################################################################################################################################################################################################################
+### RELICS ###
+##############
+
+### HYPERSPACE CORE ###
+r_nsc_hyperspace_core:0 "Ancient Hyperspace Core"
+r_nsc_hyperspace_core_desc:0 "$TBA$"
+
+r_nsc_hyperspace_core_cooldown_effect:0 "$TRIGGER_FAIL$§RCannot activate this relic again until core stabalization proceedures are completed.§!"
+
+r_nsc_hyperspace_core_active:0 "Active $r_nsc_hyperspace_core$"
+r_nsc_hyperspace_core_active_desc:0 "$r_nsc_hyperspace_core_desc$"
+
+r_nsc_hyperspace_core_cooldown:0 "FTL Drive Fatigue"
+r_nsc_hyperspace_core_cooldown_desc:0 "$TBA$"
+
+nsc_relic_events.102.title:0 "$r_nsc_hyperspace_core_cooldown$"
+nsc_relic_events.102.desc:0 "$r_nsc_hyperspace_core_cooldown_desc$"
+nsc_relic_events.102.a:0 "OK"
+nsc_relic_events.102.a.tooltip:0 "§RFTL Drives will function at reduced capacity for the duration of repairs.§!"
