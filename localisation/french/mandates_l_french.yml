@@ -25,9 +25,9 @@
  ####################################
 
  MANDATE_mandate_planet_separatist:0 "Soutien aux séparatistes"
- MANDATE_mandate_planet_separatist_DESC:1 "Libération de [Root.GetPopFactionName] en tant qu'empire indépendant.\n\nRécompense : $mandate_influence_reward_t3$"
+ MANDATE_mandate_planet_separatist_DESC:1 "Libération de '§Y[Root.GetPopFactionName]§!' en tant qu'empire indépendant.\n\nRécompense : $mandate_influence_reward_t3$"
  MANDATE_mandate_emancipation:0 "Affranchissement généralisé"
- MANDATE_mandate_emancipation_DESC:1 "Fin de la pratique de l'esclavage en [Root.Owner.GetName].\n\nRécompense : $mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ MANDATE_mandate_emancipation_DESC:1 "Fin de la pratique de l'esclavage pour '§Y[Root.Owner.GetName]§!'.\n\nRécompense : $mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
  MANDATE_mandate_emancipation2:0 "Affranchissement populiste"
  MANDATE_mandate_emancipation2_DESC:1 "Affranchissement de tous les esclaves d'au moins une planète [Root.Owner.GetSpeciesAdj].\n\nRécompense : $mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
  MANDATE_mandate_orbital_researcher:0 "Recherche orbitale"
@@ -50,46 +50,46 @@
  ####################################
 
  mandate_miner_chain_title:0 "Programme minier"
- mandate_miner_chain_desc:3 "[This.GetLeLaLDirCap] [This.GetRulerTitle] [This.GetRulerName] a été élu[This.GetXEDir] en s'engageant à augmenter la §Yproduction de £minerals£minéraux§! par la construction de §Ystations minières§! en orbite des planétoïdes riches en ressources.\n\nRécompense : $mandate_unity_reward$"
+ mandate_miner_chain_desc:3 "[This.GetLeLaLDirCap] [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à augmenter la §Yproduction de £minerals£minéraux§! par la construction de §Ystations minières§! en orbite des planétoïdes riches en ressources.\n\nRécompense : $mandate_unity_reward$"
  mining_stations_built:0 "Stations minières construites "
 
  mandate_orbresearch_chain_title:0 "Programme de recherche orbitale"
- mandate_orbresearch_chain_desc:3 "[This.GetLeLaLDirCap] [This.GetRulerTitle] [This.GetRulerName] a été élu[This.GetXEDir] en s'engageant à renforcer la §Yrecherche scientifique§! par la construction de §Ystations scientifiques§! en orbite de planètes intéressantes.\n\nRécompense : $mandate_unity_reward$"
+ mandate_orbresearch_chain_desc:3 "[This.GetLeLaLDirCap] [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à renforcer la §Yrecherche scientifique§! par la construction de §Ystations scientifiques§! en orbite de planètes intéressantes.\n\nRécompense : $mandate_unity_reward$"
  orbresearch_built:0 "Stations de recherche construites "
 
  mandate_xenopurge_chain_title:0 "Programme de xénopurge"
- mandate_xenopurge_chain_desc:2 "Notre [This.GetRulerTitle] [This.GetRulerName] a été élu en s'engageant à §Ypurger§! §H[purge_planet.GetName]§! de toutes les §Ypops non [Root.GetSpeciesAdj]s§!.\n\nRécompense : $mandate_influence_reward_t2$\n$mandate_happiness_reward_t1$"
+ mandate_xenopurge_chain_desc:2 "Notre [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à §Ypurger§! §H[purge_planet.GetName]§! de toutes les §Ypops non [Root.GetSpeciesAdj]s§!.\n\nRécompense : $mandate_influence_reward_t2$\n$mandate_happiness_reward_t1$"
  world_purged:0 "Planète purgée"
 
  mandate_shipwright_chain_title:0 "Programme de développement de la flotte"
- mandate_shipwright_chain_desc:2 "Notre [This.GetRulerTitle] [This.GetRulerName] a été élu en s'engageant à augmenter les dépenses militaires, garantissant que §Y75% de notre capacité navale serait utilisée avant la fin de son mandat§!.\n\nRécompense : $mandate_influence_reward_t2$"
+ mandate_shipwright_chain_desc:2 "Notre [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à augmenter les dépenses militaires, garantissant que §Y75% de notre capacité navale serait utilisée avant la fin de son mandat§!.\n\nRécompense : $mandate_influence_reward_t2$"
  military_presence_maintained:0 "Programme mené à bien"
 
  mandate_fiscal_reserve_chain_title:0 "Mandat de réserve fiscale"
- mandate_fiscal_reserve_chain_desc:1 "Le [This.GetRulerTitle] [This.GetRulerName] a été élu en s'engageant à faire des §Yéconomies§!, à renoncer aux §Ydépenses irréfléchies§! et à fournir au §H[Root.GetName]§! des réserves §Yd'au moins 1 000£energy£ §! §Yavant la fin de son règne§!."
+ mandate_fiscal_reserve_chain_desc:1 "Le [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à faire des §Yéconomies§!, à renoncer aux §Ydépenses irréfléchies§! et à fournir au §H[Root.GetName]§! des réserves §Yd'au moins 1 000£energy£ §! §Yavant la fin de son règne§!."
 
  mandate_emancipation_chain_title:0 "Programme d'affranchissement généralisé"
- mandate_emancipation_chain_desc:2 "Notre [This.GetRulerTitle] [This.GetRulerName] a été élu en s'engageant à §Yabolir l'esclavage§! en rendant cette pratique §Yillégale§! au cours de son mandat.\n\nRécompense : $mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ mandate_emancipation_chain_desc:2 "Notre [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à §Yabolir l'esclavage§! en rendant cette pratique §Yillégale§! au cours de son mandat.\n\nRécompense : $mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
  mandate_fulfilled:0 "Programme mené à bien"
 
  mandate_emancipation2_chain_title:0 "Programme d'affranchissement populiste"
- mandate_emancipation2_chain_desc:2 "Notre [This.GetRulerTitle] [This.GetRulerName] a été élu en s'engageant à §Yaffranchir tous les esclaves§! de la planète §H[free_planet.GetName]§! au cours de son mandat.\n\nRécompense : $mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ mandate_emancipation2_chain_desc:2 "Notre [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à §Yaffranchir tous les esclaves§! de la planète §H[free_planet.GetName]§! au cours de son mandat.\n\nRécompense : $mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
  planet_freed:0 "Planète affranchie"
 
  mandate_separatist_chain_title:0 "Programme séparatiste"
- mandate_separatist_chain_desc:2 "Notre [This.GetRulerTitle] [This.GetRulerName] a été élu en s'engageant à accorder l'indépendance à la planète §H[release_planet.GetName]§! afin qu'elle accède au rang d'empire indépendant. Pour plus d'informations, consulter la §Yliste des factions§!.\n\nRécompense : $mandate_influence_reward_t3$"
+ mandate_separatist_chain_desc:2 "Notre [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à accorder l'indépendance à la planète §H[release_planet.GetName]§! afin qu'elle accède au rang d'empire indépendant. Pour plus d'informations, consulter la §Yliste des factions§!.\n\nRécompense : $mandate_influence_reward_t3$"
  empire_released:0 "Planète indépendante"
 
  mandate_peacemaker_chain_title:0 "Programme pacifiste"
- mandate_peacemaker_chain_desc:2 "Notre [This.GetRulerTitle] [This.GetRulerName] a été élu en s'engageant à §Ymettre fin à toutes les guerres§! dans lesquelles §Y[Root.GetName]§! était impliqué avant la fin de son mandat.\n\nRécompense : $mandate_influence_reward_t2$"
+ mandate_peacemaker_chain_desc:2 "Notre [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à §Ymettre fin à toutes les guerres§! dans lesquelles §Y[Root.GetName]§! était impliqué avant la fin de son mandat.\n\nRécompense : $mandate_influence_reward_t2$"
  no_engagements:0 "Fin de tous les conflits"
 
  mandate_slaver_chain_title:0 "Programme esclavagiste"
- mandate_slaver_chain_desc:2 "Notre [This.GetRulerTitle] [This.GetRulerName] a été élu en s'engageant à §Yasservir§! au moins §Y5 pops§! avant la fin de son mandat.\n\nRécompense : $mandate_influence_reward_t2$"
+ mandate_slaver_chain_desc:2 "Notre [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à §Yasservir§! au moins §Y5 pops§! avant la fin de son mandat.\n\nRécompense : $mandate_influence_reward_t2$"
  pops_enslaved:0 "Pops asservies"
 
  mandate_nationalist_chain_title:0 "Programme de rétrocession"
- mandate_nationalist_chain_desc:2 "Notre [This.GetRulerTitle] [This.GetRulerName] a été élu en s'engageant à §Yrétrocéder§! à §H[ceding_empire.GetName]§! les colonies lui appartenant avant la fin de son mandat. Cette action peut être menée à partir de la §Yliste des factions§!.\n\nRécompense : $mandate_influence_reward_t3$"
+ mandate_nationalist_chain_desc:2 "Notre [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à §Yrétrocéder§! à §H[ceding_empire.GetName]§! les colonies lui appartenant avant la fin de son mandat. Cette action peut être menée à partir de la §Yliste des factions§!.\n\nRécompense : $mandate_influence_reward_t3$"
  planet_ceded:0 "Planète rétrocédée"
 
  ####################################
@@ -97,9 +97,9 @@
  ####################################
 
  mandate.1.title:0 "Programme de nouveau dirigeant"
- mandate.1.desc:0 "§Y[Root.GetRulerName]§! a été élu §Y[Root.GetRulerTitle]§! de notre §H[Root.GetName]§!.\n\nPour plus d'informations sur son §Yprogramme§!, consulter le §Yjournal de bord§!."
+ mandate.1.desc:0 "§Y[Root.GetRulerName]§! a été élu[Root.GetXEDir] §Y[Root.GetRulerTitle]§! de notre §H[Root.GetName]§!.\n\nPour plus d'informations sur son §Yprogramme§!, consulter le §Yjournal de bord§!."
  mandate.2.title:0 "Programme non réalisé"
- mandate.2.desc:1 "Notre [Root.GetRulerTitle] [Root.GetRulerName] est arrivé au terme de son mandat, mais les promesses faites au cours sa campagne électorale n'ont pas été tenues."
+ mandate.2.desc:1 "Notre §Y[Root.GetRulerTitle] [Root.GetRulerName]§! est arrivé[Root.GetXEDir] au terme de son mandat, mais les promesses faites au cours sa campagne électorale n'ont pas été tenues."
 
  # Separatist
  mandate.100.title:0 "Programme séparatiste réalisé"
@@ -133,7 +133,7 @@
 
  # Peacemaker
  mandate.161.title:0 "Programme de pacification réalisé"
- mandate.161.desc:1 "Conformément au programme [Root.GetDuDelaDelDir] [Root.GetRulerTitle], la §H[Root.GetName]§! n'est plus impliquée dans aucun conflit."
+ mandate.161.desc:1 "Conformément au programme [Root.GetDuDelaDelDir] [Root.GetRulerTitle], '§H[Root.GetName]§!' n'est plus impliquée dans aucun conflit."
  mandate.162.title:0 "Programme non réalisé"
  mandate.162.desc:1 "$mandate.142.desc$"
 
@@ -152,7 +152,7 @@
 ####################
 
  MANDATE_mandate_separatist:0 "Soutien de la cause séparatiste"
- MANDATE_mandate_separatist_DESC:0 "Libérer l'empire vassal [Root.GetPopFactionName].\n\nRécompense :\n$mandate_influence_reward_t3$"
+ MANDATE_mandate_separatist_DESC:0 "Libérer l'empire vassal '§Y[Root.GetPopFactionName]§!'.\n\nRécompense :\n$mandate_influence_reward_t3$"
  mandate_influence_reward_t5:0 "§GTrès importante (250 à 500£influence£ )§!"
  mandate_unity_reward:2 "§G6§! mois d'£unity£unité (jusqu'à 1000)"
 
