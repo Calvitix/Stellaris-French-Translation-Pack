@@ -1,0 +1,181 @@
+﻿l_french:
+
+##################################################################################################################################################################################################################
+### EXPLORATION CRUISER EVENTS ###
+##################################
+
+PROTOTYPE_EXPLORATION_CRUISER_PROJECT:0 "Prototype de croiseur d'exploration"
+PROTOTYPE_EXPLORATION_CRUISER_PROJECT_DESC:0 "Nos ingénieurs pensent qu'ils peuvent créer un nouveau type de vaisseau scientifique spécialement conçu pour l'exploration de l'espace lointain, mais qui sera également suffisamment armé pour faire face aux dangers inhérents qui nous attendent alors que nous nous dirigeons vers les étoiles."
+
+EXPLORATION_CRUISER_UPGRADE_PROJECT:0 "Projet d'amélioration du vaisseau scientifique"
+EXPLORATION_CRUISER_UPGRADE_PROJECT_DESC:0 "Nos ingénieurs de flotte sont prêts à commencer la tâche monumentale de modernisation de l'un de nos vaisseaux scientifiques existants dans la nouvelle classe 'Croiseur d'Exploration'. On s'attend à ce que ce projet prenne environ 250 jours pour se terminer. Une fois terminé, le chef scientifique du vaisseau sera transféré automatiquement sur son nouveau vaisseau."
+
+expcruiser.01.name: "Prototype de croiseur d'exploration"
+expcruiser.01.desc: "Alors que nous partons pour nos premières expéditions pour explorer la galaxie, nous avons découvert de nombreux dangers et menaces cachés. Pour assurer la sécurité de nos meilleurs dirigeants scientifiques tout en explorant, nos ingénieurs pensent qu'ils peuvent créer un nouveau type de vaisseau scientifique spécialement conçu pour l'exploration de l'espace lointain, mais qui sera également suffisamment armé pour faire face aux dangers inhérents qui nous attendent alors que nous partons. dans les étoiles. Nous avons obtenu les ressources d'ingénierie nécessaires pour démarrer un projet spécial, et nous pouvons commencer à créer cette conception immédiatement. Alternativement, nous pouvons affecter nos recherches d'ingénierie sauvegardées à d'autres tâches. Nous attendons votre décision."
+
+expcruiser.01.a: "Une excellente idée. Commencez le projet immédiatement !"
+expcruiser.01.b: "Je ne pense pas que nous ayons besoin d'un tel vaisseau pour le moment."
+
+expcruiser.02.name: "Prototype de croiseur d'exploration terminé"
+expcruiser.02.desc: "Nos ingénieurs ont réussi ! Le tout nouveau Prototype de croiseur d'exploration est terminé et est prêt à recevoir vos ordres !"
+
+expcruiser.03.name: "Amélioration de la flotte scientifique"
+expcruiser.03.desc:0 "Maintenant que nous avons finalisé la conception permanente du croiseur d'exploration, notre équipe de logistique de flotte aimerait savoir si vous souhaitez mettre à niveau notre flotte de vaisseaux scientifiques avec cette nouvelle conception améliorée. La mise à niveau de chaque vaisseau prendra environ §G250 jours§! et nécessitera un investissement de §B400 alliages§! et §Y50 énergie§! par vaisseau, mais donnerait à nos principaux chercheurs en exploration une bien meilleure chance de survie dans un univers de plus en plus hostile. Nous pouvons améliorer jusqu'à 8 vaisseaux scientifiques vers la nouvelle classe. Un projet spécial sera créé pour chaque vaisseau que vous souhaitez mettre à niveau, ce qui nécessitera de déplacer ce vaisseau vers notre système d'origine pour commencer le projet. Il n'y a pas de limite de temps sur la rapidité avec laquelle vous terminez les projets. Nous attendons votre décision."
+
+expcruiser.03.1:0 "Choisissez de mettre à jour §Y1§! vaisseau. (§B400 alliages§! & §Y50 énergie§!)"
+expcruiser.03.2:0 "Choisissez de mettre à jour §Y2§! vaisseaux. (§B800 alliages§! & §Y100 énergie§!)"
+expcruiser.03.3:0 "Choisissez de mettre à jour §Y3§! vaisseaux. (§B1200 alliages§! & §Y150 énergie§!)"
+expcruiser.03.4:0 "Choisissez de mettre à jour §Y4§! vaisseaux. (§B1600 alliages§! & §Y200 énergie§!)"
+expcruiser.03.5:0 "Choisissez de mettre à jour §Y5§! vaisseaux. (§B2000 alliages§! & §Y250 énergie§!)"
+expcruiser.03.6:0 "Choisissez de mettre à jour §Y6§! vaisseaux. (§B2400 alliages§! & §Y300 énergie§!)"
+expcruiser.03.7:0 "Choisissez de mettre à jour §Y7§! vaisseaux. (§B2800 alliages§! & §Y350 énergie§!)"
+expcruiser.03.8:0 "Choisissez de mettre à jour §Y8§! vaisseaux. (§B3200 alliages§! & §Y400 énergie§!)"
+expcruiser.03.end: "Choisissez de ne mettre à niveau aucun vaisseau du tout. (§M+25 Influence§!)"
+
+expcruiser.04.name: "Mise à niveau du vaisseau scientifique terminée"
+expcruiser.04.desc: "Nous avons terminé un projet de mise à niveau du vaisseau scientifique. Le chef scientifique a pris son poste et le nouveau vaisseau attend maintenant vos ordres."
+
+
+##################################################################################################################################################################################################################
+### FLAGSHIP EVENT CHAIN ###
+############################
+
+nsc_flagship_cannot_be_acquired_by_conventional_means.tooltip.fail:0 "§R$TRIGGER_FAIL$ En raison de sa taille et de sa complexité, seule la mégastructure du Chantier Naval Amiral est capable de produire un navire de classe Vaisseau Amiral.§!"
+
+nsc_flagship_shipyard:0 "Chantier Naval Amiral"
+nsc_flagship_shipyard_DESC:0 "Cette station spatiale massive est nécessaire pour construire le vaisseau de guerre le plus grand et le plus meurtrier que la galaxie ait jamais vu."
+
+nsc_flagship_shipyard_MEGASTRUCTURE_DETAILS:0 "$nsc_flagship_shipyard_DESC$"
+requires_no_existing_nsc_flagship:0 "£trigger_no£ Impossible de créer plus d'un vaisseau Amiral."
+can_not_start_another_nsc_flagship_building:0 "£trigger_no£ Impossible de démarrer un autre projet de construction de vaisseau Amiral."
+
+nsc_flagship_bow:0 "Chantier Naval Amiral (étape 1)"
+nsc_flagship_bow_DESC:0 "Projet de construction du vaisseau Amiral : Étape 1 sur 6\nCet immense chantier naval abrite le puissant vaisseau amiral de notre Empire.\nIl est actuellement en construction et est achevé à environ 16%."
+
+nsc_flagship_mid_1:0 "Chantier Naval Amiral (étape 2)"
+nsc_flagship_mid_1_DESC:0 "Projet de construction du vaisseau Amiral : Étape 2 sur 6\nCet immense chantier naval abrite le puissant vaisseau amiral de notre Empire.\nIl est actuellement en construction et est achevé à environ 33%."
+
+nsc_flagship_mid_2:0 "Chantier Naval Amiral (étape 3)"
+nsc_flagship_mid_2_DESC:0 "Projet de construction du vaisseau Amiral : Étape 3 sur 6\nCet immense chantier naval abrite le puissant vaisseau amiral de notre Empire.\nIl est actuellement en construction et est achevé à environ 50%."
+
+nsc_flagship_mid_3:0 "Chantier Naval Amiral (étape 4)"
+nsc_flagship_mid_3_DESC:0 "Projet de construction du vaisseau Amiral : Étape 4 sur 6\nCet immense chantier naval abrite le puissant vaisseau amiral de notre Empire.\nIl est actuellement en construction et est achevé à environ 66%."
+
+nsc_flagship_mid_4:0 "Chantier Naval Amiral (étape 5)"
+nsc_flagship_mid_4_DESC:0 "Projet de construction du vaisseau Amiral : Étape 5 sur 6\nCet immense chantier naval abrite le puissant vaisseau amiral de notre Empire.\nIl est actuellement en construction et est achevé à environ 83%."
+
+nsc_flagship_stern:0 "Chantier Naval Amiral (phase finale)"
+nsc_flagship_stern_DESC:0 "Projet de construction du vaisseau Amiral : phase finale\nCet immense chantier naval abrite le puissant vaisseau amiral de notre Empire.\nIl est actuellement en construction et en voie d'achèvement."
+
+nsc_flagship_complete:0 "Chantier Naval Amiral"
+nsc_flagship_complete_DESC:0 "Cet immense chantier naval abrite le puissant vaisseau amiral de notre Empire."
+
+edict_nsc_flagship_ruler_captain:0 "Transférer Dirigeant de l'Empire vers / depuis le vaisseau amiral"
+edict_nsc_flagship_ruler_captain_desc:0 "Activez cet édit pour transférer votre Dirigeant de l'Empire sur votre vaisseau amiral.Activez-le à nouveau pour retirer votre Dirigeant de l'Empire du vaisseau amiral."
+edict_nsc_flagship_ruler_captain_tooltip:0 "Transférez votre [Root.GetRulerTitle] vers ou depuis le vaisseau Amiral."
+edict_nsc_flagship_ruler_captain_tooltip_alt:0 "Transférez votre [Root.GetRulerTitle] vers ou depuis le vaisseau Amiral."
+
+leader_trait_flagship:0 "Commandant du vaisseau Amiral"
+leader_trait_flagship_desc:0 "Le leader du vaisseau Amiral est extrêmement compétent et intelligent.Ils offrent des bonus substantiels lorsqu'ils commandent le navire de guerre le plus puissant de notre arsenal."
+
+NSC_FLAGSHIP_REBUILD_PROJECT:0 "Reconstruction du vaisseau Amiral"
+NSC_FLAGSHIP_REBUILD_PROJECT_DESC:0 "Notre glorieux vaisseau amiral, la fierté de notre Empire, a été détruit au combat. Alors qu'il était prohibitif de soutenir plus d'un vaisseau Amiral à la fois, maintenant que notre vaisseau Amiral a été détruit, nous avons de l'espace dans le budget pour en créer un nouveau."
+
+nsc_events.10.name:0 "Chantier Naval Amiral prêt pour la construction"
+nsc_events.10.desc:0 "Nos conceptions pour l'immense chantier naval nécessaire à la construction du vaisseau amiral sont terminées.Nous pouvons commencer la construction de l'installation d'assemblage, mais nos ingénieurs navals doivent finaliser une - et une seule - conception pour le navire tout à fait gargantuesque à construire.Nous ne pourrons construire qu'un seul vaisseau amiral, donc même si nous serons en mesure de moderniser et d'améliorer le navire après sa construction, nous devons en avoir un, une seule conception avant la construction."
+nsc_events.10.a:0 "Un navire pour changer la marée ..."
+
+nsc_events.11.name:0 "Finalisation de la conception du vaisseau Amiral"
+nsc_events.11.desc:0 "La construction de notre vaisseau amiral a commencé, mais maintenant que le squelette du navire est en cours, il est essentiel de finaliser la conception de notre vaisseau amiral avant que la construction n'aille trop loin pour effectuer facilement des changements."
+nsc_events.11.a:0 "Compris, nous finaliserons la conception immédiatement."
+
+nsc_events.12.name:0 "Secret plus"
+nsc_events.12.desc:0 "La construction de notre puissant vaisseau amiral bénéficie naturellement du niveau de classification le plus élevé que nous ayons, et nous avons consacré beaucoup de temps, d'efforts et de ressources pour garder le projet dans le secret.\n\nCependant, malgré nos efforts héroïques pour le garderconstruction un secret bien gardé, un projet aussi massif est pratiquement impossible à cacher, et les puissances étrangères de la galaxie en sont conscientes depuis un certain temps, et elles ne restent pas les bras croisés alors que nous changeons à eux seuls le visage de la guerre interstellaire.Nos agents du renseignement rapportent que de nombreux empires ont déjà commencé la construction de leurs propres vaisseaux amiraux, dans l'espoir de maintenir l'équilibre des pouvoirs dans la galaxie.\n\nUne nouvelle course aux armements est en cours."
+nsc_events.12.a:0 "Décevant, mais pas inattendu."
+
+nsc_events.13.name:0 "La puissance ultime de l'univers"
+nsc_events.13.desc:0 "Après des années de travail, la consommation de grandes quantités de ressources, la construction d'un incroyable chantier naval et la dépense d'un capital politique considérable, le vaisseau Amiral est enfin complet et pleinement opérationnel.C'est le navire de guerre ultime, capable d'anéantir les flottes ennemies et de renverser le cours de guerres entières.\n\nLe dévoilement de ce nouveau navire de guerre massif a été un choc pour les citoyens de notre propre empire, ainsi que pour les masses dexenos étrangers, mais, comme l'ont indiqué de précédents rapports des services de renseignement, leurs gouvernements n'ont pas été pris au dépourvu et se sont préparés à contrer notre puissante nouvelle arme.Les rapports de renseignement indiquent que plusieurs empires sont sur la bonne voie pour lancer leurs propres vaisseaux amiraux en production."
+nsc_events.13.a:0 "Excellent, nous lancerons dans les 30 jours."
+
+nsc_events.14.name:0 "Flagship en cours"
+nsc_events.14.desc:0 "Nous venons de terminer la cérémonie de lancement de notre nouveau vaisseau amiral.Des milliards de personnes de partout dans l'Empire ont regardé avec admiration le vaisseau massif glisser hors de sa couchette fermée, sa coque brillant dans la lumière du soleil de notre maison.Une nouvelle ère a commencé.Le vaisseau amiral est conçu pour être capable d'opérations indépendantes, mais fonctionnera mieux dans le cadre d'une flotte.Le navire est maintenant en attente et attend l'affectation d'un nouvel amiral."
+nsc_events.14.a:0 "Excellent."
+
+#nsc_events.14.name:0 "Flagship en cours"
+#nsc_events.14.desc:0 "Nous venons de terminer la cérémonie de lancement de notre nouveau vaisseau amiral. Des milliards de personnes de tout l'Empire ont regardé avec admiration le vaisseau massif glisser hors de sa couchette fermée, sa coque brillant dans la lumière du soleil de notre maison. Une nouvelle ère a commencé. Le vaisseau amiral est conçu pour être capable d'opérations indépendantes, mais fonctionnera mieux dans le cadre d'une flotte. Le navire est maintenant en attente et attend # l'affectation d'un nouvel amiral.\n\nCependant, il existe une option alternative à l'attribution d'un simple amiral.\n\nPendant le processus de conception et de construction du vaisseau amiral, il a été décidé d'ajouter un ensemble spécial de chambres # au coeur du navire, avec suffisamment de puissance de calcul et d'équipement de communication pour faire fonctionner à distance toute la nation, si nécessaire - un moyen de maintenir la cohésion du gouvernement, même dans le cas où notre capitale # la planète tombe pour attaquer. En conséquence, il est en fait possible pour notre [Root.GetRulerTitle] de diriger l'Empire depuis le vaisseau amiral et de commander notre plus grande arme de l'intérieur. Cela incitera sûrement tous les navires de la flotte du vaisseau amiral à se battre plus fort, et assurera aux gens que le [Root.GetRulerTitle] est dédié à leur défense et leur permettra de mieux administrer la marine. Cependant, transférer le # [Root.GetRulerTitle] sur le vaisseau amiral risque de le perdre au combat si le vaisseau amiral est détruit et qu'il ne peut pas se rendre dans une capsule de sauvetage.\n\nTransfert officiel du [Root.GetRulerTitle] vers et #from vaisseau Amiralnécessitera un édit."
+#nsc_events.14.a:0 "Excellent."
+
+nsc_events.15.name:0 "Niveler le terrain de jeu"
+nsc_events.15.desc:0 "Nos agents rapportent maintenant que plusieurs puissances étrangères ont lancé leurs propres navires amiraux pleinement opérationnels pour tenter de suivre le rythme de la course aux armements navals.La galaxie abrite maintenant plusieurs de ces navires de guerre gargantuesques, chacun transportant suffisamment de puissance de feu pour écraser une flotte entière.Alors que les frais de construction et d'entretien de ces navires empêcheront toute nation de construire plus d'un vaisseau amiral, leur puissance incroyable façonnera sûrement tout conflit armé futur auquel ils participeront."
+nsc_events.15.a:0 "Compris."
+
+nsc_events.16.name:0 "Un désastre épique"
+nsc_events.16.desc:0 "Notre vaisseau amiral, la fierté de notre marine, le symbole glorieux de la puissance de notre empire, a été détruit !\n\nLe choc d'une telle calamité grossière ne peut être sous-estimé.Le public a beaucoup confiance en la capacité de notre vaisseau amiral à nous défendre, et notre propagande a largement mis en avant notre vaisseau amiral pour garder nos citoyens inspirés.Dans les jours, les semaines et les années à venir, nombreux sont ceux qui remettront sûrement en question les décisions de commandement qui mèneront à la destruction du navire de guerre le plus puissant que notre empire ait jamais produit.\n\nMaintenant que nous n'avons plus à dépenser l'importantles ressources nécessaires pour maintenir le vaisseau amiral, il sera possible d'en construire un nouveau, même si cela nécessitera le même type de projet spécial approfondi qu'auparavant - et nous devons veiller à ne pas perdre notre prochain vaisseau amiral.Un examen de nos stratégies navales s'impose certainement."
+nsc_events.16.a:0 "Très bien, commencez la construction immédiatement."
+nsc_events.16.b:0 "Compris, nous allons bientôt commencer le projet."
+
+nsc_events.17.name:0 "Nouveau vaisseau Amiral terminé"
+nsc_events.17.desc:0 "Notre nouveau vaisseau Amiral est enfin terminé et prêt à être lancé.Espérons que celui-ci ne subira pas le même sort sombre que le dernier - ces navires ne sont pas bon marché ni rapides à remplacer, après tout, et les perdre est un coup dur pour notre moral et notre puissance militaire.Le vaisseau amiral est l'arme la plus puissante de notre arsenal - il doit être manipulé avec précaution.\n\nNous devons essayer de ne pas laisser tomber notre peuple."
+nsc_events.17.a:0 "Nous n'échouerons pas à nouveau."
+
+
+
+
+##################################################################################################################################################################################################################
+### FLAGSHIP DUEL EVENT ###
+###########################
+
+nsc_events.30.name:0 "Une bataille légendaire"
+nsc_events.30.desc:0 "Depuis le lancement du projet du vaisseau Amiral, avant même que le chantier naval colossal pour construire le navire ne soit construit, de nombreux théoriciens navals ont émis l'hypothèse que, comme les développements précédents ont conduit à une concentration sur les affrontements de navires capitaux, la nouvelle phase de la course aux armements navals pourraitjour mènent à la réunion des vaisseaux amiraux ennemis sur le champ de bataille.Certains ont même avancé que la seule façon possible de contrer un vaisseau amiral serait avec un autre vaisseau amiral, rendant de tels affrontements inévitables.\n\nCe jour est enfin arrivé.Notre vaisseau amiral est sur le point d'affronter un vaisseau amiral ennemi, et les cieux gronderont de leur puissance.Les deux nations ont investi d'énormes ressources dans le développement de leurs vaisseaux amiraux et ont conçu leurs doctrines au moins partiellement autour des puissants vaisseaux.Maintenant, toute la galaxie verra les résultats - avec l'équilibre de la puissance galactique et l'avenir du combat naval et de la pensée, en jeu."
+nsc_events.30.a:0 "En avant vers la gloire !"
+
+
+
+##################################################################################################################################################################################################################
+### FLAGSHIP FOR FEDERATIONS ###
+################################
+
+nsc_federation_flagship_project_must_be_finished.tooltip.fail:0 "§R$TRIGGER_FAIL$ Besoin de terminer un projet de Fédération pour construire le vaisseau amiral de la flotte de la Fédération.§!"
+nsc_non_federation_flagship_must_be_acquired_by_completing_megastructure.tooltip.fail:0 "§R$TRIGGER_FAIL$ Vous devez terminer la mégastructure du chantier naval amiral pour acquérir votre propre vaisseau amiral.§!"
+
+nsc_federation_flagship_project:0 "Budget pour le vaisseau amiral de la flotte de la Fédération"
+nsc_federation_flagship_project_desc:0 "Les alliages et les influences sont détournés de notre nation pour construire un vaisseau amiral pour la flotte de notre fédération."
+nsc_federation_flagship_project_done:0 "Projet du vaisseau Amiral de la flotte de la Fédération terminé"
+nsc_federation_flagship_project_done_desc:0 "REMPLACEZ-MOI"
+
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_1:0 "Vaisseau Amiral fédéral Proue"
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_1_DESC:0 "REMPLACEZ-MOI"
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_2:0 "Vaisseau Amiral fédéral - Mil A"
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_2_DESC:0 "REMPLACEZ-MOI"
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_3:0 "Vaisseau Amiral fédéral - Mil B"
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_3_DESC:0 "REMPLACEZ-MOI"
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_4:0 "Vaisseau Amiral fédéral - Mil C"
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_4_DESC:0 "REMPLACEZ-MOI"
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_5:0 "Vaisseau Amiral fédéral - Mil D"
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_5_DESC:0 "REMPLACEZ-MOI"
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_6:0 "Vaisseau Amiral fédéral - Poupe"
+NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_6_DESC:0 "REMPLACEZ-MOI"
+
+law_category_nsc_flagship_for_federation_fleet:0 "Vaisseau Amiral fédéral"
+law_category_nsc_flagship_for_federation_fleet_desc:0 "L'adoption de cette loi de fédération lancera un projet de fédération visant à construire un vaisseau Amiral pour la flotte de la fédération."
+nsc_flagship_for_federation_fleet_yes:0 "Loi adoptée"
+nsc_flagship_for_federation_fleet_yes_desc:0 "REMPLACEZ-MOI"
+nsc_flagship_for_federation_fleet_yes_tooltip.fail:0 "§R Nécessite une contribution de flotte faible ou supérieure.§!"
+nsc_flagship_for_federation_fleet_no:0 "Loi inégalée"
+nsc_flagship_for_federation_fleet_no_desc:0 "REMPLACEZ-MOI"
+nsc_flagship_for_federation_fleet_no_tooltip.fail:0 "§RVous avez déjà adopté la loi .§!"
+federation_law_category_nsc_flagship_for_federation_fleet_cooldown:0 "-"
+
+nsc_events.23.name:0 "Vaisseau Amiral fédéral"
+nsc_events.23.desc:0 "REPLACE_ME J'ai besoin d'une description pour dire au joueur que le vote pour la construction d'un vaisseau amiral pour la flotte de la fédération est maintenant possible"
+nsc_events.23.a:0 "Bien."
+nsc_events.24.name:0 "Un pas plus près du vaisseau Amiral"
+nsc_events.24.desc:0 "REPLACE_ME J'ai besoin d'une description indiquant au joueur qu'un projet de fédération pour le vaisseau Amiral de la flotte de la fédération est désormais possible"
+nsc_events.24.a:0 "Commence Construction."
+nsc_events.24.a.tooltip:0 "Le projet de la fédération visant à jeter les bases du vaisseau Amiral de la flotte de la fédération va commencer.\n§Y$nsc_federation_flagship_project$§!modificateur ajouté, donnant les effets suivants :\n$mod_country_alloys_produces_mult$ : §R-5%§!\n$mod_country_base_influence_produces_add$ : §R-0.50§!"
+nsc_events.26.name:0 "Le vaisseau amiral de la flotte de la Fédération est terminé"
+nsc_events.26.desc:0 "REPLACE_ME J'ai besoin que desc dise que le projet est terminé, donc le joueur devrait faire un nouveau design pour le vaisseau amiral de la fédération dans l'interface utilisateur du concepteur de vaisseau de la fédération et en construire un dans un chantier naval (n'importe quel chantier naval est bien).J'ai également besoin de préciser que le coût phare de la flotte de la fédération est gratuit puisque les joueurs ont déjà payé le coût via le modificateur d'empire 'nsc_federation_flagship_project'.(temps de construction aussi, puisque les joueurs ont passé le temps à rechercher les projets spéciaux 'NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT') (une seule fois, ils devront tout payer et attendre 1500 jours avant de reconstruire le vaisseau Amiral)"
+nsc_events.26.a:0 "Magnifique."
+nsc_events.28.name:0 "§RAvertissement§!"
+nsc_events.28.desc:0 "Vous ne pouvez PAS construire de vaisseau amiral à partir de chantiers navals normaux maintenant.(Si ce n'est pas le vaisseau amiral de la Fédération.) Vous devez terminer la mégastructure du chantier naval phare pour acquérir votre propre vaisseau amiral.Cet événement est fait pour forcer cela."
+nsc_events.28.a:0 "Bien."
