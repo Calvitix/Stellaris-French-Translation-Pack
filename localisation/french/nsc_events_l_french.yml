@@ -70,13 +70,21 @@ nsc_flagship_stern_DESC:0 "Projet de construction du vaisseau Amiral : phase fin
 nsc_flagship_complete:0 "Chantier Naval Amiral"
 nsc_flagship_complete_DESC:0 "Cet immense chantier naval abrite le puissant vaisseau amiral de notre Empire."
 
+edict_nsc_flagship_repair:0 "Re-Construction du Vaisseau Amiral"
+edict_nsc_flagship_repair_desc:0 "REPLACE_ME"
+
+
 edict_nsc_flagship_ruler_captain:0 "Transférer Dirigeant de l'Empire vers / depuis le vaisseau amiral"
 edict_nsc_flagship_ruler_captain_desc:0 "Activez cet édit pour transférer votre Dirigeant de l'Empire sur votre vaisseau amiral.Activez-le à nouveau pour retirer votre Dirigeant de l'Empire du vaisseau amiral."
 edict_nsc_flagship_ruler_captain_tooltip:0 "Transférez votre [Root.GetRulerTitle] vers ou depuis le vaisseau Amiral."
 edict_nsc_flagship_ruler_captain_tooltip_alt:0 "Transférez votre [Root.GetRulerTitle] vers ou depuis le vaisseau Amiral."
 
 leader_trait_flagship:0 "Commandant du vaisseau Amiral"
-leader_trait_flagship_desc:0 "Le leader du vaisseau Amiral est extrêmement compétent et intelligent.Ils offrent des bonus substantiels lorsqu'ils commandent le navire de guerre le plus puissant de notre arsenal."
+leader_trait_flagship_desc:0 "Le leader du vaisseau Amiral est extrêmement compétent et intelligent. Ils offrent des bonus substantiels lorsqu'ils commandent le navire de guerre le plus puissant de notre arsenal.\nUnassign this leader fom a fleet with §Yflagship§! will disable §R$leader_trait_flagship$§! trait."
+
+nsc_leader_trait_former_flagship_captain:0 "Commandant précédant"
+nsc_leader_trait_former_flagship_captain_desc:0 "REPLACE_ME       Player took me off from the flagship I'm sad :( But once I retake my mightiest ship, I will show my full strength!!! Flagship go vrrrrrrr       "
+nsc_leader_trait_former_flagship_captain_tooltip:0 "Assign this leader to a fleet with §Yflagship§! will enable §G$leader_trait_flagship$§! trait again. (This will be checked at the beginning of a month.)"
 
 NSC_FLAGSHIP_REBUILD_PROJECT:0 "Reconstruction du vaisseau Amiral"
 NSC_FLAGSHIP_REBUILD_PROJECT_DESC:0 "Notre glorieux vaisseau amiral, la fierté de notre Empire, a été détruit au combat. Alors qu'il était prohibitif de soutenir plus d'un vaisseau Amiral à la fois, maintenant que notre vaisseau Amiral a été détruit, nous avons de l'espace dans le budget pour en créer un nouveau."
@@ -111,14 +119,28 @@ nsc_events.15.a:0 "Compris."
 
 nsc_events.16.name:0 "Un désastre épique"
 nsc_events.16.desc:0 "Notre vaisseau amiral, la fierté de notre marine, le symbole glorieux de la puissance de notre empire, a été détruit !\n\nLe choc d'une telle calamité grossière ne peut être sous-estimé.Le public a beaucoup confiance en la capacité de notre vaisseau amiral à nous défendre, et notre propagande a largement mis en avant notre vaisseau amiral pour garder nos citoyens inspirés.Dans les jours, les semaines et les années à venir, nombreux sont ceux qui remettront sûrement en question les décisions de commandement qui mèneront à la destruction du navire de guerre le plus puissant que notre empire ait jamais produit.\n\nMaintenant que nous n'avons plus à dépenser l'importantles ressources nécessaires pour maintenir le vaisseau amiral, il sera possible d'en construire un nouveau, même si cela nécessitera le même type de projet spécial approfondi qu'auparavant - et nous devons veiller à ne pas perdre notre prochain vaisseau amiral.Un examen de nos stratégies navales s'impose certainement."
-nsc_events.16.a:0 "Très bien, commencez la construction immédiatement."
-nsc_events.16.b:0 "Compris, nous allons bientôt commencer le projet."
+nsc_events.16.a:0 "Compris, nous allons bientôt commencer le projet."
+nsc_events.16.a.tooltip:0 "§Y$edict_nsc_flagship_repair$§! est à présent disponible."
 
 nsc_events.17.name:0 "Nouveau vaisseau Amiral terminé"
 nsc_events.17.desc:0 "Notre nouveau vaisseau Amiral est enfin terminé et prêt à être lancé.Espérons que celui-ci ne subira pas le même sort sombre que le dernier - ces navires ne sont pas bon marché ni rapides à remplacer, après tout, et les perdre est un coup dur pour notre moral et notre puissance militaire.Le vaisseau amiral est l'arme la plus puissante de notre arsenal - il doit être manipulé avec précaution.\n\nNous devons essayer de ne pas laisser tomber notre peuple."
 nsc_events.17.a:0 "Nous n'échouerons pas à nouveau."
 
-
+nsc_flagship_admiral_selection_tooltip.1:0 "Coût : £energy£200"
+nsc_flagship_admiral_selection_tooltip.2:0 "Coût : £energy£400"
+nsc_flagship_admiral_selection_tooltip.3:0 "Coût : £energy£600"
+nsc_flagship_admiral_selection_tooltip.4:0 "Coût : £energy£800"
+nsc_flagship_admiral_selection_tooltip.5:0 "Coût : £energy£1000"
+nsc_flagship_admiral_selection_tooltip.6:0 "Coût : £energy£1200"
+nsc_flagship_admiral_selection_tooltip.7:0 "Coût : £energy£1400"
+nsc_flagship_admiral_selection_tooltip.8:0 "Coût : £energy£1600"
+nsc_flagship_admiral_selection_tooltip.9:0 "Coût : £energy£1800"
+nsc_flagship_admiral_selection_tooltip.10:0 "Coût : £energy£2000"
+ 
+nsc_events.31.name:0 "Détruit... le Vaisseau Amiral?!"
+nsc_events.31.desc:0 "REPLACE_ME"
+nsc_events.31.a:0 "Par tous les diables !? Re-construisons-le!"
+nsc_events.31.b:0 "Nooooo, Nous n'avons pas les ressources..."
 
 
 ##################################################################################################################################################################################################################
@@ -128,54 +150,3 @@ nsc_events.17.a:0 "Nous n'échouerons pas à nouveau."
 nsc_events.30.name:0 "Une bataille légendaire"
 nsc_events.30.desc:0 "Depuis le lancement du projet du vaisseau Amiral, avant même que le chantier naval colossal pour construire le navire ne soit construit, de nombreux théoriciens navals ont émis l'hypothèse que, comme les développements précédents ont conduit à une concentration sur les affrontements de navires capitaux, la nouvelle phase de la course aux armements navals pourraitjour mènent à la réunion des vaisseaux amiraux ennemis sur le champ de bataille.Certains ont même avancé que la seule façon possible de contrer un vaisseau amiral serait avec un autre vaisseau amiral, rendant de tels affrontements inévitables.\n\nCe jour est enfin arrivé.Notre vaisseau amiral est sur le point d'affronter un vaisseau amiral ennemi, et les cieux gronderont de leur puissance.Les deux nations ont investi d'énormes ressources dans le développement de leurs vaisseaux amiraux et ont conçu leurs doctrines au moins partiellement autour des puissants vaisseaux.Maintenant, toute la galaxie verra les résultats - avec l'équilibre de la puissance galactique et l'avenir du combat naval et de la pensée, en jeu."
 nsc_events.30.a:0 "En avant vers la gloire !"
-
-
-
-##################################################################################################################################################################################################################
-### FLAGSHIP FOR FEDERATIONS ###
-################################
-
-nsc_federation_flagship_project_must_be_finished.tooltip.fail:0 "§R$TRIGGER_FAIL$ Besoin de terminer un projet de Fédération pour construire le vaisseau amiral de la flotte de la Fédération.§!"
-nsc_non_federation_flagship_must_be_acquired_by_completing_megastructure.tooltip.fail:0 "§R$TRIGGER_FAIL$ Vous devez terminer la mégastructure du chantier naval amiral pour acquérir votre propre vaisseau amiral.§!"
-
-nsc_federation_flagship_project:0 "Budget pour le vaisseau amiral de la flotte de la Fédération"
-nsc_federation_flagship_project_desc:0 "Les alliages et les influences sont détournés de notre nation pour construire un vaisseau amiral pour la flotte de notre fédération."
-nsc_federation_flagship_project_done:0 "Projet du vaisseau Amiral de la flotte de la Fédération terminé"
-nsc_federation_flagship_project_done_desc:0 "REMPLACEZ-MOI"
-
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_1:0 "Vaisseau Amiral fédéral Proue"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_1_DESC:0 "REMPLACEZ-MOI"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_2:0 "Vaisseau Amiral fédéral - Mil A"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_2_DESC:0 "REMPLACEZ-MOI"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_3:0 "Vaisseau Amiral fédéral - Mil B"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_3_DESC:0 "REMPLACEZ-MOI"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_4:0 "Vaisseau Amiral fédéral - Mil C"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_4_DESC:0 "REMPLACEZ-MOI"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_5:0 "Vaisseau Amiral fédéral - Mil D"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_5_DESC:0 "REMPLACEZ-MOI"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_6:0 "Vaisseau Amiral fédéral - Poupe"
-NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT_6_DESC:0 "REMPLACEZ-MOI"
-
-law_category_nsc_flagship_for_federation_fleet:0 "Vaisseau Amiral fédéral"
-law_category_nsc_flagship_for_federation_fleet_desc:0 "L'adoption de cette loi de fédération lancera un projet de fédération visant à construire un vaisseau Amiral pour la flotte de la fédération."
-nsc_flagship_for_federation_fleet_yes:0 "Loi adoptée"
-nsc_flagship_for_federation_fleet_yes_desc:0 "REMPLACEZ-MOI"
-nsc_flagship_for_federation_fleet_yes_tooltip.fail:0 "§R Nécessite une contribution de flotte faible ou supérieure.§!"
-nsc_flagship_for_federation_fleet_no:0 "Loi inégalée"
-nsc_flagship_for_federation_fleet_no_desc:0 "REMPLACEZ-MOI"
-nsc_flagship_for_federation_fleet_no_tooltip.fail:0 "§RVous avez déjà adopté la loi .§!"
-federation_law_category_nsc_flagship_for_federation_fleet_cooldown:0 "-"
-
-nsc_events.23.name:0 "Vaisseau Amiral fédéral"
-nsc_events.23.desc:0 "REPLACE_ME J'ai besoin d'une description pour dire au joueur que le vote pour la construction d'un vaisseau amiral pour la flotte de la fédération est maintenant possible"
-nsc_events.23.a:0 "Bien."
-nsc_events.24.name:0 "Un pas plus près du vaisseau Amiral"
-nsc_events.24.desc:0 "REPLACE_ME J'ai besoin d'une description indiquant au joueur qu'un projet de fédération pour le vaisseau Amiral de la flotte de la fédération est désormais possible"
-nsc_events.24.a:0 "Commence Construction."
-nsc_events.24.a.tooltip:0 "Le projet de la fédération visant à jeter les bases du vaisseau Amiral de la flotte de la fédération va commencer.\n§Y$nsc_federation_flagship_project$§!modificateur ajouté, donnant les effets suivants :\n$mod_country_alloys_produces_mult$ : §R-5%§!\n$mod_country_base_influence_produces_add$ : §R-0.50§!"
-nsc_events.26.name:0 "Le vaisseau amiral de la flotte de la Fédération est terminé"
-nsc_events.26.desc:0 "REPLACE_ME J'ai besoin que desc dise que le projet est terminé, donc le joueur devrait faire un nouveau design pour le vaisseau amiral de la fédération dans l'interface utilisateur du concepteur de vaisseau de la fédération et en construire un dans un chantier naval (n'importe quel chantier naval est bien).J'ai également besoin de préciser que le coût phare de la flotte de la fédération est gratuit puisque les joueurs ont déjà payé le coût via le modificateur d'empire 'nsc_federation_flagship_project'.(temps de construction aussi, puisque les joueurs ont passé le temps à rechercher les projets spéciaux 'NSC_FLAGSHIP_BUILDING_FEDERATION_PROJECT') (une seule fois, ils devront tout payer et attendre 1500 jours avant de reconstruire le vaisseau Amiral)"
-nsc_events.26.a:0 "Magnifique."
-nsc_events.28.name:0 "§RAvertissement§!"
-nsc_events.28.desc:0 "Vous ne pouvez PAS construire de vaisseau amiral à partir de chantiers navals normaux maintenant.(Si ce n'est pas le vaisseau amiral de la Fédération.) Vous devez terminer la mégastructure du chantier naval phare pour acquérir votre propre vaisseau amiral.Cet événement est fait pour forcer cela."
-nsc_events.28.a:0 "Bien."
