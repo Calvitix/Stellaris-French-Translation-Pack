@@ -336,7 +336,7 @@
     must_build_around_black_hole:0 "$TRIGGER_FAIL$Doit être construit autour d'un trou noir."
     must_build_around_primary_star:0 "$TRIGGER_FAIL$Doit être construit autour d'un système primaire."
     must_build_around_neutron_star:0 "$TRIGGER_FAIL$Doit être construit autour d'une étoile à neutrons."
-    must_build_around_barren:0 "$TRIGGER_FAIL$The $name_terraform_barren$ doit être construit autour d'un monde aride, aride froid ou gelé."
+    must_build_around_barren:0 "$TRIGGER_FAIL$Le $name_terraform_barren$ doit être construit autour d'un monde aride, aride froid ou gelé."
     must_build_around_gas:0 "$TRIGGER_FAIL$Doit être construit autour d'une géante gazeuse."
     must_build_around_planet:0 "$TRIGGER_FAIL$Doit être construit autour d'une planète."
     must_build_around_dwarf:0 "$TRIGGER_FAIL$Doit être construit autour d'une naine brune."
@@ -362,7 +362,7 @@
     cant_build_here_ehof:0 "$TRIGGER_FAIL$Des phénomènes inconnus interfèrent avec le système de ciblage de $name_ndb$."
     cant_build_around_gas:0 "$TRIGGER_FAIL$Impossible de dépouiller cette planète !"
     cant_build_on_interstellar_habitat:0 "$TRIGGER_FAIL$Ne peut être créer un $name_interstellar_hab$ ici."
-    cant_build_here:0 "$TRIGGER_FAIL$The a planète 'Contingence' Planet émet des signaux qui bloquent les systèmes internes du Warp Gate."
+    cant_build_here:0 "$TRIGGER_FAIL$La planète 'Contingence' émet des signaux qui bloquent les systèmes internes de la porte Warp."
 
     already_stripmined:0 "$TRIGGER_FAIL$Il n'y a plus rien à dépouiller !"
     already_have_bastion_in_system:0 "$TRIGGER_FAIL$Il y a déjà des opérations d'amirauté dans le système."
@@ -437,7 +437,7 @@
     giga_all_enabled:0 "§GActive§! toutes les mégastructures"
     giga_all_disabled:0 "§RDésactive§! toutes les mégastructures"
     giga_all_r:0 "Régler toutes les capacités en mégastructures : §S1§!+§BRépétables§!"
-    giga_all_u:0 "Régler toutes les capacités en mégastructures : §MIllimté! "
+    giga_all_u:0 "Régler toutes les capacités en mégastructures : §MIllimité! "
     giga_all_3:0 "Régler toutes les capacités en mégastructures : §G3§!"
     giga_all_2:0 "Régler toute la capacité en mégastructures : §Y2§!"
     giga_all_1:0 "Régler toutes les capacités en mégastructures : §H1§!"
@@ -536,7 +536,8 @@
     giga_menu.influence_upkeep:0 "[root.giga_chk_influence_upkeep]"
 
     giga_menu.2.name:0 "Ce sont les paramètres actuellement sélectionnés. Appuyez sur le bouton de confirmation des paramètres si tout semble correct."
-    giga_menu.2.desc:0 "$giga_menu.2.name$\n\n§EOptions de démarrage du Jeu§!\n$giga_menu.fe_planetcrafts$\n$giga_menu.galactic_federation$\n$giga_menu.paluushia$\n$giga_menu.achievements$\n\n§EOptions du Coeur Galactique§!\n$giga_menu.galactic_core$\n\n§EInstallation de compensation 'Event Horizon' EHOF§!\n$giga_menu.ehof$\n$giga_menu.ehof_ai$\n\n§EL'Enceinte§!\n$giga_menu.compound$\n\n§EL'Empire des Chats§!\n$giga_menu.katzen$\n\n§EOptions des Mégastructures§!\n$giga_menu.buildcap$\n$giga_menu.scaling_dyson$\n$giga_menu.scaling_lifter$\n$giga_menu.scaling_matrioshka$\n$giga_menu.influence_upkeep$"
+    giga_menu.2.desc:0 "$giga_menu.2.name$\n\n§EOptions de démarrage du Jeu§![root.giga_setting_fe_planetcrafts]\n[root.giga_setting_fed]\n[root.giga_setting_paluushia]\n[root.giga_setting_achievements]\n\n§EOptions du Coeur Galactique§!\n[root.giga_setting_core]\n\n§EInstallation de compensation 'Event Horizon'§!\n$giga_menu.ehof$\n[root.giga_setting_ehof_ai]\n\n§EThe Compound§!\n[root.giga_setting_compound]\n\n§EL'Empire des Chats§!\n$giga_menu.katzen$\n\n§EOptions des Mégastructures§!\n[root.giga_setting_build_cap]\n[root.giga_setting_scaling_dyson]\n[root.giga_setting_scaling_lifter]\n[root.giga_setting_scaling_brain]\n[root.giga_setting_influence]\n[root.giga_setting_habitats]"
+
     giga_menu.3.desc:0 "§EMégastructures 'Vanilla'§!\n$giga_menu.vanilla_dyson$\n$giga_menu.vanilla_interstellar$\n$giga_menu.vanilla_matter$\n$giga_menu.vanilla_art$\n$giga_menu.vanilla_shipyard$\n$giga_menu.vanilla_ringworld$\n$giga_menu.vanilla_nexus$\n$giga_menu.vanilla_array$\n$giga_menu.vanilla_strategic$\n\n§ERingworld Options§!\n$giga_menu.ringworlds$\n$giga_menu.cityring$\n$giga_menu.hivering$\n$giga_menu.machinering$\n$giga_menu.upgrade$\n\n§EGigastructures§!\n$giga_menu.alderson$\n$giga_menu.terraform_toxic$\n$giga_menu.drill$\n$giga_menu.warmoon$\n$giga_menu.warplanet$\n$giga_menu.birch$\n$giga_menu.crystal$\n$giga_menu.terraform_barren$\n$giga_menu.shipyard$\n$giga_menu.suppressor$\n$giga_menu.geothermal$\n$giga_menu.hraemc$\n$giga_menu.hyperstructural_ass$\n$giga_menu.stellarhabitat$\n$giga_menu.kugel$\n$giga_menu.disco_moon$\n$giga_menu.terraform_gasgiant$\n$giga_menu.megabase$\n$giga_menu.matrioshka_brain$"
 
     giga_menu.4.desc:0 "$giga_menu.gigaforge$\n$giga_menu.ndb$\n$giga_menu.nidavellir$\n$giga_menu.orbital_arcologies$\n$giga_menu.orbital_artificial_eco$\n$giga_menu.academy$\n$giga_menu.elysium$\n$giga_menu.penrose_sphere$\n$giga_menu.planetary_computer$\n$giga_menu.siphon$\n$giga_menu.quasistellar$\n$giga_menu.lifters$\n$giga_menu.accelerator$\n$giga_menu.systemcraft$\n$giga_menu.compressor$\n$giga_menu.succ$\n$giga_menu.orchid$\n$giga_menu.asteroid_manufactory$\n$giga_menu.psychic_beacon$"
@@ -1052,12 +1053,12 @@
     giga_compound_4:0 "§G£menu_enabled£$ehof_the_compound$: Aux côtés de 3 crises 'vanilla'§!"
     giga_compound_s:0 "§G£menu_enabled£$ehof_the_compound$: Aux côtés de 1, 2 ou 3 crises 'vanilla''§!"
 
-    giga_katzen_off:0 "§R£menu_disabled£L'Empire des chats§!"
-    giga_katzen_1:0 "§E£menu_katzen_a£L'Empire des chats (Garanti)§!"
-    giga_katzen_2:0 "§R£menu_katzen_d£L'Empire des chats (Chevauchée sauvage)§!"
-    giga_katzen_3:0 "§Y£menu_katzen_s£L'Empire des chats (Stellarite)§!"
-    giga_katzen_4:0 "§B£menu_katzen_i£L'Empire des chats (Improbable)§!"
-    giga_katzen_0:0 "§G£menu_enabled£L'Empire des chats§!"
+    giga_katzen_off:0 "§R£menu_disabled£L'Empire des Chats§!"
+    giga_katzen_1:0 "§E£menu_katzen_a£L'Empire des Chats (Guaranti)§!"
+    giga_katzen_2:0 "§R£menu_katzen_d£L'Empire des Chats (Chevauchée sauvage)§!"
+    giga_katzen_3:0 "§Y£menu_katzen_s£L'Empire des Chats (Stellarite)§!"
+    giga_katzen_4:0 "§B£menu_katzen_i£L'Empire des Chats (Improbable)§!"
+    giga_katzen_0:0 "§G£menu_enabled£L'Empire des Chats§!"
 
     giga_dyson_scaling_on:0 "§G£menu_enabled£Adaptation de Sphère de Dyson§!"
     giga_dyson_scaling_off:0 "§R£menu_disabled£Adaptation de Sphère de Dyson§!"
@@ -1066,7 +1067,7 @@
     giga_lifter_scaling_off:0 "§R£menu_disabled£Adaptation de de Ascenceur Stellaire§!"
 
     giga_matroishka_scaling_on:0 "§G£menu_enabled£Adaptation de du cerveau Matrioshka§!"
-    giga_matroishka_scaling_off:0 "§R£menu_disabled£Adaptation de du cerveau Matrioshka§!"
+    giga_matroishka_scaling_off:0 "§R£menu_disabled£Adaptation du cerveau Matrioshka§!"
 
     giga_influence_upkeep_on:0 "§G£menu_enabled£Entretien en influence de la mégastructure§!"
     giga_influence_upkeep_off:0 "§R£menu_disabled£Entretien en influence de la mégastructure§!"
@@ -1077,7 +1078,7 @@
     giga_menu_presets_00:0 "Préréglages développeur et Patreon"
 
     giga_menu_presets_random:0 "Aléatoire"
-    giga_menu_presets_01:0 "L'original 5"
+    giga_menu_presets_01:0 "Les 5 d'origine"
     giga_menu_presets_02:0 "Fidèle au nom du mod"
     giga_menu_presets_03:0 "Plus petit est meilleur !"
     giga_menu_presets_04:0 "Gloire aux anneaux"
@@ -1089,7 +1090,8 @@
     giga_menu_presets_09:0 "Contributeur : §LYanzihko§!"
     giga_menu_presets_10:0 "Contributeur : §LCoruptedUsername§!"
     giga_menu_presets_12:0 "Contributeur : §LNicolas§!"
-
+    giga_menu_presets_13:0 "Contributeur : §LDarkyPwnz§!"
+    
     giga_menu_presets_patreon_01:0 "Patreon : §MASpec§!"
     giga_menu_presets_patreon_02:0 "Patreon : §MArnieKuma§!"
     giga_menu_presets_patreon_03:0 "Patreon : §MGray Ashura§!"
@@ -1273,7 +1275,6 @@
     annihilator_dialog.006.tooltip:0 "L'$ehof_the_stellar_annihilator$ a quitté l'étoile §H[annihilator_spawn_here.GetName]§! et lance son $ehof_shroud_ftl$ pour se rendre sur §H[root.Capital.GetName]§!"
 
     ################################
-
 
     INVESTIGATE_ENIGMATIC_PATTERN:0 "$ehof_ep$"
     INVESTIGATE_ENIGMATIC_PATTERN_DESC:0 "Pas un seul de l'équipage du §H[ehof_code_fleet.GetName]§! se souvient de la période de 12 heures qui vient de s'écouler, et du $ehof_eps$, mais heureusement, il a été possible d'enregistrer le $ehof_eps$ grâce à toute notre instrumentation.\n\nLes rapports du vaisseau doivent être examinés plus en détail, pour essayer de donner un sens à ce qui vient de se passer.\n\nMême si personne n'a la moindre idée d'où provient le flahs d'énergie qui a frappé le §H[ehof_code_fleet.GetName]§!, cela s'est produit dans l'un des systèmes étranges $ehof_cohesive$.\n\nEntre-temps, nos vaisseaux scientifiques ont été invités à surveiller attentivement tout autre flash d'énergie ou $ehof_eps$, tout en étudiant les systèmes $ehof_cohesive$."
