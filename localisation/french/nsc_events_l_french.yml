@@ -40,7 +40,7 @@ expcruiser.04.desc: "Nous avons terminé un projet de mise à niveau du vaisseau
 ### FLAGSHIP EVENT CHAIN ###
 ############################
 
-nsc_flagship_cannot_be_acquired_by_conventional_means.tooltip.fail:0 "§R$TRIGGER_FAIL$ En raison de sa taille et de sa complexité, seule la mégastructure du Chantier Naval Amiral est capable de produire un navire de classe Vaisseau Amiral.§!"
+nsc_flagship_cannot_be_acquired_by_conventional_means.tooltip.fail:0 "§R$TRIGGER_FAIL$ En raison de sa taille et de sa complexité, seule la mégastructure du Chantier Naval Amiral est capable de produire un vaisseau de classe Vaisseau Amiral.§!"
 
 nsc_flagship_shipyard:0 "Chantier Naval Amiral"
 nsc_flagship_shipyard_DESC:0 "Cette station spatiale massive est nécessaire pour construire le vaisseau de guerre le plus grand et le plus meurtrier que la galaxie ait jamais vu."
@@ -70,31 +70,15 @@ nsc_flagship_stern_DESC:0 "Projet de construction du vaisseau Amiral : phase fin
 nsc_flagship_complete:0 "Chantier Naval Amiral"
 nsc_flagship_complete_DESC:0 "Cet immense chantier naval abrite le puissant vaisseau amiral de notre Empire."
 
-edict_nsc_flagship_repair:0 "Re-Construction du Vaisseau Amiral"
-edict_nsc_flagship_repair_desc:0 "REPLACE_ME"
-
-
-edict_nsc_flagship_ruler_captain:0 "Transférer Dirigeant de l'Empire vers / depuis le vaisseau amiral"
-edict_nsc_flagship_ruler_captain_desc:0 "Activez cet édit pour transférer votre Dirigeant de l'Empire sur votre vaisseau amiral.Activez-le à nouveau pour retirer votre Dirigeant de l'Empire du vaisseau amiral."
-edict_nsc_flagship_ruler_captain_tooltip:0 "Transférez votre [Root.GetRulerTitle] vers ou depuis le vaisseau Amiral."
-edict_nsc_flagship_ruler_captain_tooltip_alt:0 "Transférez votre [Root.GetRulerTitle] vers ou depuis le vaisseau Amiral."
-
-leader_trait_flagship:0 "Commandant du vaisseau Amiral"
-leader_trait_flagship_desc:0 "Le leader du vaisseau Amiral est extrêmement compétent et intelligent. Ils offrent des bonus substantiels lorsqu'ils commandent le navire de guerre le plus puissant de notre arsenal.\nUnassign this leader fom a fleet with §Yflagship§! will disable §R$leader_trait_flagship$§! trait."
-
-nsc_leader_trait_former_flagship_captain:0 "Commandant précédant"
-nsc_leader_trait_former_flagship_captain_desc:0 "REPLACE_ME       Player took me off from the flagship I'm sad :( But once I retake my mightiest ship, I will show my full strength!!! Flagship go vrrrrrrr       "
-nsc_leader_trait_former_flagship_captain_tooltip:0 "Assign this leader to a fleet with §Yflagship§! will enable §G$leader_trait_flagship$§! trait again. (This will be checked at the beginning of a month.)"
-
 NSC_FLAGSHIP_REBUILD_PROJECT:0 "Reconstruction du vaisseau Amiral"
 NSC_FLAGSHIP_REBUILD_PROJECT_DESC:0 "Notre glorieux vaisseau amiral, la fierté de notre Empire, a été détruit au combat. Alors qu'il était prohibitif de soutenir plus d'un vaisseau Amiral à la fois, maintenant que notre vaisseau Amiral a été détruit, nous avons de l'espace dans le budget pour en créer un nouveau."
 
 nsc_events.10.name:0 "Chantier Naval Amiral prêt pour la construction"
-nsc_events.10.desc:0 "Nos conceptions pour l'immense chantier naval nécessaire à la construction du vaisseau amiral sont terminées.Nous pouvons commencer la construction de l'installation d'assemblage, mais nos ingénieurs navals doivent finaliser une - et une seule - conception pour le navire tout à fait gargantuesque à construire.Nous ne pourrons construire qu'un seul vaisseau amiral, donc même si nous serons en mesure de moderniser et d'améliorer le navire après sa construction, nous devons en avoir un, une seule conception avant la construction."
-nsc_events.10.a:0 "Un navire pour changer la marée ..."
+nsc_events.10.desc:0 "Nos conceptions pour l'immense chantier naval nécessaire à la construction du vaisseau amiral sont terminées.Nous pouvons commencer la construction de l'installation d'assemblage, mais nos ingénieurs navals doivent finaliser une - et une seule - conception pour le vaisseau tout à fait gargantuesque à construire.Nous ne pourrons construire qu'un seul vaisseau amiral, donc même si nous serons en mesure de moderniser et d'améliorer le vaisseau après sa construction, nous devons en avoir un, une seule conception avant la construction."
+nsc_events.10.a:0 "Un vaisseau pour changer la marée ..."
 
 nsc_events.11.name:0 "Finalisation de la conception du vaisseau Amiral"
-nsc_events.11.desc:0 "La construction de notre vaisseau amiral a commencé, mais maintenant que le squelette du navire est en cours, il est essentiel de finaliser la conception de notre vaisseau amiral avant que la construction n'aille trop loin pour effectuer facilement des changements."
+nsc_events.11.desc:0 "La construction de notre vaisseau amiral a commencé, mais maintenant que le squelette du vaisseau est en cours, il est essentiel de finaliser la conception de notre vaisseau amiral avant que la construction n'aille trop loin pour effectuer facilement des changements."
 nsc_events.11.a:0 "Compris, nous finaliserons la conception immédiatement."
 
 nsc_events.12.name:0 "Secret plus"
@@ -102,28 +86,24 @@ nsc_events.12.desc:0 "La construction de notre puissant vaisseau amiral bénéfi
 nsc_events.12.a:0 "Décevant, mais pas inattendu."
 
 nsc_events.13.name:0 "La puissance ultime de l'univers"
-nsc_events.13.desc:0 "Après des années de travail, la consommation de grandes quantités de ressources, la construction d'un incroyable chantier naval et la dépense d'un capital politique considérable, le vaisseau Amiral est enfin complet et pleinement opérationnel.C'est le navire de guerre ultime, capable d'anéantir les flottes ennemies et de renverser le cours de guerres entières.\n\nLe dévoilement de ce nouveau navire de guerre massif a été un choc pour les citoyens de notre propre empire, ainsi que pour les masses dexenos étrangers, mais, comme l'ont indiqué de précédents rapports des services de renseignement, leurs gouvernements n'ont pas été pris au dépourvu et se sont préparés à contrer notre puissante nouvelle arme.Les rapports de renseignement indiquent que plusieurs empires sont sur la bonne voie pour lancer leurs propres vaisseaux amiraux en production."
+nsc_events.13.desc:0 "Après des années de travail, la consommation de grandes quantités de ressources, la construction d'un incroyable chantier naval et la dépense d'un capital politique considérable, le vaisseau Amiral est enfin complet et pleinement opérationnel.C'est le vaisseau de guerre ultime, capable d'anéantir les flottes ennemies et de renverser le cours de guerres entières.\n\nLe dévoilement de ce nouveau vaisseau de guerre massif a été un choc pour les citoyens de notre propre empire, ainsi que pour les masses dexenos étrangers, mais, comme l'ont indiqué de précédents rapports des services de renseignement, leurs gouvernements n'ont pas été pris au dépourvu et se sont préparés à contrer notre puissante nouvelle arme.Les rapports de renseignement indiquent que plusieurs empires sont sur la bonne voie pour lancer leurs propres vaisseaux amiraux en production."
 nsc_events.13.a:0 "Excellent, nous lancerons dans les 30 jours."
 
 nsc_events.14.name:0 "Flagship en cours"
-nsc_events.14.desc:0 "Nous venons de terminer la cérémonie de lancement de notre nouveau vaisseau amiral.Des milliards de personnes de partout dans l'Empire ont regardé avec admiration le vaisseau massif glisser hors de sa couchette fermée, sa coque brillant dans la lumière du soleil de notre maison.Une nouvelle ère a commencé.Le vaisseau amiral est conçu pour être capable d'opérations indépendantes, mais fonctionnera mieux dans le cadre d'une flotte.Le navire est maintenant en attente et attend l'affectation d'un nouvel amiral."
+nsc_events.14.desc:0 "Nous venons de terminer la cérémonie de lancement de notre nouveau vaisseau amiral.Des milliards de personnes de partout dans l'Empire ont regardé avec admiration le vaisseau massif glisser hors de sa couchette fermée, sa coque brillant dans la lumière du soleil de notre maison.Une nouvelle ère a commencé.Le vaisseau amiral est conçu pour être capable d'opérations indépendantes, mais fonctionnera mieux dans le cadre d'une flotte.Le vaisseau est maintenant en attente et attend l'affectation d'un nouvel amiral."
 nsc_events.14.a:0 "Excellent."
 
-#nsc_events.14.name:0 "Flagship en cours"
-#nsc_events.14.desc:0 "Nous venons de terminer la cérémonie de lancement de notre nouveau vaisseau amiral. Des milliards de personnes de tout l'Empire ont regardé avec admiration le vaisseau massif glisser hors de sa couchette fermée, sa coque brillant dans la lumière du soleil de notre maison. Une nouvelle ère a commencé. Le vaisseau amiral est conçu pour être capable d'opérations indépendantes, mais fonctionnera mieux dans le cadre d'une flotte. Le navire est maintenant en attente et attend # l'affectation d'un nouvel amiral.\n\nCependant, il existe une option alternative à l'attribution d'un simple amiral.\n\nPendant le processus de conception et de construction du vaisseau amiral, il a été décidé d'ajouter un ensemble spécial de chambres # au coeur du navire, avec suffisamment de puissance de calcul et d'équipement de communication pour faire fonctionner à distance toute la nation, si nécessaire - un moyen de maintenir la cohésion du gouvernement, même dans le cas où notre capitale # la planète tombe pour attaquer. En conséquence, il est en fait possible pour notre [Root.GetRulerTitle] de diriger l'Empire depuis le vaisseau amiral et de commander notre plus grande arme de l'intérieur. Cela incitera sûrement tous les navires de la flotte du vaisseau amiral à se battre plus fort, et assurera aux gens que le [Root.GetRulerTitle] est dédié à leur défense et leur permettra de mieux administrer la marine. Cependant, transférer le # [Root.GetRulerTitle] sur le vaisseau amiral risque de le perdre au combat si le vaisseau amiral est détruit et qu'il ne peut pas se rendre dans une capsule de sauvetage.\n\nTransfert officiel du [Root.GetRulerTitle] vers et #from vaisseau Amiralnécessitera un édit."
-#nsc_events.14.a:0 "Excellent."
-
 nsc_events.15.name:0 "Niveler le terrain de jeu"
-nsc_events.15.desc:0 "Nos agents rapportent maintenant que plusieurs puissances étrangères ont lancé leurs propres navires amiraux pleinement opérationnels pour tenter de suivre le rythme de la course aux armements navals.La galaxie abrite maintenant plusieurs de ces navires de guerre gargantuesques, chacun transportant suffisamment de puissance de feu pour écraser une flotte entière.Alors que les frais de construction et d'entretien de ces navires empêcheront toute nation de construire plus d'un vaisseau amiral, leur puissance incroyable façonnera sûrement tout conflit armé futur auquel ils participeront."
+nsc_events.15.desc:0 "Nos agents rapportent maintenant que plusieurs puissances étrangères ont lancé leurs propres vaisseaux amiraux pleinement opérationnels pour tenter de suivre le rythme de la course aux armements navals.La galaxie abrite maintenant plusieurs de ces vaisseaux de guerre gargantuesques, chacun transportant suffisamment de puissance de feu pour écraser une flotte entière.Alors que les frais de construction et d'entretien de ces vaisseaux empêcheront toute nation de construire plus d'un vaisseau amiral, leur puissance incroyable façonnera sûrement tout conflit armé futur auquel ils participeront."
 nsc_events.15.a:0 "Compris."
 
 nsc_events.16.name:0 "Un désastre épique"
-nsc_events.16.desc:0 "Notre vaisseau amiral, la fierté de notre marine, le symbole glorieux de la puissance de notre empire, a été détruit !\n\nLe choc d'une telle calamité grossière ne peut être sous-estimé.Le public a beaucoup confiance en la capacité de notre vaisseau amiral à nous défendre, et notre propagande a largement mis en avant notre vaisseau amiral pour garder nos citoyens inspirés.Dans les jours, les semaines et les années à venir, nombreux sont ceux qui remettront sûrement en question les décisions de commandement qui mèneront à la destruction du navire de guerre le plus puissant que notre empire ait jamais produit.\n\nMaintenant que nous n'avons plus à dépenser l'importantles ressources nécessaires pour maintenir le vaisseau amiral, il sera possible d'en construire un nouveau, même si cela nécessitera le même type de projet spécial approfondi qu'auparavant - et nous devons veiller à ne pas perdre notre prochain vaisseau amiral.Un examen de nos stratégies navales s'impose certainement."
+nsc_events.16.desc:0 "Notre vaisseau amiral, la fierté de notre marine, le symbole glorieux de la puissance de notre empire, a été détruit !\n\nLe choc d'une telle calamité grossière ne peut être sous-estimé.Le public a beaucoup confiance en la capacité de notre vaisseau amiral à nous défendre, et notre propagande a largement mis en avant notre vaisseau amiral pour garder nos citoyens inspirés.Dans les jours, les semaines et les années à venir, nombreux sont ceux qui remettront sûrement en question les décisions de commandement qui mèneront à la destruction du vaisseau de guerre le plus puissant que notre empire ait jamais produit.\n\nMaintenant que nous n'avons plus à dépenser l'importantles ressources nécessaires pour maintenir le vaisseau amiral, il sera possible d'en construire un nouveau, même si cela nécessitera le même type de projet spécial approfondi qu'auparavant - et nous devons veiller à ne pas perdre notre prochain vaisseau amiral.Un examen de nos stratégies navales s'impose certainement."
 nsc_events.16.a:0 "Compris, nous allons bientôt commencer le projet."
 nsc_events.16.a.tooltip:0 "§Y$edict_nsc_flagship_repair$§! est à présent disponible."
 
 nsc_events.17.name:0 "Nouveau vaisseau Amiral terminé"
-nsc_events.17.desc:0 "Notre nouveau vaisseau Amiral est enfin terminé et prêt à être lancé.Espérons que celui-ci ne subira pas le même sort sombre que le dernier - ces navires ne sont pas bon marché ni rapides à remplacer, après tout, et les perdre est un coup dur pour notre moral et notre puissance militaire.Le vaisseau amiral est l'arme la plus puissante de notre arsenal - il doit être manipulé avec précaution.\n\nNous devons essayer de ne pas laisser tomber notre peuple."
+nsc_events.17.desc:0 "Notre nouveau vaisseau Amiral est enfin terminé et prêt à être lancé.Espérons que celui-ci ne subira pas le même sort sombre que le dernier - ces vaisseaux ne sont pas bon marché ni rapides à remplacer, après tout, et les perdre est un coup dur pour notre moral et notre puissance militaire.Le vaisseau amiral est l'arme la plus puissante de notre arsenal - il doit être manipulé avec précaution.\n\nNous devons essayer de ne pas laisser tomber notre peuple."
 nsc_events.17.a:0 "Nous n'échouerons pas à nouveau."
 
 nsc_flagship_admiral_selection_tooltip.1:0 "Coût : £energy£200"
@@ -137,16 +117,15 @@ nsc_flagship_admiral_selection_tooltip.8:0 "Coût : £energy£1600"
 nsc_flagship_admiral_selection_tooltip.9:0 "Coût : £energy£1800"
 nsc_flagship_admiral_selection_tooltip.10:0 "Coût : £energy£2000"
  
-nsc_events.31.name:0 "Détruit... le Vaisseau Amiral?!"
-nsc_events.31.desc:0 "REPLACE_ME"
-nsc_events.31.a:0 "Par tous les diables !? Re-construisons-le!"
-nsc_events.31.b:0 "Nooooo, Nous n'avons pas les ressources..."
-
+nsc_events.31.name:0 "Désarmement volontaire"
+nsc_events.31.desc:0 "L'existence de super-armes puissantes telles que le Vaisseau amiral a de puissants effets d'entraînement. Les coûts d'entretien de ces incroyables vaisseaux de guerre sont importants et leur simple existence symbolise la disposition martiale d'une nation - et peut augmenter les tensions internationales et accélérer la course aux armements navals.\n\nQue ce soit pour des raisons économiques ou politiques, vous, notre honoré [Root.GetRulerTitle], avez décidé de démanteler votre vaisseau amiral, même si le chantier naval reste opérationnel. Il est possible d'investir des ressources importantes pour commencer immédiatement la construction d'un nouveau vaisseau amiral, bien qu'il soit difficile de garder secret un projet aussi massif - plus facile cette fois du moins, puisque les énormes chantiers navals eux-mêmes existent déjà - et la justification du démantèlement, puis de la reconstruction d'un projet aussi massif est au mieux douteuse. Dans tous les cas, cela nécessitera un projet spécial.\n\nD'un autre côté, s'il est plus prudent d'attendre et de garder nos options ouvertes pour une date ultérieure, il y a maintenant un décret de reconstruction du Vaisseau Amiral disponible, pour le moment où il devient nécessaire ou souhaitable de construire un autre vaisseau amiral. "
+nsc_events.31.a:0 "Nous sommes prêts à commencer immédiatement la construction d'un nouveau Vaisseau Amiral. "
+nsc_events.31.b:0 "Pas pour le moment - nous reconstruirons le Vaisseau Amiral quand cela sera nécessaire. "
 
 ##################################################################################################################################################################################################################
 ### FLAGSHIP DUEL EVENT ###
 ###########################
 
 nsc_events.30.name:0 "Une bataille légendaire"
-nsc_events.30.desc:0 "Depuis le lancement du projet du vaisseau Amiral, avant même que le chantier naval colossal pour construire le navire ne soit construit, de nombreux théoriciens navals ont émis l'hypothèse que, comme les développements précédents ont conduit à une concentration sur les affrontements de navires capitaux, la nouvelle phase de la course aux armements navals pourraitjour mènent à la réunion des vaisseaux amiraux ennemis sur le champ de bataille.Certains ont même avancé que la seule façon possible de contrer un vaisseau amiral serait avec un autre vaisseau amiral, rendant de tels affrontements inévitables.\n\nCe jour est enfin arrivé.Notre vaisseau amiral est sur le point d'affronter un vaisseau amiral ennemi, et les cieux gronderont de leur puissance.Les deux nations ont investi d'énormes ressources dans le développement de leurs vaisseaux amiraux et ont conçu leurs doctrines au moins partiellement autour des puissants vaisseaux.Maintenant, toute la galaxie verra les résultats - avec l'équilibre de la puissance galactique et l'avenir du combat naval et de la pensée, en jeu."
+nsc_events.30.desc:0 "Depuis le lancement du projet du Vaisseau Amiral, avant même que le chantier naval colossal pour construire le vaisseau ne soit terminé, de nombreux théoriciens navals ont émis l'hypothèse que, comme les développements précédents ont conduit à une concentration sur les affrontements de vaisseaux capitaux, la nouvelle phase de la course aux armements navals pourrait un jour mener à la rencontre des vaisseaux amiraux ennemis sur le champ de bataille. Certains ont même avancé que la seule façon possible de contrer un vaisseau amiral serait avec un autre vaisseau amiral, rendant de tels affrontements inévitables.\n\nCe jour est enfin arrivé.Notre vaisseau amiral est sur le point d'affronter un vaisseau amiral ennemi, et les cieux gronderont de leur puissance. Les deux nations ont investi d'énormes ressources dans le développement de leurs vaisseaux amiraux et ont conçu leurs doctrines au moins partiellement autour des puissants vaisseaux. Maintenant, toute la galaxie verra les résultats - avec l'équilibre de la puissance galactique et l'avenir du combat naval et de la pensée, en jeu."
 nsc_events.30.a:0 "En avant vers la gloire !"
