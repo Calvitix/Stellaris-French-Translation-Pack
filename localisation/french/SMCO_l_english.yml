@@ -1,0 +1,223 @@
+﻿l_english:
+ ######
+ # Stars (pc)
+ ######
+ pc_SMCO_void_star:0 "Empty Space"
+ pc_SMCO_void_star_desc:0 "Space is, for lack of a better explanation, rather empty."
+
+ pc_SMCO_sub_brown_dwarf_star:0 "Sub-Brown Dwarf"
+ pc_SMCO_sub_brown_dwarf_star_desc:0 "Sub-brown dwarfs are celestial objects between brown dwarfs and gas giants in mass. While they form from the gravitational collapse of gas clouds, like other stars, their mass is below the limit necessary to have fusion reactions that would otherwise occur in stars. There has been much debate on whether such an object should be classified as a planet or as a star."
+
+ pc_SMCO_bok_globule:0 "Bok Globules"
+ pc_SMCO_bok_globule_desc:0 "Bok globules are dense nebulae whose inner regions could potentially form stars. Due to their densities, they can shield forming stars from stellar winds stripping them away, but also block the transmission of light through them."
+
+ pc_SMCO_protostar:0 "Protostar"
+ pc_SMCO_protostar_desc:0 "Formed from the gravitational collapse of gases, protostars are the first step in stellar evolution, where they continue to collect gases and grow until the gases are depleted."
+
+ ######
+ # Planets
+ ######
+ pc_SMCO_small_rogue_planet:0 "Rogue Planet"
+ pc_SMCO_small_rogue_planet_desc:0 "Rogue planets are planets that currently are not orbiting any star, instead orbiting the galactic centre. These planets likely have formed in a star's accretion disk, but was later ejected out of their home systems due to collisions or gravitational interactions from planetary objects passing near the system. Depending on the conditions, a rogue planet may be able to harbour life."
+
+ pc_SMCO_sub_brown_dwarf_planet:0 "$pc_SMCO_sub_brown_dwarf_star$"
+ pc_SMCO_sub_brown_dwarf_planet_desc:0 "$pc_SMCO_sub_brown_dwarf_star_desc$"
+
+ ######
+ # Star classes
+ ######
+ sc_SMCO_void:0 "$pc_SMCO_void_star$"
+ sc_SMCO_void_desc:0 "$pc_SMCO_void_star_desc$"
+ sc_SMCO_rogue_event:0 "$pc_SMCO_sub_brown_dwarf_planet$"
+ sc_SMCO_rogue_event_desc:0 "$pc_SMCO_sub_brown_dwarf_planet_desc$"
+ sc_SMCO_bok_globule:0 "$pc_SMCO_bok_globule$"
+ sc_SMCO_bok_globule_desc:0 "$pc_SMCO_bok_globule_desc$"
+
+ ######
+ # Rogue planets
+ ######
+ SMCO_rogue_planet.2.title:0 "A Weak Signal"
+ SMCO_rogue_planet.2.desc:0 "Upon arriving at [From.Solar_System.GetName], Science Officer [From.Root.GetLeaderName] reported that the ship's sensors picked up very weak signals of an almost non-existent hyperlane, and attempts to utilise it have failed. [From.Root.Leader.GetSheHeCap] has made notes of this phenomenon and shared it among the scientific community."
+ SMCO_rogue_planet.2.ok:0 "We will keep that in mind."
+ SMCO_rogue_planet.4.title:0 "Weak Hyperlane Opened"
+ SMCO_rogue_planet.4.desc:0 "Upon arriving at [From.Solar_System.GetName], Science Officer [From.Root.GetLeaderName] reported that the ship's sensors picked up very weak signals of an almost non-existent hyperlane. With the ship's experimental equipment, [From.Root.Leader.GetSheHe] managed to open it up for the ship's use."
+ SMCO_rogue_planet.4.a:0 "Excellent."
+ SMCO_rogue_planet.4.b:0 "Acknowledged."
+ SMCO_rogue_planet.5.desc:0 "On arriving at [From.Solar_System.GetName], Science Officer [From.Root.GetLeaderName] detected a weak hyperlane emanating towards some place in the galaxy, and managed to open it up with the science ship's experimental equipment to use it."
+ SMCO_rogue_planet.9.title:0 "Fleet Lost"
+ SMCO_rogue_planet.9.desc.a:0 "One of our fleets attempting to travel to [FromFrom.GetName] is now permanently lost to us, as it lacked the equipment necessary to safely utilize the weak hyperlane for travel."
+ SMCO_rogue_planet.9.a:0 "Issue associated warnings to the other fleets."
+ SMCO_rogue_planet.9.desc.b:0 "Despite prior warnings given, another one of our fleets has been permanently lost trying to travel to [FromFrom.GetName]."
+ SMCO_rogue_planet.9.b:0 "We will need to think of something to avoid more unnecessary losses."
+
+ SMCO_rogue_planet.10.title:0 "SMCO Weak Hyperlane Opened Notification"
+ SMCO_rogue_planet.10.desc:0 "Since this mod does notify you each time your science ship has opened up a weak hyperlane, this may be annoying for some. Here, you can make a decision to permanently disable or enable such notifications."
+ SMCO_rogue_planet.10.disable:0 "Disable notifications"
+ SMCO_rogue_planet.10.enable:0 "Enable notifications"
+ SMCO_rogue_planet.10.confirm:0 "Confirm"
+
+ smco_rogue_planet_name:0 "[Prev.Solar_System.GetName] [This.GetRoguePlanetFirstLetter][This.GetRoguePlanetSecondLetter][This.GetRoguePlanetThirdLetter] [This.GetRoguePlanetFirstNumber][This.GetRoguePlanetSecondNumber]"
+
+ ######
+ # Rogue planet anomalies
+ ######
+ SMCO_rogue_life_anomaly:0 "Signs Of Activity"
+ SMCO_rogue_life_anomaly_desc:0 "Our scientists surveying this planet observed something peculiar. There appears to be something moving with purpose on the planet."
+ SMCO_anomaly.1.name:0 "Signs Of Life"
+ SMCO_anomaly.1.desc.a:0 "On the planet's surface, small colonies of slug-like invertebrates were discovered. They often congregate around pools of watery sludge, and feed on the scant nutrients available on the edges of the pools. While some researchers expressed concerns about them being sapient, the high atmospheric pressure of the planet would in all likelihood confine them to this planet."
+ SMCO_anomaly.1.desc.b:0 "On the planet's surface, small colonies of slug-like invertebrates were discovered. They often congregate around pools of watery sludge, and feed on the scant nutrients available on the edges of the pools. Various researchers are estatic about the discovery of life on a rogue planet, but because the atmospheric pressure on this planet is so high, it is unlikely that they would be able to leave their planet even if they become sapient."
+ SMCO_anomaly.1.xenophobe.response:0 "Good. That means there is no need to care about them."
+ SMCO_anomaly.1.custom_tooltip:0 "([From.Planet.GetName]):\n\n   Add £society£ Deposit to §Y[From.Planet.GetName]§!"
+
+ SMCO_large_moon_anomaly:0 "Unusally Warm"
+ SMCO_large_moon_anomaly_desc:0 "Readings on this planet detect unusual warmth for a typical rogue planet."
+ SMCO_anomaly.2.name:0 "Tidal Forces"
+ SMCO_anomaly.2.desc.a:0 "It is unlikely for a rogue planet to have a moon. But this rogue planet managed to have one, and as it turns out, is large enough to induce tidal forces, warming the planet by a bit."
+ SMCO_anomaly.2.desc.b:0 "It is rare for a sub-brown dwarf to have a moon. But this sub-brown dwarf managed to have one, and as it turns out, is large enough to induce tidal forces, warming the dwarf by a bit."
+ SMCO_anomaly.2.custom_tooltip:0 "([From.Planet.GetName]):\n   Add £physics£ Deposit to §Y[From.Planet.GetName]§!"
+
+ SMCO_iron_rain_anomaly:0 "Atypical Composition"
+ SMCO_iron_rain_anomaly_desc:0 "Scanners indicate an anomalously different composition of this planet, deviating from what we expect such a planet would have."
+ SMCO_anomaly.3.name:0 "Iron Rain"
+ SMCO_anomaly.3.desc:0 "Upon a second scan, it turns out the sub-brown dwarf not only has a high content of iron in its upper atmosphere, but also has a water cycle with iron raining back down to the inner layers, then evaporating back up to the upper layers to condense again. Extracting the iron could be lucrative."
+ SMCO_anomaly.3.custom_tooltip:0 "([From.Planet.GetName]):\n   Add £minerals£ Deposit to §Y[From.Planet.GetName]§!"
+ SMCO_anomaly.9.name:0 "Rare Gas Formation"
+ SMCO_anomaly.9.desc:0 "Upon a second scan, it turns out the sub-brown dwarf has a gas composition such that, with its temperature, allows its components to react with each other to form very desired gases."
+ SMCO_anomaly.9.custom_tooltip:0 "([From.Planet.GetName]):\n   Add £exotic_gases£ Deposit to §Y[From.Planet.GetName]§!"
+
+ SMCO_crashed_station_anomaly_barren:0 "Metal Objects On The Surface"
+ SMCO_crashed_station_anomaly_ice:0 "$SMCO_crashed_station_anomaly_barren$"
+ SMCO_crashed_station_anomaly_desc:0 "Our scanners picked up something metallic on the surface of this planet, possibly alien in origin. A second look is prudent."
+ SMCO_anomaly.4.name:0 "Crashed Station"
+ SMCO_anomaly.4.desc:0 "A space station, likely built by an ancient civilization, appears to have crashed onto the surface when the last of its power was depleted, and was slowly dragged down by the planet's gravity well. We could go down to study the remains."
+ SMCO_anomaly.4.xenophobe.response:0 "Ignore it. Their construction methods are likely subpar compared to ours, and we would not learn anything from studying their wreckage."
+ SMCO_anomaly.4.response:0 "Proceed with the investigation."
+ SMCO_CRASHED_STATION_PROJECT:0 "Crashed Station"
+ SMCO_CRASHED_STATION_PROJECT_DESC:0 "Investigate the crashed station on the rogue planet [From.Planet.GetName]."
+ SMCO_anomaly.5.name:0 "Advanced Construction"
+ SMCO_anomaly.5.desc:0 "Investigating the crashed station has yielded new insights. The civilization that built this station appears to place both durability and visual beauty in high regard, as they managed to not only create materials that are still pristine despite being exposed to space and the elements for a long time, but also seamlessly make the structural supports be part of what Science Officer [Root.GetLeaderName] plainly called as 'space station art'. \n\nFrom data logs extracted from the consoles, we also learned that this station served as a small art gallery for other civilizations. Perhaps this location was chosen so that visitors are not distracted by the everyday bustle of their planets."
+ SMCO_anomaly.5.custom_tooltip:0 "([FromFrom.Planet.GetName]):\n   Add £engineering£ Deposit to §Y[FromFrom.Planet.GetName]§!\n   Add £society£ Deposit to §Y[FromFrom.Planet.GetName]§!"
+
+ SMCO_hydrothermal_vent_anomaly:0 "Pockmarked Ice"
+ SMCO_hydrothermal_vent_anomaly_desc:0 "This rogue planet exhibits small pockmarks dotted along its icy surface, with the area surrounding each pockmark having more complex molecules compared to the bulk ice."
+ SMCO_anomaly.6.name:0 "Hydrothermal Vents"
+ SMCO_anomaly.6.desc:0 "Science Officer [Root.GetLeaderName] discovered that these pockmarks were made from hydrothermal vents deep beneath the oceans of the planet, where the superheated water is emitted from the vents and eventually rises to the icy surface, forming icy plumes."
+ SMCO_anomaly.6.custom_tooltip:0 "([From.Planet.GetName]):\n   Add £physics£ Deposit to §Y[From.Planet.GetName]§!"
+ SMCO_anomaly.7.name:0 "$SMCO_anomaly.6.name$"
+ SMCO_anomaly.7.desc:0 "$SMCO_anomaly.6.desc$ Additionally, the chemical composition of the plume appears to contain valuable materials which we can extract."
+ SMCO_anomaly.7.custom_tooltip:0 "([From.Planet.GetName]):\n   Add £volatile_motes£ Deposit to §Y[From.Planet.GetName]§!"
+ 
+ SMCO_asteroid_collision_barren:0 "Unusual Crystal Formations"
+ SMCO_asteroid_collision_ice:0 "$SMCO_asteroid_collision_barren$"
+ SMCO_asteroid_collision_anomaly_desc:0 "The science ship has picked up formations not typically found in bulk on the surface of most rocky planets."
+ SMCO_anomaly.8.name:0 "Asteroid Collisions"
+ SMCO_anomaly.8.desc:0 "Scans indicate that this rogue planet was possibly formed in a system where asteroid impacts are common, until one day, a very large asteroid knocked the planet off its orbit and away from its home system. The frequent impacts appeared to have caused the formation of unusual and rather sought-after crystals, ripe for mining."
+ SMCO_anomaly.8.custom_tooltip:0 "([From.Planet.GetName]):\n   Add £rare_crystals£ Deposit to §Y[From.Planet.GetName]§!"
+
+ ######
+ # Rogue planet special event chain
+ ######
+ SMCO_rogue_event_end:0 "Investigated the curiosity"
+ SMCO_rogue_event_chain_title:0 "A Curiousity..."
+ SMCO_rogue_event_chain_desc:0 "Investigate the existence of an unlikely rogue planet phenomenon."
+
+ SMCO_rogue_event.1.title:0 "A Curiousity..."
+ SMCO_rogue_event.1.desc:0 "As our scientists enter this pocket of empty space, they report a rather interesting finding. While rogue planets are typically alone, or in rare cases having a moon, their initial scans show what appears to be four rogue planets orbiting a sub-brown dwarf, with rather stable orbits."
+ SMCO_rogue_event.1.a:0 "We should investigate such an interesting phenomenon."
+
+ SMCO_rogue_event.3.title:0 "Analysis of the strange rogue planets"
+ SMCO_rogue_event.3.desc:0 "Analysis of the data gathered from surveying the strange rogue planets revealed that they did not form from the same nebulae, with each planet sporting a significantly different composition. It is suggested that another look at this phenomenon is needed to determine how it came to be, starting with the sub-brown dwarf."
+ SMCO_rogue_event_star:0 "Strange Rogue Planet System"
+ SMCO_rogue_event_star_desc:0 ""
+ SMCO_rogue_event.3.a:0 "Take another look."
+ SMCO_ROGUE_EVENT_PROJECT:0 "A Curiosity..."
+ SMCO_ROGUE_EVENT_PROJECT_DESC:0 "Investigate the existence of an unlikely rogue planet phenomenon."
+
+ SMCO_rogue_event.4.title:0 "Alien Probe Found"
+ SMCO_rogue_event.4.desc:0 "While scanning the area around the sub-brown dwarf a second time, our science ship managed to detect a probe slowly orbiting around it, somewhat degraded from its likely long time in space. However, its memory banks are relatively intact, and contains a sequence of messages."
+ SMCO_rogue_event.4.a:0 "Put the messages on screen."
+
+ SMCO_rogue_event.5.title:0 "Messages"
+ SMCO_rogue_event.5.desc:0 "§YDecoding data messages...\nEstablishing translation matrix...\n\n\n...Recordings translated!§!"
+ SMCO_rogue_event.5.a.name:0 "Access Message I"
+ SMCO_rogue_event.5.a:0 "By the time you are hearing this, I would be gone, with this probe and these planets as my hopefully long-lasting legacy."
+ SMCO_rogue_event.5.b.name:0 "Access Message II"
+ SMCO_rogue_event.5.b:0 "I was once an astronomer from an empire that probably now does not exist, tasked with exploring the stars in this galaxy. I have observed and analyzed countless stars and planets, appreciating each of them, but one that captured my attention the most were rogue planets. Seeing them drift across space, most of them without a companion to keep each other company, elicted a progressive sense of lonliness in me as I observed more and more of them, and in time, that sense of lonliness coalesced into a desire. \n\nA desire to give them the companionship that they once had."
+ SMCO_rogue_event.5.c.name:0 "Access Message III"
+ SMCO_rogue_event.5.c:0 "And so, I made my plans. I continued to map out the galaxy, making personal notes on the locations of rogue planets. After a while, I decided that I should first a few of these rogue planets orbit around their kin, as a test before moving on to make them orbit around stars that already have orbiting planets, so as to refine my methods discreetly. And in a way... I don't want my pursuits to potentially rob a planet enjoying the warmth of a nearby star of its company. It feels... selfish. \n\nThen, I waited until the empire can produce ships large and powerful enough to move planets, and managed to obtain one for myself. I picked out a large rogue planet to act as the 'star', and traveled to nearby rogue planets to move them towards it."
+ SMCO_rogue_event.5.d.name:0 "Access Message IV"
+ SMCO_rogue_event.5.d:0 "It was an arduous process, having to first slowly move the planets so as to not disturb whatever may be on it. Then, after I moved one of them to be near the designated 'star', I carefully adjusted and fine-tuned the planet's orbit so that it would not be unstable and either collide or move away from the 'star'. Yet, despite all the difficulties, I enjoyed it, especially when I got the first rogue planet to successfully orbit the 'star'. Seeing the both of them accompanying each other, after what could be millenia of floating in the galaxy alone, warmed my heart."
+ SMCO_rogue_event.5.e.name:0 "Access Message V"
+ SMCO_rogue_event.5.e:0 "I continued on with my desire, always imagining the joy and glee when the rogue planets finally get to meet up with another body, along with the stories and experiences the rogue planets would tell once they get close. But as I went to start moving the fourth rouge planet, old age has finally caught up with me, and I felt more and more lethargic every day. By the time I got the fourth rogue planet to be in a stable orbit, I knew my remaining time was short, so I recorded this message and set my ship on a course into the 'star', so I will always be accompanying them as they had with me. The thought of that is oddly soothing."
+ SMCO_rogue_event.5.f.name:0 "Access Message VI"
+ SMCO_rogue_event.5.f:0 "But of course, it would be remiss to not share some of my knowledge with you after hearing my story. In this probe contains data for finer gravity manipulation, which could be useful for various projects. I do not know how it would be ultimately used, but I do hope that the galaxy would be a slightly better place because of it."
+ SMCO_rogue_event.6.name:0 "Copy everything and close the recordings."
+
+ ######
+ # Tech
+ ######
+ tech_SMCO_faint_hyperlane_stabilization:0 "Weak Hyperlane Stabilisation"
+ tech_SMCO_faint_hyperlane_stabilization_desc:0 "After initial field successes in testing concepts of opening up weak hyperlanes to travel safely to rogue planets, we can introduce the results of our tests to all of our ships."
+ SMCO_faint_hyperlane_stabilization:0 "Weak Hyperlane Stabilisation: All ships can now safely travel to pockets of §YEmpty Space§!"
+ SMCO_faint_hyperlane_stabilization_desc:0 "All ships can now safely travel to pockets of §YEmpty Space§!"
+
+ ######
+ # Bok Globules star birth
+ ######
+ SMCO_bok_globule.2.title:0 "Birth Of A Star"
+ SMCO_bok_globule.2.desc:0 "Our starbase in [SMCO_bok_globule_changed.GetName] has captured the birth of a star in the galaxy. Not one in the distant past, but one within our lifetimes. Such an phenomenon witnessed at this distance gave us much desired refinement of knowledge about the formation of stars."
+ SMCO_bok_globule.3.desc:0 "Our starbase in [SMCO_bok_globule_changed.GetName] has captured the birth of a star in the galaxy. Not one in the distant past, but one within our lifetimes. Being witness to such an event reminds us that the universe can be beautiful and kind."
+ SMCO_bok_globule.3.a:0 "Indeed."
+
+ ######
+ # Black Hole buildings
+ ######
+ sm_SMCO_penrose_building:0 "Penrose Facility"
+ sm_SMCO_penrose_building_desc:0 "Via accurate calculations, we can jettison unwanted mass from the space station at certain intervals to supply additional power to the station."
+ SMCO_requires_kerr_black_hole:0 "Requires a §YKerr Black Hole§! or §YKerr-Newman Black Hole§! in the system."
+ sm_SMCO_void_cloud_observatory:0 "Void Cloud Observatory"
+ sm_SMCO_void_cloud_observatory_desc:0 "A specialized observation facility dedicated to studying the feeding habits of Void Clouds."
+ sm_SMCO_void_cloud_temple:0 "Void Cloud Temple"
+ sm_SMCO_void_cloud_temple_desc:0 "Part of this starbase is used as a temple for pilgrims and the more spiritually inclined to meditate on their insignificance in this universe as the Void Clouds come and go."
+ SMCO_requires_charged_black_hole:0 "Requires a §YReissner-Nordström Black Hole§! or §YKerr-Newman Black Hole§! in the system."
+
+ ######
+ # Void Cloud project start
+ ######
+ SMCO_void_cloud.3.title:0 "Void Clouds Return"
+ SMCO_void_cloud.3.desc:0 "Our starbase in [SMCO_void_cloud_return.GetName] reports that a Void Cloud is coming close to the nearby black hole, and appears to be showing hostile intent towards the starbase."
+ SMCO_void_cloud.3.a:0 "Destroy the threat and protect the starbase. We will not lose."
+ SMCO_void_cloud.3.b:0 "Send a fleet to assist the starbase."
+ SMCO_void_cloud.4.title:0 "Encounter in [SMCO_void_cloud_return.GetName]"
+ SMCO_void_cloud.4.desc:0 ""We have encountered some form of alien vessels in the §Y[SMCO_void_cloud_return.GetName]§! System! Given that initial reports describe them as something similar to ball lightning, we have decided to study them to discern what they truly are.\n\nAs always, we should proceed with caution...""
+ SMCO_void_cloud.5.title:0 "A Space Creature Appears"
+ SMCO_void_cloud.5.desc:0 "Our starbase in [SMCO_void_cloud_return.GetName] reports that a mysterious space creature is travelling towards the black hole, but also appears to be showing hostile intent towards the starbase."
+ SMCO_void_cloud.7.title:0 "Dealing with Void Cloud Feedings"
+ SMCO_void_cloud.7.desc:0 "After we have built a starbase near a charged black hole, we noticed that Void Clouds have came near the black hole, with various skirmishes occurring at times. Studies and analysis done by our head scientists from those encounters suggest that the Void Clouds are attracted to those black holes because they feed on the electric charge present. Now that we understand enough about quantum entanglement principles to apply them, we can find methods to deal with this situation."
+ SMCO_void_cloud.7.hunting.response:0 "Then we shall find more ways to bring them down."
+ SMCO_void_cloud.7.study.response:0 "Hiding ourselves from them would be useful."
+ SMCO_void_cloud.7.nothing.response:0 "We have more important issues right now. Just station defence fleets."
+
+ SMCO_void_cloud.8:0 "Void Cloud Annihilation"
+ SMCO_void_cloud.8.desc:0 "By further studying the structure of Void Clouds, we have managed to tune our arnaments to even better exploit the Void Clouds' charge fluctuations, so that further destabilization of their energies can occur. In addition, our scientists succeeded in applying the mechanism which the Void Clouds charge and fire their lightning to our lasers, making them stronger."
+ SMCO_void_cloud.8.hunting:0 "Excellent."
+
+ SMCO_void_cloud.10:0 "Quantum Communication"
+ SMCO_void_cloud.10.desc:0 "By studying the more exact methods of how Void Clouds communicate with each other and our knowledge in quantum entanglement, we are able to approximate their communications to make ourselves seem like one of them. This should allow our ships and starbases to stay hidden from them, and thus conduct observations at closer distances with minimal risk."
+ SMCO_void_cloud.10.desc.spiritualist:0 "By studying the more exact methods of how Void Clouds communicate with each other and our knowledge in quantum entanglement, we are able to approximate their communications to make ourselves seem like one of them. This should allow our ships and starbases to stay hidden from them."
+ SMCO_void_cloud.10.a:0 "Wonderful."
+ SMCO_void_cloud.10.b:0 "More ways to study them would always be welcome."
+ SMCO_void_cloud.10.spiritualist:0 "A shame we have to resort to such methods to be closer to those that witnessed the dawn of the universe."
+ SMCO_void_cloud.10.tooltip:0 "§Y$SMCO_void_cloud_camo$§! modifier added, giving the following effects:\n§HVoid Clouds§! are rendered §Gnon-hostile§! \nCan build §Y$sm_SMCO_void_cloud_observatory$§!"
+ SMCO_void_cloud.10.spiritualist.tooltip:0 ""§Y$SMCO_void_cloud_camo$§! modifier added, giving the following effects:\n§HVoid Clouds§! are rendered §Gnon-hostile§! \nCan build §Y$sm_SMCO_void_cloud_temple$§!"
+
+
+ ######
+ # Void Cloud special project
+ ######
+ SMCO_INVESTIGATE_SPACE_CLOUDS:0 "Investigate Enigmatic Energy"
+ SMCO_INVESTIGATE_SPACE_CLOUDS_DESC:0 "We need to learn more about the apparently sentient enigmatic energy. If they possess a language, we must decipher it and establish communications.\n\nReward: £influence£ §GInfluence§! or §SSpecial Project§!"
+ SMCO_VOID_CLOUD_DAMAGE_PLUS:0 "Void Cloud Structure Analysis"
+ SMCO_VOID_CLOUD_DAMAGE_PLUS_DESC:0 "More weaknesses could be found in Void Clouds when we dedicate more resources into studying them."
+ SMCO_VOID_CLOUD_CAMO:0 "Void Cloud Camouflage"
+ SMCO_VOID_CLOUD_CAMO_DESC:0 "Void Clouds are dangerous and do not seem capable to be reasoned with, despite having some approximation of a neural system."
