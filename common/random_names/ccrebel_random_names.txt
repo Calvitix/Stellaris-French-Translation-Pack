@@ -271,19 +271,19 @@ war_name_format = {
 war_name_parts_list = {
 	key = "ccrebel_independence_1"
 	parts = {
-		"Liberation" = 1
-		"Liberty" = 1
-		"Freedom" = 1
-		"Independence" = 3
+		"NAME_REBEL_Liberation" = 1
+		"NAME_REBEL_Liberty" = 1
+		"NAME_REBEL_Freedom" = 1
+		"NAME_REBEL_Independence" = 3
 	}
 }
 
 war_name_parts_list = {
 	key = "ccrebel_independence_2"
 	parts = {
-		"Revolt" = 1
-		"Uprising" = 1
-		"Rebellion" = 1
+		"NAME_REBEL_Revolt" = 1
+		"NAME_REBEL_Uprising" = 1
+		"NAME_REBEL_Rebellion" = 1
 	}
 }
 
@@ -304,7 +304,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "War of [This.MainAttacker.GetAdj] <ccrebel_independence_1>"
+	format = "Guerre pour <ccrebel_independence_1> [This.MainAttacker.GetAdj]"
 }
 
 war_name_format = {
@@ -324,7 +324,7 @@ war_name_format = {
 			}
 		}
 	}
-	format = "The [This.MainAttacker.GetAdj] <ccrebel_independence_2>"
+	format = "<ccrebel_independence_2> [This.MainAttacker.GetAdj]"
 }
 
 
