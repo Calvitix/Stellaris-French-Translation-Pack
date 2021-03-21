@@ -175,7 +175,7 @@
     allow_hraemc:0 "§HDéverrouille la mégastructure : §! $name_hraemc$"
     desc_hraemc:0 "Cette incroyable prouesse technologique nous apportera d'énormes quantités d'énergie, ainsi que beaucoup de données sur la nature des corps étranges que sont les trous noirs."
 
-    name_war_moon:0 "Lune d'attaque"
+    name_war_moon:0 "Lune de combat"
     allow_war_moon:0 "§HDéverrouille la mégastructure : §! $name_war_moon$"
     desc_war_moons:0 "Un projet d'ingénierie vraiment insensé. Une lance à particules massive, alimentée par un gigantesque réacteur dans le coeur d'une petite lune. Se déplaçant à l'aide d'énormes propulseurs construits de l'autre côté de la lune, ce planétoïde armé est un chef d'oeuvre."
 
@@ -262,6 +262,8 @@
   #############################################################################################################################################
     ### Requirements ############################################################################################################################
     #############################################################################################################################################
+    giga_zero:0 "0"
+
     requires_big_star:0 "$TRIGGER_FAIL$En raison des immenses besoins en puissance de cette structure, elle doit être construite autour d'une étoile de classe B ou de classe A."
     requires_habitable:0 "$TRIGGER_FAIL$La planète cible doit être habitable."
     requires_sentient_ai:0 "$TRIGGER_FAIL$Requiert la technologie £physics£§Y$tech_self_aware_logic$§!."
@@ -296,7 +298,7 @@
     requires_no_more_than_6:0 "$TRIGGER_FAIL$Impossible de avoir plus de 6 branches d'administration militaire"
     requires_no_more_than_4:0 "$TRIGGER_FAIL$Le $name_quasistellar$ ne peut cibler que jusqu'à 4 systèmes stellaires à la fois."
     requires_no_more_than_3:0 "$TRIGGER_FAIL$Impossible d'avoir plus de trois opérations d'amirauté"
-    requires_no_existing_quasistellar:0 "$TRIGGER_FAIL$En avez-vous vraiment besoin d'un deuxième ? "
+    requires_no_existing_quasistellar:0 "$TRIGGER_FAIL$En avez-vous vraiment besoin d'un deuxième ?"
     requires_no_existing_target_marker_qso:0 "$TRIGGER_FAIL$Ce corps céleste est déjà ciblé par le $name_quasistellar$."
     requires_no_existing_birch:0 "$TRIGGER_FAIL$Il n'est possible de construire qu'un seul $name_birch$."
     requires_no_existing_psychic_hypersiphon:0 "$TRIGGER_FAIL$Il n'est possible de construire qu'un seul $name_psy_siphon$."
@@ -327,6 +329,7 @@
     requires_ehof_not_in_use:0 "$TRIGGER_FAIL$Ne peut être amélioré pendant que $ehof_ehof$ est en cours d'utilisation."
     requires_no_gargantua:0 "$TRIGGER_FAIL$Impossible de construire un $ehof_ehof$ dans le système Gargantua."
     requires_cohesive_system:0 "$TRIGGER_FAIL$Requiert le système $ehof_cohesive$."
+    requires_no_crisis_system:0 "$TRIGGER_FAIL$Something about this system doesn't feel right."
 
     must_build_around_asteroid:0 "$TRIGGER_FAIL$Doit être construit autour d'un astéroïde."
     must_build_around_core_black_hole:0 "$TRIGGER_FAIL$Le $name_birch$ doit être construit autour d'un trou noir supermassif."
@@ -449,6 +452,7 @@
     giga_menu.upgrade:0 "[root.giga_chk_upgrade]"
 
     giga_menu.alderson:0 "[root.giga_chk_alderson]"
+    giga_menu.asteroid_manufactory:0 "[root.giga_chk_asteroid_manufactory]"
     giga_menu.terraform_toxic:0 "[root.giga_chk_terraform_toxic]"
     giga_menu.warmoon:0 "[root.giga_chk_warmoon]"
     giga_menu.drill:0 "[root.giga_chk_drill]"
@@ -474,9 +478,9 @@
     giga_menu.orbital_arcologies:0 "[root.giga_chk_orbital_arcologies]"
     giga_menu.orbital_artificial_eco:0 "[root.giga_chk_orbital_artificial_eco]"
     giga_menu.academy:0 "[root.giga_chk_academy]"
-    giga_menu.elysium:0 "[root.giga_chk_elysium]"
     giga_menu.penrose_sphere:0 "[root.giga_chk_penrose_sphere]"
     giga_menu.planetary_computer:0 "[root.giga_chk_planetary_computer]"
+    giga_menu.psychic_beacon:0 "[root.giga_chk_psychic_beacon]"
     giga_menu.siphon:0 "[root.giga_chk_siphon]"
     giga_menu.quasistellar:0 "[root.giga_chk_quasistellar]"
     giga_menu.lifters:0 "[root.giga_chk_lifters]"
@@ -484,6 +488,7 @@
     giga_menu.systemcraft:0 "[root.giga_chk_systemcraft]"
     giga_menu.compressor:0 "[root.giga_chk_compressor]"
     giga_menu.succ:0 "[root.giga_chk_succ]"
+    giga_menu.virtual_reality:0 "[root.giga_chk_virtual_reality]"
     giga_menu.orchid:0 "[root.giga_chk_orchid]"
 
     giga_menu.ehof:0 "[root.giga_chk_ehof]"
@@ -515,10 +520,17 @@
     giga_chk_achievements_disabled:0 "£menu_disabled£§RSuccès§!"
     giga_chk_achievements_enabled:0 "£menu_enabled£§GSuccès§!"
 
+    giga_chk_aeternum_disabled:0 "£menu_disabled£§RAeternum§!"
+    giga_chk_aeternum_1:0 "£menu_aet_1£§GAeternum (§MRegular§!)§!"
+    giga_chk_aeternum_2:0 "£menu_aet_2£§GAeternum (§BAzure Aeternum§!)§!"
+    giga_chk_aeternum_3:0 "£menu_aet_3£§GAeternum (§ROmega Aeternum§!)§!"
+
     giga_chk_galactic_core_disabled:0 "£menu_disabled£§RNoyau galactique§!"
     giga_chk_galactic_core_shuffle:0 "£menu_s£§GNoyau galactique (Aléatoire)§!"
     giga_chk_galactic_core_active:0 "£menu_a£§GNoyau galactique (Quasar Supermassif)§!"
-    giga_chk_galactic_core_inactive:0 "£menu_i£§GNoyau galactique (Trou noir Supermassif)§!"
+    giga_chk_galactic_core_inactive_aeternum:0 "£menu_i£§GNoyau galactique (Trou noir Supermassif de l'Aeternum)§!"
+    giga_chk_galactic_core_inactive_empty:0 "£menu_i£§GNoyau galactique (Trou noir Supermassif vide)§!"
+    giga_chk_galactic_core_inactive_random:0 "£menu_i£§GNoyau galactique (Trou noir Supermassif aléatoire)§!"
 
     giga_chk_galactic_fed_disabled:0 "£menu_disabled£§RFédération galactique§!"
     giga_chk_galactic_fed_active:0 "£menu_o£§GFédération galactique (Garanti)§!"
@@ -842,13 +854,6 @@
     giga_academy_u:0 "£menu_u£§M$name_orb_bastion$§!"
     giga_academy_disabled:0 "£menu_disabled£§R$name_orb_bastion$§!"
 
-    giga_elysium_1:0 "£menu_1£§H$name_orb_elysium$§!"
-    giga_elysium_2:0 "£menu_2£§Y$name_orb_elysium$§!"
-    giga_elysium_3:0 "£menu_3£§G$name_orb_elysium$§!"
-    giga_elysium_r:0 "£menu_r£§B$name_orb_elysium$§!"
-    giga_elysium_u:0 "£menu_u£§M$name_orb_elysium$§!"
-    giga_elysium_disabled:0 "£menu_disabled£§R$name_orb_elysium$§!"
-
     giga_penrose_sphere_1:0 "£menu_1£§H$name_penrose$§!"
     giga_penrose_sphere_2:0 "£menu_2£§Y$name_penrose$§!"
     giga_penrose_sphere_3:0 "£menu_3£§G$name_penrose$§!"
@@ -911,6 +916,9 @@
     giga_succ_r:0 "£menu_r£§B$name_succ$§!"
     giga_succ_u:0 "£menu_u£§M$name_succ$§!"
     giga_succ_disabled:0 "£menu_disabled£§R$name_succ$§!"
+
+    giga_virtual_reality_disabled:0 "£menu_disabled£§RVirtual Reality§!"
+    giga_virtual_reality_enabled:0 "£menu_enabled£§GVirtual Reality§!"
 
     giga_orchid_1:0 "£menu_1£§H$name_yggdrasil$§!"
     giga_orchid_2:0 "£menu_2£§Y$name_yggdrasil$§!"
@@ -988,7 +996,6 @@
     giga_galactic_core_qso:0 "£menu_enabled£§GNoyau galactique: $name_quasistellar$§!"
     giga_galactic_core_random:0 "£menu_enabled£§GNoyau galactique: Random§!"
 
-
     giga_galactic_federation_off:0 "£menu_disabled£§RFédération galactique§!"
     giga_galactic_federation_always:0 "£menu_enabled£§GFédération galactique: Guaranti§!"
     giga_galactic_federation_random:0 "£menu_enabled£§GFédération galactique: Aléatoire§!"
@@ -1031,7 +1038,7 @@
     ### Presets #############################
     #########################################
     giga_menu_presets_00:0 "Préréglages développeur et Patreon"
-
+	giga_menu_presets_user:0 "Utilisateur"
     giga_menu_presets_random:0 "Aléatoire"
     giga_menu_presets_01:0 "Les 5 d'origine"
     giga_menu_presets_02:0 "Fidèle au nom du mod"
@@ -1054,6 +1061,8 @@
     giga_menu_presets_patreon_05:0 "Patreon : §MAnything they want§!"
     giga_menu_presets_patreon_06:0 "Patreon : §MPyrrhic§!"
     giga_menu_presets_patreon_07:0 "Patreon : §MGIF_Bluehawk§!"
+    giga_menu_presets_patreon_08:0 "Patreon: §MGaleadon§!"
+    giga_menu_presets_patreon_09:0 "Patreon: §Md0nny§!"
 
     giga_menu_presets_other_01:0 "Gagnant du concours : §HThe_Strateg1st§!"
 
@@ -1360,7 +1369,7 @@
 
     ehof_anomaly.12.name:0 "La cicatrice"
     ehof_anomaly.12.desc:0 "Grâce à notre enquête sur le gigantesque canyon de §H[from.GetName]§!, Nous avons pu découvrir que le canyon lui-même, qui s'étend sur 1600 kilomètres et descend jusqu'au manteau supérieur, n'est pas une formation naturelle. La structure du canyon lui-même indique qu'il ne peut pas être naturel.\n\nSi la théorie de nos chercheurs est correcte, l'anneau planétaire peut aussi être le résultat de la formation du canyon, selon ce qui l'a causé.\n\nNous n'avons pas encore découvert ce qui a causé la 'cicatrice', comme l'appellent déjà nos scientifiques, mais une analyse plus approfondie du matériau planétaire de la cicatrice et de l'anneau planétaire peut nous donner des indicesça aurait pu."
-    ehof_anomaly.12.a:0 "Intéressant, qu'est-ce qui aurait pu former un si vaste canyon ? "
+    ehof_anomaly.12.a:0 "Intéressant, qu'est-ce qui aurait pu former un si vaste canyon ?"
     ehof_anomaly.12.b:0 "Pas de temps pour la géologie. Laisser."
 
     ################################
@@ -1704,6 +1713,18 @@
     flat_world_mod_desc:0 "Notre monde est plat, c'est incroyable ! Nous ne savons pas s'il s'agit d'une blague maudite ou d'un projet oublié, mais notre monde est conçu pour être plat. La vérité est là-bas."
 
     #########################################
+    ### Planetary Computer ##################
+    #########################################
+    giga_planetary_computer_start_NAME:0 "Complexe de Calcul Planétaire"
+    giga_planetary_computer_start_DESC:0 "Commencez sur un complexe de calcul planétaire."
+    origin_planetary_computer:0 "Unité centrale"
+    origin_planetary_computer_desc:0 "Avec la plupart de ses données perdues, l'espèce robotique créée à l'origine pour prendre soin de cet ordinateur à l'échelle de la planète est désormais autonome."
+    origin_planetary_computer_effects:0 "Commencez sur un complexe de calcul planétaire."
+    building_solar_farm:0 "Ferme solaire"
+    building_solar_farm_desc:0 "Un grand panneau solaire qui génère suffisamment d'énergie pour alimenter les systèmes de la planète."
+
+
+    #########################################
     ### Habitable Gas Giant #################
     #########################################
 
@@ -1802,6 +1823,8 @@
     origin_alderson:0 "Disque Alderson"
     origin_alderson_desc:0 "Vous êtes le vestige d'une civilisation oubliée depuis longtemps, vivant dans la vaste étendue d'un disque Alderson construit par vos ancêtres."
     origin_alderson_effects:0 "Les autres tranches abritent une vie intelligente, mais leurs générateurs arcaniques ont cédé il y a longtemps."
+    giga_alderson_start_NAME:0 "$origin_alderson$"
+    giga_alderson_start_DESC:0 "$origin_alderson_desc$"
 
     giga_start_screen_alderson:0 "Nous ne savons pas ce qui est arrivé à nos ancêtres. Ennemis, peste, guerre civile ? Ils n'existent maintenant qu'au travers des mythes et légendes, leurs connaissances et leur pouvoir sont perdus. Ils ont en quelque sorte construit ce vaste disque englobant l'intégralité du puits de gravité de notre étoile, maintenant nous vivons dans la vaste étendue en écho conçue pour héberger un million de fois plus de personnes qu'il n'en reste.\n\nDevant le délabrement et l'inutilité de cette immense structure, ou seule la dernière tranche est encore opérationnelle, notre peuple s'est peu à peu fixé un nouveau objectif : nous devons nous unir et prendre notre place au sein des étoiles, ou sinon nous serons perdus à jamais dans l'histoire.\n\nNous devons faire travailler nos §Y$job_miner$§! et §Y$job_technician$§! avant que nous ne manquions de ressources pour pouvoir nous développer.\n\nIl se peut que nous devions déplacer certaines personnes de leur emploi préféré pour que cela se produise."
 
@@ -1882,6 +1905,8 @@
     #########################################
     ### Sections ############################
     #########################################
+    fallen_empire_station_small_key:0 "Core"
+
     ### La Combinaison
     ARCHITECT_COMPOUND_SECTION:0 "Noyau"
     PROPAGATOR_COMPOUND_SECTION:0 "Noyau"
@@ -2259,7 +2284,7 @@
     job_ehof_cultivator_desc:1 "$job_ehof_cultivator_plural$ utilise £alloys£§Y$alloys$§! et £energy£§Y$energy$§! comme matière première pour la réplication £ehof_sr_sentient_metal£§Y$ehof_sr_sentient_metal$§!, qui a une multitude d'utilisations dans tous les domaines de notre empire"
     job_ehof_cultivator_effect_desc:0 "£job_ehof_cultivator£ $job_ehof_cultivator_plural$ transforme £alloys£§Y$alloys$§! et £energy£§Y$energy$§! en £ehof_sr_sentient_metal£§Y$ehof_sr_sentient_metal$§!"
     mod_job_ehof_cultivator_add:0 "Emplois de $job_ehof_cultivator$"
-    mod_job_ehof_cultivator_per_pop:0 "§G+1§! $job_ehof_cultivator$ Tâche par $VALUE$ pop"
+    mod_job_ehof_cultivator_per_pop:0 "§G+1§! Emploi de $job_ehof_cultivator$ par $VALUE$ pop"
     mod_job_ehof_cultivator_per_pop_short:0 "\n§G+1§! £mod_job_ehof_cultivator_add£ par $VALUE$ £pop£"
 
     # Gestalt
@@ -2274,14 +2299,14 @@
     #############################################################################################################################################
     ### Starbase Modules ########################################################################################################################
     #############################################################################################################################################
-    sm_virtual_shipyard_uplink:0 "Liaison montante de chantier naval solaire"
-    sm_virtual_shipyard_uplink_desc:0 "Relier les systèmes de base stellaire aux capacités de construction navale du chantier naval solaire offrira une capacité de débit massive."
+    sm_virtual_shipyard_uplink_building:0 "Liaison montante de chantier naval solaire"
+    sm_virtual_shipyard_uplink_building_desc:0 "Relier les systèmes de base stellaire aux capacités de construction navale du chantier naval solaire offrira une capacité de débit massive."
+
+    sm_virtual_shipyard_uplink:0 "Liaison montante du chantier naval équatorial"
+    sm_virtual_shipyard_uplink_desc:0 "Une liaison montante reliant la base stellaire aux chantiers navals équatoriaux du système. Octroie 8 emplacements de chantier naval par chantier naval équatorial."
 
     sm_equatorial_shipyard_uplink:0 "Liaison montante du chantier naval équatorial"
     sm_equatorial_shipyard_uplink_desc:0 "Une liaison montante reliant la base stellaire aux chantiers navals équatoriaux du système. Octroie 8 emplacements de chantier naval par chantier naval équatorial."
-
-    sm_equatorial_shipyard_uplink:0 "Equatorial Shipyard Uplink"
-    sm_equatorial_shipyard_uplink_desc:0 "An uplink connecting the starbase to the system's equatorial shipyards. Grants 8 shipyard slots per equatorial shipyard."
 
     sm_hyperstructural_shipyard_uplink:0 "Liaison montante de la cour d'assemblage hyperstructurale"
     sm_hyperstructural_shipyard_uplink_desc:0 "Une liaison montante reliant la base stellaire au chantier de montage hyperstructural. Octroie 90 emplacements de chantier naval."
@@ -2333,6 +2358,8 @@
 
     excognitor_defender:0 "Prétorien Excogniteur"
     excognitor_defender_desc:0 "Consommés avec perfection, ces soldats s'entraînent à chaque heure de veille."
+
+    cybrex_warform_plural:0 "Entités guerrières Cybrex"
 
     #############################################################################################################################################
     ### Achievements ############################################################################################################################
@@ -3102,10 +3129,10 @@
     giga_achievement_kaiser3_tooltip:0 "$giga_achievement_kaiser3_title$\n$giga_achievement_kaiser3_requirement$\n\n§HReward§!\n$giga_achievement_kaiser3_reward$"
     achievement_kaiser3:0                   "$giga_achievement_kaiser3_title$"
 
-    beat_wildride_kaiser:0 "§MRidden & Bested§!"
+    beat_wildride_kaiser:0 "§MMonté et battu§!"
     beat_wildride_kaiser_desc:0 "Vaincre l'Empereur félidé nous a donné une énorme influence."
 
-    beat_stellarite_kaiser:0 "§RKingslayer§!"
+    beat_stellarite_kaiser:0 "§RTueur de roi§!"
     beat_stellarite_kaiser_desc:0 "Vaincre l'Empereur félidé nous a donné une énorme influence."
 
     giga_achievement_kaiser4:0              "§HChatomisé§!"
@@ -3564,7 +3591,7 @@
     district_giga_planet_leisure_desc:0 "Offrant des vues vraiment époustouflantes, ainsi qu'une opportunité incroyable de créer des environnements techniques."
 
     #########################################
-    ### Anneau-monde districts #################
+    ### Ringworld districts #################
     #########################################
     district_rw_mining:0 "Segment de synthèse de matière"
     district_rw_mining_plural:0 "Segments de synthèse de matière"
@@ -3596,6 +3623,7 @@
     district_virtual_city:0 "Serveur Megaplex"
     district_virtual_city_plural:0 "Serveurs Megaplex"
     district_virtual_city_desc:0 "Une section de serveurs dédiée dans le but de garder les gens dans le simulateur."
+
     district_virtual_admin_cap:0 "Serveur de Bureaucratie Virtuelle"
     district_virtual_admin_cap_plural:0 "Serveurs de Bureaucratie Virtuelle"
     district_virtual_admin_cap_desc:0 "En plaçant notre appareil bureaucratique dans un espace virtuel, nous pouvons accélérer le temps. Même s'il est lent dans le monde virtuel, il faut beaucoup moins de temps réel pour faire avancer les choses."
@@ -3804,43 +3832,43 @@
 
     ########################################################################################################################################################
     # Regular
-    job_structure_manager:0 "Directeur de la construction de l'île"
-    job_structure_manager_plural:0 "Directeurs de construction île"
+    job_structure_manager:0 "Directeur de la construction de Cortex insulaire"
+    job_structure_manager_plural:0 "Directeurs de construction de Cortex insulaire"
     job_structure_manager_desc:0 "Les superviseurs et les gestionnaires des opérations de construction massive d'îles sont les cerveaux de ce projet massif d'habitat."
     mod_job_structure_manager_add:0 "Directeurs de construction île"
     mod_job_structure_manager_per_pop:0 "§G+1§! Emploi de $job_structure_manager$ par $VALUE$ Pop"
     mod_job_structure_manager_per_pop_short:0 "\n§G+1§! £mod_job_structure_manager_add£ par $VALUE$ £pop£"
 
     # Hive
-    job_structure_mind:0 "île Construction Sub-Mind"
-    job_structure_mind_plural:0 "île Construction Sub-Minds"
-    job_structure_mind_desc:0 "Les superviseurs des opérations de construction massives d'îles sont les cerveaux de ce projet massif d'habitat."
-    mod_job_structure_mind_add:0 "île Construction Sub-Minds"
+    job_structure_mind:0 "sous-conscience de Construction de Cortex insulaire"
+    job_structure_mind_plural:0 "sous-consciences de Construction de Cortex insulaire"
+    job_structure_mind_desc:0 "Les superviseurs des opérations de construction massives de Cortex insulaires sont les cerveaux de ce projet massif d'habitat."
+    mod_job_structure_mind_add:0 "Sous-consciences de Construction de Cortex insulaire"
     mod_job_structure_mind_per_pop:0 "§G+1§! Emploi de $job_structure_mind$ par $VALUE$ Pop"
     mod_job_structure_mind_per_pop_short:0 "\n§G+1§! £mod_job_structure_mind_add£ par $VALUE$ £ pop £"
 
     # Machine
-    job_structure_process:0 "Sous-processeur Island Builder"
-    job_structure_process_plural:0 "Sous-processeurs île Builder"
-    job_structure_process_desc:0 "Les superviseurs et les gestionnaires des opérations de construction massive d'îles sont les cerveaux de ce projet massif d'habitat."
-    mod_job_structure_process_add:0 "Sous-processeurs île Builder"
+    job_structure_process:0 "Sous-processeur de Construction de Cortex insulaire"
+    job_structure_process_plural:0 "Sous-processeurs de Construction de Cortex insulaire"
+    job_structure_process_desc:0 "Les superviseurs et les gestionnaires des opérations de construction massive de Cortex insulaires sont les cerveaux de ce projet massif d'habitat."
+    mod_job_structure_process_add:0 "Sous-processeurs de Construction de Cortex insulaire"
     mod_job_structure_process_per_pop:0 "§G+1§! Emploi de $job_structure_process$ par $VALUE$ Pop"
     mod_job_structure_process_per_pop_short:0 "\n§G+1§! £mod_job_structure_process_add£ par $VALUE$ £pop£"
 
     ########################################################################################################################################################
     # Regular
-    job_structure_engineer:0 "Ingénieur en construction d'îles"
-    job_structure_engineer_plural:0 "Ingénieurs en construction d'îles"
-    job_structure_engineer_desc:0 "Des ouvriers importants des équipes des opérations d'infrastructure dédiées à la construction du massif îles."
-    mod_job_structure_engineer_add:0 "Ingénieurs en construction d'îles"
+    job_structure_engineer:0 "Ingénieur en construction de Cortex insulaire"
+    job_structure_engineer_plural:0 "Ingénieurs en construction de Cortex insulaire"
+    job_structure_engineer_desc:0 "Des ouvriers importants des équipes des opérations d'infrastructure dédiées à la construction de Cortex insulaires massifs."
+    mod_job_structure_engineer_add:0 "Ingénieurs en construction de Cortex insulaire"
     mod_job_structure_engineer_per_pop:0 "§G+1§! Emploi de $job_structure_engineer$ par $VALUE$ Pop"
     mod_job_structure_engineer_per_pop_short:0 "\n§G+1§! £mod_job_structure_engineer_add£ par $VALUE$ £pop£"
 
     # Gestalt
-    job_structure_drone:0 "Drone constructeur d'îles"
-    job_structure_drone_plural:0 "Drones constructeurs d'îles"
-    job_structure_drone_desc:0 "Des drones importants des équipes des opérations d'infrastructure dédiées à la construction du massif îles."
-    mod_job_structure_drone_add:0 "Drones constructeurs d'îles"
+    job_structure_drone:0 "Drone constructeur de Cortex insulaires"
+    job_structure_drone_plural:0 "Drones constructeurs de Cortex insulaires"
+    job_structure_drone_desc:0 "Des drones importants des équipes des opérations d'infrastructure dédiées à la construction de Cortex insulaires massifs."
+    mod_job_structure_drone_add:0 "Drones constructeurs de Cortex insulaires"
     mod_job_structure_drone_per_pop:0 "§G+1§! Emploi de $job_structure_drone$ par $VALUE$ Pop"
     mod_job_structure_drone_per_pop_short:0 "\n§G+1§! £mod_job_structure_drone_add£ par $VALUE$ £ pop £"
 
@@ -3946,14 +3974,22 @@
     mod_job_penrose_weaver_drone_per_pop_short:0 "\n§G+1§! £mod_job_penrose_weaver_drone_add£ par $VALUE$ £pop£"
 
     ########################################################################################################################################################
-    # All
+    # Non-Gestalt
     job_giga_interstellar_scavenger:0 "Charognard interstellaire"
     job_giga_interstellar_scavenger_plural:0 "Charognards interstellaires"
     job_giga_interstellar_scavenger_desc:0 "Ces spécialistes plongent profondément dans l'espace interstellaire, à la recherche de corps célestes à extraire et de débris de vaisseau spatial à recycler."
-    job_giga_interstellar_scavenger_effect_desc:0 "£job_giga_interstellar_scavenger£ $job_giga_interstellar_scavenger_plural$ explorez l'espace interstellaire en rassemblant £minerals£ §Y$minerals$§!, £alloys£ §YAlliages§! et £engineering£ §Y$engineering_research$§!"
-    mod_job_giga_interstellar_scavenger_add:0 "$job_giga_interstellar_scavenger$ Emplois"
+    job_giga_interstellar_scavenger_effect_desc:0 "Les £job_giga_interstellar_scavenger£ $job_giga_interstellar_scavenger_plural$ explorent l'espace interstellaire en rassemblant £minerals£ §Y$minerals$§!, £alloys£ §YAlliages§! et £engineering£ §Y$engineering_research$§!"
+    mod_job_giga_interstellar_scavenger_add:0 "Emplois de $job_giga_interstellar_scavenger$"
     mod_job_giga_interstellar_scavenger_per_pop:0 "§G+1§! Emploi de $job_giga_interstellar_scavenger$ par $VALUE$ Pops"
     mod_job_giga_interstellar_scavenger_per_pop_short:0 "\n§G+1§! £mod_job_giga_interstellar_scavenger_add£ par $VALUE$ £pop£"
+    # Gestalt
+    job_giga_interstellar_scavenger_drone:0 "Drone récupérateur Interstellaire"
+    job_giga_interstellar_scavenger_drone_plural:0 "Drones récupérateurs Interstellaire"
+    job_giga_interstellar_scavenger_drone_desc:0 "Ces spécialistes plongent profondément dans l'espace interstellaire, à la recherche de corps célestes à extraire et de débris de vaisseau spatial à recycler."
+    job_giga_interstellar_scavenger_drone_effect_desc:0 "Les £job_giga_interstellar_scavenger_drone£ $job_giga_interstellar_scavenger_drone_plural$ explorent l'espace interstellaire en rassemblant £minerals£ §Y$minerals$§!, £alloys£ §YAlliages§! et £engineering£ §Y$engineering_research$§!"
+    mod_job_giga_interstellar_scavenger_drone_add:0 "Emplois de $job_giga_interstellar_scavenger_drone$"
+    mod_job_giga_interstellar_scavenger_drone_per_pop:0 "§G+1§! Emploi de $job_giga_interstellar_scavenger_drone$ par $VALUE$ Pops"
+    mod_job_giga_interstellar_scavenger_drone_per_pop_short:0 "(£mod_job_giga_interstellar_scavenger_drone_add£§G+1§! par £pop£$VALUE$)"
 
     ########################################################################################################################################################
     # Non-Gestalt
@@ -3961,7 +3997,7 @@
     job_giga_interstellar_researcher_plural:0 "Chercheurs interstellaires"
     job_giga_interstellar_researcher_desc:0 "Les chercheurs interstellaires étudient le vaste vide entre les étoiles, où les expériences peuvent être menées avec peu ou pas d'interférences externes."
     job_giga_interstellar_researcher_effect_desc:0 "£job_giga_interstellar_researcher£ $job_giga_interstellar_researcher_plural$ étudie le milieu interstellaire, générant £physics£ §Y$physics_research$§!"
-    mod_job_giga_interstellar_researcher_add:0 "$job_giga_interstellar_researcher$ Emplois"
+    mod_job_giga_interstellar_researcher_add:0 "Emplois de $job_giga_interstellar_researcher$"
     mod_job_giga_interstellar_researcher_per_pop:0 "§G+1§! Emploi de $job_giga_interstellar_researcher$ par $VALUE$ Pops"
     mod_job_giga_interstellar_researcher_per_pop_short:0 "\n§G+1§! £mod_job_giga_interstellar_researcher_add£ par $VALUE$ £pop£"
 
@@ -3970,39 +4006,66 @@
     job_giga_interstellar_researcher_drone_plural:0 "Drones chercheurs interstellaires"
     job_giga_interstellar_researcher_drone_desc:0 "Les drones de recherche interstellaire étudient le vaste vide entre les étoiles, où les expériences peuvent être menées avec peu ou pas d'interférences externes."
     job_giga_interstellar_researcher_drone_effect_desc:0 "£job_giga_interstellar_researcher_drone£ $job_giga_interstellar_researcher_drone_plural$ étudie le milieu interstellaire, générant £physics£ §Y$physics_research$§!"
-    mod_job_giga_interstellar_researcher_drone_add:0 "$job_giga_interstellar_researcher_drone$ Emplois"
+    mod_job_giga_interstellar_researcher_drone_add:0 "Emplois de $job_giga_interstellar_researcher_drone$"
     mod_job_giga_interstellar_researcher_drone_per_pop:0 "§G+1§! Emploi de $job_giga_interstellar_researcher_drone$ par $VALUE$ Pops"
     mod_job_giga_interstellar_researcher_drone_per_pop_short:0 "\n§G+1§! £mod_job_giga_interstellar_researcher_drone_add£ par $VALUE$ £pop£"
 
     ########################################################################################################################################################
-    # All
+    # Non-Gestalt
     job_giga_zro_extractor:0 "Récolteur de Zro"
     job_giga_zro_extractor_plural:0 "Récolteurs de Zro"
     job_giga_zro_extractor_desc:0 "Les Récolteurs de Zro récupèrent le Zro dans les gisements locaux."
-    job_giga_zro_extractor_effect_desc:0 "£job_giga_zro_extractor£ $job_giga_zro_extractor_plural$ récolte £sr_zro£ §Y$sr_zro$§!"
-    mod_job_giga_zro_extractor_add:0 "$job_giga_zro_extractor$ Emplois"
+    job_giga_zro_extractor_effect_desc:0 "£job_giga_zro_extractor£ $job_giga_zro_extractor_plural$ récoltent du £sr_zro£ §Y$sr_zro$§!"
+    mod_job_giga_zro_extractor_add:0 "Emplois de $job_giga_zro_extractor$"
     mod_job_giga_zro_extractor_per_pop:0 "§G+1§! Emploi de $job_giga_zro_extractor$ Emploi par $ VALUE $ pop"
     mod_job_giga_zro_extractor_per_pop_short:0 "\n§G+1§! £mod_job_giga_zro_extractor_add£ par $VALUE$ £pop£"
 
+    # Gestalt
+    job_giga_zro_extractor_drone:0 "Drone Récolteur de Zro"
+    job_giga_zro_extractor_drone_plural:0 "Drones Récolteurs de Zro"
+    job_giga_zro_extractor_drone_desc:0 "Les Récolteurs de Zro récupèrent le Zro dans les gisements locaux."
+    job_giga_zro_extractor_drone_effect_desc:0 "£job_giga_zro_extractor_drone£ $job_giga_zro_extractor_drone_plural$ récoltent du £sr_zro£ §Y$sr_zro$§! "
+    mod_job_giga_zro_extractor_drone_add:0 "Emplois de $job_giga_zro_extractor_drone$"
+    mod_job_giga_zro_extractor_drone_per_pop:0 "§G+1§! Emploi de $job_giga_zro_extractor_drone$ par $VALUE$ Pops"
+    mod_job_giga_zro_extractor_drone_per_pop_short:0 "(£mod_job_giga_zro_extractor_drone_add£§G+1§! par £pop£$VALUE$)"
+
     ########################################################################################################################################################
-    # All
-    job_giga_preserver:0 "Gardien de la conservation"
-    job_giga_preserver_plural:0 "Gardien de la conservation"
+    # Non-Gestalt
+    job_giga_preserver:0 "Gardien conservateur"
+    job_giga_preserver_plural:0 "Gardiens conservateurs"
     job_giga_preserver_desc:0 "Ces spécialistes maintiennent des réserves naturelles massives sur la surface intérieure de $name_orb_elysium$'s."
-    job_giga_preserver_effect_desc:0 "£job_giga_preserver£ $job_giga_preserver_plural$ maintenir les sites naturels, générant £unity£ §Y$unity$§! et £society£ §Y$society_research$§!"
-    mod_job_giga_preserver_add:0 "$job_giga_preserver$ Emplois"
+    job_giga_preserver_effect_desc:0 "£job_giga_preserver£ $job_giga_preserver_plural$ maintiennent les sites naturels, générant £unity£ §Y$unity$§! et £society£ §Y$society_research$§!"
+    mod_job_giga_preserver_add:0 "Emplois de $job_giga_preserver$"
     mod_job_giga_preserver_per_pop:0 "§G+1§! Emploi de $job_giga_preserver$ par $VALUE$ pop"
     mod_job_giga_preserver_per_pop_short:0 "\n§G+1§! £mod_job_giga_preserver_add£ par $VALUE$ £ pop £"
 
+    # Gestalt
+    job_giga_preserver_drone:0 "Drone Gardien conservateur"
+    job_giga_preserver_drone_plural:0 "Preserve Keeper Drones"
+    job_giga_preserver_drone_desc:0 "Ces spécialistes maintiennent des réserves naturelles massives sur la surface intérieure de $name_orb_elysium$'s."
+    job_giga_preserver_drone_effect_desc:0 "£job_giga_preserver_drone£ $job_giga_preserver_drone_plural$ maintiennent les sites naturels, générant £unity£ §Y$unity$§! et £society£ §Y$society_research$§! "
+    mod_job_giga_preserver_drone_add:0 "Emplois de $job_giga_preserver_drone$"
+    mod_job_giga_preserver_drone_per_pop:0 "§G+1§! Emploi de $job_giga_preserver_drone$ par $VALUE$ Pops"
+    mod_job_giga_preserver_drone_per_pop_short:0 "(£mod_job_giga_preserver_drone_add£§G+1§! per £pop£$VALUE$)"
+
     ########################################################################################################################################################
-    # All
+    # Non-Gestalt
     job_giga_gas_harvester:0 "Récolteur de gaz exotique"
     job_giga_gas_harvester_plural:0 "Récolteurs de gaz exotiques"
     job_giga_gas_harvester_desc:0 "Les chasseurs de gaz utilisent des engins spatiaux et des machines qui pénètrent dans les profondeurs de l'atmosphère de la géante gazeuse pour puiser dans des poches de gaz exotique."
-    job_giga_gas_harvester_effect_desc:0 "£job_giga_gas_harvester£ $job_giga_gas_harvester_plural$ rassemblent £exotic_gases£ §Y$exotic_gases$§!"
-    mod_job_giga_gas_harvester_add:0 "$job_giga_gas_harvester$ Emplois"
+    job_giga_gas_harvester_effect_desc:0 "£job_giga_gas_harvester£ $job_giga_gas_harvester_plural$ rassemblent des £exotic_gases£ §Y$exotic_gases$§!"
+    mod_job_giga_gas_harvester_add:0 "Emplois de $job_giga_gas_harvester$"
     mod_job_giga_gas_harvester_per_pop:0 "§G+1§! Emploi de $job_giga_gas_harvester$ Emploi par $ VALUE $ pop"
     mod_job_giga_gas_harvester_per_pop_short:0 "\n§G+1§! £mod_job_giga_gas_harvester_add£ par $VALUE$ £pop£"
+
+    # Gestalt
+    job_giga_gas_harvester_drone:0 "Drone Récolteur de gaz exotique"
+    job_giga_gas_harvester_drone_plural:0 "Drones Récolteurs de gaz exotique"
+    job_giga_gas_harvester_drone_desc:0 "Les chasseurs de gaz utilisent des engins spatiaux et des machines qui pénètrent dans les profondeurs de l'atmosphère de la géante gazeuse pour puiser dans des poches de gaz exotique."
+    job_giga_gas_harvester_drone_effect_desc:0 "£job_giga_gas_harvester_drone£ $job_giga_gas_harvester_drone_plural$ rassemblent des £exotic_gases£ §Y$exotic_gases$§!"
+    mod_job_giga_gas_harvester_drone_add:0 "Emplois de $job_giga_gas_harvester_drone$"
+    mod_job_giga_gas_harvester_drone_per_pop:0 "§G+1§! Emploi de $job_giga_gas_harvester_drone$ par $VALUE$ Pops"
+    mod_job_giga_gas_harvester_drone_per_pop_short:0 "(£mod_job_giga_gas_harvester_drone_add£§G+1§! par £pop£$VALUE$)"
 
     ########################################################################################################################################################
     # Regular
@@ -4965,10 +5028,10 @@
     giga_geothermal_capacity_increase_title: "Capacité en §YStabilisateur géothermique§! : §G+1§!"
     giga_geothermal_capacity_increase_desc: "La capacité de l'Empire en §Ystabilisateurs géothermiques§! est augmenté de §G+1§!"
 
-    giga_tech_repeatable_hraemc_cap: "Protocoles de gestion des G.L.U.E."
-    giga_tech_repeatable_hraemc_cap_desc: "Des nouveaux Protocoles avancés de construction et de maintenance pour permettre la construction et la gestion de §YG.L.U.E.§! supplémentaires à l'intérieur des frontières de notre empire."
-    giga_hraemc_capacity_increase_title: "Capacité en §YG.L.U.E.§! : §G+1§!"
-    giga_hraemc_capacity_increase_desc: "La capacité de notre Empire en §YG.L.U.E.§! est augmenté de §G+1§!"
+    giga_tech_repeatable_glue_cap: "Protocoles de gestion des G.L.U.E."
+    giga_tech_repeatable_glue_cap_desc: "Des nouveaux Protocoles avancés de construction et de maintenance pour permettre la construction et la gestion de §YG.L.U.E.§! supplémentaires à l'intérieur des frontières de notre empire."
+    giga_glue_capacity_increase_title: "Capacité en §YG.L.U.E.§! : §G+1§!"
+    giga_glue_capacity_increase_desc: "La capacité de notre Empire en §YG.L.U.E.§! est augmenté de §G+1§!"
     
     giga_tech_repeatable_hraemc_cap: "Protocoles de gestion des HRAE-MC"
     giga_tech_repeatable_hraemc_cap_desc: "Des nouveaux Protocoles avancés de construction et de maintenance pour permettre la construction et la gestion d'§YHRAE-MC§! supplémentaires à l'intérieur des frontières de notre empire."
@@ -5034,11 +5097,6 @@
     giga_tech_repeatable_academy_cap_desc: "Des nouveaux Protocoles avancés de construction et de maintenance pour permettre la construction et la gestion de §YBastions Orbitaux§! supplémentaires à l'intérieur des frontières de notre empire."
     giga_academy_capacity_increase_title: "Capacité en §YBastions Orbitaux§! : §G+1§!"
     giga_academy_capacity_increase_desc: "La capacité de notre Empire en §YBastions Orbitaux§! est augmenté de §G+1§!"
-
-    giga_tech_repeatable_elysium_cap: "Protocoles de gestion Elysiums Orbitaux"
-    giga_tech_repeatable_elysium_cap_desc: "Des protocoles de construction et de maintenance avancés pour permettre la construction et la gestion de §YElysiums Orbitaux§! supplémentaires à l'intérieur des frontières de notre empire."
-    giga_elysium_capacity_increase_title: "Capacité en §YElysiums Orbitaux§! : §G+1§!"
-    giga_elysium_capacity_increase_desc: "La capacité de notre Empire en §YElysiums Orbitaux§! est augmenté de §G+1§!"
 
     giga_tech_repeatable_penrose_sphere_cap: "Protocoles de gestion de Sphères de Penrose"
     giga_tech_repeatable_penrose_sphere_cap_desc: "Des nouveaux Protocoles avancés de construction et de maintenance pour permettre la construction et la gestion de §YSphères de Penroses§! supplémentaires à l'intérieur des frontières de notre empire."
@@ -5656,7 +5714,7 @@
     matrioshka_brain_9_m_star_DESC:0 "$matrioshka_brain_9_DESC$"
 
     #########################################
-    ### Adaptation de l'Ascenceur stellaire #################
+    ### Star Lifter Scaling #################
     #########################################
     star_lifter_0_a_star_MEGASTRUCTURE_DETAILS:0 "$star_lifter_0_DESC$"
     star_lifter_0_b_star_MEGASTRUCTURE_DETAILS:0 "$star_lifter_0_DESC$"
@@ -6109,7 +6167,7 @@
     ehof_pgate_unknown_MEGASTRUCTURE_DETAILS:0 "$ehof_pgate_unknown_DESC$"
     ehof_reality_code.003.name:0 "$PGATE_GALACTIC$ Actif"
     ehof_reality_code.003.desc:0 "Le $PGATE_GALACTIC$ dans le système de §H[pgate_active_system.GetName]§! s'est activé. Nous devrions nous méfier, il pourrait y avoir d'autres $PGATE_GALACTICS$ dans la galaxie."
-    ehof_pylons.007.option:0 "C'est particulier"
+    ehof_reality_code.003.option:0 "C'est particulier"
 
     #########################################
     ### Alderson Disk #######################
@@ -7269,31 +7327,36 @@
 
     giga_ndb.002.name:0 "$name_ndb$"
     giga_ndb.002.desc:0 "Le $name_ndb$ est prêt à faire feu. Ou devons-nous diriger notre arme ?"
-    giga_ndb.002.a:0 "Un système hostile"
-    giga_ndb.002.b:0 "Une planète hostile"
-    giga_ndb.002.c:0 "Un système non-hostile"
-    giga_ndb.002.d:0 "Une planète non-hostile"
+    giga_ndb.002.a:0 "Hostile"
+    giga_ndb.002.b:0 "Neutre"
+    giga_ndb.002.c:0 "Allié"
     giga_ndb.002.e:0 "Annuler"
-    giga_ndb.003.desc:0 "Quel système hostile voudriez-vous faire exploser ? "
-    giga_ndb.004.desc:0 "Quelle planète hostile voudriez-vous faire exploser ? "
-    giga_ndb.005.desc:0 "Quel système non hostile voudriez-vous faire exploser ? "
-    giga_ndb.006.desc:0 "Quelle planète non hostile voudriez-vous faire exploser ? "
-
+    giga_ndb.003.desc:0 "Quel Empire voulez-vous cibler ?"
+    giga_ndb.003.a:0 "Aucun (Espace vide)"
+    
+    giga_ndb.004.desc:0 "Quelle type d'étoile de l'Empire choisi voulez-vous cibler ?"
+    giga_ndb.005.desc:0 "Quel système spécifique voulez-vous cibler ?"
+    giga_ndb.006.desc:0 "Voulez-vous cibler le système entier, ou juste un corps planétaire particulier ?"
+    giga_ndb.006.a:0 "Target the system"
+    giga_ndb.006.cantnukeowncaptialsystem:0 "Cannot target our own capital system."
     giga_ndb.system:0 "Le $name_ndb$ tire via la porte Warp. Un système solaire entier sera bientôt englouti par des énergies cataclysmiques, mettant un terme définitif à tout ce qui pourrait se trouver dans le rayon de gravité de l'étoile. "
 
-    giga_ndb.007.desc:0 "Nous sommes maintenant prêts à déclencher le $name_ndb$ sur notre cible désignée. A quelle intensité voulez-vous le régler ?\n\n§H$giga_ndb.007.a$§!\n$giga_ndb.007.a.tooltip$\n\n§H$giga_ndb.007.b$§!\n$giga_ndb.007.b.tooltip$\n\n§H$giga_ndb.007.c$§!\n$giga_ndb.007.c.tooltip$\n\n§H$giga_ndb.007.d$§!\n$giga_ndb.007.d.tooltip$"
+    giga_ndb.006.b:0 "Target a planet"
+    giga.ndb.novalidtargets:0 "There are no valid targets in this system."
+    giga_ndb.007.desc:0 "Quelle planète du système souhaitez-vous cibler ?"
 
-    giga_ndb.007.a:0 "Fissurer la planète"
-    giga_ndb.007.a.tooltip:0 "La planète cible sera complètement dévastée et brisée en morceaux.\nLes habitats sont annéantis.\nLes Segments d'anneaux-monde seront ruinés.\nLes géantes gazeuses perdront leur atmosphère.\ngénérera un dépôt de l'ordre de 10 £minerals£"
+    giga_ndb.008.desc:0 "Nous sommes maintenant prêts à déclencher le $name_ndb$ sur notre cible désignée. A quelle intensité voulez-vous le régler ?\n\n§H$giga_ndb.007.a$§!\n$giga_ndb.007.a.tooltip$\n\n§H$giga_ndb.007.b$§!\n$giga_ndb.007.b.tooltip$\n\n§H$giga_ndb.007.c$§!\n$giga_ndb.007.c.tooltip$\n\n§H$giga_ndb.007.d$§!\n$giga_ndb.007.d.tooltip$"
+    giga_ndb.008.a:0 "Fissurer la planète"
+    giga_ndb.008.a.tooltip:0 "La planète cible sera complètement dévastée et brisée en morceaux.\nLes habitats sont annéantis.\nLes Segments d'anneaux-monde seront ruinés.\nLes géantes gazeuses perdront leur atmosphère.\ngénérera un dépôt de l'ordre de 10 £minerals£"
 
-    giga_ndb.007.b:0 "Faire fondre la surface de la planète"
-    giga_ndb.007.b.tooltip:0 "La surface de la planète cible sera poussé à une température extrême, transformant ainsi celle-ci en un monde en fusion.\nles habitats seront annéantis.\nLes Segments d'anneaux-monde seront ruinés.\nLes géantes gazeuses habitables seront rendus inhabitables.\ngénérera un dépôt de 1 £sr_iodizium£"
+    giga_ndb.008.b:0 "Faire fondre la surface de la planète"
+    giga_ndb.008.b.tooltip:0 "La surface de la planète cible sera poussé à une température extrême, transformant ainsi celle-ci en un monde en fusion.\nles habitats seront annéantis.\nLes Segments d'anneaux-monde seront ruinés.\nLes géantes gazeuses habitables seront rendus inhabitables.\ngénérera un dépôt de 1 £sr_iodizium£"
 
-    giga_ndb.007.c:0 "Stériliser la planète"
-    giga_ndb.007.c.tooltip:0 "La planète cible sera balayé par un faisceau d'énergie mortel, la transformant en une planète stérile.\nLes habitats seront annéantis.\nLes segments d'anneaux-mondes seront ruinés.\nLes géantes gazeuses habitables seront rendus inhabitables à nouveau.\nLa cible pourra être à nouveau terraformée."
+    giga_ndb.008.c:0 "Stériliser la planète"
+    giga_ndb.008.c.tooltip:0 "La planète cible sera balayé par un faisceau d'énergie mortel, la transformant en une planète stérile.\nLes habitats seront annéantis.\nLes segments d'anneaux-mondes seront ruinés.\nLes géantes gazeuses habitables seront rendus inhabitables à nouveau.\nLa cible pourra être à nouveau terraformée."
 
-    giga_ndb.007.d:0 "Saboter les infrastructures"
-    giga_ndb.007.d.tooltip:0 "La planète cible sera endommagée, la transformant en un monde tempéré sans vie, et augmentera le niveau de dévastation de planétaire à 100%. "
+    giga_ndb.008.d:0 "Saboter les infrastructures"
+    giga_ndb.008.d.tooltip:0 "La planète cible sera endommagée, la transformant en un monde tempéré sans vie, et augmentera le niveau de dévastation de planétaire à 100%. "
 
     nicoll_beam_0:0 "Chantier de construction du $name_ndb$"
     nicoll_beam_0_DESC:0 "Le chantier de construction d'un futur $name_ndb$, abritant l'infrastructure nécessaire à la construction de cette super-arme titanesque."
@@ -7310,7 +7373,6 @@
 
     nicoll_beam_4:0 "$name_ndb$"
     nicoll_beam_4_DESC:0 "Un $name_ndb$ terminé et opérationnel. Il est capable de concentrer l'énergie d'une étoile dans un faisceau hyper-énergétique qui peut détruire des systèmes stellaires entiers."
-
 
     nicoll_beam_ready:0 "$nicoll_beam_4$"
     nicoll_beam_ready_DESC:0 "$nicoll_beam_4_DESC$"
@@ -9010,9 +9072,9 @@
 	giga_flusion.400.b.desc:0 "Our outpost in the Jublio system reports that the Flusionien §YProjekt Mondkanone§! has recently been completed.\n\nThe Katzenartig Imperium has succeeded in transforming their world's second moon into a very capable superweapon, equipped with a colossal railgun, missile batteries, autocannons, and even strike craft hangars. Despite being immobile, Projekt Mondkanone is undoubtedly a very capable defence system, which should deter most invaders from trying to take over Flusion.\n\nWith a new superweapon in their hands, the Katzenartig Imperium's course of action remains to be seen, although some speculate that Kaiser Kattail might decide to use it for more than just defence..."
 	giga_flusion.400.a:0 "Félicitations à eux et au Kaiser. "
 	giga_flusion.400.b:0 "Ces rats embêtants ! "
-	giga_flusion.400.c:0 "Une lune d'attaque primitive ! Fascinant. "
+	giga_flusion.400.c:0 "Une Lune de combat primitive ! Fascinant. "
 
-	giga_flusion.401.name:0 "Lune d'attaque primitive"
+	giga_flusion.401.name:0 "Lune de combat primitive"
 	giga_flusion.401.desc:0 "Long-range sensors indicate that primitives in the §YJublio§! systems have managed to weaponize of their world's moons, through sheer force of will and militarism. After about a decade of hard work, and despite their limited technological base, they have embedded a massive railgun within the moon, alongside autocannons and missile launchers.\n\nDespite being immobile, this fearsome construct should be capable of deterring most, if not all, attempts at invading their world."
 	giga_flusion.401.a:0 "Those are some hardy primitives."
 	giga_flusion.401.b:0 "That might be a problem."
@@ -9036,13 +9098,13 @@
 	KATZEN_CRUISER_MID:0 "Milieu"
 	KATZEN_CRUISER_STERN:0 "Poupe"
 
-	giga_flusion.405.name:0 "Lune d'attaque primitive"
+	giga_flusion.405.name:0 "Lune de combat primitive"
 	giga_flusion.405.desc:0 "Notre vaisseau scientifique explorant le système §YJublio§! a fait une découverte fascinante.\n\nIl semble que, malgré l'absence de technologie FTL, les primitifs vivant sur l'une des planètes du système, §YFlusion§!, ont réussi à transformer l'une de leurs lunes en une grande super-arme défensive, équipée avec un Canon à Rail colossal !\n\nCette construction monstrueuse semble être destinée à dissuader toute invasion potentielle par une civilisation spatiale agressive, et à en juger par sa taille et sa portée, elle est probablement capable de le faire."
 	giga_flusion.405.a:0 "C'est un exploit."
 	giga_flusion.405.b:0 "Problématique."
 
 	giga_flusion.406.name:0 "Projet 'Canon lunaire' détruit !"
-	giga_flusion.406.desc:0 "Après une bataille acharnée, nos flottes du système §YJublio§! ont réussi à détruire le redoutable système de défense lunaire flusionnien !\n\nLa super-arme lunaire a reçu un immense châtiment et n'est plus opérationnelle, les Flusionniens évacuent et se rendre dans leur monde natal. Avec son appareil défensif principal détruit, Flusion devrait maintenant être vulnérable à une invasion terrestre directe, si nous désirons nous emparer de leur monde.\n\nNous avons également réussi à en récupérer quelques ressources. Cependant, la structure interne de la super-arme semble être étonnamment intacte, ce qui signifie que nous pourrions potentiellement la restaurer en une lune d'attaque appropriée, à condition d'arriver à déchiffrer et comprendre la technologie nécessaire."
+	giga_flusion.406.desc:0 "Après une bataille acharnée, nos flottes du système §YJublio§! ont réussi à détruire le redoutable système de défense lunaire flusionnien !\n\nLa super-arme lunaire a reçu un immense châtiment et n'est plus opérationnelle, les Flusionniens évacuent et se rendre dans leur monde natal. Avec son appareil défensif principal détruit, Flusion devrait maintenant être vulnérable à une invasion terrestre directe, si nous désirons nous emparer de leur monde.\n\nNous avons également réussi à en récupérer quelques ressources. Cependant, la structure interne de la super-arme semble être étonnamment intacte, ce qui signifie que nous pourrions potentiellement la restaurer en une Lune de combat appropriée, à condition d'arriver à déchiffrer et comprendre la technologie nécessaire."
 	giga_flusion.406.a:0 "Bon débarras."
 
     ##########################################
@@ -9460,6 +9522,7 @@
     COMPOUND_HM_RESHAPER_ACTION:0 "Reshape World"
     COMPOUND_HM_RESHAPER_DESC:0 "A directed feed of thermic energy super-heats the atmosphere and agitates the planet's core, terraforming the planet."
     FLEETORDER_DESTROY_PLANET_WITH_COMPOUND_HM_RESHAPER:0 "Preparing to reshape $PLANET|Y$"
+    FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_AETERNUM_SHROUD:0 "Preparing to shroud $PLANET|Y$"
     MESSAGE_DESC_FOR_COMPOUND_HM_RESHAPER:0 "was reshaped by"
     is_already_reshaped:0 "Cannot reshape"
     cannot_reshape:0 "Cannot reshape"
@@ -9506,9 +9569,6 @@
 
     compound_dialog.3.b:0 "Why attack us?"
     compound_dialog.3.b.response:0 "We are not attacking you. We have merely begun the transmutation of this galaxy.\n\nThis process, of course involves the transmutation of all flawed baryonic matter lifeforms, like you. Which you interpret as an attack.\n\nThis is no act of hostility, it is an act of kindness. A gift. The gift of perfection."
-
-    compound_dialog.3.c:0 "The $ehof_ehof_abr$?"
-    compound_dialog.3.c.response:0 "The probabilistic wormhole constructor... L'$ehof_ehof$... We were able to draw its focus to our home cluster. Manipulating its probabilistic target markers.\n\nWhile you are not capable of manipulating the principles of probability, we are. We are better at using your creations than you are, and this from a vast distance. More proof of our supremacy."
 
     compound_dialog.3.d:0 "We can understand you?"
     compound_dialog.3.d.response:0 "We have been watching for a long time.\n\nWe have been monitoring your galaxy, listening to you.\n\nEvery signal that has ever been emitted by you, has been intercepted by us.\n\nWe know all of your languages. All your history. We know everything about you."
@@ -9563,7 +9623,7 @@
 
     # Begin SA Event Chain
     annihilator_dialog.014.name:0 "Salvation"
-   annihilator_dialog.014.desc:0 "$compound_solution_chain_desc$"
+    annihilator_dialog.014.desc:0 "$compound_solution_chain_desc$"
     annihilator_dialog.014.a:0 "§HWe must find it now§!"
 
     # Initial Contact
@@ -9727,7 +9787,7 @@
 	flusion_early_army_desc:0 "Une armée composée des différentes espèces qui habitent Flusion."
 
 	stellarite_kaiser_moon_modifier:0 "Lune du Kaiser, en Stellarite"
-	stellarite_kaiser_moon_modifier_desc:0 "Cette Lune d'attaque incroyablement puissante est faite d'un matériau ésotérique extrêmement énergétique."
+	stellarite_kaiser_moon_modifier_desc:0 "Cette Lune de combat incroyablement puissante est faite d'un matériau ésotérique extrêmement énergétique."
 
 	stellarite_kaiser_moon_0:0 "Stellarite Kaiser Moon Construction Site"
 	stellarite_kaiser_moon_0_DESC:0 "The construction site for a future Stellarite Kaiser Moon, a colossal superweapon built around a small moon, capable of laying waste to the stellar battlefield."
@@ -10005,7 +10065,7 @@
 	giga_katzen.020.ally.response:0 "An alliance, you say? Considering the good relations between our species, I am sure the Kaiser would be more than happy to forge a powerful military alliance with your kind, aliens!\n\nWe will get back to you with a more detailled alliance treaty within the week."
 
 	giga_katzen.3000.name:0 "The Flusionien Treaty Organization"
-	giga_katzen.3000.desc:0 "§YKaiser Kattail§! has sent us a diplomatic transmission, regarding the formation of an alliance between us. This alliance, which he dubs the §YFlusionian Treaty Organization§!, has the following terms:\n\n-We may not declare war on each other.\n-We will have to join every conflict the Félidés engage in.\n-We will be able to call in the Félidés to our aid whenever needed.\n-We will enjoy a higher degree of military, scientific and economic cooperation.\n-The Kaiser will no longer demand land from us.\n-In exchange for military protection, we will lend 5% of our naval capacity to the Félidés.\n\nWe are free to decline these terms, but doing so would §Rdecrease§! the §YKaiser's Opinion§! of us. The Kaiser might revoke the alliance if his opinion of us drops below §B3|Friendly§!.\n\nShall we accept? "
+	giga_katzen.3000.desc:0 "§YKaiser Kattail§! has sent us a diplomatic transmission, regarding the formation of an alliance between us. This alliance, which he dubs the §YFlusionian Treaty Organization§!, has the following terms:\n\n-We may not declare war on each other.\n-We will have to join every conflict the Félidés engage in.\n-We will be able to call in the Félidés to our aid whenever needed.\n-We will enjoy a higher degree of military, scientific and economic cooperation.\n-The Kaiser will no longer demand land from us.\n-In exchange for military protection, we will lend 5% of our naval capacity to the Félidés.\n\nWe are free to decline these terms, but doing so would §Rdecrease§! the §YKaiser's Opinion§! of us. The Kaiser might revoke the alliance if his opinion of us drops below §B3|Friendly§!.\n\nShall we accept?"
 	giga_katzen.3000.a:0 "Together, we will never be defeated!"
 	giga_katzen.3000.a.tooltip:0 "We will ally the §YKatzenartig Imperium§!, and join the §YFlusionian Treaty Organization§!.\nWe will immediately be called into any Félidé wars.\nWe will be able to call them into our wars through their diplomacy screen."
 	giga_katzen.3000.b:0 "On second thought, forget it."
