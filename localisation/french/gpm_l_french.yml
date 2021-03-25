@@ -159,7 +159,8 @@
 
  # dreadnaught army
  gpm_dreadnaught_army:0 "Dreadnought"
- gpm_dreadnaught_army:0 "A slow lumbering personal mech fitted with devastating weapon systems and colossal plates of armour"
+ gpm_dreadnaught_army:0 "Un mech personnel lent équipé de systèmes d'armes dévastateurs et de plaques d'armure colossales"
+ hexagongpm_dreadnaught_army_desc:0 "Un mech personnel lent équipé de systèmes d'armes dévastateurs et de plaques d'armure colossales"
  
  #######################################
  #### Artifact Actions
@@ -585,6 +586,9 @@
  mod_megastructures_alloys_cost_mult:0 "Coût en alliages des mégastructures"
  mod_country_base_alloys_produces_add:0 "£alloys£ alliages mensuels"
  mod_country_base_consumer_goods_produces_add:0 "£consumer_goods£ Biens de consommation mensuels"
+ mod_job_gpm_orbital_spicer_per_pop:0 "§G+1§! emploi de $job_gpm_orbital_spicer$ par $VALUE$ Pops"
+ mod_job_gpm_orbital_spicer_drone_per_pop:0 "§G+1§! emploi de $job_gpm_orbital_spicer_drone$ par $VALUE$ Pops"
+ 
  
  #######################################
  #### Opinions
@@ -760,7 +764,7 @@
  gpm_tech_arcane_research:0 "Institut de recherche des arcanes"
  gpm_tech_arcane_research_desc:0 "Institut de recherche spécialisé dédié à la collecte et à la compréhension des technologies des arcanes."
  
- tech_gpm_tb_toxic_gas:0 "Neutraliseurs Aéro-Chimiques"
+ tech_gpm_tb_toxic_gas:0 "Neutraliseurs aéro-chimiques"
  tech_gpm_tb_toxic_gas_desc:0 "Il sera difficile d'éliminer les nuages de gaz toxiques qui parcourent le paysage. Notre meilleur pari est de laisser tomber un brouillard de neutralisants chimiques sur eux.."
 
  tech_gpm_tb_toxic_gas_hive_mind:0 "Neutraliseurs chimiques globaux"
@@ -774,13 +778,13 @@
  tech_gpm_d_unusual_formations_machine_intelligence:0 "Nettoyage systématique"
  tech_gpm_d_unusual_formations_desc_machine_intelligence:0 "L'intégrité structurelle du terrain sur ce monde est très variable. Le terrain devra être réorganisé pour une traversée et une construction plus efficaces."
 
- tech_gpm_tb_locust_plagues:0 "Prédateurs Naturels"
+ tech_gpm_tb_locust_plagues:0 "Prédateurs naturels"
  tech_gpm_tb_locust_plagues_desc:0 "En introduisant des prédateurs naturels sans danger dans l'environnement, nous devrions être en mesure de contrôler les essaims de sauterelles. Nous sommes à peu près certains que rien ne peut aller de travers avec ce plan."
 
  tech_gpm_tb_locust_plagues_hive_mind:0 "Extermination planifiée"
  tech_gpm_tb_locust_plagues_desc_hive_mind:0 "Pour lutter efficacement contre ces essaims, nous devons diviser la zone en secteurs et travailler de l'extérieur. Des équipements spécialisés et des prédateurs naturels biologiquement modifiés seront utilisés pour éradiquer systématiquement les essaims de criquets."
  
- tech_gpm_tb_locust_plagues_machine_intelligence:0 "Prédateurs Artificiels"
+ tech_gpm_tb_locust_plagues_machine_intelligence:0 "Prédateurs artificiels"
  tech_gpm_tb_locust_plagues_desc_machine_intelligence:0 "Des insectes mécaniques soigneusement conçus seront introduits pour chasser et tuer chaque criquet."
 
  tech_gpm_tb_seasonal_flooding:0 "Gestion des inondations"
@@ -795,10 +799,10 @@
  tech_gpm_d_arachnophobia_hive_mind:0 "Confinement du nid"
  tech_gpm_d_arachnophobia_desc_hive_mind:0 "Un système de cellules de confinement sera construit autour des nids de ces arachnides. Cela réduira considérablement leur nombre à un niveau plus gérable. Les arachnides restants qui existent en dehors de ces cellules seront chassés et tués."
  
- tech_gpm_d_arachnophobia_machine_intelligence:0 "Arachnides Cybernétiques"
+ tech_gpm_d_arachnophobia_machine_intelligence:0 "Arachnides cybernétiques"
  tech_gpm_d_arachnophobia_desc_machine_intelligence:0 "L'implantation forcée d'unités de contrôle mécaniques nous permettra d'indiquer où vont ces arachnides. Nous pourrons également les tuer sur commande. Une série de drones sera utilisée pour piéger, contenir et implanter ces unités de contrôle dans le cerveau des arachnides."
 
- tech_gpm_d_dunes:0 "Suppression des Dunes"
+ tech_gpm_d_dunes:0 "Suppression des dunes"
  tech_gpm_d_dunes_desc:0 "La gestion des projets d'élimination des dunes comprend la plantation réussie de végétation. Le simple fait de disperser et de laisser des graines sur des zones sablonneuses est perçu comme un gaspillage potentiel, car des vents forts peuvent la faire tomber. La plantation des pépinières doit être effectuée dans les creux de toutes les collines de sable existantes ou dans les dépressions des zones sablonneuses. Les graines doivent être plantées dans des conditions humides et doivent être légèrement recouvertes d'une couche de sable, tandis que les grandes graminées matures doivent être plantées dans des trous profonds, le dessus des plantes étant coupé de manière à réduire la résistance au vent."
 
  tech_gpm_precursor_remnants_discovery:0 "Équipement non standard de sécurité pour archéologues"
@@ -807,16 +811,16 @@
  tech_gpm_precursor_remnants_discovery_2:0 "Schémas des triple sondes de recherche"
  tech_gpm_precursor_remnants_discovery_2_desc:0 "L'utilisation d'un modèle de recherche optimisé impliquant trois sondes simultanément augmente considérablement notre capacité à analyser la surface des mondes."
 
- tech_gpm_precursor_energy_grid_discovery:0 "Conduits de Recyclage d'énergie"
+ tech_gpm_precursor_energy_grid_discovery:0 "Conduits de recyclage d'énergie"
  tech_gpm_precursor_energy_grid_discovery_desc:0 "Les nouveaux systèmes de recyclage thermique dans les conduits d'énergie permettent un transfert de puissance plus efficace. Malheureusement, cette nouvelle technologie fonctionne mieux dans les environnements sous vide et est très fragile. Elle convient donc mieux aux conceptions fixes."
 
  tech_gpm_precursor_energy_grid_discovery_2:0 "Théories des Champs d'Energie"
  tech_gpm_precursor_energy_grid_discovery_2_desc:0 "De nouvelles théories sur les champs d'énergie auront un effet positif sur notre capacité à générer de l'énergie."
 
- tech_gpm_precursor_satellite_grid_discovery:0 "Stations d'observation Non-Emissives"
+ tech_gpm_precursor_satellite_grid_discovery:0 "Stations d'observation non-émissives"
  tech_gpm_precursor_satellite_grid_discovery_desc:0 "Un revêtement spécial de matériau absorbant les ultra-fréquences radioélectriques ultra-noir rend notre station d'observation et nos satellites pratiquement invisibles."
 
- tech_gpm_precursor_satellite_grid_discovery_2:0 "Boostes de Signaux de l'Espace lointain"
+ tech_gpm_precursor_satellite_grid_discovery_2:0 "Boost de signaux de l'espace lointain"
  tech_gpm_precursor_satellite_grid_discovery_2_desc:0 "Les satellites spatiaux auto-alimentés agissent comme un système de renforcement de la communication à longue distance. Ces boosters permettent une planification beaucoup plus efficace sur de longues distances."
  
  tech_gpm_precursor_city_discovery:0 "Designs inspirants"
@@ -837,13 +841,13 @@
  tech_gpm_precursor_planetary_gun_discovery_2:0 "Plaquage de refroidissement par aérogel"
  tech_gpm_precursor_planetary_gun_discovery_2_desc:0 "Un système spécial d'aérosol de carbone peut être appliqué à nos systèmes d'armes, leur permettant de tirer plus rapidement sans causer de dommages internes dus à une surchauffe."
  
- tech_gpm_precursor_bunker_grid_discovery:0 "Champs de Force portables"
+ tech_gpm_precursor_bunker_grid_discovery:0 "Champs de force portables"
  tech_gpm_precursor_bunker_grid_discovery_desc:0 "Les émetteurs de champs de force avancés permettent leur déploiement beaucoup plus facilement."
  
  tech_gpm_precursor_bunker_grid_discovery_2:0 "Expérience défensive"
  tech_gpm_precursor_bunker_grid_discovery_2_desc:0 "Les vastes lignes de défense et les bunkers du monde des précurseurs permettent un entraînement au combat beaucoup plus intense et réaliste. L'expertise nécessaire pour attaquer des positions défensives et protéger des positions défensives est rapidement acquise."
  
- tech_gpm_precursor_mechs_discovery:0 "Mechs de Minages"
+ tech_gpm_precursor_mechs_discovery:0 "Mechs de minages"
  tech_gpm_precursor_mechs_discovery_desc:0 "Les petites mechs équipées de deux foreuses minières très puissantes peuvent traverser n'importe quel type de roche qu'elles rencontrent."
  
  tech_gpm_precursor_mechs_discovery_2:0 "Bras de recharge autonomes"
@@ -864,13 +868,13 @@
  tech_gpm_precursor_capital_complex_discovery:0 "Protocoles bureaucratiques"
  tech_gpm_precursor_capital_complex_discovery_desc:0 "Les protocoles efficaces normalisés permettent aux décisions de passer par un système de gouvernance plus rapidement qu'avant."
  
- tech_gpm_precursor_capital_complex_discovery_2:0 "Techniques d'appaisement Diplomatique"
+ tech_gpm_precursor_capital_complex_discovery_2:0 "Techniques d'appaisement diplomatique"
  tech_gpm_precursor_capital_complex_discovery_2_desc:0 "Par un intérêt sincère ou non, nous pouvons réduire la menace perçue envers nos voisins en agissant de manière légèrement condescendante. Une technique diplomatique qui fonctionne universellement. Nous sommes perçus comme le parent plutôt que comme le frère agressif."
  
- tech_gpm_precursor_communication_hub_discovery:0 "Stockage dans des Cristaux de temps"
+ tech_gpm_precursor_communication_hub_discovery:0 "Stockage dans des cristaux de temps"
  tech_gpm_precursor_communication_hub_discovery_desc:0 "Les cristaux de temps artificiels ne se dégradent pas et peuvent être utilisés pour stocker de grandes quantités de connaissances. Toutes les connaissances et les instructions qu'une nouvelle colonie pourrait avoir besoin pour grandir et se développer."
  
- tech_gpm_precursor_communication_hub_discovery_2:0 "Stations de relais Espace lointain"
+ tech_gpm_precursor_communication_hub_discovery_2:0 "Stations de relais espace lointain"
  tech_gpm_precursor_communication_hub_discovery_2_desc:0 "Des stations relais efficaces et autonomes pour renforcer les signaux provenant des frontières de notre empire."
  
  tech_gpm_precursor_singularity_drive_discovery:0 "Base de données principale"
@@ -879,7 +883,7 @@
  tech_gpm_precursor_singularity_drive_discovery_2:0 "Assistant personnel à singularité"
  tech_gpm_precursor_singularity_drive_discovery_2_desc:0 "Une version simple miniaturisée du lecteur de singularité est utilisée comme assistant personnel. Bien que simple, le lecteur personnel peut calculer des tâches extrêmement complexes si on le lui demande."
  
- tech_gpm_precursor_eternal_fortress_discovery:0 "Camouflage Orbital"
+ tech_gpm_precursor_eternal_fortress_discovery:0 "Camouflage orbital"
  tech_gpm_precursor_eternal_fortress_discovery_desc:0 "Une manière unique de construire des bâtiments avec des angles et des couleurs variés en fonction de l'environnement des structures peut les rendre très difficiles à voir depuis l'orbite."
  
  tech_gpm_precursor_eternal_fortress_discovery_2:0 "Garnisons polaires"
@@ -888,23 +892,23 @@
  tech_gpm_precursor_prison_planet_discovery:0 "Drones de patrouille"
  tech_gpm_precursor_prison_planet_discovery_desc:0 "De minuscules drones qui patrouillent dans les rues, un peu comme leur variante immobile statique: la caméra de circulation."
  
- tech_gpm_precursor_prison_planet_discovery_2:0 "Propagande de Planète-Prison"
+ tech_gpm_precursor_prison_planet_discovery_2:0 "Propagande de planète-prison"
  tech_gpm_precursor_prison_planet_discovery_2_desc:0 "Un rappel brutal que les planètes pénitentiaires ne sont pas amusantes. La peur d'être envoyé à elle-seule suffit à garder la plupart des citoyens dans le droit chemin."
  
  tech_gpm_precursor_mines_discovery:0 "Champ de capteur minéral"
  tech_gpm_precursor_mines_discovery_desc:0 "Champ de capteurs capable de trouver même les plus petites et profondes veines de minéraux."
  
- tech_gpm_precursor_mines_discovery_2:0 "Nanites Tunneliers"
+ tech_gpm_precursor_mines_discovery_2:0 "Nanites tunneliers"
  tech_gpm_precursor_mines_discovery_2_desc:0 "De minuscules machines conçues pour creuser des tunnels profonds vers des veines minérales. Ces machines automatisées construisent des tunnels extrêmement complexes et robustes, capables d'aller plus en profondeur que jamais."
  tech_gpm_precursor_mines_discovery_2TT:0 "§YDébloque le bâtiment :§! Nexus de Nanites Miniers"
  
  tech_gpm_precursor_manufactorium_discovery:0 "Fonderies froides"
  tech_gpm_precursor_manufactorium_discovery_desc:0 "Des cryosystèmes à haute pression sont incorporés dans nos forges en alliage, ce qui leur permet de couler du métal chaud en succession rapide."
  
- tech_gpm_precursor_manufactorium_discovery_2:0 "Ceintures Zero-G"
+ tech_gpm_precursor_manufactorium_discovery_2:0 "Ceintures zéro-G"
  tech_gpm_precursor_manufactorium_discovery_2_desc:0 "Les champs anti-gravité peuvent transporter des matériaux et des produits finis d'une partie de l'usine à l'autre dans n'importe quelle direction sans nécessiter d'installations physiques. Plusieurs chaînes de production peuvent être installées dans un très petit espace."
  
- tech_gpm_precursor_vaults_discovery:0 "Emissions d'Artéfacts"
+ tech_gpm_precursor_vaults_discovery:0 "Emissions d'artéfacts"
  tech_gpm_precursor_vaults_discovery_desc:0 "La découverte d'émissions uniques dans le sous-espace provenant de ces artefacts nous permet de les détecter depuis de grandes distances. La galaxie en est pleine, il suffit de les ramasser!"
  
  tech_gpm_precursor_vaults_discovery_2:0 "Carte au trésor antique"
@@ -940,19 +944,19 @@
  tech_gpm_precursor_ruins_discovery_2:0 "Rapide et lâche"
  tech_gpm_precursor_ruins_discovery_2_desc:0 "Ne pas tenir compte de certaines règles complexes lors de l'exploration de vestiges anciens est nécessaire pour vaincre nos rivaux aux découvertes."
  
- tech_gpm_precursor_obelisks_discovery:0 "Obélisque Terraformant"
+ tech_gpm_precursor_obelisks_discovery:0 "Obélisque terraformant"
  tech_gpm_precursor_obelisks_discovery_desc:0 "Assembler des artefacts brisés nous a amené à découvrir son utilisation principale. C'était un obélisque terraformant. Un grand bâtiment conçu pour filtrer, chauffer et répandre divers gaz et fluides sur une partie de la planète afin de la transformer."
  
  tech_gpm_precursor_obelisks_discovery_2:0 "Appareil personnel A.I."
  tech_gpm_precursor_obelisks_discovery_2_desc:0 "L'un des artefacts analysés par notre scientifique en chef est un petit obélisque, à peu près de la taille d'une tasse. Son objectif principal semble être d'aider au calcul des problèmes complexes imputés."
  
- tech_gpm_very_hot_core_discovery:0 "Dynamique des fluides du Noyau"
+ tech_gpm_very_hot_core_discovery:0 "Dynamique des fluides du noyau"
  tech_gpm_very_hot_core_discovery_desc:0 "Une meilleure compréhension des courants de convection autour du noyau de la planète profite grandement à notre capacité de terraformation."
  
- tech_gpm_very_hot_core_discovery_2:0 "Cration Volcanique"
+ tech_gpm_very_hot_core_discovery_2:0 "Création volcanique"
  tech_gpm_very_hot_core_discovery_2_desc:0 "La théorie sur la création de volcans artificiels sur des emplacements stratégiques pour déclencher un hiver global temporaire permet d'améliorer la Terraformer : Le piégeage de particules dans l'atmosphère et le réchauffement de la planète peuvent réduire considérablement les besoins en énergie nécessaires à la terraformation d'un monde."
  
- tech_gpm_gaia_world_discovery:0 "Théories Climatiques"
+ tech_gpm_gaia_world_discovery:0 "Théories climatiques"
  tech_gpm_gaia_world_discovery_desc:0 "L'étude des nombreux climats du Monde Gaya découvert a donné lieu à d'intéressantes théories sur l'existence de climats exotiques. Cette connaissance profitera grandement à notre capacité d'adaptation à nos environnements."
  
  tech_gpm_gaia_world_discovery_2:0 "Graines indestructibles"
@@ -1075,6 +1079,35 @@
  tech_gpm_singularity_matrix:0 "Duplication de matrice"
  tech_gpm_singularity_matrix_desc:0 "Nous savons copier son design et ses matériaux, mais nous ne savons pas exactement comment cela fonctionne. En dupliquant la matrice et en copiant sur l'état d'énergie, nous pouvons effectivement en créer davantage."
 
+ gpm_tech_ringworld_parabolic_forcefield:0 "Anneau-monde $decision_gpm_ringworld_parabolic_forcefield$"
+ gpm_tech_ringworld_parabolic_forcefield_desc:0 "La décision d'Anneau-monde §H$decision_gpm_ringworld_parabolic_forcefield$§! ajoute un modificateur d'anneau-monde §H$gpm_ringworld_breath_taking_view$§! increasing pop hapiness and reduces colony bombardment damage."
+ gpm_tech_ringworld_parabolic_forcefield_tt:0 "§HDéverrouille la décision de l'anneau-monde§! : $decision_gpm_ringworld_parabolic_forcefield$"
+ 
+ gpm_tech_ringworld_neural_nexus:0 "Anneau-monde $decision_gpm_ringworld_neural_nexus$"
+ gpm_tech_ringworld_neural_nexus_desc:0 "La décision d'Anneau-monde §H$decision_gpm_ringworld_neural_nexus$§! ajoute un modificateur d'anneau-monde §H$gpm_ringworld_neural_nexus$§! augmentant la production de recherche de Pops."
+ gpm_tech_ringworld_neural_nexus_tt:0 "§HDéverrouille la décision de l'anneau-monde§! : $decision_gpm_ringworld_neural_nexus$"
+ 
+ gpm_tech_ringworld_idyllic_gardens:0 "Anneau-monde $decision_gpm_ringworld_idyllic_gardens$"
+ gpm_tech_ringworld_idyllic_gardens_desc:0 "La décision d'Anneau-monde §H$decision_gpm_ringworld_idyllic_gardens$§! ajoute un modificateur d'anneau-monde §H$gpm_ringworld_idyllic_gardens$§! augmentant la production d'unité et réduisant le besoin de services."
+ gpm_tech_ringworld_idyllic_gardens_tt:0 "§HDéverrouille la décision de l'anneau-monde§! : $decision_gpm_ringworld_idyllic_gardens$"
+ 
+ gpm_tech_ringworld_xeno_zoo:0 "Anneau-monde $decision_gpm_ringworld_xeno_zoo$"
+ gpm_tech_ringworld_xeno_zoo_desc:0 "La décision d'Anneau-monde §H$decision_gpm_ringworld_xeno_zoo$§! ajoute un modificateur d'anneau-monde §H$gpm_ringworld_xeno_zoo$§! permettant la construction de xénozoos supplémentaires et augmente la production des intervenants culturels."
+ gpm_tech_ringworld_xeno_zoo_tt:0 "§HDéverrouille la décision de l'anneau-monde§! : $decision_gpm_ringworld_xeno_zoo$"
+ 
+ gpm_tech_ringworld_simulators:0 "Anneau-monde $decision_gpm_ringworld_simulators$"
+ gpm_tech_ringworld_simulators_desc:0 "La décision d'Anneau-monde §H$decision_gpm_ringworld_simulators$§! ajoute un modificateur d'anneau-monde §H$gpm_ringworld_battle_simulators$§! augmente la vitesse d'entraînement de l'armée de l'anneau-monde et ajoute des emplois de soldats"
+ gpm_tech_ringworld_simulators_tt:0 "§HDéverrouille la décision de l'anneau-monde§! : $decision_gpm_ringworld_simulators$"
+ 
+ gpm_tech_ringworld_endless_oceans:0 "Anneau-monde $decision_gpm_ringworld_endless_oceans$"
+ gpm_tech_ringworld_endless_oceans_desc:0 "La décision d'Anneau-monde §H$decision_gpm_ringworld_endless_oceans$§! ajoute un modificateur d'anneau-monde §H$gpm_ringworld_endless_ocean$§! ce qui permet aux agriculteurs de produire de l'unité et augmente la production alimentaire des agriculteurs."
+ gpm_tech_ringworld_endless_oceans_tt:0 "§HDéverrouille la décision de l'anneau-monde§! : $decision_gpm_ringworld_endless_oceans$"
+ 
+ gpm_tech_ringworld_mass_transit:0 "Anneau-monde $decision_gpm_ringworld_mass_transit$"
+ gpm_tech_ringworld_mass_transit_desc:0 "La décision d'Anneau-monde §H$decision_gpm_ringworld_mass_transit$§! ajoute un modificateur d'anneau-monde §H$gpm_ringworld_mass_transit_systems$§! réduire le coût d'entretien des pops."
+
+
+
  #######################################
  #### Traits
  #######################################
@@ -1114,6 +1147,9 @@
  leader_trait_gpm_battle_standards:0 "Normes de bataille"
  leader_trait_gpm_battle_standards_desc:0 "Bannières colorées qui inspirent les troupes et font peur à vos ennemis mortels."
  
+ leader_trait_gpm_personal_mech:0 "Mech Personnel"
+ leader_trait_gpm_personal_mech_desc:0 "Ce leader a accès à un mech personnel."
+
  #######################################
  #### War Goals
  #######################################
