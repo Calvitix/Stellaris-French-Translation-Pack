@@ -21,6 +21,8 @@
  # gpm_survey.INVESTIGATE.PRECURSOR_ARTIFACT:0 "Trouvez des §L artefacts [Root.Owner.gpm_precursor_empire_name]§!"
  
  # tooltips
+ gpm_more_discovery_rewards_name:0 "NON UTILISE, MAIS REQUIS"
+ gpm_no_discovery_rewards_name:0 "NON UTILISE, MAIS REQUIS"
  gpm_reward_manufactorium_ship:0 "Prenez possession de l'ancien §Y$gpm_manufactorium_ship$§! .Ce vaisseau produit passivement des §Ressources§! de ses composants internes."
  gpm_reward_precursor_ship:0 "Prenez possession de l'ancien §Y$gpm_precursor_destroyer$§! .Ce vaisseau produit passivement de la §HRecherches§! de ses composants internes."
  gpm_exotic_park_rewarded_tt:0 "Débloque la possibilité de construire §Y$gpm_building_exotic_park$§!"
@@ -30,6 +32,13 @@
  gpm_battle_standards_trait_rewarded_tooltip:0 "Déverrouille le trait de leader §Y$leader_trait_gpm_battle_standards$§!"
  gpm_personal_mech_trait_rewarded_tooltip:0 "Déverrouille le trait de leader §Y$leader_trait_gpm_personal_mech$§!"
  gpm_enigmatic_update_rewarded:0 "§R == ERREUR ==\n== ACCES_NON_AUTORISE == §!\n§HInfection_ESPECES : §! §Y$trait_gpm_enigmatic_update$§!\n§R == ERREUR == §!"
+
+ gpm_unlock_one_nano_forge_build_count:0 "Nous avons maintenant la capacité de construire §G1§! §Y$building_nano_forge$§! on one of our planets."
+ gpm_unlock_one_skydome_build_count:0 "Nous avons maintenant la capacité de construire §G1§! §Y$building_fe_dome$§! on one of our planets."
+ gpm_unlock_one_dimensional_fabricator_build_count:0 "Nous avons maintenant la capacité de construire §G1§! §Y$building_dimensional_fabricator$§! on one of our planets."
+ gpm_unlock_one_affluence_center_build_count:0 "Nous avons maintenant la capacité de construire §G1§! §Y$building_affluence_center$§! on one of our planets."
+ gpm_unlock_one_nourishment_center_build_count:0 "Nous avons maintenant la capacité de construire §G1§! §Y$building_nourishment_center$§! on one of our planets."
+ gpm_unlock_one_class_4_singularity_build_count:0 "Nous avons maintenant la capacité de construire §G1§! §Y$building_class_4_singularity$§! on one of our planets."
  
  gpm_survey.SPACE:0 "\n--- de plus : ---\n"
  
@@ -82,9 +91,35 @@
  gpm_survey.INVESTIGATE.8:0 "Réaliser une analyse complémentaire"
  gpm_survey.INVESTIGATE.8_CORP:0 "J'ai besoin d'un autre rapport!"
  gpm_survey.INVESTIGATE.8_MACH:0 "Calculer des points de données supplémentaires"
- gpm_survey.LICENCE_MINING:0 "Vendre les droits miniers!"
- gpm_survey.LICENCE_RESEARCH:0 "Vendre les droits de Recherche!"
+ gpm_survey.LICENCE_MINING:0 "Vendre les droits miniers !"
+ gpm_survey.LICENCE_MINING_2:0 "Qui a dit que la cupidité n'est pas bonne  ? !"
+ gpm_survey.LICENCE_MINING_3:0 "Les coffres seront pleins !"
+ gpm_survey.LICENCE_MINING_4:0 "Enchères la planète !"
+ gpm_survey.LICENCE_MINING_5:0 "Vendre les droits de forage !"
+ gpm_survey.LICENCE_MINING_6:0 "Enchères les droits miniers !"
+ gpm_survey.LICENCE_MINING_7:0 "Vendez-le à l'une de nos entreprises !"
+ gpm_survey.LICENCE_MINING_8:0 "Vendre les droits d'exploitation !"
+ gpm_survey.LICENCE_MINING_9:0 "Enchères les droits d'exploitation !"
+ gpm_survey.LICENCE_RESEARCH:0 "Vendre les droits de recherche !"
+ gpm_survey.LICENCE_RESEARCH_2:0 "L'argent, l'argent, l'argent !"
+ gpm_survey.LICENCE_RESEARCH_3:0 "Breveter la recherche et le profit !"
+ gpm_survey.LICENCE_RESEARCH_4:0 "Vendre la recherche au plus offrant !"
+ gpm_survey.LICENCE_RESEARCH_5:0 "Enchères la découverte !"
+ gpm_survey.LICENCE_RESEARCH_6:0 "Cela va chercher un bon prix !"
+ gpm_survey.LICENCE_RESEARCH_7:0 "Enchères les droits de recherche !"
+ gpm_survey.LICENCE_RESEARCH_8:0 "Enchères les droits d'exploitation !"
+ gpm_survey.LICENCE_RESEARCH_9:0 "Externaliser la recherche !"
+ gpm_survey.LICENCE_RESEARCH_10:0 "Vendre les droits d'exploitation !"
  gpm_survey.RESEARCH_EMPIRE:0 "La connaissance est notre priorité"
+ gpm_survey.RESEARCH_EMPIRE_2:0 "La compréhension est la progression"
+ gpm_survey.RESEARCH_EMPIRE_3:0 "La découverte est une signification"
+ gpm_survey.RESEARCH_EMPIRE_4:0 "Apprendre, c'est grandir"
+ gpm_survey.RESEARCH_EMPIRE_5:0 "Le temps révélera ses secrets"
+ gpm_survey.RESEARCH_EMPIRE_6:0 "Cette recherche nous aidera"
+ gpm_survey.RESEARCH_EMPIRE_7:0 "La science est notre priorité"
+ gpm_survey.RESEARCH_EMPIRE_8:0 "La compréhension n'est que le début"
+ gpm_survey.RESEARCH_EMPIRE_9:0 "L'expérimentation nécessite un sacrifice"
+ gpm_survey.RESEARCH_EMPIRE_10:0 "Nous devons savoir"
  
  
  #######################################
@@ -137,7 +172,7 @@
  
  # gpm_shrinking_giant
  gpm_survey_minor.55.name:0 "Mini Géante"
- gpm_survey_minor.55.desc:0 "Le vaisseau scientifique §H[root.GetName]§! a découvert une petite géante gazeuse inhabituellle. Il apparaît que les vents solaires violents de l'étoile principale dans §H[From.solar_system.GetName]§! sont la cause de cet étrange petite géante. En effet, Ces vents solaires puissants ont, au cours de millions d'années, dépouillé la majeure partie de la couche externe et intermédiaire de l'atmosphère gazeuse de la géante gazeuse."
+ gpm_survey_minor.55.desc:0 "Le vaisseau scientifique §H[root.GetName]§! a découvert une petite géante gazeuse inhabituellle. Il apparaît que les vents solaires violents de l'étoile principale dans §H[From.solar_system.GetName]§! sont la cause de cette étrange petite géante. En effet, Ces vents solaires puissants ont, au cours de millions d'années, dépouillé la majeure partie de la couche externe et intermédiaire de l'atmosphère gazeuse de la géante gazeuse."
  
  # gpm_aeroplankton_clouds
  gpm_survey_minor.60.name:0 "Nuages de vie"
@@ -196,7 +231,7 @@
  
  # gpm_singing_star
  gpm_survey_minor.130.name:0 "Etoile d'Opéra"
- gpm_survey_minor.130.desc:0 "Pendant le balayage de l'étoile §H[From.GetName]§!, les ordinateurs de bord de notre vaisseau scientifique ont rapidement détecté des motifs répétitifs dans les signaux radioélectriques qu'elle émet. Un ingénieur a reconnu certains de ces motifs à partir d'un morceau de musique qu'il a déjà observé. Cet ingénieur a procédé à la conversion des motifs à l'aide d'un instrument clair particulier et a réussi à produire un son tout à fait unique. Un enregistrement complet de ces motifs a produit un morceau de musique assez beau. Avec le bon équipement, vous pouvez pratiquement entendre cette étoile chanter! "
+ gpm_survey_minor.130.desc:0 "Pendant le balayage de l'étoile §H[From.GetName]§!, les ordinateurs de bord de notre vaisseau scientifique ont rapidement détecté des motifs répétitifs dans les signaux radioélectriques qu'elle émet. Un ingénieur a reconnu certains de ces motifs à partir d'un morceau de musique qu'il a déjà observé. Cet ingénieur a procédé à la conversion des motifs à l'aide d'un instrument clair particulier et a réussi à produire un son tout à fait unique. Un enregistrement complet de ces motifs a produit un morceau de musique assez beau. Avec le bon équipement, vous pouvez pratiquement entendre cette étoile chanter!"
  
  # gpm_precursor_star_filter
  gpm_survey_minor.135.name:0 "Ancienne étoile disco"
@@ -572,7 +607,7 @@
  gpm_survey_precursors.130.mach.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nCe monde semble avoir des régions souterraines ressemblant à des laboratoires et à des installations d'expérimentation, conduisant à une salle centrale contenant un énorme moteur à singularité qui semble regorger d'énergie.\n\nL'équipe scientifique a réussi à mettre en place un relais d'observation pour surveiller les effets et les capacités du lecteur de singularité. Malgré cela, aucune indication sur l'utilisation de ce lecteur n'a été trouvée. Jusqu'à ce que cela soit découvert, ils recommandent la prudence lors de la construction d'une telle technologie. "
  
  # gpm_precursor_eternal_fortress discovery
- gpm_survey_precursors.140.name:0 "Découverte : Forteresse éternelle §L[this.owner.gpm_precursor_empire_name]§! "
+ gpm_survey_precursors.140.name:0 "Découverte : Forteresse éternelle §L[this.owner.gpm_precursor_empire_name]§!"
  gpm_survey_precursors.140.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé une seule forteresse sur ce monde. elle semble abandonnée depuis longtemps, mais reste dans des conditions remarquables. La zone entourant la forteresse montre des signes de dommages importants, mais la forteresse semble intacte."
  	# hive mind
  gpm_survey_precursors.140.hive.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé une seule forteresse sur ce monde. elle semble abandonnée depuis longtemps, mais reste dans des conditions remarquables. La zone entourant la forteresse montre des signes de dommages importants, mais la forteresse semble intacte."
@@ -604,15 +639,15 @@
  gpm_survey_precursors.170.mach.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nDes analyses approfondies de la surface de la planète ont révélé un réseau de tunnels et de voûtes enterrés sous la surface. Les points d'accès à la surface mènent finalement à un énorme complexe industriel entourant le noyau de la planète. La technologie utilisée par la civilisation très avancée ayant bâti ce lieu permettait jadis au complexe de drainer l'énergie du noyau pour alimenter sa vaste chaîne de production. \n\nBien que l'équipe d'ingénierie n'ait pas pu déchiffrer pour quoi l'installation avait été conçue à l'origine, elle a décidé de l'adapter à nos besoins. Grâce au génie mécanique des créateurs du complexe, une déstabilisation catastrophique du noyau de la planète semble improbable. Nos ingénieurs notent cependant que des choses étranges se sont produites. "
 
  # gpm_precursor_vaults discovery
- gpm_survey_precursors.180.name:0 "Découverte : Chambre forte §L[this.owner.gpm_precursor_empire_name]§! "
- gpm_survey_precursors.180.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nDispersés à travers les montagnes de ce monde se trouvent ce qui semble être de petits avant-postes. Une enquête plus approfondie révèle diverses entrées cachées dans de grandes installations de stockage. La plupart sont vides, pillés dans son passé ancien ou jamais remplis. Quelques-uns, cependant, contiennent des trésors indicibles, à la fois archéologiques et technologiques. \n\nL'équipe scientifique indique que les avant-postes situés à l'extérieur des coffres sont toujours fonctionnels et peuvent être convertis à notre technologie avec un minimum d'effort. Si l'on étudie plus avant, les coffres peuvent révéler des progrès scientifiques ou des secrets supplémentaires."
+ gpm_survey_precursors.180.name:0 "Découverte : Chambre forte §L[this.owner.gpm_precursor_empire_name]§!"
+ gpm_survey_precursors.180.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nDispersés à travers les montagnes de ce monde se trouvent ce qui semble être de petits avant-postes. Une enquête plus approfondie révèle diverses entrées cachées dans de grandes installations de stockage. La plupart sont vides, pillés dans son passé ancien ou jamais remplis. Quelques-uns, cependant, contiennent des trésors indicibles, à la fois archéologiques et technologiques. \n\nL'équipe scientifique indique que les avant-postes qui dissimulent les caches sont toujours fonctionnels et peuvent être convertis à notre technologie avec un minimum d'effort. Si l'on étudie plus avant, les coffres peuvent révéler des progrès scientifiques ou des secrets supplémentaires."
  	# hive mind
- gpm_survey_precursors.180.hive.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nDispersés à travers les montagnes de ce monde se trouvent ce qui semble être de petits avant-postes. Une enquête plus approfondie révèle diverses entrées cachées dans de grandes installations de stockage. La plupart sont vides, pillés dans son passé ancien ou jamais remplis. Quelques-uns, cependant, contiennent des trésors indicibles, à la fois archéologiques et technologiques. \n\nnos drones indiquent que les avant-postes situés à l'extérieur des coffres sont toujours fonctionnels et peuvent être convertis à notre technologie avec un minimum d'effort. Si l'on étudie plus avant, les coffres peuvent révéler des progrès scientifiques ou des secrets supplémentaires."
+ gpm_survey_precursors.180.hive.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nDispersés à travers les montagnes de ce monde se trouvent ce qui semble être de petits avant-postes. Une enquête plus approfondie révèle diverses entrées cachées dans de grandes installations de stockage. La plupart sont vides, pillés dans son passé ancien ou jamais remplis. Quelques-uns, cependant, contiennent des trésors indicibles, à la fois archéologiques et technologiques. \n\nnos drones indiquent que les avant-postes qui dissimulent les caches sont toujours fonctionnels et peuvent être convertis à notre technologie avec un minimum d'effort. Si l'on étudie plus avant, les coffres peuvent révéler des progrès scientifiques ou des secrets supplémentaires."
  	# machine empire
- gpm_survey_precursors.180.mach.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nDispersés à travers les montagnes de ce monde se trouvent ce qui semble être de petits avant-postes. Une enquête plus approfondie révèle diverses entrées cachées dans de grandes installations de stockage. La plupart sont vides, pillés dans son passé ancien ou jamais remplis. Quelques-uns, cependant, contiennent des trésors indicibles, à la fois archéologiques et technologiques. \n\nNos unités indiquent que les avant-postes situés à l'extérieur des coffres sont toujours fonctionnels et peuvent être convertis à notre technologie avec un minimum d'effort. Si l'on étudie plus avant, les coffres peuvent révéler des progrès scientifiques ou des secrets supplémentaires. "
+ gpm_survey_precursors.180.mach.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nDispersés à travers les montagnes de ce monde se trouvent ce qui semble être de petits avant-postes. Une enquête plus approfondie révèle diverses entrées cachées dans de grandes installations de stockage. La plupart sont vides, pillés dans son passé ancien ou jamais remplis. Quelques-uns, cependant, contiennent des trésors indicibles, à la fois archéologiques et technologiques. \n\nNos unités indiquent que les avant-postes qui dissimulent les caches sont toujours fonctionnels et peuvent être convertis à notre technologie avec un minimum d'effort. Si l'on étudie plus avant, les coffres peuvent révéler des progrès scientifiques ou des secrets supplémentaires. "
 
  # gpm_precursor_crashed_spacestation discovery
- gpm_survey_precursors.190.name:0 "Découverte : Crash d'une base orbitale §L[this.owner.gpm_precursor_empire_name]§! "
+ gpm_survey_precursors.190.name:0 "Découverte : Crash d'une base orbitale §L[this.owner.gpm_precursor_empire_name]§!"
  gpm_survey_precursors.190.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nUn cratère colossal marque cette planète par ailleurs insignifiante, contenant les vestiges d'une station spatiale archaïque. En examinant les débris, on ne peut pas en dire beaucoup, mais nos scientifiques soupçonnent qu'il appartenait à un empire perdu. \n\nEtudier les effets de l'impact pourrait permettre de mieux comprendre la vitesse, la physique et la durabilité. des constructions massives et des planètes. Les ingénieurs ont mis en place un avant-poste de base pour poursuivre les expériences. "
  	# hive mind
  gpm_survey_precursors.190.hive.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nUn cratère colossal marque cette planète par ailleurs insignifiante, contenant les vestiges d'une station spatiale archaïque. En examinant les débris, on ne peut pas en dire beaucoup, mais nos drones scientifiques soupçonnent qu'il appartenait à un empire perdu. \n\nEtudier les effets de l'impact pourrait permettre de mieux comprendre la vitesse, la physique et la durabilité. des constructions massives et des planètes. Les ingénieurs ont mis en place un avant-poste de base pour poursuivre les expériences."
@@ -620,7 +655,7 @@
  gpm_survey_precursors.190.mach.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nUn cratère colossal marque cette planète par ailleurs insignifiante, contenant les vestiges d'une station spatiale archaïque. En examinant les débris, on ne peut pas en dire beaucoup, mais nos unités scientifiques soupçonnent qu'il appartenait à un empire perdu. \n\nEtudier les effets de l'impact pourrait permettre de mieux comprendre la vitesse, la physique et la durabilité. des constructions massives et des planètes. Les ingénieurs ont mis en place un avant-poste de base pour poursuivre les expériences."
 
  # gpm_precursor_battleground_ruins discovery
- gpm_survey_precursors.200.name:0 "Découverte : Champ de bataille §L[this.owner.gpm_precursor_empire_name]§! "
+ gpm_survey_precursors.200.name:0 "Découverte : Champ de bataille §L[this.owner.gpm_precursor_empire_name]§!"
  gpm_survey_precursors.200.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nAprès l'atterrissage, les chercheurs et les géomètres ont commencé à cartographier minutieusement la surface. \n\nIl ne reste que des traces de brûlures, des bâtiments à moitié détruits et des débris de milliers d'armes. Après un examen minutieux, nos enquêteurs ont déterminé qu'une bataille massive a exterminé la civilisation qui avait habité cet endroit. \n\nCette collection d'armements et de données de bataille datant de plusieurs millénaires permettra à nos spécialistes en armement de mettre en pratique différentes innovations à adapter sur nos armements existants."
  	# hive mind
  gpm_survey_precursors.200.hive.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nAprès l'atterrissage, les drones chercheurs et géomètres ont commencé à cartographier minutieusement la surface. \n\nIl ne reste que des traces de brûlures, des bâtiments à moitié détruits et des débris de milliers d'armes. Après un examen minutieux, nos drones ont déterminé qu'une bataille massive a exterminé la civilisation qui avait habité cet endroit. \n\nCette collection d'armements et de données de bataille datant de plusieurs millénaires permettra à nos spécialistes en armement de mettre en pratique différentes innovations à adapter sur nos armements existants."
@@ -628,7 +663,7 @@
  gpm_survey_precursors.200.mach.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nAprès l'atterrissage, les unités chercheuses et de cartographie ont commencé à cartographier minutieusement la surface. \n\nIl ne reste que des traces de brûlures, des bâtiments à moitié détruits et des débris de milliers d'armes. Après un examen minutieux, nos enquêteurs ont déterminé qu'une bataille massive a exterminé la civilisation qui avait habité cet endroit. \n\nCette collection d'armements et de données de bataille datant de plusieurs millénaires permettra à nos spécialistes en armement de mettre en pratique différentes innovations à adapter sur nos armements existants."
 
  # gpm_precursor_outpost_ruins discovery
- gpm_survey_precursors.210.name:0 "Découverte : Avant-poste §L[this.owner.gpm_precursor_empire_name]§! "
+ gpm_survey_precursors.210.name:0 "Découverte : Avant-poste §L[this.owner.gpm_precursor_empire_name]§!"
  gpm_survey_precursors.210.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nA l'atterrissage, nous avons découvert que ce monde était vierge, à l'exception d'une structure isolée située au coeur d'une forêt. Le bâtiment est toujours alimenté et ne contient que quelques pièces. Des marques étranges ressemblant à des runes sont gravés sur toutes les surfaces. Il est possible que cela puisse être les restes d'une langue archaïque. Ou encore, les agissements d'un ermite fou. \n\nLes experts en linguistique affirment que la poursuite des recherches sur ce langage runique pourrait conduire à des avancées significatives dans la compréhension des constructions sociales et des idiomes extraterrestres. Même si ces extraterrestres ont disparu il y a des siècles. "
  	# hive mind
  gpm_survey_precursors.210.hive.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nA l'atterrissage, nous avons découvert que ce monde était vierge, à l'exception d'une structure isolée située au coeur d'une forêt. Le bâtiment est toujours alimenté et ne contient que quelques pièces. Des marques étranges ressemblant à des runes sont gravés sur toutes les surfaces. Il est possible que cela puisse être les restes d'une langue archaïque. Ou encore, les agissements d'un ermite fou. \n\nLes experts en linguistique affirment que la poursuite des recherches sur ce langage runique pourrait conduire à des avancées significatives dans la compréhension des constructions sociales et des idiomes extraterrestres. Même si ces extraterrestres ont disparu il y a des siècles.  "
@@ -636,7 +671,7 @@
  gpm_survey_precursors.210.mach.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nA l'atterrissage, nous avons découvert que ce monde était vierge, à l'exception d'une structure isolée située au coeur d'une forêt. Le bâtiment est toujours alimenté et ne contient que quelques pièces. Des marques étranges ressemblant à des runes sont gravés sur toutes les surfaces. Il est possible que cela puisse être les restes d'une langue archaïque. Ou encore, les agissements d'un ermite fou. \n\nLes experts en linguistique affirment que la poursuite des recherches sur ce langage runique pourrait conduire à des avancées significatives dans la compréhension des constructions sociales et des idiomes extraterrestres. Même si ces extraterrestres ont disparu il y a des siècles.  "
 
  # gpm_precursor_harbor_ruins discovery
- gpm_survey_precursors.220.name:0 "Découverte : Ruines de spatioport §L[this.owner.gpm_precursor_empire_name]§! "
+ gpm_survey_precursors.220.name:0 "Découverte : Ruines de spatioport §L[this.owner.gpm_precursor_empire_name]§!"
  gpm_survey_precursors.220.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nSur les nombreuses côtes de ce monde se trouvent les vestiges d'un système portuaire sophistiqué. Quiconque a occupé cette planète il y a des siècles a exploité au maximum son potentiel marin, grâce à des installations de pêche et de traitement performantes. \n\nL'utilisation de mondes "agricoles" n'est pas rare dans la galaxie, mais nos chercheurs ne sont pas convaincus qu'il s'agisse là de la seule utilisation du port. Malheureusement, il faudra peut-être des centaines d'années avant de pouvoir déterminer quels autres secrets il peut garder. "
  	# hive mind
  gpm_survey_precursors.220.hive.desc:0 "L'expédition scientifique dirigée par §Y[Root.GetLeaderName]§! depuis le vaisseau scientifique §H[Root.GetName]§! a trouvé quelque chose d'intéressant !\nSur les nombreuses côtes de ce monde se trouvent les vestiges d'un système portuaire sophistiqué. Quiconque a occupé cette planète il y a des siècles a exploité au maximum son potentiel marin, grâce à des installations de pêche et de traitement performantes. \n\nL'utilisation de mondes "agricoles" n'est pas rare dans la galaxie, mais nos chercheurs ne sont pas convaincus qu'il s'agisse là de la seule utilisation du port. Malheureusement, il faudra peut-être des centaines d'années avant de pouvoir déterminer quels autres secrets il peut garder. "

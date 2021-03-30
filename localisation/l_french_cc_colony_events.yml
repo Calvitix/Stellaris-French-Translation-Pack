@@ -486,7 +486,7 @@ cc_hostile_towards_xenos:0 "Hostile envers les xénos"
 cc_colony_events.6.name:0 "Gourou spiritualiste influent sur [root.GetName]"
 cc_colony_events.6.desc.pos:0 "Une colonie naissante est toujours pleine d'opportunités à saisir pour ceux ambitieux à l'idée de gravir l'échelle sociale.\n\nSur §Y[root.GetName]§!, c'est le cas. Les enseignements d'un certain gourou spiritualiste appelé §Y[cc_colony_leader.GetName]§! sont devenus extrêmement populaires parmi les nouveaux colons, et ils ont commencé à l'appeler leur "Ancien" et suivent son conseil, avant même de consulter les hautes autorités [root.owner.GetSpeciesAdj]. Heureusement, [cc_colony_leader.GetSheHe] a pris soin de ne pas apparaître comme un usurpant le pouvoir de nos autorités, et les a consulté avant de prendre des décisions importantes. De leur côté, nos responsables locaux approuvent ses conseils et initiatives, et recommendent de l'intégrer dans la structure décisionnelle locale."
 cc_colony_events.6.desc.neut:0 "Une colonie naissante est toujours pleine d'opportunités à saisir pour ceux ambitieux à l'idée de gravir l'échelle sociale, surtout pour ceux qui n'en seraient pas capable sur des mondes où les autorités sont un peu plus établies.\n\nSur §Y[root.GetName]§!, c'est le cas. Les enseignements d'un certain gourou spiritualiste appelé §Y[cc_colony_leader.GetName]§! sont devenus extrêmement populaires parmi les nouveaux colons, et ils ont commencé à l'appeler leur "Ancien" et suivent son conseil, avant même de consulter les hautes autorités [root.owner.GetSpeciesAdj]. [cc_colony_leader.GetSheHeCap] n'a pour l'instant pas pris posture contre '§Y[root.owner.GetName]§!' - en effet, [cc_colony_leader.GetSheHe] a jusque-là bien coopéré avec nos autorités locales - mais ses idées sont bien loin de celles faisant foi chez les dirigeants de '§Y[root.owner.GetName]§!'.\n\nQue devrions-nous faire de son cas ?"
-cc_colony_events.6.desc.neg:0 "Une colonie naissante est toujours pleine d'opportunités à saisir pour ceux ambitieux à l'idée de gravir l'échelle sociale, surtout pour ceux qui n'en seraient pas capable sur des mondes où les autorités sont un peu plus établies.\n\nSur §Y[root.GetName]§!, c'est le cas. Les enseignements d'un certain gourou spiritualiste appelé §Y[cc_colony_leader.GetName]§! sont devenus extrêmement populaires parmi les nouveaux colons, et ils ont commencé à l'appeler leur "Ancien" et suivent son conseil, avant même de consulter les hautes autorités [root.owner.GetSpeciesAdj]. [cc_colony_leader.GetSheHeCap] [cc_colony_leader.GetSheHeCap] utilise son nouveau pouvoir pour prendre une position qui est bien loin de ce que représente '§Y[root.owner.GetName]§!', et a été décrit comme "une nuisance" par nos représentants locaux.\n\nQue devrions-nous faire de son cas ?
+cc_colony_events.6.desc.neg:0 "Une colonie naissante est toujours pleine d'opportunités à saisir pour ceux ambitieux à l'idée de gravir l'échelle sociale, surtout pour ceux qui n'en seraient pas capable sur des mondes où les autorités sont un peu plus établies.\n\nSur §Y[root.GetName]§!, c'est le cas. Les enseignements d'un certain gourou spiritualiste appelé §Y[cc_colony_leader.GetName]§! sont devenus extrêmement populaires parmi les nouveaux colons, et ils ont commencé à l'appeler leur 'Ancien' et suivent son conseil, avant même de consulter les hautes autorités [root.owner.GetSpeciesAdj]. [cc_colony_leader.GetSheHeCap] [cc_colony_leader.GetSheHeCap] utilise son nouveau pouvoir pour prendre une position qui est bien loin de ce que représente '§Y[root.owner.GetName]§!', et a été décrit comme 'une nuisance' par nos représentants locaux.\n\nQue devrions-nous faire de son cas ?"
 
 cc_colony_events.6.B:0 "$cc_colony_events.3.B$"
 cc_colony_events.6.C:0 "$cc_colony_events.3.C$"
@@ -664,7 +664,7 @@ cc_colony_events.734.desc:0 "$cc_colony_events.234.desc$"
 
 
 cc_colony_events.75.name:0 "$cc_colony_events.25.name$"
-cc_colony_events.75.desc:0 "§Y[cc_colony_leader.GetName]§!, que de nombreuses personnes considèrent comme [cc_colony_leader.GetLeLaLead] Premi[cc_colony_leader.GetErEreLead] Citoyen[cc_colony_leader.GetXNeLead] de §Y[root.GetName]§!, est mort aujourd'hui après une brève maladie. Le peuple de §Y[Root.GetName]§! est en deuil. Son dernier voeux était qu'une université soit construite sur §Y[Root.GetName]§! pour assurer le futur d'une nouvelle génération de penseurs. Les responsables sur §Y[Root.GetName]§! nous ont contacté pour transformer ce rêve en réalité.\n\nDevrions-nous investir dans l'université ?"
+cc_colony_events.75.desc:0 "§Y[cc_colony_leader.GetName]§!, que de nombreuses personnes considèrent comme [cc_colony_leader.GetLeLaLead] Premi[cc_colony_leader.GetErEreLead] Citoyen[cc_colony_leader.GetXNeLead] de §Y[root.GetName]§!, est mort[cc_colony_leader.GetXELead] aujourd'hui après une brève maladie. Le peuple de §Y[Root.GetName]§! est en deuil. Son dernier voeux était qu'une université soit construite sur §Y[Root.GetName]§! pour assurer le futur d'une nouvelle génération de penseurs. Les responsables sur §Y[Root.GetName]§! nous ont contacté pour transformer ce rêve en réalité.\n\nDevrions-nous investir dans l'université ?"
 cc_colony_events.75.A: "Certainement !"
 cc_colony_events.75.B: "$cc_colony_events.25.B$"
 
@@ -879,7 +879,7 @@ cc_cleanup_events.15.name:0 "Le souvenir d'un intellectuel célèbre sur [root.G
 cc_cleanup_events.15.desc:0 "Les anciens propriétaires de §Y[Root.GetName]§! avaient offensé la population matérialiste de §Y[Root.GetName]§! en ne construisant pas une université en l'honneur d'un intellectuel de premier plan, originaire de la planète. Devrions-nous en construire un nous-mêmes?"
 
 cc_cleanup_events.151.name:0 "Une Université ouvre sur [root.GetName]"
-cc_cleanup_events.151.desc:0 "L'Université sur §Y[Root.GetName]§! a été construite. Son ouverture a été accueillie avec joie chez la population, qui voit §Y[Root.GetName]§! comme un centre d'apprentissage dans '§Y[root.owner.GetName]§!'. De plus, les matérialistes et leurs partisans à travers '§Y[root.owner.GetName]§!' sont satisfaits de cette preuve du dévouement [root.owner.GetDuDelaDelDir] [root.owner.GetRulerTitle] au progrès scientifique."
+cc_cleanup_events.151.desc:0 "L'Université sur §Y[Root.GetName]§! a été construite. Son ouverture a été accueillie avec joie au niveau de la population, qui voit §Y[Root.GetName]§! comme un centre d'apprentissage au sein de notre '§Y[root.owner.GetName]§!'. De plus, les factions matérialistes et leurs partisans à travers toute notre '§Y[root.owner.GetName]§!' sont satisfaits de cette preuve du dévouement [root.owner.GetDuDelaDelDir] [root.owner.GetRulerTitle] au progrès scientifique."
 
 
 cc_cleanup_events.16.name:0 "Principauté sur [root.GetName]"
@@ -991,8 +991,8 @@ cc_cleanup_events.34.B:0 "Non!"
  job_dpe_gurus_followers:0 "Acolyte du Gourou"
  job_dpe_gurus_followers_plural:0 "Acolytes du Gourou"
  job_dpe_gurus_followers_desc:0 "Cette £pop suit un célèbre gourou originaire de la planète, et passe son temps à diffuser les enseignements de manière infatigable."
- job_dpe_direct_democrats:0 "Administrateur Démocratique"
- job_dpe_direct_democrats_plural:0 "Administrateurs Démocratiques"
+ job_dpe_direct_democrats:0 "Administrateur démocratique"
+ job_dpe_direct_democrats_plural:0 "Administrateurs démocratiques"
  job_dpe_direct_democrats_desc:0 "Même si la planète est gérée comme une démocratie directe, son fonctionnement nécessite un réseau d'administrateurs et de gardiens du système démocratique extrêmement dévoués."
  job_dpe_monarchists:0 "Noble"
  job_dpe_monarchists_plural:0 "Nobles"
@@ -1002,7 +1002,7 @@ cc_cleanup_events.34.B:0 "Non!"
  mod_job_dpe_guardian_of_the_peace_per_pop:0 "§G+1§! emploi de $job_dpe_guardian_of_the_peace$ par $VALUE$ Pops"
  mod_job_dpe_gurus_followers_add:0 "Emplois de $job_dpe_gurus_followers$"
  mod_job_dpe_gurus_followers_per_pop:0 "§G+1§! emploi de $job_dpe_gurus_followers$ par $VALUE$ Pops"
- mod_job_dpe_direct_democrats_add:0 "Emplois de $job_dpe_direct_democrats$"
- mod_job_dpe_direct_democrats_per_pop:0 "§G+1§! emploi de $job_dpe_direct_democrats$ par $VALUE$ Pops"
+ mod_job_dpe_direct_democrats_add:0 "Emplois d'$job_dpe_direct_democrats$"
+ mod_job_dpe_direct_democrats_per_pop:0 "§G+1§! emploi d'$job_dpe_direct_democrats$ par $VALUE$ Pops"
  mod_job_dpe_monarchists_add:0 "Emplois de $job_dpe_monarchists$"
  mod_job_dpe_monarchists_per_pop:0 "§G+1§! emploi de $job_dpe_monarchists$ par $VALUE$ Pops"

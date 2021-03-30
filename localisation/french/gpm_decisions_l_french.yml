@@ -21,7 +21,6 @@
  #######################################
  #### Unused
  #######################################
- 
  # gpm_decision_limit:0 "\nDécisions Limit: §YDeposit§!\n§LUne seule décision de dépôt peut être ajoutée par planète§!"
  # gpm_decision_need_colony:0 "£trigger_no£ requiert une §YColonie§! Sur ce système."
  # gpm_decision_space_resources_colony:244 "Système d'Analyse de Ressources"
@@ -30,11 +29,6 @@
  # gpm_decision_precursor_shield_on_desc:0 "Allume le bouclier planétaire des Précurseurs."
  # gpm_decision_precursor_shield_off:0 "Désactiver le Bouclier des Précurseurs"
  # gpm_decision_precursor_shield_off_desc:0 "Eteint le bouclier planétaire des Précurseurs."
- # gpm_decision_dig_for_precursor_artifacts:0 "Rechercher des §YArtéfacts des Précurseurs§!"
- # gpm_decision_dig_for_precursor_artifacts_desc:0 "Commandez une nouvelle expédition scientifique dans ce monde pour rechercher des artefacts précurseurs."
- # gpm_recent_archeological_expedition:0 "Expéditions exhaustives"
- # gpm_recent_archeological_expedition_desc:0 "Des expéditions exhaustives ont trouvé tout ce que l'on peut trouver sur ce monde. Ce serait un gaspillage de ressources de chercher plus d'artefacts ici."
- # gpm_recent_archeological_expeditionTT:0 "§YAucun artefact ne peut être trouvé sur ce monde§!"
  # gpm_decision_thunderstorms_research:0 "Trouver un dépot de recherche sur les orages"
  # gpm_decision_thunderstorms_research_desc:0 "La colonie dans ce système marquera un emplacement approprié sur cette planète afin d'étudier de manière optimale les orages planétaires. (TO DO)"
  # gpm_decision_thunderstorms_energy:0 "Trouver un emplacement pour l'énergie des orages"
@@ -44,7 +38,7 @@
  # gpm_decisions.3.name:244 "§YMessage entrant§!: Ressources potentielles trouvées"
  # gpm_decisions.3.desc:244 "Après avoir analysé les rapports d'enquête sur les planètes de ce système, nous avons trouvé plusieurs sites dignes d'être explorés. Nous devrions vérifier toutes les planètes inhabituelles de ce système et décider si nous voulons investir des ressources pour les exploiter. Il est possible que nous ayons besoin de rechercher de nouvelles méthodes avant de pouvoir accéder à ces ressources."
  # gpm_decisions.2.OK:244 "Message Reçu" 
-
+ 
  #######################################
  #### Colony Decisions
  #######################################
@@ -64,7 +58,7 @@
  decision_gpm_restore_oppertunity_desc:0 "Hé mon pote, il est temps pour une nouvelle batterie et un gommage. Nous sommes enfin réunis .."
  
  decision_gpm_seasonal_flooding:0 "Construire une protection contre les inondations"
- decision_gpm_seasonal_flooding_desc:0 "Notre colonie tentera de trouver une solution pour aider à contenir les inondations saisonnières fréquentes qui se produisent dans ce monde. Cela prendra plusieurs mois. "
+ decision_gpm_seasonal_flooding_desc:0 "Notre colonie tentera de trouver une solution pour aider à contenir les inondations saisonnières fréquentes qui se produisent dans ce monde. Cela prendra plusieurs mois."
 
  decision_gpm_locust_plagues:0 "Exterminer les insectes"
  decision_gpm_locust_plagues_desc:0 "Notre colonie tentera de trouver une solution pour empêcher les invasions de sauterelles de nuire à son développement."
@@ -97,10 +91,78 @@
  #######################################
  #### Habitat Decisions
  #######################################
+ decision_gpm_habitat_stadium:0 "Construire un stade"
+ decision_gpm_habitat_stadium_desc:0 "Construisez un grand stade au coeur de l'habitat."
+ decision_gpm_habitat_trade_docks:0 "Développer les quais commerciaux"
+ decision_gpm_habitat_trade_docks_desc:0 "Développez les quais commerciaux de cet habitat permettant davantage de navires commerciaux."
+ decision_gpm_habitat_holo_entertainment:0 "Installer des Holo-loisirs"
+ decision_gpm_habitat_holo_entertainment_desc:0 "Installez des ponts holo à chaque étage et dans tous les secteurs de cet habitat."
+ decision_gpm_habitat_replicators:0 "Installer des systèmes de réplications"
+ decision_gpm_habitat_replicators_desc:0 "Installez des installation de réplication de matériaux et d'aliments dans chaque couloir, bar et restaurant."
+ decision_gpm_habitat_hub:0 "Désigner un hub commercial"
+ decision_gpm_habitat_hub_desc:0 "'_desc : 0' désigner cet habitat en tant que hub de commerce principal permettant de coordonner le commerce beaucoup plus efficacement."
+ decision_gpm_habitat_moon_mining:0 "Construire une infrastructure minière de la lune"
+ decision_gpm_habitat_moon_mining_desc:0 "Construisez des quais de chargement et des raffineries de minéraux brutes sur cet habitat."
+ decision_gpm_habitat_belt_mining:0 "Construire une infrastructure minière d'astéroïdes"
+ decision_gpm_habitat_belt_mining_desc:0 "Construire des filets de tenue d'astéroïdes et des raffineries de minéraux brutes sur cet habitat."
+ decision_gpm_habitat_thunderstorm_research:0 "Construire une infrastructure de recherche"
+ decision_gpm_habitat_thunderstorm_research_desc:0 "Construire des installations de recherche avancées au sein de cet habitat."
+ decision_gpm_habitat_radioactive_mining:0 "Construire une infrastructure minière en alliages"
+ decision_gpm_habitat_radioactive_mining_desc:0 "Construisez des quais de chargement et des raffineries d'alliages avancées sur cet habitat."
+ decision_gpm_habitat_asteroid_catchers:0 "Construire des attrapeurs d'astéroïdes"
+ decision_gpm_habitat_asteroid_catchers_desc:0 "Construisez de grandes baies de drone attrapant des astéroïdes dans cet habitat lui permettant de ralentir les astéroïdes à proximité et de le diriger vers l'une des baies de transformation des minéraux."
+ decision_gpm_habitat_particle_collectors:0 "Construire des collecteurs partiels"
+ decision_gpm_habitat_particle_collectors_desc:0 "Construisez des tableaux de collecte de particules longs au bas de cet habitat atteignant tout le chemin dans la haute atmosphère de la planète ci-dessous."
+ decision_gpm_habitat_expedition_section:0 "Construire des quais d'expédition"
+ decision_gpm_habitat_expedition_section_desc:0 "Construire des quais spécialement conçus pour accueillir tout l'équipement nécessaire pour effectuer des expéditions extraterrestres, y compris des cellules de quarantaine nouvelles et améliorées."
+ decision_gpm_habitat_food_recyclers:0 "Installer des recycleurs de déchets"
+ decision_gpm_habitat_food_recyclers_desc:0 "Installez des installations de recyclage des déchets hyper-efficaces, tournez de caca dans la cuillère comestible ! "
+ decision_gpm_habitat_chronoton_sensors:0 "Construire des capteurs de chronoton"
+ decision_gpm_habitat_chronoton_sensors_desc:0 "Construisez un éventail de capteurs hyper-sensibles pouvant détecter même les plus petites variations de l'espace-temps sur ce système."
+ decision_gpm_habitat_mining_bays:0 "Construire des baies minières"
+ decision_gpm_habitat_mining_bays_desc:0 "Développez l'habitat avec des baies minières bon marché permettant aux navires de vider facilement des roches minées pour le traitement"
+ decision_gpm_habitat_archaeology_section:0 "Construire un hub d'archéologie"
+ decision_gpm_habitat_archaeology_section_desc:0 "Convertir un secteur de cet habitat en hub d'archéologie."
+ decision_gpm_habitat_pleasure_palace:0 "Construire un district de plaisir"
+ decision_gpm_habitat_pleasure_palace_desc:0 "Construisez un district de plaisir torride chaud."
+ decision_gpm_habitat_spice_markets:0 "Approuver les marchés des épices"
+ decision_gpm_habitat_spice_markets_desc:0 "Approuver le commerce de l'épice hautement addictif."
+ decision_gpm_habitat_gambling_licence:0 "Construire un bureau de jeu"
+ decision_gpm_habitat_gambling_licence_desc:0 "Construisez un bureau de jeu, s'il y aura un jeu, nous pourrons aussi fiscaliser ! "
+ decision_gpm_habitat_egg_containment_facility:0 "Construire un confinement à oeufs xeno"
+ decision_gpm_habitat_egg_containment_facility_desc:0 "Construisez une installation de confinement à oeufs Xeno pour empêcher ce qui s'est passé la dernière fois."
+ decision_gpm_habitat_hydrogen_extraction:0 "Construire des extracteurs d'hydrogène"
+ decision_gpm_habitat_hydrogen_extraction_desc:0 "Construisez une infrastructure de séparation de l'hydrogène avancée."
+ decision_gpm_habitat_nitrogen_extraction:0 "Construire des extracteurs d'azote"
+ decision_gpm_habitat_nitrogen_extraction_desc:0 "Construisez une infrastructure de séparation de l'azote avancée."
+ decision_gpm_habitat_chlorine_extraction:0 "Construire des extracteurs de chlore"
+ decision_gpm_habitat_chlorine_extraction_desc:0 "Construire une infrastructure séparée de chlore avancée."
+ decision_gpm_habitat_phospherus_extraction:0 "Construire des extracteurs phosperus"
+ decision_gpm_habitat_phospherus_extraction_desc:0 "Construire une infrastructure de séparation du phosphore avancé."
+ decision_gpm_habitat_sulfur_extraction:0 "Construire des extracteurs de soufre"
+ decision_gpm_habitat_sulfur_extraction_desc:0 "Construire une infrastructure de séparation de soufre avancée."
+ decision_gpm_habitat_iron_extraction:0 "Construire des extracteurs de fer pure"
+ decision_gpm_habitat_iron_extraction_desc:0 "Construisez des fours à haute chaleur pour extraire le fer pur sur la planète ci-dessous."
  
  #######################################
  #### Ringworld Decisions
  #######################################
+ decision_gpm_ringworld_parabolic_forcefield:0 "Champ de force Psionique"
+ decision_gpm_ringworld_parabolic_forcefield_desc:0 "Un seul champ de force psionique puissant est utilisé pour contenir l'atmosphère de la section de la bague. Bien que simultanément fort et moins de puissance affamée, ce champ de force magnifie également la vue à l'extérieur de la section de la bague permettant de véritables vues à couper le souffle."
+ decision_gpm_ringworld_neural_nexus:0 "Nexus neural intégré"
+ decision_gpm_ringworld_neural_nexus_desc:0 "Un vaste réseau de modules d'apprentissage de la machine est installé sur toute la section Bague permettant à cette partie de la Ringworld de résoudre des problèmes et de se rendre plus efficace."
+ decision_gpm_ringworld_idyllic_gardens:0 "Secteurs de jardin idylliques"
+ decision_gpm_ringworld_idyllic_gardens_desc:0 "Construisez plusieurs secteurs de cette section mondiale de la bague avec de beaux jardins incroyables."
+ decision_gpm_ringworld_xeno_zoo:0 "Réserve Xéno de vie sauvage"
+ decision_gpm_ringworld_xeno_zoo_desc:0 "Les vastes zones de cette section d'anneau seront consacrées à la conservation de la faune Xeno."
+ decision_gpm_ringworld_badlands:0 "Secteurs de Hors-la-loi"
+ decision_gpm_ringworld_badlands_desc:0 "Désignez cette section mondiale anneau comme un secteur sans loi. Laissez les gens décider pour eux de la gouverner."
+ decision_gpm_ringworld_simulators:0 "Secteurs de simulation"
+ decision_gpm_ringworld_simulators_desc:0 "Installez de grands secteurs de formation sur cette section de la bague permettant à notre population d'être prête lorsque l'avouement se produit."
+ decision_gpm_ringworld_endless_oceans:0 "Vastes océans"
+ decision_gpm_ringworld_endless_oceans_desc:0 "Terraformez de grandes surfaces sur cette section d'anneau afin qu'il puisse supporter des océans vastes et sans fin."
+ decision_gpm_ringworld_mass_transit:0 "Système de transport en commun"
+ decision_gpm_ringworld_mass_transit_desc:0 "Installer une section Un système de transit de masse large aide considérablement en apportant les besoins de la population."
  
  #######################################
  #### Machine World Decisions
@@ -113,7 +175,6 @@
  #######################################
  #### Relic Decisions
  #######################################
- 
  decision_gpm_Floating_Island_Housing:0 "Construction d'Iles flottantes"
  decision_gpm_Floating_Island_Housing_desc:0 "Construire d'énorme Iles flottantes artificielles sur ce monde."
  decision_gpm_Floating_Island_Housing_effects:0 "District Max de la planète: §G+1§!\nHabitabilité: §G+10§!"
