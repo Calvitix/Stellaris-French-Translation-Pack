@@ -14,6 +14,7 @@
  # Colour Tricks
  # Country Modifiers
  # Debug
+ # Districts 
  # Edicts
  # Jobs
  # Messages
@@ -159,7 +160,7 @@
 
  # dreadnaught army
  gpm_dreadnaught_army:0 "Dreadnought"
- gpm_dreadnaught_army:0 "Un mech personnel lent équipé de systèmes d'armes dévastateurs et de plaques d'armure colossales"
+ gpm_dreadnaught_army_desc:0 "Un mech personnel lent équipé de systèmes d'armes dévastateurs et de plaques d'armure colossales"
  hexagongpm_dreadnaught_army_desc:0 "Un mech personnel lent équipé de systèmes d'armes dévastateurs et de plaques d'armure colossales"
  
  #######################################
@@ -216,33 +217,51 @@
  #######################################
  #### Casus Bellis
  #######################################
- casus_belli_cb_gpm_r_time_displacer:0 "Revendiquer $gpm_r_time_displacer$"
- casus_belli_cb_gpm_r_alien_eggs:0 "Revendiquer $gpm_r_alien_eggs$"
- casus_belli_cb_gpm_r_machine_world_core:0 "Revendiquer $gpm_r_machine_world_core$"
- casus_belli_cb_gpm_r_encyclopedia_galactica:0 "Revendiquer $gpm_r encyclopedia galactica$"
- casus_belli_cb_gpm_r_zero_energy_generator:0 "Revendiquer $gpm_r_zero_energy_generator$"
- casus_belli_cb_gpm_r_quantum_sphere:0 "Revendiquer $gpm_r_quantum_sphere$"
- casus_belli_cb_gpm_r_ai_architect:0 "Revendiquer $gpm_r_ai_architect$"
- casus_belli_cb_gpm_r_encrypted_sct:0 "Revendiquer $gpm_r_encrypted_sct$"
- casus_belli_cb_gpm_r_experimental_weapon:0 "Revendiquer $gpm_r_experimental_weapon$"
- casus_belli_cb_gpm_r_fallout_emergency_replicator:0 "Revendiquer $gpm_r_fallout_emergency_replicator$"
- casus_belli_cb_gpm_r_power_core:0 "Revendiquer $gpm_r_power_core$"
- casus_belli_cb_gpm_r_mysterious_shield_generator:0 "Revendiquer $gpm_r_mysterious_shield_generator$"
- casus_belli_cb_gpm_r_gravity_engine:0 "Revendiquer $gpm_r_gravity_engine$"
- casus_belli_cb_gpm_r_codex_administratum:0 "Revendiquer $gpm_r_codex_administratum$"
- casus_belli_cb_gpm_r_enigmatic_advisor:0 "Revendiquer $gpm_r_enigmatic_advisor$"
- casus_belli_cb_gpm_r_positronic_microchip:0 "Revendiquer $gpm_r_positronic_microchip$"
- casus_belli_cb_gpm_r_venerable_dreadnaught:0 "Revendiquer $gpm_r_venerable_dreadnaught$"
- casus_belli_cb_gpm_r_sentinel_queen:0 "Revendiquer $gpm_r_sentinel_queen$"
- casus_belli_cb_gpm_r_earthquake_engine:0 "Revendiquer $gpm_r_earthquake_engine$"
- casus_belli_cb_gpm_r_manufactorium_ship:0 "Revendiquer $gpm_r_manufactorium_ship$"
- casus_belli_cb_gpm_r_datacube:0 "Revendiquer $gpm_r_datacube$"
- casus_belli_cb_gpm_r_self_assembly_hub:0 "Revendiquer $gpm_r_self_assembly_hub$"
- casus_belli_cb_gpm_r_banner_of_the_fallen:0 "Revendiquer $gpm_r_banner_of_the_fallen$"
- casus_belli_cb_gpm_r_cloaking_device:0 "Revendiquer $gpm_r_cloaking_device$"
- casus_belli_cb_gpm_r_q_storage_compressor:0 "Revendiquer $gpm_r_q_storage_compressor$"
- casus_belli_cb_gpm_r_soul_gem:0 "Revendiquer $gpm_r_soul_gem$"
- casus_belli_cb_gpm_r_self_repairing_obelisk:0 "Revendiquer $gpm_r_self_repairing_obelisk$"
+ casus_belli_cb_gpm_r_time_displacer:0 "Revendiquer : $gpm_r_time_displacer$"
+ casus_belli_cb_gpm_r_alien_eggs:0 "Revendiquer : $gpm_r_alien_eggs$"
+ casus_belli_cb_gpm_r_machine_world_core:0 "Revendiquer : $gpm_r_machine_world_core$"
+ casus_belli_cb_gpm_r_encyclopedia_galactica:0 "Revendiquer : $gpm_r encyclopedia galactica$"
+ casus_belli_cb_gpm_r_zero_energy_generator:0 "Revendiquer : $gpm_r_zero_energy_generator$"
+ casus_belli_cb_gpm_r_quantum_sphere:0 "Revendiquer : $gpm_r_quantum_sphere$"
+ casus_belli_cb_gpm_r_ai_architect:0 "Revendiquer : $gpm_r_ai_architect$"
+ casus_belli_cb_gpm_r_encrypted_sct:0 "Revendiquer : $gpm_r_encrypted_sct$"
+ casus_belli_cb_gpm_r_experimental_weapon:0 "Revendiquer : $gpm_r_experimental_weapon$"
+ casus_belli_cb_gpm_r_fallout_emergency_replicator:0 "Revendiquer : $gpm_r_fallout_emergency_replicator$"
+ casus_belli_cb_gpm_r_power_core:0 "Revendiquer : $gpm_r_power_core$"
+ casus_belli_cb_gpm_r_mysterious_shield_generator:0 "Revendiquer : $gpm_r_mysterious_shield_generator$"
+ casus_belli_cb_gpm_r_gravity_engine:0 "Revendiquer : $gpm_r_gravity_engine$"
+ casus_belli_cb_gpm_r_codex_administratum:0 "Revendiquer : $gpm_r_codex_administratum$"
+ casus_belli_cb_gpm_r_enigmatic_advisor:0 "Revendiquer : $gpm_r_enigmatic_advisor$"
+ casus_belli_cb_gpm_r_positronic_microchip:0 "Revendiquer : $gpm_r_positronic_microchip$"
+ casus_belli_cb_gpm_r_venerable_dreadnaught:0 "Revendiquer : $gpm_r_venerable_dreadnaught$"
+ casus_belli_cb_gpm_r_sentinel_queen:0 "Revendiquer : $gpm_r_sentinel_queen$"
+ casus_belli_cb_gpm_r_earthquake_engine:0 "Revendiquer : $gpm_r_earthquake_engine$"
+ casus_belli_cb_gpm_r_manufactorium_ship:0 "Revendiquer : $gpm_r_manufactorium_ship$"
+ casus_belli_cb_gpm_r_datacube:0 "Revendiquer : $gpm_r_datacube$"
+ casus_belli_cb_gpm_r_self_assembly_hub:0 "Revendiquer : $gpm_r_self_assembly_hub$"
+ casus_belli_cb_gpm_r_banner_of_the_fallen:0 "Revendiquer : $gpm_r_banner_of_the_fallen$"
+ casus_belli_cb_gpm_r_cloaking_device:0 "Revendiquer : $gpm_r_cloaking_device$"
+ casus_belli_cb_gpm_r_q_storage_compressor:0 "Revendiquer : $gpm_r_q_storage_compressor$"
+ casus_belli_cb_gpm_r_soul_gem:0 "Revendiquer : $gpm_r_soul_gem$"
+ casus_belli_cb_gpm_r_self_repairing_obelisk:0 "Revendiquer : $gpm_r_self_repairing_obelisk$"
+ casus_belli_cb_gpm_r_dragon_trophy:0 "Revendiquer : $r_dragon_trophy$"
+ casus_belli_cb_gpm_r_khans_throne:0 "Revendiquer : $r_khans_throne$"
+ casus_belli_cb_gpm_r_worm_scales:0 "Revendiquer : $r_worm_scales$"
+ casus_belli_cb_gpm_r_galaxy:0 "Revendiquer : $r_galaxy$"
+ casus_belli_cb_gpm_r_omnicodex:0 "Revendiquer : $r_omnicodex$"
+ casus_belli_cb_gpm_r_surveyor:0 "Revendiquer : $r_surveyor$"
+ casus_belli_cb_gpm_r_ancient_sword:0 "Revendiquer : $r_ancient_sword$"
+ casus_belli_cb_gpm_r_severed_head:0 "Revendiquer : $r_severed_head$"
+ casus_belli_cb_gpm_r_prethoryn_queen:0 "Revendiquer : $r_prethoryn_queen$"
+ casus_belli_cb_gpm_r_unbidden_warlock:0 "Revendiquer : $r_unbidden_warlock$"
+ casus_belli_cb_gpm_r_contingency_core:0 "Revendiquer : $r_contingency_core$"
+ casus_belli_cb_gpm_r_zro_crystal:0 "Revendiquer : $r_zro_crystal$"
+ casus_belli_cb_gpm_r_the_last_baol:0 "Revendiquer : $r_the_last_baol$"
+ casus_belli_cb_gpm_r_the_defragmentor:0 "Revendiquer : $r_the_defragmentor$"
+ casus_belli_cb_gpm_r_reality_perforator:0 "Revendiquer : $r_reality_perforator$"
+ casus_belli_cb_gpm_r_cryo_core:0 "Revendiquer : $r_cryo_core$"
+ casus_belli_cb_gpm_r_pox_sample:0 "Revendiquer : $r_pox_sample$"
+ casus_belli_cb_gpm_r_war_forge:0 "Revendiquer : $r_war_forge$"
  
  #######################################
  #### Colour Tricks
@@ -364,6 +383,24 @@
  #######################################
  #### Debug
  #######################################
+ 
+ #######################################
+ #### Districts
+ #######################################
+ district_gpm_precursor_housing:0 "District urbain réparé"
+ district_gpm_precursor_housing_desc:0 "Une section réparée de ce monde-cité autrefois florissant"
+ district_gpm_precursor_science:0 "District d'archéologie"
+ district_gpm_precursor_science_desc:0 "Désigner un secteur urbain en ruine comme un site archéologique important"
+ 
+ district_gpm_precursor_science_standard:0 "District archéologique"
+ district_gpm_precursor_science_standard_plural:0 "Districts archéologiques"
+ district_gpm_precursor_science_standard_desc:0 "Désigner un secteur comme site archéologique important"
+ mod_district_gpm_precursor_science_standard_max:0 "Max $district_gpm_precursor_science_standard_plural$"
+ 
+ district_gpm_precursor_manufactorium:0 "District de Manufactorium restauré"
+ district_gpm_precursor_manufactorium_plural:0 "Districts de Manufactorium restaurés"
+ district_gpm_precursor_manufactorium_desc:0 "Un district de Manufactorium entièrement restauré peut produire des quantités inimaginables de produits"
+ mod_district_gpm_precursor_manufactorium_max:0 "Max $district_gpm_precursor_manufactorium_plural$"
  
  #######################################
  #### Edicts
@@ -516,6 +553,8 @@
  #######################################
  MESSAGE_GPM_VALUABLE_WORLD:0 "Un monde précieux a été découvert !\nCe monde peut être terraformé avec la bonne technologie."
  MESSAGE_TYPE_GPM_VALUABLE_WORLD_TITLE:0 "Un monde précieux découvert"
+ gpm_relics.1101.name:0 "Le butin de l'asservissement"
+ gpm_relics.1101.desc:0 "Grâce à notre influence et à notre puissance, nous avons réussi à soumettre l'Empire §Y[from.GetName]§!, et nous avons ainsi accès à son butin."
  
  #######################################
  #### Modifier localisations
@@ -613,6 +652,8 @@
  #### Planet Classes
  #######################################
  
+ pc_gpm_precursor_tomb:0 "Monde tombeau des Précurseurs"
+ 
  #######################################
  #### R.E.S.
  #######################################
@@ -676,7 +717,7 @@
 
  # §HThe mod might takes a few moments after unpausing to spawn everything during which the game may act slow or freeze for a second.§!
 
- gpm_start_menu.1.START:0 "Démarrer la partie"
+ gpm_start_menu.1.START:0 "§GDémarrer la partie§!"
  gpm_start_menu.1.STARTTT:0 "Cela démarrera le jeu. Tous les paramètres que vous avez sélectionnés seront appliqués et ne peuvent pas être annulés sans démarrer un nouveau jeu!"
  
  gpm_start_menu.1.max_one:0 "§YNombre de Modif.:§! Max Une"
@@ -1150,6 +1191,7 @@
  leader_trait_gpm_personal_mech:0 "Mech Personnel"
  leader_trait_gpm_personal_mech_desc:0 "Ce leader a accès à un mech personnel."
 
+
  #######################################
  #### War Goals
  #######################################
@@ -1207,6 +1249,46 @@
  war_goal_wg_gpm_r_soul_gem_desc:0 "La guerre est menée pour prendre le $gpm_r_soul_gem$"
  war_goal_wg_gpm_r_self_repairing_obelisk:0 "Prendre une Relique"
  war_goal_wg_gpm_r_self_repairing_obelisk_desc:0 "La guerre est menée pour prendre le $gpm_r_self_repairing_obelisk$"
+
+ war_goal_wg_gpm_r_dragon_trophy:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_dragon_trophy_desc:0 "La guerre est menée pour prendre le $r_dragon_trophy$" 
+ war_goal_wg_gpm_r_khans_throne:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_khans_throne_desc:0 "La guerre est menée pour prendre le $r_khans_throne$" 
+ war_goal_wg_gpm_r_worm_scales:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_worm_scales_desc:0 "La guerre est menée pour prendre le $r_worm_scales$" 
+ war_goal_wg_gpm_r_rubricator:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_rubricator_desc:0 "La guerre est menée pour prendre le $r_rubricator$" 
+ war_goal_wg_gpm_r_galaxy:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_galaxy_desc:0 "La guerre est menée pour prendre le $r_galaxy$" 
+ war_goal_wg_gpm_r_omnicodex:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_omnicodex_desc:0 "La guerre est menée pour prendre le $r_omnicodex$" 
+ war_goal_wg_gpm_r_surveyor:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_surveyor_desc:0 "La guerre est menée pour prendre le $r_surveyor$" 
+ war_goal_wg_gpm_r_ancient_sword:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_ancient_sword_desc:0 "La guerre est menée pour prendre le $r_ancient_sword$" 
+ war_goal_wg_gpm_r_severed_head:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_severed_head_desc:0 "La guerre est menée pour prendre le $r_severed_head$" 
+ war_goal_wg_gpm_r_prethoryn_queen:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_prethoryn_queen_desc:0 "La guerre est menée pour prendre le $r_prethoryn_queen$" 
+ war_goal_wg_gpm_r_unbidden_warlock:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_unbidden_warlock_desc:0 "La guerre est menée pour prendre le $r_unbidden_warlock$" 
+ war_goal_wg_gpm_r_contingency_core:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_contingency_core_desc:0 "La guerre est menée pour prendre le $r_contingency_core$" 
+ war_goal_wg_gpm_r_zro_crystal:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_zro_crystal_desc:0 "La guerre est menée pour prendre le $r_zro_crystal$" 
+ war_goal_wg_gpm_r_the_last_baol:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_the_last_baol_desc:0 "La guerre est menée pour prendre le $r_the_last_baol$" 
+ war_goal_wg_gpm_r_the_defragmentor:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_the_defragmentor_desc:0 "La guerre est menée pour prendre le $r_the_defragmentor$" 
+ war_goal_wg_gpm_r_reality_perforator:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_reality_perforator_desc:0 "La guerre est menée pour prendre le $r_reality_perforator$" 
+ war_goal_wg_gpm_r_pox_sample:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_pox_sample_desc:0 "La guerre est menée pour prendre le $r_pox_sample$" 
+ war_goal_wg_gpm_r_cryo_core:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_cryo_core_desc:0 "La guerre est menée pour prendre le $r_cryo_core$"
+ war_goal_wg_gpm_r_war_forge:0 "Prendre une Relique"
+ war_goal_wg_gpm_r_war_forge_desc:0 "La guerre est menée pour prendre le $r_war_forge$"
+ 
  
  #######################################
  #### war Names
