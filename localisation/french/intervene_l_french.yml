@@ -1,17 +1,18 @@
 ﻿l_french:
 
  ####################################
- # Intervene Help friendly Natino mod by caligula, Translation by Vilcoyote, updated by Calvitix
- # Translation check : OK 6.11.2019
+ # Intervene Help friendly Nation mod by caligula, Translation by Vilcoyote, updated by Calvitix
+ # Translation check : OK 09.04.2021
  ####################################
- 
- 
-  edict_intervene_help_friendly_nation:0 "Aider une nation amie"
+
+  edict_intervene_help_friendly_nation:0 "Aider un Allié en §RGuerre§!"
   edict_intervene_help_friendly_nation_desc:0 "L'une des choses les plus délicates est de convaincre l'opinion publique que nos intérêts nationaux s'alignent sur ceux d'autres nations. Toutefois, grâce à l'utilisation de notre influence et notre capital politique, nous pouvons intervenir dans une guerre pour aider un pays ami."
-  edict_intervene_help_friendly_nation_federated:0 "Aider une nation amie"
+  edict_intervene_help_friendly_nation_federated:0 "Aider un Allié en §RGuerre§!"
   edict_intervene_help_friendly_nation_federated_desc:0 "L'une des choses les plus délicates est de convaincre l'opinion publique que nos intérêts nationaux s'alignent sur ceux d'autres nations. Toutefois, grâce à l'utilisation de notre influence et notre capital politique, y compris au sein de la fédération, nous pouvons intervenir dans une guerre pour aider un pays ami."
-  intervene.1.name:0 "Une Main tendue"
+  intervene.1.name:0 "Aide Militaire"
   intervene.1.desc:0 "Une nation amie est en guerre. Leur succès (ou leur échec) peut nous affecter indirectement. Nous pouvons leur donner un coup de main et veiller à ce que cela nous apporte également des effets positifs."
+
+#####
   intervene.1.intervene_1:0 "Nous allons aider notre nation amie '§Y[intervene_friendly_nation_1.GetName]§!'."
   intervene.1.intervene_2:0 "'§Y[intervene_friendly_nation_2.GetName]§!' peut compter sur notre épée."
   intervene.1.intervene_3:0 "Nous allons lier notre sort avec celui de '§Y[intervene_friendly_nation_3.GetName]§!'."
@@ -23,8 +24,11 @@
   intervene.1.intervene_9:0 "'§Y[intervene_friendly_nation_9.GetName]§!', Vous m'êtes redevable."
   intervene.1.intervene_10:0 "Mieux vaut tard que jamais, §Y[intervene_friendly_nation_10.GetName]§!, pas vrai ?"
   intervene.1.desist:0 "En y réfléchissant bien, pourquoi s'impliquer dans la guerre d'un autre empire?"
-  intervene.1.desist.tooltip:0 "L'influence utilisée pour obenitr l'aval de l'opinion publique ne sera pas rendue."
+  intervene.1.desist.tooltip:0 "L'influence utilisée pour obtenir l'aval de l'opinion publique ne sera pas rendue."
+  intervene_cooldown_text:0 "\n§RNous devons attendre un an avant d'envisager une autre intervention.§! \n\n"  
   intervene_recent_intervention:0 "Intervention récente"
   intervene_recent_intervention_timed:0 "Intervention récente"
-  intervene_opinion_military_help:0 "Aide militaire"
+  intervene_opinion_military_help:0 "A apporté une Aide militaire durant la Guerre"
+  influencefail_text:0 "§RNécessite 300 d'influence.§!"
   
+  intervene_friendly_nations:0 "Modificateur d'Intervention"
