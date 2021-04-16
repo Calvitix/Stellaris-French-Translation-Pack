@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 17.11.2020
- # Translation check : 17.11.2020
+ # Update check : 15.04.2021
+ # Translation check : 15.04.2021
  ####################################
  
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_CRACKER:0 "Prépare la destruction de $PLANET|Y$"
@@ -16,7 +16,7 @@
  FLEETORDER_PLANET_KILLER_WINDUP:0 "Chargement de l'arme : $PROGRESS|Y0%$"
  FLEETORDER_PLANET_KILLER_FIRING:0 "Mise à feu de l'arme : $PROGRESS|Y0%$"
  
- STATUS_QUO_CREATE_NEW_EMPIRE:0 "Un nouvel empire va être créé pour l'espèce $SPECIES|Y$, allié et dépendant de '$ACTOR|Y$', à partir de $SYSTEMS|H$ systèmes occupés de la $TARGET|Y$."
+ STATUS_QUO_CREATE_NEW_EMPIRE:0 "Un nouvel empire va être créé pour l'espèce $SPECIES|Y$, allié et dépendant de '$ACTOR|Y$', à partir de $SYSTEMS|H$ systèmes occupés de '$TARGET|Y$'."
  
  MESSAGE_DESC_FOR_PLANET_KILLER_CRACKER:0 "a été entièrement détruite par la"
  MESSAGE_DESC_FOR_PLANET_KILLER_SHIELDER:0 "a été enveloppée d'un bouclier impénétrable par la"
@@ -135,6 +135,8 @@
  STARBASE_DOWNGRADE_DESC:0 "Cela va rétrograder la base stellaire au niveau d'un avant-poste."
  STARBASE_UPGRADE_TITLE:0 "Améliorer en $NEXT|Y$."
  STARBASE_UPGRADE_COST:0 "Coût : $COST|H$ $TIME$"
+ STARBASE_OPEN_SHIP_DESIGNS:0 "Ouvrir les modèles de vaisseaux"
+ STARBASE_OPEN_DEFENSE_DESIGNS:0 "Ouvrir les modèles de défense"
  STARBASE_BUILD_SHIPS:0 "Construire un vaisseau"
  STARBASE_BUILD_PLATFORMS:0 "Constr. une plateforme défensive"
  STARBASE_SHIPYARD_CAPACITY:0 "Chantiers stellaires : $COUNT|Y$"
@@ -169,6 +171,7 @@
  STARBASE_NAME:1 "$NAME$"
  STARBASE_STATION_NAME_FORMAT:0 "$SYSTEM$ - Station"
  STARBASE_QUEUE:0 "File d'attente de la base"
+ DEFENSE_QUEUE:0 "File d'attente des défenses"
  SHIPYARD_QUEUE:0 "File d'attente du port"
  STARBASE_TRIGGER_HAS_NOT_MODULE:0 "Cette base stellaire n'a pas de module $COMPONENT|Y$"
  STARBASE_TRIGGER_HAS_MODULE:0 "Cette base stellaire a un module $COMPONENT|Y$"
@@ -695,4 +698,6 @@
  FLEET_TEMPLATE_COMMAND_MIN_MULTIPLE:0 "Impossible de retirer $NUM|Y$ vaisseaux du modèle de flotte."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ STARBASE_BUILD_SHIPS:0 "Construire un vaisseau"
+ STARBASE_BUILD_PLATFORMS:0 "Constr. une plateforme défensive"
  not_barren_molten_toxic_test_fire:0 "La cible est un §Y$pc_barren$§!, un §Y$pc_molten$§! ou un §Y$pc_toxic$§!, valide pour un essai de tir."

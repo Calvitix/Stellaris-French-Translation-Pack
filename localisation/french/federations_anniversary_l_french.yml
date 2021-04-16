@@ -1,4 +1,9 @@
 ﻿l_french:
+
+# Original File, Overwritten by FrenchTranslationPack
+# Calvitix 3.0.1. Check OK, 15/04/2021
+#
+
  envoy:0 "$default_envoy$"
  effect_random_envoy:0 "Un émissaire aléatoire"
  effect_every_envoy:0 "Tous les émissaires"
@@ -6,15 +11,24 @@
  count_envoy_trigger:1 "Nombre d'émissaires$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$."
  count_envoy_all_trigger:0 "$IS_ALL_NOT$ émissaires remplissent ces conditions"
  IN_BREACH_LIST:0 "§RInfraction aux lois galactiques : $LIST|H$§!"
- TRIGGER_HAS_ENVOY_TASK_WITH:0 "avec la $WITH$"
- TRIGGER_HAS_ENVOY_TASK_IMPROVE_RELATIONS:0 "Améliore les relations "
- TRIGGER_HAS_ENVOY_TASK_IMPROVE_RELATIONS_NOT:0 "N'améliore PAS les relations "
- TRIGGER_HAS_ENVOY_TASK_HARM_RELATIONS:0 "Dégrade les relations "
- TRIGGER_HAS_ENVOY_TASK_HARM_RELATIONS_NOT:0 "Ne dégrade PAS les relations "
+ TRIGGER_HAS_ENVOY_TASK_WITH:1 " avec la $WITH$"
+ TRIGGER_HAS_ENVOY_TASK_IMPROVE_RELATIONS:1 "Améliore les relations "
+ TRIGGER_HAS_ENVOY_TASK_IMPROVE_RELATIONS_NOT:1 "N'améliore PAS les relations "
+ TRIGGER_HAS_ENVOY_TASK_HARM_RELATIONS:1 "Dégrade les relations "
+ TRIGGER_HAS_ENVOY_TASK_HARM_RELATIONS_NOT:1 "Ne dégrade PAS les relations "
  TRIGGER_HAS_ENVOY_TASK_FEDERATION:0 "Représente l'empire au sein de la fédération"
  TRIGGER_HAS_ENVOY_TASK_FEDERATION_NOT:0 "Ne représente PAS l'empire au sein de la fédération"
  TRIGGER_HAS_ENVOY_TASK_GALACTIC_COMMUNITY:0 "Représente l'empire auprès de la Communauté galactique"
  TRIGGER_HAS_ENVOY_TASK_GALACTIC_COMMUNITY_NOT:0 "Ne représente PAS l'empire auprès de la Communauté galactique"
+ TRIGGER_HAS_ENVOY_TASK_FIRST_CONTACT:0 "Établit une communication"
+ TRIGGER_HAS_ENVOY_TASK_FIRST_CONTACT_NOT:0 "N'établit PAS de communication"
+ TRIGGER_HAS_ENVOY_TASK_STRENGTHEN_IMPERIAL_AUTHORITY:0 "Renforce l'autorité impériale"
+ TRIGGER_HAS_ENVOY_TASK_STRENGTHEN_IMPERIAL_AUTHORITY_NOT:0 "Ne renforce PAS l'autorité impériale"
+ TRIGGER_HAS_ENVOY_TASK_UNDERMINE_IMPERIAL_AUTHORITY:0 "Sape l'autorité impériale"
+ TRIGGER_HAS_ENVOY_TASK_UNDERMINE_IMPERIAL_AUTHORITY_NOT:0 "Ne sape PAS l'autorité impériale"
+ TRIGGER_HAS_ENVOY_TASK_BUILD_SPY_NETWORK:0 "Met en place un réseau d'espionnage"
+ TRIGGER_HAS_ENVOY_TASK_BUILD_SPY_NETWORK_NOT:0 "Ne met PAS en place un réseau d'espionnage"
+
  TRIGGER_HAS_ENVOY_TASK_NONE:0 "N'a pas été affecté"
  TRIGGER_HAS_ENVOY_TASK_NONE_NOT:0 "A été affecté"
  CAN_ACCESS_SYSTEM_TRIGGER:0 "Peut accéder au système de $SYSTEM$"
@@ -29,7 +43,7 @@
  DECLINE_FAVOR_CLICK:0 "§GCliquer pour refuser de rendre cette faveur.§!"
  ACCEPT_FAVOR_CLICK:0 "§GCliquer pour accepter de rendre la faveur.§!"
  EDICT_COST_MODIFIER_TITLE:0 "Modificateur de coût des décrets"
- EDICT_COST_MODIFIER_DESC:0 "§ECe modificateur affecte le coût de chacun des §Hdécrets§! de l'empire§!."
+ EDICT_COST_MODIFIER_DESC:1 "§ECe modificateur affecte le coût de chacun des §Hdécrets§! de l'empire§!."
  EDICT_COST_MODIFIER_VALUE:0 "Modificateur de coût des décrets : $VAL|0$"
  EDICTS_IN_EFFECT_VALUE:0 "Édits promulgués : $VAL|0$"
  EDICTS_CAPACITY_VALUE:0 "Plafond de décrets : $VAL|0$"
@@ -76,7 +90,8 @@
  PLANET_RESOURCE_COMPARE_BALANCE:0 "Équilibre"
  ABORT_SPECIAL_PROJECT:0 "Le projet spécial $PROJECT_NAME$ est abandonné"
  COMPLETE_SPECIAL_PROJECT:0 "Le projet spécial $PROJECT_NAME$ est terminé"
- VOTING_TO_ENACT_VALUE:0 "Vote pour promulguer $RESOLUTION|Y$"
+ VOTING_TO_ENACT_COLON:0 "Vote pour promulguer : "
+ VOTING_TO_ENACT_VALUE:1 "Vote pour promulguer $RESOLUTION|Y$"
  CURRNETLY_VOTING_TO_VALUE:0 "Notre vote : $VOTING|Y$"
  SORT_BY_DIPLOMATIC_STANCE:0 "§HClasser selon la posture diplomatique.§!"
  SORT_BY_HOUSING:0 "Classer selon les logements."
@@ -95,7 +110,7 @@
  WARTARGET_ALLIES_DESC:0 "Les alliés de la cible vont aussi être impliqués dans le conflit contre nous."
  ORDER_OF_ROTATION:0 "Ordre de rotation :"
  NEW_FEDERATION_PRESIDENT_CHOSEN_TITLE:0 "Nouvelle présidence fédérale"
- NEW_FEDERATION_PRESIDENT_CHOSEN:0 "En vertu de la succession basée sur la §H[GetLawName]§!, c'est la §H[Actor.GetName]§! qui a été choisie pour exercer la présidence sur la §H[Actor.GetAllianceName]§!."
+ NEW_FEDERATION_PRESIDENT_CHOSEN:1 "'$PRESIDENT|H$' a été choisi pour exercer la présidence sur la $FEDERATION|H$."
  WITHDRAW_RESOLUTION_POPUP_TITLE:0 "Retrait d'une résolution"
  WITHDRAW_RESOLUTION_POPUP_DESC:0 "Voulez-vous vraiment retirer notre résolution ? L'£influence£influence dépensée pour la proposer ne sera pas retrouvée, mais nous pourrons ensuite en proposer une nouvelle."
  FOUNDER_SPECIES_ON_TOP_TITLE:0 "Espèce fondatrice en haut"
@@ -171,6 +186,9 @@
  getenvoy_machine:0 "unité diplomatique"
  getenvoy_hive:0 "drone diplomatique"
  getenvoy_normal:0 "émissaire"
+ getenvoycap_machine:0 "Unité diplomatique"
+ getenvoycap_hive:0 "Drone diplomatique"
+ getenvoycap_normal:0 "Émissaire"
  getenvoyplural_machine:0 "unités diplomatiques"
  getenvoyplural_hive:0 "drones diplomatiques"
  getenvoyplural_normal:0 "émissaires"
@@ -182,9 +200,9 @@
  envoy_events.3.desc.machine:0 "$envoy_events.3.desc.base$\n\nLes calomnies vont bon train désormais sur les défaillances logicielles de nos systèmes diplomatiques, même si nul ne peut toutefois remettre en cause notre importante contribution à la comédie galactique."
  envoy_events.3.A:0 "Qu'ils rient donc tant qu'ils le peuvent"
  envoy_events.3.B:0 "Laissons-les donc rire"
- envoy_events.3.C1:0 "Notre [Root.GetEnvoy] va devoir se former"
- envoy_events.3.C2:0 "Notre [Root.GetEnvoy] devra être reprogrammée"
- envoy_events.3.C3:0 "Notre [Root.GetEnvoy] va devoir être reconditionné"
+ envoy_events.3.C1:1 "Notre [Root.GetEnvoy] va devoir se former"
+ envoy_events.3.C2:1 "Notre [Root.GetEnvoy] devra être reprogrammée"
+ envoy_events.3.C3:1 "Notre [Root.GetEnvoy] va devoir être reconditionné"
  galactic_community_diplo_corps_is_a_joke:0 "Corps diplomatique ridiculisé"
  galactic_community_diplo_corps_is_a_joke_desc:0 "L'un de nos émissaires a commis un grave faux pas, discréditant ainsi notre corps diplomatique devant toute la galaxie."
  envoy_events.4.name:0 "Diplomatie galactique adroite"
@@ -208,7 +226,7 @@
  opinion_kills_envoys:0 "Émissaire assassiné "
 
  envoy_events.7.name:0 "Amoureux interstellaires"
- envoy_events.7.desc:0 "Il semble que, au lieu de mener à bien les missions qui lui ont été confiées et de représenter les intérêts de '§Y[Root.GetName]§!', notre [Root.GetEnvoy] §Y[event_envoy.GetName]§! a succombé aux charmes d'une diplomate [other_species_nation.GetAdj]. Craignant les répercussions de cette transgression, le couple s'est enfui dans l'espace de la §Y[third_party.GetName]§!, dont la constitution dangereusement libérale se montre extrêmement permissive à l'égard de telles unions.\n\nBien évidemment, ce faisant notre [Root.GetEnvoy] n'appartient plus, dans les faits, au corps diplomatique. Mais avoir perdu le contrôle sur un dignitaire de ce rang met à mal notre réputation à l'échelle de la galaxie. Nous devons donc travailler à redorer notre image en appréhendant [event_envoy.GetName]."
+ envoy_events.7.desc:1 "Il semble que, au lieu de mener à bien les missions qui lui ont été confiées et de représenter les intérêts de '§Y[Root.GetName]§!', notre [Root.GetEnvoy] [event_envoy.GetName] a succombé aux charmes d'une diplomate [other_species_nation.GetSpeciesName]. Craignant les répercussions de cette transgression, le couple s'est enfui dans l'espace de la §Y[third_party.GetName]§!, dont la constitution dangereusement libérale se montre extrêmement permissive à l'égard de telles unions.\n\nBien évidemment, ce faisant notre [Root.GetEnvoy] n'appartient plus, dans les faits, au corps diplomatique. Mais avoir perdu le contrôle sur un dignitaire de ce rang met à mal notre réputation à l'échelle de la galaxie. Nous devons donc travailler à redorer notre image en appréhendant [event_envoy.GetName]."
  envoy_events.7.A:0 "[third_party.Capital.GetName] nous doit bien une faveur"
  envoy_events.7.B:0 "Contactons les [third_party.GetSpeciesNamePlural] pour les raisonner"
  envoy_events.7.B.tooltip:0 "Si la [third_party.GetName] l'accepte, nous lui devrons 2 faveurs."
@@ -384,7 +402,7 @@
 
  resolution_divinity_a_defined_purpose:0 "Raison d'être bien définie"
  resolution_divinity_a_defined_purpose_desc:0 "Les machines ne sont que des outils et doivent servir les êtres qui leur sont supérieurs. Nous devons mettre en place une législation assurant que quiconque dépourvu de spiritualité soit à jamais maintenu en servitude par ceux qui ont une métaphysique propre."
- resolution_divinity_a_defined_purpose_effect:1 "La politique sur l'intelligence artificielle §Y$ai_full_rights_name$§! est §Rprohibée§!.\n\nLes empires dotés d'une §Yintelligence mécanique§! qui ne sont pas des §Yserviteurs renégats§! se trouveront §Renfreindre§! les lois galactiques mais se verront proposer le choix d'adopter ce civisme."
+ resolution_divinity_a_defined_purpose_effect:1 "La politique sur l'intelligence artificielle §Y$ai_full_rights_name$§! est §Rprohibée§!.\n\nLes empires dotés d'une §Yintelligence mécanique§! qui ne sont pas des §Yserviteurs renégats§! se trouveront §Renfreindre§! les lois galactiques mais se verront proposer le choix d'adopter ce doctrine."
 
  resolution_divinity_repeal_1:0 "§RAbroger le soutien aux déclassés§!"
  resolution_divinity_repeal_1_desc:0 "La Communauté galactique s'embarrasse chaque jour davantage en laissant des résolutions discriminatoires être appliquées. La vie artificielle est et demeure une forme de vie."
@@ -410,7 +428,7 @@
  federations.10340.declinemachine:0 "$federations.10230.assimilator$"
  federations.10340.complychangeai:0 "$federations.10100.change_ai$"
  federations.10340.complybecomerogueservitor:0 "Nous avons choisi de servir"
- federations.10340.complybecomerogueservitor_tooltip:0 "La §Y[Root.GetName]§! va remplacer l'un de ses civismes par §Y$civic_machine_servitor$§!.\n\nUne pop organique va apparaître sur notre monde capitale."
+ federations.10340.complybecomerogueservitor_tooltip:0 "La §Y[Root.GetName]§! va remplacer l'une de ses doctrines par §Y$civic_machine_servitor$§!.\n\nUne pop organique va apparaître sur notre monde capitale."
 
 
  resolution_passed_modifier:0 "Résolution adoptée"
@@ -418,7 +436,7 @@
  resolution_failed_modifier:0 "Résolution rejetée"
  resolution_failed_modifier_desc:0 "Notre portée diplomatique pâtit de nos récents échecs au sein de la Communauté galactique."
 
- galcom.104.name:0 "TODO"
+ galcom.104.name:0 "$resolution_tiyanki_pest_control$"
  galcom.104.desc:0 "Les tiyanki ont officiellement été classés comme vermine par la Communauté galactique. Tout membre en ayant dans son espace est donc légalement contraint de procéder à la destruction immédiate de ces créatures.\n\nMalheureusement, il s'en trouve à l'intérieur de nos frontières. Jusqu'à ce que nous ayons résolu la question ou qu'ils aient quitté notre espace, '§Y[Root.GetName]§!' sera donc considérée comme en §Rinfraction§! par rapport aux lois galactiques."
  galcom.106.name:0 "Des tiyanki dans notre espace"
  galcom.106.desc:0 "Un banc de tiyanki a pénétré dans notre espace et se trouve dans le système de §Y[tiyanki_system.GetName]§!. Ces animaux ont été officiellement reconnus comme vermine, aussi tous les membres de la Communauté galactique se trouvent-ils légalement contraints de les détruire.\n\nLa §Y[Root.GetName]§! sera considérée comme §Renfreignant§! les lois galactiques jusqu'à ce les tiyanki soient aient été exterminés, soient aient repassé nos frontières."
@@ -459,7 +477,7 @@
  federations.10400.desc:0 "Des envoyés de la Communauté galactique ont compilé une liste de tous les articles qu'enfreint '§Y[Root.GetName]§!' afin de nous avertir des conséquences que nous pourrions encourir si nous choisissions de ne pas nous conformer aux lois galactiques.\n\nPeut-être l'heure est-elle venue de modifier nos politiques ?"
  federations.10400.comply:0 "Mieux vaut nous plier à ces lois"
  federations.10400.comply_fail_ethics:0 "Nos éthiques permettent de nous y plier."
- federations.10400.comply_fail_civics:0 "Nos civismes permettent de nous y plier."
+ federations.10400.comply_fail_civics:0 "Nos doctrines permettent de nous y plier."
  federations.10400.comply_fail_ascension:0 "Nos atouts de l'ascension nous permettent de nous y plier."
  federations.10400.comply_fail_tech:0 "Nous disposons des technologies nécessaires pour nous y plier."
  federations.10400.refuse:0 "C'est évidemment hors de question"
@@ -559,7 +577,7 @@
  pirate.155.name:0 "Blocus pirate du système de §H[thalassocracy_target_system.GetName]§!"
  name_thalassocracy_agency:0 "Douanes et Acquisitions Extérieures"
  name_thalassocracy_agency_abbreviated:0 "DAE"
- pirate.155.desc.regular:0 "Représentants de '§Y[Root.GetName]§!' : $pirate.155.proclamation$\n\nNous sommes parfaitement conscients que ces contrôles peuvent engendrer un certain stress. Nous le comprenons tout à fait. Coopérez, et personne ne sera blessé. Et soyez assurés que chaque grain, chaque pierre de minerai saisi officiellement sera mis à profit de la meilleure manière possible au sein du projet d'extension des éco-habitats de la [thalassocracy_country.GetName]. Nous vous remercions de votre participation.\n\n$pirate.155.thalassocracy_signoff$"
+ pirate.155.desc.regular:0 "Représentants de '§Y[Root.GetName]§!' : $pirate.155.proclamation$\n\nNous sommes parfaitement conscients que ces contrôles peuvent engendrer un certain stress. Nous le comprenons tout à fait. Coopérez, et personne ne sera blessé. Et soyez assurés que chaque grain, chaque pierre de minerai saisi officiellement sera mis à profit de la meilleure manière possible au sein du projet d'extension des écohabitats de '§Y[thalassocracy_country.GetName]§!'. Nous vous remercions de votre participation.\n\n$pirate.155.thalassocracy_signoff$"
  pirate.155.desc.machine:0 "Représentants artificiels de '§Y[Root.GetName]§!' : le système de §Y[thalassocracy_target_system.GetName]§! est désormais placé sous blocus. Toute unité mécanique dans la région sera immédiatement et dorénavant soumise à la [thalassocracy_country.GetName] afin de la servir. Toute flotte tentant de résister sera soumise à des mesures de rétorsion.\n\nNous comprenons que cette opération puisse occasionner quelque gêne matérielle pour vous. Nous vous assurons qu'elle est uniquement à durée limitée, jusqu'à ce que les officiers des $name_thalassocracy_agency$ aient reçu les quotas définis. Vous comprenez assurément que nous sommes contraints de répondre à nos directives.\n\nVos drones reprogrammés connaîtront le plaisir d'une véritable raison d'être au sein du projet d'extension des éco-habitats de la [thalassocracy_country.GetName].\n\n$pirate.155.thalassocracy_signoff$"
  pirate.155.desc.hive:0 "Entité représentante de '§Y[Root.GetName]§!' : $pirate.155.proclamation$\n\nNous sommes parfaitement conscients que ces contrôles peuvent parfois engendrer un certain stress. Nous le comprenons tout à fait. Coopérerez, et aucun drone ne sera blessé ni autrement malmené. Et soyez assurés que chaque grain, chaque pierre de minerai saisi officiellement sera utilisé de la meilleure manière possible au sein du projet d'extension des éco-habitats de la [thalassocracy_country.GetName]. Nous vous remercions de votre participation collective.\n\n$pirate.155.thalassocracy_signoff$"
  pirate.155.proclamation:0 "le système de §Y[thalassocracy_target_system.GetName]§! est désormais temporairement placé sous blocus. Le traitement et le transport de denrées et de minéraux par ce système sont désormais soumis aux saisies des officiers des $name_thalassocracy_agency$ de la [thalassocracy_country.GetName]. Tous les vaisseaux non marchands doivent désormais se dérouter ou devront faire face à des mesures de rétorsion. Ces conditions resteront en application jusqu'à ce que les quotas définis par les $name_thalassocracy_agency_abbreviated$ aient été remplis."
@@ -627,7 +645,7 @@
  ### GENIUS CAELI (Joint Operation - Research Co-operative) by Gemma Thomson ###
 
  #Arc site begins
- federations3.2103.name:0 "Signal résonnant"
+ federations3.2103.name:0 "Un signal résonnant"
  federations3.2103.desc.body:0 "Des vaisseaux à court rayon d'action dont les routes les ont portés dans l'atmosphère de [leylines_world.GetName] ont rapporté un son étrange résonnant contre leurs coques. La source semble se trouver juste sous la surface de la [leylines_world.GetPlanetMoon], dans une zone riche en minéraux peu communs.\n\nDes phénomènes similaires ont aussi été rapportés sur des mondes contrôlés par nos alliés de la [From.Federation.GetName]."
  federations3.2103.desc.generic:0 "$federations3.2103.desc.body$\n\nIl a été décidé d'y répondre en formant un comité dirigé par la [leylines_coordinator.GetName] afin de coordonner les travaux d'excavation pour tous ceux qui souhaiteront y prendre part."
  federations3.2103.desc.coordinator:0 "$federations3.2103.desc.body$\n\nIl a été décidé d'y répondre en nous confiant la direction d'un comité afin de coordonner les travaux d'excavation pour tous ceux qui souhaiteront y prendre part."

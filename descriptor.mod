@@ -1,7 +1,7 @@
-version="0.2"
+version="1.0"
 tags={
 	"Translation"
 }
-name="French Translation Pack [2.8+]"
-supported_version="2.8.*"
-remote_file_id="2027745745"
+name="French Translation Pack [3.0+]"
+supported_version="3.0.*"
+remote_file_id="2457286454"

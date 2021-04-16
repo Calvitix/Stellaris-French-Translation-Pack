@@ -1,4 +1,8 @@
 #WARNING : Overwritten by FrenchTranslationPack
+# Original File, Overwritten by FrenchTranslationPack
+# Calvitix 3.0.1. Check OK, 15/04/2021
+#
+
 ##############
 # NAME PARTS #
 ##############
@@ -5426,6 +5430,25 @@ empire_name_format = {
 	prefix_format = "[This.GetSpeciesName] <diadochi_names_4_1> <diadochi_names_4_2>"
 }
 
+empire_name_format = { #this is only used to make the error log be silent, the name is overwritten straight away
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			has_government = "gov_diadochi"
+			NOR = {
+				has_country_flag = diadochi_1
+				has_country_flag = diadochi_2
+				has_country_flag = diadochi_3
+				has_country_flag = diadochi_4
+			}
+		}
+	}
+	format = "format.diadochi.4"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.GetSpeciesName] <diadochi_names_4_1> <diadochi_names_4_2>"
+}
+
 # New Khanate
 empire_name_parts_list = {
 	key = "new_khanate_names_1_1"
@@ -5445,7 +5468,10 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 1000
-			has_country_flag = new_khanate_flag
+			OR = {
+				has_government = gov_successor_khanate
+				has_country_flag = new_khanate_flag
+			}
 		}
 	}
 	format = "format.new_khanate"
@@ -6127,6 +6153,92 @@ empire_name_format = {
 	format = "format.rad_cult.1"
 	noun = "<radical_cult_names>"
 	# Final Crucible
+}
+
+############################## Imperial Domains ######################
+
+# Normal empires
+empire_name_parts_list = {
+	key = "imperial_domain_names"
+	parts = {
+		"Noyau Impérial" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_government = "gov_imperial_domain"
+		}
+	}
+	format = "format.imp_dom.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<imperial_domain_names> [This.GetSpeciesName]"
+}
+
+# Machines
+empire_name_parts_list = {
+	key = "imperial_domain_names_2"
+	parts = {
+		"Nexus Impérial" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_government = "gov_imperial_domain_machines"
+		}
+	}
+	format = "format.imp_dom.2"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<imperial_domain_names_2> [This.GetSpeciesName]"
+}
+
+# Hives
+empire_name_parts_list = {
+	key = "imperial_domain_names_3"
+	parts = {
+		"Ruche Impériale" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_government = "gov_imperial_domain_hives"
+		}
+	}
+	format = "format.imp_dom.3"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<imperial_domain_names_3> [This.GetSpeciesName]"
+}
+
+# MegaCorps
+empire_name_parts_list = {
+	key = "imperial_domain_names_4"
+	parts = {
+		"ImpériCorp" = 10
+	}
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			has_government = "gov_imperial_domain_megacorp"
+		}
+	}
+	format = "format.imp_dom.4"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<imperial_domain_names_4> [This.GetSpeciesName]"
 }
 
 ############################## AI ##############################
