@@ -5,10 +5,19 @@
     #############################################################################################################################################
 	
 	#French Translations Choices for Katzen lore
+	#
+	# Personnages
+	#
 	# Douclaw MacCathur --> Charles MacChat
 	# Dietrich Videafurr --> Hector Degriff
 	# Dofus Teknik Makina --> Dofus Makine Teknik
 	# Louf Cerreless Hornsfelt --> Louf Pelisse Irréprochable
+ 	# Pawtton --> Léorton
+	# Weeny Pouchkinn --> Igor Pouchkinn
+	#
+	#
+	# Empires et espèces
+	#
 	# Katzen --> Félidés
 	# Katzenartig Imterium --> Impérium Félidéen
 	# Stellarisches Katzimperium --> Impérium stellaire félidéen
@@ -21,6 +30,7 @@
 	# Paluush --> Peluche
 	# Grandbunny --> Grand Lapin
 	#
+	#
 	# Corronian Kingdoms --> Royaume Corronien
 	# Ezicania --> Ezicanien
 	# Flusionian --> Flusioniens
@@ -31,21 +41,42 @@
 	# Douclaw -> Crocs
 	# Katzchen -> Lionceau
 	# 
+	# Riesigerkatzenpanzers --> Blindés félins géants
+	# Katzenarmee Task Force --> Forces spéciales félidéennes
+	#
+	#
 	# Systèmes et planètes
 	#
 	# Jupitwo --> Juriduo
-	# Zweiblio --> Jublio
-	# Katzenland --> §HFélidrin§!
+	# Zweiblio --> Doublio
+	# Katzenland --> Félidrin
+	# Eeloo --> Elo
+	# Duna --> Dune
+	# Jool --> Joul
+	# Doughland --> Orfevre
+	# Veene --> Vene
+	# Merries --> Mestraisil
+	# Magmoon --> Maglune
+	# Mlekane --> Melkane
+	# Dunclawi --> Sombrage
+ 	# Daemora --> Démora
 	#
+	#
+	# Secteurs et villes 
 	#
 	# Katzen Herzland --> Patria des Félidés
 	# Katown --> FelVille
+	# New Zeichester --> Nouv. Ester	
+	#
+	#
+	#
+	#
 	# Gigastructures
 	#
 	#  E.H.O.F. --> I.D.H.E
 	#  E.H.V.E. --> M.O.H.E.
 	#
-	#
+	# Kammarian --> Kamarien
 	
 	
 	
@@ -305,7 +336,7 @@
     name_orb_bastion:0 "Bastion orbital"
     allow_orb_bastion:0 "§HDéverrouille la mégastructure : §! $name_orb_bastion$"
 
-  #############################################################################################################################################
+    #############################################################################################################################################
     ### Requirements ############################################################################################################################
     #############################################################################################################################################
     giga_zero:0 "0"
@@ -445,7 +476,7 @@
     giga_menu.2.refresh.tooltip:0 "Ici, vous pouvez vérifier vos paramètres actifs."
 
     giga_menu.1.name:0 ""
-    giga_menu.1.desc:0 "Version : 3. 9. 1"
+    giga_menu.1.desc:0 "v 3.11"
 
     giga_menu_1:0 "Capacité en mégastructures : §H1§!"
     giga_menu_2:0 "Capacité en mégastructures : §Y2§!"
@@ -1026,6 +1057,8 @@
     giga_menu_ehof_ai_disabled:0 "£menu_enabled£I.A. EHOF\nDétermine si l'IA construit l'EHOF."
     giga_menu_ehof_ai_enabled:0 "£menu_disabled£I.A. EHOF\nDétermine si l'IA construit l'EHOF."
 
+    giga_habitat_unlimited:0 "£menu_u£§M$name_orb_elysium$§!"
+    giga_habitat_disabled:0 "£menu_disabled£§R$name_orb_elysium$§!"
     giga_habitats_pops:0 "Habitats limités par les pops"
     giga_habitats_system:0 "Habitats limités par les systèmes"
     requires_more_pops:0 "Nous avons besoin de [FROM.calc_var_pops] pops pour notre prochain habitat"
@@ -1109,6 +1142,8 @@
     giga_menu_presets_patreon_07:0 "Patreon : §MGIF_Bluehawk§!"
     giga_menu_presets_patreon_08:0 "Patreon: §MGaleadon§!"
     giga_menu_presets_patreon_09:0 "Patreon: §Md0nny§!"
+    giga_menu_presets_patreon_10:0 "Patreon: §MInodiv§!"
+    giga_menu_presets_patreon_11:0 "Patreon: §MAlchimous§!"
 
     giga_menu_presets_other_01:0 "Gagnant du concours : §HThe_Strateg1st§!"
 
@@ -1133,7 +1168,6 @@
     ehof_anomaly.10002.a:0 "C'est Horrible. Une autre société détruite par sa propre cupidité!"
 
     ################################
-
 
     STUDY_NATURAL_NETWORK:0 "Espèce végétale interconnectée"
     STUDY_NATURAL_NETWORK_DESC:0 "Nos scientifiques se préparent à une vaste activité de recherche dans les forêts de §H[from.GetName]§!, afin d'en savoir plus sur l'espèce végétale unique, qui crée le réseau mondial sur la planète."
@@ -1640,7 +1674,7 @@
     ehof_reality_code.10001.name:0 "Éradicateur stellaire"
     ehof_reality_code.10001.desc:0 "Nous avons enfin atteint le système d'origine du $ehof_epcs$, [root.GetStarName].\n\nLe système se compose d'un énorme trou noir et d'un seul corps céleste en orbite autour de lui. Une formidable structure sphérique d'un diamètre d'environ 15 000 000 kilomètres. La structure n'est certainement pas d'origine naturelle et semble être défendue par un vaisseau que nous n'avons jamais rencontré auparavant, l'Éradicateur stellaire.\n\nNous devons procéder avec prudence, car il semble être hostile et lourdement armé ! La défaite de ce vaisseau pourrait s'avérer nécessaire, car elle nous empêchera probablement de s'approcher de l'objet sphérique."
 
-    # On killing the Éradicateur
+    # On killing the eradicator
     ehof_reality_code.10002.name:0 "L'Éradicateur éradiqué"
     ehof_reality_code.10002.desc:0 "Alors que l'issue de la bataille contre l'Éradicateur stellaire se précisait en notre , il a juste disparu sans laisser de trace. Il n'y a aucune indication sur l'endroit où il est allé ou s'il pourrait revenir.\n\nQuoi qu'il en soit, nous pouvons maintenant reprendre notre mission, la raison pour laquelle nous sommes venus ici pour commencer. L'objet sphérique qui est probablement à l'origine du motif énigmatique.\n\nLes balayages visuels et thermiques de la surface montrent qu'elle est perpétuellement en mouvement et change entre de nombreux états différents de la matière. Ce n'est ni solide ni liquide, ni gazeux, ni plasma. C'est tout à la fois ! Même les états de matière à très haute ou très basse énergie semblent exister dans la composition de la surface, comme les condensats de Bose-Einstein, la matière dégénérée et même la matière photonique.\n\nLa surface brille également d'elle-même de temps en temps , à différents endroits, probablement à cause de la désintégration de la matière photonique et des transitions de phase constantes. Sur la base de nos connaissances sur $ehof_sm$ et du fait que toutes les autres structures primordiales en sont constituées, il est probable que la surface soit constituée du même matériau. Les tentatives de vérification de cette hypothèse s'avèrent malheureusement vaines, car la composition de la surface est impossible à déterminer avec des scanners, en raison des transitions de phase constantes et extrêmement rapides. Ce qui est remarquable, c'est qu'il semble posséder des schémas de couleurs spécifiques, qui sont les mêmes presque partout. Un or-argent et orange. Comment tout cela fonctionne est absolument inconnu.\n\nDeux zones de forme circulaire, qui ne peuvent être définies que comme les 'pôles' de cette sphère, parce que les sphères parfaites n'ont pas de pôles, sont distinctes de la structure de la surface principale . Ils ont un diamètre d'environ 2 millions de kilomètres et semblent être faits d'un matériau solide et cristallin avec une couleur semblable au bronze. Contrairement au reste de la surface, les pôles sont statiques et ne changent pas du tout. Au centre de ces pôles se trouve une sorte de grand sceau, de forme similaire à celle des amplificateurs et des sceaux du $ehof_gateway_disableds$,. Il peut s'agir d'une sorte de symbole représentatif des créateurs de cette construction, des amplificateurs et du $CREATORGATE_GALACTICSS$.\n\nTout comme avec les objets amplificateurs, la surface ne peut pas être pénétrée avec des scanners, mais contrairement à eux, sa température n'est pas définissable, en raison des phases perpétuellement changeantes de la surface.\n\nUne entrée n'est pas identifiable, s'il y en a, mais elle peut être similaire aux objets amplificateurs, dont les entrées ne se 'manifestent' que dans des conditions spécifiques.\n\nUne étude approfondie de la structure sera nécessaire pour déterminer sa fonction et y trouver un moyen, ce qui sera probablement nécessaire pour déterminer la fonction en premier lieu. Nos chercheurs ont décidé de nommer la construction $ehof_the_sphere_named$."
     ehof_reality_code.10002.a:0 "C'est incroyable !"
@@ -1769,7 +1803,6 @@
     building_solar_farm:0 "Ferme solaire"
     building_solar_farm_desc:0 "Un grand panneau solaire qui génère suffisamment d'énergie pour alimenter les systèmes de la planète."
 
-
     #########################################
     ### Habitable Gas Giant #################
     #########################################
@@ -1821,7 +1854,7 @@
     d_interstellar_ringworld_commerce_blocker_desc: "Comme l'anneau-monde offre une quantité d'espace presque infinie, peu d'attention a été accordée au réaménagement des terres, ce qui a conduit à de vastes étendues de terres remplies de bâtiments abandonnés depuis longtemps. Si ces territoires sont défrichés et redéveloppés, les entreprises locales pourront se développer considérablement, augmentant ainsi la richesse de l'empire."
 
     #########################################
-    ### Sphère de Penrose ######################
+    ### Penrose Sphere ######################
     #########################################
     relic_penrose_sphere_1_MEGASTRUCTURE_DETAILS:0 "Debug"
     penrose_rename_capital:0 "[prev.prev.GetName]"
@@ -1953,7 +1986,7 @@
     #########################################
     fallen_empire_station_small_key:0 "Core"
 
-    ### La Combinaison
+    ### The Compound
     ARCHITECT_COMPOUND_SECTION:0 "Noyau"
     PROPAGATOR_COMPOUND_SECTION:0 "Noyau"
     HORNET_COMPOUND_CORE_SECTION:0 "Noyau"
@@ -2284,7 +2317,7 @@
     sr_solar_energy_desc:0 "§ELes photons Planck sont des particules légères avec des longueurs d'onde extrêmement courtes. Ils représentent d'immenses quantités d'énergie stockée, nécessaires pour entretenir les plus grandes superarmes. Un seul photon de Planck peut transporter 10 ^ 10 Joules d'énergie ! §!"
 
     #######################
-    # Masse quasi-négative #
+    # Quasi-Negative Mass #
     #######################
 
     # Name
@@ -2942,7 +2975,7 @@
 
     giga_achievement_48:0              "§RV§!"
     giga_achievement_48_title:0        "§R$giga_achievement_44_group_header$ $giga_achievement_48$§!"
-    giga_achievement_48_requirement:0  "Vaincre $ehof_the_compound$ en mode Amiral ou en difficulté supérieure."    
+    giga_achievement_48_requirement:0  "Vaincre $ehof_the_compound$ en mode Amiral ou en difficulté supérieure."
     giga_achievement_48_reward:0       "Vitesse des vaisseaux : §G50%§!\n\n"
     giga_achievement_48_tooltip:0      "$giga_achievement_48_title$\n$giga_achievement_48_requirement$\n\n§HRécompense§!\n$giga_achievement_48_reward$"
     achievement_48:0                   "$giga_achievement_48_title$"
@@ -3316,7 +3349,7 @@
 
     d_alderson_lost01:0 "$d_birch_lost01$"
     d_alderson_lost01_desc:0 "$d_birch_lost01_desc$"
-    d_alderson_lost01_cleared:0 "Gagnez §B2 £pops£ Pops§! sur §Y[root.GetName]§!\nNettoier tous les bloqueurs §Y$d_alderson_lost01$§! réduira le coût de §Y$d_alderson_ruined_district$§! de §G50%§!"
+    d_alderson_lost01_cleared:0 "Gagne §B2 £pops£ Pops§! sur §Y[root.GetName]§!\nNettoie tous les bloqueurs §Y$d_alderson_lost01$§! réduira le coût de §Y$d_alderson_ruined_district$§! de §G50%§!"
 
     d_alderson_ruined_housing:0 "Taudis tentaculaires"
     d_alderson_ruined_housing_desc:0 "Nettoyer le disque d'Alderson est une tâche gigantesque, mais il faut commencer quelque part."
@@ -3664,7 +3697,7 @@
     district_rw_quberine_desc:0 "Des moissonneuses-batteuses automatisées qui récupèrent la Qubérine auto-régénérante du châssis du Monde-carré et la décomposent en alliages et minéraux utilisables."
 
     #########################################
-    ### Virtual Anneau-monde districts #########
+    ### Virtual Ringworld districts #########
     #########################################
     district_virtual_city:0 "Serveur Megaplex"
     district_virtual_city_plural:0 "Serveurs Megaplex"
@@ -3720,7 +3753,7 @@
     district_virtual_shipyard_max:0 "$district_virtual_shipyard_plural$ Max"
 
     #########################################
-    ### Interstellar Anneau-monde districts ####
+    ### Interstellar Ringworld districts ####
     #########################################
     district_interstellar_city:0 "Segment d'Habitation"
     district_interstellar_city_plural:0 "Segments d'Habitation"
@@ -4028,6 +4061,7 @@
     mod_job_giga_interstellar_scavenger_add:0 "Emplois de $job_giga_interstellar_scavenger$"
     mod_job_giga_interstellar_scavenger_per_pop:0 "§G+1§! Emploi de $job_giga_interstellar_scavenger$ par $VALUE$ Pops"
     mod_job_giga_interstellar_scavenger_per_pop_short:0 "\n§G+1§! £mod_job_giga_interstellar_scavenger_add£ par $VALUE$ £pop£"
+
     # Gestalt
     job_giga_interstellar_scavenger_drone:0 "Drone récupérateur Interstellaire"
     job_giga_interstellar_scavenger_drone_plural:0 "Drones récupérateurs Interstellaire"
@@ -4350,7 +4384,7 @@
     qso_intensity_none_desc:0 "Le QS-O ne se charge pas. Toute sa production est convertie en énergie."
 
     qso_intensity_verylow:0 "QS-O : charge très faible"
-    qso_intensity_verylow:0 "Le QS-O se charge très lentement, une grande partie de sa puissance est convertie en énergie."
+    qso_intensity_verylow_desc:0 "Le QS-O se charge très lentement, une grande partie de sa puissance est convertie en énergie."
 
     qso_intensity_low:0 "QS-O : faible charge"
     qso_intensity_low_desc:0 "Le QS-O se charge lentement, une partie de sa sortie est convertie en énergie."
@@ -4403,7 +4437,7 @@
     iodizium_deficit_desc:0 "Nos installations d'iodizium consomment d'énormes quantités d'énergie externe afin de reproduire les effets de l'iodizium manquant."
 
     magical_neutronium_deficit:0 "Déficit de neutronium"
-    magical_neutronium_deficit:0 "Nos installations utilisent de grandes quantités d'énergie pour reproduire les effets du neutronium manquant."
+    magical_neutronium_deficit_desc:0 "Nos installations utilisent de grandes quantités d'énergie pour reproduire les effets du neutronium manquant."
 
     #########################################
     ### Planet Modifiers ####################
@@ -4440,7 +4474,6 @@
 
     red_toxic:0 "Monde toxique rouge"
     red_toxic_desc:0 "Un monde toxique récemment découvert, dont l'atmosphère est remplie d'une substance inconnue de couleur rouge et toxique."
-
 
     scarlet_scourge:0 "Monde toxique rouge"
     scarlet_scourge_desc:0 "Un monde incroyablement hostile, avec une atmosphère remplie de particules rouges d'une toxine synthétique avancée qui semble hors de contrôle."
@@ -4653,6 +4686,7 @@
     #############################################################################################################################################
     sc_habitat:0 "$name_interstellar_hab$"
     sc_birch:0 "Noyau inactif"
+    sc_birch_built:0 "$sc_birch$"
     sc_quasar:0 "Noyau actif"
     sc_ehof_black_hole:0 "$pc_ehof_black_hole$"
     sc_ehof_black_hole_desc:0 "$pc_ehof_black_hole_desc$"
@@ -4661,6 +4695,8 @@
     sc_white_hole:0 "Trou blanc"
     sc_white_hole_desc:0 "Une contrepartie au trou noir. Un trou blanc émet de grandes quantités d'énergie astronomiques, repoussant toute matière. Il est impossible de franchir son horizon d'événements. D'où vient toute l'énergie est encore un mystère. Il peut être alimenté par l'énergie du vide, l'énergie mystérieuse de fond du Cosmos, avec un approvisionnement énergétique potentiellement illimité. Ou il peut même être alimenté par les mécanismes de naissance inflationnistes d'univers entiers ! Personne ne connaît la vraie réponse..."
     sc_t:0 "$pc_t_star$"
+    sc_empty_space:0 "Empty Space"
+    sc_dyson_star:0 "Dyson Sphere"
 
     #############################################################################################################################################
     ### Stars ###################################################################################################################################
@@ -4730,7 +4766,7 @@
     tech_ehof_phase_02:0 "$ehof_ehofp2$"
     tech_ehof_phase_02_desc:0 "Utiliser des champs électromagnétiques compressés et condensés pour manipuler et alimenter $ehof_wormholes$, probabilistes qui apparaissent et disparaissent à l'horizon des événements d'un trou noir. La pression négative diminue la probabilité d'inexactitudes et augmente les possibilités de destination."
 
-    # Matière noire Injection
+    # Dark Matter Injection
     tech_dm_injection:0 "Injection de matière noire"
     tech_dm_injection_desc:0 "L'agrandissement de l'$ehof_ehof$ nous permettra, en plus de l'application de la pression négative, d'injecter également $ehof_darkmatter$ dans le trou noir, dont les propriétés augmenteront largement l'efficacité de notre $ehof_ehof$. La combinaison de la pression négative et de $ehof_darkmatter$, stabilisera davantage les $ehof_wormholes$ suralimentés"
 
@@ -4742,7 +4778,7 @@
     tech_negative_mass_enrichment:0 "Enrichissement de masse négative passive"
     tech_negative_mass_enrichment_desc:0 "Une application faible mais permanente de pression négative et une injection permanente $ehof_darkmatter$ créent un petit flux constant de masse négative autour de l'horizon des événements. Cette masse négative peut être collectée par nos systèmes de collecte $ehof_ehofs$, à côté des grands montants qui sont créés par le déploiement $ehof_ehof$."
 
-    # Event Horizon Offset Facility Oméga
+    # Event Horizon Offset Facility Omega
     allow_ehof_p3:0 "§HDéverrouille la mégastructure : §! $ehof_ehofp3$"
     tech_ehof_phase_03:0 "$ehof_ehofp3$"
     tech_ehof_phase_03_desc:0 "Utiliser des champs électromagnétiques compressés et condensés pour manipuler et alimenter $ehof_wormholes$, probabilistes qui apparaissent et disparaissent à l'horizon des événements d'un trou noir. Les champs graviélectromagnétiques augmentent considérablement l'efficacité du processus de gonflage et la combinaison de $ehof_darkmatter$ et de la pression négative diminue considérablement la probabilité d'inexactitudes et augmente les possibilités de destination."
@@ -4967,7 +5003,7 @@
     giga_tech_repeatable_dimensional_storage:0 "Applications de stockage hyperdimensionnelles"
     giga_tech_repeatable_dimensional_storage_desc:0 "En utilisant l'ingénierie tétradimensionnelle dans nos conceptions de stockage, nous pouvons efficacement stocker plus de ressources dans le même volume d'espace."
 
-    # Vitesse de constr. des mégastructures %
+    # Megastructure Build Speed %
     giga_tech_repeatable_reduced_mega_building_time:0 "Conceptions de mégastructure modulaire"
     giga_tech_repeatable_reduced_mega_building_time_desc:0 "La mise en oeuvre d'un degré plus élevé d'ingénierie modulaire dans nos schémas de mégastructure aidera à rationaliser leur construction."
 
@@ -5078,7 +5114,7 @@
     giga_tech_repeatable_glue_cap_desc: "Des nouveaux Protocoles avancés de construction et de maintenance pour permettre la construction et la gestion de §YG.L.U.E.§! supplémentaires à l'intérieur des frontières de notre empire."
     giga_glue_capacity_increase_title: "Capacité en §YG.L.U.E.§! : §G+1§!"
     giga_glue_capacity_increase_desc: "La capacité de notre Empire en §YG.L.U.E.§! est augmenté de §G+1§!"
-    
+
     giga_tech_repeatable_hraemc_cap: "Protocoles de gestion des HRAE-MC"
     giga_tech_repeatable_hraemc_cap_desc: "Des nouveaux Protocoles avancés de construction et de maintenance pour permettre la construction et la gestion d'§YHRAE-MC§! supplémentaires à l'intérieur des frontières de notre empire."
     giga_hraemc_capacity_increase_title: "Capacité en §YHRAE-MC§! : §G+1§!"
@@ -5246,7 +5282,6 @@
 
     desc_asteroid_manufactory:0 "$asteroid_manufactory_2_DESC$"
     allow_asteroid_manufactory:0 "§HDéverrouille la mégastructure : §! $name_asteroid_manufactory$"
-    giga_menu.asteroid_manufactory:0 "[root.giga_chk_asteroid_manufactory]"
     giga_asteroid_manufactory_1:0 "£menu_1£§H$name_asteroid_manufactory$§!"
     giga_asteroid_manufactory_2:0 "£menu_2£§Y$name_asteroid_manufactory$§!"
     giga_asteroid_manufactory_3:0 "£menu_3£§G$name_asteroid_manufactory$§!"
@@ -5307,7 +5342,6 @@
 
     desc_psychic_beacon:0 "$psychic_beacon_2_DESC$"
     allow_psychic_beacon:0 "§MTechnologie du Suaire§!\n§HDéverrouille la mégastructure : §! $name_psychic_beacon$"
-    giga_menu.psychic_beacon:0 "[root.giga_chk_psychic_beacon]"
     giga_psychic_beacon_1:0 "£menu_1£§H$name_psychic_beacon$§!"
     giga_psychic_beacon_2:0 "£menu_2£§Y$name_psychic_beacon$§!"
     giga_psychic_beacon_3:0 "£menu_3£§G$name_psychic_beacon$§!"
@@ -5316,7 +5350,6 @@
     giga_psychic_beacon_disabled:0 "£menu_disabled£§R$name_psychic_beacon$§!"
     must_have_shrouded_world:0 "Doit avoir un monde du Suaire à l'intérieur de nos frontières."
     can_already_illuminate:0 "Ne doit pas déjà avoir la capacité d'illuminer un monde Suaire."
-    must_be_at_war:0 "Doit être en guerre."
 
     sr_psionic_sublimate:0 "Sublimat psionique"
     sr_psionic_sublimate_desc:0 "§EUne ressource ésotérique composée d'âmes sublimées, utilisée par les $psychic_beacon_3$.§!"
@@ -5471,7 +5504,7 @@
     cant_sublimate_soulless_machines:0 "Les machines n'ont pas d'âme et ne peuvent donc pas être sublimées."
 
     must_be_at_war_and_own_systems:0 "Nous devons être en guerre avec un empire et contrôler ou posséder une planète dans un système qui leur appartient."
-    must_be_at_war:0 "Aucune cible hostile disponible."
+    must_be_at_war:0 "Doit être en guerre."
     beacon_shroud_army_defensive:0 "$shroud_army$"
     beacon_shroud_army_defensive_desc:0 "$shroud_army_desc$"
 
@@ -5479,7 +5512,7 @@
     beacon_shroud_army_offensive_desc:0 "$shroud_army_desc$"
 
     #########################################
-    ### Adaptation des Sphères de Dyson ################
+    ### Dyson Sphere Scaling ################
     #########################################
     dyson_sphere_0_a_star_MEGASTRUCTURE_DETAILS:0 "$dyson_sphere_0_MEGASTRUCTURE_DETAILS$"
     dyson_sphere_ruined_a_star_MEGASTRUCTURE_DETAILS:0 "$dyson_sphere_ruined_MEGASTRUCTURE_DETAILS$"
@@ -5991,11 +6024,11 @@
 
     ehof_fleets_in_system:0 "§HFlottes en attente de transit§! :\n$ehof_chk_science$$ehof_chk_constructor$$ehof_chk_military$$ehof_chk_colossus$$ehof_chk_juggernaut$"
 
-    ehof_chk_science:0 "[root.ehof_chk_science]"
-    ehof_chk_constructor:0 "[root.ehof_chk_constructor]"
-    ehof_chk_military:0 "[root.ehof_chk_military]"
-    ehof_chk_colossus:0 "[root.ehof_chk_colossus]"
-    ehof_chk_juggernaut:0 "[root.ehof_chk_juggernaut]"
+    ehof_chk_science:0 "[root.ehof_chk1_science]"
+    ehof_chk_constructor:0 "[root.ehof_chk1_constructor]"
+    ehof_chk_military:0 "[root.ehof_chk1_military]"
+    ehof_chk_colossus:0 "[root.ehof_chk1_colossus]"
+    ehof_chk_juggernaut:0 "[root.ehof_chk1_juggernaut]"
 
     ehof_loc_science:0 "vaisseaux scientifiques : [root.ehof_pre_flight_science]\n"
     ehof_loc_constructor:0 "vaisseaux de construction : [root.ehof_pre_flight_constructor]\n"
@@ -6539,7 +6572,7 @@
 
     terraform_molten_3:0 "Commencer la terraformation"
     terraform_molten_3_DESC:0 "Ordonnez à l'équipage du $name_terraform_molten$ de commencer à transformer la surface en fusion et la composition tectonique de cette planète en quelque chose qui peut être habité par la plupart des formes de vie."
- 
+
     #########################################
     ### Terraform Shattered #################
     #########################################
@@ -6581,7 +6614,6 @@
 
     terraform_shattered_4:0 "Commencer à terraformer"
     terraform_shattered_4_DESC:0 "Commandez l'équipage du $name_terraform_shattered$ pour commencer à créer un surface fondue et les systèmes tectoniques de cette planète, ce qui peut être la base afin d'envisager plus tard d'y élire domicile"
-
 
     #########################################
     ### Terraform Barren ####################
@@ -6680,7 +6712,6 @@
     giga_dialog.2603.name:0 "Une lune prend son envol"
     giga_dialog.2603.desc:0 "C'est fait. Le corps céleste autour duquel nous avons construit le $name_war_moon$ n'est plus une simple lune ou une petite planète. Il a été équipé d'une très grande lance d'annihilation Oméga, capable de percer presque tout.\n\nLes propulseurs ont poussé la lune hors de son orbite, son hyperdrive a été activé et il a maintenant été ajouté à notre armée. Obliger. Il est maintenant prêt pour l'Annihilation."
     giga_dialog.2603.a:0 "Fantastique. Nos ennemis trembleront de peur face à cette installation."
-
 
     war_moon_0:0 "Chantier de construction de la $name_war_moon$"
     war_moon_0_DESC:0 "Le chantier d'une future $name_war_moon$. Ce dépôt de préparation abrite l'équipement nécessaire pour transformer cette lune en une arme redoutable."
@@ -7379,7 +7410,7 @@
     giga_ndb.002.e:0 "Annuler"
     giga_ndb.003.desc:0 "Quel Empire voulez-vous cibler ?"
     giga_ndb.003.a:0 "Aucun (Espace vide)"
-    
+
     giga_ndb.004.desc:0 "Quelle type d'étoile de l'Empire choisi voulez-vous cibler ?"
     giga_ndb.005.desc:0 "Quel système spécifique voulez-vous cibler ?"
     giga_ndb.006.desc:0 "Voulez-vous cibler le système entier, ou juste un corps planétaire particulier ?"
@@ -7392,6 +7423,7 @@
     giga_ndb.007.desc:0 "Quelle planète du système souhaitez-vous cibler ?"
 
     giga_ndb.008.desc:0 "Nous sommes maintenant prêts à déclencher le $name_ndb$ sur notre cible désignée. A quelle intensité voulez-vous le régler ?\n\n§H$giga_ndb.007.a$§!\n$giga_ndb.007.a.tooltip$\n\n§H$giga_ndb.007.b$§!\n$giga_ndb.007.b.tooltip$\n\n§H$giga_ndb.007.c$§!\n$giga_ndb.007.c.tooltip$\n\n§H$giga_ndb.007.d$§!\n$giga_ndb.007.d.tooltip$"
+
     giga_ndb.008.a:0 "Fissurer la planète"
     giga_ndb.008.a.tooltip:0 "La planète cible sera complètement dévastée et brisée en morceaux.\nLes habitats sont annéantis.\nLes Segments d'anneaux-monde seront ruinés.\nLes géantes gazeuses perdront leur atmosphère.\ngénérera un dépôt de l'ordre de 10 £minerals£"
 
@@ -7718,7 +7750,7 @@
     gigablackhole_ring_world_3_DESC:0 "Un énorme morceau d'un anneau-monde, composé de deux segments habitables et d'un segment de support, alimenté par une $name_penrose$."
 
     #########################################
-    ### anneau-monde Upgrade ###################
+    ### Ringworld Upgrade ###################
     #########################################
     giga_tech_ringworld_upgrade:0 "Systèmes de support d'anneaux-mondes ultra-efficaces"
     giga_tech_ringworld_upgrade_desc:0 "La principale limitation des anneaux-mondes (et, dans une certaine mesure, d'autres mégastructures également) est la taille même des systèmes de survie utilisés pour maintenir un écosystème stable à la surface, ainsi que les divers mécanismes qui maintiennent le anneau-monde en un seul morceau. Ces systèmes comprennent la production d'énergie, le catalogage des formes de vie, la stabilisation gravitationnelle, etc. Bien qu'ils soient actuellement stockés dans un segment de l'anneau dédié voisin du segment habitable, des technologies suffisamment avancées pourraient permettre de stocker la plupart de ces systèmes dans le segment de l'anneau habitable lui-même, augmentant considérablement la capacité de nos anneaux.\n\n§HLa décision doit être prise sur le segment anneau-monde que vous souhaitez mettre à jour§!"
@@ -8136,7 +8168,7 @@
     orbital_arcology_1_l_DESC:0 "$orbital_arcology_1_s_DESC$"
 
     #########################################
-    ### Planétaire Computer ##################
+    ### Planetary Computer ##################
     #########################################
     giga_tech_planetary_computer:0 "Complexes de calcul à l'échelle planétaire"
     giga_tech_planetary_computer_desc:0 "La solution aux besoins toujours croissants de puissance de calcul : une planète entière transformée en ordinateur ! En utilisant des techniques de terraform spécialisées, ce projet apparemment idiot peut devenir une réalité."
@@ -8845,7 +8877,7 @@
     giga_dialog.10701.a:0 "Qui aurait pu construire ces vaisseaux ?"
 
     ##########################################
-    ### Félidrin ###########################
+    ### Katzenland ###########################
     ##########################################
     giga_katzenland.001.name:0 "Nécropole irradiée"
     giga_katzenland.001.desc:0 "Le système de §HGatzo§! ne cesse de nous décevoir. Après avoir exploré l'une des plus grandes planètes du système, §HFélidrin§!, notre équipe scientifique rapporte qu'elle a trouvé de vastes quantités de ruines enfouies sous les sables de la planète. Il semble que ce monde ait été habité par une civilisation florissante, probablement celle qui a construit le Portail du système, mais ses habitants ont apparemment connu une fin violente il y a plusieurs millénaires, à en juger par l'état actuel de la planète. \n\nNotre équipe scientifique est impatiente de découvrir ce qui a conduit à la chute de cette civilisation, car l'étude de ce monde permettrait sans aucun doute d'obtenir des données scientifiques incroyables, et en tant que tel, un site de fouilles a été établi sur la planète."
@@ -8887,7 +8919,6 @@
 
     giga_katzenland.006.e:0 "Désactiver."
 
-
     giga_katzenland.007.name:0 "Jeimza's Fate"
     giga_katzenland.007.desc:0 "Although the discovery of a surviving Ezicanien is Incroyable, it seems Jeimza's foggy memory means we won't be able to learn anything else about §HFélidrin§! itself. from what we could gather, a certain 'Meopa' started a war with a civilization living on §HFélidrin§!'s first moon, who most likely retaliated, destroying §HFélidrin§!'s surface. We are going to need to explore the planet a bit more if we want to truly find out the reasons for this war.\n\nAs for Jeimza herself, we could recruit her as a fleet admiral, or we could euthanize and dissect her to learn more about Ezicanienn biology..."
     giga_katzenland.007.a:0 "Recruit her, she'll be of use."
@@ -8913,7 +8944,7 @@
 	giga_flusion.001.name:0 "Hyperdiversité"
 	giga_flusion.001.desc:0 "Notre vaisseau scientifique explorant le monde primitif de §HFlusion§! a fait une découverte surprenante, car il semble que ce monde primitif ne soit pas habité par une, mais plusieurs espèces intelligentes !\n\nL'équipage a pu identifier 5 espèces principales : les Félidés à l'allure féline, les Ezicaniens amphibiens, les Solakiens humanoïdes et les crustacés Kronks;avec une cinquième espèce 'flusionienne' composée de dizaines d'autres sous-espèces qui sont particulièrement difficiles à classer.\n\nNos scientifiques ne savent toujours pas comment ou pourquoi tant d'espèces se sont retrouvées sur un seul monde, mais c'est sûrement une découverte remarquable."
 	giga_flusion.001.a:0 "Intéressant."
-	giga_flusion.001.b:0 "Attendez, Félidés et Ezicaniens...  ?"
+    giga_flusion.001.b:0 "Attendez, Félidés et Ezicaniens...  ?"
 
 	giga_flusion.002.name:0 "L'Histoire de deux espèces"
 	giga_flusion.002.desc:0 "Nos découvertes des Félidés et des Ezicaniens sur différentes planètes semblent indiquer que le monde dans lequel les deux espèces se sont échappées après la destruction de la Terre des Félidés n'est autre que la planète primitive de §HFlusion§! !\n\nBien qu'au moment de leur découverte sur §HFlusion§!, les deux espèces semblaient avoir considérablement régressé technologiquement. Cela implique que l§Yexpédition Meopian 1§! s'est très probablement écrasé sur la planète, forçant les quelques individus restants à reconstruire pratiquement toute leur base technologique.\n\nMême si ce n'est pas une découverte particulièrement importante, ces découvertes sont néanmoins d'un grand intérêt pour nos bioarchéologues planétaires. Cela montre aussi que, même lorsque les choses semblent particulièrement désastreuses pour une civilisation, il ne faut pas écarter la possibilité de leur survie miraculeuse contre toute attente.\n\nCe qui peut être à la fois édifiant et terrifiant à penser..."
@@ -8962,7 +8993,7 @@
 	giga_flusion.301.c:0 "They must be stopped. Bomb the moon at once!"
 
 	giga_flusion.3001.name:0 "Les Flusioniens se Mobilisent !"
-	giga_flusion.3001.desc:0 "Dire news! In response to our clear intentions of taking over §HFlusion§!, the Impérium Félidéen has started a massive mobilization campaign.\n\nThey have drastically expanded the size of their armed forces, and deployed anti-orbital railguns to intercept orbital bombardment rounds. Their leader, Kaiser Kattail, has declared that "Us Félidés will not surrender our beloved §HFlusion§! to hostile otherwordly entities so easily, we shall fight until the bitter end, and make them pay for every square kilometer they capture!""
+	giga_flusion.3001.desc:0 "Dire news! In response to our clear intentions of taking over §HFlusion§!, the Impérium Félidéen has started a massive mobilization campaign.\n\nThey have drastically expanded the size of their armed forces, and deployed anti-orbital railguns to intercept orbital bombardment rounds. Their leader, Kaiser Kattail, has declared that §W'Us Félidés will not surrender our beloved §HFlusion§! to hostile otherwordly entities so easily, we shall fight until the bitter end, and make them pay for every square kilometer they take from us'§!"
 	giga_flusion.3001.a:0 "Foolish primitives!"
 	giga_flusion.3001.b:0 "We shall crack their pitiful world!"
 
@@ -9072,7 +9103,7 @@
 	giga_flusion.3231.e.response:0 "Oh. That's a shame."
 
 	giga_flusion.330.name:0 "Project Demolition Successful!"
-	giga_flusion.330.desc:0 "Our Jublio outpost reports that the primitive construction project on Muno has been successfully destroyed.\n\nOur scientists have redirected an asteroid from a nearby asteroid belt, and sent it towards the moon's surface. The primitives failed to react quickly enough, and the asteroid slammed right onto the lunar construction site, leaving only a massive crater.\n\nAlthough this has led to high Flusionien casualties on the moon, their little project will undoubtedly never be completed now. We have also managed to salvage some alloys from the remnants of their lunar infrastructure."
+	giga_flusion.330.desc:0 "Our Doublio outpost reports that the primitive construction project on Muno has been successfully destroyed.\n\nOur scientists have redirected an asteroid from a nearby asteroid belt, and sent it towards the moon's surface. The primitives failed to react quickly enough, and the asteroid slammed right onto the lunar construction site, leaving only a massive crater.\n\nAlthough this has led to high Flusionien casualties on the moon, their little project will undoubtedly never be completed now. We have also managed to salvage some alloys from the remnants of their lunar infrastructure."
 	giga_flusion.330.a:0 "Excellent."
 
 	giga_flusion.3301.name:0 "§HFlusion§! Descends into Nuclear War!"
@@ -9115,8 +9146,8 @@
 	GIGA_FLUSION_MISSILE_01_DESC:0 "A single huge fusion-antimatter nuclear warhead."
 
 	giga_flusion.400.name:0 "Flusionien Lunar Megastructure terminé !"
-	giga_flusion.400.a.desc:0 "Our outpost in the Jublio system reports that the Flusionien construction project located on their planet's moon has finally been completed, after years of harduous work.\n\nIt's a gigantic lunar superweapon!\n\nThrough sheer militarism and force of will, the Impérium Félidéen has managed to embed a colossal railgun into the moon's surface, surrounded by several large missile launcher and supersized autocannons, as well as strike craft hangars. Albeit immobile, this fearsome construct is now fully operational, and stands ready to protect §HFlusion§! from external threats.\n\nOur high command advises we do not take this lightly, as this weapon could very well compete with even our space-age fleets..."
-	giga_flusion.400.b.desc:0 "Our outpost in the Jublio system reports that the Flusionien §YProjekt Mondkanone§! has recently been completed.\n\nThe Impérium Félidéen has succeeded in transforming their world's second moon into a very capable superweapon, equipped with a colossal railgun, missile batteries, autocannons, and even strike craft hangars. Despite being immobile, Projekt Mondkanone is undoubtedly a very capable defence system, which should deter most invaders from trying to take over §HFlusion§!.\n\nWith a new superweapon in their hands, the Impérium Félidéen's course of action remains to be seen, although some speculate that Kaiser Kattail might decide to use it for more than just defence..."
+	giga_flusion.400.a.desc:0 "Our outpost in the Doublio system reports that the Flusionien construction project located on their planet's moon has finally been completed, after years of harduous work.\n\nIt's a gigantic lunar superweapon!\n\nThrough sheer militarism and force of will, the Impérium Félidéen has managed to embed a colossal railgun into the moon's surface, surrounded by several large missile launcher and supersized autocannons, as well as strike craft hangars. Albeit immobile, this fearsome construct is now fully operational, and stands ready to protect §HFlusion§! from external threats.\n\nOur high command advises we do not take this lightly, as this weapon could very well compete with even our space-age fleets..."
+	giga_flusion.400.b.desc:0 "Our outpost in the Doublio system reports that the Flusionien §YProjekt Mondkanone§! has recently been completed.\n\nThe Impérium Félidéen has succeeded in transforming their world's second moon into a very capable superweapon, equipped with a colossal railgun, missile batteries, autocannons, and even strike craft hangars. Despite being immobile, Projekt Mondkanone is undoubtedly a very capable defence system, which should deter most invaders from trying to take over §HFlusion§!.\n\nWith a new superweapon in their hands, the Impérium Félidéen's course of action remains to be seen, although some speculate that Kaiser Kattail might decide to use it for more than just defence..."
 	giga_flusion.400.a:0 "Félicitations à eux et au Kaiser. "
 	giga_flusion.400.b:0 "Ces rats embêtants ! "
 	giga_flusion.400.c:0 "Une Lune de combat primitive ! Fascinant. "
@@ -9127,7 +9158,7 @@
 	giga_flusion.401.b:0 "That might be a problem."
 
 	giga_flusion.402.name:0 "Incoming Flusionien Transmission!"
-	giga_flusion.402.desc:0 "Our Jublio outpost reports that the Flusionians, who completed Projekt Mondkanone a few years back, have sent us another diplomatic transmission.\n\nIt seems that Kaiser Kattail is grateful for the resources we gave him in order to help with Projekt Mondkanone, and now wishes to repay us!"
+	giga_flusion.402.desc:0 "Our Doublio outpost reports that the Flusionians, who completed Projekt Mondkanone a few years back, have sent us another diplomatic transmission.\n\nIt seems that Kaiser Kattail is grateful for the resources we gave him in order to help with Projekt Mondkanone, and now wishes to repay us!"
 	giga_flusion.402.a:0 "Great news! On screen."
 
 	giga_flusion.403.name:0 "Incoming Transmission!"
@@ -9144,6 +9175,10 @@
 	KATZEN_CRUISER_BOW:0 "Arc"
 	KATZEN_CRUISER_MID:0 "Milieu"
 	KATZEN_CRUISER_STERN:0 "Poupe"
+
+    district_city_katzen:0 "$district_city$"
+    district_city_katzen_plural:0 "$district_city_plural$"
+    district_city_katzen_desc:0 "$district_city_desc$"
 
 	giga_flusion.405.name:0 "Lune de combat primitive"
 	giga_flusion.405.desc:0 "Notre vaisseau scientifique explorant le système §YJublio§! a fait une découverte fascinante.\n\nIl semble que, malgré l'absence de technologie FTL, les primitifs vivant sur l'une des planètes du système, §YFlusion§!, ont réussi à transformer l'une de leurs lunes en une grande super-arme défensive, équipée avec un Canon à Rail colossal !\n\nCette construction monstrueuse semble être destinée à dissuader toute invasion potentielle par une civilisation spatiale agressive, et à en juger par sa taille et sa portée, elle est probablement capable de le faire."
@@ -9480,7 +9515,7 @@
     ehof_mega_trader.014.desc:0 "With $ehof_the_compound$ gone, we're happy to resume trading."
 
     ##########################################
-    ### La Combinaison #########################
+    ### The Compound #########################
     ##########################################
     NAME_Dark_Matter_Species:0 "Ténébris"
     NAME_Stellar_Annihilator_Species:0 "§BVaisseau Annihilateur de Cat-12§!"
@@ -9665,7 +9700,7 @@
     compound_dialog.19.response:0 "We hit a nerve!"
 
     ##############################################
-    ######### Annihilateur stellaire Dialog #########
+    ######### Stellar Annihilator Dialog #########
     ##############################################
 
     # Begin SA Event Chain
@@ -9971,6 +10006,7 @@
 	resolution_category_katzen_focus:0 "$resolution_category_galactic_focus$"
 	galactic_focus_crisis_katzen:0 "$TRIGGER_FAIL$Détruire l'Impérium Félidéen"
 	galactic_focus_crisis_katzen_desc:0 "Le Kaiser de l'Impérium des Félidés doit être arrêté. Il faut s'unir et mettre fin à ses conquêtes sur-le-champ en saisissant ou en détruisant §YFlusion§!."
+
 	#PRE FTL EVENTS
 	giga_katzen.002.name:0 "L'Impérium Félidéen se lance dans la conquête de §HFlusion§!"
 	giga_katzen.002.desc:0 "Notre avant-poste dans le système §HJublio§! rapporte que le principal initiateur du Projet 'Canon lunaire', l'§YImpérium Félidéen§ dirigé par Félidés, a récemment déclaré la guerre à plusieurs autres grandes puissances.\n\nEn effet, leur chef, §YKaiser Kattail§!, aurait lancé une 'Grande Croisade d'unification' afin d'unir Flusion sous une seule bannière. Sans surprise, il utilise le système de défense lunaire à son avantage, en l'utilisant pour bombarder les armées ennemies depuis la sécurité de l'espace.\n\nSeul le temps nous dira si ses ambitions seront couronnées de succès."
@@ -9985,7 +10021,7 @@
 	giga_katzen.004.c:0 "Pittoresque, mais intrigante."
 
 	giga_katzen.011.name:0 "L'Empire Félidéen atteint FTL"
-	giga_katzen.011.desc:0 "Suite à la conquête de §YFlusion§!, par l'§YImpérium Félidéen§!, Le pays était entré dans une période de renforcement militaire massif, assemblant une grande quantité d'engins spatiaux dans le cadre de leur force spatiale. Cependant, ils semblent avoir finalement compris un voyage plus rapide que la lumière.\n\nDans un remarquable exploit d'ingénierie, ils ont utilisé les vastes ressources de Flusion pour améliorer massivement leur système de défense lunaire, le transformant en une super-arme capabledu vol subluminique et FTL.\n\nConsidérant qu'ils sont maintenant une véritable civilisation spatiale, ils nous ont envoyé un message direct, demandant le transfert immédiat du §YSystème Jublio§! pour eux..."
+	giga_katzen.011.desc:0 "Suite à la conquête de §YFlusion§!, par l'§YImpérium Félidéen§!, Le pays était entré dans une période de renforcement militaire massif, assemblant une grande quantité d'engins spatiaux dans le cadre de leur force spatiale. Cependant, ils semblent avoir finalement compris un voyage plus rapide que la lumière.\n\nDans un remarquable exploit d'ingénierie, ils ont utilisé les vastes ressources de Flusion pour améliorer massivement leur système de défense lunaire, le transformant en une super-arme capabledu vol subluminique et FTL.\n\nConsidérant qu'ils sont maintenant une véritable civilisation spatiale, ils nous ont envoyé un message direct, demandant le transfert immédiat du §YSystème Doublio§! pour eux..."
 	giga_katzen.011.a:0 "À l'écran."
 
 	giga_katzen.0100.name:0 "l'Impérium Félidéen"
@@ -9996,18 +10032,18 @@
 	giga_katzen.0101.desc:0 "Extraterrestres de la galaxie.\n\nJe suis §YCharles MacChat§!, envoyé par notre dirigeant §YKaiser Kattail§! pour vous informer de nos intentions. Respectez notre nation et notre Kaiser, et nous serons coopératifs envers vos civilisations. Mais sachez que nous n'hésiterons pas à entrer en guerre, si nous en avons besoin.\n\nNous attendons une coopération future avec vos nations et souhaitons établir un ordre durable de paix et de prospérité encette galaxie.\n\nLe Kaiser espère que vous ne nous laisserez pas tomber."
 	giga_katzen.0101.a:0 "On verra."
 
-	#Kaiser demands §HJublio§!
+	#Kaiser demands Jublio
 	giga_katzen.012.name:0 "Transmission entrante !"
 	giga_katzen.012.a.desc:0 "Des extraterrestres !\n\nComme vous l'avez sans doute remarqué, notre espèce a enfin réussi à maîtriser le voyagee plus rapide que la lumière. Et, en tant que tel, nous aimerions recevoir la propriété appropriée de notre système solaire.\n\nConsidérant votre attitude, et comme vous nous avez aidé dans le passé, §YKaiser Kattail§! a décidé de vous proposer une offre : nous donnerons aimablement §W7500§! £energy£ et §W2500§! £alloys£, en échange du contrôle total du Système §YJublio§!.\n\nCela vous semble-t-il juste ? Gardez à l'esprit que nous n'avons pas peur de nous battre pour le système, si nécessaire."
 	giga_katzen.012.a:0 "Une excellente affaire ! Nous acceptons."
 	giga_katzen.012.a.response:0 "Excellent ! Le Kaiser sera heureux de savoir que votre espèce est toujours aussi généreuse."
-	giga_katzen.012.a.tooltip:0 "Nous allons §Gtransférer§! le §YSystème Jublio§! à l'Impérium des Félidés."
+	giga_katzen.012.a.tooltip:0 "Nous allons §Gtransférer§! le §YSystème Doublio§! à l'Impérium des Félidés."
 
-	giga_katzen.012.b.desc:0 "Salutations, extraterrestres. Je suis §YCharles MacChat§!, envoyé par notre Kaiser pour communiquer avec vous.\n\nComme vous l'avez sans aucun doute remarqué, notre espèce a enfin réalisé un voyage plus rapide que la lumière. Et, en tant que tel, nous aimerions recevoir la propriété appropriée de notre système solaire.\n\nNotre chef, le grand rassembleur §YKaiser Kattail§!, a décidé de vous proposer une offre : nous donnerons votre aimable §W2500§! £energy£ et §W1000§! £alloys£, en échange du contrôle total du §YSystème Jublio§!.\n\nNous espérons que cela vous paraît juste, mais gardez à l'esprit que nous n'avons pas peur de nous battre pour le système, si nécessaire."
+	giga_katzen.012.b.desc:0 "Salutations, extraterrestres. Je suis §YCharles MacChat§!, envoyé par notre Kaiser pour communiquer avec vous.\n\nComme vous l'avez sans aucun doute remarqué, notre espèce a enfin réalisé un voyage plus rapide que la lumière. Et, en tant que tel, nous aimerions recevoir la propriété appropriée de notre système solaire.\n\nNotre chef, le grand rassembleur §YKaiser Kattail§!, a décidé de vous proposer une offre : nous donnerons votre aimable §W2500§! £energy£ et §W1000§! £alloys£, en échange du contrôle total du §YSystème Doublio§!.\n\nNous espérons que cela vous paraît juste, mais gardez à l'esprit que nous n'avons pas peur de nous battre pour le système, si nécessaire."
 	giga_katzen.012.b:0 "Une bonne affaire. Nous acceptons."
 	giga_katzen.012.b.response:0 "Excellent ! Le Kaiser sera heureux de savoir que votre type est coopératif."
 
-	giga_katzen.012.c.desc:0 "Extraterrestres.\n\nComme vous l'avez sans aucun doute remarqué, notre espèce a enfin réussi à voyager plus vite que la lumière. Et, en tant que tel, nous aimerions recevoir la propriété appropriée de notre système solaire.\n\nConsidérant que vous nous avez déjà été hostile, §YKaiser Kattail§!, vous demande de transférer immédiatement le §YSystème Jublio§! à nous, ou bien nous nous vengerons de votre espèce pour de bon."
+	giga_katzen.012.c.desc:0 "Extraterrestres.\n\nComme vous l'avez sans aucun doute remarqué, notre espèce a enfin réussi à voyager plus vite que la lumière. Et, en tant que tel, nous aimerions recevoir la propriété appropriée de notre système solaire.\n\nConsidérant que vous nous avez déjà été hostile, §YKaiser Kattail§!, vous demande de transférer immédiatement le §YSystème Doublio§! à nous, ou bien nous nous vengerons de votre espèce pour de bon."
 	giga_katzen.012.c:0 "Nous n'avons pas d'autre choix que d'accepter."
 	giga_katzen.012.c.response:0 "Le Kaiser sera heureux de savoir que votre espèce a vu raison."
 
@@ -10016,14 +10052,14 @@
 	giga_katzen.012.d.tooltip:0 "L'§YImpérium Félidéen§! deviendra §Rhostile§! et essayera de libérer le système."
 
 	giga_katzen.013.name:0 "Les attaques de l'Impérium Félidéen !"
-	giga_katzen.013.desc:0 "Suite à notre refus de remettre le §YSystème Jublio§!, l'§YImpérium des Félidés§! a mobilisé ses flottes, et attaque la base stellaire du système ! Un état de guerre existe désormais entre nos deux empires..."
+	giga_katzen.013.desc:0 "Suite à notre refus de remettre le §YSystème Doublio§!, l'§YImpérium des Félidés§! a mobilisé ses flottes, et attaque la base stellaire du système ! Un état de guerre existe désormais entre nos deux empires..."
 	giga_katzen.013.a:0 "Oh-oh."
 
 	#Jublio Peace Offer
 	giga_katzen.014.name:0 "Transmission entrante !"
 	giga_katzen.014.desc:0 "Extraterrestres. Nous avons saisi le système §HJublio§!, et donc acquis ce pour quoi nous sommes venus.\n\nEn tant que tel, le Kaiser vous propose un accord de paix pour mettre fin à ce conflit. Toutes les frontières actuelles seront conservées et nous ne vous attaquerons plus."
 	giga_katzen.014.a:0 "Nous acceptons."
-	giga_katzen.014.a.tooltip:0 "Nous allons §Gtransférer§! le §YSystème Jublio§! et §Tous les systèmes occupés§! à l'Impérium Félidéen.\n\nL'opinion du §YKaiser§! va §Gaugmenter§!."
+	giga_katzen.014.a.tooltip:0 "Nous allons §Gtransférer§! le §YSystème Doublio§! et §Tous les systèmes occupés§! à l'Impérium Félidéen.\n\nL'opinion du §YKaiser§! va §Gaugmenter§!."
 	giga_katzen.014.a.response:0 "Le Kaiser sera heureux de savoir que votre espèce a vu raison."
 	giga_katzen.014.b:0 "Nous ne nous rendrons jamais !"
 	giga_katzen.014.b.tooltip:0 "Nous continuerons à combattre l'Impérium Félidéen jusqu'à la fin."
@@ -10088,7 +10124,6 @@
 
 	giga_katzen.02011.name:0 "Achat de vaisseaux Félidéens"
 	giga_katzen.02011.desc:0 "Le Kaiser serait prêt à vendre à votre espèce certains de nos vaisseaux de guerre avancés, oui. Nous avons plusieurs classes de vaisseaux disponibles, alors faites votre choix. Bien sûr, nous allons construire ces vaisseaux différemment de nos vaisseaux réguliers, alors ne pensez pas que vous obtenez des informations gratuites sur notre ingénierie.\n\n...\n\nEt non, la Lune du Kaiser n'est pas à vendre."
-
 
 	giga_katzen.02011.a:0 "5 §BKatzenweltraumpanzers§! | §Y5000§! £energy£"
 	giga_katzen.02011.a.tooltip:0 "We will purchase a fleet of 5 §BKatzenweltraumpanzers§!, nimble and swift armored combat vessels.\nThere is a 15% chance the §YKaiser's Opinion§! of us will §Gincrease§!.$attache_boost_chance$"
@@ -10350,7 +10385,7 @@
 	katzen_ships_lost:0 "§GKatzen Ships Destroyed§!"
 
 	katzenartig_chain_1:0 "§HFlusion§! & Félidé Expansion"
-	katzenartig_chain_1_desc:0 "The Félidé government is heavily centralized around §YFlusion§!, the Félidé capital. Seizing or destroying §HFlusion§! would undoubtedly mean the complete end and collapse of the Imperium.\nIn order to expand their navy, the Félidés construct §YKatzen Warforges§! around asteroids in their space, which will periodically create more ships and slowly deplete the asteroid. They will §Yself-destruct§! if their system is captured.\nEvery §Yplanet§! the Félidés own increases their §Yships' fire rate§!, §Yarmor§!, §Yhull§! and §Yshields§!, as well as their §Yarmy damage§!, by §Y1.5%§!.\nKatzen planets will also project §YJump-Drive Scrambling Fields§! to their own system, preventing tactical jumps into these areas. Capturing the planet will deactivate the field.\nThe §YKaiser Moon§! will §Rrecall§! to Jublio if §HFlusion§! is bombarded, invaded, or if a Colossus enters the system!"
+	katzenartig_chain_1_desc:0 "The Félidé government is heavily centralized around §YFlusion§!, the Félidé capital. Seizing or destroying §HFlusion§! would undoubtedly mean the complete end and collapse of the Imperium.\nIn order to expand their navy, the Félidés construct §YKatzen Warforges§! around asteroids in their space, which will periodically create more ships and slowly deplete the asteroid. They will §Yself-destruct§! if their system is captured.\nEvery §Yplanet§! the Félidés own increases their §Yships' fire rate§!, §Yarmor§!, §Yhull§! and §Yshields§!, as well as their §Yarmy damage§!, by §Y1.5%§!.\nKatzen planets will also project §YJump-Drive Scrambling Fields§! to their own system, preventing tactical jumps into these areas. Capturing the planet will deactivate the field.\nThe §YKaiser Moon§! will §Rrecall§! to Doublio if §HFlusion§! is bombarded, invaded, or if a Colossus enters the system!"
 
 	paluush_defender_acot:0 "Armées de Peluches"
 	paluush_defender_acot_desc:0 "Psionically equipped defender, trained to the highest standard."
@@ -10457,11 +10492,11 @@
 	giga_katzen.0945.a:0 "Ils auront leur énergie. Commençons..."
 
 	giga_katzen.0946.name:0 "Dans le futur"
-	giga_katzen.0946.desc:0 "And thus, after energizing and enlarging the rift, the large probe was meticulously flung into the depths of the spacetime continuum. Our team expected to run into the Kaiser after the probe had travelled a few hundred years, but alas, that did not happen.\n\nInstead, the probe went past a hundred years, then a thousand, then ten thousands, then a million...and is now going further and further into the future along the temporal tunnel. The onboard camera has allowed our team to report back on what the probe found. Unfortunately, it is only able to see the future of the cave, parts of §HFlusion§!, and the night sky, thus preventing us from precisely seeing what becomes of our empire...\n\n§BTEMPORAL PROBE DATA LOG§!\n§YT+1 000 000 years§!\nDespite going this far into the future, no signs of the Kaiser or the temporal tunnel ending. Several bright stars near §HFlusion§! appear to have gone supernova by this point.\n\n§YT+50 000 000 years§!\nMajor mountain ranges have begin to erode away, while tectonic plates have drastically shifted how the planet looks. Still no traces of the Kaiser.\n\n§YT+1 billion years (1e9)§!\nRegardless of what happened in-between, §HFlusion§! is no longer inhabitable, and Jublio's increasing luminosity is starting to cook the planet's surface, and oceans are evaporating. And yet, despite §HFlusion§! no longer being a valid destination, the Kaiser didn't stop there. There also seems to be a sort of love message written on the ceiling of a cave, although nobody's quite sure what its purpose is.\n§BEND OF DATA LOG§!\n\nThe Kaiser is yet to be found, and propelling the probe further and further through time is getting more and more energy-hungry. As such, our scientists are requesting §Y5000§! £energy£ to continue the process. This Incroyable adventure is however greatly contributing to our understanding of the universe and its future.\n\n§BThe option to continue the site will appear once we have enough energy.§!"
+	giga_katzen.0946.desc:0 "And thus, after energizing and enlarging the rift, the large probe was meticulously flung into the depths of the spacetime continuum. Our team expected to run into the Kaiser after the probe had travelled a few hundred years, but alas, that did not happen.\n\nInstead, the probe went past a hundred years, then a thousand, then ten thousands, then a million...and is now going further and further into the future along the temporal tunnel. The onboard camera has allowed our team to report back on what the probe found. Unfortunately, it is only able to see the future of the cave, parts of §HFlusion§!, and the night sky, thus preventing us from precisely seeing what becomes of our empire...\n\n§BTEMPORAL PROBE DATA LOG§!\n§YT+1 000 000 years§!\nDespite going this far into the future, no signs of the Kaiser or the temporal tunnel ending. Several bright stars near §HFlusion§! appear to have gone supernova by this point.\n\n§YT+50 000 000 years§!\nMajor mountain ranges have begin to erode away, while tectonic plates have drastically shifted how the planet looks. Still no traces of the Kaiser.\n\n§YT+1 billion years (1e9)§!\nRegardless of what happened in-between, §HFlusion§! is no longer inhabitable, and Doublio's increasing luminosity is starting to cook the planet's surface, and oceans are evaporating. And yet, despite §HFlusion§! no longer being a valid destination, the Kaiser didn't stop there. There also seems to be a sort of love message written on the ceiling of a cave, although nobody's quite sure what its purpose is.\n§BEND OF DATA LOG§!\n\nThe Kaiser is yet to be found, and propelling the probe further and further through time is getting more and more energy-hungry. As such, our scientists are requesting §Y5000§! £energy£ to continue the process. This Incroyable adventure is however greatly contributing to our understanding of the universe and its future.\n\n§BThe option to continue the site will appear once we have enough energy.§!"
 	giga_katzen.0946.a:0 "Seems he went further than we thought..."
 
 	giga_katzen.0947.name:0 "Uncertain Destiny"
-	giga_katzen.0947.desc:0 "Our team reports that the energy let them successfully boost the probe further into the future. And it's still going...\n\n§BTEMPORAL PROBE DATA LOG§!\n§YT+5 billion years (5e9)§!\nJublio has transformed into a red giant, turning §HFlusion§! into a sea of molten rock. Any traces of life on the planet have been permanently wiped out.\n\n§YT+10 billion years (1e10)§!\nFlusion's star has died and collapsed into a white dwarf, reducing the planet to a cold, dead and barren wasteland. The amount of stars in the night sky begins to dwindle as the same fate befalls an increasingly high number of them.\n\n§YT+1 quadrillion years (1e15)§!\nInterferences from close stellar encounters have disrupted the orbits of most of the system's planets, Jublio is practically a black dwarf. §HFlusion§! is now just a cold, lonely rock drifting through space. But the Kaiser seemingly kept on going.\n\n§YT+100 quintillion years (1e20)§!\nFlusion has collided with the stellar remnant of Jublio, quite possibly one of the only events in the past few trillion years. There is no §HFlusion§! to flee to anymore, and the Kaiser apparently didn't mind, as the tunnel is still going.\n§BEND OF DATA LOG§!\n\nWhile this extravagant endeavor is helping us learn about the end of the universe, the energy required to keep the probe going keep on increasing, and our scientists now require §Y25000§! £energy£ to push the probe further.\n\n§BThe option to continue the site will appear once we have enough energy.§!"
+	giga_katzen.0947.desc:0 "Our team reports that the energy let them successfully boost the probe further into the future. And it's still going...\n\n§BTEMPORAL PROBE DATA LOG§!\n§YT+5 billion years (5e9)§!\nJublio has transformed into a red giant, turning §HFlusion§! into a sea of molten rock. Any traces of life on the planet have been permanently wiped out.\n\n§YT+10 billion years (1e10)§!\nFlusion's star has died and collapsed into a white dwarf, reducing the planet to a cold, dead and barren wasteland. The amount of stars in the night sky begins to dwindle as the same fate befalls an increasingly high number of them.\n\n§YT+1 quadrillion years (1e15)§!\nInterferences from close stellar encounters have disrupted the orbits of most of the system's planets, Doublio is practically a black dwarf. §HFlusion§! is now just a cold, lonely rock drifting through space. But the Kaiser seemingly kept on going.\n\n§YT+100 quintillion years (1e20)§!\nFlusion has collided with the stellar remnant of Doublio, quite possibly one of the only events in the past few trillion years. There is no §HFlusion§! to flee to anymore, and the Kaiser apparently didn't mind, as the tunnel is still going.\n§BEND OF DATA LOG§!\n\nWhile this extravagant endeavor is helping us learn about the end of the universe, the energy required to keep the probe going keep on increasing, and our scientists now require §Y25000§! £energy£ to push the probe further.\n\n§BThe option to continue the site will appear once we have enough energy.§!"
 	giga_katzen.0947.a:0 "Where could he be?! There's nothing left!"
 
 	giga_katzen.0948.name:0 "Ends of the Universe"
@@ -10473,7 +10508,7 @@
 	giga_katzen.0949.a:0 "An immense cost, but we have to find out."
 
 	giga_katzen.0950.name:0 "Days of Kaiser Past"
-	giga_katzen.0950.desc:0 "By hypercharging a probe with immense amounts of energy, we have managed to "outrun" the Atom Shredder, and effectively ended up in...another universe.\n\nIndeed, right after the Shredder destroyed our universe and collapsed it back onto itself, it proceeded to trigger an Incroyable event: A §Ysecond Big Bang§!!\nThe entity created a brand new universe, which then proceeded to evolve in front of our eyes. The probe recorded footage of the new universe cooling down, the formation of the first stars, and the birth of another Jublio. As well as another §HFlusion§!.\n\nAlthough slightly different, this new universe appears to have retained some aspects of our own, such as §HFlusion§!, somehow. Our scientists witnessed life evolving on §HFlusion§! once again, and the Félidés once more arriving on the planet. And then, as Félidé society develops and takes shape, the tunnel finally ends. The probe is then violently "spat out" into real space.\n\nAnd there he is.\n\nThe Kaiser is here, atop a balcony, overlooking a large crowd of Félidés in Felville. He talks about §YProjekt Mondkanone§!, his plan to weaponize Muno in order to defend §HFlusion§! from external threats. After giving his speech, he turns around, and notices our probe.\n\n§Y"Ah, the [flusion_conqueror.GetSpeciesNamePlural]. You've managed to follow me? I am impressed. Only about 5.6% of species that vanquish my Imperium accomplish such a feat. The Atom Shredder is a pretty good roadblock, that few can manage to breach. Oh, well. You may have vanquished me in your universe, but there are countless more for me to try again in. And when I finally succeed..."§!\n\nThe transmission abrutly cuts as the Kaiser pulls out a gun and shoots our probe, destroying it. And so, this is where the Kaiser has fled to. Another universe after our own, where he presumably once again took control of Félidé civilization and will attempt to once more conquer the galaxy.\n\nThis explains how he was able to unite §HFlusion§! with such ease, as it is likely he has done this dozens or even hundreds of times in the past, jumping ahead to a new universe whenever he was defeated, allowing him to try again. And he might just do so hundreds of times more.\n\nWe do not know what his motivations are or how he time-travelled with such ease, and the Atom Shredder will most likely prevent us from ever sending another probe through the tunnel, as it appears the tunnel past the Shredder in the new universe has collapsed onto itself.\n\nThis exceptional exploration of our universe's far future has however taught us many valuable things about the nature of reality, and even though we will not be able to get past the Atom Shredder again, the rift will forever remain on §HFlusion§! as a window to the ends of the universe for us to study.\n\nLet us hope that, if the Kaiser ever succeeds, he never figures out backwards time travel..."
+	giga_katzen.0950.desc:0 "By hypercharging a probe with immense amounts of energy, we have managed to "outrun" the Atom Shredder, and effectively ended up in...another universe.\n\nIndeed, right after the Shredder destroyed our universe and collapsed it back onto itself, it proceeded to trigger an Incroyable event: A §Ysecond Big Bang§!!\nThe entity created a brand new universe, which then proceeded to evolve in front of our eyes. The probe recorded footage of the new universe cooling down, the formation of the first stars, and the birth of another Doublio. As well as another §HFlusion§!.\n\nAlthough slightly different, this new universe appears to have retained some aspects of our own, such as §HFlusion§!, somehow. Our scientists witnessed life evolving on §HFlusion§! once again, and the Félidés once more arriving on the planet. And then, as Félidé society develops and takes shape, the tunnel finally ends. The probe is then violently "spat out" into real space.\n\nAnd there he is.\n\nThe Kaiser is here, atop a balcony, overlooking a large crowd of Félidés in Felville. He talks about §YProjekt Mondkanone§!, his plan to weaponize Muno in order to defend §HFlusion§! from external threats. After giving his speech, he turns around, and notices our probe.\n\n§Y"Ah, the [flusion_conqueror.GetSpeciesNamePlural]. You've managed to follow me? I am impressed. Only about 5.6% of species that vanquish my Imperium accomplish such a feat. The Atom Shredder is a pretty good roadblock, that few can manage to breach. Oh, well. You may have vanquished me in your universe, but there are countless more for me to try again in. And when I finally succeed..."§!\n\nThe transmission abrutly cuts as the Kaiser pulls out a gun and shoots our probe, destroying it. And so, this is where the Kaiser has fled to. Another universe after our own, where he presumably once again took control of Félidé civilization and will attempt to once more conquer the galaxy.\n\nThis explains how he was able to unite §HFlusion§! with such ease, as it is likely he has done this dozens or even hundreds of times in the past, jumping ahead to a new universe whenever he was defeated, allowing him to try again. And he might just do so hundreds of times more.\n\nWe do not know what his motivations are or how he time-travelled with such ease, and the Atom Shredder will most likely prevent us from ever sending another probe through the tunnel, as it appears the tunnel past the Shredder in the new universe has collapsed onto itself.\n\nThis exceptional exploration of our universe's far future has however taught us many valuable things about the nature of reality, and even though we will not be able to get past the Atom Shredder again, the rift will forever remain on §HFlusion§! as a window to the ends of the universe for us to study.\n\nLet us hope that, if the Kaiser ever succeeds, he never figures out backwards time travel..."
 	giga_katzen.0950.a:0 "Chilling. Truly the most peculiar and insane of fellows..."
 
 	site_kaiser:0 "Echos du Kaiser"
@@ -10505,7 +10540,7 @@
     the_grandbunny_debug:0 "Grand Lapin"
     the_grandbunny_debug_desc:0 "Préparez-vous à être couvert de fleurs."
 
-    ###Corrona & Félidé Rework###
+    ###Corrona & Katzen Rework###
     giga_flusionsolak_res_desc:0 "Cet écran vous permet de gérer les §YOpérations des partisans§! sur §YFlusion§!. Chaque zone a un §YNiveau d'Activité Partisane§!, variant entre §GNégligeable§! et §RCritique§!. Plus l'activité dans une zone est élevée, plus l'§YImpérium Félidéen§! est recevra de malus et sera affaibli.\nUne §YOpération§! peut être menée dans la zone en cliquant dessus. Les opérations augmenteront la §HVigilance des Félidés§!, qui à son tour §Rdiminue§! la probabilité de réussite des opérations. Nous pouvons gérer la §HVigilance§! et donner aux partisans des §BResources§! en utilisant les actions du menu §YManager§!\nLes opérations prennent §Y15 jours§! pour s'exécuter, et ne peuvent pas se cumuler simultanément."
 
     giga_achievement_kaiser8:0              "§REternel§!"
@@ -10532,7 +10567,7 @@
     initial_flusion_buff_improbable_desc:0 "Le Kaiser le veut."
 
 	giga_katzenartig_enabled_improbable:0 "£menu_katzen_i£Impérium Félidéen (§YLe Kaiser infiniment improbable§!)\nL'Impérium Félidéen apparaitra §Gtoujours§!  après le milieu de la partie, et sera §RInfiniement§! plus puissant, recevant les améliorations suivantes :\n§Y+6000% de dégâts des armes\n+6000% de PV de bouclier\n+6000% de PV d'armure\n+6000% de PV de coque\n+4000% de dégâts d'armée\n+4000% de santé et moral de l'armée\n+500% de vitesse de construction des mégastructures\n+800% de cadence de tir\n+800% de vitesse du vaisseau\n+30 d'Evasion de base\n+150% d'évasion\n+1000% de dégâts des bombardements orbitaux§!\n\n§RLE KAISER DÉCLARE LA GUERRE A LA GALAXIE TOUTE ENTIERE 10 ANS APRÈS SON APPARITION§!\n§RCHALLENGE IMPOSSIBLE.\nCECI N'EST PAS ÉQUILIBRÉ.\nÀ UTILISER AVEC DES MODS PUISSANTS ! §!"
-	
+
     improbable_kaiser:0 "L'Improbable Kaiser Infini"
     improbable_kaiser_desc:0 "Parce que le Kaiser le veut."
 
@@ -10546,14 +10581,13 @@
     giga_hke.1003.desc:0 "En raison d'un manque de membres au sein de la HKE, l'organisation supranationale n'est plus en mesure de se maintenir ensemble, ses derniers membres ayant choisi de dissoudre la fédération.\n\nLe Saint Empire Félidéen s'est effectivement effondré, et il ne  sera plus une menace pour personne."
     giga_hke.1003.a:0 "Les Félidés sont partis pour de bon, semble-t-il."
 
-
     KATZEN_INFINITE_KAISER_MOON:0 "Noyau"
 
     giga_katzenai.0131.name:0 "Brèche massive de sous-espace détectée !"
     giga_katzenai.0131.desc:0 "Nouvelles alarmantes ! Suite à nos actions hostiles contre §YFlusion§!, nos capteurs détectent qu'un objet massif est entré dans le sous-espace, et s'approche actuellement du système §YJublio§! à des vitesses alarmantes !\n\nIl devrait arriver dans le système dans les 2 prochaines semaines..."
     giga_katzenai.0131.a:0 "Oh-oh."
 
-    giga_katzother.001.name:0 "Jublio"
+    giga_katzother.001.name:0 "Doublio"
     giga_katzother.001.desc:0 "Notre vaisseau explorant le système §YJublio§! rapporte qu'ils ont fait une découverte surprenante !\n\nUne énorme orchidée Yggdrasil §YRuined§! se trouve silencieusement au-dessus d'une des géantes gazeuses du système, tandis qu'une §YLune d'attaque détruite§!, près d'une planète apparemment brisée. De plus, ils ont détecté des signes d'espèces pré-sapientes prospérant dans le troisième monde du système de §YTelluris§!.\n\nIl semble que ce système a eu un passé tumultueux, que nous ne pourrons malheureusement jamais comprendre, car celui qui a construit ces mégastructures abandonnées a probablement disparu il y a des milliers d'années..."
     giga_katzother.001.a:0 "Intéressant."
 
@@ -10574,6 +10608,7 @@
 
     kaiser_ehof_0:0 "Chantier de construction d'une M.O.H.E. Félidéenne"
     kaiser_ehof_0_DESC:0 "Le chantier de construction d'une Machine d'Offset de l'Horizon des Evénements , qui est une forme d' I.D.H.E. conçue avec la technologie Félidés. Il sera utilisé par les Félidés pour générer des trous de ver vers d'autres destinations inaccessibles."
+    kaiser_ehof_0_MEGASTRUCTURE_DETAILS:0 "$kaiser_ehof_0_DESC$"
 
     kaiser_ehof_1:0 "M.O.H.E. Félidéenne"
     kaiser_ehof_1_DESC:0 "Une M.O.H.E. Félidéenne complète et opérationnelle, capable de générer des trous de ver pour permettre aux flottes des Félidés d'accéder à des systèmes autrement inaccessibles."
@@ -10597,6 +10632,7 @@
 
     katzen_ehof_wormhole:0 "Trou de ver des Félidés"
     katzen_ehof_wormhole_DESC:0 "Un trou de ver généré par une M.O.H.E. Félidéenne afin de permettre aux Félidés l'accès à une autre partie de la galaxie."
+    katzen_ehof_wormhole_MEGASTRUCTURE_DETAILS:0 "$katzen_ehof_wormhole_DESC$"
 
     giga_katehof.006.name:0 "Autodestructions d'une M.O.H.E. Félidéenne !"
     giga_katehof.006.desc:0 "Nos flottes ont réussi à prendre le contrôle du système §Y[ehof_destroyed_system.GetName]§!, qui contient une §YM.O.H.E.§!. La construction des Félidés s'est par la suite autodétruite, afin d'éviter sa capture, laissant derrière elle une ruine, que nous pourrions reconstruire en I.D.H.E., si nous le voulons.\n\nNous avons également réussi à récupérer des ressources et des données de l'épave."
@@ -10742,7 +10778,7 @@
     giga_katrebels.2011.desc:0 "We can support the §YCombattants de la liberté Solakiens§! alongside various Ravkan groups to undertake an operation in the land of §YRavka§!. They will target Katzenarmee training camps where Ravkans are recruited and trained into the Félidé armed forces.\n\n§YIf successful§!:\nPartisan activities in §YRavkanien§! will §Gincrease§!.\nThe Félidés will suffer from §Ydecreased army damage§!.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HModerate Félidé Grasp in Ravkanien§!: §R-20%§!\n§BPartisans in Lyuinstaat§!: §G+[flusion_primitives_country.lyuin_res_perc]%§!\n§BPartisans in Zousa§!: §G+[flusion_primitives_country.zousa_res_perc]%§!\n§BPartisans in Solakien§!: §G+[flusion_primitives_country.solak_res_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
 
     giga_katrebels.2012.name:0 "Resistance Operations in §YZousa§!"
-    giga_katrebels.2012.desc:0 "We can support the §YCombattants de la liberté Solakiens§! alongside various Zousanian groups as well as the Zousanian government-in-exile to undertake an operation in the land of §YZousa§!. They will target Félidé Hyperpropulseur research and production centers, in order to reduce Félidé FTL abilities.\n\n§YIf successful§!:\nPartisan activities in §YZousa§! will §Gincrease§!.\nThe Félidés will suffer from §Yincrease jump charge time§!.\nIf partisan activities reach §Rextreme§!, the Félidé §Yjump-drive scrambler§! will shut down, allowing ships with §Ymoteurs de saut§! to teleport to Jublio.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HModerate Félidé Grasp in Zousa§!: §R-20%§!\n§BPartisans in Ravkanien§!: §G+[flusion_primitives_country.ravka_res_perc]%§!\n§BPartisans in Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
+    giga_katrebels.2012.desc:0 "We can support the §YCombattants de la liberté Solakiens§! alongside various Zousanian groups as well as the Zousanian government-in-exile to undertake an operation in the land of §YZousa§!. They will target Félidé Hyperpropulseur research and production centers, in order to reduce Félidé FTL abilities.\n\n§YIf successful§!:\nPartisan activities in §YZousa§! will §Gincrease§!.\nThe Félidés will suffer from §Yincrease jump charge time§!.\nIf partisan activities reach §Rextreme§!, the Félidé §Yjump-drive scrambler§! will shut down, allowing ships with §Ymoteurs de saut§! to teleport to Doublio.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HModerate Félidé Grasp in Zousa§!: §R-20%§!\n§BPartisans in Ravkanien§!: §G+[flusion_primitives_country.ravka_res_perc]%§!\n§BPartisans in Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
 
     giga_katrebels.2013.name:0 "Resistance Operations in §YLyuinstaat§!"
     giga_katrebels.2013.desc:0 "We can support the §YCombattants de la liberté Solakiens§! alongside various Lyuinite groups to undertake an operation in the land of §YLyuinita§!. They will target Katzenarmee research centers where the Félidés experiment with shield designs for their vessels.\n\n§YIf successful§!:\nPartisan activities in §YLyuinstaat§! will §Gincrease§!.\nThe Félidés will suffer from §Ydecreased shield HP§!.\nKatzen Wariness will §Rincrease§! by §R2§!.\n\n§YIf failure§!:\nKatzen Wariness will §Rincrease§! by §R1§!.\n\n§YChance of success§!:\nBase: §Y75%§!\n§HKatzen Wariness§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§HHigh Félidé Grasp in Lyuinstaat§!: §R-30%§!\n§BPartisans in Ravkanien§!: §G+[flusion_primitives_country.ravka_res_perc]%§!\n§BPartisans in Félidé Herzlands§!: §G+[flusion_primitives_country.katzen_res_perc]%§!\n§BPartisans in Solakien§!: §G+[flusion_primitives_country.solak_res_perc]%§!\n§BPartisans in Geschwollen§!: §G+[flusion_primitives_country.puffy_res_perc]%§!\nTotal: §Y[flusion_primitives_country.flusion_success_chance_total]%§!"
@@ -10811,7 +10847,7 @@
 
 
     zousa_name:0 "§YZousa§!"
-    zousa_desc:0 "§LZousa est habitée par des créatures aviaires qui possèdent la capacité d'ouvrir des portails et de se téléporter dans le sous-espace. Les Félidés étudient leurs capacités, afin d'améliorer la conception d'hyperpropulseurs.\n\nLa région présente un §YBrouilleur de moteur de saut§! colossal, basé sur la technologie zousanienne, qui empêche les vaisseaux de sauter dans le système Jublio§!\n\n§BLe Brouilleur de moteur de saut risque d'être désactivé si les activités partisanes atteignent un niveau suffisamment élevé !§!"
+    zousa_desc:0 "§LZousa est habitée par des créatures aviaires qui possèdent la capacité d'ouvrir des portails et de se téléporter dans le sous-espace. Les Félidés étudient leurs capacités, afin d'améliorer la conception d'hyperpropulseurs.\n\nLa région présente un §YBrouilleur de moteur de saut§! colossal, basé sur la technologie zousanienne, qui empêche les vaisseaux de sauter dans le système Doublio§!\n\n§BLe Brouilleur de moteur de saut risque d'être désactivé si les activités partisanes atteignent un niveau suffisamment élevé !§!"
 
     zousa_res_low_tooltip:0 "$zousa_name$\n\n§HFonction principale§! - §BDépôt d'hyperpropulseurs§!\n\nL'emprise des félidés est §YModérée§!\nL'activité partisane est §GNégligeable§!\nModificateurs pour les félidés :\n§G-20% de temps de charge de saut\nBrouilleur de moteur de saut actif§!\n\n$zousa_desc$"
 
@@ -10975,7 +11011,7 @@
 
 	giga_katzen.020dwar.desc:0 "Le Kaiser enverra votre '§Y[Root.GetName]§!' à sa place : dans la poubelle de l'histoire."
 	giga_katzen.020ewar.desc:0 "'§Y[Root.GetName]§!' rejoindra bientôt la myriade de nations de §HFlusion§!."
-    
+
     riesigerkatzenpanzer_defence:0 "Division blindée des Félidés"
     riesigerkatzenpanzer_defence_desc:0 "Une division qui se compose de quelques dizaines de Chars 'Panzer' spatiaux, véhicules blindés absolument colossaux qui mesurent bien plus de 500 mètres de long. Ils sont armés de centaines de tourelles, de batteries anti-aériennes et utilisent un énorme canon nucléaire capable de tirer des ogives nucléaires de plusieurs gigatonnes avec une portée pratiquement illimitée."
 
@@ -11097,7 +11133,7 @@
     building_giga_corrona_homes_desc:0 "Bien qu'elles semblent être de simples habitats médiévaux à première vue, ces villes sont remplies de diverses créatures employant une sorte de «magie» pour améliorer leur vie au quotidien."
 
     giga_corrona.001.name:0 "Lié gravitationnellement"
-    giga_corrona.001.desc:0 "En entrant dans le §YSystème Juriduo§!, notre vaisseau scientifique a fait une découverte intéressante : le système n'est pas en fait un système stellaire approprié !\n\nEn effet, bien qu'il semble être un système indépendant, la Naine brune de Juriduo est en fait liée gravitationnellement au système §YJublio§! voisin, et tourne lentement autour de lui, bien que sa période orbitale dépasse plusieurs centaines de millénaires.\n\nCela signifie que Jublio et Juriduo peuvent être classés comme un binaire extrêmement éloigné, et bien que ce ne soit pas une découverte révolutionnaire, le fait qu'une hyperligne ait réussi à se former entre les deux n'a pas d'intérêt particulier pour nos scientifiques."
+    giga_corrona.001.desc:0 "En entrant dans le §YSystème Juriduo§!, notre vaisseau scientifique a fait une découverte intéressante : le système n'est pas en fait un système stellaire approprié !\n\nEn effet, bien qu'il semble être un système indépendant, la Naine brune de Juriduo est en fait liée gravitationnellement au système §YJublio§! voisin, et tourne lentement autour de lui, bien que sa période orbitale dépasse plusieurs centaines de millénaires.\n\nCela signifie que Doublio et Juriduo peuvent être classés comme un binaire extrêmement éloigné, et bien que ce ne soit pas une découverte révolutionnaire, le fait qu'une hyperligne ait réussi à se former entre les deux n'a pas d'intérêt particulier pour nos scientifiques."
     giga_corrona.001.a:0 "Bien. Ces deux systèmes n'auront certainement aucune importance."
 
     giga_corrona.002.name:0 "Primitifs ésotériques"
@@ -11260,6 +11296,7 @@
     giga_katrebels.0103.a:0 "Ce misérable rat !"
 
     cant_recent_ezic_operation:0 "Les Ézicaniens ont déjà entrepris une opération récente. Ils ne peuvent en faire qu'une tous les 6 mois."
+    ezic_revolution_already_ongoing:0 "There is already a revolution ongoing."
 
     ###REVOLT###
     giga_katrebels.0012.ezicrevolt:0 "Déclencher le §Ysoulèvement des Ézicaniens§!"
@@ -11415,6 +11452,7 @@
 
     ###SABOTAGE MOON###
     kaiser_moon_already_sabotaged:0 "la Lune du Kaiser est déjà sabotée."
+    katzen_plants_already_sabotaged:0 "Les planètes de puissance du Kaiser sont déjà sabotées."
 
     giga_katrebels.0012.sabotmoon:0 "§YSabotage de la Lune du Kaiser§!"
     giga_katrebels.0012.sabotmoon.tooltip:0 "Nous pouvons soutenir l'§YOrdre Ézicanien§! dans une opération de sabotage de la §YLune du Kaiser§!."
@@ -11501,7 +11539,7 @@
     giga_flusionunion.005.b.response:0 "Seems like we're going to have to pull out all the old Félidé weaponry..."
 
     giga_flusionunion.006.name:0 "§HFlusion§! goes to War!"
-    giga_flusionunion.006.desc:0 "Alarming news! Following our refusal to hand over the §YJublio§! system to them, the Flusionien government has forcefully seized the system, and subsequently declared war on us.\n\nThey have also claimed a substantial amount of territory surrounding Jublio. It appears they weren't messing around with their demands..."
+    giga_flusionunion.006.desc:0 "Alarming news! Following our refusal to hand over the §YJublio§! system to them, the Flusionien government has forcefully seized the system, and subsequently declared war on us.\n\nThey have also claimed a substantial amount of territory surrounding Doublio. It appears they weren't messing around with their demands..."
     giga_flusionunion.006.a:0 "Battlestations!"
 
     giga_flusionunion.007.name:0 "The United Flusionan States"
@@ -11527,7 +11565,7 @@
     # giga_flusionunion.015.b.response:0 "The Kronks will not forgive you for this."
 
     # giga_flusionunion.016.name:0 "Kronks goes to War!"
-    # giga_flusionunion.016.desc:0 "Alarming news! Following our refusal to hand over the §YJublio§! system to them, the Kronk government has forcefully seized the system, and subsequently declared war on us.\n\nThey have also claimed a colossal amount of territory surrounding Jublio. It appears they weren't messing around with their demands, as hordes of Kronk ships are already mobilizing for war."
+    # giga_flusionunion.016.desc:0 "Alarming news! Following our refusal to hand over the §YJublio§! system to them, the Kronk government has forcefully seized the system, and subsequently declared war on us.\n\nThey have also claimed a colossal amount of territory surrounding Doublio. It appears they weren't messing around with their demands, as hordes of Kronk ships are already mobilizing for war."
     # giga_flusionunion.016.a:0 "Those damned Kronks!"
 
     # giga_flusionunion.017.name:0 "The Kronks"
@@ -11653,6 +11691,9 @@
     PLANET_KILLER_AETERNUM_SHROUD:0 "Canon d'ensevelissement à l'Aeternite"
     PLANET_KILLER_AETERNUM_SHROUD_DESC:0 "Une arme tueur de monde Aeternite qui détruit un monde en l'inondant d'énergie psionique."
 
+    MESSAGE_DESC_FOR_PLANET_KILLER_AETERNUM_SHROUD:0 "was engulfed by"
+
+
     flusion_rich_modifier:0 "Monde exceptionnellement riche"
     flusion_rich_modifier_desc:0 "Cette planète est incroyablement riche en ressources et offre une quantité spectaculaire de terres arables et utilisables. Les éléments lourds et légers précieux utilisés pour les processus nucléaires sont exceptionnellement abondants dans sa croûte. En outre, il comporte également de vastes veines de ressources précieuses à peine trouvées ailleurs dans la galaxie. Toute civilisation chanceuse se développant ici aurait sans aucun doute un avantage incroyable, à la fois sur la scène planétaire et galactique.\n\n§YCe modificateur sera supprimé si la planète se transforme en un désert irradié, une tombe ou un monde brisé.§!"
 
@@ -11689,7 +11730,7 @@
 
     civic_laurandar_aaron:0 "The Laurnaise System"
     civic_laurandar_aaron_desc:0 "All must fight to serve the will of Aaron. This society functions under a peculiar system invented by Aaron N. Bleu, which relies around extreme militarization and compliance to the state. All resources must be harvested and exploited in order to further extend Laurnaise supremacy, and they desire to assemble the largest warships the galaxy has known in order to ensure their own dominance over the galactic scene.\n\nFlusion's vast array of esoteric resources and species are being forcefully employed to fuel the war machine, tremendously increasing their industrial and military capacity.\n\n§RThis civic will be removed if §HFlusion§! is lost.§!"
-    
+
     #Aeternum#
 
     giga_aeternum.43101.name:0 "Increased Understanding of Aiondia!"
@@ -11707,11 +11748,11 @@
     giga_aeternum.4402.desc:0 "At last, after several decades of intensive exploration and surveying, our Intelligence Agency reports that all of §YAiondia§! has finally been mapped out.\n\nThis great accomplishment, which we are not sure if Aeternum themselves accomplished, will enable us to properly expand and manage the Birch World, and definitely crowns us as its ultimate and eternal masters."
     giga_aeternum.4402.a:0 "Délicieux!"
 
-    aet_birch_world_exp_debuff_guide:0 "§YThis debuff will be progressively removed once we explore §Y25%§!, §Y50%§!, §Y75%§! and §Y100%§! of Aiondia's surface.§!" 
+    aet_birch_world_exp_debuff_guide:0 "§YThis debuff will be progressively removed once we explore §Y25%§!, §Y50%§!, §Y75%§! and §Y100%§! of Aiondia's surface.§!"
 
     aet_birch_world_poorly_mapped_1:0 "Birch World: §RVastly Unexplored§!"
     aet_birch_world_poorly_mapped_1_desc:0 "The vast majority of this Birch World's surface is unknown to us.\n\n$aet_birch_world_exp_debuff_guide$"
-    
+
     aet_birch_world_poorly_mapped_2:0 "Birch World: §HMostly Unexplored§!"
     aet_birch_world_poorly_mapped_2_desc:0 "The majority of this Birch World's surface is unknown to us.\n\n$aet_birch_world_exp_debuff_guide$"
 
@@ -11730,7 +11771,7 @@
     aeternum_mapping_tooltip:0 "Aiondia's surface is vast. As such, we can send §YExpeditions§! to map out the Birch World's colossal outer shell, which will yield $aeternum_tech_intel$, and might lead to unexpected discoveries as well."
 
     giga_aeternum.4321.name:0 "Mapping out Aiondia"
-    giga_aeternum.4321.desc:0 "We can send an §YExpedition§! to chart out §YAiondia§!'s surface. Expeditions will have a monthly £alloys£ and £energy£ cost required to sustain them, and cannot be cancelled until they are done.\n\nExpeditions will bring back a certain amount of $aeternum_tech_intel$ and £minor_artifacts£ once they are complete, and will report additional discoveries during the expedition itself. \n\nHow the expedition performs during these discoveries will depend on its §RStrength§!, §HIntegrity§! and §BPracticality§!.\n\nThese expeditions are simply massive undertakings, with each one of them employing millions of personel and vehicles to cover as much ground as possible. As such, they are naturally quite expensive to sustain.\n\n§YWe have currently brought back:\n§G[ROOT.aeternum_intel_exp_found]§! $aeternum_tech_intel$\n§G[ROOT.aeternum_art_exp_found]§! £minor_artifacts£\n§G[ROOT.aeternum_unique_exp_found]§! §RUnique Finds§!" 
+    giga_aeternum.4321.desc:0 "We can send an §YExpedition§! to chart out §YAiondia§!'s surface. Expeditions will have a monthly £alloys£ and £energy£ cost required to sustain them, and cannot be cancelled until they are done.\n\nExpeditions will bring back a certain amount of $aeternum_tech_intel$ and £minor_artifacts£ once they are complete, and will report additional discoveries during the expedition itself. \n\nHow the expedition performs during these discoveries will depend on its §RStrength§!, §HIntegrity§! and §BPracticality§!.\n\nThese expeditions are simply massive undertakings, with each one of them employing millions of personel and vehicles to cover as much ground as possible. As such, they are naturally quite expensive to sustain.\n\n§YWe have currently brought back:\n§G[ROOT.aeternum_intel_exp_found]§! $aeternum_tech_intel$\n§G[ROOT.aeternum_art_exp_found]§! £minor_artifacts£\n§G[ROOT.aeternum_unique_exp_found]§! §RUnique Finds§!"
 
     aeternum_intel_exp_found_some:0 "[ROOT.aet_expedition_total_intel_count]"
     aeternum_intel_art_found_some:0 "[ROOT.aet_expedition_total_artifact_count]"
@@ -11824,7 +11865,7 @@
 
     giga_aeternum.4329.name:0 "Aiondia Expedition: §SMobile City§!"
     giga_aeternum.4329.desc:0 "Our expedition has made a surprising discovery. They have located a §Ycolossal vehicle§! mounnted on two gigantic threads, several kilometers in length, carrying what seems to be an entire city which houses its own civilization!\n\nInitial surveys have revealed its population to be about 1.2 million individuals, and it is slowly yet steadily moving towards across the endless flat metallic plains of the Birch World, at a constant pace of about a hundred kilometers per hour.\n\nWe are not exactly sure what purpose this vehicle serves, but it is regardless steadily moving in the same direction, with no signs of stopping, and scans show the vehicle is likely to be several thousand years old. It is also accompanied by a myriad of smaller vehicles of varying sizes, designs and age.\n\nOur team believes that we might be able to establish contact with them, the §GComplexity§! of which would be about $aet_complexity_value$. This might be risky though, as the vehicle appears heavily armed, and they might open fire if they end up getting scared of us. Alternatively, we could attempt to blow up the vehicle and scavenge it for ourselves, and its §PResilience§! is estimated to be $aet_resilience_value$.\n\n§BThe expedition currently has:\n$aet_display_exp_stats$"
-    
+
     giga_aeternum.4329.a:0 "Try to establish contact. | §Y[ROOT.aet_success_chance]%§! Success Chance "
     giga_aeternum.4329.b:0 "Obliterate that thing at once! | §Y[ROOT.aet_success_chance_2]%§! Success Chance "
     giga_aeternum.4329.c:0 "Leave it be."
@@ -11833,7 +11874,7 @@
     giga_aeternum.43291.desc:0 "Our expedition reports that they have successfully decrypted and translated the language of the vehicle's inhabitants.\n\nApparently referred to as the §Y[aet_birch_civilisation.GetNamePlural]§!, we have managed to establish contact with their absolute leader, simply known as §YThe Navigator§!..."
     giga_aeternum.43291.a:0 "On screen."
 
-    giga_aeternum.43292.name:0 "The [aet_birch_civilisation.GetSpeciesAdj] Navigator"
+    giga_aeternum.43292.name:0 "The [aet_birch_civilisation.GetAdj] Navigator"
     giga_aeternum.43292.desc:0 "Visitors! How delightful. It has been quite a while since our species has encountered fellow sapient beings during our great journey throughout the §YGreat Expanse§!.\n\nThe last known encounter was recorded by my great-great-great-grandfather, some 486 cycles ago, when we ran into an isolated tribal settlement in a particularly hospitable chunk of land.\n\nBut either way, perhaps you are wondering who who are. And well, I am the §Y357th Navigator§!, tasked with leading and steering our great §YArkruiser§! to the ultimate destination...the §Yedge of the world§!!\n\nIndeed! For generations, my species has inhabited this colossal vehicle, within which we grow up, reproduce, and die, in order to eventually reach the edge of the Great Expanse, and finally discover the true nature of the divine realm which lies beyond the edge of our world.\n\nThis has been going on for roughly...36 000 cycles, during which I and my forefathers have steadily driven this ship in one continuous direction across the endless metal plains. But I have faith, that, one day, we will make it, and finally enter the realm of our gods..."
 
     giga_aeternum.43292.a:0 "The edge of the world? Your gods...?"
@@ -11841,15 +11882,15 @@
 
     giga_aeternum.43292.b:0 "We shall give you resources to aid your journey! | §Y10000§! £energy£ §Y5000§! £alloys£"
 
-    giga_aeternum.43293.name:0 "The [aet_birch_civilisation.GetSpeciesAdj] Navigator"
+    giga_aeternum.43293.name:0 "The [aet_birch_civilisation.GetAdj] Navigator"
     giga_aeternum.43293.desc:0 "May the gods be with you, travellers!\n\nIn exchange for your generous, please accept this data cache containing all the discoveries we've made along the way, in hopes that they may serve you in your own quest.\n\nMay we meet again, at the edge!"
     giga_aeternum.43293.a:0 "A great gift!"
     giga_aeternum.43293.a.tooltip:0 "Ignorance is bliss!\n$giga_aeternum_1_intel_tooltip$"
 
     giga_aeternum.43292.c:0 "Well...actually...you see..."
-    giga_aeternum.43292.c.tooltip:0 "Revealing the truth might have dire consequences." 
+    giga_aeternum.43292.c.tooltip:0 "Revealing the truth might have dire consequences."
 
-    giga_aeternum.43294.name:0 "The [aet_birch_civilisation.GetSpeciesAdj] Navigator"
+    giga_aeternum.43294.name:0 "The [aet_birch_civilisation.GetAdj] Navigator"
     giga_aeternum.43294.desc:0 "Partisans of the Sphere Theory, now aren't we? Well, nice try, but your data seems rather erron-...\n\n...w-well, it certainly looks more convincing than what we've seen before...\n\n...I mean, it...it does make some sense...and...uh...yes, that explains why...\n\n...no...no! This...this can't be..."
     giga_aeternum.43294.a:0 "Open your eyes."
 
@@ -11866,7 +11907,7 @@
     giga_aeternum.43297.desc:0 "Our expedition reports that they have managed to overcome the mobile city's §PResilience§!, and have completely destroyed it using our armored squadrons.\n\nSoldiers then proceeded to enter the wreck and finish off any remaining survivors, before taking it apart and salvaging any resources we could find.\n\nWe nonetheless sufferred minor casualties in the fight, having lost §Y[ROOT.aet_exp_integ_damage]§! §HIntegrity§!.\n\n§BThe expedition currently has:\n$aet_display_exp_stats$"
     giga_aeternum.43297.a:0 "Good riddance."
 
-    giga_aeternum.43296.desc.yay:0 "Our team reports that following the actions we have undertaken, the mysterious §YMobile City§! has opened fire onto our expedition with its heavy defensive weaponry! Fortunately for us, they were unable to inflict any major damage on our expedition due to our superior §RStrength§!, and we subsequently fired back with our armored squadrons, which completely destroyed the gigantic vehicle.\n\nWhile this represents a regrettable loss of life, we have nonetheless managed to scrap some resources from the wreck.\n\n§BThe expedition currently has:\n$aet_display_exp_stats$" 
+    giga_aeternum.43296.desc.yay:0 "Our team reports that following the actions we have undertaken, the mysterious §YMobile City§! has opened fire onto our expedition with its heavy defensive weaponry! Fortunately for us, they were unable to inflict any major damage on our expedition due to our superior §RStrength§!, and we subsequently fired back with our armored squadrons, which completely destroyed the gigantic vehicle.\n\nWhile this represents a regrettable loss of life, we have nonetheless managed to scrap some resources from the wreck.\n\n§BThe expedition currently has:\n$aet_display_exp_stats$"
     giga_aeternum.43296.b:0 "Regrettable, but necessary."
 
 
@@ -12033,7 +12074,7 @@
     #intro
 
     giga_aeternum.2010.name:0 "Forerunners at the Heart"
-    giga_aeternum.2010.desc:0 "When the first survey drones ventured into the newly-revealed galactic core, we expected them to find a regular supermassive black hole surrounded by a myriad of stars. But, the truth of what lies within our galaxy's heart is both fascinating and deeply troubling.\n\nIt is already inhabited! Indeed, it appears that a tremendously old precursor empire, which from what we've been able to decipher calls themselves l'§YAeternum§!, occupies the innermost portion of the galactic center.\n\nLong-range survey beams have revealed that their entire civilization is seemingly centered around a gigantic construct built over the galactic core itself, a §YBirch World§!, which likely houses the vast majority of their population.\n\nInterestingly, the surrounding systems have been rearranged into a hexagon, presumably by them, and contains an array of advanced and sometimes decaying megastructures that most certainly serves to support the central Birch World.\n\nThis ancient civilization is undoubtedly lightyears ahead of both us and even the Fallen Empires in terms of technological development, and it would most likely be best not to disturb them. Fortunately for our own sake, they appear to be relatively decrepit and stagnant, and likely considers the rest of the galaxy to not be worth their attention."  
+    giga_aeternum.2010.desc:0 "When the first survey drones ventured into the newly-revealed galactic core, we expected them to find a regular supermassive black hole surrounded by a myriad of stars. But, the truth of what lies within our galaxy's heart is both fascinating and deeply troubling.\n\nIt is already inhabited! Indeed, it appears that a tremendously old precursor empire, which from what we've been able to decipher calls themselves l'§YAeternum§!, occupies the innermost portion of the galactic center.\n\nLong-range survey beams have revealed that their entire civilization is seemingly centered around a gigantic construct built over the galactic core itself, a §YBirch World§!, which likely houses the vast majority of their population.\n\nInterestingly, the surrounding systems have been rearranged into a hexagon, presumably by them, and contains an array of advanced and sometimes decaying megastructures that most certainly serves to support the central Birch World.\n\nThis ancient civilization is undoubtedly lightyears ahead of both us and even the Fallen Empires in terms of technological development, and it would most likely be best not to disturb them. Fortunately for our own sake, they appear to be relatively decrepit and stagnant, and likely considers the rest of the galaxy to not be worth their attention."
     giga_aeternum.2010.a:0 "Fascinating! We shall tread with caution..."
 
     #awaken#
@@ -12079,12 +12120,14 @@
 
     aeternum_forge_0:0 "Aeternite Psykofabricator Construction Site"
     aeternum_forge_0_DESC:0 "The construction site for one of Aeternum's shipbuilding facilities."
+    aeternum_forge_0_MEGASTRUCTURE_DETAILS:0 "debug"
+    aeternum_planetcraft_ruined_MEGASTRUCTURE_DETAILS:0 "debug"
     aeternum_forge_1:0 "Aeternite Psykofabricator"
     aeternum_forge_1_DESC:0 "An advanced Aeternite device which harvests the tumultuous energies of a Shrouded World, and employs Loop-Quantum manipulation technologies to condense them into materials which is then assembled into armed fleets.\n\nThey also distribute psionic energy to the entire Aeternite armada, increasing their capabilities."
 
     giga_aeternum.4102.name:0 "Aeternite Psykofabricator Destroyed!"
     giga_aeternum.4102.desc.a:0 "Following violent space combat in the §Y[aeternum_war_forge_destroyed_system.GetName]§! system, our fleets report that they have managed to successfully destroy an §YAeternite Psykofabricator§!!\n\nThe megastructure underwent catastrophic collapse after intense bombardment by our vessels, and most of it has fallen back into the Shrouded World's treacherous atmosphere.\n\nHowever, some debris still remain in unstable orbits around the planet, which our scientists advise we study at once. This would allow us to learn more about Aeternite engineering, and thus enable our ships to counter their fleets more effectively."
-    
+
     giga_aeternum.4102.desc.b:0 "Following violent space combat in the §Y[aeternum_war_forge_destroyed_system.GetName]§! system, our fleets report that they have managed to successfully destroy an §YAeternite Psykofabricator§!!\n\nThe megastructure underwent catastrophic collapse after intense bombardment by our vessels, and most of it has fallen back into the Shrouded World's treacherous atmosphere.\n\nThey have also managed to scavenge some resources and data from the remaining debris."
 
     giga_aeternum.4102.a:0 "Let us analyse these debris at once."
@@ -12112,9 +12155,9 @@
     giga_aeternum.4201.desc:0 "As expected, the §YSuurikilpian§! presents a number of flaws which could be exploited in order to completely knock it out.\n\nBy projecting a beam of focused radiation which alternates between a very particular set of wavelengths through subspace, we could cause a cascading resonance within the shield's intricate Loop-Quantum processes, leading to a chain reaction that would quickly bring down the entire shield.\n\nThis would however require spending a large amount of energy for several years, but the payoff would be very much worth it, as §YAiondia§! would be fully exposed to orbital bombardment. We estimate the energy cost would be roughly §Y2500§! £energy£ per month, for §Y3 years§!."
     giga_aeternum.4201.a:0 "It's going down!"
     giga_aeternum.4201.b:0 "It is too expensive, unfortunately."
-    
-    disrupting_Aiondia_shield:0 "Disrupting the Suurikilpian"
-    disrupting_Aiondia_shield_desc:0 "We are attempting to bring down the colossal Aeternite shield surrounding their Birch World."
+
+    disrupting_alondia_shield:0 "Disrupting the Suurikilpian"
+    disrupting_alondia_shield_desc:0 "We are attempting to bring down the colossal Aeternite shield surrounding their Birch World."
 
     giga_aeternum.4202.name:0 "The End of the Suurikilpian"
     giga_aeternum.4202.desc:0 "The massive energy barrier surrounding §YAiondia§! begins to flicker as the very processes enabling its existence are disrupted beyond recovery by our focused beam of energy fired through subspace.\n\nWithin mere hours, the entire shield undergoes catastrophic collapse and eventually completely unravels into the blackness of space.\n\nAiondia now lays bare for the first time in a million years, bereft of the barrier which had protected it for untold eons."
@@ -12249,12 +12292,13 @@
     giga_aeternum.3010.armor:0 "Reverse-Engineer §HAeternite Armor§! | Requires §G12§! §BIntel§!"
     analysed_aeternite_armor_tooltip:0 "We need to have destroyed and analysed an §YAeternite Psykofabricator§!. The analysis can be done through a §YSpecial Project§! after destroying one."
 
-    giga_aeternum.3010.Aiondiashield:0 "Disrupt the §HSuurikilpian§! | Requires §G10§! §BIntel§!"
+    giga_aeternum.3010.alondiashield:0 "Disrupt the §HSuurikilpian§! | Requires §G10§! §BIntel§!"
 
     needs_10_aet_intel:0 "We need at least §G10§! $aeternum_tech_intel$. Doing this will not remove the intel."
     needs_12_aet_intel:0 "We need at least §G12§! $aeternum_tech_intel$. Doing this will not remove the intel."
     needs_20_aet_intel:0 "We need at least §G20§! $aeternum_tech_intel$. Doing this will not remove the intel."
     needs_25_aet_intel:0 "We need at least §G25§! $aeternum_tech_intel$. Doing this will not remove the intel."
+    needs_35_aet_intel:0 "We need at least §G35§! $aeternum_tech_intel$. Doing this will not remove the intel."
 
     giga_aeternum.3010.diplo:0 "Go to §MAeternite Diplomacy§!"
 
@@ -12292,14 +12336,14 @@
     giga_aeternum.3010.a:0 "Investigate §BAeternite Loop-Quantum Communications§!"
     giga_aeternum.3010.a.tooltip:0 "The Aeternites use advanced Loop-Quantum entanglement to instantaneously communicate over long distances. While the actual technology is far beyond our understanding, it might be wise to investigate the underlying principles beneath said tech, in order to see if it can be disrupted, somehow.\n\n§HWill begin a Special Project to investigate flaws in Aeternite comms.§!"
 
-    giga_aeternum.3010.b:0 "Investigate §HAeternite Structural Engineering§!" 
+    giga_aeternum.3010.b:0 "Investigate §HAeternite Structural Engineering§!"
     giga_aeternum.3010.b.tooltip:0 "Aeternum's megastructures and space constructs have been built using vastly different methods of engineering. By remotely studying them, we could potentially locate a number of flaws and weakpoints within their designs.\n\n§HWill begin a Special Project to investigate flaws in Aeternite engineering.§!"
 
     giga_aeternum.3010.c:0 "Investigate §GAeternite Intelligence Collection§!"
     giga_aeternum.3010.c.tooltip:0 "Despite all their advanced technologies, Aeternum likely has a relatively poor idea of what exactly lies outside the galaxy, most likely due to how little regard they show for it. If we determine how exactly they acquire data regarding the rest of the galaxy, it might be possible to somehow "trick" them into believing we are stronger or weaker than we actually are.\n\n§HWill begin a Special Project to analyse flaws in Aeternite intelligence.§!"
 
     INVESTIGATE_AETERNUM_COMMS:0 "Aeternite Loop-Quantum Communications"
-    INVESTIGATE_AETERNUM_COMMS_DESC:0 "We will conduct a detailed study of Aeternum's method of communication, which is seemingly based on an advanced form of quantum entanglement.\n\nCompleting this analysis will grant us §G1§! $aeternum_tech_intel$"  
+    INVESTIGATE_AETERNUM_COMMS_DESC:0 "We will conduct a detailed study of Aeternum's method of communication, which is seemingly based on an advanced form of quantum entanglement.\n\nCompleting this analysis will grant us §G1§! $aeternum_tech_intel$"
     INVESTIGATE_AETERNUM_ENGINEERING:0 "Aeternite Structural Engineering"
     INVESTIGATE_AETERNUM_ENGINEERING_DESC:0 "Aeternum's designs are ancient and advanced, but most likely contain flaws that could be exploited for our own benefit.\n\nCompleting this analysis will grant us §G2§! $aeternum_tech_intel$"
     INVESTIGATE_AETERNUM_INTEL:0 "Aeternite Intelligence"
@@ -12647,7 +12691,7 @@
     TITAN_LANCE_AETERNUM_DESC:0 "A colossal energy beam of focused quantum fields, further enhanced by the addition of psionic energy embedded within the fields, creating a formidable weapon capable of simply erasing most targets it comes across."
 
     LASER_AETERNUM:0 "Aeternite Loop-Quantum Projectobreaker"
-    LASER_AETERNUM_DESC:0 "An Aeternite-designed Quantum Projector, focused towards destroying the armor of large enemy vessels by employing entangled Loop-Quantum energy fields enhanced with slight amounts of psionic potential." 
+    LASER_AETERNUM_DESC:0 "An Aeternite-designed Quantum Projector, focused towards destroying the armor of large enemy vessels by employing entangled Loop-Quantum energy fields enhanced with slight amounts of psionic potential."
 
     KINETIC_AETERNUM:0 "Aeternite Gravi-Quanta Mortar Battery"
     KINETIC_AETERNUM_DESC:0 "This weapon, based on Loop-Quantum tech, is built to accelerate a single powerful projectile to speeds that are usually thought to be impossible according to classical physics. It is enhanced with slight amounts of psionic potential, allowing the projectile to autonomously guide and adjust itself before impacting its target."
@@ -12689,7 +12733,7 @@
     aeternum_birch_world_desc:0 "This Birch World is extremely ancient, and was built at least a million years ago by a precursor civilization. It is built with fantastically advanced technologies and offers surreal living conditions to its inhabitants."
 
     birch_world_decaying:0 "Decaying Hyperstructure"
-    birch_world_decaying_desc:0 "While parts of this Birch World are still very much habitable, large chunks of the construct's superstructure have fallen into decay and disrepair from hundreds of thousands of years of neglect by its disinterested inhabitants. As it stands, expanding this Birch World's liveable space is practically impossible without large-scale renovation efforts.\n\n§YCan be removed by clearing all "Decaying Hyperstructure" deposits on the Birch World.§!" 
+    birch_world_decaying_desc:0 "While parts of this Birch World are still very much habitable, large chunks of the construct's superstructure have fallen into decay and disrepair from hundreds of thousands of years of neglect by its disinterested inhabitants. As it stands, expanding this Birch World's liveable space is practically impossible without large-scale renovation efforts.\n\n§YCan be removed by clearing all "Decaying Hyperstructure" deposits on the Birch World.§!"
 
     birch_world_grand_shield:0 "The Suurikilpian"
     birch_world_grand_shield_desc:0 "Aeternite for "Grand Shield", the Suurikilpian is a monumental energy barrier which surrounds this Birch World. Generated by a specialized ring around the construct's equator, it protects the Birch World's surface from orbital bombardment and keeps its inhabitants safe from external harm or wandering celestial bodies.\n\n§YAll Planetary Devastation from Bombardment will be nullified.§!"
@@ -12715,7 +12759,7 @@
     giga_katcivilwar.1013.a:0 "He seems nicer than the Kaiser, that's for sure."
 
     giga_katcivilwar.1014.name:0 "Katzenmarshall Elwin Reunifies Impérium Félidéen!"
-    giga_katcivilwar.1014.desc:0 "With the destruction of all other belligerents of the Katzen Civil War, §YElwin§!'s §YKatzen Militärjunta§! now stands as the supreme victor of the deadly feline civil conflict.\n\nWith her militaristic policies, Elwin sought to effectively reforge the §YKaiser§!'s §YKatzenartig Imperium§!, albeit her newly-proclaimed §Y[katzen_civil_war_junta.GetName]§! is decidedly much more authoritarian and oppressive than the Kaiser's aggressive yet welcoming and egalitarian society.\n\nElwin prides herself on the superiority of the Katzen species and state, and as such has §Rdeclared war§! on the remaining independent Katzen splinter states in order to bring all Katzens back into the fold.\n\nFortunately for us, it seems Elwin's regime is somewhat xenophobic and isolationist, as such she is likely to focus on asserting her control inwards rather than outwards. Regardless, we must remain wary, for Elwin is not the most stable of individuals, and she has additionally §Yclaimed§! all systems containing colonies with §YKatzens populations§!..." 
+    giga_katcivilwar.1014.desc:0 "With the destruction of all other belligerents of the Katzen Civil War, §YElwin§!'s §YKatzen Militärjunta§! now stands as the supreme victor of the deadly feline civil conflict.\n\nWith her militaristic policies, Elwin sought to effectively reforge the §YKaiser§!'s §YKatzenartig Imperium§!, albeit her newly-proclaimed §Y[katzen_civil_war_junta.GetName]§! is decidedly much more authoritarian and oppressive than the Kaiser's aggressive yet welcoming and egalitarian society.\n\nElwin prides herself on the superiority of the Katzen species and state, and as such has §Rdeclared war§! on the remaining independent Katzen splinter states in order to bring all Katzens back into the fold.\n\nFortunately for us, it seems Elwin's regime is somewhat xenophobic and isolationist, as such she is likely to focus on asserting her control inwards rather than outwards. Regardless, we must remain wary, for Elwin is not the most stable of individuals, and she has additionally §Yclaimed§! all systems containing colonies with §YKatzens populations§!..."
     giga_katcivilwar.1014.a:0 "More of the same, except it's even worse. Bloody cats."
 
     giga_katcivilwar.1015.name:0 "Sergeant T-T Reunifies Impérium Félidéen!"
@@ -12869,7 +12913,7 @@
 
     giga_accelerator.120.name:0 "Decaying Fears"
     giga_accelerator.120.desc:0 "Reports from across our empire are coming in that, following the construction and subsequent activation of a §YAccélérateur de Particules Stellaire§!, some of our citizens have began to evoke growing concerns over the possibility of the structure triggering a §YFalse Vacuum Decay§!.\n\nIndeed, according to some theories, the extremely energetic collisions taking place within the accelerator could lead to what is known as a §YVacuum Decay§!, which is when a sudden burst of energy in a localized point of space destabilizes one of the universes' main quantum fields and subsequently alters the laws of physics.\n\nThis would lead to a chain-reaction, creating an expanding sphere within which the laws of physics are different, and that would thus eventually engulf the entire universe, destroying everything.\n\nObviously, our head scientists deny this theory, claiming it to be "far-fetched" and "senseless", but the fear is nonetheless growing amongst our populace, and the issue has been exacerbated by several prominent scientists deciding to back the claim.\n\nWith many claiming the megastructure would bring about the "End of the universe", they are now calling for the dismantlement of our §YAccélérateur de Particules Stellaires§!..."
-    
+
     giga_accelerator.120.a:0 "Invest resources into conducting a great study to disprove it!"
     giga_accelerator.120.b:0 "Censor the press, and arrest anyone spreading the claim."
     giga_accelerator.120.c:0 "Ignore the issue. It'll pass."
@@ -12995,8 +13039,111 @@
     giga_accelerator.160.desc:0 "Dire news have reached us that §Y[accelerator_quasistar.GetName]§!'s expansion has finally destroyed the system's §YAccélérateur de Particules Stellaire§!.\n\nThe megastructure has fallen into the ever-expanding stellar surface, vaporizing it within moments.\n\nFortunately, we however been able to salvage parts of it before its untimely demise, and it seems the star's expansion has slowed down drastically. Indeed, scientists estimate that this "black-hole star", or §YQuasi-Star§!, has now reached yet another equilibrium between the singularity and its outer layers, and will now continue to grow, although extremely slowly.\n\nThis whole phenomenon has been of extreme scientific value, and while the system's planets have been significantly heated up by these events, the entire system is now ripe with research opportunities concerning this peculiar Quasi-Star.\n\nThe star's lifespan has however been significantly reduced, and it is estimated that its outer layers will end up dissipating in a few million years, leaving the exposed black hole behind, but this shouldn't be a concern, for now at least."
     giga_accelerator.160.a:0 "Be more careful with accelerators next time!"
 
-    giga_flavor.999.name:0 "Mise à jour des Gigastructures: New Features"
-    giga_flavor.999.desc:0 "Greetings! Gigastructures has recently updated, bringing new customisation features to the §YAccélérateur de Particules Stellaire§! and the §YLunar Speculorefractor§!. The update does not break saves, but you might have to select the megas and click the "Manage" button in order to properly apply the new features.\n\nThank you for reading, and have fun!"
-    giga_flavor.999.a:0 "Understood."
+    giga_flavor.999.name:0 "Mise à jour des Gigastructures: Nouvelles Infos"
+    giga_flavor.999.desc:0 "Salutations ! Gigastructures a récemment été mis à jour, apportant de nouvelles fonctionnalités de personnalisation au §YAccélérateur de particules stellaires§ ! et au §YLunar Speculorefractor§ ! La mise à jour n'interrompt pas les sauvegardes, mais il se peut que vous deviez sélectionner les mégas et cliquer sur le bouton "Gérer" afin d'appliquer correctement les nouvelles fonctionnalités.\n\n Merci de votre lecture et amusez-vous bien !"
+    giga_flavor.999.a:0 "Compris."
 
     giga_accelerator.160.a.tooltip:0 "All planets in the §Y[accelerator_quasistar.GetName]§! system become hotter.\n\nThe §YAccélérateur de Particules Stellaire§! is §Rdestroyed§!.\n\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################
+# Debug #########################
+#################################
+
+    pc_alderson_slice_gaia_adj:0 "debug"
+    pc_alderson_slice_pc_adj:0 "debug"
+    pc_alderson_slice_ecu_adj:0 "debug"
+    pc_alderson_slice_hive_adj:0 "debug"
+    pc_alderson_slice_machine_adj:0 "debug"
+    pc_giga_penrose_habitable_adj:0 "debug"
+    pc_interstellar_ringworld_habitable_adj:0 "debug"
+    pc_birch_adj:0 "debug"
+    pc_nuked_adj:0 "debug"
+    pc_machine_adj:0 "debug"
+    pc_habitat_adj:0 "debug"
+    pc_gigaorbital_ring_adj:0 "debug"
+    pc_katzenland_adj:0 "debug"
+    pc_ll_temperate_adj:0 "debug"
+    pc_ll_foggy_adj:0 "debug"
+    pc_ll_torrid_adj:0 "debug"
+    pc_gaia_adj:0 "debug"
+    pc_ringworld_habitable_adj:0 "debug"
+    pc_continental_adj:0 "debug"
+    pc_ocean_adj:0 "debug"
+    pc_hive_adj:0 "debug"
+    pc_city_adj:0 "debug"
+    pc_disco_moon_adj:0 "debug"
+    pc_habitable_gas_giant_adj:0 "debug"
+    pc_interstellar_habitat_adj:0 "debug"
+    pc_ringworld_city_adj:0 "debug"
+    pc_ringworld_machine_adj:0 "debug"
+    pc_ringworld_hive_adj:0 "debug"
+    pc_flat_world_adj:0 "debug"
+    pc_giga_planetary_computer_adj:0 "debug"
+    pc_desert_adj:0 "debug"
+    pc_arid_adj:0 "debug"
+    pc_virtual_reality_adj:0 "debug"
+    pc_virtual_industry_adj:0 "debug"
+    pc_virtual_stellar_industry_adj:0 "debug"
+    pc_tropical_adj:0 "debug"
+    pc_squareworld_habitable_adj:0 "debug"
+    pc_equatorial_shipyard_adj:0 "debug"
+    pc_tundra_adj:0 "debug"
+    pc_arctic_adj:0 "debug"
+    pc_savannah_adj:0 "debug"
+    pc_alpine_adj:0 "debug"
+    pc_ehof_habitat_adj:0 "debug"
+    pc_relic_adj:0 "debug"
+
+    megastructure_build:0 "debug"
+    megastructure:0 "debug"
+    must_have_user_preset_mod:0 "debug"
+
+    mod_country_base_consumer_goods_produces_add:0 "debug"
+    mod_planet_artisans_energy_upkeep_add:0 "debug"
+    mod_planet_priests_energy_upkeep_add:0 "debug"
+    mod_planet_priests_society_research_produces_add:0 "debug"
+    mod_planet_priests_unity_produces_add:0 "debug"
+    mod_planet_managers_energy_upkeep_add:0 "debug"
+    mod_planet_managers_society_research_produces_add:0 "debug"
+    mod_planet_managers_unity_produces_add:0 "debug"
+    mod_planet_refiners_energy_upkeep_add:0 "debug"
+    mod_planet_refiners_minerals_upkeep_add:0 "debug"
+    mod_planet_refiners_volatile_motes_produces_add:0 "debug"
+    mod_planet_refiners_exotic_gases_produces_add:0 "debug"
+    mod_planet_refiners_rare_crystals_produces_add:0 "debug"
+    mod_planet_metallurgists_energy_upkeep_add:0 "debug"
+    mod_planet_culture_workers_energy_upkeep_add:0 "debug"
+    mod_planet_culture_workers_society_research_produces_add:0 "debug"
+    mod_planet_culture_workers_unity_produces_add:0 "debug"
+    mod_planet_miners_energy_upkeep_add:0 "debug"
+    mod_planet_researchers_energy_upkeep_add:0 "debug"
+    mod_planet_pops_biologicals_food_upkeep_add:0 "debug"
+    mod_planet_pops_lithoids_minerals_upkeep_add:0 "debug"
+    mod_planet_pops_energy_upkeep_add:0 "debug"
+    mod_district_virtual_shipyard_max:0 "debug"
+
+    gigaLabel_01:0 "§EPress confirm settings button to play with default options.§!"
+    gigaLabel_02:0 "§EMegastructure caps can only be set at game start.§!"
+    gigaLabel_03:0 "§EUnlimited megastructure caps cause serious unbalance.§!"
+    gigaLabel_04:0 "§EIt is possible to select a preset, then customize it.§!"
+    gigaLabel_05:0 "§EYou can navigate using the arrows at the top.§!"

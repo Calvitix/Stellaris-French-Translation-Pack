@@ -59,55 +59,76 @@ AVI1 = {
 
 	fleet_names = {
 		random_names = {
-			"Nuée astrale dorée" "Nuée astrale plumée" "Nuée astrale révérée" "Nuée astrale honorée" "Nuée astrale jaillissante" "Nuée astrale perchée" "Nuée astrale Y'Sarka" "Nuée astrale U'Ruusu" "Nuée astrale S'Sarona" "Nuée astrale T'Tsona" "Nuée astrale Y'Trana" "Nuée astrale S'Itanis" "Nuée astrale Y'Ysonni"
+			"Nuée Astrale Dorée" "Nuée Astrale Plumée" "Nuée Astrale Révérée" "Nuée Astrale Honorée" "Nuée Astrale Jaillissante" "Nuée Astrale Perchée" "Nuée Astrale Y'Sarka" "Nuée Astrale U'Ruusu" "Nuée Astrale S'Sarona" "Nuée Astrale T'Tsona" "Nuée Astrale Y'Trana" "Nuée Astrale S'Itanis" "Nuée Astrale Y'Ysonni"
 # VANILLE	"Gilded Star Flock" "Plumed Star Flock" "Revered Star Flock" "Honored Star Flock" "Soaring Star Flock" "Perched Star Flock" "Y'Sarka Star Flock" "U'Ruusu Star Flock" "S'Sarona Star Flock" "T'Tsona Star Flock" "Y'Trana Star Flock" "S'Itanis Star Flock" "Y'Ysonni Star Flock"
 		}
-		sequential_name = "%R%e Nuée astrale" # VANILLE "%R%e Star Flock"
+		sequential_name = "%R%e Nuée astrale" # VANILLE "%O% Star Flock"
 	}
 	
 	army_names = {
+
+		machine_defense = {
+			sequential_name = "%R%e Aile de Sécurité" # VANILLE "%O% Security Wing"
+		}
+		
+		machine_assault_1 = {
+			sequential_name = "%R%e Spatioportée" # VANILLE "%O% Spaceborne"
+		}
+		
+		machine_assault_2 = {
+			sequential_name = "%R%e Spatioportée" # VANILLE "%O% Spaceborne"
+		}
+		
+		machine_assault_3 = {
+			sequential_name = "%R%e Spatioportée" # VANILLE "%O% Spaceborne"
+		}
+		
 		defense_army = {
-			sequential_name = "%R%e Aile de sécurité" # VANILLE "%R%e Security Wing"
+			sequential_name = "%R%e Aile de Sécurité" # VANILLE "%O% Security Wing"
 		}
 			
 		assault_army = {
-			sequential_name = "%R%e Spatioportée" # VANILLE "%R%e Spaceborne"
+			sequential_name = "%R%e Spatioportée" # VANILLE "%O% Spaceborne"
 		}
 		
 		slave_army = {
-			sequential_name = "%R%e Armée servile" # VANILLE "%R%e Servile Army"
+			sequential_name = "%R%e Armée servile" # VANILLE "%O% Servile Army"
 		}
 		
 		clone_army = { 
-			sequential_name = "%R%e Front de clones" # VANILLE "%R%e Clone Front"
+			sequential_name = "%R%e Front de clones" # VANILLE "%O% Clone Front"
 		}
 		
+		undead_army = {
+			sequential_name = "%R%e Armée de l'Effroi" # VANILLE "%O% Dread Army"
+		}
+
 		robotic_army = {
-			sequential_name = "%R%e Colonne mécanique" # VANILLE "%R%e Machine Column"
+			sequential_name = "%R%e Colonne Mécanique" # VANILLE "%O% Machine Column"
 		}
 		
 		robotic_defense_army = {
-			sequential_name = "%R%e Colonne mécanique" # VANILLE "%R%e Machine Column"
+			sequential_name = "%R%e Colonne Mécanique" # VANILLE "%O% Machine Column"
 		}
 
 		psionic_army = { 
-			sequential_name = "Ordre télépathique %R%" # VANILLE "Telepathic Order %R%"
+			sequential_name = "Ordre Télépathique %R%" # VANILLE "Telepathic Order %R%"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "%R%e Xénonuée" # VANILLE "%R%e Xeno Herd"
+			sequential_name = "%R%e Xénonuée" # VANILLE "%O% Xeno Herd"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "%R%e Commando de la mort" # VANILLE "%R%e Death Commando"
+			sequential_name = "%R%e Commando de la Mort" # VANILLE "%O% Death Commando"
 		}
 
 		occupation_army = {
-			sequential_name = "%R%e Aile d'occupation" # VANILLE "%R%e Occupation Wing"
+			sequential_name = "%R%e Aile d'Occupation" # VANILLE "%O% Occupation Wing"
 		}
 
 		robotic_occupation_army = {
-			sequential_name = "%R%e Machines d'occupation" # VANILLE "%R%e Occupation Machines"
+			sequential_name = "%R%e Machines d'Occupation" # VANILLE "%O% Occupation Machines"
 		}
 
 		primitive_army = {

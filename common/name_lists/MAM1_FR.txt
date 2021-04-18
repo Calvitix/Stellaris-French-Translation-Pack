@@ -54,24 +54,45 @@ MAM1 = {
 			"Flotte stellaire de Korrim" "Flotte stellaire de Rivén" "Flotte stellaire de Fortana" "Flotte stellaire de Pollimin" "Flotte stellaire de Gorodo" "Flotte stellaire de Forfan" "Flotte stellaire de Cardana" "Flotte stellaire de Horoto" "Flotte stellaire de Disini" "Flotte stellaire de Varnala" "Flotte stellaire de Cannala" "Flotte stellaire de Shimini" "Flotte stellaire de Martano" "Flotte stellaire de Fanti" "Flotte stellaire de Grungoni"
 # VANILLE	"Korrim Starfleet" "Rivén Starfleet" "Fortana Starfleet" "Pollimin Starfleet" "Gorodo Starfleet" "Forfan Starfleet" "Cardana Starfleet" "Horoto Starfleet" "Disini Starfleet" "Varnala Starfleet" "Cannala Starfleet" "Shimini Starfleet" "Martano Starfleet" "Fanti Starfleet" "Grungoni Starfleet"
 		}
-		sequential_name = "%R%e Flotte stellaire" # VANILLE "%R%e Starfleet"
+		sequential_name = "%R%e Flotte Stellaire" # VANILLE "%O% Starfleet"
 	}
 		
 	army_names = {
+
+		machine_defense = {
+			sequential_name = "%R%e Colonne Défensive" # VANILLE "%O% Defensive Column"
+		}
+		
+		machine_assault_1 = {
+			sequential_name = "%R%e Colonne d'Invasion" # VANILLE "%O% Invader Column"
+		}
+		
+		machine_assault_2 = {
+			sequential_name = "%R%e Colonne d'Invasion" # VANILLE "%O% Invader Column"
+		}
+		
+		machine_assault_3 = {
+			sequential_name = "%R%e Colonne d'Invasion" # VANILLE "%O% Invader Column"
+		}
+		
 		defense_army = {
-			sequential_name = "%R%e Colonne défensive" # VANILLE "%R%e Defensive Column"
+			sequential_name = "%R%e Colonne Défensive" # VANILLE "%O% Defensive Column"
 		}
 			
 		assault_army = {
-			sequential_name = "%R%e Colonne d'invasion" # VANILLE "%R%e Invader Column"
+			sequential_name = "%R%e Colonne d'Invasion" # VANILLE "%O% Invader Column"
 		}
 		
 		slave_army = {
-			sequential_name = "%R%e Colonne pénale" # VANILLE "%R%e Correctional Column"
+			sequential_name = "%R%e Colonne Pénale" # VANILLE "%O% Correctional Column"
 		}
 		
+		undead_army = {
+			sequential_name = "%R%e Colonne de l'Effroi" # VANILLE "%O% Dread Column"
+		}
+
 		clone_army = { 
-			sequential_name = "%R%e Troupes moulées" # VANILLE "Molded Troops %R%"
+			sequential_name = "%R%e Troupes Moulées" # VANILLE "Molded Troops %R%"
 		}
 		
 		robotic_army = {
@@ -79,7 +100,7 @@ MAM1 = {
 		}
 
 		robotic_defense_army = {
-			sequential_name = "%R%e Protecteurs robotiques" # VANILLE "Robotic Protectors %R%"
+			sequential_name = "%R%e Protecteurs Robotiques" # VANILLE "Robotic Protectors %R%"
 		}
 		
 		psionic_army = { 
@@ -87,19 +108,19 @@ MAM1 = {
 		}
 		
 		xenomorph_army = {
-			sequential_name = "%R%e Ruche xénomorphe" # VANILLE "Xenomorph Hive %R%"
+			sequential_name = "%R%e Ruche Xénomorphe" # VANILLE "Xenomorph Hive %R%"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "%R%e Troupiers modifiés" # VANILLE "%R%e Modified Troopers"
+			sequential_name = "%R%e Troupiers Modifiés" # VANILLE "%O% Modified Troopers"
 		}
 
 		occupation_army = {
-			sequential_name = "%R%e Colonne d'occupation" # VANILLE "%R%e Occupation Column"
+			sequential_name = "%R%e Colonne d'Occupation" # VANILLE "%O% Occupation Column"
 		}
 
 		robotic_occupation_army = {
-			sequential_name = "%R%e Garnison robotique" # VANILLE "%R%e Robotic Garrison"
+			sequential_name = "%R%e Garnison Robotique" # VANILLE "%O% Robotic Garrison"
 		}
 
 		primitive_army = {

@@ -54,52 +54,73 @@ REP3 = {
 			"Rôdeurs spatiaux de Dronolog" "Rôdeurs spatiaux de Gafereka" "Rôdeurs spatiaux de Kotalla" "Rôdeurs spatiaux de Golorod" "Rôdeurs spatiaux de Dirixelo" "Rôdeurs spatiaux de Kundere" "Rôdeurs spatiaux de Trellock" "Rôdeurs spatiaux de Korux" "Rôdeurs spatiaux de Dulkara" "Rôdeurs spatiaux de Kluxadoru" "Rôdeurs spatiaux de Foreskax" "Rôdeurs spatiaux de Krundoal" "Rôdeurs spatiaux de Lugec" "Rôdeurs spatiaux de Koogol"
 # VANILLE	"Dronolog Void Skulkers" "Gafereka Void Skulkers" "Kotalla Void Skulkers" "Golorod Void Skulkers" "Dirixelo Void Skulkers" "Kundere Void Skulkers" "Trellock Void Skulkers" "Korux Void Skulkers" "Dulkara Void Skulkers" "Kluxadoru Void Skulkers" "Foreskax Void Skulkers" "Krundoal Void Skulkers" "Lugec Void Skulkers" "Koogol Void Skulkers"
 		}
-		sequential_name = "%R%e Rôdeurs spatiaux" # VANILLE "%R%e Void Skulkers"
+		sequential_name = "%R%e Rôdeurs spatiaux" # VANILLE "%O% Void Skulkers"
 	}
 	
-	army_names = {	
+	army_names = {
+
+		machine_defense = {
+			sequential_name = "%R%e Légion d'Assaut" # VANILLE "%O% Defense Legion"
+		}
+		
+		machine_assault_1 = {
+			sequential_name = "%R%e Légion d'Assaut" # VANILLE "%O% Attack Legion"
+		}
+		
+		machine_assault_2 = {
+			sequential_name = "%R%e Légion d'Assaut" # VANILLE "%O% Attack Legion"
+		}
+		
+		machine_assault_3 = {
+			sequential_name = "%R%e Légion d'Assaut" # VANILLE "%O% Attack Legion"
+		}
+		
 		defense_army = {
-			sequential_name = "%R%e Légion défensive" # VANILLE "%R%e Defense Legion"
+			sequential_name = "%R%e Légion Défensive" # VANILLE "%O% Defense Legion"
 		}
 			
 		assault_army = {
-			sequential_name = "%R%e Légion d'assaut" # VANILLE "%R%e Attack Legion"
+			sequential_name = "%R%e Légion d'Assaut" # VANILLE "%O% Attack Legion"
 		}
 		
 		slave_army = {
-			sequential_name = "%R%e Horde servile" # VANILLE "%R%e Slave Horde"
+			sequential_name = "%R%e Horde Servile" # VANILLE "%O% Slave Horde"
 		}
 		
+		undead_army = {
+			sequential_name = "%R%e Horde de Morts-Vivants" # VANILLE "%O% Undead Horde"
+		}
+
 		clone_army = { 
-			sequential_name = "%R%e Horde sosie" # VANILLE "%R%e Doppleganger Horde"
+			sequential_name = "%R%e Horde Sosie" # VANILLE "%O% Doppleganger Horde"
 		}
 		
 		robotic_army = {
-			sequential_name = "%R%e Armée automatisée" # VANILLE "%R%e Automaton Army"
+			sequential_name = "%R%e Armée Automatisée" # VANILLE "%O% Automaton Army"
 		}
 
 		robotic_defense_army = {
-			sequential_name = "%R%e Défense automatisée" # VANILLE "%R%e Automated Defenses"
+			sequential_name = "%R%e Défense Automatisée" # VANILLE "%O% Automated Defenses"
 		}
 		
 		psionic_army = { 
-			sequential_name = "%R%e Maîtres de l'esprit" # VANILLE "%R%e Mind Masters"
+			sequential_name = "%R%e Maîtres de l'Esprit" # VANILLE "%O% Mind Masters"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "%R%e Changelins du chaos" # VANILLE "%R%e Chaos Changelings"
+			sequential_name = "%R%e Changelins du Chaos" # VANILLE "%O% Chaos Changelings"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "%R%e Légion améliorée" # VANILLE "%R%e Enhanced Legion"
+			sequential_name = "%R%e Légion Améliorée" # VANILLE "%O% Enhanced Legion"
 		}
 
 		occupation_army = {
-			sequential_name = "%R%e Légion d'occupation" # VANILLE "%R%e Occupation Legion"
+			sequential_name = "%R%e Légion d'Occupation" # VANILLE "%O% Occupation Legion"
 		}
 
 		robotic_occupation_army = {
-			sequential_name = "%R%e Garnison automatisée" # VANILLE "%R%e Automated Garrison"
+			sequential_name = "%R%e Garnison Automatisée" # VANILLE "%O% Automated Garrison"
 		}
 
 		primitive_army = {

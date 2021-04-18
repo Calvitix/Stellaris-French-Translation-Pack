@@ -46,7 +46,7 @@
  pft_democratic_election_4_desc:0 "$pft_democratic_election_1_desc$"
 
  # SUPREMACISTS
- SUPREMACIST_RULER_SAME_SPECIES:0 "[Root.Owner.GetRulerTitle] de l'espèce [Root.Owner.GetSpeciesAdj] (+10/-30)"
+ SUPREMACIST_RULER_SAME_SPECIES:0 "[Root.Owner.GetRulerTitle] de l'espèce [Root.Owner.GetAdj] (+10/-30)"
  SUPREMACIST_RULER_NOT_SAME_SPECIES:0 "[Root.Owner.GetRulerTitle] xéno (+10/-30)"
  SUPREMACIST_RULER_NOT_SAME_SPECIES_DESC:0 "Le §Y[Root.GetName]§! veut que le dirigeant appartienne à l'espèce [Root.Owner.GetSpeciesName] et sera mécontent s'il s'agit d'un xéno."
  SUPREMACIST_UNRESTRICTED_STUDY:0 "Xénoétudes invasives (+5/-10)"
@@ -74,7 +74,7 @@
  SUPREMACIST_NO_DOMINATION:0 "$SUPREMACIST_DOMINATION$"
  SUPREMACIST_GENE_MOD:0 "Pureté génétique (+5/-5)"
  SUPREMACIST_GENE_MOD_DESC:2 "La faction '§Y[Root.GetName]§!' sera satisfaite si nous nous assurons que toutes les pops de [Root.Owner.GetSpeciesNamePlural] partagent exactement les mêmes traits génétiques."
- SUPREMACIST_IMPURE:0 "Impureté [Root.Owner.GetSpeciesAdj] (+5/-5)"
+ SUPREMACIST_IMPURE:0 "Impureté [Root.Owner.GetAdj] (+5/-5)"
  SUPREMACIST_NO_HARMONY:0 "Discorde"
  SUPREMACIST_HARMONY:0 "$SUPREMACIST_NO_HARMONY$"
  SUPREMACIST_NO_HARMONY_DESC:0 "La faction '§Y[Root.GetName]§!' sera mécontente si nous adoptons ces traditions d'harmonie qui prônent une supposée égalité avec les espèces inférieures."
@@ -413,7 +413,7 @@
  PROSPERITY_NO_PEACEFUL_APPLICATIONS:0 "$PROSPERITY_PEACEFUL_APPLICATIONS$"
  PROSPERITY_PEACEFUL_APPLICATIONS_DESC:0 "La faction '§Y[Root.GetName]§!' sera satisfaite pour un temps sinous consacrons des artefacts mineurs à des applications civiles."
 
- FACTION_COUNTRY_SEPARATIST:0 "Séparatistes [parameter:owner.GetSpeciesAdj]"
+ FACTION_COUNTRY_SEPARATIST:0 "Séparatistes [parameter:owner.GetAdj]"
 
  # Generic Actions
  FACTION_ACTION_SUPPRESS_FOLLOWERS:0 "Répression des fidèles"
@@ -633,13 +633,13 @@
  SUPPORT_EFFECT_LIBERATE_INSULT_HIJACK:0 "Détournement de communications"
  SUPPORT_EFFECT_LIBERATE_INSULT_HIJACK_DESC:0 "§Y[Root.GetName]§! empoisonne nos relations diplomatiques avec §H[parameter:enemy.GetName]§!."
  SUPPORT_EFFECT_LIBERATE_HAWKISH_REBELS:0 "Risque de rébellion belliciste"
- SUPPORT_EFFECT_LIBERATE_HAWKISH_REBELS_DESC:0 "§Y[Root.GetName]§! se rebelle contre le gouvernement fantoche de [Root.Owner.GetSpeciesAdj]."
+ SUPPORT_EFFECT_LIBERATE_HAWKISH_REBELS_DESC:0 "§Y[Root.GetName]§! se rebelle contre le gouvernement fantoche de [Root.Owner.GetAdj]."
 
  ### XENOSLAVER
 
  # Demands
  POP_FACTION_XENOSLAVER_DEMAND_TITLE_1:0 "Asservir les xénos"
- POP_FACTION_XENOSLAVER_DEMAND_DESC_1:0 "Asservit tous les §H[parameter:xeno.GetSpeciesAdj]§! §YPops§!."
+ POP_FACTION_XENOSLAVER_DEMAND_DESC_1:0 "Asservit tous les §H[parameter:xeno.GetAdj]§! §YPops§!."
 
  # Actions
 
@@ -694,7 +694,7 @@
  factions.1.desc.isolationist:0 "Ses membres militent pour la fermeture des frontières et le refus de toute ingérance dans les affaires de la galaxie.\n\n"
  factions.1.desc.progressive:0 "Ses membres oeuvrent pour qu'égalité et justice soient accordées à tous les habitants de l'empire.\n\n"
  factions.1.desc.prosperity:1 "Ses membres militent pour que l'empire accorde la priorité à la croissance et la stabilité par des moyens pacifiques."
- factions.1.desc.supremacist:0 "Ses membres cherchent à affirmer la primauté de l'espèce [Root.Owner.GetSpeciesAdj], quite à limiter pour cela les droits des aliens.\n\n"
+ factions.1.desc.supremacist:0 "Ses membres cherchent à affirmer la primauté de l'espèce [Root.Owner.GetAdj], quite à limiter pour cela les droits des aliens.\n\n"
  factions.1.desc.technologist:0 "Ses membres défendent avec tous les moyens à leur disposition la mise en valeur des sciences.\n\n"
  factions.1.desc.totalitarian:0 "Ses membres défendent avec ardeur une centralisation poussée à l'extrême du pouvoir politique et militaire.\n\n"
  factions.1.desc.traditionalist:0 "Ses membres sont animés par des valeurs spiritualistes et conservatrices.\n\n"
@@ -775,7 +775,7 @@
 
  # Separatist leader assassinated
  faction.102.title:1 "Meneur de faction assassiné !"
- faction.102.desc:1 "La confusion règne au §Y[Root.GetName]§! suite à la mort soudaine de son meneur, [Root.Leader.GetName].\n\nLe grand public [Root.Owner.GetSpeciesAdj] pense que cet assassinat est le fruit d'une lutte interne de pouvoir au sein du [Root.GetName]. Bien qu'une personnalité ait déjà émergé, l'incident s'est traduit par une perte de soutien populaire."
+ faction.102.desc:1 "La confusion règne au §Y[Root.GetName]§! suite à la mort soudaine de son meneur, [Root.Leader.GetName].\n\nLe grand public [Root.Owner.GetAdj] pense que cet assassinat est le fruit d'une lutte interne de pouvoir au sein du [Root.GetName]. Bien qu'une personnalité ait déjà émergé, l'incident s'est traduit par une perte de soutien populaire."
 
  # Separatist sector created
  faction.103.title:0 "Secteur créé !"
@@ -827,7 +827,7 @@
  ### Peace Movement
 
  faction.400.title:0 "Flotte sabotée !"
- faction.400.desc:0 "Certains membres radicaux de [From.GetName] ont infiltré avec succès au moins un vaisseau militaire [Root.Owner.GetSpeciesAdj] pour y planter des explosifs. Ceux-ci ont détruit l'intégralité de [Root.GetName].\n\n[From.Leader.GetName], meneur de [From.GetName], a publié une déclaration dénonçant la nature abjecte de la violence en général, et du conflit armé entre [Root.Owner.GetName] et [From.parameter:enemy.GetName] en particulier."
+ faction.400.desc:0 "Certains membres radicaux de [From.GetName] ont infiltré avec succès au moins un vaisseau militaire [Root.Owner.GetAdj] pour y planter des explosifs. Ceux-ci ont détruit l'intégralité de [Root.GetName].\n\n[From.Leader.GetName], meneur de [From.GetName], a publié une déclaration dénonçant la nature abjecte de la violence en général, et du conflit armé entre [Root.Owner.GetName] et [From.parameter:enemy.GetName] en particulier."
  faction.400.a:0 "Hypocrites."
  faction.400.a.tooltip:0 "§R[Root.GetName] détruite.§!"
 
@@ -865,7 +865,7 @@
 
  ### Xenoslaver Faction
  faction.700.title:0 "Mise en servitude !"
- faction.700.desc:0 "Les enragés de §Y[Root.GetName]§! ont supposément forcé certaines des populations non [Root.Owner.GetSpeciesAdj] de [Root.Owner.GetName] en esclavage."
+ faction.700.desc:0 "Les enragés de §Y[Root.GetName]§! ont supposément forcé certaines des populations non [Root.Owner.GetAdj] de [Root.Owner.GetName] en esclavage."
  faction.700.a:0 "C'est un scandale."
  faction.700.a.tooltip:0 "Esclaves :\n§Y+2§! Pops."
 

@@ -1,5 +1,4 @@
-﻿#WARNING : overwritten by FrenchtranslationPack
-### Hive Mind
+﻿### Hive Mind
 ### Created by Miranda van den Brink
 
 HIVE = {
@@ -35,11 +34,11 @@ HIVE = {
 		}
 
 		colossus = {
-			"Vaisseau Principal" # VANILLE "Primary Combat Vessel"
+			"Vaisseau de combat principal" # VANILLE "Primary Combat Vessel"
 		}
 
 		juggernaut = {
-			"Matrice Principal" # VANILLE "Primary Combat Node"
+			"Noeud de combat principal" # VANILLE "Primary Combat Node"
 		}
 		
 		science = {
@@ -59,11 +58,11 @@ HIVE = {
 		}
 	
 		military_station_small = {
-			"Défense Stationnaire" # VANILLE "Stationary Defensive"
+			"Défense stationnaire" # VANILLE "Stationary Defensive"
 		}
 
 		ion_cannon = {
-			"Défense Ionique" # VANILLE "Ion Defensive"
+			"Défense ionique" # VANILLE "Ion Defensive"
 		}
 	}
 
@@ -83,40 +82,61 @@ HIVE = {
 	}
 	
 	army_names = {
+
+		machine_defense = {
+			sequential_name = "%R%e Défenseurs de la Conscience" # VANILLE "%O% Hive Defenders"
+		}
+		
+		machine_assault_1 = {
+			sequential_name = "%R%e Agresseurs de la Conscience" # VANILLE "%O% Hive Aggressors"
+		}
+		
+		machine_assault_2 = {
+			sequential_name = "%R%e Agresseurs de la Conscience" # VANILLE "%O% Hive Aggressors"
+		}
+		
+		machine_assault_3 = {
+			sequential_name = "%R%e Agresseurs de la Conscience" # VANILLE "%O% Hive Aggressors"
+		}
+
 		defense_army = {
-			sequential_name = "%R%e Défenseurs de la Conscience" # VANILLE "%R%e Hive Defenders"
+			sequential_name = "%R%e Défenseurs de la Conscience" # VANILLE "%O% Hive Defenders"
 		}
 			
 		assault_army = {
-			sequential_name = "%R%e Agresseurs de la Conscience" # VANILLE "%R%e Hive Aggressors"
+			sequential_name = "%R%e Agresseurs de la Conscience" # VANILLE "%O% Hive Aggressors"
 		}
 		
 		slave_army = {
-			sequential_name = "%R%e Drones serviles de combat" # VANILLE "%R%e Slave Warrior Drones"
+			sequential_name = "%R%e Drones Serviles de Combat" # VANILLE "%O% Slave Warrior Drones"
 		}
 		
 		clone_army = { 
-			sequential_name = "%R%e Drones de combat clonés" # VANILLE "%R%e Cloned Warrior Drones"
+			sequential_name = "%R%e Drones de Combat Clonés" # VANILLE "%O% Cloned Warrior Drones"
 		}
 		
+		undead_army = {
+			sequential_name = "%R%e Drones de l'Effroi" # VANILLE "%O% Dread Drones"
+		}
+
 		robotic_army = {
-			sequential_name = "%R%e Drones de combat robotiques" # VANILLE "%R%e Robotic Warrior Drones"
+			sequential_name = "%R%e Drones de Combat Robotiques" # VANILLE "%O% Robotic Warrior Drones"
 		}
 
 		robotic_defense_army = {
-			sequential_name = "%R%e Drones défensifs robotiques" # VANILLE "%R%e Robotic Defense Drones"
+			sequential_name = "%R%e Drones Défensifs Robotiques" # VANILLE "%O% Robotic Defense Drones"
 		}
 		
 		psionic_army = { 
-			sequential_name = "%R%e Drones psis de combat" # VANILLE "%R%e Psi Warrior Drones"
+			sequential_name = "%R%e Drones Psis de Combat" # VANILLE "%O% Psi Warrior Drones"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "%R%e Drones xénomorphe de combat" # VANILLE "%R%e Morphed Warrior Drones"
+			sequential_name = "%R%e Drones Xénomorphes de Combat" # VANILLE "%O% Morphed Warrior Drones"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "%R%e Drones optimisés de combat" # VANILLE "%R%e Enhanced Warrior Drones"
+			sequential_name = "%R%e Drones Optimisés de Combat" # VANILLE "%O% Enhanced Warrior Drones"
 		}
 
 		primitive_army = {
@@ -134,7 +154,7 @@ HIVE = {
 
 		generic = {
 			names = {
-				"Cellule Alpha" "Cellule d'essaim Alpha" "Cellule des drones" "Chambre de couvée" "Nid de drones" "Extension" "Chambre des drones extérieure" "Noeud d'extension" "Noeud Standard" "Noeud des Drones" "Cellule d'extension" "Chambre de production" "Sommet supérieur" "Noeud d'extension" "Chambre de développement" "Cellule avancée" "Noeud de production" "Cellule d'assemblée" "Jonction de garde" "Supra-sommet" "Jonction d'expansion" "Noeud d'assemblée" "Colonie de couvaison" "Colonie Alpha" "Colonie Bêta" "Colonie Gamma" "Colonie Delta" "Colonie Epsilon" "Colonie Zêta" "Colonie Êta" "Colonie Thêta" "Colonie Iota" "Cellule de production" "Cellule de couvaison" "Amas de drones" "Colonie d'essaim" "Colonie de drones" "Colonie d'assemblée"
+				"Cellule Alpha" "Cellule d'Essaim Alpha" "Cellule des Drones" "Chambre de Couvée" "Nid de Drones" "Extension" "Chambre Extérieure des Drones" "Noeud d'Extension" "Noeud Standard" "Noeud des Drones" "Cellule d'Extension" "Chambre de Production" "Sommet Supérieur" "Noeud d'Extension" "Chambre de Développement" "Cellule Avancée" "Noeud de Production" "Cellule d'Assemblage" "Jonction de Garde" "Supra-Sommet" "Jonction d'Expansion" "Noeud d'Assemblage" "Colonie de Couvaison" "Colonie Alpha" "Colonie Bêta" "Colonie Gamma" "Colonie Delta" "Colonie Epsilon" "Colonie Zêta" "Colonie Êta" "Colonie Thêta" "Colonie Iota" "Cellule de Production" "Cellule de Couvaison" "Amas de Drones" "Colonie d'Essaim" "Colonie de Drones" "Colonie d'Assemblée"
 # VANILLE		"Alpha Cell" "Swarm Cell Alpha" "Drone Cell" "Nesting Chamber" "Drone Nest" "Outward Reach" "Exterior Drone Chamber" "Extension Node" "Standard Node" "Drone Node" "Expansive Cell" "Production Chamber" "Superior Vertex" "Expansion Node" "Development Chamber" "Advancement Cell" "Manufacturing Node" "Assembly Cell" "Guard Junction" "Supra-Vertex" "Forward Junction" "Assembly Node" "Brood Colony" "Alpha Colony" "Beta Colony" "Gamma Colony" "Delta Colony" "Epsilon Colony" "Zeta Colony" "Eta Colony" "Theta Colony" "Iota Colony" "Production Cell" "Brood Cell" "Drone Cluster" "Swarm Colony" "Drone Colony" "Assembly Colony"
 			}
 		}
@@ -190,7 +210,7 @@ HIVE = {
 			# A complete name
 			full_names = {
 
-				"Drone autonome 1" "Drone autonome 2" "Drone autonome 3" "Drone autonome 4" "Drone autonome 5" "Drone autonome 6" "Drone autonome 7" "Drone autonome 8" "Drone autonome 9" "Drone autonome 10" "Drone autonome 11" "Drone autonome 12" "Drone autonome 13" "Drone autonome 14" "Drone autonome 15" "Drone autonome 16" "Drone autonome 17" "Drone autonome 18" "Drone autonome 19" "Drone autonome 20" "Drone autonome 21" "Drone autonome 22" "Drone autonome 23" "Drone autonome 24" "Drone autonome 25" "Drone autonome 26" "Drone autonome 27" "Drone autonome 28" "Drone autonome 29" "Drone autonome 30" "Drone autonome 31" "Drone autonome 32" "Drone autonome 33" "Drone autonome 34" "Drone autonome 35" "Drone autonome 36" "Drone autonome 37" "Drone autonome 38" "Drone autonome 39" "Drone autonome 40" "Drone autonome 41" "Drone autonome 42" "Drone autonome 43" "Drone autonome 44" "Drone autonome 45" "Drone autonome 46" "Drone autonome 47" "Drone autonome 48" "Drone autonome 49" "Drone autonome 50" "Drone autonome 51" "Drone autonome 52" "Drone autonome 53" "Drone autonome 54" "Drone autonome 55" "Drone autonome 56" "Drone autonome 57" "Drone autonome 58" "Drone autonome 59" "Drone autonome 60" "Drone autonome 61" "Drone autonome 62" "Drone autonome 63" "Drone autonome 64" "Drone autonome 65" "Drone autonome 66" "Drone autonome 67" "Drone autonome 68" "Drone autonome 69" "Drone autonome 70" "Drone autonome 71" "Drone autonome 72" "Drone autonome 73" "Drone autonome 74"
+				"Drone Autonome 1" "Drone Autonome 2" "Drone Autonome 3" "Drone Autonome 4" "Drone Autonome 5" "Drone Autonome 6" "Drone Autonome 7" "Drone Autonome 8" "Drone Autonome 9" "Drone Autonome 10" "Drone Autonome 11" "Drone Autonome 12" "Drone Autonome 13" "Drone Autonome 14" "Drone Autonome 15" "Drone Autonome 16" "Drone Autonome 17" "Drone Autonome 18" "Drone Autonome 19" "Drone Autonome 20" "Drone Autonome 21" "Drone Autonome 22" "Drone Autonome 23" "Drone Autonome 24" "Drone Autonome 25" "Drone Autonome 26" "Drone Autonome 27" "Drone Autonome 28" "Drone Autonome 29" "Drone Autonome 30" "Drone Autonome 31" "Drone Autonome 32" "Drone Autonome 33" "Drone Autonome 34" "Drone Autonome 35" "Drone Autonome 36" "Drone Autonome 37" "Drone Autonome 38" "Drone Autonome 39" "Drone Autonome 40" "Drone Autonome 41" "Drone Autonome 42" "Drone Autonome 43" "Drone Autonome 44" "Drone Autonome 45" "Drone Autonome 46" "Drone Autonome 47" "Drone Autonome 48" "Drone Autonome 49" "Drone Autonome 50" "Drone Autonome 51" "Drone Autonome 52" "Drone Autonome 53" "Drone Autonome 54" "Drone Autonome 55" "Drone Autonome 56" "Drone Autonome 57" "Drone Autonome 58" "Drone Autonome 59" "Drone Autonome 60" "Drone Autonome 61" "Drone Autonome 62" "Drone Autonome 63" "Drone Autonome 64" "Drone Autonome 65" "Drone Autonome 66" "Drone Autonome 67" "Drone Autonome 68" "Drone Autonome 69" "Drone Autonome 70" "Drone Autonome 71" "Drone Autonome 72" "Drone Autonome 73" "Drone Autonome 74"
 # VANILLE		"Autonomous Drone 1" "Autonomous Drone 2" "Autonomous Drone 3" "Autonomous Drone 4" "Autonomous Drone 5" "Autonomous Drone 6" "Autonomous Drone 7" "Autonomous Drone 8" "Autonomous Drone 9" "Autonomous Drone 10" "Autonomous Drone 11" "Autonomous Drone 12" "Autonomous Drone 13" "Autonomous Drone 14" "Autonomous Drone 15" "Autonomous Drone 16" "Autonomous Drone 17" "Autonomous Drone 18" "Autonomous Drone 19" "Autonomous Drone 20" "Autonomous Drone 21" "Autonomous Drone 22" "Autonomous Drone 23" "Autonomous Drone 24" "Autonomous Drone 25" "Autonomous Drone 26" "Autonomous Drone 27" "Autonomous Drone 28" "Autonomous Drone 29" "Autonomous Drone 30" "Autonomous Drone 31" "Autonomous Drone 32" "Autonomous Drone 33" "Autonomous Drone 34" "Autonomous Drone 35" "Autonomous Drone 36" "Autonomous Drone 37" "Autonomous Drone 38" "Autonomous Drone 39" "Autonomous Drone 40" "Autonomous Drone 41" "Autonomous Drone 42" "Autonomous Drone 43" "Autonomous Drone 44" "Autonomous Drone 45" "Autonomous Drone 46" "Autonomous Drone 47" "Autonomous Drone 48" "Autonomous Drone 49" "Autonomous Drone 50" "Autonomous Drone 51" "Autonomous Drone 52" "Autonomous Drone 53" "Autonomous Drone 54" "Autonomous Drone 55" "Autonomous Drone 56" "Autonomous Drone 57" "Autonomous Drone 58" "Autonomous Drone 59" "Autonomous Drone 60" "Autonomous Drone 61" "Autonomous Drone 62" "Autonomous Drone 63" "Autonomous Drone 64" "Autonomous Drone 65" "Autonomous Drone 66" "Autonomous Drone 67" "Autonomous Drone 68" "Autonomous Drone 69" "Autonomous Drone 70" "Autonomous Drone 71" "Autonomous Drone 72" "Autonomous Drone 73" "Autonomous Drone 74"
 			}
 			
@@ -213,7 +233,7 @@ HIVE = {
 	ruler_names = {
 		default = {
 			full_names = {
-				"Noeud Synaptique" "Conscience collective"
+				"Noeud Synaptique" "Conscience Collective"
 			}
 		}
 	}

@@ -29,13 +29,13 @@
  MANDATE_mandate_emancipation:0 "Affranchissement généralisé"
  MANDATE_mandate_emancipation_DESC:1 "Fin de la pratique de l'esclavage pour '§Y[Root.Owner.GetName]§!'.\n\nRécompense : $mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
  MANDATE_mandate_emancipation2:0 "Affranchissement populiste"
- MANDATE_mandate_emancipation2_DESC:1 "Affranchissement de tous les esclaves d'au moins une planète [Root.Owner.GetSpeciesAdj].\n\nRécompense : $mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
+ MANDATE_mandate_emancipation2_DESC:1 "Affranchissement de tous les esclaves d'au moins une planète [Root.Owner.GetAdj].\n\nRécompense : $mandate_influence_reward_t3$\n$mandate_happiness_reward_t1$"
  MANDATE_mandate_orbital_researcher:0 "Recherche orbitale"
  MANDATE_mandate_orbital_researcher_DESC:3 "Renforcement de la recherche scientifique [Root.Owner.GetAdj] en lançant la construction d'au moins 4 nouvelles §Ystations de recherche orbitales§!.\n\nRécompense : $mandate_unity_reward$"
  MANDATE_mandate_miner:0 "Mines extraplanétaires"
  MANDATE_mandate_miner_DESC:1 "Accroissement des réserves de minéraux de [Root.Owner.GetName] en lançant la construction d'au moins 4 nouvelles stations minières orbitales.\n\nRécompense : $mandate_influence_reward_t5$"
  MANDATE_mandate_shipwright:0 "Développement de la flotte"
- MANDATE_mandate_shipwright_DESC:2 "Assurer la sécurité de la population [Root.Owner.GetSpeciesAdj] en entretenant une flotte d'au moins 75% de la capacité navale à la fin du mandat.\n\nRécompense : $mandate_influence_reward_t5$"
+ MANDATE_mandate_shipwright_DESC:2 "Assurer la sécurité de la population [Root.Owner.GetAdj] en entretenant une flotte d'au moins 75% de la capacité navale à la fin du mandat.\n\nRécompense : $mandate_influence_reward_t5$"
  MANDATE_mandate_peacemaker:0 "Processus de paix"
  MANDATE_mandate_peacemaker_DESC:1 "Mettre un terme à toutes les guerres dans lesquelles les [Root.Owner.GetAdj] sont impliqués avant la fin du mandat.\n\nRécompense : $mandate_influence_reward_t5$"
  MANDATE_mandate_slaver:0 "Esclavagisme"
@@ -58,7 +58,7 @@
  orbresearch_built:0 "Stations de recherche construites "
 
  mandate_xenopurge_chain_title:0 "Programme de xénopurge"
- mandate_xenopurge_chain_desc:2 "Notre [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à §Ypurger§! §H[purge_planet.GetName]§! de toutes les §Ypops non [Root.GetSpeciesAdj]s§!.\n\nRécompense : $mandate_influence_reward_t2$\n$mandate_happiness_reward_t1$"
+ mandate_xenopurge_chain_desc:2 "Notre [This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu[This.GetXEDir] en s'engageant à §Ypurger§! §H[purge_planet.GetName]§! de toutes les §Ypops non [Root.GetAdj]s§!.\n\nRécompense : $mandate_influence_reward_t2$\n$mandate_happiness_reward_t1$"
  world_purged:0 "Planète purgée"
 
  mandate_shipwright_chain_title:0 "Programme de développement de la flotte"
@@ -115,7 +115,7 @@
 
  # Xenopurger
  mandate.132.title:0 "Mandat de purge des aliens rempli"
- mandate.132.desc:1 "Conformément au programme [Root.GetDuDelaDelDir] [Root.GetRulerTitle], la colonie de [From.GetName] a été purgée de ses éléments non [Root.GetSpeciesAdj]s."
+ mandate.132.desc:1 "Conformément au programme [Root.GetDuDelaDelDir] [Root.GetRulerTitle], la colonie de [From.GetName] a été purgée de ses éléments non [Root.GetAdj]s."
 
  # Shipwright
  mandate.141.title:0 "Programme naval réalisé"

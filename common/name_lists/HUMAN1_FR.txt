@@ -72,7 +72,7 @@ HUMAN1 = {
 		}
 		
 		science = {
-			Aldrin Armstrong Columb Copernique Cortés Drake Hubble Goddard Galilée Einstein Gagarine Terechkova "Zheng He" "Leif Erikson" Magellan "James Cook" "Marco Polo" Newton Tesla "Von Braun" "Walter Raleigh" Asimov Clarke Sagan "ibn Battuta" Kepler Ptolemée Pythéas Azophi Découverte Voyageur Tradewind Éclaireur Pionnier Explorateur Visiteur "Santa Maria" Hawking Earhart Nobel Kelvin Fahrenheit Équinoxe Lagrange Tsiolkovsky Darwin Grissom Archimède
+			Aldrin Armstrong Colomb Copernic Cortés Drake Hubble Goddard Galilée Einstein Gagarine Terechkova "Zheng He" "Leif Erikson" Magellan "James Cook" "Marco Polo" Newton Tesla "Von Braun" "Walter Raleigh" Asimov Clarke Sagan "ibn Battuta" Kepler Ptolemée Pythéas Azophi Découverte Voyageur Tradewind Éclaireur Pionnier Explorateur Visiteur "Santa Maria" Hawking Earhart Nobel Kelvin Fahrenheit Équinoxe Lagrange Tsiolkovsky Darwin Grissom Archimède
 # VANILLE	Aldrin Armstrong Columbus Copernicus Cortez Drake Hubble Goddard Galileo Einstein Gagarin Tereshkova "Zheng He" "Leif Ericson" Magellan "James Cook" "Marco Polo" Newton Tesla "Von Braun" "Walter Raleigh" Asimov Clarke Sagan "Ibn Battuta" Kepler Ptolemy Pytheas Azophi Discovery Voyager Tradewind Scout Pioneer Explorer Sojourner "Santa Maria" Hawking Earhart Nobel Kelvin Fahrenheit Equinox Lagrange Tsiolkovsky Darwin Grissom Archimedes
 		}
 		
@@ -93,41 +93,61 @@ HUMAN1 = {
 	}
 
 	fleet_names = {
-		sequential_name = "%R%e Flotte" # VANILLE "%R%e Fleet"
+		sequential_name = "%R%e Flotte" # VANILLE "%O% Fleet"
 	}
 	
 	army_names = {
+
+		machine_defense = {
+			sequential_name = "%R%e Garde Planétaire" # VANILLE "%O% Planetary Guard"
+		}
+		
+		machine_assault_1 = {
+			sequential_name = "%R%e Force Expéditionnaire" # VANILLE "%O% Expeditionary Force"
+		}
+		
+		machine_assault_2 = {
+			sequential_name = "%R%e Force Expéditionnaire" # VANILLE "%O% Expeditionary Force"
+		}
+		
+		machine_assault_3 = {
+			sequential_name = "%R%e Force Expéditionnaire" # VANILLE "%O% Expeditionary Force"
+		}
 	
 		defense_army = {
-			sequential_name = "%R%e Garde planétaire" # VANILLE "%R%e Planetary Guard"
+			sequential_name = "%R%e Garde Planétaire" # VANILLE "%O% Planetary Guard"
 		}
 
 		assault_army = {
-			sequential_name = "%R%e Force expéditionnaire" # VANILLE "%R%e Expeditionary Force"
+			sequential_name = "%R%e Force Expéditionnaire" # VANILLE "%O% Expeditionary Force"
 		}
 		
 		slave_army = {
-			sequential_name = "%R%e Spadassins" # VANILLE "%R%e Indentured Rifles"
+			sequential_name = "%R%e Spadassins" # VANILLE "%O% Indentured Rifles"
 		}
 		
 		clone_army = { 
-			sequential_name = "%R%e Armée de clones" # VANILLE "%R%e Clone Army"
+			sequential_name = "%R%e Armée de Clones" # VANILLE "%O% Clone Army"
 		}
 		
+		undead_army = {
+			sequential_name = "%R%e Commandos de l'Effroi" # VANILLE "%O% Dread Commando"
+		}
+
 		robotic_army = {
-			sequential_name = "%R%e Groupe de chasseurs-tueurs" # VANILLE "%R%e Hunter-Killer Group"
+			sequential_name = "%R%e Groupe de Chasseurs-Tueurs" # VANILLE "%O% Hunter-Killer Group"
 		}
 
 		robotic_defense_army = {
-			sequential_name = "%R%e Matrice de défense au sol" # VANILLE "%R%e Ground Defense Matrix"
+			sequential_name = "%R%e Matrice de Défense au Sol" # VANILLE "%O% Ground Defense Matrix"
 		}
 		
 		psionic_army = { 
-			sequential_name = "%R%e Commandos psi" # VANILLE "%R%e Psi Commando"
+			sequential_name = "%R%e Commandos Psi" # VANILLE "%O% Psi Commando"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "%R%e Division de bioguerre" # VANILLE "%R%e Bio-Warfare Division"
+			sequential_name = "%R%e Division de Bioguerre" # VANILLE "%O% Bio-Warfare Division"
 		}
 		
 		gene_warrior_army = {
@@ -137,15 +157,15 @@ HUMAN1 = {
 				"RIMa-F 'Éventreurs'" "RIMa-G 'Engoulevents'" "RIMa-H 'Despérados'" "RIMa-I 'Chevaliers Gris'" "RIMa-J 'Têtes Dures'" 
 # VANILLE		"SARC-F 'Reapers'" "SARC-G 'Nighthawks'" "SARC-H 'Desperados'" "SARC-I 'Grey Knights'" "SARC-J 'Roughnecks'" 
 			}
-			sequential_name = "%R%e Escadre bioconçue" # VANILLE "%R%e Bio-Engineered Squadron"
+			sequential_name = "%R%e Escadre Bioconçue" # VANILLE "%O% Bio-Engineered Squadron"
 		}
 
 		occupation_army = {
-			sequential_name = "%R%e Force de garnison" # VANILLE "%R%e Garrison Force"
+			sequential_name = "%R%e Force de Garnison" # VANILLE "%O% Garrison Force"
 		}
 
 		robotic_occupation_army = {
-			sequential_name = "%R%e Garnison mécanisée" # VANILLE "%R%e Mechanized Garrison"
+			sequential_name = "%R%e Garnison Mécanisée" # VANILLE "%O% Mechanized Garrison"
 		}
 
 		primitive_army = {
@@ -164,10 +184,15 @@ HUMAN1 = {
 		generic = {
 			names = {
 				"Nouvelle-Jérusalem" Ancre Dis Avalon Bounty Espérance Olympe Sérendipité Printemps Thinis Salaam Xianyang Concorde
+# VANILLE		"New Jerusalem" Anchor Dis Avalon Bounty Hope Olympia Serendipity Spring Thinis Salaam Xianyang Concord
 				Théia Toscane "Nouvelle-Roanoke" Wenzhou "Nouvelle-Jamestown" "Nouvelle-Troie" Delgovicia "Wang Tong" al-Jissa al-Mada'in 
+# VANILLE		Theia Tuscany "New Roanoke" Wenzhou "New Jamestown" "New Troy" Delgovicia "Wang Tong" Al-Jissa Al-Mada'in 
 				al-Nuqayrah Kérak al-Matabbah "Las Veredas" "San Lucas" "San Fernando" "San Cristóbal" "Nueva Sonora" 
+# VANILLE		Al-Nuqayrah Al-Karak Al-Matabbah "Las Veredas" "San Lucas" "San Fernando" "San Cristóbal" "Nueva Sonora" 
 				"Puerto González" Nozomi Akatsuki "Nueva Cádiz" "La Isabela" "Nouvelle-Coventry" "Saint-Iégorov" "Saint-Pomeroy"
+# VANILLE		"Puerto González" Nozomi Akatsuki "Nueva Cádiz" "La Isabela" "New Coventry" "St. Yegorov" "St. Pomeroy"
 				"Port Karakosov"
+# VANILLE		"Port Karakosov"
 			}
 		}
 		
@@ -430,23 +455,23 @@ HUMAN1 = {
 			first_names_male = {
 				Philippe Pierre Jean-Marie Marcel François Hubert Paul Antoine Michel Henri Marc Jean Maurice René Claude Yves Jacques
 				Simon Olivier Joseph Robert Georges André Raymond Gaston Charles Thierry Guy Patrice Mathieu Jean-François Lucien Jean-Paul
-				Daniel Thibault Luc Dominique Sébastien Hugo Jamie Nathan Jonas
+				Daniel Thibault Luc Dominique Sébastien Hugo
 			}
 			first_names_female = {
-				Chloé Inés Manon Camille Clara Juliette Clémence Jeanne Charlotte Marie Nina Julie Élise Justine Yasmine Élina Andrée
-				Éléonore Clarisse Fanny Selma Leïla Véronique Sophie Hélène Daphné Suzanne Mélanie Bernadette Maud Angeline Céline Jessica
-				Pauline Viviane Jeanette Léa Stéphanie Delphine Rose
+				Chloé Inès Manon Camille Claire Juliette Clémence Jeanne Charlotte Marie Ninon Julie Élise Justine Yasmine Élina Andrée
+				Éléonore Clarisse Fanny Selma Leïla Véronique Sophie Hélène Daphné Suzanne Mélanie Bernadette Maud Angeline Céline Guenièvre
+				Pauline Viviane Jeanette
 			}
 			second_names = {
 				Martin Bernard Dubois Durand Leroy Moreau Lambert Dupont Leclerc Laurent Renard Tremblay Gagnon Roy Bouchard Gauthier
-				Morin Lavoie Fortin Gagne Duval Hébert "Le Gall" "Le Roux" Deville Gérard Duchaine Jauvin Gilbert Bergeron Paquette
-				Pelletier Rémy Giroud Bille Bosquet "de Castelnau" "de Montaignac" Leboeuf Meyer Péllissier Deveraux Leval
+				Morin Lavoie Fortin Gagne Duval Hébert "Le Gall" "Le Roux" Deville Gérard Duchaîne Jauvin Gilbert Bergeron Paquette
+				Pelletier Rémy Giroud Bosquet "de Castelnau" "de Montaignac" Leboeuf Pellissier Deveraux
 			}
 			regnal_first_names_male = {
 				Alexandre Vladimir Boris Tibère Théobald Valérian Maxime Lucius
 			}
 			regnal_first_names_female = {
-				Théodora Fatima Miranda Cordélia Svetlana Anastasie Valentine Henriette
+				Théodora Fatima Miranda Cordélie Solange Anastasie Valentine Henriette Marguerite
 			}
 			regnal_second_names = {
 				Habsbourg Romanov Windsor Mountbatten Salazar Nelson
