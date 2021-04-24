@@ -4856,7 +4856,15 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 5
+			OR = {
 			has_government = "gov_megacorporation"
+			has_government = "gov_megacooperative" ########################megacorp_mod
+			has_government = "gov_optimized_venture"
+			has_government = "gov_industrial_consortium"
+			has_government = "gov_stellar_bancorp" 
+			has_government = "gov_optimized_monopoly"
+			has_government = "gov_industrial_monopoly" ########################megacorp_mod
+			}
 			is_pirate = no
 			is_primitive = no
 			NOT = { is_country_type = fallen_empire }
