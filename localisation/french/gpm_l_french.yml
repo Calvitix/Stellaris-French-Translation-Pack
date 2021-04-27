@@ -551,14 +551,23 @@
  #######################################
  #### Messages
  #######################################
- MESSAGE_GPM_VALUABLE_WORLD:0 "Un monde précieux a été découvert !\nCe monde peut être terraformé avec la bonne technologie."
- MESSAGE_TYPE_GPM_VALUABLE_WORLD_TITLE:0 "Un monde précieux découvert"
  gpm_relics.1001.name:0 "Ce qui était à vous est maintenant à nous"
  gpm_relics.1001.desc:0 "Nous avons réussi à nous emparer d'un empire et sa vaste collection de ressources, d'art culturel et de reliques est prête à être exploitée."
  gpm_relics.1101.name:0 "Le butin de l'asservissement"
  gpm_relics.1101.desc:0 "Grâce à notre influence et à notre puissance, nous avons réussi à soumettre l'Empire §Y[from.GetName]§!, et nous avons ainsi accès à son butin."
  gpm_relics.1201.name:0 "Toutes vos reliques sont à nous"
  gpm_relics.1201.desc:0 "Avec l'intégration de l'Empire '§Y[from.GetName]§!', nous avons maintenant le contrôle de leur vaste collection d'antiquités."
+ 
+ GPM_MESSAGE_NEIGHBOUR_RELIC_RUMOUR_TITLE:0 "Un Empire Alien a découvert une relique"
+ GPM_MESSAGE_NEIGHBOUR_RELIC_RUMOUR_DESC:0 "Nos renseignements indiquent que '$COUNTRY|H$' aurait découvert une §HRelique antique§!."
+
+ GPM_MESSAGE_VALUABLE_WORLD_DESC:0 "$PLANET|H$ se trouve être un §Hmonde précieux§!. Ce monde peut être §Hterraformé§! avec la bonne technologie."
+ GPM_MESSAGE_VALUABLE_WORLD_TITLE:0 "Un monde précieux découvert"
+ 
+ GPM_MESSAGE_WONDROUS_WORLD_TITLE:0 "Un monde merveilleux découvert"
+ GPM_MESSAGE_WONDROUS_WORLD_DESC:0 "$PLANET|H$ se trouve être une §HMonde merveilleux§!"
+
+ 
  #######################################
  #### Modifier localisations
  #######################################
@@ -630,7 +639,14 @@
  mod_country_base_consumer_goods_produces_add:0 "£consumer_goods£ Biens de consommation mensuels"
  mod_job_gpm_orbital_spicer_per_pop:0 "§G+1§! emploi de $job_gpm_orbital_spicer$ par $VALUE$ Pops"
  mod_job_gpm_orbital_spicer_drone_per_pop:0 "§G+1§! emploi de $job_gpm_orbital_spicer_drone$ par $VALUE$ Pops"
- 
+ mod_planet_bureaucrats_unity_produces_add:0 "£unity£ Unité des £job_bureaucrat£ Bureaucrates"
+ mod_planet_necro_apprentices_produces_mult:0 "Production des £job_necro_apprentice£ $job_necro_apprentice_plural$"
+ mod_planet_merchants_produces_mult:0 "Production des £job_merchant£ $job_merchant_plural$"
+ mod_planet_entertainers_produces_mult:0 "Production des £job_entertainer£ $job_entertainer_plural$"
+ mod_planet_necromancers_produces_mult:0 "Production des £job_necromancer£ $job_necromancer_plural$"
+ mod_planet_telepaths_produces_mult:0 "Production des £job_telepath£ $job_telepath_plural$"
+ mod_planet_metallurgists_minerals_upkeep_add:0 "Entretien en minéraux des £job_foundry£ Métallurgistes"
+ mod_planet_artisans_minerals_upkeep_add:0 "Entretien en minéraux des £job_artisan£ Artisans"
  
  #######################################
  #### Opinions
@@ -716,7 +732,7 @@
  #### Start Menu
  #######################################
  gpm_start_menu.1.name:0 "Guilli's modificateurs de planètes"
- gpm_start_menu.1.desc:0 "Choisissez le nombre de modificateurs qui apparaîtront sur les planètes. Cette option affectera également la génération des modificateurs pour les anneaux-mondes, les habitats et lors de la terraformation, sauf en cas de désactivation.\n\n§HAstuces:§!\n  §Y- Soyez sûrs de définir les options désirées en premier!§!\n  §Y- Les Modificateurs vont apparaître une fois la pause retirée, au bout de 2 à 5 jours de jeu.§!\n  §Y- Attendez avant de commander à votre vaisseau scientifique de reconnaître un système, tant que ces quelques jours de jeu ne sont pas passés.\n\n"
+ gpm_start_menu.1.desc:0 "§YNEW - Option d'échelle§!\nLes modificateurs de planète peuvent s'adapter à la taille de celle-ci !§!\n§GPar Défault = échelle ON§!§!\n\nChoisissez le nombre de modificateurs qui apparaîtront sur les planètes. Cette option affectera également la génération des modificateurs pour les anneaux-mondes, les habitats et lors de la terraformation, sauf en cas de désactivation.\n\n§HAstuces:§!\n  §Y- Soyez sûrs de définir les options désirées en premier!§!\n  §Y- Les Modificateurs vont apparaître une fois la pause retirée, au bout de 2 à 5 jours de jeu.§!\n  §Y- Attendez avant de commander à votre vaisseau scientifique de reconnaître un système, tant que ces quelques jours de jeu ne sont pas passés.\n\n"
 
  # §HThe mod might takes a few moments after unpausing to spawn everything during which the game may act slow or freeze for a second.§!
 
@@ -746,6 +762,12 @@
  
  gpm_start_menu.1.old_galaxy_age:0 "§YAge de la Galaxie : §! Vieux"
  gpm_start_menu.1.old_galaxy_ageTT:0 "§HCliquer pour modif.§! à travers les paramètres qui déterminent l'âge de la galaxie. Cela détermine les chances d'apparition des modificateurs de planète. Une vieille galaxie aura plus de ruines et de signes de civilisations précédentes.\n----- §HGalaxy Age : §! : -----\n§L Jeune§!\n§L Normal (par défaut) §!\n§W Ancien§G (actuellement sélectionné) §!"
+ 
+ gpm_start_menu.1.default_scaling:0 "§YEchelle :§! On"
+ gpm_start_menu.1.default_scalingTT:0 "§HCliquer pour modif.§! à travers les paramètres qui déterminent si la mise à l'échelle est active. §HMise à l'échelle§! §GON§!"
+
+ gpm_start_menu.1.scaling_off:0 "§YEchelle :§! Off"
+ gpm_start_menu.1.scaling_offTT:0 "§HCliquer pour modif.§! à travers les paramètres qui déterminent si la mise à l'échelle est active. §HMise à l'échelle§! §ROFF§!"
  
  # various options
  gpm_start_menu.1.options:0 "£options_icon  §YOptions§! £options_icon"
@@ -791,6 +813,12 @@
 
  gpm_start_menu.2.back:0 "§YRetour au menu§!"
  gpm_start_menu.2.backTT:0 "Retour au menu principal pour commencer."
+
+ gpm_start_menu.2.disable_relic_drops:0 "£options_icon  §RDésactive la récup. de Reliques§!"
+ gpm_start_menu.2.enable_relic_drops:0 "£options_icon  §GActive la récup. de Reliques§!"
+ gpm_start_menu.2.disable_relic_dropsTT:0 "§HCliquez sur ce bouton pour désactiver l'apparition de reliques du mod.§!\nCela empêchera toute relique de ce mod d'apparaître dans la galaxie."
+ gpm_start_menu.2.enable_relic_dropsTT:0 "§HCliquez sur ce bouton pour activer l'apparition de reliques du mod§!"
+ 
  
  #######################################
  #### Techologies
