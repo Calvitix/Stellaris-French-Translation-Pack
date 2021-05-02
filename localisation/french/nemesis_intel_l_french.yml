@@ -70,7 +70,7 @@
  INTEL_INFO_relative_fleet:0 "Puissance relative des flottes"
  INTEL_INFO_relative_power:0 "Puissance relative"
  INTEL_INFO_intel_tech_relative_power:0 "Puissance technologique relative"
- INTEL_INFO_relics:0 "Reliques possédées"
+ INTEL_INFO_relics:1 "Nombre de reliques possédées"
  INTEL_INFO_rivalries:0 "Rivalités"
  INTEL_INFO_ruler:0 "Dirigeant"
  INTEL_INFO_system_full_intel:0 "Renseignements complets sur les systèmes"
@@ -983,7 +983,7 @@
  first_contact_critters.70.D:0 "Ces organiques sont vraiment incompréhensibles..."
  first_contact_critters.75.name:0 "Les Caravaniers"
  first_contact_critters.75.desc:0 "Nous sommes parvenus à déchiffrer ces messages répétitifs et déroutants que les §H[This.ContactCountry.GetName]§! nous envoyaient. Il s'avère qu'il s'agit de... publicités. Apparemment, ils se donnent le nom de §H[This.ContactCountry.GetRealName]§!. Ce sont des commerçants spatiaux qui vivent d'échanges commerciaux, et ils prétendent pouvoir nous faire « les meilleures offres possibles et imaginables ». Ils commercent ainsi avec toute civilisation qu'ils se trouvent rencontrer lors de leurs expéditions commerciales. Et, de fait, ils semblent vouloir discuter avec nous en ce moment même."
- first_contact_critters.75.desc.home:0 "Nous sommes parvenus à déchiffrer ces messages répétitifs et déroutants que les §H[This.ContactCountry.GetName]§! nous envoyaient. Il s'avère qu'il s'agit de... publicités. Il se trouve que le système de [This.System.GetName] abrite un groupe de commerçants spatiaux se donnant le nom de §H[This.ContactCountry.GetName]§!, qui vit d'échanges commerciaux. Ils prétendent pouvoir nous faire « les meilleures offres possibles et imaginables ». Ils commercent ainsi avec toute civilisation qu'ils se trouvent rencontrer lors de leurs expéditions commerciales."
+ first_contact_critters.75.desc.home:1 "Nous sommes parvenus à déchiffrer ces messages répétitifs et déroutants que les §H[This.ContactCountry.GetName]§! nous envoyaient. Il s'avère qu'il s'agit de... publicités. Il se trouve que le système de [This.System.GetName] abrite un groupe de commerçants spatiaux se donnant le nom de §H[This.ContactCountry.GetRealName]§!, qui vit d'échanges commerciaux. Ils prétendent pouvoir nous faire « les meilleures offres possibles et imaginables ». Ils commercent ainsi avec toute civilisation qu'ils se trouvent rencontrer lors de leurs expéditions commerciales."
  first_contact_critters.75.B:0 "$first_contact_critters.25.A$"
  first_contact_critters.75.B.tooltip:0 "Nous pourrons désormais faire des échanges avec les flottes caravanières qui entreront dans notre espace."
  first_contact_critters.80.name:0 "Des débris spatiaux vivants ?"
@@ -1052,3 +1052,9 @@
  SET_STAR_CLASS_EFFECT:0 "La classe stellaire passe à $STAR_CLASS$."
  DESTROY_AND_SPAWN_DEBRIS_EFFECT:0 "La $DESTROYED|Y$ est détruite, faisant apparaître pour la $COUNTRY|Y$ un projet spécial pour étudier ses débris."
  SET_HOSTILE_EFFECT:0 "La $TARGET|Y$ devient §Rhostile§!."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ DIPLO_PACTS_NOT_ENOUGH_INTEL:1 "Renseignements insuffisants pour connaître ses pactes diplomatiques."
+ first_contact.295.desc.base:0 "Sans équipage à interroger, cela s'est avéré être un véritable défi, mais nous disposions de suffisamment de matériaux pour que les [This.Owner.GetLinguists] puissent petit à petit déchiffrer leur langue et les identifier comme la §H[This.ContactCountry.GetRealName]§!. Si nous en éprouvons le besoin, nous pourrons donc communiquer avec celle-ci. Par ailleurs, nous avons pu étudier la §Htechnologie§! utilisée à bord du vaisseau, ce qui a grandement aidé les [This.Owner.GetResearchers] à utiliser des approches nouvelles face à nos propres problématiques."
+ FC_RELATION_LABEL:0 "Inconnue"
+ Military_NAME:0 "Militaire"

@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.0.1 : 16.04.2021
- # Translation check : 16.04.2021
+ # Update check for 3.0.3b : 30.04.2021
+ # Translation check : 30.04.2021
  ####################################
 
  ####################################
@@ -39,19 +39,19 @@
  TRIGGER_ROOT:0 "Racine"
  TRIGGER_PREV:0 "Précéd."
  SOLAR_SYSTEM_STAR:0 "Étoile du système"
- ANY_OWNED_PLANET:0 "N'importe quelle planète possédée"
- ANY_CONTROLLED_PLANET:0 "N'importe quelle planète possédée"
+ ANY_OWNED_PLANET:0 "N'importe quel monde possédé"
+ ANY_CONTROLLED_PLANET:0 "N'importe quel monde possédé"
  ANY_NEIGHBOR_SYSTEM:0 "N'importe quel système voisin"
  any_neighbor_system_trigger:0 "N'importe quel système voisin (par hyperligne)"
  effect_random_neighbor_system:0 "Un système voisin aléatoire (par hyperligne)"
  effect_every_neighbor_system:0 "Tous les systèmes voisins (par hyperligne)"
  count_neighbor_system_trigger:0 "Nombre de systèmes voisins (par hyperligne)$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
  count_neighbor_system_all_trigger:0 "$IS_ALL_NOT$ systèmes voisins (par hyperligne) remplissent ces conditions"
- any_neighbor_system_euclidean_trigger:0 "N'importe quel système voisin (euclidien)" # [LocEditor:AwaitingBatchUpdate]
- effect_random_neighbor_system_euclidean:0 "Un système voisin (euclidien) aléatoire" # [LocEditor:AwaitingBatchUpdate]
- effect_every_neighbor_system_euclidean:0 "Tous les systèmes voisins (euclidiens)" # [LocEditor:AwaitingBatchUpdate]
- count_neighbor_system_euclidean_trigger:0 "Nombre de systèmes voisins (euclidiens)$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$" # [LocEditor:AwaitingBatchUpdate]
- count_neighbor_system_euclidean_all_trigger:0 "$IS_ALL_NOT$ systèmes voisins (euclidiens) remplissent ces conditions" # [LocEditor:AwaitingBatchUpdate]
+ any_neighbor_system_euclidean_trigger:1 "N'importe quel système voisin (euclidien)"
+ effect_random_neighbor_system_euclidean:1 "Un système voisin (euclidien) aléatoire"
+ effect_every_neighbor_system_euclidean:1 "Tous les systèmes voisins (euclidiens)"
+ count_neighbor_system_euclidean_trigger:1 "Nombre de systèmes voisins (euclidiens)$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
+ count_neighbor_system_euclidean_all_trigger:1 "$IS_ALL_NOT$ systèmes voisins (euclidiens) remplissent ces conditions"
  ANY_RELATION:0 "N'importe quel type de relation"
  EVERY_NEIGHBORING_SYSTEM_EFFECT:0 "Tous les systèmes voisins"
  ANY_POP:0 "N'importe quelle pop"
@@ -444,8 +444,8 @@
  HAS_NOT_EVENT_CHAIN_TRIGGER:0 "N'a PAS la chaîne d'événements $NAME|Y$"
  IS_NOT_POP_CATEGORY:0 "N'est PAS $CATEGORY$"
  IS_POP_CATEGORY:0 "Est $CATEGORY$"
- NOT_HAS_JOB_CATEGORY:0 "$IS_NOT_POP_CATEGORY$" # [LocEditor:ForFutureBatchExport]
- HAS_JOB_CATEGORY:0 "$IS_POP_CATEGORY$" # [LocEditor:ForFutureBatchExport]
+ NOT_HAS_JOB_CATEGORY:0 "L'emploi n'appartient PAS à la catégorie $CATEGORY$"
+ HAS_JOB_CATEGORY:0 "L'emploi appartient à la catégorie $CATEGORY$"
  IS_HALF_SPECIES_NOT_TRIGGER:0 "N'est PAS une espèce hybride"
  IS_HALF_SPECIES_TRIGGER:0 "Est une espèce hybride"
  IS_SPECIFIC_HALF_SPECIES_NOT_TRIGGER:0 "N'est PAS issue de l'hybridation de l'espèce $SPECIES|Y$"
@@ -1080,6 +1080,8 @@
  ADD_CLAIMS_EFFECT:0 "'$COUNTRY|Y$' revendique le système de $SYSTEM|Y$."
  REMOVE_CLAIMS_EFFECT:0 "'$COUNTRY|Y$' perd toute revendication sur le système de $SYSTEM|Y$."
  JOIN_WAR_EFFECT:0 "'$FIRST|Y$' rejoint '$SECOND|Y$' dans le conflit en tant qu'allié."
+ AN_ATTACKER:0 "qu'attaquante"
+ A_DEFENDER:0 "que défenseuse"
  JOIN_WAR_ON_SIDE_EFFECT:0 "La $FIRST|Y$ participe en tant que $SIDE$ au conflit contre la $ENEMY|Y$."
  JOIN_WAR_ON_SIDE_COUNTRY_EFFECT:0 "La $FIRST|Y$ participe en tant qu'alliée de la $SECOND|Y$ au conflit contre la $ENEMY|Y$."
  JOIN_ALLIANCE_EFFECT:0 "'$SECOND|Y$' intègre '$ALLIANCE|Y$'."
@@ -1328,7 +1330,7 @@
  EMPIRE_SPRAWL_CAP_FRACTION_TRIGGER:0 "$EMPIRE_SIZE$ $COMPARE$e à $VAL|Y$ de la capacité administrative"
  FOOD_TRIGGER:0 "La quantité de nourriture est $COMPARE$e à $VAL|Y$"
  FOOD_TRIGGER_NOT:0 "La quantité de nourriture n'est PAS $COMPARE$e à $VAL|Y$"
- CLOSE_BRANCH_OFFICE_EFFECT:0 "Ferme la succursale $ADJ|Y$."
+ CLOSE_BRANCH_OFFICE_EFFECT:0 "Ferme la succursale $ADJ|Y$.\n"
  ESTABLISH_BRANCH_OFFICE_EFFECT:0 "'$COUNTRY|Y$' établit une nouvelle succursale."
  SET_PLAYER_EFFECT:0 "'$OLD|Y$' va maintenant jouer '$NEW|Y$'"
  TRIGGER_POP_CAN_REPRODUCE:0 "La pop peut se reproduire"
@@ -1732,6 +1734,8 @@
  HAS_NOT_CRISIS_LEVEL_TRIGGER:0 "N'a pas le niveau de crise $LEVEL|Y$"
 
  SET_AI_PERSONALITY:0 "La $COUNTRY|Y$ reçoit la personnalité I.A. $PERS|Y$"
+
+ DISSOLVE_FEDERATION_EFFECT:0 "La $FEDERATION|Y$ est dissoute"
 
  ID_NOT_IDLE:0 "N'est PAS inoccupée"
  ID_IDLE:0 "Est inoccupée"

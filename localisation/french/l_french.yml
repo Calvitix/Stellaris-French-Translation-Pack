@@ -5,7 +5,7 @@
  # It has been reordered alphabetically
  # (to improve diff. check) 
  #
- # Update check for 3.0.1 : 16.04.2021
+ # Update check for 3.0.3b : 02.05.2021
  # Translation check : 16.04.2021
  ####################################
 
@@ -15,7 +15,7 @@ l_french:
  # Misc
  ####################################
  SEPARATOR:0 "---"
- # [LocEditor:UntranslatedKey] `PLUS`
+ PLUS:0 "+"
 
  ADJ_WITH_THE:0 "$ADJ|Y$"
  OUR:0 "$ADJ|Y$"
@@ -2327,6 +2327,7 @@ l_french:
  TIME_RESOURCE:0 "$DAYS|Y$£time£"
  RESOURCES_STORED_MAX:0 "En réserve : $VALUE|Y0$ sur $MAX|Y0$"
  GALACTIC_OBJECT_HABITABILITY:1 "$CLASS$, $SIZE|Y$£planetsize£, $VALUE$"
+ GALACTIC_OBJECT_HABITABILITY_BEST_SPECIES:0 " ($SPECIES|H$)"
  PLANET_MAP_ICON_TERRAFORMING:1 "Terraformation en $CLASS$, $VALUE$\n($TIME|Y$£time£)"
  TERRAFORMING_TO:0 "Terraformation en $CLASS|Y$"
  CLOSE_SECTOR_MANAGEMENT:0 "Fermer la gestion du secteur"
@@ -6224,7 +6225,7 @@ l_french:
  slavery_livestock_tooltip:0 "Les pops considérées comme un §Hcheptel§! ne peuvent pas être employées pour produire des ressources, mais subissent régulièrement des abattages pour fournir un supplément de £food §Hnourriture§!."
  slavery_livestock_tooltip_delayed:0 "§LNotre cheptel, ce sont les pops elles-mêmes !§!"
  slavery_indentured:0 "Péons"
- slavery_indentured_tooltip:0 "Les §Hpéons§! peuvent occuper des emplois d'£pop_cat_worker£§Youvriers§! ou de £pop_cat_specialist£§Yspécialistes§!, et disposent d'un £political_power£poids politique plus important que celui des autres types d'esclaves."
+ slavery_indentured_tooltip:1 "Les §Hpéons§! peuvent occuper des emplois d'£pop_cat_worker£§Youvriers§! ou de £pop_cat_specialist£§Yspécialistes§!, et disposent d'un £political_power£poids politique plus important que celui des autres types d'esclaves. Les avantages sur la production ne s'appliquent toutefois qu'aux emplois d'£pop_cat_worker£§Youvriers§!."
  slavery_indentured_tooltip_delayed:0 "§LCes esclaves peuvent en théorie rembourser leur dette et recouvrer ainsi la liberté, mais les contrats qui les lient à leurs maîtres sont conçus de telle manière que c'est dans les faits impossible.§!"
  living_standard_utopian:1 "Abondance utopique"
  living_standard_utopian_tooltip:1 "L'abondance utopique permet à chaque membre de cette espèce d'avoir accès à presque tous les produits de luxe possibles.\n\n$UTOPIAN_ABUNDANCE_POP_EFFECTS$\n\n$UNEMPLOYED_PRODUCE_UNITY_RESEARCH$"
@@ -6298,7 +6299,7 @@ l_french:
  purge_neutering_tooltip_delayed:0 "§LRien d'autre que l'élimination progressive d'une population. Notre civilisation travaille pour conntaître un avenir radieux, mais certains ne seront plus là pour le voir.§!"
  purge_labor_camps:0 "Travail forcé"
  purge_labor_camps_tooltip:0 "Les pops de cette espèce travaillent jusqu'à en mourir et peuvent être utilisées pour produire £food£§Hnourriture§! et £minerals£§Hminéraux§! jusqu'à leur trépas."
- purge_labor_camps_tooltip_delayed:0 "§LAu moins, par leur sacrifice ultime, ces pops se seront avérées un minimum utiles.§!"
+ purge_labor_camps_tooltip_delayed:1 "§LAu moins, par leur sacrifice, ces pops se seront avérées un minimum utiles.§!"
  purge_processing:0 "Traitement"
  purge_processing_tooltip:1 "Les pops de cette espèce sont transformées en [This.GetPurgeProcessingResource] jusqu'à leur trépas."
  purge_processing_tooltip_delayed:0 "§LC'est triste, certes. Mais c'est indéniable. Certains ne sont destinés qu'à permettre à de meilleurs qu'eux d'atteindre leurs ambitions.§!"
@@ -6603,6 +6604,7 @@ l_french:
  GOAL:0 "Objectif"
  INTEL:0 "Rens."
  DIPLOMACY_VIEW_ORIGIN_UNKNOWN:0 "Nous ne savons pas quelle est l'origine de cet empire."
+ DIPLOMACY_VIEW_CIVICS_UNKNOWN:0 "Nous ne savons pas quels sont les doctrines de cet empire."
 
  ####################################
  # Diplomacy Icons Tooltips
@@ -7516,6 +7518,7 @@ l_french:
  requires_actor_not_criminal_heritage:0 "$TRIGGER_FAIL$ §RNous avons un §Ypassé criminel§!. Nous ne conduisons pas nos affaires en toute transparence.§!"
  requires_recipient_not_criminal_heritage:0 "$TRIGGER_FAIL$ §RCet empire a un §Ypassé criminel§!. Il ne conduit pas ses affaires en toute transparence.§!"
  requires_actor_to_be_federation_leader:0 "$TRIGGER_FAIL$ §RDans une fédération de type §Y$hegemony_federation$§!, seul l'empire la dirigeant peut approuver l'entrée de nouveaux membres.§!"
+ diplo_action_no_low_intel:0 "$TRIGGER_FAIL$ §RCet empire semble réticent à discuter de cette proposition, et nous n'en savons pas suffisamment sur lui pour connaître ses raisons.§!"
 
  ####################################
  # Basic Resources
@@ -7540,7 +7543,7 @@ l_french:
  unity:0 "Unité"
  unity_desc:3 "§EL'£unity£§Hunité§! est utilisée pour adopter de nouvelles §Htraditions§!. Elle peut être suscitée plus rapidement :\n§Y1.§! en construisant des £building£§Hmonuments autochtones§! ;\n§Y2.§! en construisant des £building£bâtiments créant des £job£§Hemplois§! favorisant l'unité.§!"
  consumer_goods:0 "Biens de consommation"
- consumer_goods_desc:1 "§ELes £consumer_goods£§Hbiens de consommation§! sont une ressource avancée représentant les divers appareils, produits de luxe et biens nécessaires pour permettre une vie agréable aux £pop£§Hpops§! et occuper des £job£§Hemplois intellectuels§! (tels que la £job_researcher£§Hrecherche§!). Il est possible d'en acquérir :\n§Y1.§! en construisant des £building£§Hindustries civiles§! à la surface des £planet£mondes colonisés ;\n§Y2.§! en en achetant sur le §Hmarché§!.§!"
+ consumer_goods_desc:2 "§ELes £consumer_goods£§Hbiens de consommation§! sont une ressource avancée représentant les divers appareils, produits de luxe et biens nécessaires pour permettre une vie agréable aux £pop£§Hpops§! et occuper des £job£§Hemplois intellectuels§! (tels que la £job_researcher£§Hrecherche§!). Il est possible d'en acquérir :\n§Y1.§! en construisant des £district£§Hdistricts industriels§! et des £building£§Hindustries civiles§! à la surface des £planet£mondes colonisés ;\n§Y2.§! en en achetant sur le §Hmarché§!.§!"
 
  ENERGY_DEFICIT_DESC:1 "§RNotre empire est en $DEFICIT|E$ : nous dépensons plus de §Hcrédits énergétiques§! que nous en produisons, et nos réserves se sont épuisées.§!"
 
@@ -7606,7 +7609,7 @@ l_french:
  rare_crystals:0 "Cristaux rares"
  rare_crystals_desc:0 "§ECes cristaux possèdent des propriétés qui les rendent particulièrement efficaces pour la concentration des rayons lasers, et ils sont aussi un élément crucial pour toute l'électronique avancée. Par ailleurs, de nombreuses cultures les considèrent comme des décorations et ornementations de grande valeur.§!"
  alloys:0 "Alliages"
- alloys_desc:1 "§ELes £alloys£§Halliages§! sont des ressources avancées pouvant être utilisées dans le domaine militaire, et sont nécessaires pour la construction de §Hvaisseaux§! et de §Hbases stellaires§!. Il est possible d'en acquérir :\n§Y1.§! en construisant des £building£§Hfonderies d'alliages§! à la surface des £planet£mondes colonisés ;\n§Y2.§! en en achetant sur le §Hmarché§!.§!"
+ alloys_desc:2 "§ELes £alloys£§Halliages§! sont des ressources avancées pouvant être utilisées dans le domaine militaire, et sont nécessaires pour la construction de §Hvaisseaux§! et de §Hbases stellaires§!. Il est possible d'en acquérir :\n§Y1.§! en construisant des £district£§Hdistricts industriels§! et des £building£§Hfonderies d'alliages§! à la surface des £planet£mondes colonisés ;\n§Y2.§! en en achetant sur le §Hmarché§!.§!"
 
  sr_zro:0 "Zro"
  sr_zro_desc:0 "§EUn aérosol extrêmement rare, constitué de particules exotiques. Il a été déposé sur un certain nombre de mondes par les météorites qui s'y sont écrasées, mais sa véritable origine demeure un mystère. S'il est ingéré par des individus aux pouvoirs psioniques, le zro agit comme une drogue très puissante (et addictive) qui améliore les capacités psi.§!"
@@ -7762,7 +7765,9 @@ l_french:
  building_clone_vats_desc:3 "Les cuves à clones permettent une augmentation tout à fait remarquable de la vitesse de développement de la population."
  tooltip_organic_and_artificial_assembly_warning:0 "§RNota : l'assemblage des £pops£pops organiques et mécaniques est mutuellement exclusif et ne peut être cumulé.§!"
  building_slave_processing:0 "Complexe de formation d'esclaves"
- building_slave_processing_desc:0 "Cet immense et imposant complexe est utilisé pour former au travail forcé et anéantir toute trace de libre arbitre. Il est nécessaire pour la création d'armées serviles."
+ building_slave_processing_desc:1 "Cet immense et imposant complexe est utilisé pour former au travail forcé et anéantir toute trace de libre arbitre."
+ building_slave_processing_migrate_effect_desc:0 "Les £pop_cat_slave£§Yesclaves§! inemployés sur ce monde sont soumis à une §Yréimplantation automatisée§! vers d'autres colonies."
+ building_slave_processing_slave_army_effect_desc:0 "Permet le recrutement d'§Yarmées d'esclaves§!.\n\n"
  building_robotics_assembly_plant:0 "Usine d'assemblage de robots"
  building_robotics_assembly_plant_desc:0 "La création d'armées robotiques nécessite une usine d'assemblage robotique.\nAjoute §Y1§! pop de §H$ROBOT_POP_SPECIES_1$§! par an\nEntretien de la pop : §Y1§!£energy£"
  building_robotics_assembly_plant_2:1 "Usine d'assemblage de droïdes"
@@ -10300,7 +10305,7 @@ l_french:
  drone_policy_thinker_desc:0 "Les drones complexes qui fabriquent les objets finis doivent être prioritaires pour la conscience, qui leur permettra d'être plus productifs aux dépens des drones subalternes.\n\n"
 
  policy_robot_pop_policy:0 "Travailleurs robotiques"
- policy_robot_pop_policy_desc:0 "L'invention des robots autonomes laisse à penser que les travailleurs de notre espèce pourront être remplacés, et peut-être même dépassés par des robots. Nous devons donc décider d'une posture claire sur l'automatisation à grande échelle.\n"
+ policy_robot_pop_policy_desc:0 "L'invention des robots autonomes amène progressivement à penser que les travailleurs de notre espèce pourront être remplacés, et peut-être même surpassés par des robots. Nous devons donc décider d'une posture claire sur l'automatisation à grande échelle.\n"
 
  robot_pops_outlawed:0 "Proscrits"
  robots_outlawed_name:0 "Travailleurs robotiques proscrits"
@@ -11870,7 +11875,7 @@ l_french:
  SCORE_FROM_MEGASTRUCTURES:0 "Mégastructures : $VALUE$"
  FLEET_REINFORCE_NO_SHIPYARD:0 "Aucun chantier naval disponible pour construire la flotte"
 
- SPYNET_THERE_ARE_AVAILABLE_ASSETS:0 "§GDes sources sont disponibles.§!"
+ SPYNET_THERE_ARE_AVAILABLE_ASSETS:1 "§GDes sources sont disponibles.§!\nCliquer pour en affecter une."
  SPYNET_THERE_ARE_NO_AVAILABLE_ASSETS:0 "§RAucune source n'est disponible.§!"
 
  crisis_empire_base:0 "Crise"

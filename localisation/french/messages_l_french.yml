@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.0.1 : 16.04.2021
- # Translation check : 16.04.2021
+ # Update check for 3.0.3b : 02.05.2021
+ # Translation check : 02.05.2021
  ####################################
 
  ####################################
@@ -15,7 +15,7 @@
  MESSAGE_CONSTRUCTION_FINISH:0 "La file d'attente des constructions de $PLANET|Y$ est désormais vide."
  MESSAGE_CONSTRUCTION_FINISH_SPACEPORT:0 "La file d'attente des constructions spatioportuaires de $PLANET|Y$ est désormais vide."
  MESSAGE_CONSTRUCTION_FINISH_STARBASE:0 "La file d'attente des constructions de la base stellaire de $SYSTEM|Y$ est désormais vide."
- MESSAGE_ORDER_FINISH_COLONIZE_PLANET:0 "La colonie de $COLONY|Y$, dans le système de $SYSTEM|Y$, a été fondée."
+ MESSAGE_ORDER_FINISH_COLONIZE_PLANET:0 "La colonie de $COLONY|Y$ a été fondée dans le système de $SYSTEM|Y$."
  MESSAGE_SPACEPORT_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "Construction terminée"
  MESSAGE_STARBASE_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "Construction terminée"
  MESSAGE_ARMY_RECRUITMENT_TITLE:0 "Armées recrutées"
@@ -35,7 +35,7 @@
  MESSAGE_FLEET_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "Mission de la flotte achevée"
  MESSAGE_SYSTEM_SURVEYED_TITLE:0 "Système reconnu"
  AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE:0 "Ordre de la flotte annulé"
- MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED:0 "Notre §H$FLEET$§! a mis fin à sa mission de reconnaissance automatique, car soit elle ne peut atteindre, soit elle ne peut trouver aucun autre système n'ayant pas encore été reconnu."
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED:1 "Notre $FLEET|H$ a mis fin à sa mission de reconnaissance automatique car soit elle ne peut atteindre, soit elle ne peut trouver aucun autre système n'ayant pas encore été reconnu."
  FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE:0 "$AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE$"
  MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE:0 "Notre $FLEET|H$ n'a pas pu construire la $STATION|H$ du système de $SYSTEM|H$. Les ressources ont été remises en réserve."
  MESSAGE_BYPASS_EXPLORED:0 "Trou de ver exploré"
@@ -111,8 +111,8 @@
  ACTION_FORM_NON_AGGRESSION_PACT_PROPOSAL_FAILED_RECIPIENT:1 "L'offre faite par '§H[Actor.GetName]§!' de conclure un pacte de non-agression est arrivée à expiration et a été refusée automatiquement."
  ACTION_FORM_COMMERCIAL_PACT_PROPOSAL_FAILED_ACTOR:0 "L'offre faite à '§H[Recipient.GetName]§!' de conclure un pacte commercial est arrivée à expiration et a été refusée automatiquement."
  ACTION_FORM_COMMERCIAL_PACT_PROPOSAL_FAILED_RECIPIENT:0 "L'offre faite par '§H[Actor.GetName]§!' de conclure un pacte commercial est arrivée à expiration et a été refusée automatiquement."
- ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_ACTOR:0 "L'offre faite à '§H[Recipient.GetName]§!' de conclure un accord de recherche est arrivée à expiration et a été refusée automatiquement."
- ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_RECIPIENT:0 "L'offre faite par '§H[Actor.GetName]§!' de conclure un accord de recherche est arrivée à expiration et a été refusée automatiquement."
+ ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_ACTOR:0 "L'offre faite à '§H[Recipient.GetName]§!' de conclure une convention de recherche est arrivée à expiration et a été refusée automatiquement."
+ ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_RECIPIENT:0 "L'offre faite par '§H[Actor.GetName]§!' de conclure une convention de recherche est arrivée à expiration et a été refusée automatiquement."
  ACTION_GUARANTEE_INDEPENDENCE_PROPOSAL_FAILED_ACTOR:0 "L'offre faite à '§H[Recipient.GetName]§!' de garantir son indépendance a été refusée."
  ACTION_GUARANTEE_INDEPENDENCE_PROPOSAL_FAILED_RECIPIENT:0 "L'offre faite par '§H[Actor.GetName]§!' de garantir notre indépendance est arrivée à expiration et a été refusée automatiquement."
  ACTION_FORM_MIGRATION_PACT_PROPOSAL_FAILED_ACTOR:1 "L'offre faite à '§H[Recipient.GetName]§!' de conclure un traité migratoire est arrivée à expiration et a été refusée automatiquement."
@@ -182,8 +182,8 @@
  MESSAGE_KICK_FROM_FEDERATION_TITLE:0 "Membre de la fédération expulsé"
  MESSAGE_ASK_TO_JOIN_ALLIANCE_TITLE:0 "Demande pour intégrer l'alliance"
  MESSAGE_LEAVE_ALLIANCE_TITLE:0 "Départ d'un membre de l'alliance"
- DIPLO_ACTION_LEAVE_ALLIANCE_DESC:0 "La $COUNTRY|Y$ a quitté la $ALLIANCE|Y$."
- DIPLO_ACTION_LEAVE_FEDERATION_DESC:0 "La $COUNTRY|Y$ a quitté la $ALLIANCE|Y$"
+ DIPLO_ACTION_LEAVE_ALLIANCE_DESC:0 "'$COUNTRY|Y$' a quitté la $ALLIANCE|Y$."
+ DIPLO_ACTION_LEAVE_FEDERATION_DESC:0 "'$COUNTRY|Y$' a quitté la $ALLIANCE|Y$"
  MESSAGE_DEMAND_VASSALIZATION_TITLE:0 "Vassalisation exigée"
  MESSAGE_DEMAND_PROTECTORATE_TITLE:0 "Offre de protectorat"
  MESSAGE_DEMAND_SUBSIDIARY_TITLE:0 "Offre de filialisation"
@@ -221,8 +221,8 @@
  MESSAGE_BREAK_NON_AGGRESSION_PACT_TITLE:0 "Fin du pacte de non-agression"
  MESSAGE_FORM_COMMERCIAL_PACT_TITLE:0 "Proposition de pacte commercial"
  MESSAGE_BREAK_COMMERCIAL_PACT_TITLE:0 "Fin du pacte commercial"
- MESSAGE_FORM_RESEARCH_AGREEMENT_TITLE:0 "Proposition d'accord de recherche"
- MESSAGE_BREAK_RESEARCH_AGREEMENT_TITLE:0 "Accord de recherche rompu"
+ MESSAGE_FORM_RESEARCH_AGREEMENT_TITLE:0 "Proposition de convention de recherche"
+ MESSAGE_BREAK_RESEARCH_AGREEMENT_TITLE:0 "Convention de recherche rompue"
  MESSAGE_FORM_MIGRATION_PACT_TITLE:0 "Proposition de traité migratoire"
  MESSAGE_BREAK_MIGRATION_PACT_TITLE:0 "Traité migratoire rompu"
  MESSAGE_GUARANTEE_INDEPENDENCE_TITLE:0 "Indépendance garantie"
@@ -273,8 +273,8 @@
  ACTION_BREAK_NON_AGGRESSION_PACT_NOTIFICATION:1 "'§H[From.GetName]§!' a rompu le pacte de non-agression avec '§H[Root.GetName]§!'.\n\nElle a tout l'air de s'être lassée de la paix..."
  ACTION_FORM_COMMERCIAL_PACT_NOTIFICATION:0 "'§H[From.GetName]§!' a conclu un pacte commercial avec '§H[Root.GetName]§!'.\n\nElles visent désormais à une prospérité commune."
  ACTION_BREAK_COMMERCIAL_PACT_NOTIFICATION:0 "'§H[From.GetName]§!' a rompu le pacte commercial avec '§H[Root.GetName]§!'.\n\nCela laisse penser que leurs intérêts économiques ont fini par diverger…"
- ACTION_FORM_RESEARCH_AGREEMENT_NOTIFICATION:0 "'§H[From.GetName]§!' a conclu un accord de recherche avec '§H[Root.GetName]§!'.\n\nIls pourraient en apprendre beaucoup l'une de l'autre."
- ACTION_BREAK_RESEARCH_AGREEMENT_NOTIFICATION:0 "'§H[From.GetName]§!' a rompu son accord de recherche avec '§H[Root.GetName]§!'.\n\nIl semble qu'ils ne souhaitent plus partager leurs secrets..."
+ ACTION_FORM_RESEARCH_AGREEMENT_NOTIFICATION:0 "'§H[From.GetName]§!' a conclu une convention de recherche avec '§H[Root.GetName]§!'.\n\nIls pourraient en apprendre beaucoup l'une de l'autre."
+ ACTION_BREAK_RESEARCH_AGREEMENT_NOTIFICATION:0 "'§H[From.GetName]§!' a rompu sa convention de recherche avec '§H[Root.GetName]§!'.\n\nIl semble qu'ils ne souhaitent plus partager leurs secrets..."
  ACTION_FORM_MIGRATION_PACT_NOTIFICATION:1 "'§H[From.GetName]§!' a conclu un traité migratoire avec '§H[Root.GetName]§!'.\n\nLeurs populations peuvent désormais se déplacer librement à l'intérieur de leurs espaces."
  ACTION_BREAK_MIGRATION_PACT_NOTIFICATION:1 "'§H[From.GetName]§!' a rompu le traité migratoire avec '§H[Root.GetName]§!'.\n\nElle semble regretter d'avoir ouvert ses frontières."
  ACTION_GUARANTEE_INDEPENDENCE_NOTIFICATION:1 "'§H[From.GetName]§!' garantit désormais l'indépendance de '§H[Root.GetName]§!'.\n\nCelle-ci sera désormais défendue contre toute attaque."
@@ -539,6 +539,7 @@
 
  MESSAGE_NEW_CASUS_BELLI_TARGET_TITLE:1 "Casus belli à notre encontre"
  MESSAGE_NEW_CASUS_BELLI_TARGET:1 "'$COUNTRY|H$' pourrait user de son casus belli $CASUS_BELLI|H$ à notre encontre."
+ MESSAGE_NEW_CASUS_BELLI_TRIAL_OF_ADVANCEMENT_TARGET:0 "Tous les membres de l'§HEmpire§! n'ayant pas de siège au §HConseil impérial§! peuvent désormais user du casus belli $CASUS_BELLI|H$ contre nous."
 
  MESSAGE_LOST_CASUS_BELLI_TITLE:0 "Casus belli révolu"
  MESSAGE_LOST_CASUS_BELLI:1 "Nous ne pouvons plus faire usage du casus belli $CASUS_BELLI|H$ à l'encontre de '$COUNTRY|H$'."
@@ -553,7 +554,7 @@
 # Star Destroyed
 #####################################
  MESSAGE_STAR_DESTROYED:0 "Système détruit"
- MESSAGE_STAR_DESTROYED_DESC:0 "Une supernova massive déclenchée par un §Rmange-étoiles§! de conception $ADJ$ a détruit $PLANET|Y$."
+ MESSAGE_STAR_DESTROYED_DESC:1 "Une supernova massive déclenchée par un §Rmange-étoiles§! de conception $ADJ$ a détruit le système de $PLANET|Y$."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  AUTO_EXPLORE_CANCELLED_MESSAGE_TYPE_TITLE:0 "Ordre de la flotte annulé"
