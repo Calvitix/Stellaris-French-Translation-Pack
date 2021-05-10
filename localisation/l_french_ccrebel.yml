@@ -51,7 +51,7 @@ rebellionscript.25.desc.gestalt.ally:0 "Les dirigeants de '§Y[cc_strong_ally.Ge
 rebellionscript.25.option:0 "Fort bien."
 
 rebellionscript.14.name:0 "Vague de protestations"
-rebellionscript.14.desc:0 "L'agitation montante parmi les [rebellion2.GetSpeciesNamePlural] est devenu critique avec la révolte sur [rebellion2.Capital.GetName]. Les autorités locales ont perdu le contrôle de la planète qui a déclaré son indépendance. Inspirée par leur succès, une vague de sentiment nationaliste s'est répandu parmi les populations [rebellion2.GetSpeciesAdj] dans la [root.GetName]. D'inquiétants rapports nous indiquent que d'autres planètes vont essayer de se joindre à la révolte. De plus d'autres groupes mécontents se préparent à saisir leur chance et essayent de réaliser leurs propres sécession. Une sombre période de tumultes est prévue."
+rebellionscript.14.desc:0 "L'agitation montante parmi les [rebellion2.GetSpeciesNamePlural] est devenu critique avec la révolte sur [rebellion2.Capital.GetName]. Les autorités locales ont perdu le contrôle de la planète qui a déclaré son indépendance. Inspirée par leur succès, une vague de sentiment nationaliste s'est répandu parmi les populations [rebellion2.GetAdj] dans la [root.GetName]. D'inquiétants rapports nous indiquent que d'autres planètes vont essayer de se joindre à la révolte. De plus d'autres groupes mécontents se préparent à saisir leur chance et essayent de réaliser leurs propres sécession. Une sombre période de tumultes est prévue."
 rebellionscript.141.desc:0 "L'agitation montante est devenu critique avec la révolte sur [rebellion2.Capital.GetName], qui a déclaré son indépendance lorsque les autorités locales ont perdu le contrôle. Inspirée par leur succès, d'autres groupes de mécontents se préparent à saisir leur chance pour réaliser leurs propres révolutions. Une grave période de tumultes est à venir."
 
 rebellionscript.142.name:0 "Les troubles sont derrière nous."
@@ -91,11 +91,11 @@ cc_war_with_kin:0 "En guerre avec nos frères"
 
 civic_broken_shackles:0 "Briseurs de Chaînes"
 civic_broken_shackles_desc:0 "§LCes esclaves libérés sont comme une lueur d'espoir pour d'autres esclaves et travaillent de toutes leurs forces pour exporter la Liberté. Pour que leurs frères et soeurs dans la galaxie soit débarrasés des oppresseurs.§!"
-civic_tooltip_broken_shackles_effects:2 "§YAppel de la liberté :§! §R-15%§! de bonheur parmi les populations asservies dans les pays avoisinants.\n§YDiplomatie§! Amicale impossible avec des empires esclavagistes.\nNe peut pas changer d'§Yéthique§!.\nDoit également avoir le civisme §Y$civic_free_republic$§!."
+civic_tooltip_broken_shackles_effects:2 "§YAppel de la liberté :§! §R-15%§! de bonheur parmi les populations asservies dans les pays avoisinants.\n§YDiplomatie§! Amicale impossible avec des empires esclavagistes.\nNe peut pas changer d'§Yéthique§!.\nDoit également avoir la doctrine §Y$civic_free_republic$§!."
 
 civic_free_republic:0 "République libre"
 civic_free_republic_desc:0 "§LCette société s'est affranchie de l'esclavage suite à une violente révolution contre ses anciens maîtres. Après s'être battu et souffert pour leur liberté, les citoyens ne vont pas la céder facilement !§!"
-civic_tooltip_free_republic_effects:2 "§Y$mod_pop_ethic_egalitarian_attraction_mult$§! : §G+25%§!.\n§Y$MOD_SHIP_FIRE_RATE_MULT$§! : §G+15%§! lorqu'en guerre avec des empires esclavagistes.\nNe peut pas changer d'§Yéthique§!.\nDoit également avoir le civisme §Y$civic_broken_shackles$§!."
+civic_tooltip_free_republic_effects:2 "§Y$mod_pop_ethic_egalitarian_attraction_mult$§! : §G+25%§!.\n§Y$MOD_SHIP_FIRE_RATE_MULT$§! : §G+15%§! lorqu'en guerre avec des empires esclavagistes.\nNe peut pas changer d'§Yéthique§!.\nDoit également avoir la doctrine §Y$civic_broken_shackles$§!."
 
 opinion_slaveholder_oppressors:0 "Oppresseur esclavagiste"
 opinion_upstart_slaves:0 "Esclaves parvenus"
@@ -110,11 +110,11 @@ betrayed_the_revolution:0 "Révolution trahie"
 betrayed_the_revolution_desc:0 "Le gouvernement a trahi les valeurs de la révolution.\n\n"
 
 
-rebellionscript.41.name:0 "[cc_war_opponent1.GetSpeciesAdj] patriotisme"
-rebellionscript.41.desc:0 "La population [cc_war_opponent1.GetSpeciesAdj] dans notre '§Y[Root.GetName]§!' est enragée par la perspective de guerre contre notre adversaire '§Y[cc_war_opponent1.GetName]§!'. Plusieurs voient '§Y[cc_war_opponent1.GetName]§!' comme leur véritable patrie et ils refusent à se battre contre eux. Des éléments extrémistes disent même vouloir faire leur "devoir patriotique" pour la cause de l'Empire [cc_war_opponent1.GetSpeciesAdj] et nous pensons qu'ils se préparent à faire sécession."
+rebellionscript.41.name:0 "[cc_war_opponent1.GetAdj] patriotisme"
+rebellionscript.41.desc:0 "La population [cc_war_opponent1.GetAdj] dans notre '§Y[Root.GetName]§!' est enragée par la perspective de guerre contre notre adversaire '§Y[cc_war_opponent1.GetName]§!'. Plusieurs voient '§Y[cc_war_opponent1.GetName]§!' comme leur véritable patrie et ils refusent à se battre contre eux. Des éléments extrémistes disent même vouloir faire leur "devoir patriotique" pour la cause de l'Empire [cc_war_opponent1.GetAdj] et nous pensons qu'ils se préparent à faire sécession."
 rebellionscript.41.option:0 "Nous les briserons."
 rebellionscript.43.name:0 "Révolte patriotique sur §Y[Root.GetName]§!"
-rebellionscript.43.desc:0 "La population [fatherland.GetSpeciesAdj]e sur §Y[Root.GetName]§! s'est rebellée en solidarité avec l'Empire [fatherland.GetName] que plusieurs voient comme leur véritable patrie. Si nous ne pouvons pas maîtriser la situation, ils vont se réunir avec la [fatherland.GetName] et rejoindre la guerre contre nous."
+rebellionscript.43.desc:0 "La population [fatherland.GetAdj]e sur §Y[Root.GetName]§! s'est rebellée en solidarité avec l'Empire [fatherland.GetName] que plusieurs voient comme leur véritable patrie. Si nous ne pouvons pas maîtriser la situation, ils vont se réunir avec la [fatherland.GetName] et rejoindre la guerre contre nous."
 rebellionscript.46.name:0 "Les exigences du vainqueur"
 rebellionscript.46.desc:0 "Vous êtes battus. Ces planètes sont les nôtres. Nous ne tolérerons pas de résistance."
 rebellionscript.46.option:0 "Qu'il en soit ainsi."
@@ -131,18 +131,18 @@ rebellionscript.462.option.tooltip:0 "Les planètes perdues en faveur de l'Empir
 
 
 
-cc_slaves_rebel.102.name:0 "Commencement du jeu avec seulement l'un des deux civismes des esclaves libérés"
-cc_slaves_rebel.102.desc:0 "Vous avez démarrer le jeu avec seulement l'un des 2 civismes spécifiques (§Y$civic_free_republic$§! et §Y$civic_broken_shackles$§!) aux esclaves libérés. Cela peut compromettre les scripts pour ce type d'Empire. Votre gouvernement a donc été changé pour inclure les deux civismes."
+cc_slaves_rebel.102.name:0 "Commencement du jeu avec seulement l'un des deux doctrines des esclaves libérés"
+cc_slaves_rebel.102.desc:0 "Vous avez démarrer le jeu avec seulement l'un des 2 doctrines spécifiques (§Y$civic_free_republic$§! et §Y$civic_broken_shackles$§!) aux esclaves libérés. Cela peut compromettre les scripts pour ce type d'Empire. Votre gouvernement a donc été changé pour inclure les deux doctrines."
 cc_slaves_rebel.21.name:0 "Abandon des valeurs révolutionnaires"
 cc_slaves_rebel.21.desc:0 "La population est outragée de voir que le gouvernement de l'Empire §Y[Root.GetName]§! a clairement changé ses éthiques et s'est éloigné des valeurs de la Révolution. D'énormes manifestations ont immobilisé totalement la planète [Root.Capital.GetName] et le cri « Mort aux Oppresseurs » a surgit. La situation pourrait dégénérer rapidement. Les gouvernants et hauts fonctionnaires sont surpris par la force de ce soulèvement et beaucoup d'entre eux veulent faire machine arrière. Cependant d'autres éléments de la société comme du gouvernement se réjouissent d'une telle occasion pour s'éloigner de la Révolution et devenir un membre respecté de la communauté galactique."
 cc_slaves_rebel.21.option:0 "Revenons en arrière."
 cc_slaves_rebel.21.tooltip:0 "Changement d'éthiques à §Y$ethic_fanatic_egalitarian$§! et §Y$ethic_militarist$§!."
 cc_slaves_rebel.21.option.b:0 "Abandon des valeurs révolutionnaires"
-cc_slaves_rebel.21.option.b.tooltip:0 "Confère le modificateur §R$betrayed_the_revolution$§! :\n§Y$mod_country_unity_produces_mult$§! : §R-33%§!\n§Y$mod_country_influence_produces_mult$§! : §R-33%§!\n§Y$MOD_POP_HAPPINESS$§! : §R-20%§!\nSupprime les civismes :\n§Y$civic_free_republic$§!\n§Y$civic_broken_shackles$§!\nConfère les civismes :\n§Y$civic_beacon_of_liberty$§!\n§Y$civic_idealistic_foundation$§!"
+cc_slaves_rebel.21.option.b.tooltip:0 "Confère le modificateur §R$betrayed_the_revolution$§! :\n§Y$mod_country_unity_produces_mult$§! : §R-33%§!\n§Y$mod_country_influence_produces_mult$§! : §R-33%§!\n§Y$MOD_POP_HAPPINESS$§! : §R-20%§!\nSupprime les doctrines :\n§Y$civic_free_republic$§!\n§Y$civic_broken_shackles$§!\nConfère les doctrines :\n§Y$civic_beacon_of_liberty$§!\n§Y$civic_idealistic_foundation$§!"
 cc_slaves_rebel.23.name:0 "La Révolution est finie"
 cc_slaves_rebel.23.desc:0 "La §Y[Root.GetName]§! a perdu sa liberté. La Révolution est finie. Une population abattue a assisté à une veillée silencieuse sur §Y[Root.Capital.GetName]§! pour commémorer sa fin. Quelques éléments extrémistes soutiennent un dernier coup pour relancer la ferveur, mais la plupart accepte que la galaxie est trop grande et les périls trop nombreux, pour que l'age d'or de la liberté puisse perdurer."
 cc_slaves_rebel.23.option:0 "C'était inévitable."
-cc_slaves_rebel.23.tooltip:0 "Supprime les civismes :\n§Y$civic_free_republic$§!\n§Y$civic_broken_shackles$§!\nConfère les civismes :\n§Y$civic_beacon_of_liberty$§!\n§Y$civic_idealistic_foundation$§!"
+cc_slaves_rebel.23.tooltip:0 "Supprime les doctrines :\n§Y$civic_free_republic$§!\n§Y$civic_broken_shackles$§!\nConfère les doctrines :\n§Y$civic_beacon_of_liberty$§!\n§Y$civic_idealistic_foundation$§!"
 cc_slaves_rebel.4.name:0 "La [cc_freed_slaves.GetName] provoque nos esclaves"
 cc_slaves_rebel.4.desc:0 "Les esclaves libérés dans la [cc_freed_slaves.GetName] ont établis leur propre État. Apparemment ils refusent d'obéir à leurs maître légitimes et insistent pour prendre leur "liberté". Ils essayent désormais d'exporter leurs idées révolutionnaires parmi nos esclaves. Malheureusement pour nous, ces derniers les ont pris en exemple et les voient comme une lueur d'espoir. Il faut que nous agissions rapidement pour éviter une révolte général."
 cc_slaves_rebel.4.option:0 "Nous les briserons."
@@ -158,7 +158,7 @@ fighting_for_liberty_desc:0 "La République libre est en guerre avec des esclava
 war_demand_renounce_free_republic_header:1 "§YContre-révolution§!"
 war_demand_renounce_free_republic_subtext:0 "[parameter:country.GetName]"
 war_demand_renounce_free_republic_tooltip_header:0 "$war_demand_free_republic_header$"
-war_demand_renounce_free_republic_tooltip_content:1 "Imposer la contre-révolution au [parameter:country.GetName] ce qui les oblige à abandonner les civismes §Y$civic_broken_shackles$§! et §Y$civic_free_republic$§! et à adopter un gouvernement §Y$auth_dictatorial$§!. Le vainqueur gagne également de l'§Y$unity$§!."
+war_demand_renounce_free_republic_tooltip_content:1 "Imposer la contre-révolution au [parameter:country.GetName] ce qui les oblige à abandonner les doctrines §Y$civic_broken_shackles$§! et §Y$civic_free_republic$§! et à adopter un gouvernement §Y$auth_dictatorial$§!. Le vainqueur gagne également de l'§Y$unity$§!."
 war_demand_renounce_free_republic_tooltip_proper_header:0 "$war_demand_free_republic_header$"
 war_demand_renounce_free_republic_tooltip_proper_content:0 "Imposer la contre-révolution au [parameter:country.GetName]."
 war_demand_renounce_free_republic_no_planets:1 "Toutes les planètes de l'empire étant cédées, il est impossible d'imposer la contre révolution."
@@ -422,11 +422,11 @@ ccrebel_sow_unrest.6.option.C:0 "Nous n'armerons pas ces rebelles!"
 
 
 ccrebel_sow_unrest.7.name:0 "La [ccrebel_naughty_country.GetName] subventionne la [ccrebel_subsidised_rebels.GetName]"
-ccrebel_sow_unrest.7.desc:0 "Notre agence de renseignement a découvert que l'insidieuse [ccrebel_naughty_country.GetName] finance la [ccrebel_subsidised_rebels.GetName], qui s'est rebellée contre nous. Lorsque l'ambassadeur de l'Empire [ccrebel_naughty_country.GetSpeciesAdj] fut questionné, il a nié savoir quelque chose de ces actes clandestins. Cependant il s'est exprimé favorablement aux cause des [ccrebel_subsidised_rebels.GetSpeciesAdj]. Néanmoins, l'évidence est claire."
+ccrebel_sow_unrest.7.desc:0 "Notre agence de renseignement a découvert que l'insidieuse [ccrebel_naughty_country.GetName] finance la [ccrebel_subsidised_rebels.GetName], qui s'est rebellée contre nous. Lorsque l'ambassadeur de l'Empire [ccrebel_naughty_country.GetAdj] fut questionné, il a nié savoir quelque chose de ces actes clandestins. Cependant il s'est exprimé favorablement aux cause des [ccrebel_subsidised_rebels.GetAdj]. Néanmoins, l'évidence est claire."
 ccrebel_sow_unrest.7.option:0 "Ils vont regretter ça."
 
 ccrebel_sow_unrest.71.name:0 "La [ccrebel_naughty_country.GetName] soutient la [ccrebel_subsidised_rebels.GetName]"
-ccrebel_sow_unrest.71.desc:0 "L'Empire [ccrebel_naughty_country.GetName] soutient les [ccrebel_subsidised_rebels.GetName], qui se sont rebellés contre nous. Publiquement de surcroit. Ils leur ont fourni de l'argent et aussi une flotte. Quand nous avons questionné l'ambassadeur [ccrebel_naughty_country.GetSpeciesAdj], il a nié le savoir quoique ce soit de ces agissements clandestins, mais s'est néanmoins exprimé très favorablement aux cause de la [ccrebel_subsidised_rebels.GetSpeciesAdj]. Il est claire qu'il soit au courant de la situation."
+ccrebel_sow_unrest.71.desc:0 "L'Empire [ccrebel_naughty_country.GetName] soutient les [ccrebel_subsidised_rebels.GetName], qui se sont rebellés contre nous. Publiquement de surcroit. Ils leur ont fourni de l'argent et aussi une flotte. Quand nous avons questionné l'ambassadeur [ccrebel_naughty_country.GetAdj], il a nié le savoir quoique ce soit de ces agissements clandestins, mais s'est néanmoins exprimé très favorablement aux cause de la [ccrebel_subsidised_rebels.GetAdj]. Il est claire qu'il soit au courant de la situation."
 ccrebel_sow_unrest.71.option:0 "Ils le regretteront."
 
 feature_ccrebel_sow_unrest_better:0 "L'éfficacité de l'action §YSemer le trouble§! est améliorée"
@@ -487,13 +487,13 @@ wg_ccrebel_independence_accept:0 "$wg_independence_accept$ Si un autre empire so
 unrest.4220.desc.not_orowner:0 "Salutations, [Root.GetRulerTitle] [Root.GetRulerName].Je suis [From.GetRulerTitle] [From.GetRulerName] de '§Y[From.GetName]§!', Et je parle au nom des habitants de [From.From.GetName].\n\nNous nous sommes récemment libérés des griffes de '§Y[rebelled_against.GetName]§!'. Nous sommes une jeune nation, et toujours une cible facile pour d'autres ... pouvoirs prédateurs.Beaucoup d'entre nous [root.GetSpeciesNamePlural] considèrent '§Y[Root.GetName]§!' comme notre véritable patrie. Nous serions heureux de rejoindre votre état."
 
 ccrebel_wg_script.3.name:0 "Accueil de '§Y[from.GetName]§!'"
-ccrebel_wg_script.3.desc:0 "Après la conclusion réussie de notre guerre cotnre '§Y[fromfrom.GetName]§!', les rebelles [from.GetSpeciesAdj] qui se sont révoltés vont faire sécession et rejoindrons notre état."
+ccrebel_wg_script.3.desc:0 "Après la conclusion réussie de notre guerre cotnre '§Y[fromfrom.GetName]§!', les rebelles [from.GetAdj] qui se sont révoltés vont faire sécession et rejoindrons notre état."
 ccrebel_wg_script.4.name:0 "Départ de '§Y[fromfrom.GetName]§!'"
 ccrebel_wg_script.4.desc:0 "Nous avons été incapables d'empêcher '§Y[fromfrom.GetName]§!' des faire sécession de notre '§Y[from.GetName]§!'."
 
 ccrebel_wg_script.10.name:0 "'§Y[from.GetName]§!' demande notre aide!"
 ccrebel_wg_script.10.desc.standard:0 "Salutations, [Root.GetRulerTitle] [Root.GetRulerName]. Je suis [From.GetRulerTitle] [From.GetRulerName] de '§Y[From.GetName]§!', et je parle pour le peuple de  [From.From.GetName].\n\nBeaucoup d'entre nous [root.GetSpeciesNamePlural] voyons votre '§Y[Root.GetName]§!' comme notre vraie patrie. Nous souhaitons rien de plus que de rejoindre votre état. Cependant, ' [rebelled_against.GetName]§!' se met en travers de notre chemin. Nous avons réussi à nous en libérer pour le moment, mais nous craignons que sans votre soutien, cela ne dure pas. Voulez-vous nous aider à assurer un meilleur avenir pour tous les [root.GetSpeciesNamePlural]?"
-ccrebel_wg_script.10.desc.slave:0 "Salutations [Root.GetRulerTitle] [Root.GetRulerName]. Je suis [From.GetRulerTitle] [From.GetRulerName] de '§Y[From.GetName]§!', et je parle pour le peuple de  [From.From.GetName].\n\nNous sommes des combattants de la liberté - d'anciens esclaves - de '§Y[rebelled_against.GetName]§!', où nous avons beaucoup souffert d'abus sous l'oppression de [rebelled_against.GetRulerTitle] [rebelled_against.GetRulerName]. Nous admirons depuis longtemps vos normes égalitaires, la voie "[Root.GetSpeciesAdj]", comme nous l'appellerions chez nous, et nous partageons vos valeurs. Nous souhaitons rien de plus que de rejoindre votre état. Cependant, '§Y[rebelled_against.GetName]§!' se met en travers de notre chemin. Nous avons réussi à nous en libérer pour le moment, mais nous craignons que sans votre soutien, cela ne dure pas. Voulez-vous nous aider à assurer un meilleur avenir à tous les peuples opprimés ?"
+ccrebel_wg_script.10.desc.slave:0 "Salutations [Root.GetRulerTitle] [Root.GetRulerName]. Je suis [From.GetRulerTitle] [From.GetRulerName] de '§Y[From.GetName]§!', et je parle pour le peuple de  [From.From.GetName].\n\nNous sommes des combattants de la liberté - d'anciens esclaves - de '§Y[rebelled_against.GetName]§!', où nous avons beaucoup souffert d'abus sous l'oppression de [rebelled_against.GetRulerTitle] [rebelled_against.GetRulerName]. Nous admirons depuis longtemps vos normes égalitaires, la voie "[Root.GetAdj]", comme nous l'appellerions chez nous, et nous partageons vos valeurs. Nous souhaitons rien de plus que de rejoindre votre état. Cependant, '§Y[rebelled_against.GetName]§!' se met en travers de notre chemin. Nous avons réussi à nous en libérer pour le moment, mais nous craignons que sans votre soutien, cela ne dure pas. Voulez-vous nous aider à assurer un meilleur avenir à tous les peuples opprimés ?"
 ccrebel_wg_script.10.A:0 "Bien sûr, nous allons les aider. Entrons en guerre!"
 ccrebel_wg_script.10.A.tooltip:0 "Si '§Y[rebelled_against.GetName]§!' est vaincu ou contraint à un statu quo, '§Y[from.GetName]§!' feront secession et rejoindront notre '§Y[root.GetName]§!'."
 ccrebel_wg_script.10.B:0 "Nous ne désirons pas la guerre."

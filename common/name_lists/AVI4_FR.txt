@@ -69,7 +69,7 @@ AVI4 = {
 		} 
 
 		military_station_small = {
-			"Garde-Nichée" "Guet du Nid" "Surveille-Couvée" "Kaseek le Vigilant" "Tetheek le Protecteur" "Ocot le Gardien" "Serres Acérées"
+			"Garde-Nichée" "Guet du Nid" "Surveille-Couvée" "Kaseek le Vigilant" "Tetheek le Protecteur" "Ocot le Gardien" "Sentinelle Acérée"
 # VANILLE	"Broodguard" "Nestwatcher" "Roostward" "Vigilant Kaseek" "Tetheek Warden" "Keeper Ocot" "Sharptalon Sentinel"
 		}
 
@@ -84,36 +84,57 @@ AVI4 = {
 			"Ailes du Néant Bruit des Nuages" "Ailes du Néant Tombe-Ciel" "Ailes du Néant Tempête" "Ailes du Néant Mistral" "Ailes du Néant Rôde-Ombre" "Ailes du Néant Chasse de Nuit" "Ailes du Néant Plume Stellaire" "Ailes du Néant Vent de Tempête" "Ailes du Néant Rafale Glacée" "Ailes du Néant Serre Sauvage"
 # VANILLE	"Cloudburst Voidwings" "Skyfall Voidwings" "Galesurge Voidwings" "Mistral Voidwings" "Shadelurk Voidwings" "Nighthunt Voidwings" "Starplume Voidwings" "Windstorm Voidwings" "Coldsquall Voidwings" "Wildclaw Voidwings"
 		}
-		sequential_name = "%R%e Ailes du néant" # VANILLE "%R%e Voidwings"
+		sequential_name = "%R%e Ailes du néant" # VANILLE "%O% Voidwings"
 	}
 
 	army_names = {
+
+		machine_defense = {
+			sequential_name = "%R%e Garde-Nids" # VANILLE "%O% Broodwatchers"
+		}
+		
+		machine_assault_1 = {
+			sequential_name = "%R%e Garde-Nids" # VANILLE "%O% Broodwatchers"
+		}
+		
+		machine_assault_2 = {
+			sequential_name = "%R%e Garde-Nids" # VANILLE "%O% Broodwatchers"
+		}
+		
+		machine_assault_3 = {
+			sequential_name = "%R%e Aéroportés" # VANILLE "%O% Paratroopers"
+		}
+
 		defense_army = {
-			sequential_name = "%R%e Garde-nids" # VANILLE "%R%e Broodwatchers"
+			sequential_name = "%R%e Garde-Nids" # VANILLE "%O% Broodwatchers"
 		}
 			
 		assault_army = {
-			sequential_name = "%R%e Aéroportés" # VANILLE "%R%e Paratroopers"
+			sequential_name = "%R%e Aéroportés" # VANILLE "%O% Paratroopers"
 		}
 		
 		slave_army = {
-			sequential_name = "%R%e Encagés" # VANILLE "%R%e Shackled Troopers"
+			sequential_name = "%R%e Encagés" # VANILLE "%O% Shackled Troopers"
 		}
 		
 		clone_army = {
-			sequential_name = "%R%e Infanterie clonée" # VANILLE "%R%e Cloned Infantry"
+			sequential_name = "%R%e Infanterie Clonée" # VANILLE "%O% Cloned Infantry"
 		}
 		
+		undead_army = {
+			sequential_name = "%R%e Encagés de l'Effroi" # VANILLE "%O% Dread Troopers"
+		}
+
 		robotic_army = {
-			sequential_name = "%R%e Avanceurs mécaniques" # VANILLE "%R%e Mechanized Advancers"
+			sequential_name = "%R%e Avanceurs Mécaniques" # VANILLE "%O% Mechanized Advancers"
 		}
 
 		robotic_defense_army = {
-			sequential_name = "%R%e Garde-nids mécaniques" # VANILLE "%R%e Mechanized Broodwatchers"
+			sequential_name = "%R%e Garde-nids Mécaniques" # VANILLE "%O% Mechanized Broodwatchers"
 		}
 		
 		psionic_army = {
-			sequential_name = "%R%e Psions ailés" # VANILLE "%R%e Winged Psions"
+			sequential_name = "%R%e Psions Ailés" # VANILLE "%O% Winged Psions"
 		}
 		
 		xenomorph_army = {
@@ -121,15 +142,15 @@ AVI4 = {
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "%R%e Infanterie améliorée" # VANILLE "%R%e Perfected Infantry"
+			sequential_name = "%R%e Infanterie Améliorée" # VANILLE "%O% Perfected Infantry"
 		}
 
 		occupation_army = {
-			sequential_name = "%R%e Garde-nids d'occupation" # VANILLE "%R%e Occupation Broodwatchers"
+			sequential_name = "%R%e Garde-Nids d'Occupation" # VANILLE "%O% Occupation Broodwatchers"
 		}
 
 		robotic_occupation_army = {
-			sequential_name = "%R%e Occupants mécanisés" # VANILLE "%R%e Mechanized Occupiers"
+			sequential_name = "%R%e Occupants Mécanisés" # VANILLE "%O% Mechanized Occupiers"
 		}
 
 		primitive_army = {
@@ -146,7 +167,7 @@ AVI4 = {
 	planet_names = {
 		generic = {
 			names = {
-				"Nid du Vide" "Nichée Stellaire" "Perche Étoilée" "Nid Errant" "Aire Astrale" "Aire Céleste" "Perchoir Stellaire" "Repaire Béni" "Nichée des Étoiles" "Perchoir de Zirik" "Nid de Kokok" "Nichée d'Ikaro" "Aire d'Ukhu" "Perchoir de Kamak" "Perchoir de Paru" "Repaire de Qoriqo" "Nichée d'Huana" "Aire de Syrti" "Juchoir de Keak" "Aire de Kisak" "Juchoir d'Opoke" "Nichée de Sora" "Repaire de Veeri" "Perchoir de Tiruk" "Nid d'Arit" "Aire d'Icolo" "Nichée de Tasu" "Repaire de Visu" "Nichée de Mimak" "Nid de Noutka" "Perchoir de Magog" "Nid de Yoquol" "Repaire de Truro" "Aire d'Ina" "Repaire d'Haro" "Repaire de Valiku" "Nichée de Lipari"
+				"Nid du Vide" "Nichée Stellaire" "Perche Étoilée" "Nid Errant" "Aire Astrale" "Aire Céleste" "Perchoir Stellaire" "Repaire Béni" "Nichée des Étoiles" "Perchoir de Zirik" "Nid de Kokok" "Nichée d'Ikaro" "Aire d'Ukhu" "Perchoir de Kamak" "Perchoir de Paru" "Repaire de Qoriqo" "Nichée d'Huana" "Aire de Syrti" "Juchoir de Keak" "Aire de Kisak" "Juchoir d'Opoke" "Nichée de Sora" "Reparie de Veeri" "Perchoir de Tiruk" "Nid d'Arit" "Aire d'Icolo" "Nichée de Tasu" "Repaire de Visu" "Nichée de Mimak" "Nid de Noutka" "Perchoir de Magog" "Nid de Yoquol" "Reparie de Truro" "Aire d'Ina" "Repaire d'Haro" "Repaire de Valiku" "Nichée de Lipari"
 # VANILLE		"Void Brood" "Star Nest" "Starry Perch" "Wandering Nest" "Astral Aerie" "Heavenly Aerie" "Starflung Roost" "Hallowed Haunt" "Stellar Broodnest"	"Zirik Perch" "Kokok's Nest" "Ikaro Brood" "Ukhu Aerie" "Kamak Perch" "Paru Roost" "Qoriqo's Haunt" "Broodnest Huana" "Syrti Aerie" "Keak Roost" "Kisak Aerie" "Opoke Roost" "Broodnest Sora" "Veeri's Haunt" "Tiruk Perch" "Arit's Nest" "Icolo Aerie" "Tasu Brood" "Visu's Haunt" "Mimak Brood" "Nootka's Nest" "Magog Perch" "Yoquol's Nest" "Truro's Haunt" "Ina Aerie" "Haro Roost" "Valiku's Haunt" "Broodnest Lipari"
 			}
 		}

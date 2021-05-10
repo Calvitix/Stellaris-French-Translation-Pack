@@ -1,19 +1,27 @@
 ﻿l_french:
 
 ##################################################################################################################################################################################################################
-### MISCELLANEOUS ###
-#####################
+### TOOLTIPS ###
+################
+
+requires_no_existing_nsc_factory:0 "Vous ne pouvez créer qu'une seule usine de ressources stratégiques. "
+requires_no_existing_mall:0 "You can only build one Galactic Mall."
+requires_no_existing_hospital:0 "You can only build one Galactic General Hospital."
 
 TBA:0 "\n§g(- Description à ajouter -)§!\n"
 
 hq_limit:0 "§Un seul §Y$sm_hq_annex$§! peut exister par empire.§!"
 drydock_limit:0 "§Un seul §Y$sm_drydock$§! peut exister par empire.§!"
-starbase_management_limit:0 "§Seulement cinq §Y$sm_starbase_management$§! peut exister par empire.§!"
-starbase_management_machine_limit:0 "§Seulement cinq §Y$sm_starbase_management_machine$§! peut exister par empire.§!"
-starbase_management_hive_limit:0 "§Seulement cinq §Y$sm_starbase_management_hive$§! peut exister par empire.§!"
+starbase_management_limit:0 "§Seulement cinq §Y$sm_starbase_management$§! peuvent exister par empire.§!"
+starbase_management_machine_limit:0 "§Seulement cinq §Y$sm_starbase_management_machine$§! peuvent exister par empire.§!"
+starbase_management_hive_limit:0 "§Seulement cinq §Y$sm_starbase_management_hive$§! peuventt exister par empire.§!"
 requires_colony:0 "Requiert une planète colonisée"
 requires_stronghold:0 "Requiert la base de type grande citadelle"
-nsc_headquarters_bonus:0 "Modificateur du Quartier général"
+nsc_headquarters_bonus:0 "Modificateur bonus du Quartier général"
+
+requires_technology_exploration_cruiser:0 "Nécessite un §HCroiseur d'exploration (Niveau 1)§!"
+requires_technology_automated_exploration:0 "Nécessite les §BProtocoles d'exploration automatisés§!"
+requires_discovery_tree:0 "Nécessite d'avoir la Tradition complète de §MDécouverte§!"
 
 requires_tech_hyperlane_generation:0 "$TRIGGER_FAIL$Nécessite la technologie £physics  §Y$tech_hyperlane_generation$§!."
 
@@ -49,6 +57,33 @@ name_list_1-NSC-Plantoid: "NSC2 Plantoïde"
 name_list_1-NSC-Reptilian: "NSC2 Reptilienne"
 name_list_1-NSC-Steve: "NSC2 Steve"
 
+##################################################################################################################################################################################################################
+### POLICIES ###
+################
+
+policy_tech_options_policy:0 "Initiatives de la diversité de la recherche"
+policy_tech_options_policy_desc:0 "Cette politique permettra à notre empire de dépenser des points de recherche, afin de fournir à nos scientifiques de nouveaux domaines et des nouvelles d'options de recherche lors du choix de leur prochain projet de recherche. "
+
+defaulttech_option_name:0 "Recherche par défaut"
+defaulttech_option:0 "Recherche par défaut"
+defaulttech_option_desc:0 "Cette option conservera les alternatives de recherche au numéro normal - rien ne changera. "
+
+tech5_option_name:0 "Initiatives de recherche 5"
+tech5_option:0 "Initiatives de recherche 5"
+tech5_option_desc:0 "Cette option augmentera le nombre d'alternatives de recherche à 5 et coûtera environ 10% de notre production de recherche mensuelle. "
+
+tech10_option_name:0 "Initiatives de recherche 10"
+tech10_option:0 "Initiatives de recherche 10"
+tech10_option_desc:0 "Cette option augmentera le nombre d'alternatives de recherche à 10 et coûtera environ 15% de notre production mensuelle de recherche. "
+
+tech15_option_name:0 "Initiatives de recherche 15"
+tech15_option:0 "Initiatives de recherche 15"
+tech15_option_desc:0 "Cette option augmentera le nombre d'alternatives de recherche à 15 et coûtera environ 20% de notre production mensuelle de recherche. "
+
+tech20_option_name:0 "Initiatives de recherche 20"
+tech20_option:0 "Initiatives de recherche 20"
+tech20_option_desc:0 "Cette option augmentera le nombre d'alternatives de recherche à 20 et coûtera environ 30% de notre production mensuelle de recherche. "
+
 
 ##################################################################################################################################################################################################################
 ### DOCTRINES ###
@@ -63,15 +98,19 @@ balanced_focus_desc:0 "Cette doctrine ne comporte pas d'avantage ni de pénalit�
 
 kinetic_focus_name:0 "Armes cinétiques"
 kinetic_focus:0 "Armes cinétiques"
-kinetic_focus_desc:0 "Cette doctrine permet à notre empire de se concentrer sur les armes cinétiques au détriment d'autres types d'armes."
+kinetic_focus_desc:0 "Cette doctrine permet à notre empire de se concentrer sur les armes cinétiques au détriment d'autres types d'armes. Nos armes cinétiques déchireront les boucliers et les coques de l'ennemi et apporteront la gloire à notre nation."
 
 energy_focus_name:0 "Armes énergétiques"
 energy_focus:0 "Armes énergétiques"
-energy_focus_desc:0 "Cette doctrine permet à notre empire de se concentrer sur les armes énergétiques au détriment d'autres types d'armes."
+energy_focus_desc:0 "Cette doctrine permet à notre empire de se concentrer sur les armes énergétiques au détriment d'autres types d'armes. Nos armes énergétiques brûleront les vaisseaux ennemis et feront fondre leurs flottes."
 
-guided_munitions_focus_name:0 "Armes explosives / Chasseurs"
-guided_munitions_focus:0 "Armes explosives / Chasseurs"
-guided_munitions_focus_desc:0 "Cette doctrine permet à notre empire de se concentrer sur les armes explosives et les appareils de combats au détriment d'autres types d'armes."
+guided_munitions_focus_name:0 "Armes explosives"
+guided_munitions_focus:0 "Armes explosives"
+guided_munitions_focus_desc:0 "Cette doctrine permet à notre empire de se concentrer sur les armes explosives au détriment d'autres types d'armes. Nos puissants missiles assureront la victoire de notre peuple."
+
+strike_craft_focus_name:0 "Chasseurs"
+strike_craft_focus:0 "Chasseurs"
+strike_craft_focus_desc:0 "Cette doctrine permet à notre empire de se concentrer sur chasseurs et autres appareils de combats, au détriment d'autres types d'armes. Nos vaillants pilotes seront victorieux."
 
 policy_defense_doctrine:0 "Systèmes de défense des vaisseaux"
 policy_defense_doctrine_desc:0 "Cette doctrine permet à un empire de choisir les systèmes de défense qu'il souhaite principalement utiliser sur ses vaisseaux."
@@ -109,7 +148,7 @@ capital_focus_desc:0 "Cette doctrine permet à un empire de se concentrer sur un
 
 carrier_focus_name:0 "Transporteurs"
 carrier_focus:0 "Transporteurs"
-carrier_focus_desc:0 "Cette doctrine permet à un empire de se concentrer sur une flotte composée de transporteurs."
+carrier_focus_desc:0 "Cette doctrine permet à un empire de se concentrer sur une flotte composée de transporteurs. Nos chasseurs sont nos meilleures armes. Nos pilotes sont les meilleurs et les plus brillants de notre peuple, et nos Porteurs sont les vaisseaux qui déploient nos vaillants guerriers au combat. Nous devons concentrer nos efforts sur la production d'autant de ces puissants vaisseaux que possible."
 
 policy_operations_doctrine:0 "Opérations de la flotte"
 policy_operations_doctrine_desc:0 "Cette doctrine permet à un empire de se concentrer sur le type d'opérations que ses flottes vont effectuer."

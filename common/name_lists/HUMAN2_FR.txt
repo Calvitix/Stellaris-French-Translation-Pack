@@ -96,32 +96,53 @@ HUMAN2 = {
 			"Force opérationnelle Garuda"
 # VANILLE	"Strike Force Garuda"
 		}
-		sequential_name = "%R%e Force opérationnelle" # VANILLE "%R%e Strike Force"
+		sequential_name = "%R%e Force Opérationnelle" # VANILLE "%O% Strike Force"
 	}
 	
 	army_names = {
+
 		generic = { 
-			sequential_name = "%R%e Gendarmerie coloniale" # VANILLE "%R%e Colonial Gendarmerie"
+			sequential_name = "%R%e Gendarmerie Coloniale" # VANILLE "%O% Colonial Gendarmerie"
+		}
+
+		machine_defense = {
+			sequential_name = "%R%e Gendarmerie Coloniale" # VANILLE "%O% Colonial Gendarmerie"
+		}
+		
+		machine_assault_1 = {
+			sequential_name = "%R%e Légion d'Assaut" # VANILLE "%O% Assault Legion"
+		}
+		
+		machine_assault_2 = {
+			sequential_name = "%R%e Légion d'Assaut" # VANILLE "%O% Assault Legion"
+		}
+		
+		machine_assault_3 = {
+			sequential_name = "%R%e Légion d'Assaut" # VANILLE "%O% Assault Legion"
 		}
 
 		assault_army = {
-			sequential_name = "%R%e Légion d'assaut" # VANILLE "%R%e Assault Legion"
+			sequential_name = "%R%e Légion d'Assaut" # VANILLE "%O% Assault Legion"
 		}
 		
 		slave_army = {
-			sequential_name = "%R%e Corps des janissaires" # VANILLE "%R%e Janissary Corps"
+			sequential_name = "%R%e Corps des Janissaires" # VANILLE "%O% Janissary Corps"
 		}
 		
 		clone_army = {
-			sequential_name = "%R%e Soldats cuviers" # VANILLE "%R%e Vatgrown Soldiery"
+			sequential_name = "%R%e Soldats Cuviers" # VANILLE "%O% Vatgrown Soldiery"
 		}
 		
+		undead_army = {
+			sequential_name = "%E%e Corps de l'Effroi" # VANILLE "%O% Dread Corps"
+		}
+
 		robotic_army = {
-			sequential_name = "%R%e Bataillon déshumanisé" # VANILLE "%R%e Unmanned Battlegroup"
+			sequential_name = "%R%e Bataillon Déshumanisé" # VANILLE "%O% Unmanned Battlegroup"
 		}
 
 		robotic_defense_army = {
-			sequential_name = "%R%e Gendarmerie déshumanisée" # VANILLE "%R%e Unmanned Gendarmerie"
+			sequential_name = "%R%e Gendarmerie Déshumanisée" # VANILLE "%O% Unmanned Gendarmerie"
 		}
 		
 		psionic_army = { 
@@ -131,7 +152,7 @@ HUMAN2 = {
 				"Légion des Sorciers" "Légion des Éventreurs"
 # VANILLE		"Warlock Legion" "Reaper Legion"
 			}
-			sequential_name = "%R%e Guerriers Psi" # VANILLE "%R%e Psy Warriors"
+			sequential_name = "%R%e Guerriers Psi" # VANILLE "%O% Psy Warriors"
 		}
 		
 		xenomorph_army = {
@@ -141,19 +162,19 @@ HUMAN2 = {
 				"Unité expérimentale 'Bakunawa'" "Unité expérimentale 'Fafnir'" "Unité expérimentale 'Tarasque'" "Unité expérimentale 'Tiamat'"
 # VANILLE		"Experimental Unit 'Bakunawa'" "Experimental Unit 'Fafnir'" "Experimental Unit 'Tarasque'" "Experimental Unit 'Tiamat'"
 			}
-			sequential_name = "%R%e Maraudeurs Changeurs" # VANILLE "%R%e Morphling Marauders"
+			sequential_name = "%R%e Maraudeurs Changeurs" # VANILLE "%O% Morphling Marauders"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "%R%e Avant-garde Eugénique" # VANILLE "%R%e Eugenic Vanguard"
+			sequential_name = "%R%e Avant-garde Eugénique" # VANILLE "%O% Eugenic Vanguard"
 		}
 
 		occupation_army = {
-			sequential_name = "%R%e Légion d'occupation" # VANILLE "%R%e Occupation Legion"
+			sequential_name = "%R%e Légion d'Occupation" # VANILLE "%O% Occupation Legion"
 		}
 
 		robotic_occupation_army = {
-			sequential_name = "%R%e Garnison déshumanisée" # VANILLE "%R%e Unmanned Garrison"
+			sequential_name = "%R%e Garnison Déshumanisée" # VANILLE "%O% Unmanned Garrison"
 		}
 	}
 
@@ -422,13 +443,13 @@ HUMAN2 = {
 		names5 = {
 			weight = 15
 			first_names_male = {
-				Philippe Pierre Jean-Marie Marcel Francois Hubert Paul Antoine Michel Henri Marc Jean Maurice René Claude Yves Jacques
+				Philippe Pierre Jean-Marie Marcel François Hubert Paul Antoine Michel Henri Marc Jean Maurice René Claude Yves Jacques
 				Simon Olivier Joseph Robert Georges André Raymond Gaston Charles Thierry Guy Patrice Mathieu Jean-François Lucien Jean-Paul
 				Daniel Thibault Luc Dominique Sébastien Hugo
 			}
 			first_names_female = {
 				Chloé Inès Manon Camille Claire Juliette Clémence Jeanne Charlotte Marie Ninon Julie Élise Justine Yasmine Élina Andrée
-				Éléonore Clarisse Fanny Selma Leïla Véronique Sophie Hélène Daphné Suzanne Mélanie Bernadette Maude Angeline Céline Guenièvre
+				Éléonore Clarisse Fanny Selma Leïla Véronique Sophie Hélène Daphné Suzanne Mélanie Bernadette Maud Angeline Céline Guenièvre
 				Pauline Viviane Jeanette
 			}
 			second_names = {
@@ -440,7 +461,7 @@ HUMAN2 = {
 				Alexandre Vladimir Boris Tibère Théobald Valérian Maxime Lucius
 			}
 			regnal_first_names_female = {
-				Théodora Fatima Miranda Cordélia Svetlana Anastasie Valentine Henriette
+				Théodora Fatima Miranda Cordélie Solange Anastasie Valentine Henriette Marguerite
 			}
 			regnal_second_names = {
 				Habsbourg Romanov Windsor Mountbatten Salazar Nelson

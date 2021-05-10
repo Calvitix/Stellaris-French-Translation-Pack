@@ -1,14 +1,13 @@
 ﻿l_french:
 
  ####################################
- # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 17.11.2020
- # Translation check : 17.11.2020
+ # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
+ # Update check for 3.0.1 : 16.04.2021
+ # Translation check : 16.04.2021
  ####################################
 
-
- marauder.1.name:0 "Rencontre avec '§Y[encountered_marauder.GetName]§!'"
- marauder.1.desc:0 "Nous venons d'entrer en contact avec la civilisation nomade '§H[encountered_marauder.GetName]§!. Elle occupe un certain nombre de grandes stations spatiales dans et autour du système de §H[marauder_system.GetName]§!, qui abritent la plus grande partie de leur population très nombreuse dans des conditions sordides de surpeuplement. En dépit de cela - ou peut-être à cause de cela ? - elle semble avoir développé une très forte culture martiale. La vie dans le vide froid de l'espace semble être devenue ses membres une seconde nature, et ils s'avèrent très doués pour les combats spatiaux.\n\n[encountered_marauder.GetName] n'a pas de gouvernement centralisé en tant que tel : ce qui en tient lieu est une division entre plusieurs factions, qui s'affrontent sans fin pour prendre le contrôle des ressources et imposer leur autorité. Étant donné leur importante population et les capacités de construction de leurs stations, ces guerres constantes sont la seule chose qui empêche les [encountered_marauder.GetName] de devenir une menace réelle pour la paix galactique."
+ marauder.1.name:1 "Rencontre avec la [encountered_marauder.GetRealName]"
+ marauder.1.desc:1 "Ayant décodé ce qui fait office de langage pour eux, notre [This.Owner.GetEnvoy] [This.Leader.GetName] a identifié les §H[encountered_marauder.GetName]§! comme une civilisation nomade connue sous le nom de §H[encountered_marauder.GetRealName]§!. Elle occupe de vastes stations spatiales dans et autour du système de §Y[marauder_system.GetName]§!, qui abritent la plus grande partie de sa population très nombreuse dans des conditions sordides de surpeuplement. En dépit - ou peut-être à cause ? - de cela, elle semble avoir développé une très forte culture martiale. La vie dans le vide froid de l'espace semble être devenue pour ses membres une seconde nature, et ils s'avèrent très doués pour les combats spatiaux.\n\nLes [encountered_marauder.GetSpeciesNamePlural] n'ont pas de gouvernement centralisé en tant que tel : ce qui en tient lieu est une division entre plusieurs factions, qui s'affrontent sans fin pour prendre le contrôle des ressources et imposer leur autorité. Étant donné leur importante population et les capacités de construction de leurs stations, ces guerres constantes sont la seule chose qui empêche les [encountered_marauder.GetSpeciesNamePlural] de devenir une menace réelle pour la paix galactique."
  marauder.1.a:0 "Tentons d'entrer en contact avec eux"
  marauder.3.name:0 "Rencontre de guerriers [From.GetSpeciesNamePlural]"
  marauder.3.desc:0 "Il y a de cela plusieurs mois, nous avons reçu des rapports sporadiques sur un petit nombre de mercenaires et corsaires aliens aux frontières de l'espace de '§Y[Root.GetName]§!'. Ils se font appeler les §H[From.GetSpeciesNamePlural]§!, et sont apparemment des exilés d'une culture guerrière nomade habitant des stations spatiales surpeuplées, dans et autour du système de §H[marauder_system.GetName]§!.\n\nLeur passage près de nos frontières s'est déroulé sans incident, mais ils nous ont prévenus que mieux valait ne pas entrer dans le système de §H[marauder_system.GetName]§!. Ils n'ont pas de gouvernement centralisé en tant que tel, mais leurs diverses factions se déchirent éternellement et lancent fréquemment des raids dans les systèmes voisins. En fait, au vu de leur population nombreuse et de leurs capacités de production dans l'espace, les [From.GetSpeciesNamePlural] pourraient constituer une puissance galactique importante s'ils arrêtaient de se massacrer entre eux..."
@@ -276,7 +275,7 @@
  marauder.506.name:0 "Défaite du Grand Khan"
  marauder.506.desc:0 "En dépit de son génie militaire tant vanté, [great_khan.GetName], le Grand Khan de '§Y[From.GetName]§!', a été vaincu dans le système de §H[khan_death_system.GetName]§!. Lorsque la flotte qu'il commandait a été perdue dans la bataille qui l'opposait aux forces de la [khan_destroyer.GetName], lui et ses plus proches officiers ont fui en hyperespace dans une petite navette.\n\nEn ce moment même, il semble occupé à rassembler une nouvelle flotte pour reprendre ses conquêtes, mais le revers qu'il vient de subir permet de redonner un peu d'espoir à tous ceux qui s'opposent à l'avance implacable des [From.GetSpeciesNamePlural]."
  marauder.506.a:0 "Ainsi donc, il n'est pas invincible..."
- marauder.508.desc:1 "Je suis le Grand Khan [great_khan.GetName] de '§Y[From.GetName]§!'. Ma défaite face à la [khan_destroyer.GetName] n'est qu'un revers temporaire, rien de plus. Les [khan_destroyer.GetSpeciesNamePlural] sont des guerriers courageux et des ennemis de valeur, mais ils se coucheront eux aussi devant nous.\n\nLes vents du changement et de l'histoire balaient la galaxie, et rien ne peut les arrêter. Ma nouvelle flotte est rassemblée."
+ marauder.508.desc:1 "Je suis le Grand Khan [great_khan.GetName] de '§Y[From.GetName]§!'. Ma défaite face à la [khan_destroyer.GetRealName] n'est qu'un revers temporaire, rien de plus. Les [khan_destroyer.GetSpeciesNamePlural] sont des guerriers courageux et des ennemis de valeur, mais ils se coucheront eux aussi devant nous.\n\nLes vents du changement et de l'histoire balaient la galaxie, et rien ne peut les arrêter. Ma nouvelle flotte est rassemblée."
  marauder.508.desc.1:0 "$marauder.508.desc$ Lorsque cette guerre sera terminée, mes loyaux satrapes seront récompensés de leur appui."
  marauder.508.desc.2:0 "$marauder.508.desc$ Jurez-moi fidélité immédiatement, pendant que vous en avez encore le temps."
  marauder.508.desc.3:0 "$marauder.508.desc$ Quiconque se dressera sur ma route sera écrasé."
@@ -303,6 +302,13 @@
  marauder.519.desc:0 "Après avoir attaqué avec succès §H[liberated_planet.GetName]§! et avoir vaincu les forces du Grand Khan stationnées à la surface, la §H[From.GetName]§! a gracieusement offert de nous rétrocéder la [liberated_planet.GetPlanetMoon] en la remettant sous notre contrôle."
  opinion_returned_marauder_planet:0 "A libéré notre planète"
  opinion_kept_marauder_planet:0 "A conservé notre planète libérée"
+
+ marauder.524.name:0 "Le Grand Khan présumé mort"
+ marauder.524.a.desc:0 "Nombreux sont ceux qui s'inquiètent toujours de voir le Grand Khan trouver le moyen de réapparaître à la tête d'une nouvelle flotte. Mais la défaite écrasante infligée à la Horde rend cela improbable.\n\nSi son corps n'a pu être retrouvé, on soupçonne que le Grand Khan est mort au moment de la destruction des dernières stations et des ultimes vaisseaux de la Horde."
+ marauder.524.b.desc:0 "$marauder.524.a.desc$\n\nNos équipages n'ont cessé de passer au crible l'épave de son ancien vaisseau amiral. Ils ont trouvé une sorte de siège imposant, taché de sang, flottant dans le vide de l'espace. Nous pouvons raisonnablement penser qu'il s'agit là de son trône."
+ marauder.524.a:0 "Bon débarras !"
+ marauder.524.b:0 "Magnifique découverte !"
+
  marauder.526.name:0 "L'éveil des [From.GetSpeciesNamePlural]"
  marauder.526.desc:0 "La destruction toute récente de l'une des grandes stations spatiales de la §H[awakened_horde.GetName]§! a poussé les §H[From.GetSpeciesNamePlural]§! à s'unir, pour la première fois de leur histoire, derrière un Grand Khan unique. Ce seigneur de guerre mystérieux, qui selon certaines rumeurs serait un puissant psychiste, a convaincu les [From.GetSpeciesNamePlural] de mettre de côté leurs différends pour assurer la survie de tous.\n\nDe puissantes flottes de guerre, en provenance d'ancrages auparavant cachés, reçoivent des équipages de [From.GetSpeciesNamePlural] avides de batailles et remises en état de se battre. Inspirés par leur Grand Khan, ces guerriers veulent exercer à l'encontre de la galaxie leur vengeance pour les leurs qu'ils ont perdus."
 

@@ -85,12 +85,29 @@
 		}
 
 		army_names = {
+
+			machine_defense = {
+				sequential_name = "%R%e Déférite" # VANILLE "Deferite %O%"
+			}
+			
+			machine_assault_1 = {
+				sequential_name = "%R%e Ophénicite" # VANILLE "Ophencite %O%"
+			}
+			
+			machine_assault_2 = {
+				sequential_name = "%R%e Ophénicite" # VANILLE "Ophencite %O%"
+			}
+			
+			machine_assault_3 = {
+				sequential_name = "%R%e Ophénicite" # VANILLE "Ophencite %O%"
+			}
+
 			defense_army = {
 				random_names = {
 					"Acudite" "Anrite" "Bormène" "Bylcite" "Cennite" "Céphène" "Dontite" "Dricène" "Énusite" "Étoline" "Firdine" "Fyldite" "Galtine" "Ghymène" "Hidène" "Huertz" "Iténelle" "Jonrope" "Kocène" "Kynocope" "Médurite" "Myodine" "Nacite" "Nodéline" "Ontite" "Orytine" "Phyrtz" "Prymène" "Qurinelle" "Rhydène" "Rilocope" "Sépodine" "Strétope" "Teutorite" "Thytine" "Ultrope" "Ulvocite" "Vertite" "Xelnite" "Ynésite"
 # VANILLE			"Acudite" "Anrite" "Bormene" "Bylcite" "Cennite" "Cephene" "Dontite" "Dricene" "Enusite" "Etoline" "Firdine" "Fyldite" "Galtine" "Ghymene" "Hidene" "Huertz" "Itenel" "Jonrope" "Kocene" "Kynocope" "Medurite" "Myodine" "Nacite" "Nodeline" "Ontite" "Orytine" "Phyrtz" "Prymene" "Qurinel" "Rhydene" "Rilocope" "Sepodine" "Stretrope" "Teutorite" "Thytine" "Ultrope" "Ulvocite" "Vertite" "Xelnite" "Ynesite"
 				}
-				sequential_name = "%R%e Déférite" # VANILLE "Deferite %0%"
+				sequential_name = "%R%e Déférite" # VANILLE "Deferite %O%"
 			}
 				
 			assault_army = {
@@ -98,7 +115,7 @@
 					"Almarite" "Bernite" "Bilrite" "Bortite" "Cannite" "Cénurite" "Colcite" "Décénite" "Dectite" "Dicunite" "Disrite" "Dyrérite" "Érinite" "Érodite" "Feldnite" "Gargrite" "Hazrite" "Idenrite" "Iodrite" "Irotite" "Janrite" "Jébérite" "Jundite" "Clérite" "Mandnite" "Ménérite" "Neutite" "Nophite" "Obénérite" "Penrite" "Phontite" "Quérite" "Réphite" "Sénédite" "Suphite" "Témitite" "Thernite" "Topidite" "Uménite" "Vénérite"
 # VANILLE			"Almarit" "Bernit" "Bilrit" "Bortit" "Cannit" "Cenurit" "Colcit" "Dekenit" "Dektit" "Dicunit" "Disrit" "Dyrerit" "Erinit" "Erodit" "Feldnit" "Gargrit" "Hazrit" "Idenrit" "Iodrit" "Irotit" "Janrit" "Jeberit" "Jundit" "Klerit" "Mandnit" "Menerit" "Neutit" "Nophit" "Obenerit" "Penrit" "Phontit" "Querit" "Rephit" "Senedit" "Suphit" "Temitit" "Thernit" "Topidit" "Umenit" "Venerit"
 				}
-				sequential_name = "%R%e Ophénicite" # VANILLE "Ophencite %0%"
+				sequential_name = "%R%e Ophénicite" # VANILLE "Ophencite %O%"
 			}
 			
 			slave_army = {
@@ -106,7 +123,7 @@
 					"Déranrite" "Dérénusite" "Derhidène" "Dermyodine" "Dervertite" "Dercocène" "Dérontite" "Dérorytine" "Derhydène" "Derthytine" "Derxelnite" "Derbylcite" "Derphirdine"
 # VANILLE			"Deranrite" "Derenusite" "Derhidene" "Dermyodine" "Dervertite" "Derkocene" "Derontite" "Derorytine" "Derhydene" "Derthytine" "Derxelnite" "Derbylcite" "Derfirdine"
 				}
-				sequential_name = "%R%e Dervine" # VANILLE "Dervine %0%"
+				sequential_name = "%R%e Dervine" # VANILLE "Dervine %O%"
 			}
 			
 			clone_army = {
@@ -114,15 +131,19 @@
 					"Golcennite" "Golnusite" "Golgaltine" "Golcynocope" "Golontite" "Golprymène" "Golrilocope" "Golultrope" "Goldricène" "Golphyldite" "Golnacite" "Golnodéline" "Golthytine"
 # VANILLE			"Golcennite" "Golnusite" "Golgaltine" "Golkynocope" "Golontite" "Golprymene" "Golrilocope" "Golultrope" "Goldricene" "Golfyldite" "Golnacite" "Golnodeline" "Golthytine"
 				}
-				sequential_name = "%R%e Golclonite" # VANILLE "Golklonite %0%"
+				sequential_name = "%R%e Golclonite" # VANILLE "Golklonite %O%"
 			}
 
+			undead_army = {
+				sequential_name = "%R%e Ténébrite" # VANILLE "%O% Tenebrite"
+			}
+	
 			robotic_army = {
 				random_names = {
 					"Helbormène" "Helcennite" "Helnusite" "Helghymène" "Helhuertz" "Helnacite" "Hélontite" "Helprymène" "Helstretrope" "Helvocite" "Helynésite" "Helcynocope" "Helmédurite"
 # VANILLE			"Helbormene" "Helcennite" "Helnusite" "Helghymene" "Helhuertz" "Helnacite" "Helontite" "Helprymene" "Helstretrope" "Helvocite" "Helynesite" "Helkynocope" "Helmedurite"
 				}
-				sequential_name = "%R%e Helrobène" # VANILLE "Helrobene %0%"
+				sequential_name = "%R%e Helrobène" # VANILLE "Helrobene %O%"
 			}
 
 			robotic_defense_army = {
@@ -130,7 +151,7 @@
 					"Halcéphène" "Haloricène" "Halphirdine" "Halphyldite" "Halghymène" "Halionropé" "Halnodéline" "Halorytine" "Halrilocope" "Halteutorite" "Halénusite" "Halétoline" #"Halphirdine"
 # VANILLE			"Halcephene" "Haloricene" "Halfirdine" "Halfyldite" "Halghymene" "Halyonrope" "Halnodeline" "Halorytine" "Halrilocope" "Halteutorite" "Halenusite" "Haletoline" "Halfirdine"
 				}
-				sequential_name = "%R%e Halcène" # VANILLE "Halcene %0%"
+				sequential_name = "%R%e Halcène" # VANILLE "Halcene %O%"
 			}
 
 			psionic_army = {
@@ -138,7 +159,7 @@
 					"Zingaltine" "Zinhuertz" "Zincocène" "Zinnacite" "Zinnodéline" "Zinphyrtz" "Zinqurinelle" "Zinstretrope" "Zinthytine" "Zinulvocite" "Zinxelnite" "Zinuertone" "Ziniténelle"
 # VANILLE			"Zingaltine" "Zinhuertz" "Zinkocene" "Zinnacite" "Zinnodeline" "Zinphyrtz" "Zinqurinel" "Zinstretrope" "Zinthytine" "Zinulvocite" "Zinxelnite" "Zinuertone" "Zinitenel" 
 				}
-				sequential_name = "%0%e Zinsione" # VANILLE "Zinsione %0%"
+				sequential_name = "%R%e Zinsione" # VANILLE "Zinsione %O%"
 			}
 
 			xenomorph_army = {
@@ -146,7 +167,7 @@
 					"Longaltine" "Longhymène" "Lonjonrope" "Loncocène" "Lonmyodine" "Lonontite" "Lonprymène" "Lonrilocope" "Lonstretrope" "Lonulvocite" "Lonynésite" "Londricène" "Lonénusite"
 # VANILLE			"Longaltine" "Longhymene" "Lonjonrope" "Lonkocene" "Lonmyodine" "Lonontite" "Lonprymene" "Lonrilocope" "Lonstretrope" "Lonulvocite" "Lonynesite" "Londricene" "Lonenusite" 
 				}
-				sequential_name = "%R%e Lonzène" # VNAILLE "Lonzene %0%"
+				sequential_name = "%R%e Lonzène" # VNAILLE "Lonzene %O%"
 			}
 
 			gene_warrior_army = {
@@ -154,7 +175,7 @@
 					"Gyldontite" "Gylodite" "Gylcynocope" "Gylnacite" "Gylontite" "Gylorytine" "Gylprymène" "Gylrhydène" "Gylsopédine" "Gylstretrope" "Gylthytine" "Gylultrope" "Gylvertite"
 # VANILLE			"Gyldontite" "Gylodite" "Gylkynocope" "Gylnacite" "Gylontite" "Gylorytine" "Gylprymene" "Gylrhydene" "Gylsepodine" "Gylstretrope" "Gylthytine" "Gylultrope" "Gylvertite" 
 				}
-				sequential_name = "%R%e Gylgine" # VANILLE "Gylgine %0%"
+				sequential_name = "%R%e Gylgine" # VANILLE "Gylgine %O%"
 			}
 
 			occupation_army = {
@@ -162,7 +183,7 @@
 					"Ontcennite" "Onténusite" "Ontgaltine" "Onthidène" "Ontiténelle" "Ontocène" "Ontacite" "Ontorytine" "Ontrilocope" "Ontstretrope" "Ontultrope" "Ontxelnite" "Ontdricène"
 # VANILLE			"Ontcennite" "Ontenusite" "Ontgaltine" "Onthidene" "Ontitenel" "Ontocene" "Ontacite" "Ontorytine" "Ontrilocope" "Ontstretrope" "Ontultrope" "Ontxelnite" "Ontdricene" 
 				}
-				sequential_name = "%R%e Ontocène" # VANILLE "Ontcene %0%"
+				sequential_name = "%R%e Ontocène" # VANILLE "Ontcene %O%"
 			}
 
 			robotic_occupation_army = {
@@ -170,7 +191,7 @@
 					"Onilcéphène" "Oniloricène" "Onilphirdine" "Onilphyldite" "Onilghymène" "Onilyonrope" "Onilnodéline" "Onilorytine" "Onilrilocope" "Onilteutorite" "Onilénusite" "Onilétoline" "Onilphirdine"
 # VANILLE			"Onilcephene" "Oniloricene" "Onilfirdine" "Onilfyldite" "Onilghymene" "Onilyonrope" "Onilnodeline" "Onilorytine" "Onilrilocope" "Onilteutorite" "Onilenusite" "Oniletoline" "Onilfirdine"  
 				}
-				sequential_name = "%R%e Onirobe" # VANILLE "Oniroba %0%"
+				sequential_name = "%R%e Onirobe" # VANILLE "Oniroba %O%"
 			}
 
 			primitive_army = {
@@ -178,7 +199,7 @@
 					"Dynbortite" "Dyncolcite" "Dyndicunite" "Dyndyrérite" "Dynérodite" "Dynidenrite" "Dynjanrite" "Dynnophite" "Dynpenrite" "Dynrephite" "Dynthernite" "Dynvénérite" "Dynhazrite"
 # VANILLE			"Dynbortit" "Dyncolcit" "Dyndicunit" "Dyndyrerit" "Dynerodit" "Dynidenrit" "Dynjanrit" "Dynnophit" "Dynpenrit" "Dynrephit" "Dynthernit" "Dynvenerit" "Dynhazrit"  
 				}
-				sequential_name = "%R%e Dynéprite" # VANILLE "Dyneprit %0%"
+				sequential_name = "%R%e Dynéprite" # VANILLE "Dyneprit %O%"
 			}
 			
 			industrial_army = {
@@ -186,7 +207,7 @@
 					"Técacudite" "Teccennite" "Tecdricène" "Tecphyldite" "Técuertz" "Téconrope" "Técynocope" "Tecnacite" "Técorytine" "Téqurinelle" "Tecstretrope" "Técultrope" "Tecvertite"
 # VANILLE			"Tecacudite" "Teccennite" "Tecdricene" "Tecfyldite" "Tecuertz" "Teconrope" "Tecynocope" "Tecnacite" "Tecorytine" "Tequrinel" "Tecstretrope" "Tecultrope" "Tecvertite" 
 				}
-				sequential_name = "%R%e Técindurite" # VANILLE "Tecindurite %0%"
+				sequential_name = "%R%e Técindurite" # VANILLE "Tecindurite %O%"
 			}
 			
 			postatomic_army = {
@@ -194,7 +215,7 @@
 					"Béracudite" "Bercennite" "Berdricène" "Berphyldite" "Béruertz" "Berjonrope" "Bercynocope" "Bernacite" "Bérorytine" "Béqurinelle" "Berstretrope" "Bérultrope" "Bervertite"
 # VANILLE			"Beracudite" "Bercennite" "Berdricene" "Berfyldite" "Beruertz" "Berjonrope" "Berkynocope" "Bernacite" "Berorytine" "Bequrinel" "Berstretrope" "Berultrope" "Bervertite" 
 				}
-				sequential_name = "%R%e Berpose" # VANILLE "Berposa %0%"
+				sequential_name = "%R%e Berpose" # VANILLE "Berposa %O%"
 			}
 		}
 

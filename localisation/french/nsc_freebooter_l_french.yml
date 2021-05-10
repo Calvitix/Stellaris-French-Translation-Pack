@@ -7,6 +7,9 @@ nsc_freebooter_forced_border_open_no_rival_empire_modifier:0 "reportez-moi (XVCV
 #this is added to avoid "[20:20:10][localization_util.cpp:25]: Missing localization key [effect_random_war_participant] for effect tooltip"erreur dans le journal des erreurs"
 effect_random_war_participant:0 ""
 
+### Message Types ###
+NSC_FREEBOOTERS_PIRATE_RAID_MESSAGE_TITLE:0 "Raid des Flibustiers terminé"
+
 ### Ship Classes ###
 CORE_NSC_FREEBOOTER_FLAGSHIP:0 "Coeur"
 nsc_freebooter_flagship:0 "Le vaisseau amiral du Grand Khan"
@@ -15,7 +18,7 @@ nsc_freebooter_flagship_plural:0 "Les vaisseaux amiraux du Grand Khan"
 ### Origins ###
 origin_nsc_freebooter:0 "Flibustiers"
 origin_nsc_freebooter_desc:0 "Une bande lâche de mercenaires et de corsaires qui sont plutôt anarchiques et jouissent d'un style de vie décadent quand ils ne causent pas de problèmes."
-origin_nsc_freebooter_effect_tooltip:0 "- Commencez avec un §Y$nsc_freebooter_habitat$§!et la technologie pour en construire plus\n- §Y$nsc_freebooter_habitat$§!fournit des districts spéciaux £building£ mais peut §Rnot§!être développé\n- A accès à des §YAscension Perks§ uniques !et §YEdicts§!\n- Commencez par un §Y$tech_nsc_freebooter_boarding_pod_1$§!technologie pour capturer les vaisseaux ennemis après une bataille de flotte.\n- §R-50§!£opinion£ §YOpinions§!des empires normaux.\n- Commencez avec une espèce primaire ayant le §YFlibustiers§!trait.\n- A §R0%§!Habitabilité sur Mondes §YNormaux§!.\n- A §G100%§!Habitabilité sur §Y$pc_nsc_freebooter_habitat$§!, §Y$pc_habitat$§!, §Y$pc_city$§!, §YGaia§!, §YRing§!, et Mondes §YRelic§!."
+origin_nsc_freebooter_effect_tooltip:0 "- Commencez avec un §Y$nsc_freebooter_habitat$§!et la technologie pour en construire plus\n- §YLes $nsc_freebooter_habitat$§! peuvent §Runiquement§! être remplis de districts spéciaux £building£, qui ne peuvent §Rpas§! être améliorés\n- A accès à des §YAtouts d'Ascension§ uniques et des §YDécrets§!\n- Commencez avec la technologie §Y$tech_nsc_freebooter_boarding_pod_1$§! pour capturer les vaisseaux ennemis après une bataille de flotte.\n- §R-50§!£opinion£ §YOpinions§! des empires normaux.\n- Commencez avec une espèce primaire ayant le trait §YFlibustiers§!.\n- §R0%§!Habitabilité sur les mondes §YNormaux§!.\n- A §G100%§!Habitabilité sur les §Y$pc_nsc_freebooter_habitat$§!, §Y$pc_habitat$§!, et mondes §Y$pc_city$§!, §YGaia§!, §Yanneau-mondes§!, et §YReliques§!."
 
 ### Megastructures / Planet Types ###
 nsc_freebooter_habitat:0 "Habitat des flibustiers"
@@ -23,6 +26,8 @@ nsc_freebooter_habitat_DESC:0 "$habitat_0_DESC$"
 nsc_freebooter_habitat_MEGASTRUCTURE_DETAILS:0 "$habitat_0_MEGASTRUCTURE_DETAILS$"
 pc_nsc_freebooter_habitat:0 "Habitat des flibustiers"
 pc_nsc_freebooter_habitat_desc:0 "$pc_habitat_desc$"
+
+pc_nsc_freebooter_habitat_adj:0 "Repaire de pirates"
 
 ### Districts ###
 district_nsc_freebooter_hab_housing:0 "$district_hab_housing$"
@@ -40,7 +45,9 @@ district_nsc_freebooter_hab_farming_plural:0 "$district_farming_plural$"
 district_nsc_freebooter_hab_bastion:0 "Quartier du Bastion"
 district_nsc_freebooter_hab_bastion_desc:0 "Cette forteresse fournit des fortifications à plusieurs niveaux et constitue la dernière ligne de défense de cet habitat."
 district_nsc_freebooter_hab_bastion_plural:0 "Districts de Bastion"
-
+district_nsc_freebooter_hab_factory:0 "District d'usines"
+district_nsc_freebooter_hab_factory_desc:0 "Des ateliers remplis d'artisans et d'industries civiles bordent les rues empilées de ce district."
+district_nsc_freebooter_hab_factory_plural:0 "Districts d'usines"
 ### Deposits ###
 d_nsc_freebooter_home:0 "Monde natal des flibustiers"
 d_nsc_freebooter_home_desc:0 "Cet ancien habitat est la maison, l'origine de ces flibustiers."
@@ -133,7 +140,7 @@ nsc_freebooter_admiral_trait_great_khan_desc:0 "$leader_trait_great_khan_desc$"
 nsc_freebooter_admiral_trait_child_of_great_khan:0 "$nsc_freebooter_leader_trait_ruler_child_of_great_khan$"
 nsc_freebooter_admiral_trait_child_of_great_khan_desc:0 "$nsc_freebooter_leader_trait_ruler_child_of_great_khan_desc$"
 
-### Ascension Perks ###
+### Atouts d'Ascension ###
 ap_nsc_freebooter_wrath_of_khan:0 "Colère du Khan"
 ap_nsc_freebooter_wrath_of_khan_desc:0 "Il est temps que notre peuple se lève et accepte le mandat divin. Notre peuple est destiné à régner en maître et le sera."
 ap_nsc_freebooter_wrath_of_khan_tooltip:0 "Notre souverain deviendra un §RGreat Khan§!, et apparaîtra comme un amiral."
@@ -218,6 +225,15 @@ planet_district_nsc_freebooter_hab_foundry:0 "$district_nsc_freebooter_hab_found
 planet_district_nsc_freebooter_hab_mining:0 "$district_nsc_freebooter_hab_mining$"
 planet_district_nsc_freebooter_hab_farming:0 "$district_nsc_freebooter_hab_farming$"
 planet_district_nsc_freebooter_hab_bastion:0 "$district_nsc_freebooter_hab_bastion$"
+mod_planet_district_nsc_freebooter_hab_foundry_cost_mult:0 "Coût des $district_nsc_freebooter_hab_foundry$"
+mod_planet_district_nsc_freebooter_hab_foundry_upkeep_mult:0 "Entretien des $district_nsc_freebooter_hab_foundry$"
+mod_planet_district_nsc_freebooter_hab_mining_cost_mult:0 "Coût des $district_nsc_freebooter_hab_mining$"
+mod_planet_district_nsc_freebooter_hab_mining_upkeep_mult:0 "Entretien des $district_nsc_freebooter_hab_mining$"
+mod_planet_district_nsc_freebooter_hab_farming_cost_mult:0 "Coût des $district_nsc_freebooter_hab_farming$"
+mod_planet_district_nsc_freebooter_hab_farming_upkeep_mult:0 "Entretien des $district_nsc_freebooter_hab_farming$"
+mod_planet_district_nsc_freebooter_hab_bastion_cost_mult:0 "Coût des $district_nsc_freebooter_hab_bastion$"
+mod_planet_district_nsc_freebooter_hab_bastion_upkeep_mult:0 "Entretien des $district_nsc_freebooter_hab_bastion$"
+
 
 ### Technologies ###
 tech_nsc_freebooter_boarding_pod_1:0 "Pod d'embarquement de base"

@@ -1,4 +1,7 @@
 ## Supremacists
+# Original File, Overwritten by FrenchTranslationPack
+# Calvitix 3.0.1. Check OK, 15/04/2021
+#
 pop_faction_name_parts_list = {
 	key = "supremacist_names_1"
 	parts = {
@@ -436,6 +439,37 @@ pop_faction_name_format = {
 		}
 	}
 	format = "format.xenoist.1"
+}
+
+## Manifesti
+pop_faction_name_parts_list = {
+	key = "manifesti_names_1"
+	parts = {
+		"de Manifestants" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "manifesti_names_2"
+	parts = {
+		"Par-tai" = 1
+		"Dalliance" = 1
+		"Palette" = 1
+		"Convolution" = 1
+		"Praxis" = 1
+		"Vague" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "manifesti"
+		}
+	}
+	format = "<manifesti_names_2> <manifesti_names_1>"
 }
 
 ###############################

@@ -2,8 +2,8 @@
  
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 17.11.2020
- # Translation check : 17.11.2020
+ # Update check : 15.04.2021
+ # Translation check : 15.04.2021
  ####################################
 
  
@@ -13,7 +13,7 @@
  relic_cybrex_active:0 "Produit §Y5000§!£alloys£"
  sentinel_army_desc:0 "Des statues vivantes d'essence essentiellement mécaniques, aux corps bruissants et à la peau rayonnante, des radiations émanant depuis leur intérieur, prêtes à détruire leurs ennemis."
  minor_artifacts:0 "Artefacts mineurs"
- minor_artifacts_desc:0 "§ELes £minor_artifacts£§Hartefacts mineurs§! représentent un savoir technologique obscur et à demi-oublié, retrouvé en s'intéressant à des civilisations antiques. Ce savoir n'est qu'en partie compris par nos propres sciences. Ces artefacts sont plus communs que les reliques, et peuvent être utilisés pour avoir des effets dans tout l'empire.§!"
+ minor_artifacts_desc:0 "§ELes £minor_artifacts£§Hartefacts mineurs§! représentent un savoir technologique obscur et à demi oublié, retrouvé en s'intéressant à des civilisations antiques. Ce savoir n'est qu'en partie compris par nos propres sciences. Ces artefacts sont plus communs que les reliques, et peuvent être utilisés pour avoir des effets dans tout l'empire.§!"
  artifact_actions:0 "Actions des artefacts"
  relics:0 "Reliques"
  relic_activation_cooldown:0 "Temps d'attente avant le recours à une relique"
@@ -62,7 +62,7 @@
 
  #Tutorial
  TUTORIAL_RELICS_VIEW_TITLE:0 "Reliques et artefacts mineurs"
- TUTORIAL_RELICS_VIEW_DESC:1 "L'écran des §Sreliques§! permet de voir et d'activer toutes celles détenues par notre empire, ainsi que de promulguer des décisions nécessitant des £minor_artifacts£§Sartefacts mineurs§!.\n\nLa mention d'une « décision planétaire » n'est affichée là que pour montrer la possibilité de la promulguer, mais doit l'être depuis l'écran des décisions du monde souhaité."
+ TUTORIAL_RELICS_VIEW_DESC:2 "L'écran des §Sreliques§! permet de voir et d'activer toutes celles détenues par notre empire, ainsi que de promulguer des décisions nécessitant des £minor_artifacts£§Sartefacts mineurs§!.\n\nLa mention d'une « décision planétaire » n'est affichée là que pour montrer la possibilité de la promulguer, mais doit l'être depuis l'écran des décisions du monde souhaité."
  
  TUTORIAL_ARCHAEOLOGY_VIEW_TITLE:0 "Vue des fouilles archéologiques"
  TUTORIAL_ARCHAEOLOGY_VIEW_DESC:0 "L'écran archéologique affiche les détails sur le §Ysite archéologique§! actuellement sélectionné. Après toute avancée sur place, vous pouvez revenir en arrière et lire ce qui concerne les étapes précédentes en cliquant sur la rune.\n\nPour dévoiler les secrets d'un site, un scientifique doit avoir réussi à mener à bien chaque §Yphase de fouille§! du site. S'il a les §Ytraits§! appropriés et une §Ycompétence élevée§!, ses avancées jusqu'à la prochaine phase seront d'autant plus rapides, tandis qu'un niveau de difficulté plus important le ralentira. Tout scientifique ayant fouillé suffisamment longtemps un site collectera des §Yindices§!, qui rendront plus probable un succès."
@@ -118,7 +118,7 @@
  d_former_relic_world:0 "Ancien monde relique"
  d_former_relic_world_desc:0 "Cette oecuménopole était autrefois un monde relique abandonné. La plupart de ses ruines antiques ont été réutilisées et nettoyées lorsque la cité s'étendant sur toute sa surface a été reconstruite, mais il reste encore de nombreux sites ayant une très grande valeur scientifique."
 
- CREATE_ARCHAEOLOGIC_SITE_TYPE:0 "Crée le site archéologique $TYPE|Y$ sur $WHERE|Y$.\n"
+ CREATE_ARCHAEOLOGIC_SITE_TYPE:0 "Crée un site archéologique $TYPE$ sur $WHERE|Y$.\n"
  CREATE_ARCHAEOLOGIC_SITE_RANDOM:0 "Crée un site archéologique aléatoire sur $WHERE|Y$.\n"
  DESTROY_ARCHAEOLOGIC_SITE:0 "Détruit le site archéologique $NAME|Y$.\n"
  FLEETORDER_EXCAVATE_BUTTON:0 "Fouiller un site"
@@ -139,8 +139,8 @@
  IS_ARCHAEOLOGICAL_SITE_CLUES_TRIGGER:0 "Indices du site $COMPARE$s à $NUM_COMPARE$"
  IS_NOT_ARCHAEOLOGICAL_SITE_DAYS_LEFT_TO_ROLL_TRIGGER:0 "Jours restants jusqu'au prochain lancer PAS $COMPARE$s à $NUM_COMPARE$"
  IS_ARCHAEOLOGICAL_SITE_DAYS_LEFT_TO_ROLL_TRIGGER:0 "Jours restant jusqu'au prochain lancer $COMPARE$s à $NUM_COMPARE$"
- IS_NOT_ARCHAEOLOGICAL_SITE_LAST_EXCAVATOR_TRIGGER:0 "Le dernier fouilleur n'était PAS '$COUNTRY$'"
- IS_ARCHAEOLOGICAL_SITE_LAST_EXCAVATOR_TRIGGER:0 "Le dernier fouilleur était '$COUNTRY$'"
+ IS_NOT_ARCHAEOLOGICAL_SITE_LAST_EXCAVATOR_TRIGGER:0 "Le dernier archéologue n'était PAS '$COUNTRY$'"
+ IS_ARCHAEOLOGICAL_SITE_LAST_EXCAVATOR_TRIGGER:0 "Le dernier archéologue était '$COUNTRY$'"
  IS_NOT_ARCHAEOLOGICAL_SITE_TYPE_TRIGGER:0 "Le site n'est PAS de type $TYPE$"
  IS_ARCHAEOLOGICAL_SITE_TYPE_TRIGGER:0 "Le site est de type $TYPE$"
  IS_NOT_ARCHAEOLOGICAL_SITE_FINISHED_TRIGGER:0 "Le site n'est PAS terminé"
@@ -155,25 +155,26 @@
  IS_ARCHAEOLOGICAL_SITE_CURRENT_EXCAVATOR_FLEET_TRIGGER:0 "La flotte actuelle des fouilles est la $FLEET$"
  MOD_SHIP_ARCHAEOLOGICAL_SITE_EXCAVATION_SPEED_MULT:0 "Vitesse des fouilles archéologiques "
  MOD_SHIP_ARCHAEOLOGICAL_SITE_CLUES_ADD:0 "Compétence archéologique "
- ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_RANGE:0 "$MIN|0Y$ à $MAX|0Y$ ($CHANCE|%0Y$ de chances) : §Y+$CLUES|0$§! indices."
+ ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_RANGE:1 "$MIN|0Y$ à $MAX|0Y$ ($CHANCE|%0Y$ de chances) : §Y+$CLUES|0$§! indices."
  ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_GREATER_THAN_EQ:0 "Au moins $MIN|0Y$ ($CHANCE|%0Y$ de chances) : chapitre terminé."
  ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_LESS_THAN_EQ:0 "$MAX|0Y$ ou moins ($CHANCE|%0Y$ de chances) : §Y+$CLUES|0$§! indices."
- archaeology_roll_header:0 "§H$ARCHAEOLOGICAL_SITE_BREAKTHROUGH$§!\nChances de déboucher sur un succès au cours des fouilles du site.\n\nÀ la fin de chaque phase, un dé est lancé (§Y1§! à §Y20§!). Le résultat de ce lancer est ajouté à l'§Yavantage de compétence§! et aux §Yindices§!, et la §Ydifficulté§! est retranchée.\n\n§ESelon le total :§!"
- 
+ archaeology_roll_header:1 "§H$ARCHAEOLOGICAL_SITE_BREAKTHROUGH$§!\nChances de déboucher sur un succès au cours des fouilles du site.\n\nÀ la fin de chaque phase, un dé est lancé (§Y1§! à §Y10§!). Le résultat de ce lancer est ajouté à l'§Yavantage de compétence§! et aux §Yindices§!, et la §Ydifficulté§! est retranchée.\n\nLe résultat avant le lancer du dé est de $SCORE|0Y$.\n\n§ESelon le total :§!"
+
  alert_activate_relic_title:0 "Utilisation possible d'une relique"
  alert_activate_relic_instant:0 "Il est désormais possible d'utiliser l'une de nos reliques."
- 
+
  CHAPTER_TITLE:0 "Chapitre $CHAPTER$"
  CHAPTER_PROGRESS:0 "Lancer dans $DAYS|Y$£time£"
  DIFFICULTY_EASY:0 "§GFacile§!"
  DIFFICULTY_NORMAL:0 "§YNormal§!"
  DIFFICULTY_HARD:0 "§HDifficile§!"
  DIFFICULTY_HELL:0 "§RAtroce§!"
+ DIFFICULTY_EXTRA_HELL:0 "$DIFFICULTY_HELL$$EXTRA|R$"
  LEADER_BONUS:0 "Avantage pour la personnalité : $BONUS|Y$"
  ARCHAEOLOGICAL_SITE_CHALLENGE:0 "§HDéfi§!\nCeci représente le niveau de difficulté du site, selon le niveau du scientifique qui y a été affecté."
  ARCHAEOLOGICAL_SITE_BREAKTHROUGH:0 "Chances de succès"
- VIEW_SITE:0 "Voir le site"
- 
+ VIEW_SITE:1 "£archaeology£Voir le site"
+ SHOW_FIRST_CONTACT:0 "Voir le contact"
  ARCHAEOLOGICAL_SITE_FINISHED:0 "Ce site a été entièrement fouillé"
  ARCHAEOLOGICAL_SITE_LOCKED:0 "Fichiers des fouilles fermés"
 
@@ -698,6 +699,10 @@
  district_rw_nexus_plural:0 "Segments centraux"
  district_rw_nexus_desc:0 "Des districts extrêmement productifs sont réunis sur cette section de l'anneau-monde, offrant de nombreux lieux où les drones peuvent se voir proposer services et réparations avant d'être affectés à leurs diverses tâches."
 
+ district_rw_industrial:0 "Segment industriel"
+ district_rw_industrial_plural:0 "Segments industriels"
+ district_rw_industrial_desc:0 "Cette section de l'anneau est emplie d'usines bruyantes et de machineries puissantes, fournissant une base industrielle solide à l'empire."
+
  ##################
  # DEPOSITS
  ##################
@@ -783,7 +788,7 @@
  ancrel.10010.desc:0 "Sur quel type d'application devrions-nous concentrer l'étude des artefacts mineurs ?"
  ancrel.10020.name:0 "Recherche d'applications pacifiques"
  ancrel.10020.desc:0 "$ancrel.10010.desc$"
- 
+
  mega_art_installation_4:0 "Mégartistique : perfection"
  mega_art_installation_4_DESC:0 "Elle mêle l'antique et la modernité d'une manière que personne n'aurait même cru possible.\n\nElle est la perfection."
  mega_art_installation_restored_2:0 "$mega_art_installation_4$"
