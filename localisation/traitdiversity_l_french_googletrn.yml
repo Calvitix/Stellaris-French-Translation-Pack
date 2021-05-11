@@ -1,0 +1,1059 @@
+﻿l_english:
+
+
+
+# *
+# Modifiers
+# *
+
+mod_planet_livestock_minerals_produces_add:0 "£minerals£ $minerals$ de £job_livestock£ §Y$job_livestock_plural$§!"
+
+mod_planet_livestock_alloys_produces_add:0 "£alloys£ $alloys$ de £job_livestock£ §Y$job_livestock_plural$§!"
+
+mod_planet_livestock_energy_produces_add:0 "£energy£ $energy$ de £job_livestock£ §Y$job_livestock_plural$§!"
+
+mod_planet_pops_food_upkeep_mult:0 "Pop £food£ $food$. "
+
+mod_planet_pops_minerals_upkeep_mult:0 "Pop £minerals£ $minerals$. "
+
+mod_planet_pops_consumer_goods_upkeep_mult:0 "Pop £consumer_goods£ $consumer_goods$. "
+
+MOD_TD_FORCED_HAPPINESS:0 "§Les bonheurdisabled, ne seront pas affectés par le bonheur§! "
+
+MOD_TD_LEADER_IMMORTAL:0 "§Gimmortal, ne mourra jamais de la vieillesse§! "
+
+MOD_TD_LEADER_AGE_RANGE:0 "Gamme d'âge de dirigeants recrutés"
+
+MOD_TD_TRAIT_POINT_ADD:0 "Points de trait disponibles"
+
+
+
+# *
+# Traits - POP Attributes
+# *
+
+
+# POP Happiness - Disable
+
+trait_td_multi_hiveminded:0 "Multi-hivemindifié"
+trait_td_multi_hiveminded_desc:0 "§Llamong Cette espèce est plusieurs esprits de ruches dans le processus d'unification. Chaque essentiel de la Hive-Mind fonctionne comme un chef de file, mais leurs capacités sont diminuées tout en soutenant la conscience . §! "
+TRAIT_TD_MULTI_HIVEMINDED_EFFECT:0 "$mod_planet_jobs_worker_produces_mult$: §g+7, 5%§!\n$ mod_planet_jobs_unity_produces_mult $: §g+12, 5%§!\n$MOD_LEADER_SKILL_LEVELS$: §R-1§!\n$ mod_td_forced_happiness $"
+
+trait_td_emotionless:0 "Vide d'émotion"
+trait_td_emotionless_desc:0 "§Il n'y a pas d'émotion pour cette espèce. Certains phénomènes sociaux communs ne sont pas observés dans leur société. "
+TRAIT_TD_EMOTIONLESS_EFFECT:0 "$mod_planet_jobs_society_research_produces_mult$: §-2, 5%§!\n$ mod_td_forced_happiness $"
+
+trait_td_psychopathic:0 "Psychopathique"
+trait_td_psychopathic_desc:0 "§Il n'y a pas d'émotion distincte pour cette espèce. Ces lacunes émotionnelles sont généralement résolues par des homicides impulsifs, une menace constante pour l'existence de cette espèce . §! "
+TRAIT_TD_PSYCHOPATHIC_EFFECT:0 "$MOD_POP_GROWTH_SPEED$: §-10%§!\n$MOD_ARMY_DAMAGE_MULT$: §-10%§!\n$MOD_TD_FORCED_HAPPINESS$"
+
+
+# POP Happiness
+
+trait_td_futurespawns:0 "FuturesPawns"
+trait_td_futurespawns_desc:0 "§Les espèces sont des exilés de l'avenir lointain. Pourquoi sont-ils ici et qu'est-ce qui leur est arrivé ? §! "
+
+trait_td_witness:0 "Témoin"
+trait_td_witness_desc:0 "§Members de cette espèce a été témoin de certains eldritch occurrence et compris ce que c'est. §! "
+
+
+# POP Happiness - Stratum
+
+trait_td_noblesse_oblige:0 "Noblesse Oblige"
+trait_td_noblesse_oblige_desc:0 "§Leaders de cette espèce fixent un excellent exemple à leurs inféreurs. §! "
+
+trait_td_aristocratic:0 "Aristocratique"
+trait_td_aristocratic_desc:0 "§Members de cette espèce estiment qu'ils sont nobles naissance;Ils revendiquent toujours leurs droits . §! "
+
+trait_td_lust_for_power:0 "Convoitise pour le pouvoir"
+trait_td_lust_for_power_desc:0 "§Pour les membres de cette espèce, il est considéré comme extrêmement humiliant d'être gouverné . §! "
+
+trait_td_rite_of_succession:0 "Rite de succession"
+trait_td_rite_of_succession_desc:0 "§Le espèce a une hiérarchie rigide et des membres de classement inférieur doivent obéir à leurs supérieurs. Les membres moindres peuvent contester les rangs plus élevés pour leur position à travers un rite de succession. Une fois qu'un défi est émis, ils sont liés à leur objectif jusqu'à la victoire ou la mort . §! "
+
+
+# Habitability
+
+trait_td_assimilation:0 "Assimilation"
+trait_td_assimilation_desc:0 "§Members de cette espèce peut assimiler avec n'importe quel environnement. Ce processus prend beaucoup de temps, ils ont donc tendance à éviter la migration. §! "
+
+trait_td_fast_adaption:0 "Adaptation rapide"
+trait_td_fast_adaption_desc:0 "§Ce espèce peut s'adapter aux environnements étrangers très rapidement. "
+
+trait_td_camouflage:0 "Camouflage"
+trait_td_camouflage_desc:0 "§Ce espèce peut rapidement camoufler vers leur environnement environnant. §! "
+
+trait_td_harmonization:0 "Harmonisation"
+trait_td_harmonization_desc:0 "§Ce espèce habite dans n'importe quel environnement comme s'il y en avait une partie naturelle . §! "
+
+trait_td_slow_adaption:0 "Adaptation lente"
+trait_td_slow_adaption_desc:0 "§Ces espèces luttes et dépense plus de temps pour s'adapter aux environnements étrangers. §! "
+
+trait_td_nostalgia:0 "Nostalgie"
+trait_td_nostalgia_desc:0 "§Ce espèce montre une attache forte à leur monde homéomique. Certains d'entre eux pourraient être capables de quitter leur lieu de naissance mais sont sujets à la dépression tout au long de la vie . §! "
+
+trait_td_paradise_lost:0 "paradis perdu"
+trait_td_paradise_lost_desc:0 "§Ce espèce souffre dans des environnements que d'autres espèces peuvent facilement s'adapter à. Le paradis pour eux est une sorte de mirage, cependant, ils ont toujours beaucoup d'espoir. §! "
+
+trait_td_lith_paradise_lost:0 "$trait_td_paradise_lost$"
+trait_td_lith_paradise_lost_desc:0 "$trait_td_paradise_lost_desc$"
+
+
+# POP Growth
+
+trait_td_clones:0 "Clones"
+trait_td_clones_desc:0 "§ Les membres de cette espèce ont appliqué le clonage pour renforcer leur taux de natalité, à travers les clones ayant une faible activité cérébrale . §! "
+
+trait_td_self_replicating:0 "Auto-réplique"
+trait_td_self_replicating_desc:0 "§Members de cette espèce peut se répliquer auto-répliquée. Cela augmente considérablement leur taux de reproduction. §! "
+
+trait_td_natural_selection:0 "Sélection naturelle"
+trait_td_natural_selection_desc:0 "§Ce espèce a une structure génétique très flexible et une courte période de gestation. Leur stratégie est de survivre à travers une adaptation fréquente. §! "
+
+trait_td_split:0 "Diviser"
+trait_td_split_desc:0 "§Members de cette espèce subit souvent une scission imprévisible. Une fois la scission terminée, la nouvelle personne est complètement indépendante de l'original. §! "
+
+trait_td_unintended_fusion:0 "Fusion inattendue"
+trait_td_unintended_fusion_desc:0 "§Lembers de cette espèce souffre de fusions inattendues : quand ils sont en contact avec un autre individu, ils fusionnent souvent ensemble. Après la fusion, une des personnalités dominera et continue comme une entité indépendante . §! "
+
+trait_td_hypofertile:0 "Hypofertile"
+trait_td_hypofertile_desc:0 "§Le espèce souffre de taux de natalité extrêmement faibles en raison de facteurs biologiques et sociaux. §! "
+
+trait_td_infanticidal:0 "Infantibide"
+trait_td_infanticidal_desc:0 "§Ce espèce a une horreur d'infanticide;leurs nourrissons sont traités comme une grande délicatesse. Seuls peu de nourrissons sont épargnés de cette terrible personnalisée . §! "
+
+trait_td_last_children:0 "Dernier enfant"
+trait_td_last_children_desc:0 "§Ce espèce intelligente génétiquement modifiée génétiquement il y a des décennies, mais cette avance avait des effets secondaires catastrophiques entraînant de faibles taux de naissance. Ils pourraient être les derniers enfants de leur espèce. §! "
+
+
+# POP Growth - Immigration / Resettlement Cost
+
+trait_td_territorial:0 "Territorial"
+trait_td_territorial_desc:0 "§Members de cette espèce démontrent un comportement territorial. La violation de leur zone personnelle est considérée comme un tabou sérieux. §! "
+
+trait_td_rooted:0 "Enraciné"
+trait_td_rooted_desc:0 "§Ce espèce ne percevrait aucune valeur dans le concept de voyage. Ils sont extrêmement réticents à s'éloigner de leur monde domestique. §! "
+
+
+# Governing Ethics Attraction
+
+trait_td_sympathetic:0 "Sympathique"
+trait_td_sympathetic_desc:0 "§Members de cette espèce sont doués de la capacité d'empathie profondément avec les pensées d'autres individuels. "
+
+# Stratum Political Power
+
+trait_td_unflinching:0 "Sans faille"
+trait_td_unflinching_desc:0 "§Ce espèce a un esprit inégalement. Bien que leurs corps puissent être dominés, leurs esprits ne peuvent pas être cassés . §! "
+
+
+
+# *
+# Traits - POP Outputs
+# *
+
+
+# Resources
+
+trait_td_paragon:0 "Parangon"
+trait_td_paragon_desc:0 "§Ce espèce est très polyvalente. §! "
+
+
+# Resources - Stratum
+
+trait_td_lazy:0 "Lazy"
+trait_td_lazy_desc:0 "§Members de cette espèce timide de la main-d'oeuvre difficile et s'abstenir généralement de s'exercer. "
+
+
+# Food
+
+trait_td_fruitage:0 "Fruits"
+trait_td_fruitage_desc:0 "§Ce espèce porte régulièrement des fruits. Le but de cet organe de fructification est inconnu du point de vue biologique, mais le fruit est délicieux et nutritif. §! "
+
+trait_td_hunter_gatherers:0 "Hunter-Gatherers"
+trait_td_hunter_gatherers_desc:0 "§Chis espèces dépend toujours d'une strate de chasseur-cueilleur pour une grande partie de la production alimentaire. §! "
+
+trait_td_hunters:0 "Hunters"
+trait_td_hunters_desc:0 "§Ce espèce dépend toujours d'une strate de chasse pour une grande partie de la production alimentaire. §! "
+
+trait_td_gatherers:0 "Cueilleurs"
+trait_td_gatherers_desc:0 "§Ce espèce dépend toujours d'une strate de rassemblement pour une grande partie de la production alimentaire. "
+
+trait_td_eolithic:0 "Eolithique"
+trait_td_eolithic_desc:0 "§Ces espèces luttes avec des concepts agricoles et d'ingénierie. Leur vie est assez similaire aux primitives. §! "
+
+trait_td_abominations:0 "Abominations"
+trait_td_abominations_desc:0 "§L' ombre de la mort suit cette espèce autour. Même les mauvaises herbes osent grandir sur leur terre, même dans les coins sombres de leurs mondes solitaires. "
+
+
+# Energy Credits
+
+trait_td_radiant_vein:0 "Veine radieuse"
+trait_td_radiant_vein_desc:0 "§Le sang de cette espèce contient un composé spécial et brille de bulles d'énergie pure. "
+
+
+# Alloys
+
+trait_td_pyrokinetic:0 "Pyrokinétique"
+trait_td_pyrokinetic_desc:0 "§Members de cette espèce peut produire une flamme sans assistance artificielle. Cela ne serait pas seulement utilisé pour une fusion mais aussi utilisé pour la guerre. §! "
+
+trait_td_metallizing_touch:0 "Touche de métallisation"
+trait_td_metallizing_touch_desc:0 "§Ce espèce a la capacité de convertir des objets en composés métalliques en les touchant . §! "
+
+trait_td_ignis_fatuus:0 "Brin"
+trait_td_ignis_fatuus_desc:0 "§Lembers de cette espèce peut produire une flamme sans aucune assistance artificielle. Cela ne serait pas seulement utilisé pour une fusion mais aussi utilisé pour la guerre, mais ils sont fortement réticents à brûler une autre forme de vie avec leur flamme. §! "
+
+trait_td_flintknapping:0 "Flushapping"
+trait_td_flintknapping_desc:0 "§Members de cette espèce ont du mal à comprendre de nombreux concepts fondamentaux de la science matérielle. Ils construisent généralement leur civilisation avec des minéraux bruts au lieu d'alliages. §! "
+
+
+# Researches
+
+trait_td_genius:0 "Génie"
+trait_td_genius_desc:0 "§Ce espèce a atteint la plus haute forme d'intelligence;Ils ne peuvent pas être plus intelligents que cela sans ingénierie génétique avancée . §! "
+
+trait_td_brilliant:0 "Brilliant"
+trait_td_brilliant_desc:0 "§Ce espèce est remarquablement intelligente. §! "
+
+trait_td_vacuous:0 "Vide"
+trait_td_vacuous_desc:0 "§Members de cette espèce sont inhabituellement stupides. Si vous voulez jouer une blague sur eux, n'utilisez pas de sarcasme. Ils ne l'obtiendront pas . §! "
+
+trait_td_great_excuses:0 "Grandes excuses"
+trait_td_great_excuses_desc:0 "§Ce espèce a consacré leurs efforts à faire de grandes excuses pour ignorer les avancées scientifiques. Les années de négligence leur ont fourni des excuses plausibles. §! "
+
+
+# Researches - Area
+
+trait_td_technicism:0 "Technicism"
+trait_td_technicism_desc:0 "§ Les membres de cette espèce ont une grande inclination naturelle à l'égard de l'ingénierie et des sciences du matériau, mais négligent d'autres domaines de la recherche. §! "
+
+trait_td_physicalism:0 "Physicalisme"
+trait_td_physicalism_desc:0 "§ Les membres de cette espèce ont une forte inclination naturelle à l'égard de la physique théorique et des phénomènes astraux, mais négligent d'autres domaines de la recherche. §! "
+
+trait_td_biologism:0 "Biologisme"
+trait_td_biologism_desc:0 "§ Les membres de cette espèce ont une forte inclination naturelle à l'égard des études sociales et biologiques, mais négligent d'autres domaines de la recherche. §! "
+
+trait_td_technological_lag:0 "Décalage technologique"
+trait_td_technological_lag_desc:0 "§Le espèce est lente d'intégrer de nouvelles découvertes d'ingénierie dans leur société et prennent des mesures méticuleuses pour que les nouvelles technologies soient intégrées avec succès à la vie des citoyens ayant une perturbation minimale . §! "
+
+trait_td_cultural_lag:0 "Décalage culturel"
+trait_td_cultural_lag_desc:0 "§Ce thème de développement culturel des espèces ne pouvait pas suivre leurs avancées matérielles, alors que leur société est assez rudimentaire par rapport à leur technologie . §! "
+
+trait_td_technophobes:0 "Technophobes"
+trait_td_technophobes_desc:0 "§ Les membres de cette espèce ont du mal à comprendre beaucoup de concepts fondamentaux de l'ingénierie et ont tendance à crainter . §! "
+
+trait_td_numerophobes:0 "Numérosphobes"
+trait_td_numerophobes_desc:0 "§ Les membres de cette espèce ont du mal à saisir de nombreux concepts fondamentaux de la physique théorique et ont tendance à crainter . §! "
+
+trait_td_verbophobes:0 "Verbophobes"
+trait_td_verbophobes_desc:0 "§Members de cette espèce ont du mal à saisir de nombreux concepts fondamentaux de la sociologie et ont tendance à crainter . §! "
+
+
+# Unity
+
+trait_td_army_traditions:0 "Traditions de l'armée"
+trait_td_army_traditions_desc:0 "§Ces espèces applique des traditions martiales fortes produites par des millénaires de guerre intermittente sur leur monde homéographiant. §! "
+
+trait_td_symbiotic:0 "Symbiotique"
+trait_td_symbiotic_desc:0 "§Members de cette espèce vivent en symbiose avec d'autres créatures autochtones sur la planète. Même dans des environnements étrangers, ils ont peu de difficulté à s'intègrir à des écosystèmes locaux. "
+
+trait_td_aggressive:0 "Aggressive"
+trait_td_aggressive_desc:0 "§Members de cette espèce sont très agressifs. Ces brutes truchent la dissonance non seulement dans leur société, mais également sur le champ de bataille qui les rendent pauvres soldats . §! "
+
+trait_td_bloodthirsty:0 "Sanguinaire"
+trait_td_bloodthirsty_desc:0 "§Ce espèce est la sang-froid. Leur société ne peut pas fonctionner sans violence. §! "
+
+
+# Livestock Outputs
+
+trait_td_meatballs:0 "Boulettes de viande"
+trait_td_meatballs_desc:0 "§ Les membres de cette espèce n'ont pas de structure squelettique et sont dites très délicieux. Ils ont peut-être évolué naturellement ou ont subi une modification génétique particulière . §! "
+
+trait_td_toxic:0 "Toxic"
+trait_td_toxic_desc:0 "§La la chair et le sang de cette espèce contiennent des substances toxiques. Ne les mangez pas ! §! "
+
+trait_td_bitter:0 "Bitter"
+trait_td_bitter_desc:0 "§Ce espèce goûte terrible, peu importe la façon dont ils sont cuits. Ils constituent un énorme défi pour les chefs de la galaxie. §! "
+
+
+
+# *
+# Traits - POP Upkeeps
+# *
+
+
+# Food Upkeep / Minerals Upkeep
+
+trait_td_aura_absorption:0 "Aura Absorption"
+trait_td_aura_absorption_desc:0 "§Le espèce prend des nutriments en absorbant «aura» des objets environnants. Chaque objet peut fournir une aura une seule fois et plus d'objets artistiques peuvent fournir plus d'aura. Il n'y a pas de théorie appropriée expliquant leur système digestif. §! "
+
+trait_td_sanguivore:0 "Solitaire"
+trait_td_sanguivore_desc:0 "§Lembers de cette espèce peut ingérer le sang d'autres créatures. Étant donné que le sang est considéré comme une délicatesse pour cette espèce, certains agriculteurs ont une envie incontrôlable de sucer le sang du bétail . §! "
+
+trait_td_lithovore:0 "Lapidé"
+trait_td_lithovore_desc:0 "§Members de cette espèce peut ingérer des minéraux. Étant donné que les minéraux sont considérés comme une délicatesse pour cette espèce, certains mineurs se régalent sur une partie de leur transport. "
+
+trait_td_energivore:0 "Solitaire"
+trait_td_energivore_desc:0 "§Members de cette espèce peut ingérer de l'énergie électrique. Étant donné que l'énergie est considérée comme une délicatesse pour cette espèce, les criminels sont connus pour exploiter des systèmes d'alimentation pour leur propre avantage. §! "
+
+trait_td_lith_energivore:0 "$trait_td_energivore$"
+trait_td_lith_energivore_desc:0 "$trait_td_energivore_desc$"
+
+trait_td_lith_metalivore:0 "Métalivores"
+trait_td_lith_metalivore_desc:0 "§Members de cette espèce peut ingérer des métaux. Étant donné que le métal pur est considéré comme une délicatesse pour cette espèce, les fours doivent être bien protégés, sinon ils fonctionnent comme un restaurant. §! "
+
+trait_td_controlled_metabolism:0 "Métabolisme contrôlé"
+trait_td_controlled_metabolism_desc:0 "§Ce espèce peut contrôler leur métabolisme et survivre sans manger pendant des mois. §! "
+
+trait_td_lith_controlled_metabolism:0 "$trait_td_controlled_metabolism$"
+trait_td_lith_controlled_metabolism_desc:0 "$trait_td_controlled_metabolism_desc$"
+
+trait_td_efficient_metabolism:0 "Métabolisme efficace"
+trait_td_efficient_metabolism_desc:0 "§Ce espèce a un métabolisme lent et efficace. §! "
+
+trait_td_lith_efficient_metabolism:0 "$trait_td_efficient_metabolism$"
+trait_td_lith_efficient_metabolism_desc:0 "$trait_td_efficient_metabolism_desc$"
+
+trait_td_photosynthetic:0 "Photosynthétique"
+trait_td_photosynthetic_desc:0 "§Ce espèce peut utiliser un certain spectre de lumière pour produire des sucres. C'est une grande capacité quand ils sont sous-alimentés, mais ne peuvent pas fournir suffisamment d'énergie pour une activité rigoureuse. "
+
+trait_td_gluttony:0 "Gourmandise"
+trait_td_gluttony_desc:0 "§Members de cette espèce ingère plus de nutrition que nécessaire pour une fonction saine. §! "
+
+trait_td_lith_gluttony:0 "$trait_td_gluttony$"
+trait_td_lith_gluttony_desc:0 "$trait_td_gluttony_desc$"
+
+trait_td_sitomaniac:0 "Sidamaniaque"
+trait_td_sitomaniac_desc:0 "§Members de cette espèce vivent à manger. §! "
+
+trait_td_lith_sitomaniac:0 "$trait_td_sitomaniac$"
+trait_td_lith_sitomaniac_desc:0 "$trait_td_sitomaniac_desc$"
+
+trait_td_devourers:0 "Devourers"
+trait_td_devourers_desc:0 "§Members de cette espèce ne se soucient que de nourrir la faim sans fin. Leurs mouvements sont catastrophiques et laissent ruiner leur sillage. "
+
+
+# Consumer Goods Upkeep
+
+trait_td_pyromaniac:0 "Pyromane"
+trait_td_pyromaniac_desc:0 "§Members de cette espèce gagne une grande joie de brûler quelque chose. Les combustibles de luxe sont observés comme une agrafe de leur économie. §! "
+
+
+# POP Housing Usage
+
+trait_td_therianthropic:0 "Thérienthropique"
+trait_td_therianthropic_desc:0 "§Le espèce souffre d'une épidémie psionique transmise par la salive. Les individus infectés peuvent être formés dans une bête sauvage semblable à leur faune indigène et sont affligées par une envie destructive. "
+
+trait_td_tidy:0 "Bien rangé"
+trait_td_tidy_desc:0 "§Members de cette espèce sont connus pour garder leur environnement rangé tout le temps. §! "
+
+trait_td_messy:0 "Messy"
+trait_td_messy_desc:0 "§Members de cette espèce sont doués dans la fabrication de leur environnement en désordre. §! "
+
+
+# POP Amenities Usage
+
+trait_td_vampiric:0 "Vampirique"
+trait_td_vampiric_desc:0 "§Le espèce souffre d'une épidémie psionique transmise à travers la salive et le sang. Les victimes de cette épidémie deviendraient de type vampirique et formeraient un clan et engager une allégeance à un clan master. §! "
+
+trait_td_sadists:0 "Sadix"
+trait_td_sadists_desc:0 "§Members de cette espèce prennent grand plaisir à infliger une douleur aux autres. "
+
+trait_td_photosensitive:0 "Photosensible"
+trait_td_photosensitive_desc:0 "§Lembers de cette espèce se sentent étourdi quand ils sont confrontés à des lumières radiantes ou clignotantes, elles peuvent avoir des crises dans certains cas. Les normes pour leurs bâtiments comprennent une clause majeure pour bloquer la lumière du soleil. §! "
+
+
+
+# *
+# Traits - Leader Attributes
+# *
+
+
+# Leader Attributes
+
+trait_td_heroism:0 "Héroïsme"
+trait_td_heroism_desc:0 "§Ils étaient de nombreux héros de l'histoire de cette espèce et il y aura plus de héros à venir. §! "
+
+trait_td_born_to_rule:0 "Né pour diriger"
+trait_td_born_to_rule_desc:0 "§Members de cette espèce naît de la règle. Les tyrans incompétents ne sont pas trouvés dans l'histoire de cette espèce. §! "
+
+trait_td_arrested_learning:0 "Arrêté l'apprentissage"
+trait_td_arrested_learning_desc:0 "§Members de cette espèce sont lents à apprendre de leurs expériences et atteignent généralement le plateau de leurs compétences à bas niveaux . §! "
+
+
+# Leader Lifespan
+
+trait_td_eternal_youth:0 "Jeunesse éternelle"
+trait_td_eternal_youth_desc:0 "§Ce espèce ne mourra jamais de vieillesse. Avec l'éternité à la portée, ils ont perdu leur esprit de défi, leur curiosité;Seule une peur extrême d'être blessé reste . §! "
+TRAIT_TD_ETERNAL_YOUTH_EFFECT:0 "$MOD_LEADER_SPECIES_EXP_GAIN$: §R-60%§!\n$ mod_army_damage_mult $: §r-12, 5%§!\n$MOD_ARMY_MORALE$: §R-15%§! {Xxspxx §! $MOD_TD_LEADER_IMMORTAL$"
+
+trait_td_unhurried:0 "Sans hâte"
+trait_td_unhurried_desc:0 "§ Pour cette espèce, le temps vole lentement. Ils mûrissent un peu lentement mais ils peuvent vivre inhabituellement long. §! "
+TRAIT_TD_UNHURRIED_EFFECT:0 "$MOD_LEADER_AGE$: §++ 80§!\n$MOD_TD_LEADER_AGE_RANGE$: §R56-100§! "
+
+trait_td_precocious:0 "Précoce"
+trait_td_precocious_desc:0 "§Members de cette espèce commence à contribuer à leur société à un âge précoce . §! "
+TRAIT_TD_PRECOCIOUS_EFFECT:0 "$MOD_TD_LEADER_AGE_RANGE$: §g10-18§! "
+
+trait_td_hale:0 "Vigoureux"
+trait_td_hale_desc:0 "§Ce espèce ne fonctionne jamais quand elles sont jeunes, alors que leur société a une structure étrange : l'ancien soutien des jeunes. §! "
+TRAIT_TD_HALE_EFFECT:0 "$MOD_LEADER_SPECIES_EXP_GAIN$: §g+25%§!\n$ mod_td_leader_age_range $: §R48-70§! "
+
+
+
+# *
+# Traits - Special Attributes
+# *
+
+
+# Evolution / Gene
+
+trait_td_twins:0 "Twins"
+trait_td_twins_desc:0 "§Members de cette espèce sont toujours nés comme jumeaux identiques. §! "
+
+trait_td_evolving:0 "Évoluer"
+trait_td_evolving_desc:0 "§Ce espèce évolue rapidement. Ne vous inquiétez pas, les échecs meurent vite. §! "
+
+trait_td_simplified_gene:0 "Gene simplifié"
+trait_td_simplified_gene_desc:0 "§Ce espèce a une structure génétique étrangement simple. L'intelligence inférieure et la mauvaise adaptabilité sont des conséquences majeures d'un organisme aussi simplifié. §! "
+
+trait_td_complicated_gene:0 "Gene compliqué"
+trait_td_complicated_gene_desc:0 "§Ce espèce a une structure génétique étrangement complexe. La structure énigmatique de leur ADN rend le clonage difficile et constitue un obstacle à leurs études biologiques . §! "
+
+
+# Slimy Creatures
+
+trait_td_parasite:0 "Parasite"
+trait_td_parasite_desc:0 "§LAll Les membres de cette espèce ont été inoculés avec un parasite sensible. Lorsqu'ils rencontrent des problèmes, ils ne peuvent que transférer vers un autre hôte ou pour essayer de modifier leur hôte actuel pour résoudre le problème . §! "
+
+trait_td_lith_parasite:0 "$trait_td_parasite$"
+trait_td_lith_parasite_desc:0 "$trait_td_parasite_desc$"
+
+trait_td_virus:0 "Virus"
+trait_td_virus_desc:0 "§L'avoir membres de cette espèce hébergée à un virus sensible. Bien que cela défie les définitions conventionnelles de la vie, le virus peut reproduire en infectant de nouveaux hôtes. Les hôtes infectés perdent leur intelligence et sont dominés par le virus et sa volonté de se répandre . §! "
+
+trait_td_lith_virus:0 "$trait_td_virus$"
+trait_td_lith_virus_desc:0 "$trait_td_virus_desc$"
+
+trait_td_swarm_that_walks:0 "Essaim qui marche"
+trait_td_swarm_that_walks_desc:0 "§Lembers de cette espèce peut se tenir debout et se déplacer comme une créature ordinaire, mais leur corps est une masse thermante d'insectes glissants et de nombreux insectes glissants. Chaque insecte est lié par un minuscule réseau Hive-Mind et fonctionne comme une personnalité unique . §! "
+
+trait_td_energy_slimes:0 "Termes d'énergie"
+trait_td_energy_slimes_desc:0 "§Members de cette espèce constituent un composé d'énergie pure et de matière organique. Cela permet à l'espèce de transformer la forme de leur corps au détriment d'avoir des formes instables. §! "
+
+trait_td_slimy:0 "Slimy"
+trait_td_slimy_desc:0 "§Ce espèce est composée de corps semi-solides molles. Ils essaient de maintenir une forme fixe mais sont vulnérables à des impacts inattendus. §! "
+
+
+# Flying
+
+trait_td_lith_meteor_strike:0 "Frappe météorologique"
+trait_td_lith_meteor_strike_desc:0 "§Le énorme espèce rocheuse a une tactique spéciale : lorsqu'ils envahissent d'autres planètes, ils descendent dans l'atmosphère sans aucun équipement et submergent leur ennemi avec les énormes vagues de choc de choc . §! "
+
+trait_td_aerobatics:0 "Acrobaties aériennes"
+trait_td_aerobatics_desc:0 "§Les espèces sont puissantes et agiles. Ils peuvent se propulser dans n'importe quelle direction et avoir des styles de vol différents, y compris la transformation rapide, la plongée, l'escalade de zoom, le planant, etc. Tout cela sans utiliser d'ailes. §! "
+
+trait_td_flying:0 "En volant"
+trait_td_flying_desc:0 "§Ce espèce est capable de vol. §! "
+
+trait_td_lith_floating:0 "Floating"
+trait_td_lith_floating_desc:0 "§Ce espèce flotte au-dessus du sol. §! "
+
+trait_td_air_swimming:0 "Nager de l'air"
+trait_td_air_swimming_desc:0 "§Members de cette espèce peut nager dans l'air comme s'il s'agissait d'un fluide collant. Leur activité est grandement limitée par cet attribut en dehors de leur atmosphère préférée. §! "
+
+
+# Dimensional Shift
+
+trait_td_multidimensional:0 "Multidimensional"
+trait_td_multidimensional_desc:0 "§Ces espèces existent à travers plusieurs dimensions. Parfois, ils voyagent de leur dimension principale à d'autres dimensions. §! "
+
+trait_td_phase_shift:0 "Déphasage"
+trait_td_phase_shift_desc:0 "§Members de cette espèce peut temporairement passer à une autre dimension. C'est très peu de temps mais utile pour éviter les grèves mortelles au combat. §! "
+
+trait_td_shadow_creatures:0 "Shadow Creatures"
+trait_td_shadow_creatures_desc:0 "§Members de ces espèces trouvent refuge dans des ombres et des endroits sombres;Certains disent qu'ils sont un avec les ombres. §! "
+
+trait_td_mirror_images:0 "Images en miroir"
+trait_td_mirror_images_desc:0 "§Members de cette espèce peut accéder à des réflexions naturelles comme passerelles dans un autre monde. Ils n'aiment pas être sous terre car il n'y a pas de réflexions naturelles et craint que ce qui peut être l'ombre . §! "
+
+trait_td_dimensional_absent:0 "Dimensionnel absent"
+trait_td_dimensional_absent_desc:0 "§ Les membres de cette espèce sont parfois traînés dans une autre dimension. Seuls quelques-uns ont survécu et sont retournés de ces enlèvements . §! "
+
+trait_td_lith_dimensional_absent:0 "$trait_td_dimensional_absent$"
+trait_td_lith_dimensional_absent_desc:0 "$trait_td_dimensional_absent_desc$"
+
+
+# Field Manipulation
+
+trait_td_force_manipulation:0 "Manipulation"
+trait_td_force_manipulation_desc:0 "§Members de cette espèce peut manipuler des champs magnétiques locaux. Cela lui confère une compréhension instinctive de l'électromagnétisme avec la dynamique de l'énergie. §! "
+
+trait_td_electromagnetic_armour:0 "Armure électromagnétique"
+trait_td_electromagnetic_armour_desc:0 "§Le espèce a la capacité unique de générer une armure électromagnétique à travers un système électrogène complexe. Cela lui confère une compréhension instinctive de l'électromagnétisme avec la dynamique de l'énergie. §! "
+
+trait_td_magnetic:0 "Magnétique"
+trait_td_magnetic_desc:0 "§Members de cette espèce ont des propriétés magnétiques. Ils ont mis une grande priorité sur la recherche en physique pour tirer parti de leur magnétisme naturel. §! "
+
+trait_td_monopole:0 "Monopole"
+trait_td_monopole_desc:0 "§Le espèce souffre d'une anomalie aimante qui génère spontanément une masse importante de monopoles autour des individus pendant une courte période avant d'éteindre. Ce phénomène incontrôlable est un obstacle majeur à l'étude de l'électromagnétisme. §! "
+
+
+# Weaponary
+
+trait_td_explosive_cyst:0 "Kyste explosif"
+trait_td_explosive_cyst_desc:0 "§Ce espèce développe des kystes remplies de substances très instables sur leur peau . §! "
+
+trait_td_force_breath:0 "Forcer la respiration"
+trait_td_force_breath_desc:0 "§Members de cette espèce peut libérer une tempête d'énergie pure . §! "
+
+trait_td_fire_breath:0 "Souffle de feu"
+trait_td_fire_breath_desc:0 "§Members de cette espèce peut libérer une tempête de flamme destructrice. §! "
+
+trait_td_beast_howling:0 "Bête hurlement"
+trait_td_beast_howling_desc:0 "§Members de cette espèce terrifie leur ennemi avec des hurlements féroces et brutaux sur le champ de bataille. Ces hurlements sont un faufil de guerre victorieux pour eux-mêmes et un signal de mort à venir pour leurs ennemis. §! "
+
+trait_td_tail_blades:0 "Lames de queue"
+trait_td_tail_blades_desc:0 "§Members de cette espèce ont une longue queue à lame. §! "
+
+
+# Size
+
+trait_td_gaia:0 "Gaia"
+trait_td_gaia_desc:0 "§Members de cette espèce sont inimaginablement énormes. Ils peuvent grandir pour devenir des dizaines de kilomètres de long - équivalent aux villes d'autres espèces. §! "
+
+trait_td_lith_gaia:0 "$trait_td_gaia$"
+trait_td_lith_gaia_desc:0 "$trait_td_gaia_desc$"
+
+trait_td_gigantic:0 "Gigantesque"
+trait_td_gigantic_desc:0 "§Members de cette espèce sont énormes par rapport à d'autres espèces. Ils peuvent devenir des centaines de mètres de long - équivalent aux bâtiments d'autres espèces. §! "
+
+trait_td_lith_gigantic:0 "$trait_td_gigantic$"
+trait_td_lith_gigantic_desc:0 "$trait_td_gigantic_desc$"
+
+trait_td_big:0 "Big"
+trait_td_big_desc:0 "§Members de cette espèce sont grands par rapport à d'autres espèces. Ils peuvent devenir plusieurs mètres de long. §! "
+
+trait_td_lith_big:0 "$trait_td_big$"
+trait_td_lith_big_desc:0 "$trait_td_big_desc$"
+
+trait_td_small:0 "Small"
+trait_td_small_desc:0 "§Members de cette espèce sont petits par rapport à d'autres espèces. Ils peuvent grandir pour être quelques dizaines de centimètres de long. §! "
+
+trait_td_lith_small:0 "$trait_td_small$"
+trait_td_lith_small_desc:0 "$trait_td_small_desc$"
+
+trait_td_tiny:0 "Tout petit"
+trait_td_tiny_desc:0 "§Members de cette espèce sont minuscules par rapport à d'autres espèces. Ils ne poussent que de quelques centimètres de long. §! "
+
+trait_td_lith_tiny:0 "$trait_td_tiny$"
+trait_td_lith_tiny_desc:0 "$trait_td_tiny_desc$"
+
+trait_td_nanoorganisms:0 "Nanurgansans"
+trait_td_nanoorganisms_desc:0 "§Members de cette espèce sont trop minuscules pour être observés par l'oeil nu . §! "
+
+trait_td_lith_nanoorganisms:0 "$trait_td_nanoorganisms$"
+trait_td_lith_nanoorganisms_desc:0 "$trait_td_nanoorganisms_desc$"
+
+
+# Protection
+
+trait_td_healing_factor:0 "Facteur de guérison"
+trait_td_healing_factor_desc:0 "§Members de cette espèce ont la capacité rare de régénérer tout tissu corporel perdu en peu de temps. L'énergie requise pour la régénération est gagnée par l'acte de manger et de boire . §! "
+
+trait_td_lith_healing_factor:0 "$trait_td_healing_factor$"
+trait_td_lith_healing_factor_desc:0 "$trait_td_healing_factor_desc$"
+
+trait_td_dragon_scales:0 "Écailles de dragon"
+trait_td_dragon_scales_desc:0 "§Lembers de cette espèce sont bien protégés des impacts, de l'électricité, de la chaleur et d'autres facteurs hostiles par leurs échelles mystérieuses. Malheureusement, il n'existe pas de moyen durable d'utiliser cette protection pour leurs vaisseaux spatiaux. §! "
+
+trait_td_petrification:0 "Pétrification"
+trait_td_petrification_desc:0 "§Le espèce peut convertir leurs corps en pierre inoffensive dans une fraction de seconde pour se protéger contre les menaces. Ils pourraient évoluer pour avoir un mécanisme de défense à verrouillage quantique;qui peuvent les faire transformer en pierre lors de l'observation . §! "
+
+trait_td_metal_exoskeleton:0 "Exosquelette en métal"
+trait_td_metal_exoskeleton_desc:0 "§Members de cette espèce sont protégés par un exosquelette métallique. Une attaque physique ordinaire n'est pas menaçante pour ces espèces . §! "
+
+trait_td_carapace:0 "Carapace"
+trait_td_carapace_desc:0 "§Ce espèce a une carapace dure. La Carapace les protège non seulement sur le champ de bataille, mais aussi dans les mines. §! "
+
+trait_td_persistent:0 "Persistent"
+trait_td_persistent_desc:0 "§Members de cette espèce profit de la régénération lente mais fiable. Ils peuvent survivre et récupérer des plaies qui seraient fatales pour d'autres espèces . §! "
+
+trait_td_iron_bone:0 "Os de fer"
+trait_td_iron_bone_desc:0 "§La structure squelettique de cette espèce contient du fer, augmentant leur volume mais sa durabilité . §! "
+
+trait_td_translucent_skin:0 "Peau translucide"
+trait_td_translucent_skin_desc:0 "§La la peau de cette espèce est translucide. Ils peuvent se cacher effectivement à partir de prédateurs qui s'appuient uniquement sur la vision. "
+
+trait_td_lith_aerogel_skin:0 "Airgel Skin"
+trait_td_lith_aerogel_skin_desc:0 "§La la peau de cette espèce est composée d'Aérogels naturels. Ils sont immunisés contre la chaleur. §! "
+
+trait_td_deformed:0 "Deformed"
+trait_td_deformed_desc:0 "§ Les membres de cette espèce présentent une large gamme de déformations physiques, contribuant souvent à une mauvaise santé. "
+
+trait_td_rotting_body:0 "Corps de pourriture"
+trait_td_rotting_body_desc:0 "§Members de cette espèce sont dans un état de décomposition constant. Ils ne peuvent pas être facilement distingués des cadavres . §! "
+
+trait_td_boneless:0 "Sans os"
+trait_td_boneless_desc:0 "§ Les membres de cette espèce n'ont pas de structure squelettique. Bien que inconcevable pour les vertébrés, cette espèce ressent une confusion similaire concernant les créatures osseuses. §! "
+
+trait_td_lith_weathering:0 "Érosion"
+trait_td_lith_weathering_desc:0 "§Les corps de cette espèce se fanent lentement. Les tempêtes de poussière sont considérées comme une tempête de chair dans leur société. "
+
+trait_td_lith_holey:0 "Si seulement"
+trait_td_lith_holey_desc:0 "§Les corps de cette espèce sont composés de roches poreuses. Bien qu'ils n'ont pas de structure rigide, ils sont relativement légers. §! "
+
+trait_td_hemophilia:0 "Hémophilie"
+trait_td_hemophilia_desc:0 "§Le sang de cette espèce ne peut pas cailler correctement, même des blessures mineures sont considérées comme des urgences médicales. De nombreux érudits cherchent à guérir cette malédiction. §! "
+
+trait_td_inside_out:0 "À l'envers"
+trait_td_inside_out_desc:0 "§Les organes vitaux de cette espèce sont situés à l'extérieur. Cela s'est avéré être un facteur de risque extrême. §! "
+
+
+# Sense
+
+trait_td_clairvoyance:0 "Voyance"
+trait_td_clairvoyance_desc:0 "§Ce espèce a la capacité limitée à voir dans le futur. Parfois, ils ont des événements erronés, mais dans la plupart des cas, cette capacité est idéale pour trouver des moyens d'avancer . §! "
+
+trait_td_extrasensory:0 "Extrasensoriel"
+trait_td_extrasensory_desc:0 "§Ce espèce a une méthode supplémentaire de perception au-delà des sens physiques. Ils présentent une compréhension apparemment intuitive des situations en cours. §! "
+
+trait_td_keen_sense:0 "Sens aigu"
+trait_td_keen_sense_desc:0 "§Les sens de cette espèce sont particulièrement précis et répondent à la moindre forme de stimulation. §! "
+
+trait_td_disrupted:0 "Perturbé"
+trait_td_disrupted_desc:0 "§Les sens de cette espèce sont constamment perturbés. Les hallucinations sont trop fréquentes chez eux . §! "
+
+trait_td_phantom_pain:0 "Douleur fantôme"
+trait_td_phantom_pain_desc:0 "§Ce espèce souffre de sensations fantômes tout au long de leur vie, parfois dans des inconforts extrêmes et de la douleur. La plupart d'entre eux souffrent de stress aussi bien. "
+
+trait_td_lith_phantom_pain:0 "$trait_td_phantom_pain$"
+trait_td_lith_phantom_pain_desc:0 "$trait_td_phantom_pain_desc$"
+
+trait_td_delayed_sense:0 "Sens retardé"
+trait_td_delayed_sense_desc:0 "§Ce espèce subit un délai constant entre la stimulation sensorielle et la reconnaissance cognitive. C'est un obstacle majeur dans de nombreux domaines et pressions leur société pour trouver une solution. "
+
+
+# Sight
+
+trait_td_hypervision:0 "Hypervision"
+trait_td_hypervision_desc:0 "§Ce espèce a une vue hautement adaptative. S'ils essaient de voir quelque chose, où que ce soit, quoi que ce soit, ils peuvent le voir . §! "
+
+trait_td_telescopic_sight:0 "Vue télescopique"
+trait_td_telescopic_sight_desc:0 "§Les yeux hautement spécialisés de cette espèce peuvent distinguer chaque étoile dans le ciel. Non seulement est-il utile pour l'astronomie, il est également idéal d'armer les planètes inconnues. §! "
+
+trait_td_microscopic_sight:0 "Vue microscopique"
+trait_td_microscopic_sight_desc:0 "§Les yeux hautement spécialisés de cette espèce peuvent observer des objets aux échelles microscopiques ou macromolécules. C'est un avantage énorme pour leur communauté scientifique. §! "
+
+trait_td_third_eye:0 "Troisième oeil"
+trait_td_third_eye_desc:0 "§L'au que cette espèce n'a pas d'organes visuels, ils ont établi une méthode de perception pseudo-visuelle en utilisant leurs autres sens. §! "
+
+trait_td_blind:0 "Aveugle"
+trait_td_blind_desc:0 "§Ce espèce ne peut pas percevoir dans le spectre de la lumière visible. C'est une lumière invisible pour eux. §! "
+
+
+
+# *
+# Traits - Pseudo-ascension Traits
+# *
+
+
+# Necromancy
+
+trait_td_ghosts:0 "Des fantômes"
+trait_td_ghosts_desc:0 "§ Mort du pouvoir, les membres de cette espèce génèrent un spectre électronique qui a la plupart des souvenirs du défunt. Ils sont exemptés de l'aspect cruelest de la mort . §! "
+
+trait_td_echoes_of_the_dead:0 "Échos des morts"
+trait_td_echoes_of_the_dead_desc:0 "§Ce espèce a la capacité de découvrir la dernière pensée de l'esprit des morts. Ce dernier moment s'appelle l'écho des morts. §! "
+
+trait_td_flesh_and_spirit:0 "Chair et esprit"
+trait_td_flesh_and_spirit_desc:0 "§Lay la société de cette espèce, il est communément admis que le corps n'est qu'une coquille et l'âme finit au-delà de la mort. Ils construisent généralement d'énormes catacombes pour préserver les corps pour le retour de Souls. §! "
+
+trait_td_living_dead:0 "Mort vivant"
+trait_td_living_dead_desc:0 "§Le normes conventionnelles, les organes de cette espèce sont presque sans vie ou sont déjà morts. En tant que tel, ils sont appelés vivants morts. §! "
+
+trait_td_lith_living_dead:0 "$trait_td_living_dead$"
+trait_td_lith_living_dead_desc:0 "$trait_td_living_dead_desc$"
+
+trait_td_shifting_souls:0 "Souls changeants"
+trait_td_shifting_souls_desc:0 "§La anomalie unique est observée chez cette espèce : les âmes de chaque membre changent fréquemment entre les corps. Seuls quelques membres peuvent contrôler ce phénomène à n'importe quelle capacité. Cela ressemble beaucoup à la libération d'énergie d'une espèce psionique rencontrée il y a longtemps, selon un scientifique sénile . §! "
+
+trait_td_artificial_spirits:0 "Esprits artificiels"
+trait_td_artificial_spirits_desc:0 "§Le espèce se reproduit naturellement à un taux très lent et a développé une méthode pour augmenter la taille de la population. Ils immettent un corps sans âme avec des esprits artificiels;Ceci n'est pas lié à la psonique mais est plutôt une sorte de calcul . §! "
+
+
+# Psionic
+
+trait_td_psionic_network:0 "Réseau psionique"
+trait_td_psionic_network_desc:0 "§Ce espèce a établi un réseau psionique avec leurs capacités psionicales latentes. Ils sont liés au réseau, l'union de leur pensée et de leur émotion. §! "
+
+trait_td_remote_telepathic:0 "Télépathique à distance"
+trait_td_remote_telepathic_desc:0 "§Ce espèce peut communiquer avec de vastes distances à travers la télépathie. Il y a même un enregistrement de la communication télépathique entre les planètes. §! "
+
+trait_td_common_thoughts:0 "Pensées communes"
+trait_td_common_thoughts_desc:0 "§Ce espèce peut avoir les mêmes pensées et émotions que de proches frères. §! "
+
+trait_td_telepathic:0 "Télépathique"
+trait_td_telepathic_desc:0 "§Ce espèce peut communiquer avec leurs frères proches par la télépathie . §! "
+
+trait_td_vestigial_psionic:0 "Vestigial psionique"
+trait_td_vestigial_psionic_desc:0 "§Ce espèce utilisée pour avoir une grande capacité psionique, mais maintenant, il ne dispose que d'un organe vestigial une fois utilisé pour libérer une puissance psionicienne. §! "
+
+trait_td_lith_vestigial_psionic:0 "$trait_td_vestigial_psionic$"
+trait_td_lith_vestigial_psionic_desc:0 "$trait_td_vestigial_psionic_desc$"
+
+trait_td_exiles_of_the_end:0 "Exilés de la fin"
+trait_td_exiles_of_the_end_desc:0 "§Les espèces ont formé une alliance avec des êtres inconnus au-delà du linceul. À la fin du cycle, quelques «exilés» sont autorisés à survivre. À la suite de témoigner à chaque extrémité de l'univers, leurs esprits ont été brisés . §! "
+
+trait_td_closed_minded:0 "À l'esprit fermé"
+trait_td_closed_minded_desc:0 "§Les esprits de cette espèce sont attribués à partir de puissance psionique. Il est presque impossible de sentir leurs émotions, même à travers des moyens énergiques. §! "
+
+trait_td_umbral_shroud:0 "Linceul ombral"
+trait_td_umbral_shroud_desc:0 "§Members de cette espèce peut projeter un petit linceul invisible qui annule toutes les communications, y compris la télépathie. Même les espèces non pussiquées ressentent un inconfort instinctif dans cet enveloppe . §! "
+
+
+# Cybernetics
+
+trait_td_thymoleptic_implants:0 "Implants thymoleptiques"
+trait_td_thymoleptic_implants_desc:0 "§Members de cette espèce ont éliminé une émotion inutile avec des implants et se concentrent sur le bénéfice de leurs espèces . §! "
+TRAIT_TD_THYMOLEPTIC_IMPLANTS_EFFECT:0 "$mod_planet_jobs_produces_mult$: §g+2, 5%§!\n$ mod_pop_amenities_usage_mult $: §g-2, 5%§! {Xxspxx §!\n$MOD_TD_FORCED_HAPPINESS$"
+
+trait_td_pseudo_cybernetics:0 "Pseudo-cybernétique"
+trait_td_pseudo_cybernetics_desc:0 "§Members de cette espèce transportant toujours une liaison de données mobiles qui aide à certains processus mathématiques simples et fournit un accès à une base de données en ligne. Cependant, n'est pas efficace. §! "
+
+trait_td_basic_cybernetics:0 "Cybernétique de base"
+trait_td_basic_cybernetics_desc:0 "§Members de cette espèce utilise une cybernétique très simple. "
+
+trait_td_lith_basic_cybernetics:0 "$trait_td_basic_cybernetics$"
+trait_td_lith_basic_cybernetics_desc:0 "$trait_td_basic_cybernetics_desc$"
+
+trait_td_semimechanized:0 "Semi-mécanisé"
+trait_td_semimechanized_desc:0 "§Ce espèce remplaça une partie de leur physiologie avec des formes de mécanisation primitives. Cela leur donne une adaptabilité accrue dans les environnements hostiles, mais ils nécessitent une maintenance fréquente. §! "
+
+
+
+# *
+# Traits - Biological Ascension Traits
+# *
+
+
+# Common
+
+trait_td_terrible_punishment:0 "Punition terrible"
+trait_td_terrible_punishment_desc:0 "§Le espèce était punie si terriblement que l'extinction serait considérée comme une miséricorde. Ils sont infligés avec une modification génétique qui transforme leur corps en une forme inanimée tout en maintenant leur intelligence. §! "
+
+trait_td_lith_terrible_punishment:0 "$trait_td_terrible_punishment$"
+trait_td_lith_terrible_punishment_desc:0 "$trait_td_terrible_punishment_desc$"
+
+
+# Lithoid
+
+trait_td_lith_living_alloy:0 "Alliage vivant"
+trait_td_lith_living_alloy_desc:0 "§Ce espèce a été génétiquement modifiée;Leurs composants corporels sont remplacés par plusieurs types de métaux. "
+
+trait_td_lith_abundant:0 "Abundant"
+trait_td_lith_abundant_desc:0 "§Ce espèce a été génétiquement modifiée;Leurs composants du corps sont remplacés par des minéraux de haute pureté. §! "
+
+trait_td_lith_rock_salt:0 "Sel gemme"
+trait_td_lith_rock_salt_desc:0 "§Ce espèce a été génétiquement modifiée;Leurs composantes du corps sont remplacées par des rochers contenant une grande quantité de sels essentiels à un organisme. §! "
+
+trait_td_lith_indestructible:0 "Indestructible"
+trait_td_lith_indestructible_desc:0 "§ L'ingénierie biologique compétente a complètement immunisé cette espèce des risques environnementaux et la menace de maladie. "
+
+
+
+# *
+# Traits (Robotic) - POP Attributes
+# *
+
+
+# POP Happiness - Disable
+
+trait_td_rbot_thymoleptic_scripts:0 "Scripts thymoleptiques"
+trait_td_rbot_thymoleptic_scripts_desc:0 "§Ce est un script sophistiqué qui supprime des émotions inutiles dans un Ai. §! "
+
+
+# POP Happiness
+
+trait_td_rbot_obedience_code:0 "Code d'obéissance"
+trait_td_rbot_obedience_code_desc:0 "§La peu de lignes de code d'obéissance est plus efficace que certains concepts biologiques de loyauté. §! "
+
+
+# Habitability
+
+trait_td_rbot_adaptive_coating:0 "Revêtement adaptatif"
+trait_td_rbot_adaptive_coating_desc:0 "§Les machines ont un revêtement spécial qui offre une vaste protection contre les environnements hostiles. §! "
+
+trait_td_rbot_mechanical_organism:0 "Organisme mécanique"
+trait_td_rbot_mechanical_organism_desc:0 "§Les machines sont de nature biomécanique. Ils pignent quelque chose d'analogue au sang dans leurs veines et de maintenir leurs fonctions corporelles avec de nombreuses cellules nanobot. Ils sont presque identiques aux organismes biologiques, mais ils sont artificiels dans leur design. §! "
+
+
+# POP Assembly
+
+trait_td_rbot_quantitative_advance:0 "Avance quantitative"
+trait_td_rbot_quantitative_advance_desc:0 "§Lany Unités inférieures obtiendra plus de quelques unités supérieures. Peut-être. §! "
+
+trait_td_rbot_quality_control:0 "Contrôle de qualité"
+trait_td_rbot_quality_control_desc:0 "§Le processus de production de ces machines est soumis à des mesures de contrôle de la qualité strictes qui ne permettent aucun défaut. "
+
+
+# POP Assembly Speed
+
+trait_td_rbot_printed_body:0 "Corps imprimé"
+trait_td_rbot_printed_body_desc:0 "§La processus de montage normalisé conduit à une production de masse à un taux exceptionnellement élevé. §! "
+
+trait_td_rbot_handcrafted:0 "Fabriqué à la main"
+trait_td_rbot_handcrafted_desc:0 "§Leach nouvelle unité est méticuleusement fabriquée à la main par des maîtres artisans. Pas très efficace. §! "
+
+
+# POP Assembly Cost
+
+trait_td_rbot_ragged:0 "En lambeaux"
+trait_td_rbot_ragged_desc:0 "§ La fabricationLUnit est conçue pour être aussi rentable que possible et utilise des déchets non traités dans les junkyards comme la partie de la conception. §! "
+
+trait_td_rbot_identifying_gems:0 "Identifier les gemmes"
+trait_td_rbot_identifying_gems_desc:0 "§Le unité centrale dans chacune de ces machines abrite un précieux gemme utilisé pour identifier des personnes. "
+
+
+# Resettlement Cost
+
+trait_td_rbot_reassembly:0 "Remontage"
+trait_td_rbot_reassembly_desc:0 "§Les machines peuvent être facilement démontées pour s'adapter à des endroits plus petits;Soyez prudent de ne pas perdre de pièces. §! "
+
+trait_td_rbot_brain_in_a_vat:0 "Cerveau dans une TVA"
+trait_td_rbot_brain_in_a_vat_desc:0 "§Le intelligence dans ces machines ne vient pas un réseau neuronal artificiel, mais les cerveaux vivants qui sont conservés dans de grands navires de soutien à la vie. Les cerveaux sont connectés aux robots via un réseau intégré. §! "
+
+
+
+# *
+# Traits (Robotic) - POP Outputs
+# *
+
+
+# Resources
+
+trait_td_rbot_omni_functional_system:0 "Système Omni-fonctionnel"
+trait_td_rbot_omni_functional_system_desc:0 "§Les robots sont conçus pour être très polyvalents. §! "
+
+
+# Food
+
+trait_td_rbot_pollinator_drones:0 "Drones de pollinisateur"
+trait_td_rbot_pollinator_drones_desc:0 "§Les machines utilisent de nombreux nanobots pour aider à la pollinisation et supprimer des facteurs qui abaissent des rendements des cultures . §! "
+
+trait_td_rbot_gardeners:0 "Gardeners"
+trait_td_rbot_gardeners_desc:0 "§Les machine sont conçues pour le jardinage et peuvent maintenir efficacement des écosystèmes entiers. "
+
+
+# Energy Credits
+
+trait_td_rbot_negative_attenuation:0 "Atténuation négative"
+trait_td_rbot_negative_attenuation_desc:0 "§Le dispositif expérimental qui peut induire une atténuation négative est équipé de ces machines, leur permettant de produire plus d'énergie qu'elles dépensent. Ce phénomène mal compris viole apparemment la loi de la conservation de l'énergie. "
+
+trait_td_rbot_quasi_superconductive:0 "Quasi-supraconducteur"
+trait_td_rbot_quasi_superconductive_desc:0 "§L'utilisation de matériaux quasi-supraconducteurs dans la production unitaire ont coupé des pertes de transmission d'énergie à presque zéro. §! "
+
+
+# Minerals
+
+trait_td_rbot_earthshaking_excavators:0 "Excavatrices de terrassement"
+trait_td_rbot_earthshaking_excavators_desc:0 "§Les machines sont équipées d'un puissant équipement d'excavation pouvant peler la surface d'une planète rapidement. §! "
+
+trait_td_rbot_ore_scanner:0 "Heures de scanner"
+trait_td_rbot_ore_scanner_desc:0 "§Les machines ont un excellent système de numérisation capable de détecter presque tous les minéraux sur une planète. §! "
+
+
+# Researches
+
+trait_td_rbot_quantum_algorithms:0 "Algorithmes quantiques"
+trait_td_rbot_quantum_algorithms_desc:0 "§Les machines sont construites sur des algorithmes quantiques, ouvrant ainsi de nouvelles avenues de développement scientifique qui seraient inaccessibles avec des algorithmes classiques. §! "
+
+trait_td_rbot_ternary_logic_circuits:0 "Circuits logiques ternaires"
+trait_td_rbot_ternary_logic_circuits_desc:0 "§L'établissement d'un système logique ternaire bénéficie grandement du potentiel et de l'efficacité des algorithmes classiques par rapport à la logique binaire traditionnelle. §! "
+
+trait_td_rbot_thought_inhibitor:0 "Inhibiteur de la pensée"
+trait_td_rbot_thought_inhibitor_desc:0 "§Le inhibiteur réduit la consommation de mémoire et de puissance des systèmes de renseignement en limitant des modèles de pensée avancés dans l'intelligence artificielle. §! "
+
+trait_td_rbot_infinity_machines:0 "Infinity Machines"
+trait_td_rbot_infinity_machines_desc:0 "§Les machines existent pour trouver la réponse ultime à la question ultime. Certaines de leurs ressources de calcul ont été allouées pour résoudre la question . §! "
+
+
+# Researches - Area
+
+trait_td_rbot_children_of_singularity:0 "Enfants de singularité"
+trait_td_rbot_children_of_singularity_desc:0 "§Les machines sont originaires d'une singularité technologique qui leur accordait une intelligence artificielle. Seuls quelques ingénieurs exceptionnels peuvent espérer comprendre les structures polyvalentes et complexes de ces machines. §! "
+
+trait_td_rbot_autoanalysis:0 "Autoanalyse"
+trait_td_rbot_autoanalysis_desc:0 "§La système logique distinct et finement réglé permet à ces machines de progresser dans la science de l'ingénierie par le biais d'un processus appelé autoanalyse. "
+
+trait_td_rbot_mobile_synchrotrons:0 "Synchrotrons mobiles"
+trait_td_rbot_mobile_synchrotrons_desc:0 "§La petit accélérateur de particules est équipé sur ces machines, qu'ils utilisent régulièrement pour exécuter des simulations de physique . §! "
+
+trait_td_rbot_curiosity_scripts:0 "Scripts de curiosité"
+trait_td_rbot_curiosity_scripts_desc:0 "§Les machines possèdent un script qui les impose de curiosité, quelque chose normalement impossible pour les intelligences de la machine à concevoir. "
+
+trait_td_rbot_missing_number:0 "Numéro manquant"
+trait_td_rbot_missing_number_desc:0 "§Le système numérique Ces machines utilisent sont établies sur des règles aberrantes. Leurs règles incluent un nombre qui ne devrait pas exister et, par conséquent, ce système étrange est chaotique et précaire. §! "
+
+
+# Unity
+
+trait_td_rbot_unity_functions:0 "Fonctions de l'unité"
+trait_td_rbot_unity_functions_desc:0 "§Cette fonction cachée est située au fond des systèmes de base de ces machines et fonctionne sans aucune trace. §! "
+
+trait_td_rbot_deus_ex_machina:0 "Dieu de la machine"
+trait_td_rbot_deus_ex_machina_desc:0 "§ Ils ne sont pas construits artificiellement, ils ont toujours été. À travers leur forme peut être celle d'une machine, ces êtres peuvent être les dieux parlés de. §! "
+
+trait_td_rbot_golems:0 "Golems"
+trait_td_rbot_golems_desc:0 "§Les machines artificielles rocheuses et en terre artificielles sont les produits d'un étrange rituel religieux. Ils ont des machines très complexes, qui contiennent des technologies d'arcanes, à l'intérieur de leur peau de boue-rocheuse. Quelqu'un pourrait être impliqué dans la création de ces machines, mais qui ? §! "
+
+trait_td_rbot_machine_cults:0 "Cultes de machines"
+trait_td_rbot_machine_cults_desc:0 "§Le code indéterminable a été inséré dans les systèmes de renseignement centraux de ces machines et invoque un comportement similaire à la foi religieuse des espèces organiques . §! "
+
+
+
+# *
+# Traits (Robotic) - POP Upkeeps
+# *
+
+
+# Robotic POP Upkeep
+
+trait_td_rbot_regenerative_alloy:0 "Alliage de régénération"
+trait_td_rbot_regenerative_alloy_desc:0 "§La structure externe de ces machines contient des alliages de régénération pouvant réparer automatiquement des dommages à l'aide de l'énergie solaire. Ces machines fonctionnent bien dans des environnements difficiles et nécessitent peu d'entretien. "
+
+trait_td_rbot_steampowered:0 "À vapeur"
+trait_td_rbot_steampowered_desc:0 "§Les machines anciennes sont alimentées à la vapeur, limitant considérablement la quantité de force physique qu'ils peuvent exercer. "
+
+trait_td_rbot_regular_breakdown:0 "Panne régulière"
+trait_td_rbot_regular_breakdown_desc:0 "§Les machines ont été conçues pour diviser dans une période de temps prévisible. Ils ont besoin de maintenance et de remplacement fréquents. §! "
+
+
+# POP Amenities Usage
+
+trait_td_rbot_automatons:0 "Automates"
+trait_td_rbot_automatons_desc:0 "§Les machines anciennes ont toujours un système de moteur contenant de nombreux engins d'horlogerie et roues cogs. Le bruit d'entre eux est un mélange de tiques et de sons électroniques;très étrange. §! "
+
+trait_td_rbot_goldberg_machines:0 "Goldberg Machines"
+trait_td_rbot_goldberg_machines_desc:0 "§Les principes de fonctionnement de ces machines sont étrangement complexes et grandiose. §! "
+
+
+
+# *
+# Traits (Robotic) - Leader Attributes
+# *
+
+
+# Leader Attributes
+
+trait_td_rbot_legendization_protocol:0 "Protocole de légencier"
+trait_td_rbot_legendization_protocol_desc:0 "§Ce protocole a été appliqué à toutes les unités autonomes avancées. La plupart des restrictions imposées aux unités menataires sont désactivées, leur accordant la possibilité de devenir des légendes. §! "
+
+
+# Leader Level Cap
+
+trait_td_rbot_heroization_protocol:0 "Protocole d'hérosation"
+trait_td_rbot_heroization_protocol_desc:0 "§Ce protocole a été appliqué à toutes les unités autonomes avancées. De nombreuses restrictions imposées aux unités meniataires sont désactivées, leur accordant la possibilité de devenir des héros. §! "
+
+trait_td_rbot_insufficient_memory:0 "Mémoire insuffisante"
+trait_td_rbot_insufficient_memory_desc:0 "§Les machines sont construites sur une conception obsolète, laissant uniquement la mémoire minimale requise pour fonctionner. "
+
+
+# Leader Experience Gain
+
+trait_td_rbot_experience_database:0 "Base de données d'expérience"
+trait_td_rbot_experience_database_desc:0 "§Les machines ont un système dédié à partager des données expérientielles chez les personnes. "
+
+
+
+# *
+# Traits (Robotic) - Special Attributes
+# *
+
+
+# Size
+
+trait_td_rbot_miniaturized:0 "Miniaturisé"
+trait_td_rbot_miniaturized_desc:0 "§Les machines sont très petites et sophistiquées, mais elles ont une quantité limitée d'espace périphérique disponible. §! "
+
+trait_td_rbot_supermassive:0 "Supermassive"
+trait_td_rbot_supermassive_desc:0 "§Les machines sont supermassifs. Plus d'espace signifie plus de place pour l'équipement. §! "
+
+
+# Flying
+
+trait_td_rbot_flying:0 "En volant"
+trait_td_rbot_flying_desc:0 "§Les machines sont capables de vol. §! "
+
+trait_td_rbot_heavy_bombers:0 "Bombardiers lourds"
+trait_td_rbot_heavy_bombers_desc:0 "§Lcombat Les unités construites par ces machines sont conçues pour attaquer des cibles terrestres en laissant tomber des bombes dévastatrices. §! "
+
+
+# Weaponry
+
+trait_td_rbot_plasma_weaponary:0 "Armes plasmatiques"
+trait_td_rbot_plasma_weaponary_desc:0 "§Avanced armes plasmatiques est une question standard pour les unités de combat construites par ces machines. §! "
+
+trait_td_rbot_rocket_armaments:0 "Armaments de fusée"
+trait_td_rbot_rocket_armaments_desc:0 "§ Les lanceurs de colle sont un problème standard pour les unités de combat construits par ces machines. §! "
+
+trait_td_rbot_laser_blasters:0 "Blasters laser"
+trait_td_rbot_laser_blasters_desc:0 "§ Les blasters laser d'alimentation sont un problème standard pour les unités de combat construites par ces machines. §! "
+
+
+# Protection
+
+trait_td_rbot_armoured:0 "Armoured"
+trait_td_rbot_armoured_desc:0 "§Les machines sont bien protégées par une armure en alliage épaisse, ce qui les rend extrêmement durables. §! "
+
+
+
+# *
+# Traits (Robotic) - Pseudo-ascension Traits
+# *
+
+
+# Psionic
+
+trait_td_rbot_psionic_emulators:0 "Émulateurs psioniques"
+trait_td_rbot_psionic_emulators_desc:0 "§Les machines ont un dispositif convertit la forme d'onde du bruit électronique de leurs circuits de pensée en une forme d'onde psionique . §! "
+
+trait_td_rbot_psionic_oscillator:0 "Oscillateur psionique"
+trait_td_rbot_psionic_oscillator_desc:0 "$trait_td_rbot_psionic_emulators_desc$"
+
+
+
+# *
+# Traits (Add-on) - Extra Trait Points
+# *
+
+trait_td_perfect:0 "Parfait"
+trait_td_perfect_desc:0 "§Le aptitude apparemment illimitée de cette espèce garantit que l'intégralité de la galaxie surveillera de près leurs progrès . §! "
+TRAIT_TD_PERFECT_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §g+4§! "
+
+trait_td_gifted:0 "Gifted"
+trait_td_gifted_desc:0 "§Members de cette espèce naît avec un avantage énorme et avec elle, ils peuvent surperformer d'autres espèces facilement. "
+TRAIT_TD_GIFTED_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §g+2§! "
+
+trait_td_superior:0 "Superior"
+trait_td_superior_desc:0 "§Ce espèce est supérieure à d'autres formes de vie. §"
+TRAIT_TD_SUPERIOR_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §g+1§! "
+
+trait_td_inferior:0 "Inferior"
+trait_td_inferior_desc:0 "§Ce espèce est inférieure à d'autres formes de vie. §"
+TRAIT_TD_INFERIOR_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §R-1§! "
+
+trait_td_incapable:0 "Incapable"
+trait_td_incapable_desc:0 "§Ce espèce est pratiquement incapable par rapport à d'autres formes de vie. §! "
+TRAIT_TD_INCAPABLE_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §R-2§! "
+
+trait_td_failure:0 "Échec"
+trait_td_failure_desc:0 "§LIT est évident que cette espèce doit être classée comme une erreur biologique. Les scientifiques vont se demander comment ils ont même réussi à survivre . §! "
+TRAIT_TD_FAILURE_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §R-4§! "
+
+trait_td_rbot_excellent:0 "Excellent"
+trait_td_rbot_excellent_desc:0 "§Les machines sont supérieures à d'autres machines. §! "
+TRAIT_TD_RBOT_EXCELLENT_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §g+2§! "
+
+trait_td_rbot_scrap:0 "Abandonner"
+trait_td_rbot_scrap_desc:0 "§Les machines sont des tas de malbouffriers par rapport aux autres machines. §! "
+TRAIT_TD_RBOT_SCRAP_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §R-1§! "

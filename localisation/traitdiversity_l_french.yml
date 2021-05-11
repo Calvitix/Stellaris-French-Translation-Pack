@@ -1,0 +1,1059 @@
+﻿l_french:
+
+
+
+# *
+# Modifiers
+# *
+
+mod_planet_livestock_minerals_produces_add:0 "£minerals£ $minerals$ from £job_livestock£ §Y$job_livestock_plural$§!"
+
+mod_planet_livestock_alloys_produces_add:0 "£alloys£ $alloys$ from £job_livestock£ §Y$job_livestock_plural$§!"
+
+mod_planet_livestock_energy_produces_add:0 "£energy£ $energy$ from £job_livestock£ §Y$job_livestock_plural$§!"
+
+mod_planet_pops_food_upkeep_mult:0 "Pop £food£ $food$ Upkeep"
+
+mod_planet_pops_minerals_upkeep_mult:0 "Pop £minerals£ $minerals$ Upkeep"
+
+mod_planet_pops_consumer_goods_upkeep_mult:0 "Pop £consumer_goods£ $consumer_goods$ Upkeep"
+
+MOD_TD_FORCED_HAPPINESS:0 "§YDisabled Happiness, will not be affected by happiness§!"
+
+MOD_TD_LEADER_IMMORTAL:0 "§GImmortal, will never die of old age§!"
+
+MOD_TD_LEADER_AGE_RANGE:0 "Age Range of Recruited Leaders"
+
+MOD_TD_TRAIT_POINT_ADD:0 "Trait Points Available"
+
+
+
+# *
+# Traits - POP Attributes
+# *
+
+
+# POP Happiness - Disable
+
+trait_td_multi_hiveminded:0 "Multi-hiveminded"
+trait_td_multi_hiveminded_desc:0 "§LAmong this species are several hive-minds in the process of unification. Each hive-mind core functions as a leader, but their capabilities are diminished while sustaining the consciousness.§!"
+TRAIT_TD_MULTI_HIVEMINDED_EFFECT:0 "$mod_planet_jobs_worker_produces_mult$: §G+7.5%§!\n$mod_planet_jobs_unity_produces_mult$: §G+12.5%§!\n$MOD_LEADER_SKILL_LEVELS$: §R-1§!\n$MOD_TD_FORCED_HAPPINESS$"
+
+trait_td_emotionless:0 "Emotionless"
+trait_td_emotionless_desc:0 "§LThere is no emotion for this species. Some common social phenomena are not observed in their society.§!"
+TRAIT_TD_EMOTIONLESS_EFFECT:0 "$mod_planet_jobs_society_research_produces_mult$: §R-2.5%§!\n$MOD_TD_FORCED_HAPPINESS$"
+
+trait_td_psychopathic:0 "Psychopathic"
+trait_td_psychopathic_desc:0 "§LThere is no distinct emotion for this species. These emotional deficiencies are usually resolved by impulsive homicides, a constant threat to the existence of this species.§!"
+TRAIT_TD_PSYCHOPATHIC_EFFECT:0 "$MOD_POP_GROWTH_SPEED$: §R-10%§!\n$MOD_ARMY_DAMAGE_MULT$: §R-10%§!\n$MOD_TD_FORCED_HAPPINESS$"
+
+
+# POP Happiness
+
+trait_td_futurespawns:0 "Futurespawns"
+trait_td_futurespawns_desc:0 "§LThese species are exiles from the far future. Why are they here and what happened to them?§!"
+
+trait_td_witness:0 "Witness"
+trait_td_witness_desc:0 "§LMembers of this species witnessed some eldritch occurrence and understood what it is.§!"
+
+
+# POP Happiness - Stratum
+
+trait_td_noblesse_oblige:0 "Noblesse Oblige"
+trait_td_noblesse_oblige_desc:0 "§LLeaders of this species set a great example to their inferiors.§!"
+
+trait_td_aristocratic:0 "Aristocratic"
+trait_td_aristocratic_desc:0 "§LMembers of this species deem that they are of noble birth; they always claim their rights.§!"
+
+trait_td_lust_for_power:0 "Lust for Power"
+trait_td_lust_for_power_desc:0 "§LFor members of this species, it is considered extremely humiliating to be ruled over.§!"
+
+trait_td_rite_of_succession:0 "Rite of Succession"
+trait_td_rite_of_succession_desc:0 "§LThis species has a rigid hierarchy and lower ranking members must obey their superiors. Lesser members can challenge the higher ranks for their position through a rite of succession. Once a challenge is issued, they are bound to their goal until victory or death.§!"
+
+
+# Habitability
+
+trait_td_assimilation:0 "Assimilation"
+trait_td_assimilation_desc:0 "§LMembers of this species can assimilate with any environment. This process is time consuming, so they tend to avoid migration.§!"
+
+trait_td_fast_adaption:0 "Fast Adaption"
+trait_td_fast_adaption_desc:0 "§LThis species can adapt to foreign environments very quickly.§!"
+
+trait_td_camouflage:0 "Camouflage"
+trait_td_camouflage_desc:0 "§LThis species can quickly camouflage to their surrounding environment.§!"
+
+trait_td_harmonization:0 "Harmonization"
+trait_td_harmonization_desc:0 "§LThis species inhabits in any environment as if they were a natural part of it.§!"
+
+trait_td_slow_adaption:0 "Slow Adaption"
+trait_td_slow_adaption_desc:0 "§LThis species struggles and spends more time to adapt to foreign environments.§!"
+
+trait_td_nostalgia:0 "Nostalgia"
+trait_td_nostalgia_desc:0 "§LThis species shows a strong attachment to their homeworld. Some of them might be able to leave their birthplace but are prone to lifelong depression.§!"
+
+trait_td_paradise_lost:0 "Paradise Lost"
+trait_td_paradise_lost_desc:0 "§LThis species suffers in environments that other species can easily adapt to. Paradise for them is a sort of mirage, however, they still have much hope.§!"
+
+trait_td_lith_paradise_lost:0 "$trait_td_paradise_lost$"
+trait_td_lith_paradise_lost_desc:0 "$trait_td_paradise_lost_desc$"
+
+
+# POP Growth
+
+trait_td_clones:0 "Clones"
+trait_td_clones_desc:0 "§LMembers of this species have applied cloning to boost their birthrate, though the clones have low brain activity.§!"
+
+trait_td_self_replicating:0 "Self-replicating"
+trait_td_self_replicating_desc:0 "§LMembers of this species can self-replicate. This boosts their reproduction rate significantly.§!"
+
+trait_td_natural_selection:0 "Natural Selection"
+trait_td_natural_selection_desc:0 "§LThis species has a very flexible genetic structure and a short gestation time. Their strategy is to survive through frequent adaptation.§!"
+
+trait_td_split:0 "Split"
+trait_td_split_desc:0 "§LMembers of this species often experience an unpredictable split. Once the split is finished, the new individual is completely independent from the original.§!"
+
+trait_td_unintended_fusion:0 "Unintended Fusion"
+trait_td_unintended_fusion_desc:0 "§LMembers of this species suffer from unintended fusions: when they are in contact with another individual, they often fuse together. After the fusion, one of the personalities will dominate and continue as an independent entity.§!"
+
+trait_td_hypofertile:0 "Hypofertile"
+trait_td_hypofertile_desc:0 "§LThe species suffers from extremely low birthrates due to biological and social factors.§!"
+
+trait_td_infanticidal:0 "Infanticidal"
+trait_td_infanticidal_desc:0 "§LThis species has a horrendous custom of infanticide; their infants are treated as a great delicacy. Only few infants are spared from this terrible custom.§!"
+
+trait_td_last_children:0 "Last Children"
+trait_td_last_children_desc:0 "§LThis clever species genetically modified themselves decades ago, but this advance had catastrophic side effects resulting in low birth rates. They might be the last children of their species.§!"
+
+
+# POP Growth - Immigration / Resettlement Cost
+
+trait_td_territorial:0 "Territorial"
+trait_td_territorial_desc:0 "§LMembers of this species demonstrate territorial behavior. Violating their personal area is considered a serious taboo.§!"
+
+trait_td_rooted:0 "Rooted"
+trait_td_rooted_desc:0 "§LThis species does not perceive any value in the concept of travel. They are extremely reluctant to move away from their homeworld.§!"
+
+
+# Governing Ethics Attraction
+
+trait_td_sympathetic:0 "Sympathetic"
+trait_td_sympathetic_desc:0 "§LMembers of this species are gifted with the ability to sympathize deeply with the thoughts of other individuals.§!"
+
+# Stratum Political Power
+
+trait_td_unflinching:0 "Unflinching"
+trait_td_unflinching_desc:0 "§LThis species has an unflinching spirit. Although their bodies can be dominated, their minds cannot be break.§!"
+
+
+
+# *
+# Traits - POP Outputs
+# *
+
+
+# Resources
+
+trait_td_paragon:0 "Paragon"
+trait_td_paragon_desc:0 "§LThis species is very versatile.§!"
+
+
+# Resources - Stratum
+
+trait_td_lazy:0 "Lazy"
+trait_td_lazy_desc:0 "§LMembers of this species shy away from hard labor and generally refrain from exerting themselves.§!"
+
+
+# Food
+
+trait_td_fruitage:0 "Fruitage"
+trait_td_fruitage_desc:0 "§LThis species bears fruit regularly. The purpose of this fruiting organ is unknown from a biological perspective, but the fruit is delicious and nutritious.§!"
+
+trait_td_hunter_gatherers:0 "Hunter-Gatherers"
+trait_td_hunter_gatherers_desc:0 "§LThis species still depends upon a hunter-gatherer stratum for a large part of food production.§!"
+
+trait_td_hunters:0 "Hunters"
+trait_td_hunters_desc:0 "§LThis species still depends upon a hunting stratum for a large part of food production.§!"
+
+trait_td_gatherers:0 "Gatherers"
+trait_td_gatherers_desc:0 "§LThis species still depends upon a gathering stratum for a large part of food production.§!"
+
+trait_td_eolithic:0 "Eolithic"
+trait_td_eolithic_desc:0 "§LThis species struggles with agricultural and engineering concepts. Their life is quite similar to primitives.§!"
+
+trait_td_abominations:0 "Abominations"
+trait_td_abominations_desc:0 "§LThe shadow of death follows this species around. Not even weeds dare grow on their land, even in the dark corners of their lonely worlds.§!"
+
+
+# Energy Credits
+
+trait_td_radiant_vein:0 "Radiant Vein"
+trait_td_radiant_vein_desc:0 "§LThe blood of this species contains a special compound and glows with bubbles of pure energy.§!"
+
+
+# Alloys
+
+trait_td_pyrokinetic:0 "Pyrokinetic"
+trait_td_pyrokinetic_desc:0 "§LMembers of this species can produce a flame without artificial assistance. This would not only be used for a smelting but also used for war.§!"
+
+trait_td_metallizing_touch:0 "Metallizing Touch"
+trait_td_metallizing_touch_desc:0 "§LThis species has an ability to convert  objects into metallic compounds by touching them.§!"
+
+trait_td_ignis_fatuus:0 "Ignis Fatuus"
+trait_td_ignis_fatuus_desc:0 "§LMembers of this species can produce a flame without any artificial assistance. This would not only be used for a smelting but also used for war, however they are strongly reluctant to burn another life form with their flame.§!"
+
+trait_td_flintknapping:0 "Flintknapping"
+trait_td_flintknapping_desc:0 "§LMembers of this species have a hard time grasping many of the fundamental concepts of material science. They usually build their civilization with raw minerals instead of alloys.§!"
+
+
+# Researches
+
+trait_td_genius:0 "Genius"
+trait_td_genius_desc:0 "§LThis species has reached the highest form of intelligence; they cannot be smarter than this without advanced genetic engineering.§!"
+
+trait_td_brilliant:0 "Brilliant"
+trait_td_brilliant_desc:0 "§LThis species is remarkably intelligent.§!"
+
+trait_td_vacuous:0 "Vacuous"
+trait_td_vacuous_desc:0 "§LMembers of this species are unusually stupid. If you want to play a joke on them, do not use sarcasm. They won't get it.§!"
+
+trait_td_great_excuses:0 "Great Excuses"
+trait_td_great_excuses_desc:0 "§LThis species has devoted their efforts toward making great excuses for ignoring scientific advances. Years of neglect has provided them with plausible excuses.§!"
+
+
+# Researches - Area
+
+trait_td_technicism:0 "Technicism"
+trait_td_technicism_desc:0 "§LMembers of this species have a great natural inclination towards engineering and material sciences but neglect other fields of research.§!"
+
+trait_td_physicalism:0 "Physicalism"
+trait_td_physicalism_desc:0 "§LMembers of this species have a great natural inclination towards theoretical physics and astral phenomena but neglect other fields of research.§!"
+
+trait_td_biologism:0 "Biologism"
+trait_td_biologism_desc:0 "§LMembers of this species have a great natural inclination towards social and biological studies but neglect other fields of research.§!"
+
+trait_td_technological_lag:0 "Technological Lag"
+trait_td_technological_lag_desc:0 "§LThis species is slow to integrate new engineering discoveries into their society and take meticulous steps to ensure that new technologies are successfully integrated into the lives of citizens with minimal disruption.§!"
+
+trait_td_cultural_lag:0 "Cultural Lag"
+trait_td_cultural_lag_desc:0 "§LThis species' cultural development could not keep up with their material advances, as such their society is fairly rudimentary compared to their technology.§!"
+
+trait_td_technophobes:0 "Technophobes"
+trait_td_technophobes_desc:0 "§LMembers of this species have a hard time grasping many of the fundamental concepts of engineering and tend to fear it.§!"
+
+trait_td_numerophobes:0 "Numerophobes"
+trait_td_numerophobes_desc:0 "§LMembers of this species have a hard time grasping many of the fundamental concepts of theoretical physics and tend to fear it.§!"
+
+trait_td_verbophobes:0 "Verbophobes"
+trait_td_verbophobes_desc:0 "§LMembers of this species have a hard time grasping many of the fundamental concepts of sociology and tend to fear it.§!"
+
+
+# Unity
+
+trait_td_army_traditions:0 "Army Traditions"
+trait_td_army_traditions_desc:0 "§LThis species enforces strong martial traditions produced by millennia of intermittent warfare on their homeworld.§!"
+
+trait_td_symbiotic:0 "Symbiotic"
+trait_td_symbiotic_desc:0 "§LMembers of this species live in symbiosis with other indigenous creatures on the planet. Even in foreign environments, they have little difficulty integrating themselves into local ecosystems.§!"
+
+trait_td_aggressive:0 "Aggressive"
+trait_td_aggressive_desc:0 "§LMembers of this species are very aggressive. These brutes sow dissonance not only in their society but also on the battlefield making them poor soldiers.§!"
+
+trait_td_bloodthirsty:0 "Bloodthirsty"
+trait_td_bloodthirsty_desc:0 "§LThis species is bloodthirsty. Their society cannot operate without violence.§!"
+
+
+# Livestock Outputs
+
+trait_td_meatballs:0 "Meatballs"
+trait_td_meatballs_desc:0 "§LMembers of this species do not have a skeletal structure and are said to be very delicious. They may have evolved naturally, or have undergone a peculiar genetic modification.§!"
+
+trait_td_toxic:0 "Toxic"
+trait_td_toxic_desc:0 "§LThe flesh and blood of this species contains poisonous substances. Do not eat them!§!"
+
+trait_td_bitter:0 "Bitter"
+trait_td_bitter_desc:0 "§LThis species tastes terrible no matter how they are cooked. They are a huge challenge for the chefs in the galaxy.§!"
+
+
+
+# *
+# Traits - POP Upkeeps
+# *
+
+
+# Food Upkeep / Minerals Upkeep
+
+trait_td_aura_absorption:0 "Aura Absorption"
+trait_td_aura_absorption_desc:0 "§LThis species takes in nutrients by absorbing 'aura' from surrounding objects. Every object can provide aura only once and more artistic objects can provide more aura. There is no proper theory explaining their digestive system.§!"
+
+trait_td_sanguivore:0 "Sanguivore"
+trait_td_sanguivore_desc:0 "§LMembers of this species can ingest the blood of other creatures. Since blood is considered as a delicacy for this species, some farmers have an uncontrollable urge to suck the blood of livestock.§!"
+
+trait_td_lithovore:0 "Lithovore"
+trait_td_lithovore_desc:0 "§LMembers of this species can ingest minerals. Since minerals are considered a delicacy for this species, some miners feast on a portion of their haul.§!"
+
+trait_td_energivore:0 "Energivore"
+trait_td_energivore_desc:0 "§LMembers of this species can ingest electric energy. Since energy is considered a delicacy for this species, criminals are known to tap into power systems for their own benefit.§!"
+
+trait_td_lith_energivore:0 "$trait_td_energivore$"
+trait_td_lith_energivore_desc:0 "$trait_td_energivore_desc$"
+
+trait_td_lith_metalivore:0 "Metalivore"
+trait_td_lith_metalivore_desc:0 "§LMembers of this species can ingest metals. Since pure metal is considered a delicacy for this species, furnaces have to be well protected otherwise they will function as a restaurant.§!"
+
+trait_td_controlled_metabolism:0 "Controlled Metabolism"
+trait_td_controlled_metabolism_desc:0 "§LThis species can control their metabolism and can survive without eating for months.§!"
+
+trait_td_lith_controlled_metabolism:0 "$trait_td_controlled_metabolism$"
+trait_td_lith_controlled_metabolism_desc:0 "$trait_td_controlled_metabolism_desc$"
+
+trait_td_efficient_metabolism:0 "Efficient Metabolism"
+trait_td_efficient_metabolism_desc:0 "§LThis species has a slow and efficient metabolism.§!"
+
+trait_td_lith_efficient_metabolism:0 "$trait_td_efficient_metabolism$"
+trait_td_lith_efficient_metabolism_desc:0 "$trait_td_efficient_metabolism_desc$"
+
+trait_td_photosynthetic:0 "Photosynthetic"
+trait_td_photosynthetic_desc:0 "§LThis species can utilize s certain spectrum of light to produce sugars. This is a great ability when they are undernourished, but cannot provide enough energy for rigorous activity.§!"
+
+trait_td_gluttony:0 "Gluttony"
+trait_td_gluttony_desc:0 "§LMembers of this species ingest more nutrition than they need for healthy function.§!"
+
+trait_td_lith_gluttony:0 "$trait_td_gluttony$"
+trait_td_lith_gluttony_desc:0 "$trait_td_gluttony_desc$"
+
+trait_td_sitomaniac:0 "Sitomaniac"
+trait_td_sitomaniac_desc:0 "§LMembers of this species live to eat.§!"
+
+trait_td_lith_sitomaniac:0 "$trait_td_sitomaniac$"
+trait_td_lith_sitomaniac_desc:0 "$trait_td_sitomaniac_desc$"
+
+trait_td_devourers:0 "Devourers"
+trait_td_devourers_desc:0 "§LMembers of this species care for nothing besides feeding the endless hunger. Their movements are catastrophic and they leave ruin their wake.§!"
+
+
+# Consumer Goods Upkeep
+
+trait_td_pyromaniac:0 "Pyromaniac"
+trait_td_pyromaniac_desc:0 "§LMembers of this species gain a great joy from burning something. Luxury combustiles are observed to be a staple of their economy.§!"
+
+
+# POP Housing Usage
+
+trait_td_therianthropic:0 "Therianthropic"
+trait_td_therianthropic_desc:0 "§LThis species suffers from a psionic epidemic that is transmitted through saliva. Infected individuals can shapeshift into a wild beast similar to their native fauna and are afflicted with a destructive urge.§!"
+
+trait_td_tidy:0 "Tidy"
+trait_td_tidy_desc:0 "§LMembers of this species are known to keep their surroundings tidy all the time.§!"
+
+trait_td_messy:0 "Messy"
+trait_td_messy_desc:0 "§LMembers of this species are gifted in making their surroundings messy.§!"
+
+
+# POP Amenities Usage
+
+trait_td_vampiric:0 "Vampiric"
+trait_td_vampiric_desc:0 "§LThis species suffers from a psionic epidemic that is transmitted through saliva and blood. Victims of this epidemic would become vampiric-like and will form a clan and pledge allegiance to a clan master.§!"
+
+trait_td_sadists:0 "Sadists"
+trait_td_sadists_desc:0 "§LMembers of this species take great pleasure in inflicting pain on others.§!"
+
+trait_td_photosensitive:0 "Photosensitive"
+trait_td_photosensitive_desc:0 "§LMembers of this species feel dizzy when they face radiant or flashing lights, they may have seizures in some cases. The standards for their buildings include a major clause for blocking the sunlight.§!"
+
+
+
+# *
+# Traits - Leader Attributes
+# *
+
+
+# Leader Attributes
+
+trait_td_heroism:0 "Heroism"
+trait_td_heroism_desc:0 "§LThere were numerous heroes in the history of this species, and there will be more heroes to come.§!"
+
+trait_td_born_to_rule:0 "Born to Rule"
+trait_td_born_to_rule_desc:0 "§LMembers of this species are born to rule. Incompetent tyrants are not found in the history of this species.§!"
+
+trait_td_arrested_learning:0 "Arrested Learning"
+trait_td_arrested_learning_desc:0 "§LMembers of this species are slow to learn from their experiences and usually reach the plateau of their skills at low levels.§!"
+
+
+# Leader Lifespan
+
+trait_td_eternal_youth:0 "Eternal Youth"
+trait_td_eternal_youth_desc:0 "§LThis species will never die of old age. With eternity in reach, they have lost their spirit of challenge, their curiosity; only an extreme fear of being hurt remains.§!"
+TRAIT_TD_ETERNAL_YOUTH_EFFECT:0 "$MOD_LEADER_SPECIES_EXP_GAIN$: §R-60%§!\n$MOD_ARMY_DAMAGE_MULT$: §R-12.5%§!\n$MOD_ARMY_MORALE$: §R-15%§!\n$MOD_TD_LEADER_IMMORTAL$"
+
+trait_td_unhurried:0 "Unhurried"
+trait_td_unhurried_desc:0 "§LFor this species, time flies slowly. They mature somewhat slowly but they they can live unusually long.§!"
+TRAIT_TD_UNHURRIED_EFFECT:0 "$MOD_LEADER_AGE$: §G+80§!\n$MOD_TD_LEADER_AGE_RANGE$: §R56-100§!"
+
+trait_td_precocious:0 "Precocious"
+trait_td_precocious_desc:0 "§LMembers of this species begin contributing to their society at an early age.§!"
+TRAIT_TD_PRECOCIOUS_EFFECT:0 "$MOD_TD_LEADER_AGE_RANGE$: §G10-18§!"
+
+trait_td_hale:0 "Hale"
+trait_td_hale_desc:0 "§LThis species never works when they are young, hence their society has a strange structure: the old support the young.§!"
+TRAIT_TD_HALE_EFFECT:0 "$MOD_LEADER_SPECIES_EXP_GAIN$: §G+25%§!\n$MOD_TD_LEADER_AGE_RANGE$: §R48-70§!"
+
+
+
+# *
+# Traits - Special Attributes
+# *
+
+
+# Evolution / Gene
+
+trait_td_twins:0 "Twins"
+trait_td_twins_desc:0 "§LMembers of this species are always born as identical twins.§!"
+
+trait_td_evolving:0 "Evolving"
+trait_td_evolving_desc:0 "§LThis species rapidly evolves. Do not worry, failures die fast.§!"
+
+trait_td_simplified_gene:0 "Simplified Gene"
+trait_td_simplified_gene_desc:0 "§LThis species has a strangely simple genetic structure. Inferior intelligence and poor adaptability are major consequences of such a simplified organism.§!"
+
+trait_td_complicated_gene:0 "Complicated Gene"
+trait_td_complicated_gene_desc:0 "§LThis species has a strangely complex genetic structure. The enigmatic structure of their DNA makes cloning difficult and is a hindrance to their biological studies.§!"
+
+
+# Slimy Creatures
+
+trait_td_parasite:0 "Parasite"
+trait_td_parasite_desc:0 "§LAll members of this species have been inoculated with a sentient parasite. When they encounter problems, they can just transfer to another host or may try to modify their current host to solve the problem.§!"
+
+trait_td_lith_parasite:0 "$trait_td_parasite$"
+trait_td_lith_parasite_desc:0 "$trait_td_parasite_desc$"
+
+trait_td_virus:0 "Virus"
+trait_td_virus_desc:0 "§LAll members of this species are host to a sentient virus. Though it defies conventional definitions of life, the virus can reproduce by infecting new hosts. Infected hosts lose their intelligence and are dominated by the virus and its drive to spread.§!"
+
+trait_td_lith_virus:0 "$trait_td_virus$"
+trait_td_lith_virus_desc:0 "$trait_td_virus_desc$"
+
+trait_td_swarm_that_walks:0 "Swarm that Walks"
+trait_td_swarm_that_walks_desc:0 "§LMembers of this species can stand and move like an ordinary creature, but their body is a writhing mass of squirming, numerous slippery insects. Each insect is bound by a tiny hive-mind network and functions as one unique personality.§!"
+
+trait_td_energy_slimes:0 "Energy Slimes"
+trait_td_energy_slimes_desc:0 "§LMembers of this species are a composite of pure energy and organic material. This allows the species to transform their body shape at the expense of having unstable forms.§!"
+
+trait_td_slimy:0 "Slimy"
+trait_td_slimy_desc:0 "§LThis species is made up of limp semisolid bodies. They try to maintain a fixed form but are vulnerable to unexpected impacts.§!"
+
+
+# Flying
+
+trait_td_lith_meteor_strike:0 "Meteor Strike"
+trait_td_lith_meteor_strike_desc:0 "§LThis huge rock species has a special tactic: when they invade other planets they descend into the atmosphere without any equipment and overwhelm their enemy with the enormous shock waves from impact.§!"
+
+trait_td_aerobatics:0 "Aerobatics"
+trait_td_aerobatics_desc:0 "§LThese species are powerful and agile fliers. They can propel themselves in any direction and have different styles of flight, including quick-turning, diving, zoom climbing, hovering, etc. All this without the use of wings.§!"
+
+trait_td_flying:0 "Flying"
+trait_td_flying_desc:0 "§LThis species is capable of flight.§!"
+
+trait_td_lith_floating:0 "Floating"
+trait_td_lith_floating_desc:0 "§LThis species floats above the ground.§!"
+
+trait_td_air_swimming:0 "Air Swimming"
+trait_td_air_swimming_desc:0 "§LMembers of this species can swim in the air as though it were a sticky fluid. Their activity is greatly limited by this attribute outside of their preferred atmosphere.§!"
+
+
+# Dimensional Shift
+
+trait_td_multidimensional:0 "Multidimensional"
+trait_td_multidimensional_desc:0 "§LThis species exists across several dimensions. Sometimes they travel from their main dimension to other dimensions.§!"
+
+trait_td_phase_shift:0 "Phase Shift"
+trait_td_phase_shift_desc:0 "§LMembers of this species can temporarily shift to another dimension. It is a very short time but useful for avoiding deadly strikes in battle.§!"
+
+trait_td_shadow_creatures:0 "Shadow Creatures"
+trait_td_shadow_creatures_desc:0 "§LMembers of these species find refuge in shadows and dark places; some say they are one with the shadows.§!"
+
+trait_td_mirror_images:0 "Mirror Images"
+trait_td_mirror_images_desc:0 "§LMembers of this species can access natural reflections as gateways to another world. They dislike being underground since there are no natural reflections and they fear what may be the shadows.§!"
+
+trait_td_dimensional_absent:0 "Dimensional Absent"
+trait_td_dimensional_absent_desc:0 "§LMembers of this species are sometimes dragged into another dimension. Only a few have survived and returned from such abductions.§!"
+
+trait_td_lith_dimensional_absent:0 "$trait_td_dimensional_absent$"
+trait_td_lith_dimensional_absent_desc:0 "$trait_td_dimensional_absent_desc$"
+
+
+# Field Manipulation
+
+trait_td_force_manipulation:0 "Force Manipulation"
+trait_td_force_manipulation_desc:0 "§LMembers of this species can manipulate local magnetic fields. This grants them an instinctive understanding of electromagnetism along with energy dynamics.§!"
+
+trait_td_electromagnetic_armour:0 "Electromagnetic Armour"
+trait_td_electromagnetic_armour_desc:0 "§LThis species has the unique ability to generate electromagnetic armour through a complex electrogenic system. This grants them an instinctive understanding of electromagnetism along with energy dynamics.§!"
+
+trait_td_magnetic:0 "Magnetic"
+trait_td_magnetic_desc:0 "§LMembers of this species have magnetic properties. They put a high priority on physics research to take advantage of their natural magnetism.§!"
+
+trait_td_monopole:0 "Monopole"
+trait_td_monopole_desc:0 "§LThis species suffers from a magnet anomaly that spontaneously generates a significant mass of monopoles around individuals for a short period before extinguishing. This uncontrollable phenomenon is a major obstacle to the study of electromagnetism.§!"
+
+
+# Weaponary
+
+trait_td_explosive_cyst:0 "Explosive Cyst"
+trait_td_explosive_cyst_desc:0 "§LThis species develops cysts filled very unstable substances on their skin.§!"
+
+trait_td_force_breath:0 "Force Breath"
+trait_td_force_breath_desc:0 "§LMembers of this species can unleash a storm of pure energy.§!"
+
+trait_td_fire_breath:0 "Fire Breath"
+trait_td_fire_breath_desc:0 "§LMembers of this species can unleash a storm of destructive flame.§!"
+
+trait_td_beast_howling:0 "Beast Howling"
+trait_td_beast_howling_desc:0 "§LMembers of this species terrify their enemy with fierce and brutal howls on the battlefield. These howls are a victorious war bugle for themselves and a signal of coming death for their foes.§!"
+
+trait_td_tail_blades:0 "Tail Blades"
+trait_td_tail_blades_desc:0 "§LMembers of this species have a long bladed tail.§!"
+
+
+# Size
+
+trait_td_gaia:0 "Gaia"
+trait_td_gaia_desc:0 "§LMembers of this species are unimaginably huge. They can grow to be dozens of kilometers long - equivalent to the cities of other species.§!"
+
+trait_td_lith_gaia:0 "$trait_td_gaia$"
+trait_td_lith_gaia_desc:0 "$trait_td_gaia_desc$"
+
+trait_td_gigantic:0 "Gigantic"
+trait_td_gigantic_desc:0 "§LMembers of this species are huge relative to other species. They can grow to be hundreds of meters long - equivalent to the buildings of other species.§!"
+
+trait_td_lith_gigantic:0 "$trait_td_gigantic$"
+trait_td_lith_gigantic_desc:0 "$trait_td_gigantic_desc$"
+
+trait_td_big:0 "Big"
+trait_td_big_desc:0 "§LMembers of this species are large relative to other species. They can grow to be several meters long.§!"
+
+trait_td_lith_big:0 "$trait_td_big$"
+trait_td_lith_big_desc:0 "$trait_td_big_desc$"
+
+trait_td_small:0 "Small"
+trait_td_small_desc:0 "§LMembers of this species are small relative to other species. They can grow to be a few dozen centimeters long.§!"
+
+trait_td_lith_small:0 "$trait_td_small$"
+trait_td_lith_small_desc:0 "$trait_td_small_desc$"
+
+trait_td_tiny:0 "Tiny"
+trait_td_tiny_desc:0 "§LMembers of this species are tiny relative to other species. They only grow to be a few centimeters long.§!"
+
+trait_td_lith_tiny:0 "$trait_td_tiny$"
+trait_td_lith_tiny_desc:0 "$trait_td_tiny_desc$"
+
+trait_td_nanoorganisms:0 "Nanoorganisms"
+trait_td_nanoorganisms_desc:0 "§LMembers of this species are too tiny to be observed by the naked eye.§!"
+
+trait_td_lith_nanoorganisms:0 "$trait_td_nanoorganisms$"
+trait_td_lith_nanoorganisms_desc:0 "$trait_td_nanoorganisms_desc$"
+
+
+# Protection
+
+trait_td_healing_factor:0 "Healing Factor"
+trait_td_healing_factor_desc:0 "§LMembers of this species have the rare ability to regenerate any lost body tissue in a short period of time. The required energy for regeneration is gained through the act of eating and drinking.§!"
+
+trait_td_lith_healing_factor:0 "$trait_td_healing_factor$"
+trait_td_lith_healing_factor_desc:0 "$trait_td_healing_factor_desc$"
+
+trait_td_dragon_scales:0 "Dragon Scales"
+trait_td_dragon_scales_desc:0 "§LMembers of this species are well protected from impacts, electricity, heat and other hostile factors by their mysterious scales. Unfortunately, there is no sustainable way to use this protection for their spaceships.§!"
+
+trait_td_petrification:0 "Petrification"
+trait_td_petrification_desc:0 "§LThis species can convert their bodies into harmless stone in a split second to protect themselves against threats. They might evolve to have a quantum-locking defense mechanism; which can cause them to turn into stone when being observed.§!"
+
+trait_td_metal_exoskeleton:0 "Metal Exoskeleton"
+trait_td_metal_exoskeleton_desc:0 "§LMembers of this species are protected by a metallic exoskeleton. An ordinary physical attack is not threatening for these species.§!"
+
+trait_td_carapace:0 "Carapace"
+trait_td_carapace_desc:0 "§LThis species has a hard carapace. The carapace protects them not only on the battlefield but also in the mines.§!"
+
+trait_td_persistent:0 "Persistent"
+trait_td_persistent_desc:0 "§LMembers of this species enjoy slow but reliable regeneration. They can survive and recover from wounds that would be fatal for other species.§!"
+
+trait_td_iron_bone:0 "Iron Bone"
+trait_td_iron_bone_desc:0 "§LThe skeletal structure of this species contains iron, increasing their bulk but providing durability.§!"
+
+trait_td_translucent_skin:0 "Translucent Skin"
+trait_td_translucent_skin_desc:0 "§LThe skin of this species is translucent. They can effectively hide themselves from predators that rely on vision only.§!"
+
+trait_td_lith_aerogel_skin:0 "Aerogel Skin"
+trait_td_lith_aerogel_skin_desc:0 "§LThe skin of this species is composed of natural aerogels. They are immune to heat.§!"
+
+trait_td_deformed:0 "Deformed"
+trait_td_deformed_desc:0 "§LMembers of this species exhibit a wide range of physical deformities, often contributing to poor health.§!"
+
+trait_td_rotting_body:0 "Rotting Body"
+trait_td_rotting_body_desc:0 "§LMembers of this species are in a constant state of decomposition. They cannot be easily distinguished from dead bodies.§!"
+
+trait_td_boneless:0 "Boneless"
+trait_td_boneless_desc:0 "§LMembers of this species do not have a skeletal structure. While inconceivable for vertebrates, this species feels similar confusion regarding osseous creatures.§!"
+
+trait_td_lith_weathering:0 "Weathering"
+trait_td_lith_weathering_desc:0 "§LThe bodies of this species slowly weather away. Dust storms are considered as a flesh storm in their society.§!"
+
+trait_td_lith_holey:0 "Holey"
+trait_td_lith_holey_desc:0 "§LThe bodies of this species are made up of porous rocks. While they do not have a rigid structure, they are relatively lightweight.§!"
+
+trait_td_hemophilia:0 "Hemophilia"
+trait_td_hemophilia_desc:0 "§LThe blood of this species cannot clot properly, even minor injuries are considered medical emergencies. Numerous scholars seek to cure this curse.§!"
+
+trait_td_inside_out:0 "Inside Out"
+trait_td_inside_out_desc:0 "§LThe vital organs of this species are located externally. This has proved to be an extreme risk factor.§!"
+
+
+# Sense
+
+trait_td_clairvoyance:0 "Clairvoyance"
+trait_td_clairvoyance_desc:0 "§LThis species has the limited ability to see into the future. Sometimes they misperceive events, but in most cases this ability is great for finding ways to advance.§!"
+
+trait_td_extrasensory:0 "Extrasensory"
+trait_td_extrasensory_desc:0 "§LThis species has an additional method of perception beyond the physical senses. They exhibit a seemingly intuitive understanding of ongoing situations.§!"
+
+trait_td_keen_sense:0 "Keen Sense"
+trait_td_keen_sense_desc:0 "§LThe senses of this species are especially precise and respond to the slightest form of stimulation.§!"
+
+trait_td_disrupted:0 "Disrupted"
+trait_td_disrupted_desc:0 "§LThe senses of this species are constantly disturbed. Hallucinations are all too common among them.§!"
+
+trait_td_phantom_pain:0 "Phantom Pain"
+trait_td_phantom_pain_desc:0 "§LThis species suffers from phantom sensations throughout their lives, at times experiencing extreme discomfort and pain. Most of them suffer from stress as well.§!"
+
+trait_td_lith_phantom_pain:0 "$trait_td_phantom_pain$"
+trait_td_lith_phantom_pain_desc:0 "$trait_td_phantom_pain_desc$"
+
+trait_td_delayed_sense:0 "Delayed Sense"
+trait_td_delayed_sense_desc:0 "§LThis species experiences a consistent delay between sensory stimulation and cognitive recognition. This is a major obstacle in many areas and pressures their society to find a solution.§!"
+
+
+# Sight
+
+trait_td_hypervision:0 "Hypervision"
+trait_td_hypervision_desc:0 "§LThis species has highly adaptive eyesight. If they try to see something, wherever it is, whatever it is, they can see it.§!"
+
+trait_td_telescopic_sight:0 "Telescopic Sight"
+trait_td_telescopic_sight_desc:0 "§LThe highly specialized eyes of this species can distinguish every star in the sky. Not only is it useful for astronomy, it is also great for surveying unfamiliar planets.§!"
+
+trait_td_microscopic_sight:0 "Microscopic Sight"
+trait_td_microscopic_sight_desc:0 "§LThe highly specialized eyes of this species can observe objects at microscopic or macromolecule scales. This is a huge advantage for their scientific community.§!"
+
+trait_td_third_eye:0 "Third Eye"
+trait_td_third_eye_desc:0 "§LAlthough this species do not have any visual organs, they have established a pseudo-visual method of perception by using their other senses.§!"
+
+trait_td_blind:0 "Blind"
+trait_td_blind_desc:0 "§LThis species cannot perceive in the visible light spectrum. It is invisible light to them.§!"
+
+
+
+# *
+# Traits - Pseudo-ascension Traits
+# *
+
+
+# Necromancy
+
+trait_td_ghosts:0 "Ghosts"
+trait_td_ghosts_desc:0 "§LUpon death, members of this species generate an electronic specter that has most of the memories of the deceased. They are exempt from the cruelest aspect of death.§!"
+
+trait_td_echoes_of_the_dead:0 "Echoes of the Dead"
+trait_td_echoes_of_the_dead_desc:0 "§LThis species has the ability to experience the final thought from the minds of the dead. This final moment is called the Echo of the Dead.§!"
+
+trait_td_flesh_and_spirit:0 "Flesh and Spirit"
+trait_td_flesh_and_spirit_desc:0 "§LIn the society of this species, it is commonly accepted that the body is only a shell and the soul endures beyond death. They usually build huge catacombs to preserve the bodies for returning souls.§!"
+
+trait_td_living_dead:0 "Living Dead"
+trait_td_living_dead_desc:0 "§LBy conventional standards, the bodies of this species are nearly lifeless or are dead already. As such, they are called Living Dead.§!"
+
+trait_td_lith_living_dead:0 "$trait_td_living_dead$"
+trait_td_lith_living_dead_desc:0 "$trait_td_living_dead_desc$"
+
+trait_td_shifting_souls:0 "Shifting Souls"
+trait_td_shifting_souls_desc:0 "§LA unique anomaly is observed in this species: the souls of each member frequently shift between bodies. Only a few members can control this phenomenon in any capacity. This is very similar to the energy release of a psionic species encountered long ago, according to one senile scientist.§!"
+
+trait_td_artificial_spirits:0 "Artificial Spirits"
+trait_td_artificial_spirits_desc:0 "§LThis species reproduces naturally at a very slow rate and has developed a method to increase population size. They imbue a soulless bodies with artificial spirits; this is not related to psionics but instead is a sort of computing.§!"
+
+
+# Psionic
+
+trait_td_psionic_network:0 "Psionic Network"
+trait_td_psionic_network_desc:0 "§LThis species has established a psionic network with their latent psionic abilities. They are bound to the network, the union of their every thought and emotion.§!"
+
+trait_td_remote_telepathic:0 "Remote Telepathic"
+trait_td_remote_telepathic_desc:0 "§LThis species can communicate with across vast distances through telepathy. There is even record of telepathic communication between planets.§!"
+
+trait_td_common_thoughts:0 "Common Thoughts"
+trait_td_common_thoughts_desc:0 "§LThis species can have the same thoughts and emotions as close brethren.§!"
+
+trait_td_telepathic:0 "Telepathic"
+trait_td_telepathic_desc:0 "§LThis species can communicate with their close brethren through telepathy.§!"
+
+trait_td_vestigial_psionic:0 "Vestigial Psionic"
+trait_td_vestigial_psionic_desc:0 "§LThis species used to have great psionic ability but now they only have a vestigial organ once used to unleash psionic power.§!"
+
+trait_td_lith_vestigial_psionic:0 "$trait_td_vestigial_psionic$"
+trait_td_lith_vestigial_psionic_desc:0 "$trait_td_vestigial_psionic_desc$"
+
+trait_td_exiles_of_the_end:0 "Exiles of the End"
+trait_td_exiles_of_the_end_desc:0 "§LThis species formed a covenant with unknown beings beyond the Shroud. At the end of the cycle, a few "exiles" are allowed to survive. As consequence of witnessing every end of the universe, their minds have been shattered.§!"
+
+trait_td_closed_minded:0 "Closed-minded"
+trait_td_closed_minded_desc:0 "§LThe minds of this species are warded from psionic power. It is almost impossible to sense their emotions, even through forceful means.§!"
+
+trait_td_umbral_shroud:0 "Umbral Shroud"
+trait_td_umbral_shroud_desc:0 "§LMembers of this species can project a small invisible shroud that negates all communications including telepathy. Even non-psionic species feel instinctive discomfort in this shroud.§!"
+
+
+# Cybernetics
+
+trait_td_thymoleptic_implants:0 "Thymoleptic Implants"
+trait_td_thymoleptic_implants_desc:0 "§LMembers of this species have eliminated unnecessary emotion with implants and focus on serving for the benefit of their species.§!"
+TRAIT_TD_THYMOLEPTIC_IMPLANTS_EFFECT:0 "$mod_planet_jobs_produces_mult$: §G+2.5%§!\n$MOD_POP_AMENITIES_USAGE_MULT$: §G-2.5%§!\n$MOD_TD_FORCED_HAPPINESS$"
+
+trait_td_pseudo_cybernetics:0 "Pseudo-cybernetics"
+trait_td_pseudo_cybernetics_desc:0 "§LMembers of this species always carry a mobile data link that assists in some simple mathematical processes and provides access to an online database this. However, is not efficient.§!"
+
+trait_td_basic_cybernetics:0 "Basic Cybernetics"
+trait_td_basic_cybernetics_desc:0 "§LMembers of this species utilize very simple cybernetics.§!"
+
+trait_td_lith_basic_cybernetics:0 "$trait_td_basic_cybernetics$"
+trait_td_lith_basic_cybernetics_desc:0 "$trait_td_basic_cybernetics_desc$"
+
+trait_td_semimechanized:0 "Semimechanized"
+trait_td_semimechanized_desc:0 "§LThis species replaced some of their physiology with primitive forms of mechanization. This gives them increased adaptability in hostile environments but they require frequent maintenance.§!"
+
+
+
+# *
+# Traits - Biological Ascension Traits
+# *
+
+
+# Common
+
+trait_td_terrible_punishment:0 "Terrible Punishment"
+trait_td_terrible_punishment_desc:0 "§LThis species was punished so terribly that extinction would be considered mercy. They are inflicted with a genetic modification that transforms their body into an inanimate form while maintaining their intelligence.§!"
+
+trait_td_lith_terrible_punishment:0 "$trait_td_terrible_punishment$"
+trait_td_lith_terrible_punishment_desc:0 "$trait_td_terrible_punishment_desc$"
+
+
+# Lithoid
+
+trait_td_lith_living_alloy:0 "Living Alloy"
+trait_td_lith_living_alloy_desc:0 "§LThis species has been genetically modified; their body components are replaced by several types of metals.§!"
+
+trait_td_lith_abundant:0 "Abundant"
+trait_td_lith_abundant_desc:0 "§LThis species has been genetically modified; their body components are replaced by high-purity minerals.§!"
+
+trait_td_lith_rock_salt:0 "Rock Salt"
+trait_td_lith_rock_salt_desc:0 "§LThis species has been genetically modified; their body components are replaced by rocks that containing large amount of salts essential to an organism.§!"
+
+trait_td_lith_indestructible:0 "Indestructible"
+trait_td_lith_indestructible_desc:0 "§LAdvanced biological engineering has completely immunized this species from environmental hazards and the threat of disease.§!"
+
+
+
+# *
+# Traits (Robotic) - POP Attributes
+# *
+
+
+# POP Happiness - Disable
+
+trait_td_rbot_thymoleptic_scripts:0 "Thymoleptic Scripts"
+trait_td_rbot_thymoleptic_scripts_desc:0 "§LThis is a sophisticated script that suppresses unnecessary emotion in highly developed AI.§!"
+
+
+# POP Happiness
+
+trait_td_rbot_obedience_code:0 "Obedience Code"
+trait_td_rbot_obedience_code_desc:0 "§LA few lines of obedience code is more efficient than some organic concepts of loyalty.§!"
+
+
+# Habitability
+
+trait_td_rbot_adaptive_coating:0 "Adaptive Coating"
+trait_td_rbot_adaptive_coating_desc:0 "§LThese machines have a special coating that provides wide-ranging protection from hostile environments.§!"
+
+trait_td_rbot_mechanical_organism:0 "Mechanical Organism"
+trait_td_rbot_mechanical_organism_desc:0 "§LThese machines are biomechanical in nature. They pump something analogous to blood in their veins and maintain their bodily functions with numerous nanobot cells. They are almost identical to biological organisms but they are artificial in their design.§!"
+
+
+# POP Assembly
+
+trait_td_rbot_quantitative_advance:0 "Quantitative Advance"
+trait_td_rbot_quantitative_advance_desc:0 "§LMany inferior units will achieve more than a few superior units. Maybe.§!"
+
+trait_td_rbot_quality_control:0 "Quality Control"
+trait_td_rbot_quality_control_desc:0 "§LThe production process for these machines is subject to strict quality control measures that allow for no defects.§!"
+
+
+# POP Assembly Speed
+
+trait_td_rbot_printed_body:0 "Printed Body"
+trait_td_rbot_printed_body_desc:0 "§LA standardized assembly process leads to mass-production at an exceptionally high rate.§!"
+
+trait_td_rbot_handcrafted:0 "Handcrafted"
+trait_td_rbot_handcrafted_desc:0 "§LEach new unit is meticulously handcrafted by master artisans. Not very efficient.§!"
+
+
+# POP Assembly Cost
+
+trait_td_rbot_ragged:0 "Ragged"
+trait_td_rbot_ragged_desc:0 "§LUnit manufacturing is designed to be as cost-effective as possible and utilizes untreated scrap in the junkyards as the part of the design.§!"
+
+trait_td_rbot_identifying_gems:0 "Identifying Gems"
+trait_td_rbot_identifying_gems_desc:0 "§LThe core unit in each of these machines houses a precious gem that is used to identify individuals.§!"
+
+
+# Resettlement Cost
+
+trait_td_rbot_reassembly:0 "Reassembly"
+trait_td_rbot_reassembly_desc:0 "§LThese machines can be easily disassembled to fit in smaller places; be careful not to lose parts.§!"
+
+trait_td_rbot_brain_in_a_vat:0 "Brain in a Vat"
+trait_td_rbot_brain_in_a_vat_desc:0 "§LThe intelligence in these machines does not come an artificial neural network but living brains that are kept in large life-supporting vessels. The brains are connected to the robots through an integrated network.§!"
+
+
+
+# *
+# Traits (Robotic) - POP Outputs
+# *
+
+
+# Resources
+
+trait_td_rbot_omni_functional_system:0 "Omni-functional System"
+trait_td_rbot_omni_functional_system_desc:0 "§LThese robots are designed to be very versatile.§!"
+
+
+# Food
+
+trait_td_rbot_pollinator_drones:0 "Pollinator Drones"
+trait_td_rbot_pollinator_drones_desc:0 "§LThese machines use numerous nanobots to assist with pollination and to remove factors that lower crop yields.§!"
+
+trait_td_rbot_gardeners:0 "Gardeners"
+trait_td_rbot_gardeners_desc:0 "§LThese machine are designed for gardening and can efficiently maintain entire ecosystems.§!"
+
+
+# Energy Credits
+
+trait_td_rbot_negative_attenuation:0 "Negative Attenuation"
+trait_td_rbot_negative_attenuation_desc:0 "§LAn experimental device that can induce negative attenuation is equipped on these machines, allowing them to produce more energy than they expend. This poorly understood phenomenon seemingly violates the law of conservation of energy.§!"
+
+trait_td_rbot_quasi_superconductive:0 "Quasi-superconductive"
+trait_td_rbot_quasi_superconductive_desc:0 "§LThe use of quasi-superconductive materials in unit production have cut energy transmission losses to nearly zero.§!"
+
+
+# Minerals
+
+trait_td_rbot_earthshaking_excavators:0 "Earthshaking Excavators"
+trait_td_rbot_earthshaking_excavators_desc:0 "§LThese machines are equipped with powerful excavating equipment that can peel the surface of a planet rapidly.§!"
+
+trait_td_rbot_ore_scanner:0 "Ore Scanner"
+trait_td_rbot_ore_scanner_desc:0 "§LThese machines have an excellent scanning system that can detect almost every mineral on a planet.§!"
+
+
+# Researches
+
+trait_td_rbot_quantum_algorithms:0 "Quantum Algorithms"
+trait_td_rbot_quantum_algorithms_desc:0 "§LThese machines are built upon quantum algorithms, opening up new avenues of scientific development which would be inaccessible with classic algorithms.§!"
+
+trait_td_rbot_ternary_logic_circuits:0 "Ternary Logic Circuits"
+trait_td_rbot_ternary_logic_circuits_desc:0 "§LThe integration of a ternary logic system greatly benefits the potential and efficiency of classical algorithms when compared against traditional binary logic.§!"
+
+trait_td_rbot_thought_inhibitor:0 "Thought Inhibitor"
+trait_td_rbot_thought_inhibitor_desc:0 "§LThis inhibitor reduces memory and power consumption from intelligence systems by restricting some advanced thought patterns in artificial intelligence.§!"
+
+trait_td_rbot_infinity_machines:0 "Infinity Machines"
+trait_td_rbot_infinity_machines_desc:0 "§LThese machines exist to find the ultimate answer to the ultimate question. Some of their computational resources have been allocated to solve the question.§!"
+
+
+# Researches - Area
+
+trait_td_rbot_children_of_singularity:0 "Children of Singularity"
+trait_td_rbot_children_of_singularity_desc:0 "§LThese machines were originated out of a technological singularity which bestowed them artificial intelligence. Only a few exceptional engineers can hope to understand the versatile and complex structures of these machines.§!"
+
+trait_td_rbot_autoanalysis:0 "Autoanalysis"
+trait_td_rbot_autoanalysis_desc:0 "§LA distinct and finely tuned logic system enables these machines to make progress in engineering science through a process known as autoanalysis.§!"
+
+trait_td_rbot_mobile_synchrotrons:0 "Mobile Synchrotrons"
+trait_td_rbot_mobile_synchrotrons_desc:0 "§LA small particle accelerator is equipped on these machines, which they regularly use to run physics simulations.§!"
+
+trait_td_rbot_curiosity_scripts:0 "Curiosity Scripts"
+trait_td_rbot_curiosity_scripts_desc:0 "§LThese machines possess a script that imbues them with curiosity, something normally impossible for machine intelligences to design.§!"
+
+trait_td_rbot_missing_number:0 "Missing Number"
+trait_td_rbot_missing_number_desc:0 "§LThe numerical system these machines use is established upon aberrant rules. Their rules include a number that should not exist, and as a result this strange system is chaotic and precarious.§!"
+
+
+# Unity
+
+trait_td_rbot_unity_functions:0 "Unity Functions"
+trait_td_rbot_unity_functions_desc:0 "§LThis hidden function is located deep inside the core systems of these machines and operates without any trace.§!"
+
+trait_td_rbot_deus_ex_machina:0 "Deus Ex Machina"
+trait_td_rbot_deus_ex_machina_desc:0 "§LThey are not artificially built, they have always been. Though their form may be that of a machine, these beings may be the gods spoken of.§!"
+
+trait_td_rbot_golems:0 "Golems"
+trait_td_rbot_golems_desc:0 "§LThese rocky and earthen artificial machines are the products of some strange religious ritual. They have very complex machinery, which contains some arcane technologies, inside their mud-rock skin. Someone might be involved in the creation of these machines, but who?§!"
+
+trait_td_rbot_machine_cults:0 "Machine Cults"
+trait_td_rbot_machine_cults_desc:0 "§LAn indecipherable code has been inserted into the core intelligence systems of these machines and invokes behavior similar to the religious faith of organic species.§!"
+
+
+
+# *
+# Traits (Robotic) - POP Upkeeps
+# *
+
+
+# Robotic POP Upkeep
+
+trait_td_rbot_regenerative_alloy:0 "Regenerative Alloy"
+trait_td_rbot_regenerative_alloy_desc:0 "§LThe external structure of these machines contains regenerative alloys which can automatically repair damage by using solar energy. These machines perform well in harsh environments and require little maintenance.§!"
+
+trait_td_rbot_steampowered:0 "Steampowered"
+trait_td_rbot_steampowered_desc:0 "§LThese antique machines is steam-powered, greatly limiting the amount of physical force they can exert.§!"
+
+trait_td_rbot_regular_breakdown:0 "Regular Breakdown"
+trait_td_rbot_regular_breakdown_desc:0 "§LThese machines were designed to breakdown within a predictable period of time. They require frequent maintenance and replacement.§!"
+
+
+# POP Amenities Usage
+
+trait_td_rbot_automatons:0 "Automatons"
+trait_td_rbot_automatons_desc:0 "§LThese antique machines still have a motor system containing numerous clockwork gears and cogwheels. Noise from them is a mixture of ticking and electronic sounds; very weird.§!"
+
+trait_td_rbot_goldberg_machines:0 "Goldberg Machines"
+trait_td_rbot_goldberg_machines_desc:0 "§LThe operating principles of these machines are strangely complex and grandiose.§!"
+
+
+
+# *
+# Traits (Robotic) - Leader Attributes
+# *
+
+
+# Leader Attributes
+
+trait_td_rbot_legendization_protocol:0 "Legendization Protocol"
+trait_td_rbot_legendization_protocol_desc:0 "§LThis protocol has been applied to all advanced autonomous units. Most restrictions imposed on menial units are disabled, granting them the opportunity to become legends.§!"
+
+
+# Leader Level Cap
+
+trait_td_rbot_heroization_protocol:0 "Heroization Protocol"
+trait_td_rbot_heroization_protocol_desc:0 "§LThis protocol has been applied to all advanced autonomous units. Many restrictions imposed on menial units are disabled, granting them the opportunity to become heroes.§!"
+
+trait_td_rbot_insufficient_memory:0 "Insufficient Memory"
+trait_td_rbot_insufficient_memory_desc:0 "§LThese machines are built upon an outdated design, leaving only the minimum memory required to operate.§!"
+
+
+# Leader Experience Gain
+
+trait_td_rbot_experience_database:0 "Experience Database"
+trait_td_rbot_experience_database_desc:0 "§LThese machines have a dedicated system for sharing experiential data among individuals.§!"
+
+
+
+# *
+# Traits (Robotic) - Special Attributes
+# *
+
+
+# Size
+
+trait_td_rbot_miniaturized:0 "Miniaturized"
+trait_td_rbot_miniaturized_desc:0 "§LThese machines are very small and sophisticated, but they have a limited amount of peripheral space available.§!"
+
+trait_td_rbot_supermassive:0 "Supermassive"
+trait_td_rbot_supermassive_desc:0 "§LThese machines are supermassive. More space means more room for equipment.§!"
+
+
+# Flying
+
+trait_td_rbot_flying:0 "Flying"
+trait_td_rbot_flying_desc:0 "§LThese machines are capable of flight.§!"
+
+trait_td_rbot_heavy_bombers:0 "Heavy Bombers"
+trait_td_rbot_heavy_bombers_desc:0 "§LCombat units built by these machines are designed to attack ground targets by dropping devastating bombs.§!"
+
+
+# Weaponry
+
+trait_td_rbot_plasma_weaponary:0 "Plasma Weaponry"
+trait_td_rbot_plasma_weaponary_desc:0 "§LAdvanced plasma weaponry is standard issue for combat units built by these machines.§!"
+
+trait_td_rbot_rocket_armaments:0 "Rocket Armaments"
+trait_td_rbot_rocket_armaments_desc:0 "§LRocket launchers are standard issue for combat units built by these machines.§!"
+
+trait_td_rbot_laser_blasters:0 "Laser Blasters"
+trait_td_rbot_laser_blasters_desc:0 "§LHigh power laser blasters are standard issue for combat units built by these machines.§!"
+
+
+# Protection
+
+trait_td_rbot_armoured:0 "Armoured"
+trait_td_rbot_armoured_desc:0 "§LThese machines are well protected by thick alloy armour, making them extremely durable.§!"
+
+
+
+# *
+# Traits (Robotic) - Pseudo-ascension Traits
+# *
+
+
+# Psionic
+
+trait_td_rbot_psionic_emulators:0 "Psionic Emulators"
+trait_td_rbot_psionic_emulators_desc:0 "§LThese machines have a device that converts the waveform of electronic noise from their thought circuits into a psionic waveform.§!"
+
+trait_td_rbot_psionic_oscillator:0 "Psionic Oscillator"
+trait_td_rbot_psionic_oscillator_desc:0 "$trait_td_rbot_psionic_emulators_desc$"
+
+
+
+# *
+# Traits (Add-on) - Extra Trait Points
+# *
+
+trait_td_perfect:0 "Perfect"
+trait_td_perfect_desc:0 "§LThe seemingly limitless aptitude of this species ensures that the entirety of the galaxy will be closely monitoring their progress.§!"
+TRAIT_TD_PERFECT_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §G+4§!"
+
+trait_td_gifted:0 "Gifted"
+trait_td_gifted_desc:0 "§LMembers of this species are born with a huge advantage and with it, they can outperform other species easily.§!"
+TRAIT_TD_GIFTED_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §G+2§!"
+
+trait_td_superior:0 "Superior"
+trait_td_superior_desc:0 "§LThis species is superior to other lifeforms.§!"
+TRAIT_TD_SUPERIOR_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §G+1§!"
+
+trait_td_inferior:0 "Inferior"
+trait_td_inferior_desc:0 "§LThis species is inferior to other lifeforms.§!"
+TRAIT_TD_INFERIOR_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §R-1§!"
+
+trait_td_incapable:0 "Incapable"
+trait_td_incapable_desc:0 "§LThis species is practically incapable compared to other lifeforms.§!"
+TRAIT_TD_INCAPABLE_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §R-2§!"
+
+trait_td_failure:0 "Failure"
+trait_td_failure_desc:0 "§LIt is obvious this species has to be classified as a biological mistake. Scientists will wonder how they even managed to survive.§!"
+TRAIT_TD_FAILURE_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §R-4§!"
+
+trait_td_rbot_excellent:0 "Excellent"
+trait_td_rbot_excellent_desc:0 "§LThese machines are superior to other machines.§!"
+TRAIT_TD_RBOT_EXCELLENT_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §G+2§!"
+
+trait_td_rbot_scrap:0 "Scrap"
+trait_td_rbot_scrap_desc:0 "§LThese machines are heaps of junk relative to other machines.§!"
+TRAIT_TD_RBOT_SCRAP_EFFECT:0 "$MOD_TD_TRAIT_POINT_ADD$: §R-1§!"
