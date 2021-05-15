@@ -144,7 +144,7 @@
  pc_swamp:0 "Monde marécageux"
  pc_swamp_desc:0 "Monde froid et boueux, composé d'une épaisse atmosphère azote-oxygène. Les variations saisonnières sont limitées bien qu'ayant des précipitations significatives. La plupart des blocs continentaux sont recouverts d'une dense végétation."
  
- pc_tidallylocked:0 "Monde à gravité verrouillée"
+ pc_tidallylocked:0 "Monde à rotation synchrone"
  pc_tidallylocked_desc:0 "Monde rocheux avec une atmosphère azote-oxygène. Le verrouillage gravitationnel occasionne l'ensoleillement d'une seule face, tandis que l'autre reste toujours nocturne. Une fine zone habitable existe entre les deux faces. Le perpétuel rayonnement solaire et le vent qui résulte des importantes différences de température entre les deux faces sont idéales pour la production de nourriture et d'énergie."
 
  ####################################
@@ -271,7 +271,7 @@
  pc_swamp_tile:0 "Terrain marécageux"
  pc_swamp_tile_desc:0 "Terrain boueux et mouillé avec un climat froid."
 
- pc_tidallylocked_tile:0 "Terrain synchrone"
+ pc_tidallylocked_tile:0 "Terrain à rotation synchrone"
  pc_tidallylocked_tile_desc:0 "Sur divers continents, les déserts se transforment progressivement en plaines gelées, et vice-versa."
 
  ####################################
@@ -392,7 +392,7 @@
  trait_pc_swamp_preference:0 "Préférence pour les mondes marécageux"
  trait_pc_swamp_preference_desc:1 "$trait_pc_arctic_preference_desc$"
 
- trait_pc_tidallylocked_preference:0 "Préférence pour les mondes à verrouillage gravitationnel"
+ trait_pc_tidallylocked_preference:0 "Préférence pour les mondes à rotation synchrone"
  trait_pc_tidallylocked_preference_desc:1 "$trait_pc_arctic_preference_desc$"
 
  ####################################
@@ -461,8 +461,8 @@
  mod_pc_superhabitable_habitability:0 "Habitabilité des mondes superhabitables"
  pc_swamp_habitability:1 "Habitabilité des mondes marécages"
  mod_pc_swamp_habitability:0 "Habitabilité des mondes marécages"
- pc_tidallylocked_habitability:1 "Habitabilité des mondes à gravité verrouillée"
- mod_pc_tidallylocked_habitability:0 "Habitabilité des mondes à gravité verrouillée"
+ pc_tidallylocked_habitability:1 "Habitabilité des mondes à rotation synchrone"
+ mod_pc_tidallylocked_habitability:0 "Habitabilité des mondes à rotation synchrone"
  mod_pc_glacial_habitability:1 "Habitabilité des mondes glacials"
 
  ####################################
@@ -484,8 +484,8 @@
  # Tidally Locked Modifier
  ####################################
  
- tidal_locked2:0 "Monde à gravité verrouillée"
- tidal_locked2_desc:0 "Cette planète a une rotation synchrone autour de son étoile dûe à un verrouillage gravitationnel, signifiant qu'elle est dotée d'une face perpétuellement ensoleillée tandis que l'autre face est plongées dans les ténèbres éternelles. La vie est limitée dans la pénombre, là où les deux faces se rencontrent."
+ tidal_locked2:0 "Monde à rotation synchrone"
+ tidal_locked2_desc:0 "Cette planète a une rotation synchrone autour de son étoile, dûe à un verrouillage gravitationnel, signifiant qu'elle est dotée d'une face perpétuellement ensoleillée tandis que l'autre face est plongées dans les ténèbres éternelles. La vie est limitée dans la pénombre, là où les deux faces se rencontrent."
  
  ####################################
  # Start Screen Parts
@@ -1679,7 +1679,7 @@ unbalancedecosystem_desc:0 "Supprimer les 'Prédateurs' a eu l'effet inattendu d
  
  TRAIT_GEOTHERMAL_PREFERENCE_EFFECT:0 "Habitabilité des mondes géothermaux:$pd80$\nHabitabilité des mondes tropicaux :$pd60$\nHabitabilité des mondes arctiques ::$pd60$\nHabitabilité des mondes froids :$pd40$\nHabitabilité des mondes humides :$pd40$"
  TRAIT_SUPERHABITABLE_PREFERENCE_EFFECT:0 "Habitabilité des mondes Superhabitables :$pd80$\nHabitabilité des mondes humides :$pd35$\nHabitabilité des mondes secs:$pd35$\nHabitabilité des mondes froids :$pd35$"
- TRAIT_TIDALLYLOCKED_PREFERENCE_EFFECT:0 "Habitabilité des mondes à gravité verrouillée :$pd80$\nHabitabilité des mondes humides :$pd40$\nHabitabilité des mondes secs:$pd40$\nHabitabilité des mondes froids :$pd40$"
+ TRAIT_TIDALLYLOCKED_PREFERENCE_EFFECT:0 "Habitabilité des mondes à rotation synchrone :$pd80$\nHabitabilité des mondes humides :$pd40$\nHabitabilité des mondes secs:$pd40$\nHabitabilité des mondes froids :$pd40$"
  TRAIT_METHANE_PREFERENCE_EFFECT:0 "Habitabilité des mondes de méthane :$pd100$"
  TRAIT_AMMONIA_PREFERENCE_EFFECT:0 "Habitabilité des mondes d'ammoniaque :$pd100$"
  TRAIT_NUKED_PREFERENCE_EFFECT:0 "Habitabilité des mondes tombeaux :$pd80$\nHabitabilité des mondes karstiques :$pd60$\nHabitabilité des mondes humides :$pd60$\nHabitabilité des mondes secs:$pd60$\nHabitabilité des mondes froids :$pd60$"
@@ -2918,8 +2918,8 @@ unbalancedecosystem_desc:0 "Supprimer les 'Prédateurs' a eu l'effet inattendu d
  #####Planetary Diversity#####
 
  ###Tidally Locked
- civic_tidal_world:0 "Monde d'origine à gravité verrouillée"
- civic_tidal_world_desc:0 "Cette planète a sa gravité verrouillée à son soleil. La vie s'épanouit principalement dans sa zone crépusculaire."
+ civic_tidal_world:0 "Monde d'origine à rotation synchrone"
+ civic_tidal_world_desc:0 "Cette planète a sa gravité verrouillée à son soleil, ce qui induit un rotation synchrone avec celui-ci. La vie s'épanouit principalement dans sa zone crépusculaire."
  civic_tooltip_tidal_world_effects:0 "Le monde natal de ces espèces devient un §Y$pc_tidallylocked$§!."
 
  ###Hothouse
@@ -3618,10 +3618,10 @@ unbalancedecosystem_desc:0 "Supprimer les 'Prédateurs' a eu l'effet inattendu d
  decision_tolbarren_no_colony_desc:0 "Ce monde inhospitalier est totalement inadapté à l'Arbre de Vie, nous utiliserons donc des techniques de restauration du climat pour faire de ce monde un endroit où l'Arbre peut prospérer."
 
  #Oct Update 2
- pd_rogue_start_init_NAME:0 "Démarrage sur un Monde errant"
+ pd_rogue_start_init_NAME:0 "Démarrage sur un monde errant"
  pd_rogue_start_init_DESC:0 "Une seule planète et des astéroïdes de glace en orbite autour d'un trou noir, destinés à un début de Monde errant."
- pd_tidallylocked_start_init_NAME:0 "Démarrage sur un monde verrouillé"
- pd_tidallylocked_start_init_DESC:0 "Planète proche de son étoile en orbite autour d'une étoile naine rouge, destinée à un départ Tidally Locked ou Globe oculaire."
+ pd_tidallylocked_start_init_NAME:0 "Démarrage sur un monde à rotation synchrone"
+ pd_tidallylocked_start_init_DESC:0 "Planète proche de son étoile en orbite autour d'une étoile naine rouge, destinée à un départ à rotation synchrone ou Globe oculaire."
 
  #Globe oculaire World
  pc_eyeball:0 "Monde globe oculaire"
@@ -4498,7 +4498,7 @@ unbalancedecosystem_desc:0 "Supprimer les 'Prédateurs' a eu l'effet inattendu d
  pc_archive_adj:0 "artificiel"
  pc_biolumen_adj:0 "bioluminescent"
  pc_crystal_adj:0 "cristallin"
- pc_tidallylocked_adj:0 "verrouillé"
+ pc_tidallylocked_adj:0 "à rotation synchrone"
  pc_supercon_adj:0 "super-continental"
  pc_superhabitable_adj:0 "superhabitable"
  pc_geothermal_adj:0 "géothermal"
