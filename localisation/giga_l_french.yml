@@ -223,7 +223,7 @@
     allow_auto_stripmine:0 "§HDéverrouille la mégastructure : §! $name_auto_stripmine$"
     desc_auto_stripmine:0 "Un complexe industriel massif couvrant une planète et en extrayant ses minéraux, décollant la surface couche par couche, jusqu'à ce qu'il ne reste presque plus rien."
 
-    name_yggdrasil:0 "Complexe d'orchidées Yggdrasil"
+    name_yggdrasil:0 "Complexe d'orchidées de l'Yggdrasil"
     allow_yggdrasil:0 "§HDéverrouille la mégastructure : §! $name_yggdrasil$"
     desc_yggdrasil:0 "Un complexe massif construit près d'une géante gazeuse pour ensemencer son atmosphère d'une vie florale spécifique."
 
@@ -641,11 +641,11 @@
     giga_chk_compound_s:0 "£menu_s£§G$ehof_the_compound$ (Aléatoire)§!"
     giga_chk_compound_disabled:0 "£menu_enabled£§R$ehof_the_compound$§!"
 
-    giga_chk_ehof_ai_1:0 "£menu_1£§HI.A. EHOF (1)§!"
-    giga_chk_ehof_ai_2:0 "£menu_2£§YI.A. EHOF (2)§!"
-    giga_chk_ehof_ai_3:0 "£menu_3£§GI.A. EHOF (3)§!"
-    giga_chk_ehof_ai_s:0 "£menu_s£§GI.A. EHOF (1-10)§!"
-    giga_chk_ehof_ai_enabled:0 "£menu_disabled£§RI.A. EHOF§!"
+    giga_chk_ehof_ai_1:0 "£menu_1£§HI.A. IDHE (1)§!"
+    giga_chk_ehof_ai_2:0 "£menu_2£§YI.A. IDHE (2)§!"
+    giga_chk_ehof_ai_3:0 "£menu_3£§GI.A. IDHE (3)§!"
+    giga_chk_ehof_ai_s:0 "£menu_s£§GI.A. IDHE (1-10)§!"
+    giga_chk_ehof_ai_enabled:0 "£menu_disabled£§RI.A. IDHE§!"
 
     giga_chk_habitats_u:0 "£menu_u£§MHabitats (Illimité)§!"
     giga_chk_habitats_r:0 "£menu_r£§BHabitats§!"
@@ -1054,12 +1054,12 @@
     giga_menu_compound_disabled:0 "£menu_enabled£$ehof_the_compound$\nDéterminez comment et si $ehof_the_compound$ va apparaître."
     giga_menu_compound_enabled:0 "£menu_disabled£$ehof_the_compound$\nDéterminez comment et si $ehof_the_compound$ va apparaître."
 
-    giga_menu_ehof_ai_1:0 "£menu_1£I.A. EHOF\nDétermine si l'IA construit l'EHOF."
-    giga_menu_ehof_ai_2:0 "£menu_2£I.A. EHOF\nDétermine si l'IA construit l'EHOF."
-    giga_menu_ehof_ai_3:0 "£menu_3£I.A. EHOF\nDétermine si l'IA construit l'EHOF."
-    giga_menu_ehof_ai_s:0 "£menu_s£I.A. EHOF (1-10)\nDétermine si l'IA construit l'EHOF."
-    giga_menu_ehof_ai_disabled:0 "£menu_enabled£I.A. EHOF\nDétermine si l'IA construit l'EHOF."
-    giga_menu_ehof_ai_enabled:0 "£menu_disabled£I.A. EHOF\nDétermine si l'IA construit l'EHOF."
+    giga_menu_ehof_ai_1:0 "£menu_1£I.A. IDHE\nDétermine le nombre d'I.A. pouvant construire une IDHE."
+    giga_menu_ehof_ai_2:0 "£menu_2£I.A. IDHE\nDétermine le nombre d'I.A. pouvant construire une IDHE."
+    giga_menu_ehof_ai_3:0 "£menu_3£I.A. IDHE\nDétermine le nombre d'I.A. pouvant construire une IDHE."
+    giga_menu_ehof_ai_s:0 "£menu_s£I.A. IDHE (1-10)\nDétermine le nombre d'I.A. pouvant construire une IDHE."
+    giga_menu_ehof_ai_disabled:0 "£menu_enabled£I.A. IDHE\nDétermine si l'I.A. peut construire une IDHE."
+    giga_menu_ehof_ai_enabled:0 "£menu_disabled£I.A. IDHE\nDétermine si l'I.A. peut construire une IDHE."
 
     giga_habitat_unlimited:0 "£menu_u£§M$name_orb_elysium$§!"
     giga_habitat_disabled:0 "£menu_disabled£§R$name_orb_elysium$§!"
@@ -1725,7 +1725,7 @@
     ehof_reality_code.004.desc:0 "Grâce aux connaissances que nous avons pu collecter à l'intérieur des amplificateurs, nous savons maintenant comment activer les $ehof_gateway_disableds$.\n\nNos chercheurs ont déjà commencé à développer la technologie nécessaire pour les activer. Des installations capables de transmettre des ondes électromagnétiques gravimétriques et de produire l'intensité nécessaire au contenu énergétique de la transmission se développent.\n\nIls projetteront le $ehof_epcs$ avec la bonne fréquence et l'amplitude, donc les $ehof_gateway_disableds$ les systèmes réagiront en conséquence et l'activeront. On ne sait absolument pas ce qui se passe exactement lorsqu'une $ehof_gateway_disabled$ est activé. Tout ce que nous savons, c'est comment le faire, et maintenant nous pouvons réellement commencer à le faire !"
 
     #########################################
-    ### Hieroglyphics (EHOF Precursor) ######
+    ### Hieroglyphics (IDHE Precursor) ######
     #########################################
     ehof_precursor:0 "Hiéroglyphes"
     ehof_precursor_digsite_desc:0 "Il y a des hiéroglyphes géants sur la surface de §H[from.Planet.GetName]§!, un peu comme des cercles de culture, mais gravés dans la surface elle-même de la planète. \n\nCertainement quelque chose qui mérite d'être étudié."
@@ -4440,12 +4440,12 @@
     negative_mass_buffs_2:0 "Accélération de construction de masse quasi-négative"
     negative_mass_buffs_3:0 "Accélération de la construction à moment de masse quasi-négatif"
 
-    ehof_ai_energy_30_month:0 "Dépenses d'initiation de l'EHOF"
-    ehof_ai_energy_25_month:0 "Dépenses d'initiation de l'EHOF"
-    ehof_ai_darkmatter_1_month:0 "Dépenses d'initiation de l'EHOF"
-    ehof_ai_alloys_10_month:0 "Dépenses d'exploration de l'EHOF"
-    ehof_ai_minerals_10_month:0 "Dépenses d'expansion de l'EHOF"
-    ehof_ai_influence_1_month:0 "Dépenses de mise en place de l'EHOF"
+    ehof_ai_energy_30_month:0 "Dépenses d'initiation de l'IDHE"
+    ehof_ai_energy_25_month:0 "Dépenses d'initiation de l'IDHE"
+    ehof_ai_darkmatter_1_month:0 "Dépenses d'initiation de l'IDHE"
+    ehof_ai_alloys_10_month:0 "Dépenses d'exploration de l'IDHE"
+    ehof_ai_minerals_10_month:0 "Dépenses d'expansion de l'IDHE"
+    ehof_ai_influence_1_month:0 "Dépenses de mise en place de l'IDHE"
 
     compound_invincible:0 "Relais de perfection"
     compound_invincible_2:0 "$compound_invincible$"
@@ -7279,7 +7279,7 @@
     giga_dialog.2004.a:0 "Incroyable !"
 
     giga_dialog.2005.name:0 "$name_yggdrasil$ en ruines"
-    giga_dialog.2005.desc:0 "Un $name_yggdrasil$. en ruine Il abritait de vastes laboratoires et des manipulateurs météorologiques, qui soutenaient une grande feuille de matière organique dans la haute atmosphère du Géant gazeux, qui pouvait nourrir des planètes entières. Malheureusement, il est entré dans un état de délabrement désastreux et la feuille de matière organique a disparu depuis longtemps, détruite par les vents impitoyables du Géante gazeuse dès que les manipulateurs météorologiques se sont déconnectés."
+    giga_dialog.2005.desc:0 "Un $name_yggdrasil$. en ruine Il abritait de vastes laboratoires et des manipulateurs météorologiques, qui soutenaient une grande feuille de matière organique dans la haute atmosphère de la Géante gazeuse, qui pouvait nourrir des planètes entières. Malheureusement, il est entré dans un état de délabrement désastreux et la feuille de matière organique a disparu depuis longtemps, détruite par les vents impitoyables du Géante gazeuse dès que les manipulateurs météorologiques se sont déconnectés."
     giga_dialog.2005.a:0 "Intéressant."
 
     giga_dialog.2006.name:0 "$name_yggdrasil$ Réparé !"
@@ -7291,16 +7291,16 @@
     yggdrasil_orchid_0_MEGASTRUCTURE_DETAILS:0 "Un complexe massif construit près d'une géante gazeuse pour ensemencer son atmosphère d'une flore spéciale."
 
     yggdrasil_orchid_1:0 "Laboratoires du $name_yggdrasil$"
-    yggdrasil_orchid_1_DESC:0 "Le grand anneau construit autour de la planète servira de laboratoire pour développer et concevoir génétiquement les formes de vie parfaites qui seront ensuite implantées dans la haute atmosphère du Géant gazeux pour les faire se multiplier."
+    yggdrasil_orchid_1_DESC:0 "Le grand anneau construit autour de la planète servira de laboratoire pour développer et concevoir génétiquement les formes de vie parfaites qui seront ensuite implantées dans la haute atmosphère de la Géante gazeuse pour les faire se multiplier."
 
     yggdrasil_orchid_2:0 "Manipulateurs météorologiques du $name_yggdrasil$"
-    yggdrasil_orchid_2_DESC:0 "Ces structures incroyablement complexes régulent soigneusement l'atmosphère tumultueuse du Géant gazeux pour s'assurer que les formes de vie qui y sont implantées survivront. Il ne nous reste plus qu'à commencer le processus d'implantation de ces formes de vie."
+    yggdrasil_orchid_2_DESC:0 "Ces structures incroyablement complexes régulent soigneusement l'atmosphère tumultueuse de la Géante gazeuse pour s'assurer que les formes de vie qui y sont implantées survivront. Il ne nous reste plus qu'à commencer le processus d'implantation de ces formes de vie."
 
     yggdrasil_orchid_3:0 "$name_yggdrasil$"
-    yggdrasil_orchid_3_DESC:0 "Un $name_yggdrasil$, entièrement activé entourant une géante gazeuse remplie de plantes génétiquement modifiées flottant dans sa haute atmosphère, prête à être récoltée et transformée en nourriture comestible pour notre population."
+    yggdrasil_orchid_3_DESC:0 "Un $name_yggdrasil$, entièrement activé entourant une géante gazeuse, et rempli de plantes génétiquement modifiées flottant dans sa haute atmosphère, prêtes à être récoltées et transformées en nourriture comestible pour notre population."
 
     yggdrasil_orchid_ruined:0 "$name_yggdrasil$ en ruines"
-    yggdrasil_orchid_ruined_DESC:0 "Un $name_yggdrasil$. en ruine Il abritait de vastes laboratoires et des manipulateurs météorologiques, qui soutenaient une grande feuille de matière organique dans la haute atmosphère du Géant gazeux, qui pouvait nourrir des planètes entières. Malheureusement, il est entré dans un état de délabrement désastreux et la feuille de matière organique a disparu depuis longtemps, détruite par les vents impitoyables du Géante gazeuse dès que les manipulateurs météorologiques se sont déconnectés."
+    yggdrasil_orchid_ruined_DESC:0 "Un $name_yggdrasil$ en ruines Il abritait de vastes laboratoires et des manipulateurs météorologiques, qui soutenaient une grande feuille de matière organique dans la haute atmosphère de la Géante gazeuse, qui pouvait nourrir des planètes entières. Malheureusement, il est entré dans un état de délabrement désastreux et la feuille de matière organique a disparu depuis longtemps, détruite par les vents impitoyables de la Géante gazeuse dès que les manipulateurs météorologiques se sont déconnectés."
     yggdrasil_orchid_ruined_MEGASTRUCTURE_DETAILS:0 "$yggdrasil_orchid_ruined_DESC$"
 
     yggdrasil_orchid_restored:0 "$name_yggdrasil$"
@@ -8199,8 +8199,8 @@
     giga_dialog.1903.a:0 "Merveilleux!"
 
     giga_dialog.1904.title:0 "$name_succ$ épuisé"
-    giga_dialog.1904.desc:0 "Notre $name_succ_full$ dans le système §H[giga_system.GetName]§! a maintenant atteint le noyau rocheux interne du Géant gazeux. Il n'y a plus d'atmosphère à extraire, et l'ancien Géante gazeuse a été réduit à un petit monde stérile riche en minéraux. La mégastructure elle-même a été démantelée et le noyau peut désormais être utilisé de la manière que nous voulons."
-    giga_dialog.1904.a:0 "Tout doit finir."
+    giga_dialog.1904.desc:0 "Notre $name_succ_full$ dans le système §H[giga_system.GetName]§! a maintenant atteint le noyau rocheux interne de la Géante gazeuse. Il n'y a plus d'atmosphère à extraire, et l'ancienne géante gazeuse a été réduite à un petit monde stérile riche en minéraux. La mégastructure elle-même a été démantelée et le noyau peut désormais être utilisé de la manière que nous voulons."
+    giga_dialog.1904.a:0 "Tout doit finir un jour."
 
     succ_0:0 "Chantier de construction du $name_succ$"
     succ_0_MEGASTRUCTURE_DETAILS:0 "Un appareil massif construit autour d'une géante gazeuse pour extraire son atmosphère des ressources."
@@ -8937,7 +8937,7 @@
     giga_dialog.10001.a:0 "C'est très particulier."
 
     giga_dialog.10101.name:0 "Capitale antique"
-    giga_dialog.10101.desc:0 "L'équipe chargée d'explorer le système §HCorinth§! a fait une découverte étonnante ! Il semble que ce système soit un §BSystème antique de Précurseurs§!, ou plus précisément l'ancienne capitale d'un empire mort depuis longtemps, tombée en ruines après des millénaires d'abandon.\n\nDeux mégastructures en ruines ont été repérées dans le système : un complexe d'orchidées Yggdrasil en ruines et un $name_kugelblitz$ en ruines De plus, deux habitats $name_orb_elysium$ en ruines ont également été trouvés en orbite autour de certaines planètes.\n\nÀ en juger par l'état des planètes du système, il semble que beaucoup de choses se sont produites ici. Ce sera certainement d'un grand intérêt pour nos archéologues."
+    giga_dialog.10101.desc:0 "L'équipe chargée d'explorer le système de §HCorinthe§! a fait une découverte étonnante ! Il semble que ce système soit un §BSystème antique de Précurseurs§!, ou plus précisément l'ancienne capitale d'un empire mort depuis longtemps, tombée en ruines après des millénaires d'abandon.\n\nDeux mégastructures en ruines ont été repérées dans le système : un complexe d'orchidées Yggdrasil en ruines et un $name_kugelblitz$ en ruines De plus, deux habitats $name_orb_elysium$ en ruines ont également été trouvés en orbite autour de certaines planètes.\n\nÀ en juger par l'état des planètes du système, il semble que beaucoup de choses se sont produites ici. Ce sera certainement d'un grand intérêt pour nos archéologues."
     giga_dialog.10101.a:0 "Incroyable !"
 
     giga_dialog.10201.name:0 "La ménagerie perdue"
