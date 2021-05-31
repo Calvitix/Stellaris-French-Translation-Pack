@@ -639,7 +639,7 @@
     giga_chk_compound_3:0 "£menu_compound_3£§G$ehof_the_compound$ (3 crises)§!"
     giga_chk_compound_4:0 "£menu_compound_4£§G$ehof_the_compound$ (4 crises)§!"
     giga_chk_compound_s:0 "£menu_s£§G$ehof_the_compound$ (Aléatoire)§!"
-    giga_chk_compound_disabled:0 "£menu_enabled£§R$ehof_the_compound$§!"
+    giga_chk_compound_disabled:0 "£menu_disabled£§R$ehof_the_compound$§!"
 
     giga_chk_ehof_ai_1:0 "£menu_1£§HI.A. IDHE (1)§!"
     giga_chk_ehof_ai_2:0 "£menu_2£§YI.A. IDHE (2)§!"
@@ -1148,7 +1148,8 @@
     giga_menu_presets_patreon_09:0 "Patreon: §Md0nny§!"
     giga_menu_presets_patreon_10:0 "Patreon: §MInodiv§!"
     giga_menu_presets_patreon_11:0 "Patreon: §MAlchimous§!"
-
+    giga_menu_presets_patreon_12:0 "Patreon: §MLantas§!"
+    giga_menu_presets_patreon_13:0 "Patreon: §MAndromeda Galaxy§!"
     giga_menu_presets_other_01:0 "Gagnant du concours : §HThe_Strateg1st§!"
 
     #############################################################################################################################################
@@ -4683,7 +4684,7 @@
     pc_birch:0 "$name_birch$"
     pc_birch_desc:0 "Un $name_birch$ est un type spécialisé de Monde coquille, construit autour du plus grand des trous noirs pour permettre une gravité normale dans des zones terrestres extrêmes (plusieurs trillions de surfaces planétaires). Les ingénieurs et les citoyens locaux peuvent profiter encore plus de ces zones terrestres grâce au fait que le trou noir utilisé est suffisamment grand, et en tant que tel, ce monde peut facilement supporter des multitudes de couches de terres sans aucune perte de force de gravité effective. C'est une véritable merveille de l'ingénierie de l'habitat, et peut contenir une quantité pratiquement infinie de pops.\n\n§YLe $name_birch$ gagnera automatiquement et éternellement plus d'emplacements de district à mesure qu'il grandit.§!"
 
-    pc_squareworld_habitable:0 "Segment de Monde-carré"
+    pc_squareworld_habitable:0 "Monde-carré"
     pc_squareworld_habitable_desc:0 "Un habitat particulier situé sur un monde carré. Les curiosités et la nature étranges de cet endroit fascinent beaucoup."
 
     pc_equatorial_shipyard:0 "Fonderie d'Anneau-monde"
@@ -4692,7 +4693,7 @@
     pc_interstellar_habitat:0 "$name_interstellar_hab$"
     pc_interstellar_habitat_desc:0 "Une vaste station spatiale construite dans l'espace interstellaire. Il ne dépend pas d'une étoile pour obtenir son énergie et est totalement autonome, grâce à un énorme réacteur de singularité. Abrite des milliards d'habitants. La vue est un peu déprimante, cependant."
 
-    pc_interstellar_ringworld_habitable:0 "Habitat d'$name_interstellar_ring$"
+    pc_interstellar_ringworld_habitable:0 "$name_interstellar_ring$"
     pc_interstellar_ringworld_habitable_desc:0 "Un habitat d'anneau-monde construit dans l'espace interstellaire, autour d'un réacteur central de singularité. Sa surface est extrêmement urbaine et éclairée par des quantités massives de lumière artificielle."
 
     pc_gigaorbital_ring:0 "$name_orb_elysium$"
@@ -4793,7 +4794,7 @@
     pc_gigabrown_dwarf:0 "Naine brune de classe L"
     pc_gigabrown_dwarf_desc:0 "Un corps céleste qui n'a pas réussi à réaliser la fusion nucléaire, à mi-chemin entre une géante gazeuse et une étoile. Il possède un champ magnétique très puissant et un système lunaire étendu. Ce type de naine brune est plus proche de s'enflammer que les naines de classe T."
 
-    pc_giga_penrose_habitable:0 "Segment $name_penrose_ring$"
+    pc_giga_penrose_habitable:0 "$name_penrose_ring$"
     pc_giga_penrose_habitable_desc:0 "Une construction massive encerclant un trou noir captif. Un $name_penrose$ fournit l'énergie nécessaire pour alimenter ce monde circulaire et permettre la vie à la surface, libre des contraintes et de la banalité de l'existence liée à la planète. A également certaines des meilleures vues de l'univers."
 
     pc_black_hole_giga:0 "$pc_black_hole$"
@@ -5474,11 +5475,11 @@
     giga_psychic_beacon.002.desc:0 "Déjà écrasant dans sa luminescence psionique, la $name_psychic_beacon$ a brièvement pulsé à travers le Suaire comme s'il s'agissait d'une supernova psionique.\n\nLa lumière intense a emporté les nuages éthérés sur [giga_planet_illuminated.GetName], bannissant le Suaire d'où ilest venu, récupérant [giga_planet_illuminated.GetName] pour de l'espace réel. Alors que quiconque a habité la planète à l'origine a également été ramené dans le Suaire, [giga_planet_illuminated.GetName] est maintenant une planète habitable qui devrait être propice à l'expansion."
     giga_psychic_beacon.002.a:0 "La folie d'un monde démêlé."
 
-    giga_psychic_beacon.003.name:0 "Balise psionique : §Domination§!"
+    giga_psychic_beacon.003.name:0 "Balise psionique : §HDomination§!"
     giga_psychic_beacon.003.desc:0 "§B'Sélectionnez le système que vous souhaitez dominer.'§!"
     giga_dominate_t:0 "§B'Très bien, les habitants de ce système seront jetés dans un éternel sommeil sans rêve.'§!"
 
-    giga_psychic_beacon.004.name:0 "[giga_planet_illuminated.GetName] Dominé"
+    giga_psychic_beacon.004.name:0 "[giga_planet_illuminated.GetName] dominé"
     giga_psychic_beacon.004.desc:0 "Alors que l'incroyable quantité d'énergie libérée par notre balise psionique envahissait le système [giga_planet_illuminated.GetName], tout un système stellaire de planètes a crié de terreur et a été soudainement réduit au silence.\n\nDes machines submergées se sont détruites presque instantanément partout dans le secteur, et la population a été réduite à un état comateux. Nos télépathes ont noté une présence beaucoup plus forte, bien que calme, du système [giga_planet_illuminated.GetName] dans le Suaire, et la population biologique est maintenant à nous pour être soignée ou utilisée à toute autre fin que nous jugeons approprié."
     giga_psychic_beacon.004.a:0 "Maintenant, ils ne font plus qu'un avec le Suaire."
 
@@ -10810,9 +10811,9 @@
 
     kaiser_moon_moon_tooltip:0 "§YSurface lunaire§!\n\n§GFonctionnel |Aucune pénalité d'armure§!\n\nConditions de sabotage :\n§HSactivités partisanes importantes dans le Patria des Félidés\n§HSactivités partisanes importantes à Lyuinstaat\n\n§LPlusieurs kilomètres de roches entrelacées avec des supports structurels protègentl'intérieur délicat de la lune. Cette croûte épaisse confère au vaisseau une immense capacité de survie face aux flottes ennemies."
 
-    kaiser_moon_thrusters_tooltip:0 "§YSystèmes de propulsion§!\n\n§GFonctionnel |Aucune pénalité de temps de charge de saut§!\n\nConditions de sabotage :\n§Activité partisane extrême à Zousa§!\n§YActivité partisane modérée à Symbyland§!\n\n§Des propulseurs gargantuesques associés à un hyperpropulseur colossal permettent à la Lune Impériale de voler à la fois dans l'espace et dans l'hyperespace. Propulsés par un réacteur à antimatière avancé de conception Félidés, ils éclipsent tout ce qui est utilisé dans les forces armées des Félidés.\n\n§BLa Lune Impériale perdra la capacité d'être rappelée quand Flusion est menacé, si ce système est saboté ! §!"
+    kaiser_moon_thrusters_tooltip:0 "§YSystèmes de propulsion§!\n\n§GFonctionnel |Aucune pénalité de temps de charge de saut§!\n\nConditions de sabotage :\n§YActivité partisane extrême à Zousa§!\n§YActivité partisane modérée à Symbyland§!\n\n§LDes propulseurs gargantuesques associés à un hyperpropulseur colossal permettent à la Lune Impériale de voler à la fois dans l'espace et dans l'hyperespace. Propulsés par un réacteur à antimatière avancé de conception Félidés, ils éclipsent tout ce qui est utilisé dans les forces armées des Félidés.\n\n§BLa Lune Impériale perdra la capacité d'être rappelée quand Flusion est menacé, si ce système est saboté ! §!"
 
-    kaiser_moon_wings_tooltip:0 "§YAiles du vide§!\n\n§GFonctionnel |Aucune pénalité de vitesse§!\n\nConditions de sabotage :\n§YActivité partisane modérée à Zousa§!\n§Activité partisane extrême à Symbyland§!\n\n§L Ces ailes peuvent sembler inutiles au début, mais ils contiennent en fait un ensemble de propulseurs alignés le long de leur extrémité orientée vers l'arrière. Ces propulseurs aident la lune à manoeuvrer dans l'espace avec plus de facilité."
+    kaiser_moon_wings_tooltip:0 "§YAiles du vide§!\n\n§GFonctionnel |Aucune pénalité de vitesse§!\n\nConditions de sabotage :\n§YActivité partisane modérée à Zousa§!\n§YActivité partisane extrême à Symbyland§!\n\n§L Ces ailes peuvent sembler inutiles au début, mais ils contiennent en fait un ensemble de propulseurs alignés le long de leur extrémité orientée vers l'arrière. Ces propulseurs aident la lune à manoeuvrer dans l'espace avec plus de facilité."
 
     #sabo
     kaiser_moon_barrel_sabo_tooltip:0 "§YCanon Gigantesque Félidé§!\n\n§RSaboté |-30% de dégâts d'arme§!\n\n§L L'arme principale de la Lune Impériale est un canon titanesque. Basé sur d'anciens modèles des Félidés pour l'armement planétaire, il accélère un projectile extrêmement dense proche de la vitesse de la lumière. Le projectile contient l'énergie de plusieurs milliards d'ogives nucléaires concentrées en un seul point, ce qui le rend incroyablement mortel."
@@ -11174,7 +11175,7 @@
     giga_katzen.020.attache.tooltip:0 "Envoi d'un émissaire à l'§YImpérium félidéen§! réduira notre §YPoids diplomatique§!, §YRecherche sociétale§! et §Ygénération d'Unité§!, mais il sera plus facile d'augmenter l'opinion du §YKaiser§! envers nous."
 
     giga_katzen.5000.name:0 "Emissaire diplomatique"
-    giga_katzen.5000.desc:0 "Le Kaiser apprécierait sûrement que vos semblables envoient une mission diplomatique dans notre empire, oui ! Un émissaire serait certainement bénéfique pour nous deux.\n\n§YEnvoyer un émissaire aura les effets suivants car nous investirons des ressources pour améliorer l'opinion du Kaiser à notre encontre : §!\n-30% de §YRecherche sociétale§!.\n-30% §YUnité§!.\n-30% §YPoids diplomatique§!.\n20% de chances d'obtenir une amélioration de l'opinion du §YKaiser§! chaque année.\nLes accords commerciaux, les demandes de terres et les achats de vaisseaux seront 25% plus susceptibles d'§Augmenter§! également l'opinion du §YKaiser§!."
+    giga_katzen.5000.desc:0 "Le Kaiser apprécierait sûrement que vos semblables envoient une mission diplomatique dans notre empire, oui ! Un émissaire serait certainement bénéfique pour nous deux.\n\n§YEnvoyer un émissaire aura les effets suivants car nous investirons des ressources pour améliorer l'opinion du Kaiser à notre encontre : §!\n-30% de §YRecherche sociétale§!.\n-30% §YUnité§!.\n-30% §YPoids diplomatique§!.\n20% de chances d'obtenir une amélioration de l'opinion du §YKaiser§! chaque année.\nLes accords commerciaux, les demandes de terres et les achats de vaisseaux seront 25% plus susceptibles d'§GAugmenter§! également l'opinion du §YKaiser§!."
     giga_katzen.5000.a:0 "Envoyez l'émissaire diplomatique."
     giga_katzen.5000.a.tooltip:0 "Nous enverrons un émissaire à l'§YImpérium félidéen§!, appliquant tous les effets mentionnés ci-dessus. Nous pouvons rappeler l'émissaire à tout moment, et il sera automatiquement rappelé si nous nous retrouvons en §RGuerre§! contre le Kaiser."
     giga_katzen.5000.b:0 "Oublions-ça."
@@ -11650,7 +11651,7 @@
     # giga_flusionunion.015.a.tooltip:0 "Nous allons §Ytransférer§! le système §YDoublio§! aux §YNations Unies Flusioniennes§!."
     # giga_flusionunion.015.a.response:0 "Merci les Kronks."
     # giga_flusionunion.015.b:0 "Au diable avec vous Kronks !"
-    # giga_flusionunion.015.b.tooltip:0 "§Kronk§! sera probablement §Déclarer la guerre§! sur nous !"
+    # giga_flusionunion.015.b.tooltip:0 "§Kronk§! sera probablement §RDéclarer la guerre§! sur nous !"
     # giga_flusionunion.015.b.response:0 "Les Kronks ne vous pardonneront pas cela."
 
     # giga_flusionunion.016.name:0 "Kronks part en guerre !"

@@ -1,0 +1,349 @@
+﻿l_french:
+#######################
+### ASCENSION PATHS ###
+#######################
+
+### Biological Ascension ###
+ ap_esap_bio_bonus:0 "Procréation artificielle"
+ ap_esap_bio_bonus_desc:0 "Nos futures générations sont importantes pour laisser leur création à des processus naturels. Nos avancées dans la technologie Bio nous permettent de cultiver de nouvelles personnes, de rationaliser considérablement le processus de procréation."
+ 
+### Cybernetic Ascension ###
+ ap_esap_cyber_bonus:0 "Une pensée dans le circuit"
+ ap_esap_cyber_bonus_desc:0 "Les interfaces avancées du cerveau-cérébral nous ont permis de connecter nos esprits directement au grand réseau. La communication partout ou empire est maintenant sans effort et instantanée. En effet, certaines personnes sont devenues si interconnectées avec le grand réseau qu'ils ont commencé à perdre leur contact avec le monde réel."
+ #ap_esap_cyber_bonus_tooltip:0 ""
+ 
+### Psionic Ascension ###
+ ap_esap_psi_bonus:0 "Suppression mentale"
+ ap_esap_psi_bonus_desc:0 "Au fur et à mesure que nos puissances psioniques poussent, nous avons appris à les utiliser pour influencer les esprits des autres, psionicalement plus faibles, des êtres. Nous pouvons utiliser cela pour atténuer et souligner les émotions de nos ennemis, propager la dépression, la colère et la peur dans leurs empires."
+ ap_esap_psi_bonus_tooltip:0 "Augmenter le gain de §Year Epuisement§! par §+33%§! Pour tous nos ennemis en guerre."
+ 
+### Combined Paths ###
+ ap_esap_bio_cyber_psi_1:0 "Ultimate Ascension"
+ ap_esap_bio_cyber_psi_1_desc:0 "Comme nous apprenons les merveilles de cette galaxie, nous ne devons pas nous laisser aveugler notre moi par la possibilité d'autres merveilles qui se cachent invisibles."
+ ap_esap_bio_cyber_psi_1_tooltip:0 "Les dirigeants psioniques latents sont deux fois plus susceptibles d'obtenir le trait psionique.\npermet la première avantage dans les trois chemins d'ascension, mais désactive les avantages supplémentaires dans n'importe quel chemin."
+ ap_esap_bio_cyber_psi_1_req_1:0 "$TRIGGER_FAIL$Requiert l'un des avantages de l'ascension suivants : §Y$ap_mind_over_matter$§!, §Y$ap_flesh_is_weak$§! ou §Y$ap_engineered_evolution$§!."
+ ap_esap_bio_cyber_psi_1_req_2:0 "$TRIGGER_FAIL$May ne possède pas l'un des atouts d'Ascension suivants : §Y$ap_transcendence$§!, §Y$ap_Synthetic_evolution$§! ou §Y$ap_evolutionary_mastery$§!."
+ ap_esap_bio_cyber_psi_1_req_3:0 "$TRIGGER_FAIL$May Ne pas avoir l'un des atouts d'Ascension suivants : §Y$ap_esap_psi_bonus$§!, §Y$ap_ESAP_CYBER_BONUS$§! ou §Y$ap_esap_bio_bonus$§!."
+
+ ap_esap_ascension_path_t2_req_1: "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_BIO_CYBER_PSI_1$§! Ascension Perk (sauf si nous avons également le §Y$ap_esap_bio_cyber_psi_2$§! Ascension Perk)."
+
+ ap_esap_bio_cyber_psi_1_plain:0 "$ap_esap_bio_cyber_psi_1$"
+ ap_esap_bio_cyber_psi_1_plain_desc:0 "$ap_esap_bio_cyber_psi_1_desc$"
+ ap_esap_bio_cyber_psi_1_plain_tooltip:0 "Permet le §Y$ap_esap_bio_cyber_psi_2$§! de l'ascension PERK."
+
+ ap_esap_bio_cyber_psi_2:0 "Ascension parfaite"
+ ap_esap_bio_cyber_psi_2_desc:0 "Dans notre maîtrise de l'univers, nous sommes montés à la divinité."
+ ap_esap_bio_cyber_psi_2_tooltip:0 "Les dirigeants psioniques latents ne sont plus deux fois plus susceptibles d'obtenir le trait psionique.\npermet aux trois chemins d'ascension."
+ ap_esap_bio_cyber_psi_2_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_BIO_CYBER_PSI_1$§! Ascension Perk."
+ 
+ ap_esap_bio_cyber_psi_2_plain:0 "$ap_esap_bio_cyber_psi_2$"
+ ap_esap_bio_cyber_psi_2_plain_desc:0 "$ap_esap_bio_cyber_psi_2_desc$"
+ ap_esap_bio_cyber_psi_2_plain_tooltip:0 "Permet aux trois chemins d'ascension."
+ 
+
+###################################
+### GOVERNMENTAL ASCENSION PERKS ###
+###################################
+
+ ap_esap_gov_1:0 "$ap_executive_vigor$"
+ ap_esap_gov_1_desc:0 "$ap_executive_vigor_desc$"
+ ap_esap_gov_1_tooltip:0 "§Ingouvernment Perk§! . §Yédiction Longueur§! augmenté par §g+20%§! Pour chaque §Ygouvernment perk§! déverrouillé (y compris celui-ci)."
+ 
+ ap_esap_gov_2:0 "$ap_transcendent_learning$"
+ ap_esap_gov_2_desc:0 "$ap_transcendent_learning_desc$"
+ ap_esap_gov_2_tooltip:0 "§Gouvernementarnment Perky Leader Experience Gain§! augmenté par §g+50%§! Plus un § supplémentaire+10%§! Pour chaque §Ygouvernment perk§! déverrouillé (y compris celui-ci)."
+ 
+ ap_esap_gov_3:0 "$ap_imperial_prerogative$"
+ ap_esap_gov_3_desc:0 "$ap_imperial_prerogative_desc$"
+ ap_esap_gov_3_tooltip:0 "§Ingouvernment Perk§! . Augmenter §AdMinistrémialiste§! par §g15§! Pour chaque §Ygouvernment perk§! déverrouillé (y compris celui-ci)."
+ ap_esap_gov_3_corp:0 "$ap_esap_gov_3$"
+ ap_esap_gov_3_corp_desc:0 "$ap_esap_gov_3_desc$"
+ ap_esap_gov_3_corp_tooltip:0 "§Ingouvernment Perk§! . Augmenter §AdMinistrémialiste§! par §g15§! Pour chaque §Ygouvernment perk§! déverrouillé (y compris celui-ci)."
+
+ ap_esap_gov_4:0 "La belle bureaucratie"
+ ap_esap_gov_4_desc:0 "Rien ne peut vraiment être considéré comme une réussite jusqu'à ce que les documents appropriés soient signés et déposés."
+ ap_esap_gov_4_tooltip:0 "§Ingouvernment Perk§! . §Y$job_bureaucrat_plural$§! pour produire § 0. 5§! supplémentaire £energy£ §YEnergy Credit§! Pour chaque §Ygouvernment perk§! déverrouillé (y compris celui-ci)."
+
+ ap_esap_gov_5:0 "Ascendance de l'état"
+ ap_esap_gov_5_desc:0 "À travers les millénaires depuis que nous avons formé les premières villes que notre gouvernement s'est développé à quelque chose qui pourrait difficilement être reconnu par notre prédécesseur avant l'âge de l'espace."
+ ap_esap_gov_5_tooltip:0 "§Ingouvernment Perk§! . § Influence polonçables§! augmenté par §G0. 3§! Pour chaque §Ygouvernment perk§! déverrouillé (y compris celui-ci)."
+
+ ap_esap_gov_GC_1:0 "Exécution agitée"
+ ap_esap_gov_GC_1_desc:0 "La plupart des mesures prises par les drones de notre domaine sont automatiques et ces actions sont régies par des paramètres. Chaque moment, nous modifierons sans cesser ces paramètres, chassant toujours cette optimisation parfaite."
+ ap_esap_gov_GC_1_tooltip:0 "§Ycontrol Perk§! . §Yédiction Longueur§! augmenté par §g+20%§! Pour chaque §YControl Perk§! déverrouillé (y compris celui-ci)."
+ 
+ ap_esap_gov_GC_2:0 "$ap_transcendent_learning$"
+ ap_esap_gov_GC_2_desc:0 "Nous avons toujours observé et nous avons toujours appris de ces observations. Nous avons même observé notre apprentissage et appris comment nous apprenons de ces observations. Mais maintenant, nous observons comment nous observons comment nous apprenons et apprend comment apprend à notre observation. Nous observons également comment nous observent comment nous observons comment nous apprenons et apprend que nous apprenons comment nous..."
+ ap_esap_gov_GC_2_tooltip:0 "§Contrôle de l'expérience de leader perky Gain§! augmenté par §g+50%§! Plus un § supplémentaire+10%§! Pour chaque §YControl Perk§! déverrouillé (y compris celui-ci)."
+ 
+ ap_esap_gov_GC_3:0 "$ap_imperial_prerogative$"
+ ap_esap_gov_GC_3_desc:0 "$ap_imperial_prerogative_desc$"
+ ap_esap_gov_GC_3_tooltip:0 "§Ycontrol Perk§! . Augmenter §AdMinistrémialiste§! par §g15§! Pour chaque §YControl Perk§! déverrouillé (y compris celui-ci)."
+
+ ap_esap_gov_hive_4:0 "Le grand écho"
+ ap_esap_gov_hive_4_desc:0 "Nos drones Synapse ne transmettent pas simplement les esprits dans notre empire. Ils amplifient le GRA-ECHO, qui résonne tout au long de notre empire, garantissant que chaque drone agit comme un seul organisme."
+ ap_esap_gov_hive_4_tooltip:0 "§Ycontrol Perk§! . §Y$job_synapse_drone_plural$§! pour produire § 0. 5§! supplémentaire £energy£ §YEnergy Credit§! Pour chaque §YControl Perk§! déverrouillé (y compris celui-ci)."
+
+ ap_esap_gov_machines_4:0 "$ap_esap_gov_hive_4$"
+ ap_esap_gov_machines_4_desc:0 "Nos coordonnées ne transmettent pas simplement l'esprit dans tout notre empire. Ils amplifient le GRA-ECHO, qui résonne tout au long de notre empire, garantissant que chaque drone agit comme un seul organisme."
+ ap_esap_gov_machines_4_tooltip:0 "§Ycontrol Perk§! . §Y$job_coordinator_plural$§! pour produire § 0. 5§! supplémentaire £energy£ §YEnergy Credit§! Pour chaque §YControl Perk§! déverrouillé (y compris celui-ci)."
+
+ ap_esap_gov_GC_5:0 "L'esprit ascendant"
+ ap_esap_gov_GC_5_desc:0 "Depuis que nous nous sommes réveillés, notre esprit s'est développé en quelque chose qui peut difficilement être reconnu comme le même que celui qui contrôlait mais quelques drones sur une seule planète il y a tant de millénaires."
+ ap_esap_gov_GC_5_tooltip:0 "§Ycontrol Perk§! . § Influence polonçables§! augmenté par §G0. 3§! Pour chaque §YControl Perk§! déverrouillé (y compris celui-ci)."
+ 
+ 
+#########################
+### COMBINATION PATHS ###
+#########################
+
+### Tier 1 ###
+ ap_esap_ct1_war:0 "L'art de la guerre"
+ ap_esap_ct1_war_desc:0 "Les guerriers victorieux gagnent d'abord, puis vont en guerre, tandis que les guerriers vaincus vont d'abord à la guerre, puis cherchent à gagner."
+ ap_esap_ct1_war_tooltip:0 "Permet à un nouvel ensemble de traits de chef de l'amiral spécial, ils sont gagnés lorsqu'un amiral atteint le niveau §Y3§! ."
+ ap_esap_ct1_war_req_1:0 "$TRIGGER_FAIL$ Doit avoir au moins §Y100§! §Y$NAVY_SIZE_TITLE$§!."
+ ap_esap_ct1_war_req_2:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_ct3_not_war$§! Ascension Perk."
+ 
+ ap_esap_ct1_expansion:0 "Colons de la galaxie"
+ ap_esap_ct1_expansion_desc:0 "La galaxie est vaste, mais pas sans fin. Si nous ne le réglons pas, quelqu'un d'autre sera"
+ ap_esap_ct1_expansion_tooltip:0 "Génère un §Coloniseur supplémentaire§! Chaque fois qu'un §Coloniseur§! est construit."
+ ap_esap_ct1_expansion_req_1:0 "$TRIGGER_FAIL$Requiert au moins §g3§! planètes."
+ ap_esap_ct1_expansion_req_2:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_ct3_not_expansion$§! Ascension Perk."
+
+ ap_esap_ct1_diplomacy:0 "La langue argenté"
+ ap_esap_ct1_diplomacy_desc:0 "Nos envoyés se tient des mots d'argent dans les oreilles des dignitaires étrangers, modifiant leur perception de la réalité elle-même."
+ #ap_esap_ct1_diplomacy_tooltip:0 ""
+ ap_esap_ct1_diplomacy_req_1:0 "$TRIGGER_FAIL$Must Avoir au moins §Y100§! § LOIDEDIMOMOMATIQUE§! ."
+ ap_esap_ct1_diplomacy_req_2:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_ct3_not_diplomacy$§! Ascension Perk."
+
+ ap_esap_ct1_finance:0 "Chuchoteurs de profit"
+ ap_esap_ct1_finance_desc:0 "Les bénéfices de notre économie sont ce qui finance les navires de nos flottes et construisant les villes de nos planètes. Pourtant, même lorsque nous avons les navires, nous devons défendre notre royaume et les bâtiments pour héberger tous nos citoyens, cela nous appelle. Il y a une envie, une envie de plus."
+ ap_esap_ct1_finance_tooltip:0 "Gain §200§! £energy£ §YEnergy Credit§! Chaque fois qu'un § $district_city$§! est construit. £The £energy£ §ÉNERGIEPour §Y $district_city$§! est réduit par §Y1§! ."
+ ap_esap_ct1_finance_req_1:0 "$TRIGGER_FAIL$ doit avoir au moins §Y2500§! £energy£ § EnergyStored Energy§! ."
+ ap_esap_ct1_finance_req_2:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_ct3_not_finance$§! Ascension Perk."
+
+ ap_esap_ct1_infrastructure:0 "Constructeurs de nations"
+ ap_esap_ct1_infrastructure_desc:0 "Alors que nous nous sommes répandus à travers les étoiles, sur les mondes de notre empire, la civilisation a éclaté."
+ ap_esap_ct1_infrastructure_tooltip:0 "Augmenter §Y$MOD_PLANET_HOUSING_MULT$§! par §g15%§! sur les mondes sans quartier libre."
+ ap_esap_ct1_infrastructure_req_1:0 "$TRIGGER_FAIL$Must Avoir au moins §10§! £building£ §Buildings§! sur notre §Capital§! ."
+ ap_esap_ct1_infrastructure_req_2:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_ct3_not_infrastructure$§! Ascension Perk."
+
+### Tier 2 ###
+ ap_esap_ct2_war_expansion:0 "Le chemin de la conquête"
+ ap_esap_ct2_war_expansion_desc:0 "Notre conquête de la galaxie n'a que maintenant vraiment commencé. Nous n'arrêterons pas jusqu'à ce que toute sa vasté se situe sous notre contrôle."
+ ap_esap_ct2_war_expansion_tooltip:0 "Gain §Y100§! £influence£ §YInfluence§! chaque fois qu'une planète est capturée. Augmenter §Y$MOD_SHIP_WEAPON_DAMAGE$§! et §Y$ mod_ship_fire_rate_mult$§! par §g+10%§! Pour §10§! années après que nous déclarons une guerre."
+ ap_esap_ct2_war_expansion_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT1_WAR$§! Ascension Perk."
+ ap_esap_ct2_war_expansion_req_2:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT1_EXPANSION$§! Ascension Perk."
+ 
+ ap_esap_ct2_expansion_diplomacy:0 "Ambition impériale"
+ ap_esap_ct2_expansion_diplomacy_desc:0 "C'est notre ambition de créer un empire comme cette galaxie n'a jamais vu."
+ ap_esap_ct2_expansion_diplomacy_tooltip:0 "§Tybuildings§! et §YDistricts§! avoir leur vitesse §YBuild§! augmenté par §g+100%§! et £pop£ §Y$MOD_POP_GROWTH_SPEED$§! est augmenté par §g+50%§! colonies nouvellement fondées. Cet effet dure §10§! années."
+ ap_esap_ct2_expansion_diplomacy_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT1_EXPANSION$§! Ascension Perk."
+ ap_esap_ct2_expansion_diplomacy_req_2:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT1_DIPLOMACY$§! Ascension Perk."
+
+ ap_esap_ct2_diplomacy_finance:0 "Rivières d'or"
+ ap_esap_ct2_diplomacy_finance_desc:0 "Chaque monde dans notre empire est un printemps. De ces ressorts coule des rivières, des rivières d'or. Ces rivières apportent la richesse et la prospérité au coeur de notre royaume."
+ ap_esap_ct2_diplomacy_finance_tooltip:0 "Déverrouille le § $sm_esap_ct2_diplomacy_finance_trade_post$§! Starbase Building, qui produit §g10§! £trade_value£ §YTrade Valeur§! ."
+ ap_esap_ct2_diplomacy_finance_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT1_DIPLOMACY$§! Ascension Perk."
+ ap_esap_ct2_diplomacy_finance_req_2:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT1_FINANCE$§! Ascension Perk."
+
+ ap_esap_ct2_finance_infrastructure:0 "Architectes de demain"
+ ap_esap_ct2_finance_infrastructure_desc:0 "Cependant, notre empire est très important, cette grandeur pâle par rapport à ce que notre empire deviendra. Tout ce que nous avons dû jusqu'à présent, nous serons nains par ce que nous essayons actuellement d'accomplir."
+ #ap_esap_ct2_finance_infrastructure_tooltip:0 ""
+ ap_esap_ct2_finance_infrastructure_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT1_FINANCE$§! Ascension Perk."
+ ap_esap_ct2_finance_infrastructure_req_2:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT1_INFRASTRUCTURE$§! ASCTION PERK."
+
+ ap_esap_ct2_infrastructure_war:0 "Le grand rempart"
+ ap_esap_ct2_infrastructure_war_desc:0 "Le Grand Bulwark, un réseau de structures défensives réparties dans les systèmes frontaliers de notre empire, rend notre royaume presque imprenable pour les envahisseurs étrangers."
+ ap_esap_ct2_infrastructure_war_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT1_INFRASTRUCTURE$§! ASCTION PERK."
+ ap_esap_ct2_infrastructure_war_req_2:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT1_WAR$§! Ascension Perk."
+
+### Tier 3 ###
+ ap_esap_ct3_not_war:0 "Paix et prospérité"
+ ap_esap_ct3_not_war_desc:0 "En guerre, quel que soit le côté peut s'appeler le Victor, il n'y a pas de gagnants, mais tous sont des perdants. Seulement lorsque nous allons tomber nos épées, pouvons-nous aspirer à créer un paradis parmi les étoiles."
+ #ap_esap_ct3_not_war_tooltip:0 ""
+ ap_esap_ct3_not_war_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT2_EXPANSION_DIPLOMACY$§! Ascension Perk."
+ ap_esap_ct3_not_war_req_2:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT2_FINANCE_INFRASTUCTURE$§! Ascension Perk."
+ ap_esap_ct3_not_war_req_3:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_ct1_war$§! Ascension Perk."
+ 
+ ap_esap_ct3_not_expansion:0 "Le plus serein des royaumes"
+ ap_esap_ct3_not_expansion_desc:0 "Alors que d'autres dirigeants comptent le nombre d'étoiles avec leurs frontières, nous comptions le nombre de crédits dans nos voûtes. La richesse et le Wellfare exposées par nos mondes sont sans précédent dans cette galaxie."
+ #ap_esap_ct3_not_expansion_tooltip:0 ""
+ ap_esap_ct3_not_expansion_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT2_DIPLOMACY_FINANCE$§! Ascension Perk."
+ ap_esap_ct3_not_expansion_req_2:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT2_INFRASTRUCTURE_WAR$§! Ascension Perk."
+ ap_esap_ct3_not_expansion_req_3:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_ct1_expansion$§! Ascension Perk."
+
+ap_esap_ct3_not_diplomacy:0 "Une machine de guerre"
+ ap_esap_ct3_not_diplomacy_desc:0 "Depuis son départ primitif, tout au long de l'âge, notre empire s'est transformé en évolution. Il a passé de nombreuses étapes et de nombreuses formes. Cependant, la nature de cette galaxie a rendu inévitable que cela se termine. Notre civilisation est maintenant façonnée pour mais un seul but. Guerre."
+ ap_esap_ct3_not_diplomacy_tooltip:0 "Augmentation §Y $MOD_PLANET_ARMY_BUILD_SPEED_MULT$§! et §Y$mod_starbase_shipyard_build_speed_mult$§! par §g+100%§! et augmenter §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! et §Y$ mod_country_command_limit_mult$§! par §g+25%§! et augmenter §Y $MOD_COUNTRY_BORDER_FRICTION_MULT$§! par §+100%§! . Enfin, Empire étranger £opinion£ §Yopinion§! de nous est réduit par §g-50§! ."
+ ap_esap_ct3_not_diplomacy_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT2_FINANCE_INFRASTUCTURE$§! Ascension Perk."
+ ap_esap_ct3_not_diplomacy_req_2:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT2_WAR_EXPANSION$§! Ascension Perk."
+ ap_esap_ct3_not_diplomacy_req_3:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_ct1_diplomacy$§! Ascension Perk."
+
+ ap_esap_ct3_not_finance:0 "Une fraternité parmi les étoiles"
+ ap_esap_ct3_not_finance_desc:0 "Les âges nous ont montré ce qu'est un endroit dur que cette galaxie peut être. Seulement ensemble, nous pouvons faire face aux horreurs toujours. Tout le monde a un rôle à jouer, ce qu'ils feront volontiers."
+ #ap_esap_ct3_not_finance_tooltip:0 ""
+ ap_esap_ct3_not_finance_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT2_INFRASTRUCTURE_WAR$§! Ascension Perk."
+ ap_esap_ct3_not_finance_req_2:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT2_EXPANSION_DIPLOMACY$§! Ascension Perk."
+ ap_esap_ct3_not_finance_req_3:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_ct1_finance$§! Ascension Perk."
+
+ ap_esap_ct3_not_infrastructure:0 "La grande campagne"
+ ap_esap_ct3_not_infrastructure_desc:0 "Le temps est venu. Ce moment commence une campagne pour unifier la galaxie. Nous devons établir tous les autres objectifs jusqu'à ce qu'il n'y ait qu'une nation parmi ces étoiles."
+ ap_esap_ct3_not_infrastructure_tooltip:0 "Générez £alloys£ §Yalloys§! et £consumer_goods£ §Consumer Marky§! chaque fois que nous occupons avec succès une planète."
+ ap_esap_ct3_not_infrastructure_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT2_WAR_EXPANSION$§! Ascension Perk."
+ ap_esap_ct3_not_infrastructure_req_2:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_CT2_DIPLOMACY_FINANCE$§! Ascension Perk."
+ ap_esap_ct3_not_infrastructure_req_3:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_ct1_infrastructure$§! Ascension Perk."
+
+###############################
+### TECHNOLOGICAL ASCENDACY ###
+###############################
+ ap_esap_technological_ascendancy_bonus_1:0 "Secrets de l'univers"
+ ap_esap_technological_ascendancy_bonus_1_desc:0 "Il existe de nombreux secrets dans l'univers destiné à être laissés non découverts par ceux qui ne savent pas où regarder."
+ ap_esap_technological_ascendancy_bonus_1_tooltip:0 "Déverrouille §Y15§! nouvelles technologies rares à trouver et à rechercher."
+ ap_esap_technological_ascendancy_bonus_1_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_TECHNOLOGIQUE_AASSENDANCE$§! ASCENTS PERK."
+ ap_esap_technological_ascendancy_bonus_1_req_2:0 "$TRIGGER_FAIL$Must ont étudié au moins §g10§! Technologies rares."
+ 
+ ap_esap_technological_ascendancy_bonus_2:0 "Perfection technologique"
+ ap_esap_technological_ascendancy_bonus_2_desc:0 "Une civilisation peut être jugée par les technologies qu'il contrôle. C'est une race que nous ne perdrons pas;Ne serez-nous jamais satisfait de ce que nous savons."
+ ap_esap_technological_ascendancy_bonus_2_tooltip:0 "Augmenter §LeResearch Speed§! par §g+50%§! tout en recherchant une technologie reproductible."
+ ap_esap_technological_ascendancy_bonus_2_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_TECHNOLOGIQUE_AASSENDANCE$§! ASCENTS PERK."
+ ap_esap_technological_ascendancy_bonus_2_req_2:0 "$TRIGGER_FAIL$Must ont étudié au moins sur la technologie reproductible."
+ 
+#########################
+### NATURAL ASCENDACY ###
+#########################
+ ap_esap_nature:0 "Biophilie"
+ ap_esap_nature_desc:0 "Chaque planète que nous installons est unique. En reconnaissant cela, nous pouvons utiliser chacun d'eux à leur potentiel le plus complet."
+ ap_esap_nature_tooltip:0 "Le premier §Y25§! Années après avoir colonisé une planète, chaque §5§! années, génère une nouvelle planète bénéfique aléatoire §YFeature§! . Affecte également chaque planète contrôlée lorsque le PERK est déverrouillé."
+ ap_esap_nature_req_1:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_mining$§! Ascension Perk."
+ 
+ ap_esap_garden:0 "Mondes de jardin"
+ ap_esap_garden_desc:0 "Considéré comme certaines des plus belles planètes de la galaxie, nos mondes de jardins grinchent de la vie. Alors que la plupart des grandes villes, industries et la pollution sont principalement absentes, la planète est plutôt recouverte de jardins, de champs fertiles et de conservation de la nature."
+ ap_esap_garden_tooltip:0 "Permet une décision, convertissant des planètes en §Ygarden Worlds§! , $decision_esap_garden_modifier_effect$"
+ ap_esap_garden_req_1:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_mining$§! Ascension Perk."
+ 
+############################
+### INDUSTRIAL ASCENDACY ###
+############################
+
+ ap_esap_mining:0 "Extraction de base profonde"
+ ap_esap_mining_desc:0 "Dans les noyaux de nos planètes, il y a des richesses minérales jusqu'à maintenant laissées seules. Maintenant, nous possédons la capacité de l'atteindre et de les ramener."
+ ap_esap_mining_tooltip:0 "Déverrouille la § $mod_district_mining_max$§! Décision planétaire qui réduit la planète §YAbitability§! et §Happiness§! par §g-10%§! Pour §20§! années. L'édit génère une fonctionnalité planétaire § $d_esap_mining$§!, augmentant §Y$mod_district_mining_max$§! par §G2§! . Il y a aussi un §g10%§! Chance que chacun génère soit un § $d_crystalline_caverns$§! ou un §Y$ D_DUST_CAVERNS$§! Fonction planétaire. La décision peut être activée chaque §20§! ans et seulement §5§! fois par planète."
+ ap_esap_mining_req_1:0 "$TRIGGER_FAIL$May ne pas avoir le §Y$ap_esap_nature$§! Ascension Perk."
+ ap_esap_mining_req_2:0 "$TRIGGER_FAIL$Requiert le £engineering£ §Y$tech_mining_3$§! Technologie."
+ 
+ ap_esap_industry:0 "Forge mondes"
+ ap_esap_industry_desc:0 "Nos mondes de forge, leurs cieux remplis de fumée et de leurs terres couvertes par des industries, pourraient ne pas être les plus beaux endroits de la galaxie. Cependant, leur capacité de production s'étend loin sur celle d'autres mondes de la galaxie."
+ ap_esap_industry_tooltip:0 "Permet une décision, convertissant des planètes en §YForge Worlds§! , $decision_esap_industry_modifier_effect$."
+ ap_esap_industry_hive_tooltip:0 "Permet une décision, convertissant des planètes en §YForge Worlds§! , $decision_esap_industry_hive_modifier_effect$."
+ ap_esap_industry_machines_tooltip:0 "Permet une décision, convertissant des planètes en §YForge Worlds§! , $decision_esap_industry_machines_modifier_effect$."
+ ap_esap_industry_req_1:0 "$TRIGGER_FAIL$Requiert le §Y$ap_ESAP_mining$§! Ascension Perk."
+ ap_esap_industry_req_2:0 "$TRIGGER_FAIL$Requiert le £engineering£ §Y$tech_alloys_2$§! Technologie."
+ 
+###################
+### ETHIC PERKS ###
+###################
+
+### Base Ethic ###
+
+ ap_esap_authoritarian_1:0 "Règle absolue"
+ ap_esap_authoritarian_1_desc:0 "Il s'agissait de génération depuis que quelqu'un a mis en question la dernière fois que les castes au pouvoir absolu droit à leur pouvoir. De telles questions ne seraient préjudiciables à nos efforts de création de l'empire parfait."
+ 
+ ap_esap_egalitarian_1:0 "Vers utopia"
+ ap_esap_egalitarian_1_desc:0 "Notre empire n'est que les moyens de fin. Cette fin est la fortune de ses habitants. Ce n'est que lorsque nous pouvons offrir les meilleures conditions de vie de tous nos citoyens que notre empire peut être considéré comme complet."
+ ap_esap_egalitarian_1_tooltip:0 "Augmentation § Speed§! et £unity£ §Unity§! Sortie par §g+10%§! Sur les planètes où £happiness£ §YDYOODOOGY§! est au moins §70%§! ."
+ 
+ #Currently Nihilistic Aquisition is used instead.
+ #ap_esap_xenophobe_1:0 ""
+ #ap_esap_xenophobe_1_desc:0 ""
+ #ap_esap_xenophobe_1_tooltip:0 "" 
+ 
+ #Disabled until Federations DLC.
+ ap_esap_xenophile_1:0 "Amicale"
+ ap_esap_xenophile_1_desc:0 "Ne détruisons-nous pas nos ennemis quand on leur fait nos amis ? "
+ ap_esap_xenophile_1_tooltip:0 ""
+
+ ap_esap_militarist_1:0 "Behamoths of War"
+ ap_esap_militarist_1_desc:0 "Quand il s'agit de navires, la taille compte. Il n'y a rien de flotte de cuirassés, équipés d'armes et d'armures supérieures, ne peuvent pas traiter."
+ ap_esap_militarist_1_tooltip:0 "Augmenter le §Yhull§! , §Yarmor§! , Et §Yshield§! par §g+20%§! et §! §Yrange§! par §g+25%§! , pour tous §Ybattleship§! et §Ytitaans§! ."
+ ap_esap_militarist_1_req_1:0 "$TRIGGER_FAIL$Requiert le £engineering£ §Y$tech_battleships$§! Technologie."
+ 
+ ap_esap_pacifist_1:0 "La force des mots"
+ ap_esap_pacifist_1_desc:0 "Il pourrait y avoir une force dans les armes et les armes. Mais cette force s'effondre par rapport à la force de simples mots, une fois choisi judicieusement."
+ ap_esap_pacifist_1_tooltip:0 ""
+ 
+ ap_esap_materialist_1:0 "Explorateurs des étoiles"
+ ap_esap_materialist_1_desc:0 "En tant qu'habitants de cette galaxie, il est de notre devoir de le savoir. Chaque étoile, chaque planète et chaque lune doit être cartographiée, documentée et archivée."
+ ap_esap_materialist_1_tooltip:0 "Augmenter le §Seed§! de §Science Ships§! par §g+25%§! . En outre, gagnez §LeResearch Points§! équivalent à 10% de nos gains mensuels chaque fois que nous interrogeons avec succès un organe céleste."
+ 
+### Fanatic Ethic ###
+ ap_esap_authoritarian_2:0 "Castes absolues"
+ ap_esap_authoritarian_2_desc:0 "En né, la vie entière de chaque individu est déjà prévue. De leur premier souffle, à leur dernière tâche, toutes les tâches nécessaires pour effectuer tout au long de leur vie, déterminées. Avec une connaissance parfaite des compétences dont ils auront besoin tout au long de la vie, leur éducation peut être parfaitement adaptée à leur permettre de remplir le plan qui a été déposé devant eux."
+ ap_esap_authoritarian_2_modifier_desc:0 "Augmentez le £food£ §Food§! et £minerals£ §Mineral§! Sortie de §Yworkers§! par §g10%§! . Augmentez le £alloys£ §Yalloys§! , £consumer_goods£ §Consumer Marchandises§! , £engineering£ §Engineering recherche§! , £physics£ §YPhysics recherche§! , Et£society£ §SoCiety Recherche§! Sortie de §Spécialistes§! par §g10%§! . Augmentez le £unity£ §Unity§! Sortie de §LULERS§! par §g10%§! ."
+
+ ap_esap_egalitarian_2:0 "Réalisation de soi"
+ ap_esap_egalitarian_2_desc:0 "Notre citoyen n'existe pas pour servir notre empire. Notre empire existe plutôt pour promouvoir l'existence de son citoyen. Ce n'est que lorsque chacun de nous a atteint son plein potentiel, pouvons-nous prétendre la perfection. Seulement alors notre empire peut atteindre la vraie grandeur."
+ ap_esap_egalitarian_2_tooltip:0 "Permet un nouvel ensemble de traits de leader spéciaux, ceux-ci sont gagnés lorsqu'un leader atteint le niveau §Y4§! "
+
+ ap_esap_xenophobe_2:0 "Le grand nettoyage"
+ ap_esap_xenophobe_2_desc:0 "Cette galaxie doit être nettoyée de chaque Xeno qui l'infeste. Du plus haut sapient, aux plantes, bugs et champignons les plus bas."
+
+ ap_esap_xenophile_2:0 "Son coeur battant"
+ ap_esap_xenophile_2_desc:0 "Seulement ensemble avons-nous le droit de gouverner cette galaxie. Et au coeur de ce nouvel ordre galactique, nous guidons doucement les empires des étoiles sur une nouvelle voie de coopération et de compréhension."
+ ap_esap_xenophile_2_tooltip:0 "Le £opinion£ §Yopinion§! d'entre nous est augmenté par §g+25§! Pour tous les membres de notre fédération."
+ 
+ ap_esap_militarist_2:0 "S'armer"
+ ap_esap_militarist_2_desc:0 "Bien que notre civilisation ait beaucoup changé depuis que nous avons pris dans les étoiles, la guerre n'a jamais. Il sera toujours le but de notre existence, qui apporte de la joie à notre vie et à la fin de nos ennemis."
+ ap_esap_militarist_2_tooltip:0 "Pour chaque année sans guerre, réduisez le £happiness£ §Y$MOD_POP_HAPPINESS$§! de tous £pop£ §Ypops§! par §g-3%§! et £unity£ §Yunity§! Sortie par §g-5%§! . La pénalité pile jusqu'à §10§! fois et §1§! Les piles sont enlevées pour chaque année de guerre."
+ 
+ ap_esap_pacifist_2:0 "PAX GALACTICA"
+ ap_esap_pacifist_2_desc:0 "La guerre n'a pas de gagnants, seulement des perdants. Pour faire ressortir le véritable potentiel de notre empire, nous devons laisser nos petits squabbles derrière. Nous allons entrer dans un nouvel âge, l'une des paix et la prospérité."
+ ap_esap_pacifist_2_tooltip:0 "Augmentation £trade_value£ §Ytrade Valeur§! Sortie par §g+1%§! , et £stability£ §Stabilité§! par §g0. 2§! pour chaque année de paix. Le bonus pile jusqu'à §Y50§! fois et §5§! Les piles sont enlevées pour chaque année de guerre."
+ 
+ ap_esap_materialist_2:0 "Progression, sinon régression"
+ ap_esap_materialist_2_desc:0 "Au moment où nous laissons notre soif de nouvelles découvertes être trempé, c'est aussi le moment où nous allons tomber dans un nouvel âge sombre. La recherche tenace de l'avancement technologique est la seule chose qui empêche notre civilisation de la régression."
+ ap_esap_materialist_2_tooltip:0 "Gagner plus £unity£ §Unity§! chaque fois qu'une nouvelle technologie est recherchée."
+ 
+ ap_esap_spiritualist_2:0 "Le pilier de la société"
+ ap_esap_spiritualist_2_desc:0 "Notre foi sous-tend tous les aspects de notre société. Il n'y a pas d'institution qui n'est pas fondée sur les doctrines de nos croyances."
+ ap_esap_spiritualist_2_tooltip:0 "Déverrouille la stratégie § $policy_esap_spiritualist_2_doctrine$§!, qui permet §Y$ Job_Priest_plural$§! de produire un §2§! de £engineering£ §YEngineering recherche§! , £physics£ §YPHYSICS RECHERCH§! , ou £society£ §SoCiety Recherche§! ."
+ 
+#######################
+### HIVE MIND PERKS ###
+#######################
+ 
+ ap_esap_hive_swarm:0 "Le grand essaim"
+ ap_esap_hive_swarm_desc:0 "Le ciel devient sombre, le sol commence à bouger, l'essaim s'approche."
+ ap_esap_hive_swarm_tooltip:0 "Augmentation §Y $MOD_SHIP_FIRE_RATE_MULT$§! par §g+25%§! Pour §Corvettes§! , et le réduire par §-25%§! pour tous les autres navires."
+
+ ap_esap_hive_devouring:0 "L'essaim de la faim"
+ ap_esap_hive_devouring_desc:0 "Grâce à la consommation de la vie dans l'univers, nous avons grandi fort. Mais ou la faim n'a pas été condamné."
+ ap_esap_hive_devouring_tooltip:0 "Double la quantité de £society£ §Ysociety§! gagné de purge £pop£ §Ypop§! . En outre, gagnez une quantité similaire de £food£ §Food§! ."
+
+ ap_esap_hive_terravores:0 "Terrade"
+ ap_esap_hive_terravores_desc:0 "La consommation d'une planète est un processus méticuleux. Premièrement, tous les organismes macroscopiques sont traités. Ensuite, le sol est filtré et les mers sont dessinées. Enfin, l'atmosphère elle-même est vidée."
+ ap_esap_hive_terravores_tooltip:0 ""
+
+#############################
+### MACCHINE EMPIRE PERKS ###
+#############################
+
+#############################
+### MEGACORP EMPIRE PERKS ###
+#############################
+
+#########################################################
+### MEGASTRUCTURES AND HABITATS (UTOPIA AND MEGACORP) ###
+#########################################################
+
+###############################
+### GENERIC ASCENSION PERKS ###
+###############################
+ 
+ ap_esap_one_purpose:0 "Un seul but"
+ ap_esap_one_purpose_desc:0 "Notre présence dans cette galaxie peut être définie d'un seul but. C'est la raison de notre existence."
+
+ ap_esap_smallworld:0 "Petits mondes"
+ ap_esap_smallworld_desc:0 "La galaxie est remplie de milliards de planètes, dont une fraction convient à la vie. Celles-ci sont de qualité variable, agréable à dure, gros à petite. Chacun est un trésor. Pour être difficile, c'est être vain, il faut comment utiliser correctement non seulement un grand monde, mais aussi un petit monde."
+ ap_esap_smallworld_tooltip:0 "La taille minimale de toutes vos planètes est augmentée pour §15§! ."
+ 
