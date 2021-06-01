@@ -1,0 +1,157 @@
+﻿# I spent a lot of time on this mod out of my own free time, and nobody would like it if someone took their creation
+# and stole it, and tried to claim it as their's. If you want to learn to mod Stellaris, I'm not the best person to
+# ask, but I'm always open to help and if you'd like to make new features or add-ons to this mod, send me a message,
+# and we'll discuss together about either integrating them into this mod, or creating an add-on to this one.
+
+l_french:
+ ##################
+# Operations
+ ##################
+
+ operation_steal_power_stone:0 "Voler la §MPierre de Puissance§!"
+ operation_steal_power_stone_desc:0 "En utilisant notre réseau d'espionnage existant, nous pouvons tenter de voler la §Mpierre de puissance§! possédée par '§Y[root.target.GetName]§!'."
+ operation_steal_power_stone_on_success:0 "$IF_SUCCESSFUL|E$\nNous allons récupérer la §Mpierre de puissance§!\n'§Y[root.target.GetName]§!' va perdre la §Mpierre de puissance§!"
+
+ operation_steal_time_stone:0 "Voler la §GPierre du Temps§!"
+ operation_steal_time_stone_desc:0 "En utilisant notre réseau d'espionnage existant, nous pouvons tenter de voler la §Gpierre du Temps§! possédée par '§Y[root.target.GetName]§!'."
+ operation_steal_time_stone_on_success:0 "$IF_SUCCESSFUL|E$\nNous allons récupérer la §Gpierre du Temps§!\n'§Y[root.target.GetName]§!' va perdre la §Gpierre du Temps§!"
+
+ operation_steal_reality_stone:0 "Voler la §RPierre de Réalité§!"
+ operation_steal_reality_stone_desc:0 "En utilisant notre réseau d'espionnage existant, nous pouvons tenter de voler la §Rpierre de réalité§! possédée par '§Y[root.target.GetName]§!'."
+ operation_steal_reality_stone_on_success:0 "$IF_SUCCESSFUL|E$\nNous allons récupérer la §Rpierre de réalité§!\n'§Y[root.target.GetName]§!' va perdre la §Rpierre de réalité§!"
+
+ operation_steal_soul_stone:0 "Voler la §HPierre de l'Âme§!"
+ operation_steal_soul_stone_desc:0 "En utilisant notre réseau d'espionnage existant, nous pouvons tenter de voler la §Hpierre de l'Âme§! possédée par '§Y[root.target.GetName]§!'."
+ operation_steal_soul_stone_on_success:0 "$IF_SUCCESSFUL|E$\nNous allons récupérer la §Hpierre de l'Âme§!\n'§Y[root.target.GetName]§!' va perdre la §Hpierre de l'Âme§!"
+
+ operation_steal_mind_stone:0 "Voler la §HPierre de l'Esprit§!"
+ operation_steal_mind_stone_desc:0 "En utilisant notre réseau d'espionnage existant, nous pouvons tenter de voler la §Hpierre de l'Esprit§! possédée par '§Y[root.target.GetName]§!'."
+ operation_steal_mind_stone_on_success:0 "$IF_SUCCESSFUL|E$\nNous allons récupérer la §Hpierre de l'Esprit§!\n'§Y[root.target.GetName]§!' va perdre la §Hpierre de l'Esprit§!"
+
+ operation_steal_space_stone:0 "Voler la §BPierre de l'Espace§!"
+ operation_steal_space_stone_desc:0 "En utilisant notre réseau d'espionnage existant, nous pouvons tenter de voler la §Bpierre de l'Espace§! possédée par '§Y[root.target.GetName]§!'."
+ operation_steal_space_stone_on_success:0 "$IF_SUCCESSFUL|E$\nNous allons récupérer la §Bpierre de l'Espace§!\n'§Y[root.target.GetName]§!' va perdre la §Bpierre de l'Espace§!"
+
+ recently_tried_to_steal_an_infinity_stone_fail_text:0 "Nous avons récemment essayé de voler l'une des §Ypierres d'Infinité§!."
+
+# §MPower Stone§!
+# §GTime Stone§!
+# §RReality Stone§!
+# §HSoul Stone§!
+# §YMind Stone§!
+# §BSpace Stone§!
+
+ ##################
+# Operation events
+ ##################
+
+
+
+# Power Stone theft
+# §MPower Stone§!
+
+ig_operations.1.name:0 "Voler la §MPierre de Puissance§!"
+ig_operations.1.desc:0 "Tous nos agents sont en place pour voler la §Mpierre de puissance§! possédée par '§Y[event_target:previous_owner_of_infinity_stone.GetName]§!'. Des années de planification ont conduit à ce moment, et il est grand temps que la §Mpierre de puissance§! soit nôtre !"
+
+ig_operations.2.desc:0 "Nous avons volé avec succès le §MPierre de puissance§! des mains des '§Y [event_target:previous_owner_of_infinity_stone.GetName]§!'."
+
+ig_operations.3.name:0 "§MPierre de Puissance§! volée !"
+ig_operations.3.desc:0 "La §MPierre de puissance§! est manquante, elle semble avoir été subtilisée durant la nuit. Nous ne sommes pas certains des auteurs de ce méfait, mais les premiers indices convergent vers '§Y[event_target:new_owner_of_infinity_stone.GetName]§!'."
+ig_operations.getstoneback:0 "Nous allons la récupérer !"
+power_stone_removed_tooltip:0 "§MPierre de puissance§! subtilisée"
+
+ig_operations.4.desc:0 "Notre plan visant à voler la §Mpierre de puissance§! s'est déroulé sans accros, mais quand nous avons ouvert le coffre où devait se trouver la §Mpierre de puissance§!elle n'était plus là !\n\nSelon nos contacts, la pierre aurait été perdue au profit d'un autre empire depuis un certain temps..."
+ig_operations.intelbad:0 "Nos renseignements étaient surement obsolètes"
+
+ig_operations.5.desc:0 "Notre plan visant à voler la §Mpierre de puissance§! a échoué, et nos agents se sont fait capturer. Nous devrons attendre longtemps, avant de pouvoir tenter à nouveau de voler la pierre à nouveau."
+ig_operations.another_opportunity:0 "Une autre occasion se présentera"
+
+
+
+# Time Stone Theft
+# §GTime Stone§!
+
+ig_operations.11.name:0 "Voler la §GPierre du Temps§!"
+ig_operations.11.desc:0 "Tous nos agents sont en place pour voler la §Gpierre du Temps§! possédée par '§Y[event_target:previous_owner_of_infinity_stone.GetName]§!. Des années de planification ont conduit à ce moment, et il est grand temps que la §Gpierre du Temps§! soit nôtre !"
+
+ig_operations.12.desc:0 "Nous avons volé avec succès la §GPierre du Temps§! des mains des '§Y[event_target:previous_owner_of_infinity_stone.GetName]§!'."
+
+ig_operations.13.name:0 "§GPierre du Temps§! volée !"
+ig_operations.13.desc:0 "La §Gpierre du Temps§! est manquante, elle semble avoir été subtilisée durant la nuit. Nous ne sommes pas certains des auteurs de ce méfait, mais les premiers indices convergent vers '§Y[[event_target:new_owner_of_infinity_stone.GetName]§!'."
+time_stone_removed_tooltip:0 "§GPierre du Temps§! subtilisée"
+
+ig_operations.14.desc:0 "Notre plan visant à voler la §GPierre du Temps§! s'est déroulé sans accros, mais quand nous avons ouvert le coffre où devait se trouver la pierre, elle n'était plus là !\n\nSelon nos contacts, la pierre aurait été perdue au profit d'un autre empire depuis un certain temps..."
+
+ig_operations.15.desc:0 "Notre plan visant à voler la §GPierre du Temps§! a échoué, et nos agents se sont fait capturer. Nous devrons attendre longtemps, avant de pouvoir tenter à nouveau de voler la pierre à nouveau."
+
+
+
+# Reality Stone Theft
+# §RReality Stone§!
+
+ig_operations.21.name:0 "Voler la §RPierre de Réalité§!"
+ig_operations.21.desc:0 "Tous nos agents sont en place pour voler la §Rpierre de réalité§! possédée par '§Y[event_target:previous_owner_of_infinity_stone.GetName]§!. Des années de planification ont conduit à ce moment, et il est grand temps que la §Rpierre de réalité§! soit nôtre !"
+
+ig_operations.22.desc:0 "Nous avons volé avec succès la §Rpierre de réalité§! des mains des '§Y[event_target:previous_owner_of_infinity_stone.GetName]§!'."
+
+ig_operations.23.name:0 "§RPierre de réalité§! volée !"
+ig_operations.23.desc:0 "La §Rpierre de réalité§! est manquante, elle semble avoir été subtilisée durant la nuit. Nous ne sommes pas certains des auteurs de ce méfait, mais les premiers indices convergent vers '§Y[[event_target:new_owner_of_infinity_stone.GetName]§!."
+reality_stone_removed_tooltip:0 "§RPierre de réalité§! subtilisée"
+
+ig_operations.24.desc:0 "Notre plan visant à voler la §Rpierre de réalité§! s'est déroulé sans accros, mais quand nous avons ouvert le coffre où devait se trouver la pierre, elle n'était plus là !\n\nSelon nos contacts, la pierre aurait été perdue au profit d'un autre empire depuis un certain temps..."
+
+ig_operations.25.desc:0 "Notre plan visant à voler la §Rpierre de réalité§! a échoué, et nos agents se sont fait capturer. Nous devrons attendre longtemps, avant de pouvoir tenter à nouveau de voler la pierre à nouveau."
+
+
+
+# Soul Stone theft
+# §HSoul Stone§!
+
+ig_operations.31.name:0 "Voler la §HPierre de l'Âme§!"
+ig_operations.31.desc:0 "Tous nos agents sont en place pour voler la §Hpierre de l'Âme§! possédée par '§Y[event_target:previous_owner_of_infinity_stone.GetName]§!'. Des années de planification ont conduit à ce moment, et il est grand temps que la §Hpierre de l'Âme§! soit nôtre !"
+
+ig_operations.32.desc:0 "Nous avons volé avec succès la §Hpierre de l'Âme§! des mains des '§Y[event_target:previous_owner_of_infinity_stone.GetName]§!'."
+
+ig_operations.33.name:0 "§HPierre de l'Âme§! volée !"
+ig_operations.33.desc:0 "La §Hpierre de l'Âme§! est manquante, elle semble avoir été subtilisée durant la nuit. Nous ne sommes pas certains des auteurs de ce méfait, mais les premiers indices convergent vers '§Y[[event_target:new_owner_of_infinity_stone.GetName]§!'."
+soul_stone_removed_tooltip:0 "§HPierre de l'Âme§! subtilisée"
+
+ig_operations.34.desc:0 "Notre plan visant à voler la §Hpierre de l'Âme§! s'est déroulé sans accros, mais quand nous avons ouvert le coffre où devait se trouver la pierre, elle n'était plus là !\n\nSelon nos contacts, la pierre aurait été perdue au profit d'un autre empire depuis un certain temps..."
+
+ig_operations.35.desc:0 "Notre plan visant à voler la §Hpierre de l'Âme§! a échoué, et nos agents se sont fait capturer. Nous devrons attendre longtemps, avant de pouvoir tenter à nouveau de voler la pierre à nouveau."
+
+
+
+# Mind Stone Theft
+# §YMind Stone§!
+
+ig_operations.41.name:0 "Voler la §YPierre de l'Esprit§!"
+ig_operations.41.desc:0 "Tous nos agents sont en place pour voler la §Hpierre de l'Esprit§! possédée par '§Y[event_target:previous_owner_of_infinity_stone.GetName]§!'. Les années de planification ont conduit à cela et il est grand temps que la §Hpierre de l'Esprit§! soit nôtre !"
+
+ig_operations.42.desc:0 "Nous avons volé avec succès la §Hpierre de l'Esprit§! des mains des '§Y[event_target:previous_owner_of_infinity_stone.GetName]§!."
+
+ig_operations.43.name:0 "§Hpierre de l'Esprit§! volée !"
+ig_operations.43.desc:0 "La §Hpierre de l'Esprit§! est manquante, elle semble avoir été subtilisée durant la nuit. Nous ne sommes pas certains des auteurs de ce méfait, mais les premiers indices convergent vers '§Y[event_target:new_owner_of_infinity_stone.GetName]§!'."
+mind_stone_removed_tooltip:0 "§HPierre de l'Esprit§! subtilisée"
+
+ig_operations.44.desc:0 "Notre plan visant à voler la §Hpierre de l'Esprit§! s'est déroulé sans accros, mais quand nous avons ouvert le coffre où devait se trouver la pierre, elle n'était plus là !\n\nSelon nos contacts, la pierre aurait été perdue au profit d'un autre empire depuis un certain temps..."
+
+ig_operations.45.desc:0 "Notre plan visant à voler la §Hpierre de l'Esprit§! a échoué, et nos agents se sont fait capturer. Nous devrons attendre longtemps, avant de pouvoir tenter à nouveau de voler la pierre à nouveau."
+
+
+
+# Space Stone Theft
+# §BSpace Stone§!
+
+ig_operations.51.name:0 "Voler la §BPierre de l'Espace§!"
+ig_operations.51.desc:0 "Tous nos agents sont en place pour voler la §Bpierre de l'Espace§! possédée par '§Y[event_target:previous_owner_of_infinity_stone.GetName]§!'. Les années de planification ont conduit à cela et il est grand temps que la §Bpierre de l'Espace§! soit nôtre !"
+
+ig_operations.52.desc:0 "Nous avons volé avec succès la §Bpierre de l'Espace§! des mains des '§Y[event_target:previous_owner_of_infinity_stone.GetName]§!'."
+
+ig_operations.53.name:0 "§BPierre de l'Espace§! volée !"
+ig_operations.53.desc:0 "La §Bpierre de l'Espace§! est manquante, elle semble avoir été subtilisée durant la nuit. Nous ne sommes pas certains des auteurs de ce méfait, mais les premiers indices convergent vers '§Y[[event_target:new_owner_of_infinity_stone.GetName]§!'."
+space_stone_removed_tooltip:0 "§BPierre de l'Espace§! subtilisée"
+
+ig_operations.54.desc:0 "Notre plan visant à voler la §Bpierre de l'Espace§! s'est déroulé sans accros, mais quand nous avons ouvert le coffre où devait se trouver la pierre, elle n'était plus là !\n\nSelon nos contacts, la pierre aurait été perdue au profit d'un autre empire depuis un certain temps..."
+
+ig_operations.55.desc:0 "Notre plan visant à voler la §Bpierre de l'Espace§! a échoué, et nos agents se sont fait capturer. Nous devrons attendre longtemps, avant de pouvoir tenter à nouveau de voler la pierre à nouveau."
