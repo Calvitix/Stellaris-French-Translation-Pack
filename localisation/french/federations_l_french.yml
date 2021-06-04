@@ -207,7 +207,7 @@
  CLICK_TO_JOIN:0 "§GCliquer pour entrer dans la Communauté galactique.§!"
  CLICK_TO_JOIN_DESC:0 "§LEn tant que membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], nous pourrons influer sur les résolutions et bénéficier des avantages fournis par les modificateurs qu'elles offrent.§!"
  CLICK_TO_LEAVE:0 "§RCliquer pour sortir [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium].§!"
- CLICK_TO_LEAVE_DESC:1 "§LSi nous sortons [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium], nous ne bénéficierons plus des avantages accordés par les modificateurs galactiques. Pendant §R20 ans§!, nous ne pourrons la réintégrer et subirons une réduction de notre £diplo_weight£poids diplomatique.\n\nToutefois, nous serons aussi débarrassés des modificateurs galactiques qui nous affectent négativement lorsque nous enfreignons les lois galactiques.§!\n"
+ CLICK_TO_LEAVE_DESC:1 "§LSi nous sortons [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium], nous ne bénéficierons plus des avantages accordés par les modificateurs galactiques. Pendant §R20 ans§!, nous ne pourrons la réintégrer et subirons une réduction de notre £diplo_weight£poids diplomatique.\n\nToutefois, nous serons aussi débarrassés des modificateurs galactiques qui nous affectent négativement lorsque nous enfreignons les lois galactiques.§!\n"
  RESOLUTION_QUEUE:0 "Résolutions en attente"
  RESOLUTION_QUEUE_DESC:0 "§gAucune résolution n'a encore été proposée.§!"
  RESOLUTION_SUPPORT_DESC:0 "§gIl est impossible de soutenir les propositions de résolutions si aucune n'a été proposée.§!"
@@ -1134,17 +1134,17 @@
 
  resolution_mutualdefense_enemy_of_my_enemy:0 "L'ennemi de nos ennemis"
  resolution_mutualdefense_enemy_of_my_enemy_desc:0 "L'ennemi d'un membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] est l'ennemi de tous ses membres. Si l'un d'eux est attaqué, tous ne doivent-ils pas être autorisés à châtier l'agresseur ?"
- resolution_mutualdefense_enemy_of_my_enemy_tooltip:0 "Offre le casus belli §Y$casus_belli_cb_counterattack$§! contre tout empire non membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] menant une guerre offensive contre un membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium]." # [LocEditor:AwaitingBatchUpdate]
+ resolution_mutualdefense_enemy_of_my_enemy_tooltip:0 "Offre le casus belli §Y$casus_belli_cb_counterattack$§! contre tout empire non membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] menant une guerre offensive contre un membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium]." # [LocEditor:AwaitingBatchUpdate]
 
  resolution_mutualdefense_castigation_proclamation:0 "Proclamation des châtiments"
  resolution_mutualdefense_castigation_proclamation_desc:0 "Ceux qui ne sont pas avec nous sont contre nous, et quiconque se dresse contre les lois galactiques doit être châtié."
- resolution_mutualdefense_castigation_proclamation_tooltip:0 "Tout membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] peut proposer une résolution pour §Ydénoncer§! un empire §Renfreignant§! les lois galactiques ou qui n'est pas membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium].\n\nLe casus belli §Y$casus_belli_cb_humiliation$§! et le but de guerre §Y$war_goal_wg_humiliation$§! pourront dès lors être utilisés par les empires ayant la politique de §Y$unrestricted_wars$§! contre les empires ainsi §Rdénoncés§! par [global_event_country.GetLeLaLCommGalEmpGal][global_event_country.GetCommunityOrImperium] ou qui §Renfreindrait§! les lois galactiques."
+ resolution_mutualdefense_castigation_proclamation_tooltip:0 "Tout membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] peut proposer une résolution pour §Ydénoncer§! un empire §Renfreignant§! les lois galactiques ou qui n'est pas membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium].\n\nLe casus belli §Y$casus_belli_cb_humiliation$§! et le but de guerre §Y$war_goal_wg_humiliation$§! pourront dès lors être utilisés par les empires ayant la politique de §Y$unrestricted_wars$§! contre les empires ainsi §Rdénoncés§! par [global_event_country.GetLeLaLCommGalEmpGal][global_event_country.GetCommunityOrImperium] ou qui §Renfreindrait§! les lois galactiques."
  resolution_mutualdefense_castigation_denouncement:0 "Dénonciation"
  resolution_mutualdefense_castigation_denouncement_desc:0 "Une déclaration officielle de dénonciation visant un empire précis. Cette proposition peut cibler n'importe quel empire qui soit n'est pas membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], soit en est membre mais enfreint les lois galactiques."
 
  resolution_mutualdefense_renegade_containment:0 "Doctrine d'endiguement des renégats"
  resolution_mutualdefense_renegade_containment_desc:0 "Les bénéfices de l'appartenance [global_event_country.GetAuAlaAlCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] parlent d'eux-mêmes. Tout refus d'y appartenir est donc la preuve d'une intention mauvaise. Les membres doivent par conséquent être autorisés à prévenir tout acte malfaisant par la force avant que les non-membres ne mettent en oeuvre leurs projets nuisibles."
- resolution_mutualdefense_renegade_containment_tooltip:0 "Offre à tout membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] ayant la politique de §Y$unrestricted_wars$§! le casus belli §Y$war_goal_wg_renegade_containment$§! contre tout empire n'étant pas membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium]."
+ resolution_mutualdefense_renegade_containment_tooltip:0 "Offre à tout membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] ayant la politique de §Y$unrestricted_wars$§! le casus belli §Y$war_goal_wg_renegade_containment$§! contre tout empire n'étant pas membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium]."
 
  # Rules of War
 
@@ -1196,17 +1196,17 @@
  resolution_category_denouncements:0 "Dénonciation"
 
  resolution_council_denouncement:0 "Dénonciations par le Conseil"
- resolution_council_denouncement_desc:0 "Le [global_event_country.GetGalCouncilOrImpCouncil] peut proposer une résolution dénonçant les membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] se montrant inamicaux, les exposant ainsi aux sanctions qui auront été votées.\n\nIl ne fait aucun doute que les membres disposant d'un siège au Conseil sont suffisamment sages pour ne pas abuser d'un tel pouvoir."
+ resolution_council_denouncement_desc:0 "Le [global_event_country.GetGalCouncilOrImpCouncil] peut proposer une résolution dénonçant les membres [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] se montrant inamicaux, les exposant ainsi aux sanctions qui auront été votées.\n\nIl ne fait aucun doute que les membres disposant d'un siège au Conseil sont suffisamment sages pour ne pas abuser d'un tel pouvoir."
 
  resolution_galacticreforms_abolish_council:0 "§RAbolition du Conseil galactique§!"
  resolution_galacticreforms_abolish_council_desc:0 "Le [global_event_country.GetGalCouncilOrImpCouncil] est une menace contre la démocratie et devrait être aboli."
  resolution_galacticreforms_abolish_council_tooltip:0 "Le [global_event_country.GetGalCouncilOrImpCouncil] cesse d'exister."
  resolution_galacticreforms_form_council:0 "Former le Conseil galactique"
  resolution_galacticreforms_form_council_desc:0 "[global_event_country.GetLeLaLCommGalEmpGalCap][global_event_country.GetGalCommunityOrGalImperium]devrait disposer d'un conseil restreint afin d'aider à maintenir l'ordre parmi ses nombreux membres."
- resolution_galacticreforms_form_council_tooltip:0 "Établit un §YConseil galactique§! composé de trois membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium].\n\nCe Conseil aura dès sa formation le pouvoir de passer des §Ymesures d'urgence§!, de proposer des §Yrésolutions de sanction§!, et de procéder à des §Ydénonciations§!."
+ resolution_galacticreforms_form_council_tooltip:0 "Établit un §YConseil galactique§! composé de trois membres [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium].\n\nCe Conseil aura dès sa formation le pouvoir de passer des §Ymesures d'urgence§!, de proposer des §Yrésolutions de sanction§!, et de procéder à des §Ydénonciations§!."
 
  resolution_galacticreforms_disable_council_veto:0 "§RRetirer le droit de veto au Conseil§!"
- resolution_galacticreforms_disable_council_veto_desc:0 "L'idée même que le Conseil dispose d'un droit de veto est saugrenue. Pourquoi donc les souhaits des membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] devraient-ils être passés sous silence ? Cela doit cesser immédiatement !"
+ resolution_galacticreforms_disable_council_veto_desc:0 "L'idée même que le Conseil dispose d'un droit de veto est saugrenue. Pourquoi donc les souhaits des membres [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] devraient-ils être passés sous silence ? Cela doit cesser immédiatement !"
  resolution_galacticreforms_disable_council_veto_tooltip:0 "Les membres du Conseil galactique ne pourront plus exercer leur veto contre les résolutions proposées."
  resolution_galacticreforms_enable_council_veto:0 "Donner le droit de veto au Conseil"
  resolution_galacticreforms_enable_council_veto_desc:0 "Le [global_event_country.GetGalCouncilOrImpCouncil] doit se voir accorder le droit de veto contre toute proposition futile qui se trouverait dans la file d'attente des résolutions."
@@ -1215,7 +1215,7 @@
  resolution_galacticreforms_disable_council_denouncement_desc:0 "Les membres du Conseil galactique ne devraient pas pouvoir dénoncer quelque membre que ce soit sans justifier pleinement des motifs. Ce pouvoir injuste et autocratique doit être retiré immédiatement au Conseil."
  resolution_galacticreforms_disable_council_denouncement_tooltip:0 "Les membres du Conseil galactique ne pourront plus dénoncer les membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] se montrant inamicaux."
  resolution_galacticreforms_enable_council_denouncement:0 "Autoriser les dénonciations du Conseil"
- resolution_galacticreforms_enable_council_denouncement_desc:0 "Nous devrions donner aux membres du Conseil galactique le droit de cibler les empires renégats pour qu'ils soient châtiés. Ils devraient avoir le droit de soumettre des propositions de dénonciation à l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium]."
+ resolution_galacticreforms_enable_council_denouncement_desc:0 "Nous devrions donner aux membres du Conseil galactique le droit de cibler les empires renégats pour qu'ils soient châtiés. Ils devraient avoir le droit de soumettre des propositions de dénonciation à l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium]."
  resolution_galacticreforms_enable_council_denouncement_tooltip:0 "Les membres du Conseil galactique vont pouvoir dénoncer tout membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] se montrant inamical."
 
  resolution_galacticreforms_council_size_1:0 "Conseil d'un seul membre"
@@ -1260,7 +1260,7 @@
  resolution_sanctions_tech_repeal_3_effect_success:2 "Abroge la résolution §Y$resolution_sanctions_tech_3$§! tout en conservant la loi galactique §Y$resolution_sanctions_tech_2$§!."
 
  resolution_sanctions_tech_1:0 "Sanctions limitées sur la recherche"
- resolution_sanctions_tech_1_desc:0 "Tout empire §Renfreignant§! les lois galactiques doit subir des inspections régulières de leurs complexes de recherche afin de veiller à ce qu'ils se plient aux réglementations [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium]."
+ resolution_sanctions_tech_1_desc:0 "Tout empire §Renfreignant§! les lois galactiques doit subir des inspections régulières de leurs complexes de recherche afin de veiller à ce qu'ils se plient aux réglementations [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium]."
 
  resolution_sanctions_tech_2:0 "Sanctions modérées sur la recherche"
  resolution_sanctions_tech_2_desc:0 "Des mesures plus rigoureuses sont nécessaires afin de veiller à ce que les lois galactiques soient bien respectées."
@@ -1284,7 +1284,7 @@
  resolution_sanctions_economic_repeal_3_effect_success:2 "Abroge la résolution §Y$resolution_sanctions_economic_3$§! tout en conservant la loi galactique §Y$resolution_sanctions_economic_2$§!."
 
  resolution_sanctions_economic_1:0 "Sanctions économiques limitées"
- resolution_sanctions_economic_1_desc:0 "Nous devons imposer un système de droits de douane et imposer des inspections afin d'imposer aux membres §Renfreignant§! les lois galactiques à se plier à la volonté [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium]."
+ resolution_sanctions_economic_1_desc:0 "Nous devons imposer un système de droits de douane et imposer des inspections afin d'imposer aux membres §Renfreignant§! les lois galactiques à se plier à la volonté [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium]."
 
  resolution_sanctions_economic_2:0 "Sanctions économiques modérées"
  resolution_sanctions_economic_2_desc:0 "$resolution_sanctions_tech_2_desc$"
@@ -1296,7 +1296,7 @@
  resolution_sanctions_military_desc:0 "$resolution_sanctions_tech_desc$"
 
  resolution_sanctions_military_repeal_1:0 "§RAbroger les sanctions militaires limitées§!"
- resolution_sanctions_military_repeal_1_desc:0 "La restriction de la taille des flottes des membres ayant enfreint les lois galactiques est un acte irréfléchi et dangereux. Nous devons user d'autres moyens pour nous assurer qu'ils se rangent à l'avis prévalant au sein [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium]."
+ resolution_sanctions_military_repeal_1_desc:0 "La restriction de la taille des flottes des membres ayant enfreint les lois galactiques est un acte irréfléchi et dangereux. Nous devons user d'autres moyens pour nous assurer qu'ils se rangent à l'avis prévalant au sein [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium]."
  resolution_sanctions_military_repeal_1_effect_success:0 "Abroge la résolution §Y$resolution_sanctions_military_1$§!."
 
  resolution_sanctions_military_repeal_2:0 "§RAbroger les sanctions militaires modérées§!"
@@ -1308,13 +1308,13 @@
  resolution_sanctions_military_repeal_3_effect_success:2 "Abroge la résolution §Y$resolution_sanctions_military_3$§! tout en conservant la loi galactique §Y$resolution_sanctions_military_2$§!."
 
  resolution_sanctions_military_1:0 "Sanctions militaires limitées"
- resolution_sanctions_military_1_desc:0 "Nous devons imposer des restrictions raisonnables sur les flottes des membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] §Renfreignant§! les lois galactiques."
+ resolution_sanctions_military_1_desc:0 "Nous devons imposer des restrictions raisonnables sur les flottes des membres [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] §Renfreignant§! les lois galactiques."
 
  resolution_sanctions_military_2:0 "Sanctions militaires modérées"
  resolution_sanctions_military_2_desc:0 "$resolution_sanctions_tech_2_desc$"
 
  resolution_sanctions_military_3:0 "Sanctions militaires draconiennes"
- resolution_sanctions_military_3_desc:0 "Tout membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] qui refuse de se plier aux lois galactiques doit subir des restrictions sévères pour ce qui concerne la taille et le déploiement de ses forces."
+ resolution_sanctions_military_3_desc:0 "Tout membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] qui refuse de se plier aux lois galactiques doit subir des restrictions sévères pour ce qui concerne la taille et le déploiement de ses forces."
 
  resolution_sanctions_administrative:0 "Sanctions administratives"
  resolution_sanctions_administrative_desc:0 "$resolution_sanctions_tech_desc$"
@@ -1332,7 +1332,7 @@
  resolution_sanctions_administrative_repeal_3_effect_success:2 "Abroge la résolution §Y$resolution_sanctions_administrative_3$§! tout en conservant la loi galactique §Y$resolution_sanctions_administrative_2$§!."
 
  resolution_sanctions_administrative_1:0 "Sanctions administratives limitées"
- resolution_sanctions_administrative_1_desc:0 "Les diplomates des membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] enfreignant les lois galactiques doivent être isolés, de façon polie mais ferme."
+ resolution_sanctions_administrative_1_desc:0 "Les diplomates des membres [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] enfreignant les lois galactiques doivent être isolés, de façon polie mais ferme."
 
  resolution_sanctions_administrative_2:0 "Sanctions administratives modérées"
  resolution_sanctions_administrative_2_desc:0 "$resolution_sanctions_tech_2_desc$"
@@ -1356,23 +1356,23 @@
  resolution_galactic_focus_crisis_effect_success:0 "Tous les membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] vont ouvrir leurs frontières et mobiliser pour la guerre."
 
  resolution_galactic_focus_crisis_prethoryn:0 "Priorité : le Fléau préthoryn"
- resolution_galactic_focus_crisis_prethoryn_desc:0 "Le Fléau préthoryn constitue une menace pour toute forme de vie dans la galaxie. Si nous ne nous unissons pas contre lui, il nous consommera tous. Nous devons donc rassembler l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] pour faire de cette crise la priorité galactique."
+ resolution_galactic_focus_crisis_prethoryn_desc:0 "Le Fléau préthoryn constitue une menace pour toute forme de vie dans la galaxie. Si nous ne nous unissons pas contre lui, il nous consommera tous. Nous devons donc rassembler l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] pour faire de cette crise la priorité galactique."
  resolution_galactic_focus_crisis_prethoryn_effect_success:0 "$resolution_galactic_focus_crisis_effect_success$"
 
  resolution_galactic_focus_crisis_unbidden:0 "Priorité : les Spontanés"
- resolution_galactic_focus_crisis_unbidden_desc:0 "Les envahisseurs extradimensionnels constituent une menace pour toute forme de vie dans la galaxie. Si nous ne nous unissons pas contre eux, ils nous écraseront tous. Nous devons donc rassembler l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] pour faire de cette crise la priorité galactique."
+ resolution_galactic_focus_crisis_unbidden_desc:0 "Les envahisseurs extradimensionnels constituent une menace pour toute forme de vie dans la galaxie. Si nous ne nous unissons pas contre eux, ils nous écraseront tous. Nous devons donc rassembler l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] pour faire de cette crise la priorité galactique."
  resolution_galactic_focus_crisis_unbidden_effect_success:0 "$resolution_galactic_focus_crisis_effect_success$"
 
  resolution_galactic_focus_crisis_contingency:0 "Priorité : la Contingence"
- resolution_galactic_focus_crisis_contingency_desc:0 "La Contingence constitue une menace pour toute forme de vie dans la galaxie. Si nous ne nous unissons pas contre elle, elle nous détruira tous. Nous devons donc rassembler l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] pour faire de cette crise la priorité galactique."
+ resolution_galactic_focus_crisis_contingency_desc:0 "La Contingence constitue une menace pour toute forme de vie dans la galaxie. Si nous ne nous unissons pas contre elle, elle nous détruira tous. Nous devons donc rassembler l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] pour faire de cette crise la priorité galactique."
  resolution_galactic_focus_crisis_contingency_effect_success:0 "$resolution_galactic_focus_crisis_effect_success$"
 
  resolution_galactic_focus_crisis_greatkhan:0 "Priorité : le Grand Khan"
- resolution_galactic_focus_crisis_greatkhan_desc:0 "Le déchaînement de violence du Grand Khan est une menace pour tout empire indépendant de la galaxie. Si nous ne nous unissons pas pour l'arrêter, ses flottes nous écraseront tous. Nous devons donc rassembler l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] pour faire de cette crise la priorité galactique."
+ resolution_galactic_focus_crisis_greatkhan_desc:0 "Le déchaînement de violence du Grand Khan est une menace pour tout empire indépendant de la galaxie. Si nous ne nous unissons pas pour l'arrêter, ses flottes nous écraseront tous. Nous devons donc rassembler l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] pour faire de cette crise la priorité galactique."
  resolution_galactic_focus_crisis_greatkhan_effect_success:0 "$resolution_galactic_focus_crisis_effect_success$"
 
  resolution_galactic_focus_crisis_nanites:0 "Priorité : la Tempête Grise"
- resolution_galactic_focus_crisis_nanites_desc:0 "Les nanites de l'amas-L constituent une menace pour l'ensemble de la galaxie. Si nous ne nous unissons pas pour l'arrêter, elle nous détruira tous. Nous devons donc rassembler l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] pour faire de cette crise la priorité galactique."
+ resolution_galactic_focus_crisis_nanites_desc:0 "Les nanites de l'amas-L constituent une menace pour l'ensemble de la galaxie. Si nous ne nous unissons pas pour l'arrêter, elle nous détruira tous. Nous devons donc rassembler l'ensemble [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] pour faire de cette crise la priorité galactique."
  resolution_galactic_focus_crisis_nanites_effect_success:0 "$resolution_galactic_focus_crisis_effect_success$"
  resolution_galactic_focus_war_in_heaven_support_side_1:1 "Priorité : s'opposer à la [SecondSleeper.GetName]"
  resolution_galactic_focus_war_in_heaven_support_side_1_desc:2 "La [SecondSleeper.GetName] a bien évidemment tous les torts dans le conflit qui déchire la galaxie. La Communauté devrait donc s'unir face à elle et soutenir la [FirstSleeper.GetName]."
@@ -1472,7 +1472,7 @@
  # NOTE: this is intentionally blank
  alert_council_election_instant:0 ""
 
- alert_council_election_delayed:0 "Le Conseil réunira les membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] disposant du £diplo_weight£§Ypoids diplomatique§! le plus important au moment de l'élection."
+ alert_council_election_delayed:0 "Le Conseil réunira les membres [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] disposant du £diplo_weight£§Ypoids diplomatique§! le plus important au moment de l'élection."
  COUNCIL_ELECTION_FORECAST:0 "Les élections au Conseil se tiendront dans $DAYS|Y$£time£.\nMembres actuellement pressentis :\n$STANDINGS$"
  STANDINGS_ENTRY:0 "§Y$NAME$ :§! $WEIGHT$£diplo_weight£"
 
@@ -1740,7 +1740,7 @@
 
  MOD_VETO_COST_MULT:0 "Coût du veto "
  mod_council_member:0 "Membre du Conseil "
- mod_galactic_community_delegate:0 "Délégués [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] "
+ mod_galactic_community_delegate:0 "Délégués [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] "
 
  mod_station_gatherers_energy_produces_mult:0 "Prod. £energy£énergétique des stations minières "
  mod_station_gatherers_consumer_goods_produces_mult:0 "Prod. £consumer_goods£biens de consommation des stations stellaires "
@@ -2245,16 +2245,16 @@
  galcom.16.b:0 "Mieux vaut nous tenir à l'écart de tout cela"
 
  galcom.51.name:0 "Formation du Conseil galactique"
- galcom.51.desc:0 "Les membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] ont voté la formation d'un Conseil galactique. L'appartenance à cette institution auguste sera limitée aux représentants des trois empires les plus puissants et les plus influents [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium]. Jusqu'à ce qu'un nouveau Conseil soit élu, il s'agit donc de la §H[council_member_1.GetName]§!, de la §H[council_member_2.GetName]§! et de la §H[council_member_3.GetName]§!.\n\nLes membres du Conseil ont pour tâche de guider et protéger la Communauté dans son ensemble. Leurs pouvoirs renforcés devraient leur permettre de passer outre ces pesanteurs qui ralentissent si souvent la prise de décisions au sein des institutions politiques nombreuses."
+ galcom.51.desc:0 "Les membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] ont voté la formation d'un Conseil galactique. L'appartenance à cette institution auguste sera limitée aux représentants des trois empires les plus puissants et les plus influents [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium]. Jusqu'à ce qu'un nouveau Conseil soit élu, il s'agit donc de la §H[council_member_1.GetName]§!, de la §H[council_member_2.GetName]§! et de la §H[council_member_3.GetName]§!.\n\nLes membres du Conseil ont pour tâche de guider et protéger la Communauté dans son ensemble. Leurs pouvoirs renforcés devraient leur permettre de passer outre ces pesanteurs qui ralentissent si souvent la prise de décisions au sein des institutions politiques nombreuses."
  galcom.51.a:0 "Espérons qu'ils se montreront à la hauteur..."
  galcom.51.b:0 "Enfin, les choses vont pouvoir avancer !"
  galcom.51.c:0 "Ceux qui ont tout manigancé se montrent enfin au grand jour !"
 
  galcom.62.name:0 "[galactic_market_station_system.GetName] privé du Marché galactique"
- galcom.62.desc:0 "Conformément à l'article 19C de la charte [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], seul un membre peut abriter le Marché galactique. Sa station centrale, jusqu'à présent située dans le système de §Y[galactic_market_station_system.GetName]§!, a donc été démantelée. Les derniers marchands ont abandonné avec quelque réticence leurs bureaux et lieux de rencontre, en se plaignant de la gêne occasionnée pour le commerce galactique par cette procédure qu'ils jugent d'un dramatisme et d'une futilité confondants. Le Comité du commerce [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] a de son côté fait une annonce publique pour regretter que la situation l'ait contraint à une telle mesure, et aussitôt affirmé que la procédure de désignation d'un nouveau lieu, intérieur [global_event_country.GetAuAlaAlCommGalEmpGal][global_event_country.GetCommunityOrImperium], allait être lancée incessamment." # [LocEditor:AwaitingBatchUpdate]
+ galcom.62.desc:0 "Conformément à l'article 19C de la charte [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], seul un membre peut abriter le Marché galactique. Sa station centrale, jusqu'à présent située dans le système de §Y[galactic_market_station_system.GetName]§!, a donc été démantelée. Les derniers marchands ont abandonné avec quelque réticence leurs bureaux et lieux de rencontre, en se plaignant de la gêne occasionnée pour le commerce galactique par cette procédure qu'ils jugent d'un dramatisme et d'une futilité confondants. Le Comité du commerce [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] a de son côté fait une annonce publique pour regretter que la situation l'ait contraint à une telle mesure, et aussitôt affirmé que la procédure de désignation d'un nouveau lieu, intérieur [global_event_country.GetAuAlaAlCommGalEmpGal][global_event_country.GetCommunityOrImperium], allait être lancée incessamment." # [LocEditor:AwaitingBatchUpdate]
  galcom.62.A:0 "Malgré tout, cela valait le coût"
  galcom.63.name:0 "Recherche d'un nouveau lieu pour le Marché galactique"
- galcom.63.desc:0 "La [From.GetName] ayant choisi de sortir [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], un obscur article de la Charte [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] a dû être appliqué. Celui-ci prévoyait que seul un membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] pouvait abriter le Marché galactique. La station du système de §H[galactic_market_station_system.GetName]§! a donc été démantelée, et les derniers marchands ont abandonné avec quelque réticence leurs bureaux et lieux de rencontre, en se plaignant de la gêne occasionnée pour le commerce galactique par cette procédure qu'ils jugent d'un dramatisme et d'une futilité confondants. La désignation d'un nouveau lieu pour le Marché a d'ores et déjà été lancée : le Comité du commerce [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] vient de faire une annonce publique pour regretter que la situation l'ait contraint à une telle mesure et promettre que le Marché trouverait incessamment un nouveau système d'accueil."
+ galcom.63.desc:0 "La [From.GetName] ayant choisi de sortir [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], un obscur article de la Charte [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] a dû être appliqué. Celui-ci prévoyait que seul un membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] pouvait abriter le Marché galactique. La station du système de §H[galactic_market_station_system.GetName]§! a donc été démantelée, et les derniers marchands ont abandonné avec quelque réticence leurs bureaux et lieux de rencontre, en se plaignant de la gêne occasionnée pour le commerce galactique par cette procédure qu'ils jugent d'un dramatisme et d'une futilité confondants. La désignation d'un nouveau lieu pour le Marché a d'ores et déjà été lancée : le Comité du commerce [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] vient de faire une annonce publique pour regretter que la situation l'ait contraint à une telle mesure et promettre que le Marché trouverait incessamment un nouveau système d'accueil."
  galcom.63.A:0 "C'est là une magnifique occasion qui se présente..."
  galcom.63.B:0 "Quelle folie que tout cela..."
 
@@ -2966,7 +2966,7 @@
  opinion_denied_to_leave_hegemony:0 "Demander pour quitter l'hégémonie rejetée "
  opinion_tried_to_secede:0 "Tentative de sécession "
  opinion_forced_to_remain:0 "Échec de la tentative de sécession "
- galcom_2_aye:0 "Nous allons appuyer la formation [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]."
+ galcom_2_aye:0 "Nous allons appuyer la formation [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]."
  galcom_2_nay:0 "Nous n'allons pas appuyer la formation [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]."
  action.1.desc_89:0 "Vous êtes... Vous êtes des [From.GetSpeciesNamePlural] ? C'est incroyable ! Vous devez être des survivants de l'§YInitiative Ulysse§! ! Tout le monde sur Terra pensait que les vaisseaux-arches avaient été perdus, mais au moins l'un d'entre eux a survécu ! Vous dites que vos ancêtres étaient sur le Chrysanthème ?\n\nCela n'a sans doute pas été facile, mais vous avez tout l'air de vous en être bien sortis. Au nom des habitants de Terra et des membres de l'Assemblée générale des Nations unies, j'aimerais tendre une main confraternelle à mes frères et soeurs de '§Y[Root.GetName]§!'.\n\nDésormais, faisons tout pour oeuvrer de concert à la prospérité future de l'ensemble de l'humanité !"
  action.1.desc_90:0 "La [From.GetName]... Ainsi donc, l'ONU est parvenue à se maintenir au pouvoir, même après toutes ces années ? Veuillez nous pardonner, les choses étaient quelque peu... chaotiques sur Terra lorsque nos ancêtres l'ont quittée sur les vaisseaux-arches de l'§YInitiative Ulysse§!. Nous étions nombreux à penser que vous vous étiez détruits lors d'une nouvelle guerre mondiale, ou aviez été victimes d'une invasion alien.\n\nMalgré tout, vous avez l'air plus forts et plus compétents que les autorités corrompues de Terra lorsque nos ancêtres en sont partis. Ce sont eux qui ont fondé la [contact_empire.GetName], à partir de rien, et nous la défendrons jusqu'au dernier. Quant à vous, nous verrons bien si vous méritez notre respect."
