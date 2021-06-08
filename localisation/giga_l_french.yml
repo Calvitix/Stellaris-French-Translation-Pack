@@ -13,7 +13,7 @@
 	# Dofus Teknik Makina --> Dofus Makine Teknik
 	# Louf Cerreless Hornsfelt --> Louf Pelisse Irréprochable
  	# Pawtton --> Léorton
-	# Weeny Pouchkinn --> Igor Pouchkinn
+	# Weeny Pouchkinn --> Igor Pouchequine
 	#
 	#
 	# Empires et espèces
@@ -37,7 +37,7 @@
 	# Eeloo --> Elo
 	#
 	# Vaisseaux
-	# Neu-Clermeowth -> Nouv-Leopard
+	# Neu-Clermeowth -> Nouv-Clermiaou
 	# Douclaw -> Crocs
 	# Katzchen -> Lionceau
 	# 
@@ -99,11 +99,116 @@
     header_05_shroud_desc:0 "$header_05_shroud$\nLes technologies liées au Suaire seront débloquées par ce chemin de recherche§!"
 
     giga_menu.200.name:0 "Fonctionnalités temporairement désactivées"
-    giga_menu.200.desc:0 "Salutations ! Merci d'utiliser §BGigastructural Engineering & More§!. Ce popup est là pour vous informer que les §YBalises psioniques§! sont temporairement désactivées car la version 3.0 a engendré des incompatibilités dans leurs scripts.\n\nLes problèmes avec le RNG de la §YRésistance Flusionienne§! son résolus.\n\n Nous nous excusons pour ce désagrément et espérons que vous apprécierez quand même le mod !"
+    giga_menu.200.desc:0 "Salutations ! Merci d'utiliser §BGigastructural Engineering & More§!. Ce popup est là pour vous informer que les §YBalises psioniques§! sont temporairement désactivées car la version 3.0 a engendré des incompatibilités dans leurs scripts.\n\nLes problèmes avec le RNG de la §YRésistance Flusionienne§! sont résolus.\n\n Nous nous excusons pour ce désagrément et espérons que vous apprécierez quand même le mod !"
     giga_menu.200.a:0 "Compris."
 
     trait_kaiser_cattail:0 "Le Kaiser"
     trait_kaiser_cattail_desc:0 "Kaiser Cattail est une entité quasi-immortelle dotée d'un grand charisme mais d'une gaffe et d'une mégalomanie prononcées."
+	
+    ASTEROID_ARTILLERY_STERN:0 "Artillerie spinale"
+    ASTEROID_ARTILLERY_MID:0 "Batteries d'armes"
+    ASTEROID_ARTILLERY_BOW:0 "Armes auxiliaires"
+
+    asteroid_artillery:0 "Artillerie d'astéroïde"
+    asteroid_artillery_plural:0 "Artilleries d'astéroïde"
+
+    REACTOR_ASTEROID:0 "Asteroid Power Core"
+    REACTOR_ASTEROID_DESC:0 "Nested deep within the asteroid's crust lies a colossal reactor of advanced design, providing plenty of energy for the structure's vast array of weapons."
+
+    asteroid_artillery_0:0 "Asteroid Artillery Framework"
+    asteroid_artillery_0_DESC:0 "This framework surrounds an asteroid, preparing it for the next step in the construction of the Asteroid Artillery."
+    asteroid_artillery_0_MEGASTRUCTURE_DETAILS:0 "An Asteroid Artillery is a potent stationary defensive construct embedded into an asteroid, designed to repel enemy incursions."
+
+    asteroid_artillery_1:0 "Asteroid Artillery"
+    asteroid_artillery_1_DESC:0 "An Asteroid Artillery is a large weapon platform embedded into a small rocky body which is mined to sustain the platform. It consists of a central spinal weapon supplemented by an array of smaller auxiliary turrets and is made to repel medium-sized enemy incursions."
+
+    asteroid_artillery_ruined:0 "Damaged Asteroid Artillery"
+    asteroid_artillery_ruined_DESC:0 "Although it has sustained heavy damage, this Asteroid Artillery could theoretically be repaired given enough resources."
+
+    asteroid_artillery_repaired:0 "Asteroid Artillery"
+    asteroid_artillery_repaired_DESC:0 "An Asteroid Artillery is a large weapon platform embedded into a small rocky body which is mined to sustain the platform. It consists of a central spinal weapon supplemented by an array of smaller auxiliary turrets and is made to repel medium-sized enemy incursions."
+
+    giga_tech_asteroid_artillery:0 "Planetoid Defensive Operations"
+    giga_tech_asteroid_artillery_desc:0 "The ever-growing size of modern warships means that starbases will simply not cut it anymore when it comes to defending our territory, but logistical problems prevent a conventional defensive platform from getting too large. However, by embedding a defensive installation into a large asteroid, we can simultaneously solve the problems posed by recoil, as well as those caused by maintenance issue by integrating the structure's internals into the asteroid itself and mining it for resources whenever needed. This would effectively enable the construction of much larger and significantly more powerful defensive bastions."
+
+    allow_asteroid_artillery:0 "§HUnlocks Megastructure:§! Asteroid Artillery\n§BPursuing further research into this field will lead to increasingly large warships.§!"
+    desc_asteroid_artillery:0 "An Asteroid Artillery is a stationary defensive platform built into asteroid, designed to repel large enemy fleets on its own."
+
+    giga_mobile_planet_quest_chain:0 "§BPursuing further research into this field will unlock increasingly large warships.§!"
+
+    giga_artillery.1000.name:0 "Managing Asteroid Artillery"
+    giga_artillery.1000.desc:0 "The Asteroid Artillery built around §Y[asteroid_artillery_location.GetName]§! can be upgraded in order to ensure it can keep up with the ever-increasing strength of space fleets.\n\n§BHull Reinforcement:§! Increases Hull & Armor HP by 30% per level.\n§YCurrent Level:§! [asteroid_artillery_location.asteroid_artillery_hp] | +[asteroid_artillery_location.asteroid_artillery_hp_perc]%\n\n§REnhanced Payloads:§! Increases Weapons Damage by 20% per level.\n§YCurrent Level:§! [asteroid_artillery_location.asteroid_artillery_dmg] | +[asteroid_artillery_location.asteroid_artillery_dmg_perc]%\n\n§GFlash Coolants:§! Increases Fire Rate by 20% per level.\n§YCurrent Level:§! [asteroid_artillery_location.asteroid_artillery_atkspeed] | +[asteroid_artillery_location.asteroid_artillery_atkspeed_perc]%\n\n§HCalibrated Sensors:§! Increases Weapons Range by 25% per level.\n§YCurrent Level:§! [asteroid_artillery_location.asteroid_artillery_range] | +[asteroid_artillery_location.asteroid_artillery_range_perc]%\n\n§EPrecision Targeting:§! Increases Tracking by 30% per level.\n§YCurrent Level:§! [asteroid_artillery_location.asteroid_artillery_tracking] | +[asteroid_artillery_location.asteroid_artillery_tracking_perc]%\n\n§MRegenerative Hull:§! Increases Daily Hull/Armor Regen by 1.5% per level.\n§YCurrent Level:§! [asteroid_artillery_location.asteroid_artillery_pen] | +[asteroid_artillery_location.asteroid_artillery_pen_perc]%\n\n§PUpgrade Points Left:§! [asteroid_artillery_location.asteroid_artillery_points_current]"
+
+    giga_artillery.1000.b:0 "Spend §Y1§! §PUpgrade Point§! on §BHull Reinforcement§! | §Y[asteroid_artillery_location.asteroid_artillery_hp_cost]§! £alloys£"
+    giga_artillery.1000.c:0 "Spend §Y1§! §PUpgrade Point§! on §REnhanced Payloads§! | §Y[asteroid_artillery_location.asteroid_artillery_dmg_cost]§! £alloys£"
+    giga_artillery.1000.d:0 "Spend §Y1§! §PUpgrade Point§! on §GFlash Coolants§! | §Y[asteroid_artillery_location.asteroid_artillery_atkspeed_cost]§! £alloys£"
+    giga_artillery.1000.e:0 "Spend §Y1§! §PUpgrade Point§! on §HCalibrated Sensors§! | §Y[asteroid_artillery_location.asteroid_artillery_range_cost]§! £alloys£"
+    giga_artillery.1000.f:0 "Spend §Y1§! §PUpgrade Point§! on §MRegenerative Hull§! | §Y[asteroid_artillery_location.asteroid_artillery_pen_cost]§! £alloys£"
+    giga_artillery.1000.g:0 "Spend §Y1§! §PUpgrade Point§! on §EPrecision Targeting§! | §Y[asteroid_artillery_location.asteroid_artillery_tracking_cost]§! £alloys£"
+
+    giga_artillery.1000.a:0 "Exit."
+
+    giga_tech_asteroid_artillery_pen_shots:0 "Asteroid Artillery Regenerative Armor"
+    giga_tech_asteroid_artillery_pen_shots_desc:0 "Improved large-scale integration of nanites and self-repairing constructs within Asteroid Artilleries means they can repair themselves much quicker and more efficiently than before."
+
+    allow_asteroid_artillery_pen:0 "§HUnlocks Asteroid Artillery Upgrade:§! Regenerative Hull"
+    allow_asteroid_artillery_pen_desc:0 "The Regenerative Hull upgrade enables Asteroid Artilleries to passively repair themselves faster."
+
+    not_enough_artillery_points:0 "This Asteroid Artillery does not have enough Upgrade Points left."
+
+    giga_tech_asteroid_artillery_damage_upgrade:0 "Reimagined Asteroid Weaponry"
+    giga_tech_asteroid_artillery_damage_upgrade_desc:0 "With the advent of Attack Moons and more capable weaponized planetoids, it is paramount that we ensure our Asteroid Artilleries are able to keep up with the ever-increasing pace of warship development. Integrating several new burgeoning technologies such as higher-dimensional engineering and singularity reactors will ensure the Asteroid Artillery remains a competitive asset in galactic warfare."
+    allow_asteroid_artillery_dmg_upgrade:0 "Asteroid Artillery Weapons Damage: §G+35%§!\nAsteroid Artillery Weapons Range: §G+20%§!\nAsteroid Artillery Upgrade Points: §G+3§!"
+
+    giga_not_enough_alloys:0 "We do not have enough alloys."
+
+    giga_tech_asteroid_artillery_health_upgrade:0 "Enhanced Asteroid Shield Generators"
+    giga_tech_asteroid_artillery_health_upgrade_desc:0 "Enhancing the survivability of our Asteroid Artilleries is crucial, and thus improving their shield generators will enable them to survive additional punishment."
+
+    allow_asteroid_artillery_hp_upgrade:0 "Asteroid Artillery Shield HP: §G+25%§!\nAsteroid Artillery Shield Regen: §G+2%§!\nAsteroid Artillery Upgrade Points: §G+2§!"
+
+    giga_artillery.1004.name:0 "Asteroid Artillery Framework Built"
+    giga_artillery.1004.desc:0 "The framework for a future Asteroid Artillery has been completed in the §Y[giga_system.GetName]§! system. This small construct wraps around the asteroid and houses mining facilities that will harvest the asteroid's mass and prepare its interior for the installation of a colossal reactor.\n\nIt will additionally support a variety of auxiliary weapon batteries to supplement the weapon's upcoming main cannon. Asteroid Artilleries have an upkeep of §Y100§! £energy£ and §Y25§! £alloys£.\n\n§YDo not forget to design the $name_asteroid_artillery$ in the Ship Designer!§!"
+    giga_artillery.1004.a:0 "Good."
+
+    giga_artillery.1005.name:0 "Asteroid Artillery Built!"
+    giga_artillery.1005.desc:0 "An Asteroid Artillery has been fully constructed in the §Y[giga_system.GetName]§! system. Anchored to a particularly large asteroid, this immobile fortress features a gigantic spinal cannon supplemented by weaponry installed on its framework.\n\n§YThe Asteroid Artillery can be upgraded by clicking on the "Manage Upgrades" button in the Megastructure UI. If it is destroyed, we may be able to rebuild it later on and it will conserve all of its prior upgrades.§!"
+    giga_artillery.1005.a:0 "Great!"
+
+    asteroid_artillery_config:0 "Manage Upgrades"
+    asteroid_artillery_config_DESC:0 "Upgrade this Asteroid Artillery."
+
+    giga_artillery.1002.name:0 "Asteroid Artillery Destroyed!"
+    giga_artillery.1002.desc:0 "One of our Asteroid Artilleries has been destroyed in the §Y[ast_artillery_destroyed_system.GetName]§! system following fierce combat with the §Y[From.GetName]§!.\n\nThe defensive construct has been reduced to a large wreck surrounding its asteroid, and may be rebuilt in the future if we eventually manage to reclaim it. If it had been upgraded, repairing it will conserve whatever upgrades it might have had."
+    giga_artillery.1002.a:0 "Curses!"
+
+    giga_tech_asteroid_artillery_planetcraft_upgrade:0 "Modernized Asteroid Weaponry"
+    giga_tech_asteroid_artillery_planetcraft_upgrade_desc:0 "Behemoth Planetcrafts have pushed the limits of ship-design and sanity further than ever before. Our Asteroid Artilleries must adapt if they are to remain potent defensive assets in this age of planetary warfare."
+    
+    allow_asteroid_artillery_planetcraft_upgrade:0 "Asteroid Artillery Hull/Armor HP: §G+40%§!\nAsteroid Artillery Fire Rate: §G+40%§!\nAsteroid Artillery Upgrade Points: §G+3§!"
+
+    giga_tech_repeatable_asteroid_artillery_upgrade:0 "Streamlined Artillery Design"
+    giga_tech_repeatable_asteroid_artillery_upgrade_desc:0 "Further improvements can be made to the design of our Asteroid Artilleries to increase how many times they can be upgraded."
+
+    adds_one_ast_art_point:0 "Asteroid Artillery Upgrade Points §G+1§!"
+
+    name_asteroid_artillery:0 "Asteroid Artillery"
+
+    giga_tech_repeatable_asteroid_artillery_cap: "Asteroid Artillery Management Protocols"
+    giga_tech_repeatable_asteroid_artillery_cap_desc: "Advanced construction and maintenance protocols to allow construction and management of additional §YAsteroid Artilleries§! within our empire's borders."
+    giga_asteroid_artillery_capacity_increase_title: "§YAsteroid Artillery§! capacity: §G+1§!"
+    giga_asteroid_artillery_capacity_increase_desc: "Empire capacity for §YAsteroid Artilleries§! is increased by §G+1§!"
+
+    giga_artillery.1003.name:0 "Asteroid Artillery Repaired!"
+    giga_artillery.1003.desc:0 "We have successfully repaired an Asteroid Artillery in the §Y[giga_system.GetName]§! system. The structure has been brought back to working order, and is now ready to defend our territory.\n\nAny upgrades previously applied to the structure have been conserved, as well."
+    giga_artillery.1003.a:0 "Marvelous!"
+
+    dormant_aeternum_governor:0 "Overseer"
+
+    pc_giga_asteroid_artillery:0 "Asteroid Artillery"
+    pc_giga_asteroid_artillery_desc:0 "This Asteroid has been converted into a defensive weapon."
+
+    adds_4_asteroid_artillery_points:0 "Asteroid Artillery Upgrade Points: §G+4§!"
 	
 	
     #########################################
@@ -230,6 +335,11 @@
     name_yggdrasil:0 "Complexe d'orchidées de l'Yggdrasil"
     allow_yggdrasil:0 "§HDéverrouille la mégastructure : §! $name_yggdrasil$"
     desc_yggdrasil:0 "Un complexe massif construit près d'une géante gazeuse pour ensemencer son atmosphère d'une vie florale spécifique."
+
+    name_the_vat:0 "Cuve de clonage B.I.G."
+    name_the_vat_long:0 "Cuve de clonage Biologie Impétueuse Génétique"
+    allow_the_vat:0 "Déverrouille la mégastructure :§! $name_the_vat$"
+    desc_the_vat:0 "Une cuve de clonage de taille mammouth, construite dans l'espace pour accueillir les plus grands types de clones..."
 
     name_orbital_artificial_eco:0 "Écosystème artificiel orbital"
     allow_orbital_artificial_eco:0 "§HDéverrouille la mégastructure : §! $name_orbital_artificial_eco$"
@@ -486,7 +596,7 @@
     giga_menu.2.refresh.tooltip:0 "Ici, vous pouvez vérifier vos paramètres actifs."
 
     giga_menu.1.name:0 ""
-    giga_menu.1.desc:0 "v 3.13.3"
+    giga_menu.1.desc:0 "v 3.14.0"
 
     giga_menu_1:0 "Capacité en mégastructures : §H1§!"
     giga_menu_2:0 "Capacité en mégastructures : §Y2§!"
@@ -577,6 +687,7 @@
     giga_menu.succ:0 "[root.giga_chk_succ]"
     giga_menu.virtual_reality:0 "[root.giga_chk_virtual_reality]"
     giga_menu.orchid:0 "[root.giga_chk_orchid]"
+    giga_menu.the_vat:0 "[root.giga_chk_the_vat]"
 
     giga_menu.ehof:0 "[root.giga_chk_ehof]"
     giga_menu.ehof_ai:0 "[root.giga_chk_ehof_ai]"
@@ -593,7 +704,7 @@
 
     giga_menu.3.desc:0 "§EMégastructures 'Vanilla'§!\n$giga_menu.vanilla_dyson$\n$giga_menu.vanilla_interstellar$\n$giga_menu.vanilla_matter$\n$giga_menu.vanilla_art$\n$giga_menu.vanilla_shipyard$\n$giga_menu.vanilla_ringworld$\n$giga_menu.vanilla_nexus$\n$giga_menu.vanilla_array$\n$giga_menu.vanilla_strategic$\n\n§ERingworld Options§!\n$giga_menu.ringworlds$\n$giga_menu.cityring$\n$giga_menu.hivering$\n$giga_menu.machinering$\n$giga_menu.upgrade$\n\n§EGigastructures§!\n$giga_menu.alderson$\n$giga_menu.terraform_toxic$\n$giga_menu.drill$\n$giga_menu.warmoon$\n$giga_menu.warplanet$\n$giga_menu.birch$\n$giga_menu.crystal$\n$giga_menu.terraform_barren$\n$giga_menu.shipyard$\n$giga_menu.suppressor$\n$giga_menu.geothermal$\n$giga_menu.hraemc$\n$giga_menu.hyperstructural_ass$\n$giga_menu.stellarhabitat$\n$giga_menu.kugel$\n$giga_menu.disco_moon$\n$giga_menu.terraform_gasgiant$\n$giga_menu.megabase$\n$giga_menu.matrioshka_brain$"
 
-    giga_menu.4.desc:0 "$giga_menu.gigaforge$\n$giga_menu.ndb$\n$giga_menu.nidavellir$\n$giga_menu.orbital_arcologies$\n$giga_menu.orbital_artificial_eco$\n$giga_menu.academy$\n$giga_menu.elysium$\n$giga_menu.penrose_sphere$\n$giga_menu.planetary_computer$\n$giga_menu.siphon$\n$giga_menu.quasistellar$\n$giga_menu.lifters$\n$giga_menu.accelerator$\n$giga_menu.systemcraft$\n$giga_menu.compressor$\n$giga_menu.succ$\n$giga_menu.orchid$\n$giga_menu.asteroid_manufactory$\n$giga_menu.psychic_beacon$"
+    giga_menu.4.desc:0 "$giga_menu.megabase$\n$giga_menu.matrioshka_brain$\n$giga_menu.gigaforge$\n$giga_menu.ndb$\n$giga_menu.nidavellir$\n$giga_menu.orbital_arcologies$\n$giga_menu.orbital_artificial_eco$\n$giga_menu.academy$\n$giga_menu.penrose_sphere$\n$giga_menu.planetary_computer$\n$giga_menu.psychic_beacon$\n$giga_menu.siphon$\n$giga_menu.quasistellar$\n$giga_menu.lifters$\n$giga_menu.accelerator$\n$giga_menu.systemcraft$\n$giga_menu.compressor$\n$giga_menu.succ$\n$giga_menu.virtual_reality$\n$giga_menu.the_vat$\n$giga_menu.orchid$"
 
     #########################################
     ### Individual Options ##################
@@ -1021,6 +1132,14 @@
     giga_orchid_u:0 "£menu_u£§M$name_yggdrasil$§!"
     giga_orchid_disabled:0 "£menu_disabled£§R$name_yggdrasil$§!"
 
+    giga_the_vat_1:0 "£menu_1£§H$name_the_vat$§!"
+    giga_the_vat_2:0 "£menu_2£§Y$name_the_vat$§!"
+    giga_the_vat_3:0 "£menu_3£§G$name_the_vat$§!"
+    giga_the_vat_r:0 "£menu_r£§B$name_the_vat$§!"
+    giga_the_vat_u:0 "£menu_u£§M$name_the_vat$§!"
+    giga_the_vat_disabled:0 "£menu_disabled£§R$name_the_vat$§!"
+
+	
     giga_fe_planetcrafts_disabled:0 "§R£menu_disabled£Modelage de Planètes des empires déchus§!"
     giga_fe_planetcrafts_enabled:0 "§G£menu_enabled£Modelage de Planètes des empires déchus§!"
 
@@ -1142,9 +1261,9 @@
     giga_menu_presets_04:0 "Gloire aux anneaux"
     giga_menu_presets_05:0 "Mégastructures dangereuses"
     giga_menu_presets_07:0 "Développeur : §RElowiny§!"
-    giga_menu_presets_06:0 "Développeur : §BKreitani§!"
+    giga_menu_presets_06:0 "Développeur : §RKreitani§!"
     giga_menu_presets_11:0 "Développeur : §BJames Fire§!"
-    giga_menu_presets_08:0 "Contributeur : §LNHunter§!"
+    giga_menu_presets_08:0 "Développeur : §BNHunter§!"
     giga_menu_presets_09:0 "Contributeur : §LYanzihko§!"
     giga_menu_presets_10:0 "Contributeur : §LCoruptedUsername§!"
     giga_menu_presets_12:0 "Contributeur : §LNicolas§!"
@@ -2580,6 +2699,10 @@
     giga_yggdrasil_yes:0 "§G$name_yggdrasil$§!"
     giga_yggdrasil_no:0  "§R$name_yggdrasil$§!"
 
+    giga_has_the_vat:0 "[root.has_the_vat]"
+    giga_the_vat_yes:0 "§G$name_the_vat$§!"
+    giga_the_vat_no:0  "§R$name_the_vat$§!"
+
     giga_has_eq_shipyard:0 "[root.has_eq_shipyard]"
     giga_eq_shipyard_yes:0 "§G$name_eq_shipyard$§!"
     giga_eq_shipyard_no:0  "§R$name_eq_shipyard$§!"
@@ -2860,7 +2983,7 @@
 
     giga_achievement_23:0              "§HIII§!"
     giga_achievement_23_title:0        "§H$giga_achievement_21_group_header$ $giga_achievement_23$§!"
-    giga_achievement_23_requirement:0  "Terminez §B$giga_achievement_21_group_header$§! $giga_achievement_22$\nConstruisez l'une des mégastructures suivantes:\n- $giga_has_sub_compressor$\n- $giga_has_yggdrasil$\n- $giga_has_eq_shipyard$\n- $giga_has_terraform_gasgiant$\n- $giga_has_interstellar_hab$\n- $giga_has_war_moon$\n- $giga_has_ringworld_titanic$\n- $giga_has_psy_siphon$\n- $giga_has_succ$"
+    giga_achievement_23_requirement:0  "Terminez §B$giga_achievement_21_group_header$§! $giga_achievement_22$\nConstruisez l'une des mégastructures suivantes:\n- $giga_has_sub_compressor$\n- $giga_has_yggdrasil$\n- $giga_has_the_vat$\n- $giga_has_eq_shipyard$\n- $giga_has_terraform_gasgiant$\n- $giga_has_interstellar_hab$\n- $giga_has_war_moon$\n- $giga_has_ringworld_titanic$\n- $giga_has_psy_siphon$\n- $giga_has_succ$"
     giga_achievement_23_reward:0       "Vitesse de construction des mégastructures : §G30%§!\n\n"
     giga_achievement_23_tooltip:0      "$giga_achievement_23_title$\n$giga_achievement_23_requirement$\n\n§HRécompense§!\n$giga_achievement_23_reward$"
     achievement_23:0                   "$giga_achievement_23_title$"
@@ -2896,7 +3019,7 @@
 
     giga_achievement_28:0              "§HIII§!"
     giga_achievement_28_title:0        "§H$giga_achievement_26_group_header$ $giga_achievement_28$§!"
-    giga_achievement_28_requirement:0  "Terminez §B$giga_achievement_26_group_header$§! $giga_achievement_27$\nConstruisez toutes les mégastructures suivantes :\n- $giga_has_sub_compressor$\n- $giga_has_yggdrasil$\n- $giga_has_eq_shipyard$\n- $giga_has_terraform_gasgiant$\n- $giga_has_interstellar_hab$\n- $giga_has_war_moon$\n- $giga_has_ringworld_titanic$\n- $giga_has_succ$"
+    giga_achievement_28_requirement:0  "Terminez §B$giga_achievement_26_group_header$§! $giga_achievement_27$\nConstruisez toutes les mégastructures suivantes :\n- $giga_has_sub_compressor$\n- $giga_has_yggdrasil$\n- $giga_has_the_vat$\n- $giga_has_eq_shipyard$\n- $giga_has_terraform_gasgiant$\n- $giga_has_interstellar_hab$\n- $giga_has_war_moon$\n- $giga_has_ringworld_titanic$\n- $giga_has_succ$"
     giga_achievement_28_reward:0       "Coût de construction des mégastructures : §G-15%§!\n\n"
     giga_achievement_28_tooltip:0      "$giga_achievement_28_title$\n$giga_achievement_28_requirement$\n\n§HRécompense§!\n$giga_achievement_28_reward$"
     achievement_28:0                   "$giga_achievement_28_title$"
@@ -3254,6 +3377,11 @@
     giga_achievement_97_requirement:0  "Construire un $giga_has_terraform_shattered$."
     giga_achievement_97_tooltip:0      "$giga_achievement_97$\n$giga_achievement_97_requirement$"
 
+    giga_achievement_98:0              "§HImitation de Mammouth§!"
+    giga_achievement_98_requirement:0  "Construire une $giga_has_the_vat$."
+    giga_achievement_98_tooltip:0      "$giga_achievement_98$\n$giga_achievement_98_requirement$"
+
+
     giga_achievement_kaiser_group_header:0 "Félidés & Flusion"
     giga_achievement_kaiser1:0              "§HVersailles'd§!"
     giga_achievement_kaiser1_requirement:0  "Vaincre l'§YEmpereur Kattail§! et le §YImpérium Félidéen§! en envahissant ou en détruisant §YFlusion§!."
@@ -3532,7 +3660,7 @@
     pouchkinn_trait_modified_desc:0 "Ce leader regorge d'implants sur mesure pour booster ses capacités mentales et physiques."
 
     pouchkinn_trait_ancient_knowledge:0 "Connaissance antique"
-    pouchkinn_trait_ancient_knowledge_desc:0 "Les Pouchkinn ont une connaissance inégalée de l'univers."
+    pouchkinn_trait_ancient_knowledge_desc:0 "Les Pouchequines ont une connaissance inégalée de l'univers."
 
     # Habitability traits
     mod_pc_interstellar_habitat_habitability:0 "Habitabilité de l'habitat interstellaire"
@@ -4521,7 +4649,7 @@
     strange_pouchkinn_lab:0 "Laboratoire antique"
     strange_pouchkinn_lab_desc:0 "Un ancien laboratoire se trouve à la surface de ce $name_orb_elysium$. Personne ne sait qui l'a construit."
 
-    strange_pouchkinn_lab_activated:0 "Laboratoire de Pouchkinn"
+    strange_pouchkinn_lab_activated:0 "Laboratoire de Pouchequine"
     strange_pouchkinn_lab_activated_desc:0 "Ce $name_orb_elysium$ abrite le laboratoire de §YWeeny Pouchkinn§!, qui essaie de comprendre le voyage dans le temps."
 
     #########################################
@@ -5319,12 +5447,17 @@
     giga_orchid_capacity_increase_title: "Capacité en §YOrchidées d'Yggdrasil§! : §G+1§!"
     giga_orchid_capacity_increase_desc: "La capacité de notre Empire en §YOrchidées d'Yggdrasil§! est augmenté de §G+1§!"
 
+    giga_tech_repeatable_the_vat_cap: "Protocoles de gestion des cuves de clonage"
+    giga_tech_repeatable_the_vat_cap_desc: "Des protocoles de construction et de maintenance avancés pour permettre la construction et la gestion de §Ycuves de clonage§ ! supplémentaires à l'intérieur des frontières de notre empire."
+    giga_the_vat_capacity_increase_title: "Capacité en §YCuves de clonage§! : §G+1§!"
+    giga_the_vat_capacity_increase_desc: "La capacité de notre Empire en  §YCuves de clonage§! est augmenté de §G+1§!"
+
     #########################################
     ### Event Tech ##########################
     #########################################
     # Pouchkinn
     giga_tech_event_exotic_lab_data:0 "Données antiques de manipulation de l'espace-temps"
-    giga_tech_event_exotic_lab_data_desc:0 "Les données du laboratoire antique de Pouchkinn nous fournissent des informations incroyables sur la nature de l'espace-temps."
+    giga_tech_event_exotic_lab_data_desc:0 "Les données du laboratoire antique de Pouchequine nous fournissent des informations incroyables sur la nature de l'espace-temps."
 
     giga_tech_event_pouchkinn_lifespan:0 "Données antiques sur l'extension de durée de vie"
     giga_tech_event_pouchkinn_lifespan_desc:0 "L'analyse des bioimplants récupérés du corps du seul scientifique sera une grande aubaine pour notre recherche sur la longévité."
@@ -7320,6 +7453,115 @@
     yggdrasil_orchid_restored:0 "$name_yggdrasil$"
     yggdrasil_orchid_restored_DESC:0 "$yggdrasil_orchid_3_DESC$"
 
+
+    #########################################
+    ### The Vat #############################
+    #########################################
+    giga_tech_the_vat:0 "Installations de clonage gigantesques"
+    giga_tech_the_vat_desc:0 "L'avènement d'une nouvelle ère du génie génétique a ouvert la voie à des projets encore plus grands et plus ambitieux. Alors qu'elles étaient auparavant limitées aux planètes, d'énormes installations de clonage orbital nous permettraient de créer et de faire croître rapidement de véritables armadas de créatures de l'espace pour renforcer encore notre flotte."
+
+    giga_dialog.11301.name:0 "Construction Site $name_the_vat$ prêt"
+    giga_dialog.11301.desc:0 "The construction site for the $name_the_vat_long$ is now complete. This orbital plaetform serve as a staging ground to construct the structures necessary to begin building the largest vat ever concieved.\n\nOnce complete, it will be capable of rapidly producing large quantities of biological creatures to serve in our fleets using £food£ and £energy£"
+    giga_dialog.11301.a:0 "Bien."
+
+    giga_dialog.11302.name:0 "Cuve principale Built"
+    giga_dialog.11302.desc:0 "The Cuve principale of our orbital cloning facility has been constructed. It shall now serve as the largest cloning vat of its kind, capable of creating truly massive clones of various designs.\n\n§YDefeating a biological leviathan will enable us to clone it at any B.I.G. Vat's Cuve principale.§!"
+    giga_dialog.11302.a:0 "Excellent."
+
+    giga_dialog.11303.name:0 "1st & 2nd Auxilliary Vats Built"
+    giga_dialog.11303.desc:0 "Another important step in the construction of $name_the_vat_long$ is now finished. These auxilliary vats enable us to clone more specimens at a time, increasing the structure's efficiency."
+    giga_dialog.11303.a:0 "Bien."
+
+    giga_dialog.11304.name:0 "3rd & 4th Auxilliary Vats Built"
+    giga_dialog.11304.desc:0 "Yet another step in the construction of our $name_the_vat_long$ is complete. These additional vats will enable even further clones to be produced alongside each other."
+    giga_dialog.11304.a:0 "Amazing!"
+
+    giga_dialog.11305.name:0 "5th & 6th Auxilliary Vats Built"
+    giga_dialog.11305.desc:0 "$name_the_vat_long$ is complete. With 6 auxilliary vats and a gargantuan Cuve principale, we will be able to clone entire fleets of giant abomination using only £food£ and £energy£ in a very short amount of time, enabling us to dominate the battefield in ways never envisioned before."
+    giga_dialog.11305.a:0 "Let the cloning begin."
+
+    the_vat_0:0 "$name_the_vat$ Construction Site"
+    the_vat_0_DESC:0 "The construction site for a future vat, containing everything our engineers and biologists will need to turn this into a gigantic cloning facility."
+    the_vat_0_MEGASTRUCTURE_DETAILS:0 "The Biological Impetuous Growth Vat is a spaceborne cloning facility capable of producing large quantities of biological spaceships."
+
+    the_vat_1:0 "$name_the_vat$: Cuve principale"
+    the_vat_1_DESC:0 "This will be the largest cloning vat of its kind, capable of creating numerous massive clones."
+
+    the_vat_2:0 "$name_the_vat$: Cuves auxiliaires"
+    the_vat_2_DESC:0 "$the_vat_1_DESC$ With additional facilities to improve cloning speeds."
+
+    the_vat_3:0 "$name_the_vat$: Cuves auxiliaires"
+    the_vat_3_DESC:0 "$the_vat_1_DESC$ With additional facilities to further improve cloning speeds."
+
+    the_vat_4:0 "$name_the_vat$"
+    the_vat_4_DESC:0 "Il s'agit de la plus grande cuve de clonage de son genre, capable de créer de nombreux clones massifs. Avec 6 cuves auxiliaires et une Cuve principale gargantuesque, cette installation est entièrement prête à cloner des flottes entières d'abominations géantes."
+
+    the_vat_menu_title:0 "§ECuve de Clonage Biologie Impétueuse Génétique§!"
+    the_vat_menu_desc_01:0 "---------------------------------------------------------------"
+    the_vat_menu_desc_02:0 "La cuve est essentiellement un chantier naval biologique."
+    the_vat_menu_desc_03:0 "Chaque cuve ne peut produire qu'une seule chose à la fois.."
+    the_vat_menu_desc_04:0 "Que voulez-vous cloner ?"
+
+    the_vat_menu_01:0 "§HCuve principale§!"
+    the_vat_menu_02:0 "§HCuve auxiliaire #1§!"
+    the_vat_menu_03:0 "§HCuve auxiliaire #2§!"
+    the_vat_menu_04:0 "§HCuve auxiliaire #3§!"
+    the_vat_menu_05:0 "§HCuve auxiliaire #4§!"
+    the_vat_menu_06:0 "§HCuve auxiliaire #5§!"
+    the_vat_menu_07:0 "§HCuve auxiliaire #6§!"
+
+    giga_space_dragon:0 "Ether Drake"
+    giga_space_dragon_plural:0 "Ether Drakes"
+    giga_space_dragon_key:0 "Ether Drake"
+    giga_requires_leviathan_slain_dragon:0 "$TRIGGER_FAIL$Requires having killed an $giga_space_dragon$ previously."
+
+    giga_wraith:0 "Blue Wraith"
+    giga_wraith_plural:0 "Blue Wraiths"
+    giga_wraith_key:0 "Blue Wraith"
+    giga_requires_leviathan_slain_wraith:0 "$TRIGGER_FAIL$Requires having killed a $giga_wraith$ previously."
+
+    giga_elder_tiyanki:0 "Tiyanki Matriarch"
+    giga_elder_tiyanki_plural:0 "Tiyanki Matriarchs"
+    giga_elderly_tiyanki_key:0 "Tiyanki Matriarch"
+    giga_requires_leviathan_slain_tiyanki:0 "$TRIGGER_FAIL$Requires having killed a $giga_elder_tiyanki$ previously."
+
+    giga_stellarite:0 "Stellarite Devourer"
+    giga_stellarite_plural:0 "Stellarite Devourers"
+    giga_stellarite_key:0 "Stellarite Devourer"
+    giga_requires_leviathan_slain_stellarite:0 "$TRIGGER_FAIL$Requires having killed a $giga_stellarite$ previously."
+
+    giga_voidspawn:0 "Voidspawn"
+    giga_voidspawn_plural:0 "Voidspawns"
+    giga_voidspawn_key:0 "Voidspawn"
+    giga_requires_leviathan_slain_voidspawn:0 "$TRIGGER_FAIL$Requires having killed a $giga_voidspawn$ previously."
+
+    giga_queen:0 "Swarm Queen"
+    giga_queen_plural:0 "Swarm Queens"
+    giga_queen_key:0 "Swarm Queen"
+
+    giga_large_ship:0 "Swarm Warrior"
+    giga_large_ship_plural:0 "Swarm Warriors"
+    giga_warship_large_key:0 "Swarm Warrior"
+
+    giga_large_ship_carrier:0 "Swarm Brood Mother"
+    giga_large_ship_carrier_plural:0 "Swarm Brood Mothers"
+    giga_carrier_large_key:0 "Swarm Brood Mother"
+
+    giga_small_ship:0 "Swarmling"
+    giga_small_ship_plural:0 "Swarmlings"
+    giga_warship_small_key:0 "Swarmling"
+
+    giga_grow_01:0 "$giga_space_dragon$\n-----------------------------"
+    giga_grow_02:0 "$giga_wraith$\n-----------------------------"
+    giga_grow_03:0 "$giga_elder_tiyanki$\n-----------------------------"
+    giga_grow_04:0 "$giga_stellarite$\n-----------------------------"
+    giga_grow_05:0 "$giga_voidspawn$\n-----------------------------"
+    giga_grow_06:0 "$giga_queen$\n-----------------------------"
+    giga_grow_07:0 "$giga_large_ship$\n-----------------------------"
+    giga_grow_08:0 "$giga_large_ship_carrier$\n-----------------------------"
+    giga_grow_09:0 "$giga_small_ship$\n-----------------------------"
+
+
     #########################################
     ### Matrioshka Brain ####################
     #########################################
@@ -8810,7 +9052,7 @@
     giga_pouchkinn.108.a:0 "À l'écran."
 
     giga_pouchkinn.109.name:0 "Le scientifique solitaire"
-    giga_pouchkinn.109.desc:0 "Ah. Salutations. Ça l'est, Igor Pouchkinn. Oui, Igor. Nom étrange, je sais.\n\nCela fait des décennies... non, des siècles depuis que j'ai vu une autre forme de vie intelligente là-bas. Ça devient vite solitaire, tu sais ? Et non, ces étranges choses à fourrure que vous avez probablement vues en venant ici ne comptent pas. Ce sont des drones stupides que j'ai bio-conçus pour faire des choses que je ne voulais pas faire moi-même. Malheureusement, ils n'ont pas beaucoup de conversation.\n\nDepuis quelques siècles, je travaille ici, à faire des expériences, à créer des technologies sophistiquées. Mais je crois que ma recherche touche enfin à sa fin. Vous voyez, j'ai essayé de trouver un moyen de voyager à travers le continuum de l'espace-temps dans les deux sens... En d'autres termes, le voyage dans le temps. Ouais."
+    giga_pouchkinn.109.desc:0 "Ah. Salutations. Ça l'est, Igor Pouchequine. Oui, Igor. Nom étrange, je sais.\n\nCela fait des décennies... non, des siècles depuis que j'ai vu une autre forme de vie intelligente là-bas. Ça devient vite solitaire, tu sais ? Et non, ces étranges choses à fourrure que vous avez probablement vues en venant ici ne comptent pas. Ce sont des drones stupides que j'ai bio-conçus pour faire des choses que je ne voulais pas faire moi-même. Malheureusement, ils n'ont pas beaucoup de conversation.\n\nDepuis quelques siècles, je travaille ici, à faire des expériences, à créer des technologies sophistiquées. Mais je crois que ma recherche touche enfin à sa fin. Vous voyez, j'ai essayé de trouver un moyen de voyager à travers le continuum de l'espace-temps dans les deux sens... En d'autres termes, le voyage dans le temps. Ouais."
     giga_pouchkinn.109.a:0 "Voyage dans le temps ?"
     giga_pouchkinn.109.a.response:0 "Oui, voyage dans le temps. Je suis à peu près certain que je suis vraiment sur le point de le comprendre. Ou suis-je ? Je... je ne sais même plus. Ça fait tellement longtemps. C'est juste un flux infini d'équations et d'expériences et plus d'équations et de théories... J'ai généré des trous de ver miniatures, percé des trous à travers l'espace-temps, et joué avec des tachyons, et pourtant cela m'échappe toujours."
     giga_pouchkinn.109.b:0 "Avez-vous construit ce $name_orb_elysium$?"
@@ -8828,29 +9070,29 @@
     giga_pouchkinn.110.c:0 "Ses recherches sont trop dangereuses. Exécutez-le et pillez l'endroit."
 
     giga_pouchkinn.111.name:0 "Un ancien scientifique"
-    giga_pouchkinn.111.desc:0 "Pouchkinn était apparemment excité à l'idée de faire enfin autre chose après des siècles de recherche. Il a attrapé un disque de données contenant la plupart de ses recherches, emballé ses fournitures et a été escorté à l'extérieur de son laboratoire par notre scientifique. Quelques petites créatures à fourrure le suivirent.\n\nLa chaleur du soleil après tant d'années d'isolement le ravit, et après quelques examens médicaux pour s'assurer qu'il ne portait aucun pathogène étranger, il est maintenantprêt à rejoindre notre empire en tant que scientifique."
+    giga_pouchkinn.111.desc:0 "Pouchequine était apparemment excité à l'idée de faire enfin autre chose après des siècles de recherche. Il a attrapé un disque de données contenant la plupart de ses recherches, emballé ses fournitures et a été escorté à l'extérieur de son laboratoire par notre scientifique. Quelques petites créatures à fourrure le suivirent.\n\nLa chaleur du soleil après tant d'années d'isolement le ravit, et après quelques examens médicaux pour s'assurer qu'il ne portait aucun pathogène étranger, il est maintenantprêt à rejoindre notre empire en tant que scientifique."
     giga_pouchkinn.111.a:0 "Excellent."
     giga_pouchkinn.111.a.tooltip:0 "Nous gagnons un scientifique de niveau 6."
 
-    giga_pouchkinn.112.name:0 "Recherche de Pouchkinn"
-    giga_pouchkinn.112.desc:0 "Nos scientifiques ont fait leurs adieux à Pouchkinn et lui ont souhaité bonne chance dans sa quête de voyage dans le temps. Avant leur départ, Pouchkinn a insisté pour leur donner un disque de données contenant certaines de ses recherches.\n\nPouchkinn a également dit aux scientifiques qu'ils étaient libres d'utiliser les parties supérieures du laboratoire à leur guise, ce qui sera sûrement très utileà nos chercheurs."
+    giga_pouchkinn.112.name:0 "Recherche de Pouchequine"
+    giga_pouchkinn.112.desc:0 "Nos scientifiques ont fait leurs adieux à Pouchequine et lui ont souhaité bonne chance dans sa quête de voyage dans le temps. Avant leur départ, Pouchequine a insisté pour leur donner un disque de données contenant certaines de ses recherches.\n\nPouchkinn a également dit aux scientifiques qu'ils étaient libres d'utiliser les parties supérieures du laboratoire à leur guise, ce qui sera sûrement très utileà nos chercheurs."
     giga_pouchkinn.112.a:0 "Très bien."
     giga_pouchkinn.112.a.tooltip:0 "Un modificateur positif est créé sur le $name_orb_elysium$."
 
     giga_pouchkinn.113.name:0 "On ne plaisante pas avec le temps"
-    giga_pouchkinn.113.desc:0 "Nouvelles dramatiques de notre $name_orb_elysium$. Il semble que Igor Pouchkinn a poursuivi ses expériences de voyage dans le temps et a accidentellement ouvert un énorme trou dans l'espace-temps.\nTout ce qui l'entoure, y compris Pouchkinn lui-même, a été instantanément absorbé dans la singularité, créant un nouveau typede Trou noir exotique constitué d'énergie de vide métastable bouillante. La colonie est irrémédiablement perdue à jamais."
+    giga_pouchkinn.113.desc:0 "Nouvelles dramatiques de notre $name_orb_elysium$. Il semble que Igor Pouchequine a poursuivi ses expériences de voyage dans le temps et a accidentellement ouvert un énorme trou dans l'espace-temps.\nTout ce qui l'entoure, y compris Pouchequine lui-même, a été instantanément absorbé dans la singularité, créant un nouveau typede Trou noir exotique constitué d'énergie de vide métastable bouillante. La colonie est irrémédiablement perdue à jamais."
     giga_pouchkinn.113.a:0 "Une horrible tragédie causée par un individu insensé."
 
     giga_pouchkinn.114.name:0 "C'est un piège !"
-    giga_pouchkinn.114.desc:0 "Horrible nouvelle ! Alors que le scientifique principal de l'expédition sortait une arme pour assassiner Igor Pouchkinn, une sorte de dispositif d'autodestruction a été activé dans la combinaison de Pouchkinn, provoquant une détonation massive. Cela a déclenché une réaction en chaîne, qui a déclenché des ogives dissimulées dans La Structure $name_orb_elysium$, anéantissant notre colonie et ruinant la construction. Il n'y avait aucun survivant."
+    giga_pouchkinn.114.desc:0 "Horrible nouvelle ! Alors que le scientifique principal de l'expédition sortait une arme pour assassiner Igor Pouchequine, une sorte de dispositif d'autodestruction a été activé dans la combinaison de Pouchequine, provoquant une détonation massive. Cela a déclenché une réaction en chaîne, qui a déclenché des ogives dissimulées dans La Structure $name_orb_elysium$, anéantissant notre colonie et ruinant la construction. Il n'y avait aucun survivant."
     giga_pouchkinn.114.a:0 "Les courses !"
 
     giga_pouchkinn.115.name:0 "Labo Raided"
-    giga_pouchkinn.115.desc:0 "Peu de temps après avoir parlé avec Pouchkinn, le scientifique principal de l'expédition a sorti une arme à feu et lui a tiré une balle dans la poitrine, le tuant sur le coup. Notre équipe a ensuite fouillé le laboratoire, rassemblant tout ce qu'elle pouvait.\nUne autopsie a été réalisée sur le corps de Pouchkinn, révélant des implants cybernétiques et biologiques incroyablement avancés qui bénéficieront sûrement à nos recherches.\nLe laboratoire a ensuite été bouclé."
+    giga_pouchkinn.115.desc:0 "Peu de temps après avoir parlé avec Pouchequine, le scientifique principal de l'expédition a sorti une arme à feu et lui a tiré une balle dans la poitrine, le tuant sur le coup. Notre équipe a ensuite fouillé le laboratoire, rassemblant tout ce qu'elle pouvait.\nUne autopsie a été réalisée sur le corps de Pouchequine, révélant des implants cybernétiques et biologiques incroyablement avancés qui bénéficieront sûrement à nos recherches.\nLe laboratoire a ensuite été bouclé."
     giga_pouchkinn.115.a:0 "Son sacrifice contribuera à la science."
 
     giga_pouchkinn.116.name:0 "En fuite"
-    giga_pouchkinn.116.desc:0 "Nos scientifiques n'ont pas pu tuer Pouchkinn, car il a activé une sorte d'appareil de téléportation, l'envoyant dans une capsule de sauvetage qui s'est ensuite enfuie dans l'hyperespace, pour ne plus jamais être revu.\n\nNous avons cependant pu investir le laboratoire lui-même, rassemblant des quantités incroyables de données issues des recherches de Pouchkinn. Le laboratoire a ensuite été bouclé."
+    giga_pouchkinn.116.desc:0 "Nos scientifiques n'ont pas pu tuer Pouchequine, car il a activé une sorte d'appareil de téléportation, l'envoyant dans une capsule de sauvetage qui s'est ensuite enfuie dans l'hyperespace, pour ne plus jamais être revu.\n\nNous avons cependant pu investir le laboratoire lui-même, rassemblant des quantités incroyables de données issues des recherches de Pouchequine. Le laboratoire a ensuite été bouclé."
     giga_pouchkinn.116.a:0 "Nous nous rencontrerons à nouveau."
 
     #########################################
@@ -13366,6 +13608,25 @@
 # Debug #########################
 #################################
 
+    pc_giga_asteroid_artillery:0 "debug"
+    pc_giga_asteroid_artillery_desc:0 "debug"
+    giga_asteroid_artillery_hp:0 "debug"
+    giga_asteroid_artillery_dmg:0 "debug"
+    giga_asteroid_artillery_speed:0 "debug"
+    giga_asteroid_artillery_tracking:0 "debug"
+    giga_asteroid_artillery_range:0 "debug"
+    giga_asteroid_artillery_pen:0 "debug"
+    giga_asteroid_artillery_dmg_upgrade:0 "debug"
+    giga_asteroid_artillery_health_upgrade:0 "debug"
+    giga_asteroid_artillery_planetcraft_upgrade:0 "debug"
+    giga_asteroid_artillery_ai_upkeep_negates:0 "debug"
+    trait_kaiser_cattail:0 "debug"
+    trait_kaiser_cattail_desc:0 "debug"
+    asteroid_artillery_ruined_MEGASTRUCTURE_DETAILS:0 "debug"
+    dyson_sphere_0_o_star_MEGASTRUCTURE_DETAILS:0 "debug"
+    moon_printer_orbital_mass_harvester_0_MEGASTRUCTURE_DETAILS:0 "debug"
+    matrioshka_brain_0_o_star_MEGASTRUCTURE_DETAILS:0 "debug"
+    psychic_hypersiphon_3_aeternum_MEGASTRUCTURE_DETAILS:0 "debug"
     pc_alderson_slice_gaia_adj:0 "debug"
     pc_alderson_slice_pc_adj:0 "debug"
     pc_alderson_slice_ecu_adj:0 "debug"
