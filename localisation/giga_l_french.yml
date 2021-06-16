@@ -246,7 +246,7 @@
     allow_particle_accel:0 "§HDéverrouille la mégastructure : §! $name_particle_accel$"
     desc_particle_accel:0 "Un très gros accélérateur de particules construit autour d'une étoile, capable d'accélérer les particules à des vitesses très proches de celle de la lumière."
 
-    name_starlifter:0 "Voleur d'Etoile"
+    name_starlifter:0 "Voleur d'Étoile"
     allow_starlifter:0 "§HDéverrouille la mégastructure : §! $name_starlifter$"
     desc_starlifter:0 "Une construction entourant une étoile, exploitant directement son essence même et la convertissant en minéraux."
 
@@ -357,9 +357,9 @@
     requires_found_giga_black_hole_quasar:0 "$TRIGGER_FAIL$Nécessite la découverte du  §YCoeur Galactique§! parfait, un §BQuasar Actif Supermassif§!."
     requires_ndb:0 "$TRIGGER_FAIL$Requiert la technologie £physics£§Y$giga_tech_ndb_4$§!."
     requires_ndb_mega:0 "$TRIGGER_FAIL$We doit d'abord construire la mégastructure : $name_ndb$."
-    requires_moon_2:0 "$TRIGGER_FAIL$La mise à niveau du vaisseau-système stellaire nécessite la présence de 2 Lunes de combat dans le système."
+    requires_moon_2:0 "$TRIGGER_FAIL$L'amélioration du vaisseau-système stellaire nécessite la présence de 2 Lunes de combat dans le système."
     requires_planetcraft:0 "$TRIGGER_FAIL$Requiert la technologie £engineering£§Y$giga_tech_war_planet$§!."
-    requires_behemoth_planetcraft_1_moon_2:0 "$TRIGGER_FAIL$La mise à niveau de vaisseau-système stellaire nécessite que 1 $name_war_planet$ et 2 Lunes de combat soient présents dans le système."
+    requires_behemoth_planetcraft_1_moon_2:0 "$TRIGGER_FAIL$L'amélioration de vaisseau-système stellaire nécessite que 1 $name_war_planet$ et 2 Lunes de combat soient présents dans le système."
     requires_behemoth_planetcraft_2:0 "$TRIGGER_FAIL$TL'amélioration du vaisseau-système stellaire nécessite la présence de 2 $name_war_planet$s dans le système."
     requires_behemoth_planetcraft_1_moon_1:0 "$TRIGGER_FAIL$L'amélioration du vaisseau-système stellaire nécessite  que 1 $name_war_planet$ et 1 $name_war_moon$ soient présents dans le système."
     requires_systemcraft_crew:0 "$TRIGGER_FAIL$doit acquérir 40 pops via une décision, pour servir d'équipage."
@@ -458,7 +458,7 @@
     already_have_ass_uplink:0 "$TRIGGER_FAIL$Il y a déjà une liaison montante de la cour d'assemblage hyperstructurale ici."
 
     ehof_megastructure_activate_owner:0 "$TRIGGER_FAIL$Ne peut pas activer le $ehof_ehof$ s'il n'y a pas de flotte détenue dans le système."
-    ehof_megastructure_activate_noupgrade:0 "$TRIGGER_FAIL$Ne peut pas activer le $ehof_ehof$ si un vaisseau est en cours de mise à niveau dans ce système."
+    ehof_megastructure_activate_noupgrade:0 "$TRIGGER_FAIL$Ne peut pas activer le $ehof_ehof$ si un vaisseau est en cours d'amélioration dans ce système."
     BYPASS_DESC_INACTIVE_CREATORGATE:0 "Nécessite son activation en améliorant la $ehof_gateway_disabled$."
     count_owned_megastructure_trigger:0 "Nombre de mégastructures possédées $CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
     count_system_megastructure_trigger:0 "Nombre de systèmes avec mégastructures  $CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
@@ -1661,11 +1661,11 @@
     ### Star ###
     ############
     # Anomaly
-    code_6_cat:0 "Code de réalité - Etoile"
+    code_6_cat:0 "Code de réalité - Étoile"
     code_06_category_desc:0 "Une autre transmission du $ehof_epcs$ a été reçue par §H[this.GetName]§!, à l'intérieur du système de §H[root.solar_system.GetName]§!. La fonctionnalité des vaisseaux a été restaurée et l'emplacement de la source a été déterminé. L'étoile §H[from.from.GetName]§!\n\n. L'emplacement exact à l'intérieur de cette étoile doit être déterminé par une enquête."
 
     # Anomaly Success (Creates Digsite)
-    ehof_reality_code.601.name:0 "Code de réalité - Etoile"
+    ehof_reality_code.601.name:0 "Code de réalité - Étoile"
     ehof_reality_code.601.desc:0 "L'emplacement de l'objet amplificateur sur §H[from.from.GetName]§! a été déterminé.\n\nAtteindre cet objet amplificateur sera une tâche extrêmement difficile, car il est situé à l'intérieur de l'étoile, 74650,7 kilomètres sous sa surface. Des densités incroyables et des températures extrêmes rendront ce projet extrêmement difficile. L'équipement nécessaire doit d'abord être fabriqué.\n\nLes coûts et l'investissement en temps de ce projet ne sont pas prévisibles, mais terminer l'énigmatique séquence de code maître et atteindre l'origine du $ehof_epcs$, pourrait valoir n'importe quel coût."
 
     # Initial
@@ -3862,8 +3862,8 @@
     #########################################
     ### Interstellar Ringworld districts ####
     #########################################
-    district_interstellar_city:0 "Segment d'Habitation"
-    district_interstellar_city_plural:0 "Segments d'Habitation"
+    district_interstellar_city:0 "Segment d'habitation"
+    district_interstellar_city_plural:0 "Segments d'habitation"
     district_interstellar_city_desc:0 "Un segment dédié à l'hébergement de notre population sur cet anneau-monde."
 
     district_interstellar_nexus:0 "$district_interstellar_city$"
@@ -3924,8 +3924,8 @@
     #########################################
     ### Alderson districts ##################
     #########################################
-    district_giga_alderson_city:0 "Hypersegment d'Habitation"
-    district_giga_alderson_city_plural:0 "Hypersegments d'Habitation"
+    district_giga_alderson_city:0 "Hypersegment d'habitation"
+    district_giga_alderson_city_plural:0 "Hypersegments d'habitation"
     district_giga_alderson_city_desc:0 "De vastes étendues ahurissantes de logements urbains construits ici, s'étendant sur des milliers et des milliers de kilomètres dans toutes les directions."
 
     district_giga_alderson_nexus:0 "Hypersegment Nexus"
@@ -6091,14 +6091,14 @@
     ehof_header_04:0 "§EDestinations Inexplorée§!"
     ehof_header_05:0 "§EDestinations Explorées§!"
 
-    ehof_category_00:0 "§EEtoiles aléatoires§!"
-    ehof_category_01:0 "§HEtoiles Cohésives§!"
-    ehof_category_02:0 "§EEtoiles naines§!"
-    ehof_category_03:0 "§EEtoiles§!"
-    ehof_category_04:0 "§EEtoiles géantes§!"
+    ehof_category_00:0 "§EÉtoiles aléatoires§!"
+    ehof_category_01:0 "§HÉtoiles Cohésives§!"
+    ehof_category_02:0 "§EÉtoiles naines§!"
+    ehof_category_03:0 "§EÉtoiles§!"
+    ehof_category_04:0 "§EÉtoiles géantes§!"
     ehof_category_05:0 "§EVestiges Stellaires§!"
-    ehof_category_06:0 "§EEtoiles binaires§!"
-    ehof_category_07:0 "§EEtoiles trinaires§!"
+    ehof_category_06:0 "§EÉtoiles binaires§!"
+    ehof_category_07:0 "§EÉtoiles trinaires§!"
     ehof_create_cohesive:0 "§MTrouver un nouveau système cohésif§!"
     ehof_sm_quasar:0 "§MQuasar Supermassif§!"
     ehof_sm_blackhole:0 "§MTrou noir supermassif§!"
@@ -7091,7 +7091,7 @@
     giga_dialog.1803.desc:0 "Notre vaisseau scientifique a fait une incroyable découverte ! Au milieu du système §H[From.GetName]§! se trouve un énorme $name_particle_accel$, qui pourrait théoriquement accélérer les particules incroyablement près de la vitesse de la lumière.\n\nMalheureusement, il semble avoir subi des dégâts incroyables et est actuellement dans un étatde mauvais état. Cependant, nos scientifiques sont convaincus qu'il pourrait être remis en état de marche, avec les bonnes technologies."
     giga_dialog.1803.a:0 "Merveilleux."
 
-    giga_dialog.1804.name:0 "$name_particle_accel$ Réparé !"
+    giga_dialog.1804.name:0 "$name_particle_accel$ réparé !"
     giga_dialog.1804.desc:0 "Bonne nouvelle ! Nos ingénieurs ont réussi à remettre le $name_particle_accel$ en état de fonctionnement ! Il est désormais opérationnel et produit un flux constant de recherche en physique, ainsi que de nombreuses particules exotiques."
     giga_dialog.1804.a:0 "Incroyable."
 
@@ -7130,7 +7130,7 @@
     giga_dialog.1003.desc:0 "Un $name_orbital_artificial_eco$ en ruine a été repéré en orbite autour d'une géante gazeuze dans le système §H[From.GetName]§!. Il semble avoir subi de gros dégâts, mais la structure extérieure est encore quelque peu intact. Nos scientifiques pensent qu'il serait possible de le réparer si nous possédons les technologies appropriées."
     giga_dialog.1003.a:0 "Intéressant."
 
-    giga_dialog.1004.name:0 "$name_orbital_artificial_eco$ Réparé !"
+    giga_dialog.1004.name:0 "$name_orbital_artificial_eco$ réparé !"
     giga_dialog.1004.desc:0 "Un $name_orbital_artificial_eco$ en ruine a été remis en état de marche par nos ingénieurs et biologistes.\n\nRempli de nombreuses formes de vie étranges, dont certaines ont été clonées à partir de traces de matière biologique retrouvées dans les débris, cette nouvellement restauréela station spatiale aidera certainement un peu notre société à faire des recherches."
     giga_dialog.1004.a:0 "Excellent."
 
@@ -7169,7 +7169,7 @@
     giga_dialog.403.desc:0 "Notre vaisseau scientifique a repéré une assez grande station spatiale en orbite autour d'une planète dans le système §H[From.GetName]§!. Après une enquête plus approfondie, il semble que cette station spatiale est en fait un $name_eng_test_site$, en ruines, construit il y a longtemps par des espèces inconnues. Cette station spatiale a probablement servi de terrain d'essai pour de nombreuses expériences dans le passé, mais elle est depuis malheureusement tombée en ruines."
     giga_dialog.403.a:0 "Intrigant."
 
-    giga_dialog.404.name:0 "$name_eng_test_site$ Réparé !"
+    giga_dialog.404.name:0 "$name_eng_test_site$ réparé !"
     giga_dialog.404.desc:0 "Un $name_eng_test_site$ précédemment en ruines a été entièrement réparé par nos équipes de construction.\n\nIl est maintenant complètement opérationnel et nous pouvons commencer à l'utiliser à des fins scientifiques."
     giga_dialog.404.a:0 "Merveilleux."
 
@@ -7181,7 +7181,7 @@
     macro_test_site_1_DESC:0 "Cette station, équipée de nombreux laboratoires scientifiques, ainsi que d'installations de construction, nous permet de réaliser une variété d'essais liés à nos recherches d'ingénierie sur la planète ci-dessous."
 
     macro_test_site_ruined:0 "$name_eng_test_site$ en ruines"
-    macro_test_site_ruined_DESC:0 "Un $name_eng_test_site$, en ruine construit il y a des siècles par une course spatiale. Alors que l'intérieur est complètement détruit, la coque externe est pour la plupart intacte et pourrait être réparée."
+    macro_test_site_ruined_DESC:0 "Une $name_eng_test_site$, en ruine construite il y a des siècles par une race ayant parcouru l'espace. Alors que l'intérieur est complètement détruit, la coque externe est pour la plupart intacte et pourrait être réparée."
     macro_test_site_ruined_MEGASTRUCTURE_DETAILS:0 "$macro_test_site_ruined_DESC$"
 
     macro_test_site_restored:0 "$name_eng_test_site$"
@@ -7208,7 +7208,7 @@
     giga_dialog.703.desc:0 "Le grand anneau de traitement autour de notre $name_neut_gigaforge$ est maintenant terminé. Ils contiennent de grands centres de traitement spécialisés qui, tout en aidant à extraire la matière dangereuse et extrêmement dense connue sous le nom de neutronium de pratiquement toutes les étoiles à neutrons. Cependant, le foret central du moyeu doit encore être construit pour que l'extraction du neutronium puisse réellement commencer."
     giga_dialog.703.a:0 "Excellent."
 
-    giga_dialog.704.name:0 "$name_neut_gigaforge$ Terminé"
+    giga_dialog.704.name:0 "$name_neut_gigaforge$ terminé"
     giga_dialog.704.desc:0 "Notre $name_neut_gigaforge$ construit au-dessus de §H[giga_system.GetName]§! vient d'être terminé ! Il est maintenant pleinement opérationnel et extrait de grandes quantités de neutronium de l'étoile extrêmement dense en dessous. Grâce aux installations spécialisées de l'anneau de traitement, le neutronium peut facilement être appliqué sur nos vaisseaux, augmentant considérablement leur blindage. De nombreux laboratoires génèrent également un flux constant de recherches en étudiant la nature exotique des étoiles à neutrons. Le neutronium est également raffiné en de grandes quantités d'alliages."
     giga_dialog.704.a:0 "Merveilleux."
 
@@ -7216,7 +7216,7 @@
     giga_dialog.705.desc:0 "Un $name_neut_gigaforge$ en ruine a été repéré dans le système §H[From.GetName]§!. Il semble avoir subi de gros dégâts, mais La Structure extérieur est encore quelque peu intact. Nos scientifiques pensent qu'il serait possible de le réparer si nous possédons les technologies appropriées."
     giga_dialog.705.a:0 "Intéressant."
 
-    giga_dialog.706.name:0 "$name_neut_gigaforge$ Réparé !"
+    giga_dialog.706.name:0 "$name_neut_gigaforge$ réparé !"
     giga_dialog.706.desc:0 "Un $name_neut_gigaforge$ en ruine a été très soigneusement réparé ! Le foret à neutronium et les anneaux de traitement ont été remis en fonction et extraient maintenant de grandes quantités de neutronium que nous pouvons utiliser. Cela profitera sans aucun doute grandement à nos militaires."
     giga_dialog.706.a:0 "Merveilleux."
 
@@ -7301,7 +7301,7 @@
     giga_dialog.2001.desc:0 "Le chantier de construction d'un $name_yggdrasil$ est maintenant terminé. Il servira de terrain de rassemblement pour construire les structures nécessaires pour ensemencer la haute atmosphère d'un géant gazeux avec de grandes quantités de formes de vie bio-conçues, capables de nourrir de grandes quantités de personnes."
     giga_dialog.2001.a:0 "Bien."
 
-    giga_dialog.2002.name:0 "Laboratoires du $name_yggdrasil$construits"
+    giga_dialog.2002.name:0 "Laboratoires du $name_yggdrasil$ construits"
     giga_dialog.2002.desc:0 "Les vastes laboratoires du $name_yggdrasil$ ont été construits. Ils serviront à concevoir la matière végétale spécialement adaptée qui sera générée dans la haute atmosphère d'une géante gazeuse, et ils fourniront également l'occasion d'étudier les géantes gazeuses dans leur ensemble."
     giga_dialog.2002.a:0 "Excellent."
 
@@ -7317,7 +7317,7 @@
     giga_dialog.2005.desc:0 "Un $name_yggdrasil$. en ruine Il abritait de vastes laboratoires et des manipulateurs météorologiques, qui soutenaient une grande feuille de matière organique dans la haute atmosphère de la Géante gazeuse, qui pouvait nourrir des planètes entières. Malheureusement, il est entré dans un état de délabrement désastreux et la feuille de matière organique a disparu depuis longtemps, détruite par les vents impitoyables du Géante gazeuse dès que les manipulateurs météorologiques se sont déconnectés."
     giga_dialog.2005.a:0 "Intéressant."
 
-    giga_dialog.2006.name:0 "$name_yggdrasil$ Réparé !"
+    giga_dialog.2006.name:0 "$name_yggdrasil$ réparé !"
     giga_dialog.2006.desc:0 "Dans une incroyable prouesse technologique, nous avons réussi à remettre un $name_yggdrasil$ en état de marche ! Les manipulateurs météorologiques ont été remis en ligne et la haute atmosphère de la Géante gazeuse a de nouveau été générée d'une vaste nappe de matières organiques, capables de nourrir de grandes quantités de personnes."
     giga_dialog.2006.a:0 "Merveilleux."
 
@@ -7479,13 +7479,13 @@
     giga_dialog.505.desc:0 "Les calculatrices quantiques sont opérationnelles. Ces deux anneaux gigantesques utilisent l'énergie thermique générée par le processeur central et travaillent activement à trouver les réponses aux questions les plus compliquées dans tous les domaines scientifiques. La dernière étape de la construction du $name_matrioshka_brain$ consistera à créer l'archive croisée, qui sera un immense réseau d'ordinateurs reliant chaque ordinateur du $name_matrioshka_brain$ de manière organisée, ce qui décuplera son efficacité."
     giga_dialog.505.a:0 "Nous sommes sur le point de percer les secrets de l'univers."
 
-    giga_dialog.506.name:0 "$name_matrioshka_brain$ Terminé"
+    giga_dialog.506.name:0 "$name_matrioshka_brain$ terminé"
     giga_dialog.506.desc:0 "Aujourd'hui est un jour glorieux pour notre espèce. Nos ingénieurs et ouvriers les plus qualifiés ont assemblé une merveille technologique que seuls les plus grands empires pourraient rêver de construire. Ce $name_matrioshka_brain$, équipé de certains des ordinateurs les plus puissants jamais conçus dans cette galaxie nous aidera à découvrir les derniers mystères de l'univers.\n\nL'incroyable puissance de cet ordinateur optimisera également certaines parties de notre économie, telles quele rythme de construction de nos vaisseaux ainsi que notre capacité navale."
     giga_dialog.506.a:0 "Puissions-nous percer les secrets de l'univers."
 
     giga_dialog.507.name:0 "Prêt pour le simulateur de réalité Matrioshka"
     giga_dialog.507.desc:0 "C'est fait. Au prix d'une certaine efficacité, notre Matrioshka Brain a été équipé de milliards et de milliards de cosses de stase, capables de contenir une énorme quantité d'êtres. Ces êtres pourront vivre dans un monde complètement virtuel, libre des contraintes de la réalité.\n\nGardez à l'esprit que la population croît extrêmement lentement à l'intérieur d'un monde virtuel et que tous les pops devront être déplacés d'une autre planète."
-    giga_dialog.507.a:0 "Glorious"
+    giga_dialog.507.a:0 "Glorieux"
 
     giga_dialog.508.name:0 "Section du simulateur de réalité Matrioshka terminée"
     giga_dialog.508.desc:0 "Une section de notre simulateur de réalité virtuelle a été terminée, nous rapprochant d'une civilisation virtuelle entièrement fonctionnelle.\n\nGardez à l'esprit que la population croît extrêmement lentement dans un monde virtuel et que tous les pops devront être déplacés d'une autre planète. Nous pouvons spécialiser le monde virtuel en utilisant l'onglet décisions."
@@ -7549,7 +7549,7 @@
     giga_dialog.3405.desc:0 "Le $name_fusion_suppressor$ a encore une fois compressé §H[giga_system.GetName]§! en un volume encore plus petit. Des phénomènes intéressants sont apparus au sein de l'étoile, produisant de grands retours scientifiques, et l'étoile commence à se comporter d'une manière défiant la physique. Une compression supplémentaire conduira à plus de résultats."
     giga_dialog.3405.a:0 "Bien."
 
-    giga_dialog.3406.name:0 "Compression stellaire - Etoile à Neutrons"
+    giga_dialog.3406.name:0 "Compression stellaire - Étoile à Neutrons"
     giga_dialog.3406.desc:0 "Le $name_fusion_suppressor$ a maintenant comprimé §H[giga_system.GetName]§! à un point tel que les protons et les électrons dans le noyau de l'étoile ont fusionné et sont devenus des neutrons, transformant le noyau en une étoile à neutrons, entourée d'une couche de plasma stellaire exotique.\n\nNous pouvons maintenant garder l'étoile telle qu'elle est, ce qui donne lieu à des recherches en physique et en ingénierie. Alternativement, nous pouvons compresser davantage l'étoile, la transformant en un trou noir artificiel, ce qui permet des recherches en physique. Enfin, le $name_fusion_suppressor$ peut libérer toute compression gravitationnelle et exercer une force répulsive, faisant exploser l'étoile dans le noyau de l'étoile en supernova, détruisant le $name_fusion_suppressor$ et déposant une nouvelle ressource stratégique à la surface de ce solaireplanètes du système, qui peuvent être utilisées pour créer des bâtiments puissants."
     giga_dialog.3406.a:0 "Excellent."
 
@@ -7580,19 +7580,19 @@
     fusion_suppressor_2:0 "Stabilisateurs stellaires du $name_fusion_suppressor$"
     fusion_suppressor_2_DESC:0 "Le $name_fusion_suppressor$ est maintenant capable de stabiliser l'étoile autour de lui, laissant ainsi les modulateurs de gravité compresser l'objet stellaire sans qu'il n'explose soudainement d'être déstabilisé."
 
-    fusion_suppressor_3:0 "$name_fusion_suppressor$ - Étape de compression I"
+    fusion_suppressor_3:0 "$name_fusion_suppressor$ - étape de compression I"
     fusion_suppressor_3_DESC:0 "Le $name_fusion_suppressor$ a commencé à compresser la matière de l'étoile, ouvrant des opportunités de recherche sur la nature des réactions nucléaires stellaires. Une compression plus poussée donnera lieu à plus de recherche."
 
-    fusion_suppressor_4:0 "$name_fusion_suppressor$ - Étape de compression II"
+    fusion_suppressor_4:0 "$name_fusion_suppressor$ - étape de compression II"
     fusion_suppressor_4_DESC:0 "L'étoile a de nouveau été compressée et ses composants de base commencent à montrer des comportements étranges ayant un potentiel scientifique élevé. Des réactions de fusion plus exotiques commencent à se produire, tandis que la structure même de l'étoile elle-même semble se dégrader."
 
-    fusion_suppressor_5:0 "$name_fusion_suppressor$ - Stade Etoile à Neutrons"
+    fusion_suppressor_5:0 "$name_fusion_suppressor$ - Stade Étoile à Neutrons"
     fusion_suppressor_5_DESC:0 "Le $name_fusion_suppressor$ a tellement réussi à comprimer l'étoile que les protons et les électrons ont fusionné pour devenir des neutrons dans le noyau de l'étoile, transformant ledit noyau en une étoile à neutrons. Il s'agit en fait d'une étoile à neutrons entourée d'un plasma stellaire régulier."
 
     fusion_suppressor_6:0 "$name_fusion_suppressor$"
     fusion_suppressor_6_DESC:0 "La matière de l'étoile s'est maintenant effondrée à un point tel que même la lumière ne peut pas échapper à l'attraction gravitationnelle du corps, la transformant efficacement en un trou noir artificiel, possédant un potentiel de recherche incroyable."
 
-    fusion_suppressor_7:0 "Démanterle le $name_fusion_suppressor$"
+    fusion_suppressor_7:0 "Démanteler le $name_fusion_suppressor$"
     fusion_suppressor_7_DESC:0 "Démanteler le $name_fusion_suppressor$, pour que son trou noir soit utilisable."
 
     #########################################
@@ -7607,7 +7607,7 @@
     giga_tech_ndb_3:0 "Génération de trous de ver interstellaires artificiels"
     giga_tech_ndb_3_desc:0 "La capacité de générer des trous de ver sur de grandes distances pourrait grandement améliorer notre capacité à transmettre de grandes quantités d'énergie à travers les étoiles."
 
-    giga_tech_ndb_4:0 "Redirection d'énergie offensive Gigascale"
+    giga_tech_ndb_4:0 "Redirection d'énergie offensive échelle Giga"
     giga_tech_ndb_4_desc:0 "En utilisant des technologies incroyablement avancées, il devient possible de concentrer complètement la sortie d'une étoile entière dans un faisceau de destruction pure."
 
     giga_dialog.3201.name:0 "Chantier de construction du $name_ndb$ terminé"
@@ -7627,7 +7627,7 @@
     giga_dialog.3204.a:0 "Nous sommes proches du but."
 
     giga_dialog.3205.name:0 "$name_ndb$ terminé !"
-    giga_dialog.3205.desc:0 "Aujourd'hui est un grand jour pour notre espèce et notre empire. Notre $name_ndb$ est terminé. Cette hyperarme absolument massive peut stériliser des planètes de loin et potentiellement détruire des systèmes entiers. C'est probablement l'une des constructions les plus puissantes jamais construites dans l'histoire galactique, et sa puissance absolue assurera notre domination galactique."
+    giga_dialog.3205.desc:0 "Aujourd'hui est un grand jour pour notre espèce et notre empire. Notre $name_ndb$ est terminé. Cette hyper-arme absolument massive peut stériliser des planètes de loin et potentiellement détruire des systèmes entiers. C'est probablement l'une des constructions les plus puissantes jamais construites dans l'histoire galactique, et sa puissance absolue assurera notre domination galactique."
     giga_dialog.3205.a:0 "Que nos ennemis tremblent de peur."
 
     giga_ndb.002.name:0 "$name_ndb$"
@@ -7771,7 +7771,7 @@
     giga_dialog.104.desc:0 "Notre vaisseau scientifique entrant dans le système §H[From.GetName]§! a été accueilli par des sites étranges. Un $name_kugelblitz$ a été repéré en orbite autour d'une des planètes ! Cette construction incroyablement avancée pourrait abriter une singularité contrôlée, capable de générer de grandes quantités d'énergie. Malheureusement, il semble être tombé dans un état de délabrement désastreux."
     giga_dialog.104.a:0 "Fascinating."
 
-    giga_dialog.105.name:0 "$name_kugelblitz$ Réparé !"
+    giga_dialog.105.name:0 "$name_kugelblitz$ réparé !"
     giga_dialog.105.desc:0 "Un $name_kugelblitz$ en ruine a maintenant été remis en état de marche par nos équipes d'ingénieurs ! Lors de la réactivation, la construction a commencé à générer une singularité contrôlée massive, à partir de laquelle nous pouvons extraire de grandes quantités d'énergie, ainsi que stocker de la matière sous forme de rayonnement."
     giga_dialog.105.a:0 "Comment ça marche ?"
 
@@ -7810,7 +7810,7 @@
     giga_dialog.1703.desc:0 "Notre $name_sub_compressor$ est maintenant terminé ! Il a été équipé de modulateurs gravitationnels massifs capables de compresser la naine brune à un volume plus petit, une étape cruciale pour l'allumer. Maintenant, nous devons commencer à écraser la naine brune et à augmenter lentement sa température centrale afin de permettre éventuellement des réactions de fusion durables. Veuillez noter que ce sera un processus assez long et gourmand en énergie."
     giga_dialog.1703.a:0 "Continuez les efforts."
 
-    giga_dialog.1704.name:0 "$name_sub_compressor$ - Étape de compression terminée"
+    giga_dialog.1704.name:0 "$name_sub_compressor$ - étape de compression terminée"
     giga_dialog.1704.desc:0 "Un autre pas vers la naissance d'une nouvelle star. La naine brune du système §H[giga_system.GetName]§! a maintenant été compressée au point où sa densité est presque suffisamment élevée pour permettre des réactions de fusion. Il ne reste plus qu'à chauffer un peu plus son noyau à l'aide des Panneaux magnétiques, déclenchant une réaction en chaîne et enflammant la naine brune."
     giga_dialog.1704.a:0 "Presque là."
 
@@ -7877,13 +7877,13 @@
     star_lifter_1:0 "Structure du $name_starlifter$"
     star_lifter_1_DESC:0 "Ce Structure élancé soutiendra un jour un complexe minier qui effacera l'étoile des systèmes et notre pénurie de minéraux."
 
-    star_lifter_2:0 "$name_starlifter$ - Étape 1"
+    star_lifter_2:0 "$name_starlifter$ - étape 1"
     star_lifter_2_DESC:0 "À ce stade d'achèvement, ce $name_starlifter$ produit environ 25% de son rendement potentiel."
 
-    star_lifter_3:0 "$name_starlifter$ - Étape 2"
+    star_lifter_3:0 "$name_starlifter$ - étape 2"
     star_lifter_3_DESC:0 "À ce stade d'achèvement, ce $name_starlifter$ produit environ 50% de son rendement potentiel."
 
-    star_lifter_4:0 "$name_starlifter$ - Étape 3"
+    star_lifter_4:0 "$name_starlifter$ - étape 3"
     star_lifter_4_DESC:0 "À ce stade d'achèvement, ce $name_starlifter$ produit environ 75% de son rendement potentiel."
 
     star_lifter_5:0 "$name_starlifter$"
@@ -8545,7 +8545,7 @@
     giga_tech_orbital_elysium:0 "Habitation orbitale avancée"
     giga_tech_orbital_elysium_desc:0 "Des techniques de construction orbitale incroyablement avancées permettent la création d'habitats de type planète très efficaces, offrant de merveilleuses conditions de vie à leurs habitants."
 
-    giga_dialog.1101.name:0 "$name_orb_elysium$ Terminé"
+    giga_dialog.1101.name:0 "$name_orb_elysium$ terminé"
     giga_dialog.1101.desc:0 "Un habitat $name_orb_elysium$ vient d'être achevé dans le système §H[giga_system.GetName]§! ! Ce magnifique habitat en forme d'anneau abrite des continents et des océans artificiels, offrant à ses habitants des conditions semblables à une planète."
     giga_dialog.1101.a:0 "Merveilleux."
 
