@@ -188,8 +188,8 @@
  GALACTIC_COMMUNITY:0 "Communauté galactique"
  JOINS_GALACTIC_COMMUNITY:0 "'$COUNTRY|Y$' entre dans la Communauté galactique"
  LEAVES_GALACTIC_COMMUNITY:0 "'$COUNTRY|Y$' quitte la Communauté galactique"
- IS_GALACTIC_COMMUNITY_MEMBER:0 "'$COUNTRY|Y$' est membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]."
- IS_NOT_GALACTIC_COMMUNITY_MEMBER:0 "'$COUNTRY|Y$' n'est PAS membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]."
+ IS_GALACTIC_COMMUNITY_MEMBER:0 "'$COUNTRY|Y$' est membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]."
+ IS_NOT_GALACTIC_COMMUNITY_MEMBER:0 "'$COUNTRY|Y$' n'est PAS membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]."
  COMMUNITY:0 "Communauté"
  SENATE_FLOOR:0 "Sénat"
  RESOLUTIONS:0 "Résolutions"
@@ -200,30 +200,30 @@
  SENATE_FLOOR_VOTING:0 "§HVote en cours de la résolution§!"
  federation_leader_scaled_modifier:0 "£navy_size£Capacité de la flotte fédérale "
 
- left_galactic_community:0 "Départ [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]"
+ left_galactic_community:0 "Départ [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]"
  triggered_opinion_galactic_community_left:0 "$left_galactic_community$ "
  JOIN_RECENTLY_LEFT:0 "£trigger_no£ §RNous ne pouvons entrer dans la Communauté galactique si nous venons d'en sortir.§!"
  JOIN_IN_BREACH:0 "£trigger_no£ §RSi nous entrons dans la Communauté galactique à cet instant précis, nous enfreindrons les lois galactiques du fait des politiques que nous appliquons et en tant que membre devrons les modifier ou risquer d'être dénoncés.§!"
  CLICK_TO_JOIN:0 "§GCliquer pour entrer dans la Communauté galactique.§!"
- CLICK_TO_JOIN_DESC:0 "§LEn tant que membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], nous pourrons influer sur les résolutions et bénéficier des avantages fournis par les modificateurs qu'elles offrent.§!"
- CLICK_TO_LEAVE:0 "§RCliquer pour sortir [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium].§!"
+ CLICK_TO_JOIN_DESC:0 "§LEn tant que membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium], nous pourrons influer sur les résolutions et bénéficier des avantages fournis par les modificateurs qu'elles offrent.§!"
+ CLICK_TO_LEAVE:0 "§RCliquer pour sortir [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium].§!"
  CLICK_TO_LEAVE_DESC:1 "§LSi nous sortons [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium], nous ne bénéficierons plus des avantages accordés par les modificateurs galactiques. Pendant §R20 ans§!, nous ne pourrons la réintégrer et subirons une réduction de notre £diplo_weight£poids diplomatique.\n\nToutefois, nous serons aussi débarrassés des modificateurs galactiques qui nous affectent négativement lorsque nous enfreignons les lois galactiques.§!\n"
  RESOLUTION_QUEUE:0 "Résolutions en attente"
  RESOLUTION_QUEUE_DESC:0 "§gAucune résolution n'a encore été proposée.§!"
  RESOLUTION_SUPPORT_DESC:0 "§gIl est impossible de soutenir les propositions de résolutions si aucune n'a été proposée.§!"
 
  GALACIC_FOCUS:0 "Priorité galactique"
- GALACTIC_FOCUS_DESC:0 "§ELes §Hpriorités galactiques§! sont des objectifs donnant une direction à l'ensemble des membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium].§!" # [LocEditor:AwaitingBatchUpdate]
+ GALACTIC_FOCUS_DESC:0 "§ELes §Hpriorités galactiques§! sont des objectifs donnant une direction à l'ensemble des membres [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium].§!" # [LocEditor:AwaitingBatchUpdate]
  GALACTIC_FOCUS_REWARD:0 "Récompense"
 
  GALACTIC_COUNCIL:0 "Conseil galactique"
- GALACTIC_COUNCIL_DESC:0 "§LLe Conseil galactique est constitué des principales puissances au sein [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]. Ses membres disposent de pouvoirs particuliers destinés à faciliter le processus de proposition et de vote des résolutions.§!"
+ GALACTIC_COUNCIL_DESC:0 "§LLe Conseil galactique est constitué des principales puissances au sein [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]. Ses membres disposent de pouvoirs particuliers destinés à faciliter le processus de proposition et de vote des résolutions.§!"
  JOINS_GALACTIC_COUNCIL:0 "'$COUNTRY|Y$' reçoit un siège au Conseil galactique."
  LEAVES_GALACTIC_COUNCIL:0 "'$COUNTRY|Y$' perd son siège au Conseil galactique."
  IS_PART_OF_GALACTIC_COUNCIL:0 "'$COUNTRY|Y$' a un siège au Conseil galactique."
  IS_NOT_PART_OF_GALACTIC_COUNCIL:0 "'$COUNTRY|Y$' n'a PAS de siège au Conseil galactique."
 
- ALREADY_PART_OF_GALACTIC_COMMUNITY:0 "$TRIGGER_FAIL$ §RLa $COUNTRY$ est déjà membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium].§!"
+ ALREADY_PART_OF_GALACTIC_COMMUNITY:0 "$TRIGGER_FAIL$ §RLa $COUNTRY$ est déjà membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium].§!"
  ALREADY_PART_OF_GALACTIC_COUNCIL:0 "$TRIGGER_FAIL$ §RLa $COUNTRY$ est déjà membre du Conseil galactique.§!"
 
  IS_VOTING_ANY_RESOLUTION:0 "Le Sénat [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium] est déjà en train de voter une résolution."
@@ -1090,7 +1090,7 @@
  edict_greater_than_ourselves_desc:1 "Encourage les £unemployment£pops libres inemployées à s'installer volontairement sur des mondes de l'empire convenant à leur condition et disposant d'£job£emplois et de £housing£logements à pourvoir."
  greater_than_ourselves_tooltip:0 "§YPermet le décret§! $edict_greater_than_ourselves$"
  federations.10010.name:0 "$resolution_greatergood_greater_than_ourselves$"
- federations.10010.desc:0 "Outre les droits garantis récemment par les résolutions [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], nous avons demandé des responsabilités supplémentaires pour les travailleurs de '§Y[Root.GetName]§!'.\n\nNous pouvons désormais encourager les travailleurs inemployés à s'installer volontairement sur d'autres mondes de notre espace et ayant des logements, des emplois et une habitabilité adéquate pour eux."
+ federations.10010.desc:0 "Outre les droits garantis récemment par les résolutions [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium], nous avons demandé des responsabilités supplémentaires pour les travailleurs de '§Y[Root.GetName]§!'.\n\nNous pouvons désormais encourager les travailleurs inemployés à s'installer volontairement sur d'autres mondes de notre espace et ayant des logements, des emplois et une habitabilité adéquate pour eux."
  federations.10010.desc_gestalt:0 "[global_event_country.GetLeLaLCommGalEmpGalCap] [global_event_country.GetGalCommunityOrGalImperium]vient de voter des résolutions reconnaissant de nouveaux droits aux drones de travail.\n\nSi '§Y[Root.GetName]§!' n'est guère concernée, elle peut toutefois s'appuyer sur certaines réglementations récemment élaborées par [global_event_country.GetLeLaLCommGalEmpGal][global_event_country.GetCommunityOrImperium] afin de réinstaller les drones subalternes inactifs."
 
  resolution_greatergood_balance_in_the_middle:0 "Équité égalitaire"
@@ -1140,7 +1140,7 @@
  resolution_mutualdefense_castigation_proclamation_desc:0 "Ceux qui ne sont pas avec nous sont contre nous, et quiconque se dresse contre les lois galactiques doit être châtié."
  resolution_mutualdefense_castigation_proclamation_tooltip:0 "Tout membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium] peut proposer une résolution pour §Ydénoncer§! un empire §Renfreignant§! les lois galactiques ou qui n'est pas membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium].\n\nLe casus belli §Y$casus_belli_cb_humiliation$§! et le but de guerre §Y$war_goal_wg_humiliation$§! pourront dès lors être utilisés par les empires ayant la politique de §Y$unrestricted_wars$§! contre les empires ainsi §Rdénoncés§! par [global_event_country.GetLeLaLCommGalEmpGal][global_event_country.GetCommunityOrImperium] ou qui §Renfreindrait§! les lois galactiques."
  resolution_mutualdefense_castigation_denouncement:0 "Dénonciation"
- resolution_mutualdefense_castigation_denouncement_desc:0 "Une déclaration officielle de dénonciation visant un empire précis. Cette proposition peut cibler n'importe quel empire qui soit n'est pas membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], soit en est membre mais enfreint les lois galactiques."
+ resolution_mutualdefense_castigation_denouncement_desc:0 "Une déclaration officielle de dénonciation visant un empire précis. Cette proposition peut cibler n'importe quel empire qui soit n'est pas membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium], soit en est membre mais enfreint les lois galactiques."
 
  resolution_mutualdefense_renegade_containment:0 "Doctrine d'endiguement des renégats"
  resolution_mutualdefense_renegade_containment_desc:0 "Les bénéfices de l'appartenance [global_event_country.GetAuAlaAlCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] parlent d'eux-mêmes. Tout refus d'y appartenir est donc la preuve d'une intention mauvaise. Les membres doivent par conséquent être autorisés à prévenir tout acte malfaisant par la force avant que les non-membres ne mettent en oeuvre leurs projets nuisibles."
@@ -1405,7 +1405,7 @@
  galactic_focus_crisis_war_in_heaven_desc:0 "Lorsque les géants partent en guerre, c'est l'univers entier qui est secoué. Nous devons survivre à la Guerre dans les cieux."
 
  FACTION_OUTRAGED_GC:0 "Parti scandalisé (-20/0)"
- FACTION_OUTRAGED_GC_DESC:0 "Ce parti est §Rscandalisé§! à cause d'une résolution que nous avons récemment proposée et fait voter au Sénat [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]."
+ FACTION_OUTRAGED_GC_DESC:0 "Ce parti est §Rscandalisé§! à cause d'une résolution que nous avons récemment proposée et fait voter au Sénat [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]."
 
  DIPLOMATIC_SUPPORT_VALUE:0 "$VALUE|Y$"
  SUPPORTERS:0 "Partisans"
@@ -1423,7 +1423,7 @@
  VOTE_TALLY_TOOLTIP_DESC:0 "Dans l'état actuel de choses, cette résolution va $STATUS$.\nIl reste $DAYS|Y$£time£ pour voter sur la question."
  VOTE_TALLY_DESC:0 "§HDécompte des votes§!\nCette résolution devrait $STATUS$. Il reste encore $DAYS|Y$£time£ pour voter."
  VOTE_WEIGHT_SPLIT:0 "§HRépartition du poids diplomatique :§!\n    §GPartisans : $SUPPORTING|0$§!\n    §ROpposants : $OPPOSING|0$§!\n    §gAbstention : $ABSTAINING|0$§!"
- VOTE_DETAILS_DESC:0 "Si cette résolution passe, ses effets seront appliqués à l'ensemble des membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], y compris ceux qui s'y seront opposés lors du vote au Sénat."
+ VOTE_DETAILS_DESC:0 "Si cette résolution passe, ses effets seront appliqués à l'ensemble des membres [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium], y compris ceux qui s'y seront opposés lors du vote au Sénat."
  SENATE_IN_SESSION:0 "Session du Sénat ($DAYS|Y$£time£)"
  SENATE_IN_SESSION_DESC:0 "§HSession du Sénat§!\nLa Communauté galactique dispose de $DAYS|Y$£time£ pour décider au Sénat d'§Eapprouver§! ou §Rrejeter§! la résolution $RESOLUTION|H$."
  SENATE_IN_RECESS:0 "Suspension du Sénat ($DAYS|Y$£time£)"
@@ -2231,7 +2231,7 @@
  galcom.2b.desc:0 "La question doit être posée à nouveau. '§Y[Root.GetName]§!' devrait-elle contribuer à la formation d'une communauté galactique ?"
  galcom.2.a:0 "Cela semble effectivement en valoir la peine"
  galcom.2.b:0 "Nous n'avons pas de temps à consacrer à de telles utopies"
- galcom.5.name:0 "Naissance [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]"
+ galcom.5.name:0 "Naissance [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]"
  galcom.5.desc:0 "Nous venons de vivre un jour historique. Plusieurs des empires interstellaires les plus éminents au sein de la galaxie, dont fait partie '§Y[Root.GetName]§!', ont annoncé la formation de la §HCommunauté galactique§!. Cette organisation pangalactique servira désormais de lieu de rencontre afin de discuter toutes les questions regardant l'ensemble de la galaxie afin d'en arriver à des décisions communes.\n\nÉtant du nombre des empires fondateurs, nous pouvons nous enorgueillir d'avoir ainsi marqué l'histoire."
  galcom.5.a:0 "C'est un grand jour pour tous !"
  galcom.6.desc:0 "Malgré que '§Y[Root.GetName]§!' a décidé de ne pas apporter son soutien à la formation de cette institution pangalactique, plusieurs autres empires se sont coalisés pour lui donner naissance. Au cours du discours de proclamation « historique » qu'ils ont fait, ils ont annoncé officiellement la création de la §HCommunauté galactique§! à l'ensemble de ses habitants. Cette organisation a pour objet de servir de lieu de rencontre afin de discuter des questions regardant l'ensemble de la galaxie.\n\nAyant quant à nous refusé de prendre part à cette fondation, nous n'en sommes toutefois pas considérés comme membres."
@@ -2251,10 +2251,10 @@
  galcom.51.c:0 "Ceux qui ont tout manigancé se montrent enfin au grand jour !"
 
  galcom.62.name:0 "[galactic_market_station_system.GetName] privé du Marché galactique"
- galcom.62.desc:0 "Conformément à l'article 19C de la charte [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], seul un membre peut abriter le Marché galactique. Sa station centrale, jusqu'à présent située dans le système de §Y[galactic_market_station_system.GetName]§!, a donc été démantelée. Les derniers marchands ont abandonné avec quelque réticence leurs bureaux et lieux de rencontre, en se plaignant de la gêne occasionnée pour le commerce galactique par cette procédure qu'ils jugent d'un dramatisme et d'une futilité confondants. Le Comité du commerce [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] a de son côté fait une annonce publique pour regretter que la situation l'ait contraint à une telle mesure, et aussitôt affirmé que la procédure de désignation d'un nouveau lieu, intérieur [global_event_country.GetAuAlaAlCommGalEmpGal][global_event_country.GetCommunityOrImperium], allait être lancée incessamment." # [LocEditor:AwaitingBatchUpdate]
+ galcom.62.desc:0 "Conformément à l'article 19C de la charte [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium], seul un membre peut abriter le Marché galactique. Sa station centrale, jusqu'à présent située dans le système de §Y[galactic_market_station_system.GetName]§!, a donc été démantelée. Les derniers marchands ont abandonné avec quelque réticence leurs bureaux et lieux de rencontre, en se plaignant de la gêne occasionnée pour le commerce galactique par cette procédure qu'ils jugent d'un dramatisme et d'une futilité confondants. Le Comité du commerce [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] a de son côté fait une annonce publique pour regretter que la situation l'ait contraint à une telle mesure, et aussitôt affirmé que la procédure de désignation d'un nouveau lieu, intérieur [global_event_country.GetAuAlaAlCommGalEmpGal][global_event_country.GetCommunityOrImperium], allait être lancée incessamment." # [LocEditor:AwaitingBatchUpdate]
  galcom.62.A:0 "Malgré tout, cela valait le coût"
  galcom.63.name:0 "Recherche d'un nouveau lieu pour le Marché galactique"
- galcom.63.desc:0 "La [From.GetName] ayant choisi de sortir [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium], un obscur article de la Charte [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] a dû être appliqué. Celui-ci prévoyait que seul un membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] pouvait abriter le Marché galactique. La station du système de §H[galactic_market_station_system.GetName]§! a donc été démantelée, et les derniers marchands ont abandonné avec quelque réticence leurs bureaux et lieux de rencontre, en se plaignant de la gêne occasionnée pour le commerce galactique par cette procédure qu'ils jugent d'un dramatisme et d'une futilité confondants. La désignation d'un nouveau lieu pour le Marché a d'ores et déjà été lancée : le Comité du commerce [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] vient de faire une annonce publique pour regretter que la situation l'ait contraint à une telle mesure et promettre que le Marché trouverait incessamment un nouveau système d'accueil."
+ galcom.63.desc:0 "La [From.GetName] ayant choisi de sortir [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium], un obscur article de la Charte [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] a dû être appliqué. Celui-ci prévoyait que seul un membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] pouvait abriter le Marché galactique. La station du système de §H[galactic_market_station_system.GetName]§! a donc été démantelée, et les derniers marchands ont abandonné avec quelque réticence leurs bureaux et lieux de rencontre, en se plaignant de la gêne occasionnée pour le commerce galactique par cette procédure qu'ils jugent d'un dramatisme et d'une futilité confondants. La désignation d'un nouveau lieu pour le Marché a d'ores et déjà été lancée : le Comité du commerce [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] vient de faire une annonce publique pour regretter que la situation l'ait contraint à une telle mesure et promettre que le Marché trouverait incessamment un nouveau système d'accueil."
  galcom.63.A:0 "C'est là une magnifique occasion qui se présente..."
  galcom.63.B:0 "Quelle folie que tout cela..."
 
@@ -2769,7 +2769,7 @@
  shattered_ring_start_NAME:0 "Anneau brisé"
  shattered_ring_start_DESC:0 "Ce système sera toujours le système natal pour un empire ayant l'origine §YAnneau brisé§!."
 
- opinion_fellow_galcom_member:0 "Membre [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] "
+ opinion_fellow_galcom_member:0 "Membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium] "
 
  strange_signal_category:0 "Un étrange signal"
  strange_signal_category_desc:0 "Si §Y[Root.GetName]§! semble totalement désolée et dépourvue de la moindre forme de vie, les scanners ont relevé un signal crypté qui en provient."
@@ -2967,7 +2967,7 @@
  opinion_tried_to_secede:0 "Tentative de sécession "
  opinion_forced_to_remain:0 "Échec de la tentative de sécession "
  galcom_2_aye:0 "Nous allons appuyer la formation [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]."
- galcom_2_nay:0 "Nous n'allons pas appuyer la formation [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]."
+ galcom_2_nay:0 "Nous n'allons pas appuyer la formation [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]."
  action.1.desc_89:0 "Vous êtes... Vous êtes des [From.GetSpeciesNamePlural] ? C'est incroyable ! Vous devez être des survivants de l'§YInitiative Ulysse§! ! Tout le monde sur Terra pensait que les vaisseaux-arches avaient été perdus, mais au moins l'un d'entre eux a survécu ! Vous dites que vos ancêtres étaient sur le Chrysanthème ?\n\nCela n'a sans doute pas été facile, mais vous avez tout l'air de vous en être bien sortis. Au nom des habitants de Terra et des membres de l'Assemblée générale des Nations unies, j'aimerais tendre une main confraternelle à mes frères et soeurs de '§Y[Root.GetName]§!'.\n\nDésormais, faisons tout pour oeuvrer de concert à la prospérité future de l'ensemble de l'humanité !"
  action.1.desc_90:0 "La [From.GetName]... Ainsi donc, l'ONU est parvenue à se maintenir au pouvoir, même après toutes ces années ? Veuillez nous pardonner, les choses étaient quelque peu... chaotiques sur Terra lorsque nos ancêtres l'ont quittée sur les vaisseaux-arches de l'§YInitiative Ulysse§!. Nous étions nombreux à penser que vous vous étiez détruits lors d'une nouvelle guerre mondiale, ou aviez été victimes d'une invasion alien.\n\nMalgré tout, vous avez l'air plus forts et plus compétents que les autorités corrompues de Terra lorsque nos ancêtres en sont partis. Ce sont eux qui ont fondé '§Y[contact_empire.GetName]§!', à partir de rien, et nous la défendrons jusqu'au dernier. Quant à vous, nous verrons bien si vous méritez notre respect."
  starbase_citadel_trigger:0 "£trigger_no£ La base stellaire doit être au moins une §Ycitadelle§!."

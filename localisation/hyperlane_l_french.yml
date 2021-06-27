@@ -1,0 +1,35 @@
+﻿# Adding colors:
+# §H[Variable]§! - Orange
+# §M[Variable]§! - Purple
+# §R[Variable]§! - Red
+# §G[Variable]§! - Green
+# §Y[Variable]§! - Yellow
+# §B[Variable]§! - Blue
+
+l_french:
+ # Help menu
+ help_menu_title:0 "Menu Aide de l'éditeur d'hyperlignes"
+ help_menu_desc:0 "§BCommandes disponibles :§!\n§Mevent hyperlane.0§! -> Obtenez cet écran\n§Mevent hyperlane.1§! -> Marquez le système d'une planète comme origine de l'hyperligne\n§Mevent hyperlane.2§! -> Marquez le système de la planète en tant que destination de l'hyperligne \n§Mevent hyperlane.3§! -> Tentative de création d'une connexion hyperligne entre deux systèmes marqués \n§Mevent hyperlane.4§! -> Tentative d'éliminer la connexion hyperligne entre deux systèmes marqués\n\n §Busage : §!\n§Y1) §! Aller dans un §Hsystème§! que vous souhaitez (DIS)Connecter \n§Y2) §! Sélectionnez une §HPlanète/Etoile§! Dans le système\n§Y3) §! Entrez la commande §Mevent hyperlane.1§! Dans la console\n§Y4) §! Aller au §Hsysteme§! que vous souhaitez (DIS) Connecter \n§Y5) §! Sélectionnez une §HPlanète/Etoile§! dans le système\n§Y6) §! Entrez la commande §Mevent hyperlane.2§! Dans la console\nPour §GConnecter§! les systèmes, utiliser la commande §Mevent hyperlane.3§!\nPour §RDéconnecter§! les systèmes, utiliser la commande §Mevent hyperlane.4§! "
+
+ # Marking events
+ mark_as_origin_title:0 "Origine marquée"
+ mark_as_origin_desc:0 "Système §H[event_target:hyperlaneorigin.GetName]§! marqué comme origine de l'hyperligne"
+ 
+ mark_as_destination_title:0 "Destination marquée"
+ mark_as_destination_desc:0 "Système §H[event_target:hyperlanedestination.GetName]§! marqué comme destination de l'hyperligne"
+
+ # Generation event
+ hyperlane_generate_title:0 "Génération d'hyperligne"
+ hyperlane_generate_desc:0 "Tenter de créer une hyperligne entre §H[event_target:hyperlaneorigin.GetName]§! et §H[event_target:hyperlanedestination.GetName]§! ?"
+ hyperlane_generate_option_yes.text:0 "Oui - Créer une hyperligne"
+ hyperlane_generate_option_yes.tooltip:0 "Tenter de créer une nouvelle hyperligne entre les deux systèmes"
+ hyperlane_generate_option_no.text:0 "Non"
+ hyperlane_generate_option_no.tooltip:0 "Annuler"
+ 
+ # Removal event
+ hyperlane_removal_title:0 "Suppression d'hyperligne"
+ hyperlane_removal_desc:0 "Essayez d'éliminer l'hyperligne entre §H[event_target:hyperlaneorigin.GetName]§! et §H[event_target:hyperlanedestination.GetName]§!  ? "
+ hyperlane_removal_option_yes.text:0 "Oui - Supprimer l'hyperligne"
+ hyperlane_removal_option_yes.tooltip:0 "Tente de supprimer une hyperligne entre les deux systèmes"
+ hyperlane_removal_option_no.text:0 "Non"
+ hyperlane_removal_option_no.tooltip:0 "Annuler"
