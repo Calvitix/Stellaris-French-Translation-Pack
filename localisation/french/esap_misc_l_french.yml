@@ -20,8 +20,8 @@
 # The Garden Perk, Declare Garden World.
 decision_esap_garden_activate:0 "Désigner le monde de jardin"
 decision_esap_garden_activate_desc:0 "$ap_esap_garden_desc$"
-decision_esap_garden_activate_tooltip:0 "Convertir le monde en §Ygarden Worlds§! , $decision_esap_garden_modifier_effect$."
-decision_esap_garden_modifier_effect:0 "Augmentation de £food£ §Food§! Sortie, § § $MOD_PLANET_IMMIGRATION_PULL_MULT$§!, et £pops£ §Y$ mod_pop_growth_speed $§! par §g+25%§! et §Yhability§! par §g+10%§! . En outre, augmenter le § $mod_district_farming_max$§! par §g3§! et chacun £job_farmer£ §Y$job_farmer$§! produire §Y0. 5§! £unity §Yunity§! . Enfin, £minerals£ §Mineral§! , £alloys£ §Yalloy§! , Et £consumer_goods£ §Consumer Marchandises§! Sortie et § § $MOD_PLANET_HOUSING_MULT$§! est réduit par §-25%§! "
+decision_esap_garden_activate_tooltip:0 "Convertir le monde en §YMondes jardins§! , $decision_esap_garden_modifier_effect$."
+decision_esap_garden_modifier_effect:0 "Augmentation de la production de £food£ §YNourriture§! , §Y$MOD_PLANET_IMMIGRATION_PULL_MULT$§!, et £pops£ §Y$ mod_pop_growth_speed$§! par §G+25%§! et §Yhability§! par §G+10%§! . En outre, augmenter le §Y$mod_district_farming_max$§! par §G3§! et chacun £job_farmer£ §Y$job_farmer$§! produire §Y0. 5§! £unity §Yunity§! . Enfin, £minerals£ §Mineral§! , £alloys£ §Yalloy§! , Et £consumer_goods£ §Consumer Marchandises§! Sortie et §Y$MOD_PLANET_HOUSING_MULT$§! est réduit par §-25%§! "
 decision_esap_garden_deactivate:0 "Normaliser le monde de jardin"
 decision_esap_garden_deactivate_desc:0 "$ap_esap_garden_desc$"
 decision_esap_garden_deactivate_tooltip:0 "Supprime le modificateur $mod_esap_garden$. "
@@ -29,7 +29,7 @@ decision_esap_garden_deactivate_tooltip:0 "Supprime le modificateur $mod_esap_ga
 # The Mining Perk, seach for extra deposits.
 decision_esap_mining:0 "PROSPECVE PLANETARY CORE"
 decision_esap_mining_desc:0 "Bien que nos nouvelles techniques minières nous aient permis d'excaver les grottes riches en minéraux au-dessus de la planète, produisant de nouveaux gisements minéraux. Cependant, le processus de le faire génère des sous-produits toxiques dans l'atmosphère de la planète. "
-decision_esap_mining_tooltip:0 "Réduisez la planète §Yhability§! et §Happiness§! par §g-10%§! Pour §20§! années. Génère une fonctionnalité planétaire § $d_esap_mining$§!, augmente §Y$mod_district_mining_max$§! par §G2§! . Il y a aussi un §g10%§! Chance que chacun générait soit un § $d_crystalline_caverns$§! ou un §Y$ D_DUST_CAVERNS $§! Fonction planétaire. La décision peut être activée chaque §20§! ans et seulement § §5§! fois par planète. "
+decision_esap_mining_tooltip:0 "Réduisez la planète §Yhability§! et §Happiness§! par §G-10%§! Pour §20§! années. Génère une fonctionnalité planétaire §Y$d_esap_mining$§!, augmente §Y$mod_district_mining_max$§! par §G2§! . Il y a aussi un §G10%§! Chance que chacun générait soit un §Y$d_crystalline_caverns$§! ou un §Y$ D_DUST_CAVERNS $§! Fonction planétaire. La décision peut être activée chaque §Y20§! ans et seulement §Y5§! fois par planète. "
 
 # The Industry Perk, Declare Forge World.
 decision_esap_industry_activate:0 "Désigner le monde de la forge"
@@ -37,9 +37,9 @@ decision_esap_industry_activate_desc:0 "$ap_esap_industry_desc$"
 decision_esap_industry_activate_tooltip:0 "Convertir le monde en §YForge Worlds§! , $decision_esap_industry_modifier_effect$."
 decision_esap_industry_hive_activate_tooltip:0 "Convertir le monde en §YForge Worlds§! , $decision_esap_industry_hive_modifier_effect$."
 decision_esap_industry_machines_activate_tooltip:0 "Convertir le monde en §YForge Worlds§! , $decision_esap_industry_machines_modifier_effect$."
-decision_esap_industry_modifier_effect:0 "Augmentation de £minerals §Minerals§! Sortie par §g+25%§! et fournit §1§! £job_artisan£ §Y$job_artisan$ Job§! et §1§! £job_foundry£ §Y$job_foundry$ Job§! et par § §20§! £pop£ apparaît alors que £food §Food§! Sortie et § § $MOD_PLANET_IMMIGRATION_PULL_MULT$§! par §g-50%§! , §YHabitability§! et §Ygrowth Speed§! par §g-20%§! "
-decision_esap_industry_hive_modifier_effect:0 "Augmentation de £minerals §Minerals§! Sortie par §g+25%§! et fournit §1§! £job_alloy_drone£ §Y$job_alloy_drone$ Job§! et par § §15§! £pop£ apparaît alors que £food §Food§! Sortie et § § $MOD_PLANET_IMMIGRATION_PULL_MULT$§! par §g-50%§! , §YHabitability§! et §Ygrowth Speed§! par §g-20%§! "
-decision_esap_industry_machines_modifier_effect:0 "Augmentation de £minerals §Minerals§! Sortie par §g+25%§! et fournit §1§! £job_fabricator£ §Y$job_fabricator$ Job§! et par § §15§! £pop£ apparaît alors que £food §Food§! Sortie et § § $MOD_PLANET_IMMIGRATION_PULL_MULT$§! par §g-50%§! , §YHabitability§! et §Ygrowth Speed§! par §g-20%§! "
+decision_esap_industry_modifier_effect:0 "Augmentation de £minerals §YMinéraux§! Sortie par §G+25%§! et fournit §1§! £job_artisan£ §Y$job_artisan$ Job§! et §1§! £job_foundry£ §Y$job_foundry$ Job§! et par §Y20§! £pop£ apparaît alors que £food §YNourriture§! Sortie et §Y$MOD_PLANET_IMMIGRATION_PULL_MULT$§! par §G-50%§! , §YHabitability§! et §Ygrowth Speed§! par §G-20%§! "
+decision_esap_industry_hive_modifier_effect:0 "Augmentation de £minerals §YMinéraux§! Sortie par §G+25%§! et fournit §1§! £job_alloy_drone£ §Y$job_alloy_drone$ Job§! et par §Y15§! £pop£ apparaît alors que £food §YNourriture§! Sortie et §Y$MOD_PLANET_IMMIGRATION_PULL_MULT$§! par §G-50%§! , §YHabitability§! et §Ygrowth Speed§! par §G-20%§! "
+decision_esap_industry_machines_modifier_effect:0 "Augmentation de £minerals §YMinéraux§! Sortie par §G+25%§! et fournit §1§! £job_fabricator£ §Y$job_fabricator$ Job§! et par §Y15§! £pop£ apparaît alors que £food §YNourriture§! Sortie et §Y$MOD_PLANET_IMMIGRATION_PULL_MULT$§! par §G-50%§! , §YHabitability§! et §Ygrowth Speed§! par §G-20%§! "
 decision_esap_industry_deactivate:0 "Normalise Forger World"
 decision_esap_industry_deactivate_desc:0 "$ap_esap_industry_desc$"
 decision_esap_industry_deactivate_tooltip:0 "Supprime le modificateur $mod_esap_industry$. "

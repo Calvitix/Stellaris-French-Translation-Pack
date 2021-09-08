@@ -209,8 +209,8 @@
  CLICK_TO_LEAVE:0 "§RCliquer pour sortir [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium].§!"
  CLICK_TO_LEAVE_DESC:1 "§LSi nous sortons [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium], nous ne bénéficierons plus des avantages accordés par les modificateurs galactiques. Pendant §R20 ans§!, nous ne pourrons la réintégrer et subirons une réduction de notre £diplo_weight£poids diplomatique.\n\nToutefois, nous serons aussi débarrassés des modificateurs galactiques qui nous affectent négativement lorsque nous enfreignons les lois galactiques.§!\n"
  RESOLUTION_QUEUE:0 "Résolutions en attente"
- RESOLUTION_QUEUE_DESC:0 "§gAucune résolution n'a encore été proposée.§!"
- RESOLUTION_SUPPORT_DESC:0 "§gIl est impossible de soutenir les propositions de résolutions si aucune n'a été proposée.§!"
+ RESOLUTION_QUEUE_DESC:0 "§GAucune résolution n'a encore été proposée.§!"
+ RESOLUTION_SUPPORT_DESC:0 "§GIl est impossible de soutenir les propositions de résolutions si aucune n'a été proposée.§!"
 
  GALACIC_FOCUS:0 "Priorité galactique"
  GALACTIC_FOCUS_DESC:0 "§ELes §Hpriorités galactiques§! sont des objectifs donnant une direction à l'ensemble des membres [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium].§!" # [LocEditor:AwaitingBatchUpdate]
@@ -1410,7 +1410,7 @@
  DIPLOMATIC_SUPPORT_VALUE:0 "$VALUE|Y$"
  SUPPORTERS:0 "Partisans"
  UP_NEXT:0 "Priorité"
- ABSTAINING:0 "§gAbstention§!"
+ ABSTAINING:0 "§GAbstention§!"
  SUPPORT_COLON:0 "$support$ : "
  PASSED:0 "passer"
  FAILED:0 "être rejetée"
@@ -1422,7 +1422,7 @@
  PASSED_UPPER_CASE_COLORED_DBGGG:0 "$SUPPORTERS|G$"
  VOTE_TALLY_TOOLTIP_DESC:0 "Dans l'état actuel de choses, cette résolution va $STATUS$.\nIl reste $DAYS|Y$£time£ pour voter sur la question."
  VOTE_TALLY_DESC:0 "§HDécompte des votes§!\nCette résolution devrait $STATUS$. Il reste encore $DAYS|Y$£time£ pour voter."
- VOTE_WEIGHT_SPLIT:0 "§HRépartition du poids diplomatique :§!\n    §GPartisans : $SUPPORTING|0$§!\n    §ROpposants : $OPPOSING|0$§!\n    §gAbstention : $ABSTAINING|0$§!"
+ VOTE_WEIGHT_SPLIT:0 "§HRépartition du poids diplomatique :§!\n    §GPartisans : $SUPPORTING|0$§!\n    §ROpposants : $OPPOSING|0$§!\n    §GAbstention : $ABSTAINING|0$§!"
  VOTE_DETAILS_DESC:0 "Si cette résolution passe, ses effets seront appliqués à l'ensemble des membres [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium], y compris ceux qui s'y seront opposés lors du vote au Sénat."
  SENATE_IN_SESSION:0 "Session du Sénat ($DAYS|Y$£time£)"
  SENATE_IN_SESSION_DESC:0 "§HSession du Sénat§!\nLa Communauté galactique dispose de $DAYS|Y$£time£ pour décider au Sénat d'§Eapprouver§! ou §Rrejeter§! la résolution $RESOLUTION|H$."
@@ -1432,11 +1432,11 @@
 
  CLICK_TO_SUPPORT:0 "§GCliquer pour apporter notre soutien à cette résolution.§!\nIl faudra attendre $DAYS|Y$£time£ après le vote pour pouvoir voter à nouveau."
  CLICK_TO_OPPOSE:0 "§RCliquer pour nous opposer à cette résolution.§!\nIl faudra attendre $DAYS|Y$£time£ après le vote pour pouvoir voter à nouveau."
- CLICK_TO_ABSTAIN:0 "§gCliquer pour nous abstenir de prendre part au vote sur cette résolution.§!\nIl faudra attendre $DAYS|Y$£time£ après notre abstention pour pouvoir voter à nouveau."
+ CLICK_TO_ABSTAIN:0 "§GCliquer pour nous abstenir de prendre part au vote sur cette résolution.§!\nIl faudra attendre $DAYS|Y$£time£ après notre abstention pour pouvoir voter à nouveau."
 
  SUPPORT_PROPOSED:0 "§GCliquer pour apporter notre soutien à cette résolution en ajoutant notre £diplo_weight£§Ypoids diplomatique§! au soutien total dans la file des priorités.§!"
  OPPOSE_PROPOSED:0 "§RCliquer pour ne pas soutenir cette résolution et nous y opposer aussitôt qu'elle sera étudiée par le Sénat.§!"
- ABSTAIN_PROPOSED:0 "§gCliquer pour ne pas soutenir cette résolution et nous abstenir lors du vote aussitôt qu'elle sera étudiée par le Sénat.§!"
+ ABSTAIN_PROPOSED:0 "§GCliquer pour ne pas soutenir cette résolution et nous abstenir lors du vote aussitôt qu'elle sera étudiée par le Sénat.§!"
 
  CANNOT_VOTE_UNTIL:0 "'$COUNTRY|Y$' a déjà voté concernant cette résolution et doit attendre $DAYS|Y$£time£ avant de pouvoir voter à nouveau."
  ALREADY_SUPPORTING:0 "'$COUNTRY|Y$' soutient déjà cette résolution."
@@ -1538,7 +1538,7 @@
 
  default_envoy:0 "Émissaire"
  ENVOY_OPINION_EFFECT:0 "$VAL|+=0$"
- NO_ACTIVE_RESOLUTION:0 "§gAucune résolution votée§!"
+ NO_ACTIVE_RESOLUTION:0 "§GAucune résolution votée§!"
 
  RESOLUTION_DETAILS:0 "§GCliquer pour afficher les détails sur cette résolution.§!"
  IN_RECESS_HELP:0 "\n§HLe Sénat n'est pas en session.§!\nApporter notre soutien aux résolutions se trouvant dans la file permet d'influer sur celles qui seront étudiées lors de la prochaine session."
@@ -1590,7 +1590,7 @@
  DIPLOMATIC_FAVORS:0 "Faveurs diplomatiques"
  DIPLOMATIC_FAVORS_VIEW_USED_FAVORS:0 "§Y$USED$/$TOTAL$§!"
  DIPLOMATIC_FAVORS_VIEW_DIPLO_WEIGHT_BUFF:0 "$AMOUNT|H=$"
- DIPLOMATIC_FAVORS_VIEW_DIPLO_WEIGHT_BUFF_DEFAULT:0 "§g($AMOUNT|=$)§!"
+ DIPLOMATIC_FAVORS_VIEW_DIPLO_WEIGHT_BUFF_DEFAULT:0 "§G($AMOUNT|=$)§!"
  INCREASE_FAVOR_TOOLTIP:0 "$INCREASE_HEADER$\n§GCliquer pour augmenter le nombre de £favor£faveurs.§!"
  DECREASE_FAVOR_TOOLTIP:0 "$DECREASE_HEADER$\n§GCliquer pour diminuer le nombre de £favor£faveurs.§!"
  DIPLOMATIC_FAVORS_VIEW_CALL_IN_FAVOR:0 "Se faire retourner $NUM|Y$ faveurs : $COST$"
