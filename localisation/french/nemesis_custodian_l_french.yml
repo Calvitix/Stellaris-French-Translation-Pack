@@ -11,14 +11,14 @@
  UNSET_GALACTIC_EMPEROR:1 "'$COUNTRY|Y$' cesse de diriger l'Empire galactique"
  HAS_GALACTIC_EMPEROR:1 "L'Empire galactique a été formé"
  HAS_NOT_GALACTIC_EMPEROR:1 "L'Empire galactique n'a pas encore été formé"
- INCREASE_IMPERIAL_AUTHORITY:0 "L'autorité impériale est accrue de $VAL|2G$" # [LocEditor:AwaitingBatchUpdate]
- DECREASE_IMPERIAL_AUTHORITY:0 "L'autorité impériale est réduite de $VAL|2R$" # [LocEditor:AwaitingBatchUpdate]
- IMPERIAL_AUTHORITY_LESS_THAN:0 "L'autorité impériale n'est PAS $COMPARE$e à $VAL|2Y$" # [LocEditor:AwaitingBatchUpdate]
- IMPERIAL_AUTHORITY_AT_LEAST:0 "L'autorité impériale est $COMPARE$e à $VAL|2Y$" # [LocEditor:AwaitingBatchUpdate]
+ INCREASE_IMPERIAL_AUTHORITY:1 "L'autorité impériale est accrue de $VAL|2G$"
+ DECREASE_IMPERIAL_AUTHORITY:1 "L'autorité impériale est réduite de $VAL|2R$"
+ IMPERIAL_AUTHORITY_LESS_THAN:1 "L'autorité impériale n'est PAS $COMPARE$e à $VAL|2Y$"
+ IMPERIAL_AUTHORITY_AT_LEAST:1 "L'autorité impériale est $COMPARE$e à $VAL|2Y$"
  IMPERIAL_AUTHORITY_DISSIDENT_LIST_ENTRY:0 "\n $COUNTRY|Y$ ($NR_OF_ENVOYS|R$)"
  IMPERIAL_AUTHORITY_SUPPORT_LIST_ENTRY:0 "\n $COUNTRY|Y$ ($NR_OF_ENVOYS|G$)"
- IMPERIAL_AUTHORITY_INSTANT:2 "L'§Hautorité impériale§! est actuellement de $VAL|2Y$.\n\nÉvolution : $MONTHLY_CHANGE|+=$/mois\nRenforcement : $SUPPORTERS|G$\nTravail de sape : $DISSENTERS|R$\n\n§HÉmissaires affectés§!$SUPPORTERS_LIST$\n$DISSENTERS_LIST$" # [LocEditor:AwaitingBatchUpdate]
- IMPERIAL_AUTHORITY_DELAYED:1 "§EL'§Hautorité impériale§! représente l'emprise de Sa Majesté Impériale sur l'Empire galactique. Chaque mois, tout émissaire affecté à cette mission soit la renforce de $CHANGE|G$, soit la réduit de $NEG_CHANGE|R$, ce qui a aussi des incidences sur l'opinion de Sa Majesté.§!\n\n§HSi l'autorité impériale tombe en dessous de §Y50§! :§!\nles membres de l'Empire peuvent lancer une opération d'espionnage visant à déclencher une rébellion.\n\n§HSi elle est supérieure à §Y100§! :§!\nl'ensemble de l'Empire participe aux guerres défensives de Sa Majesté face aux non-membres." # [LocEditor:AwaitingBatchUpdate]
+ IMPERIAL_AUTHORITY_INSTANT:3 "L'§Hautorité impériale§! est actuellement de $VAL|2Y$.\n\nÉvolution : $MONTHLY_CHANGE|+=$/mois\nRenforcement : $SUPPORTERS|G$\nTravail de sape : $DISSENTERS|R$\n\n§HÉmissaires affectés§!$SUPPORTERS_LIST$\n$DISSENTERS_LIST$"
+ IMPERIAL_AUTHORITY_DELAYED:4 "§EL'§Hautorité impériale§! représente l'emprise de Sa Majesté Impériale sur l'Empire galactique. Chaque mois, tout émissaire affecté à cette mission soit la renforce de $CHANGE|G$, soit la réduit de $NEG_CHANGE|R$, ce qui a aussi des incidences sur l'opinion de Sa Majesté.§!\n\n§HSi l'autorité impériale tombe en dessous de §Y50§! :§!\nles membres de l'Empire peuvent lancer une opération d'espionnage visant à déclencher une rébellion.\n\n§HSi elle est supérieure à §Y100§! :§!\nl'ensemble de l'Empire participe aux guerres défensives de Sa Majesté face aux non-membres."
  strengthen_imperial_authority:0 "Renforcer l'autorité impériale"
  strengthen_imperial_authority_desc:1 "Affecter un émissaire au renforcement de l'Empire galactique va contribuer, avec le temps, à accroître l'autorité impériale avec le temps.\n\nNous ne pourrons pas réaffecter cet émissaire avant §Y360§!£time£"
  undermine_imperial_authority:0 "Saper l'autorité impériale"
@@ -27,9 +27,9 @@
  STRENGTHEN_EMPIRE_NOT_MEMBER_INSTANT:1 "§HAffecter un émissaire pour renforcer l'Empire§!\n§RNous devons être membres de l'Empire galactique pour y affecter des émissaires.§!"
  UNDERMINE_EMPIRE_INSTANT:1 "§HAffecter un émissaire pour saper l'Empire§!\n§GCliquer pour ouvrir l'écran des émissaires.§!"
  UNDERMINE_EMPIRE_NOT_MEMBER_INSTANT:1 "§HAffecter un émissaire pour saper l'Empire§!\n§RNous devons être membres de l'Empire galactique pour y affecter des émissaires.§!"
- STRENGTHEN_UNDERMINE_EMPIRE_DELAYED:0 "§EDans le cadre du Sénat impérial, les émissaires peuvent critiquer ouvertement ou soutenir totalement l'Empire et ses politiques. Avec le temps, cela contribue à renforcer ou au contraire saper l'§Hautorité impériale§!, et fait évoluer les relations entre les membres de l'Empire et Sa Majesté Impériale.§!" # [LocEditor:AwaitingBatchUpdate]
+ STRENGTHEN_UNDERMINE_EMPIRE_DELAYED:1 "§EDans le cadre du Sénat impérial, les émissaires peuvent critiquer ouvertement ou soutenir totalement l'Empire et ses politiques. Avec le temps, cela contribue à renforcer ou au contraire saper l'§Hautorité impériale§!, et fait évoluer les relations entre les membres de l'Empire et Sa Majesté Impériale.§!"
  LEADER_STRENGTHEN_EMPIRE:1 "Renforce l'§HEmpire galactique§!"
- LEADER_UNDERMINE_EMPIRE:0 "Sape l'§HEmpire galactique§!" # [LocEditor:AwaitingBatchUpdate]
+ LEADER_UNDERMINE_EMPIRE:1 "Sape l'§HEmpire galactique§!"
  GALACTIC_EMPIRE:1 "Empire galactique"
  IMPERIAL_COUNCIL:0 "Conseil impérial"
  IMPERIAL_COUNCIL_DESC:1 "§LLes membres du Conseil impérial sont les élus de l'Empire. Ils disposent de pouvoirs spécifiques pour accélérer le processus de proposition et de vote des résolutions.§!"
@@ -162,9 +162,9 @@
  GDF:0 "FDG"
  IMPERIAL_AUTHORITY:0 "Autorité impériale"
  GALACTIC_FOCUS:0 "Priorité galactique"
- PROPOSE_RESOLUTION_GREETINGS_EMPIRE:0 "Gloire à l'Empire galactique !" # [LocEditor:AwaitingBatchUpdate]
+ PROPOSE_RESOLUTION_GREETINGS_EMPIRE:1 "Gloire à l'Empire galactique !"
  CANCEL_RESOLUTION_DESC:0 "La résolution $RESOLUTION|H$ est annulée."
- custodian_remaining_term_time:0 "Une fois son mandat arrivé à son terme, l'empire exerçant la custodie va redevenir un simple membre du Conseil galactique." # [LocEditor:AwaitingBatchUpdate]
+ custodian_remaining_term_time:1 "Une fois son mandat arrivé à son terme, l'empire exerçant la custodie va redevenir un simple membre du Conseil galactique."
  CUSTODIAN_TERM:0 "Mandat"
  TIMER_NUMBER:0 "$DAYS|Y$£time£"
  INCREASE_CUSTODIAN_TERM:0 "Mandat actuel de la custodie prolongé de $VAL|2G$ jours."
@@ -172,10 +172,10 @@
  SET_CUSTODIAN_TERM:0 "Fin du mandat de la custodie galactique dans $VAL|Y$ jours."
  PERMANENT_CUSTODIAN:0 "§YPermanente§!"
  GALACTIC_FOCUS_NONE:0 "Aucune priorité galactique"
- GALACTIC_DEFENSE_FORCE_NOT_ESTABLISHED:0 "Il n'y a pas de §YForce de défense galactique§! pour l'instant." # [LocEditor:AwaitingBatchUpdate]
- IMPERIAL_ARMADA_NOT_ESTABLISHED:0 "Il n'y a pas de §YFlotte impériale§! pour l'instant." # [LocEditor:AwaitingBatchUpdate]
- ESTABLISH_GALACTIC_INSTITUTION:0 "La custodie galactique peut proposer son instauration par une résolution." # [LocEditor:AwaitingBatchUpdate]
- ESTABLISH_IMPERIAL_INSTITUTION:0 "Sa Majesté Impériale peut proposer son instauration par une résolution." # [LocEditor:AwaitingBatchUpdate]
+ GALACTIC_DEFENSE_FORCE_NOT_ESTABLISHED:1 "Il n'y a pas de §YForce de défense galactique§! pour l'instant."
+ IMPERIAL_ARMADA_NOT_ESTABLISHED:1 "Il n'y a pas de §YFlotte impériale§! pour l'instant."
+ ESTABLISH_GALACTIC_INSTITUTION:1 "La custodie galactique peut proposer son instauration par une résolution."
+ ESTABLISH_IMPERIAL_INSTITUTION:1 "Sa Majesté Impériale peut proposer son instauration par une résolution."
  MESSAGE_CAN_END_SENATE_SESSION_TITLE:0 "Il peut être mis fin à la session du Sénat"
  MESSAGE_CAN_END_SENATE_SESSION_DESC:0 "Nous pouvons désormais user de nos capacités pour §Hmettre fin avant son terme à la session du Sénat§! consacrée à la résolution $RESOLUTION|Y$."
  MESSAGE_CUSTODIAN_TERM_LIMIT_EXPIRING_TITLE:0 "Fin de la custodie"

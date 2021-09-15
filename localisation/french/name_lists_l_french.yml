@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Elfric (Verne Mod)
- # Update check : 16.04.2021
- # Translation check : 16.04.2021
+ # Update check : 16.09.2021
+ # Translation check : 16.09.2021
  ####################################
 
  ####################################
@@ -33,13 +33,17 @@
  HUM_sound_05:0 "miaulements"
  HUM_organ:0 "la panse"
  HUM_organ_plural:0 "les panses"
- HUM_mouth:0 "bouches"
+ HUM_mouth:0 "bouche"
  HUM_ear:0 "oreille"
  HUM_ear_plural:0 "oreilles"
  HUM_hand:0 "main"
  HUM_hand_plural:0 "mains"
  HUM_tooth:0 "dent"
  HUM_tooth_plural:0 "dents"
+ HUM_fossil:0 "fossile"
+ HUM_fossil_plural:0 "fossiles"
+ HUM_remnant:0 "squelette"
+ HUM_remnant_plural:0 "squelettes"
 
  MAM:0 "mammalienne"
  MAM_desc:1 "La classe de l'espèce n'a aucune conséquence pour l'empire, mais les espèces mammaliennes peuvent considérer les autres mammaliens comme moins aliens que les autres espèces."
@@ -64,6 +68,10 @@
  MAM_hand_plural:0 "pattes"
  MAM_tooth:0 "dent"
  MAM_tooth_plural:0 "dents"
+ MAM_fossil:0 "$HUM_fossil$"
+ MAM_fossil_plural:0 "$HUM_fossil_plural$"
+ MAM_remnant:0 "$HUM_remnant$"
+ MAM_remnant_plural:0 "$HUM_remnant_plural$"
 
  REP:0 "reptilienne"
  REP_desc:1 "La classe de l'espèce n'a aucune conséquence pour l'empire, mais les espèces reptiliennes peuvent considérer les autres reptiliens comme moins aliens que les autres espèces."
@@ -90,6 +98,10 @@
  REP_hand_plural:0 "pattes"
  REP_tooth:0 "dent"
  REP_tooth_plural:0 "dents"
+ REP_fossil:0 "$HUM_fossil$"
+ REP_fossil_plural:0 "$HUM_fossil_plural$"
+ REP_remnant:0 "$HUM_remnant$"
+ REP_remnant_plural:0 "$HUM_remnant_plural$"
 
  AVI:0 "aviaire"
  AVI_desc:1 "La classe de l'espèce n'a aucune conséquence pour l'empire, mais les espèces aviaires peuvent considérer les autres aviaires comme moins aliens que les autres espèces."
@@ -120,6 +132,10 @@
  AVI_hand_plural:0 "serres"
  AVI_tooth:0 "mandibule"
  AVI_tooth_plural:0 "mandibules"
+ AVI_fossil:0 "$HUM_fossil$"
+ AVI_fossil_plural:0 "$HUM_fossil_plural$"
+ AVI_remnant:0 "$HUM_remnant$"
+ AVI_remnant_plural:0 "$HUM_remnant_plural$"
 
  ART:0 "arthropoïde"
  ART_desc:1 "La classe de l'espèce n'a aucune conséquence pour l'empire, mais les espèces arthropoïdes peuvent considérer les autres arthropoïdes comme moins aliens que les autres espèces."
@@ -144,6 +160,10 @@
  ART_hand_plural:0 "pinces"
  ART_tooth:0 "mandibule"
  ART_tooth_plural:0 "mandibules"
+ ART_fossil:0 "reste de coquille"
+ ART_fossil_plural:0 "restes de coquille"
+ ART_remnant:0 "coquillage"
+ ART_remnant_plural:0 "coquillages"
 
  MOL:0 "molluscoïde"
  MOL_desc:1 "La classe de l'espèce n'a aucune conséquence pour l'empire, mais les espèces molluscoïdes peuvent considérer les autres molluscoïdes comme moins aliens que les autres espèces."
@@ -168,6 +188,10 @@
  MOL_hand_plural:0 "tentacules"
  MOL_tooth:0 "dent"
  MOL_tooth_plural:0 "dents"
+ MOL_fossil:0 "reste"
+ MOL_fossil_plural:0 "restes"
+ MOL_remnant:0 "résidu"
+ MOL_remnant_plural:0 "résidus"
 
  FUN:0 "fungoïde"
  FUN_desc:1 "La classe de l'espèce n'a aucune conséquence pour l'empire, mais les espèces fungoïdes peuvent considérer les autres fungoïdes comme moins aliens que les autres espèces."
@@ -192,6 +216,10 @@
  FUN_hand_plural:0 "tentacules"
  FUN_tooth:0 "absorbeur nutritif"
  FUN_tooth_plural:0 "absorbeurs nutritifs"
+ FUN_fossil:0 "$MOL_fossil$"
+ FUN_fossil_plural:0 "$MOL_fossil_plural$"
+ FUN_remnant:0 "$MOL_remnant$"
+ FUN_remnant_plural:0 "$MOL_remnant_plural$"
 
  PLANT:1 "plantoïde"
  PLANT_desc:1 "La classe de l'espèce n'a aucune conséquence pour l'empire, mais les espèces plantoïdes peuvent considérer les autres plantoïdes comme moins aliens que les autres espèces."
@@ -216,6 +244,10 @@
  PLANT_hand_plural:0 "ramures"
  PLANT_tooth:0 "radicelle"
  PLANT_tooth_plural:0 "radicelles"
+ PLANT_fossil:0 "$HUM_fossil$"
+ PLANT_fossil_plural:0 "$HUM_fossil_plural$"
+ PLANT_remnant:0 "tronc desséché"
+ PLANT_remnant_plural:0 "troncs desséchés"
 
  PRE_MAM:0 "mammalienne"
  PRE_MAM_desc:0 ""
@@ -240,6 +272,10 @@
  PRE_MAM_hand_plural:0 "$MAM_hand_plural$"
  PRE_MAM_tooth:0 "$MAM_tooth$"
  PRE_MAM_tooth_plural:0 "$MAM_tooth_plural$"
+ PRE_MAM_fossil:0 "$HUM_fossil$"
+ PRE_MAM_fossil_plural:0 "$HUM_fossil_plural$"
+ PRE_MAM_remnant:0 "$HUM_remnant$"
+ PRE_MAM_remnant_plural:0 "$HUM_remnant_plural$"
 
  PRE_REP:0 "reptilienne"
  PRE_REP_desc:0 ""
@@ -266,6 +302,10 @@
  PRE_REP_hand_plural:0 "$REP_hand_plural$"
  PRE_REP_tooth:0 "$REP_tooth$"
  PRE_REP_tooth_plural:0 "$REP_tooth_plural$"
+ PRE_REP_fossil:0 "$HUM_fossil$"
+ PRE_REP_fossil_plural:0 "$HUM_fossil_plural$"
+ PRE_REP_remnant:0 "$HUM_remnant$"
+ PRE_REP_remnant_plural:0 "$HUM_remnant_plural$"
 
  PRE_AVI:0 "aviaire"
  PRE_AVI_desc:0 ""
@@ -296,6 +336,10 @@
  PRE_AVI_hand_plural:0 "$AVI_hand_plural$"
  PRE_AVI_tooth:0 "$AVI_tooth$"
  PRE_AVI_tooth_plural:0 "$AVI_tooth_plural$"
+ PRE_AVI_fossil:0 "$HUM_fossil$"
+ PRE_AVI_fossil_plural:0 "$HUM_fossil_plural$"
+ PRE_AVI_remnant:0 "$HUM_remnant$"
+ PRE_AVI_remnant_plural:0 "$HUM_remnant_plural$"
 
  PRE_ART:0 "arthropoïde"
  PRE_ART_desc:0 ""
@@ -320,6 +364,10 @@
  PRE_ART_hand_plural:0 "$ART_hand_plural$"
  PRE_ART_tooth:0 "$ART_tooth$"
  PRE_ART_tooth_plural:0 "$ART_tooth_plural$"
+ PRE_ART_fossil:0 "$ART_fossil$"
+ PRE_ART_fossil_plural:0 "$ART_fossil_plural$"
+ PRE_ART_remnant:0 "$ART_remnant$"
+ PRE_ART_remnant_plural:0 "$ART_remnant_plural$"
 
  PRE_MOL:0 "molluscoïde"
  PRE_MOL_desc:0 ""
@@ -344,6 +392,10 @@
  PRE_MOL_hand_plural:0 "$MOL_hand_plural$"
  PRE_MOL_tooth:0 "$MOL_tooth$"
  PRE_MOL_tooth_plural:0 "$MOL_tooth_plural$"
+ PRE_MOL_fossil:0 "$MOL_fossil$"
+ PRE_MOL_fossil_plural:0 "$MOL_fossil_plural$"
+ PRE_MOL_remnant:0 "$MOL_remnant$"
+ PRE_MOL_remnant_plural:0 "$MOL_remnant_plural$"
 
  PRE_FUN:0 "fungoïde"
  PRE_FUN_desc:0 ""
@@ -368,6 +420,10 @@
  PRE_FUN_hand_plural:0 "$FUN_hand_plural$"
  PRE_FUN_tooth:0 "$FUN_tooth$"
  PRE_FUN_tooth_plural:0 "$FUN_tooth_plural$"
+ PRE_FUN_fossil:0 "$MOL_fossil$"
+ PRE_FUN_fossil_plural:0 "$MOL_fossil_plural$"
+ PRE_FUN_remnant:0 "$MOL_remnant$"
+ PRE_FUN_remnant_plural:0 "$MOL_remnant_plural$"
 
  #ROBOT: "Robot"
  ROBOT_desc:0 "La classe de l'espèce n'a aucune conséquence pour l'empire, mais les espèces robotiques peuvent considérer les autres robots comme moins aliens que les autres espèces."
@@ -392,6 +448,10 @@
  ROBOT_hand_plural:0 "pinces préhensiles"
  ROBOT_tooth:0 "compacteur nutritif"
  ROBOT_tooth_plural:0 "compacteurs nutritifs"
+ ROBOT_fossil:0 "composant rouillé"
+ ROBOT_fossil_plural:0 "composants rouillés"
+ ROBOT_remnant:0 "tableau de commande rouillé"
+ ROBOT_remnant_plural:0 "tableaux de commande rouillés"
 
  #MMACHINE: "Machine"
  MACHINE_desc:0 "La classe de l'espèce n'a aucune conséquence pour l'empire, mais les espèces mécaniques peuvent considérer les autres machines comme moins aliens que les autres espèces."
@@ -416,6 +476,10 @@
  MACHINE_hand_plural:0 "pinces préhensiles"
  MACHINE_tooth:0 "$ROBOT_tooth$"
  MACHINE_tooth_plural:0 "$ROBOT_tooth_plural$"
+ MACHINE_fossil:0 "$ROBOT_fossil$"
+ MACHINE_fossil_plural:0 "$ROBOT_fossil_plural$"
+ MACHINE_remnant:0 "$ROBOT_remnant$"
+ MACHINE_remnant_plural:0 "$ROBOT_remnant_plural$"
 
  LITHOID:0 "lithoïde"
  LITHOID_desc:0 "La classe de l'espèce n'a aucune conséquence pour l'empire, mais les espèces lithoïdes peuvent considérer les autres lithoïdes comme moins aliens que les autres espèces."
@@ -440,7 +504,11 @@
  LITHOID_hand_plural:0 "éminences"
  LITHOID_tooth:0 "galet masticatoire"
  LITHOID_tooth_plural:0 "galets masticatoires"
- 
+ LITHOID_fossil:0 "éclat"
+ LITHOID_fossil_plural:0 "éclats"
+ LITHOID_remnant:0 "rocher sans vie"
+ LITHOID_remnant_plural:0 "rochers sans vie"
+
  SWARM:0 "Essaim"
  EXD:0 "Extradimensionnels"
 
@@ -467,6 +535,10 @@
  NECROID_hand_plural:0 "serres"
  NECROID_tooth:0 "croc"
  NECROID_tooth_plural:0 "crocs"
+ NECROID_fossil:0 "$HUM_fossil$"
+ NECROID_fossil_plural:0 "$HUM_fossil_plural$"
+ NECROID_remnant:0 "$HUM_remnant$"
+ NECROID_remnant_plural:0 "$HUM_remnant_plural$"
 
  # This is not really an actual species class, but we need it for the Imperial ship set
  IMPERIAL:0 "impériale"

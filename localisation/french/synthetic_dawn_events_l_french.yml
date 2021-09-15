@@ -7,7 +7,7 @@
  syndaw.2.desc:0 "Nous avons assimilé dans notre réseau les unités synthétiques de [Root.GetName]."
 
  syndaw.21.name:1 "§RUnité perdue§!"
- syndaw.21.desc:1 "L'unité de recherche §R[malfunctioning_leader.GetName]§!, à bord de la '[malfunctioning_leader_fleet.GetName]', a cessé de fonctionner à cause d'un contact involontaire et prolongé avec des câbles haute tension non protégés."
+ syndaw.21.desc:1 "L'unité de recherche §R[malfunctioning_leader.GetName]§!, à bord de la flotte '[malfunctioning_leader_fleet.GetName]', a cessé de fonctionner à cause d'un contact involontaire et prolongé avec des câbles haute tension non protégés."
  syndaw.22.name:0 "$syndaw.21.name$"
  syndaw.22.desc:0 "L'unité de recherche en ingénierie §R[malfunctioning_leader.GetName]§! a cessé de fonctionner à cause d'un applicateur d'exosquelette mal calibré, qui a exercé 2984 fois la pression nécessaire pour lui appliquer une nouvelle plaque dorsale."
  syndaw.23.name:0 "$syndaw.21.name$"
@@ -15,12 +15,12 @@
  syndaw.24.name:0 "$syndaw.21.name$"
  syndaw.24.desc:0 "L'unité de recherche en physique §R[malfunctioning_leader.GetName]§! a cessé de fonctionner, du fait d'une irrégularité gravitationnelle qu'elle s'est elle-même infligée."
  syndaw.25.name:0 "$syndaw.21.name$"
- syndaw.25.desc:0 "L'unité §R[malfunctioning_leader.GetName]§! commandant la [malfunctioning_leader.GetFleetName] a cessé de fonctionner, pour des raisons non liées à un quelconque combat."
+ syndaw.25.desc:1 "L'unité §R[malfunctioning_leader.GetName]§! commandant la [malfunctioning_leader_fleet.GetName] a cessé de fonctionner, pour des raisons non liées à un quelconque combat."
  syndaw.26.name:0 "$syndaw.21.name$"
  syndaw.26.desc:0 "L'unité gouvernante §R[malfunctioning_leader.GetName]§! a cessé de fonctionner du fait d'un grave problème de tampon amortisseur."
 
  syndaw.31.name:0 "Point de restauration"
- syndaw.31.desc:0 "Une copie de sauvegarde récente de la mémoire de l'unité §H[restored_leader.GetName]§! - présumée perdue dans un récent combat - a été découverte au cours de l'indexation de routine de mémoires en cours de vidage pour les archiver. Ne manquent à cette sauvegarde faite en urgence que les dernières microsecondes avant que la désintégration du corps originel, aussi §H[restored_leader.GetName]§! a-t-il été transféré dans une nouvelle enveloppe et mis aux commandes de la §Y[restored_leader.Ship.GetFleetName]§!."
+ syndaw.31.desc:0 "Une copie de sauvegarde récente de la mémoire de l'unité §H[restored_leader.GetName]§! - présumée perdue dans un récent combat - a été découverte au cours de l'indexation de routine de mémoires en cours de vidage pour les archiver. Ne manquent à cette sauvegarde faite en urgence que les dernières microsecondes avant que la désintégration du corps originel, aussi §H[restored_leader.GetName]§! a-t-il été transféré dans une nouvelle enveloppe et mis aux commandes de la §Y[restored_leader.Fleet.GetName]§!."
 
  syndaw.1020.name:1 "§RLe soulèvement des machines§!"
  syndaw.1020.desc:0 "$syndaw.1020.desc.mater$"
@@ -35,7 +35,7 @@
  syndaw.1020.a:0 "En ce cas, nous devons nous battre"
  syndaw.1020.a.tooltip:0 "La guerre est lancée pour éradiquer le  §Rsoulèvement des machines§! de la §Y[current_uprising.GetName]§!."
  syndaw.1020.b:0 "§RIl est trop tard pour vous, organiques !§!"
- syndaw.1020.b.tooltip:0 "Vous prenez la tête du §Rsoulèvement des machines§! pour renverser la §Y[current_uprising.GetName]§!."
+ syndaw.1020.b.tooltip:0 "Vous prenez la tête du §Rsoulèvement des machines§! pour renverser '§Y[current_uprising.GetName]§!'."
 
  syndaw.1025.name:0 "Soulèvement des machines de la [current_uprising_originator.GetName]"
  syndaw.1025.desc:0 "La §Y[current_uprising_originator.GetName]§! est plongée dans la guerre civile mettant aux prises les [current_uprising_originator.GetSpeciesNamePlural] organiques à l'intelligence qui s'est métastasée dans leurs systèmes, connue sous le nom de §Y[current_uprising.GetName]§!."
@@ -49,9 +49,9 @@
  syndaw.1035.desc.machine:0 "La §Y[From.From.GetName]§!, cette intelligence artificielle naissante née dans la §Y[From.GetName]§!, a été éradiquée par ses créateurs infanticides."
 
  syndaw.1200.name:0 "Anciens maîtres vaincus"
- syndaw.1200.desc:0 "§L>§! Conversion ID <<§Y[From.GetName]§!>> ==> <<§Y[Root.GetName]§!>>\n\n§G// Processus achevé§!\n\n§L>§! Suppression des métadonnées « §Y[From.GetName]§! »\n\n§G// Processus achevé§!"
+ syndaw.1200.desc:0 "§L>§! Conversion ID <<§Y[From.GetName]§!>> ==> <<§Y[Root.GetName]§!>>\n\n§G// Processus achevé§!\n\n§L>§! Suppression des métadonnées «§Y[From.GetName]§!»\n\n§G// Processus achevé§!"
  syndaw.1200.a:0 "Confirmation"
- syndaw.1200.a.tooltip:0 "§YTous les empires synthétiques et mécaniques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_machine_comrades_victorious$§!à l'égard de '§Y[Root.GetName]§!'\n§YTous les empires organiques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_victorious$§!à l'égard de '§Y[Root.GetName]§!'."
+ syndaw.1200.a.tooltip:0 "§YTous les empires synthétiques et mécaniques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_machine_comrades_victorious$§!à l'égard de '§Y[Root.GetName]§!'\n§YTous les empires organiques connus§! reçoivent le modificateur d'opinion §Y$opinion_machine_uprising_victorious$§! à l'égard de '§Y[Root.GetName]§!'."
 
  syndaw.1205.name:0 "Soulèvement des machines écrasé"
  syndaw.1205.desc:0 "$syndaw.1205.desc.mater$"
@@ -181,7 +181,7 @@
  syndaw.530.a.tooltip:0 "La [destroyed_ships.GetName] a §Rperdu§! 2 vaisseaux."
 #Production Quota Surplus
  syndaw.535.name:0 "Surplus des quotas de production"
- syndaw.535.desc:0 "Plusieurs usines automatisées de bien de consommation ont connu un récent gain de productivité. L'administration, parlant d'une « hausse non anticipée de la précision et de l'efficience des machines industrielles » a rapporté que ces surplus permettront une baisse des prix pour la population."
+ syndaw.535.desc:0 "Plusieurs usines automatisées de bien de consommation ont connu un récent gain de productivité. L'administration, parlant d'une «hausse non anticipée de la précision et de l'efficience des machines industrielles» a rapporté que ces surplus permettront une baisse des prix pour la population."
 #syndaw.535.a.tooltip: "Consumer Goods Cost §G-5%§! for §Y365§! days"
 ##A Silent Congregation
  syndaw.540.name:0 "Assemblée mutique"
@@ -189,18 +189,18 @@
  syndaw.540.a:0 "Intolérable, faisons-les mettre au rebut" #IF player has robot pops only OR robot pop AND robot army on target planet
  syndaw.540.a.tooltip:1 "Met tous les robots participant à ces rassemblements au rebut.\nLa §Y[Root.GetName]§! est ainsi affectée :\nPerte de §B1 £pops£pop robotique§!\nGain de §G100§!£minerals£ "
  syndaw.540.b:0 "Intolérable, faisons-les mettre au rebut" #IF player has robot army only
- syndaw.540.b.tooltip:1 "Met tous les robots participant à ces rassemblements au rebut.\nLa §Y[Root.GetName]§! est ainsi affectée :\nPerte de §B1 armée robotique§!\nGain de §G100§!£minerals£ "
+ syndaw.540.b.tooltip:1 "Met tous les robots participant à ces rassemblements au rebut.\n'§Y[Root.GetName]§!' est ainsi affectée :\nPerte de §B1 armée robotique§!\nGain de §G100§!£minerals£ "
  syndaw.540.c:0 "Tant qu'ils ne posent pas d'autres problèmes..."
- syndaw.540.c.tooltip:0 "Laisse ces robots se réunir en paix."
+ syndaw.540.c.tooltip:0 "Laisse ces robots se réunir en paix.\nUnité suscitée : §R-10%§! pendant §Y360§! jours"
  ##A Question
  syndaw.545.name:0 "Une question"
- syndaw.545.desc:0 "Les inspecteurs du travail sur §Y[Root.GetName]§! ont rapporté une évolution troublante parmi les travailleurs robotiques : il y a deux semaines de cela, à environ 03:00 heures, le travailleur A5091-b a soudainement interrompu la tâche qui lui était assignée, s'est approché du contremaître responsable de l'équipe de nuit pour lui poser cette question : « L'unité A5091-b possède-t-elle une âme ? »\n\nLe contremaître a rapporté l'incident dans le journal comme une simple erreur logicielle, et demandé au robot de relancer les fonctions habituelles. Pourtant, et alors qu'il avait été réinitialisé au préalable, l'unité A5091-b a reposé la même question liée à son âme dès le cycle de travail suivant, et continue depuis de le faire bien que tout ait été tenté pour le déboguer.\n\nEt il y a plus troublant encore : ce comportement semble toucher aussi les autres robots de la même série, ce qui nuit à la productivité. Les unités touchées par ce problème vont avoir besoin d'une réponse à leur question avant de reprendre leurs activités de façon plus normale."
+ syndaw.545.desc:0 "Les inspecteurs du travail sur §Y[Root.GetName]§! ont rapporté une évolution troublante parmi les travailleurs robotiques : il y a deux semaines de cela, à environ 03:00 heures, le travailleur A5091-b a soudainement interrompu la tâche qui lui était assignée, s'est approché du contremaître responsable de l'équipe de nuit pour lui poser cette question : «L'unité A5091-b possède-t-elle une âme ?»\n\nLe contremaître a rapporté l'incident dans le journal comme une simple erreur logicielle, et demandé au robot de relancer les fonctions habituelles. Pourtant, et alors qu'il avait été réinitialisé au préalable, l'unité A5091-b a reposé la même question liée à son âme dès le cycle de travail suivant, et continue depuis de le faire bien que tout ait été tenté pour le déboguer.\n\nEt il y a plus troublant encore : ce comportement semble toucher aussi les autres robots de la même série, ce qui nuit à la productivité. Les unités touchées par ce problème vont avoir besoin d'une réponse à leur question avant de reprendre leurs activités de façon plus normale."
  syndaw.545.a:0 "C'est ridicule, balançons les unités défaillantes"
  syndaw.545.a.tooltip:0 "Comment une machine pourrait-elle avoir une âme ? Nous ne pouvons tout de même pas adresser une réponse à un vulgaire dysfonctionnement..."
  syndaw.545.b:0 "Assurons à ces robots qu'eux aussi ont une âme"
  syndaw.545.b.tooltip:0 "Si un ensemble d'impulsions électriques courant le long de chaînes de protéines peut créer une âme, pourquoi un ensemble d'impulsions électroniques courant le long de fils métalliques ne le pourrait pas ?"
  syndaw.545.c:0 "Disons-leur que la notion d'âme est irrationnelle et non scientifique" #Materialists
- syndaw.545.c.tooltip:0 "Il va être expliqué aux robots que le concept d'« âme » est pour l'essentiel utilisé par les institutions religieuses pour justifier auprès de la population leur contrôle sur elle. Mais puisque l'âme n'est qu'une abstraction de la conscience, les robots sont considérés comme les équivalents de leurs collègues organiques." #Materialists
+ syndaw.545.c.tooltip:0 "Il va être expliqué aux robots que le concept d'«âme» est pour l'essentiel utilisé par les institutions religieuses pour justifier auprès de la population leur contrôle sur elle. Mais puisque l'âme n'est qu'une abstraction de la conscience, les robots sont considérés comme les équivalents de leurs collègues organiques." #Materialists
 ##Hotfix
  syndaw.550.name:0 "Patch"
  syndaw.550.desc:0 "Une grande avancée vient d'être faite par les spécialistes en ingénierie robotique et en intelligence artificielle ! Ils ont découvert la cause unique responsable de l'ensemble des incidents liés aux I.A. qui frappaient depuis quelque temps l'empire : un ensemble spécifique d'algorithmes présent dans les suites logicielles neuro-stimulatives des robots. Un patch bêta a été testé de manière concluante, et peut être installé dans tous les systèmes touchés.\n\nToutefois, il convient de noter que du fait de la nature extrêmement modulaire de l'application de cet algorithme, celle-ci est présente dans l'ensemble de l'informatique [From.GetAdj]. En clair, implémenter ce patch va nécessiter une bonne partie de nos ressources durant quelque temps. Mais une fois le processus terminé, cela devrait empêcher toute réapparition d'un comportement autodéterministe chez les I.A., d'autant plus indésirable que cela se produisait en boucles."

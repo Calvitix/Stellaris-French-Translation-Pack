@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 15.04.2021
- # Translation check : 15.04.2021
+ # Update check : 15.09.2021
+ # Translation check : 15.09.2021
  ####################################
  
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_CRACKER:0 "Prépare la destruction de $PLANET|Y$"
@@ -119,6 +119,7 @@
  STARBASE_RETURN_CONTROL_IS_OWNER:0 "§RCette base stellaire nous appartient§!"
  STARBASE_RETURN_CONTROL_IS_CONTROLLER:0 "§RCette base stellaire ne nous appartient pas§!"
  STARBASE_DOWNGRADE_IN_COMBAT:0 "§RImpossible de rétrograder une base stellaire qui livre un combat.§!"
+ STARBASE_DEFENSE_UPGRADE_IN_COMBAT:0 "§RImpossible de rétrograder les plateformes de défense d'une base stellaire si celle-ci est en plein combat.§!"
  STARBASE_IS_DISABLED:0 "§RLa base stellaire a été démantelée§!"
  STARBASE_IN_USE:0 "§RImpossible de rétrograder ou démanteler une base stellaire ayant des constructions en cours.§!"
  STARBASE_UNDER_OCCUPATION:0 "§RImpossible tant que la base stellaire est sous occupation.§!"
@@ -283,7 +284,7 @@
  FLEET_MANAGER_VIEW_NO_REINFORCE_TEXT:0 "§GAucune flotte n'a besoin d'être renforcée.§!"
  FLEET_MANAGER_VIEW_REINFORCE_TEXT:1 "$NUMFLEETS|Y$ flottes doivent être renforcées ($NUMSHIPS|R$ vaisseaux, coût : $COST$)"
  FLEET_MANAGER_VIEW_REINFORCE_COST:1 "Nous avons les moyens de renforcer $NUMSHIPS|Y$ vaisseaux (coût : $COST$)"
- FLEET_MANAGER_VIEW_REINFORCE_COST_NONE:0 "0£minerals£"
+ FLEET_MANAGER_VIEW_REINFORCE_COST_NONE:1 "0£minerals£"
  FLEET_MANAGER_CHOOSE_DESIGN:0 "Choisir un modèle"
  FLEET_MANAGER_BUILD_QUEUE:0 "File d'attente"
  FLEET_MANAGER_HEALTH:0 "£ship_stats_hitpoints£ $VALUE|%0$"
@@ -416,11 +417,11 @@
  action.88.desc:0 "Nous avons gagné le contrôle administratif de §Y[From.GetName]§!, qui relevait auparavant de la §Y[former_planet_owner.GetName]§!, du fait que nous disposons d'une §Hbase stellaire§! dans le système de §Y[From.GetStarName]§!."
 
  apoc.1.name:0 "Portail abandonné"
- apoc.1.desc:0 "Ce qui ressemble à une ancienne station spatiale a été localisé en bordure du système de §Y[gateway_system.GetName]§!. La forte signature subspatiale résiduelle qui l'entoure indique qu'il pourrait s'agir d'une sorte de « §Hportail§! », l'une des stations d'un réseau théorique qui à un moment ou un autre aurait permis des voyages quasi instantanés entre différentes régions de la galaxie.\n\nMais s'il s'agit bien d'un portail, son état actuel de délabrement le rend inutilisable. S'il pouvait être restauré et remis en état de fonctionnement, son possesseur pourrait sans doute accéder à d'autres portails dans la galaxie, et aurait ainsi le moyen de parcourir des distances immenses en seulement quelques jours."
+ apoc.1.desc:0 "Ce qui ressemble à une ancienne station spatiale a été localisé en bordure du système de §Y[gateway_system.GetName]§!. La forte signature subspatiale résiduelle qui l'entoure indique qu'il pourrait s'agir d'une sorte de «§Hportail§!», l'une des stations d'un réseau théorique qui à un moment ou un autre aurait permis des voyages quasi instantanés entre différentes régions de la galaxie.\n\nMais s'il s'agit bien d'un portail, son état actuel de délabrement le rend inutilisable. S'il pouvait être restauré et remis en état de fonctionnement, son possesseur pourrait sans doute accéder à d'autres portails dans la galaxie, et aurait ainsi le moyen de parcourir des distances immenses en seulement quelques jours."
  apoc.2.desc:0 "Nous avons découvert un nouveau portail abandonné, cette fois dans le système de §Y[gateway_system.GetName]§!. Tout comme pour le premier, vu son état il est impossible de le faire fonctionner."
  apoc.3.desc:3 "Un ancien portail subspatial a été localisé à proximité de §H[gateway_system.GetName]§!. Il semble avoir été construit entièrement par de microscopiques §Hnanites§! de conception inconnue.\n\nCertains signes suggèrent que ce portail a été altéré après avoir été construit : sa connexion avec le reste du réseau a été coupée, et la seule destination qu'il permet d'atteindre est un groupe d'étoiles non reconnues, se trouvant juste au-delà de la bordure de la galaxie, qui a été désigné par les astronomes sous le nom d'§Hamas-L§!.\n\nSi le portail émet une faible signature énergétique, il a été délibérément verrouillé en étant plongé dans une sorte de cycle de maintenance qui empêche son activation. Jusqu'à ce que nous ayons trouvé un moyen de mettre fin à ce cycle, l'amas-L restera hors de portée pour nous."
  apoc.5.name:0 "Trou de ver naturel"
- apoc.5.desc:0 "Une sorte de phénomène subspatial naturel a été détecté en bordure du système de §H[wormhole_system.GetName]§!. Une déchirure dans la trame de l'espace-temps s'est formée ici, créant un « §Htrou de ver§! » qui, selon les [Root.Owner.GetScientistPlural], pourrait constituer une sorte de conduite vers un autre trou de vers situé ailleurs dans la galaxie.\n\nSelon la localisation de cet autre trou de ver, cela pourrait peut-être permettre à nos vaisseaux de voyager d'un bout à l'autre de la galaxie en quelques jours seulement. Malheureusement, ce trou de vers, comme c'est d'ailleurs le cas pour la plupart, est par nature instable. Tout vaisseau suffisamment hardi pour s'y engager serait détruit en quelques secondes."
+ apoc.5.desc:0 "Une sorte de phénomène subspatial naturel a été détecté en bordure du système de §H[wormhole_system.GetName]§!. Une déchirure dans la trame de l'espace-temps s'est formée ici, créant un «§Htrou de ver§!» qui, selon les [Root.Owner.GetScientistPlural], pourrait constituer une sorte de conduite vers un autre trou de vers situé ailleurs dans la galaxie.\n\nSelon la localisation de cet autre trou de ver, cela pourrait peut-être permettre à nos vaisseaux de voyager d'un bout à l'autre de la galaxie en quelques jours seulement. Malheureusement, ce trou de vers, comme c'est d'ailleurs le cas pour la plupart, est par nature instable. Tout vaisseau suffisamment hardi pour s'y engager serait détruit en quelques secondes."
  apoc.5.a:0 "Si nous pouvions trouver un moyen de le stabiliser..."
  apoc.10.name:0 "Portail réactivé"
  apoc.10.desc.1:0 "$apoc.10.desc.a$\n\n$apoc.10.desc.b$"
