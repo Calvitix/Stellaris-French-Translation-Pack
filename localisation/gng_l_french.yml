@@ -149,7 +149,7 @@
  guardians.1211.desc:0 "Le commandant du poste d'observation en orbite autour de [From.GetName] signale que l'otage pris par les États-Unis de l'Ouest [From.GetName] a été exécuté et est probablement disséqué dans un laboratoire avec le reste du personnel tué.\n\nDe plus, des informations supplémentaires recueillies suggèrent qu'une partie de la technologie personnelle que notre équipe a réalisée est en cours d'ingénierie inverse avec un succès considérable."
  guardians.1211.a:0 "Arrêtez cette recherche et récupérez les corps."
  guardians.1211.b:0 "Ne fais rien. Ce sont les conséquences."
- guardians.1211.c:0 "User de représailles. Tuez le responsable [From.Owner.GetSpeciesName]."
+ guardians.1211.c:0 "User de représailles. Tuez le responsable [From.Owner.Species.GetName]."
  guardians.1211.d:0 "Laissez tomber. Retirez le poste d'observation."
  
  # Leader Contact Bad Choice Rescue
@@ -157,7 +157,7 @@
  guardians.1221.desc:0 "Le commandant du poste d'observation en orbite autour de [From.GetName] signale que l'otage pris par les États-Unis de l'Ouest [From.GetName] a été discrètement récupéré par une équipe d'extraction secrète. Notre envoyé est vivant mais a été torturé.\n\nLe commandant rapporte également que le reste du personnel tué est probablement disséqué dans un laboratoire.\n\nDes informations complémentaires recueillies suggèrent une partie de la technologie personnelle de notre l'équipe transportée est en cours d'ingénierie inverse avec un succès considérable par les [From.Owner.GetSpeciesNamePlural]."
  guardians.1221.a:0 "Arrêtez cette recherche et récupérez les corps."
  guardians.1221.b:0 "Ne faites rien. Ce sont les conséquences de notre imprudence."
- guardians.1221.c:0 "User de représailles. Tuez le responsable [From.Owner.GetSpeciesName]."
+ guardians.1221.c:0 "User de représailles. Tuez le responsable [From.Owner.Species.GetName]."
  guardians.1221.d:0 "Laisser. Retirez le poste d'observation."
  
  # Leader Contact Bad Choice Negotiation
@@ -169,14 +169,14 @@
  
  # Leader Contact Bad Choice Kill President Success
  guardians.1241.name:0 "Sortir les poubelles"
- guardians.1241.desc:0 "Le commandant du poste d'observation en orbite autour de [From.GetName] rapporte qu'après un raid réussi, le [From.Owner.GetSpeciesName] qui nous a causé tant de problèmes est maintenant de l'histoire ancienne. Le nouveau président semble plus disposé à coopérer avec nous.\n\nLe commandant demande de récupérer les corps du personnel tué le [From.GetName] et tout équipement perdu."
+ guardians.1241.desc:0 "Le commandant du poste d'observation en orbite autour de [From.GetName] rapporte qu'après un raid réussi, le [From.Owner.Species.GetName] qui nous a causé tant de problèmes est maintenant de l'histoire ancienne. Le nouveau président semble plus disposé à coopérer avec nous.\n\nLe commandant demande de récupérer les corps du personnel tué le [From.GetName] et tout équipement perdu."
  guardians.1241.a:0 "Récupérez tous les corps et équipements dont [From.Owner.GetSpeciesNamePlural] dispose encore."
  guardians.1241.b:0 "Laissez les [From.Owner.GetSpeciesNamePlural] garder les corps ou l'équipement dont ils disposent."
  guardians.1241.c:0 "Nous partons. Retirez le poste d'observation."
  
  # Leader Contact Bad Choice Kill President Failure
  guardians.1251.name:0 "Opération sanglante"
- guardians.1251.desc:0 "Le commandant du poste d'observation en orbite autour de [From.GetName] rapporte que l'opération visant à faire du [From.Owner.GetSpeciesName] un ex-président s'est mal déroulée. Les forces de sécurité ont tué plusieurs de nos agents et forcé une retraite, et la cible a disparu dans la clandestinité."
+ guardians.1251.desc:0 "Le commandant du poste d'observation en orbite autour de [From.GetName] rapporte que l'opération visant à faire du [From.Owner.Species.GetName] un ex-président s'est mal déroulée. Les forces de sécurité ont tué plusieurs de nos agents et forcé une retraite, et la cible a disparu dans la clandestinité."
  guardians.1251.a:0 "Récupérez tous les corps et équipements que possède [From.Owner.GetSpeciesNamePlural]."
  guardians.1251.b:0 "Laissez-les garder tout corps ou équipement dont ils disposent."
  guardians.1251.c:0 "Nous partons. Retirez le poste d'observation."
@@ -208,7 +208,7 @@
  
  # Scientist Contact No Station Trap
  guardians.1321.name:0 "C'est un piège !"
- guardians.1321.desc:0 "Le commandant en second du poste d'observation en orbite autour de [From.GetName] rapporte que la rencontre avec le scientifique [From.Owner.GetSpeciesName] était un piège bien tendu par les autorités. Un certain nombre de nos représentants ont été tués par les forces gouvernementales et l'envoyé principal de notre équipe, le commandant de la station, a été pris en otage.\n\nLe président des États-Unis de l'Ouest [From.GetName] a laissé une courte note pour notre équipe de récupération : «Je serai en contact.»\n\nOn ne saura jamais si le scientifique était dans cette embuscade - le scientifique a été tué avec les aides du commandant."
+ guardians.1321.desc:0 "Le commandant en second du poste d'observation en orbite autour de [From.GetName] rapporte que la rencontre avec le scientifique [From.Owner.Species.GetName] était un piège bien tendu par les autorités. Un certain nombre de nos représentants ont été tués par les forces gouvernementales et l'envoyé principal de notre équipe, le commandant de la station, a été pris en otage.\n\nLe président des États-Unis de l'Ouest [From.GetName] a laissé une courte note pour notre équipe de récupération : «Je serai en contact.»\n\nOn ne saura jamais si le scientifique était dans cette embuscade - le scientifique a été tué avec les aides du commandant."
  guardians.1321.a:0 "N'essayez pas ou ne répondez à aucun autre contact."
  guardians.1321.b:0 "Récupérez le commandant, peu importe le prix !"
  guardians.1321.c:0 "Commencez à négocier. Découvrez ce qu'ils veulent."
@@ -258,7 +258,7 @@
  
  # Aiding The Abandoned
  guardians.1541.name:0 "Aider les abandonnés"
- guardians.1541.desc:0 "Le commandant du poste d'observation en orbite autour de [From.GetName] rapporte que plusieurs opérations secrètes pour extraire nos [From.Owner.GetSpeciesName] émissaires choisis ont réussi. Ils ont été amenés directement dans la station, leur formation a commencé."
+ guardians.1541.desc:0 "Le commandant du poste d'observation en orbite autour de [From.GetName] rapporte que plusieurs opérations secrètes pour extraire nos [From.Owner.Species.GetName] émissaires choisis ont réussi. Ils ont été amenés directement dans la station, leur formation a commencé."
  guardians.1541.a:0 "Bon travail."
  
  # Broadcast Good Response
@@ -277,7 +277,7 @@
  
  # Broadcast Bad Response
  guardians.1701.name:0 "Le monde terrifié"
- guardians.1701.desc:0 "À l'aide d'un petit réseau satellite et de quelques drones, le commandant du poste d'observation en orbite autour de [From.GetName] a dit bonjour à tous les [From.Owner.GetSpeciesName] de la planète en même temps.\n\nLa réponse a été incroyablement mauvaise. Des Suicides de masse partout dans le monde. Des armées se mobilisent. Les [From.Owner.GetSpeciesNamePlural] sont effrayés, ils hurlent contre le ciel, implorant sa miséricorde."
+ guardians.1701.desc:0 "À l'aide d'un petit réseau satellite et de quelques drones, le commandant du poste d'observation en orbite autour de [From.GetName] a dit bonjour à tous les [From.Owner.Species.GetName] de la planète en même temps.\n\nLa réponse a été incroyablement mauvaise. Des Suicides de masse partout dans le monde. Des armées se mobilisent. Les [From.Owner.GetSpeciesNamePlural] sont effrayés, ils hurlent contre le ciel, implorant sa miséricorde."
  guardians.1701.a:0 "Donnez aux indigènes le temps de se calmer."
  guardians.1701.b:0 "Diffusez des intentions pacifiques ! Maintenant !"
  guardians.1701.c:0 "Oups. Retirez le poste d'observation."
@@ -289,7 +289,7 @@
  
  # Capital Landing Good Response
  guardians.1801.name:0 "Tout le monde se souvient où nous nous sommes posés"
- guardians.1801.desc:0 "Le commandant du poste d'observation en orbite [From.GetName] a fait atterrir une navette dans le parc de la capitale de la plus grande nation de la planète.\n\nLes autochtones à proximité se sont approchés avec appréhension, puis nous ont accueillis agréablement. Le commandant a demandé à parler à l'un des dirigeants de [From.Owner.GetSpeciesName] et quelques minutes plus tard seulement, le président de la nation est arrivé et a souhaité la bienvenue au commandant à [From.GetName] au nom de tous les [From.Owner.GetSpeciesNamePlural].\n\nLe commandant est ensuite retourné au poste en toute sécurité."
+ guardians.1801.desc:0 "Le commandant du poste d'observation en orbite [From.GetName] a fait atterrir une navette dans le parc de la capitale de la plus grande nation de la planète.\n\nLes autochtones à proximité se sont approchés avec appréhension, puis nous ont accueillis agréablement. Le commandant a demandé à parler à l'un des dirigeants de [From.Owner.Species.GetName] et quelques minutes plus tard seulement, le président de la nation est arrivé et a souhaité la bienvenue au commandant à [From.GetName] au nom de tous les [From.Owner.GetSpeciesNamePlural].\n\nLe commandant est ensuite retourné au poste en toute sécurité."
  guardians.1801.a:0 "Un excellent début."
  guardians.1801.b:0 "Méfiant. Retirez le poste d'observation."
  
@@ -345,7 +345,7 @@
  
  # Embassy
  guardians.5001.name:0 "Ambassade"
- guardians.5001.desc:0 "Lors de notre dernier contact avec les [From.Owner.GetSpeciesNamePlural], un défenseur de l'intensification des interactions entre nous et la population a proposé que nous établissions une ambassade sur la planète.\n\nLe commandant du poste d'observation en orbite de §Y[From.GetName]§! suggère plutôt que nous installions une ambassade sur la station et que nous assurons un service de navette pour les [From.Owner.GetSpeciesName] diplomates qui souhaitent l'utiliser."
+ guardians.5001.desc:0 "Lors de notre dernier contact avec les [From.Owner.GetSpeciesNamePlural], un défenseur de l'intensification des interactions entre nous et la population a proposé que nous établissions une ambassade sur la planète.\n\nLe commandant du poste d'observation en orbite de §Y[From.GetName]§! suggère plutôt que nous installions une ambassade sur la station et que nous assurons un service de navette pour les [From.Owner.Species.GetName] diplomates qui souhaitent l'utiliser."
  guardians.5001.a:0 "Travaillez avec le défenseur pour concrétiser son idée."
  guardians.5001.b:0 "Établissez une ambassade sur la station."
  guardians.5001.c:0 "Restez énigmatique. Pas d'ambassade. Pas de navette."
@@ -422,7 +422,7 @@
  qbricks.3100.c: "Qu'avons-nous fait ?"
  # Rapid weapons advancements
  qbricks.3200.name: "Une épée plus tranchante"
- qbricks.3200.desc: "§Y[From.GetName]§! est en flamme avec la guerre entre une demi-douzaine d'alliances continentales. Cependant, les [From.Owner.GetSpeciesNamePlural] ont déployé des efforts considérables pour se battre avec honneur et pour empêcher les civils d'être dans le conflit. Le fait qu'ils utilisent la diplomatie parallèlement à la bataille suggère une volonté de fer qui les empêche de tomber dans la barbarie.\n\nCela leur a également donné la puissance [From.Owner.GetSpeciesName] et le temps nécessaires pour faire avancer leurs technologies militaires. Leurs armes et armures sont désormais produites en masse par des spécialistes et sont pour la plupart de bonne qualité. Les armes de siège deviennent de plus en plus complexes. Les vaisseaux sont de plus en plus solides à chaque projet de construction.\n\nIls ont même des médecins spécialistes soignant les blessés et améliorant leurs biosciences.\n\nIl semble que la guerre incite la plupart des nations à exceller dans l'art même de le faire."
+ qbricks.3200.desc: "§Y[From.GetName]§! est en flamme avec la guerre entre une demi-douzaine d'alliances continentales. Cependant, les [From.Owner.GetSpeciesNamePlural] ont déployé des efforts considérables pour se battre avec honneur et pour empêcher les civils d'être dans le conflit. Le fait qu'ils utilisent la diplomatie parallèlement à la bataille suggère une volonté de fer qui les empêche de tomber dans la barbarie.\n\nCela leur a également donné la puissance [From.Owner.Species.GetName] et le temps nécessaires pour faire avancer leurs technologies militaires. Leurs armes et armures sont désormais produites en masse par des spécialistes et sont pour la plupart de bonne qualité. Les armes de siège deviennent de plus en plus complexes. Les vaisseaux sont de plus en plus solides à chaque projet de construction.\n\nIls ont même des médecins spécialistes soignant les blessés et améliorant leurs biosciences.\n\nIl semble que la guerre incite la plupart des nations à exceller dans l'art même de le faire."
  qbricks.3200.a: "Le [From.Owner.GetSpeciesNamePlural] peut s'avérer très utile."
  qbricks.3200.b: "Excellent résultat."
  qbricks.3200.c: "C'était peut-être une erreur."
@@ -439,7 +439,7 @@
  qbricks.4100.c: "Est-ce bien ce que nous voulions ?"
  # Unity and unification
  qbricks.4200.name: "Unité"
- qbricks.4200.desc: "Les artisans de paix ont fait de [From.GetName] un monde très productif et uni. Les [From.Owner.GetSpeciesNamePlural] ont cessé de se battre pour les ressources, les terres et d'autres biens matériels.\n\nAu lieu de cela, tous les [From.Owner.GetSpeciesName] s'efforcent d'exceller à faire quelque chose pour contribuer à la société et à la communauté, généralement quelque chose pour lequel ils ont un talent naturel.\n\nIl y a des [From.Owner.GetSpeciesNamePlural] qui ont acquis un statut plus élevé dans la société grâce à leurs compétences contribuant au maintien de la paix, à la coopération, à l'arbitrage des quelques désaccords qui surviennent et à l'amélioration de la productivité de tous les [From.Owner.GetSpeciesName] pour l'avantage de tous sur §Y[From.GetName]§!.\n\nLa monnaie, le gain matériel et l'économie sont devenus une banalité mineure dans les routines quotidiennes du [From.Owner.GetSpeciesName]."
+ qbricks.4200.desc: "Les artisans de paix ont fait de [From.GetName] un monde très productif et uni. Les [From.Owner.GetSpeciesNamePlural] ont cessé de se battre pour les ressources, les terres et d'autres biens matériels.\n\nAu lieu de cela, tous les [From.Owner.Species.GetName] s'efforcent d'exceller à faire quelque chose pour contribuer à la société et à la communauté, généralement quelque chose pour lequel ils ont un talent naturel.\n\nIl y a des [From.Owner.GetSpeciesNamePlural] qui ont acquis un statut plus élevé dans la société grâce à leurs compétences contribuant au maintien de la paix, à la coopération, à l'arbitrage des quelques désaccords qui surviennent et à l'amélioration de la productivité de tous les [From.Owner.Species.GetName] pour l'avantage de tous sur §Y[From.GetName]§!.\n\nLa monnaie, le gain matériel et l'économie sont devenus une banalité mineure dans les routines quotidiennes du [From.Owner.Species.GetName]."
  qbricks.4200.a: "Excellent résultat."
  qbricks.4200.b: "C'est ainsi que la société devrait fonctionner."
  qbricks.4200.c: "Est-ce bien ce que nous voulions ?"

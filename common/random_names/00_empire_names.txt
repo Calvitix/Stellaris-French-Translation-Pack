@@ -1,6 +1,6 @@
 #WARNING : Overwritten by FrenchTranslationPack
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.0.1. Check OK, 15/04/2021
+# Calvitix 3.1.1. Check OK, 15/09/2021
 #
 
 ##############
@@ -268,7 +268,7 @@ empire_name_parts_list = {
 		"NAME_EMPIRE_Battle_Clans" = 4
 		"NAME_EMPIRE_Tribes" = 4
 		"NAME_EMPIRE_Fire_Tribes" = 4
-		"NAME_EMPIRE_Clan" = 4
+		"NAME_EMPIRE_Clans" = 4
 		"NAME_EMPIRE_Mandate" = 1
 		"NAME_EMPIRE_Coalition" = 1
 		"NAME_EMPIRE_Alliance" = 2
@@ -1159,34 +1159,34 @@ empire_name_parts_list = {
 		"NAME_EMPIRE_Destroyers" = 1
 		"NAME_EMPIRE_Reavers" = 1
 		"NAME_EMPIRE_Bloodletters" = 1
-		"NAME_EMPIRE_Annihilators"
-		"NAME_EMPIRE_Exterminators"
-		"NAME_EMPIRE_Eradicators"
-		"NAME_EMPIRE_Despoilers"
-		"NAME_EMPIRE_Purifiers"
-		"NAME_EMPIRE_Cleansers"
-		"NAME_EMPIRE_Berserkers"
-		"NAME_EMPIRE_Skull_Lords"
-		"NAME_EMPIRE_Bloodborn"
-		"NAME_EMPIRE_Executioners"
-		"NAME_EMPIRE_Heralds_of_Death"
-		"NAME_EMPIRE_Desolators"
-		"NAME_EMPIRE_Ravagers"
-		"NAME_EMPIRE_Punishers"
-		"NAME_EMPIRE_Bloodborn"
-		"NAME_EMPIRE_Chosen"
-		"NAME_EMPIRE_Death_Bringers"
-		"NAME_EMPIRE_Crusaders"
-		"NAME_EMPIRE_Slaughterers"
-		"NAME_EMPIRE_Butchers"
-		"NAME_EMPIRE_Star_Hunters"
-		"NAME_EMPIRE_Euthanizers"
-		"NAME_EMPIRE_Silencers"
-		"NAME_EMPIRE_Death_Lords"
-		"NAME_EMPIRE_Decimators"
-		"NAME_EMPIRE_Obliterators"
-		"NAME_EMPIRE_Slayers"
-		"NAME_EMPIRE_Reapers"
+		"NAME_EMPIRE_Annihilators" = 1
+		"NAME_EMPIRE_Exterminators" = 1
+		"NAME_EMPIRE_Eradicators" = 1
+		"NAME_EMPIRE_Despoilers" = 1
+		"NAME_EMPIRE_Purifiers" = 1
+		"NAME_EMPIRE_Cleansers" = 1
+		"NAME_EMPIRE_Berserkers" = 1
+		"NAME_EMPIRE_Skull_Lords" = 1
+		"NAME_EMPIRE_Bloodborn" = 1
+		"NAME_EMPIRE_Executioners" = 1
+		"NAME_EMPIRE_Heralds_of_Death" = 1
+		"NAME_EMPIRE_Desolators" = 1
+		"NAME_EMPIRE_Ravagers" = 1
+		"NAME_EMPIRE_Punishers" = 1
+		"NAME_EMPIRE_Bloodborn" = 1
+		"NAME_EMPIRE_Chosen" = 1
+		"NAME_EMPIRE_Death_Bringers" = 1
+		"NAME_EMPIRE_Crusaders" = 1
+		"NAME_EMPIRE_Slaughterers" = 1
+		"NAME_EMPIRE_Butchers" = 1
+		"NAME_EMPIRE_Star_Hunters" = 1
+		"NAME_EMPIRE_Euthanizers" = 1
+		"NAME_EMPIRE_Silencers" = 1
+		"NAME_EMPIRE_Death_Lords" = 1
+		"NAME_EMPIRE_Decimators" = 1
+		"NAME_EMPIRE_Obliterators" = 1
+		"NAME_EMPIRE_Slayers" = 1
+		"NAME_EMPIRE_Reapers" = 1
 	}
 }
 
@@ -4830,6 +4830,26 @@ empire_name_format = {
 	# Human Empire
 }
 
+# Hive Mind
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10
+			has_government = "gov_hive_mind"
+			has_origin = origin_necrophage
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.necrophage_hive_mind.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<hive_mind> [This.GetSpeciesName]"
+	# Hungry Human Empire
+}
+
 # Devouring Swarm
 empire_name_format = {
 	random_weight = {
@@ -4846,6 +4866,26 @@ empire_name_format = {
 	format = "format.devouring_swarm.1"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "[This.GetSpeciesName] <devouring_swarm>"
+	# Human Empire
+}
+
+# Devouring Swarm
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10
+			has_government = "gov_devouring_swarm"
+			has_origin = origin_necrophage
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.necrophage_devouring_swarm.1"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "<devouring_swarm> [This.GetSpeciesName]"
 	# Human Empire
 }
 
@@ -5843,6 +5883,9 @@ empire_name_parts_list = {
 		"NAME_EMPIRE_Multiplex" = 10
 		"NAME_EMPIRE_Manifold" = 10
 		"NAME_EMPIRE_Animus" = 10
+		NAME_EMPIRE_Airweb = 1
+		NAME_EMPIRE_Cold_Steel = 1
+		NAME_EMPIRE_Lethal_Instrument = 1
 	}
 }
 
@@ -5877,6 +5920,8 @@ empire_name_parts_list = {
 		"NAME_EMPIRE_Multiplex" = 10
 		"NAME_EMPIRE_Manifold" = 10
 		"NAME_EMPIRE_Animus" = 10
+		NAME_EMPIRE_Machine_Intelligence = 10
+		NAME_EMPIRE_Smart_Bot = 5
 	}
 }
 
@@ -6078,6 +6123,7 @@ empire_name_format = {
 		modifier = {
 			add = 2
 			has_origin = origin_necrophage
+			is_hive_empire = no
 		}
 	}
 	format = "format.necrophage.1"
@@ -6093,6 +6139,7 @@ empire_name_format = {
 		modifier = {
 			add = 2
 			has_origin = origin_necrophage
+			is_hive_empire = no
 		}
 	}
 	format = "format.necrophage.2"
@@ -6108,6 +6155,7 @@ empire_name_format = {
 		modifier = {
 			add = 8
 			has_origin = origin_necrophage
+			is_hive_empire = no
 		}
 	}
 	format = "format.necrophage.3"
@@ -6123,6 +6171,7 @@ empire_name_format = {
 		modifier = {
 			add = 4
 			has_origin = origin_necrophage
+			is_hive_empire = no
 		}
 	}
 	format = "format.necrophage.4"

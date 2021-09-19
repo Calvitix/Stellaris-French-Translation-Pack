@@ -1,0 +1,618 @@
+﻿l_english:
+
+simple_tradition_version:0 "Traditions simples V1. 4. 1"
+######################################
+#   TRADITIONS
+######################################
+
+######################################
+#   INDUSTRY
+######################################
+
+# Basic
+  tradition_industry:0 "Industrie"
+  tradition_industry_desc:0 "La clé pour exécuter un empire réussi est de conserver le flux de matériaux de base élevés. "
+
+  tradition_industry_machine:0 "Industrie"
+  tradition_industry_machine_desc:0 "La clé pour exécuter un empire réussi est de conserver le flux de matériaux de base élevés. "
+
+  tradition_industry_hive_mind:0 "Industrie"
+  tradition_industry_hive_mind_desc:0 "Nos drones de rassemblement sont la colonne vertébrale de notre ruche. "
+
+# Adopt
+  tr_industry_adopt:0 "Traditions de l'industrie"
+  tr_industry_adopt_desc:0 "$tradition_industry_desc$\n\n$ tr_industry_adopt_effecte $\n\n$tr_industry_finish_effect$"
+  tr_industry_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$ mod_station_gatherers_produces_mult $§! a augmenté de §g20 §! . "
+
+  tr_industry_adopt_machine:0 "Traditions de l'industrie"
+  tr_industry_adopt_machine_desc:0 "$tradition_industry_machine_desc$\n\n$ tr_industry_adopt_effecte $\n\n$tr_industry_finish_machine_effect$"
+  tr_industry_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$ mod_station_gatherers_produces_mult $§! a augmenté de §g20 §! . "
+
+  tr_industry_adopt_hive:0 "Traditions de l'industrie"
+  tr_industry_adopt_hive_desc:0 "$tradition_industry_desc$\n\n$ tr_industry_adopt_effecte $\n\n$tr_industry_finish_hive_effect$"
+  tr_industry_adopt_hive_mind_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$ mod_station_gatherers_produces_mult $§! a augmenté de §g20 §! . "
+
+# Finisher
+  tr_industry_finish:0 "Traditions de l'industrie finies"
+  tr_industry_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nadoptant tout $tr_industry_adopt$ nous donne accès aux décisions suivantes : \n§Hunlocks Décision planétaire : §! Désigner comme mondial minier \n§Hunlocks Décision planétaire : §! Désigner comme World Energy \n§Hunlocks Décision planétaire : §! Désigner comme World Food \n§Hunlocks Décision planétaire : §! Désigner comme monde de production\n§Hunlocks Décision planétaire : §! Désigner comme monde de fonderie\n"
+
+  tr_industry_finish_machine:0 "Traditions de l'industrie finies"
+  tr_industry_finish_machine_effect:0 "§E$TRADITIONS_FINISH$:§!\nadoptant tout $tr_industry_adopt_machine$ nous donne accès aux décisions suivantes : \n§Hunlocks Décision planétaire : §! Désigner comme mondial minier \n§Hunlocks Décision planétaire : §! Désigner comme World Energy \n§Hunlocks Décision planétaire : §! Désigner comme World Food \n§Hunlocks Décision planétaire : §! Désigner comme monde de production\n§Hunlocks Décision planétaire : §! Désigner comme monde de fonderie\n"
+
+  tr_industry_finish_hive:0 "Traditions de l'industrie finies"
+  tr_industry_finish_hive_effect:0 "§E$TRADITIONS_FINISH$:§!\nadoptant tout $tr_industry_adopt_hive$ nous donne accès aux décisions suivantes : \n§Hunlocks Décision planétaire : §! Désigner comme mondial minier \n§Hunlocks Décision planétaire : §! Désigner comme World Energy \n§Hunlocks Décision planétaire : §! Désigner comme World Food \n§Hunlocks Décision planétaire : §! Désigner comme monde de production\n§Hunlocks Décision planétaire : §! Désigner comme monde de fonderie\n"
+
+# industry traditions 1
+  tr_industry_layered_shifts:0 "Défilations superposées"
+  tr_industry_layered_shifts_machine:0 "Constructeurs échantillons à chaud"
+  tr_industry_layered_shifts_hive:0 "Changements de drone"
+
+  tr_industry_layered_shifts_delayed:0 "En superposant efficacement nos travailleurs se déplaçant tout au long de la journée et du cycle de nuit, nous pouvons presser plus de production de nos travailleurs. "
+  tr_industry_layered_shifts_machine_delayed:0 "En rendant nos constructeurs remplaçables immédiatement avant ou après des erreurs, nous pouvons parcourir plus de production de nos machines. "
+  tr_industry_layered_shifts_hive_delayed:0 "En superposant efficacement nos rayons de drones tout au long de la journée et du cycle de nuit, nous pouvons presser plus de production de nos drones. "
+
+  tr_industry_layered_shifts_desc:0 "Sortie des ressources de § $pop_cat_worker_plural$§! augmentée par §g10%§! . "
+  tr_industry_layered_shifts_machine_desc:0 "§Y$mod_planet_jobs_simple_drone_produces_mult$§! augmenté par §g10%§! . "
+  tr_industry_layered_shifts_hive_desc:0 "§Y$mod_planet_jobs_simple_drone_produces_mult$§! augmenté par §g10%§! . "
+
+# industry traditions 2
+  tr_industry_quick_deploying_stations:0 "Stations de déploiement rapides"
+  tr_industry_quick_deploying_stations_delayed:0 "En faisant que nos stations se trouvent dans de petits paquets pouvant se replier pour devenir le produit fini avec moins d'interférences de nos constructeurs, nous réduisons tous les deux le coût de la fabrication et d'augmenter la vitesse à laquelle nous les construisons. "
+  tr_industry_quick_deploying_stations_desc:0 "§Y$mod_station_gatherers_cost_mult$§! réduit par §g25%§! et §Mining Station Build Speed§! augmenté par §g+25%§! . "
+
+# industry traditions 3
+  tr_industry_compact_extraction_centers:0 "Centres d'extraction compacte"
+  tr_industry_compact_extraction_centers_delayed:0 "En regroupant nos ouvriers près de leurs lieux de travail désignés, nous pouvons réduire la nécessité de logement ailleurs. "
+  tr_industry_compact_extraction_centers_desc:0 "§Y$district_generator$§!, §Y$ district_mining $§! et § § $district_farming$§! fournit §G1§! Plus £housing£ §Inhousing§! . "
+
+  tr_industry_compact_extraction_centers_machine:0 "Centres d'extraction compacte"
+  tr_industry_compact_extraction_centers_machine_delayed:0 "Nous avons construit des stations de recharge et d'autres installations dans nos centres de travail afin que nous puissions augmenter la disponibilité de l'espace ailleurs. "
+  tr_industry_compact_extraction_centers_machine_desc:0 "§Y$district_generator$§!, §Y$ district_mining $§! et § § $district_farming$§! fournit §G1§! Plus £housing£ §Inhousing§! . "
+
+  tr_industry_compact_extraction_centers_hive:0 "Centres d'extraction compacte"
+  tr_industry_compact_extraction_centers_hive_delayed:0 "En regroupant nos drones près de leurs lieux de travail désignés, nous pouvons réduire la nécessité de logement ailleurs. "
+  tr_industry_compact_extraction_centers_hive_desc:0 "§Y$district_generator$§!, §Y$ district_mining $§! et § § $district_farming$§! fournit §G1§! Plus £housing£ §Inhousing§! . "
+
+# industry traditions 4
+  tr_industry_low_level_management:0 "Extraction rare des ressources"
+  tr_industry_low_level_management_delayed:0 "Avec l'accès à un équipement de qualité supérieure, nos spécialistes compétents peuvent extraire certaines ressources rares plus efficacement. "
+  tr_industry_low_level_management_desc:0 "Augmente notre production de £rare_crystals£ §Y $rare_crystals$§!, £exotic_gases£ §Y$exotic_gases$§! et £volatile_motes£ §Y$volatile_motes$§! par §+ 10%§! "
+
+  tr_industry_low_level_management_machine:0 "$tr_industry_low_level_management$"
+  tr_industry_low_level_management_machine_delayed:0 "$tr_industry_low_level_management_delayed$"
+  tr_industry_low_level_management_machine_desc:0 "$tr_industry_low_level_management_desc$"
+
+  tr_industry_low_level_management_hive:0 "$tr_industry_low_level_management$"
+  tr_industry_low_level_management_hive_delayed:0 "$tr_industry_low_level_management_delayed$"
+  tr_industry_low_level_management_hive_desc:0 "$tr_industry_low_level_management_desc$"
+
+# industry traditions 5
+  tr_industry_optimized_algorithms:0 "Algorithmes optimisés"
+  tr_industry_optimized_algorithms_delayed:0 "En accordant nos extracteurs de ressources pour les fréquences et les modèles optimaux, nous pouvons augmenter notre production. "
+  tr_industry_optimized_algorithms_desc:0 "§Mining Station d'emploi§! réduit par §g10%§! . "
+
+######################################
+#   Science
+######################################
+
+# Basic
+  tradition_research:0 "Science"
+  tradition_research_desc:0 "L'utilisation intelligente de la science et de la technologie sont les outils permettant d'obtenir une nouvelle direction. "
+
+  tradition_research_machine:0 "Science"
+  tradition_research_machine_desc:0 "L'utilisation intelligente de la science et de la technologie sont les outils permettant d'obtenir une nouvelle direction. "
+
+  tradition_research_hive_mind:0 "Science"
+  tradition_research_hive_mind_desc:0 "L'intelligence collective de notre ruche doit continuer à se développer. "
+
+# Adopt
+  tr_research_adopt:0 "Traditions scientifiques"
+  tr_research_adopt_desc:0 "$tradition_research_desc$\n\n$ tr_research_adopt_effecte $\n\n\n$tr_research_finish_effect$"
+  tr_research_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§! \n§Hunlocks Décision planétaire : §! Station de recherche à faible orbite"
+
+  tr_research_adopt_machine:0 "Traditions scientifiques"
+  tr_research_adopt_machine_desc:0 "$tradition_research_machine_desc$\n\n$ tr_research_adopt_machine_effecte $\n\n$tr_research_finish_machine_effect$"
+  tr_research_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$:§! \n§Hunlocks Décision planétaire : §! Station de recherche à faible orbite"
+
+  tr_research_adopt_hive:0 "Traditions scientifiques"
+  tr_research_adopt_hive_desc:0 "$tradition_research_hive_mind_desc$\n\n$ tr_research_adopt_hive_effecte $\n\n$tr_research_finish_hive_effect$"
+  tr_research_adopt_hive_effect:0 "§E$TRADITIONS_ADOPT$:§! \n§Hunlocks Décision planétaire : §! Station de recherche à faible orbite"
+
+# Finisher
+  tr_research_finish:0 "Traditions scientifiques terminées"
+  tr_research_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter tout $tr_research_adopt$ va débloquer la mise au point §Yscience§! Stratégies. "
+
+  tr_research_finish_machine:0 "Traditions scientifiques terminées"
+  tr_research_finish_machine_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter tout $tr_research_adopt$ va débloquer la mise au point §Yscience§! Stratégies. "
+
+  tr_research_finish_hive:0 "Traditions scientifiques terminées"
+  tr_research_finish_hive_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter tout $tr_research_adopt$ va débloquer la mise au point §Yscience§! Stratégies. "
+
+# science traditions 1
+  tr_research_signature_research_field:0 "Champ de recherche de signature"
+  tr_research_signature_research_field_delayed:0 "À travers les âges de nos civilisations avancées scientifiques, nous avons découvert qu'il existe un domaine scientifique spécifique que nous excélivons intrinsèquement. "
+  tr_research_signature_research_field_desc:0 "Augmente notre § $MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§! par §g+20%§! dans un domaine de notre choix. "
+
+# science traditions 2
+  tr_research_standardized_equipment:0 "Équipement standardisé"
+  tr_research_standardized_equipment_delayed:0 "En créant des normes dynamiques pour nos équipements scientifiques, nous avons pu réduire l'empreinte de maintenance de nos stations de recherche. "
+  tr_research_standardized_equipment_desc:0 "§Searte de la station de recherche§! réduit par §g10%§! . "
+
+# science traditions 3
+  tr_research_research_grants:0 "Bourse de recherche"
+  tr_research_research_grants_delayed:0 "En finançant une forte augmentation de la taille et de la portée des subventions de recherche, nous pouvons augmenter notre avancement scientifique collectif. "
+  tr_research_research_grants_desc:0 "Augmente notre £physics£ §Yphysics§! , £society£ §Ysociety§! et £engineering£ §YEngineering§! Sortie de £job_researcher£ §Y$job_researcher$§! §YJobs§! par §g10%§! . "
+
+  tr_research_research_grants_machine:0 "Réduction des temps d'arrêt"
+  tr_research_research_grants_machine_delayed:0 "Nous tournons maintenant nos drones de recherche lors d'expériences de longue durée pour augmenter le temps passé à la recherche. "
+  tr_research_research_grants_machine_desc:0 "Augmente notre £physics£ §Yphysics§! , £society£ §Ysociety§! et £engineering£ §YEngineering§! Sortie de £job_calculator£ §Y$job_calculator$§! §YJobs§! par §g10%§! . "
+
+  tr_research_research_grants_hive:0 "Réseau de drones"
+  tr_research_research_grants_hive_delayed:0 "En permettant à nos drones d'exploiter notre esprit de ruches collectives, ils peuvent tirer parti de la puissance cérébrale inutilisée des autres drones pour augmenter leur production de recherche. "
+  tr_research_research_grants_hive_desc:0 "Augmente notre £physics£ §Yphysics§! , £society£ §Ysociety§! et £engineering£ §YEngineering§! Sortie de £job_brain_drone£ §Y$job_brain_drone$§! §YJobs§! par §g10%§! . "
+
+# science traditions 4
+  tr_research_exotic_experiments:0 "Expériences exotiques"
+  tr_research_exotic_experiments_delayed:0 "En effectuant des expériences plus radicales et difficiles, nous pourrons peut-être glaner plus d'informations de l'univers. "
+  tr_research_exotic_experiments_desc:0 "§Y$mod_station_researchers_produces_mult$§! augmenté par §g20%§! . "
+
+# science traditions 5
+  tr_research_advanced_studies:0 "Etudes avancées"
+  tr_research_advanced_studies_delayed:0 "En augmentant la taille de nos instituts de recherche, nous avons pu offrir plus de points à des esprits précieux. "
+  tr_research_advanced_studies_desc:0 "L'adoption de la tradition $tr_research_advanced_studies$ donnera à nos planètes §Y1§! £job_researcher£ §Y$job_researcher$ Job§! Per §Y50§! £pop£ Pops. "
+
+  tr_research_advanced_studies_machine:0 "Fonctions déléguées"
+  tr_research_advanced_studies_machine_delayed:0 "En déléguant certaines de nos fonctions de recherche, nous pouvons réussir à garder davantage de nos drones occupés à faire progresser notre empire. "
+  tr_research_advanced_studies_machine_desc:0 "L'adoption de la tradition $tr_research_advanced_studies_machine$ donnera à nos planètes §Y1§! £job_calculator£ §Y$job_calculator$ Job§! Per §Y50§! £pop£ Pops. "
+
+  tr_research_advanced_studies_hive:0 "Etudes avancées"
+  tr_research_advanced_studies_hive_delayed:0 "En utilisant plus efficacement nos synapses de drones, nous avons pu augmenter la quantité de drones engagés dans la recherche. "
+  tr_research_advanced_studies_hive_desc:0 "L'adoption de la tradition $tr_research_advanced_studies_hive$ donnera à nos planètes §Y1§! £job_brain_drone£ §Y$job_brain_drone$ Job§! Per §Y50§! £pop£ Pops. "
+
+######################################
+#   Navy
+######################################
+
+# Basic
+  tradition_navy:0 "Navy"
+  tradition_navy_desc:0 "Une bonne marine n'est pas une provocation à la guerre. C'est la garantie la plus sûre de la paix. "
+
+  tradition_navy_machine:0 "Navy"
+  tradition_navy_machine_desc:0 "Une bonne marine n'est pas une provocation à la guerre. C'est la garantie la plus sûre de la paix. "
+
+  tradition_navy_hive_mind:0 "Navy"
+  tradition_navy_hive_mind_desc:0 "Nos navires sont une extension de notre ruche et comme nous, ils doivent prospérer. "
+
+# Adopt
+  tr_navy_adopt:0 "Traditions de la marine"
+  tr_navy_adopt_desc:0 "$tradition_navy_desc$\n\n$tr_navy_adopt_effect$\n\n\n$tr_navy_finish_effect$"
+  tr_navy_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Se Dommages d'arme§! augmenté par §g+5%§! . "
+
+# Finisher
+  tr_navy_finish:0 "Traditions marines terminées"
+  tr_navy_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nadoptant tout $tr_navy_adopt$ augmente nos navires §Y$MOD_SHIP_ACCURACY_MULT$§! par §g+10%§! et nos navires §Y$MOD_SHIP_EVASION_MULT$§! par §g+10%§! . "
+
+# navy traditions 1
+  tr_navy_defensive_capabilities:0 "Capacités défensives"
+  tr_navy_defensive_capabilities_delayed:0 "Nous ne pouvons pas faire nos navires invincibles, mais nous pouvons faire certains aspects d'eux beaucoup plus difficiles. "
+  tr_navy_defensive_capabilities_desc:0 "Un événement apparaîtra, ce qui nous permettra de choisir entre £ship_stats_shield£ §YsHields§! , £ship_stats_armor£ §RarMor§! et £ship_stats_hitpoints£ §Yhull§! . "
+
+# navy traditions 2
+  tr_navy_offensive_capabilities:0 "Capacités offensives"
+  tr_navy_offensive_capabilities_delayed:0 "Au cours des siècles de notre civilisation, nous avons toujours eu une place spéciale pour un type d'arme spécifique. "
+  tr_navy_offensive_capabilities_desc:0 "Un événement apparaîtra, ce qui nous permettra de choisir entre §kintice Weapon Dommages§! , § Serrergy Weapon Dommages§! et § des dommages ultérieurs sur l'arme§! . "
+
+# navy traditions 3
+  tr_navy_strike_point:0 "Opérations de transporteur"
+  tr_navy_strike_point_delayed:0 "Où allons-nous, l'épée ou le bouclier ? "
+  tr_navy_strike_point_desc:0 "Un événement apparaîtra, nous permettant de choisir entre §YStrike Craft§! et §Ypoint Defence§! . "
+
+# navy traditions 4
+  tr_navy_range_speed:0 "Propulsion électromagnétique"
+  tr_navy_range_speed_delayed:0 "Notre technologie nous a doublée la capacité d'accélérer magnétiquement nos navires ou nos obus. "
+  tr_navy_range_speed_desc:0 "Un événement apparaîtra, ce qui nous permettra de choisir entre £ship_stats_speed£ §Seed§! et §Yweapon gamme§! . "
+
+# navy traditions 5
+  tr_navy_design:0 "Considérations sur la conception"
+  tr_navy_design_delayed:0 "Lors de la tenue de nos flottes, nous avons des choix intéressants à faire. Nous pouvons concentrer nos navires pour être plus faciles à produire, en décapant, puis si ce que nous pouvons faire sans, ou nous pouvons faire l'utilisation continue de nos grandes flottilles plus facilement sur notre industrie. "
+  tr_navy_design_desc:0 "Un événement apparaîtra, nous permettant de choisir entre £ship_stats_build_cost£ §YBuild COST§! et £ship_stats_maintenance£ §Ammaintenance§! . "
+
+######################################
+#   Specialist
+######################################
+
+# Basic
+  tradition_specialist:0 "Spécialiste"
+  tradition_specialist_desc:0 "Les dirigeants d'une civilisation sont presque aussi importants que les habitants de ladite civilisation. "
+
+  tradition_specialist_machine:0 "Spécialiste"
+  tradition_specialist_machine_desc:0 "Les dirigeants d'une civilisation sont presque aussi importants que les habitants de ladite civilisation. "
+
+  tradition_specialist_hive_mind:0 "Spécialiste"
+  tradition_specialist_hive_mind_desc:0 "Des drones spécialisés dans notre ruche sont ce qui nous aide à s'adapter à toute situation. "
+
+# Adopt
+  tr_specialist_adopt:0 "Traditions spécialisées"
+  tr_specialist_adopt_desc:0 "$tradition_specialist_desc$\n\n$ tr_specialist_adopt_effecte $\n\n$tr_specialist_finish_effect$"
+  tr_specialist_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§LYoler la taille de la piscine§! augmenté par §Y2§! et §LYLEADER COST§! réduit par §g-25%§! . "
+
+  tr_specialist_adopt_machine:0 "Traditions spécialisées"
+  tr_specialist_adopt_machine_desc:0 "$tradition_specialist_desc$\n\n$ tr_specialist_adopt_machine_effecte $\n\n$tr_specialist_finish_machine_effect$"
+  tr_specialist_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§LYoler la taille de la piscine§! augmenté par §Y2§! et §LYLEADER COST§! réduit par §g-25%§! . "
+
+  tr_specialist_adopt_hive:0 "Traditions spécialisées"
+  tr_specialist_adopt_hive_desc:0 "$tradition_specialist_desc$\n\n$ tr_specialist_adopt_hive_effecte $\n\n$tr_specialist_finish_hive_effect$"
+  tr_specialist_adopt_hive_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§LYoler la taille de la piscine§! augmenté par §Y2§! et §LYLEADER COST§! réduit par §g-25%§! . "
+
+# Finisher
+  tr_specialist_finish:0 "Traditions spécialisées terminées"
+  tr_specialist_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nadoptant tout $tr_specialist_adopt$ augmente notre § $MOD_LEADER_SPECIES_EXP_GAIN$§! par §g+100%§! . "
+
+  tr_specialist_finish_machine:0 "Traditions spécialisées terminées"
+  tr_specialist_finish_machine_effect:0 "§E$TRADITIONS_FINISH$:§!\nadoptant tout $tr_specialist_adopt$ augmente notre § $MOD_LEADER_SPECIES_EXP_GAIN$§! par §g+100%§! . "
+
+  tr_specialist_finish_hive:0 "Traditions spécialisées terminées"
+  tr_specialist_finish_hive_effect:0 "§E$TRADITIONS_FINISH$:§!\nadoptant tout $tr_specialist_adopt$ augmente notre § $MOD_LEADER_SPECIES_EXP_GAIN$§! par §g+100%§! . "
+
+# specialist traditions 1
+  tr_specialist_rare_resource_extraction:0 "Efficacité du réseau espion"
+  tr_specialist_rare_resource_extraction_delayed:0 "Nous avons créé des cours de formation spéciaux pour nos agents, augmentant considérablement leur efficacité déployée. "
+  tr_specialist_rare_resource_extraction_desc:0 "Notre §Y$MOD_SPY_NETWORK_DAILY_VALUE_MULT$§! est augmenté par §g+20%§! , Notre § $MOD_SPY_NETWORK_DECAY_MULT$§! est diminué par §g20%§! et notre § $MOD_ESPIONAGE_OPERATION_SPEED_MULT$§! est augmenté par §g+25%§! . "
+
+  tr_specialist_rare_resource_extraction_machine:0 "$tr_specialist_rare_resource_extraction$"
+  tr_specialist_rare_resource_extraction_machine_delayed:0 "$tr_specialist_rare_resource_extraction_delayed$"
+  tr_specialist_rare_resource_extraction_machine_desc:0 "$tr_specialist_rare_resource_extraction_desc$"
+
+  tr_specialist_rare_resource_extraction_hive:0 "$tr_specialist_rare_resource_extraction$"
+  tr_specialist_rare_resource_extraction_hive_delayed:0 "$tr_specialist_rare_resource_extraction_delayed$"
+  tr_specialist_rare_resource_extraction_hive_desc:0 "$tr_specialist_rare_resource_extraction_desc$"
+
+# specialist traditions 2
+  tr_specialist_leader_longevity:0 "Leader Longévité"
+  tr_specialist_leader_longevity_delayed:0 "Avec notre science avancée, nous avons augmenté la durée de vie de nos dirigeants, de sorte qu'elles puissent avoir plus de temps pour accumuler de l'expérience. "
+  tr_specialist_leader_longevity_desc:0 "§Lyeader LifeSpan§! augmenté par §g+20§! années. "
+
+  tr_specialist_leader_longevity_machine:0 "Correction d'erreur de puissance faible"
+  tr_specialist_leader_longevity_machine_delayed:0 "En réduisant le besoin de puissance et de traitement de nos algorithmes de correction d'erreur, nous pouvons créer et soutenir un plus grand nombre de drones qui réduisent la déviance sur nos planètes. "
+  tr_specialist_leader_longevity_machine_desc:0 "L'adoption de la tradition $tr_specialist_leader_longevity_machine$ donnera à nos planètes §Y1§! £job_patrol_drone£ §Y$job_patrol_drone_plural$ Job§! Per §Y40§! £pop£ Pops. "
+
+  tr_specialist_leader_longevity_hive:0 "Drones de déviation"
+  tr_specialist_leader_longevity_hive_delayed:0 "DevientCy est un problème pour notre ruche et nous allons freiner cette question en créant davantage de drones qui résolvent ce problème. "
+  tr_specialist_leader_longevity_hive_desc:0 "L'adoption de la tradition $tr_specialist_leader_longevity_hive$ donnera à nos planètes §Y1§! £job_patrol_drone£ §Y$job_patrol_drone_plural$ Job§! Per §Y40§! £pop£ Pops. "
+
+# specialist traditions 3
+  tr_specialist_amplitude:0 "Augmentation d'amplitude"
+  tr_specialist_amplitude_delayed:0 "Pour que nos dirigeants soient vraiment brillants, ils doivent avoir des participants compétents, nous avons accru les exigences de celles-ci et ont également réduit le montant comme un avantage net. "
+  tr_specialist_amplitude_desc:0 "§Y$MOD_LEADER_SKILL_LEVELS$§! augmenté par §Y3§! . "
+
+  tr_specialist_amplitude_machine:0 "Augmentation d'amplitude"
+  tr_specialist_amplitude_machine_delayed:0 "Nous avons augmenté la qualité des pièces de nos dirigeants, réduisant ainsi leur entretien et augmentant leurs capacités. "
+  tr_specialist_amplitude_machine_desc:0 "§Y$MOD_LEADER_SKILL_LEVELS$§! augmenté par §Y3§! . "
+
+  tr_specialist_amplitude_hive:0 "Augmentation d'amplitude"
+  tr_specialist_amplitude_hive_delayed:0 "Nous avons alloué plus de notre réseau pour aider nos dirigeants dans leurs efforts. "
+  tr_specialist_amplitude_hive_desc:0 "§Y$MOD_LEADER_SKILL_LEVELS$§! augmenté par §Y3§! . "
+
+# specialist traditions 4
+  tr_specialist_manufacturing_expansion:0 "Inquisitive"
+  tr_specialist_manufacturing_expansion_delayed:0 "Notre Empire a accru le financement de certaines entreprises diplomatiques, ce qui augmente notre bande passante pour la sauvegarde de nos communications ou de déchiffrer les autres. "
+  tr_specialist_manufacturing_expansion_desc:0 "§Vou'envoyable envoyants§! sont augmentés par §g1§! et un événement apparaîtra, nous permettra de choisir entre §Y $MOD_INTEL_ENCRYPTION_ADD$§! ou § € Mod_intel_Decryption_add $§!."
+
+  tr_specialist_manufacturing_expansion_machine:0 "Inquisitive"
+  tr_specialist_manufacturing_expansion_machine_delayed:0 "Notre Empire a accru le financement de certaines entreprises diplomatiques, ce qui augmente notre bande passante pour la sauvegarde de nos communications ou de déchiffrer les autres. "
+  tr_specialist_manufacturing_expansion_machine_desc:0 "§Vou'envoyable envoyants§! sont augmentés par §g1§! et un événement apparaîtra, nous permettra de choisir entre §Y $MOD_INTEL_ENCRYPTION_ADD$§! ou § € Mod_intel_Decryption_add $§!."
+
+  tr_specialist_manufacturing_expansion_hive:0 "Inquisitive"
+  tr_specialist_manufacturing_expansion_hive_delayed:0 "Notre Empire a accru le financement de certaines entreprises diplomatiques, ce qui augmente notre bande passante pour la sauvegarde de nos communications ou de déchiffrer les autres. "
+  tr_specialist_manufacturing_expansion_hive_desc:0 "§Vou'envoyable envoyants§! sont augmentés par §g1§! et un événement apparaîtra, nous permettra de choisir entre §Y $MOD_INTEL_ENCRYPTION_ADD$§! ou § € Mod_intel_Decryption_add $§!."
+
+  tr_specialist_manufacturing_expansion_other:0 "Sécurité serrée"
+  tr_specialist_manufacturing_expansion_other_delayed:0 "Nous avons des ennemis dans tous les coins, nous devons planifier à l'avance si nous voulons survivre. "
+  tr_specialist_manufacturing_expansion_other_desc:0 "Notre §Y $MOD_INTEL_ENCRYPTION_ADD$§! est augmenté par §G1§! et un événement apparaîtra, nous permettra de choisir entre §Y $MOD_INTEL_ENCRYPTION_ADD$§! ou §Y$ mod_intel_decryption_add $§!."
+
+# specialist traditions 5
+  tr_specialist_consumer_rights:0 "Production spécialisée"
+  tr_specialist_consumer_rights_delayed:0 "En rationalisant nos processus de production, nous avons pu augmenter légèrement notre production. "
+  tr_specialist_consumer_rights_desc:0 "§Y$mod_planet_jobs_specialist_produces_mult$§! augmenté par §g+5%§! . "
+
+  tr_specialist_consumer_rights_machine:0 "Production spécialisée"
+  tr_specialist_consumer_rights_machine_delayed:0 "En rationalisant nos processus de production, nous avons pu augmenter légèrement notre production. "
+  tr_specialist_consumer_rights_machine_desc:0 "§Y$mod_planet_jobs_specialist_produces_mult$§! augmenté par §g+5%§! . "
+
+  tr_specialist_consumer_rights_hive:0 "Production spécialisée"
+  tr_specialist_consumer_rights_hive_delayed:0 "En rationalisant nos processus de production, nous avons pu augmenter légèrement notre production. "
+  tr_specialist_consumer_rights_hive_desc:0 "§Y$mod_planet_jobs_specialist_produces_mult$§! augmenté par §g+5%§! . "
+
+######################################
+#   Statecraft
+######################################
+
+# Basic
+  tradition_statecraft:0 "Habileté politique"
+  tradition_statecraft_desc:0 "Un état de désordre est une catastrophe en attente de se produire. "
+
+  tradition_statecraft_machine:0 "Habileté politique"
+  tradition_statecraft_machine_desc:0 "Un état de désordre est une catastrophe en attente de se produire. "
+
+  tradition_statecraft_hive_mind:0 "Habileté politique"
+  tradition_statecraft_hive_mind_desc:0 "Une ruche dans le désarroi est une catastrophe en attente de se produire. "
+
+# Adopt
+  tr_statecraft_adopt:0 "Traditions de la Statut"
+  tr_statecraft_adopt_desc:0 "$tradition_statecraft_desc$\n\n$ tr_statecraft_adopt_effecte $\n\n$tr_statecraft_finish_effect$"
+  tr_statecraft_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$ mod_planet_stabilité_add $§! augmenté par §g+10%§! et augmente notre £pop£ pops £happiness£ §Y$MOD_POP_HAPPINESS$§! par §g+5%§! . "
+
+  tr_statecraft_adopt_machine:0 "Traditions de la Statut"
+  tr_statecraft_adopt_machine_desc:0 "$tradition_statecraft_desc$\n\n$ tr_statecraft_adopt_machine_effecte $\n\n$tr_statecraft_finish_effect$"
+  tr_statecraft_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$ mod_planet_stabilité_add $§! augmenté par §g+10%§! et diminue notre £crime£ §Y$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$§! par §g5%§! . "
+
+  tr_statecraft_adopt_hive:0 "Traditions de la Statut"
+  tr_statecraft_adopt_hive_desc:0 "$tradition_statecraft_desc$\n\n$ tr_statecraft_adopt_hive_effecte $\n\n$tr_statecraft_finish_effect$"
+  tr_statecraft_adopt_hive_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$ mod_planet_stabilité_add $§! augmenté par §g+10%§! et diminue notre £crime£ §Y$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$§! par §g5%§! . "
+
+# Finisher
+  tr_statecraft_finish:0 "Traditions de Stateecraft terminées"
+  tr_statecraft_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nadoptant tout $tr_statecraft_adopt$ augmente notre § $MOD_COUNTRY_GOVERNMENT_CIVIC_POINTS_ADD$§! par §Y1§! . "
+
+  tr_statecraft_finish_machine:0 "Traditions de Stateecraft terminées"
+  tr_statecraft_finish_machine_effect:0 "§E$TRADITIONS_FINISH$:§!\nadoptant tout $tr_statecraft_adopt_machine$ augmente notre §Y$ MOD_Country_Government_civic_points_add $§! par §Y1§! . "
+
+  tr_statecraft_finish_hive:0 "Traditions de Stateecraft terminées"
+  tr_statecraft_finish_hive_effect:0 "§E$TRADITIONS_FINISH$:§!\nadoptant tout $tr_statecraft_adopt_hive$ augmente notre §Y$ MOD_Country_Government_civic_points_add $§! par §Y1§! . "
+
+# statecraft traditions 1
+  tr_statecraft_new_worlds:0 "État contrôlé"
+  tr_statecraft_new_worlds_delayed:0 "Notre peuple savait que notre chemin est la bonne voie et rien ne changera leur esprit. "
+  tr_statecraft_new_worlds_desc:0 "Augmente notre § § $MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! par §g+50% . §! "
+
+  tr_statecraft_new_worlds_machine:0 "Nouveaux mondes"
+  tr_statecraft_new_worlds_machine_delayed:0 "Lorsque vous installez un nouveau monde, il y a peu d'infrastructures et beaucoup de travail à faire, mais avant cela, nous avons besoin de notre peuple pour y arriver. "
+  tr_statecraft_new_worlds_machine_desc:0 "Augmente notre § Notre § $MOD_POP_ASSEMBLY_SPEED$§! par §g+10%§! . "
+
+  tr_statecraft_new_worlds_hive:0 "Nouveaux mondes"
+  tr_statecraft_new_worlds_hive_delayed:0 "Lorsque vous installez un nouveau monde, il y a peu d'infrastructures et beaucoup de travail à faire, mais avant cela, nous avons besoin de notre peuple pour y arriver. "
+  tr_statecraft_new_worlds_hive_desc:0 "Augmente notre § Notre § $MOD_POP_GROWTH_SPEED$§! par §g+10%§! . "
+
+# statecraft traditions 2
+  tr_statecraft_service_arrangement:0 "Arrangement de service"
+  tr_statecraft_service_arrangement_delayed:0 "Nous avons amélioré notre réseau de services de façon spectaculaire et cela a considérablement augmenté la disponibilité de divers services, ce qui nous bénéficie de tous. "
+  tr_statecraft_service_arrangement_desc:0 "Augmente notre £amenities£ §Y $MOD_PLANET_AMENITIES_MULT$§! par §g+20%§! . "
+
+  tr_statecraft_service_arrangement_machine:0 "Maintenance prévue"
+  tr_statecraft_service_arrangement_machine_delayed:0 "En créant un calendrier complexe et sophistiqué pour la maintenance de nos drones, nous avons pu réduire les déchets. "
+  tr_statecraft_service_arrangement_machine_desc:0 "Augmente notre £amenities£ §Y $MOD_PLANET_AMENITIES_MULT$§! par §g+20%§! . "
+
+  tr_statecraft_service_arrangement_hive:0 "Arrangement de service"
+  tr_statecraft_service_arrangement_hive_delayed:0 "Nous avons amélioré notre réseau de services de façon spectaculaire et cela a considérablement augmenté la disponibilité de divers services, ce qui nous bénéficie de tous. "
+  tr_statecraft_service_arrangement_hive_desc:0 "Augmente notre £amenities£ §Y $MOD_PLANET_AMENITIES_MULT$§! par §g+20%§! . "
+
+# statecraft traditions 3
+  tr_statecraft_solidarity:0 "Administration centrale"
+  tr_statecraft_solidarity_delayed:0 "Les douleurs croissantes de notre empire peuvent être atténuées avec une administration efficace. "
+  tr_statecraft_solidarity_desc:0 "§Y$MOD_COUNTRY_ADMIN_CAP_MULT$§! augmenté par §g+10%§! . "
+
+  tr_statecraft_solidarity_machine:0 "Parallèle de la charge de travail"
+  tr_statecraft_solidarity_machine_delayed:0 "Nous avons amélioré la parallélisation de nos tâches administratives. "
+  tr_statecraft_solidarity_machine_desc:0 "§Y$MOD_COUNTRY_ADMIN_CAP_MULT$§! augmenté par §g+10%§! . "
+
+  tr_statecraft_solidarity_hive:0 "HIVE Synapse Distribution"
+  tr_statecraft_solidarity_hive_delayed:0 "En renforçant nos synapses de distribution, nous pouvons contrôler efficacement une plus grande ruche. "
+  tr_statecraft_solidarity_hive_desc:0 "§Y$MOD_COUNTRY_ADMIN_CAP_MULT$§! augmenté par §g+10%§! . "
+
+# statecraft traditions 4
+  tr_statecraft_minimalist_existence:0 "Gouvernement stellaire"
+  tr_statecraft_minimalist_existence_delayed:0 "Nous avons rejeté nos liaisons terrestres et levées jusqu'au cosmos, dans ce processus, notre façon de gouverner a également évolué. "
+  tr_statecraft_minimalist_existence_desc:0 "Augmente notre § $MOD_COUNTRY_EDICT_CAPACITY_ADD$§! par §Y1§! et augmente notre £influence£ §Y$mod_country_base_influence_produces_add$§! par §Y1§! . "
+
+  tr_statecraft_minimalist_existence_machine:0 "Gouvernement stellaire"
+  tr_statecraft_minimalist_existence_machine_delayed:0 "Nous avons rejeté nos liaisons terrestres et levées jusqu'au cosmos, dans ce processus, notre façon de gouverner a également évolué. "
+  tr_statecraft_minimalist_existence_machine_desc:0 "Augmente notre § $MOD_COUNTRY_EDICT_CAPACITY_ADD$§! par §Y1§! et augmente notre £influence£ §Y$mod_country_base_influence_produces_add$§! par §Y1§! . "
+
+  tr_statecraft_minimalist_existence_hive:0 "Gouvernement stellaire"
+  tr_statecraft_minimalist_existence_hive_delayed:0 "Nous avons rejeté nos liaisons terrestres et levées jusqu'au cosmos, dans ce processus, notre façon de gouverner a également évolué. "
+  tr_statecraft_minimalist_existence_hive_desc:0 "Augmente notre § $MOD_COUNTRY_EDICT_CAPACITY_ADD$§! par §Y1§! et augmente notre £influence£ §Y$mod_country_base_influence_produces_add$§! par §Y1§! . "
+
+# statecraft traditions 5
+  tr_statecraft_unison:0 "Unisson"
+  tr_statecraft_unison_delayed:0 "Lorsque nous aidons tous à favoriser notre place dans la galaxie, nous pouvons vraiment faire des choses incroyables. "
+  tr_statecraft_unison_desc:0 "Augmente notre § Notre § $mod_country_base_unity_produces_mult$§! par §g+10%§! . "
+
+  tr_statecraft_unison_machine:0 "But unifié"
+  tr_statecraft_unison_machine_delayed:0 "Lorsque chaque robot a le même objectif intégré au sens des objectifs, nous pouvons pousser notre empire plus loin qu'auparavant. "
+  tr_statecraft_unison_machine_desc:0 "Augmente notre § Notre § $mod_country_base_unity_produces_mult$§! par §g+10%§! . "
+
+  tr_statecraft_unison_hive:0 "Unisson"
+  tr_statecraft_unison_hive_delayed:0 "Lorsque nous aidons tous à favoriser notre place dans la galaxie, nous pouvons vraiment faire des choses incroyables. "
+  tr_statecraft_unison_hive_desc:0 "Augmente notre § Notre § $mod_country_base_unity_produces_mult$§! par §g+10%§! . "
+
+
+
+
+
+
+
+
+
+######################################
+#   DECISIONS
+######################################
+# Decisions
+  decision_simple_planet_space_station:0 "Station de recherche à faible orbite"
+  decision_simple_planet_space_station_desc:0 "Commissions une série de petites stations de recherche pour orbiter la planète. "
+  decision_simple_planet_space_station_machine:0 "Station de recherche à faible orbite"
+  decision_simple_planet_space_station_machine_desc:0 "Commissions une série de petites stations de recherche pour orbiter la planète. "
+  decision_simple_planet_space_station_hive:0 "Station de recherche à faible orbite"
+  decision_simple_planet_space_station_hive_desc:0 "Commissions une série de petites stations de recherche pour orbiter la planète. "
+
+  decision_simple_planet_mining:0 "Désigner comme monde minier"
+  decision_simple_planet_mining_desc:0 ""
+  decision_simple_planet_mining_gestalt:0 "Désigner comme monde minier"
+  decision_simple_planet_mining_gestalt_desc:0 ""
+
+  decision_simple_planet_energy:0 "Désigner comme monde énergétique"
+  decision_simple_planet_energy_desc:0 ""
+  decision_simple_planet_energy_gestalt:0 "Désigner comme monde énergétique"
+  decision_simple_planet_energy_gestalt_desc:0 ""
+
+  decision_simple_planet_farmer:0 "Désigner comme monde de la nourriture"
+  decision_simple_planet_farmer_desc:0 ""
+  decision_simple_planet_farmer_gestalt:0 "Désigner comme monde de la nourriture"
+  decision_simple_planet_farmer_gestalt_desc:0 ""
+
+  decision_simple_planet_artisan:0 "Désigner comme monde de production"
+  decision_simple_planet_artisan_desc:0 ""
+  decision_simple_planet_artisan_gestalt:0 "Désigner comme monde de production"
+  decision_simple_planet_artisan_gestalt_desc:0 ""
+
+  decision_simple_planet_metallurgist:0 "Désigner comme monde de fonderie"
+  decision_simple_planet_metallurgist_desc:0 ""
+  decision_simple_planet_metallurgist_gestalt:0 "Désigner comme monde de fonderie"
+  decision_simple_planet_metallurgist_gestalt_desc:0 ""
+
+  decision_simple_remove_specialization:0 "Supprimer la spécialisation de la planète"
+  decision_simple_remove_specialization_desc:0 ""
+
+######################################
+#   MODIFIERS
+######################################
+# Modifiers
+  simple_tradition_biology_buff:0 "$tr_research_signature_research_field$: Biologie"
+  simple_tradition_computing_buff:0 "$tr_research_signature_research_field$: Informatique"
+  simple_tradition_field_manipulation_buff:0 "$tr_research_signature_research_field$: Manipulation du champ"
+  simple_tradition_industry_buff:0 "$tr_research_signature_research_field$: Industrie"
+  simple_tradition_materials_buff:0 "$tr_research_signature_research_field$: Matériaux"
+  simple_tradition_military_theory_buff:0 "$tr_research_signature_research_field$: Théorie militaire"
+  simple_tradition_new_worlds_buff:0 "$tr_research_signature_research_field$: nouveaux mondes"
+  simple_tradition_particles_buff:0 "$tr_research_signature_research_field$: particules"
+  simple_tradition_statecraft_buff:0 "$tr_research_signature_research_field$: Stateecraft"
+  simple_tradition_voidcraft_buff:0 "$tr_research_signature_research_field$: VOIDCRAFT"
+  simple_tradition_propulsion_buff:0 "$tr_research_signature_research_field$: propulsion"
+  simple_tradition_psionic_buff:0 "$tr_research_signature_research_field$: Psionic"
+
+  simple_tradition_kinetic_buff:0 "Favorise des armes cinétiques"
+  simple_tradition_energy_buff:0 "Favorise les armes énergétiques"
+  simple_tradition_missile_buff:0 "Favorise des armes explosives"
+  simple_tradition_shield_buff:0 "Amplification du bouclier"
+  simple_tradition_armor_buff:0 "Lattice structurelle compacte"
+  simple_tradition_hull_buff:0 "Intégrité structurelle renforcée"
+  simple_tradition_strike_craft_buff:0 "Armement de grève accru"
+  simple_tradition_point_defense_buff:0 "Calibres de défense de points supérieurs"
+  simple_tradition_range_buff:0 "Fusils électromagnétiques"
+  simple_tradition_speed_buff:0 "Propulsion électromagnétique"
+  simple_tradition_build_cost_buff:0 "Conceptions normalisées"
+  simple_tradition_maintenance_buff:0 "Entretien facile"
+
+  simple_planet_space_station:0 "Station de recherche à faible orbite"
+  simple_planet_space_station_desc:0 "Nous avons planté avec succès plusieurs petites stations de recherche autour de la planète, pour tenter d'apprendre tout ce que nous pouvons de cela. "
+  simple_planet_space_station_machine:0 "Station de recherche à faible orbite"
+  simple_planet_space_station_machine_desc:0 "Nous avons planté avec succès plusieurs petites stations de recherche autour de la planète, pour tenter d'apprendre tout ce que nous pouvons de cela. "
+  simple_planet_space_station_hive:0 "Station de recherche à faible orbite"
+  simple_planet_space_station_hive_desc:0 "Nous avons planté avec succès plusieurs petites stations de recherche autour de la planète, pour tenter d'apprendre tout ce que nous pouvons de cela. "
+
+  simple_planet_mining:0 "Spécialisation des mines"
+  simple_planet_mining_desc:0 "Nous avons désigné ce monde comme un monde minier. "
+  simple_planet_mining_gestalt:0 "Spécialisation des mines"
+  simple_planet_mining_gestalt_desc:0 "Nous avons désigné ce monde comme un monde minier. "
+
+  simple_planet_energy:0 "Spécialisation énergétique"
+  simple_planet_energy_desc:0 "Nous avons désigné ce monde comme monde énergétique. "
+  simple_planet_energy_gestalt:0 "Spécialisation énergétique"
+  simple_planet_energy_gestalt_desc:0 "Nous avons désigné ce monde comme monde énergétique. "
+
+  simple_planet_farmer:0 "Spécialisation alimentaire"
+  simple_planet_farmer_desc:0 "Nous avons désigné ce monde comme monde d'alimentation. "
+  simple_planet_farmer_gestalt:0 "Spécialisation alimentaire"
+  simple_planet_farmer_gestalt_desc:0 "Nous avons désigné ce monde comme monde d'alimentation. "
+
+  simple_planet_artisan:0 "Spécialisation de la production"
+  simple_planet_artisan_desc:0 "Nous avons désigné ce monde comme monde de production. "
+  simple_planet_artisan_gestalt:0 "Spécialisation de la production"
+  simple_planet_artisan_gestalt_desc:0 "Nous avons désigné ce monde comme monde de production. "
+
+  simple_planet_metallurgist:0 "Spécialisation de la fonderie"
+  simple_planet_metallurgist_desc:0 "Nous avons désigné ce monde comme monde de fonderie. "
+  simple_planet_metallurgist_gestalt:0 "Spécialisation de la fonderie"
+  simple_planet_metallurgist_gestalt_desc:0 "Nous avons désigné ce monde comme monde de fonderie. "
+
+  simple_tradition_encryption:0 "Cryptage amélioré"
+  simple_tradition_decryption:0 "Compteckaking amélioré"
+
+######################################
+#   EVENTS
+######################################
+# Events
+  simple_tradition.1.name:0 "$tr_research_signature_research_field$"
+  simple_tradition.1.desc:0 "Choisissez un champ de recherche à se spécialiser dans. "
+
+  simple_tradition.1.biology:0 "La biologie"
+  simple_tradition.1.computing:0 "L'informatique"
+  simple_tradition.1.field_manipulation:0 "Manipulation sur le terrain"
+  simple_tradition.1.industry:0 "Industrie"
+  simple_tradition.1.materials:0 "Matériaux"
+  simple_tradition.1.military_theory:0 "Théorie militaire"
+  simple_tradition.1.new_worlds:0 "Nouveaux mondes"
+  simple_tradition.1.particles:0 "Particules"
+  simple_tradition.1.statecraft:0 "Habileté politique"
+  simple_tradition.1.voidcraft:0 "Vidon"
+  simple_tradition.1.propulsion:0 "Propulsion"
+  simple_tradition.1.psionic:0 "Psonique"
+
+  simple_tradition.2.name:0 "$tr_navy_defensive_capabilities$"
+  simple_tradition.2.desc:0 "En ce qui concerne les capacités de nos systèmes défensives à bord de nos navires, nous avons la possibilité de pousser notre technologie dans une seule direction. Donner à nos navires un avantage distinct dans un type d'aptitude défensive. "
+  simple_tradition.2.shield:0 "L'amplification de nos générateurs de bouclier. "
+  simple_tradition.2.armor:0 "Compacer la structure de réseau cristallin de notre armure. "
+  simple_tradition.2.hull:0 "Renforcement de notre intégrité structurelle. "
+
+  simple_tradition.3.name:0 "$tr_navy_offensive_capabilities$"
+  simple_tradition.3.desc:0 "Nos ingénieurs et scientifiques ont toujours favorisé un type de milieu destructeur et ce biais se présente à son tour comme un potentiel d'endommagement accru dans un type d'arme. "
+  simple_tradition.3.kinetic:0 "Armes cinétiques. "
+  simple_tradition.3.energy:0 "Armes énergétiques. "
+  simple_tradition.3.missile:0 "Armes explosives. "
+
+  simple_tradition.4.name:0 "$tr_navy_strike_point$"
+  simple_tradition.4.desc:0 "Nos ingénieurs ont compris un moyen d'augmenter les capacités d'artisanat de grève de nos navires ou de la puissance de défense de points de nos systèmes, mais il n'ya tout simplement pas de place pour les deux. "
+  simple_tradition.4.strike_craft:0 "Augmentez la taille et l'armement de notre métier de grève. "
+  simple_tradition.4.point_defense:0 "Packez des munitions de calibre supérieure et plus de tourelles dans nos conceptions. "
+
+  simple_tradition.5.name:0 "$tr_navy_range_speed$"
+  simple_tradition.5.desc:0 "Nous avons passé une percée dans la nature de la propulsion électromagnétique, mais la nature de cette découverte vient à un coût, il n'ya tout simplement pas assez de pouvoir pour l'utiliser dans toutes les situations. "
+  simple_tradition.5.range:0 "Utilisez cette technologie pour augmenter la gamme de nos tourelles. "
+  simple_tradition.5.speed:0 "Utilisez cette technologie pour propulser nos navires plus rapidement dans l'espace. "
+
+  simple_tradition.6.name:0 "$tr_navy_design$"
+  simple_tradition.6.desc:0 "Il y a beaucoup de façons de gérer une marine et nous avons la possibilité de la façonner d'une manière qui nous profite. "
+  simple_tradition.6.build_cost:0 "Diminuer les coûts de la construction de nouveaux navires. "
+  simple_tradition.6.maintenance:0 "Diminuer le maintien de nos navires. "
+
+  simple_tradition.7.name:0 "Inquisitive"
+  simple_tradition.7.desc:0 "Nous devons décider de concentrer nos efforts sur la sécurisation de nos propres protocoles ou d'inventer de nouvelles façons d'exploiter les faiblesses de nos systèmes adversaires. "
+  simple_tradition.7.encryption:0 "Boeuf notre §Y$MOD_INTEL_ENCRYPTION_ADD$§!"
+  simple_tradition.7.decryption:0 "Aiguiser notre §Y$MOD_INTEL_DECRYPTION_ADD$§!"
+
+######################################
+#   POLICIES
+######################################
+# policies
+  policy_research_doctrine:0 "Mise au point scientifique"
+  policy_research_doctrine_desc:0 "Il existe de nombreux domaines pour progresser dans la science. Nous devons choisir celui qui s'adresse à nos forces ou élimine une faiblesse. "
+
+  simple_balanced_doctrine:0 "Mise au point équilibré"
+  simple_balanced_doctrine_desc:0 "Notre force réside dans nos technologies bien équilibrées. "
+
+  simple_engineering_doctrine:0 "Concentrez-vous sur l'ingénierie"
+  simple_engineering_doctrine_desc:0 "Notre force réside dans notre industrie et nos matériaux de haute qualité. "
+
+  simple_society_doctrine:0 "Se concentrer sur la société"
+  simple_society_doctrine_desc:0 "Notre force réside dans la bureaucratie et l'efficacité de notre État. "
+
+  simple_physics_doctrine:0 "Concentrez-vous sur la physique"
+  simple_physics_doctrine_desc:0 "Notre force réside dans la réalité de la théorie. "
+
+  simple_engineering_and_physics_doctrine:0 "Concentrez-vous sur l'ingénierie et la physique"
+  simple_engineering_and_physics_doctrine_desc:0 "Notre force se trouve quelque part entre la pratique et théorique. "
+
+  simple_engineering_and_society_doctrine:0 "Concentrez-vous sur l'ingénierie et la société"
+  simple_engineering_and_society_doctrine_desc:0 "Notre force se situe quelque part entre la pratique et sociologique. "
+
+  simple_physics_and_society_doctrine:0 "Concentrez-vous sur la physique et la société"
+  simple_physics_and_society_doctrine_desc:0 "Notre force se trouve quelque part entre le théorique et sociologique. "

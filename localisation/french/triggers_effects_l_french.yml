@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.0.3b : 30.04.2021
- # Translation check : 30.04.2021
+ # Update check for 3.1.1 : 16.09.2021
+ # Translation check : 16.09.2021
  ####################################
 
  ####################################
@@ -170,6 +170,10 @@
  HAS_NOT_NUM_ARTIFICIAL_POP_ASSEMBLY:0 "Nombre de pops artificielles gagnées PAS $COMPARATOR$ à §Y$NUM$/an§!"
  HAS_NUM_BUILDINGS:0 "Nombre de $BUILDING$ $COMPARATOR$ à $NUM|Y$"
  HAS_NOT_NUM_BUILDINGS:0 "Nombre de $BUILDING$ PAS $COMPARATOR$ à $NUM|Y$"
+ HAS_NUM_BUILDINGS_EXISTING_AND_IN_CONSTRUCTION:0 "Nombre de $BUILDING$ (y compris ceux en attente) $COMPARATOR$ à $NUM|Y$"
+ HAS_NOT_NUM_BUILDINGS_EXISTING_AND_IN_CONSTRUCTION:0 "Nombre de $BUILDING$ (y compris ceux en attente) PAS $COMPARATOR$ à $NUM|Y$"
+ HAS_NUM_BUILDINGS_IN_CONSTRUCTION:0 "Nombre de $BUILDING$ en attente $COMPARATOR$ à $NUM|Y$"
+ HAS_NOT_NUM_BUILDINGS_IN_CONSTRUCTION:0 "Nombre de $BUILDING$ en attente PAS $COMPARATOR$ à $NUM|Y$"
  HAS_NUM_DISTRICTS:0 "Nombre de $DISTRICT$ $COMPARATOR$ à $NUM|Y$"
  HAS_NOT_NUM_DISTRICTS:0 "Nombre de $DISTRICT$ PAS $COMPARATOR$ $NUM|Y$"
  HAS_NUM_DISTRICTS_ANY:0 "Nombre de districts $COMPARATOR$ à $NUM|Y$"
@@ -190,6 +194,8 @@
  HAS_NOT_UNEMPLOYED:0 "Nombre de pops inemployées PAS $COMPARATOR$ à $NUM|Y$"
  HAS_NUM_POPS:0 "Le nombre de pops est de $COMPARATOR$ $NUM|Y$"
  HAS_NOT_NUM_POPS:0 "Le nombre de pops n'est PAS de $COMPARATOR$ $NUM|Y$"
+ HAS_NUM_SAPIENT_POPS:0 "Nombre de pops conscientes $COMPARATOR$ à $NUM|Y$"
+ HAS_NOT_NUM_SAPIENT_POPS:0 "Nombre de pops conscientes PAS $COMPARATOR$ à $NUM|Y$"
  HAS_NUM_STRATEGIC_RESOURCES:0 "Le nombre de ressources stratégiques accessibles est $COMPARATOR$ à $NUM|Y$"
  HAS_NOT_NUM_STRATEGIC_RESOURCES:0 "Le nombre de ressources stratégiques accessibles n'est PAS $COMPARATOR$ à $NUM|Y$"
  HAS_NUM_POP_FACTIONS:0 "Le nombre de factions de pops est de $COMPARATOR$ $NUM|Y$"
@@ -282,6 +288,8 @@
  HAS_NOT_SURVEYED_CLASS:0 "N'a PAS étudié $CLASS|H$"
  IS_IDEAL_PLANET_CLASS:1 "Le monde est de la classe idéale pour l'espèce $SPECIES$"
  IS_NOT_IDEAL_PLANET_CLASS:1 "Le monde n'est PAS de la classe idéale pour l'espèce $SPECIES$"
+ IS_IDEAL_PLANET_CLASS_DETAILED:0 "$IS_IDEAL_PLANET_CLASS$ (§Y$PLANET_CLASS$§!)"
+ IS_NOT_IDEAL_PLANET_CLASS_DETAILED:0 "$IS_NOT_IDEAL_PLANET_CLASS$ (§Y$PLANET_CLASS$§!)"
  VARIABLE_VALUE:0 "La valeur de la variable $VARIABLE|Y$ est $COMPARATOR$ $NUM|Y$"
  VARIABLE_NOT_VALUE:0 "La valeur de la variable $VARIABLE|Y$ n'est PAS $COMPARATOR$ $NUM|Y$"
  VARIABLE_ARITHMETIC_VALUE:0 "Le déclencheur arithmétique de la variable $VARIABLE|Y$ est $COMPARATOR$ à $NUM|Y$."
@@ -738,6 +746,8 @@
  NUM_RARE_TECHS_TRIGGER:0 "Le nombre de technologies rares étudiées est : $COMPARATOR$ $NUM|Y$"
  NUM_RARE_TECHS_NOT_TRIGGER:0 "Le nombre de technologies rares étudiées n'est PAS : $COMPARATOR$ $NUM|Y$"
  NUM_REPEATABLE_TECHS_TRIGGER:0 "Nombre de technologies répétables découvertes $COMPARATOR$ à $NUM|Y$"
+ NUM_TECHS_TRIGGER:0 "Nombre de technologies découvertes $COMPARATOR$ à $NUM|Y$"
+ NUM_TECHS_NOT_TRIGGER:0 "Nombre de technologies découvertes PAS $COMPARATOR$ à $NUM|Y$"
  NUM_REPEATABLE_TECHS_NOT_TRIGGER:0 "Nombre de technologies répétables découvertes PAS $COMPARATOR$ à $NUM|Y$"
  SECTOR_CONTROLLED_TRIGGER:0 "Est contrôlée par un secteur"
  SECTOR_CONTROLLED_NOT_TRIGGER:0 "N'est PAS contrôlée par un secteur"
@@ -1016,7 +1026,7 @@
  REROLL_PLANET_MODIFIERS_EFFECT:0 "Réinitialise les modificateurs planétaires\n"
  CLEAR_PLANET_MODIFIERS_EFFECT:0 "Retire les modificateurs planétaires\n"
  UNLOCKS_NEXT_TECH_TREE:0 "Permet une technologie en §Y$TREE$§!\n"
- ADD_EXPERIENCE:0 "Gagne $AMOUNT|0Y$ en expérience.\n" # [LocEditor:AwaitingBatchUpdate]
+ ADD_EXPERIENCE:0 "Gagne $AMOUNT|0Y$ en expérience.\n"
  ADD_CIVIC:0 "Ajoute la doctrine $CIVIC|Y$.\n"
  REMOVE_CIVIC:0 "Retire la doctrine $CIVIC|Y$.\n"
  SET_ORIGIN:0 "Origine définie comme $ORIGIN|Y$.\n"
@@ -1039,6 +1049,8 @@
  RESTORE_HITPOINTS:1 "Rétablit tous les points de coque du $SHIP|Y$."
  DO_NOT_RESTORE_HITPOINTS:1 "Ne rétablit PAS tous les points de coque du $SHIP|Y$."
  SET_SURVEYED:0 "Données de reconnaissance collectées.\n"
+ SET_UNSURVEYED:0 "Données de reconnaissance perdues.\n"
+ SET_VISITED_EFFECT:0 "Le système de $SYSTEM|Y$ est découvert.\n"
  COUNTRY_IS_DESTROYED:0 "L'empire est détruit"
  COUNTRY_IS_NOT_DESTROYED:0 "L'empire n'est pas détruit"
  CLEAR_VARIABLE:0 "Efface la variable $VAR|Y$."
@@ -1048,9 +1060,10 @@
  MULTIPLY_VARIABLE:0 "Multiplie la variable $VAR|Y$ par $VALUE|Y$."
  DIVIDE_VARIABLE:0 "Divise la variable $VAR|Y$ par $VALUE|Y$."
  MODULO_VARIABLE:0 "Modulo de la variable $VAR|Y$ de $VALUE|Y$."
+ ROUND_VARIABLE_TO:0 "Arrondit la variable $VAR|Y$ à la $VALUE|Y$ la plus proche."
  VARIABLE_IS_SET_TRIGGER:0 "La variable $VAR|Y$ est définie."
  VARIABLE_IS_NOT_SET_TRIGGER:0 "La variable $VAR|Y$ n'est PAS définie."
- TYPE_EVENT:1 "L'événement $WHICH|Y$ se produit$TIME$.\n"
+ TYPE_EVENT:2 "L'événement $WHICH|Y$ se produit$TIME$.\n"
  TYPE_EVENT_ONLY_DAYS:0 " dans $WHEN|Y$"
  TYPE_EVENT_ONLY_RANDOM_DAYS:0 " dans §Y0 à $WHEN$§!"
  TYPE_EVENT_ONLY_RANDOM_DAYS2:0 " dans §Y0 jours à $WHEN$§!"
@@ -1262,6 +1275,8 @@
  effect_random_pool_leader:0 "Une personnalité recrutable au hasard"
  effect_every_pool_leader:0 "Chaque personnalité recrutable"
  set_halted_effect:0 "Mégastructure à l'arrêt pour $DAYS|Y$ jours."
+ NUM_TRADITION_CATEGORIES:0 "A déverrouillé $COMPARATOR$ $VALUE|Y$ catégories de traditions"
+ NUM_TRADITION_CATEGORIES_NOT:0 "N'a PAS déverrouillé $COMPARATOR$ $VALUE|Y$ catégories de traditions"
  TRIGGER_HAS_TRADITION:0 "A adopté la tradition $TRADITION|Y$"
  TRIGGER_NOT_HAS_TRADITION:0 "N'a PAS adopté la tradition $TRADITION|Y$"
  TRIGGER_HAS_ASCENSION_PERK:0 "A l'atout de l'ascension $TRADITION|Y$"
@@ -1419,6 +1434,9 @@
 
  SCIENTIST_COUNT_TRIGGER:0 "Nombre de scientifiques recrutés $COMPARATOR$ à $NUM|Y$"
  SCIENTIST_COUNT_NOT_TRIGGER:0 "Nombre de scientifiques recrutés PAS $COMPARATOR$ à $NUM|Y$"
+
+ NUM_RELICS_TRIGGER:0 "Nombre de reliques rassemblées $COMPARATOR$ à $NUM|Y$"
+ NUM_RELICS_NOT_TRIGGER:0 "Nombre de reliques rassemblées PAS $COMPARATOR$ à $NUM|Y$"
 
  HAS_EXPANSION_PLAN:0 "L'I.A. vise à s'étendre dans certains systèmes"
  HAS_NO_EXPANSION_PLAN:0 "L'I.A. ne vise PAS à s'étendre dans certains systèmes"
@@ -1673,6 +1691,18 @@
  count_associate_trigger:0 "Nombre de membres associés$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
  count_associate_all_trigger:0 "$IS_ALL_NOT$ membres associés remplissent ces conditions"
 
+ any_galcom_member_trigger:0 "N'importe quel membre de la Communauté galactique"
+ effect_random_galcom_member:0 "Un membre aléatoire de la Communauté galactique"
+ effect_every_galcom_member:0 "Tous les membres de la Communauté galactique"
+ count_galcom_member_trigger:0 "Nombre de membres de la Communauté galactique$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
+ count_galcom_member_all_trigger:0 "$IS_ALL_NOT$ membres de la Communauté galactique remplissent ces conditions"
+
+ any_council_member_trigger:0 "N'importe quel membre du Conseil"
+ effect_random_council_member:0 "Un membre aléatoire du Conseil"
+ effect_every_council_member:0 "Tous les membres du Conseil"
+ count_council_member_trigger:0 "Nombre de membres du Conseil$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
+ count_council_member_all_trigger:0 "$IS_ALL_NOT$ membres du Conseil remplissent ces conditions"
+
  effect_random_fleet_in_orbit:0 "Une flotte aléatoire en orbite"
  effect_every_fleet_in_orbit:0 "Toutes les flottes en orbite"
 
@@ -1706,7 +1736,7 @@
  TRIGGER_IS_TOTAL_WAR:0 "Est une guerre totale"
  TRIGGER_IS_NOT_TOTAL_WAR:0 "N'est PAS une guerre totale"
 
- CREATE_ESPIONAGE_ASSET:1 "Recrute une source $TYPE|Y$ contre la $COUNTRY|Y$." # [LocEditor:AwaitingBatchUpdate]
+ CREATE_ESPIONAGE_ASSET:1 "Recrute une source $TYPE|Y$ contre la $COUNTRY|Y$."
  DESTROY_ESPIONAGE_ASSET:1 "Perte de la source $TYPE|Y$ pour l'espionnage"
  ASSIGN_ESPIONAGE_ASSET:1 "Affecte la source $TYPE|Y$ à l'espionnage"
  UNASSIGN_ESPIONAGE_ASSET:1 "Désaffecte la source $TYPE|Y$ de l'espionnage"
@@ -1724,9 +1754,9 @@
  HAS_NOT_MENACE_PERK_TRIGGER:0 "N'a pas l'atout de la menace $PERK|Y$"
  SELECT_CRISIS_PATH:0 "La $COUNTRY$ adopte la $PATH$"
  UNLOCK_MENACE_PERK:0 "La $COUNTRY$ adopte l'atout de la menace $PERK$"
- COMPLETE_CRISIS_OBJECTIVE:2 "L'objectif de la crise $OBJ|Y$ est atteint, accordant $REWARD|G$ en menace." # [LocEditor:AwaitingBatchUpdate]
+ COMPLETE_CRISIS_OBJECTIVE:2 "L'objectif de la crise $OBJ|Y$ est atteint, accordant $REWARD|G$ en menace."
  DEACTIVATE_MENACE_PERK:0 "L'atout de la menace $PERK$ a été désactivé pour la $COUNTRY$"
- ACTIVATE_CRISIS_PROGRESSION:0 "Permet à la $COUNTRY$ de suivre le cheminement pour §Ydevenir la crise§!." # [LocEditor:AwaitingBatchUpdate]
+ ACTIVATE_CRISIS_PROGRESSION:0 "Permet à la $COUNTRY$ de suivre le cheminement pour §Ydevenir la crise§!."
 
  ADD_VICTORY_SCORE_EFFECT:0 "Ajoute $VALUE$ au score de victoire de la $COUNTRY|Y$."
 
@@ -1740,8 +1770,17 @@
  ID_NOT_IDLE:0 "N'est PAS inoccupée"
  ID_IDLE:0 "Est inoccupée"
 
+ CLIMATE_TRIGGER:0 "A un climat $CLIMATE|Y$"
+ NOT_CLIMATE_TRIGGER:0 "N'a PAS un climat $CLIMATE|Y$"
+
  IS_SCOPE_TYPE:0 "Est un $SCOPETYPE$"
  IS_NOT_SCOPE_TYPE:0 "N'est PAS un $SCOPETYPE$"
+
+ SET_MALE_RULER_TITLE_EFFECT:0 "Titre des dirigeants : $NAME$"
+ SET_FEMALE_RULER_TITLE_EFFECT:0 "Titre des dirigeantes : $NAME$"
+ SET_MALE_HEIR_TITLE_EFFECT:0 "Titre des héritiers : $NAME$"
+ SET_FEMALE_HEIR_TITLE_EFFECT:0 "Titre des héritières : $NAME$"
+ CLEAR_CUSTOM_TITLES_EFFECT:0 "Réinitialise les titres des dirigeants et héritiers"
 
  TRIGGER_IN_SENSOR_RANGE:0 "$WHAT|Y$ est à portée de capteur de $WHO|Y$"
  TRIGGER_NOT_IN_SENSOR_RANGE:0 "$WHAT|Y$ n'est PAS à portée de capteur de $WHO|Y$"
@@ -1750,6 +1789,18 @@
 
  CAN_BUY_RESOURCE_ON_MARKET_TRIGGER:0 "Peut acheter des $RESOURCE|Y$ sur le marché"
  CAN_NOT_BUY_RESOURCE_ON_MARKET_TRIGGER:0 "Ne peut pas acheter de $RESOURCE|Y$ sur le marché"
+
+ any_orbital_station_trigger:0 "N'importe quelle station orbitale"
+ effect_random_orbital_station:0 "Une station orbitale aléatoire"
+ effect_every_orbital_station:0 "Toutes les stations orbitales"
+ count_orbital_station_trigger:0 "Nombre de stations orbitales$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
+ count_orbital_station_all_trigger:0 "$IS_ALL_NOT$ stations orbitales remplissent ces conditions"
+
+ STARBASE_IS_NOT_BUILDING:0 "La base stellaire n'est PAS en train de construire $COMP|Y$"
+ STARBASE_IS_BUILDING:0 "La base stellaire est en train de construire $COMP|Y$"
+
+ STARBASE_IS_NOT_FIRST_IN_QUEUE:0 "$FIRST|Y$ n'est PAS devant $SECOND|Y$ dans la file d'attente des constructions"
+ STARBASE_IS_FIRST_IN_QUEUE:0 "$FIRST|Y$ est devant $SECOND|Y$ dans la file d'attente des constructions"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  OPINION_LOWER_THAN:0 "Opinion inférieure à"

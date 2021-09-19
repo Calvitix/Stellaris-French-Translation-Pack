@@ -25,9 +25,9 @@
  
  mem_fe.2.name:0 "'§Y[mem_fe.GetName]§!' répond"
  mem_fe.2.desc.friendly:0 "Nous allons aider nos amis, pour un petit prix."
- mem_fe.2.desc.angry:0 "Nous n'aidons pas les petits mortels comme vous, [root.GetSpeciesName]."
- mem_fe.2.desc.change:0 "Nous vous aiderons si vous changez de méthode, [root.GetSpeciesName]."
- mem_fe.2.desc.pay:0 "Nous vous aiderons, [root.GetSpeciesName], à un certain prix."
+ mem_fe.2.desc.angry:0 "Nous n'aidons pas les petits mortels comme vous, [root.Species.GetName]."
+ mem_fe.2.desc.change:0 "Nous vous aiderons si vous changez de méthode, [root.Species.GetName]."
+ mem_fe.2.desc.pay:0 "Nous vous aiderons, [root.Species.GetName], à un certain prix."
  mem_fe.2.change:0 "Je ferai ce qui doit être fait."
  mem_fe.2.pay:0 "Je paierai volontiers ce prix pour survivre."
  mem_fe.2.friendly:0 "$mem_fe.2.pay$"
@@ -66,15 +66,15 @@ mem_leader_die_soon:0 "[root.GetRulerTitle] [root.GetRulerName] va bientôt mour
  mem_fe.20.tooltip:0 "[mem_escaped_scientist.GetName], un scientifique de niveau 5 avec les traits $leader_trait_scientist_erudite$, $leader_trait_maniacal$ et $mem_leader_trait_ancient_knowledge$ est ajouté au groupe de leaders."
  
  mem_fe.22.name:0 "[mem_escaped_scientist.GetName] est recherché"
- mem_fe.22.desc:0 "Cher [root.GetSpeciesName]. Nous avons appris que vous hébergez le criminel dérangé, [mem_escaped_scientist.GetName]. [mem_escaped_scientist.GetSheHeCap] a commis des atrocités indescriptibles tout en échappant aux autorités avec une grande cache de technologies dangereuses. Il est impératif qu'[mem_escaped_scientist.GetSheHe] nous soit retourné afin qu'[mem_escaped_scientist.GetSheHe] puisse être jugé pour ses crimes ... et que vous nous remettez sa cache - pour votre propre sécurité, il ne peut pas être laissé dans les mains d'une race immature."
+ mem_fe.22.desc:0 "Cher [root.Species.GetName]. Nous avons appris que vous hébergez le criminel dérangé, [mem_escaped_scientist.GetName]. [mem_escaped_scientist.GetSheHeCap] a commis des atrocités indescriptibles tout en échappant aux autorités avec une grande cache de technologies dangereuses. Il est impératif qu'[mem_escaped_scientist.GetSheHe] nous soit retourné afin qu'[mem_escaped_scientist.GetSheHe] puisse être jugé pour ses crimes ... et que vous nous remettez sa cache - pour votre propre sécurité, il ne peut pas être laissé dans les mains d'une race immature."
  mem_fe.22.A:0 "[mem_escaped_scientist.GetSheHeCap] trouvera un refuge chez nous."
- mem_fe.22.A.response:0 "Vous vivrez pour le regretter, [root.GetSpeciesName]."
+ mem_fe.22.A.response:0 "Vous vivrez pour le regretter, [root.Species.GetName]."
  mem_fe.22.B:0 "Nous vous le renverrons, ainsi que sa cache."
  mem_fe.22.B.tooltip:0 "[mem_escaped_scientist.GetName] est supprimé du groupe de leaders."
- mem_fe.22.B.response:0 "Vous avez fait le bon choix, [root.GetSpeciesName]."
+ mem_fe.22.B.response:0 "Vous avez fait le bon choix, [root.Species.GetName]."
  mem_fe.22.C:0 "(Mensonge) Nous vous le renverrons. Mais quelle cache ?"
  mem_fe.22.C.tooltip:0 "$mem_fe.22.B.tooltip$ Le §Y[Root.GetName]§! saisira secrètement la cache de technologies de [mem_escaped_scientist.GetName] :"
- mem_fe.22.C.response:0 "Soyez prudent, [root.GetSpeciesName]. Vous jouez avec le feu."
+ mem_fe.22.C.response:0 "Soyez prudent, [root.Species.GetName]. Vous jouez avec le feu."
  
 
 mem_leader_trait_ancient_knowledge:0 "Connaissances anciennes"

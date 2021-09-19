@@ -31,9 +31,9 @@
  
  dpe_fe.2.name:0 "'§Y[dpe_fe.GetName]§!' répond"
  dpe_fe.2.desc.friendly:0 "Nous allons aider nos amis, pour un petit prix."
- dpe_fe.2.desc.angry:0 "Nous n'aidons pas les mortels insignifiants comme vous, [root.ruler.GetSpeciesName]."
- dpe_fe.2.desc.change:0 "Nous vous aiderons, si vous changez certaines de vos valeurs, [root.ruler.GetSpeciesName]."
- dpe_fe.2.desc.pay:0 "Nous allons vous aider, [root.ruler.GetSpeciesName], pour un certain prix."
+ dpe_fe.2.desc.angry:0 "Nous n'aidons pas les mortels insignifiants comme vous, [root.ruler.Species.GetName]."
+ dpe_fe.2.desc.change:0 "Nous vous aiderons, si vous changez certaines de vos valeurs, [root.ruler.Species.GetName]."
+ dpe_fe.2.desc.pay:0 "Nous allons vous aider, [root.ruler.Species.GetName], pour un certain prix."
  dpe_fe.2.change:0 "Je ferai ce qui doit être fait."
  dpe_fe.2.pay:0 "Je paierai volontiers ce prix pour survivre."
  dpe_fe.2.friendly:0 "$dpe_fe.2.pay$"
@@ -72,15 +72,15 @@ dpe_leader_die_soon:0 "[root.GetRulerTitle] [root.GetRulerName] va bientôt mour
  dpe_fe.20.tooltip:0 "[dpe_escaped_scientist.GetName], un scientifique de niveau 5 avec les traits $leader_trait_scientist_erudite$, $leader_trait_maniacal$ et $dpe_leader_trait_ancient_knowledge$ est ajouté à votre réserve de personnalités."
  
  dpe_fe.22.name:0 "[dpe_escaped_scientist.GetName] est Recherché"
- dpe_fe.22.desc:0 "Cher [root.ruler.GetSpeciesName]. Il est venu à notre attention que vous hébergez le criminel dérangé, [dpe_escaped_scientist.GetName]. [dpe_escaped_scientist.GetSheHeCap] a commis des atrocités indicibles tout en échappant aux autorités avec une grande réserve de technologies dangereuses.Il est impératif qu'[dpe_escaped_scientist.GetSheHe] nous soit retourné pour qu'[dpe_escaped_scientist.GetSheHe] soit jugé lors d'un procès pour ses crimes... et qu'il nous remette tous les objets et informations qu'il a volé - pour votre propre sécurité,certaines ne peuvent pas être laissées entre les mains d'une race immature telle que la votre."
+ dpe_fe.22.desc:0 "Cher [root.ruler.Species.GetName]. Il est venu à notre attention que vous hébergez le criminel dérangé, [dpe_escaped_scientist.GetName]. [dpe_escaped_scientist.GetSheHeCap] a commis des atrocités indicibles tout en échappant aux autorités avec une grande réserve de technologies dangereuses.Il est impératif qu'[dpe_escaped_scientist.GetSheHe] nous soit retourné pour qu'[dpe_escaped_scientist.GetSheHe] soit jugé lors d'un procès pour ses crimes... et qu'il nous remette tous les objets et informations qu'il a volé - pour votre propre sécurité,certaines ne peuvent pas être laissées entre les mains d'une race immature telle que la votre."
  dpe_fe.22.A:0 "[dpe_escaped_scientist.GetSheHeCap] trouvera un refuge avec nous."
- dpe_fe.22.A.response:0 "Vous vivrez assez pour regretter cette erreur, [root.ruler.GetSpeciesName]."
+ dpe_fe.22.A.response:0 "Vous vivrez assez pour regretter cette erreur, [root.ruler.Species.GetName]."
  dpe_fe.22.B:0 "Nous allons vous [dpe_escaped_scientist.GetHimHer] retourner, ainsi que tout ce qu'il a apporté."
  dpe_fe.22.B.tooltip:0 "[dpe_escaped_scientist.GetName] est supprimé de votre réserve de personnalités."
- dpe_fe.22.B.response:0 "Vous avez fait le bon choix, [root.ruler.GetSpeciesName]."
+ dpe_fe.22.B.response:0 "Vous avez fait le bon choix, [root.ruler.Species.GetName]."
  dpe_fe.22.C:0 "(Mensonge) Nous allons vous [dpe_escaped_scientist.GetHimHer] retourner. Nous n'avons pas  réçu ses secrets ?"
  dpe_fe.22.C.tooltip:0 "$dpe_fe.22.B.tooltip$ §Y[Root.GetName]§! va secrètement vous passer sa réserve de technologies :"
- dpe_fe.22.C.response:0 "Soyez prudents, [root.ruler.GetSpeciesName]. Vous jouez avec le feu."
+ dpe_fe.22.C.response:0 "Soyez prudents, [root.ruler.Species.GetName]. Vous jouez avec le feu."
  
 
  dpe_leader_trait_ancient_knowledge:0 "Connaissances anciennes"

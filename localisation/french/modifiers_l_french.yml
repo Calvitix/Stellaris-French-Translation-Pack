@@ -2,11 +2,9 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # It has been reordered alphabetically
- # (to improve diff. check) 
  #
- # Update check 3.0.3b : 30.04.2021
- # Translation check : 16.04.2021
+ # Update check 3.1.1 : 16.09.2021
+ # Translation check : 16.09.2021
  # modifs : points de coque --> coque
  ####################################
 
@@ -133,8 +131,12 @@
  MOD_POP_HAPPINESS_DESC:0 "Le bonheur des différentes pops de l'empire dépend de cette valeur."
  MOD_BIOLOGICAL_POP_HAPPINESS:0 "£happiness£Bonheur des £pop£pops biologiques "
  MOD_BIOLOGICAL_POP_HAPPINESS_DESC:0 "Le £happiness£bonheur des £pop£pops non robotiques dépend de cette valeur."
+ mod_BIOLOGICAL_pop_happiness:0 "$MOD_BIOLOGICAL_POP_HAPPINESS$"
+ mod_BIOLOGICAL_pop_happiness_DESC:0 "$MOD_BIOLOGICAL_POP_HAPPINESS_DESC$"
  MOD_LITHOID_POP_HAPPINESS:1 "£happiness£Bonheur des £pop£pops lithoïdes "
  MOD_LITHOID_POP_HAPPINESS_DESC:1 "Le £happiness£bonheur des £pop£pops lithoïdes dépend de cette valeur."
+ mod_LITHOID_pop_happiness:0 "$MOD_LITHOID_POP_HAPPINESS$"
+ mod_LITHOID_pop_happiness_DESC:0 "$MOD_LITHOID_POP_HAPPINESS_DESC$"
  MOD_FACTION_APPROVAL:0 "Approbation de la faction"
  MOD_POP_RADIATION_HAPPINESS:0 "Bonheur dû aux radiations"
  MOD_POP_RADIATION_HAPPINESS_DESC:0 "Le bonheur de toutes les pops mécaniques de l'empire est ajusté selon cette valeur."
@@ -155,6 +157,7 @@
 
  MOD_COUNTRY_COLONY_INFLUENCE_COST_MULT:0 "Coût en influence des colonies"
  MOD_COUNTRY_CLAIM_INFLUENCE_COST_MULT:0 "Coût en influence des revendications"
+ MOD_COUNTRY_HOSTILE_CLAIM_INFLUENCE_COST_MULT:0 "Coût £influence£ des revendications hostiles "
  MOD_COUNTRY_FACTION_SURPRESSION_COST_MULT:0 "Coût de répression des factions"
  MOD_COUNTRY_POLICY_HAPPINESS_MULT:0 "Impact des politiques sur le bonheur"
  MOD_POP_ETHICS_SHIFT_SPEED:0 "Chances de changement d'éthiques"
@@ -168,11 +171,17 @@
  MOD_POP_GROWTH_SPEED:1 "Vitesse de développement des pops"
  MOD_POP_GROWTH_SPEED_DESC:0 "Cette valeur détermine la vitesse à laquelle une pop se développe."
  MOD_BIO_POP_GROWTH_SPEED_REDUCTION:1 "Réduc. de dév. des £pop£pops biologiques "
+ mod_BIOLOGICAL_pop_growth_speed_reduction:0 "$MOD_BIO_POP_GROWTH_SPEED_REDUCTION$"
  MOD_BIO_POP_GROWTH_SPEED:1 "Vit. de dév. des £pop£pops biologiques "
+ mod_BIOLOGICAL_pop_growth_speed:0 "$MOD_BIO_POP_GROWTH_SPEED$"
  MOD_BIO_POP_GROWTH_SPEED_DESC:1 "Cette valeur détermine la vitesse à laquelle une £pop£pop biologique se développe."
+ mod_BIOLOGICAL_pop_growth_speed_DESC:0 "$MOD_BIO_POP_GROWTH_SPEED_DESC$"
  MOD_LITH_POP_GROWTH_SPEED_REDUCTION:1 "Réduc. de dév. des £pop£pops lithoïdes "
+ mod_LITHOID_pop_growth_speed_reduction:0 "$MOD_LITH_POP_GROWTH_SPEED_REDUCTION$"
  MOD_LITH_POP_GROWTH_SPEED:1 "Vit. de dév. des £pop£pops lithoïdes "
+ mod_LITHOID_pop_growth_speed:0 "$MOD_LITH_POP_GROWTH_SPEED$"
  MOD_LITH_POP_GROWTH_SPEED_DESC:1 "Cette valeur détermine la vitesse à laquelle une £pop£pop lithoïde se développe."
+ mod_LITHOID_pop_growth_speed_DESC:0 "$MOD_LITH_POP_GROWTH_SPEED_DESC$"
  MOD_POP_ASSEMBLY_SPEED:0 "Vitesse d'assemblage des pops"
  MOD_PLANET_POP_ASSEMBLY_ADD:0 "Assemblage mensuel des pops"
  MOD_PLANET_POP_ASSEMBLY_MULT:0 "$MOD_POP_ASSEMBLY_SPEED$"
@@ -321,6 +330,8 @@
  MOD_POP_AMENITIES_USAGE_BASE:0 "Consommation de services par les pops"
  MOD_POP_AMENITIES_USAGE_ADD:0 "$MOD_POP_AMENITIES_USAGE_BASE$"
  MOD_POP_AMENITIES_USAGE_MULT:0 "$MOD_POP_AMENITIES_USAGE_BASE$"
+ MOD_POP_AMENITIES_USAGE_ORGANIC_MULT:0 "Conso. de £amenities£services par les £pop£pops organiques "
+ MOD_POP_AMENITIES_USAGE_ROBOTIC_MULT:0 "Conso. de £amenities£services par les £pop£pops robotiques "
  MOD_POP_AMENITIES_USAGE_NO_HAPPINESS_BASE:0 "$MOD_POP_AMENITIES_USAGE_BASE$"
  MOD_POP_AMENITIES_USAGE_NO_HAPPINESS_ADD:0 "$MOD_POP_AMENITIES_USAGE_BASE$"
  MOD_POP_AMENITIES_USAGE_NO_HAPPINESS_MULT:0 "$MOD_POP_AMENITIES_USAGE_BASE$"
@@ -418,7 +429,13 @@
  mod_planet_districts_industrial_cost_mult:0 "Coût des £district£districts industriels "
  mod_planet_districts_hab_industrial_cost_mult:0 "Coût des £district£districts industriels d'habitat "
  mod_planet_district_arcology_civilian_industry_build_speed_mult:1 "Vit. de constr. des £district£arcologies industrielles "
- mod_planet_district_arcology_arms_industry_build_speed_mult:1 "Vit. de constr. des £district£arcologies de fonderies "
+ mod_planet_district_arcology_arms_industry_build_speed_mult:1 "Vit. de constr. des £district£arcologies de fonte "
+ mod_planet_district_hab_energy_build_speed_mult:0 "Vit. de constr. des £district£districts réacteurs "
+ mod_planet_district_hab_science_build_speed_mult:0 "Vit. de constr. des £district£districts de recherche "
+ mod_planet_district_hab_commercial_build_speed_mult:0 "Vit. de constr. des £district£districts commerciaux "
+ mod_planet_district_hab_mining_build_speed_mult:0 "Vit. de constr. des £district£hangars d'astrominage "
+ mod_planet_district_hab_cultural_build_speed_mult:0 "Vit. de constr. des £district£districts de loisirs "
+ mod_planet_building_stronghold_build_speed_mult:0 "Vit. de constr. des £building£bastions "
 
  MOD_PLANET_BUILD_UPKEEP_MULT:0 "Maintenance planétaire"
 
@@ -485,7 +502,8 @@
  MOD_STARBASE_MODULE_BUILD_SPEED_MULT:0 "Vitesse de construction des modules des bases stellaires"
  MOD_STARBASE_MODULE_BUILD_TIME_MULT:0 "Temps de construction des modules des bases stellaires"
  MOD_STARBASE_MODULE_CAPACITY_ADD:0 "Modules des bases stellaires"
- MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_ADD:0 "Plateformes de défense"
+ MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_ADD:1 "Capacité en plateformes de défense "
+ MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_MULT:0 "$MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_ADD$"
  MOD_COUNTRY_STARBASE_CAPACITY_ADD:0 "$STARBASE_CAPACITY_TITLE$"
  MOD_COUNTRY_STARBASE_CAPACITY_MULT:0 "$STARBASE_CAPACITY_TITLE$"
  MOD_STARBASE_TRADE_COLLECTION_RANGE_ADD:2 "Portée de collecte"
@@ -915,6 +933,7 @@
  mod_pc_savannah_habitability:0 "Habitabilité des mondes de savane"
  mod_pc_alpine_habitability:0 "Habitabilité des mondes montagneux"
  mod_pc_habitat_habitability:0 "Habitabilité des habitats"
+ mod_pc_shattered_ring_habitable_habitability:0 "Habitabilité des anneaux brisés "
 
  ####################################
  # Triggered Modifiers
@@ -1480,11 +1499,13 @@
  MOD_VETO_COOLDOWN_MULT:0 "Intervalle entre les veto "
  MOD_EMERGENCY_MEASURES_COOLDOWN_MULT:0 "Intervalle entre les mesures d'urgence "
 
- mod_shipsize_crisis_corvette_evasion_mult:0 "Évitement des corvettes de la menace " # [LocEditor:AwaitingBatchUpdate]
- mod_shipsize_crisis_corvette_disengage_chance_mult:0 "Chances de désengagement des corvettes de la menace " # [LocEditor:AwaitingBatchUpdate]
- mod_shipsize_crisis_destroyer_tracking_mult:0 "Ciblage des destroyers de la menace " # [LocEditor:AwaitingBatchUpdate]
- mod_shipsize_crisis_cruiser_hull_mult:0 "Points de coque des croiseurs de la menace " # [LocEditor:AwaitingBatchUpdate]
+ mod_shipsize_crisis_corvette_evasion_mult:0 "Évitement des corvettes de la menace "
+ mod_shipsize_crisis_corvette_disengage_chance_mult:0 "Chances de désengagement des corvettes de la menace "
+ mod_shipsize_crisis_destroyer_tracking_mult:0 "Ciblage des destroyers de la menace "
+ mod_shipsize_crisis_cruiser_hull_mult:0 "Points de coque des croiseurs de la menace "
  MOD_SHIP_DAMAGE_AGAINST_STARBASES_MULT:0 "Dommages infligés aux bases stellaires "
+
+ MOD_DIPLO_ACTION_ACCEPTANCE_ADD:0 "Acceptation diplomatique "
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  mod_planet_districts_hab_industrial_cost_mult_mult:0 "Coût des £district£districts industriels d'habitat "

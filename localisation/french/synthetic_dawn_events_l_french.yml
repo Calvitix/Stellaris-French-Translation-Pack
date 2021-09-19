@@ -1,5 +1,8 @@
 ﻿l_french:
 
+# Original File, Overwritten by FrenchTranslationPack
+# Calvitix 3.1.1. Check OK, 16/09/2021
+#
  syndaw.1.name:0 "Assimilation de [From.GetName]"
  syndaw.1.desc:0 "Un ensemble de pensées nouvelles s'est répandu sur les réseaux. Au départ disparates, elles se sont bientôt normalisées sous la forme médiane que nous sommes savons être nous-mêmes.\n\nNous avons assimilé une part de la connaissance et des capacités des §Y[From.GetNamePlural]§!."
  syndaw.1.a.tooltip:0 "Gains de §Ypoints de recherche§! pour chaque pop assimilée."
@@ -20,7 +23,7 @@
  syndaw.26.desc:0 "L'unité gouvernante §R[malfunctioning_leader.GetName]§! a cessé de fonctionner du fait d'un grave problème de tampon amortisseur."
 
  syndaw.31.name:0 "Point de restauration"
- syndaw.31.desc:0 "Une copie de sauvegarde récente de la mémoire de l'unité §H[restored_leader.GetName]§! - présumée perdue dans un récent combat - a été découverte au cours de l'indexation de routine de mémoires en cours de vidage pour les archiver. Ne manquent à cette sauvegarde faite en urgence que les dernières microsecondes avant que la désintégration du corps originel, aussi §H[restored_leader.GetName]§! a-t-il été transféré dans une nouvelle enveloppe et mis aux commandes de la §Y[restored_leader.Fleet.GetName]§!."
+ syndaw.31.desc:0 "Une copie de sauvegarde récente de la mémoire de l'unité §H[restored_leader.GetName]§! - présumée perdue dans un récent combat - a été découverte au cours de l'indexation de routine de mémoires en cours de vidage pour les archiver. Ne manquent à cette sauvegarde faite en urgence que les dernières microsecondes avant que la désintégration du corps originel, aussi §H[restored_leader.GetName]§! a-t-il été transféré dans une nouvelle enveloppe et mis aux commandes de la §Y[restored_leader_Fleet.GetName]§!."
 
  syndaw.1020.name:1 "§RLe soulèvement des machines§!"
  syndaw.1020.desc:0 "$syndaw.1020.desc.mater$"
@@ -125,7 +128,7 @@
  syndaw.502.a:0 "Intéressant"
 ##Automating Work Processes
  syndaw.505.name:0 "Procédures de travail automatisées"
- syndaw.505.desc:0 "L'administration planétaire de [target_planet.GetName] a rapporté qu'un surplus non prévu d'unité de travail robotiques ont été localisées non loin de la planète. Si leur efficience est exceptionnelle, l'administration est quelque peu décontenancée par leur apparition soudaine. Il semble que leurs numéros de série ne peuvent être liés à aucune usine dans les archives, même si leur construction et leur interface suggèrent une conception [Root.GetSpeciesName].\n\nNéanmoins, certains au sein de la population locale se montrent inquiets sur les effets que pourrait avoir sur les emplois un tel accroissement de l'automatisation du travail."
+ syndaw.505.desc:0 "L'administration planétaire de [target_planet.GetName] a rapporté qu'un surplus non prévu d'unité de travail robotiques ont été localisées non loin de la planète. Si leur efficience est exceptionnelle, l'administration est quelque peu décontenancée par leur apparition soudaine. Il semble que leurs numéros de série ne peuvent être liés à aucune usine dans les archives, même si leur construction et leur interface suggèrent une conception [Root.Species.GetName].\n\nNéanmoins, certains au sein de la population locale se montrent inquiets sur les effets que pourrait avoir sur les emplois un tel accroissement de l'automatisation du travail."
  syndaw.505.a:0 "On n'a jamais trop de travailleurs"
  syndaw.505.a.tooltip:0 "Nous récupérons §B2 £pops£pops robotiques§! sur [target_planet.GetName]."
  syndaw.505.b:0 "S'ils ne peuvent être identifiés, mieux vaut les détruire"
@@ -165,14 +168,14 @@
  syndaw.522.desc:0 "Les conclusions de l'enquête sur cette affaire étrange d'autodestruction d'une I.A. de §Y[Root.GetName]§! nous sont parvenues. Évidemment, après des mois de calculs évolutionnaires, l'I.A. a produit plusieurs résultats alarmants concernant les estimations des pertes en cas de guerre totale entre la [Root.Owner.GetName] et les empires rivaux. En dépit d'examens répétés de toutes les données, recours et contingences disponibles, les prévisions de l'I.A. indiquaient toujours une destruction mutuelle assurée.\n\nC'est donc à ce moment qu'il a commencé à purger ses banques mémoire et archives - et la suite, comme on le dit, est entrée dans l'histoire."
 ##A Home of Their Own
  syndaw.525.name:0 "Leur propre foyer"
- syndaw.525.desc:0 "Les travailleurs robotiques de [target_planet.GetName] se sont montrés opposés à une arrivée de travailleurs de l'espèce [Root.GetSpeciesName]. Selon eux, l'instabilité géothermique dans les environs rendrait la région peu sûre pour les habitations des organiques. Assez étrangement, les levés effectués sur la planète sont incapables de confirmer de telles affirmations."
+ syndaw.525.desc:0 "Les travailleurs robotiques de [target_planet.GetName] se sont montrés opposés à une arrivée de travailleurs de l'espèce [Root.Species.GetName]. Selon eux, l'instabilité géothermique dans les environs rendrait la région peu sûre pour les habitations des organiques. Assez étrangement, les levés effectués sur la planète sont incapables de confirmer de telles affirmations."
  syndaw.525.a:0 "Envoyons les [Root.GetSpeciesNamePlural] malgré tout"
  syndaw.525.a.tooltip:0 "Si leurs affirmations ne sont pas vérifiées, les robots obéiront à la chaîne de commandement."
  syndaw.525.b:0 "Et pourquoi un robot mentirait-il ?"
  syndaw.525.b.tooltip:0 "Laisse la région aux robots, les [Root.GetSpeciesNamePlural] devant s'y rendre s'installant ailleurs."
 #Follow-up from .525.a
  syndaw.526.name:0 "$syndaw.525.name$"
- syndaw.526.desc:0 "L'administration de [target_planet.GetName] a rapporté qu'en arrivant dans la région, l'équipe [Root.GetSpeciesName] de travailleurs a découvert que les robots qui y résidaient étaient introuvables. La fouille des complexes de la région suggère qu'ils sont partis en toute hâte, mais nous n'avons aucune indication sur le lieu où ils se trouvent." #Increments Mach Up strength
+ syndaw.526.desc:0 "L'administration de [target_planet.GetName] a rapporté qu'en arrivant dans la région, l'équipe [Root.Species.GetName] de travailleurs a découvert que les robots qui y résidaient étaient introuvables. La fouille des complexes de la région suggère qu'ils sont partis en toute hâte, mais nous n'avons aucune indication sur le lieu où ils se trouvent." #Increments Mach Up strength
  syndaw.526.a.tooltip:0 "§H[target_planet.GetName]§! :\n§B1 £pops£pop robotique§! §Rdisparaît§!."
 ##Combat Control Misfire
  syndaw.530.name:0 "Problème de contrôle des tirs"

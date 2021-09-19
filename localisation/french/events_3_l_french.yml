@@ -1,7 +1,7 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.0.1. Check OK, 15/04/2021
+# Calvitix 3.1.1. Check OK, 15/09/2021
 #
  
  ####################################
@@ -59,7 +59,7 @@
  ####################################
  anomaly.4000.name:0 "Sélection naturelle"
  anomaly.4000.desc:0 "Certaines espèces végétales de [From.GetName] semblent avoir développé des mécanismes de défense efficaces par voie de sélection naturelle. De nombreux arbres et champignons libèrent des spores qui agissent comme un §Ypuissant acide§! sur les organismes non végétaux. Mais heureusement, l'officier scientifique §Y[Root.GetLeaderName]§! a trouvé un moyen de §Ycontrer§! certains composants de ces spores afin de rendre les forêts de la planète moins inhospitalières pour nous !"
- anomaly.4000.a.tooltip:1 "Confère à [From.GetName] le modificateur §Y$acid_jungles$§! :\n§R+3§!£blocker£Marécages toxiques\n§G+2§!£society£ "
+ anomaly.4000.a.tooltip:2 "Apparition de §R2§! £blocker£§YMarécages toxiques§! sur §Y[From.GetName]§!."
  anomaly.4005.name:1 "Vie fragmentée"
  anomaly.4005.desc:1 "L'astéroïde §Y[From.GetName]§! et les débris qui l'entourent proviennent vraisemblablement d'une ancienne planète !\n\nNous avons trouvé dans son coeur des traces d'alliages extrêmement précieux, ainsi que des éléments tendant à prouver la présence ancienne de bactéries, qui n'ont toutefois pas survécu dans le vide de l'espace. Quoi qu'il en soit, cela prouve que ce corps céleste abritait autrefois en lui la promesse de la vie."
  anomaly.4005.a.tooltip:2 "Confère à [From.GetName] le modificateur §Y$ex_planet$§! :\n§G+3§!£alloys£"
@@ -196,9 +196,9 @@
  anomaly.4081.b.tooltip:0 "Permet le décret impérial §Y$edict_super_sensors$§!.\n\nConfère à §H[From.From.From.GetName]§! le modificateur §G$super_sensor_array$§!."
  anomaly.4085.name:0 "À la dérive"
  anomaly.4085.desc:0 "Au milieu des astéroïdes entourant [From.GetName] a été découvert un vaisseau alien en train de dériver. Il ne répond pas à nos tentatives de communication, même si nous ne savons pas si c'est parce qu'il ne parvient pas à interpréter nos signaux ou si c'est pour une autre raison.\n\nL'officier scientifique §Y[Root.GetLeaderName]§! recommande de faire venir un vaisseau de construction pour le remorquer à l'extérieur du champ de débris, car il risque d'être percuté par un astéroïde.\n\nUn projet spécial a donc été lancé pour le récupérer et l'examiner."
- anomaly.4086.desc:0 "Après avoir récupéré le vaisseau qui dérivait près de §H[From.From.From.GetName]§!, une équipe a été dépêchée pour l'examiner. Il s'agit d'une scène de crime. Un seul membre d'équipage a été trouvé : un bipède amphibien aux grandes oreilles, qui semble avoir été poignardé à plusieurs reprises. Dans la mesure où son équipage est mort, nous pouvons prendre le vaisseau.\n\nIl est équipé de propulseurs très puissants, dont la structure et la conception sont supérieures aux nôtres, mais il n'est pas armé. Tout laisse croire qu'il servait à transporter des personnalités importantes.\n\nLe transformer en vaisseau d'exploration demanderait peu d'efforts, mais nous pouvons aussi le démanteler pour étudier son système de propulsion plus en détails, afin de réutiliser cette technologie et ainsi améliorer nos flottes."
+ anomaly.4086.desc:1 "Après avoir récupéré le vaisseau qui dérivait près de §Y[From.From.From.GetName]§!, une équipe a été dépêchée pour l'examiner. Il s'agit d'une scène de crime. Un seul membre d'équipage a été trouvé : un bipède amphibien aux grandes oreilles, qui semble avoir été poignardé à plusieurs reprises.\n\nDans la mesure où son équipage est mort, nous pouvons prendre le vaisseau. Il est équipé de propulseurs puissants, sa structure et sa conception sont plus avancées que les nôtres, mais il n'est pas armé. Tout laisse croire qu'il servait à transporter des personnalités importantes.\n\nLe transformer en vaisseau d'exploration demanderait peu d'efforts. Mais nous pouvons aussi le démanteler pour étudier son système de propulsion plus en détail, afin de réutiliser les découvertes ainsi faites pour améliorer nos flottes."
  anomaly.4087.desc:0 "Après avoir récupéré le vaisseau qui dérivait près de §H[From.From.From.GetName]§!, une équipe a été dépêchée pour l'examiner. Et l'équipage est encore en vie !"
- anomaly.4086.a:0 "Transformons-le en vaisseau scientifique"
+ anomaly.4086.a:0 "Transformez-le en vaisseau scientifique."
  anomaly.4086.a.tooltip:0 "Permet de récupérer un vaisseau scientifique.\n"
  anomaly.4086.b:0 "Démantelons-le pour étudier ses propulseurs"
  anomaly.4086.b.tooltip:0 "Confère à l'empire le modificateur §G$army_speed_boost$§!.\n"
@@ -496,9 +496,9 @@
  colony.2025.phile.desc:0 "La présence d'autres formes de vie parmi nous est parfois source de tensions. Des heurts ont éclaté sur §Y[Root.GetName]§!, sûrement à cause de notre incapacité à intégrer les aliens dans notre société. Si rien n'est fait, ils risquent de devenir dangereux."
  colony.2025.a:0 "Ignorez les populations en colère."
  colony.2025.a.phobe:0 "Isolez les xénos du reste de la population."
- colony.2025.a.tooltip:0 "Confère à toutes les pops [MyEmpire.GetSpeciesName] xénophobes de §Y[Root.GetName]§! le modificateur §R$pop_angered$§! pour §Y24§! mois :\n£happiness£Bonheur : §R-25%§!\nProduction de ressources : §R-25%§!\n\n"
+ colony.2025.a.tooltip:0 "Confère à toutes les pops [MyEmpire.Species.GetName] xénophobes de §Y[Root.GetName]§! le modificateur §R$pop_angered$§! pour §Y24§! mois :\n£happiness£Bonheur : §R-25%§!\nProduction de ressources : §R-25%§!\n\n"
  colony.2025.a.phile:0 "Protégez à tout prix la minorité."
- colony.2025.a.phile.tooltip:0 "Confère à toutes les pops [MyEmpire.GetSpeciesName] xénophobes de §Y[Root.GetName]§! le modificateur §R$pop_angered$§! pour §Y24§! mois :\n£happiness£Bonheur : §R-25%§!\nProduction de ressources : §R-25%§!\n\nConfère à toutes les pops aliens et xénophiles de §Y[Root.GetName]§! le modificateur §G$pop_pleased$§! pour §Y12§! mois :\n£happiness£Bonheur : §G+25%§!\nProduction de ressources : §G+25%§!\n\n"
+ colony.2025.a.phile.tooltip:0 "Confère à toutes les pops [MyEmpire.Species.GetName] xénophobes de §Y[Root.GetName]§! le modificateur §R$pop_angered$§! pour §Y24§! mois :\n£happiness£Bonheur : §R-25%§!\nProduction de ressources : §R-25%§!\n\nConfère à toutes les pops aliens et xénophiles de §Y[Root.GetName]§! le modificateur §G$pop_pleased$§! pour §Y12§! mois :\n£happiness£Bonheur : §G+25%§!\nProduction de ressources : §G+25%§!\n\n"
  colony.2025.b:0 "Ne vous en mêlez pas."
  colony.2025.b.phobe:0 "Laissez les xénos se défendre."
  colony.2025.b.tooltip:0 "1 pop alien est tuée.\n\nConfère à toutes les pops aliens et xénophiles de §Y[Root.GetName]§! le modificateur §R$pop_angered$§! pour §Y12§! mois :\n£happiness£Bonheur : §R-25%§!\nProduction de ressources : §R-25%§!\n\n"

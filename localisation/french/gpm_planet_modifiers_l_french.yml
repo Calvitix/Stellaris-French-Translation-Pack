@@ -105,9 +105,9 @@
  #######################################
  #### Special Modifiers
  ####################################### 
- terraforming_candidate_precursor:0 "monde précieux"
- terraforming_candidate_precursor_desc:0 "Ce monde n'a pas semblé fascinant au début, mais les découvertes récentes ont prouvé le contraire. Il est dans notre intérêt de développer ce monde à l'avenir afin de pouvoir accéder à toutes ses richesses et technologies."
- gpm_terraforming_candidate_precursorTT:0 "§GPermet la Terraformation de ce monde.§!"
+ terraforming_candidate:0 "monde terraformable"
+ terraforming_candidate_desc:0 "Ce monde n'a pas semblé fascinant au début, mais les découvertes récentes ont prouvé le contraire. Il est dans notre intérêt de développer ce monde à l'avenir afin de pouvoir accéder à toutes ses richesses et technologies."
+ gpm_terraforming_candidateTT:0 "§GPermet la Terraformation de ce monde.§!"
  
  gpm_planet_wonder_discovered:0 "Planète merveilleuse"
  gpm_planet_wonder_discovered_desc:0 "Ce monde abrite une merveille planétaire unique. Quelque chose de tellement hors du commun, que cela paraît improbable qu'une telle merveille est pu se développer !"
@@ -325,7 +325,7 @@
  gpm_many_extremophiles_desc:0 "Pour une raison quelconque, ce monde est rempli d'organismes extrémophiles."
 
  gpm_great_temperature_variation:0 "Grande variation de température"
- gpm_great_temperature_variation_desc:0 "Ce monde souffre de variations extrêmes de température: il y fait souvent trop chaud, ou trop froid."
+ gpm_great_temperature_variation_desc:0 "Ce monde souffre de variations extrêmes de températures. Des fronts météorologiques inhabituels et puissants se déplacent apparemment de manière aléatoire à travers le monde, entraînant des chutes de température soudaines et négatives ou des vents atrocement chauds."
 
  gpm_gorgeous_sky:0 "Ciel magnifique"
  gpm_gorgeous_sky_desc:0 "En raison de la composition chimique de l'atmosphère de ce monde, le ciel de ce monde est un affichage vif, brillant et éblouissant de couleurs et de lumières variées."
@@ -621,8 +621,8 @@
  gpm_saphire_rains:0 "Pluiesde  saphir"
  gpm_saphire_rains_desc:0 "La précipitation extrêmement élevée de l'oxyde d'aluminium dans la haute atmosphère de ce monde entraîne la météo de former des saphirs microscopiques qui montent et cristallisent ensemble formant des gemmes de saphir minuscules qui pleuvent partout."
 
- gpm_fractal_formations_habitable:0 "Montagnes fractales"
- gpm_fractal_formations_habitable_desc:0 "La plupart des éléments géologiques sur ce monde réalisent des formations fractales entraînant des paysages importants apparaissant semblables mais à une taille variable."
+ gpm_fractal_formations:0 "Montagnes fractales"
+ gpm_fractal_formations_desc:0 "La plupart des éléments géologiques sur ce monde réalisent des formations fractales entraînant des paysages importants apparaissant semblables mais à une taille variable."
 
  gpm_massive_world:0 "Monde super massif"
  gpm_massive_world_desc:0 "Un monde incroyablement rare, si gros qu'il défie toutes les théories connues de la formation des planètes."
@@ -954,7 +954,10 @@
  
  gpm_precursor_shipyards:0 "Chantiers spatiaux des Précurseurs"
  gpm_precursor_shipyards_desc:0 "Plusieurs importants chantiers navals anciens entourent ce monde. Certains semblent être très endommagés, alors que d'autres pourraient encore fonctionner. Au coeur de ces vastes stations spatiales, se trouve un puissant noyau graviton, une technologie mal comprise mais qui semble être à la fois la source de sa puissance et de sa capacité à rester en orbite aussi longtemps. Peut-être qu'un jour nous pourrons nous-mêmes l'utiliser."
- gpm_precursor_shipyardsTT:0 "Module de base stellaire Unique : §GChantiers spatiaux des Précurseurs§!\n   Construction des vaisseaux : §G+20%§!\n   Couùt des vaisseaux: §G-10%§!\n   Capacité navale de la base : §G+6§!"
+ gpm_precursor_shipyardsTT:0 "Module de base stellaire Unique : §GChantiers spatiaux des Précurseurs§!\n   Coût des vaisseaux: §G-5%§!\n   Capacité navale de la base : §G+10§!"
+ 
+  gpm_precursor_shipyards_fed:0 "$gpm_precursor_shipyards$"
+ gpm_precursor_shipyards_fed_desc:0 "Un ancien et puissant chantier naval se trouve immobile et sans vie en orbite. Certaines baies du chantier sont très endommagées, tandis que d'autres semblent pouvoir être remises en état de fonctionnement. Au centre de ce chantier naval se trouve un noyau d'énergie gravitationnelle puissant et toujours actif, une technologie qui n'est pas entièrement comprise mais qui semble être la source de sa puissance et de sa capacité à rester en orbite si longtemps. Peut-être qu'un jour, nous pourrons nous l'approprier."
  
  gpm_precursor_planetary_gun:0 "Réseau de défense des Précurseurs"
  gpm_precursor_planetary_gun_desc:0 "Ce qui a peut-être été un monde autrefois prospère a été transformé en un vrai arsenal d'armes défensives. Ces emplacements d'armes puissantes et avancées sont capables de tirer au-delà de l'orbite et ont peut-être joué un rôle clé dans le réseau de défense d'une civilisation ancienne."

@@ -1,5 +1,9 @@
 ﻿l_french:
 
+# Original File, Overwritten by FrenchTranslationPack
+# Calvitix 3.1.1. Check OK, 16/09/2021
+#
+
  FIRST_CONTACT:0 "Premier contact avec les $NAME|Y$"
  FIRST_CONTACT_ICON_DESC:0 "Nous avons rencontré ici pour la première fois les $NAME|Y$, le $DATE|Y$\n\n§GCliquer pour gérer ce contact.§!"
  FIRST_CONTACT_ICON_ENVOY_DESC:1 "Nous avons rencontré ici pour la première fois les $NAME|Y$, le $DATE|Y$.\n\nNotre émissaire $ENVOY|Y$ oeuvre à en découvrir davantage sur ces aliens.\n\n§GCliquer pour gérer ce contact.§!"
@@ -191,8 +195,8 @@
  FC_ASSIGN_ENVOY_TO_PROGRESS:0 "Affecter un émissaire pour enquêter"
  STAGE_TITLE:0 "Phase $STAGE$"
  STAGE_HELP_FC:0 "§GCliquer pour afficher tous les événements et résultats de cette phase.§!"
- THEIR_ENCRYPTION:0 "Leur niveau de cryptage : §R-$VALUE$§!"
- OUR_DECRYPTION:1 "Notre niveau de décryptage : §G+$VALUE$§!"
+ THEIR_ENCRYPTION:1 "Leur niveau de cryptage : $VALUE$"
+ OUR_DECRYPTION:2 "Notre niveau de décryptage : $VALUE$"
  IS_FIRST_CONTACT_UNDER_INVESTIGATION_TRIGGER:0 "Une enquête est menée sur les $NAME|Y$"
  MESSAGE_FIRST_CONTACT_ABORTED_TITLE:0 "Premier contact interrompu"
  MESSAGE_FIRST_CONTACT_ABORTED_DESC:1 "Les $COUNTRY|H$ n'existant plus, le processus de premier contact avec eux a été interrompu."
@@ -309,7 +313,7 @@
 
  first_contact.101.name:0 "Ce sont des [This.Owner.GetSpeciesNamePlural] !"
  first_contact.101.desc:2 "Alors que nous interceptions davantage de communications des prétendus §H[This.ContactCountry.GetName]§!, une découverte stupéfiante a été faite : ils s'exprimaient dans un dialecte étrange de l'une de nos propres langues ! Une fois la surprise passée, des communications ont rapidement été établies, révélant qu'ils forment ce qu'ils nomment '§H[This.ContactCountry.GetRealName]§!'."
- first_contact.101.desc.2:0 "Alors que nous nous tenions prêts à attaquer les §H[This.ContactCountry.GetName]§!, une découverte remarquable a été faite : ce sont des [This.Owner.GetSpeciesNamePlural] ! Une fois que nous avons compris qu'ils parlaient en un dialecte étrange d'une langue [This.Owner.GetSpeciesName], il a été mis fin aux hostilités et des communications ont été rapidement établies, permettant de révéler qu'ils sont '§H[This.ContactCountry.GetRealName]§!'."
+ first_contact.101.desc.2:0 "Alors que nous nous tenions prêts à attaquer les §H[This.ContactCountry.GetName]§!, une découverte remarquable a été faite : ce sont des [This.Owner.GetSpeciesNamePlural] ! Une fois que nous avons compris qu'ils parlaient en un dialecte étrange d'une langue [This.Owner.Species.GetName], il a été mis fin aux hostilités et des communications ont été rapidement établies, permettant de révéler qu'ils sont '§H[This.ContactCountry.GetRealName]§!'."
  first_contact.101.A:0 "Nous avons retrouvé des cousins depuis longtemps perdus !"
  first_contact.101.B:0 "Espérons que nos liens permettront une réelle amitié"
  first_contact.101.C:0 "Peut-être devrions-nous malgré tout les attaquer ?"
@@ -320,7 +324,7 @@
 
  first_contact.103.name:0 "Intelligence collective"
  first_contact.103.desc.base:0 "Les efforts entrepris pour déchiffrer les signaux de '§H[This.ContactCountry.GetName]§!' ont fini par payer, et nous pouvons enfin ouvrir des canaux diplomatiques avec cette civilisation, dont nous savons qu'elle s'appelle elle-même '§H[This.ContactCountry.GetRealName]§!'."
- first_contact.103.desc:0 "$first_contact.103.desc.base$\n\nDe façon étonnante, elle semble n'avoir aucune notion d'individualité inhérente à l'espèce [This.Owner.GetSpeciesName]. Ses «drones» sont totalement dépourvus de libre arbitre ou de pensées indépendantes, et sont réduits au rôle de simples pions pour la §Hconscience collective§!. Nos [This.Owner.GetResearchers] pensent que, loin de s'irriter d'être en permanence sous un étroit contrôle, les [This.ContactCountry.GetSpeciesNamePlural] ont évolué de manière à dépendre étroitement de l'intelligence collective et seraient sans doute incapables même de survivre s'ils en étaient coupés."
+ first_contact.103.desc:0 "$first_contact.103.desc.base$\n\nDe façon étonnante, elle semble n'avoir aucune notion d'individualité inhérente à l'espèce [This.Owner.Species.GetName]. Ses «drones» sont totalement dépourvus de libre arbitre ou de pensées indépendantes, et sont réduits au rôle de simples pions pour la §Hconscience collective§!. Nos [This.Owner.GetResearchers] pensent que, loin de s'irriter d'être en permanence sous un étroit contrôle, les [This.ContactCountry.GetSpeciesNamePlural] ont évolué de manière à dépendre étroitement de l'intelligence collective et seraient sans doute incapables même de survivre s'ils en étaient coupés."
  first_contact.103.A:0 "Étudions-les pour appliquer cette méthode à nos travailleurs !"
  first_contact.103.B:0 "C'est fascinant, découvrons comme cela est possible"
  first_contact.103.C1:0 "Éradiquons tout ça !"
@@ -428,7 +432,7 @@
  first_contact.252.desc.hive_enemy.hive:0 "$first_contact.252.desc.hive.start$\n\nLes assaillants, des aliens d'une espèce [From.Owner.Species.GetClass] faisant mouvement avec une coordination suggérant une intelligence unifiée assez similaire à la nôtre, sont parvenus à capturer bon nombre de nos drones. $first_contact.252.desc.hive.end$"
  first_contact.252.A:0 "C'est véritablement inquiétant..."
 
- first_contact.253.name:0 "La cruauté [From.Owner.GetSpeciesName]"
+ first_contact.253.name:0 "La cruauté [From.Owner.Species.GetName]"
  first_contact.253.desc.normal.end:0 "Les vidéos en provenance de l'intérieur du vaisseau ont été coupées, mais pas avant que nous n'entrapercevions les atrocités épouvantables que ces aliens ont fait subir à leurs prisonniers, les ouvrant vivants pour étudier leurs organes, tandis qu'ils étaient encore en vie ! Face à une civilisation agissant de manière aussi cruelle, les hostilités paraissent évidemment inévitables."
  first_contact.253.desc.hive.end:0 "sont parvenus à capturer bon nombre de drones subalternes et ont commencé à les ouvrir, sans considération aucune pour la perte de ressources engendrée, cherchant visiblement un moyen de retourner notre biologie contre nous. Ceci, en même temps que la capture du vaisseau et de toutes les technologies se trouvant à son bord, ont contraint à réévaluer grandement le danger qu'ils constituent pour la Conscience."
  first_contact.253.desc.machine.end:0 "sont parvenus à capturer bon nombre de drones et ont aussitôt commencé à les désassembler pour étudier la façon dont nos unités sont constituées, y cherchant apparemment des faiblesses aussi bien matérielles que logicielles. Ceci, en même temps que la capture du vaisseau et de toutes les technologies se trouvant à son bord, nous a contraints à réévaluer grandement le danger qu'ils constituent."
@@ -444,7 +448,7 @@
  first_contact.253.B.devourer:0 "Nous saurons bientôt s'ils sont bons"
 
  first_contact.254.name:0 "$first_contact.253.name$"
- first_contact.254.desc.normal.end:0 "Les vidéos en provenance de l'intérieur du vaisseau ont été coupées, mais pas avant que nous n'entrapercevions les aliens exécuter tous leurs prisonniers, sans faire preuve du moindre égard pour la vie [This.Owner.GetSpeciesName]. Face à une civilisation agissant de manière aussi cruelle, les hostilités paraissent évidemment inévitables."
+ first_contact.254.desc.normal.end:0 "Les vidéos en provenance de l'intérieur du vaisseau ont été coupées, mais pas avant que nous n'entrapercevions les aliens exécuter tous leurs prisonniers, sans faire preuve du moindre égard pour la vie [This.Owner.Species.GetName]. Face à une civilisation agissant de manière aussi cruelle, les hostilités paraissent évidemment inévitables."
  first_contact.254.desc.hive.end:0 "sont parvenus à capturer bon nombre de drones subalternes pour les massacrer de manière tout à fait irrationnelle, sans considération aucune pour la perte de ressources engendrée. Ceci, en même temps que la capture du vaisseau et de toutes les technologies se trouvant à son bord, ont contraint à réévaluer grandement le danger qu'ils constituent pour la Conscience."
  first_contact.254.desc.machine.end:0 "sont parvenus à capturer bon nombre de drones, et les ont aussitôt désassemblés, de la manière la plus irrationnelle et brutale qui soit. Ceci, en même temps que la capture du vaisseau et de toutes les technologies se trouvant à son bord, nous a contraints à réévaluer grandement le danger qu'ils constituent."
  first_contact.254.desc.normal:0 "$first_contact.252.desc.normal.start$\n\nEn dépit de la résistance courageuse de l'équipage, les assaillants, des aliens d'une espèce [From.Owner.Species.GetClass], ont pu balayer ses défenses.\n\n$first_contact.254.desc.normal.end$"
@@ -510,7 +514,7 @@
 
  first_contact.1105.desc:0 "L'étude des aliens de la §H[contact_country.GetName]§! récemment capturés est terminée. Ils se sont avérés réticents à coopérer, mais cela n'avait plus grande importance lorsque nous avons commencé à les ouvrir. Nous connaissons désormais de nombreuses choses sur les fonctions internes de leur [contact_country.GetSpeciesOrganName], de leurs [contact_country.GetSpeciesEarNamePlural], de leurs [contact_country.GetSpeciesHandNamePlural] et d'autres organes, offrant à nos [Root.GetResearchers] généticiens d'importantes §Hdonnées xénobiologiques§!.\n\nTerrorisés par la cruauté de nos actions, quelques-uns des [contact_country.GetSpeciesNamePlural] ont commencé à coopérer pour que nous puissions traduire leur langage et accéder à leurs systèmes informatiques. Nous disposons donc désormais de très nombreux renseignements dont nous pourrons faire usage contre eux si le besoin s'en fait sentir."
  first_contact.1105.desc.hive_victim:0 "L'étude des aliens de la §H[contact_country.GetName]§! récemment capturés est terminée. Il s'est effectivement avéré qu'ils sont organisés par une §Hconscience collective§!, chaque drone n'ayant individuellement aucune autonomie ou volonté. S'ils se sont montrés peu utiles lors des interrogatoires, cela n'avait plus grande importance lorsque nous avons commencé à les ouvrir. Nous connaissons désormais de nombreuses choses sur les fonctions internes de leur [contact_country.GetSpeciesOrganName], de leurs [contact_country.GetSpeciesEarNamePlural], de leurs [contact_country.GetSpeciesHandNamePlural] et d'autres organes, offrant à nos [Root.GetResearchers] généticiens d'importantes §Hdonnées xénobiologiques§!.\n\nSi cela a été plus long que nous l'avions espéré, ces connaissances d'ordre biologiques ont permis de déchiffrer leur langue, puis leurs codes informatiques. Nous disposons donc maintenant de renseignements considérables contre eux, dont nous pourrons faire usage si le besoin s'en fait sentir."
- first_contact.1105.desc.machine_victim:0 "L'étude des machines de la §H[contact_country.GetName]§! récemment capturées est terminée. Une fois coupés de leur I.A., ces drones mécaniques ont été dépourvus de toute coordination et ont révélé peu d'informations d'eux-mêmes. Mais, une fois désassemblés, les progrès ont été rapides, à la fois dans la compréhension de leur fonctionnement interne et leur coordination. Il s'est avéré que leurs processeurs n'ont pas fait le poids face aux techniques de collecte d'informations utilisées, et ces drones n'ont donc quasiment plus aucun secret pour nous.\n\nSi cela répond à nos besoins, nous pouvons aussi maintenant communiquer avec l'I.A. [contact_country.GetSpeciesName] si le besoin s'en fait sentir."
+ first_contact.1105.desc.machine_victim:0 "L'étude des machines de la §H[contact_country.GetName]§! récemment capturées est terminée. Une fois coupés de leur I.A., ces drones mécaniques ont été dépourvus de toute coordination et ont révélé peu d'informations d'eux-mêmes. Mais, une fois désassemblés, les progrès ont été rapides, à la fois dans la compréhension de leur fonctionnement interne et leur coordination. Il s'est avéré que leurs processeurs n'ont pas fait le poids face aux techniques de collecte d'informations utilisées, et ces drones n'ont donc quasiment plus aucun secret pour nous.\n\nSi cela répond à nos besoins, nous pouvons aussi maintenant communiquer avec l'I.A. [contact_country.Species.GetName] si le besoin s'en fait sentir."
 
  first_contact.1110.desc:0 "L'étude des aliens de la §H[contact_country.GetName]§! récemment capturés est terminée. S'ils étaient au départ réticents à coopérer, une fois les communications établies avec la [contact_country.GetName] nous avons pu faire des progrès rapides. En peu de temps, nous avons pu les «persuader» de nous donner accès à leurs systèmes informatiques.\n\nGrâce aux informations ainsi glanées, nous disposons désormais de nombreux renseignements concernant ses activités et ses capacités."
  first_contact.1110.desc.weak:0 "L'étude des aliens de la §H[contact_country.GetName]§! récemment capturés est terminée. Ils se sont montrés remarquablement accommodants, ne semblant montrer aucune réelle volonté de nous cacher des choses sur eux. On pourrait aller jusqu'à dire qu'ils se sont montrés tout à fait coopératifs. En peu de temps, nous avons pu les persuader de nous donner accès à leurs systèmes informatiques.\n\nGrâce aux informations ainsi glanées, nous disposons désormais de nombreux renseignements concernant ses activités et ses capacités."
@@ -841,9 +845,9 @@
  first_contact.1060.desc.gestalt:0 "La rencontre récente avec des formes de vie aliens a rappelé la nécessité où nous nous trouvons de prendre une décision quant à l'approche à adopter face à toute civilisation alien potentiellement intelligente que nous pourrions rencontrer.\n\nUne possibilité consiste à établir des relations pacifiques avec eux, aussitôt que possible, en leur envoyant toutes les informations nécessaires pour traduire nos communications. Cela pourrait, malgré tout, s'avérer imprudent s'ils sont animés d'intentions malveillantes à notre égard.\n\nLe choix le plus sûr serait donc de nous montrer prudents, en tentant de communiquer avec eux sans leur livrer trop de détails sur nous. Enfin, rien n'empêche d'adopter une approche plus agressive, pour en apprendre davantage sur eux et les tenir éloignés de notre espace. Mais cela se traduirait assurément par une dégradation de nos relations."
  first_contact.1060.A:0 "Accueillons ces xénos de manière amicale"
  first_contact.1060.A.machine:0 "$first_contact.1060.A$"
- first_contact.1060.A.tooltip:0 "Conséquences du protocole de premier contact §Yvolontariste§! :\n$first_contact_proactive_effects$"
+ first_contact.1060.A.tooltip:1 "Conséquences du protocole de premier contact §Yvolontariste§! :\n$first_contact_proactive_effects$$MOD_FIRST_CONTACT_SPEED_MULT$: §G+10%§!"
  first_contact.1060.B:0 "Mieux vaut nous montrer prudents"
- first_contact.1060.B.tooltip:0 "Conséquences du protocole de premier contact §Yprudent§! :\n$first_contact_cautious_effects$"
+ first_contact.1060.B.tooltip:1 "Conséquences du protocole de premier contact §Yprudent§! :\n$first_contact_cautious_effects$$MOD_FIRST_CONTACT_DEFENSE_ADD$: §G+2§!"
  first_contact.1060.C:0 "Tenons à l'écart quiconque voudrait nous menacer"
  first_contact.1060.C.tooltip:0 "Conséquences du protocole de premier contact §Yagressif§! :\n$first_contact_attack_allowed_effects$"
 
@@ -946,7 +950,7 @@
  first_contact_critters.10.desc:0 "Les capteurs à longue portée ont relevé des signaux dans le système de §Y[This.System.GetName]§!, qui peuvent difficilement être décrits comme autre chose que de gigantesques formes indistinctes de chaleur. Une enquête devrait être menée à ce sujet."
  first_contact_critters.10.A:0 "Allons-y"
  first_contact_critters.15.name:0 "$story.501.name$"
- first_contact_critters.15.desc:1 "Ces formes de vie spatiales que le responsable de la recherche sociétale [Owner.GetSpeciesName] a fini par qualifier de «§Htiyanki§!» sont des créatures paisibles. Capables d'accéder à une dimension inférieure du sous-espace, elles voguent d'un système à l'autre avec une aisance remarquable.\n\nElles broutent ces gaz que l'on trouve communément dans les couches supérieures de nombreuses géantes gazeuses. Il est pourtant peu probable, c'est le moins que l'on puisse dire, qu'il s'agisse là de leur seule source de nourriture, même si l'absorption de toute autre forme de nutriments n'a pas encore pu être observée.\n\nElles n'attaquent que rarement, même lorsqu'on les provoque, aussi peuvent-elles sans crainte être ignorées."
+ first_contact_critters.15.desc:1 "Ces formes de vie spatiales que le responsable de la recherche sociétale [Owner.Species.GetName] a fini par qualifier de «§Htiyanki§!» sont des créatures paisibles. Capables d'accéder à une dimension inférieure du sous-espace, elles voguent d'un système à l'autre avec une aisance remarquable.\n\nElles broutent ces gaz que l'on trouve communément dans les couches supérieures de nombreuses géantes gazeuses. Il est pourtant peu probable, c'est le moins que l'on puisse dire, qu'il s'agisse là de leur seule source de nourriture, même si l'absorption de toute autre forme de nutriments n'a pas encore pu être observée.\n\nElles n'attaquent que rarement, même lorsqu'on les provoque, aussi peuvent-elles sans crainte être ignorées."
  first_contact_critters.15.desc.gesta:0 "$story.501.desc.gesta$"
  first_contact_critters.15.A:0 "Elles sont fascinantes"
  # Amoebas
@@ -954,7 +958,7 @@
  first_contact_critters.20.desc:0 "Au moment d'entrer dans le système de §Y[This.System.GetName]§!, les capteurs ont relevé d'étranges signaux. Mais ce que l'on a pensé au départ n'être que de simples astéroïdes a été entièrement réévalué lorsque l'on s'est aperçu que ces entités réagissaient de manière agressive au moindre mouvement dans l'espace, même à grande distance.\n\nL'observation de ces entités est recommandée, mais à bonne distance si possible."
  first_contact_critters.20.A:0 "Mieux vaut regarder tout cela de loin"
  first_contact_critters.25.name:0 "$story.101.name$"
- first_contact_critters.25.desc:1 "Les entités que viennent de découvrir nos flottes sont des formes de vies spatiales inconnues jusqu'à présent.\n\nRapidement surnommée «§Hamibe spatiale§!» suite à la grossière erreur d'interprétation des premiers relevés des capteurs, la créature est en fait plus grosse qu'une corvette [Owner.GetSpeciesName]."
+ first_contact_critters.25.desc:1 "Les entités que viennent de découvrir nos flottes sont des formes de vies spatiales inconnues jusqu'à présent.\n\nRapidement surnommée «§Hamibe spatiale§!» suite à la grossière erreur d'interprétation des premiers relevés des capteurs, la créature est en fait plus grosse qu'une corvette [Owner.Species.GetName]."
  first_contact_critters.25.A:0 "Bien reçu"
  # Crystals
  first_contact_critters.30.name:0 "Des cristaux vivants ?"

@@ -5,7 +5,7 @@
  # Text & Code by Malthus
  # More Event mod, 
  # Translation by Calvitix
- # Translation check : OK 10.06.2020
+ # Translation check : OK 16.09.2021
  ####################################
 
 
@@ -80,17 +80,20 @@
  district_mem_vazuran_habitat_leisure_desc:0 "$district_arcology_leisure_desc$"
 
  #Techs
- tech_mem_vazuran_xentronium_armor:0 "Armure de xentronium"
+ tech_mem_vazuran_xentronium_armor:0 "Blindage de xentronium"
  tech_mem_vazuran_xentronium_armor_desc:0 "Ce matériau ultra-dense a fourni aux vaisseaux Vazouranes une durabilité extrême. Il est largement supérieur à tout autre type d'armure connu."
 
  tech_mem_vazuran_xentronium_rounds:0 "Munitions de xentronium"
  tech_mem_vazuran_xentronium_rounds_desc:0 "Ce matériau ultra-dense a fourni aux vaisseaux Vazouranes une durabilité extrême. Mais ses caractéristiques en font également le matériau de choix pour nos munitions cinétiques."
  
  tech_mem_vazuran_damper_field_bypass:0 "Contournement du champ d'absorption"
- tech_mem_vazuran_damper_field_bypass_desc:0 "Une compréhension plus approfondie des lois physiques sous-jacentes sur lesquelles la technologie de champ d'amortisseur est basée nous permettra de contourner son effet sur nos armes - au moins dans une certaine mesure ..."
+ tech_mem_vazuran_damper_field_bypass_desc:0 "Une compréhension plus approfondie des lois physiques sous-jacentes sur lesquelles la technologie de champ d'amortisseur est basée nous permettra de contourner son effet sur nos armes - au moins dans une certaine mesure..."
 
  tech_mem_vazuran_rift_stabilization:0 "Stabilisation de la faille"
  tech_mem_vazuran_rift_stabilization_desc:0 "Nos scientifiques voient la possibilité de rétablir la faille qui a conduit la flotte Vazourane à notre système de capital, nous donnant ainsi l'opportunité de lancer une contre-attaque contre eux dans leur propre espace."
+
+ tech_mem_vazuran_rift_travel:0 "Voyage à travers les failles"
+ tech_mem_vazuran_rift_travel_desc:0 "Malgré certaines similitudes superficielles avec les trous de ver naturels, le mode de fonctionnement des failles et leur origine totalement artificielle déconcertent toujours nos scientifiques. Un moyen de traverser en toute sécurité ces trous dans la réalité est peut-être à portée de main."
 
  #ambient objects
  mem_vazuran_wreckage_object:0 "Épave Vazourane"
@@ -132,10 +135,27 @@
  mem_vazuran_gateway_MEGASTRUCTURE_DETAILS:0 ""
  mem_vazuran_gateway_CONSTRUCTION_INFO_DELAYED:0 ""
  #Vazourane Rift Nexus
- mem_vazuran_gateway_nexus:0 "Nexus de faille"
+ mem_vazuran_gateway_nexus:0 "Nexus de la faille"
  mem_vazuran_gateway_nexus_DESC:0 "Un lien pour établir des failles dimensionnelles à travers le tissu même de l'espace qui permet un voyage instantané vers des failles établies."
  mem_vazuran_gateway_nexus_MEGASTRUCTURE_DETAILS:0 ""
  mem_vazuran_gateway_nexus_CONSTRUCTION_INFO_DELAYED:0 ""
+ #Vazuran Rift Endpoint
+ mem_vazuran_gateway_endpoint:0 "Terminus de la faille"
+ mem_vazuran_gateway_endpoint_DESC:0 "Une installation utilisée pour stabiliser les failles dimensionnelles à son emplacement, permettant une utilisation continue comme moyen de voyage instantané vers le système auquel la faille est connectée."
+ mem_vazuran_gateway_endpoint_MEGASTRUCTURE_DETAILS:0 ""
+ mem_vazuran_gateway_endpoint_CONSTRUCTION_INFO_DELAYED:0 ""
+ #Vazuran Ruined Rift Endpoint
+ mem_vazuran_gateway_endpoint_ruined:0 "Terminus de la faille en ruine"
+ mem_vazuran_gateway_endpoint_ruined_DESC:0 "Cette installation en ruine pourrait, si elle était restaurée, être utilisée pour stabiliser les failles dimensionnelles à son emplacement, permettant ainsi une utilisation continue comme moyen de voyage instantané vers le système auquel la faille est connectée."
+ mem_vazuran_gateway_endpoint_ruined_MEGASTRUCTURE_DETAILS:0 ""
+ mem_vazuran_gateway_endpoint_ruined_CONSTRUCTION_INFO_DELAYED:0 ""
+ #Ruined Precursor Habitat
+ mem_vazuran_habitat_ruined:0 "Habitat des précurseurs en ruines"
+ mem_vazuran_habitat_ruined_DESC:0 "Un habitat précurseur en ruine. Bien que ses entrailles aient été vidées par des pillards il y a des lustres, la coque principale de la mégastructure est encore presque intacte. Avec la bonne technologie et beaucoup de ressources, elle pourrait être remise à neuf."
+ mem_vazuran_habitat_ruined_MEGASTRUCTURE_DETAILS:0 ""
+ #Precursor Habitat
+ mem_vazuran_habitat:0 "Habitat des précurseurs"
+ mem_vazuran_habitat_DESC:0 "Une arcologie des précurseurs de l'espace profond offrant des conditions de vie semblables à celles d'une planète, bien que résolument urbaines. L'hydroponie et les technologies de filtrage avancées permettent l'autosuffisance, et les installations de la station peuvent extraire des matières premières de la planète hôte de la station."
 
  #bypass
  GATEWAY_VAZURAN:0 "Faille interdimensionnelle"
@@ -178,28 +198,28 @@
 
  #First Contact message
  mem_vazurans.6.name:0 "Message entrant"
- mem_vazurans.6a.desc:0 "Nous sommes les Vazouranes. Nous avons fait de cette galaxie la nôtre bien avant que vos ancêtres ne quittent même leurs pitoyables grottes ...\n\nVous nous servirez ou partagerez le même sort que ceux qui vous ont précédés.\n\nSachez que vous existez simplement parce que nous le permettons ...\n\nEt si vous osez résister, vous finirez comme nous le demandons."
- mem_vazurans.6b.desc:0 "Votre type est plus résistant que prévu ...\n\nNous sommes les Vazouranes. Nous avons fait de cette galaxie la nôtre bien avant que vos ancêtres ne quittent même leurs pitoyables grottes ...\n\nVous nous servirez ou partagerez le même sort que ceux qui vous ont précédés. Nous avons brûlé votre monde une fois et nous pouvons le faire à nouveau.\n\nSachez que vous existez simplement parce que nous le permettons ...\n\nEt si vous osez résister, vous finirez comme nous le demandons ."
+ mem_vazurans.6a.desc:0 "Nous sommes les Vazouranes. Nous avons fait de cette galaxie la nôtre bien avant que vos ancêtres ne quittent même leurs pitoyables grottes...\n\nVous nous servirez ou partagerez le même sort que ceux qui vous ont précédés.\n\nSachez que vous existez simplement parce que nous le permettons...\n\nEt si vous osez résister, vous finirez comme nous le demandons."
+ mem_vazurans.6b.desc:0 "Votre type est plus résistant que prévu...\n\nNous sommes les Vazouranes. Nous avons fait de cette galaxie la nôtre bien avant que vos ancêtres ne quittent même leurs pitoyables grottes...\n\nVous nous servirez ou partagerez le même sort que ceux qui vous ont précédés. Nous avons brûlé votre monde une fois et nous pouvons le faire à nouveau.\n\nSachez que vous existez simplement parce que nous le permettons...\n\nEt si vous osez résister, vous finirez comme nous le demandons."
  mem_vazurans.6.a:0 "Qui êtes vous ?"
- mem_vazurans.6.a.response:0 "Vos maîtres ... Vous n'avez pas besoin d'en savoir plus ..."
+ mem_vazurans.6.a.response:0 "Vos maîtres... Vous n'avez pas besoin d'en savoir plus..."
  #peaceful reply
  mem_vazurans.6.b:0 "Mais il doit y avoir un moyen de coexister pacifiquement ! ?"
- mem_vazurans.6.b.response:0 "En effet ... Nous gouvernons, vous servez ..."
+ mem_vazurans.6.b.response:0 "En effet... Nous gouvernons, vous servez..."
  #xenophobe reply
- mem_vazurans.6.c:0 "Nous ne vous craignons pas, Xeno ..."
- mem_vazurans.6.c.response:0 "Vous le ferez ... un temps."
+ mem_vazurans.6.c:0 "Nous ne vous craignons pas, Xeno..."
+ mem_vazurans.6.c.response:0 "Vous le ferez... un temps."
 
  #Message for retaliation
  mem_vazurans.7.name:0 "Message entrant"
  mem_vazurans.7a.desc:0 "Votre résistance continue a été une nuisance pendant trop longtemps. Nous avons envoyé notre flotte pour vous montrer les conséquences de vos actions."
- mem_vazurans.7b.desc:0 "Pensiez-vous que votre bricolage avec notre technologie passerait inaperçu ? Vous allez maintenant répondre de votre sacrilège ..."
+ mem_vazurans.7b.desc:0 "Pensiez-vous que votre bricolage avec notre technologie passerait inaperçu ? Vous allez maintenant répondre de votre sacrilège..."
  mem_vazurans.7.a:0 "Mettez fin à la transmission."
 
  #Colony lost to Vazourane Terror attack
  mem_vazurans.8.name:0 "Colonie perdue"
  mem_vazurans.8.desc:0 "Les Vazouranes n'étaient pas satisfaits de prendre nos ressources cette fois. Une colonie entière a été détruite alors que nous ne sommes toujours pas en mesure de répondre à ces atrocités."
  mem_vazurans.8.a:0 "Il doit y avoir un moyen de les arrêter !"
- mem_vazurans.8.b:0 "Nous devons protéger notre peuple ... en quelque sorte !"
+ mem_vazurans.8.b:0 "Nous devons protéger notre peuple... en quelque sorte !"
 
  #Colony attacked by Vazourane Raid
  mem_vazurans.9.name:0 "Raid sur une Colonie"
@@ -207,7 +227,7 @@
  mem_vazurans.9.desc.b:0 "Notre colonie de §Y[mem_vazurans_raid_planet_name.GetName]§! a été touchée par une flotte de raid Vazourane. D'innombrables citoyens ont perdu la vie à cause de cette attaque téméraire et l'infrastructure de la planète a été dévastée."
  mem_vazurans.9.a:0 "Nous endurerons !"
  mem_vazurans.9.b:0 "Nous devons renforcer nos défenses !"
- mem_vazurans.9.c:0 "Nous devons protéger notre peuple ... Mais comment ? !"
+ mem_vazurans.9.c:0 "Nous devons protéger notre peuple... Mais comment ? !"
 
  #Planetary defense project
  MEM_VAZURANS_DEFENSE_PLAN:0 "Renforcer les défenses"
@@ -259,6 +279,55 @@
  mem_vazurans.53.desc:0 "Nos ingénieurs ont terminé leur travail sur la station de rift. La procédure de stabilisation a été lancée, et après ce qui semblait être une éternité, la faille s'est lentement réouverte, formant un nouveau portail. Les sondes que nous avons envoyées ont confirmé que nous avons établi un lien solide avec l'autre côté. Nous sommes maintenant suffisamment confiants pour envoyer un corps expéditionnaire habité."
  mem_vazurans.53.desc.gestalt:0 "Nos drones d'ingénierie ont terminé leur travail sur la station de rift. La procédure de stabilisation a été lancée, et après ce qui semblait être une éternité, la faille s'est lentement réouverte, formant un nouveau portail. Les sondages que nous avons envoyés après avoir confirmé que nous avons établi un lien solide avec l'autre partie, nous sommes maintenant suffisamment confiants pour envoyer un corps expéditionnaire habité."
  mem_vazurans.53.a:0 "Bon travail."
+
+ # Finding first active Rift Endpoint
+ mem_vazurans.60.name:0 "Installation antique"
+ # If we haven't seen a ruined version first
+ mem_vazurans.60.a.desc:0 "Une ancienne installation d'une certaine sorte a été située au bord du système [mem_vazuran_gateway_endpoint_system.GetName]. Une rift dans le tissu même de l'espace-temps s'est formée ici, créant un '§hwormhole§!'Cela, notre spécule [Root.Owner.GetScientistPlural] peut fournir un conduit à travers le sous-espace à un autre trou de ver situé ailleurs dans notre galaxie. Les structures entourant apparaissent à la fois comme un confinement et un moyen de stabiliser cette rift apparemment artificielle. \n\nSondes envoyées dans le phénomène révélée des incompatibilités entre notre technologie et l'environnement à l'intérieur. Non, ils ont traversé, souffrir de la conduite de sublight ainsi que des malfunitions de réacteur conduisant à leur destruction. Avant de traverser ces francs, nous devrons être tentés, nous devrons modifier les systèmes de notre navire pour contrer ces effets indésirables."
+ # If we have seen a ruined version first
+ mem_vazurans.60.b.desc:0 "Une autre installation ancienne a été située au bord du système [mem_vazuran_gateway_endpoint_system.GetName]. Cette fois, nous avons trouvé une version intacte. Comme nous l'avions prévu sur la base de nos observations à l'emplacement précédent, une faille dans le tissu même de l'espace-temps s'est formée ici, créant un '§hwormhole§!'Cela, notre spécule [Root.Owner.GetScientistPlural] peut fournir un conduit à travers le sous-espace à un autre trou de ver situé ailleurs dans notre galaxie. Les structures entourant apparaissent à la fois comme un confinement et un moyen de stabiliser cette rift apparemment artificielle. \n\nSondes envoyées dans le phénomène révélée des incompatibilités entre notre technologie et l'environnement à l'intérieur. Non, ils ont traversé, souffrir de lecteur de sublight ainsi que des dysfonctionnements du réacteur conduisant à leur destruction. Avant que tous les déplacements à travers ces rempets puissent être tentés, nous devrons modifier les sous-systèmes de notre navire pour contrer ces effets indésirables."
+ mem_vazurans.60.a:0 "Nous devrons nous adapter en premier."
+
+ # Finding first ruined Rift Endpoint
+ mem_vazurans.61.name:0 "Installation en ruine"
+ # If we haven't seen an intact version first
+ mem_vazurans.61.a.desc:0 "Une ancienne installation d'une certaine sorte a été située au bord du système [mem_vazuran_gateway_endpoint_system.GetName]. Son état ruiné ne cache pas ce fait que celui qui l'a créé, était beaucoup plus avancé que nous. Les scans préliminaires ont révélé une anomalie au centre de l'installation. Notre [Root.Owner.GetScientistPlural] juge que c'est le vestige d'un phénomène beaucoup plus grand. Si leur théorie est correcte, le but des structures est de stabiliser l'anomalie et de former une sorte de portail. Nous ne pouvons que deviner où il peut mener pour le moment.\n\n\nBien que nos espoirs de recréer cette technologie soient plutôt minces, étant donné suffisamment de temps, nous pourrons pouvoir restaurer cette installation à un état de travail."
+ # If we have seen an intact version first
+ mem_vazurans.61.b.desc:0 "Une autre installation ancienne a été située au bord du système [mem_vazuran_gateway_endpoint_system.GetName]. Cette fois, nous en avons trouvé un dans un état désolé. La RIFT Cette structure contient s'est presque effondrée en soi. Malgré les dégâts importants qu'il a maintenus il n'y a aucun doute sur le fait que celui qui l'a créé était beaucoup plus avancé que nous. Cette installation prouve également notre hypothèse [Root.Owner.GetScientistPlural]. Le but des structures est en effet de stabiliser et de soutenir la faille.\n\nBien que nos espoirs de recréer cette technologie soient plutôt minces, il est suffisamment de temps que nous pourrons pouvoir restaurer cette installation à un état de travail."
+ mem_vazurans.61.a:0 "Si cela pouvait en quelque sorte être restauré..."
+
+ # Finding ruined vazuran homesystem
+ mem_vazurans.62.name:0 "Destruction totale"
+ mem_vazurans.62.desc:0 "Ce système réside dans les ruines. Les champs de débris entourent les enveloppes cassées qui étaient une fois des stations puissantes. Une structure géante brisée près des restes de la deuxième planète domine le paysage comme un monument à la grandeur passée de ses constructeurs. Les épaves trouvées ici correspondent à la composition de style et de matériau des installations de rift suggérant que leurs constructeurs ont été un et le même.\n\nPas beaucoup plus pourrait être déterminé à propos de leur civilisation. Les stations abandonnées et les navires dérivant dans le vide semblent avoir depuis longtemps été pillés et cueillies de toute technologie précieuse et des coeurs de données restants semblent avoir délibérément nettoyé comme pour éliminer toutes les informations sur leurs créateurs - par qui nous ne pouvons pas déduire. \n\nL'installation de RIFT de ce système s'avère être assez différente de celles présentes dans le corps principal galactique. Il existe des structures supplémentaires entourant la faille - ou mieux de dire que plusieurs rifts contenaient simultanément dans son fonctionnement en tant que Nexus connecté à plusieurs points d'extrémité. Les possibilités stratégiques acquises en occupant ce système ne peuvent pas être surestimées. Que ce soit pour soutenir nos propres plans ou pour le nier à nos ennemis, la sécurisation de cet endroit pour le [owner.GetName] devrait avoir une priorité élevée."
+ mem_vazurans.62.a:0 "Nous devrions revendiquer ce système."
+
+ # Restoring ruined Rift Endpoint
+ mem_vazurans.63.name:0 "Rift Terminus restauré"
+ # Standard empire first time
+ mem_vazurans.63.a.desc:0 "Le terminus de la faille dans le système §H[mem_vazuran_rift_system.GetName]§! a été restauré. C'était tout à fait un travail en train de mettre ce casse-tête avec une compréhension très élémentaire de sa technologie. Le plus grand défi que nous avons confronté était la procédure d'activation pour stabiliser la faille. Il a finalement élaboré bien et la faille est désormais stable, mais rapporte comment cela est venu de dire le moins de dire le moins.\n\napparemment après plusieurs nuits instantanées une de nos [Root.GetScientistPlural] frustrées par le manque de progrès et dans un ajustement de fureur commencent à éteindre au hasard des cristaux de contrôle dans le cadre principal de l'installation, ce qui a entraîné la restauration de la faille. Le [Root.GetScientist] est maintenant annoncé comme un génie par certains, tandis que d'autres sont simplement soulagés, il n'a pas explosé tout le système..."
+ mem_vazurans.63.a.name:0 "Appliquer plus de temps de repos à l'avenir."
+ # Standard empire after first time
+ mem_vazurans.63.b.desc:0 "Le terminus de la faille dans le système §H[mem_vazuran_rift_system.GetName]§! a été restauré. En utilisant la même procédure que celle observée dans l'incident précédent, la faille s'est stabilisée sans problèmes."
+ # Hive empire first time
+ mem_vazurans.63.c.desc:0 "Le terminus de la faille dans le système §H[mem_vazuran_rift_system.GetName]§! a été restauré. La restauration des structures elles-mêmes avait été réalisée efficacement par nos drones, mais les activant s'avérons être un immense défi pour notre [Root.GetScientistPlural]. Après plusieurs semaines sans progression, l'un d'entre eux a soudainement commencé à recoudre au hasard des cristaux de contrôle dans le cadre principal de l'installation, ce qui a entraîné la stabilisation de la faille."
+ mem_vazurans.63.c.name:0 "Nous ne nous attendions à rien de moins de notre perfection de Conscience."
+ # Hive empire after first time
+ mem_vazurans.63.d.desc:0 "Le terminus de la faille dans le système §H[mem_vazuran_rift_system.GetName]§! a été restauré. La restauration des structures elles-mêmes avait été exécutée efficacement par nos drones. Le processus de réactivation, cependant, s'est avéré quelque peu problématique. Plusieurs dizaines de défectueuses [Root.GetScientistPlural] ont dû être rejetées jusqu'à ce que l'on puisse recréer notre succès précédent. Cependant, la faille a été stabilisée."
+ mem_vazurans.63.d.name:0 "Supprimez les défauts, ils sont indignes de notre perfection."
+ # Machine empire first time
+ mem_vazurans.63.e.desc:0 "Le terminus de la faille dans le système §H[mem_vazuran_rift_system.GetName]§! a été restauré. La restauration des structures elles-mêmes avait été réalisée efficacement par nos drones, mais les activant s'avérons être un immense défi pour notre [Root.GetScientistPlural]. Après plusieurs semaines sans progression, l'un d'entre eux a appliqué un sous-programme de randomisation standard pour déterminer un nouvel accord de cristaux de contrôle dans le cadre principal de l'installation. Cette opération a été remplie de succès et la faille a été stabilisée."
+ mem_vazurans.63.e.name:0 "Louez notre sous-programme de randomisation."
+ # Machine empire after first time
+ mem_vazurans.63.f.desc:0 "Le terminus de la faille dans le système §H[mem_vazuran_rift_system.GetName]§! a été restauré. La restauration des structures avait été exécutée efficacement par nos drones. La réplication de notre procédure d'exploitation précédente a été remplie de succès. La faille est maintenant stable."
+ mem_vazurans.63.f.name:0 "Comme prévu."
+
+ requires_technology_mem_vazuran_rift_stabilization:0 "$TRIGGER_FAIL$Requiert Technologie £physics£ §Y$tech_mem_vazuran_rift_stabilization$§!."
+ BYPASS_DESC_INACTIVE_MEM_VAZURAN_INTERDIM_GATEWAY:0 "Nécessite une activation en restauré un terminus de §Yfaille§!."
+ GATEWAY_VAZURAN_DESC_UNEXPLORED:0 "Ce système contient une §Yfaille§! §Rinexplorée§!"
+
+ # Restoring ruined Star Throne
+ mem_vazurans.64.name:0 "Habitat des précurseurs restauré"
+ mem_vazurans.64.desc:0 "L'habitat des précurseurs en ruines a été entièrement restauré. Les champs de débris environnants ont été effacés et leur matériau utilisé lors de l'effort de restauration. Nos équipes de construction sont venues se référer à l'habitat comme «trône des étoiles». Ce n'est pas clair qui est venu avec ce nom ou pourquoi, mais à ce stade, il a bloqué et quelqu'un pourrait être offensé si nous l'avons changé maintenant..."
  
  #Finding a destroyed Planet
  mem_vazurans.200.name:0 "Dévastation"

@@ -430,7 +430,7 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.22.option:0 "Comment osent-ils?"
 
  dpe_xenophile_mission.23.name:0 "Définir nos exigences"
- dpe_xenophile_mission.23.desc:0 "Expliquez-vous, quel est ce comportement perfide, [root.GetSpeciesName]."
+ dpe_xenophile_mission.23.desc:0 "Expliquez-vous, quel est ce comportement perfide, [root.Species.GetName]."
  dpe_xenophile_mission.23.A:0 "Donnez-nous de l'argent, ou les otages meurent."
  dpe_xenophile_mission.23.A.tooltip:0 "Si '§Y[from.GetName]§!' accepte, ils deviendront tributaire de '§Y[root.GetName]§!'."
  dpe_xenophile_mission.23.B:0 "Démantelez votre flotte, ou les otages meurent."
@@ -458,10 +458,10 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
 
  dpe_xenophile_mission.292.name:0 "'§Y[from.GetName]§!' nous déclare la Guerre !"
  dpe_xenophile_mission.292.desc:0 "Sale écume de terroriste! Nous aurons notre revanche sur vous."
- dpe_xenophile_mission.292.option:0 "Votre hypocrisie est incroyable, [from.GetSpeciesName]."
+ dpe_xenophile_mission.292.option:0 "Votre hypocrisie est incroyable, [from.Species.GetName]."
 
  dpe_xenophile_mission.293.name:0 "Réponse de '§Y[from.GetSpeciesNamePlural]§!'"
- dpe_xenophile_mission.293.desc:0 "Votre hypocrisie est incroyable, [from.GetSpeciesName]."
+ dpe_xenophile_mission.293.desc:0 "Votre hypocrisie est incroyable, [from.Species.GetName]."
  dpe_xenophile_mission.293.option:0 "Meurs, racaille."
  
  dpe_xenomission_death:0 "Crise d'otages"
@@ -507,7 +507,7 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  
  dpe_xenophile_mission.94.name:0 "Les [from.GetSpeciesNamePlural] nous blâment pour la tragédie!"
  dpe_xenophile_mission.94.desc:0 "Votre délégation a obtenu ce qu'elle méritait, sales xénos."
- dpe_xenophile_mission.94.option:0 "Vous avez fait de nous un ennemi, [root.GetSpeciesName]."
+ dpe_xenophile_mission.94.option:0 "Vous avez fait de nous un ennemi, [root.Species.GetName]."
  
  dpe_xenophile_mission.95.name:0 "La situation de nos délégués se stabilise"
  dpe_xenophile_mission.95.desc:0 "La situation entourant notre délégation au [from.GetName] s'est stabilisée. Grâce à un travail acharné admirable, les délégués ont réussi à mieux combler le fossé avec les [from.GetSpeciesNamePlural], et l'animosité qu'ils ont rencontrée s'est apaisée."
@@ -573,7 +573,7 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.125.C:0 "Comment osez-vous nous accuser? Nous nous retirons de la mission."
  
  dpe_xenophile_mission.1251.name:0 "$dpe_xenophile_mission.1211.name$"
- dpe_xenophile_mission.1251.desc:0 "Voici les technologies demandées, [root.GetSpeciesName]. Nous nous excusons à nouveau - cet incident ne se reproduira pas."
+ dpe_xenophile_mission.1251.desc:0 "Voici les technologies demandées, [root.Species.GetName]. Nous nous excusons à nouveau - cet incident ne se reproduira pas."
  dpe_xenophile_mission.1251.option:0 "$dpe_xenophile_mission.1211.option$"
  
  dpe_xenophile_mission.1252.name:0 "$dpe_xenophile_mission.1211.name$"
@@ -603,11 +603,11 @@ dpe_xenophile_mission_ends:0 "La mission de découverte xénophile se termine."
  dpe_xenophile_mission.18.A:0 "Essayez de faire passer son travail en contrebande."
 
  dpe_xenophile_mission.171.name:0 "$dpe_title_response$"
- dpe_xenophile_mission.171.desc:0 "Voici nos échantillons, [root.GetSpeciesName]."
+ dpe_xenophile_mission.171.desc:0 "Voici nos échantillons, [root.Species.GetName]."
  dpe_xenophile_mission.171.option:0 "Merci beaucoup !"
  
  dpe_xenophile_mission.172.name:0 "$dpe_xenophile_mission.171.name$"
- dpe_xenophile_mission.172.desc:0 "Nous pouvons nous passer de vos technologies, [from.GetSpeciesName]."
+ dpe_xenophile_mission.172.desc:0 "Nous pouvons nous passer de vos technologies, [from.Species.GetName]."
  dpe_xenophile_mission.172.option:0 "Une honte."
  
  dpe_xenophile_mission.173.name:0 "Opération de contrebande réussie"
@@ -638,7 +638,7 @@ dpe_xenophile_mission.151.title:0 "Des [root.GetSpeciesNamePlural] vivants avec 
 dpe_xenophile_mission.151.desc:0 "Les [from.GetSpeciesNamePlural] devant bientôt rentrer chez eux, un certain nombre de [from.GetSpeciesNamePlural] ont choisi de rester avec leurs partenaires [root.GetAdj] au sein de '§Y[root.GetName]§!', même si ces partenariats ne bénéficient pas de tous les droits prévus par la loi [root.GetAdj]."
 
 dpe_xenophile_mission.152.title:0 "Mariages entre [root.GetSpeciesNamePlural] et [from.GetSpeciesNamePlural]?"
-dpe_xenophile_mission.152.desc:0 "Les [from.GetSpeciesNamePlural] devant bientôt rentrer chez eux, la situation des couples [from.GetSpeciesName] - [root.GetSpeciesName] qui se sont formés a pris une nouvelle importance. La loi [root.GetAdj] ne présente pas actuellement de décision claire sur la légalité de tels partenariats, ce qui crée une incertitude considérable pour les personnes concernées. La faction '§Y[xenophile_faction.GetName]§!' a accepté de représenter leur cause et fait pression pour que ces unions soient reconneus au sein de '§Y[root.GetName]§!' - bien que des éléments plus conservateurs de la société détestent l'idée même d'eux. Faut-il autoriser le mariage inter-espèces ?"
+dpe_xenophile_mission.152.desc:0 "Les [from.GetSpeciesNamePlural] devant bientôt rentrer chez eux, la situation des couples [from.Species.GetName] - [root.Species.GetName] qui se sont formés a pris une nouvelle importance. La loi [root.GetAdj] ne présente pas actuellement de décision claire sur la légalité de tels partenariats, ce qui crée une incertitude considérable pour les personnes concernées. La faction '§Y[xenophile_faction.GetName]§!' a accepté de représenter leur cause et fait pression pour que ces unions soient reconneus au sein de '§Y[root.GetName]§!' - bien que des éléments plus conservateurs de la société détestent l'idée même d'eux. Faut-il autoriser le mariage inter-espèces ?"
 dpe_xenophile_mission.152.A:0 "Autoriser le mariage inter-espèces, ils peuvent rester."
 dpe_xenophile_mission.152.B:0 "Les tolérer, mais ne pas autoriser les mariages inter-espèces."
 dpe_xenophile_mission.152.C:0 "Interdisez les relations inter-espèces et envoyez-les en route."
@@ -763,25 +763,25 @@ dpe_xenomission_like:0 "$dpe_xenomission_love$"
  dpe_contraband_event.54.B:0 "Prolongez votre offre pour combattre ces contrebandiers ensemble!"
 
  dpe_contraband_event.61.name:0 "Les [from.GetSpeciesNamePlural] pistent la drogue jusqu'à nous!"
- dpe_contraband_event.61.desc:0 "Nous avons vu votre petit jeu, [root.GetSpeciesName]. Vous n'inonderez plus notre pays de drogues illégales! Que votre nom soit maudit par tous ceux qui respectent la justice et l'État de droit!"
+ dpe_contraband_event.61.desc:0 "Nous avons vu votre petit jeu, [root.Species.GetName]. Vous n'inonderez plus notre pays de drogues illégales! Que votre nom soit maudit par tous ceux qui respectent la justice et l'État de droit!"
  dpe_contraband_event.61.option:0 "Nous ne sommes pas désolés."
  
  dpe_contraband_event.62.name:0 "$dpe_contraband_event.61.name$"
- dpe_contraband_event.62.desc:0 "[root.GetSpeciesName], nous avons eu vent d'un stratagème vicieux de votre gouvernement visant à s'enrichir en inondant notre pays de drogue. Maintenant, nous répugnons à croire que ceux que nous considérerions comme nos amis feraient une telle chose! Si vous nous aidez à résoudre ce problème, nous ne poursuivrons pas ces allégations plus loin - ni ne les laisserons être divulguées à d'autres."
+ dpe_contraband_event.62.desc:0 "[root.Species.GetName], nous avons eu vent d'un stratagème vicieux de votre gouvernement visant à s'enrichir en inondant notre pays de drogue. Maintenant, nous répugnons à croire que ceux que nous considérerions comme nos amis feraient une telle chose! Si vous nous aidez à résoudre ce problème, nous ne poursuivrons pas ces allégations plus loin - ni ne les laisserons être divulguées à d'autres."
  dpe_contraband_event.62.A:0 "Bien sûr, nous vous aiderons."
- dpe_contraband_event.62.B:0 "Nous ne vous aiderons pas, [from.GetSpeciesName]."
+ dpe_contraband_event.62.B:0 "Nous ne vous aiderons pas, [from.Species.GetName]."
  dpe_contraband_event.62.B.tooltip:0 "Les [from.GetSpeciesNamePlural] seront très mécontents."
 
  dpe_contraband_event.621.name:0 "$dpe_title_response$"
- dpe_contraband_event.621.desc:0 "Bien sûr, nous vous aiderons, [root.GetSpeciesName]."
+ dpe_contraband_event.621.desc:0 "Bien sûr, nous vous aiderons, [root.Species.GetName]."
  dpe_contraband_event.621.A:0 "Vous avez nos remerciements."
 
  dpe_contraband_event.622.name:0 "$dpe_title_response$"
- dpe_contraband_event.622.desc:0 "Nous ne vous aiderons pas, [root.GetSpeciesName]."
+ dpe_contraband_event.622.desc:0 "Nous ne vous aiderons pas, [root.Species.GetName]."
  dpe_contraband_event.622.A:0 "Ensuite, vous nous laissez sans choix."
  
  dpe_contraband_event.63.name:0 "$dpe_contraband_event.62.name$"
- dpe_contraband_event.63.desc:0 "Nous avons vu à travers le système vicieux poursuivi par vos citoyens, [root.GetSpeciesName]. Vous n'inonderez plus notre pays de drogues illégales! Nous avons saisi les avoirs des responsables et pris des mesures pour garantir que d'autres [root.GetSpeciesNamePlural] sans scrupules auront plus de mal à abuser de notre confiance à l'avenir."
+ dpe_contraband_event.63.desc:0 "Nous avons vu à travers le système vicieux poursuivi par vos citoyens, [root.Species.GetName]. Vous n'inonderez plus notre pays de drogues illégales! Nous avons saisi les avoirs des responsables et pris des mesures pour garantir que d'autres [root.GetSpeciesNamePlural] sans scrupules auront plus de mal à abuser de notre confiance à l'avenir."
  dpe_contraband_event.63.option:0 "Nous déplorons vos actions."
  
  dpe_contraband_event.64.name:0 "$dpe_contraband_event.62.name$"
@@ -795,24 +795,24 @@ dpe_xenomission_like:0 "$dpe_xenomission_love$"
  dpe_contraband_event.641.A:0 "Peut-être que nous devrions enquêter un peu plus sur votre rôle ..."
  
  dpe_contraband_event.642.name:0 "Les [from.GetSpeciesNamePlural] Proclamons notre culpabilité!"
- dpe_contraband_event.642.desc:0 "Une enquête plus approfondie a révélé la complicité de votre gouvernement dans la contrebande, [root.GetSpeciesName]. Nous regrettons que cela nous ait obligés à prendre des mesures plus drastiques."
+ dpe_contraband_event.642.desc:0 "Une enquête plus approfondie a révélé la complicité de votre gouvernement dans la contrebande, [root.Species.GetName]. Nous regrettons que cela nous ait obligés à prendre des mesures plus drastiques."
  
  dpe_contraband_event.66.name:0 "$dpe_contraband_event.62.name$"
- dpe_contraband_event.66.desc:0 "Nous avons surpris vos citoyens en train de faire entrer de la drogue dans notre pays, [root.GetSpeciesName]. En l'absence de toute mesure prise par votre gouvernement pour faire respecter la loi, nous avons décidé de fermer notre frontière avec vous."
+ dpe_contraband_event.66.desc:0 "Nous avons surpris vos citoyens en train de faire entrer de la drogue dans notre pays, [root.Species.GetName]. En l'absence de toute mesure prise par votre gouvernement pour faire respecter la loi, nous avons décidé de fermer notre frontière avec vous."
  dpe_contraband_event.66.option:0 "Nous déplorons vos actions."
  
  dpe_contraband_event.68.name:0 "$dpe_contraband_event.62.name$"
- dpe_contraband_event.68.desc:0 "Estimé [root.GetSpeciesName], nous avons attrapé un certain nombre de vos citoyens faisant du trafic de drogue dans notre pays. Cela crée une crise de drogue importante dans le [from.GetName]. Souhaitez-vous nous aider à éliminer ce problème de drogue?"
+ dpe_contraband_event.68.desc:0 "Estimé [root.Species.GetName], nous avons attrapé un certain nombre de vos citoyens faisant du trafic de drogue dans notre pays. Cela crée une crise de drogue importante dans le [from.GetName]. Souhaitez-vous nous aider à éliminer ce problème de drogue?"
  dpe_contraband_event.68.A:0 "Bien sûr, nous vous aiderons."
- dpe_contraband_event.68.B:0 "Nous ne vous aiderons pas, [from.GetSpeciesName]."
+ dpe_contraband_event.68.B:0 "Nous ne vous aiderons pas, [from.Species.GetName]."
  dpe_contraband_event.68.B.tooltip:0 "Les [from.GetSpeciesNamePlural] seront mécontents :"
  
  dpe_contraband_event.682.name:0 "$dpe_title_response$"
- dpe_contraband_event.682.desc:0 "Nous ne pouvons pas vous aider, [root.GetSpeciesName]."
+ dpe_contraband_event.682.desc:0 "Nous ne pouvons pas vous aider, [root.Species.GetName]."
  dpe_contraband_event.682.A:0 "Ensuite, nous devrons mettre en oeuvre des contrôles aux frontières."
  
  dpe_contraband_event.69.name:0 "$dpe_contraband_event.62.name$"
- dpe_contraband_event.69.desc:0 "Estimé [root.GetSpeciesName], nous avons attrapé un certain nombre de vos citoyens faisant du trafic de drogue dans notre pays. Cela crée une crise de drogue importante dans notre '§Y[from.GetName]§!'. Pour cette raison, nous avons choisi d'introduire des contrôles aux frontières plus stricts, limitant sévèrement l'accès [root.GetAdj] à notre espace. Nous vous remercions pour votre compréhension."
+ dpe_contraband_event.69.desc:0 "Estimé [root.Species.GetName], nous avons attrapé un certain nombre de vos citoyens faisant du trafic de drogue dans notre pays. Cela crée une crise de drogue importante dans notre '§Y[from.GetName]§!'. Pour cette raison, nous avons choisi d'introduire des contrôles aux frontières plus stricts, limitant sévèrement l'accès [root.GetAdj] à notre espace. Nous vous remercions pour votre compréhension."
  dpe_contraband_event.69.option:0 "Nous déplorons vos actions."
  
 
