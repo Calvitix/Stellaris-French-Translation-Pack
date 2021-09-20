@@ -128,3 +128,29 @@ nsc_events.31.a:0 "Nous reconstruirons le Vaisseau Amiral quand cela sera néces
 nsc_events.30.name:0 "Une bataille légendaire"
 nsc_events.30.desc:0 "Depuis le lancement du projet du Vaisseau Amiral, avant même que le chantier naval colossal pour construire le vaisseau ne soit terminé, de nombreux théoriciens navals ont émis l'hypothèse que, comme les développements précédents ont conduit à une concentration sur les affrontements de vaisseaux capitaux, la nouvelle phase de la course aux armements navals pourrait un jour mener à la rencontre des vaisseaux amiraux ennemis sur le champ de bataille. Certains ont même avancé que la seule façon possible de contrer un vaisseau amiral serait avec un autre vaisseau amiral, rendant de tels affrontements inévitables.\n\nCe jour est enfin arrivé.Notre vaisseau amiral est sur le point d'affronter un vaisseau amiral ennemi, et les cieux gronderont de leur puissance. Les deux nations ont investi d'énormes ressources dans le développement de leurs vaisseaux amiraux et ont conçu leurs doctrines au moins partiellement autour des puissants vaisseaux. Maintenant, toute la galaxie verra les résultats - avec l'équilibre de la puissance galactique et l'avenir du combat naval et de la pensée, en jeu."
 nsc_events.30.a:0 "En avant vers la gloire !"
+
+###########################
+### MOTHBALL EVENT ###
+###########################
+
+decision_nsc_mothball_menu:0 "Sélection de la flotte cible Naphtaline"
+decision_nsc_mothball_menu_desc:0 "REPLACE_ME"
+decision_nsc_mothball_menu_trigger.fail:0 "£trigger_no£ §RIl devrait y avoir une flotte militaire en orbite..§!"
+decision_nsc_mothball_menu_trigger_2.fail:0 "£trigger_no£ §RFermer tout d'abord le menu $decision_nsc_mothball_menu$ pour l'ouvrir à nouveau.§!"
+decision_nsc_mothball_menu_tooltip:0 "REPLACE_ME"
+
+nsc_events.32.name:0 "$decision_nsc_mothball_menu$"
+nsc_events.32.desc:0 "REPLACE_ME"
+nsc_events.32.close:0 "Fermer"
+nsc_events.32.fleet_mothball_start.tooltip:0 "REPLACE_ME"
+nsc_events.32.fleet_mothball_stop.tooltip:0 "REPLACE_ME"
+nsc_mothball_stop_trigger.fail:0 "La Flotte est déjà en cours de réparation."
+
+nsc_events.32.fleet_1_mothball_start:0 "Commencer à réserver: §Y[nsc_mothball_target_fleet_1.GetName]§!"
+nsc_events.32.fleet_1_mothball_stop:0 "Arrêter de réserver: §Y[nsc_mothball_target_fleet_1.GetName]§!"
+nsc_events.32.fleet_1_mothball_restoration_in_progress:0 "$nsc_events.32.fleet_1_mothball_stop$"
+nsc_events.32.fleet_1_mothball_restoration_timer.tooltip:0 "§Y[nsc_mothball_target_fleet_1.nsc_fleet_in_mothball_repair_timer_var]§! jours pour finir les réparations."
+nsc_events.32.fleet_2_mothball_start:0 "Commencer à réserver: §Y[nsc_mothball_target_fleet_2.GetName]§!"
+nsc_events.32.fleet_2_mothball_stop:0 "Arrêter de réserver: §Y[nsc_mothball_target_fleet_2.GetName]§!"
+nsc_events.32.fleet_2_mothball_restoration_in_progress:0 "$nsc_events.32.fleet_2_mothball_stop$"
+nsc_events.32.fleet_2_mothball_restoration_timer.tooltip:0 "§Y[nsc_mothball_target_fleet_2.nsc_fleet_in_mothball_repair_timer_var]§! jours pour finir les réparations."
