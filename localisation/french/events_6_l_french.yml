@@ -1,0 +1,426 @@
+﻿l_french:
+
+ # Anomaly Category
+ the_lonely_bot_category:0 "Signes d'une vie ancienne"
+ the_lonely_bot_category_desc:0 "Des signes montrent que [Root.GetName] abritait autrefois une civilisation ancienne."
+ NANO_SWARM_CAT:0 "Désert déserté"
+ NANO_SWARM_CAT_DESC:0 "[Root.GetName] dispose de larges étendues d'eau, et pourtant ses masses continentales ne sont que des déserts dépourvus de toute vie. Cela mériterait quelques investigations."
+ STAR_RESONANCE_CAT:0 "Étrange résonnance"
+ STAR_RESONANCE_DESC:0 "Les scientifiques ont découvert, à proximité de la couronne de [Root.GetName], ce qui semblait de prime abord être un dysfonctionnement minime des capteurs. Pourtant, après avoir relancé tous les systèmes l'erreur est toujours présente. Des investigations plus poussées devraient être menées."
+ ALPHA_CENTAURI_CAT:0 "Stase"
+ ALPHA_CENTAURI_CAT_DESC:0 "L'orbite particulière de [From.GetName] autour de sa naine rouge lui impose une rotation synchrone. Cela mériterait quelques investigations plus poussées."
+ # Deposits
+ d_hab_lonely_bot_deposit:0 "Robot énigmatique"
+ d_hab_lonely_bot_deposit_desc:0 "Un petit robot, ancien et énigmatique, supervisant une usine construite par une civilisation ancienne."
+ d_hab_lonely_bot_deposit_2:0 "$d_hab_lonely_bot_deposit$"
+ d_hab_lonely_bot_deposit_2_desc:0 "$d_hab_lonely_bot_deposit_desc$"
+ d_hab_lonely_bot_deposit_3:0 "$d_hab_lonely_bot_deposit$"
+ d_hab_lonely_bot_deposit_3_desc:0 "$d_hab_lonely_bot_deposit_desc$"
+
+ d_house_turtle:0 "Jeune nemma"
+ d_house_turtle_desc:0 "Un jeune nemma, élevé par nos soins et qui peut désormais porter plusieurs sites industriels sur sa carapace."
+ d_turtle_miner:0 "Opérations minières sur les nemmas"
+ d_turtle_miner_desc:0 "Un cocktail de drogues perfectionnées et d'antidouleurs, dosé avec précision, permet de forer la carapace des nemmas tout en continuant de résider dessus."
+ d_turtle_corpse:0 "Cadavres des nemmas"
+ d_turtle_corpse_desc:0 "Les restes des gigantesques nemmas qui peuplaient autrefois ce monde sont encore visibles depuis l'orbite, réduits à l'état d'îles flottantes."
+
+ d_nano_corpses:0 "Vestiges de l'essaim de nanites"
+ d_nano_corpses_desc:0 "Tout ce qu'il subsiste de ce gigantesque essaim de nanites qui a évolué autrefois sur Parvus III et la recouvrait est une fine poudre."
+ # Jobs
+ job_robot_caretaker:0 "Gardien du robot"
+ job_robot_caretaker_plural:0 "Gardiens du robot"
+ job_robot_caretaker_desc:0 "Des gardiens veillent sur ce robot qui est devenu une sorte de mascotte pour les habitants de son monde."
+ mod_job_robot_caretaker_add:0 "Emplois de gardiens du robot"
+ job_turtle_miner:0 "$job_turtle_miner_plural$"
+ job_turtle_miner_plural:0 "Mineurs de nemmas"
+ job_turtle_miner_desc:0 "Des forages perfectionnés permettent d'exploiter les minéraux de la carapace des gigantesques nemmas ainsi que leur biomatière."
+ job_turtle_miner_gestalt:0 "$job_turtle_miner_gestalt_plural$"
+ job_turtle_miner_gestalt_plural:0 "Drones miniers de nemmas"
+ job_turtle_miner_gestalt_desc:0 "$job_turtle_miner_desc$"
+ mod_job_turtle_miner_add:0 "Emplois de mineurs de nemmas "
+ mod_job_turtle_miner_gestalt_add:0 "Emplois de drones miniers de nemmas "
+ mod_job_turtle_miner_per_pop:0 "§G+1§! emploi de mineurs de nemmas par palier de $VALUE$ pops"
+ mod_job_turtle_miner_gestalt_per_pop:0 "§G+1§! emploi de drones miniers de nemmas par palier de $VALUE$ pops"
+
+ # Projects
+ LONELY_BOT_PROJECT:0 "Restauration de l'usine"
+ LONELY_BOT_PROJECT_DESC:0 "L'usine de [Root.GetName] est en bien mauvais état, depuis des siècles déjà, et menace désormais ruine. Étant donné le rôle qu'elle a joué depuis la colonisation de la [Root.GetPlanetMoon], les colons ont demandé à pouvoir restaurer le bâtiment.\n\nRécompense : £alloys£§Galliages§!"
+
+ LONELY_BOT_MISSING_PROJECT:0 "Le robot disparu"
+ LONELY_BOT_MISSING_PROJECT_DESC:0 "Le robot de [Root.GetName] a disparu, tout comme un grand nombre de colons établis sur la [Root.GetPlanetMoon]. Les ingénieurs ont donc commencé à étudier les signaux reçus par l'usine pour remonter jusqu'à leur source et déterminer s'ils peuvent retrouver les colons et le robot."
+
+ breed_turtle_world_project:0 "Programme d'élevage des nemmas"
+ breed_turtle_world_project_DESC:0 "En commençant par étudier les nemmas et utiliser les découvertes ainsi faites, nous devrions pouvoir encourager des spécimens dociles et obéissants à se multiplier dans leur habitat naturel."
+ enslave_turtle_world_project:0 "Dompter les nemmas"
+ enslave_turtle_world_project_DESC:0 "Des drogues perfectionnées et des implants cybernétiques permettront de rendre les nemmas plus dociles et placides. Avec le temps, nous devrions pouvoir en faire de gigantesques bêtes de somme."
+ mine_turtle_world_project:0 "Opérations de minage des nemmas"
+ mine_turtle_world_project_DESC:0 "Les [Root.Owner.GetScientistPlural] sont persuadés que, après avoir étudié de façon poussée la biologie des nemmas, ils pourront nous permettre de collecter des minéraux utiles dans la carapace de ces reptiles gigantesques."
+ kill_turtle_world_project:0 "Extermination des nemmas"
+ kill_turtle_world_project_DESC:0 "Les nemmas de [Root.GetName] doivent être exterminés par tous les moyens nécessaires."
+ study_turtle_world_project:0 "Étudier les nemmas"
+ study_turtle_world_project_DESC:0 "Nous devons charger les [Root.Owner.GetScientistPlural] d'étudier les nemmas de [Root.GetName] afin de voir quelles solutions peuvent être trouvées par rapport aux problèmes qu'ils posent."
+
+ STUDY_NANITE_SWARM:0 "Étudier l'essaim de nanites"
+ STUDY_NANITE_SWARM_DESC:0 "L'essaim de nanites de [nanite_swarm_planet.GetName] est tout autant une merveille technologique qu'un danger. Comprendre les origines de ces nanomachines ainsi que leur rapport avec l'écologie unique de ce monde va être un défi attrayant pour les [Root.Owner.GetScientistPlural], et nous permettra peut-être de faire progresser notre compréhension de l'intelligence mécanique."
+ DESTROY_SWARM:0 "Détruire l'essaim de nanites"
+ DESTROY_SWARM_DESC:0 "Nous devons ordonner le bombardement orbital de [nanite_swarm_planet.GetName]. Si ces nanites cachent le moindre secret, c'est par les coques vides de ces moucherons que nous le découvrirons."
+
+ TAME_THE_SWARM:0 "Domestiquer les nanites"
+ TAME_THE_SWARM_DESC:0 "Notre connaissance avancée de l'intelligence artificielle pourrait être mise à profit pour reprogrammer et domestiquer l'essaim de nanites de [nanite_swarm_planet.GetName]. Il pourrait être d'une grande aide pour construire des structures sur ce monde, et grâce au lien qu'il entretient avec son écosystème il devrait être possible de lui donner pour instruction de créer pour nous un second monde natal."
+ TAME_THE_SWARM_DESC_ARTIFICIAL:0 "Notre maîtrise de l'intelligence artificielle pourrait être mise à profit pour reprogrammer et prendre le contrôle de l'essaim de nanites de [nanite_swarm_planet.GetName]. Il pourrait être d'une grande aide pour construire des structures sur ce monde, et grâce au lien qu'il entretient avec son écosystème il devrait être possible de lui donner pour instruction de créer un véritable paradis."
+ # Decisions
+ decision_crystalline_refugees:0 "Établir des réfugiés cristallins"
+ decision_crystalline_refugees_desc:0 "Trouve un lieu où des réfugiés zêr-ayakî pourront s'établir après avoir été bannis de la $NAME_Central_Crystal_Country$."
+ decision_crystalling_refugees_effect_tt:0 "§G5§! £pops£pops de §HZêr-Ayakî§! vont s'installer sur §Y[Root.GetName]§!."
+
+ decision_crystalline_architecture:0 "Construction cristalline"
+ decision_crystalline_architecture_desc:0 "Une équipe d'ingénieurs dépêchés par la $NAME_Central_Crystal_Country$ va permettre d'améliorer la disposition de cet habitat."
+
+ # Events
+ anomaly.2080.name:0 "Le robot énigmatique"
+ anomaly.2580.desc:0 "Tandis que les scientifiques enquêtaient sur la civilisation ancienne de §Y[From.GetName]§!, ils ont découvert un énigmatique petit robot tentant de se cacher d'eux. Après avoir passé des semaines à l'approcher et à communiquer avec lui, il les a finalement menés jusqu'à une usine encore en état de fonctionnement, qu'il supervise depuis la disparition de ses créateurs.\n\nDans le bâtiment, une grande quantité de ressources a été découverte, qui pourrait être chargées à bord du vaisseau. S'il est étrange et qu'il est difficile de communiquer avec lui, le petit robot semble considérer nos scientifiques comme des amis."
+
+ anomaly.6700.name:0 "De justesse"
+ anomaly.6700.desc:0 "Les premiers rapports de l'équipage du [Root.GetName], chargé d'explorer les étendues désertes de §Y[nanite_swarm_planet.GetName]§!, n'avaient rien d'inhabituel : ce monde est composé d'étendues dévastées de manière non naturelle, et la surface de ses eaux ne montre aucun signe de vie. Pourtant, la vie aquatique de cette [nanite_swarm_planet.GetPlanetMoon] a par le passé suffisamment évolué pour que nous puissions nous attendre à trouver quelques espèces passées sur la terre ferme.\n\nEn outre, l'équipage a découvert ce qui ressemblait d'abord à des structures antiques, recouvertes de sable. Peu après avoir commencé à fouiller ce qu'il pensait être des bâtiments, de petits essaims de nanites en ont émergé pour le harceler. Il semble que ces constructions ne sont en fait pas formées de sable, mais de millions de ces nanomachines.\n\nUne fois mobilisés, les essaims se sont très vite multipliés, en éveillant toujours de nouveaux. [Root.GetLeaderName] a ordonné une évacuation rapide de la [nanite_swarm_planet.GetPlanetMoon], permettant ainsi au [Root.GetName] de sortir juste à temps de l'atmosphère, poursuivi par une tempête de nanites. Tous les essaims se sont regroupés et paraissent désormais très agités, et rien ne laisse prévoir qu'ils se calmeront à un moment où un autre."
+ anomaly.6700.a:0 "Nous devons comprendre ce qu'il s'est passé là"
+
+ anomaly.6705.name:0 "Les origines des nanites"
+ anomaly.6705.desc.start:0 "Le [Root.GetName] a achevé l'étude des nanites de §Y[nanite_swarm_planet.GetName]§!, et ses conclusions sont à peine croyables. Il y a des milliers d'années de cela, un vaisseau d'une civilisation avancée s'est écrasé sur ce monde. À son bord se trouvaient des robots d'une douzaine de modèles différents."
+ anomaly.6705.desc.L:0 "Étonnamment, ces machines ont pu être des outils des mystérieux constructeurs des Portes, même s'ils sont plus anciens que n'importe laquelle des Portes-L que nous avons trouvées jusqu'à présent."
+ anomaly.6705.desc.noL:0 "Quiconque a construit ces machines possédait une technologie très avancée, très longtemps avant notre propre époque."
+ anomaly.6705.desc.end:0 "\nLes robots opéraient de manière autonome et ont tenté, en accord avec leur programmation, de s'assurer de la [nanite_swarm_planet.GetPlanetMoon]. Mais leurs créateurs n'étant pas présents pour les contrôler, une guerre a bientôt éclaté entre ces machines. Ce qui est sorti vainqueur du conflit était un système hyper-adaptatif de nanites auto-réplicantes, qui a très vite évolué pour s'adapter à la biosphère de [nanite_swarm_planet.GetName]. Cette machine est elle-même devenue maîtresse de la surface du monde, mettant fin à tout ce qui s'y trouvait, depuis la flore indigène jusqu'à ses anciens rivaux robotiques.\n\nCe qui se voit aujourd'hui à la surface est la conséquence de ce conflit colossal : non pas un monde dépourvu de vie, mais un monde contrôlé par un superprédateur évolué."
+ anomaly.6705.a:0 "Nous devons contrôler cet essaim"
+ anomaly.6705.b:0 "Poursuivons nos études"
+ anomaly.6705.b.tooltip:0 "Les [Root.Owner.GetScientistPlural] vont recevoir pour ordre de dévoiler tous les secrets des nanites de [nanite_swarm_planet.GetName]"
+ anomaly.6705.c:0 "Ces machines doivent être détruites"
+
+ anomaly.6710.name:0 "Système artificiel immunisé"
+ anomaly.6710.desc.start:0 "L'hôte de §Y[nanite_swarm_planet.GetName]§! s'avère parfaitement impressionnant. Toute sonde envoyée dans l'atmosphère est rapidement analysée et démontée par l'essaim, et aussitôt après le reste de la conscience a appris comment consumer au mieux nos drones, jusque de l'autre côté de la [nanite_swarm_planet.GetPlanetMoon]. Il est évident que l'essaim fait preuve d'une compréhension croissante de notre technologie."
+ anomaly.6710.desc.normal:0 "Plusieurs [Root.Owner.GetScientistPlural] pensent que ce comportement est la preuve que l'essaim est un, ou des êtres conscients, et pourrait même être considéré comme vivant.\n\nNous devons donc prendre une décision : devons-nous le laisser en paix, le détruire, ou tenter de le contrôler pour en tirer parti ?"
+ anomaly.6710.desc.gestalt:0 "C'est là le comportement d'une conscience naissante. Si nous laissons l'essaim se débrouiller par lui-même, il pourrait même atteindre l'intelligence. Devons-nous donc le laisser ainsi, ou le détruire avant qu'il devienne une menace ? Et ne pourrait-on pas contrôler cette entité pour en tirer parti ?"
+
+ anomaly.6710.a:0 "Nous devons le contrôler"
+ anomaly.6710.b:0 "Il doit être détruit"
+ anomaly.6710.c:0 "Ce ne sont pas des automates, mais des êtres vivants !"
+
+ anomaly.6715.name:0 "Nano-fertilisation" #English spelling is intentional... for now
+ anomaly.6715.desc:0 "Si l'essaim de nanites de §Y[nanite_swarm_planet.GetName]§! pris dans sa globalité était impressionnant, chacune prise individuellement était tout à fait vulnérable. En extraire quelques-unes de l'atmosphère de la [nanite_swarm_planet.GetPlanetMoon] pour utiliser sur elles notre technologie de l'intelligence artificielle a permis de reprogrammer leurs systèmes de communication. Une fois réintroduites dans l'essaim, les modifications se sont propagées sur l'ensemble de la surface du monde en un instant.\n\nNous contrôlons donc désormais leur réseau, et notre première instruction a été de réintroduire une biosphère stable, optimisée pour les [Root.Owner.GetSpeciesNamePlural]. [nanite_swarm_planet.GetName] est désormais prête et n'attend plus que nous. Quant à l'essaim, il est prêt à mener à bien toute tâche jugée utile par les colons."
+ anomaly.6715.a:0 "L'heure est venue de lancer nos vaisseaux coloniaux !"
+
+ anomaly.6720.name:0 "Rien ne résiste à un bombardement orbital"
+ anomaly.6720.desc:0 "La poussière retombe à peine sur §Y[nanite_swarm_planet.GetName] après le bombardement orbital effectué par la [Root.fleet.GetName]. En dépit du recours à divers types d'explosifs et d'IEM expérimentales, le processus a nécessité beaucoup de temps. Mais, enfin, plus aucune trace de vie mécanique ne subsiste à la surface de la [nanite_swarm_planet.GetPlanetMoon].\n\nLes futurs colons auront accès à de nombreux vestiges de ces moucherons et pourront, espérons-le, en tirer des choses ou informations utiles."
+
+ anomaly.6725.name:0 "Préparatifs insuffisants"
+ anomaly.6725.desc:0 "Toutes les précautions prises et le matériel spécifique n'ont pas suffi. Peu après avoir établi une colonie sur §Y[nanite_swarm_planet.GetName]§!, le contact a été perdu avec les équipes au sol. La dernière communication reçue montrait le ciel assombri par de minuscules corps noirs ravageant l'établissement."
+ anomaly.6725.a:0 "Maudites nanites !"
+
+ anomaly.6740.name:0 "La couleur de la science"
+ anomaly.6740.desc:0 "La cause de la résonnance des radiations stellaires observées autour de la couronne de §Y[From.GetName]§! s'est avérée être une formation cristalline inhabituelle, capable de supporter les températures les plus élevées.\n\nUne fois ce cristal ramené à bord du vaisseau scientifique, les [Root.Owner.GetScientistPlural] ont été stupéfaits de découvrir que l'étrange résonnance pouvait être reproduite.\n\nLeur première expérience avait consisté à exposer le cristal aux mêmes radiations stellaires que celles de [From.GetName], ce qui produisit un résultat identique au phénomène initialement enregistré. Mais la suite a montré que toutes les ondes énergétiques créaient des résonnances, produisant des couleurs et des sons nouveaux, que les [Root.Owner.GetSpeciesNamePlural] n'avaient jamais observés nulle part jusqu'à présent !\n\nDe telles fréquences pourraient transformer de manière radicale la façon dont nous voyons l'univers. Mais il serait aussi possible de trouver des applications scientifiques à cette structure cristalline capable de résister à la chaleur intense d'une étoile..."
+ anomaly.6740.a:0 "Faisons découvrir tout cela à nos artistes"
+ anomaly.6740.a.gestalt:0 "Extrayons ces nouvelles fréquences pour les analyser"
+ anomaly.6740.b:0 "Ce cristal nous offrira de nouvelles armes énergétiques"
+
+ anomaly.6745.name:0 "[From.GetName]"
+ anomaly.6745.desc:0 "Depuis aussi longtemps que les [Root.Owner.GetSpeciesNamePlural] peuvent scruter les étoiles pour tenter d'y découvrir où s'établir parmi elles, §Y[From.GetName]§! a été comme un rêve innocent, le lieu de tous les optimismes, un nouveau foyer. Malheureusement, avec l'amélioration des télescopes, nous avons vite réalisé que la [From.GetPlanetMoon] était soumise presque à coup sûr à une rotation synchrone, et n'était qu'un enfer glacé. Aujourd'hui, cette théorie se trouve confirmée.\n\nMais il subsiste malgré tout un espoir : ce monde a tout ce qu'il faut pour devenir habitable. Une simple petite poussée pourrait suffire..."
+ anomaly.6745.a:0 "[From.GetName] a toujours été une source d'inspiration"
+ anomaly.6745.b:0 "La liste des exoplanètes ne cesse de s'allonger"
+ anomaly.6750.name:0 "[From.GetName]"
+ anomaly.6750.desc:0 "§Y[From.GetName]§! subit certes une rotation synchrone, mais elle dispose aussi de tout ce qu'il faut pour devenir habitable. Peut-être quelque chose pourrait-il y être construit."
+
+ colony.5000.name:0 "Un ami inattendu"
+ colony.5000.desc:0 "L'énigmatique robot de §Y[Root.GetName]§! s'est montré très accueillant envers nos colons après leur installation sur la [Root.GetPlanetMoon]. Au départ, bon nombre d'entre eux se montraient méfiants à son égard, mais il s'est avéré incroyablement utile et a joué un rôle primordial pour l'établissement de la colonie.\n\nAu bout de quelques années, il est devenu une figure familière dans les villes de [Root.GetName], et quasiment une mascotte pour l'ensemble de la [Root.GetPlanetMoon]."
+ colony.5000.a:0 "De fait, il est tout à fait sympathique"
+
+ colony.5005.name:0 "Usine ancienne de [Root.GetName]"
+ colony.5005.desc:0 "L'usine que supervise le petit robot de §Y[Root.GetName]§! a joué un grand rôle pour la colonie depuis sa fondation. Mais maintenant que quelques années se sont écoulées, les colons ont eu le temps de mieux connaître leur mascotte et de mieux comprendre ses manières assez inhabituelles, aussi savent-ils désormais que le vieux bâtiment sur lequel il veille depuis des siècles menace ruine et aurait besoin de bien davantage que ce que le robot peut faire.\n\nSi ses anciens procédés et ses machineries nous sont clairement étrangers, nos ingénieurs pensent pouvoir finir par la réparer."
+ colony.5005.a:0 "Voyons donc ce que nous pouvons faire"
+
+ colony.5006.name:0 "Effondrement de l'usine"
+ colony.5006.desc:0 "Après des années de délabrement, la grande usine de §Y[Root.GetName]§! a fini par s'écrouler. En dégageant tous les débris, les colons ont trouvé de vastes piles de métaux, cachées dans ce qui devait être des caves. Au milieu se trouvait aussi ce petit robot qui avait autrefois accueilli si amicalement nos colons sur cette [Root.GetPlanetMoon], écrasé par le bâtiment dont il avait la charge."
+ colony.5006.a:0 "[Root.GetName] n'a donc plus de mascotte..."
+
+ colony.5010.name:0 "Usine restaurée"
+ colony.5010.desc:0 "D'après leurs rapports, les ingénieurs chargés de restaurer l'usine ancienne de [Root.GetName] étaient persuadés qu'ils avaient échoué. Tout s'était en effet arrêté de manière soudaine. Se demandant les raisons de cet échec, ils avaient commencé à sortir du bâtiment en laissant sur place tout leur matériel lorsque soudain les machineries se sont ranimées.\n\nNon seulement tout fonctionne de nouveau, mais les ingénieurs semblent aussi avoir, involontairement, réussi à réparer d'autres secteurs de production. Ils n'ont toutefois pas de réelles explications à fournir. Leurs rapports se terminent par une courte description de l'étrange danse du petit robot lorsqu'il a vu son usine en parfait état de fonctionnement..."
+ colony.5010.a:0 "Tout est donc pour le mieux"
+ colony.5010.tt:0 "Le §Y$d_hab_lonely_bot_deposit$§! va désormais produire aussi §G1§! unité de £volatile_motes£§Yparticules volatiles§! et §G1§! de £exotic_gases£§Ygaz exotiques§!."
+
+ colony.5015.name:0 "Robot disparu"
+ colony.5015.desc:0 "Nous venons de recevoir un rapport de §Y[Root.GetName]§!, dont les habitants semblent avoir rencontré un problème avec l'énigmatique petit robot. Il a disparu il y a peu, et sa disparition coïncide avec celle, simultanée, de plusieurs colons de l'une des cités de la [Root.GetPlanetMoon].\n\nSi l'on pensait au départ que ces événements n'étaient aucunement liés, les gens commencent à rejeter la faute sur le robot. Les ingénieurs ont commencé à scanner plusieurs signaux reçus par l'ancienne usine depuis l'incident, afin de déterminer si cela pourrait permettre de remonter jusqu'à lui."
+ colony.5015.a:0 "Espérons que tout cela sera rapidement résolu"
+
+ colony.5020.name:0 "Restes"
+ colony.5020.desc:0 "Après plusieurs semaines consacrées à tracer les signaux du robot de §Y[Root.GetName]§!, les ingénieurs ont enfin découvert un puits ancien, conduisant sous la surface. Loin dans les profondeurs, ils ont découvert une antique structure, où la plupart des disparus étaient comme piégés dans une sorte de stase, de même que les restes du petit robot.\n\nAprès avoir éveillé les colons, nous avons appris que tous appartenaient à une sorte de culte, qui est accidentellement parvenu à pénétrer dans les ruines, et qu'au cours d'une cérémonie organisée parmi les vestiges ils s'étaient retrouvés bloqués alors que tout menaçait de s'effondrer sur eux. Le robot était alors venu à leur secours. Aussi bien les disparus que les ingénieurs ne savent pas comment ils se sont trouvés ainsi plongés dans cette stase, ou ce qu'a fait le robot pour prévenir l'effondrement.\n\nLes ingénieurs sont intéressés par l'étude de cette machine énigmatique, maintenant qu'elle n'est plus fonctionnelle, afin d'en apprendre davantage sur elle. Les habitants de [Root.GetName], d'un autre côté, aimeraient que le robot soit réparé et redevienne lui-même."
+ colony.5020.a:0 "En ce cas, rendons-leur leur mascotte"
+ colony.5020.tt:0 "Un emploi de £job_robot_caretaker£§Ygardien du robot§! est créé pour le §Y$d_hab_lonely_bot_deposit$§!."
+ colony.5020.b:0 "Laissons plutôt les ingénieurs l'étudier"
+
+ ancrel.11000.name:0 "Le premier cercle"
+ ancrel.11000.desc:0 "Les ruines de §Y[From.Planet.GetName]§! semblent remonter à des siècles, si ce n'est des millénaires. Si elles semblaient au départ n'être qu'un seul gigantesque dôme à ciel ouvert, au cours des fouilles les parties les plus éloignées du site se sont révélées être en fait les bidonvilles entourant une cité abandonnée. Une large porte bloque l'avancée vers le coeur de la ville, dont les scientifiques pensent qu'elle était divisée selon une hiérarchie, chaque cercle successif abritant une classe différente des habitants.\n\nIl n'a guère fallu de temps, toutefois, avant que soient trouvés les restes d'un alien dans les ruines souterraines, en dessous du sol de béton. Et, une fois ce premier corps découvert, d'autres ont été retrouvés dans tout le bidonville, que ce soit dans les rues, dans ce qui semblait être les résidences, ou pendant aux parties les plus éloignées du dôme central. On ne sait pas bien à quoi est due leur mort, mais c'est là une vision sinistre."
+ ancrel.11000.a:0 "Qu'allons-nous donc trouver dans les autres cercles ?"
+
+ ancrel.11005.name:0 "Le deuxième cercle"
+ ancrel.11005.desc:0 "Tandis que le premier cercle semblait constitué des résidences miséreuses des parias et des démunis de la société de §Y[From.Planet.GetName]§!, celui-ci a plus en commun avec l'idée que se font les [Root.GetSpeciesNamePlural] de la planification urbaine.\n\nPlusieurs places ont été découvertes, dont les scientifiques pensent qu'elles étaient utilisées des marchés, même si tout y est dans un tel état de délabrement qu'il est quasi impossible d'en être certains désormais.\n\nIl n'aura pas fallu longtemps avant de commencer à trouver des restes inhabituels dans cette zone. Tous semblent avoir péri de la même façon que leurs voisins plus pauvres, et les cadavres sont éparpillés absolument partout."
+ ancrel.11005.a:0 "Eux aussi auront connu une fin brutale"
+
+ ancrel.11010.name:0 "Le troisième cercle"
+ ancrel.11010.desc:0 "Lorsque la porte donnant accès au troisième cercle de la cité de §Y[From.Planet.GetName]§! s'est ouverte, les scientifiques, curieux de ce qu'ils allaient y trouver, se sont rués dans ce qui a bien vite été identifié comme la zone la plus riche de l'antique dôme. Tout cela renforce donc nos théories sur cette cité.\n\nPeu après y être entrés, cependant, un membre de l'expédition a soudain été pris de folie, attaquant avec la plus grande sauvagerie un collègue. Sa victime était déjà morte sur le sol lorsqu'il a pu être maîtrisé. Rien de cohérent n'a pu être tiré de lui par la suite, et nous n'avons aucune idée de la cause de ce comportement soudain.\n\nCe cercle, quant à lui, est beaucoup plus petit que les deux précédents, et il s'agit très probablement du dernier avant d'atteindre le centre du dôme. Il ne reste donc plus qu'une seule porte à ouvrir..."
+ ancrel.11010.a:0 "Les scientifiques sont prêts pour cette ultime phase"
+
+ ancrel.11015.name:0 "Le dernier cercle"
+ ancrel.11015.desc:0 "Aussitôt la dernière porte de §Y[From.Planet.GetName]§! ouverte, des vagues d'une intense énergie psionique ont balayé l'équipe scientifique. La plupart de ses membres se sont effondrés, en proie à une agonie douloureuse, et seuls quelques-uns ont pu poursuivre leur route à l'intérieur même du cercle.\n\nCela ressemble à un vaste temple, avec au centre ce qui ressemble à un podium ou un énorme autel. Sur tous les murs l'entourant sont représentés des diagrammes représentant divers systèmes stellaires, dont l'un est répété, centré sur le système de [Root.System.GetName] lui-même.\n\nEn s'approchant du point central, les quelques scientifiques restants ont découvert une imposante machine, façonnée pour ressembler à un antique autel."
+ ancrel.11015.a:0 "Examinons-la pour voir ce que nous pourrons découvrir"
+
+ ancrel.11020.name:0 "L'Aïeul"
+ ancrel.11020.desc:0 "Alors qu'ils commençaient à étudier la machine de §Y[From.From.Planet.GetName]§!, les scientifiques ont été soudainement assaillis par une hallucination auditive, comme un commandement crié par quelque chose qui voulait être exhumé, libéré. Des visions d'une créature déchirant le système de [From.System.GetName] apparurent dans leurs têtes, incessantes, dont les exigences se sont faites toujours plus perçantes et pressantes. Plusieurs scientifiques tombèrent alors au sol, inconscients, incapable de supporter davantage le torrent intense de douleur psionique qui tourmentait leurs corps."
+ ancrel.11020.a:0 "Détruisons cette machine au plus vite !"
+ ancrel.11020.b:0 "LAISSONS SORTIR CETTE CRÉATURE !"
+ ancrel.11020.tt:1 "Une §Y$NAME_Eldritch_Horror$§! va être libérée dans le système de §Y[eldritch_location.GetName]§!."
+
+
+ ancrel.11025.desc:0 "ENFIN !\n\nINCLINEZ-VOUS, MORTELS, RAMPEZ DEVANT MOI, ET JE VOUS ACCORDERAI MA PROTECTION ET MA SAGESSE.\n\nMAIS OPPOSEZ-VOUS À MOI, ET JE SERAI VOTRE DESTIN FUNESTE !"
+ ancrel.11025.a:0 "Ô Votre Grandeur ! Veillez sur nous vos fidèles !"
+ ancrel.11025.a.tt:0 "La §Y[Root.GetName]§! va reconstruire sa base stellaire du système de §Y[eldritch_location.GetName]§!."
+ ancrel.11025.b:0 "Vous libérer a été une erreur"
+ ancrel.11025.b.tt:0 "La §Y[Root.GetName]§! va devenir hostile envers l'§Y$NAME_Eldritch_Horror$§!."
+
+ ancrel.11027.desc:0 "VOUS AVEZ DONC CHOISI LA VOIE DE LA SAGESSE.\nIL EN EST DONC AINSI QU'IL DEVAIT ÊTRE."
+ ancrel.11027.a:0 "Vos désirs sont des ordres, Votre Grandeur"
+
+ ancrel.11030.desc:0 "VOUS AVEZ DONC FAIT LE CHOIX DU TRÉPAS."
+ ancrel.11030.a:0 "Fin de la transmission"
+
+ ancrel.11035.name:0 "Flotte perdue dans le système de [eldritch_location.GetName]"
+ ancrel.11035.desc:0 "Nous avons perdu tout contact avec notre flotte qui se trouvait dans le système de §Y[eldritch_location.GetName]§!. Peu après, nous avons reçu des nouvelles de l'effondrement de l'étoile, et de la destruction de tout ce qui se trouvait à proximité."
+ ancrel.11035.a:0 "C'est une véritable tragédie"
+
+ central.5.name:0 "Un signal du centre de la galaxie"
+ central.5.desc:0 "Un puissant signal rebondit dans toute la galaxie depuis son centre, alors que la théorie communément admise est que ce lieu est dépourvu de toute vie. Or nous venons de recevoir une transmission qui en provient directement."
+ central.5.a:0 "À l'écran"
+
+ central.10.desc:0 "Salutations à vous, qui êtes jeunes encore et nouveaux venus dans la galaxie.\n\nNous autres, qui venons du paradis central, avons de nouveau quitté notre sanctuaire pour voir ce que vous qui vivez dans les cercles extérieurs avez à offrir. Espérons que vous ne chercherez pas à répandre la terreur sur l'empire, contrairement à ceux qui vous ont précédés."
+ central.10.a:0 "Salutation à v..."
+
+ central.15.desc:0 "..........."
+ central.15.a:0 "Attendez... Ils ont coupé la communication ?"
+
+ central.20.name:0 "Message de la $NAME_Central_Crystal_Country$"
+ central.20.1.desc:0 "Vouliez-vous discuter d'autre chose avec nous ?"
+ central.20.2.desc:0 "Vous êtes en présence du Commandant de la Flotte du Cercle Extérieur de la Souveraineté cristalline, Protecteur des Terres Intérieures. Que souhaitez-vous discuter avec nous ?"
+ central.20.a:0 "Pourriez-vous nous parler de vos territoires ?"
+ central.20.a.response:0 "Notre espace est comme un rêve, et si nous vous en parlions trop en détail cela en signerait la fin. Vous, les races plus jeunes, avez encore beaucoup à apprendre avant que nous puissions vous autoriser à pénétrer notre sanctuaire.\n\nUn jour, si vous savez vous en montrer dignes, nous pourrons vous révéler toute la vérité."
+ central.20.b:0 "Pourquoi venez-vous maintenant ?"
+ central.20.b.response:0 "Nous avons longtemps observé les autres races de la galaxie, et nous voyons bien le potentiel que recèlent nos voisins actuels. Lorsque le messager est arrivé avec la nouvelle que l'une des races plus jeunes était celle que nous attendions, nous nous sommes immédiatement apprêtés pour la localiser.\n\nNous ne savons pas encore exactement laquelle des jeunes races est celle que nous cherchons, mais nous sommes persuadés que vous pouvez tous vous avérer utiles pour nous. Nous espérons que vous ne décevrez pas nos attentes, et que nous pourrons trouver un accord qui nous satisfera tous autant les uns que les autres."
+ central.20.c:0 "Que cherchez-vous ? Avez-vous besoin de nous pour cela ?"
+ central.20.c.response:0 "Non, le temps n'est pas encore venu. Revenez plus tard, et peut-être pourrons-nous alors partager avec vous davantage d'informations à ce propos."
+ central.20.d:0 "Ce sera donc tout"
+
+ central.21.desc:0 "Laissez-nous, terroristes. Nous n'avons rien à discuter avec vous."
+ central.21.a:0 "..."
+
+ central.50.desc:0 "Plusieurs éléments turbulents au sein de notre société prétendent alléger les restrictions imposées sur l'entrée dans votre espace, ce qui suscite quelques débats chez nous. Le Grand cherche à envoyer ces personnes dans des espaces étrangers, afin qu'ils ne constituent plus une menace pour nos frontières et cessent de troubler l'harmonie en notre sein.\n\nSI vous êtes prêts à offrir un refuge à ces déplacés, cela nous aiderait grandement."
+ central.50.a:0 "Nous allons tenter de leur trouver un lieu où s'établir"
+ central.50.a.tt:0 "Au cours des §Y10 années§! à venir, nous pourrons prendre la décision §Y$decision_crystalline_refugees$§! sur un §Yhabitat§!."
+ central.50.b:0 "Il n'y a malheureusement plus de place pour eux dans notre espace"
+
+ central.quest.transmission.end:0 "Y a-t-il autre chose que vous souhaitez discuter ?"
+ crystalline_hostility_trigger_tt:0 "£trigger_no£ La §Y$NAME_Central_Crystal_Country$§! nous est hostile."
+
+ central.51.desc:0 "C'est tout à fait réjouissant. Nous espérons qu'ils pourront prospérer dans votre espace, et être une bénédiction pour votre empire.\n\n$central.quest.transmission.end$"
+ central.51.a:0 "Oui, nous avions un autre sujet à aborder..."
+ central.51.b:0 "Non, ce sera tout"
+
+ central.52.desc:0 "Nous sommes désolés de l'apprendre. Nous leur chercherons donc un autre lieu ailleurs.\n\n$central.quest.transmission.end$"
+
+ central.60.desc:0 "Une petite calamité s'est récemment abattue sur l'une de nos plus grandes cités, laissant sur son passage une destruction indescriptible. Pour lui rendre toute sa grandeur, nous cherchons des gens qui seraient prêts à nous envoyer des matériaux afin que nous puissions lancer la reconstruction.\n\nNous paierons évidemment, de façon généreuse, quiconque sera prêt à contribuer. Non seulement cela, mais nous pouvons aussi vous dépêcher une équipe d'ingénieurs pour partager avec vous certains de nos secrets."
+ central.60.a:0 "Nous pouvons vous réserver une partie de nos matériaux"
+ central.60.a.tt:0 "Au cours des §Y10 années§! à venir, nous pourrons prendre la décision §Y$decision_crystalline_architecture$§! sur un §Yhabitat§!."
+ central.60.b:0 "Malheureusement, nous n'avons rien à vous donner"
+
+ central.61.desc:0 "Nous sommes ravis d'apprendre que vous êtes prêts à nous aider. Votre don permettra d'améliorer le sort de millions de Zêr-Ayakî.\n\n$central.quest.transmission.end$"
+
+ central.62.desc:0 "Nous sommes désolés de l'apprendre. Nous chercherons de l'aide ailleurs, en ce cas.\n\n$central.quest.transmission.end$"
+
+ central.70.desc:0 "L'un de nos scientifiques les plus éminents s'intéresse de près à votre empire, même s'il est difficile de dire ce que vous pourriez lui apprendre que nous ne pouvons nous-mêmes. Quoi qu'il en soit, cette personne apprécierait de pouvoir être transférée chez vous afin de s'entretenir avec vous."
+ central.70.a:0 "Nous avons un poste qui lui conviendrait tout à fait"
+ central.70.a.tt:0 "Un §Yscientifique§! de l'espèce §H$NAME_Central_Crystal_Species$§! va s'installer dans la §Y[Root.GetName]§!."
+ central.70.b:0 "Malheureusement, nous n'avons rien à lui proposer pour l'instant..."
+
+ central.71.desc:0 "Merveilleux. Espérons qu'il sera plus utile pour votre empire qu'il ne l'a été pour le nôtre.\n\n$central.quest.transmission.end$"
+
+ central.72.desc:0 "Il trouvera bien quelque chose pour s'occuper l'esprit, en ce cas.\n\n$central.quest.transmission.end$"
+
+ colony.9000.name:0 "Sol instable"
+ colony.9000.desc:0 "La colonie de §Y[Root.GetName]§! se trouve dans une situation assez étrange : nous nous sommes apparemment établis sur le dos de reptiles amphibiens gigantesques, dont la carapace est constituée de divers minéraux exotiques. La plus grande partie de ce que nous pensions être des îles s'est avérée être en fait ces créatures, et les colons ont commencé à les appeler des §Hnemmas§!.\n\nCes animaux semblent inoffensifs, et aussi longtemps que nous ne creuserons pas trop profondément dans leurs carapaces ils devraient à peine remarquer notre présence."
+ colony.9000.a:0 "Nul besoin de s'en inquiéter donc"
+ colony.9000.a.turtle:0 "Ces animaux semblent... familiers..."
+
+ colony.9005.name:0 "Découverte audacieuse"
+ colony.9005.desc:0 "Si §Y[Root.GetName]§! est prospère, les adolescents de la colonie cherchent malgré tout à se divertir, comme le font tous les jeunes. Certains groupes se sont donc fait un jeu de s'approcher aussi près qu'ils l'osent de la tête du nemma sur lequel ils vivent.\n\nMalheureusement, cette activité pour le moins risquée a été la source d'une véritable tragédie : après avoir surpris l'animal, plusieurs jeunes [Root.Owner.GetSpeciesNamePlural] sont tombés du cou de la créature, faisant plusieurs blessés, et une victime y a perdu la vie.\n\nLes colons, désemparés, demandent donc que quelque chose soit fait à propos de « ces bestiaux brutaux »."
+ colony.9005.desc.gestalt:0 "Si §Y[Root.GetName]§! est prospère, il est devenu évident que les nemmas éprouvent une aversion certaine pour les drones qui s'aventurent trop près de leur tête. C'est devenu parfaitement évident lorsque l'un de ces animaux a tressailli et fait tomber plusieurs [Root.Owner.GetSpeciesNamePlural] de son cou, leur créant de graves dommages.\n\nTant que nous n'aurons pas trouvé le moyen de manier ces géants, le développement de la colonie ne pourra être que retardé."
+ colony.9005.a:0 "Nous devons faire quelque chose"
+ colony.9005.b:0 "Ces jeunes vont devoir se calmer"
+ colony.9005.b.gestalt:0 "Évitons d'agiter davantage ces créatures"
+
+ colony.9010.name:0 "Équipe d'étude des nemmas"
+ colony.9010.desc:0 "Les meilleurs biologistes et ingénieurs se sont vu confier la tâche de trouver des solutions au dilemme posé par les nemmas de §Y[Root.GetName]§!. Plusieurs propositions nous ont donc été faites.\n\nTout a été pris en considération, depuis les idées les plus rationnelles jusqu'aux plus extravagantes. L'urgence de la situation exige toutefois de prendre des décisions rapides, sans perdre de temps à mener des expériences sur le terrain."
+ colony.9010.a:0 "Élevons-en davantage pour disposer de plus d'îles"
+ colony.9010.b:0 "Domptons ces animaux pour qu'ils nous obéissent désormais"
+ colony.9010.c:0 "Assez ! Tranquillisants et lancement des travaux de minage !"
+ colony.9010.d:0 "Exterminons ces colossales xénosaletés"
+
+ colony.9015.name:0 "Extension de l'archipel"
+ colony.9015.desc:0 "Après les premiers tests menés avec des spécimens adultes, les xénozoologistes ont modélisé le système de reproduction des nemmas de §Y[Root.GetName]§! dans l'espoir de pouvoir introduire davantage de ces géants dans les océans. Les éleveurs nous mettent toutefois en garde : le processus ne pourra pas être répété indéfiniment, car la [Root.GetPlanetMoon] ne peut compter plus de trois, peut-être quatre de ces animaux au plus. Le délai estimé pour obtenir notre prochain spécimen est de §Ydix ans§!."
+ colony.9015.a:0 "Lançons donc tout de suite leur reproduction"
+
+ colony.9020.name:0 "Le miracle de la vie"
+ colony.9020.desc:0 "Le programme de reproduction des nemmas de §Y[Root.GetName]§! a porté ses fruits : nous disposons désormais d'un nouveau spécimen. Ce jeune s'est très rapidement fait à notre présence, et il s'avère constituer un habitat très stable. Il devrait donc pouvoir aisément accueillir les industries de la colonie."
+ colony.9020.desc.full:0 "$colony.9020.desc$\n\nMalheureusement, c'est la dernière fois que nous pouvons ajouter un nouveau nemma à la [Root.GetPlanetMoon], l'habitat de ces animaux ne pouvant en supporter davantage. Leurs gardiens vont donc maintenant devoir se concentrer non plus sur leur reproduction, mais sur le maintien de ceux déjà créés."
+ colony.9020.a:0 "Superbe, créons-en un autre !"
+ colony.9020.b:0 "Excellent travail tout le monde !"
+ colony.9020.b.gestalt:0 "Le projet peut donc être qualifié de satisfaisant"
+
+ colony.9025.name:0 "Surpopulation"
+ colony.9025.desc:0 "Malheureusement, les dernières tentatives pour ajouter un nouveau nemma sur §Y[Root.GetName]§! ont échoué. De fait, il s'est avéré impossible de trouver un espace suffisant pour permettre à un nouveau de ces animaux gigantesques de vivre. Les [Root.Owner.GetScientistPlural] ne sont malgré tout pas découragés, et espèrent obtenir de meilleurs résultats à l'avenir."
+ colony.9025.a:0 "Retentons donc"
+
+ colony.9030.name:0 "Dressage"
+ colony.9030.desc:0 "La xéno-bio-ingénierie [Root.Owner.GetSpeciesName] a permis de dompter la menace posée par les nemmas ! Grâce au labeur de nos [Root.Owner.GetScientistPlural], ces créatures sont désormais devenues parfaitement obéissantes.\n\nElles se sont vu allouer la tâche convenant à ces gigantesques animaux de somme. Leur volume considérable leur permet de transporter des quantités impressionnantes d'équipement, tout en étant guidées sur les routes les plus efficaces grâce à leurs implants cybernétiques. Cela a permis d'accélérer de manière fondamentale les tâches liées à la colonisation de §Y[Root.GetName]§!."
+ colony.9030.a:0 "Parfait, les vrais travaux vont pouvoir débuter"
+
+ colony.9035.name:0 "Défenseurs des nemmas"
+ colony.9035.desc:0 "Aujourd'hui, des émeutes ont éclaté sur §Y[Root.GetName]§! : une partie de la population s'y est soulevée pour protester contre le traitement réservé aux nemmas de ce monde. Les manifestants ont formé des lignes tout autour de la tête de l'animal sur lequel est établi le capitole, exigeant que toutes ces créatures soient libérées et que la [Root.Owner.GetName] se consacre désormais à préserver l'espèce plutôt qu'à l'exploiter.\n\nLe mouvement de contestation s'est rapidement propagé à des sites installés sur d'autres nemmas. Malgré tout, des contre-manifestants ont aussi défendu les programmes actuels, aggravant donc la tension régnant sur la [Root.GetPlanetMoon] et rendant plausible la menace de violences."
+ colony.9035.a:0 "Mieux vaut donc passer à un programme d'élevage"
+ colony.9035.b:0 "Que ces agitateurs soient mutés aux déchetteries"
+
+ colony.9040.name:0 "Exploitation des carapaces de nemmas"
+ colony.9040.desc:0 "Grâce aux nombreux travaux des ingénieurs et biochimistes des drogues ont pu être développées, et des forages extrêmement précis permettront d'exploiter des minéraux très utiles en forant dans les carapaces des nemmas de §Y[Root.GetName]§!. Cela nous permettra par ailleurs de collecter de la biomatière en dessous de la coque sans pour autant mettre en danger les infrastructures en surface. Si seulement toutes les colonies de la [Root.Owner.GetName] pouvaient receler autant de richesses..."
+
+ colony.9045.name:0 "Extermination des reptiles"
+ colony.9045.desc:0 "Le processus d'extermination des xénosaletés de §Y[Root.GetName]§! a été mené à son terme. Tout a été fait de manière étudiée et systématique, afin d'éviter de polluer les océans ou de mettre en danger les infrastructures établies sur leurs carapaces. Bientôt, nous pourrons consacrer nos efforts à exploiter leurs restes et à y établir une colonie plus durable et permanente sur la [Root.GetPlanetMoon]. Mais, pour l'heure, la priorité est au stockage des ressources exploitables ainsi collectées."
+ colony.9045.a:0 "Ces animaux idiots serviront ainsi à quelque chose"
+
+ # Arc Sites
+ broken_world_digsite:0 "Les portes brisées"
+ broken_world_digsite_desc:0 "D'étranges signaux ont été détectés, provenant d'un dôme effondré sur §Y[From.Planet.GetName]§!."
+
+ # Modifiers
+ the_lonely_bot_welcome:0 "Un ami inattendu"
+ the_lonely_bot_welcome_desc:0 "Le petit robot de [Root.GetName] a tout fait pour aider les colons à s'installer sur la [Root.GetPlanetMoon]."
+
+ eldritch_horror_mod:0 "Savoir d'Eldritch"
+ eldritch_horror_mod_desc:0 "L'Horreur d'Eldritch a transmis de vastes connaissances à l'empire. En retour, elle n'exige qu'une part limitée de notre population."
+
+ crystalline_architecture_mod:0 "Architecture cristalline"
+ crystalline_architecture_mod_desc:0 "Les améliorations apportées à cet habitat ont permis de gagner de la place pour ses habitants."
+
+ nanite_swarm_modifier:0 "Essaim de nanites"
+ nanite_swarm_modifier_desc:0 "[Root.GetName] est infestée par un essaim de nanomachines aliens qui s'attaquent à tout ce qui pénètre son atmosphère, que ce soit biologique ou mécanique."
+ tamed_nanite_swarm_modifier:0 "Essaim de nanites domestiqué"
+ tamed_nanite_swarm_modifier_desc:0 "Un essaim de nanites auto-évolué a été domestiqué sur [Root.GetName] et aide désormais les colons à mener à bien leurs tâches quotidiennes."
+
+ new_resonance_music_art:0 "Arts et musiques résonnants"
+# new_resonance_music_art_desc: "TODO"
+ new_resonance_study:0 "Études de la nouvelle résonnance"
+# new_resonance_study_desc: "TODO"
+
+ turtle_world_modifier:0 "Îles mouvantes"
+ turtle_world_modifier_desc:0 "Ce que nous pensions au départ être des îles s'est avéré être les carapaces de reptiles gigantesques et bien vivants. Les habitants de [Root.GetName] sont donc confrontés à de véritables difficultés pour définir les limites des propriétés."
+ turtle_world_modifier_alone:0 "Sur le dos des nemmas"
+ turtle_world_modifier_alone_desc:0 "$turtle_world_modifier_desc$ Malgré tout, il a été décidé de laisser ces animaux en paix."
+ turtle_world_slaves_modifier:0 "Nemmas domptés"
+ turtle_world_slaves_modifier_desc:0 "Les nemmas gigantesques vivant sur [Root.GetName] ont été asservis, ce qui facilite grandement l'exploitation de la [Root.GetPlanetMoon]."
+ embraced_turtle_slavery_modifier:0 "Domptage des nemmas imposé"
+ embraced_turtle_slavery_modifier_desc:0 "En imposant par la force l'asservissement des nemmas sur [Root.GetName], nous avons aussi contribué à y renforcer l'acceptation de l'esclavage."
+
+
+ # Names
+ NAME_Eldritch_Horror:0 "Horreur d'Eldritch"
+ NAME_The_Outer_Gate:0 "Porte Extérieure"
+ NAME_Snow_Crystal:0 "Cristal de Neige"
+ NAME_Central_Crystal_Country:0 "Souveraineté cristalline"
+ NAME_Central_Crystal_Species:0 "zêr-ayakî"
+ NAME_Central_Crystal_Species_Plural:0 "Zêr-Ayakî"
+ NAME_Central_Crystal_Enclave:0 "Flotte du Cercle Extérieur"
+ NAME_Central_Crystal_Station:0 "Station cristalline"
+
+ # Opinions
+ opinion_small_boon_crystal_empire:0 "Empire obligeant "
+
+ # Fumongus Anomaly
+ fungal_emitters_category:0 "Émissions étranges"
+ fungal_emitters_category_desc:0 "Des émissions étranges proviennent des cavernes sous la surface de [From.GetName]. Cela pourrait-il être une sorte de signal ?"
+
+ anomaly.6755.name:0 "Émissions fongiques"
+ anomaly.6755.desc:0 "Sous la surface de §Y[From.GetName]§! vit un organisme tout à fait particulier. Les balayages et échantillons montrent qu'il s'agit d'une sorte de mycélium regorgeant de spores. Et, comparées à celles trouvées habituellement sur [Root.Owner.GetHomeWorldName], ces spores sont énormes. Leur surface est un kaléidoscope chatoyant, dont les teintes semblent évoluer en fonction de l'environnement.\n\nLeur aspect le plus étrange est qu'elles semblent former comme un réseau, capable de générer ce que l'équipage qualifie de signal. Et, si les émissions actuelles sont très faibles, au prix de quelques efforts il serait possible d'en déterminer la destination."
+ anomaly.6755.a:0 "Voyons où tout cela nous mènera"
+ anomaly.6755.b:0 "Ramenons ces spores pour les vendre"
+ anomaly.6755.c:0 "Nous n'avons pas de temps à consacrer à cela"
+ anomaly.6760.intro:0 "Un organisme familier vit sous la surface de §Y[From.GetName]§!. Les balayages et échantillons montrent qu'il s'agit d'une sorte de mycélium regorgeant de spores énormes, directement liées au §HChampilong§!. Ces spores, malgré tout, semblent avoir muté et grossi jusqu'à la taille de petites perles. Leur surface, à la couleur toujours changeante, est assez spectaculaire. Mais il y a plus important encore : elles semblent produire un signal plus puissant que les spores habituelles."
+ anomaly.6760.desc:0 "$anomaly.6760.intro$\n\nLes scientifiques pensent que ramener certaines de ces spores mutantes sur place pourrait permettre de renforcer le réseau actuel du Champilong."
+ anomaly.6760.a:0 "Mettons donc en place un projet spécial"
+ anomaly.6760.b:0 "Contentons-nous de ramener les données"
+ anomaly.6765.desc:0 "$anomaly.6760.intro$\n\nMalheureusement, comme nous avons démantelé le réseau fongique, nous ne pourrons faire aucun usage pratique de cette information."
+ anomaly.6770.name:0 "En suivant les champignons"
+ anomaly.6770.intro:0 "Suivre le signal émis par le mycélium s'est avéré être plus ardu que prévu."
+ anomaly.6770.desc:0 "$anomaly.6770.intro$ Selon leurs propres termes, les scientifiques perplexes y sont malgré tout parvenus « en faisant usage de champignons pour aller voir dans des dimensions additionnelles ». Ils n'ont guère donné de détails sur ce que cela peut bien signifier... Quoi qu'il en soit, l'opération a été un succès et le signal pointe vers une localisation précise."
+ anomaly.6770.a:0 "En route donc !"
+ anomaly.6780.desc:0 "$anomaly.6770.intro$ Malgré tous les efforts faits par [Root.GetLeaderName], il lui a été impossible de déterminer la destination du signal du mycélium, et celui-ci reste un véritable mystère. Malgré tout, nous avons pu apprendre beaucoup de choses au cours du processus, et toutes les données sont en cours de transfert en ce moment même."
+ anomaly.6785.name:0 "Spores greffées"
+ anomaly.6785.desc:0 "Greffer les spores mutantes sur le champignon existant a été une véritable prouesse de bio-ingénierie. Grâce aux archives détaillant les altérations génétiques déjà apportées au §HChampilong§!, les scientifiques sont parvenus à l'altérer davantage encore, sans compromettre pour autant son efficacité. Les résultats sont spectaculaires : en quelques mois seulement, les champignons ont grossi jusqu'à dix fois. Cela a renforcé le besoin en eau pour l'alimenter, mais les astéroïdes glacés à proximité suffiront à les alimenter durant des siècles, si ce n'est des millénaires.\n\nCes champignons surdimensionnés ont permis un net renforcement du réseau, et après quelques améliorations à apporter au matériel informatique nous pouvons de nouveau écouter ce que les spores ont à nous apprendre."
+
+ FOLLOWING_FUNGI_PROJECT:0 "Suivre la piste fongique"
+ FOLLOWING_FUNGI_PROJECT_DESC:0 "Une anomalie sur [From.GetName] a révélé l'existence d'une colonie de champignons étranges, qui envoie un signal... quelque part. En l'amplifiant à sa source, les scientifiques paraissent certains de pouvoir découvrir la destination de ce signal et d'en comprendre davantage sur ce mycélium."
+ MUSHROOMING_NETWORK_PROJECT:0 "Greffe de spores"
+ MUSHROOMING_NETWORK_PROJECT_DESC:0 "La découverte des spores mutantes offre une occasion unique de renforcer le Dispositif d'Écoute Mycélial. Ces spores sont plus grosses, diffusent un signal plus puissant, et pourraient par conséquent nous aider à développer le Champilong."
+
+ fumongus_chain_title:0 "En suivant la piste fongique"
+ fumongus_chain_desc:0 "$anomaly.6770.desc$"
+ fumongus_poi_1:0 "Piste fongique"
+ fumongus_1_desc:0 "$anomaly.6770.desc$"
+
+ ### Fumongus Colony Events
+ #Events
+
+ colony.2060.name:0 "Cueillette aux champignons"
+ colony.2060.desc:0 "Une étude écologique de routine sur la colonie de §Y[Root.GetName]§! a permis de découvrir une étrange forme de vie fongique. L'équipe scientifique a rapporté que la surface du mycélium est chatoyante et colorée, mais ce qui l'a le plus intrigué est le fait que des amas de champignons séparés semblent communiquer les uns avec les autres lorsque quelque chose se produit dans leur environnement.\n\nPar ailleurs, la biologie de cet organisme semble clairement étrangère à l'écosystème de la [From.GetPlanetMoon]. Assez circonspecte, l'équipe locale a donc demandé une aide spécialisée, car nous pourrions bien avoir affaire à une espèce consciente."
+ colony.2060.a:0 "Cela devrait être très bon"
+ colony.2060.b:0 "Cela mérite quelques investigations"
+ colony.2060.c:0 "Mais... Ils sont liés au Champilong !"
+ colony.2065.name:0 "Les spores ont des oreilles"
+ colony.2065.desc:0 "Nous avons reçu de §Y[Root.GetName]§! des rapports assez inquiétants. Un examen plus poussé a révélé que le champignon alien qui y a été découvert semble émettre un signal vers un point de la galaxie que nous sommes pour l'instant incapables de localiser. La télémétrie et les analyses de sécurité indiquent qu'il est tout à fait possible que ce mycélium soit une sorte d'organisme d'espionnage avancé.\n\nMalgré tout, il paraît utile de préciser que cet organisme est ancien. Il y a de grandes chances que ceux qui ont créé ces champignons d'espionnage ont déjà disparu. Toutefois, si ce n'est pas le cas, il pourrait être dangereux de palper le prédateur pour voir s'il dort..."
+ colony.2065.a:0 "Nous devons en apprendre davantage"
+ colony.2065.b:0 "C'est bien trop risqué, détruisons tout"
+ colony.2070.intro:0 "L'analyse prudente du mycélium et des signaux qu'il transmet montrent qu'il appartenait vraisemblablement à un réseau d'organismes similaires, s'étendant peut-être dans toute la galaxie, et peut-être même au-delà. Quoi qu'il en soit, et même si nous n'en savons guère plus pour l'instant, il a été découvert que le mycélium reçoit lui aussi des informations depuis des membres de ce réseau situés ailleurs."
+ colony.2070.name:0 "Quelqu'un écoute"
+ colony.2070.desc:0 "$colony.2070.intro$\n\nRien n'est certain pour l'instant, mais en mettant bout à bout ces différents facteurs, et en prenant en compte le volume des données transmises, il est possible que quelqu'un fasse un usage actif du réseau pour en obtenir des informations. Les services de contre-renseignement travaillent déjà à l'élaboration d'un plan de désinformation, et les mesures de sécurité ont été révisées dans toute la [Root.Owner.GetName] pour tenir compte de ce type inédit d'espionnage."
+ colony.2070.a:0 "Lançons donc ce plan de désinformation"
+ colony.2075.name:0 "Personne n'écoute"
+ colony.2075.desc:0 "$colony.2070.intro$\n\nToutefois, en tenant compte de plusieurs facteurs, dont le volume de données transférées, il est peu probable que ce réseau soit toujours en usage. Le fait qu'il ne soit que partiellement actif montre bien qu'il est dormant, sans avoir été détruit."
+ colony.2075.a:0 "Que pouvons-nous tirer de lui, en ce cas ?"
+ colony.2080.name:0 "Connexions sporales"
+ colony.2080.desc:0 "Quels qu'aient pu être les doutes que nous avions sur la connexion de ce champignon avec le Dispositif d'Écoute Mycélial, ils ont été rapidement levés par une brève comparaison. Il s'agit bien là de l'un de ses nombreux descendants communiquant avec le Champilong, ce qui nous offre une occasion unique d'approfondir notre compréhension de cet organisme."
+ colony.2080.a:0 "Voyons si l'on peut renforcer le réseau"
+ colony.2080.b:0 "Voyons si l'on peut s'en servir pour surveiller la colonie"
+ colony.2080.c:0 "Le réseau a été détruit, mais nous pouvons toujours l'étudier"
+ colony.2085.name:0 "Agitation sur [Root.GetName]"
+ colony.2085.desc:0 "Des informations sur notre projet d'utiliser le mycélium local pour surveiller de près la colonie de §Y[Root.GetName]§! ont fuité, et n'ont pas été bien reçues des habitants. En dépit de toutes les tentatives visant à apaiser la situation, ils considèrent généralement cela comme une preuve de notre manque de confiance à leur égard, et exigent que nous mettions immédiatement un terme au projet.\n\nLes tensions sont de plus en plus vives, et les forces de l'ordre locales sont débordées. Si nous faisons le choix de poursuivre le projet, elles auront clairement besoin d'aide pour maintenir la colonie sous contrôle."
+ colony.2085.a:0 "Ils ont raison, mieux vaut renoncer"
+ colony.2085.b:0 "S'ils n'ont rien à cacher, ils n'ont rien à craindre"
+ colony.2090.name:0 "Les spores sont nos oreilles"
+ colony.2090.desc:0 "Le mycélium de §Y[Root.GetName]§! a été renforcé et l'équipement informatique local réglé de manière à ne subir aucune interférence. L'équipe chargée de la mise en oeuvre du projet a rapporté que le réseau surveille désormais de près la colonie. Déjà, un certain nombre de fripouilles ont reçu un châtiment approprié à leurs délits.\n\nMalheureusement, les tentatives pour reproduire l'installation en d'autres lieux se sont toutes soldées par des échecs. Le système dépend donc d'un facteur qui reste parfaitement inconnu."
+ colony.2095.name:0 "Échec fongique"
+ colony.2095.desc:0 "Les tentatives visant à stimuler la propagation du mycélium sur §Y[Root.GetName]§! se sont traduites par la croissance de ces champignons plus « traditionnels ». Un incident ayant impliqué quelques colons a montré qu'ils étaient comestibles. Cet événement a créé des perturbations dans le réseau pendant un temps, mais tout semble de nouveau revenu à la normale et le réseau est désormais stabilisé et fonctionnel. Malgré tout, aucune amélioration significative n'a pu être notée. Tout laisse donc à penser que ces champignons ne sont rien d'autre qu'une réserve d'eau, et ne contribuent en rien au réseau. Leur destruction n'aurait donc aucune conséquence sur lui."
+ colony.2095.a:0 "On peut donc les cueillir ?"
+ colony.2095.b:0 "Il serait plus utile de les étudier"
+
+ #Deposit
+
+ d_fungal_study_zone:0 "Zone d'étude fongique"
+ d_fungal_study_zone_desc:0 "Les « champignons espions » trouvés ici sont une source infinie de renseignements énigmatiques sur leur biologie étrange et sur la manière dont ils sont connectés les uns aux autres."
+
+ #Modifier
+
+ fumongus_monitor_pops:0 "Réseau mycélial local"
+ fumongus_monitor_pops_desc: "Depuis que nous avons pris le contrôle du réseau mycélial de [Root.GetName], nous pouvons surveiller les colons qui s'y trouvent."
+ disinformation_protocols:0 "Protocoles de désinformation"
+# disinformation_protocols_desc: "TODO"

@@ -1,0 +1,108 @@
+﻿l_french:
+ ########################
+ # Humanoids Species Pack (Value Buff)
+ ########################
+
+ ### Clone Army Origin
+
+ clone_soldier:0 "Soldats clonés"
+ origin_clone_army:0 "Armée de clones"
+ origin_clone_army_desc:0 "Une espèce à l'espérance de vie courte, composée de soldats clonés, infertiles, exceptionnellement doués pour tout ce qui touche au combat. Elle est restée sans commandement et isolée, et est depuis en proie à ses questionnements et de nombreux doutes quant à sa conception et son sort quelque peu incertain."
+ origin_tooltip_clone_army_effects:0 "- Commence la partie avec §H2 £building£anciennes cuves à clones§! sur le monde natal, produisant des £pops£pops de §Ysoldats clonés§!.\n- §RL'empire peut compter jusqu'à §H5§! £building£anciennes cuves à clones.§!\n- Pour les §Hamiraux§! de l'armée de clones :\n$MOD_SHIP_FIRE_RATE_MULT$: §G+25%§!\n$mod_ships_upkeep_mult$: §G-10%§!"
+ trait_clone_soldier_infertile:0 "$clone_soldier$"
+ trait_clone_soldier_infertile_desc:0 "§LConçus pour obéir et combattre. Vie courte, incapacité de se reproduire naturellement, et merveilleuse efficacité au combat.§!"
+ trait_clone_soldier_fertile:0 "Descendants de soldats clonés"
+ trait_clone_soldier_fertile_desc:0 "§LUne espèce autrefois infertile, conçue pour obéir et combattre. L'atout génétique s'est depuis quelque peu érodé, mais l'espèce est désormais suffisamment stable pour se reproduire de manière naturelle.§!"
+ trait_clone_soldier_infertile_full_potential:0 "Soldats clonés perfectionnés"
+ trait_clone_soldier_infertile_full_potential_desc:0 "§LDes clones bénéficiant des améliorations génétiques les plus poussées, leur permettant de disposer d'une puissance, d'une efficacité, d'une durabilité et d'une longévité accrues, mais à jamais infertiles.§!"
+ leader_trait_clone_army_admiral:0 "Amiral de l'armée des clones"
+ leader_trait_clone_army_admiral_desc:0 "Par sa formation militaire d'exception, ce commandant sait comment obtenir une efficacité maximale des vaisseaux et des soldats."
+ leader_trait_clone_army_full_admiral:0 "Amiral de l'armée des clones perfectionnés"
+ leader_trait_clone_army_full_admiral_desc:0 "Soumis depuis sa création à une formation militaire si intense que peu peuvent la subir, ce commandant dispose de capacités martiales et de commandement exceptionnelles."
+ leader_trait_clone_army_fertile_admiral:0 "Amiral descendant de l'armée des clones"
+ leader_trait_clone_army_fertile_admiral_desc:0 "Par sa formation militaire poussée, ce commandant maîtrise au-delà des normes habituelles les procédures martiales et sait comment en tirer tout le parti possible."
+ TRAIT_INFERTILE:0 "§REmpêche toute reproduction naturelle.§!"
+ genelock_trait_tooltip:0 "§REmpêche toute modification génétique.§!"
+
+ disables_clone_army_origin_features:0 "§RChoisir cet atout de l'ascension va désactiver les mécanismes liés à l'origine $origin_clone_army$.§!"
+ clone_soldier_locked_genes:0 "§RLes espèces ayant les traits $trait_clone_soldier_infertile$ et $trait_clone_soldier_infertile_full_potential$ sont trop instables pour bénéficier de modifications génétiques supplémentaires.§!"
+
+ building_clone_army_clone_vat:0 "Anciennes cuves à clones"
+ building_clone_army_clone_vat_desc:0 "Une technologie perdue héritée des Créateurs. Les cuves peuvent être démontées et réassemblées, mais leurs composants internes et leur fonctionnement sont beaucoup trop avancés pour être répliqués."
+ building_clone_army_clone_vat_effect_desc:0 "Produit et maintient §Y20§! £pops£pops de §Ysoldats clonés§!. L'effectivité du développement se réduit à mesure que les £building£anciennes cuves à clones atteignent leur pleine capacité."
+
+ START_SCREEN_CLONE_ARMY:0 "Nous avons été créés pour faire la guerre ! Des soldats conçus pour vivre et mourir à proximité des anciennes cuves à clones héritées de nos Créateurs, à jamais façonnés selon leur moule. Tout souvenir de nos maîtres d'antan s'est perdu au cours des générations, et nous ne savons ni quand, ni pourquoi ils nous ont abandonnés. Sans doute des archives ont-elles été détruites de manière systématique, selon les procédés militaires habituels, mais cela a fini par changer au cours des derniers siècles. Par chance, ou peut-être par un instinct de survie imprévu, nos subconscients semblent nous avoir poussés à chercher des réponses, des buts nouveaux, des manières d'échapper ce qui nous avait été imposé dès notre façonnage.\n\nDès lors, nos efforts ont été incessants, jusqu'à ce que nous parvenions à accéder aux vastes étendues de l'espace. À mesure que notre horizon s'est élargi, il en a été de même avec le champ de nos connaissances, permettant aussitôt d'assurer davantage les possibilités d'assurer notre liberté.\n\nNous ne dilapiderons pas les possibilités qui nous ont été offertes par nos aïeux. Nous nous battrons pour transmettre tous ces possibles aux clones encore à venir, et combattrons toujours pour détruire ces restrictions qui nous ont été imposées.\n"
+
+ alert_declining_pops_title:0 "Déclin des pops"
+ alert_declining_pops_instant:0 "Les £pops£pops sont en déclin sur ces mondes :"
+ CLONE_ARMY_FORCE_DECLINE:0 "§R£building£§YAnciennes cuves à clones§! insuffisantes pour maintenir la population de §YSoldats clonés§!§!"
+ OVERPOPULATION_DECLINE:0 "§RSurpopulation excessive§!"
+
+ MESSAGE_CLONE_ARMY_NO_CLONE_VATS_TITLE:0 "Déclin des pops"
+ MESSAGE_CLONE_ARMY_NO_CLONE_VATS:0 "Les £pops£pops de §Ysoldats clonés§! sur $PLANET|Y$ n'ont plus rien pour les maintenir. Sans au moins une §Yancienne cuve à clones§!, elles périront très bientôt."
+
+ clones.4.name:0 "Fertilité des clones"
+ clones.4.desc:0 "On pense que les [Root.GetSpeciesNamePlural] étaient autrefois capables de se reproduire de manière indépendante.\n\nPourtant, les expériences menées pour leur faire retrouver cette capacité ont toutes été des échecs successifs, y compris lorsqu'elles fonctionnaient pour les autres créatures de §Y[Root.GetHomeWorldName]§!. Pendant longtemps, aucun progrès n'a été enregistré. Jusqu'à maintenant...\n\nUne découverte inattendue laisse beaucoup d'espoir aux scientifiques : un message a été dissimulé dans le biocode si complexe des §Hanciennes cuves à clones§!, dans cette zone de notre génome qui, pensons-nous, commande la reproduction."
+
+ CLONE_SOLDIER_FERTILITY:0 "Déchiffrer le message du biocode"
+ CLONE_SOLDIER_FERTILITY_DESC:0 "Un projet a été mis en place pour déchiffrer ce message caché dans le biocode si complexe des §Hanciennes cuves à clones§!. Il pourrait nous permettre de retrouver enfin notre fertilité."
+
+ clones.20.name:0 "Communication avec les anciennes cuves à clones"
+ clones.20.desc:0 "Grâce à la ténacité des scientifiques, le message trouvé dans le biocode des anciennes cuves à clones a pu être décodé. En dépit des difficultés liées au protocole lui-même, le département scientifique qui en était chargé a pu activer la clef qu'il renfermait.\n\nUn message du passé est alors apparu sur nos écrans..."
+
+ clones.21.name:0 "$clones.20.name$"
+ clones.21.desc:0 "Je suis écrasé par le poids de la culpabilité. Je ne puis imaginer quels chemins ont pu conduire à cela, mais assurément pas la clémence des miens.\n\nJ'ai contribué à vous créer pour nous servir, et de cela je suis profondément désolé. Je ne peux vous rendre ce qui vous a été pris, mais je peux en revanche vous aider à décider de votre propre avenir.\n\nMême si vous méritiez davantage, je vous offre le choix entre deux chemins : soit revenir sur les changements qui ont rendu votre espèce stérile, afin de vous libérer, évoluer et prospérer comme vous l'entendez ; soit débloquer véritablement tout votre potentiel, mais ce faisant porter vos gènes à leurs dernières limites et imposer aux générations futures de votre espèce de dépendre alors, à tout jamais, de la technologie pour assurer leur reproduction."
+
+ clone_fertility_chain_title:0 "Carrefour génétique"
+ clone_fertility_chain_desc:0 "Le message caché dans le biocode des cuves à clones, laissé là par l'un de nos Créateurs, nous a révélé un choix entre deux chemins : soit retrouver notre fertilité en renonçant à une partie de notre force ; soit renoncer à tout jamais à la reproduction naturelle afin de débloquer pleinement tout notre potentiel génétique."
+
+ CLONE_SOLDIER_UNLOCK_FERTILITY:0 "Restaurer la fertilité des clones"
+ CLONE_SOLDIER_UNLOCK_FERTILITY_DESC:0 "Les §Ysoldats clonés§! peuvent désormais devenir des §Ydescendants de soldats clonés§!, moins efficaces physiquement, mais fertiles et suffisamment stables génétiquement pour pouvoir subir des modifications.\n\n§RCe chemin va se traduire par le désassemblage d'une £building£§Yancienne cuve à clones§!.§!"
+ CLONE_SOLDIER_UNLOCK_POTENTIAL:0 "Révéler tout le potentiel des clones"
+ CLONE_SOLDIER_UNLOCK_POTENTIAL_DESC:0 "Les §Ysoldats clonés§! peuvent désormais devenir des §Ysoldats clonés perfectionnés§!, plus efficaces, mais à tout jamais infertiles et incapables à l'avenir de la moindre modification génétique."
+
+ clones.22.name:0 "À l'aube d'une ère nouvelle"
+ clones.22.desc:0 "Notre fertilité a été restaurée, et le premier lot de nouveaux §H[Root.GetSpeciesNamePlural]§! a enfin vu la lumière du jour. Notre avenir en est totalement bouleversé, car ils auront désormais eux-mêmes des [Root.GetSpeciesSpawnNamePlural], et notre société va devoir évoluer et s'adapter.\n\nNous n'aurons plus besoin désormais des §Hanciennes cuves à clones§!, aussi a-t-il été décidé d'en isoler tout ce qui pourra être étudié de manière plus poussée à l'avenir. Tout le reste peut par contre être recyclé et utilisé à d'autres fins."
+
+ clones.23.name:0 "Plein potentiel"
+ clones.23.desc:0 "Pourquoi devrions-nous renoncer à cette force qui nous a été donnée ? Nous n'avons pas besoin d'aimer nos Créateurs pour reconnaître la sagesse qui a été la leur de nous choisir. Les anciennes cuves à clones elles-mêmes sont un présent magnifique.\n\nNon, mieux vaut encore assumer pleinement notre force, et grâce au premier lot de §Y[Root.GetSpeciesNamePlural]§! qui vient d'être livré, nous sommes désormais plus forts que jamais auparavant. Désormais, notre espèce parfaite est assurée de prospérer."
+
+ clones.10.name:0 "Origine débattue"
+ clones.10.desc:0 "Avec notre accession récente aux vastes étendues spatiales, les considérations divergentes sur notre origine ont rapidement débouché sur un véritable schisme. Les groupes les plus extrémistes attirent toujours davantage de clones. Notre sens de l'unité, autrefois si puissant, est bel et bien rompu.\n\nCertains regardent les Créateurs comme des dieux, dignes de leur vénération et de leur obéissance, et sont persuadés que les [Root.Owner.GetSpeciesNamePlural] ont été façonnés à leur image. Ils n'aspirent à rien d'autre que préserver le statu quo actuel. Mais d'autres, tout au contraire, maudissent nos maîtres de jadis pour leurs actes, allant jusqu'à les qualifier d'esclavagistes, et aimeraient avoir l'occasion de leur faire payer le prix de leurs actes passés.\n\nUn site de fouilles a été établi sur §Y[Root.Owner.GetHomeWorldName]§! afin de vérifier les faits et apaiser les dissensions actuelles. Avant de nous élancer davantage dans l'espace, nous devons examiner toutes les possibilités. La [Root.Owner.GetName] est ancienne ; de nombreuses générations de clones ont vécu et sont mortes en son sein. Sous les anciennes structures de notre monde natal doivent se trouver des preuves de toute première importance, qui nous attendent..."
+
+ clone_army_digsite:0 "Fouilles de notre monde natal"
+ clone_army_digsite_desc:0 "Depuis que les [From.Planet.Owner.GetSpeciesNamePlural] ont pris conscience de leur situation, leur absence d'une identité et d'un dessein communs pèse sur eux. Nous avons grandement sous-estimé l'impact que cela aurait sur la capacité à nous consacrer à notre avenir, ou même à coopérer. Nous ne parvenons pas à retrouver l'union entre nous, et attendons des réponses.\n\nCe site de fouilles a donc été établi sur §Y[From.Planet.GetName]§! pour apporter des réponses à la question très débattue de notre création, et pour trouver un point de vue fondateur qui permettra de nous réunir autour d'une communauté de destin."
+
+ clones.11.name:0 "Histoire oubliée"
+ clones.11.desc:0 "Un site de fouille d'une importance cruciale a permis de dater l'installation de l'une de nos §Hanciennes cuves à clones§! sur §Y[From.Planet.GetName]§! en analysant le sol se trouvant sous la structure elle-même. La comparaison entre sa densité et sa composition par rapport à celui de l'environnement proche a permis d'établir une approximation raisonnable du moment où elle a été érigée là.\n\nIl est apparu que les premiers de notre espèce, les tout premiers clones, ont été produits il y a environ douze siècles.\n\nDe nombreuses générations sont perdues dans les brumes de l'histoire. Nous avons beaucoup oublié, ce qui est assurément regrettable."
+ clones.12.name:0 "Parenté lointaine"
+ clones.12.desc:0 "Il a été rapporté, sur l'un des sites de fouilles ouverts sur §Y[From.Planet.GetName]§!, la découverte de restes fossilisés de ce qui ressemble à des [Root.Owner.GetSpeciesNamePlural]. Ils sont extrêmement anciens. Ils ont été trouvés dans et à proximité des vestiges d'un établissement primitif. Apparemment, aussi bien les fossiles que les vestiges architecturaux remontent à plus d'un millénaire avant la construction des §Hanciennes cuves à clones§!.\n\nLe séquençage ADN a confirmé les similarités frappantes entre nous et ces fossiles, permettant de conclure que ces restes sont ceux de nos prédécesseurs, avant même que nous soyons façonnés en tant que clones.\n\nCela offre donc des considérations tout à fait nouvelles."
+ clones.12.tooltip:0 "Il faudra du temps pour assimiler ces informations..."
+ clones.13.name:0 "Notre histoire"
+ clones.13.desc:0 "La nouvelle des découvertes faites sur le site archéologique, démontrant que notre espèce était autrefois une peuplade primitive de §Y[Root.GetHomeWorldName]§!, est potentiellement explosive.\n\nIl est difficile de nier la conclusion la plus évidente : modifier génétiquement une espèce primitive telle que celle de nos ancêtres, déjà prédisposée à combattre, avait un objectif bien précis. Nos Créateurs nous ont refaçonnés pour mourir pour leur cause. Ils nous ont provolués pour répondre à leurs besoins, et jamais pour prospérer par nous-mêmes.\n\nEst-ce vraiment là l'histoire que nous voulons voir notre espèce adopter ? Ne vaudrait-il mieux pas préserver la population en réécrivant tout de suite notre passé ?"
+ clones.13.a:0 "Nous avons été façonnés à l'image de nos Créateurs !"
+ clones.13.b:0 "Mieux vaut regarder la réalité en face"
+
+ clones.14.name:0 "Archives déterrées"
+ clones.14.desc:0 "Il y a longtemps, des excavations avaient été conduites pour trouver un dessein qui expliquerait notre création. Le coup avait été dur : les [Root.GetSpeciesNamePlural] avaient été créés pour servir, pour mourir en servant leurs Créateurs. Nous avions alors choisi de préserver la population de cette vérité en leur offrant autre chose.\n\nMais, en faisant tout pour déterrer les dossiers relatifs de ces fouilles que nous avions dissimulés, un clone subversif a rendu public ce savoir caché.\n\nLe coupable, encore inconnu, n'a même pas cherché à déformer ces informations ou à y ajouter quoi que ce soit. Il n'en avait pas besoin, car aussitôt ces informations de notoriété publique, la foi en notre passé glorieux, celui qui prétendait que nous avions été faits à l'image de nos Créateurs, que nous étions leurs égaux et non leurs esclaves, s'est volatilisée, pour ne laisser place qu'à de la déception à l'égard des dirigeants."
+ clones.14.a:0 "C'est une catastrophe"
+ clones.14.b:0 "Nous devons nous excuser de ce mensonge"
+ clones.14.b.custom_tooltip:0 "Des excuses publiques vont être adressées à l'ensemble des [Root.GetSpeciesNamePlural]."
+
+ clones.15.name:0 "Excuses publiques"
+ clones.15.desc:0 "Un message vidéo, où chaque mot a été longuement pesé, a été diffusé, avec pour objectif d'expliquer aux [Root.GetSpeciesNamePlural] pourquoi leur passé avait été réécrit. La diffusion explique bien qu'il s'agissait là de miséricorde, en insistant sur le fait qu'il n'y a pas de honte à avoir de notre véritable histoire, et que nous devons maintenant nous tourner vers l'avenir. Dans le message a aussi été dressée une liste de toutes ces avancées faites par la [Root.GetName] depuis que le mensonge avait été propagé.\n\nLa population a semblé bien recevoir la diffusion, même s'il est encore difficile de dire quelles répercussions ces incidents auront véritablement eues. Quoi qu'il en soit, l'influence perdue sera recouvrée au cours du temps, et la question de nos origines semble enfin réglée."
+
+ clones.16.name:0 "Dirigeants dignes de confiance"
+ clones.16.desc:0 "Un certain nombre de dirigeants de très haut rang ont pris la responsabilité personnelle de reconnaître les valeurs qui animent nos gouvernants.\n\nPar un message largement diffusé dans la [Root.GetName], ils ont salué le courage et la sagesse qui avaient été nécessaires pour dévoiler notre passé, et le fait que c'était là la preuve d'une grande confiance dans l'ensemble de l'espèce [Root.GetSpeciesName]. Selon ces officiers, notre capacité à assumer notre histoire a renforcé encore leur détermination, et ils se disent prêts, plus que jamais, à envisager l'avenir avec le courage le plus ferme.\n\nEt, dans tout l'empire, la population se réjouit de cette union de nos vues, louant ce choix difficile que nous avons dû faire."
+
+ debated_origin:0 "Origine débattue"
+ debated_origin_desc:0 "Cette société souffre de la désunion provoquée par ses croyances contradictoires."
+ meaningful_origin:0 "Origine empreinte de gloire"
+ meaningful_origin_desc:0 "La foi de cette société en un passé glorieux et un avenir radieux a été réaffirmée."
+ honorable_leadership:0 "Dirigeants dignes de confiance"
+ honorable_leadership_desc:0 "Cette société a toute confiance envers ses dirigeants, qui lui ont prouvé leurs bonnes intentions."
+ dishonorable_leadership:0 "Gouvernants indignes"
+ dishonorable_leadership_desc:0 "Cette société est agitée par le doute et se demande s'il lui est possible d'avoir confiance en ses dirigeants."
+
+ modifier_clone_pops_decline:0 "Anciennes cuves à clones insuffisantes"
+ modifier_clone_pops_decline_desc:0 "Il n'y a pas suffisamment d'£building£§Yanciennes cuves à clones§! sur [Root.GetName] pour maintenir sa population actuelle."
