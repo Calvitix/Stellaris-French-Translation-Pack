@@ -6,6 +6,11 @@ l_french:
  ### UI                                              ###
  #######################################################
  
+ # Base game modifiers that aren't localized
+ mod_megastructures_habitat_influence_cost_mult:0 "Coût en Influence des Habiats" 
+ mod_job_merchant_per_crime:0 "§G+1§! emploi de $job_merchant$ par palier de $VALUE$ Criminalité"
+ mod_job_merchant_per_crime_short:0 "\n§G+1§! £mod_job_merchant_add£ par $VALUE$ £crime"
+ 
  origin_am_civics_locust_capitalism_start_screen_message_1:0 "Les [GetSpeciesName] vivaient sous un système de capitalisme acridien depuis quelques centaines d'années : une société dominée par une exploitation impitoyable, où les rapports de bénéfices trimestriels sont devenus les seules mesures du succès. Les questions sociales et environnementales sont tombées en mépris."
  origin_am_civics_locust_capitalism_start_screen_message_2:0 "La communauté scientifique - ou le peu de scientifiques qui ont réussi à rester rentable - a averti depuis des décennies maintenant que le modèle économique actuel ne sera pas durable pour beaucoup plus longtemps et que les [GetSpeciesName] sont en train de diriger leur planète directement dans un événement d'extinction de masse. Ces alertes sont tombés sur des oreilles sourdes."
  origin_am_civics_locust_capitalism_start_screen_message_3:0 "Maintenant, avec la découverte du réseau d'hyperlignes, leurs avertissements semblent moins importants que jamais : une galaxie entière remplie de ressources et de possibilités s'est ouverte pour '§Y[GetName]§!'. L'avenir de [GetHomeWorldName] semble faiblement insignifiant en revanche."
@@ -65,6 +70,19 @@ l_french:
  civic_am_civics_banking_giant:0 "Géant bancaire"
  civic_am_civics_banking_giant_desc:0 "Cette mégaCorporation était autrefois un géant bancaire avant d'avoir utilisé son influence pour faciliter une prise de contrôle hostile du gouvernement mondial."
  tooltip_civic_am_civics_banking_giant_effects:0 "§Hdéverrouille le bâtiment :§! Institut bancaire stellaire\nEmpire unique. Permet à l'Empire de générer £trade_value£ §Y$TRADE_VALUE$§! en fonction de la quantité de £energy£ §Yenergy§! en stock, à un taux d'intérêt annuel d'environ §Y6%§!.\n\n La £trade_value£ §Y$TRADE_VALUE$§! est appliquée en modificateur d'Empire."
+ 
+ ### Mining Consortium
+ civic_am_civics_mining_consortium:0 "Mining Consortium"
+ civic_am_civics_mining_consortium_desc:0 "A mining consortium has become a highly influential player in this Megacorporation. The now pseudo-governmental body has gained monopoly control in many branches of the industry."
+ 
+ ### Guild of Engineers
+ civic_am_civics_guild_of_engineers:0 "Guild of Engineers"
+ civic_am_civics_guild_of_engineers_desc:0 "An influential guild of highly skilled engineers is active in this Megacorporation.\n\nWhile not directly involved in the decision-making process, their lobbying efforts appear to have great influence on those who are."
+ 
+ ### Guild of Engineers
+ civic_am_civics_criminal_connections:0 "Criminal Connections"
+ civic_am_civics_criminal_connections_desc:0 "The Managers in this Megacorporation are in close contact with its criminal underworld. A lot of the governmental decision-making is based on backdoor deals between the leaders of both sides, and often come at the expense of the general public."
+ civic_am_civics_criminal_connections_effect:0 "Start with the §YCrime Lord Deal§! Modifier already active in your Capital.\n  "
  
  #######################################################
  ### STARBASE BUILDINGS                              ###

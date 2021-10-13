@@ -15,7 +15,7 @@ tradition_est_academy:0 "Académie"
 tradition_est_academy_desc:0 "§WLes académies, les écoles et les universités sont réparties sur notre empire et ceux qui souhaitent atteindre le sommet le font à travers leurs hiérarchies complexes.§!"
 
 tr_est_academy_adopt:0 "Traditions d'Académie"
-tr_est_academy_adopt_desc:0 "$tradition_est_academy_desc$\n\n$tr_est_academy_adopt_effect$\n\n$tr_est_academy_finish_effect$"
+tr_est_academy_adopt_desc:0 "Nous pouvons choisir §Y2§! domaines de recherches, pour lesquels un bonus de §YVitesse de Recherche §! de §G+15%§! sera attribué."
 
 tr_est_academy_1:0 "Éducation publique"
 tr_est_academy_1_desc:0 "§YTaille de la liste de personnalités possibles§! augmentée de §Y3§!."
@@ -50,6 +50,8 @@ tradition_est_shroudborn_desc:0 "§WNous sommes peut-être les êtres psionicien
 tradition_est_shroudborn_ap_desc:0 "§WNous avons toujours cru que nos origines se trouvaient dans le monde mortel. Mais depuis l'éveil, nous avons commencé à nous rendre compte que nous sommes peut-être des créatures du Suaire.§!"
 
 tr_est_shroudborn_adopt:0 "Traditions 'Engendrés par le Suaire'"
+tr_est_shroudborn_adopt_desc:0 "$tradition_est_shroudborn_desc$\n\n$tr_est_shroudborn_adopt_effect$\n\n$tr_est_shroudborn_finish_effect$"
+tr_est_shroudborn_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n£unity  §YUnity§! output is increased by §G+10%§!."
 
 tr_est_shroudborn_1:0 "Esprit intrusif"
 tr_est_shroudborn_1_delayed:0 "§LNous sommes en mesure de nous immiscer dans les esprits des mortels, leurs intentions sont comme des livres ouverts, en attente d'être lus.§!"
@@ -84,15 +86,22 @@ tradition_est_hacking:0 "'Hacking'"
 tradition_est_hacking_desc:0 "§WNous sommes agiles, capables de prendre possession des systèmes informatiques d'autres empires et de les modifier à notre avantage.§!"
 
 tr_est_hacking_adopt:0 "Traditions de 'Hacking'"
+tr_est_hacking_adopt_desc:0 "$tradition_est_hacking_desc$\n\n$tr_est_hacking_adopt_effect$\n\n$tr_est_hacking_finish_effect$"
+tr_est_hacking_adopt_terminator:0 "Traditions de 'Hacking'"
+tr_est_hacking_adopt_terminator_desc:0 "$tradition_est_hacking_desc$\n\n$tr_est_hacking_adopt_effect$\n\n$tr_est_hacking_finish_terminator_effect$"
+tr_est_hacking_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§YResearch Speed (Computing)§! increased by §G+25%§!."
 
 tr_est_hacking_1:0 "Manipulation des systèmes"
+tr_est_hacking_1_desc:0 "§Y$MOD_SHIP_EVASION_MULT$§! increased by §G+10%§!."
 tr_est_hacking_1_delayed:0 "§LEn manipulant soigneusement les systèmes de résolution des tirs des vaisseaux ennemis, nous pouvons réduire leur capacité à cibler avec succès nos vaisseaux au combat.§!"
 
 tr_est_hacking_2:0 "Perturbation des communications"
 tr_est_hacking_2_desc:0 "la §YPortée des capteurs des planètes§! et §YPortée des capteurs des vaisseaux§! est réduite de §R1§! et le §YCoût en influence des bases stellaires§! est augmenté de §Y+25%§! pour tous les empires 'mortels' voisins (les empires avec qui nous formons une fédération ou un pacte défensif, et nos sujets ne sont pas affectés)."
 tr_est_hacking_2_delayed:0 "§LNous pouvons perturber les systèmes de communication étrangers, réduire la capacité de nos voisins à communiquer efficacement dans leur empire.§!"
+tr_est_hacking_2_passive_AI_desc:0 "§Y$MOD_ARMY_MORALE_DAMAGE_MULT$§! increased by §G+30%§!."
 
 tr_est_hacking_3:0 "Logiciel espion"
+tr_est_hacking_3_desc:0 "§YPlanet Sensor Range§! increased by §Y2§!."
 tr_est_hacking_3_delayed:0 "§LNous pouvons détourner la surveillance et les systèmes d'observation d'autres empires, les utiliser pour avoir une meilleure idée de l'espace qui entoure notre empire.§!"
 
 tr_est_hacking_4:0 "Logiciel malveillant"
@@ -174,13 +183,13 @@ tradition_est_aesthetics:0 "Esthétique"
 tradition_est_aesthetics_desc:0 "§WLa beauté peut être perçue, mais ne peut être expliquée. Sans beauté, notre existence serait creuse.§!"
 
 tr_est_aesthetics_adopt:0 "Traditions d'esthétique"
-tr_est_aesthetics_adopt_desc:0 "$tradition_est_aesthetics_desc$\n\n$tr_est_aesthetics_adopt_effect$\n\n$tr_est_aesthetics_finish_effect$"
+tr_est_aesthetics_adopt_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! augmenté de §G+15%§! sur les planètes possédant un bâtiment de type £building  §Y$building_autochthon_monument$§!"
 
 tr_est_aesthetics_adopt_spiritualist:0 "$tr_est_aesthetics_adopt$"
-tr_est_aesthetics_adopt_spiritualist_desc:0 "$tradition_est_aesthetics_desc$\n\n$tr_est_aesthetics_adopt_spiritualist_effect$\n\n\n$tr_est_aesthetics_finish_no_cw_effect$"
+tr_est_aesthetics_adopt_spiritualist_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! augmenté de §G+15%§! sur les planètes possédant un bâtiment de type £building  §Y$building_temple$§!"
 
 tr_est_aesthetics_adopt_megacorp:0 "$tr_est_aesthetics_adopt$"
-tr_est_aesthetics_adopt_megacorp_desc:0 "$tradition_est_aesthetics_desc$\n\n$tr_est_aesthetics_adopt_megacorp_effect$\n\n$tr_est_aesthetics_finish_no_cw_effect$"
+tr_est_aesthetics_adopt_megacorp_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! augmenté de §G+15%§! sur les planètes possédant un bâtiment de type £building  §Y$building_corporate_monument$§!"
 
 tr_est_aesthetics_1:0 "Travaux de littérature"
 tr_est_aesthetics_1_delayed:0 "§LLes oeuvres de nos écrivains et de nos poètes éclaireront des milliards d'âmes sur des milliers d'années. Une fois qu'une pièce est terminée, elle durera une éternité, elle fera la galaxie un meilleur endroit tous les jours.§!"
@@ -303,7 +312,7 @@ tradition_est_chivalry:0 "Chevalerie"
 tradition_est_chivalry_desc:0 "§WNos idéaux ne sont ni trop courbés ni cassés. Quoi qu'il arrive, sans hésitation, nous devons être vertueux.§!"
 
 tr_est_chivalry_adopt:0 "Traditions de chevalerie"
-tr_est_chivalry_adopt_desc:0 "$tradition_est_chivalry_desc$\n\n$tr_est_chivalry_adopt_effect$\n\n$tr_est_chivalry_finish_effect$"
+tr_est_chivalry_adopt_desc:0 "§E$TRADITIONS_ADOPT$:§!\nToutes les personnalités gagnent le trait §Y$leader_trait_admiral_est_chivalry$§! qui procure des bonus mineurs. Les §YGénéraux§! et §YAmiraux§! qui gagnent une bataille ont une chance d'obtenir le trait §Y$leader_trait_admiral_est_chivalry_hero$§!, qui procure des bonus majeurs (Les chances d'obtenir le trait dépendent des circonstances de la bataille)."
 
 tr_est_chivalry_1:0 "Règles d'engagement"
 tr_est_chivalry_1_delayed:0 "§LLes engagements de la flotte suivent un code de conduite strict. Pour casser ce code de chevalerie, jetaions dédaigner tout amiral.§!"
@@ -673,7 +682,7 @@ tradition_est_friendship:0 "Amitié"
 tradition_est_friendship_desc:0 "§WTout le monde devrait être considéré comme un ami jusqu'à ce qu'ils nous prouvent mal. Alors que toutes les Galaxies sont différents, dans cette diversité, nous pouvons trouver la force.§!"
 
 tr_est_friendship_adopt:0 "Traditions d'Amitié"
-tr_est_friendship_adopt_desc:0 "$tradition_est_friendship_desc$\n\n$tr_est_friendship_adopt_effect$\n\n$tr_est_friendship_finish_effect$"
+tr_est_friendship_adopt_desc:0 "Pas de pénalité d'£opinion  §YOpinion§! au premier contact. Reçoit de l'£unity §YUnité§! dès que nous entrons en contact avec un autre empire.De plus, §Y$MOD_ENVOY_IMPROVE_RELATIONS_MULT$§! augmenté de §G+25%§!."
 
 tr_est_friendship_1:0 "Ambassades étrangères"
 tr_est_friendship_1_desc:0 "l'£opinion §Yopinion§! des autres empires à notre égard est augmenté de §G+30§!."
@@ -712,9 +721,9 @@ tradition_est_malice:0 "Malveillance"
 tradition_est_malice_desc:0 "§WLa souffrance des autres est notre joie. Ce n'est que par la destruction d'autres civilisations, pouvons-nous prouver la grandeur de la nôtre.§!"
 
 tr_est_malice_adopt:0 "Traditions de Malveillance"
-tr_est_malice_adopt_desc:0 "$tradition_est_malice_desc$\n\n$tr_est_malice_adopt_effect$\n\n$tr_est_malice_finish_effect$"
+tr_est_malice_adopt_desc:0 "Réduit les £happiness  §YBonheur§! des empires ayant été §Yinsultés§! de §R-10%§!."
 
-tr_est_malice_1:0 "Pain et eau"
+tr_est_malice_1:0 "Du pain et de l'eau"
 tr_est_malice_1_desc:0 "le §Ycoût de d'entretien§! des §Yesclaves§! est réduit de §G-50%§!."
 tr_est_malice_1_delayed:0 "§LNos esclaves n'ont pas à recevoir plus de soutien que ce dont ils ont besoin de vivre. Pas le plus petit effort ne saurait être dépensé. Leur existence est vraiment misérable.§!"
 
@@ -1091,7 +1100,7 @@ tradition_est_fury:0 "Fureur"
 tradition_est_fury_desc:0 "§WEn nous brûle la flamme éternelle de la haine. Comme nous libérons cette rage, la flamme peut diminuer, mais ne peut jamais être éteinte.§!"
 
 tr_est_fury_adopt:0 "Traditions de Fureur"
-tr_est_fury_adopt_desc:0 "$tradition_est_fury_desc$\n\n$tr_est_fury_adopt_effect$\n\n$tr_est_fury_finish_effect$"
+tr_est_fury_adopt_desc:0 "Déverrouille la doctrine §YFurie§! qui peut être définie d'un niveau §Y0§! à §Y5§!, réduisant respectivement l'£opinion §YOpinion§! des autres empires de §R-0§!/§R-10§!/§R-25§!/§R-45§!/§R-70§!/§R-100§!. Chaque niveau augmente l'efficacité des différentes traditions de fureur..\nAugmente la §Y$MOD_SHIP_FIRE_RATE_MULT$§! de §G+5%§!, avec §G+1%§! pour chaque niveau de §YFurie§!."
 
 tr_est_fury_1:0 "Furie"
 tr_est_fury_1_desc:0 "£influence£§Ygain en influence§! provenant des §Yrivaux§! augmenté de §G+25%§! et §G+5%§! supplémentaires pour chaque §Yniveau de furie§!."
@@ -1172,7 +1181,7 @@ tradition_est_militarism:0 "Militarisme"
 tradition_est_militarism_desc:0 "§WNotre capacité militaire, voilà ce qui protège notre présence dans notre galaxie. Il n'est naturel que de construire notre société autour d'elle.§!"
 
 tr_est_militarism_adopt:0 "Traditions de militarisme"
-tr_est_militarism_adopt_desc:0 "$tradition_est_militarism_desc$\n\n$tr_est_militarism_adopt_effect$\n\n$tr_est_militarism_finish_effect$"
+tr_est_militarism_adopt_desc:0 "Augmente §Y$mod_planet_jobs_produces_mult$§! de §G+5%§! lorsque nous atteignons ou dépassons notre §YCapacité navale§!"
 
 tr_est_militarism_1:0 "Service militaire"
 tr_est_militarism_1_delayed:0 "§LTout le monde peut être enrôlé dans nos armées. Il est considéré comme le devoir d'un citoyen de servir notre force armée. Même pour ceux qui choississent d'autres professions, c'est une bonne expérience d'avoir servi dans la structure disciplinée de notre armée.§!"
@@ -1204,7 +1213,7 @@ tradition_est_might:0 "Puissance"
 tradition_est_might_desc:0 "§WCe n'est que grâce à la puissance de nos armées que notre présence dans cette galaxie soit garantie.§!"
 
 tr_est_might_adopt:0 "Traditions de puissance"
-tr_est_might_adopt_desc:0 "$tradition_est_might_desc$\n\n$tr_est_militarism_adopt_effect$\n\n$tr_est_might_finish_effect$"
+tr_est_might_adopt_desc:0 "Augmente §Y$mod_planet_jobs_produces_mult$§! de §G+5%§! lorsque nous atteignons ou dépassons notre §YCapacité navale§!"
 
 tr_est_might_1:0 "Guerriers naturels"
 tr_est_might_1_machines:0 "$tr_est_might_1$"
@@ -1394,7 +1403,7 @@ tradition_est_cooperativity:0 "Coopérativité"
 tradition_est_cooperativity_desc:0 "§WBien que chaque drone manque de cognition avancée, grâce à la coopérativité cognitive, leurs capacités intellectuelles sont grandement amplifiées. De cette manière, un grand nombre de drones peuvent compléter des tâches avancées sans contribution de l'esprit.§!"
 
 tr_est_cooperativity_adopt:0 "Traditions de Coopérativité"
-tr_est_cooperativity_adopt_desc:0 "$tradition_est_cooperativity_desc$\n\n$tr_est_cooperativity_adopt_effect$\n\n$tr_est_cooperativity_finish_effect$"
+tr_est_cooperativity_adopt_desc:0 "Augmente la §Yproduction de Ressources§! de §G+3/6/10%§! sur les planète avec aum moins §Y25/50/100§! £pop£ §YPops§!."
 
 tr_est_cooperativity_1:0 "Régiments de guerriers"
 tr_est_cooperativity_1_delayed:0 "§LLes guerriers sont regroupés en brigades et régiments, pour que les drones de guerrier ne soient pas isolés. Tant qu'ils se battent en groupes, ils peuvent utiliser la coopérativité pour améliorer leur sens tactique et améliorer les performances de combat.§!"
@@ -1425,7 +1434,7 @@ tradition_est_piracy:0 "Piraterie"
 tradition_est_piracy_desc:0 "§WLes ressources générales de la Galaxie ont été distribuées avant notre venue. Mais cela ne compte pas. Elles appartiennent à ceux qui peuvent les prendre, et nous les prendrons.§!"
 
 tr_est_piracy_adopt:0 "Traditions de Piraterie"
-tr_est_piracy_adopt_desc:0 "$tradition_est_piracy_desc$\n\n$tr_est_piracy_adopt_effect$\n\n$tr_est_piracy_finish_effect$"
+tr_est_piracy_adopt_desc:0 "Déverrouille l'objectif de guerre  §Y$war_goal_est_wg_plunder$§!. De plus, la §YCroissance de la piraterie§! est réduite de §G-25%§!."
 
 tr_est_piracy_adopt_special:0 "$tr_est_piracy_adopt$"
 
@@ -1439,14 +1448,14 @@ tr_est_piracy_2_delayed:0 "§LNous sommes des raiders qualifiés, capables d'env
 
 tr_est_piracy_3:0 "Saboteur"
 tr_est_piracy_3_desc:0 "Réduit la production de £food §Ynourriture§! et £minerals §Yminéraux§! de §R-10%§! et augmente l'§Yentretien des bâtiments§! de §Y+10%§! pour tous nos §Rrivaux§!. §Y$MOD_COUNTRY_MAX_RIVALRIES$§! augmenté de §Y1§!."
-tr_est_piracy_3_AI_desc:0 "Notre production de £energy  §Y$energy§! est augmentée de §G+10%§!."
+tr_est_piracy_3_AI_desc:0 "Notre production de £energy  §Y$energy$§! est augmentée de §G+10%§!."
 tr_est_piracy_3_delayed:0 "§LNous avons peu d'amour pour nos ennemis, nous n'avons pas à réussir si nous pouvons les faire échouer. Pour ce faire, nous utiliserons même les plus sournoises de la tactique.§!"
 
 tr_est_piracy_4:0 "Combattants impitoyables"
 tr_est_piracy_4_desc:0 "§Y$MOD_SHIP_FIRE_RATE_MULT$§! et §Y$MOD_SHIP_WEAPON_DAMAGE$§! est augmenté de §G+5%§!."
 tr_est_piracy_4_delayed:0 "§LLa miséricorde est pour les faibles, il n'a aucune place dans notre culture.§!"
 
-tr_est_piracy_4_other:0 "$tr_est_piracy_4$""
+tr_est_piracy_4_other:0 "$tr_est_piracy_4$"
 tr_est_piracy_4_other_desc:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§! augmenté de §G+5%§! et §Y$MOD_COUNTRY_MAX_RIVALRIES$§! augmenté de §G1§!."
 
 tr_est_piracy_5:0 "Droits du plus fort"
@@ -1546,7 +1555,7 @@ tradition_est_individualism:0 "Individualisme"
 tradition_est_individualism_desc:0 "§WNotre empire n'a aucune valeur en soi, seules les personnes qui constituent cela.§!"
 
 tr_est_individualism_adopt:0 "Traditions d'Individualisme"
-tr_est_individualism_adopt_desc:0 "$tradition_est_individualism_desc$\n\n$tr_est_individualism_adopt_effect$\n\n$tr_est_individualism_finish_effect$"
+tr_est_individualism_adopt_desc:0 "Lorsqu'une personnalité gagne un niveau, l'Empire gagne §Y10§! £influence  §YInfluence§!"
 
 tr_est_individualism_1:0 "Culte de l'ingéniosité"
 tr_est_individualism_1_desc:0 "§Yniveau de départ des scientifiques§! augmenté de §Y1§!. En plus, chaque fois qu'un scientifique a reconnu 300 planètes, ils acquièrent le trait  §HExpertise en recherche§!."
