@@ -354,7 +354,7 @@
     requires_tetraengineering:0 "$TRIGGER_FAIL$Requiert la technologie £physics_research£§Y$giga_tech_tetradimensional_engineering$§!."
     requires_virtual_shipyard:0 "$TRIGGER_FAIL$Requiert un district de Chantier Solaire dans le système."
     requires_found_giga_black_hole:0 "$TRIGGER_FAIL$Nécessite la découverte du §YNoyau Galactique§! parfait, un §BTrou noir Supermassif inactif§!."
-    requires_found_giga_black_hole_quasar:0 "$TRIGGER_FAIL$Nécessite la découverte du §YNoyau Galactique§! parfait, un §BQuasar Actif Supermassif§!."
+    requires_found_giga_black_hole_quasar:0 "$TRIGGER_FAIL$Nécessite la découverte du  §YNoyau Galactique§! parfait, un §BQuasar Actif Supermassif§!."
     requires_ndb:0 "$TRIGGER_FAIL$Requiert la technologie £physics_research£§Y$giga_tech_ndb_4$§!."
     requires_ndb_mega:0 "$TRIGGER_FAIL$Nous devons d'abord construire la mégastructure : $name_ndb$."
     requires_moon_2:0 "$TRIGGER_FAIL$L'amélioration du vaisseau-système stellaire nécessite la présence de 2 Lunes de combat dans le système."
@@ -486,7 +486,7 @@
     giga_menu.2.refresh.tooltip:0 "Ici, vous pouvez vérifier vos paramètres actifs."
 
     giga_menu.1.name:0 ""
-    giga_menu.1.desc:0 "v 3.18.0"
+    giga_menu.1.desc:0 "v 3.18.2"
 
     giga_menu_1:0 "Capacité en mégastructures : §H1§!"
     giga_menu_2:0 "Capacité en mégastructures : §Y2§!"
@@ -1175,7 +1175,11 @@
     giga_menu_presets_patreon_14:0 "Patreon: §MBug Béhémoth§!"	
     giga_menu_presets_patreon_15:0 "Patreon: §MExplodoboy§!"
     giga_menu_presets_patreon_16:0 "Patreon: §MQ's Multiplayer§!"
-
+    giga_menu_presets_patreon_17:0 "Patreon: §MThe Reaper§!"
+    giga_menu_presets_patreon_18:0 "Patreon: §MLilyflower§!"
+    giga_menu_presets_patreon_19:0 "Patreon: §MMan Emperor of Mankind§!"
+    giga_menu_presets_patreon_20:0 "Blokkat: §GBlokkazoi§!"
+	
     giga_menu_presets_other_01:0 "Gagnant du concours : §HThe_Strateg1st§!"
 
     #############################################################################################################################################
@@ -5525,7 +5529,7 @@
     giga_tech_repeatable_the_vat_cap: "Protocoles de gestion des cuves de clonage"
     giga_tech_repeatable_the_vat_cap_desc: "Des protocoles de construction et de maintenance avancés pour permettre la construction et la gestion de §Ycuves de clonage§! supplémentaires à l'intérieur des frontières de notre empire."
     giga_the_vat_capacity_increase_title: "Capacité en §YCuves de clonage§! : §G+1§!"
-    giga_the_vat_capacity_increase_desc: "La capacité de notre Empire en §YCuves de clonage§! est augmenté de §G+1§!"
+    giga_the_vat_capacity_increase_desc: "La capacité de notre Empire en  §YCuves de clonage§! est augmenté de §G+1§!"
 
     giga_tech_repeatable_planetshipyard_cap: "Protocoles de gestion des arsenaux planétaires"
     giga_tech_repeatable_planetshipyard_cap_desc: "Des protocoles de construction et de maintenance avancés pour permettre la construction et la gestion de §Yarsenaux planétaires§! supplémentaires à l'intérieur des frontières de notre empire."
@@ -5649,7 +5653,7 @@
 
     # Completed
     giga_dialog.11004.name:0 "$name_psychic_beacon$ Active"
-    giga_dialog.11004.desc:0 "La $name_psychic_beacon$ complète abritant désormais une puissante entité du Suaire, nommée le 'Navigateur', éclairera le chemin dans l'espace réel pour nos vaisseaux et pourra éventuellement être utilisé d'autres manières. Nos télépathes sont déjà plongés dans la puissance intense, désireux d'utiliser l'appareil à son plein potentiel.\n\nLa balise peut être activée à tout moment par §Yamélioration§! ou en utilisant un §YDécret§!. La production de §MSublimat Psionique§! peut être améliorée en §YSublimant§! des populations, avec une purge spécialisée, soit télépathes avec une §YDécision§!."
+    giga_dialog.11004.desc:0 "La $name_psychic_beacon$ complète abritant désormais une puissante entité du Suaire, nommée le 'Navigateur', éclairera le chemin dans l'espace réel pour nos vaisseaux et pourra éventuellement être utilisé d'autres manières. Nos télépathes sont déjà plongés dans la puissance intense, désireux d'utiliser l'appareil à son plein potentiel.\n\nLa balise peut être activée à tout moment par §Yamélioration§! ou en utilisant un §YDécret§!. La production de §MSublimat Psionique§! peut être améliorée en  §YSublimant§! des populations, avec une purge spécialisée, soit télépathes avec une §YDécision§!."
     giga_dialog.11004.a:0 "Mais aucun que nous ne pouvons supporter."
 
     desc_psychic_beacon:0 "$psychic_beacon_2_DESC$"
@@ -7029,7 +7033,7 @@
 
     war_moon_0:0 "Chantier de construction de la $name_war_moon$"
     war_moon_0_DESC:0 "Le chantier d'une future $name_war_moon$. Ce dépôt de préparation abrite l'équipement nécessaire pour transformer cette lune en une arme redoutable."
-    war_moon_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_megastructure$ - $giga_list_category_celestial_warship$\nConvertit un §YMonde en fusion§!, §Ystérile§! ou §Ygelé§! de §YTaille 5 à 7§! en un §YVaisseau planétaire§!\n§LUn projet d'ingénierie insensé qui convertit un petit planétoïde en une plateforme de combat intégré dans une lune, capable de dévaster même les vaisseaux les plus résistants."
+    war_moon_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_megastructure$ - $giga_list_category_celestial_warship$\nConvertit un §YMonde en fusion§!, §Ystérile§! ou §Ygelé§! de §YTaille 5 à 7§! en un  §YVaisseau planétaire§!\n§LUn projet d'ingénierie insensé qui convertit un petit planétoïde en une plateforme de combat intégré dans une lune, capable de dévaster même les vaisseaux les plus résistants."
 
     war_moon_1:0 "Systèmes de propulsion de la $name_war_moon$"
     war_moon_1_DESC:0 "Les propulseurs massifs de la $name_war_moon$, alimentés par un réacteur massif dans le coeur de la lune, sont capables de déplacer le planétoïde entier, bien que très lentement."
@@ -7122,7 +7126,7 @@
 
     war_planet_0:0 "Chantier de construction de la $name_war_planet$"
     war_planet_0_DESC:0 "Le chantier d'un futur $name_war_planet$, un vaisseau spatial littéralement insensé construit autour d'une planète entière. Beaucoup de travail nous attend."
-    war_planet_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_gigastructure$ - $giga_list_category_celestial_warship$ - $giga_list_category_ship_production$\nConvertit un §YMonde en fusion§!, §Ystériel§! ou §Ygelé§! de §YTaille 24 ou plus§! en un §YVaisseau planétaire§!\n§LLe vaisseau planétaire Béhémoth est équipé d'un armement encore plus puissant que ses frères lunaires et devrait être capable de repousser la plupart des menaces par lui-même.§!"
+    war_planet_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_gigastructure$ - $giga_list_category_celestial_warship$ - $giga_list_category_ship_production$\nConvertit un §YMonde en fusion§!, §Ystériel§! ou §Ygelé§! de §YTaille 24 ou plus§! en un  §YVaisseau planétaire§!\n§LLe vaisseau planétaire Béhémoth est équipé d'un armement encore plus puissant que ses frères lunaires et devrait être capable de repousser la plupart des menaces par lui-même.§!"
 
     war_planet_1:0 "Croûte du Vaisseau-planète"
     war_planet_1_DESC:0 "Les systèmes externes et internes du Vaisseau-système ont été installés dans la croûte terrestre. Un réacteur gigantesque gigantesque est installé dans le coeur de ce monde, capable d'alimenter les armes les plus puissantes."
@@ -8705,7 +8709,7 @@
     giga_dialog.2901.d:0 "Espace-Sud"
 
     giga_dialog.2902.title:0 "$name_interstellar_hab$ terminé !"
-    giga_dialog.2902.desc:0 "Bonne nouvelle ! Nos ingénieurs nous informent qu'un $name_interstellar_hab$ est terminé ! Il se trouve à quelques années-lumière du système §H[giga_system.GetName]§!, dans la direction choisie. Cette merveilleuse station spatiale peut accueillir des millions d'habitants et est alimentée par un énorme générateur de singularité. Maintenant, tout ce que nous avons à faire est de le coloniser.\n\nL'avant-poste devrait être construit à partir de la carte de la galaxie."
+    giga_dialog.2902.desc:0 "Bonne nouvelle ! Nos ingénieurs nous informent qu'un $name_interstellar_hab$ est terminé ! Il se trouve à quelques années-lumière du système §H[giga_system.GetName]§!, dans la direction choisie. Cette merveilleuse station spatiale peut accueillir des millions d'habitants et est alimentée par un énorme générateur de singularité."
     giga_dialog.2902.a:0 "Merveilleux."
 
     giga_dialog.2903.title:0 "Structure de l'$name_interstellar_ring$ construit"
@@ -10100,7 +10104,7 @@
     ############### Compound Dialog ###############
     ###############################################
     compound_dialog.1.name:0 "Les ténèbres libérés"
-    compound_dialog.1.desc:0 "Il y a peu de temps, nous avons découvert un amas de trous noirs. Quelques jours après l'observation initiale de l'amas de trous noirs, nos scientifiques ont remarqué que l'un des systèmes stellaires les plus éloignés de notre galaxie semblait avoir une sorte de sphère de Dyson et nous en avons conclu que ce système avait une vie.\n\nDans les jours qui ont suivi, il était devenu de la plus haute importance d'en apprendre davantage sur cet amas et la vie qu'il abritait.\n\nAujourd'hui, nous avons appris et découvert la vie en question... A nos dépend... Après une étude plus approfondie du trou noir le plus proche, nous avons découvert une grande structure englobant une grande partie du trou noir, un peu comme un... $ehof_ehof$. Et comme un $ehof_ehof$, il semble fonctionner de manière similaire, en créant des vortex vers des étoiles très éloignées.\n\nLes formes de vie qui ont été découvertes précédemment ont ouvert un vortex vers le système §Y[compound_invasion_entry.GetName]§!. Ils ont tout détruit dans tout le système en un instant, ces créatures ne sont pas venues en paix."
+    compound_dialog.1.desc:0 "Il y a peu de temps, nous avons découvert un amas de trous noirs. Quelques jours après l'observation initiale de l'amas de trous noirs, nos scientifiques ont remarqué que l'un des systèmes stellaires les plus éloignés de notre galaxie semblait avoir une sorte de sphère de Dyson et nous en avons conclu que ce système avait une vie.\n\nDans les jours qui ont suivi, il était devenu de la plus haute importance d'en apprendre davantage sur cet amas et la vie qu'il abritait.\n\nAujourd'hui, nous avons appris et découvert la vie en question... A nos dépend... Après une étude plus approfondie du trou noir le plus proche, nous avons découvert une grande structure englobant une grande partie du trou noir, un peu comme un... $ehof_ehof$. Et comme un $ehof_ehof$, il semble fonctionner de manière similaire, en créant des vortex vers des étoiles très éloignées.\n\nLes formes de vie qui ont été découvertes précédemment ont ouvert un vortex vers le système  §Y[compound_invasion_entry.GetName]§!. Ils ont tout détruit dans tout le système en un instant, ces créatures ne sont pas venues en paix."
     compound_dialog.1.a:0 "§RMettez toutes les flottes en alerte !§!"
 
     compound_dialog.3.desc_01:0 "§HCommunication établie§!\nLa transmutation de cette galaxie est en cours. La première d'une longue série.\n\nQue voulez-vous, des entités de matière baryonique ?"
@@ -10617,7 +10621,7 @@
 	giga_katzen.3000.name:0 "L'Organisation du Traité des Flusioniens"
 	giga_katzen.3000.desc:0 "§YKaiser Kattail§! nous a envoyé une transmission diplomatique, concernant la formation d'une alliance entre nous. Cette alliance, qu'il qualifie de §YL'Organisation du Traité des Flusioniens§!, a les termes suivants :\n\n*Nous ne pouvons pas nous déclarer la guerre les uns aux autres.\n*Nous devrons rejoindre tous les conflits dans lesquels les Félidés s'engageront.\n*Nous pourrons appeler les Félidés à notre aide chaque fois que cela sera nécessaire.\n*Nous bénéficierons d'un degré plus élevé de coopération militaire, scientifique et économique.\n*Le Kaiser ne demandera plus de terres à nous.\n*En échange d'une protection militaire, nous prêterons 5% de notre capacité navale aux Félidés.\n\nNous sommes libres de refuser ces conditions, mais le faire serait §Rdiminuer§! l'opinion du §YKaiser§! à notre égard. Le Kaiser pourrait révoquer l'alliance si son opinion à notre égard tombe en dessous de §B3 | Amical§!.\n\nAccepterons-nous ?"
 	giga_katzen.3000.a:0 "Ensemble, nous ne serons jamais vaincus !"
-	giga_katzen.3000.a.tooltip:0 "Nous nous allierons à l'§YImpérium Félidéen§!, et rejoindrons l'§YOrganisation du Traité des Flusioniens§!.\nNous serons immédiatement appelés dans toutes les guerres Félidés.\nNous pourrons les appeler dans nos guerres grâce à leur écran de diplomatie."
+	giga_katzen.3000.a.tooltip:0 "Nous nous allierons à l'§YImpérium Félidéen§!, et rejoindrons l'§YOrganisation du Traité des Flusioniens§!.\nNous serons immédiatement appelés dans toutes les guerres Félidés.\nNous pourrons les appeler dans nos guerres grâce à leur écran de diplomatie.\n§RA Noter : nous ne pourrons pas renouveller cette alliance si le Kaiser, ou nous-même, décidons d'y mettre un terme !§!"
 	giga_katzen.3000.b:0 "Après réflexion, oubliez-ça."
 	giga_katzen.3000.b.tooltip:0 "Nous ne nous allierons pas à l'§YImpérium Félidéen§!.\nL'opinion du §YKaiser§! à notre égard va §Rdiminuer§!."
 
@@ -12045,7 +12049,7 @@
 
     ###SEF###
     giga_hke.002.name:0 "Le Saint Empire Félidéen"
-    giga_hke.002.desc:0 "On pourrait supposer qu'à la suite de la disparition du §YKaiser§! Lors de l'effondrement de l'§YImpérium félidéen§!, On se souviendrait de lui comme d'un lâche ou d'un traître, qui a abandonné son propre peuple quand il en avait le plus besoin. Mais, étonnamment, il semble que c'est tout le contraire qui a fini par se produire.\n\nEn effet, peut-être parce que le Kaiser a développé un énorme culte de la personnalité, une sorte de 'Culte du Kaiser' a commencé à se développer au sein de la myriade des §YEtats séparatistes des Félidés§!. La population et les dirigeants de ces nations ont commencé à le 'vénérer' de manière ostensible, certains prétendant qu'il 'reviendrait et réparerait les torts qui ont été commis sur l'espèce Félidéen'.\n\nPeut-être encore plus surprenant est-il que ces États dissidents se sont rassemblés en une fédération gigantesque mais vaguement liée, le §YSaint Empire Félidéen§!. Ce 'SEF' vise apparemment à terminer le travail commencé par le Kaiser, et à assurer la continuité de la puissance félidés dans la galaxie.\n\nActuellement dirigé par §Y[giga_hke_leader.GetName]§!, la 'Nation Kaiser du SEF' ', cette confédération supranationale est susceptible de briser tout espoir de paix durable que la galaxie aurait pu avoir après la défaite du Kaiser..."
+    giga_hke.002.desc:0 "On pourrait supposer qu'à la suite de la disparition du §YKaiser§! Lors de l'effondrement de l'§YImpérium félidéen§!, On se souviendrait de lui comme d'un lâche ou d'un traître, qui a abandonné son propre peuple quand il en avait le plus besoin. Mais, étonnamment, il semble que c'est tout le contraire qui a fini par se produire.\n\nEn effet, peut-être parce que le Kaiser a développé un énorme culte de la personnalité, une sorte de 'Culte du Kaiser' a commencé à se développer au sein de la myriade des §YEtats séparatistes des Félidés§!. La population et les dirigeants de ces nations ont commencé à le 'vénérer' de manière ostensible, certains prétendant qu'il 'reviendrait et réparerait les torts qui ont été commis sur l'espèce Félidéen'.\n\nPeut-être encore plus surprenant est-il que ces États dissidents se sont rassemblés en une fédération gigantesque mais vaguement liée, le §YSaint Empire Félidéen§!. Ce 'SEF' vise apparemment à terminer le travail commencé par le Kaiser, et à assurer la continuité de la puissance félidés dans la galaxie.\n\nActuellement dirigé par  §Y[giga_hke_leader.GetName]§!, la 'Nation Kaiser du SEF' ', cette confédération supranationale est susceptible de briser tout espoir de paix durable que la galaxie aurait pu avoir après la défaite du Kaiser..."
     giga_hke.002.a:0 "Intéressant. Ils sont de retour pour plus, semble-t-il."
     giga_hke.002.a.tooltip:0 "Le §YSaint Empire Félidéen§! s'est formé, composé de la plupart des §YEtats Séparatistes Félidés§!.\nNous pouvons les contacter dans la §YListe de Contacts§!, bien qu'ils nous soient relativement §Rhostiles§!, car nous sommes ceux qui ont vaincu le §YKaiser§!."
 
@@ -12152,7 +12156,7 @@
     aeternum_balance:0 "Balance d'Aeternite"
     aeternum_balance_desc:0 "Les hexagones sont-ils le Bestagon?"
 
-	giga_galactic_core_aeternum_2:0 "£menu_aet_2£Aeternum\n(§BAeternum Azur§!)\nL'Aeternum sera §Hbeaucoup plus puissant§!, recevant les buffs suivants :\n§Y+100% Dégâts des armes\n+100% Cadence de tir\n+100% PV des boucliers\n+100% PV du blindage\n+100% PV de la coque\n+20% Vitesse des vaisseaux\n+100% Dégâts des armées\n+100% Santé des armées\n+100% Moral des armées\n+20% Evasion\n+50% Vitesse de constr. des mégastructures§!\n\n§BLeurs flottes auront à peu près 50% plus de vaisseaux lourds \nElles se réveilleront plus vite \nLe retard de leur réveil sera moins efficace \nLes Psykofabricateurs seront construits beaucoup plus fréquemment et plafonneront à 20 au lieu de 10§!\n\nIls commenceront par à peu près §Y100 millions§!de puissance de flotte.\n\n§HA UTILISER AVEC DES MODS PUISSANTS\n\n$aeternum_spawn_mechanics$"
+	giga_galactic_core_aeternum_2:0 "£menu_aet_2£Aeternum\n(§BAeternum Azur§!)\nL'Aeternum sera §Hbeaucoup plus puissant§!, recevant les buffs suivants :\n§Y+100% Dégâts des armes\n+100% Cadence de tir\n+100% PV des boucliers\n+100% PV du blindage\n+100% PV de la coque\n+20% Vitesse des vaisseaux\n+100% Dégâts des armées\n+100% Santé des armées\n+100% Moral des armées\n+20% Evasion\n+50% Vitesse de constr. des mégastructures§!\n\n§BLeurs flottes auront à peu près 50% plus de vaisseaux lourds \nElles se réveilleront plus vite \nLe retard de leur réveil sera moins efficace \nLes Psykofabricateurs seront construits beaucoup plus fréquemment et plafonneront à 20 au lieu de 10§!\n\nIls commenceront par à peu près  §Y100 millions§!de puissance de flotte.\n\n§HA UTILISER AVEC DES MODS PUISSANTS\n\n$aeternum_spawn_mechanics$"
 
 	giga_galactic_core_aeternum_3:0 "£menu_aet_3£Aeternum\n(§RAeternum Oméga§!)\nL'Aeternum sera §Rimmensément puissant§!, recevant les buffs suivants :\n§Y+500% Dégâts des armes\n+500% Cadence de tir\n+500% PV des boucliers\n+500% PV du blindage\n+500% PV de la coque\n+80% Vitesse des vaisseaux\n+500% Dégâts des armées\n+500% Santé des armées\n+500% Moral des armées\n+100% Evasion\n+200% Vitesse de constr. des mégastructures§!\n\n§BLeurs flottes auront à peu près deux fois plus de vaisseaux lourds \nElles se réveilleront beaucoup plus vite \nLe retard de leur réveil sera beaucoup moins efficace \nLes Psykofabricateurs seront construits beaucoup plus fréquemment et plafonneront à 30 au lieu de 10§!\n\nIls commenceront par à peu près §Y3 milliards§! de puissance de la flotte (en supposant qu'un mod comme §YDefines ACOT§! soit utilisé, car les calculs de FP déborderont dans la version de base)\n\n§RÀ UTILISER AVEC DES MODS EXTRÊMEMENT PUISSANTS§!\n\n$aeternum_spawn_mechanics$"
 
@@ -12179,7 +12183,7 @@
     giga_achievement_aet2_tooltip:0      "$giga_achievement_aet2$\n$giga_achievement_aet2_requirement$"
 
     giga_achievement_aet3:0              "§RFin de l'éternité§!"
-    giga_achievement_aet3_requirement:0  "Vaincre l'§YAeternum§! en envahissant §YAiondia§! avec le niveau de difficulté §RAeternum Oméga§!"
+    giga_achievement_aet3_requirement:0  "Vaincre l'§YAeternum§! en envahissant §YAiondia§! avec le niveau de difficulté §RAeternum Oméga§! ou §YLux Aeternum§!"
     giga_achievement_aet3_tooltip:0      "$giga_achievement_aet3$\n$giga_achievement_aet3_requirement$"
 
     giga_achievement_aet4:0              "§MPas le Bestagon§!"
@@ -13218,7 +13222,7 @@
     origin_katzen_civil_war_desc:0 "Cette nation est apparue après l'effondrement de l'Impérium centralisé Félidéen. Ils prétendent être le successeur légitime de l'État de Félidés et souhaitent réunir les anciennes terres de Félidés sous leur règne."
 
     giga_katcivilwar.1001.name:0 "Guerre civile des Félidés"
-    giga_katcivilwar.1001.desc:0 "Après la chute de §YFlusion§!, ce qui restait de l'§YImpérium Félidéen§! s'est effondré et morcelé en quatre nations principales, et une myriade de clans mineurs, avec chaque communauté majeures menées par des figures importantes issues de l'impérium.\n\nCes états, §Y[katzen_civil_war_realm.GetName]§!, §Y[katzen_civil_war_republic.GetName]§!, §Y[katzen_civil_war_socialist.GetName]§! et §Y[katzen_civil_war_junta.GetName]§!, prétendent tous être le successeur légitime de l'Impérium Félidéen, et les tensions qui existaient déjà entre les quatre nations depuis quelques mois semblait s'équilibrer.\n\ncependant, il semble que ces tensions ont atteint un point critique que §YMiaoukhail Katlinin§!, leader du §Y[katzen_civil_war_socialist.GetName]§! vient de lancer une offensive totale sur les trois autres prétendeurs Félidés ! Cet acte d'agression soudain a ensuite incité les autres États à déclarer également la guerre les uns contre les autres, suscitant ce qui est maintenant connu sous le nom de §YGuerre civile des Félidés§!.\n\nSans le §Ykaiser§! pour lier les espèces de Félidés sous une cause commune, le puissant Impérium Félidéen, qui se tenait comme l'un des empires les plus unis et les plus stables de la galaxie, s'est finalement effondré dans une guerre civile total. Une guerre civile totale entre des petits seigneurs de guerre qui cherchent à l'unifier à nouveau.."
+    giga_katcivilwar.1001.desc:0 "Après la chute de §YFlusion§!, ce qui restait de l'§YImpérium Félidéen§! s'est effondré et morcelé en quatre nations principales, et une myriade de clans mineurs, avec chaque communauté majeures menées par des figures importantes issues de l'impérium.\n\nCes états,  §Y[katzen_civil_war_realm.GetName]§!, §Y[katzen_civil_war_republic.GetName]§!, §Y[katzen_civil_war_socialist.GetName]§! et §Y[katzen_civil_war_junta.GetName]§!, prétendent tous être le successeur légitime de l'Impérium Félidéen, et les tensions qui existaient déjà entre les quatre nations depuis quelques mois semblait s'équilibrer.\n\ncependant, il semble que ces tensions ont atteint un point critique que §YMiaoukhail Katlinin§!, leader du §Y[katzen_civil_war_socialist.GetName]§! vient de lancer une offensive totale sur les trois autres prétendeurs Félidés ! Cet acte d'agression soudain a ensuite incité les autres États à déclarer également la guerre les uns contre les autres, suscitant ce qui est maintenant connu sous le nom de §YGuerre civile des Félidés§!.\n\nSans le §Ykaiser§! pour lier les espèces de Félidés sous une cause commune, le puissant Impérium Félidéen, qui se tenait comme l'un des empires les plus unis et les plus stables de la galaxie, s'est finalement effondré dans une guerre civile total. Une guerre civile totale entre des petits seigneurs de guerre qui cherchent à l'unifier à nouveau.."
     giga_katcivilwar.1001.a:0 "Ce n'est tout simplement pas la même chose sans le kaiser, n'est-ce pas ?"
 
     giga_katcivilwar.1012.name:0 "Miaoukhail Katlinin réunifit l'Impérium Félidéen !"
@@ -13226,7 +13230,7 @@
     giga_katcivilwar.1012.a:0 "Un État socialiste Félidéen ? Intrigant..."
 
     giga_katcivilwar.1013.name:0 "Chancellier Kibbles réunifit l'Impérium Félidéen !"
-    giga_katcivilwar.1013.desc:0 "Avec la destruction de tous les autres belligérants de la guerre civile de Félidés, §YChancelier Kibbles§! et sa §YHaute-République félidéenne§! est maintenant comme le vainqueur incontesté du conflit civil félidéen.\n\nLe régime démocratique et libéral de Kibbles a triomphé sur ses adversaires et a ensuite proclamé la reformation de l'Impérium Félidéen dans le §Y[katzen_civil_war_republic.GetName]§!.\n\nAvec des politiques beaucoup plus pacifiques et amicaux par rapport à l'ancien impérium, et contrairement à l'ancienne §YRépublique solakienne§! sur §YFlusion§!, la République de Kibbles est susceptible de rechercher une coopération supplémentaire avec le reste de la galaxie et il semble que la menace d'un 'deuxième Empire de Félidés' ne soit pas à craindre, pour l'instant dumoins."
+    giga_katcivilwar.1013.desc:0 "Avec la destruction de tous les autres belligérants de la guerre civile de Félidés, §YChancelier Kibbles§! et sa §YHaute-République félidéenne§! est maintenant comme le vainqueur incontesté du conflit civil félidéen.\n\nLe régime démocratique et libéral de Kibbles a triomphé sur ses adversaires et a ensuite proclamé la reformation de l'Impérium Félidéen dans le  §Y[katzen_civil_war_republic.GetName]§!.\n\nAvec des politiques beaucoup plus pacifiques et amicaux par rapport à l'ancien impérium, et contrairement à l'ancienne §YRépublique solakienne§! sur §YFlusion§!, la République de Kibbles est susceptible de rechercher une coopération supplémentaire avec le reste de la galaxie et il semble que la menace d'un 'deuxième Empire de Félidés' ne soit pas à craindre, pour l'instant dumoins."
     giga_katcivilwar.1013.a:0 "Il semble plus agréable que le Kaiser, c'est sûr."
 
     giga_katcivilwar.1014.name:0 "Marshall Elwin réunifit l'Impérium Félidéen !"
@@ -14750,13 +14754,13 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     giga_blokkat.3220.d.tooltip:0 "§Y[blokkat_prison_breacher.GetName]§! will §Hturn hostile§! due to their §LIndifferent§! behavior, §Ror worse...§!"
 
     giga_blokkat.3221.name:0 "§Y[blokkat_prison_breacher.GetName]§! has escaped!"
-    giga_blokkat.3221.desc:0 "Notre §YNexus de détention de Blokchats§! in §Y[blokkat_prison_with_breach.solar_system.GetName]§! has failed to recontain §Y[blokkat_prison_breacher.GetName]§!.\n\nFortunately for us, due to the Blokchat's behavior, §Y[blokkat_prison_breacher.GetName]§! simply opted to fly away into interstellar space without inflicting further damage on our facility.\n\nThe Nexus is now once again empty et ready to welcome a new Blokchat should we capture another one."
+    giga_blokkat.3221.desc:0 "Notre §YNexus de détention de Blokchats§! in §Y[blokkat_prison_with_breach.solar_system.GetName]§! has failed to recontain  §Y[blokkat_prison_breacher.GetName]§!.\n\nFortunately for us, due to the Blokchat's behavior, §Y[blokkat_prison_breacher.GetName]§! simply opted to fly away into interstellar space without inflicting further damage on our facility.\n\nThe Nexus is now once again empty et ready to welcome a new Blokchat should we capture another one."
     giga_blokkat.3221.a:0 "Unfortunate, but such are the risks associated with containing such dangerous entities..."
     giga_blokkat.3221.a.tooltip:0 "§Y[blokkat_prison_breacher.GetName]§! has §Ydisappeared into interstellar space§!.\n\nThe §YNexus de détention de Blokchats§! in §Y[blokkat_prison_with_breach.solar_system.GetName]§! is once again empty.\n\nWe gain §Y0.25§! §RInquiétude Blokkat§!."
 
 
     giga_blokkat.3225.name:0 "§Y[blokkat_prison_breacher.GetName]§! has breached containment!"
-    giga_blokkat.3225.desc:0 "Notre §YNexus de détention de Blokchats§! in §Y[blokkat_prison_with_breach.solar_system.GetName]§! has failed to recontain §Y[blokkat_prison_breacher.GetName]§!.\n\nThe Blokchat has now §Rturned hostile§! et is now opening fire on our vessels. Fortunately, the Nexus estimates that if our fleets manage to overpower it, we should be able to prevent its escape et subsequently recontain it.\n\nThey however warn that we only have §Y2 mois§! before the Blokchat reconnects itself to the greater §YBlokkwork§! et permanently slips from our grasp."
+    giga_blokkat.3225.desc:0 "Notre §YNexus de détention de Blokchats§! in §Y[blokkat_prison_with_breach.solar_system.GetName]§! has failed to recontain  §Y[blokkat_prison_breacher.GetName]§!.\n\nThe Blokchat has now §Rturned hostile§! et is now opening fire on our vessels. Fortunately, the Nexus estimates that if our fleets manage to overpower it, we should be able to prevent its escape et subsequently recontain it.\n\nThey however warn that we only have §Y2 mois§! before the Blokchat reconnects itself to the greater §YBlokkwork§! et permanently slips from our grasp."
     giga_blokkat.3225.a:0 "Stop that Blokchat at once!"
     giga_blokkat.3225.a.tooltip:0 "We have §Y2 mois§! to §Rneutralize§! §Y[blokkat_prison_breacher.GetName]§! before they §Ydisappear into interstellar space§!."
 
@@ -15612,7 +15616,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     giga_blokkat.5002.a.response:0 "Le sheer mental gymnastics your species must have gone through to call this a "plan" baffles even us, §Y[ROOT.GetSpeciesNamePlural]§!."
 
     giga_blokkat.6000.name:0 "Blokchat Harvesting Operations Ending"
-    giga_blokkat.6000.desc:0 "Le §YBlokchats§! have now harvested nearly every single system from our galaxy, with only very few remaining untouched.\n\nAccording to worrying observations made by the §YBlokchat Research Bureau§!, the fact very little matter remains means the §YBlokchat-récolteur§! should now be able to simultaneously harvest whatever remains of our galaxy in one go without triggering a catastrophic collapse of spacetime.\n\nSubsequently, they have confirmed that with the §YBlokchat-récolteur§!'s energy reserves full thanks to their harvest, the Blokchat mothership is now "Charging up" for this final harvest, which will §Rcompletely et utterly destroy every single remaining system in the galaxy, regardless of their location or contents.§!\n\nObservational evidence indicates we only have §Y2 années§! before the §YBlokchat-récolteur§! is done charging up et destroys whatever might remain of our unfortunate galaxy."
+    giga_blokkat.6000.desc:0 "Le §YBlokchats§! have now harvested nearly every single system from our galaxy, with only very few remaining untouched.\n\nAccording to worrying observations made by the §YBlokchat Research Bureau§!, the fact very little matter remains means the  §YBlokchat-récolteur§! should now be able to simultaneously harvest whatever remains of our galaxy in one go without triggering a catastrophic collapse of spacetime.\n\nSubsequently, they have confirmed that with the §YBlokchat-récolteur§!'s energy reserves full thanks to their harvest, the Blokchat mothership is now "Charging up" for this final harvest, which will §Rcompletely et utterly destroy every single remaining system in the galaxy, regardless of their location or contents.§!\n\nObservational evidence indicates we only have §Y2 années§! before the §YBlokchat-récolteur§! is done charging up et destroys whatever might remain of our unfortunate galaxy."
     giga_blokkat.6000.a:0 "We must hurry!"
     giga_blokkat.6000.a.tooltip:0 "If we do not destroy the §YBlokchat-récolteur§! within §Y2 années§!, §Rus et what remains of the galaxy will be destroyed§!."
 
@@ -17333,6 +17337,13 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     giga_list_removes_system_planets:0 "§RREMOVES SYSTEM PLANETS§!"
 
     giga_list_additional_data:0 "§HADDITIONAL DATA§!"
+
+	giga_galactic_core_aeternum_4:0 "£menu_aet_4£Aeternum\n(§RLux Aeternum§!)\nL'Aeternum sera §Rimmensément puissant§!, et sera doté des armes Oméga du mod ACTO, en plus de recevoir les buffs suivants :\n§Y+500% Dégâts des armes\n+500% Cadence de tir\n+500% PV des boucliers\n+500% PV du blindage\n+500% PV de la coque\n+80% Vitesse des vaisseaux\n+500% Dégâts des armées\n+500% Santé des armées\n+500% Moral des armées\n+100% Evasion\n+200% Vitesse de constr. des mégastructures§!\n\n§BLeurs flottes auront à peu près deux fois plus de vaisseaux lourds \nElles se réveilleront beaucoup plus vite \nLe retard de leur réveil sera beaucoup moins efficace \nLes Psykofabricateurs seront construits beaucoup plus fréquemment et plafonneront à 30 au lieu de 10§!\n\nIls commenceront par à peu près §Y3 milliards§! de puissance de la flotte (en supposant qu'un mod comme §YDefines ACOT§! soit utilisé, car les calculs de FP déborderont dans la version de base)\n\n§RÀ UTILISER AVEC DES MODS EXTRÊMEMENT PUISSANTS§!\n\n$aeternum_spawn_mechanics$"
+
+    aeternum_birch_world_acot:0 "Monde de Birch des Précurseurs"
+    aeternum_birch_world_acot_desc:0 "Ce monde de bouleaux est extrêmement ancien, et a été construit il y a au moins un million d'années par une civilisation précurseur. Il est construit avec des technologies fantastiquement avancées et offre des conditions de vie surréalistes à ses habitants."
+
+    giga_chk_aeternum_4:0 "£menu_aet_4£§GAeternum (§YLux Aeternum§!)§!"
 
 #################################
 # Debug #########################

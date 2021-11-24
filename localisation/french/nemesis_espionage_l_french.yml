@@ -158,7 +158,7 @@
  operation_weaken_galactic_empire_desc:0 "Nos agents vont infiltrer le coeur de la société impériale pour affaiblir l'emprise de l'Empire sur la galaxie."
  operation_weaken_galactic_empire_on_success:0 "$IF_SUCCESSFUL|E$\nL'autorité impériale va être réduite."
  operation_spark_rebellion:1 "Inciter à la rébellion dans l'Empire"
- operation_spark_rebellion_desc:1 "L'Empire galactique est mûr pour que s'y déclenche une véritable révolte. Nos agents profiteront de l'occasion et faire tout ce qui est en leur pouvoir pour déclencher une rébellion dans l'ensemble de la galaxie contre la tyrannie impériale.\n\n§RCette opération sera annulée si l'autorité impériale dépasse §Y80§! lorsqu'une étape se conclura.§!"
+ operation_spark_rebellion_desc:1 "L'Empire galactique est mûr pour que s'y déclenche une véritable révolte. Nos agents vont profiter de l'occasion et faire tout ce qui est en leur pouvoir pour déclencher une rébellion dans l'ensemble de la galaxie contre la tyrannie impériale.\n\n§RCette opération sera annulée si l'autorité impériale dépasse §Y80§! lorsqu'une étape se conclura.§!"
  operation_spark_rebellion_on_success:0 "$IF_SUCCESSFUL|E$\nVa faire naître la rébellion et déclencher la guerre contre l'Empire galactique."
 
  MOD_ESPIONAGE_OPERATION_DIFFICULTY_ADD:0 "Difficulté de l'opération"
@@ -288,6 +288,7 @@
  edict_tracking_implants_desc:0 "Des implants hypodermiques obligatoires permettent d'enregistrer les déplacements et les agissements de la population, améliorant grandement la sécurité intérieure au sein de l'empire. Quiconque est loyal envers le gouvernement n'a rien à lui cacher."
  edict_thought_enforcement:0 "$tech_thought_enforcement$"
  edict_thought_enforcement_desc:0 "Les télépathes chargés du contrôle de la population pour y déceler les pensées incorrectes pourront procéder à des corrections lorsque cela sera nécessaire."
+ edict_thought_enforcement_effect:0 "$MOD_INTEL_ENCRYPTION_ADD$ : §G+1§!\n£happiness£Bonheur : §R-10%§!\n$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$ : §G+25%§!\nEmplois de £job_telepath£télépathes : §G-5§! en £crime£crime"
 
  edict_synaptic_reinforcement:0 "Renforcement synaptique"
  edict_synaptic_reinforcement_desc:0 "Renforce la fonction centrale des noeuds synaptiques pour les colonies, améliorant leur capacité à veiller sur l'ensemble des drones se trouvant à proximité."
@@ -338,7 +339,7 @@
  asset_labor_drone:0 "Drone de travail"
  asset_labor_drone_desc:0 "Les altérations apportées à ce drone de travail permettront aux agents de lui donner des commandes simples."
  asset_research_drone:0 "Drone de recherche"
- asset_research_drone_desc:0 "Des mutations mineures ont permis à la connexion de ce drone de recherche avec la conscience d'être moins sûre qu'elle ne l'a été."
+ asset_research_drone_desc:0 "Des mutations mineures ont permis à la connexion de ce drone de recherche avec la Conscience d'être moins sûre qu'elle ne l'a été."
  asset_warrior_drone:0 "Drone de combat"
  asset_warrior_drone_desc:0 "Nos agents sont parvenus à trouver le moyen de donner à ce drone de combat des ordres utiles à notre oeuvre."
  asset_behavioral_regulator:0 "Régulateur comportemental"
@@ -355,7 +356,7 @@
  asset_coordination_system:0 "Système de coordination"
  asset_coordination_system_desc:0 "Ce système agit comme un tampon entre le noeud primaire du monde et les drones coordinateurs de la région."
  asset_engagement_protocol:0 "Protocole d'engagement"
- asset_engagement_protocol_desc:0 "C'est pour l'essentiel ce système qui gère la communication avec les autres intelligences."
+ asset_engagement_protocol_desc:0 "C'est ce système qui gère l'essentiel des communications avec les autres intelligences."
  asset_logistics_system:0 "Système logistique"
  asset_logistics_system_desc:0 "Ce système logistique assure la gestion des ressources locales."
  asset_research_database:0 "Base de données technique"
@@ -552,6 +553,7 @@
  envoy_events.220.desc.mol:0 "$envoy_events.220.desc.start$ qui polluent tout de leur bave infâme.»\n\n$envoy_events.220.desc.end$"
  envoy_events.220.desc.lit:0 "$envoy_events.220.desc.start$, à l'intellect aussi vif que celui d'un galet.»\n\n$envoy_events.220.desc.end$"
  envoy_events.220.desc.nec:0 "$envoy_events.220.desc.start$, qui ont la même odeur que des vomissures d'un mois.»\n\n$envoy_events.220.desc.end$"
+ envoy_events.220.desc.aqu:0 "$envoy_events.220.desc.start$ qui sentent la marée et les algues ».\n\n$envoy_events.220.desc.end$"
  envoy_events.220.desc.robot:0 "$envoy_events.220.desc.start$ dont la puissance de calcul vaut celle d'une pelle à bêcher.»\n\n$envoy_events.220.desc.end$"
 
  ESPIONAGE_INTEL_GAINED_TITLE:0 "Renseignements fournis par les agents doubles"

@@ -1,7 +1,7 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.1.1. Check OK, 16/09/2021
+# Calvitix 3.2 Check OK, 22/11/2021
 #
 
  FIRST_CONTACT:0 "Premier contact avec les $NAME|Y$"
@@ -251,6 +251,7 @@
  action.1.desc_hostile_to_homicidal_04:0 "Vous avez raison de nous attaquer, [Root.GetSpeciesNamePlural]. Mais cela ne vous sauvera pas. Vous resterez toujours nos proies."
  action.1.desc_hostile_to_homicidal_05:0 "Votre hostilité est regrettable. En tant que [Root.GetSpeciesNamePlural] nous envisagions de vous épargner, mais vous avez tout l'air de devoir subir une rééducation préliminaire. Au moins."
 
+ first_contact_start_title:0 "[This.GetFirstContactStart]"
  first_contact.1.name:0 "Premier contact dans le système de [This.System.GetName]"
  first_contact.1.desc.base:1 "Nous venons d'entrer en contact avec de mystérieux aliens dans le système de §Y[This.System.GetName]§!."
  first_contact.1.desc.default:0 "$first_contact.1.desc.base$ S'ils possèdent le moindre langage, nous devons le déchiffrer pour établir la communication avec eux. Jusqu'à ce que nous en sachions davantage sur eux, ils ont été surnommés §H[This.ContactCountry.GetName]§!."
@@ -1047,10 +1048,14 @@
  TRIGGER_CAN_HAVE_FIRST_CONTACT_WITH:0 "Peut avoir un site de premier contact avec '$TARGET$'"
  PLANET_IS_NOT_ARTIFICIAL:0 "N'est PAS artificiel"
  PLANET_IS_ARTIFICIAL:0 "Est artificiel"
+ PLANET_IS_IDEAL:0 "Est idéale"
+ PLANET_IS_NOT_IDEAL:0 "N'est PAS idéale"
  TRIGGER_IS_NOT_CIVILIAN:0 "N'est PAS civil"
  TRIGGER_IS_CIVILIAN:0 "Est civil"
  TRIGGER_IS_NOT_MOBILE:0 "N'est PAS mobile"
  TRIGGER_IS_MOBILE:0 "Est mobile"
+ TRIGGER_IS_FEDERATION_FLEET:0 "Est une flotte fédérale"
+ TRIGGER_IS_NOT_FEDERATION_FLEET:0 "N'est PAS une flotte fédérale"
  SET_POLICY_COOLDOWN:0 "Les politiques de $POLICY_GROUP|Y$ sont bloquées pour $YEARS|Y$ ans."
  SET_MIA_EFFECT:0 "'$FLEET|Y$' va être porté disparu et rentrer."
  SET_STAR_CLASS_EFFECT:0 "La classe stellaire passe à $STAR_CLASS$."

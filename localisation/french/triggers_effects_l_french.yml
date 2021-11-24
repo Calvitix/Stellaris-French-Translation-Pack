@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.1.1 : 16.09.2021
- # Translation check : 16.09.2021
+ # Update check for 3.2 : 22.11.2021
+ # Translation check : 22.11.2021
  ####################################
 
  ####################################
@@ -120,6 +120,8 @@
  IS_SAME_EMPIRE:0 "Est §Y$OTHER$§!"
  IS_NOT_SAME_EMPIRE:0 "N'est PAS §Y$OTHER$§!"
  IS_PLANET_CLASS:0 "Est §Y$CLASS$§!"
+ IS_PLANET_CLASS_DLC:0 "A choisi un lancement sur un §Y$CLASS$§!"
+ IS_PLANET_CLASS_DLC_NOT:0 "N'a PAS choisi un lancement sur un §Y$CLASS$§!"
  IS_NOT_PLANET_CLASS:0 "N'est PAS §Y$CLASS$§!"
  HAS_DESIGNATION:0 "A la désignation §Y$DESIGNATION$§!"
  HAS_NOT_DESIGNATION:0 "N'a PAS la désignation §Y$DESIGNATION$§!"
@@ -938,6 +940,9 @@
  HAS_FORMER_PURGE_TYPE:0 "L'ancienne forme de purge était $SPECIES_RIGHT|Y$"
  HAS_NOT_FORMER_PURGE_TYPE:0 "L'ancienne forme de purge n'était PAS $SPECIES_RIGHT|Y$"
 
+ CAN_LIVE_ON_PLANET:0 "Peut vivre sur $PLANET|Y$"
+ CAN_NOT_LIVE_ON_PLANET:0 "Ne peut pas vivre sur $PLANET|Y$"
+
  TRIGGER_HAS_INVALID_CIVIC:2 "A la Doctrine $CIVIC|Y$ inactive."
  TRIGGER_HAS_NOT_INVALID_CIVIC:1 "N'a PAS la Doctrine $CIVIC|Y$ inactive."
  TRIGGER_HAS_VALID_CIVIC:3 "A la Doctrine $CIVIC|Y$."
@@ -1140,7 +1145,7 @@
  REMOVE_DISTRICT_EFFECT:0 "Détruit le district"
  REMOVE_ALL_DISTRICTS_EFFECT:1 "Détruit tous les districts"
  REMOVE_SPECIFIC_DISTRICT_EFFECT:0 "Détruit le $DISTRICT|Y$"
- CHANGE_PLANET_SIZE:0 "Changer la taille de $VALUE|Y$"
+ CHANGE_PLANET_SIZE:1 "Taille de $PLANET|Y$ : $VALUE|Y$"
  SET_PLANET_SIZE:0 "Fixe la taille à $VALUE|Y$"
  SET_BLOCKER_EFFECT:0 "Définir un bloqueur : $BLOCKER|Y$"
  SET_BLOCKER_RANDOM_EFFECT:0 "Définir un bloqueur aléatoire"
@@ -1173,7 +1178,7 @@
  RANDOM_RIM_SYSTEM_EFFECT:0 "Système aléatoire de la ceinture galactique"
  SET_PLANET_MAX_HEALTH_EFFECT:0 "Définir la santé maximale sur $VALUE|Y$"
  SET_PLANET_HEALTH_EFFECT:0 "Définir la santé actuelle sur $VALUE|Y$"
- ADD_TRAIT:0 "$LEADER$ gagne le trait $TRAIT|Y$\n"
+ ADD_TRAIT:1 "§H$LEADER$§! reçoit le trait §H$TRAIT$§! :\n$EFFECTS$\n"
  REMOVE_TRAIT:0 "Caractéristique $TRAIT$ supprimée de $LEADER$\n"
  CHANGE_COUNTRY_TYPE_EFFECT:0 "Cet empire deviendra un $TYPE|Y$"
  ADD_MISSION_PROGRESS:0 "Ajouter le progrès de la mission : $NUM|Y$"
@@ -1189,6 +1194,8 @@
  NUM_ASSOCIATES_NOT:0 "Nombre d'associés de la $FEDERATION|Y$ PAS $COMPARATOR$ $VALUE|Y$"
  LEADER_GENDER_TRIGGER:0 "$LEADER|Y$ est $GENDER|Y$"
  LEADER_NOT_GENDER_TRIGGER:0 "$LEADER|Y$ n'est PAS $GENDER|Y$"
+ SPECIES_GENDER_TRIGGER:0 "L'espèce a le genre $GENDER|Y$"
+ SPECIES_NOT_GENDER_TRIGGER:0 "L'espèce n'a PAS le genre $GENDER|Y$"
  POP_NOT_MEMBER_OF_ANY_FACTION_TRIGGER:0 "$POP|Y$ n'est PAS dans une faction de la pop"
  POP_MEMBER_OF_ANY_FACTION_TRIGGER:0 "$POP|Y$ est dans une faction de la pop"
  POP_NOT_MEMBER_OF_FACTION_TRIGGER:0 "$POP|Y$ n'est PAS un membre de $FACTION|Y$"
@@ -1434,6 +1441,9 @@
 
  SCIENTIST_COUNT_TRIGGER:0 "Nombre de scientifiques recrutés $COMPARATOR$ $NUM|Y$"
  SCIENTIST_COUNT_NOT_TRIGGER:0 "Nombre de scientifiques recrutés PAS $COMPARATOR$ $NUM|Y$"
+
+ # [LocEditor:UntranslatedKey] `CIVICS_COUNT_TRIGGER`
+ # [LocEditor:UntranslatedKey] `CIVICS_COUNT_NOT_TRIGGER`
 
  NUM_RELICS_TRIGGER:0 "Nombre de reliques rassemblées $COMPARATOR$ $NUM|Y$"
  NUM_RELICS_NOT_TRIGGER:0 "Nombre de reliques rassemblées PAS $COMPARATOR$ $NUM|Y$"
@@ -1757,6 +1767,8 @@
  COMPLETE_CRISIS_OBJECTIVE:2 "L'objectif de la crise $OBJ|Y$ est atteint, accordant $REWARD|G$ en menace."
  DEACTIVATE_MENACE_PERK:0 "L'atout de la menace $PERK$ a été désactivé pour la $COUNTRY$"
  ACTIVATE_CRISIS_PROGRESSION:0 "Permet à la $COUNTRY$ de suivre le cheminement pour §Ydevenir la crise§!."
+
+ CREATE_NEBULA_EFFECT:0 "Une nébuleuse est créée dans le système de $SYSTEM|Y$."
 
  ADD_VICTORY_SCORE_EFFECT:0 "Ajoute $VALUE$ au score de victoire de la $COUNTRY|Y$."
 

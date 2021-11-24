@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Copie of Original Stellaris File
- # Update check : 16.09.2021
- # Translation check OK : 16.09.2021
+ # Update check : 22.11.2021
+ # Translation check OK : 22.11.2021
  ####################################
 
  IS_YOU:1 "C'est nous." 
@@ -59,7 +59,7 @@
  GAMESETUP_COUNTRY_INVALID_ORIGIN:0 "Vous devez choisir une origine avant de pouvoir poursuivre."
  ORIGIN_INITIALIZER_RESTRICTION:0 "Impossible à modifier à cause de l'origine choisie."
  origin_default:0 "Unification durable"
- origin_default_desc:0 "L'unification durable de ce monde a permis à sa civilisation de se développer et prospérer."
+ origin_default_desc:1 "Grâce à ses triomphes et malgré ses querelles internes, cette société a atteint l'ambition première de toute jeune civilisation : un monde natal unifié, permettant de tracer la route vers les étoiles."
  origin_tooltip_default_effects:1 "- Lance la partie avec §Y4§! £pop£pops et §Y2§! £district£districts supplémentaires."
  origin_mechanists:0 "$civic_mechanists$"
  origin_mechanists_desc:0 "Cette civilisation a été préoccupée par l'idée d'automates métalliques depuis les prémices de l'Âge de la vapeur. Même s'ils étaient nombreux alors à dire que c'était irréalisable, les premiers véritables robots ont quitté les chaînes d'assemblage longtemps avant que le stade du vol spatial balbutiant soit atteint."
@@ -76,7 +76,7 @@
  origin_tooltip_shattered_ring_effects_lithoid:0 "§RATTENTION ! Origine difficile pour les lithoïdes à cause du manque de minéraux !§!\n$origin_tooltip_shattered_ring_effects$"
  origin_remnants:0 "Vestiges"
  origin_remnants_desc:0 "Cette civilisation franchissait autrefois le vide et contrôlait une vaste portion de la galaxie. Et si elle fut en fin de compte vaincue et quasiment détruite, après une longue période de difficultés elle est de retour dans les étoiles."
- origin_tooltip_remnants_effects:1 "- Lance la partie avec comme monde natal un §Hmonde relique§!. L'heure est venue de retrouver la gloire du passé !"
+ origin_tooltip_remnants_effects:2 "- Lance la partie avec comme monde natal un §Hmonde relique§! d'une taille de §Y22§!£planetsize£. L'heure est venue de retrouver la gloire du passé !"
  origin_tree_of_life:0 "Arbre de vie"
  origin_tree_of_life_desc:0 "Cette Conscience a évolué dans une relation symbiotique avec un arbre gigantesque. Celui-ci lui garantit de nombreux avantages, mais s'il venait à périr elle serait gravement handicapée."
  origin_tooltip_tree_effects:1 "- La Conscience bénéficie de nombreux avantages à vivre sur un monde où se trouve l'§HArbre de vie§!, mais de lourdes pénalités s'il ne s'y trouve pas.\n- Les §Hvaisseaux coloniaux§! sont plus coûteux, mais peuvent en emporter des boutures sur les mondes nouvellement colonisés."
@@ -742,7 +742,7 @@
 
  requires_strongest:0 "§RRequiert que la présidence soit attribuée selon la §Ypuissance§!.§!"
 
- requires_megacorp_or_merchant:0 "§RExige soit d'être une §Ymégacorporation§!, soit d'avoir la doctrine §Y$civic_merchant_guilds$§!.§!"
+ requires_megacorp_or_merchant:1 "§RExige soit d'être une §Ymégacorporation§!, soit d'avoir les civismes §Y$civic_merchant_guilds$§! ou §Y$civic_corporate_dominion$§!.§!"
  disabled_for_hegemony:0 "§RUne fédération §Yhégémonique§! ne peut interdire aux dépendances de l'intégrer.§!"
  president_no_effect:0 "Aucune conséquence."
 
@@ -1727,6 +1727,9 @@
  col_bureau_desc:1 "Un monde entier, totalement dédié aux besoins toujours croissants de l'administration."
  col_bureaucracy_custom:1 "£mod_country_admin_cap_add£Capacité administrative grâce aux £job_bureaucrat£bureaucrates : §G+2§!\nEntretien des £job_bureaucrat£bureaucrates : §G-10%§!\nRisques de changements éthiques des £pop£pops : §G-20%§!."
 
+ col_habitat_bureau:0 "Station administrative"
+ col_habitat_bureau_desc:0 "Un habitat entièrement dédié aux besoins toujours croissants de l'administration."
+
  ################
  ### Modifiers
  ################
@@ -1739,6 +1742,8 @@
 
  prosp_uni_mod:0 "Unification prospère"
  prosp_uni_mod_desc:0 "Depuis le Jour de l'unification, l'économie de cet empire n'a fait que se développer et est florissante."
+ prosp_uni_mod_gestalt:0 "$prosp_uni_mod$"
+ prosp_uni_mod_gestalt_desc:0 "Depuis que le collectif a assuré son contrôle total sur [Planet.GetName], la production est florissante."
 
  no_lifetree:0 "Pas d'Arbre de vie"
  no_lifetree_desc:0 "Sans l'Arbre, nous sommes incomplets."
@@ -2279,6 +2284,7 @@
  d_arcane_replicator:0 "Réplicateur ésotérique"
  d_arcane_replicator_desc:0 "Cette machine ancienne est cachée au plus profond de l'habitat, construite au coeur même du réacteur principal dont elle tire sa puissance. Il s'agit d'une relique de ceux qui ont construit à l'origine l'habitat, dont la technologie de la réplication de la matière nous est aujourd'hui totalement incompréhensible."
  START_SCREEN_VOID_DWELLERS:0 "Pour la plupart, le vide de l'espace est un environnement hostile qui doit être soit conquis, soit vaincu. Pour les [GetSpeciesNamePlural], l'espace est leur foyer. Durant des milliers d'années nous avons résidé sur trois stations spatiales, orbitant chacune autour d'une des étoiles d'un système trinaire. Qu'elles aient été construites par nos ancêtres ou par qui que ce soit d'autre, nous n'en savons pas davantage.\n\nSi la biologie [GetSpeciesName] suggère que nous sommes nés sur un monde, aucune de nos annales ne le mentionne jamais. Certains pensent que les restes de ce monde détruit autour de laquelle orbite une de nos stations est notre monde natal, mais nous ne connaîtrons peut-être jamais toute la vérité.\n\nCela ne fait que quelques siècles que nous avons découvert (ou réinventé ?) le vol spatial, qui a permis de relier les stations. Progressivement, la méfiance et la crainte ont fait place aux échanges et à la coopération. Et, à l'époque où nous avons commencé à maîtriser l'hyperpropulsion, les trois habitats ont été unifiés sous une autorité unique : celle de '§Y[GetName]§!'."
+ START_SCREEN_VOID_DWELLERS_SOL:0 "Pour la plupart, le vide de l'espace est un environnement hostile qui doit être soit conquis, soit vaincu. Pour les [GetSpeciesNamePlural], l'espace est leur foyer. Durant des milliers d'années, nous avons résidé sur trois stations spatiales, orbitant chacune autour d'une planète différente de notre système solaire ruiné. Qu'elles aient été construites par nos ancêtres ou par qui que ce soit d'autre, nous n'en savons pas davantage.\n\nSi la biologie [GetSpeciesName] suggère que nous sommes nés sur une planète, aucune de nos annales ne le mentionne jamais. Certains pensent que les restes de ce désert toxique autour de laquelle orbite l'une de nos stations est notre monde natal, mais ne nous connaîtrons peut-être jamais toute la vérité à ce propos.\n\nCela ne fait que quelques siècles que nous avons découvert (ou réinventé, selon certains) le vol spatial, qui a permis de relier les stations. Progressivement, la méfiance et la crainte ont fait place aux échanges et à la coopération. Et, à l'époque où nous avons commencé à maîtriser l'hyperpropulsion, les trois habitats ont été unifiés sous une autorité unique : celle de '§Y[GetName]§!'."
  START_SCREEN_SCION:0 "Aux premiers temps de notre histoire, avant même que nous ayons beaucoup développé nos technologies, nos bienfaiteurs aliens se sont fait connaître à nous. Ils ont expliqué, en des termes que nos aïeux déroutés pouvaient comprendre, que l'espèce [GetSpeciesName] s'avérait prometteuse. Avec une grande patience, ils nous ont guidés sur un chemin qui permettrait à notre civilisation de révéler son plein potentiel.\n\nEn ces quelques occasions où nous avons dévié de ce chemin, ils nous ont remis sur la bonne voie, aussi fermement que le feraient des parents, et bientôt nos scientifiques ont maîtrisé l'électricité, puis la puissance de l'atome, et enfin les premières étapes du vol spatial. Et c'est sous la tutelle de nos maîtres que '§Y[GetName]§!' a pu construire ses premiers hyperpropulseurs."
 
  mod_habitat_jobs_produces_mult:0 "Prod. des £pop£pops sur les habitats "

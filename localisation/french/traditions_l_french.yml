@@ -3,8 +3,8 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.1.1 : 16.09.2021
- # Translation check : 16.09.2021
+ # Update check for 3.2.2 : 22.11.2021
+ # Translation check : 22.11.2021
  ####################################
  
  ####################################
@@ -326,7 +326,7 @@
  #tr_supremacy_right_of_conquest_hive_delayed:0 "§LThe others have strange minds. They react more strongly to a single drone being publicly dissolved in the digestion vats than to thousands killed by orbital bombardment. This kind of selective terrorization is effective at cowing their resistance.§!"
 
  tr_supremacy_master_shipwrights:0 "Experts de la construction spatiale"
- tr_supremacy_master_shipwrights_desc:6 "$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$ : §G+25%§!\n$MOD_COUNTRY_SHIP_UPGRADE_COST_MULT$ : §G-20%§!"
+ tr_supremacy_master_shipwrights_desc:6 "$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$: §G-10%§!\n$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$: §G+25%§!"
  tr_supremacy_master_shipwrights_delayed:0 "§LL'importance croissante de notre programme de construction navale a permis la formation d'une main-d'oeuvre hautement qualifiée et efficace dans nos chantiers navals. Nos méthodes se sont constamment perfectionnées, et le temps s'écoulant entre le moment où une coque est façonnée et celui où un vaisseau est terminé est désormais plus court qu'il ne l'a jamais été.§!"
  tr_supremacy_master_shipwrights_hive:0 "Architecture organique"
  tr_supremacy_master_shipwrights_hive_desc:0 "$tr_supremacy_master_shipwrights_desc$"
@@ -401,8 +401,8 @@
  tr_diplomacy_diplomatic_networking_gestalt_delayed:0 "§LL'incorporation des processus au sein de chaque aspect des relations avec les autres ne fait pas que favoriser la diplomatie, mais aussi la cohésion des prises de décision au sein de notre '§Y[This.GetName]§!'§!."
  diplomatic_networking:0 "$tr_diplomacy_diplomatic_networking$"
 
- tr_diplomacy_direct_diplomacy:0 "La confiance ou rien"
- tr_diplomacy_direct_diplomacy_delayed:0 "§LVivre sans pouvoir faire confiance, ce n'est pas vivre.§!"
+ tr_diplomacy_direct_diplomacy:1 "Diplomatie sans détour"
+ tr_diplomacy_direct_diplomacy_delayed:1 "§LNous sommes persuadés que la meilleure façon d'établir la confiance est de se montrer ouverts, honnêtes et directs.§!"
 
  tr_diplomacy_eminent_diplomats:0 "Diplomates éminents"
  tr_diplomacy_eminent_diplomats_desc:0 "Acceptation diplomatique : §G+5§!\nLes émissaires améliorant les relations ont §G1%§! de chances supplémentaire chaque mois d'acquérir une £favor£§Yfaveur§!."
@@ -572,7 +572,7 @@
  tr_prosperity_extended_hives_delayed:1 "§LEn étendant les §Ydistricts de la Conscience§! de façon souterraine, beaucoup plus de drones pourront y être logés.§!"
 
  tr_prosperity_administrative_operations:0 "Opérations administratives"
- tr_prosperity_administrative_operations_desc:3 "Maintenance des £building£§Ybâtiments§! : §G-10%§!\nMaintenance des £district£§Ydistricts§! : §G-10%§!"
+ tr_prosperity_administrative_operations_desc:3 "Maintenance des £building£bâtiments et £district£districts : §G-10%§!"
  tr_prosperity_administrative_operations_delayed:0 "§LAlors que l'empire continue de s'étendre, éliminer la corruption et l'inefficacité est d'une importance vitale. Ces trous à crédits doivent être bouchés !§!"
  tr_prosperity_administrative_operations_machine:0 "Transmission de puissance superconductrice"
  tr_prosperity_administrative_operations_machine_desc:0 "$tr_prosperity_administrative_operations_desc$"
@@ -697,17 +697,19 @@
  tr_unyielding_never_surrender_gestalt_delayed:0 "§LNous ne céderons jamais devant ceux qui nous sont inférieurs. Laissons-les se briser sur nos défenses inébranlables ! Et, dans un millier d'années, ils ne seront plus qu'une note dans l'histoire de notre ascension.§!"
 
  tr_unyielding_bulwark_of_harmony:0 "Bastion d'harmonie"
- tr_unyielding_bulwark_of_harmony_gestalt:0 "$tr_unyielding_bulwark_of_harmony$"
+ tr_unyielding_bulwark_of_harmony_hive:0 "$tr_unyielding_bulwark_of_harmony$"
+ tr_unyielding_bulwark_of_harmony_machine:0 "$tr_unyielding_bulwark_of_harmony$"
  tr_unyielding_bulwark_of_harmony_desc:2 "$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$: §G+33%§! en cas de guerre défensive contre un autre empire.\n$MOD_SHIP_FIRE_RATE_MULT$: §G+15%§! dans notre espace."
  tr_unyielding_bulwark_of_harmony_delayed:0 "§LTout organisme, quelles que soient par ailleurs ses forces et ses qualités, doit disposer d'un système immunitaire pour se garder des menaces de la maladie extérieure. Notre société n'est en rien différente.§!"
- tr_unyielding_bulwark_of_harmony_gestalt_delayed:0 "§LTout organisme, quelles que soient par ailleurs ses forces et ses qualités, doit disposer d'un système immunitaire pour se garder des menaces de la maladie extérieure. La [This.GetName] n'est en rien différente.§!"
+ tr_unyielding_bulwark_of_harmony_hive_delayed:0 "Tout organisme, quelles que soient par ailleurs ses forces et ses qualités, doit disposer d'un système immunitaire pour se garder des menaces de la maladie extérieure. '§Y[This.GetName]§!' n'est en rien différente."
+ tr_unyielding_bulwark_of_harmony_machine_delayed:0 "Tout système, quelles que soient par ailleurs ses forces et ses qualités, doit disposer d'un système de défense interne pour se garder des menaces extérieures. '§Y[This.GetName]§!' n'est en rien différente."
 
- tr_unyielding_defensive_zeal:0 "Défense en profondeur"
- tr_unyielding_defensive_zeal_delayed:0 "§LPour ce qui concerne les questions défensives, mieux vaut imiter l'oignon : il ne pourra jamais y avoir trop de couches défensives.§!"
- # [LocEditor:UntranslatedKey] `tr_unyielding_defensive_zeal_desc`
+ tr_unyielding_defensive_zeal:1 "Ferveur défensive"
+ tr_unyielding_defensive_zeal_delayed:1 "Lorsqu'il est question de défendre notre espace et notre existence, nos ennemis font assurément les frais de notre ferveur."
+ tr_unyielding_defensive_zeal_desc:0 "Bases stellaires et plateformes défensives : points de coque et dommages infligés §G+33%§!"
 
  tr_unyielding_fortress_doctrine:0 "Doctrine des forteresses"
- tr_unyielding_fortress_doctrine_delayed:1 "§LUne vigilance constante est présente dans la psyché des [This.GetSpeciesNamePlural]. Aussi longtemps qu'ils ne baisseront pas la garde, leurs ennemis ne pourront les prendre par surprise.§!"
+ tr_unyielding_fortress_doctrine_delayed:1 "§LDans la conscience des [This.GetSpeciesNamePlural] est enracinée une vigilance constante. Aussi longtemps qu'ils ne baisseront pas la garde, leurs ennemis ne pourront les prendre par surprise.§!"
  tr_unyielding_fortress_doctrine_hive:0 "Processus de vigilance"
  tr_unyielding_fortress_doctrine_hive_delayed:0 "§LNous ne pourrons jamais totalement nous fier à ceux dont les pensées n'appartiennent pas à notre Conscience. Nous devons rester toujours vigilants, et veiller à ce que nul ne puisse nous prendre par surprise.§!"
  tr_unyielding_fortress_doctrine_hive_nemesis:0 "$tr_unyielding_fortress_doctrine_hive$"
@@ -867,6 +869,8 @@
  ap_technological_ascendancy_rare:2 "Les §Mtechnologies rares§! apparaissent désormais §Y1,5§! fois plus. Une chance de §Y1%§! de les voir apparaître passe donc à §Y1,5%§!."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ tr_unyielding_bulwark_of_harmony_gestalt:0 "$tr_unyielding_bulwark_of_harmony$"
+ tr_unyielding_bulwark_of_harmony_gestalt_delayed:0 "§LTout organisme, quelles que soient par ailleurs ses forces et ses qualités, doit disposer d'un système immunitaire pour se garder des menaces de la maladie extérieure. '§Y[This.GetName]§!' n'est en rien différente.§!"
  tr_direct_diplomacy:0 "$tr_diplomacy_trust_or_bust$"
  tr_direct_diplomacy_delayed:0 "$tr_diplomacy_trust_or_bust_delayed$"
  tradition_expansion_machine:1 "Expansion"
