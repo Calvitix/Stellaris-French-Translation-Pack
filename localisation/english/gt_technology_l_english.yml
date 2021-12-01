@@ -1,0 +1,620 @@
+﻿l_english:
+
+ gt_resource_stations_shield_bonus_TT:0 "Mining Station Shield Bonus: §G2000§!\nResearch Station Shield Bonus: §G2000§!"
+
+ ##########################
+ ### Starbase Buildings ###
+ ##########################
+ sm_gt_trading_company_offices:0 "Trading Company Offices"
+ sm_gt_trading_company_offices_desc:0 "Offices for the many private enterprizes trading across all known space."
+ 
+ sm_gt_bounty_hunter_office:0 "Bounty Hunter Offices"
+ sm_gt_bounty_hunter_office_desc:0 "Offices dedicated to the contracts and payouts of bounty hunters."
+
+ ###################
+ ###### MODS #######
+ ###################
+ 
+ mod_weapon_type_explosive_speed_mult:0 "Missile and Torpedo Flight Speed"
+ mod_weapon_role_artillery_weapon_damage_mult:0 "Artillery Weapons Damage"
+ mod_weapon_role_artillery_weapon_fire_rate_mult:0 "Artillery Weapons Attack Speed"
+ mod_weapon_role_anti_hull_weapon_damage_mult:0 "Anti-Hull Weapons Damage"
+ mod_weapon_role_anti_hull_weapon_fire_rate_mult:0 "Anti-Hull Weapons Attack Speed"
+ mod_weapon_role_anti_shield_weapon_damage_mult:0 "Anti-Shield Weapons Damage"
+ mod_weapon_role_anti_shield_weapon_fire_rate_mult:0 "Anti-Shield Weapons Attack Speed"
+ mod_weapon_role_anti_armor_weapon_damage_mult:0 "Anti-Armor Weapons Damage"
+ mod_weapon_role_anti_armor_weapon_fire_rate_mult:0 "Anti-Armor Weapons Attack Speed"
+
+ mod_megastructures_physics_research_produces_mult:0 "Megastructure £physics_research£ Physics Research Output"
+ mod_megastructures_society_research_produces_mult:0 "Megastructure £society_research£ Society Research Output"
+ mod_megastructures_engineering_research_produces_mult:0 "Megastructure £engineering_research£ Engineering Research Output"
+ mod_megastructures_energy_produces_mult:0 "Megastructure £energy£ Energy Output"
+ mod_megastructures_minerals_produces_mult:0 "Megastructure £minerals£ Minerals Output"
+ mod_megastructures_influence_cost_add:0 "Megastructure £influence£ Influence Cost"
+ mod_megastructures_alloys_cost_mult:0 "Megastructure £alloys£ Alloys Cost"
+ 
+ mod_country_base_physics_research_produces_add:0 "Monthly £physics_research£ Physics Research"
+ mod_country_base_society_research_produces_add:0 "Monthly £society_research£ Society Research"
+ mod_country_base_engineering_research_produces_add:0 "Monthly £engineering_research£ Engineering Research"
+ 
+ mod_armies_energy_upkeep_mult:0 "Army £energy£ Energy Credits Upkeep"
+ 
+ mod_shipclass_mining_station_hull_mult:0 "Mining Station Hull"
+ mod_shipclass_research_station_hull_mult:0 "Research Station Hull"
+ mod_shipclass_mining_station_build_cost_mult:0 "Mining Station Build Cost"
+ mod_shipclass_research_station_build_cost_mult:0 "Research Station Build Cost"
+ mod_shipclass_mining_station_build_speed_mult:0 "Mining Station Build Speed"
+ mod_shipclass_research_station_build_speed_mult:0 "Research Station Build Speed"
+ mod_shipsize_mining_station_build_speed_mult:0 "Mining Station Build Speed"
+ mod_shipsize_research_station_build_speed_mult:0 "Research Station Build Speed"
+ mod_shipsize_mining_station_hull_add:0 "Mining Station Hull"
+ mod_shipsize_research_station_hull_add:0 "Research Station Hull"
+ 
+ mod_shipsize_science_build_speed_mult:0 "Science Ship Build Speed"
+ mod_shipclass_science_ship_build_cost_mult:0 "Science Ship Build Cost"
+ mod_shipsize_science_hull_add:0 "Science Ship Hull"
+ 
+ mod_shipsize_constructor_build_speed_mult:0 "Construction Ship Build Speed"
+ mod_shipclass_constructor_build_cost_mult:0 "Construction Ship Build Cost"
+ 
+ mod_shipclass_colonizer_build_speed_mult:0 "Colony Ship Build Speed"
+ mod_shipclass_colonizer_build_cost_mult:0 "Colony Ship Build Cost"
+ 
+ mod_ship_corvette_alloys_cost_add:0 "Corvette £alloys£ Alloy Cost"
+ mod_ship_destroyer_alloys_cost_add:0 "Destroyer £alloys£ Alloy Cost"
+ mod_ship_cruiser_alloys_cost_add:0 "Cruiser £alloys£ Alloy Cost"
+ mod_ship_battleship_alloys_cost_add:0 "Battleship £alloys£ Alloy Cost"
+ mod_ship_science_alloys_cost_add:0 "Science Ship £alloys£ Alloy Cost"
+ 
+ mod_station_gatherers_minerals_cost_mult:0 "Mining Station Mineral Cost"
+ mod_station_researchers_minerals_cost_mult:0 "Research Station Mineral Cost"
+ 
+ mod_torpedo_speed_mult:0 "Torpedo Flight Speed"
+ mod_torpedo_weapon_damage_mult:0 "Torpedo Weapon Damage"
+ mod_extra_large_weapon_damage_mult:0 "Extra Large Weapon Damage"
+ mod_large_weapon_damage_mult:0 "Large Weapon Damage"
+ mod_medium_weapon_damage_mult:0 "Medium Weapon Damage"
+ mod_small_weapon_damage_mult:0 "Small Weapon Damage"
+ 
+ mod_torpedo_weapon_fire_rate_mult:0 "Torpedo Weapon Fire Rate"
+ mod_extra_large_weapon_fire_rate_mult:0 "Extra Large Weapon Fire Rate"
+ mod_large_weapon_fire_rate_mult:0 "Large Weapon Fire Rate"
+ mod_medium_weapon_fire_rate_mult:0 "Medium Weapon Fire Rate"
+ mod_small_weapon_fire_rate_mult:0 "Small Weapon Fire Rate"
+
+ mod_weapon_role_point_defense_weapon_fire_rate_mult:0 "Point Defense Weapons Fire Rate"
+ 
+ mod_planet_buildings_influence_cost_mult:0 "Building £influence£ Influence Cost"
+ mod_planet_buildings_minerals_cost_add:0 "Building £minerals£ Minerals Cost"
+ mod_planet_districts_minerals_cost_add:0 "District £minerals£ Minerals Cost"
+ 
+ mod_damage_vs_country_type_pirate_mult:0 "Damage to Pirates"
+ 
+ mod_starbase_buildings_alloys_cost_add:0 "Starbase Building £alloys£ Alloys Cost"
+ mod_starbase_modules_alloys_cost_add:0 "Starbase Modules £alloys£ Alloys Cost"
+ 
+ ###########################################
+ #### Vanilla-like PHYSICS technologies ####
+ ###########################################
+
+ #############
+ ## Weapons ##
+ #01 - ship weapon range bonus
+ GT_ship_weapon_range_mult:0  "Multi-Dimensional Rangefinding"
+ GT_ship_weapon_range_mult_desc:0 "New targeting algorithms that are far more efficient in calculating trajectories within 3-dimensional space."
+ #02 - ship small weapon damage bonus
+ GT_small_weapon_damage_mult:0  "Small Weapon Capacitors"
+ GT_small_weapon_damage_mult_desc:0 "High-power capacitors integrated in the small weapon systems of our ships allow them to charge beyond their operational limits."
+ #03 - ship medium weapon damage bonus
+ GT_medium_weapon_damage_mult:0  "Cryo-Fusion Fire Control System"
+ GT_medium_weapon_damage_mult_desc:0 "Cryo-fusion systems regulate the heat buildup of our medium weapons batteries, allowing them to fire higher capacity loads before burning out."
+ #04 - ship point defence weapons faster fire rate
+ GT_weapon_role_point_defense_weapon_fire_rate_mult:0  "Automated Recycle Rates"
+ GT_weapon_role_point_defense_weapon_fire_rate_mult_desc:0 "Improved programs allow for the automation of our weapons-fire recycle systems. This increases the efficiency of our point defence weapons, enabling them to fire more rapidly."
+ #05 - ship increased damage versus amoeba creatures
+ GT_damage_vs_country_type_amoeba_mult:0  "Bio-Electric Rounds"
+ GT_damage_vs_country_type_amoeba_mult_desc:0 "Small feedback chips implanted in special ordnance release a shock of over five hundred thousand volts through the systems of any amoeba it impacts, spreading through their cellular systems like wildfire."
+ #06 - ship increased damage versus crystal creatures
+ GT_damage_vs_country_type_crystal_mult:0  "Acidic Bio-Material"
+ GT_damage_vs_country_type_crystal_mult_desc:0 "Incorporating this material into our secondary armaments allows for them to burn through crystalline hulls with ease."
+ #07 - ship increased damage versus mining drones
+ GT_damage_vs_country_type_drone_mult:0  "Anti-Mining"
+ GT_damage_vs_country_type_drone_mult_desc:0 "Deconstructing a mining drone has led to the development of advanced lasers designed to cut through the hulls commonly used by those ships."
+ #08 - ship increased damage versus energy-cloud creatures
+ GT_damage_vs_country_type_cloud_mult:0  "Destabilization Fields"
+ GT_damage_vs_country_type_cloud_mult_desc:0 "Microparticles are released in an area that, when passed through by a energy-cloud, destabilizes their cores."
+ #09 - ship increased damage against hulls *
+ GT_ship_hull_damage_mult:0  "Hull Vulnerabilities"
+ GT_ship_hull_damage_mult_desc:0 "Experience from ship to ship combat has taught our admirals to spot vulnerable points in a ship's hull with great accuracy."
+ #10 - ship increased damage against armor
+ GT_ship_armor_damage_mult:0  "Armor Weakpoints"
+ GT_ship_armor_damage_mult_desc:0 "By definition, armor is an added defensive layer, and thus must always have weak points."
+ #11 - ship weapons penetrate some armor
+ GT_ship_armor_penetration_mult:0  "Focused Fire Protocols"
+ GT_ship_armor_penetration_mult_desc:0 "Combat protocols designed to concentrate fire on weak points in enemy ship armor."
+ #12 - ship increased damage against shields
+ GT_ship_shield_damage_mult:0  "Ionised Charges"
+ GT_ship_shield_damage_mult_desc:0 "Negative-ion pulses are charged into our weapon systems which then fire towards their targets, destabilizing and disrupting shield barriers."
+ #13 - ship weapons penetrate some shields
+ GT_ship_shield_penetration_mult:0  "Disruptor Charges"
+ GT_ship_shield_penetration_mult_desc:0 "Miniaturized negative-ion pulses are charged around a discharge, giving it a good chance of penetrating a shield and allowing it to hit its target uninterrupted."
+ #14 - ship large weapon damage bonus
+ GT_large_weapon_damage_mult:0  "Anti-Matter Clouds"
+ GT_large_weapon_damage_mult_desc:0 "Heavily shielded weapon ports allow for the release of concentrated bursts of anti-matter, clearing the way for any fire."
+ #15 - ship torpedo weapon damage bonus
+ GT_torpedo_weapon_damage_mult:0  "Multi-Warheads"
+ GT_torpedo_weapon_damage_mult_desc:0 "Several warheads are stacked tightly together and are released just before impact to create multiple points of impact."
+ #16 - ship extra-large weapons damage bonus
+ GT_extra_large_weapon_damage_mult:0  "Overcharged Capacitors"
+ GT_extra_large_weapon_damage_mult_desc:0 "Harnessing the formerly unfathomable power of dark matter into our weapon reactors allows our heaviest weapons to inflict catastrophic damage."
+ 
+ ###########
+ ## ships ##
+ #17 - cheaper science ships
+ GT_ship_science_ship_build_cost_mult:0  "Flexiplast Alloy"
+ GT_ship_science_ship_build_cost_mult_desc:0 "A flexible and durable metal that utilizes some of the cheaper materials to produce. While not suitable for warfare, civilian ships can be made much more affordable."
+ #18 - faster science ship building
+ GT_shipsize_science_build_speed_mult:0  "Science Bays"
+ GT_shipsize_science_build_speed_mult_desc:0 "Shipyards outfitted with dedicated Science, Research & Development Bays allow for the production of scientific vessels at an increased rate while still allowing for ample production of military vessels."
+
+ ##############
+ ## stations ##
+ #19/20 - mining and research station hull bonus
+ GT_shipclass_mining_station_hull_mult:0  "Anti-Radiation Insulators"
+ GT_shipclass_mining_station_hull_mult_desc:0 "Dual layers of fabric interwoven with polyethylene and PVC-based polymer infused into hull plating increases their efficiency in protecting stations frequently orbiting harmful environments."
+
+ GT_shipclass_research_station_hull_mult:0  "Reinforced Cadmium Hulls"
+ GT_shipclass_research_station_hull_mult_desc:0 "While too heavy to be useful on military ships, mining and research stations will benefit greatly from hulls triple reinforced with Cadmium."
+
+ #21 - defense platform hull bonus
+ GT_shipclass_military_station_hull_mult:0  "Bulwark Plating"
+ GT_shipclass_military_station_hull_mult_desc:0 "Divots and minor hull fortifications spread across a defense platform help increase their resistance to multiple types of weapons fire. Integrating miniature shield generators at each point prevents colossal damage from being incurred."
+ #22 - starbase defense platform max amount
+ GT_starbase_defense_platform_capacity_add:0  "Advanced Gravimetric Sensors"
+ GT_starbase_defense_platform_capacity_add_desc:0 "Utilizing an increased understanding of gravitic properties in our sensor systems provides our defense platforms the ability to coordinate their orbits and reduce the risk of collision, allowing more to be fielded at a time."
+
+ #############
+ ## leaders ##
+ #23 - faster leader experience gain
+ GT_species_leader_exp_gain:0  "Administrative Data Library"
+ GT_species_leader_exp_gain_desc:0 "Installing a data library in all every personal data slate allows for the quick and easy accessing of needed information. Wise leaders will often find themselves studying on it."
+
+ #Hive Mind
+ GT_species_leader_exp_gain_hive:0  "Increased Swarm Cognition"
+ GT_species_leader_exp_gain_desc_hive:0 "Evolving our cognitive processes lead to faster thinking and correlation of thought between swarm hosts. Independent thought is discouraged, but experience is shared through all."
+
+ #Machine Empire
+ GT_species_leader_exp_gain_mach:0  "Warp Communication Network"
+ GT_species_leader_exp_gain_desc_mach:0 "Development of near-instantaneous communication networks has provided our AI with the ability to link at vast distances and react to situations quickly and effectively, sharing knowledge across all connected units."
+ 
+ ############
+ ## armies ##
+ #24 - army energy upkeep reduction
+ GT_armies_energy_upkeep_mult:0 "Micro Fusion Batteries"
+ GT_armies_energy_upkeep_mult_desc:0 "Miniaturization of fusion reactor technology into belt-mounted generators allows for more efficient energy consumption among fielded troops."
+
+ # Hive Mind
+ GT_armies_energy_upkeep_mult_hive:0 "Evolved Carapace Retention"
+ GT_armies_energy_upkeep_mult_desc_hive:0 "The evolution of Soldier Drone carapace provide more productive solar absorption while reducing energy expenditure."
+
+ # Machine Empire
+ GT_armies_energy_upkeep_mult_mach:0 "Micro Fusion Reactor"
+ GT_armies_energy_upkeep_mult_desc_mach:0 "Combat Units upgraded with miniaturized fusion reactors allow for more efficient energy consumption among deployed units."
+
+ #############
+ ## country ##
+ #25 - capital world efficiency: extra energy production
+ GT_country_base_energy_produces_add:0 "Mass Shadow Reactor"
+ GT_country_base_energy_produces_add_desc:0 "A giant reactor complex that uses miniature singularities to generate gravity, then converts it into usable energy."
+ #26 - capital world efficiency: extra physics research production
+ GT_country_base_physics_research_produces_add:0 "Singularity Lab"
+ GT_country_base_physics_research_produces_add_desc:0 "The ability to generate singularities in a contained unit aids in the study of gravimetric patterns and its influence on the surrounding environment."
+ #27 - planet bombardment damage reduction
+ GT_planet_orbital_bombardment_damage:0 "Retractable Orbital Plating"
+ GT_planet_orbital_bombardment_damage_desc:0 "Small stations situated just below orbit at key points over a world can be activated at a moments notice to spread a titanium plate shell connecting each station over important areas and cities. While not invulnerable, it slows the inexorable destruction posed by orbital bombardment until reinforcements can arrive."
+
+ ##############
+ ## pop jobs ##
+ #28 - physics research production bonus from research jobs 1/3
+ GT_planet_researchers_physics_research_produces_mult1:0 "Integrated Laboratories"
+ GT_planet_researchers_physics_research_produces_mult1_desc:0 "Small physics labs integrated with most facilities improve the ability to research physics projects. These labs are linked directly to the communications network, providing scientists with the ability to share their finds rapidly."
+ #29 - physics research production bonus from research jobs 2/3
+ GT_planet_researchers_physics_research_produces_mult2:0 "Enhanced Physics Intelligence"
+ GT_planet_researchers_physics_research_produces_mult2_desc:0 "This AI has been designed from the ground up as a scientific processor, capable of sifting through and analyzing thousands of physics experiments in seconds. Also equipped with a Social Interface Chip, the EPI can interact with researchers on a personal level, helping improve performance."
+ #30 - physics research production bonus from research jobs 3/3
+ GT_planet_researchers_physics_research_produces_mult3:0 "Standardized Supercomputers"
+ GT_planet_researchers_physics_research_produces_mult3_desc:0 "Laboratories with built-in supercomputers have proven to increase the efficiency of staff across our research division. With information readily available at any given moment and the analyzation capabilities of an Enhanced Physics Intelligence, no laboratory is complete without one."
+
+ ####################
+ ## megastructures ##
+ #31 - megastructure energy production bonus
+ GT_megastructures_energy_produces_mult:0 "Solarite Infused Alloy"
+ GT_megastructures_energy_produces_mult_desc:0 "The complicated process of constructing a megastructure often leads to inspiration amongst engineering crews. Discovery of solarite, a special metallic material that has superconductive and solar energy absorbing properties make for a great constructive alloy. Incorporating this metal into a megastructure will improve its capacity to generate energy."
+ #32 - megastructure physics research bonus
+ GT_megastructures_physics_research_produces_mult:0 "Quasar Research Facility"
+ GT_megastructures_physics_research_produces_mult_desc:0 "Solving the mystery of quasars is now within reach. Special massive facilities only capable of being built within megastructures allows research to be conducted from an artificial miniature quasar. The extreme luminosity and power generated by quasars could lead to leaps in physics advancements."
+
+
+
+###############################################
+#### Vanilla-like ENGINEERING technologies ####
+###############################################
+
+ #############
+ ## Weapons ##
+ #33 - ship small weapons fire rate bonus
+ GT_small_weapon_fire_rate_mult:0 "Twin-Linked Small Weapon Systems"
+ GT_small_weapon_fire_rate_mult_desc:0 "Each small weapon system on our ships has been retrofitted with an additional gun. This allows them to fire alternatingly and faster without incurring extra heat."
+ #34 - ship medium weapons fire rate bonus
+ GT_medium_weapon_fire_rate_mult:0 "Quad-Linked Medium Weapon Systems"
+ GT_medium_weapon_fire_rate_mult_desc:0 "The introduction of twin-linked weapon systems among smaller guns led to additional testing with larger weapons. Due to their larger size, an additional two guns were needed to achieve the same success."
+ #35 - ship planetary bombardment bonus
+ GT_ship_orbital_bombardment_mult:0 "Electromagnetic Field Targeting Systems"
+ GT_ship_orbital_bombardment_mult_desc:0 "By utilizing an EMF targeting computer, our space to ground weaponry can single out population centers with remarkable accuracy."
+ #36 - ship large weapons fire rate bonus
+ GT_large_weapon_fire_rate_mult:0 "Magnetohydrodynamic Accelerators"
+ GT_large_weapon_fire_rate_mult_desc:0 "Advanced magnetohydrodynamic accelerators are fitted on our large weapon systems vastly reducing heat generated while simultaneously greatly increasing their maximum power. "
+ #37 - ship torpedo weapons fire rate bonus
+ GT_torpedo_weapon_fire_rate_mult:0 "Expanded Torpedo Bays"
+ GT_torpedo_weapon_fire_rate_mult_desc:0 "These enlarged storage and firing bays allow ships to launch their full torpedo arsenal with speed and efficiency."
+ #38 - torpedo flight speed bonus
+ GT_torpedo_speed_mult:0 "Advanced Torpedo Guidance Systems"
+ GT_torpedo_speed_mult_desc:0 "Incorporating miniaturized computer management Virtual Intelligences into the engines of torpedos allow far more accurate maneuvering, leading to efficient fuel usage and delivery of torpedo payloads at rapid speeds."
+ #39 - ship extra large fire rate bonus
+ GT_extra_large_weapon_fire_rate_mult:0 "Sub-Zero Cooling Regulators"
+ GT_extra_large_weapon_fire_rate_mult_desc:0 "These highly advanced cryo-fusion cooling systems are capable of reducing massive heat output of weapons systems to sub-zero temperatures in moments. Battle testing indicates a substantial increase to our firing rates with this technology."
+ 
+  ###############
+ ## ship hull ##
+ #40 - science ship hull bonus
+ GT_shipsize_science_hull_add:0 "Ablative Plating"
+ GT_shipsize_science_hull_add_desc:0 "Composite materials with reflective properties infused into the metal alloys of science vessels increase their durability for deep space voyages."
+ #41 - mining station hull bonus
+ # GT_shipsize_mining_station_hull_add:0 "Reinforced Bulkheads"
+ # GT_shipsize_mining_station_hull_add_desc:0 "The bulkheads of mining stations need to be resilient in order to withstand the tremulous shocks they are constantly subjected to by drilling equipment. Weaving titanium into the reinforcing structure of these bulkheads improves durability. Sometimes the simplest solutions are the best."
+ #42 - research station hull bonus
+ GT_shipsize_mining_station_hull_add:0 "Composite Plating"
+ GT_shipsize_mining_station_hull_add_desc:0 "The machinery and electronics of a space station are quite delicate and require their hulls to be made of several materials. During construction, composite plating over these materials allows for flexible, yet tough hull infrastructures."
+
+ ###########
+ ## ships ##
+ #43 - ship emergency warp-out bonus
+ GT_ship_emergency_ftl_min_days_add:0 "Evasion Drives"
+ GT_ship_emergency_ftl_min_days_add_desc:0 "Special hyper-warp drives designed to activate according to programmed scenarios. When a situation becomes untenable, these drives begin automatic calculations of available hyperlanes, then engage immediately, improving chances for successful escape."
+ #44 - science ship survey speed bonus
+ GT_science_ship_survey_speed:0 "Deep Space Sensors"
+ GT_science_ship_survey_speed_desc:0 "Improved long-range sensors give survey ships the ability to detail and map a celestial object from light years away, improving the speed at which data is able to be gleaned about survey targets."
+ #45 - construction ship build cost reduction
+ GT_ship_constructor_cost_mult:0 "Metallic Fusion"
+ GT_ship_constructor_cost_mult_desc:0 "By utilizing fusion to create new metals from cheaper materials, our shipyards can produce construction ships at a lower cost. Perhaps in the future this can be applied to more advanced ships as well."
+ #46 - construction ship build speed bonus
+ GT_shipsize_constructor_build_speed_mult:0 "C.A.T. Algorithms"
+ GT_shipsize_constructor_build_speed_mult_desc:0 "These sophisticated programs construct and outline build plans concurrently with manufacturing, shortening the time it takes to conceptualize needed assembly details and implement changes or upgrades."
+ #47 - corvette alloy cost reduction
+ GT_ship_corvette_alloys_cost_add:0 "Synchronous Designs"
+ GT_ship_corvette_alloys_cost_add_desc:0 "By simplifying and making our corvette designs use all similar parts, costs have been reduced for producing them."
+ #48 - destroyer alloy cost reduction
+ GT_ship_destroyer_alloys_cost_add:0 "Streamlined Supply Lines"
+ GT_ship_destroyer_alloys_cost_add_desc:0 "Manufacture of Destroyer-class ships comes at great cost, both in terms of time and supplies. Therefore, Commercial and Military planners have created a safe and streamlined supply line for our military shipyards, reducing the economical strain."
+ #49 - science ship alloy cost reduction
+ GT_ship_science_alloys_cost_add:0 "Construction Autobots"
+ GT_ship_science_alloys_cost_add_desc:0 "Small bots programmed to follow specific ship blueprints to the letter, they are cheap to mass produce and aid in streamlining construction of science ships."
+ #50 - hyperlane travel speed bonus
+ GT_ship_interstellar_speed_mult:0 "Nova-class Hyperdrive Upgrade"
+ GT_ship_interstellar_speed_mult_desc:0 "These hyperdrive upgrades combine two different schools of intergalactic travel. Fusing warp technology with an advanced hyperdrive improves interstellar travel by a magnitude comparable to previous drives."
+ #51 - cruiser alloy cost reduction
+ GT_ship_cruiser_alloys_cost_add:0 "Metal Processing Dockyards"
+ GT_ship_cruiser_alloys_cost_add_desc:0 "These facilities now come standard with shipyards, increasing the speed at which valuable metals can be processed, reprocessed  and distributed to needed cruisers."
+ #52 - cheaper ship upgrade costs
+ GT_country_ship_upgrade_cost_mult:0 "Retrofit Station"
+ GT_country_ship_upgrade_cost_mult_desc:0 "This orbital complex dedicates itself to upgrading any fleet in-system, reducing the need for expensive and wasteful manual upgrades."
+ #53 - battleship alloy cost reduction
+ GT_ship_battleship_alloys_cost_add:0 "Battleship Drydock"
+ GT_ship_battleship_alloys_cost_add_desc:0 "Within all shipyard complexes lies a well-equipped drydock intended only for the use of battleships. Assembled for the sole purpose of maintaining, constructing, and upgrading the Battleship-class dreadnaughts in the fleet, they reduce overall costs significantly."
+
+ ##############
+ ## stations ##
+ #54 - starbase shipyard build speed bonus
+ GT_starbase_shipyard_build_speed_mult:0 "Central Shipyard Complex"
+ GT_starbase_shipyard_build_speed_mult_desc:0 "The needs of an intergalactic empire's shipbuilding knows no limit. These massive shipyard complexes sprawl across their home sectors, making use of all available materials and supply lines to churn out ships at an astonishing rate."
+ #55 - mining station construction speed bonus
+ GT_shipsize_mining_station_build_speed_mult:0 "Construction Tug Ships"
+ GT_shipsize_mining_station_build_speed_mult_desc:0 "Medium-sized automated ships that can carry great weights as well as construct facilities. When paired with a Construction Ship, they can assist in the building of mining stations at speed."
+ #56 - research station construction speed bonus
+ GT_shipsize_research_station_build_speed_mult:0 "Research Logistics"
+ GT_shipsize_research_station_build_speed_mult_desc:0 "Improvements to Research Station organization and construction have increased the rate at which they can be built."
+ #57 - starbase defensive platform max capacity
+ GT_starbase_defense_platform_capacity_add2:0 "Titanium Platform Links"
+ GT_starbase_defense_platform_capacity_add2_desc:0 "Orbital Defense Platforms can be large and burdensome, often limiting how many can be deployed at once. By linking them with titanium bridges and support structures, all available space can be taken advantage of."
+ #58 - starbase buildings alloy cost reduction
+ GT_starbase_buildings_alloys_cost_add:0 "Simplified Circuitry"
+ GT_starbase_buildings_alloys_cost_add_desc:0 "Starbases often require complex and expensive circuitry in order to function properly. Discovery of new materials has allowed engineers to construct simpler but no less sophisticated circuit boards and wiring, removing part of the expense."
+ #59 - starbase modules alloy cost reduction
+ GT_starbase_modules_alloys_cost_add:0 "Fungible Accounting"
+ GT_starbase_modules_alloys_cost_add_desc:0 "Never underestimate the power of moving money. Allocating finances where they're most needed is especially helpful when constructing expensive, but necessary starbase modules."
+
+ ############
+ ## armies ##
+ #60 - army health bonus
+ # GT_army_health:0 "Peak Conditioning"
+ # GT_army_health_desc:0 "Advancements in healthcare and training regimens result in soldiers reaching the peak of conditioning, improving not just endurance, but stamina and biological resistances."
+ GT_army_health:0 "Power Armor"
+ GT_army_health_desc:0 "Advancements in exoskeletons and armor materials has resulted in the combination of the two finally being viable. Soldiers at the end of their training are now given a custom fitted power suit. These suits of armor are invulnerable to most small arms fire and vastly improve not just endurance, but stamina and biological resistances of our troops."
+
+ # Hive Mind
+ GT_army_health_hive:0 "Synthetic Carapaces"
+ GT_army_health_desc_hive:0 "Evolution can only carry the hive so far, but by augmenting soldier drone carapaces with synthetic armored materials their ability to withstand damage is vastly improved."
+
+ # Machine Empire
+ GT_army_health_mach:0 "Portable Shield Generators"
+ GT_army_health_desc_mach:0 "The advent of cheap microshielding technology allows for ground-based combat units to prevent significant damage to their mainframes while engaging the enemy."
+
+ #61 - army health bonus when defending from invasions
+ # GT_army_defense_health_mult:0 "Defensive Emitter Matrices"
+ # GT_army_defense_health_mult_desc:0 "Small psionic satellite systems spaced throughout the atmosphere constantly emit psionic energy in pulse waves when activated, slowing enemy advancement and allowing injured or damaged combat units to withdraw and fight another day."
+ GT_army_defense_health_mult:0 "The Last Wall Doctrine"
+ GT_army_defense_health_mult_desc:0 "A stratagem calling back all military soldiers in the system to several strategic points on a world to form an impenetrable line of defence."
+
+ #############
+ ## country ##
+ #62 - colonies district bonus (they can build 1 extra district; district planning?)
+ GT_planet_non_artificial_max_districts_add:0 "Ergonomic Architecture"
+ GT_planet_non_artificial_max_districts_add_desc:0 "Building form is sometimes just as important as building efficiently. By shifting design focus of our buildings to more ergonomical shapes, we can fit more in any given space."
+ #63 - colony building construction speed
+ GT_planet_building_build_speed_mult:0 "Rapid Erection Protocol"
+ GT_planet_building_build_speed_mult_desc:0 "Colonies are important for any spacefaring populace, but constructing, transporting, and settling a new world is a slow challenge. With prefabricated structures and a construction protocol in place, our colonization efforts have managed to streamline the process."
+ #64 - capital world efficiency: extra minerals production
+ GT_country_base_minerals_produces_add:0 "Home Matériel Directive"
+ GT_country_base_minerals_produces_add_desc:0 "Arms and equipment doesn't produce itself. Organizational and Operational Directives for the production of minerals for war efforts have proven effective on our Capital."
+ #65 - capital world efficiency: extra engineering research production
+ GT_country_base_engineering_research_produces_add:0 "Central Engineering Research Facility"
+ GT_country_base_engineering_research_produces_add_desc:0 "Establishment of a central Engineering facility improves coordination, communication, and leadership of all research efforts in the Capital."
+ #66 - colony buildings construction cost reduction
+ GT_planet_buildings_minerals_cost_add:0 "Recycled Prefabrication"
+ GT_planet_buildings_minerals_cost_add_desc:0 "Prefabricated buildings already allow for rapid colonization so the next logical step is the ability to reuse said materials. By recycling old prefabrications, colonies can construct new buildings at speed."
+ #67 - terraforming requires less materials
+ GT_terraforming_cost_mult:0 "Transformative Materials"
+ GT_terraforming_cost_mult_desc:0 "The only thing better than recycling is the ability for materials to transform. By applying terraforming techniques to our constructive materials themselves, builders can utilize them for almost anything needed."
+
+ ##############
+ ## pop jobs ##
+ #68 - engineering research production bonus from research jobs 1/3
+ GT_planet_researchers_engineering_research_produces_mult:0 "Research Grants"
+ GT_planet_researchers_engineering_research_produces_mult_desc:0 "Advancement in the sciences can be costly, especially when it comes to engineering. By allocating funds specifically for research, engineers and designers can iterate without budget concerns. If it isn't broke, it doesn't have enough features yet."
+ #69 - engineering research production bonus from research jobs 2/3
+ GT_planet_researchers_engineering_research_produces_mult2:0 "Intelligent Design"
+ GT_planet_researchers_engineering_research_produces_mult2_desc:0 "Discoveries of ancient and sophisticated civilizations as well as their plans for early intelligent life in the universe has led engineers to break the mold. Thinking outside the box has its merits, especially when avoiding the downfall of those who came before."
+ #70 - engineering research production bonus from research jobs 3/3
+ GT_planet_researchers_engineering_research_produces_mult3:0 "Determined Propensity Directives"
+ GT_planet_researchers_engineering_research_produces_mult3_desc:0 "Outside of natural discovery, engineers must constantly explore outside the proverbial box in order to improve established workings or create new ones. Government Directives allow for the organization of these efforts to make for the most efficient paths to discovery."
+
+ ####################
+ ## megastructures ##
+ #71 - megastructures construction speed bonus
+ GT_megastructure_build_speed_mult:0 "Precursor Designworks"
+ GT_megastructure_build_speed_mult_desc:0 "Examining the works of those who came before has lead to significant advances in the planning and execution of megastructure construction."
+ #72 - megastructures produce more minerals
+ GT_megastructures_minerals_produces_mult:0 "Autowork Factories"
+ GT_megastructures_minerals_produces_mult_desc:0 "Megastructures are suitably colossal and with that comes the ability to house appropriately sized autonomous factories within them. These giant facilities churn out and process materials at an exponential rate."
+ #73 - megastructures produce more engineering research
+ GT_megastructures_society_research_produces_mult:0 "Reexamination Protocols"
+ GT_megastructures_society_research_produces_mult_desc:0 "While innovation is an ever-changing process, sometimes it's beneficial to look to what led us down a path less traveled. Researching our own designs and how we came to the conclusions necessary to build them provides great strides in future studies and discovery."
+ #74 - megastructure alloy cost reduction
+ GT_megastructures_alloys_cost_mult:0 "Biosynthetic Metallurgy"
+ GT_megastructures_alloys_cost_mult_desc:0 "Combining biology with synthetic materials is no simple process. With a bit of ingenuity and a lot of unseemly results, we have been able to apply the proper process to certain metals. Fusing living organisms compatible with these materials gives them increased durability as well as self-regenerative properties, reducing maintenance costs."
+
+ ###########################################
+ #### Vanilla-like SOCIETY technologies ####
+ ###########################################
+
+ #############
+ ## Weapons ##
+ #75 - ship damage bonus against pirates
+ GT_damage_vs_country_type_pirate_mult:0 "Cultural Tactics"
+ GT_damage_vs_country_type_pirate_mult_desc:0 "Studying enemy psychology and cultural bias has been a point of contention amongst strategists for some time. An admiral in our navy has convinced the rest of the Admiralty the value of understanding your opponents every reason to make a choice, improving our success rate at identifying patterns and shutting down pirates' often erratic behaviours."
+
+ ###########
+ ## ships ##
+ #76 - ships have a higher anti-piracy effect
+ GT_ship_piracy_suppression_add:0 "Ruthless Reputations"
+ GT_ship_piracy_suppression_add_desc:0 "Pirates often enough respect authority once it's slammed into their faces. By taking the time and spreading the information of what happens to pirates caught by our fleets, they are less enthusiastic about their activities."
+ #77 - science ship is fast at researching anomalies
+ GT_ship_anomaly_research_speed_mult:0 "Aberration Academies"
+ GT_ship_anomaly_research_speed_mult_desc:0 "Exploration of space can be a daunting task, but one that provides the curious with a never-ending adventure of peculiar discoveries. Academies teaching students the finer aspects of anomaly research prepares them for the worst and best of their new profession."
+  # Hive Mind
+ GT_ship_anomaly_research_speed_mult_hive:0 "Analytical Processing"
+ GT_ship_anomaly_research_speed_mult_desc_hive:0 "Long experience with previous drones blindly attempting to figure out the universe's secrets has given us purpose in evolving specific knowledge seekers. These much more intelligent members of the <insert hive 000_desc:0riptor?> are much more capable of dissecting the secrets of the universe."
+  # Machine Empire
+ GT_ship_anomaly_research_speed_mult_mach:0 "Inquiry AI"
+ GT_ship_anomaly_research_speed_mult_desc_mach:0 "In a galaxy filled with organics fumbling about in the dark, it is up to our superior research units to propel our understanding to even greater heights. Inquiry-class AI have been integrated into all of our science ships and connected to the neural network, allowing for rapid processing of reports and data."
+ #78 - science ships are better at finding anomalies
+ GT_ship_anomaly_generation_chance_mult:0 "Quantum Data Network"
+ GT_ship_anomaly_generation_chance_mult_desc:0 "Storing knowledge is just as important as finding it. This upgraded network utilizes faster than light data streams with a centralized data source to house all known information from surveyors. Quick access to this is provided at a glance for those seeking new developments in the unknown."
+ #79 - ships gain experience faster
+ GT_ship_experience_gain_mult:0 "Adaptive Virtual Intelligence"
+ GT_ship_experience_gain_mult_desc:0 "Equipping vessels with a virtual intelligence capable of adapting to most situations is tantamount to AI function, but slightly safer due to the lack of personality matrices."
+ #80 - cheaper colony ships construction cost
+ GT_ship_colonizer_cost_mult:0 "Automated Colony Ship Systems"
+ GT_ship_colonizer_cost_mult_desc:0 "By automating most functions of colony ships, less staff need to be instructed and employed while cost-prohibitive systems can be replaced with cheaper alternatives."
+ #81 - colony ship construction speed bonus
+ GT_ship_colonizer_build_speed_mult:0 "Colonial Shipyards"
+ GT_ship_colonizer_build_speed_mult_desc:0 "Any civilization seeking to colonize the stars knows the use of having specified shipyards for the purpose. Dedicating supply routes and providing detailed plans additionaly simply the assembly process."
+ #84 - science ship construction speed bonus
+ GT_ship_science_ship_build_speed_mult2:0 "Correlative Data Systems"
+ GT_ship_science_ship_build_speed_mult2_desc:0 "Connecting all of a science ships working parts and electronics is a work of art. Thankfully, ship engineers are up to the task."
+ 
+ ##############
+ ## stations ##
+ #85 - starbases trade range bonus (further trade routes)
+ GT_starbase_trade_collection_range_add:0 "Commerce Hyperlanes"
+ GT_starbase_trade_collection_range_add_desc:0 "Providing offices for trading companies can drastically improve our empires trade capability. Being in close proximity to each other they can establish safe trade routes. Their trade ships can travel farther and faster with little added risk."
+ #86 - starbases build ships faster when we are defending (defensive war)
+ GT_starbase_defensive_war_ship_build_speed_mult:0 "Demagogue's Fervor"
+ GT_starbase_defensive_war_ship_build_speed_mult_desc:0 "Demagogues are often painted in a poor light, though there is no questioning their effectiveness in convincing the population to act in times of need."
+ #87 - starbases trade protection range bonus
+ GT_starbase_trade_protection_range_add:0 "Privateers"
+ GT_starbase_trade_protection_range_add_desc:0 "Commercial incentives have proven to be remarkably effective in reducing the danger of trade routes being plundered."
+ #82 - cheaper mining station construction cost
+ GT_station_gatherers_build_cost_mult:0 "Mining Administrations"
+ GT_station_gatherers_build_cost_mult_desc:0 "Industry and mining are necessary evils in order to continue providing for an ever-expanding civilization. The construction and maintenance of mining facilities is a drain on any government, and the formation of mining administrations has lessened the burden."
+ #83 - cheaper research station construction cost
+ GT_station_researchers_build_cost_mult:0 "Efficient Research Planning"
+ GT_station_researchers_build_cost_mult_desc:0 "Planning out research outposts has become a nececity as resources are often needed on mining stations and defensive stations first. Planning which research station gets constructed next is vital to keep our research going."
+
+ #############
+ ## leaders ##
+ #88 - leaders max age bonus
+ GT_leader_age:0 "Regenerative Cellular Reconstruction"
+ GT_leader_age_desc:0 "By resequencing DNA and splicing it with strands taken from a highly regenerative cell sample, we can live for much longer before cellular degradation begins to erode function."
+
+ ############
+ ## armies ##
+ #89 - armies train faster (experience bonus)
+ GT_army_experience_gain_mult:0 "Flash Learning"
+ GT_army_experience_gain_mult_desc:0 "Troops throughout their training process are connected to vast computer systems that employ visual and auditory stimulants in conjunction with neural data transmissions to rapidly teach non-physical regimens."
+ #90 - armies are harder to break (morale bonus)
+ GT_army_morale:0 "Hardened Conditioning"
+ GT_army_morale_desc:0 "Field training exercises have shown a remarkable increase in morale amongst troops put through rigorous conditioning exercises."
+
+ # Hive Mind
+ GT_army_morale_hive:0 "Singular Purpose"
+ GT_army_morale_desc_hive:0 "Further unifying our soldier drones directives have reduced their chances of splintering from the hive during combat."
+
+ # Machine Empire
+ GT_army_morale_mach:0 "No Quarter Directive"
+ GT_army_morale_desc_mach:0 "Combat Units have been upgraded with additional programming directives. Retreat is no longer an option."
+ #91 - armies are more lethal
+ GT_army_damage_mult:0 "Focus Fire Initiative"
+ GT_army_damage_mult_desc:0 "Troops have been instructed on the merits of focusing their fire onto a singular, critical target, improving their destructive coordination."
+
+ # Hive Mind
+ GT_army_damage_mult_hive:0 "Swarm Tactics"
+ GT_army_damage_mult_desc_hive:0 "The benefits of our innumerable hive drones allows for overrunning and consuming all who encounter the swarm."
+
+ # Machine Empire
+ GT_army_damage_mult_mach:0 "Eradication Protocols"
+ GT_army_damage_mult_desc_mach:0 "Strategic AI's have been modified with an Eradication Protocol. All combat units under their directive will no longer fight with survivors guaranteed."
+
+ #############
+ ## country ##
+ #92 - empire is better at managing itself on galactic scale 1/3
+ GT_country_admin_cap_add:0 "Defined Hierarchy"
+ GT_country_admin_cap_add_desc:0 "The bigger an empire gets, the more difficult it can be to keep track of rank. With a regimented and defined hierarchy, everyone knows who to answer to."
+ #93 - empire is better at managing itself on galactic scale 2/3
+ GT_country_admin_cap_add2:0 "Investigative Bureau"
+ GT_country_admin_cap_add2_desc:0 "An organized government force dedicated to rooting out corruption within the empire, no matter how far across the galaxy."
+ #94 - empire is better at managing itself on galactic scale 3/3
+ GT_country_admin_cap_add3:0 "Centralized Agency"
+ GT_country_admin_cap_add3_desc:0 "A giant government facility that is responsible for managing the various agencies throughout the empire. With vast communication networks and data libraries, the potential for misplaced governance is heavily minimized."
+ #95 - less waste when breaking down buildings (better at recycling?)
+ GT_planet_building_refund_mult:0 "Reusable Materials"
+ GT_planet_building_refund_mult_desc:0 "Significant improvements in recycling technology has given our engineers the ability to incorporate and breakdown reusable materials and parts in most construction."
+ #96 - colonies are better at clearing hazards on the planet
+ GT_planet_clear_blocker_time_mult:0 "Planetoid Sweepers"
+ GT_planet_clear_blocker_time_mult_desc:0 "Employing colossal automated rovers that clear away obstructions on a massive scale has improved our ability to perfect a planet's suitability for development."
+ #97 - capital world efficiency: food production bonus
+ GT_country_base_food_produces_add:0 "AgriCorps Headquarters"
+ GT_country_base_food_produces_add_desc:0 "The centralization of agriculture programs and organization has shown a significant increase in capital food production."
+ #98 - capital world efficiency: society research bonus
+ GT_country_base_society_research_produces_add:0 "Quid Pro Quo"
+ GT_country_base_society_research_produces_add_desc:0 "Core world scientists have been sufficiently motivated with new research grants, improving efficiency."
+ #99 - districts are cheaper to construct
+ GT_planet_districts_minerals_cost_add:0 "Outer District Stockpiles"
+ GT_planet_districts_minerals_cost_add_desc:0 "By storing our excess resources in stockpiles in our outer districts we can construct new ajacent districts at a reduced cost."
+ #100 - ability to survive on desert worlds is improved
+ GT_pc_desert_habitability:0 "Personal Thermoregulation Units"
+ GT_pc_desert_habitability_desc:0 "A small device that projects a field of cold air around the user. Useful in areas with extreme heat."
+ 
+ GT_pc_arid_habitability:0 "Moisture Farms"
+ GT_pc_arid_habitability_desc:0 "Tall tree-like structures that slowly spin their metallic leaves around capturing moisture from the air."
+
+ #101 - ability to survive on savannah worlds is improved
+ GT_pc_savannah_habitability:0 "Hydrogeneration"
+ GT_pc_savannah_habitability_desc:0 "Simply creating water out of nothing is an impossibility. Creating water out of rock and sand however, is a draining process, but a possible one."
+ #102 - ability to survive on tropical worlds is improved
+ GT_pc_tropical_habitability:0 "Anti-Disease Symbiotes"
+ GT_pc_tropical_habitability_desc:0 "The most dangerous aspect of tropical habitation is often the diseases introduced by such systems. With these engineered symbiotes, preventing and fighting said concerns is much easier."
+
+ # Machine Empire
+ GT_pc_tropical_habitability_mach:0 "Derusting Microbots"
+ GT_pc_tropical_habitability_desc_mach:0 "The humidity of a tropical world can play havoc with most machinery. Equipping all units with micro derustors decreases need for frequent maintenance."
+ #103 - ability to survive on continental worlds is improved
+ GT_pc_continental_habitability:0 "By Land Or Sea"
+ GT_pc_continental_habitability_desc:0 "In order to effectively colonize continents, we must be equally suited to both land and sea. Converting land-based technology to work in a hydrosphere is a solid first step."
+ #104 - ability to survive on ocean worlds is improved
+ GT_pc_ocean_habitability:0 "Aquatic Habitats"
+ GT_pc_ocean_habitability_desc:0 "Constructing underwater municipalities utilizing water resistant alloys improves ocean world habitability."
+ #105 - ability to survive on tundra worlds is improved
+ GT_pc_tundra_habitability:0 "Precipitation Generators"
+ GT_pc_tundra_habitability_desc:0 "Significant dry seasons and arid land pose significant issues. High-maintenance moisture generators convert the near frozen air into usable water."
+ #106 - ability to survive on arctic worlds is improved
+ GT_pc_arctic_habitability:0 "Fusion Heat Reactors"
+ GT_pc_arctic_habitability_desc:0 "The benefit of fusion technology applies to more than just power. By utilizing the heat generated by such devices, entire settlements can be kept warm, despite inhospitable temperatures."
+ #107 - ability to survive on alpine worlds is improved
+ GT_pc_alpine_habitability:0 "Bedrock Settlements"
+ GT_pc_alpine_habitability_desc:0 "Engineers have perfected the art of constructing settlements both without and within mountain ranges."
+ #108 - colonies are faster to setup
+ GT_planet_colony_development_speed_mult:0 "Supply Ships"
+ GT_planet_colony_development_speed_mult_desc:0 "Colony ships escorted by smaller prefabricated supply ships reduces the amount of time needed to equip a new colony."
+ #109 - planets do special stuff faster (this can be very generic, something about faster decision making)
+ GT_planet_decision_enact_speed_mult:0 "Warp Processing"
+ GT_planet_decision_enact_speed_mult_desc:0 "Computational advancements in AI technology combined with experimental microwarp technology allow for AI's to now process and make millions of decisions in less than a microsecond."
+ #110 - empire leader decisions have a longer lasting effect
+ GT_edict_length_mult:0 "Demagogue Training"
+ GT_edict_length_mult_desc:0 "Educating leaders in the art of speaking and persuasion improves their ability to convince others of their positions, cementing them in the minds of the people."
+ #111 - diplomatic insults are more insulting..
+ GT_country_insult_efficiency:0 "Eloquent Calumniating"
+ GT_country_insult_efficiency_desc:0 "Diplomacy is often the art of being able to bring people together, but sometimes it is more beneficial to be feared. Diplomats trained in psychology can put it to use when undermining the enemy."
+ #112 - empire is diplomatically more active in the galaxy
+ GT_max_rivalries:0 "Abrassive Diplomacy"
+ GT_max_rivalries_desc:0 "Putting up a harsh and strict diplomatic front might not be the kindest way to hold talks, but it sure as blorg makes us heard."
+ #113 - more favourable surrender terms  (hostile empires are more likely to accept surrender)
+ GT_country_subject_acceptance_add:0 "Irrefutable Ultimatums"
+ GT_country_subject_acceptance_add_desc:0 "Once dominance has been displayed, issuing an ultimatum becomes less a matter of potential refusal and more akin to inevitable acquiescence."
+ #114 - resettling population is cheaper
+ GT_country_resettlement_cost_mult:0 "Emigration Accounts"
+ GT_country_resettlement_cost_mult_desc:0 "Seperate imigration funds and budgets provides a faster way of financing resettlement endeavors."
+ #115 - wars are less draining on resources
+ GT_country_war_exhaustion_mult:0 "Wartime Industry"
+ GT_country_war_exhaustion_mult_desc:0 "Policies that dictate both resource consumption as well as directed workforces improve utilization of said resources during wartime."
+ #116 - colonies are faster in making decisions for what to build
+ GT_planet_buildings_influence_cost_mult:0 "Settlement AI"
+ GT_planet_buildings_influence_cost_mult_desc:0 "An intricate cognitive AI that is designed to simplify construction of settlements. By analyzing the needs of the populace, the AI determines a priority list for construction in rapid succession."
+ #117 - easier to live on inhospitable worlds
+ GT_pop_environment_tolerance:0 "Adaptable Engineering"
+ GT_pop_environment_tolerance_desc:0 "Designing shelters and outposts that are capable of functioning on a variety of worlds assists greatly when dealing with the inhospitable."
+ #119 - borders cause less diplomatic friction
+ GT_country_border_friction_mult:0 "Cultural Exchange Posts"
+ GT_country_border_friction_mult_desc:0 "Small, interstellar facilities that are equipped to house a modest amount of beings as well as outfitted with materials and items of cultural significance. Designed with the intention of broadening cultural awareness and acceptance, these facilities help reduce the contentious nature of sharing borders."
+ #120 - terraforming is faster
+ GT_terraform_speed_mult:0 "Transformative Curriculum"
+ GT_terraform_speed_mult_desc:0 "Specific programs and educational opportunities in terraforming allow scientists to not just specialize in this difficult task, but to also maintain their expertise and knowledge of techniques."
+ #121 - time it takes to integrate another empire into our own is lessened
+ GT_country_integration_cooldown_mult:0 "Cutthroat Confederation"
+ GT_country_integration_cooldown_mult_desc:0 "Normally integrating one empire into another is a diplomatically delicate process. By ignoring traditional protocols and employing annexation directives, an empire can be integrated in a significantly shorter period of time."
+ #122 - making a claim on another empire's system is diplomatically less frowned upon.
+ GT_country_claim_influence_cost_mult:0 "Convincing Possessive Persuasion"
+ GT_country_claim_influence_cost_mult_desc:0 "Some diplomats are exceedingly good at convincing the galaxy that possession is 9/10ths of the law."
+
+ ##############
+ ## pop jobs ##
+ #123 - society research production bonus from research jobs 1/3
+ GT_planet_researchers_society_research_produces_mult:0 "Cultural Studies"
+ GT_planet_researchers_society_research_produces_mult_desc:0 "All research curriculum has been expanded with additional cultural anecdotes from all known sources in the galaxy, improving general knowledge of galactic culture."
+ #124 - society research production bonus from research jobs 2/3
+ GT_planet_researchers_society_research_produces_mult2:0 "Galactic Social Center"
+ GT_planet_researchers_society_research_produces_mult2_desc:0 "A large museum-like structure incorporating cultural artifacts and treatises from across the galaxy. These massive repositories help to expand understanding and the broadening of societal thought."
+ #125 - society research production bonus from research jobs 3/3
+ GT_planet_researchers_society_research_produces_mult3:0 "Civic Revelations"
+ GT_planet_researchers_society_research_produces_mult3_desc:0 "With the continued exploration and incredible encounters of space, our scientists have continued to expand their knowledge of society and how it evolves in unique ways."
+
+ ####################
+ ## megastructures ##
+ #126 - megastructure engineering research production bonus
+ GT_megastructures_engineering_research_produces_mult:0 "Integrated Engineering Labs"
+ GT_megastructures_engineering_research_produces_mult_desc:0 "Building a megastructure is an engineering feat all its own. By incorporating large engineering labs into them, our engineers can more easily maintain and study these massive creations."
+ #127 - it's politically cheaper to build a magestructure (less "not in my backyard" friction when trying to build them)
+ GT_megastructures_influence_cost_add:0 "Black Budgets"
+ GT_megastructures_influence_cost_add_desc:0 "Classifying all reports and splitting up production of each section of a megastructure reduces the likelihood of political elements discovering its existence."
+
+
