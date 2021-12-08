@@ -1,0 +1,467 @@
+﻿l_french:
+ IS_YOU:1 "C'est vous."
+
+# Empire Federation
+
+ vf_ef_federation:0 "Empire"
+ vf_ef_federation_desc:0 "Ce système de gouvernement est structuré autour d'une nation couronne qui exerce un contrôle quasi absolu sur les nations qui lui sont soumises."
+
+ ACTION_RECIPIENT_NO_SATRAPY:0 "Le destinataire ne doit pas être une satrapie sous l'autorité du Grand Khan."
+
+ war_goal_wg_leave_empire:0 "Quitter l'Empire"
+ war_goal_wg_leave_empire_desc:0 "Une guerre est menée pour faire sécession de l'Empire. Les autres sujets qui pensent comme nous peuvent être invités à nous aider, même s'ils ne font pas eux-mêmes sécession."
+ 
+ war_goal_wg_assert_empire:0 "Affirmer l'autorité impériale"
+ war_goal_wg_assert_empire_desc:0 "Une guerre est menée pour empêcher un de nos sujets de faire sécession."
+ 
+ wg_leave_empire_accept:0 "§Y[Root.GetName]§! fait sécession de §Y[From.GetAllianceName]§! et est désormais indépendant.\n§Y[From.GetName]§! révoque toutes les revendications sur les systèmes §Y[Root.GetAdj]§!."
+ wg_leave_empire_status_quo:0 "§Y[Root.GetName]§! fait sécession de la §Y[From.GetAllianceName]§!"
+ wg_assert_empire_accept:0 "§Y[From.GetName]§! reste un sujet du §Y[Root.GetAllianceName]§!."
+
+ opinion_wanted_to_leave_empire:0 "Demandé de quitter l'Empire"
+ opinion_denied_to_leave_empire:0 "Demande refusée de quitter l'Empire"
+ opinion_broke_empire:0 "a brisé l'Empire"
+ 
+ requires_actor_not_already_asked_empire:0 "$TRIGGER_FAIL$§RWe ont récemment demandé à quitter l'Empire et ont été refusés. Si nous voulons partir, nous devrons déclarer une guerre pour notre indépendance.§!"
+ requires_actor_not_rebelled_empire:0 "$TRIGGER_FAIL$§RWe ne peut demander à partir avant que§! §Y20§! §Rans se soient écoulés depuis notre dernière tentative de sécession.§!"
+ 
+ federation_actor_no_separate_treaties_empire:0 "§Y$law_category_separate_treaties_empire$§! §Rest §Y$treaties_separate_no$§! par décret impérial - nous ne pouvons pas avoir de traités avec des nations qui ne sont pas membres de notre empire.§!"
+
+ federation_recipient_no_separate_treaties_empire:0 "§RLeur §Y$law_category_separate_treaties_empire$§! est §Y$treaties_separate_no$§! par décret impérial, ils ne peuvent donc pas conclure un tel accord.§!"
+
+ ACTION_RECIPIENT_NOT_YOURS:0 "§RCette nation est un sujet d'un autre empire.§!"
+
+ EMPIRE_LAW_CHANGE:0 "L'empire ne permet pas actuellement de réviser la loi."
+
+ edict_empire_law_change_disabled:0 "Empire : Interdire les changements de loi"
+ edict_empire_law_change_disabled_desc:0 "Il n'y aura aucun changement de loi dans l'empire jusqu'à ce que l'empereur en décide autrement."
+
+ edict_empire_law_change_enabled:0 "Empire : Autoriser les changements de loi"
+ edict_empire_law_change_enabled_desc:0 "L'empereur décrète que certaines lois doivent être révisées."
+
+ vf.ef.form.desc:0 "$fedev.500.intro$\n\nCet Empire assurera la sécurité de ses sujets grâce à la direction éclairée de sa Couronne.\n\nUne nouvelle ère de [fed_founder_1.GetAdj] domination a commencé !"
+
+ # Modifiers
+
+ imperial_subject_diplo_decrease:0 "Sujet impérial"
+
+ # Perks
+
+ empire_federation_passive:0 "Autorité impériale"
+ empire_federation_passive_desc:0 "La force de l'empire ne doit pas être sapée par l'ambition personnelle."
+ empire_federation_passive_effect:1 "Les sujets ne peuvent pas quitter librement l'empire. Si leur empereur refuse leur demande d'indépendance, le sujet obtient le §YSécession§! Casus Belli et peut tenter de faire sécession de l'empire."
+ 
+ emperor_empire_cb_1:0 "Puissance impériale"
+ emperor_empire_cb_1_desc:0 "Pour la gloire de notre empire, nous allons nous étendre."
+ emperor_empire_cb_1_effect:1 "La Couronne obtient l'objectif §YImperialism Wargoal§! pour forcer une nation souveraine à se soumettre à l'autorité impériale."
+
+ emperor_diplo_weight_steal_1:0 "Affaires impériales"
+ emperor_diplo_weight_steal_2:0 "Affaires impériales II"
+ emperor_diplo_weight_steal_3:0 "Affaires impériales III"
+ emperor_diplo_weight_steal_4:0 "Affaires impériales IV"
+ emperor_diplo_weight_steal_5:0 "Affaires impériales V"
+ emperor_diplo_weight_steal_1_desc:0 "Les nations soumises peuvent avoir un large contrôle sur leurs affaires intérieures, mais les affaires étrangères relèvent de la responsabilité de la Couronne."
+ emperor_diplo_weight_steal_1_effect:1 "Chaque sujet transfère §Y40%§! de ses §Y$MOD_DIPLO_WEIGHT_MULT$§! à la Couronne. Pour chaque niveau d'empire, cela augmente de §Y10%§!, de sorte qu'au niveau 5, les sujets transfèrent §Y80%§! de leurs §Y$MOD_DIPLO_WEIGHT_MULT$§! à la Couronne."
+ 
+ vf_ef_job_output_1:0 "Administration impériale"
+ vf_ef_job_output_1_desc:0 "L'administration efficace et compétente de notre empire a conduit à des améliorations massives de la production."
+ 
+ emperor_unity_1:0 "Destin impérial"
+ emperor_unity_1_desc:0 "Les citoyens de notre empire sont fiers de ce qu'ils ont accompli."
+ 
+ imperial_upkeep_1:0 "Infrastructure de recherche impériale"
+ imperial_upkeep_1_desc:0 "Les accords mutuellement bénéfiques entre nos pays sujets sont beaucoup plus faciles à coordonner lorsque nos agents de surveillance sont directement intégrés dans l'appareil gouvernemental de chaque sujet."
+ imperial_upkeep_1_effect:0 "Les accords de recherche et les pactes de migration entre les nations concernées ne coûtent pas d'influence £influence£ dans leur entretien."
+ 
+ empire_research_boost_1:0 "Initiative de recherche impériale"
+ empire_research_boost_1_desc:0 "Grâce à l'efficacité de l'administration impériale, les meilleurs scientifiques et chercheurs de toutes les exploitations de notre empire sont mieux à même de communiquer leurs idées et de partager leurs connaissances entre eux. Cette collaboration accrue a conduit à des avancées remarquables dans tous les domaines."
+ empire_research_boost_1_effect:0 "Chaque membre de l'empire gagne §Y7, 5%§! de vitesse de recherche."
+ 
+ extra_imperial_envoy_1:0 "Envoyés impériaux"
+ extra_imperial_envoy_1_desc:1 "Le corps diplomatique joue un rôle vital dans le maintien de notre empire."
+
+ imperial_influence_1:0 "Responsabilité ultime"
+ imperial_influence_1_desc:0 "S'élever pour devenir l'empire que nous sommes aujourd'hui n'a pas été facile. Tout ce que nous avons maintenant, il faudra travailler pour le protéger."
+ imperial_influence_1_effect:0 "Gain d'influence de l'Empire : §G+2§!"
+ 
+ empire_fleet_speed_1:0 "Lignes intérieures"
+ empire_fleet_speed_1_desc:1 "Les couloirs hyperspatiaux bien cartographiés et patrouillés sur notre territoire offrent une liberté de mouvement inégalée, permettant à nos marines de se concentrer rapidement partout où cela est nécessaire."
+ empire_fleet_speed_effect:0 "La §YVitesse du navire§! est augmentée de §G+10%§! lorsqu'il se trouve dans notre empire."
+ 
+ empire_ship_gain:0 "Subventions pour les chantiers navals"
+ empire_ship_gain_desc:0 "La sécurité et la prospérité de l'empire doivent être maintenues par nos flottes haut de gamme. À cette fin, l'empire consacrera du temps et des ressources à faire de nos chantiers navals les meilleurs de la galaxie."
+ empire_ship_gain_effect:0 "La §YVitesse de construction des navires§! est augmentée de §G+20%§! dans tout notre empire."
+ 
+ emperor_megastructure_1:0 "Initiative de construction impériale"
+ emperor_megastructure_1_desc:0 "La capacité de la Couronne à concentrer la puissance logistique de l'ensemble de notre empire sur de grands projets contribuera à assurer la longévité de l'empire."
+ emperor_megastructure_1_effect:0 "La §YCapacité des Mégastructures§! est augmentée de §G2§! pour la Couronne."
+ 
+ cohesion_empire_join_1:0 "La force par l'unité"
+ cohesion_empire_join_1_desc:0 "Notre empire ne permettra pas à de nouveaux sujets de menacer notre unité."
+ cohesion_empire_join_1_effect:0 "La §YPerte de cohésion§! des nouveaux sujets est réduite de §G-65%§!."
+ 
+ empire_fleet_size_1:0 "Flotte impériale unifiée"
+ empire_fleet_size_1_desc:0 "Une grande flotte impériale unifiée est le seul moyen d'assurer l'autonomie de nos sujets et la sécurité de l'empire."
+ empire_fleet_size_1_effect:0 "La contribution des membres de l'empire à la §Ycapacité navale impériale§! compte pour §G+15%§! de plus."
+ 
+ empire_trade_value_1:0 "Routes commerciales impériales"
+ empire_trade_value_1_desc:0 "La marine impériale a éradiqué la plupart des pirates qui sévissaient sur les routes commerciales de notre empire. De plus, l'administration impériale par les meilleurs économistes et marchands de notre empire a normalisé la façon de faire des affaires dans la majorité de notre domaine."
+ 
+ # Casus Belli
+ casus_belli_cb_empire:0 "Subjugation"
+ 
+ # War Goals
+ war_goal_wg_empire:0 "Impérialisme"
+ war_goal_wg_empire_desc:0 "La guerre est menée pour forcer l'ennemi à devenir membre de notre empire.\n\n\n\nEn cas de paix de statu quo, les systèmes que nous occupons seront libérés en tant que nouveau sujet de notre empire s'ils comprennent au moins une planète."
+
+ wg_empire_status_quo:0 "Notre sujet §Y[Root.GetName]§! a fait partiellement sécession de la §Y[From.GetAllianceName]§!."
+ wg_empire_accept:0 "L'empire est fort ! §Y[From.GetName]§! est désormais un sujet de l'§Y[Root.GetAllianceName]§!"
+
+ 
+ # Federation
+ 
+ requires_feudal_1:0 "§RVous devez avoir la doctrine §Y$civic_feudal_realm$§!.§!"
+ 
+ federation_acceptance_empire_federation:0 "Sujet"
+ federation_acceptance_empire:0 "Nos sujets feront ce que nous leur ordonnons"
+ federation_acceptance_empire_other:0 "Aucun désir d'abandonner l'autonomie"
+ 
+ declare_war_unanimous_vote_empire:0 "Unanimité"
+ declare_war_unanimous_vote_empire_desc:0 "Nous combattons le mieux lorsque chaque membre de notre empire est dévoué à l'effort."
+ 
+ declare_war_majority_vote_empire:0 "$declare_war_majority_vote$"
+ declare_war_majority_vote_empire_desc:0 "Si la majorité des sujets de l'empire le veulent, alors cela se produira."
+ 
+ declare_war_president_vote_empire:0 "Le droit de l'empereur"
+ declare_war_president_vote_empire_desc:0 "C'est le seul droit de l'empereur de déclarer la guerre.\n\n§REn raison d'un bug, tant que cette loi est active, les sujets ne pourront pas déclarer de guerre de sécession. Cette fonctionnalité n'est pas prévue.§!"
+ 
+ fleet_contribution_none_empire:0 "Aucun"
+ fleet_contribution_none_empire_desc:0 "L'empire n'a pas besoin des navires de ses sujets."
+ fleet_contribution_low_empire:0 "$fleet_contribution_low$"
+ fleet_contribution_low_empire_desc:0 "Une forme limitée de marine impériale est bonne pour le moral et la cohésion."
+ fleet_contribution_medium_empire:0 "$fleet_contribution_medium$"
+ fleet_contribution_medium_empire_desc:0 "À des fins stratégiques, l'empire doit maintenir une modeste marine impériale."
+ fleet_contribution_high_empire:0 "$fleet_contribution_high$"
+ fleet_contribution_high_empire_desc:0 "La force de l'empire passe avant la force de n'importe quel sujet."
+ 
+ fleet_contribution_empire_low_effect:0 "Les membres de notre empire transfèrent §Y10%§! de leur capacité navale à la marine impériale."
+ fleet_contribution_empire_medium_effect:0 "Les membres de notre empire transfèrent §Y25%§! de leur capacité navale à la marine impériale."
+ fleet_contribution_empire_high_effect:0 "Les membres de notre empire transfèrent §Y50%§! de leur capacité navale à la marine impériale."
+
+ succession_type_strongest_empire:0 "Le plus fort"
+ succession_type_strongest_empire_desc:2 "La Couronne sera choisie parmi la nation la plus puissante, en fonction de la §Y$law_category_succession_power$§! choisie. Les lois $law_category_succession_power$ seront disponibles lorsque cette loi sera active."
+ 
+ succession_type_challenge_empire:0 "Défi"
+ succession_type_challenge_empire_desc:0 "L'empire choisit son chef par défi légal."
+
+ succession_term_status_change_empire:0 "Changement de statut"
+ succession_term_status_change_empire_desc:0 "Une nouvelle nation souveraine est choisie si une nation soumise la dépasse de §Y25%§!."
+ 
+ federation_build_fleets_only_leader_empire:0 "Couronne seule"
+ federation_build_fleets_only_leader_empire_desc:0 "Seule la Couronne peut ordonner la construction de nouveaux navires pour la flotte impériale."
+ federation_build_fleets_everyone_empire:0 "Tout le monde"
+ federation_build_fleets_everyone_empire_desc:0 "Toutes les nations soumises peuvent ordonner la construction de nouveaux navires pour la flotte impériale."
+
+ vote_weight_equal_empire:0 "Equal"
+ vote_weight_equal_empire_desc:0 "Nous, ainsi que nos sujets, avons tous une voix de poids égal."
+ vote_weight_diplomatic_empire:0 "Diplomatique"
+ vote_weight_diplomatic_empire_desc:0 "Les votes sont déterminés par le poids diplomatique. Les nations sujettes les plus influentes auront plus de pouvoir."
+ 
+ invite_members_president_vote_empire:0 "Le droit de l'empereur"
+ invite_members_president_vote_empire_desc:0 "C'est le droit de l'empereur de décider de leurs sujets."
+ invite_members_majority_vote_empire:0 "Vote majoritaire"
+ invite_members_majority_vote_empire_desc:0 "Si la majorité de nos sujets sont d'accord, nous en prendrons un autre."
+ invite_members_unanimous_vote_empire:0 "Vote unanime"
+ invite_members_unanimous_vote_empire_desc:0 "Les nouveaux sujets de l'empire doivent obtenir l'approbation de l'ensemble de l'empire."
+
+ kick_members_president_vote_empire:0 "Le droit de l'empereur"
+ kick_members_president_vote_empire_desc:0 "Le président a le pouvoir de décider si un membre doit être retiré de la fédération."
+ kick_members_majority_vote_empire:0 "Vote majoritaire"
+ kick_members_majority_vote_empire_desc:0 "Un membre peut être retiré de la fédération par un vote à la majorité."
+
+ free_migration_no_empire:0 "Handicapés"
+ free_migration_no_empire_desc:0 "Les sujets doivent signer des traités de migration individuels."
+ free_migration_yes_empire:0 "Activé"
+ free_migration_yes_empire_desc:0 "Les traités de migration sont libres et automatiques entre tous les sujets."
+
+ treaties_separate_yes_empire:0 "Autorisé"
+ treaties_separate_yes_empire_desc:0 "Les nations soumises sont autorisées à signer des accords diplomatiques avec des nations extérieures à l'empire."
+ treaties_separate_no_empire:0 "Interdit"
+ treaties_separate_no_empire_desc:0 "Les nations soumises n'ont pas le droit de conclure des accords de recherche, des traités de migration ou des pactes commerciaux avec des nations extérieures à l'empire."
+
+ allow_subjects_to_join_no_empire:0 "Non"
+ allow_subjects_to_join_no_empire_desc:0 "Les sujets ne peuvent pas rejoindre l'empire."
+ allow_subjects_to_join_yes_empire:0 "Oui"
+ allow_subjects_to_join_yes_empire_desc:0 "Les sujets sont autorisés à rejoindre l'empire."
+ 
+ succession_power_economy_empire:0 "Économie"
+ succession_power_economy_empire_desc:0 "Notre nation héritière devrait être choisie parmi les nations ayant la plus forte §Yéconomie§!."
+ succession_power_tech_empire:0 "Technologie"
+ succession_power_tech_empire_desc:0 "Notre nation héritière devrait être choisie parmi les nations les plus avancées en matière de §Ytechnologie§!."
+ succession_power_fleet_empire:0 "Flottes"
+ succession_power_fleet_empire_desc:0 "Notre nation souveraine devrait être choisie parmi les nations possédant la plus grande et la plus puissante §Ymarine§!."
+ succession_power_diplomatic_weight_empire:0 "Poids diplomatique"
+ succession_power_diplomatic_weight_empire_desc:0 "Notre nation héritière devrait être choisie parmi les nations ayant le plus grand §Ypoids diplomatique§!."
+
+ disabled_for_empire:0 "§RUn §Y$vf_ef_federation$§! ne peut pas interdire l'adhésion des nations sujettes.§!"
+ 
+ # Federation Laws
+ 
+ law_category_fleet_contribution_empire:0 "Contribution de la flotte"
+ law_category_fleet_contribution_empire_desc:0 "Ces lois déterminent la capacité navale que nos sujets apportent à la marine impériale."
+
+ law_category_succession_type_empire:0 "Moyens de succession"
+ law_category_succession_type_empire_desc:0 "Ces lois déterminent la manière dont est choisie la nation de la Couronne."
+ 
+ law_category_succession_power_empire:0 "Succession"
+ law_category_succession_power_empire_desc:0 "Ces lois déterminent quelle catégorie est mesurée pour choisir la nation la plus forte de la Couronne."
+
+ law_category_succession_term_empire:0 "Durée du règne"
+ law_category_succession_term_empire_desc:0 "Cette loi détermine la durée du règne de l'empereur."
+ 
+ law_category_challenge_empire:0 "Type de défi de la relève"
+ law_category_challenge_empire_desc:0 "Définit le type de défi qui sera utilisé pour déterminer la prochaine nation de la Couronne."
+ 
+ law_category_build_fleets_empire:0 "Construction de la flotte impériale"
+ law_category_build_fleets_empire_desc:0 "Il détermine qui peut construire des navires pour la marine impériale."
+ 
+ law_category_allow_subjects_to_join_empire:0 "Adhésion au sujet"
+ law_category_allow_subjects_to_join_empire_desc:0 "Cela détermine si nous autorisons des sujets à rejoindre notre empire."
+ 
+ law_category_voting_weight_empire:0 "Poids du vote"
+ law_category_voting_weight_empire_desc:0 "Cela détermine le poids des 'votes' au sein de l'empire."
+ 
+ law_category_war_declaration_vote_empire:0 "Déclaration de guerre"
+ law_category_war_declaration_vote_empire_desc:0 "Ces lois déterminent comment l'empire doit déclarer la guerre."
+ 
+ law_category_invite_members_vote_empire:0 "Inviter les membres"
+ law_category_invite_members_vote_empire_desc:0 "Ces lois déterminent comment nous décidons d'accepter de nouveaux sujets dans l'empire."
+ 
+ law_category_kick_members_vote_empire:0 "Membres du Kick"
+ law_category_kick_members_vote_empire_desc:0 "Ces lois déterminent comment nous décidons d'éjecter des sujets de notre empire."
+ 
+ law_category_free_migration_empire:0 "Migration libre"
+ law_category_free_migration_empire_desc:0 "Ces lois déterminent si nous permettons la libre migration des espèces dans notre empire."
+ 
+ law_category_separate_treaties_empire:0 "Traités distincts"
+ law_category_separate_treaties_empire_desc:0 "Cela détermine si nous autorisons nos sujets à avoir leurs propres traités individuels avec d'autres nations."
+ 
+ challenge_type_arena_combat_empire:0 "Combat en arène"
+ challenge_type_arena_combat_empire_desc:0 "La seule façon raisonnable de déterminer qui devrait diriger notre empire est de lâcher les dirigeants de toutes les nations membres dans une grande arène où ils devront se battre jusqu'à la mort. Le survivant, ayant prouvé sa force, devrait diriger l'empire.\n\n§YLa victoire dépendra de :\n- Les traits du leader et de l'espèce du dirigeant\n- L'éthique et le civisme de l'empire§!\n\n§RLes nations de la Conscience Gestalt n'ont pas de dirigeants pouvant participer et doivent déclarer forfait.§!"
+ 
+ 
+ challenge_type_psionic_battle_empire:0 "Bataille psionique"
+ challenge_type_psionic_battle_empire_desc:0 "La question de savoir qui devrait diriger notre empire est trop importante pour être décidée dans les limites banales de notre royaume corporel. Chaque nation enverra ses plus puissants médiums pour s'affronter dans une bataille titanesque qui déchirera momentanément le tissu même de la réalité. \nLa victoire dépendra de :\n\n- Le nombre de Pops avec des traits psioniques\n- Le nombre de Pops avec le travail de télépathe\n- Les offres de Zro§!\n\n§RLes nations sans Pops psioniques ne peuvent pas participer et doivent déclarer forfait§!."
+ 
+ 
+ challenge_type_bidding_war_empire:0 "Règle d'or"
+ challenge_type_bidding_war_empire_desc:0 "Toutes les merveilles des civilisations avancées peuvent finalement être attribuées à un concept simple : les ressources disponibles. Le droit de régner ne devrait pas être mesuré par la taille du cerveau ou la force du bras, mais par la profondeur de la poche.\n\n§YLa victoire dépendra de :\n- Crédits d'énergie (£energy£) disponibles.\n- Crédits d'énergie (£energy£) dépensés.§!\n\n§HLes enchères sont payées d'avance. Le pot final est à la discrétion du gagnant.§!"
+ 
+ 
+ challenge_type_thesis_empire:0 "Défense de la thèse"
+ challenge_type_thesis_empire_desc:0 "Le titre d'Empereur ne doit jamais être accordé à l'imbécile ou à l'ignorant. Au lieu de cela, nous choisissons l'épreuve de la science : exposer la sagesse et les idées du souverain et de la nation à l'examen public, alors que chacun étudie un problème auquel notre empire est actuellement confronté.\n\n§YLa victoire dépendra de :\n- Les traits du dirigeant et du scientifique du souverain\n- Le niveau de technologie§!\n\n§HChaque thèse sera examinée dans les 60 jours.§!\n\n§RLes nations qui n'ont pas de dirigeant et au moins un scientifique au moment de l'examen seront déclarées forfait.§!"
+ 
+ 
+ law_category_centralization_empire:0 "Centralisation de l'empire"
+ law_category_centralization_empire_desc:0 "Certaines lois sont difficiles à adopter, même pour un empereur. L'empire doit en outre s'unir pour que certaines lois deviennent viables."
+ 
+ centralization_minimal_empire:0 "Minimal"
+ centralization_minimal_empire_desc:0 "L'influence de la Couronne sur son sujet est réduite au minimum."
+ 
+ centralization_low_empire:0 "Faible"
+ centralization_low_empire_desc:0 "Le niveau d'influence de la Couronne sur ses États sujets est maintenu très bas."
+ 
+ centralization_medium_empire:0 "Moyen"
+ centralization_medium_empire_desc:0 "La Couronne a une grande influence sur ses sujets, tout en permettant une certaine indépendance de gouvernement."
+ 
+ centralization_high_empire:0 "Haut"
+ centralization_high_empire_desc:0 "L'influence de la Couronne sur ses États sujets est presque absolue."
+ 
+ centralization_very_high_empire:0 "Très élevé"
+ centralization_very_high_empire_desc:0 "La Couronne exerce un contrôle souverain sur la manière dont les États sujets sont gouvernés."
+
+
+##############################
+# JOINT OPERATIONS
+##############################
+
+ empire_joint_project_chain_title:0 "Une célébration de l'unité, du leadership et de la gloire de l'Empire"
+ empire_joint_project_chain_desc:0 "Une opération a été lancée entre les sujets de la [Root.Federation.GetName] pour célébrer sa forte direction et pousser à une plus grande unité idéologique."
+ empire_joint_project_leader:0 "Ajustement culturel sur [This.GetName]"
+ empire_joint_project_leader_DESC:0 "Dans le cadre de l'opération actuelle visant à célébrer le fort leadership et l'unité idéologique de la [Root.Owner.Federation.GetName], une délégation sera envoyée dans les capitales de deux sujets afin de superviser leur intégration plus étroite dans l'empire.\n\nUne fois les deux sujets choisis, le programme d'ajustement culturel sera considéré comme terminé."
+ empire_joint_project_member:0 "Un monument à la gloire de l'Empire"
+ empire_joint_project_member_DESC:1 "Dans le cadre de l'opération actuelle visant à célébrer l'unité et la force des [Root.Owner.Federation.GetName], nous avons accepté d'envoyer des ressources à [This.GetName] pour la construction d'un grand monument à la mémoire de nos [This.Owner.GetAdj] dirigeants.\n\nNous devrons contribuer à ce projet à hauteur de 10% de notre £minerals£ production minérale pendant un an."
+
+ opinion_empire_joint_action_completed:0 "Nous avons terminé notre projet impérial"
+ opinion_empire_joint_action_forced:0 "Obligé de faire un projet impérial"
+ opinion_empire_joint_action_happy:0 "Faire volontairement un projet impérial"
+ the_following_nations_said_yes_but:0 "\nLes nations suivantes étaient §Rpeu enthousiastes§! à propos du projet :"
+ no_following_nations_said_yes_but:0 "\nAucune nation n'était §Rpeu enthousiaste§! à propos du projet."
+ 
+ empire_join_operation_happens_tooltip:0 "Tous les sujets participants gagnent un projet spécial de construction d'un monument sur §H[federation_leader.Capital.GetName]§!.\nLe §H[federation_leader.GetName]§! gagne des projets spéciaux pour répandre l'éthique §H[federation_leader.GetHegemonyEthos]§! dans un maximum de deux états sujets."
+
+
+ vfef.500.name:0 "Une célébration de la puissance, du leadership et de la gloire de l'Empire."
+ vfef.500.desc:0 "Le [Root.Federation.GetName] a prospéré sous notre direction avisée. De nombreux [Root.GetAdj] pensent maintenant qu'il est temps que nos services à l'empire soient récompensés par une célébration de sa puissance - et plus particulièrement, des grands empereurs [Root.GetAdj] qui ont tant fait pour lui. Ils proposent que les états sujets contribuent à l'érection d'un grand monument dans les cieux au-dessus de [Root.Capital.GetName]. En attendant, nous enverrons des délégations dans les capitales de deux états sujets afin de les aider dans leurs efforts pour apporter une plus grande unité à la [Root.Federation.GetName]."
+ vfef.500.A:0 "C'est une excellente idée."
+ vfef.500.A.tooltip:0 "Tous les états sujets ayant accès au système §H[Root.Capital.System.GetName]§! seront approchés et 'invités' à participer à l'opération impériale.\n\nLorsqu'ils accepteront, ils devront consacrer des ressources à un monument qui augmentera l'§HExpérience§! de l'Empire et l'§HInfluence§! du [Root.GetName].\n\nLe [Root.GetName] pourra également choisir d'augmenter l'§H[Root.GetEmpireEthos]§! attraction dans deux états sujets."
+ vfef.500.B:0 "Nous n'avons pas besoin de telles babioles."
+
+
+ vfef.501.name:0 "$vfef.500.name$"
+ vfef.501.desc:0 "Salutations, noble [Root.GetSpeciesNamePluralCompliment] ! Sous notre direction sage et magnanime, le [Root.Federation.GetName] est devenu de plus en plus fort, projetant notre unité de but à travers la galaxie. Le temps est venu de célébrer nos succès en tant qu'empire. Quelle meilleure façon de le faire que par un grand monument au-dessus de notre capitale, érigé grâce aux efforts de nos sujets   ? En attendant, nous enverrons une délégation dans votre capitale, qui vous aidera à lutter pour le plus grand bien de la [Root.Federation.GetName]."
+ vfef.501.A:0 "Tout pour votre majesté."
+ vfef.501.A.tooltip:0 "Tous les états sujets ayant accès au système §H[From.Capital.System.GetName]§! seront sollicités pour participer à l'opération impériale.\n\nUne fois accepté, vous devrez consacrer des ressources à un monument qui augmentera l'§HExpérience§! de l'Empire et l'§HInfluence§! du [From.GetName].\n\nLe [From.GetName] pourra également choisir d'augmenter l'§H[From.GetEmpireEthos]§! attraction dans deux états sujets."
+ vfef.501.A.tooltip2:0 "\nL'achèvement du monument coûtera 10% de la production minérale [Root.GetName] du £minerals£ pendant 1 an."
+ vfef.501.B:0 "Nous ferons ce que notre empereur nous ordonne."
+ vfef.501.B.tooltip:0 "$vfef.501.A.tooltip$"
+ vfef.501.B.tooltip2:0 "$vfef.501.A.tooltip2$"
+
+
+ vfef.505.name:0 "Opération impériale approuvée"
+ vfef.505.desc:0 "Les plans de notre initiative célébrant la force et l'unité des [Root.Federation.GetName] ont été distribués à tous nos sujets. Nous allons commencer à travailler sur la mise en uvre de nos plans pour répandre l'harmonie dans l'empire immédiatement !"
+ vfef.505.A:0 "Pour l'Empire !"
+
+
+ vfef.506.name:0 "Opération impériale approuvée"
+ vfef.506.desc.said_yes:0 "Les plans de l'initiative [From.GetAdj] célébrant la force et l'unité des [Root.Federation.GetName] ont été distribués à tous les sujets. Nous allons commencer à travailler pour faire de ces plans une réalité immédiatement !"
+  vfef.506.desc.said_no:0 "L'autoritaire [From.GetAdj] impose ses plans pour ce 'grand' projet à tous ses sujets. Heureusement, il n'y a rien que le [From.GetName] puisse faire pour nous forcer à participer à ce projet."
+ vfef.506.desc.invalid:0 "En l'honneur du leadership fort offert par les [From.GetName] dans le [Root.Federation.GetName], les [From.GetAdj] ont obtenu l'approbation de ses sujets pour une célébration de l'unité de notre Empire. Les états sujets consacreront des ressources à un grand monument dans les cieux au-dessus de [From.Capital.GetName], tandis que des délégations de [From.GetAdj] visiteront les différentes capitales des sujets pour assurer la cohésion du projet et faciliter l'intégration des sujets dans l'empire.\n\nEn raison de notre situation éloignée, sans accès facile à [From.Capital.GetName], nous ne pouvons pas participer au projet."
+ vfef.506.A:0 "Pour l'Empire !"
+ vfef.506.B:0 "Quelle chance."
+
+
+ vfef.507.name:0 "Délégation établie le §H[FromFrom.GetName]§!"
+ vfef.507.desc:0 "Notre délégation chargée de diffuser les idéaux [Root.GetEmpireEthos] dans les [FromFrom.Owner.GetName] s'est établie sur §H[FromFrom.GetName]§!. Avec de la chance, leurs efforts porteront leurs fruits et augmenteront l'harmonie au sein de la [Root.Federation.GetName]."
+
+
+ vfef.508.name:0 "[From.Owner.GetAdj] Délégation établie le §H[FromFrom.GetName]§!"
+ vfef.508.desc:0 "Dans le cadre des opérations actuelles de l'empire, le [From.Owner.GetGovernmentName] [From.Owner.GetAdj] a envoyé des délégués à §H[FromFrom.GetName]§! pour répandre les idéaux du [From.Owner.GetEmpireEthos] dans le [Root.GetName]. Bien qu'ils prétendent promouvoir l'harmonie et la bonne volonté au sein de la fédération §Y[Root.Federation.GetName]§!, beaucoup s'inquiètent que nos propres valeurs soient compromises par notre appartenance à l'empire."
+ vfef.508.desc.good:0 "Dans le cadre des opérations actuelles de l'empire, le [From.Owner.GetGovernmentName] [From.Owner.GetAdj] a envoyé des délégués à §H[FromFrom.GetName]§! pour répandre les idéaux du [From.Owner.GetEmpireEthos] dans le [Root.GetName]. Heureusement, leurs valeurs s'alignent bien avec les nôtres, ce qui donne du crédit à leur prétention de promouvoir l'harmonie et la bonne volonté au sein de la fédération §Y[Root.Federation.GetName]§!."
+ vfef.508.A.good:0 "Il n'y a que du bon dans tout ça."
+ vfef.508.A.neutral:0 "Nous verrons ce que cela donnera..."
+
+
+ vfef.509.name:0 "Fin des travaux sur le monument"
+ vfef.509.desc:0 "Nous avons terminé notre travail sur le monument sur §H[FromFrom.GetName]§!, célébrant l'unité des [Root.Federation.GetName] et le leadership éclairé offert par les [FromFrom.Owner.GetName]. Ils nous remercient pour notre offre, bien qu'ils attendent les contributions de nos compagnons sujets avant que le monument ne soit officiellement dévoilé."
+ vfef.509.A.tooltip:0 "Une fois que tous les sujets auront apporté leur contribution, l'Empire bénéficiera d'un gain d'expérience."
+
+
+ vfef.510.name:0 "Monument sur §H[FromFrom.GetName]§! Terminé"
+ empire_federation_monument_complete_success:0 "Il a été dévoilé en fanfare, déclenchant des célébrations dans tous les mondes de notre domaine lorsque la splendeur de notre création est devenue évidente. Chaque sujet a rivalisé avec tous les autres pour les surpasser dans leur contribution, et aucun ne s'est relâché. L'uvre - à l'origine dédiée à l'Empereur des [Root.Federation.GetName] - est maintenant la preuve pour tous de la force et de l'unité de notre empire."
+  empire_federation_monument_complete_success_subject:0 "Il a été dévoilé en grande pompe, déclenchant des célébrations dans tous les mondes de l'empire lorsque la splendeur de notre création est devenue évidente. Chaque sujet a rivalisé avec tous les autres pour les surpasser dans leur contribution, et aucun ne s'est relâché. L'uvre - à l'origine dédiée à l'Empereur du [Root.Federation.GetName] - est maintenant la preuve pour tous de la force et de l'unité de notre empire."
+ empire_federation_monument_partial_success:0 "Il a été dévoilé en grande pompe, déclenchant des célébrations à travers les mondes membres lorsque la splendeur de notre création est devenue évidente. Presque tous les états sujets ont apporté des contributions significatives, faisant de ce travail un bel exemple de la force et de l'unité de nos empires."
+ vfef.510.desc.complete_success:0 "Nous avons terminé notre travail sur le monument sur §H[FromFrom.GetName]§! pour célébrer l'unité des [Root.Federation.GetName] et l'auguste et éclairé leadership offert par les [FromFrom.Owner.GetName]. $empire_federation_monument_complete_success$"
+ vfef.510.desc.partial_success:0 "Nous avons terminé notre travail sur le monument sur §H[FromFrom.GetName]§! pour célébrer l'unité des [Root.Federation.GetName] et le leadership éclairé offert par les [FromFrom.Owner.GetName]. $empire_federation_monument_partial_success$"
+ vfef.510.desc.partial_failure:0 "Nous avons terminé notre travail sur le monument sur §H[FromFrom.GetName]§! pour célébrer l'unité des [Root.Federation.GetName] et le leadership éclairé offert par les [FromFrom.Owner.GetName]. Cependant, il semble que d'autres sujets n'aient pas soutenu l'initiative aussi fermement que nous, et une majorité de sujets de l'empire n'ont pas contribué beaucoup plus que des mots vides. Le monument qui en résulte est donc plutôt terne - un embarras qui symbolise plus les divisions de notre empire qu'un sentiment ou une force commune."
+ vfef.510.A.oh_well:0 "Au moins, nous avons fait notre part."
+
+
+ vfef.511.name:0 "$vfef.510.name$"
+ vfef.511.desc.complete_success:0 "Les travaux ont été achevés sur le monument au-dessus de §H[FromFrom.GetName]§! pour célébrer l'unité des [Root.Federation.GetName] et le leadership auguste et éclairé offert par les [FromFrom.Owner.GetName]. $empire_federation_monument_complete_success_subject$"
+ vfef.511.desc.partial_success:0 "Le travail a été achevé sur le monument au-dessus de §H[FromFrom.GetName]§! pour célébrer l'unité des [Root.Federation.GetName] et le leadership éclairé offert par les [FromFrom.Owner.GetName]. $empire_federation_monument_partial_success$"
+ vfef.511.desc.partial_failure.but_I_did_it:0 "Le travail a été achevé sur le monument sur §H[FromFrom.GetName]§! pour célébrer l'unité des [Root.Federation.GetName] et le leadership éclairé offert par les [FromFrom.Owner.GetName]. Cependant, il semble que d'autres sujets n'aient pas soutenu l'initiative aussi fermement que nous, et une majorité de sujets de l'empire n'ont pas contribué beaucoup plus que des mots vides. Le monument qui en résulte est donc plutôt terne - un embarras qui symbolise plus les divisions de nos empires qu'un sentiment ou une force commune."
+ vfef.511.desc.partial_failure.haha_no:0 "Nos alliés ont terminé leur travail sur le monument au-dessus de §H[FromFrom.GetName]§! pour célébrer l'unité des [Root.Federation.GetName] et le leadership éclairé offert par les [FromFrom.Owner.GetName]. Il semble que l'engagement envers cette initiative n'ait pas été aussi fort que l'avait espéré le [FromFrom.Owner.GetAdj], cependant, et la majorité des sujets de l'empire n'ont pas contribué au-delà des mots vides. Le monument qui en résulte est donc plutôt terne - un embarras qui symbolise plus les divisions de notre empire qu'un sentiment ou une force commune."
+ vfef.511.desc.complete_failure:0 "Le projet de construction d'un monument sur §H[FromFrom.GetName]§! pour célébrer l'unité de la §Y[Root.Federation.GetName]§! et le leadership éclairé offert par  [FromFrom.Owner.GetName] a été officiellement annulé aujourd'hui. $empire_federation_monument_complete_failure$"
+ empire_federation_monument_complete_failure:0 "Aucun sujet de l'empire ne s'est engagé dans l'initiative, si ce n'est en paroles creuses, ce qui signifie que le monument ne sera qu'un autre projet non réalisé, une idée ratée qui symbolise davantage nos divisions qu'un sentiment ou une force commune."
+ vfef.511.A.good:0 "Ensemble, nous sommes plus forts."
+ vfef.511.A.but_I_did_it:0 "$vfef.510.desc.A.oh_well$"
+ vfef.511.A.neutral:0 "Oh bien."
+ vfef.511.A.oh_dear:0 "Cela ne semble pas bon pour l'Empire."
+
+
+ vfef.512.name:0 "$vfef.510.name$"
+ vfef.512.desc.complete_success:0 "Le travail a été achevé sur le monument au-dessus de §H[FromFrom.GetName]§! pour célébrer l'unité des [Root.Federation.GetName] et notre auguste et éclairé leadership. $empire_federation_monument_complete_success$"
+ vfef.512.desc.partial_success:0 "Le travail a été achevé sur le monument au-dessus de §H[FromFrom.GetName]§! pour célébrer l'unité des [Root.Federation.GetName] et notre auguste et éclairé leadership. $empire_federation_monument_partial_success$"
+ vfef.512.desc.partial_failure:0 "Nos sujets ont terminé leur travail sur le monument au-dessus de §H[FromFrom.GetName]§! pour célébrer l'unité de [Root.Federation.GetName] et notre leadership éclairé. Il semble que l'engagement envers cette initiative n'ait pas été aussi fort que nous l'avions espéré, cependant, et la majorité des sujets de l'empire n'ont pas contribué au-delà des mots vides. Le monument qui en résulte est donc plutôt terne - un embarras plus symbolique des divisions de nos empires que de tout sentiment ou force commune."
+ vfef.512.desc.complete_failure:0 "Les plans pour un monument au-dessus de §H[FromFrom.GetName]§! pour célébrer l'unité de [Root.Federation.GetName] et notre leadership éclairé ont été officiellement annulés aujourd'hui. $empire_federation_monument_complete_failure$"
+ vfef.512.A.good:0 "Sous notre direction, tous sont plus forts."
+ vfef.512.A.neutral:0 "Nous devons forger une plus grande unité."
+ vfef.512.A.oh_dear:0 "Peut-être avons-nous eu tort de nous fier à nos sujets."
+
+
+ vfef.700.name:0 "Monument over §H[FromFrom.GetName]§! Annulé"
+ vfef.700.desc:0 "Avec un changement dans la nation de la Couronne, les anciens plans pour glorifier les dirigeants de la [FromFrom.Owner.GetName] ont été dûment mis de côté."
+ vfef.700.A:0 "Le vieux roi est mort ; vive le roi."
+
+
+ vfef.701.name:0 "Réduction de la participation à la construction de monuments"
+ vfef.701.desc:0 "Comme nous avons fait sécession de l'empire, les projets de construction d'un monument sur §H[FromFrom.GetName]§! pour célébrer l'unité de leur empire ne nous concernent plus."
+
+
+ vfef.702.name:0 "$vfef.700.name$"
+ vfef.702.desc:0 "Comme §H[FromFrom.GetName]§! a renoncé à la couronne et n'est plus membre de l'empire, les anciens plans visant à glorifier les dirigeants de la planète ont été dûment mis de côté."
+ vfef.702.A:0 "Bon débarras."
+
+
+ empire_propaganda_militarist:0 "Propagande impérialiste"
+ empire_propaganda_militarist_desc:0 "La nation héritière de notre Empire répand des valeurs militaristes dans notre pays."
+ empire_propaganda_pacifist:0 "$empire_propaganda_militarist$"
+ empire_propaganda_pacifist_desc:0 "La nation héritière de notre Empire répand les valeurs pacifistes dans notre nation."
+ empire_propaganda_xenophobe:0 "$empire_propaganda_militarist$"
+ empire_propaganda_xenophobe_desc:0 "La nation héritière de notre Empire répand la xénophobie dans notre pays."
+ empire_propaganda_xenophile:0 "$empire_propaganda_militarist$"
+ empire_propaganda_xenophile_desc:0 "La nation héritière de notre empire répand la xénophilie dans notre nation."
+ empire_propaganda_materialist:0 "$empire_propaganda_militarist$"
+ empire_propaganda_materialist_desc:0 "La nation héritière de notre Empire répand des valeurs matérialistes dans notre pays."
+ empire_propaganda_spiritualist:0 "$empire_propaganda_militarist$"
+ empire_propaganda_spiritualist_desc:0 "La nation de la Couronne de notre Empire répand les valeurs spiritualistes dans notre nation."
+ empire_propaganda_egalitarian:0 "$empire_propaganda_militarist$"
+ empire_propaganda_egalitarian_desc:0 "La nation héritière de notre Empire répand les valeurs égalitaires dans notre pays."
+ empire_propaganda_authoritarian:0 "$empire_propaganda_militarist$"
+ empire_propaganda_authoritarian_desc:0 "La nation héritière de notre Empire répand des valeurs autoritaires dans notre pays."
+ empire_joint_operation_project_in_progress:0 "Contributions aux monuments de la Fédération"
+
+
+
+# Overwrites
+
+ FEDERATION_VIEW_ASK_TO_LEAVE_FEDERATION_BUTTON_DESC:0 "Nous demanderons à l'Empereur la permission de quitter l'empire. Si cette demande est refusée, nous obtiendrons le Casus Belli §YSécession§! contre la nation de la Couronne."
+ 
+ ACTION_ASK_TO_LEAVE_FEDERATION_TITLE:0 "Demander à quitter l'Empire"
+
+ ASK_TO_LEAVE_FEDERATION:0 "Demander à quitter l'Empire"
+
+ POPUP_ASK_TO_LEAVE_FEDERATION_DESC:0 "Voulez-vous envoyer une demande à l'empereur du $FEDERATION|H$ pour obtenir la permission de quitter l'empire   ?"
+ 
+ federation_hegemony_monument:0 "Monument de l'Empire"
+ federation_hegemony_monument_desc:0 "Ce monument spatial témoigne de l'unité, de la force et de la splendeur de l'empire interstellaire qui l'a construit."
+
+ # federation_build_fleets_only_leader:0 "Couronne seule"
+ # federation_build_fleets_only_leader_desc:0 "Seule la Couronne peut ordonner la construction de nouveaux navires pour la flotte impériale."
+ # federation_build_fleets_everyone:0 "Tout le monde"
+ # federation_build_fleets_everyone_desc:0 "Toutes les nations soumises peuvent ordonner la construction de nouveaux navires pour la flotte impériale."
+
+
+# Federations Expanded
+
+ law_category_FEDEXP_defend_associates_empire:0 "Protection des associés"
+ law_category_FEDEXP_defend_associates_empire_desc:0 "Une série de traités concernant les garanties extérieures des nations alliées en dehors de l'empire lui-même."
+ 
+ FEDEXP_defend_associates_none_empire:0 "Pas d'intervention"
+ FEDEXP_defend_associates_none_empire_desc:0 "L'Empire n'interviendra pas pour assurer la protection des associés."
+ FEDEXP_defend_associates_rivals_empire:0 "Protection contre les menaces"
+ FEDEXP_defend_associates_rivals_empire_desc:0 "L'Empire projettera un certain degré de sécurité intergalactique, et les sujets ne viendront en aide qu'aux associés qui sont attaqués par les rivaux de la Couronne."
+ FEDEXP_defend_associates_all_empire:0 "Garanties impériales"
+ FEDEXP_defend_associates_all_empire_desc:0 "Les associés de l'Empire sont des sujets en puissance, et doivent donc être traités comme tels. Ils seront protégés par l'Empire tout entier contre toute forme d'agression."
+ 
+ FEDEXP_defend_associates_rivals_empire_effect:0 "Lorsqu'une nation possédant un §YStatut d'Association§! avec notre Empire est attaquée par un pays déclaré par la Couronne comme étant un §YRival§!, tous les membres de l'empire se joindront à la guerre du côté du §YDéfenseur§!."
+ FEDEXP_defend_associates_all_empire_effect:0 "Lorsqu'une nation possédant un §YStatut d'association§! avec notre empire est attaquée par un pays quelconque, tous les membres de l'empire se joindront à la guerre du côté du §YDéfenseur§!."
+
+ FEDEXP_political_union_medium_empire_effect:0 "Tant que la §YCohésion§! est positive, les sujets essaieront de suivre chaque §YPolitique§! modifiée par la Couronne.\n§YToute Politique modifiée par la Couronne alors que cette Loi est active réduit la Cohésion de 10 points pour chaque sujet de l'empire.§!\nPénalité de Cohésion due à l'éthique : §R+50%§!"
+ FEDEXP_political_union_high_empire_effect:0 "Seule la Couronne peut modifier la plupart des §YPolitiques§!, et nos sujets seront toujours obligés de se conformer aux changements.\n§YToute Politique modifiée par la Couronne alors que cette Loi est active réduit la Cohésion de 10 points pour chaque sujet de l'Empire.§!\n§RLa promulgation de cette Loi représente une sérieuse violation de l'autonomie, et réduit immédiatement la Cohésion à -100.§!"
+ 
+ FEDEXP_political_union_high_empire:0 "Supranational"
+ FEDEXP_political_union_high_empire_desc:0 "Dans l'intérêt de politiques publiques unifiées, les sujets cèdent la compétence législative de la plupart des questions à l'autorité de la Couronne."
+ 
+ FEDEXP_political_union_medium_empire:0 "Vinculative"
+ FEDEXP_political_union_medium_empire_desc:0 "Bien que nos sujets conservent une certaine autonomie, nos conseillers tenteront de les persuader d'adopter notre façon de penser."
+ 
+ FEDEXP_political_union_low_empire:0 "Domicile"
+ FEDEXP_political_union_low_empire_desc:0 "Les sujets de la Couronne peuvent décider de leur propre politique intérieure."
+ 
+ 
+ 
+ 
+ 
+ 
