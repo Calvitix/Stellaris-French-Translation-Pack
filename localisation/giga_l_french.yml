@@ -5222,11 +5222,11 @@
     TECH_UNLOCK_SM_COMPUTERS_TITLE:0 "§HDéverrouille le composant :§! $tech_sm_computers$"
     TECH_UNLOCK_SM_COMPUTERS_DESC:0 "§H$tech_sm_computers$§!\n$tech_sm_computers_desc$"
 
-    tech_sm_flak_batteries:0 "Batterie 'Flak' au $ehof_sm$"
-    tech_sm_flak_batteries_desc:0 "La batterie 'Flak' $ehof_sm$ utilise les capacités de la A.I. Routine au $ehof_sm$, pour viser plus précisément et plus précisément les projectiles entrants que nous n'avons jamais pu"
+    tech_sm_flak_batteries:0 "Batterie 'DCA' au $ehof_sm$"
+    tech_sm_flak_batteries_desc:0 "La batterie 'DCA' $ehof_sm$ utilise les capacités de routines I.A. utilisant le $ehof_sm$, pour viser plus précisément et plus avec une meilleures réactivité Tous les projectiles entrants dans son champ d'action"
 
     tech_sm_autocannons:0 "Ripper au $ehof_sm$"
-    tech_sm_autocannons_desc:0 "Le $ehof_sm$ Ripper tire de nombreux petits projectiles composés de $ehof_sm$, qui sont programmés pour absorber toute forme de matière avec laquelle ils entrent en contact. Pas très efficace contre les armures, il est extrêmement efficace pour presque tous les types connus de compositions de bouclier."
+    tech_sm_autocannons_desc:0 "Le Ripper au $ehof_sm$ tire de nombreux petits projectiles composés de $ehof_sm$, qui sont programmés pour absorber toute forme de matière avec laquelle ils entrent en contact. Pas très efficace contre les armures, il est extrêmement efficace pour presque tous les types connus de compositions de bouclier."
 
     tech_sm_mass_drivers:0 "Canon à rail au $ehof_sm$"
     tech_sm_mass_drivers_desc:0 "Le Canon à rail $ehof_sm$ tire de petits projectiles composés de $ehof_sm$, qui sont programmés pour absorber toute forme de matière avec laquelle ils entrent en contact. Pas très efficace contre les armures, il est extrêmement efficace pour presque tous les types connus de compositions de bouclier."
@@ -6380,7 +6380,7 @@
     # Construction site
     ehof_megastructure_phase0:0 "$ehof_ehofp0$"
     ehof_megastructure_phase0_DESC:0 "Le site initial servira de base à la construction de l'installation."
-    ehof_megastructure_phase0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_megastructure$ - $giga_list_category_transportation$\nAlimente et stabilise des $ehof_wormholes$ pour un voyage interstellaire illimité. - $giga_list_potentially_hazardous$\n§LL'I.D.H.E est une véritable merveille de technologie qui utilise la technologie ésotérique des vortex pour voyager dans des endroits que l'on croyait jusqu'alors inaccessibles.§!"  #gigalistentry EHOF"
+    ehof_megastructure_phase0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_megastructure$ - $giga_list_category_transportation$\nAlimente et stabilise des $ehof_wormholes$ pour un voyage interstellaire illimité. - $giga_list_potentially_hazardous$\n§LL'I.D.H.E est une véritable merveille basée sur la technologie ésotérique des vortex, pour voyager dans des endroits jusqu'alors inaccessibles.§!" #gigalistentry EHOF
     ehof_megastructure_phase0_CONSTRUCTION_INFO_DELAYED:0 "Alimente et stabilise des $ehof_wormholes$ pour un voyage interstellaire illimité."
 
     # Phase1
@@ -7309,7 +7309,7 @@
     giga_dialog.1804.desc:0 "Bonne nouvelle ! Nos ingénieurs ont réussi à remettre le $name_particle_accel$ en état de fonctionnement ! Il est désormais opérationnel et produit un flux constant de recherche en physique, ainsi que de nombreuses particules exotiques."
     giga_dialog.1804.a:0 "Incroyable."
 
-    particle_accelerator_0:0 "Site de l'$name_particle_accel$"
+    particle_accelerator_0:0 "Chantier de construction d'un $name_particle_accel$"
     particle_accelerator_0_DESC:0 "Un grand chantier abritant le personnel et les matériaux nécessaires à la construction d'un accélérateur de particules autour d'une étoile."
     particle_accelerator_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_science_production$\nGénère £physics_research£ §YRecherche en physique§! et augmente les §YBoucliers§! de §Y2.5%§!\n§LUn très gros accélérateur de particules construit autour d'une étoile pour accélérer les particules proches de la vitesse de la lumière.§!"
 
@@ -7348,7 +7348,7 @@
     giga_dialog.1004.desc:0 "Un $name_orbital_artificial_eco$ en ruine a été remis en état de marche par nos ingénieurs et biologistes.\n\nRempli de nombreuses formes de vie étranges, dont certaines ont été clonées à partir de traces de matière biologique retrouvées dans les débris, cette nouvellement restauréela station spatiale aidera certainement un peu notre société à faire des recherches."
     giga_dialog.1004.a:0 "Excellent."
 
-    orbital_artificial_eco_0:0 "Site de $name_orbital_artificial_eco$"
+    orbital_artificial_eco_0:0 "Chantier de construction d'un $name_orbital_artificial_eco$"
     orbital_artificial_eco_0_DESC:0 "Ce site servira de base à la construction d'un $name_orbital_artificial_eco$, qui est une grande structure abritant un écosystème entièrement artificiel sur lequel on pourra expérimenter librement."
     orbital_artificial_eco_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_science_production$\nGénère de la £society_research£ §YRecherche sociétale§! et augmente la §YVitesse de terraformation§! de §Y7.5%§!\n§LUne très grande station abritant un écosystème complètement artificiel pour étudier la nature.§!"
 
@@ -7371,8 +7371,8 @@
     giga_tech_engineering_test_site:0 "Installations d'essai colossales"
     giga_tech_engineering_test_site_desc:0 "Construire une installation d'essai en orbite autour d'une planète peut s'avérer à la fois difficile et incroyablement mortel. Cependant, les applications potentielles sont très prometteuses."
 
-    giga_dialog.401.name:0 "Construction de l'$name_eng_test_site$"
-    giga_dialog.401.desc:0 "Le chantier de construction d'un grand $name_eng_test_site$ a été terminé dans le système §H[giga_system.GetName]§!. Une fois terminée, cette merveilleuse station se révélera être un endroit idéal pour tester de nombreuses conceptions techniques, des stations orbitales aux nouvelles conceptions de vaisseaux spatiaux. La planète en orbite deviendra un terrain d'essai pour une ingénierie révolutionnaire."
+    giga_dialog.401.name:0 "La construction de la $name_eng_test_site$ peut commencer"
+    giga_dialog.401.desc:0 "Le chantier de construction d'une grande $name_eng_test_site$ a été terminé dans le système §H[giga_system.GetName]§!. Une fois terminée, cette merveilleuse station se révélera être un endroit idéal pour tester de nombreuses conceptions techniques, des stations orbitales aux nouvelles conceptions de vaisseaux spatiaux. \n\nLa planète en orbite deviendra un terrain d'essai pour une ingénierie révolutionnaire."
     giga_dialog.401.a:0 "Bon travail."
 
     giga_dialog.402.name:0 "$name_eng_test_site$ construit"
@@ -7383,11 +7383,11 @@
     giga_dialog.403.desc:0 "Notre vaisseau scientifique a repéré une assez grande station spatiale en orbite autour d'une planète dans le système §H[From.GetName]§!. Après une enquête plus approfondie, il semble que cette station spatiale est en fait un $name_eng_test_site$, en ruines, construit il y a longtemps par des espèces inconnues. Cette station spatiale a probablement servi de terrain d'essai pour de nombreuses expériences dans le passé, mais elle est depuis malheureusement tombée en ruines."
     giga_dialog.403.a:0 "Intrigant."
 
-    giga_dialog.404.name:0 "$name_eng_test_site$ réparé !"
+    giga_dialog.404.name:0 "$name_eng_test_site$ réparée !"
     giga_dialog.404.desc:0 "Un $name_eng_test_site$ précédemment en ruines a été entièrement réparé par nos équipes de construction.\n\nIl est maintenant complètement opérationnel et nous pouvons commencer à l'utiliser à des fins scientifiques."
     giga_dialog.404.a:0 "Merveilleux."
 
-    macro_test_site_0:0 "Site de la $name_eng_test_site$"
+    macro_test_site_0:0 "Chantier de construction d'une $name_eng_test_site$"
     macro_test_site_0_DESC:0 "Un grand chantier abritant tous les matériaux nécessaires pour construire un grand site de station de macro-ingénierie, une structure qui nous permettra de faire diverses expériences liées à l'ingénierie sur la planète ci-dessous."
     macro_test_site_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_science_production$\nGénère de la £engineering_research£ §YRecherche en ingénierie§! et augmente le §YBlindage§! de §Y2.5%§!\n§LUne grande station en orbite autour d'une planète pour mener librement des expériences d'ingénierie.§!"
 
@@ -7563,7 +7563,7 @@
     giga_tech_the_vat:0 "Installations de clonage gigantesques"
     giga_tech_the_vat_desc:0 "L'avènement d'une nouvelle ère du génie génétique a ouvert la voie à des projets encore plus grands et plus ambitieux. Alors qu'elles étaient auparavant limitées aux planètes, d'énormes installations de clonage orbital nous permettraient de créer et de faire croître rapidement de véritables armadas de créatures de l'espace pour renforcer encore notre flotte."
 
-    giga_dialog.11301.name:0 "Site de construction de l'$name_the_vat$ prêt"
+    giga_dialog.11301.name:0 "Site de construction d'un $name_the_vat$ prêt"
     giga_dialog.11301.desc:0 "Le chantier de construction pour le $name_the_vat_long$ est maintenant complet. Cette plateforme orbitale sert de base pour construire les structures nécessaires pour commencer à construire la plus grande Installation de clonage jamais imaginée.\n\nUne fois terminé, elle sera capable de produire rapidement de grandes quantités de créatures biologiques, qui pourront renforcer nos flottes, moyennant une dépense de £food£ et £energy£"
     giga_dialog.11301.a:0 "Bien."
 
@@ -7583,7 +7583,7 @@
     giga_dialog.11305.desc:0 "L'$name_the_vat_long$ est à présent complète. Avec 6 cuves auxiliaires et une Cuve principale Gargantuesque, nous pourrons cloner des flottes entières d'abominations géantes à l'aide de £food£ et £energy£ en très peu de temps, ce qui nous permet de dominer le champ de bataille de manière jamais envisagée avant."
     giga_dialog.11305.a:0 "Laissez le clonage commencer."
 
-    the_vat_0:0 "Chantier de construction de l'$name_the_vat$"
+    the_vat_0:0 "Chantier de construction d'un $name_the_vat$"
     the_vat_0_DESC:0 "Le chantier de construction d'une future Installation de Clonage, contenant tout ce que nos ingénieurs et nos biologistes devront transformer cela en une gigantesque centre de clonage."
     the_vat_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_megastructure$ - $giga_list_category_ship_production$\nUtilise de la £food£ pour créer des §YVaisseaux Biologiques§! basés sur les §YLéviathans§! connus et les §Ycréatures du vide§!\n§LL'installation de Clonage B.I.G. est une installation de clonage spatiale capable de produire de grandes quantités de créatures spatiales biologiques.§!"
 
@@ -8266,7 +8266,7 @@
     giga_dialog.2105.a:0 "Merveilleux"
 
     ringworld_titanic_0:0 "Site de l'$name_ringworld_titanic$"
-    ringworld_titanic_0_DESC:0 "Ce complexe servira de lieu de rassemblement, de dépôt de ressources et de logement pour les centaines de milliers de personnes impliquées dans la construction de l'$name_ringworld_titanic$."
+    ringworld_titanic_0_DESC:0 "Ce complexe servira de lieu de rassemblement, de dépôt de ressources et de logement pour les centaines de milliers de personnes impliquées dans la construction d'un $name_ringworld_titanic$."
     ringworld_titanic_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_megastructure$ - $giga_list_category_habitable_mega$\nEtend un §YAnneau-monde§! avec §Y4§! segments ayant le §Ydouble§! de taille par rapport aux segments des anneaux-monde standard.\n§LUn $name_ringworld_titanic$ s'appuie sur un système d'anneau-monde existant, offrant plus d'espace habitable.§!"
     ringworld_titanic_0_CONSTRUCTION_INFO_DELAYED:3 "Un $name_ringworld_titanic$ complet se compose de 4 Sections d'anneau-monde terminées, chacune équivalant au double de capacité d'une section d'anneau-monde classique."
 
@@ -8705,7 +8705,7 @@
     giga_tech_interstellar_ringworld:0 "Maîtrise des $name_interstellar_ring$"
     giga_tech_interstellar_ringworld_desc:0 "Nous maîtrisons l'art de la construction de mondes annulaires qui ne nécessitent pas beaucoup de chaleur naturelle pour fonctionner. La prochaine étape logique consiste à pousser cela à l'extrême et à mettre à niveau notre $name_interstellar_hab$s avec des anneaux-mondes massifs !"
 
-    giga_dialog.2901.title:0 "Site de construction du $name_interstellar_hab$ construit"
+    giga_dialog.2901.title:0 "Site de construction du $name_interstellar_hab$ terminé"
     giga_dialog.2901.desc:0 "Le chantier de construction d'un futur $name_interstellar_hab$ a été construit dans le système §H[giga_system.GetName]§!. En utilisant un faisceau tachyon focalisé sous-espace, il générera une hyperligne partielle qui mènera au chantier de construction pour un $name_interstellar_hab$.\n\nMaintenant, nous devons choisir où placer ledit chantier autour du système actuel."
     giga_dialog.2901.a:0 "Espace-Est"
     giga_dialog.2901.b:0 "Espace-Nord"
@@ -8724,7 +8724,7 @@
     giga_dialog.2904.desc:0 "Un segment de notre $name_interstellar_ring$ est maintenant terminé ! Bénéficiant de deux habitats massifs $name_interstellar_ring$, cette immense construction fonctionne sans soleil pour la chauffer. C'est vraiment une réalisation étonnante que peu d'espèces peuvent même rêver de rivaliser."
     giga_dialog.2904.a:0 "Merveilleux."
 
-    interstellar_habitat_0:0 "Chantier de construction de l'$name_interstellar_hab$"
+    interstellar_habitat_0:0 "Chantier de construction d'un $name_interstellar_hab$"
     interstellar_habitat_0_DESC:0 "Le dépôt de préparation pour un futur $name_interstellar_hab$s. Il émet un faisceau de tachyon focalisé à travers le sous-espace jusque dans l'espace interstellaire, générant une hyperligne partielle que les vaisseaux peuvent utiliser pour se rendre sur le site à l'avenir $name_interstellar_hab$."
     interstellar_habitat_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_megastructure$ - $giga_list_category_habitable_mega$\nCréé un habitat dans l'§YEspace interstellaire§! qui peut être ultérieurement transformé en un §YAnneau-monde interstellaire§!\n§LUn $name_interstellar_hab$ est une station spatiale autonome située entre des systèmes stellaires.§!"
 
@@ -10665,7 +10665,7 @@
 	cant_katzen_subject:0 "Nous ne pouvons pas allier les Félidés si nous sommes un vassal."
 
 	giga_katzen.3003.name:0 "L'organisation du traité flusionien s'effondre !"
-	giga_katzen.3003.desc:0 "Suite à la destruction de la §YLune du Kaiser§!, l'§YImpérium Félidéen§! est entré dans le désarroi. En conséquence, l'§YOrganisation du Traité des Flusioniens§! s'est complètement effondré et n'existe plus.\n\nIl se peut que nous ne recevions plus d'assistance militaire des Félidés, et le Kaiser ne répond plus à nos appels."
+	giga_katzen.3003.desc:0 "Suite à la destruction de la §YLune du Kaiser§!, l'§YImpérium Félidéen§! est entré dans le désarroi.\n\nEn conséquence, l'§YOrganisation du Traité des Flusioniens§! s'est complètement effondré et n'existe plus.\n\nIl se peut que nous ne recevions plus d'assistance militaire des Félidés, et le Kaiser ne répond plus à nos appels."
 	giga_katzen.3003.a:0 "Une honte."
 
 	giga_katzen.3010.name:0 "Le Kaiser propose une coopération économique plus étroite"
@@ -13486,10 +13486,10 @@
     giga_accelerator.152.a.tooltip:0 "Toutes les planètes du système §Y[accelerator_quasistar.GetName]§! deviennent plus froides.\nToutes les colonies du système souffriront d'une §Yforte poussée d'émigration§!.\n\n"
 
     giga_quasi_star_cooling_planet:0 "Étoile diminuant"
-    giga_quasi_star_cooling_planet_desc:0 "L'étoile de cette planète diminue lentement en raison d'un trou noir qui dévore sa masse. En conséquence, ce monde se refroidit progressivement."
+    giga_quasi_star_cooling_planet_desc:0 "L'étoile de cette planète diminue lentement en raison d'un trou noir qui dévore sa masse.\n\nEn conséquence, ce monde se refroidit progressivement."
 
     giga_quasi_star_cooling_planet_1:0 "Étoile diminuant"
-    giga_quasi_star_cooling_planet_1_desc:0 "L'étoile de cette planète diminue lentement en raison d'un trou noir qui dévore sa masse. En conséquence, ce monde se refroidit progressivement."
+    giga_quasi_star_cooling_planet_1_desc:0 "L'étoile de cette planète diminue lentement en raison d'un trou noir qui dévore sa masse.\n\nEn conséquence, ce monde se refroidit progressivement."
 
     giga_accelerator.153.name:0 "Augmentation de la consommation"
     giga_accelerator.153.desc:0 "Des nouvelles terribles ! Le trou noir à l'intérieur de §Y[accelerator_quasistar.GetName]§! consomme maintenant rapidement l'étoile, qui a considérablement diminué au cours des dernières années.\n\nLes planètes du système sont devenues nettement plus froides, et le trou noir continue de s'agrandir à l'intérieur de l'étoile, après avoir consommé une grande partie du noyau stellaire.\n\nS'il continue à fournir d'énormes quantités de données scientifiques, les conséquences que cela entraîne sur le système deviennent chaque jour plus inquiétantes."
@@ -13990,7 +13990,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     giga_not_enough_alloys:0 "Nous n'avons pas assez d'alliages."
     giga_mega.600.b:0 "A la réflexion, pas maintenant."
 
-    orbital_arcology_0_site:0 "Site de construction de l'$name_orbital_arcology$"
+    orbital_arcology_0_site:0 "Site de construction d'un $name_orbital_arcology$"
     orbital_arcology_0_site_DESC:0 "Le site de construction d'une $name_orbital_arcology$, qui est un anneau mondial miniature encerclant cette planète. Il fournira de grandes quantités d'espace pour nos industries."
 
     orbital_arcology_0_upgrade:0 "Construire une arcologie orbitale"
@@ -16007,7 +16007,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     allow_planetary_drive_yard_defense:0 "§HDéverrouille la Mégastructure§! : Nexus de défense planétaire"
     desc_planetary_drive_yard_defense:0 "Amélioré par rapport à l'§YArsenal planétaire§!, le §YNexus de défense planétaire§! fait passer la mégastructure de la construction navale à la défense planétaire. Elle acquiert surtout la capacité de construire et de maintenir de manière autonome sa propre force de §YCorvettes d'attaque§!, qui seront automatiquement déployées si une flotte hostile s'approche trop près."
 
-    giga_dialog.13400.name:0 "Site de construction de l'arsenal planétaire terminé !"
+    giga_dialog.13400.name:0 "Site de construction d'un arsenal planétaire terminé !"
     giga_dialog.13400.desc:0 "Le site de construction d'un chantier naval planétaire a été achevé en orbite de §Y[giga_planet.GetName]§!.\n\nCette plate-forme orbitale servira de base pour assembler un anneau entourant §Y[giga_planet.GetName]§!, équipé d'installations de construction navale ainsi que de mouillages.\n\nUne fois construit, il accordera §Y3§! chantiers navals et §Y20%§! de vitesse de construction de vaisseaux à sa base stellaire ainsi que §Y40§! capacité navale et §Y+2. 5%§! capacité navale globale. De plus, §Y[giga_planet.GetName]§! gagnera §Y1 emploi de soldat§! par §Y20§! pops et §Y-33%§! de dégâts de bombardement orbital.\n\nNous devrons construire un §YBâtiment de liaison montante§! sur la base stellaire pour qu'elle puisse bénéficier de ces avantages, qui peuvent se cumuler jusqu'à §Y20§! arsenaux planétaires dans un même système."
     giga_dialog.13400.a:0 "Bien."
 
@@ -16085,17 +16085,18 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     allow_planet_assembly_desc:0 "Une version améliorée du Macro-Fabricateur Lunaire qui peut convertir la matière planétaire et les alliages en des Vaisseaux-planètes Béhémoth complets. La construction nécessite de la £sr_solar_energy£§YMasse Planétaire§! pour fonctionner, qui peut elle-même être acquise par une décision accordée par le service des technologies §Y$giga_tech_planetary_matter_harvesting$§!."
 
     planetcraft_printer_0:0 "Installation d'assemblage de Béhémoths Site de construction"
-    planetcraft_printer_0_DESC:0 "Le Site de construction for a colossal assembly yard capable of fabricating an entire Vaisseau-planète Béhémoth out of raw planetary material et alloys."
-    planetcraft_printer_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_gigastructure$ - $giga_list_category_celestial_warship$\nUses £sr_solar_energy£§YMasse Planétaire§! et £alloys£§Y$alloys$§! pour fabriquer§YVaisseaux-planètes béhémoths§! from scratch\n§LQuite literally an upscaled version of the Macro-Fabricateur Lunaire, this mighty machine is capable of assembling a full Vaisseau-planète Béhémoth.§!" #gigalistentry BEHEMOTH ASSEMBLY PLANT
+    planetcraft_printer_0_DESC:0 "Le Site de construction d'un chantier d'assemblage colossal capable de fabriquer un Vaisseau-planète Béhémoth entier à partir de matériaux et alliages planétaires bruts."
+    planetcraft_printer_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_gigastructure$ - $giga_list_category_celestial_warship$\nUses £sr_solar_energy£§YMasse Planétaire§! et £alloys£§Y$alloys$§! pour fabriquer des §YVaisseaux-planètes béhémoths§! à partir de rien\n§LLittéralement une version améliorée du Macro-Fabricateur Lunaire, cette puissante machine est capable d'assembler un Vaisseau-planète Béhémoth complet.§! " #gigalistentry ASSEMBLAGE DE BÉHÉMOTS
 
-    planetcraft_printer_1:0 "Installation d'assemblage de Béhémoths Supports"
+    planetcraft_printer_1:0 "Installation d'assemblage de la structure du Béhémoth"
     planetcraft_printer_1_DESC:0 "Les structures de support préliminaires qui abriteront une grande partie de l'infrastructure critique nécessaire au fonctionnement de l'Installation d'assemblage de Béhémoths."
 
-    planetcraft_printer_2:0 "Installation d'assemblage de Béhémoths Stabilizers"
+
+    planetcraft_printer_2:0 "Installation d'assemblage des stabilisateurs du Béhémoth"
     planetcraft_printer_2_DESC:0 "Ces deux anneaux colossaux ont pour mission de stabiliser les béhémoths Vaisseaux-planètes inachevés et de veiller à ce que la matière planétaire arrive là où elle doit être sans délai."
 
-    planetcraft_printer_3:0 "Installation d'assemblage de Béhémoths"
-    planetcraft_printer_3_DESC:0 "Une complète Installation d'assemblage de Béhémoths. Grâce à ses deux colossaux assembleurs de matière, ce merveilleux dispositif peut réarranger d'énormes quantités de matière planétaire brute en Vaisseaux-planètes béhémoths opérationnels."
+    planetcraft_printer_3:0 "Installation d'assemblage du Béhémoth"
+    planetcraft_printer_3_DESC:0 "Une complète Installation d'assemblage du Béhémoth. Grâce à ses deux colossaux assembleurs de matière, ce merveilleux dispositif peut réarranger d'énormes quantités de matière planétaire brute en Vaisseaux-planètes béhémoths opérationnels."
 
     planetcraft_printer_make_planet:0 "Fabriquer un Vaisseau-planète Béhémoth"
 
@@ -16109,7 +16110,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     giga_printer.2011.desc:0 "Une autre étape a été franchie vers la construction de notre §YInstallation d'assemblage de Béhémoths§! dans le système §Y[giga_system.GetName]§!.\n\nLes premiers dispositifs de soutien préliminaires de la structure ont été assemblés et, bien qu'ils ne soient pas très massifs, ils abriteront néanmoins la plupart des infrastructures de contrôle importantes nécessaires à la gestion de cette mégastructure colossale.\n\nLe travail doit maintenant commencer sur les assembleurs réels qui seront responsables de la construction du Vaisseau-planète Béhémoth lui-même."
     giga_printer.2011.a:0 "Merveilleux."
 
-    giga_printer.2012.name:0 "Installation d'assemblage de Béhémoths Stabilizers terminé !"
+    giga_printer.2012.name:0 "Installation d'assemblage de stabilisateurs du Béhémoth terminé !"
     giga_printer.2012.desc:0 "La construction de notre §YInstallation d'assemblage de Béhémoths§! dans le système §Y[giga_system.GetName]§! continue de progresser régulièrement.\n\nDeux structures massives en forme d'anneau de part et d'autre de la construction permettront de stabiliser les béhémoths Vaisseaux-planètes inachevés, garantissant que toute la matière planétaire arrivant arrive exactement là où elle doit être. Elles accueilleront également une grande partie du personnel de la structure et diverses utilités diverses pour augmenter sa performance globale."
     giga_printer.2012.a:0 "Délicieux !"
 
@@ -16602,7 +16603,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     maginot_world_0_DESC:0 "Le Site de construction pour un futur $name_maginot_world$ à construire sous la planète. Cette forteresse massive s'étendra un jour loin dans le manteau de la planète et au-delà de l'atmosphère dans l'espace profond, constituant un obstacle quasi inattaquable pour les ennemis. Tous les quartiers de la planète seront remplacés par des quartiers défensifs uniques, et la gestion des plateformes de défense planétaire sera disponible."
     maginot_world_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_megastructure$ - $giga_list_category_defensive$\nProcure des grandes quantités d'§YArmées Défensives§!, d'§YInhibiteurs PRL§! et bloque les §YMoteurs de saut§!.\n- §BNÉCESSITE UN MONDE AVEC UN BÂTIMENT COMPLEXE DE FORT MAGINOT§!\n§LUne vaste forteresse-complexe englobant une planète entière, fournissant la défense ultime contre tout ennemi sur tout théâtre.§!" #gigalistentry MAGINOT WORLD
     maginot_world_1:0 "Préparation du $name_maginot_world$"
-    maginot_world_1_DESC:0 "La Géoformation initiale, l'excavation, et la construction de l'ascenseur spatial, ainsi que les débuts de l'anneau de défense attaché. Les bunkers les plus profonds ont été creusés, et l'installation du système 'Main Mortelle' peut commencer."
+    maginot_world_1_DESC:0 "La Géoformation initiale, l'excavation, et la construction d'un ascenseur spatial, ainsi que les débuts de l'anneau de défense attaché. Les bunkers les plus profonds ont été creusés, et l'installation du système 'Main Mortelle' peut commencer."
     maginot_world_2:0 "$name_maginot_world$"
     maginot_world_2_DESC:0 "Une vaste forteresse à l'échelle de la planète qui se veut totalement inattaquable par toute force ennemie."
 

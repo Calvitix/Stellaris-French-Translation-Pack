@@ -415,7 +415,7 @@
   realspace.206.planetaryexploration.tooltip:0 "£trigger_yes£ §YPlanetary Exploration§!"
   realspace.206.star_cluster.tooltip:0 "£trigger_yes£ §YStar Cluster§!"
   realspace.206.star_cluster_conflict.tooltip:0 "£trigger_no£ §YStar Cluster§!"
-  realspace.206.solar_storm.tooltip:0 "£trigger_yes£ §YSolar Storm§!"
+  realspace.206.solar_storm.tooltip:0 "£trigger_yes£ §YTempête solaire§!"
   realspace.206.colouroutofdeep.tooltip:0 "£trigger_yes£ §YColour Out of Deep§!"
   realspace.206.colouroutofdeep_conflict.tooltip:0 "£trigger_no£ §YColour Out of Deep§!"
   realspace.206.shipsinscaling_hard.tooltip:0 "£trigger_yes£ §YShips in Scaling Hard§!"
@@ -437,6 +437,7 @@
   realspace.addons:0 "Retour aux mods supplémentaires"
   realspace.realspace_settings:0 "Revenir au menu des paramètres de Real Space"
   realspace.newfrontiers_settings:0 "Retour au menu des paramètres des nouvelles frontières"
+  realspace.solarstorm_settings:0 "Retour au menu des paramètres de 'Tempête solaire'"
   realspace.close:0 "§GDémarrer la partie§!"
   
   realspace.208.name:0 "La diminution du nombre de mondes habités"
@@ -448,6 +449,7 @@
   realspace.208.40_percent_reduction:0 "Réduire le nombre de mondes habités de §Y40%§!"
   realspace.208.50_percent_reduction:0 "Réduire le nombre de mondes habités de §Y50%§!"
   realspace.208.60_percent_reduction:0 "Réduire le nombre de mondes habités de §Y60%§!"
+  realspace.208.70_percent_reduction:0 "Réduire le nombre de mondes habités de §Y70%§!"
   realspace.208.80_percent_reduction:0 "Réduire le nombre de mondes habités de §Y80%§!"
   realspace.208.90_percent_reduction:0 "Réduire le nombre de mondes habités de §Y90%§!"
   
@@ -494,6 +496,7 @@
   
   realspace.214.name:0 "Tempête solaire"
   realspace.214.desc:0 "§YTempête solaire§! ajoute deux types d'événements, dont la tâche est de diversifier le gameplay sur la carte galactique, créant une météo spatiale.\n\nLe premier type d'événements fait arbitrairement la géographie sur la carte galactique, ce qui peut changer la position de votre empire en termes de tactiques, pour le meilleur ou pour le pire. §Worhyperspace storms§!, surgissant dans des systèmes arbitraires (le plus souvent dans des systèmes instables), changez les hyperlignes, les déformez, ajoutez des systèmes nouveaux ou complètement isolants.\n\nLe deuxième type d'événements rendra vos vaisseaux incapables de voler en toute sécurité à travers des systèmes avec des étoiles jeunes, instables ou s'effondrant. Désormais, ces systèmes sont dangereux, vous risquez de perdre même une flotte entière. Il existe actuellement 3 types d'événements : §Wstellar Millstones§!, §WSTempête solaire§! et §WGamma-burst§!.\n\n§YSTempête solaire peut être activé à n'importe quel stade du jeu, il n'est pas nécessaire de recommencer le jeu.§!"
+  realspace.214.solarstorm_settings:0 "Paramètres Tempête solaire"
   
   realspace.215.name:0 "Couleur en profondeur"
   realspace.215.desc:0 "Le but de ce mod n'est pas seulement d'ajouter des skybox plus intéressants, mais de leur donner une logique. Maintenant, l'apparence de l'espace autour de vous sur la carte du système dépendra de la position du système dans la galaxie. Mieux vaut voir une fois que lire cent fois !"
@@ -509,7 +512,8 @@
   
   realspace.219.name:0 "Paramètres de Real Space"
   realspace.219.desc:0 "Vous pouvez revenir en arrière et modifier les paramètres jusqu'à ce que la boîte de dialogue Espace réel soit complètement fermée.\n\n§Y Certains mods supplémentaires ont leurs propres paramètres de démarrage, vous pouvez y accéder en sélectionnant le mod correspondant dans le menu pour sélectionner d'autres mods, si vous avez installé un tel mod.§!"
-  realspace.219.newfrontiers_settings:0 "New Frontiers Settings"
+  realspace.219.newfrontiers_settings:0 "Paramètres New Frontiers"
+  realspace.219.solarstorm_settings:0 "Paramètres Tempête solaire"  
   realspace.219.inhabitable_worlds_no_reduced:0 "Nombre de mondes habités - §RPas de changement§!"
   realspace.219.10_percent_world_reduced:0 "Le nombre de mondes habités est réduit de §Y10%§!"
   realspace.219.20_percent_world_reduced:0 "Le nombre de mondes habités est réduit de §Y20%§!"
@@ -517,6 +521,7 @@
   realspace.219.40_percent_world_reduced:0 "Le nombre de mondes habités est réduit de §Y40%§!"
   realspace.219.50_percent_world_reduced:0 "Le nombre de mondes habités est réduit de §Y50%§!"
   realspace.219.60_percent_world_reduced:0 "Le nombre de mondes habités est réduit de §Y60%§!"
+  realspace.219.70_percent_world_reduced:0 "Le nombre de mondes habités est réduit de §Y70%§!"
   realspace.219.80_percent_world_reduced:0 "Le nombre de mondes habités est réduit de §Y80%§!"
   realspace.219.90_percent_world_reduced:0 "Le nombre de mondes habités est réduit de §Y90%§!"
   realspace.219.only_realspace_nebula:0 "Nébuleuses : §BReal Space seulement§!"
@@ -639,4 +644,24 @@
   realspace.238.legendary_subclasses_on:0 "§GEnable legendary events§!"
   realspace.238.legendary_subclasses_off:0 "§YDisable legendary events§!"
   
+  realspace.239.name:0 "Solar Storm Settings"
+  realspace.239.desc:0 "You can go back and change parameters until the Real Space dialog box is completely closed."
+  realspace.239.hyperspace_storm_on:0 "Hyperspace Storms §GEnabled§!"
+  realspace.239.hyperspace_storm_off:0 "Hyperspace Storms §YDisabled§!"
+  realspace.239.solar_storm_on:0 "Solar Storms: §BNormal Mode§!"
+  realspace.239.solar_storm_hard:0 "Solar Storms: §RHard Mode§!"
+  realspace.239.solar_storm_easy:0 "Solar Storms: §GEasy Mode§!"
+  realspace.239.solar_storm_off:0 "Solar Storms §YDisabled§!"
   
+  realspace.240.name:0 "Hyperspace Storms Settings"
+  realspace.240.desc:0 "This type of event arbitrarily changes geography on the galactic map, which can change the position of your empire tactically, for better or for worse. §WHyperspace storms§!, occurring in arbitrary systems (most often in unstable ones). They modify hyperlines, distort them by adding new ones or removing existing ones, completely isolating systems indefinitely."
+  realspace.240.hyperspace_storm_on:0 "§GEnable Hyperspace Storms§!"
+  realspace.240.hyperspace_storm_off:0 "§YDisable Hyperspace Storms§!"
+  
+  realspace.241.name:0 "Solar Storms Settings"
+  realspace.241.desc:0 "This type of event will make systems with young, unstable, or collapsing stars dangerous for ships that traverse these systems. After logging into the system, ships can get caught in a storm, get damaged and even die. Currently, there are 3 types of events: §Wstar millstones§!, §Wsunstorm§! and §WGamma Burst§!.\nThe survival rate of ships caught in a storm depends on the selected mode."
+  realspace.241.solar_storm_hard:0 "§REnable Hard Mode§!"
+  realspace.241.solar_storm_normal:0 "§BEnable Normal Mode§!"
+  realspace.241.solar_storm_easy:0 "§GEnable Easy Mode§!"
+  realspace.241.solar_storm_off:0 "§YDisable Solar Storms§!"
+    
