@@ -2,8 +2,59 @@
 
  ####################################
  # Gigastructural mod, Translation by Calvitix
- # Translation check : OK 26.11.2021
+ # Translation check : OK 20.12.2021
  ####################################
+    # origin
+    origin_incohesive:0 "Loin sur une île"
+    origin_incohesive_desc:0 "Cette civilisation s'est entièrement développée sur un monde morne et sans vie, dans un espace très éloigné de l'espace."
+    origin_incohesive_effect_desc:0 "- Commencez sur un §L$pc_ll_temperate$§! au sein de l'§LAmas cohésif de vortex§!, à côté d'un système de trou noir voisin.\n- Permet également de progresser dans la technologie EHOF.\n\n§RNON ÉQUILIBRÉ POUR LE MULTIJOUEUR"
+
+    # misc
+    d_ehof_solar_array:0 "Les capteurs solaires Pristine"
+    d_ehof_solar_array_desc:0 ""
+
+    ehof_origin_init_NAME:0 "Cluster cohésif"
+    ehof_origin_init_DESC:0 "Homeworld commence de manière aléatoire dans l'amas de vortex cohésif."
+
+    # complicated capital and system name swapping
+    ehofo_new_capital_name:0 "[ehofo_old_world.GetName]"
+    ehofo_new_star_name:0 "[ehofo_new_system.GetName]"
+    ehofo_new_system_name:0 "[ehofo_old_system.GetName]"
+    ehofo_old_system_name:0 "[ehofo_old_system.system_star.GetName]"
+    ehofo_old_star_name:0 "[ehofo_new_system.system_star.GetName]"
+    ehofo_old_planet_name_1:0 "[solar_system.GetName] I"
+    ehofo_old_planet_name_2:0 "[solar_system.GetName] II"
+    # try not to think about it
+
+    ehofo_NEW_planet_1:0 "[solar_system.GetName] I"
+    ehofo_NEW_planet_2:0 "[solar_system.GetName] II"
+    ehofo_NEW_planet_3:0 "[solar_system.GetName] III"
+    ehofo_NEW_planet_4:0 "[solar_system.GetName] IV"
+    ehofo_NEW_planet_5:0 "[solar_system.GetName] V"
+    ehofo_NEW_planet_6:0 "[solar_system.GetName] VI"
+    ehofo_NEW_planet_7:0 "[solar_system.GetName] VII"
+    ehofo_NEW_planet_8:0 "[solar_system.GetName] VIII"
+    ehofo_NEW_planet_9:0 "[solar_system.GetName] IX"
+    ehofo_NEW_planet_10:0 "[solar_system.GetName] X"
+    ehofo_NEW_moon:0 "[ehofo_previous_planet.GetName]a"
+
+    # debug - unused with ability to create nebulas
+    tech_ehof_origin_sensorrange_debug:0 "zDEBUG - Technique non utilisée"
+    tech_ehof_origin_sensorrange_debug_desc:0 "Les effets de cette technologie sont annulés par un modificateur caché. Cette technologie existe uniquement pour bloquer le premier contact avec des nations sur lesquelles, canoniquement, vous ne devriez avoir aucune information."
+    mod_ehof_origin_sensorrange_debug:0 "EHOF DÉBOGAGE INCOHÉRENT"
+    mod_ehof_origin_sensorrange_debug_desc:0 "Comment pouvez-vous voir cela   ?  ?  ? - Lan"
+
+    #the funny acot/sbtg crossover
+    giga_blokkat.5500.name:0 "Notre temps pour tester"
+    giga_blokkat.5500.desc:0 "Salutations, frères et soeurs.\n\nNous avons déterminé que les Blokkats qui arrivent dans votre galaxie sont d'excellents candidats pour nous aider à contenir l'Ombre.\n\nEt, comme vous avez acquis de nouveaux pouvoirs, nous avons décidé qu'il serait de votre devoir de tester leur courage et de voir s'ils sont capables de tenir tête aux dieux eux-mêmes, et ce faisant, de prouver qu'ils ne peuvent pas tomber dans l'Ombre.\n\nPar la suite, afin d'assurer un combat plus égal et plus significatif et aussi pour tester vos propres capacités à utiliser vos nouveaux pouvoirs, nous vous demandons de ne pas utiliser la flotte de la Lumière ou la flotte stellaire existante tant que les Blokkats erreront dans cette galaxie. Mais s'ils vous battent, alors ils auront prouvé leur valeur et vous devrez vous retirer de la galaxie."
+    giga_blokkat.5500.a:0 "Enfin, un adversaire de taille ! Notre combat sera légendaire !"
+    giga_blokkat.5500.a.tooltip:0 "Tant que nous n'aurons pas vaincu les §YBlokkats§!, nous n'aurons plus accès à la §YLumière de Destruction§!, à la §YLumière de Création§! et à la §YLumière de Manipulation§!. Toutes les §YFlottes Stellaires§! précédemment créées avec la §YLumière de la Création§! seront supprimées."
+
+    giga_blokkat.5501.name:0 "L'épreuve a été réussie"
+    giga_blokkat.5501.desc:0 "Salutations, frères et soeurs. Les Blokkats ont réussi le test et ont vaincu vos défenses. Ainsi, ils sont maintenant libres de devenir les nouveaux maîtres de cette galaxie tandis que vous vous retirerez, les laissant poursuivre leurs propres affaires."
+    giga_blokkat.5501.a:0 "Ils sont dignes."
+    giga_blokkat.5501.a.tooltip:0 "Nos flottes se retirent de la galaxie."
+
  #############################################################################################################################################
     ### Megastructure Names #####################################################################################################################
     #############################################################################################################################################
@@ -22,7 +73,7 @@
 	#
 	# Empires et espèces
 	#
-	# Félidé --> Félidés
+	# Katzen --> Félidés
 	# Katzenartig Imterium --> Impérium Félidéen
 	# Stellarisches Katzimperium --> Impérium stellaire félidéen
 	# Perpetuum Katzimperium --> Impérium perpetuel félidéen
@@ -31,14 +82,14 @@
 	# Großkatzenartig Imperium --> Grand Empire félidéen
 	#
 	# Paalushia  -->  Peluchia
-	# Paluush --> Peluche
+	# Paluush --> Peluchien
 	# Grandbunny --> Grand Lapin
 	#
 	#
 	# Corronian Kingdoms --> Royaume Corronien
 	# Ezicania --> Ezicanien
 	# Flusionian --> Flusioniens
-	# Eeloo --> Elo
+	# 
 	#
 	# Vaisseaux
 	# Neu-Clermeowth -> Nouv-Clermiaou
@@ -3285,20 +3336,20 @@
 
 
     giga_achievement_kaiser_group_header:0 "Félidés & Flusion"
-    giga_achievement_kaiser1:0              "§HVersailles'd§!"
-    giga_achievement_kaiser1_requirement:0  "Vaincre l'§YEmpereur Kattail§! et le §YImpérium Félidéen§! en envahissant ou en détruisant §YFlusion§!."
+    giga_achievement_kaiser1:0              "§HVersailles§!"
+    giga_achievement_kaiser1_requirement:0  "Vaincre l'§YEmpereur Kattail§! et l'§YImpérium Félidéen§! en envahissant ou en détruisant §YFlusion§!."
     giga_achievement_kaiser1_tooltip:0      "$giga_achievement_kaiser1$\n$giga_achievement_kaiser1_requirement$"
 
     giga_achievement_kaiser2:0              "§MSurpassé§!"
     giga_achievement_kaiser2_title:0        "§MSurpassé§!"
-    giga_achievement_kaiser2_requirement:0  "Vaincre l'§YEmpereur Kattail§! et le §YImpérium Félidéen§! en envahissant ou en détruisant §YFlusion§! en difficulté §RChevauchée sauvage§!."
+    giga_achievement_kaiser2_requirement:0  "Vaincre l'§YEmpereur Kattail§! et l'§YImpérium Félidéen§! en envahissant ou en détruisant §YFlusion§! en difficulté §RChevauchée sauvage§!."
     giga_achievement_kaiser2_reward:0       "Influence mensuelle : §G+1§!\n\n"
     giga_achievement_kaiser2_tooltip:0 "$giga_achievement_kaiser2_title$\n$giga_achievement_kaiser2_requirement$\n\n§HRécompense§!\n$giga_achievement_kaiser2_reward$"
     achievement_kaiser2:0                   "$giga_achievement_kaiser2_title$"
 
     giga_achievement_kaiser3:0              "§RRégicide§!"
     giga_achievement_kaiser3_title:0        "§RRégicide§!"
-    giga_achievement_kaiser3_requirement:0  "Vaincre l'§YEmpereur Kattail§! et le §YImpérium Félidéen§! en envahissant ou en détruisant §YFlusion§! en difficulté §YKaiser Stellarite§!."
+    giga_achievement_kaiser3_requirement:0  "Vaincre l'§YEmpereur Kattail§! et l'§YImpérium Félidéen§! en envahissant ou en détruisant §YFlusion§! en difficulté §YKaiser Stellarite§!."
     giga_achievement_kaiser3_reward:0       "Influence mensuelle : §G+3§!\n\n"
     giga_achievement_kaiser3_tooltip:0 "$giga_achievement_kaiser3_title$\n$giga_achievement_kaiser3_requirement$\n\n§HRécompense§!\n$giga_achievement_kaiser3_reward$"
     achievement_kaiser3:0                   "$giga_achievement_kaiser3_title$"
@@ -5726,7 +5777,7 @@
     giga_psychic_beacon.005.desc:0 "§B'Sélectionnez le monde que vous souhaitez emprisonner.'§!"
     giga_imprison_t:0 "§B'Très bien, les profondeurs de l'immatériel vont bientôt engloutir ce monde.'§!"
 
-    giga_psychic_beacon.006.name:0 "[giga_planet_illuminated.GetName] Emprisonné"
+    giga_psychic_beacon.006.name:0 "[giga_planet_illuminated.GetName] emprisonné"
     giga_psychic_beacon.006.desc:0 "L'impulsion subtile de la $name_psychic_beacon$, presque imperceptible par ceux qui n'étaient pas d'accord sur le plan psionique a néanmoins eu un impact dramatique sur [giga_planet_illuminated.GetName].\n\nEn un instant, l'immatériel a saigné férocement dans l'espace réel, noyant une planète entière avec quelle que soit la vie qui y avait été dans les énergies éthérées du Suaire. Une planète entière plongée dans les horreurs inimaginables du Suaire, [giga_planet_illuminated.GetName] restera jusqu'à la fin des temps comme leur propre enfer personnel."
     giga_psychic_beacon.006.a:0 "Sûrement, un destin pire que la mort."
 
@@ -6233,7 +6284,7 @@
     ehof_sys:0 "[ehof_destination_system.GetName]"
     ehof_sys_desc:0 "$ehof_sys_prefix$$ehof_sys_info$$ehof_loc_stars$$ehof_loc_planets$$ehof_loc_red_habitable$$ehof_loc_yellow_habitable$$ehof_loc_green_habitable$$ehof_loc_moons$$ehof_loc_megas$$ehof_loc_asteroids$$ehof_sys_resources$$ehof_loc_minerals$$ehof_loc_energy$$ehof_loc_alloys$$ehof_loc_exotic_gases$$ehof_loc_rare_crystals$$ehof_loc_volatile_motes$$ehof_loc_zro$$ehof_loc_living_metal$$ehof_loc_dark_matter$$ehof_loc_negative_mass$$ehof_loc_physics$$ehof_loc_society$$ehof_loc_engineering$"
 
-    ehof_sys_prefix:0 "Lors de nos analyses préliminaires, nous avons recueilli un aperçu général du système [ehof_destination_system.GetName] et compilé un court rapport ci-dessous.\n"
+    ehof_sys_prefix:0 "Lors de nos analyses préliminaires, nous avons recueilli un aperçu général du système §H[ehof_destination_system.GetName]§! et compilé un court rapport ci-dessous.\n"
 
     ehof_sys_info:0 "\n §HCorps célestes :§!"
     ehof_sys_stars:0 " £ehof_star£[ehof_destination_system.ehof_sys_stars] "
@@ -6543,7 +6594,7 @@
     # Cooldown
     ehof_cooldown:0 "\n\nL'$ehof_ehof$ est en phase de rechargement pendant §H£time£ [root.ehof_cooldown_days] jour§!"
 
-    ehof_mega_check_desc:0 "Après avoir réussi à générer un $ehof_wormhole$ à partir de l'$ehof_ehof$ de §H[ehof_megastructure_system.GetName]§!, nos ingénieurs ont rapporté que nos flottes sont en effet arrivées à [ehof_destination_system.GetName] avec succès.$ehof_cooldown$"
+    ehof_mega_check_desc:0 "Après avoir réussi à générer un $ehof_wormhole$ à partir de l'$ehof_ehof$ de §H[ehof_megastructure_system.GetName]§!, nos ingénieurs ont rapporté que nos flottes sont en effet arrivées à §H[ehof_destination_system.GetName]§! avec succès.$ehof_cooldown$"
     ehof_good_response_01: "Explorez le système"
     ehof_good_response_02: "Un Espace inexploré, merveilleux"
     ehof_good_response_03: "Voyons ce qu'il y a dans l'inconnu"
@@ -7510,7 +7561,7 @@
     ### Yggdrasil Orchid Complex ############
     #########################################
     giga_tech_yggdrasil_orchid:0 "Modification bioatmosphérique à grande échelle"
-    giga_tech_yggdrasil_orchid_desc:0 "Un géant gazier hébergeant un grand organisme végétal dans sa haute atmosphère pourrait être un atout précieux pour notre production alimentaire. Grâce à des technologies avancées de modification génétique et de manipulation du climat, un tel projet pourrait être réalisable."
+    giga_tech_yggdrasil_orchid_desc:0 "Une géante gazeuse hébergeant un grand organisme végétal dans sa haute atmosphère pourrait être un atout précieux pour notre production alimentaire. Grâce à des technologies avancées de modification génétique et de manipulation du climat, un tel projet pourrait être réalisable."
 
     giga_dialog.2001.name:0 "Site du $name_yggdrasil$ créé"
     giga_dialog.2001.desc:0 "Le chantier de construction d'un $name_yggdrasil$ est maintenant terminé. Il servira de terrain de rassemblement pour construire les structures nécessaires pour ensemencer la haute atmosphère d'un géant gazeux avec de grandes quantités de formes de vie bio-conçues, capables de nourrir de grandes quantités de personnes."
@@ -7965,7 +8016,7 @@
     giga_dialog.3303.a:0 "Puissance minérale nominale."
 
     giga_dialog.3304.title:0 "Noyau externe atteint par la mine à bande planétaire"
-    giga_dialog.3304.desc:0 "Nos ingénieurs et scientifiques du [giga_planet.GetName] $name_auto_stripmine$ nous informent que les opérations minières ont atteint le noyau externe en fusion de la planète.\nCela signifie que les opérations d'extraction de minerais cesseront dans environ 6 ans, lorsque nous atteindrons enfin le noyau interne."
+    giga_dialog.3304.desc:0 "Nos ingénieurs et scientifiques de la $name_auto_stripmine$ de §H[giga_planet.GetName]§! nous informent que les opérations minières ont atteint le noyau externe en fusion de la planète.\nCela signifie que les opérations d'extraction de minerais cesseront dans environ 6 ans, lorsque nous atteindrons enfin le noyau interne."
     giga_dialog.3304.a:0 "Tout à fait d'accord."
 
     giga_dialog.3305.title:0 "Mine planétaire épuisée"
@@ -9143,12 +9194,12 @@
     giga_pouchkinn.002.a:0 "C'est particulier."
 
     giga_pouchkinn.101.name:0 "Le laboratoire"
-    giga_pouchkinn.101.desc:0 "Depuis que nos colons ont posé le pied sur ce $name_orb_elysium$, apparemment abandonné, le mystérieux laboratoire antique est resté un mystère déroutant. Les scans ont confirmé qu'il ne contenait aucune forme de vie intelligente. Les équipes d'expédition envoyées à l'intérieur ont trouvé de nombreux appareils centenaires fabriqués avec des technologies très avancées.\n\nCependant, nous ne savons toujours absolument pas qui a construit cet endroit et pourquoi. Les colons du $name_orb_elysium$ ont exprimé le désir de découvrir l'origine de ce laboratoire, car il pourrait potentiellement contenir des technologies dangereuses."
-    giga_pouchkinn.101.a:0 "Organisez une expédition dans les profondeurs de ce lieu."
+    giga_pouchkinn.101.desc:0 "Depuis que nos colons ont posé le pied sur cet $name_orb_elysium$, apparemment abandonné, le mystérieux laboratoire antique est resté un mystère déroutant. Les scans ont confirmé qu'il ne contenait aucune forme de vie intelligente. Les équipes d'expédition envoyées à l'intérieur ont trouvé de nombreux appareils centenaires fabriqués avec des technologies très avancées.\n\nCependant, nous ne savons toujours absolument pas qui a construit cet endroit et pourquoi. Les colons de l'$name_orb_elysium$ ont exprimé le désir de découvrir l'origine de ce laboratoire, même s'il pourrait potentiellement contenir des technologies dangereuses."
+    giga_pouchkinn.101.a:0 "Organisez une expédition pour entrer et examiner en détails ce lieu."
     giga_pouchkinn.101.b:0 "Laisse-le. Il est inoffensif."
     giga_pouchkinn.101.b.tooltip:0 "Espérons que rien de dangereux ne s'y passe ou ne risque de s'y passer."
-    giga_pouchkinn.101.c:0 "Nous ne pouvons pas laisser cette chose ici. Detruisons-le."
-    giga_pouchkinn.101.c.tooltip:0 "Préparez une ogive à petite échelle pour détruire le laboratoire."
+    giga_pouchkinn.101.c:0 "Nous ne pouvons pas laisser cette chose ici. Détruisons-le."
+    giga_pouchkinn.101.c.tooltip:0 "Préparer une bombe à petite échelle pour détruire le laboratoire."
 
     giga_pouchkinn.102.name:0 "Une détonation catastrophique !"
     giga_pouchkinn.102.desc:0 "D'horribles nouvelles nous proviennent du $name_orb_elysium$! récemment colonisé. Nos colons ont préparé une petite ogive nucléaire et l'ont tirée sur l'ancien laboratoire, afin de s'en débarrasser définitivement.\nCependant, il semble que la destruction du bâtiment n'ait déclenché une sorte de protocole, qui à son tour a conduit à la détonation simultanée de plusieurs milliers d'ogives nucléaires tout autour de $name_orb_elysium$.\nNotre colonie a été complètement anéantie, et la construction a été rendue inhabitable. Il serait peut-être possible de le restaurer si nous possédons les bonnes technologies."
@@ -11022,7 +11073,7 @@
 
     giga_achievement_kaiser8:0              "§REternel§!"
     giga_achievement_kaiser8_title:0        "§REternel§!"
-    giga_achievement_kaiser8_requirement:0  "Vaincre l'§YEmpereur Kattail§! et le §YImpérium Félidéen§! en envahissant ou en détruisant §YFlusion§! en difficulté §BKaiser Improbable§!"
+    giga_achievement_kaiser8_requirement:0  "Vaincre l'§YEmpereur Kattail§! et l'§YImpérium Félidéen§! en envahissant ou en détruisant §YFlusion§! en difficulté §BKaiser Improbable§!"
     giga_achievement_kaiser8_reward:0       "Influence mensuelle: §G+7§!\n\n"
     giga_achievement_kaiser8_tooltip:0 "$giga_achievement_kaiser8_title$\n$giga_achievement_kaiser8_requirement$\n\n§HRécompense§!\n$giga_achievement_kaiser8_reward$"
     achievement_kaiser8:0                   "$giga_achievement_kaiser8_title$"
@@ -13369,7 +13420,7 @@
     particle_accelerator_1_manage_DESC:0 "Ouvrir le menu de configuration de l'§YAccélérateur de Particules Stellaire§!."
 
     giga_accelerator.110.name:0 "Dégâts structurels sur l'Accélérateur de Particules Stellaire"
-    giga_accelerator.110.desc:0 "L'équipe travaillant à l'§YAccélérateur de Particules Stellaire§! de §Y[giga_mega_event_system.GetName]  rapporte que certaines parties de l'accélérateur ont subi de graves dommages structurels, probablement dus aux besoins énergétiques élevés des expériences menées dans la structure.\n\nBien que la mégastructure soit toujours fonctionnelle, ils conseillent de prendre des mesures immédiates pour corriger ce problème et réparer les dommages, car laisser faire pourrait avoir des conséquences désastreuses sur l'intégrité de la structure si nous poussions un peu trop loin."
+    giga_accelerator.110.desc:0 "L'équipe travaillant à l'§YAccélérateur de Particules Stellaire§! de §Y[giga_mega_event_system.GetName]§!  rapporte que certaines parties de l'accélérateur ont subi de graves dommages structurels, probablement dus aux besoins énergétiques élevés des expériences menées dans la structure.\n\nBien que la mégastructure soit toujours fonctionnelle, ils conseillent de prendre des mesures immédiates pour corriger ce problème et réparer les dommages, car laisser faire pourrait avoir des conséquences désastreuses sur l'intégrité de la structure si nous poussions un peu trop loin."
     giga_accelerator.110.a:0 "Arrêtez-le et envoyez §Y3000§! £alloys£ pour le réparer immédiatement."
     giga_accelerator.110.a.tooltip:0 "L'intensité de l'§YAccélérateur de Particules Stellaire§! sera de §BOff§! pendant §Y6 mois§!.\nIl sera positionné sur §BNormal§! ensuite."
 
@@ -14365,10 +14416,10 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     decision_grandbunny_shield_system_desc:0 "Dites au §YGrand Lapin§! d'utiliser ses pouvoirs psioniques pour empêcher les Blokchats de détruire ce système."
     decision_grandbunny_shield_system_effect:0 "Cela empêchera les §YBlok-récolteurs§! et le §YBlokchat-moissonneur§! d'entrer dans ce système pendant §Y2 années§!, après quoi il faudra attendre §Y6 mois§! avant de pouvoir renouveler la protection."
 
-    giga_blokkat.3331.power:0 "Comment pouvez-vous nous aider contre les §YBlokchats§! ?"
+    giga_blokkat.3331.power:0 "Comment pouvez-vous nous aider contre les §YBlokchats§!   ?"
     giga_blokkat.3331.power.response:0 "Bien que je ne puisse pas espérer combattre les Blokchats directement, je pourrais jouer sur leur paranoïa afin d'aider votre propre survie.\n\nEn effet, si je dispose de suffisamment d'énergie, je devrais être en mesure de manifester à distance ma propre aura psionique dans un autre système solaire, ce qui devrait dissuader les §YBlok-récolteurs§! de tenter de détruire ledit système.\n\nPour ce faire, appliquez la §YDécision§! appropriée sur l'étoile du système que vous souhaitez que je protège. Cette protection durera §Y2 années§! avec un temps de recharge de §Y6 mois§! avant de pouvoir être réactivée, soit sur le même système, soit sur un autre.\n\nMalheureusement, je ne pourrai protéger qu'un seul système en plus de §YGatzo§! mais cela devrait vous permettre de protéger les atouts les plus importants de votre civilisation."
 
-    giga_blokkat.3331.desc:0 "Greetings, §Y[ROOT.GetName]§!. J'espère sincèrement que les données de nos §YGrandes Archives§! se sont avérées utiles dans votre quête pour vaincre les perfides Blokchats.\n\nY a-t-il quelque chose que le Paluush et moi pouvons faire pour vous aider dans cette entreprise ?"
+    giga_blokkat.3331.desc:0 "Greetings, §Y[ROOT.GetName]§!. J'espère sincèrement que les données de nos §YGrandes Archives§! se sont avérées utiles dans votre quête pour vaincre les perfides Blokchats.\n\nY a-t-il quelque chose que le Paluush et moi pouvons faire pour vous aider dans cette entreprise   ?"
 
     giga_blokkat.3329.name:0 "Conception des Chronodisrupteurs"
     giga_blokkat.3329.desc:0 "En intégrant nos connaissances sur le voyage dans le temps des Blokchats dans la conception du §YDéstabilisateur Hyperdimensionnel§!, il devrait être possible de s'assurer qu'il attaque simultanément le §YRempart Hyperdimensionnel des Blokchats§! dans le passé et le futur ainsi que dans les dimensions supérieures.\n\nEfficacement, cela l'arrêtera complètement et obligera les Blokchats à passer plusieurs années à le réparer pendant lesquelles nous pourrons frapper leur précieux §YBlokchat-Moissonneur principal§!."
@@ -14382,7 +14433,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
 
     giga_blokkat.3326.name:0 "Il est temps"
     giga_blokkat.3326.desc:0 "Une étude approfondie des artefacts Blokchat modernes et anciens a finalement permis de trouver une réponse satisfaisante à l'étrange divergence de l'âge apparent des Blokchats. Bien que les deux mesures d'âge semblaient tout à fait correctes, des instruments conçus pour détecter les fluctuations du flux temporel (habituellement utilisés pour étudier les trous noirs) ont enregistré de très légères anomalies temporelles à proximité des dispositifs Blokchat modernes. Initialement considéré comme un sous-produit de la densité d'énergie extrêmement élevée de la technologie Blokchat, un examen plus approfondi a révélé que tous les appareils Blokchat modernes utilisent de légères quantités de manipulation temporelle, ou en d'autres termes : le voyage dans le temps.\n\nBien que ce voyage dans le temps ne se fasse qu'à l'échelle de la femtoseconde et ne soit donc généralement pas perceptible, il est néanmoins largement utilisé par la plupart des appareils Blokchat, si ce n'est tous (et est totalement absent des anciens artefacts retrouvés dans les §YGrandes Archives§!). Cela leur permet de fonctionner à la fois dans le passé proche, le présent et le futur extrêmement proche, augmentant ainsi de manière significative la puissance de calcul et les performances des appareils en reléguant les tâches dans le passé ou le futur.\n\nLa partie la plus intrigante est probablement l'explication de la différence d'âge, cependant. En effet, bien que la plupart des appareils n'utilisent le voyage dans le temps qu'à petite échelle, plus ils sont grands, plus ces capacités de voyage dans le temps deviennent importantes. Notre §YBlokchat Research Bureau§! pense que les Blokchats, à un moment donné après leur départ de la galaxie, ont entrepris un 'saut temporel' à grande échelle qui a envoyé toute leur civilisation cent mille ans dans le passé.\n\nLa raison exacte de ce changement temporel est obscure mais l'explication probable est qu'ils craignaient peut-être que les Paluush les suivent dans l'espace intergalactique. Leur bond en arrière dans le temps leur a donc permis d'être aussi éloignés que possible des Paluush et de ne pas risquer de représailles."
-    giga_blokkat.3326.a:0 "Combien d'autres secrets leurs technologies détiennent-elles... ?"
+    giga_blokkat.3326.a:0 "Combien d'autres secrets leurs technologies détiennent-elles...  ?"
     giga_blokkat.3326.a.tooltip:0 "La recherche de la technologie de §Ydéplacement temporel de Blokchat§! ne sera pas considérée comme un §Bprojet de recherche sur le Blokchat§! et ouvrira probablement de grandes possibilités de riposte contre les Blokchats à l'avenir."
 
     blokkat_timetravel_title:0 "Connaissance des Blokchats : §G+4§!"
@@ -14916,7 +14967,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
 
     giga_blokkat.3092.name:0 "Canon à singularité tétradimensionnelle"
     giga_blokkat.3092.desc:0 "Notre §YBureau de Recherche sur les Blokchats§! a réussi à établir les schémas du §YCanon à singularité tétradimensionnelle§! des Blokchats, une arme de type missile à fente G utilisée par les Blokchats sur la plupart de leurs vaisseaux. Les premiers travaux de conception indiquent que ce composant ésotérique semble reposer sur le catapultage d'une singularité quadridimensionnelle vers son malheureux ennemi.\n\nIl nous incombe maintenant de mener les recherches appropriées sur ce nouveau composant."
-    giga_blokkat.3092.a:0 "Qu'est-ce qu'il y a avec ces trucs en 4D ?"
+    giga_blokkat.3092.a:0 "Qu'est-ce qu'il y a avec ces trucs en 4D   ?"
 
     giga_blokkat.3093.name:0 "Unités Blok-Essaim"
     giga_blokkat.3093.desc:0 "Notre §YBureau de Recherche sur les Blokchats§! a réussi à établir les schémas des §YUnités Blok-Essaim§! des Blokchats, une arme à fente H utilisée par les Blokchats sur leurs vaisseaux. Elles semblent reposer sur le déploiement de douzaines d'entités semblables à des Blokchats dans l'espace qui engagent ensuite les vaisseaux ennemis.\n\nBien que nous ne puissions pas créer nous-mêmes de nouveaux Blokchats à cette fin, nous devrions être en mesure de créer quelque chose d'assez similaire pour remplir cette fonction.\n\nIl nous incombe maintenant de mener les recherches appropriées sur ce nouveau composant."
@@ -15050,7 +15101,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     decision_blokkat_emergency_evacuation_effect:0 "Nous permet de réinstaller immédiatement la population de cette planète dans d'autres parties de notre empire, à l'exclusion des planètes qui ont été mises sur liste noire."
 
     giga_blokkat.1024.name:0 "Évacuation planétaire"
-    giga_blokkat.1024.desc:0 "La situation sur §Y[ROOT.GetName]§! s'est aggravée et il nous incombe de mettre ses habitants en sécurité.\n\nNous pouvons §Yévacuer§! ce monde, ce qui entraînera immédiatement le déplacement de sa §Ypopulation§! vers des planètes aléatoires de notre empire, à l'exception de celles que nous avons §Ymises sur liste noire§!.\n\nPouvons-nous procéder ?"
+    giga_blokkat.1024.desc:0 "La situation sur §Y[ROOT.GetName]§! s'est aggravée et il nous incombe de mettre ses habitants en sécurité.\n\nNous pouvons §Yévacuer§! ce monde, ce qui entraînera immédiatement le déplacement de sa §Ypopulation§! vers des planètes aléatoires de notre empire, à l'exception de celles que nous avons §Ymises sur liste noire§!.\n\nPouvons-nous procéder   ?"
     giga_blokkat.1024.a:0 "Continuez."
     giga_blokkat.1024.b:0 "A la réflexion, pas maintenant."
 
@@ -15072,41 +15123,41 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
 
     giga_blokkat.5010.name:0 "Les Blokchats"
 
-    giga_blokkat.5010.desc.a:0 "Nos opérations de récolte se déroulent magnifiquement. Pouvons-nous faire quelque chose pour vous, §Y[ROOT.GetSpeciesNamePlural]§! ?"
-    giga_blokkat.5010.desc.b:0 "Combien de Blokchats un Blokchat peut-il Blokk ? Vous ne voulez pas le savoir."
+    giga_blokkat.5010.desc.a:0 "Nos opérations de récolte se déroulent magnifiquement. Pouvons-nous faire quelque chose pour vous, §Y[ROOT.GetSpeciesNamePlural]§!   ?"
+    giga_blokkat.5010.desc.b:0 "Combien de Blokchats un Blokchat peut-il Blokk   ? Vous ne voulez pas le savoir."
     giga_blokkat.5010.desc.c:0 "N'oubliez pas que vous êtes libre de quitter cette galaxie si nos opérations vous dérangent."
     giga_blokkat.5010.desc.d:0 "Nous sommes les Blokchats. Le non-cubisme est futile."
     giga_blokkat.5010.desc.e:0 "GEOMETRICATE ! GÉOMÉTRIQUE !"
     giga_blokkat.5010.desc.f:0 "Les lapins ne sont pas autorisés. Ne demandez pas pourquoi."
     giga_blokkat.5010.desc.g:0 "Nous sommes heureux de vous informer que votre galaxie sera désassemblée afin de fournir des matériaux pour une toute nouvelle prouesse de l'ingénierie Blokchat. Veuillez contacter nos bureaux de déconstruction galactique pour obtenir un reçu officiel de relocalisation. Le temps d'attente est estimé à seulement 2 millions d'années."
     giga_blokkat.5010.desc.h:0 "Veuillez vous débarrasser de tous les Oblitérateurs Quasi-Stellaires pour nous permettre un processus plus holistique et plus efficace de dépouillement cosmique."
-    giga_blokkat.5010.desc.edgy:0 "Joli moteur éthérophasique, quels plans alambiqués votre espèce a-t-elle élaborés pour justifier celui-ci ? Quelque chose à propos d'être l'espèce choisie, peut-être ? Ou la poursuite d'une quête qu'aucun mortel ne peut comprendre ?"
+    giga_blokkat.5010.desc.edgy:0 "Joli moteur éthérophasique, quels plans alambiqués votre espèce a-t-elle élaborés pour justifier celui-ci   ? Quelque chose à propos d'être l'espèce choisie, peut-être   ? Ou la poursuite d'une quête qu'aucun mortel ne peut comprendre   ?"
 
     #ACOT
     giga_blokkat.5010.desc.acot1:0 "Voici un bon conseil pour votre civilisation : Construisez plusieurs générateurs de Stellarite sur votre monde capital pour générer plus d'énergie. En suivant ce conseil, vous accélérerez votre évacuation de la galaxie."
-    giga_blokkat.5010.desc.acot2:0 "Avez-vous entendu parler du légendaire Blokchat ?"
+    giga_blokkat.5010.desc.acot2:0 "Avez-vous entendu parler du légendaire Blokchat   ?"
     giga_blokkat.5010.desc.acot3:0 "Admettez-le, vous l'appelez énergie sombre parce que vous n'avez aucune idée de la façon dont elle fonctionne et que vous improvisez des choses jusqu'à ce qu'elles fonctionnent. Il n'y a pas de honte à ça."
-    giga_blokkat.5010.desc.acot4:0 "Vous avez vraiment fait un raid au même endroit plus d'une douzaine de fois pour une technologie runique inférieure ? Il a probablement été volé aussi vous savez."
+    giga_blokkat.5010.desc.acot4:0 "Vous avez vraiment fait un raid au même endroit plus d'une douzaine de fois pour une technologie runique inférieure   ? Il a probablement été volé aussi vous savez."
     giga_blokkat.5010.desc.sbtg1:0 "Non, nous ne participons pas au tournoi. Et nous ne vous aiderons pas à le faire. Pas de marché du type 'ennemi de mon ennemi'."
 
     #Mods
     giga_blokkat.5010.desc.mods1:0 "Ah oui, vous êtes passés à un autre niveau. Cela augmentera vos chances d'arrêter nos opérations de : -7.567%"
-    giga_blokkat.5010.desc.mods2:0 "Les convictions de votre empire sont déjà en train de disparaître ? C'est un nouveau record, même en considérant les zones de démantèlement galactiques passées."
+    giga_blokkat.5010.desc.mods2:0 "Les convictions de votre empire sont déjà en train de disparaître   ? C'est un nouveau record, même en considérant les zones de démantèlement galactiques passées."
     giga_blokkat.5010.desc.mods3:0 "Soi-disant, 'Ascended Empire' détecté, diagnostic de comMencement : ERROR ! Compétence non trouvée."
-    giga_blokkat.5010.desc.mods4:0 "Armement intriguant, l'avez-vous acquis à partir d'un programme de divertissement animé ?"
+    giga_blokkat.5010.desc.mods4:0 "Armement intriguant, l'avez-vous acquis à partir d'un programme de divertissement animé   ?"
     giga_blokkat.5010.desc.mods5:0 "Une civilisation qui a atteint son zénith n'a plus qu'à descendre, §Y[ROOT.GetName]§!."
 
     #Megas
     giga_blokkat.5010.desc.mega1:0 "Comment as-tu eu assez de matériaux pour ce monde de bouleau... Ça ne fait rien, il sera aussi minéralisé."
-    giga_blokkat.5010.desc.mega2:0 "Cool Alderson Disk, ça vous dérange si on en prend une part ? En fait, on peut tous les prendre ? On va tous les prendre, si ça ne vous dérange pas. Si ça vous dérange, vous pouvez toujours déposer une plainte, nous l'examinerons quand nous aurons fini avec votre galaxie."
+    giga_blokkat.5010.desc.mega2:0 "Cool Alderson Disk, ça vous dérange si on en prend une part   ? En fait, on peut tous les prendre   ? On va tous les prendre, si ça ne vous dérange pas. Si ça vous dérange, vous pouvez toujours déposer une plainte, nous l'examinerons quand nous aurons fini avec votre galaxie."
     giga_blokkat.5010.desc.mega3:0 "Merci de nous avoir préparé une pizza. Nous aimons la saveur d'Alderson."
     giga_blokkat.5010.desc.mega4:0 "Nous voyons que cette galaxie a été assez sensée pour ne pas placer l'arme sous le contrôle de l'IA, puis pour essayer de la dater. Nous sommes reconnaissants que l'univers ait un certain sens après tout."
-    giga_blokkat.5010.desc.mega5:0 "Votre civilisation l'appelle donc l'Artillerie des Astéroïdes ? Lorsque nous avons construit une construction similaire, nous l'avons appelée la Super Sentinelle Astéroïde, qui est objectivement un nom supérieur."
+    giga_blokkat.5010.desc.mega5:0 "Votre civilisation l'appelle donc l'Artillerie des Astéroïdes   ? Lorsque nous avons construit une construction similaire, nous l'avons appelée la Super Sentinelle Astéroïde, qui est objectivement un nom supérieur."
 
     #Crisises
-    giga_blokkat.5010.desc.crisis1:0 "Aeternum a, de loin, le ratio temps/développement le moins efficace que nous ayons vu. Qu'est-ce qu'ils ont fait au juste ?"
+    giga_blokkat.5010.desc.crisis1:0 "Aeternum a, de loin, le ratio temps/développement le moins efficace que nous ayons vu. Qu'est-ce qu'ils ont fait au juste   ?"
     giga_blokkat.5010.desc.crisis2:0 "Ces insectes continuent de s'enfuir et de dire à tout le monde que nous sommes des sortes de chasseurs."
-    giga_blokkat.5010.desc.crisis3:0 "Ces robots rouges ne sont pas très efficaces pour nettoyer la galaxie. Peut-être devrions-nous essayer de leur apprendre comment on fait ?"
+    giga_blokkat.5010.desc.crisis3:0 "Ces robots rouges ne sont pas très efficaces pour nettoyer la galaxie. Peut-être devrions-nous essayer de leur apprendre comment on fait   ?"
     giga_blokkat.5010.desc.crisis4:0 "Ces fantômes bleus prétendent se nourrir et laissent toute cette matière intacte, quel gâchis."
     giga_blokkat.5010.desc.crisis5:0 "Ce Kaiser et ses Kan'tzens semblent totalement terrifiés par nous alors que nous ne les avons jamais rencontrés dans le passé. Hilarant."
 
@@ -15613,11 +15664,11 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
 
     giga_blokkat.5001.name:0 "Moteur d'évanouissement"
     giga_blokkat.5001.desc:0 "Un examen alarmant de notre soi-disant puissant §YMoteur Ethérophasique§! a révélé que sa puissance semble... diminuer rapidement.\n\nAlors qu'il attirait autrefois de puissants vrilles d'énergie pure dans les profondeurs du Suaire, le Moteur est actuellement à peine capable de franchir la barrière séparant notre monde de la dimension psionique, comme si une sorte de bouclier de dimension supérieure avait été jeté sur lui.\n\nAlors que nos scientifiques tentaient frénétiquement de trouver une explication, ils ont soudainement reçu une transmission à haute énergie provenant de nul autre que les §YBlokchats§! eux-mêmes..."
-    giga_blokkat.5001.a:0 "De quoi s'agit-il ? ! Sur l'écran !"
+    giga_blokkat.5001.a:0 "De quoi s'agit-il   ? ! Sur l'écran !"
 
     giga_blokkat.5002.name:0 "Le Blokchat Stripminers"
     giga_blokkat.5002.desc:0 "§Y[ROOT.GetName]§!, sachez que vos tentatives futiles de destruction de la galaxie ne sont pas une nouveauté pour notre civilisation.\n\nEn fait, nos archives possèdent des enregistrements de plus de plusieurs milliers d'espèces sapides tentant de faire la même chose pour une raison incompréhensible. Tout ceci n'est qu'une illusion collective, §Y[ROOT.GetSpeciesNamePlural]§! !\n\nPour votre propre sécurité et pour assurer la continuité de nos opérations de récolte, le §YBlokchat-Moissonneur principal§! a placé un bouclier pentadimensionnel autour de votre 'Moteur', ce qui devrait l'empêcher de causer tout dommage inutile. \n\nComprenez que c'est pour votre bien et rappelez-vous que vous êtes libre de partir si nos opérations vous dérangent."
-    giga_blokkat.5002.a:0 "COMMENT OSEZ-VOUS INTERROMPRE NOTRE GRAND PLAN ? ! ?"
+    giga_blokkat.5002.a:0 "COMMENT OSEZ-VOUS INTERROMPRE NOTRE GRAND PLAN   ? !   ?"
     giga_blokkat.5002.a.response:0 "La gymnastique mentale à laquelle votre espèce a dû se livrer pour appeler ça un 'plan' nous déconcerte même nous, §Y[ROOT.GetSpeciesNamePlural]§!."
 
     giga_blokkat.6000.name:0 "Fin des opérations de récolte de Blokchat"
@@ -15891,16 +15942,16 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
 
      ### RANDOM BLOKKAT STUFF ###
 
-    giga_blokkat.5010.butwhy:0 "Quel est le but de vos opérations de récolte ?"
-    giga_blokkat.5010.butwhy.response:0 "Nous avons une vision, un plan, une ambition, tu vois. Et le réaliser demande de l'énergie. Quelle énergie, tu te demandes ? Toute l'énergie."
+    giga_blokkat.5010.butwhy:0 "Quel est le but de vos opérations de récolte   ?"
+    giga_blokkat.5010.butwhy.response:0 "Nous avons une vision, un plan, une ambition, tu vois. Et le réaliser demande de l'énergie. Quelle énergie, tu te demandes   ? Toute l'énergie."
 
-    giga_blokkat.5010.coexist:0 "On ne peut pas coexister ? Nous pouvons vous donner de l'énergie !"
+    giga_blokkat.5010.coexist:0 "On ne peut pas coexister   ? Nous pouvons vous donner de l'énergie !"
     giga_blokkat.5010.coexist.response:0 "Quelque soit l'accord que votre espèce puisse proposer, il sera en fin de compte inférieur à la simple récolte de l'énergie par nous-mêmes. Si nos opérations vous dérangent, vous êtes libre de quitter la galaxie."
 
     giga_blokkat.5010.nogalaxytravel:0 "Nous ne possédons pas le voyage intergalactique. Nous ne pouvons pas partir."
     giga_blokkat.5010.nogalaxytravel.response:0 "C'est regrettable."
 
-    # giga_blokkat.5010.scourge:0 "Connaissez-vous le fléau Prethoryn ?"
+    # giga_blokkat.5010.scourge:0 "Connaissez-vous le fléau Prethoryn   ?"
     # giga_blokkat.5010.scourge.response:0 "Les qualifier de fléau n'est pas vraiment exact. Les Prethoryn étaient une ruche intergalactique occupant environ 37 galaxies dans un groupe galactique riche en ressources. Un Blokchat-Moissonneur principal avec un détachement de Blok-récolteur a été envoyé pour récolter l'amas mais a été repoussé par la masse des vaisseaux Prethoryn."
 
 
@@ -16190,7 +16241,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     pre_emptive_aeternite_strike_desc:0 "La Communauté Galactique a lancé un assaut surprise sur Aeternum. Nous devons capitaliser sur l'élément de surprise."
 
     giga_aeternum.8030.name:0 "La communauté galactique lance une attaque préventive contre l'aeternite !"
-    giga_aeternum.8030.desc:0 "Dans une grande démonstration de courage et suite à l'approbation du Sénat Galactique, l'§YAlliance Anti-Aeternite§! a déclaré aujourd'hui le début d'une grande offensive contre §YAeternum§!. \n\nDans le but de frapper avant que l'éveil d'Aeternum ne soit achevé, les flottes combinées de la galaxie se déplacent maintenant pour attaquer les précurseurs pendant que l'élément de surprise peut encore être exploité. Avec des armadas colossales et des armes terrifiantes, les deux camps s'attendent à un combat sans précédent depuis un million d'années.\n\nL'Alliance parviendra-t-elle à surmonter son désavantage technologique ou Aeternum la balayera-t-elle comme tant d'autres ? Il est indéniable que la bataille pour le destin ultime de la galaxie a commencé."
+    giga_aeternum.8030.desc:0 "Dans une grande démonstration de courage et suite à l'approbation du Sénat Galactique, l'§YAlliance Anti-Aeternite§! a déclaré aujourd'hui le début d'une grande offensive contre §YAeternum§!. \n\nDans le but de frapper avant que l'éveil d'Aeternum ne soit achevé, les flottes combinées de la galaxie se déplacent maintenant pour attaquer les précurseurs pendant que l'élément de surprise peut encore être exploité. Avec des armadas colossales et des armes terrifiantes, les deux camps s'attendent à un combat sans précédent depuis un million d'années.\n\nL'Alliance parviendra-t-elle à surmonter son désavantage technologique ou Aeternum la balayera-t-elle comme tant d'autres   ? Il est indéniable que la bataille pour le destin ultime de la galaxie a commencé."
     giga_aeternum.8030.a:0 "Frappez maintenant ! Frappez vite !"
     giga_aeternum.8030.a.tooltip:0 "Chaque membre de la §YLigue Anti-Aeternite§! gagne des bonus temporaires. Les membres non-joueurs feront converger leurs flottes vers §YAiondia§!.\n\n"
 
@@ -17061,7 +17112,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
 
     giga_flavor_systems.2016.name:0 "[giga_eaw_country.GetName] Saisissez [giga_eaw_system.GetName] la base stellaire !"
     giga_flavor_systems.2016.desc:0 "Dans un mépris flagrant de notre rejet de leur demande, les §Y[giga_eaw_country.GetName]§! ont mené une opération pour réquisitionner et saisir notre base stellaire dans le système §Y[giga_eaw_system.GetName]§!.\n\nBien qu'ils aient réussi à capturer la base stellaire elle-même, nous estimons qu'il ne devrait pas être trop difficile de détruire leurs flottes et de reprendre le système ainsi que leur planète, mais notre haut commandement nous avertit que leurs forces terrestres sont inhabituellement puissantes pour une civilisation aussi jeune."
-    giga_flavor_systems.2016.a:0 "Comment osent-ils ? Écrasez-les tout de suite !"
+    giga_flavor_systems.2016.a:0 "Comment osent-ils   ? Écrasez-les tout de suite !"
     giga_flavor_systems.2016.a.tooltip:0 "Nous allons §RDÉCLARER LA GUERRE§! aux §Y[giga_eaw_country.GetName]§! et devrons nous emparer de §YFaust§! pour mettre fin à la guerre."
     giga_flavor_systems.2016.b:0 "Ils peuvent avoir le système, il est sans valeur pour nous de toute façon."
     giga_flavor_systems.2016.b.tooltip:0 "Le §Y[giga_eaw_system.GetName]§! et toutes ses planètes sont transférées au §Y[giga_eaw_country.GetName]§!."
