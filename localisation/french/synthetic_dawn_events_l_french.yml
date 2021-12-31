@@ -6,8 +6,8 @@
  syndaw.1.name:0 "Assimilation de [From.GetName]"
  syndaw.1.desc:0 "Un ensemble de pensées nouvelles s'est répandu sur les réseaux. Au départ disparates, elles se sont bientôt normalisées sous la forme médiane que nous sommes savons être nous-mêmes.\n\nNous avons assimilé une part de la connaissance et des capacités des §Y[From.GetNamePlural]§!."
  syndaw.1.a.tooltip:0 "Gains de §Ypoints de recherche§! pour chaque pop assimilée."
- syndaw.2.name:0 "Intégration de [Root.GetName]"
- syndaw.2.desc:0 "Nous avons assimilé dans notre réseau les unités synthétiques de [Root.GetName]."
+ syndaw.2.name:0 "Intégration de §H[Root.GetName]§!"
+ syndaw.2.desc:0 "Nous avons assimilé dans notre réseau les unités synthétiques de §H[Root.GetName]§!."
 
  syndaw.21.name:1 "§RUnité perdue§!"
  syndaw.21.desc:1 "L'unité de recherche §R[malfunctioning_leader.GetName]§!, à bord de la flotte '[malfunctioning_leader_fleet.GetName]', a cessé de fonctionner à cause d'un contact involontaire et prolongé avec des câbles haute tension non protégés."
@@ -153,7 +153,7 @@
  syndaw.515.a.tooltip:0 "Une ressource stratégique est découverte sur [target_planetoid.GetName]."
 ##Tears of an AI
  syndaw.520.name:0 "Les larmes d'une I.A."
- syndaw.520.desc:0 "Un incident est survenu dans l'un des complexes de [Root.GetName] : une I.A. de laboratoire participant aux recherches en sciences sociales a souffert d'un problème matériel critique, qui s'est traduit par la perte de ses suites logicielles et systèmes mémoires. Une diminution de la production scientifique du laboratoire est déjà prévisible, au moins jusqu'à ce que les algorithmes de la nouvelle I.A. aient été suffisamment implémentés.\n\nLes circonstances expliquant cet échec critique restent toutefois très vagues."
+ syndaw.520.desc:0 "Un incident est survenu dans l'un des complexes de §H[Root.GetName]§! : une I.A. de laboratoire participant aux recherches en sciences sociales a souffert d'un problème matériel critique, qui s'est traduit par la perte de ses suites logicielles et systèmes mémoires. Une diminution de la production scientifique du laboratoire est déjà prévisible, au moins jusqu'à ce que les algorithmes de la nouvelle I.A. aient été suffisamment implémentés.\n\nLes circonstances expliquant cet échec critique restent toutefois très vagues."
  syndaw.520.a.tooltip:0 "Cela va mettre fin à la chaîne d'événements §Y$syndaw.520.name$§!.\n"
  syndaw.520.b:0 "Lançons une enquête pour en trouver la cause"
  syndaw.520.b.tooltip:0 "Lance une enquête pour éclaircir les circonstances entourant la destruction de l'I.A."
@@ -189,9 +189,9 @@
 #syndaw.535.a.tooltip: "Consumer Goods Cost §G-5%§! for §Y365§! days"
 ##A Silent Congregation
  syndaw.540.name:0 "Assemblée mutique"
- syndaw.540.desc:0 "Nous avons reçu des rapports sur le comportement inhabituel d'unités robotiques de [Root.GetName]. À des intervalles imprévisibles, un certain nombre de robots de la [Root.GetPlanetMoon] interrompent toutes les tâches auxquelles ils sont assignés et commencent à se mouvoir vers des sites apparemment déterminés de façon aléatoire, en totale synchronicité - de l'ordre du milliseconde.\n\nAu cours de ces assemblées pour le moins bizarres, les robots concernés ne semblent pas entretenir la moindre forme de communication détectable ni transférer de données. Ils se tiennent juste sur place. Totalement immobiles. Regardant.\n\nL'enquête a été incapable de déterminer les causes de ce phénomène récent. La durée au cours de laquelle les unités restent dans cet état proche de la transe avant de reprendre leurs fonctions normales peut varier, tout comme les moments où cela survient et les lieux où ils se réunissent. Aucune corrélation ou causalité logique n'a été trouvée, et la population - comme on peut le comprendre - s'inquiète de ces mystérieux rassemblements."
- syndaw.540.a:0 "Intolérable, faisons-les mettre au rebut" #IF player has robot pops only OR robot pop AND robot army on target planet
- syndaw.540.a.tooltip:1 "Met tous les robots participant à ces rassemblements au rebut.\nLa §Y[Root.GetName]§! est ainsi affectée :\nPerte de §B1 £pops£pop robotique§!\nGain de §G100§!£minerals£ "
+ syndaw.540.desc:0 "Nous avons reçu des rapports sur le comportement inhabituel d'unités robotiques de §H[Root.GetName]§!. À des intervalles imprévisibles, un certain nombre de robots de la [Root.GetPlanetMoon] interrompent toutes les tâches auxquelles ils sont assignés et commencent à se mouvoir vers des sites apparemment déterminés de façon aléatoire, en totale synchronicité - de l'ordre du milliseconde.\n\nAu cours de ces assemblées pour le moins bizarres, les robots concernés ne semblent pas entretenir la moindre forme de communication détectable ni transférer de données. Ils se tiennent juste sur place. Totalement immobiles. Regardant.\n\nL'enquête a été incapable de déterminer les causes de ce phénomène récent. La durée au cours de laquelle les unités restent dans cet état proche de la transe avant de reprendre leurs fonctions normales peut varier, tout comme les moments où cela survient et les lieux où ils se réunissent. Aucune corrélation ou causalité logique n'a été trouvée, et la population - comme on peut le comprendre - s'inquiète de ces mystérieux rassemblements."
+ syndaw.540.a:0 "C'est intolérable, faisons-les mettre au rebut" #IF player has robot pops only OR robot pop AND robot army on target planet
+ syndaw.540.a.tooltip:1 "Mettre tous les robots participant à ces rassemblements au rebut.\n'§Y[Root.GetName]§!' est ainsi affectée :\nPerte de §B1 £pops£pop robotique§!\nGain de §G100§!£minerals£ "
  syndaw.540.b:0 "Intolérable, faisons-les mettre au rebut" #IF player has robot army only
  syndaw.540.b.tooltip:1 "Met tous les robots participant à ces rassemblements au rebut.\n'§Y[Root.GetName]§!' est ainsi affectée :\nPerte de §B1 armée robotique§!\nGain de §G100§!£minerals£ "
  syndaw.540.c:0 "Tant qu'ils ne posent pas d'autres problèmes..."

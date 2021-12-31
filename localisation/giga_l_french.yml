@@ -490,7 +490,7 @@
     giga_menu.2.refresh.tooltip:0 "Ici, vous pouvez vérifier vos paramètres actifs."
 
     giga_menu.1.name:0 ""
-    giga_menu.1.desc:0 "v 3.19"
+    giga_menu.1.desc:0 "v 3.19.1"
 
     giga_menu_1:0 "Capacité en mégastructures : §H1§!"
     giga_menu_2:0 "Capacité en mégastructures : §Y2§!"
@@ -1325,6 +1325,16 @@
 
     ################################
 
+      ehof_megastructure.018.name:0 "Construction de trou noir"
+      ehof_megastructure.018.desc:0 "Au coeur de §H[root.solar_system.GetName]§!, on trouve une structure orbitale endommagée qui semble envelopper le trou noir central. A première vue, la construction semble être non fonctionnelle et abandonnée. Pour déterminer son but, nous devrons l'explorer."
+      ehof_megastructure.018.a:0 "Intrigant !"
+      ehof_megastructure.018.b:0 "Nan, rester isolé est bien plus cool."
+
+      EXPLORE_RUINED_EHOF:0 "Explorer la construction du trou noir"
+      EXPLORE_RUINED_EHOF_DESC:0 "Le projet d'exploration de la construction endommagée, autour du trou noir, à l'intérieur du système §H[root.solar_system.GetName]§! est en cours. Pour déterminer son but, nous devrons envoyer des unités d'exploration dans les restes de la construction."
+
+      ################################
+
 
 
 
@@ -1386,7 +1396,7 @@
     EXPLORE_CREATOR_PLANET_DESC:0 "Maintenant que $ehof_the_sphere$ nous a donné accès à son intérieur, nous pouvons enfin dévoiler ses secrets. Qui sait quelles merveilles et mystères énigmatiques et technologiques nous y découvrirons !"
 
     ehof_anomaly.10417.name:0 "Un Microvers dans une bulle"
-    ehof_anomaly.10417.desc:0 "Après des années d'enquête sur $ehof_the_sphere$, ses secrets ont été enfin découverts.\n\nQuelque chose, qui ne peut être décrit que comme un univers miniature, une énorme bulle d'espace-temps plié, se trouve à l'intérieur ! $ehof_the_sphere$ sert de coque protectrice, toujours changeante et indestructible pour empêcher l'influence de l'univers extérieur.\n\nLe volume de l'espace-temps de ce microvers est inversement plié par rapport à l'espace extérieur, ce qui rend ce volume interne $ehof_the_sphere$ plusieurs milliers de fois plus grand que $ehof_the_sphere$ elle-même.\n\nLe microvers est divisé en deux régions distinctes, le volume extérieur et le volume intérieur. Les deux volumes sont séparés en possédant des densités d'énergie du vide distinctes.\n\nLe volume extérieur a une densité d'énergie du vide pratiquement identique à celle de l'univers extérieur et est rempli de centaines d'étoiles. D'innombrables entités technologiques y sont situées, qui semblent exploiter l'énergie des étoiles, les fluctuations quantiques de l'énergie du vide et même les énergies extra-dimensionnelles d'origine inconnue.\n\nLe volume intérieur semble être un vide presque absolu, ou évoluent uniquement des paires antiparticules-particules provenant de fluctuations quantiques. Cependant, il possède une densité d'énergie beaucoup plus grande que le volume extérieur.\n\nNotre conclusion laisse supposer que la raison de la ségrégation de l'espace en deux volumes distincts est de générer des quantités d'énergie d'un niveau extrême ! Toute l'énergie est extraite dans le volume extérieur, puis siphonnée par le volume intérieur. Le contenu énergétique du volume intérieur a été déterminé à au moins 10^49 Joule, ce qui équivaut à la masse-énergie totale de mille étoiles.\n\nDe plus, nous avons pu déterminer que les amplificateurs et les pylônes fonctionnent à l'unisson comme distributeurs d'énergie et d'information, qui sont dispersés dans toute la galaxie. Ils sont utilisés pour créer un gigantesque réseau de distribution d'énergie et d'information, et sont censés utiliser l'énergie fournie par $ehof_the_sphere$ pour créer une masse quasi-négative. Les amplificateurs sont des répéteurs du schéma énigmatique, du protocole d'administration sensible du réseau de distribution galactique, et des générateurs de masse quasi-négative.\n\nLes pylônes primordiaux sont utilisés pour distribuer les ordres de $ehof_the_sphere$ autour du réseau, et transmettre des informations entre les amplificateurs et la $ehof_the_sphere$. Cela signifie qu'il y a beaucoup plus de systèmes $ehof_cohesive$ dans la galaxie, que nous ne l'avions prévu !\n\nMalheureusement, nous n'avons toujours pas été en mesure de déterminer quel était l'objectif initial de ce réseau gigantesque, mais la révélation la plus étonnante est que $ehof_the_sphere$ n'est pas la seule construction de son type et qu'il y en a au moins quelques autres quelque part en dehors de notre galaxie.\n\nQuoi qu'il en soit, quoi que les créateurs de ces énormes constructions voulaient réaliser, il leur fallait une telle quantité d'énergie, l'équivalent de ce que des milliers d'étoiles pouvaient générer au cours de leur vie entière !\n\n De plus, aucune information concernant les créateurs n'a été trouvée."
+    ehof_anomaly.10417.desc:0 "Après des années d'enquête sur $ehof_the_sphere$, ses secrets ont été enfin découverts.\n\nQuelque chose, qui ne peut être décrit que comme un univers miniature, une énorme bulle d'espace-temps plié, se trouve à l'intérieur ! $ehof_the_sphere$ sert de coque protectrice, toujours changeante et indestructible pour empêcher l'influence de l'univers extérieur.\n\nLe volume de l'espace-temps de ce microvers est inversement plié par rapport à l'espace extérieur, ce qui rend ce volume interne $ehof_the_sphere$ plusieurs milliers de fois plus grand que $ehof_the_sphere$ elle-même.\n\nLe microvers est divisé en deux régions distinctes, le volume extérieur et le volume intérieur. Les deux volumes sont séparés en possédant des densités d'énergie du vide distinctes.\n\nLe volume extérieur a une densité d'énergie du vide pratiquement identique à celle de l'univers extérieur et est rempli de centaines d'étoiles. D'innombrables entités technologiques y sont situées, qui semblent exploiter l'énergie des étoiles, les fluctuations quantiques de l'énergie du vide et même les énergies extra-dimensionnelles d'origine inconnue.\n\nLe volume intérieur semble être un vide presque absolu, ou évoluent uniquement des paires antiparticules-particules provenant de fluctuations quantiques. Cependant, il possède une densité d'énergie beaucoup plus grande que le volume extérieur.\n\nNotre conclusion laisse supposer que la raison de la ségrégation de l'espace en deux volumes distincts est de générer des quantités d'énergie d'un niveau extrême ! Toute l'énergie est extraite dans le volume extérieur, puis siphonnée par le volume intérieur. Le contenu énergétique du volume intérieur a été déterminé à au moins 10^49 Joule, ce qui équivaut à la masse-énergie totale de mille étoiles.\n\nDe plus, nous avons pu déterminer que les amplificateurs et les pylônes fonctionnent à l'unisson comme distributeurs d'énergie et d'information, qui sont dispersés dans toute la galaxie. Ils sont utilisés pour créer un gigantesque réseau de distribution d'énergie et d'information, et sont censés utiliser l'énergie fournie par $ehof_the_sphere$ pour créer une masse négative. Les amplificateurs sont des répéteurs du schéma énigmatique, du protocole d'administration sensible du réseau de distribution galactique, et des générateurs de masse négative.\n\nLes pylônes primordiaux sont utilisés pour distribuer les ordres de $ehof_the_sphere$ autour du réseau, et transmettre des informations entre les amplificateurs et la $ehof_the_sphere$. Cela signifie qu'il y a beaucoup plus de systèmes $ehof_cohesive$ dans la galaxie, que nous ne l'avions prévu !\n\nMalheureusement, nous n'avons toujours pas été en mesure de déterminer quel était l'objectif initial de ce réseau gigantesque, mais la révélation la plus étonnante est que $ehof_the_sphere$ n'est pas la seule construction de son type et qu'il y en a au moins quelques autres quelque part en dehors de notre galaxie.\n\nQuoi qu'il en soit, quoi que les créateurs de ces énormes constructions voulaient réaliser, il leur fallait une telle quantité d'énergie, l'équivalent de ce que des milliers d'étoiles pouvaient générer au cours de leur vie entière !\n\n De plus, aucune information concernant les créateurs n'a été trouvée."
     ehof_anomaly.10417.a:0 "C'est la plus grande découverte scientifique de tous les temps !"
 
     #############################################################################################################################################
@@ -1722,7 +1732,7 @@
     ###############################
     # Notification that a new system spawned
     ehof_reality_code.1000.name:0 "Code de réalité - L'origine"
-    ehof_reality_code.1000.desc:0 "Après des années de recherche de tous les fragments de la séquence de code maître $ehof_epcs$, nous avons finalement pu rassembler suffisamment de pièces pour l'assembler complètement.\n\nLes amplificateurs et les $CREATORGATE_GALACTICSS$, qui ont été trouvés dispersés dans tous les systèmes $ehof_cohesive$, sont utilisés pour transférer le $ehof_epcs$ dans toute la galaxie et au-delà, dans un but encore inconnu. Voici ce que nous savons déjà : les amplificateurs sont capables de créer une masse quasi-négative dans un but inconnu et utilisent les $CREATORGATE_GALACTICSS$ pour communiquer entre eux. Le signal par lequel ils communiquent, la séquence de code $ehof_epcs$, est transmis par ondes gravi-électromagnétiques jusqu'à ce qu'il atteigne une $ehof_gateway_disabled$, qui y réagit ou n'y réagit pas.\n\nCela dépend de la fréquence et l'amplitude du $ehof_epcs$ et l'intensité de l'énergie stockée à l'intérieur de l'onde gravi-électromagnétique, qui porte le $ehof_epcs$. Si la $ehof_gateway_disabled$ réagit, elle se transforme en $CREATORGATE_GALACTIC$ et transmet le $ehof_epcs$ au système $ehof_cohesive$. Le but fondamental de tout cela reste un mystère, mais l'enquête sur l'origine nous le révélera, espérons-le.\n\nGrâce à la séquence de code maître, nous pourrons désormais créer une connexion entre une $CREATORGATE_GALACTIC$ et l'origine du motif énigmatique.\n\nAutre que cela, avec les connaissances rassemblées à l'intérieur des amplificateurs et l'étude du $CREATORGATE_GALACTICS$, nous sommes maintenant en mesure de rechercher la technologie pour fabriquer $ehof_sm$ et créer notre propre $CREATORGATE_GALACTICS$!"
+    ehof_reality_code.1000.desc:0 "Après des années de recherche de tous les fragments de la séquence de code maître $ehof_epcs$, nous avons finalement pu rassembler suffisamment de pièces pour l'assembler complètement.\n\nLes amplificateurs et les $CREATORGATE_GALACTICSS$, qui ont été trouvés dispersés dans tous les systèmes $ehof_cohesive$, sont utilisés pour transférer le $ehof_epcs$ dans toute la galaxie et au-delà, dans un but encore inconnu. Voici ce que nous savons déjà : les amplificateurs sont capables de créer une masse négative dans un but inconnu et utilisent les $CREATORGATE_GALACTICSS$ pour communiquer entre eux. Le signal par lequel ils communiquent, la séquence de code $ehof_epcs$, est transmis par ondes gravi-électromagnétiques jusqu'à ce qu'il atteigne une $ehof_gateway_disabled$, qui y réagit ou n'y réagit pas.\n\nCela dépend de la fréquence et l'amplitude du $ehof_epcs$ et l'intensité de l'énergie stockée à l'intérieur de l'onde gravi-électromagnétique, qui porte le $ehof_epcs$. Si la $ehof_gateway_disabled$ réagit, elle se transforme en $CREATORGATE_GALACTIC$ et transmet le $ehof_epcs$ au système $ehof_cohesive$. Le but fondamental de tout cela reste un mystère, mais l'enquête sur l'origine nous le révélera, espérons-le.\n\nGrâce à la séquence de code maître, nous pourrons désormais créer une connexion entre une $CREATORGATE_GALACTIC$ et l'origine du motif énigmatique.\n\nAutre que cela, avec les connaissances rassemblées à l'intérieur des amplificateurs et l'étude du $CREATORGATE_GALACTICS$, nous sommes maintenant en mesure de rechercher la technologie pour fabriquer $ehof_sm$ et créer notre propre $CREATORGATE_GALACTICS$!"
 
     # On entering the system
     ehof_reality_code.10001.name:0 "Éradicateur stellaire"
@@ -1765,7 +1775,7 @@
     ################# 1/6 reality code excavations completed ##################
     ###########################################################################
     ehof_reality_code.005.name:0 "Code réalité - $ehof_sm$"
-    ehof_reality_code.005.desc:0 "Après le retour de l'équipage, le fragment énigmatique de la séquence de motifs et l'échantillon de la substance qui compose l'amplificateur ont été transmis à nos institutions scientifiques. Avec l'aide des échantillons de l'intérieur de l'amplificateur, nous avons pu en apprendre beaucoup sur cette substance inconnue auto-réplicante. Elle est composée d'un ensemble de nano-machines hyper-avancées, capables de se répliquer et, ensemble, peuvent imiter de nombreuses formes de matière et propriétés physiques et chimiques.\n\nLa façon dont la substance se comporte nous fait presque imaginer qu'elle est non seulement vivante, mais même sensible. Elle est capable de réagir à de nombreuses conditions environnementales différentes, toutes ses réactions étant consacrées à l'adaptation aux éléments et à assurer son intégrité. Différentes formes de réactions ont été observées :\n\nRéplication, réarrangement et remodelage, afin de rendre la substance immunisée contre tout type d'effet physique ou chimique nocif. Chaleur extrême, froid et corrosivité, champs électromagnétiques intenses, différentes formes de rayonnement, pression mécanique, lasers, même gravité. Il ne semble pas y avoir de limite supérieure à l'efficacité de ses capacités adaptatives, du moins aucune que nous ne pouvons déterminer.\n\nOutre sa capacité à se transformer et à se multiplier pour se préserver, la structure est également capable de 'grandir'. Ses capacités de réplication se présentent sous deux formes différentes. La première forme de réplication apparaît lorsque la substance doit s'adapter à des effets environnementaux dommageables, au cours desquels elle semble être capable de se répliquer à partir de rien, peut-être en absorbant l'énergie ou la matière des effets dommageables eux-mêmes, ou en utilisant une source énergie que nous ne sommes pas capables de détecter.\n\nDans ce cas, la substance n'augmente pas ou n'augmente que de manière insignifiante son volume. La deuxième forme de réplication apparaît, lorsque la substance s'est adaptée à tout effet néfaste et est en contact ou à proximité immédiate de la matière ou de l'énergie disponible. Elle les absorbe pour augmenter son volume, pour 'grandir' et peut apparemment absorber presque toutes les formes connues de matière et d'énergie.\n\nSeules l'énergie gravitationnelle, la matière noire et la masse quasi-négative ne pouvaient pas être absorbées. Le but de cette 'croissance' est inconnu, mais d'après les rapports sur l'amplificateur, cela ne s'est pas produit à l'intérieur de l'amplificateur lui-même, même si notre équipe et ses outils étaient en contact direct avec la substance. Il semble que la substance soit capable d'être 'consciente' de son environnement et, selon les circonstances, de réagir différemment.\n\nNos scientifiques ont décidé de nommer la substance '$ehof_sm$', par analogie avec le Métal vivant, en raison de ses similitudes. Même si nous ne savons encore presque rien de la substance ou plutôt de son fonctionnement, notre communauté scientifique est convaincue qu'elle possède un potentiel technologique inimaginable et souhaite intensifier nos recherches sur la substance et aussi sur les amplificateurs. Non seulement pour en savoir plus sur le modèle énigmatique, mais aussi sur le $ehof_sm$.\n\nLes utilisations de $ehof_sm$ peuvent être limitées pour le moment, car nous en savons encore trop peu, pour l'utiliser à son dans toute la mesure du possible, mais nos scientifiques ont développé des plans pour la construction d'installations spécialisées, dédiées à la reproduction de $ehof_sm$, en l'alimentant en minéraux et en énergie. De plus, un projet pour enquêter sur des pierres primordiales a été demandé, car nos scientifiques pensent qu'elles pourraient avoir été construites par les mêmes entités qui ont construit les amplificateurs, et pourraient donc également être composées de $ehof_sm$."
+    ehof_reality_code.005.desc:0 "Après le retour de l'équipage, le fragment énigmatique de la séquence de motifs et l'échantillon de la substance qui compose l'amplificateur ont été transmis à nos institutions scientifiques. Avec l'aide des échantillons de l'intérieur de l'amplificateur, nous avons pu en apprendre beaucoup sur cette substance inconnue auto-réplicante. Elle est composée d'un ensemble de nano-machines hyper-avancées, capables de se répliquer et, ensemble, peuvent imiter de nombreuses formes de matière et propriétés physiques et chimiques.\n\nLa façon dont la substance se comporte nous fait presque imaginer qu'elle est non seulement vivante, mais même sensible. Elle est capable de réagir à de nombreuses conditions environnementales différentes, toutes ses réactions étant consacrées à l'adaptation aux éléments et à assurer son intégrité. Différentes formes de réactions ont été observées :\n\nRéplication, réarrangement et remodelage, afin de rendre la substance immunisée contre tout type d'effet physique ou chimique nocif. Chaleur extrême, froid et corrosivité, champs électromagnétiques intenses, différentes formes de rayonnement, pression mécanique, lasers, même gravité. Il ne semble pas y avoir de limite supérieure à l'efficacité de ses capacités adaptatives, du moins aucune que nous ne pouvons déterminer.\n\nOutre sa capacité à se transformer et à se multiplier pour se préserver, la structure est également capable de 'grandir'. Ses capacités de réplication se présentent sous deux formes différentes. La première forme de réplication apparaît lorsque la substance doit s'adapter à des effets environnementaux dommageables, au cours desquels elle semble être capable de se répliquer à partir de rien, peut-être en absorbant l'énergie ou la matière des effets dommageables eux-mêmes, ou en utilisant une source énergie que nous ne sommes pas capables de détecter.\n\nDans ce cas, la substance n'augmente pas ou n'augmente que de manière insignifiante son volume. La deuxième forme de réplication apparaît, lorsque la substance s'est adaptée à tout effet néfaste et est en contact ou à proximité immédiate de la matière ou de l'énergie disponible. Elle les absorbe pour augmenter son volume, pour 'grandir' et peut apparemment absorber presque toutes les formes connues de matière et d'énergie.\n\nSeules l'énergie gravitationnelle, la matière noire et la masse négative ne pouvaient pas être absorbées. Le but de cette 'croissance' est inconnu, mais d'après les rapports sur l'amplificateur, cela ne s'est pas produit à l'intérieur de l'amplificateur lui-même, même si notre équipe et ses outils étaient en contact direct avec la substance. Il semble que la substance soit capable d'être 'consciente' de son environnement et, selon les circonstances, de réagir différemment.\n\nNos scientifiques ont décidé de nommer la substance '$ehof_sm$', par analogie avec le Métal vivant, en raison de ses similitudes. Même si nous ne savons encore presque rien de la substance ou plutôt de son fonctionnement, notre communauté scientifique est convaincue qu'elle possède un potentiel technologique inimaginable et souhaite intensifier nos recherches sur la substance et aussi sur les amplificateurs. Non seulement pour en savoir plus sur le modèle énigmatique, mais aussi sur le $ehof_sm$.\n\nLes utilisations de $ehof_sm$ peuvent être limitées pour le moment, car nous en savons encore trop peu, pour l'utiliser à son dans toute la mesure du possible, mais nos scientifiques ont développé des plans pour la construction d'installations spécialisées, dédiées à la reproduction de $ehof_sm$, en l'alimentant en minéraux et en énergie. De plus, un projet pour enquêter sur des pierres primordiales a été demandé, car nos scientifiques pensent qu'elles pourraient avoir été construites par les mêmes entités qui ont construit les amplificateurs, et pourraient donc également être composées de $ehof_sm$."
 
     ###########################################################################
     ################# 3/6 reality code excavations completed ##################
@@ -1805,11 +1815,14 @@
     ehof_megastructure.0055_desc:0 "Une fois arrivé dans le système, soit des semaines après l'éclair orange, il n'est bien entendu plus visible. Mais, il y a une structure endommagée au coeur du système. Cette $ehof_ehof$ semble avoir pu interagir avec le trou noir à grande échelle. Les données récupérées à l'intérieur de la structure révèlent qu'il s'agit d'un ancien générateur et stabilisateur de vortex.\n\nBien que conscients d'avoir abordé une structure quelque peu en ruines et très certainement abandonnée, l'équipage se met en quête de tout signe de vie ou de tout indice sur ce qui les a conduit ici. \nAprès des mois de balayage, de tests et de contemplation, il est clair qu'il n'y a pas eu de réelle compréhension de la raison d'être des glyphes, de leur auteur, de leur raison d'être ou de ce qu'était l'éclair orange.\n\nPar contre, pendant que nous étions à l'intérieur et autour de l' $ehof_megastructure_ruined$, nous avons collecté un grand nombre d'informations sur des technologies avancées, et d'autres connaissances et, plus important encore, un artefact arcanique de but et d'origine inconnue, qui a été installé à un endroit proéminent de l'installation. \n\nNos scientifiques sont certains que nous devrions l'étudier davantage."
 
     STUDY_ARCANE_ARTIFACT_1:0 "§BÉtudier l'artefact arcanique§!"
-    STUDY_ARCANE_ARTIFACT_1_DESC:0 "L'artefact arcanique que nous avons découvert dans les débris restants du système §H[ehof_blackhole_@root.owner]§! pourrait nous éclairer sur l'éclair orange, car il pourrait y être lié. \nCependant, indépendamment de l'éclair orange, l'artefact pourrait contenir d'autres secrets surprenants, qui n'attendent que d'être découverts.\n\n§B(Ce projet est obligatoire pour débloquer l'IDHE !)§!"
+    STUDY_ARCANE_ARTIFACT_1_DESC:0 "L'artefact arcanique que nous avons découvert dans les débris restants du système §H[ehof_blackhole_@root.owner]§!  pourrait nous expliquer l'événement de l'éclair orange, car il pourrait être lié à lui. \nCependant, indépendamment de l'éclair orange, l'artefact pourrait contenir d'autres secrets surprenants, qui n'attendent que d'être découverts.\n\n§B(Ce projet est obligatoire pour débloquer l'IDHE !)§!"
 
     STUDY_ARCANE_ARTIFACT_2:0 "§BÉtudier l'artefact arcanique§!"
-    STUDY_ARCANE_ARTIFACT_2_DESC:0 "L'artefact arcanique que nous avons découvert dans l'$ehof_ehof$ endommagé à l'intérieur du §H[ehof_blackhole_@root.owner]§! système, pourrait faire la lumière sur l'éclair orange car il pourrait être lié à lui. \nCependant, indépendamment de l'éclair orange, l'artefact pourrait contenir d'autres secrets étonnants, qui n'attendent que d'être découverts.\n\n§B(Ce projet est obligatoire pour débloquer l'IDHE !)§!"
+    STUDY_ARCANE_ARTIFACT_2_DESC:0 "L'artefact arcanique que nous avons découvert dans l'$ehof_ehof$ endommagé à l'intérieur du système §H[ehof_blackhole_@root.owner]§! pourrait nous expliquer l'événement de l'éclair orange, car il pourrait être lié à lui. \nCependant, indépendamment de l'éclair orange, l'artefact pourrait contenir d'autres secrets étonnants, qui n'attendent que d'être découverts.\n\n§B(Ce projet est obligatoire pour débloquer l'IDHE !)§!"
 
+    STUDY_ARCANE_ARTIFACT_3:0 "§BÉtudier l'artefact arcanique§!"
+    STUDY_ARCANE_ARTIFACT_3_DESC:0 "L'artefact arcanique que nous avons découvert dans l'$ehof_ehof$ endommagé à l'intérieur du système §H[ehof_blackhole_@root.owner]§!, pourrait nous éclairer sur le fonctionnement exact de la mégastructure.\n\n§B(Ce projet est obligatoire pour restaurer le EHOF ! )§!"
+	
     ehof_anomaly.4321.name:0 "$r_arcane_manipulator_1$"
     ehof_anomaly.4321.desc:0 "Notre longue étude de l'artefact a été un succès. \nL'artefact présente des propriétés très bizarres. \nEn plus d'être composé d'un matériau inconnu et, jusqu'à présent, non examinable, la taille et la masse de la construction changent avec le temps d'une manière oscillante.\nSa taille varie entre 150 mètres et 7800 mètres, et sa masse entre 7000 tonnes et 16 millions de tonnes. Cependant, ces propriétés ne changent pas proportionnellement.\n\nIl semble posséder une forme principale particulière, mais s'en écarte de temps en temps, pour revenir à sa forme initiale.\n\nDe manière encore plus étonnante, il semble se mettre en phase avec la réalité elle-même, car certaines de ses parties changent leurs propriétés physiques et deviennent translucides, transparentes ou invisibles, peuvent même devenir intangibles et donner des lectures d'énergie étranges et différentes, selon leur état.\n\nDes explosions plus ou moins intenses de radiations et même de matière peuvent se produire à divers endroits de l'artefact, étant également chaotiques et imprévisibles."
 
@@ -1826,8 +1839,10 @@
     r_arcane_manipulator_1:0 "§BManipulateur de failles arcaniques§!"
 
     r_arcane_manipulator_1:0 "$r_arcane_manipulator_1$"
-    r_arcane_manipulator_1_desc:0 "Semblant être en phase avec la réalité elle-même, la construction d'un autre monde possède la capacité de stabiliser et de manipuler les vortex de toute sorte, y compris virtuels $ehof_wormhole$. Cependant, le dispositif est encore un mystère pour nous et toutes ses capacités n'ont pas encore été révélées."
+    r_arcane_manipulator_1_desc:0 "Semblant être en phase avec la réalité elle-même, la construction d'un autre monde possède la capacité de stabiliser et de manipuler les vortex de toute sorte, y compris de $ehof_wormhole$ virtuels. \n\nCependant, le dispositif est encore un mystère pour nous et toutes ses capacités n'ont pas encore été révélées."
 
+    ehof_megastructure.0056_name:0 "L' I.D.H.E."
+    ehof_megastructure.0056_desc:0 "Après avoir exploré la structure endommagée du trou noir, nous avons déterminé que la construction était à l'origine utilisée pour une forme unique de voyage interstellaire. \nLes données récupérées à l'intérieur de cette soi-disant 'Installation de Décalage de l'Horizon des Événements', ou 'I.D.H.E.', révèlent qu'il s'agit d'un ancien générateur et stabilisateur de vortex.\n\nPendant que nous étions à l'intérieur et autour de la mégastructure, nous avons collecté un grand nombre de technologies avancées, de connaissances et, plus important encore, un artefact obscur dont l'objectif et l'origine sont inconnus et qui a été installé à un endroit bien en vue de l'installation. \n\nNos scientifiques sont certains que nous devrions l'étudier davantage."
 
     #############################################################################################################################################
     ### Bombardment Stances #####################################################################################################################
@@ -2447,10 +2462,15 @@
     #######################
 
     # Name
-    ehof_sr_negative_mass:0 "Masse quasi-négative"
+    ehof_sr_negative_mass:0 "Masse négative"
     ehof_qnm:0 "£ehof_sr_negative_mass£§H$ehof_sr_negative_mass$§!"
     mod_station_gatherers_ehof_sr_negative_mass_produces_mult:0 "£ehof_sr_negative_mass£ de $mod_station_researchers_produces_mult$"
     mod_country_ehof_sr_negative_mass_produces_mult:0 "£ehof_sr_negative_mass£ mensuelle"
+
+    mod_planet_energy_converter_produces_mult:0 "Production des £job_ehof_energy_converter£ $job_ehof_energy_converter_plural$"
+    mod_planet_energy_converter_drones_produces_mult:0 "Production des £job_ehof_energy_converter_drone£ $job_ehof_energy_converter_drone_plural$"
+    planet_energy_converter:0 "Emplois de convertisseurs d'énergie"
+    planet_energy_converter_drones:0 "Emplois de convertisseurs d'énergie"
 
     # Description
     ehof_sr_negative_mass_desc:0 "§EUne forme de matière extrêmement exotique qui défie les lois connues de la physique en possédant une masse négative.\n\nÀ l'origine théorisée, et considérée comme impossible à exister, ces propriétés uniques créent une courbure gravitationnelle négative, anti-gravité pour ainsi dire, quia un potentiel technologique illimité.§!"
@@ -2460,6 +2480,27 @@
     ehof_sr_negative_mass_discovery:0 "Lors du balayage de §H[from.GetName]§!, le §Y[root.GetName]§! a découvert  des dépôts de §H$ehof_sr_negative_mass$§!.\n\n$ehof_sr_negative_mass_desc$"
     ehof_sr_negative_mass.tooltip:0 "£ehof_sr_negative_mass£§H$ehof_sr_negative_mass$§!\n§E$ ehof_sr_negative_mass_desc$§!"
     ehof_qnm_deficit:0 "Pénurie de $ehof_sr_negative_mass$"
+
+    # Regular
+    job_ehof_energy_converter:0 "Convertisseur d'énergie"
+    job_ehof_energy_converter_plural:0 "Convertisseurs d'énergie"
+    job_ehof_energy_converter_desc:1 "Les $job_ehof_energy_converter_plural$ transforment l'£energy£ §Yénergie§! positive en §Y$ehof_sr_negative_mass$§!, qui a une multitude d'utilisations dans tous les domaines de notre empire."
+    job_ehof_energy_converter_effect_desc:0 "Les £job_ehof_energy_converter£ $job_ehof_energy_converter_plural$ transforment l'£energy£ §Yénergie§! positive en £ehof_sr_negative_mass£ §Y$ehof_sr_negative_mass$§!."
+    mod_job_ehof_energy_converter_add:0 "Emplois de $job_ehof_energy_converter$"
+    mod_job_ehof_energy_converter_per_pop:0 "§G+1§! Emploi de $job_ehof_energy_converter$ par palier de $VALUE$ Pops"
+    mod_job_ehof_energy_converter_per_pop_short:0 "(£mod_job_ehof_energy_converter_add£§G+1§! par £pop£$VALUE$)."
+
+    # Gestalt
+    job_ehof_energy_converter_drone:0 "Drone convertisseur d'énergie"
+    job_ehof_energy_converter_drone_plural:0 "Drones convertisseurs d'énergie"
+    job_ehof_energy_converter_drone_desc:1 "Les $job_ehof_energy_converter_drone_plural$ transforment l'£energy£ §Y$énergie$§! positive en §Y$ehof_sr_negative_mass$§!, qui a une multitude d'utilisations dans tous les domaines de notre vie collective."
+    job_ehof_energy_converter_drone_effect_desc:0 "Les £job_ehof_energy_converter_drone£ $job_ehof_energy_converter_drone_plural$ transforment l'£energy£ §Yénergie§! positive en £ehof_sr_negative_mass£ §Y$ehof_sr_negative_mass$§!."
+    mod_job_ehof_energy_converter_drone_add:0 "Emplois de $job_ehof_energy_converter_drone$"
+    mod_job_ehof_energy_converter_drone_per_pop:0 "§G+1§! Emploi de $job_ehof_energy_converter_drone$ par palier de $VALUE$ Pops"
+    mod_job_ehof_energy_converter_drone_per_pop_short:0 "(£mod_job_ehof_energy_converter_drone_add£§G+1§! par £pop£$VALUE$)."
+
+
+
 
     ##################
     # Sentient Metal #
@@ -4609,6 +4650,17 @@
     giga_edicts.2.desc:0 "Une étude des différentes grandes planètes de notre empire a été achevée. Tous les candidats potentiels $name_war_planet$ ont été catalogués et peuvent désormais être trouvés dans le planificateur d'expansion."
     giga_edicts.2.a:0 "Excellent."
 
+    edict_giga_photonic_matter_sb:0 "Renforcement du bouclier de matière photonique"
+    edict_giga_photonic_matter_sb_desc:0 "La matière photonique peut être utilisée pour augmenter temporairement l'efficacité de la régénération des boucliers de notre vaisseau."
+
+    edict_giga_negative_pressure_ti:0 "Augmentation de la poussée par pression négative"
+    edict_giga_negative_pressure_ti_desc:0 "En appliquant précisément une pression négative à nos propulseurs conventionnels, nous pouvons augmenter leur efficacité."
+
+    edict_giga_sterile_hyper_neutrino_d_s:0 "Support stérile de détecteurs d'hyper-neutrinos"
+    edict_giga_sterile_hyper_neutrino_d_s_desc:0 "Nos détecteurs stériles d'hyper-neutrinos, généralement utilisés pour notreI.D.H.E. Oméga, peuvent également être utilisés pour détecter et extraire davantage de matière noire des sources de matière noire."
+
+
+
     #############################################################################################################################################
     ### Opinions ################################################################################################################################
     #############################################################################################################################################
@@ -4744,9 +4796,9 @@
     temporary_debug:0 "temporary_debug"
     space_storm:0 "space_storm debug"
 
-    negative_mass_buffs_1:0 "Momentum de masse quasi-négatif"
-    negative_mass_buffs_2:0 "Accélération de construction de masse quasi-négative"
-    negative_mass_buffs_3:0 "Accélération de la construction à moment de masse quasi-négatif"
+    negative_mass_buffs_1:0 "Momentum de masse négative"
+    negative_mass_buffs_2:0 "Accélération de construction de masse négative"
+    negative_mass_buffs_3:0 "Accélération de la construction à moment de masse négative"
 
     ehof_ai_energy_30_month:0 "Dépenses d'initiation de l'IDHE"
     ehof_ai_energy_25_month:0 "Dépenses d'initiation de l'IDHE"
@@ -5143,15 +5195,15 @@
 
     # Applied Abstract Physics
     tech_abstract_2:0 "Physique abstraite appliquée"
-      tech_abstract_2_desc:0 "Les approches extrêmement efficaces de la physique abstraite nous aident bien à expliquer les phénomènes les plus abstraits de l'univers. L'utilisation de ces approches pour faire de nouvelles percées révolutionnaires, auxquelles personne n'a jamais pensé auparavant, peut nous donner accès à des technologies uniques et puissantes. \n §B(Développement I.D.H.E. obligatoire)§!"
+      tech_abstract_2_desc:0 "Les approches extrêmement efficaces de la physique abstraite nous aident bien à expliquer les phénomènes les plus abstraits de l'univers. L'utilisation de ces approches pour faire de nouvelles percées révolutionnaires, auxquelles personne n'a jamais pensé auparavant, peut nous donner accès à des technologies uniques et puissantes. \n §B(Requis pour le développement de l'I.D.H.E.)§!"
 
       # Quoudroplean Formalism
       tech_abstract_3:0 "Le formalisme de Quoudroplean"
-      tech_abstract_3_desc:0 "La physique abstraite étant très différente des autres branches de la physique, elle a besoin de son propre formalisme mathématique personnalisé et adapté. Le 'formalisme de Quoudroplean' utilise des cadres mathématiques et des théorèmes alternatifs et bizarres, qui ne s'inscrivent pas dans l'univers classique des mathématiques et qui ont été considérés comme totalement inapplicables et inadéquats pour l'analyse et l'étude de la réalité. /n §B(Développement I.D.H.E. obligatoire)§!"
+      tech_abstract_3_desc:0 "La physique abstraite étant très différente des autres branches de la physique, elle a besoin de son propre formalisme mathématique personnalisé et adapté. Le 'formalisme de Quoudroplean' utilise des cadres mathématiques et des théorèmes alternatifs et bizarres, qui ne s'inscrivent pas dans l'univers classique des mathématiques et qui ont été considérés comme totalement inapplicables et inadéquats pour l'analyse et l'étude de la réalité. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
 
       # Non-paradoxical Information Supercausality
       tech_abstract_4:0 "Information non paradoxale Supercausalité"
-      tech_abstract_4_desc:0 "Le transport de l'information, de la matière et de l'énergie dans la physique non abstraite est strictement lié à la vitesse de la causalité, qui est elle-même limitée et relativement petite par rapport à la taille de l'univers. Seuls les processus dans lesquels aucune information n'est transmise ou la courbure de l'espace-temps peuvent permettre une apparition plus rapide que la vitesse de causalité. Cependant, en physique abstraite, les frontières entre ce qui est une règle fixe et ce qui ne l'est pas sont fluides et changeantes. Il existe certaines façons de contourner ces règles, de les modifier ou même de les ignorer tout simplement. Aussi absurde que cela puisse paraître. /n §B(Développement I.D.H.E. obligatoire)§!"
+      tech_abstract_4_desc:0 "Le transport de l'information, de la matière et de l'énergie dans la physique non abstraite est strictement lié à la vitesse de la causalité, qui est elle-même limitée et relativement petite par rapport à la taille de l'univers. Seuls les processus dans lesquels aucune information n'est transmise ou la courbure de l'espace-temps peuvent permettre une apparition plus rapide que la vitesse de causalité. Cependant, en physique abstraite, les frontières entre ce qui est une règle fixe et ce qui ne l'est pas sont fluides et changeantes. Il existe certaines façons de contourner ces règles, de les modifier ou même de les ignorer tout simplement. Aussi absurde que cela puisse paraître. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
 
       # Transdimensional Overspin-Network Landscape
       tech_abstract_5:0 "Physique abstraite extrême appliquée"
@@ -5159,15 +5211,15 @@
 
       # Photonic Matter Utilization
       tech_photonic_m:0 "Utilisation de la matière photonique"
-      tech_photonic_m_desc:0 "La manipulation à grande échelle du champ électromagnétique nous permettra de manipuler davantage les entités probabilistes, dominées par les effets quantiques, à un degré stupéfiant. La 'matière photonique', composée de quasi-atomes faits de photons, permet une manipulation efficace des particules subatomiques. /n§B(Développement I.D.H.E. obligatoire)§!"
+      tech_photonic_m_desc:0 "La manipulation à grande échelle du champ électromagnétique nous permettra de manipuler davantage les entités probabilistes, dominées par les effets quantiques, à un degré stupéfiant. La 'matière photonique', composée de quasi-atomes faits de photons, permet une manipulation efficace des particules subatomiques. /n§B(Requis pour le développement de l'I.D.H.E.)§!"
 
     # Negative Pressure Application
       tech_negative_pressure:0 "Application de la pression négative"
-      tech_negative_pressure_desc:0 "La pression négative est un phénomène qui a déjà été observé dans l'effet casimir de la mécanique quantique. Là, elle se manifeste sous la forme de fluctuations du vide, mais elle est incontrôlable. La physique abstraite appliquée a conduit à la découverte de moyens alternatifs, mieux applicables et plus efficaces pour générer et contrôler la pression négative. /n §B(Développement I.D.H.E. obligatoire)§!"
+      tech_negative_pressure_desc:0 "La pression négative est un phénomène qui a déjà été observé dans l'effet casimir de la mécanique quantique. Là, elle se manifeste sous la forme de fluctuations du vide, mais elle est incontrôlable. La physique abstraite appliquée a conduit à la découverte de moyens alternatifs, mieux applicables et plus efficaces pour générer et contrôler la pression négative. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
 
       # Negative Energy Studies
       tech_negative_e_s:0 "Études sur les énergies négatives"
-      tech_negative_e_s_desc:0 "L'énergie négative est un sujet purement hypothétique, controversé et extrêmement abstrait, qui a été écarté pendant longtemps. Du moins jusqu'à la découverte de la masse négative stable et époustouflante. La physique abstraite nous permettra d'étudier plus avant ce phénomène apparemment impossible, mais pourtant réel, de masse et d'énergie négatives, possédant une densité d'énergie négative et même une énergie cinétique négative. /n §B(Développement I.D.H.E. obligatoire)§!"
+      tech_negative_e_s_desc:0 "L'énergie négative est un sujet purement hypothétique, controversé et extrêmement abstrait, qui a été écarté pendant longtemps. Du moins jusqu'à la découverte de la masse négative stable et époustouflante. La physique abstraite nous permettra d'étudier plus avant ce phénomène apparemment impossible, mais pourtant réel, de masse et d'énergie négatives, possédant une densité d'énergie négative et même une énergie cinétique négative. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
 
       # Hardlight Construct Utilization
       tech_hardlight_c_u:0 "Utilisation de la structure Lumière dure"
@@ -5179,27 +5231,27 @@
 
       # Prototype Negative Mass Utilities
       tech_nm_utilization_1:0 "Prototype d'utilisation de la masse négative"
-      tech_nm_utilization_1_desc:0 "La première génération de dispositifs, de processus et de méthodes utilisant la masse négative, unique et exotique. Ce sont encore des prototypes expérimentaux et ils n'utilisent pas tout le potentiel de la masse négative, mais ils sont néanmoins puissants. Ils nous permettront d'augmenter considérablement la puissance économique et militaire de notre empire. De l'amélioration considérable de l'astro-ingénierie et de la construction planétaire, aux propulseurs PRL pour les voyages intrastellaires, à la manipulation extrême des corps stellaires. La masse négative est un atout incroyablement puissant. /n §B(Développement I.D.H.E. obligatoire)§!"
+      tech_nm_utilization_1_desc:0 "La première génération de dispositifs, de processus et de méthodes utilisant la masse négative, unique et exotique. Ce sont encore des prototypes expérimentaux et ils n'utilisent pas tout le potentiel de la masse négative, mais ils sont néanmoins puissants. Ils nous permettront d'augmenter considérablement la puissance économique et militaire de notre empire. De l'amélioration considérable de l'astro-ingénierie et de la construction planétaire, aux propulseurs PRL pour les voyages intrastellaires, à la manipulation extrême des corps stellaires. La masse négative est un atout incroyablement puissant. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
 
       # Advanced Negative Mass Utilities
       tech_nm_utilization_2:0 "Utilisation avancée de la masse négative"
-      tech_nm_utilization_2_desc:0 "Le potentiel de la masse négative est vaste. Une meilleure compréhension de cette ressource bizarre nous permet de développer et de créer des ressources de masse négative encore plus avancées et puissantes. Des utilitaires de masse négative avancés, qui utilisent tout le potentiel de la masse négative, rendront notre empire encore plus puissant. /n §B(Développement I.D.H.E. obligatoire)§!"
+      tech_nm_utilization_2_desc:0 "Le potentiel de la masse négative est vaste. Une meilleure compréhension de cette ressource bizarre nous permet de développer et de créer des ressources de masse négative encore plus avancées et puissantes. Des utilitaires de masse négative avancés, qui utilisent tout le potentiel de la masse négative, rendront notre empire encore plus puissant. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
 
       # Métal sensible Utilities
       tech_nm_utilization:0 "Utilisation de la masse négative"
-      tech_nm_utilization_desc:0 "L'utilisation de l'unique et exotique 'masse négative' crée d'innombrables opportunités technologiques. De l'amélioration considérable de l'astro-ingénierie et de la construction planétaire, en passant par les propulseurs PRL pour les voyages intrastellaires, jusqu'à la manipulation extrême des corps stellaires. La masse négative est un atout incroyablement puissant. /n §B(Développement I.D.H.E. obligatoire)§!"
+      tech_nm_utilization_desc:0 "L'utilisation de l'unique et exotique 'masse négative' crée d'innombrables opportunités technologiques. De l'amélioration considérable de l'astro-ingénierie et de la construction planétaire, en passant par les propulseurs PRL pour les voyages intrastellaires, jusqu'à la manipulation extrême des corps stellaires. La masse négative est un atout incroyablement puissant. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
 
       # Micro-wormhole Destination Precognition
       tech_prob_c:0 "Précognition des destinations de $ehof_wormhole$ "
-      tech_prob_c_desc:0 "Des capteurs tachyon d'une sensibilité inimaginable, basés sur et aidés par les capacités étonnantes de l'intellect de la ruche métallique sensible, déterminent la cible d'un $ehof_wormhole$ avant même qu'il n'émerge dans l'espace réel. Cette anticipation des cibles des vortex, augmente la sécurité et la précision des voyages en $ehof_ehof$ à une magnitude apparemment impossible. Avec cette technologie, nos $ehof_ehof$ pourront choisir directement n'importe quelle destination dans la galaxie, sans aucune restriction ni danger. /n§B(Développement I.D.H.E. obligatoire)§!"
+      tech_prob_c_desc:0 "Des capteurs tachyon d'une sensibilité inimaginable, basés sur et aidés par les capacités étonnantes de l'intellect de la ruche métallique sensible, déterminent la cible d'un $ehof_wormhole$ avant même qu'il n'émerge dans l'espace réel. Cette anticipation des cibles des vortex, augmente la sécurité et la précision des voyages en $ehof_ehof$ à une magnitude apparemment impossible. Avec cette technologie, nos $ehof_ehof$ pourront choisir directement n'importe quelle destination dans la galaxie, sans aucune restriction ni danger. /n§B(Requis pour le développement de l'I.D.H.E.)§!"
 
       # Electroweak Quasi-Field Materialization
       tech_condensed_ews:0 "Matérialisation du quasi-champ électrofaible"
-      tech_condensed_ews_desc:0 "Les états d'énergie extrêmement élevés conduisent à l'unification de la force électromagnétique et de la force faible en leur force initiale, la 'force électrofaible'. Les secrets de l'Éternel Changeant nous ont révélé comment manifester des ' quasi-champs électrofaibles ' physiques, qui ouvrent des possibilités de manipulation extrêmement précise du champ et de l'espace-temps, jusqu'au niveau de la mousse quantique elle-même. /n §B(Développement I.D.H.E. obligatoire)§!"
+      tech_condensed_ews_desc:0 "Les états d'énergie extrêmement élevés conduisent à l'unification de la force électromagnétique et de la force faible en leur force initiale, la 'force électrofaible'. Les secrets de l'Éternel Changeant nous ont révélé comment manifester des ' quasi-champs électrofaibles ' physiques, qui ouvrent des possibilités de manipulation extrêmement précise du champ et de l'espace-temps, jusqu'au niveau de la mousse quantique elle-même. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
 
       # Arcane Rift Generator Restoration
       tech_arcane_g_r:0 "Restauration du générateur de failles arcaniques"
-      tech_arcane_g_r_desc:0 "Les secrets de du Chaos permanent nous ont permis de contrôler l'énigmatique Métal sensible. Avec l'aide de ce métal et de la Masse Négative, nous sommes maintenant en mesure de restaurer entièrement le Générateur de faille arcanique à sa gloire d'antan, ce qui nous permet de l'utiliser à son plein potentiel. /n §B(Développement I.D.H.E. obligatoire)§!"
+      tech_arcane_g_r_desc:0 "Les secrets de du Chaos permanent nous ont permis de contrôler l'énigmatique Métal sensible. Avec l'aide de ce métal et de la Masse Négative, nous sommes maintenant en mesure de restaurer entièrement le Générateur de faille arcanique à sa gloire d'antan, ce qui nous permet de l'utiliser à son plein potentiel. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
 
       # Event Horizon Offset Facility Alpha
       allow_ehof_p1:0 "§HDéverrouille la mégastructure :§! $ehof_ehofp1$"
@@ -6592,7 +6644,7 @@
 
     # Phase2
     ehof_megastructure_phase2_idle:0 "$ehof_ehofp2$"
-    ehof_megastructure_phase2_idle_DESC:0 "Manipule et alimente des $ehof_wormholes$ pour les voyages interstellaires et de l'extraction de $ehof_qnm$.\n\n"
+    ehof_megastructure_phase2_idle_DESC:0 "Manipule et alimente des $ehof_wormholes$ pour les voyages interstellaires.\n\n"
     ehof_megastructure_phase2_idle_MEGASTRUCTURE_DETAILS:0 "$ehof_megastructure_phase0_MEGASTRUCTURE_DETAILS$"
 
     ehof_megastructure_phase2_activating:0 "$ehof_megastructure_phase2_idle$"
@@ -6609,7 +6661,7 @@
 
     # Phase3
     ehof_megastructure_phase3_idle:0 "$ehof_ehofp3$"
-    ehof_megastructure_phase3_idle_DESC:0 "Utilise de la §H£sr_dark_matter£ Matière noire§! pour stabiliser des $ehof_wormholes$, pour les déplacements interstellaires et l'extraction de $ehof_qnm$."
+    ehof_megastructure_phase3_idle_DESC:0 "Utilise de la §H£sr_dark_matter£ Matière noire§! pour stabiliser des $ehof_wormholes$, pour les déplacements interstellaires et l'extraction de $sr_dark_matter$."
     ehof_megastructure_phase3_idle_MEGASTRUCTURE_DETAILS:0 "$ehof_megastructure_phase0_MEGASTRUCTURE_DETAILS$"
 
     ehof_megastructure_phase3_activating:0 "$ehof_megastructure_phase3_idle$"
@@ -6626,7 +6678,7 @@
 
     # Phase4
     ehof_megastructure_phase4_idle:0 "$ehof_ehofp4$"
-    ehof_megastructure_phase4_idle_DESC:0 "Utilise de la §H£sr_dark_matter£ Matière noire§! pour stabiliser des $ehof_wormholes$ pour un déplacement interstellaire stabilisé et l'extraction de $ehof_qnm$."
+    ehof_megastructure_phase4_idle_DESC:0 "Utilise de la §H£sr_dark_matter£ Matière noire§! pour stabiliser des $ehof_wormholes$ pour un déplacement interstellaire stabilisé et l'extraction de $sr_dark_matter$."
     ehof_megastructure_phase4_idle_MEGASTRUCTURE_DETAILS:0 "$ehof_megastructure_phase0_MEGASTRUCTURE_DETAILS$"
 
     ehof_megastructure_phase4_activating:0 "$ehof_megastructure_phase4_idle$"
@@ -11387,13 +11439,13 @@
     giga_wary_manage_tooltip:0 "§HGérer la Vigilance des Félidés§!\nBien que la Vigilance est réduite naturellement, certains pots-de-vin bien placés peuvent aider à accélérer le processus."
 
     #intact
-    kaiser_moon_barrel_tooltip:0 "§YCanon Gigantesque Félidé§!\n\n§GFonctionnel |Aucune pénalité de dégâts§!\n\nConditions de sabotage :\n§HS'activité partisane significative à Mercuria§!\n§HSactivité partisane significative à Gonflanie§!\n\n§L L'arme principale de la Lune du Kaiser est un Canon à Rail titanesque. Basé sur les anciennes conceptions des Félidés pour l'armement planétaire, il accélère un projectile extrêmement dense proche de la vitesse de la lumière. Le projectile contient l'énergie de plusieurs milliards d'ogives nucléaires concentrées en un seul point, ce qui le rend incroyablement mortel.§!"
+    kaiser_moon_barrel_tooltip:0 "§YCanon Gigantesque Félidé§!\n\n§GFonctionnel |Aucune pénalité de dégâts§!\n\nConditions de sabotage :\n§HActivités partisanes significative à Mercuria§!\n§HSactivité partisane significative à Gonflanie§!\n\n§L L'arme principale de la Lune du Kaiser est un Canon à Rail titanesque. Basé sur les anciennes conceptions des Félidés pour l'armement planétaire, il accélère un projectile extrêmement dense proche de la vitesse de la lumière. Le projectile contient l'énergie de plusieurs milliards d'ogives nucléaires concentrées en un seul point, ce qui le rend incroyablement mortel.§!"
 
-    kaiser_moon_moon_tooltip:0 "§YSurface lunaire§!\n\n§GFonctionnel |Aucune pénalité d'armure§!\n\nConditions de sabotage :\n§HSactivités partisanes importantes dans le Patria des Félidés\n§HSactivités partisanes importantes à Lyuinita\n\n§LPlusieurs kilomètres de roches entrelacées avec des supports structurels protègent l'intérieur délicat de la lune. Cette croûte épaisse confère au vaisseau une immense capacité de survie face aux flottes ennemies."
+    kaiser_moon_moon_tooltip:0 "§YSurface lunaire§!\n\n§GFonctionnel |Aucune pénalité d'armure§!\n\nConditions de sabotage :\n§HActivités partisanes importantes dans la Patria des Félidés\n§HActivités partisanes importantes à Lyuinita\n\n§LPlusieurs kilomètres de roches entrelacées avec des supports structurels protègent l'intérieur délicat de la lune. Cette croûte épaisse confère au vaisseau une immense capacité de survie face aux flottes ennemies."
 
-    kaiser_moon_thrusters_tooltip:0 "§YSystèmes de propulsion§!\n\n§GFonctionnel |Aucune pénalité de temps de charge de saut§!\n\nConditions de sabotage :\n§YActivité partisane extrême à Zousa§!\n§YActivité partisane modérée à Symbionie§!\n\n§LDes propulseurs gargantuesques associés à un hyperpropulseur colossal permettent à la Lune du Kaiser de voler à la fois dans l'espace et dans l'hyperespace. Propulsés par un réacteur à antimatière avancé de conception Félidés, ils éclipsent tout ce qui est utilisé dans les forces armées des Félidés.\n\n§BLa Lune du Kaiser perdra la capacité d'être rappelée quand Flusion est menacé, si ce système est saboté !§!"
+    kaiser_moon_thrusters_tooltip:0 "§YSystèmes de propulsion§!\n\n§GFonctionnel |Aucune pénalité de temps de charge de saut§!\n\nConditions de sabotage :\n§YActivités partisanes extrême à Zousa§!\n§YActivités partisanes modérée à Symbionie§!\n\n§LDes propulseurs gargantuesques associés à un hyperpropulseur colossal permettent à la Lune du Kaiser de voler à la fois dans l'espace et dans l'hyperespace. Propulsés par un réacteur à antimatière avancé de conception Félidés, ils éclipsent tout ce qui est utilisé dans les forces armées des Félidés.\n\n§BLa Lune du Kaiser perdra la capacité d'être rappelée quand Flusion est menacé, si ce système est saboté !§!"
 
-    kaiser_moon_wings_tooltip:0 "§YAiles du vide§!\n\n§GFonctionnel |Aucune pénalité de vitesse§!\n\nConditions de sabotage :\n§YActivité partisane modérée à Zousa§!\n§YActivité partisane extrême à Symbionie§!\n\n§L Ces ailes peuvent sembler inutiles au début, mais ils contiennent en fait un ensemble de propulseurs alignés le long de leur extrémité orientée vers l'arrière. Ces propulseurs aident la lune à manoeuvrer dans l'espace avec plus de facilité."
+    kaiser_moon_wings_tooltip:0 "§YAiles du vide§!\n\n§GFonctionnel |Aucune pénalité de vitesse§!\n\nConditions de sabotage :\n§YActivités partisanes modérée à Zousa§!\n§YActivités partisanes extrême à Symbionie§!\n\n§L Ces ailes peuvent sembler inutiles au début, mais ils contiennent en fait un ensemble de propulseurs alignés le long de leur extrémité orientée vers l'arrière. Ces propulseurs aident la lune à manoeuvrer dans l'espace avec plus de facilité."
 
     #sabo
     kaiser_moon_barrel_sabo_tooltip:0 "§YCanon Gigantesque Félidé§!\n\n§RSaboté |-30% de dégâts d'arme§!\n\n§L L'arme principale de la Lune du Kaiser est un canon titanesque. Basé sur d'anciens modèles des Félidés pour l'armement planétaire, il accélère un projectile extrêmement dense proche de la vitesse de la lumière. Le projectile contient l'énergie de plusieurs milliards d'ogives nucléaires concentrées en un seul point, ce qui le rend incroyablement mortel."
@@ -11559,7 +11611,7 @@
 
     puffy_res_med_tooltip:0 "$puffy_name$\n\n§HFonction principale§! - §BUsines de munitions§!\n\nL'emprise des félidés est §RElevée§!\nL'activité partisane est §YModérée§!\nModificateurs pour les félidés : §G+15% de dégâts cinétiques§!\n\n$puffy_desc$"
 
-    puffy_res_sign_tooltip:0 "$puffy_name$\n\n§HFonction principale§! - §BUsines de munitions§!\n\nL'emprise des félidés est §RElevée§!\nL'activité partisane est §HSignificative§!\nModificateurs pour les félidés : §R-10% Kinetics Damage§!\n\n$puffy_desc$"
+    puffy_res_sign_tooltip:0 "$puffy_name$\n\n§HFonction principale§! - §BUsines de munitions§!\n\nL'emprise des félidés est §RElevée§!\nL'activité partisane est §HSignificative§!\nModificateurs pour les félidés : §R-10% de dégâts cinétiques§!\n\n$puffy_desc$"
 
     puffy_res_ext_tooltip:0 "$puffy_name$\n\n§HFonction principale§! - §BUsines de munitions§!\n\nL'emprise des félidés est §RElevée§!\nL'activité partisane est §RExtrême§!\nModificateurs pour les félidés : §R-30% de dégâts cinétiques§!\n\n$puffy_desc$"
 
@@ -11871,8 +11923,8 @@
     CONTACT_SOLAK_REBELS_PROJECT:0 "Contacter les §Ycombattants de la liberté Solakien§!"
     CONTACT_SOLAK_REBELS_PROJECT_DESC:0 "Les §YSolakiens§! faisaient partie des personnes les plus indépendantes, démocratiques et libres d'esprit de §YFlusion§! avant la conquête globale du §YKaiser§!.\n\nIls s'intégrent généralement bien au sein de la société Félidé, et pourtant, l'esprit de l'ancienne République §YSolakienne§! vit encore chez certains individus. Le renforcer contribuerait sans aucun doute à déstabiliser le pouvoir établi du Kaiser."
 
-    giga_katrebels.0010.name:0 "Contact Etabli avec l'§YOrdre Ézicanien§!"
-    giga_katrebels.0010.desc:0 "Après plusieurs mois d'opérations secrètes, de réunions secrètes et de transactions louches, nous sommes parvenus à établir officiellement le contact avec le chef de l'§YOrdre Ézicanien§! : §YLouf§!, une fois le dirigeant de l' §YÉzicanien Empire§!.\n\nD'autres études ont révélé que cet Ordre était autrefois une force de maintien de la paix dans l'Empire avant sa soumission par les forces du Kaiser. Depuis lors, ils ont agi comme une sorte de 'gouvernement en exil', coordonnant la résistance ézicanienne restante contre le règne félidés.\n\nBien qu'ils ne soient actuellement pas une force très puissante, tout ce qu'il faudrait, c'est un peules pousser à devenir quelque chose qui menace réellement le Kaiser. Ils ont donc très envie de communiquer avec nous..."
+    giga_katrebels.0010.name:0 "Contact établi avec l'§YOrdre Ézicanien§!"
+    giga_katrebels.0010.desc:0 "Après plusieurs mois d'opérations secrètes, de réunions secrètes et de transactions louches, nous sommes parvenus à établir officiellement le contact avec le chef de l'§YOrdre Ézicanien§! : §YLouf§!, autrefois dirigeant de l' §YEmpire Ézicanien§!.\n\nD'autres études ont révélé que cet Ordre était autrefois une force de maintien de la paix dans l'Empire avant sa soumission par les forces du Kaiser. Depuis lors, ils ont agi comme une sorte de 'gouvernement en exil', coordonnant la résistance ézicanienne restante contre le règne félidés.\n\nBien qu'ils ne soient actuellement pas une force très puissante, tout ce qu'il faudrait, c'est un peules pousser à devenir quelque chose qui menace réellement le Kaiser. Ils ont donc très envie de communiquer avec nous..."
     giga_katrebels.0010.a:0 "À l'écran."
 
     giga_katrebels.0011.name:0 "L'§YOrdre Ézicanien§!"
@@ -12020,7 +12072,7 @@
     giga_katrebels.00173.c:0 "Envoyez-leur notre dernier équipement militaire ! |§Y12500§! £alloys£"
 
     giga_katrebels.00174.name:0 "La Révolte Ézicanienne est Prête"
-    giga_katrebels.00174.desc:0 "Tout est maintenant en place pour la «§YRévolte Ézicanienne§!». Cela ne devrait pas prendre beaucoup de temps avant les membres de l'Ordre Ézicanien§! ainsi que d'autres espèces prennent les armes contre le Kaiser dans l'Impérium félidéen.\n\nLes Ézicaniens de la plupart des mondes félidés tenteront de renverser les garnisons planétaires locales et de réquisitionner les vaisseaux félidés, afin de prendre le contrôle des planètes et de leurs systèmes.\n\nEt pourtant, les données suggèrent que les Ézicaniens ne seront probablement pas en mesure de le faire seuls, et certains membres de notre haut commandement conseillent de frapper le Kaiser dès que la révolte commence, afin d'enfermer les Félidés dans une guerre sur deux fronts."
+    giga_katrebels.00174.desc:0 "Tout est maintenant en place pour la «§YRévolte Ézicanienne§!». Cela ne devrait pas prendre beaucoup de temps avant les membres de l'§YOrdre Ézicanien§! ainsi que d'autres espèces prennent les armes contre le Kaiser dans l'Impérium félidéen.\n\nLes Ézicaniens de la plupart des mondes félidés tenteront de renverser les garnisons planétaires locales et de réquisitionner les vaisseaux félidés, afin de prendre le contrôle des planètes et de leurs systèmes.\n\nEt pourtant, les données suggèrent que les Ézicaniens ne seront probablement pas en mesure de le faire seuls, et certains membres de notre haut commandement conseillent de frapper le Kaiser dès que la révolte commence, afin d'enfermer les Félidés dans une guerre sur deux fronts."
     giga_katrebels.00174.a:0 "Maintenant, nous ne pouvons qu'espérer."
     giga_katrebels.00174.a.tooltip:0 "L'§YOrdre Ézicanien§! se rebellera, prenant au hasard, n'importe où, entre §Y10%§! et §Y40%§! des planètes félidéennes et de leurs systèmes voisins.\n\nIls reprendront le contrôle de tous les §Yvaisseaux§! et §Yplanètes félidéennes§! dans les zones capturées (à l'exception de la §YLune du Kaiser§! et de sa flotte), et procéderont immédiatement à une §Yattaque§! contre le Kaiser."
 
@@ -13648,7 +13700,7 @@
 
     giga_acc_dm:0 "L'§YAccélérateur de Particules Stellaire§! peut être spécialisé dans la production de §YMatière noire§! grâce à des collisions de particules spéciales qui génèrent des traces de Matière noire...\n\nProduction de base : §Y100§! £physics_research£ §Y1§! £sr_dark_matter£\nProbabilité d'échec : §R+5%§!"
 
-    giga_acc_qnm:0 "L'§YAccélérateur de Particules Stellaire§! peut être spécialisé dans la production de §YMasse quasi-négative§! grâce à des collisions ésotériques et très spécifiques de particules créant de la matière négative.\n\nProduction de base : §Y80§! £physics_research£ §Y0.7§! £ehof_sr_negative_mass£\nProbabilité d'échec : §R+10%§!"
+    giga_acc_qnm:0 "L'§YAccélérateur de Particules Stellaire§! peut être spécialisé dans la production de §YMasse négative§! grâce à des collisions ésotériques et très spécifiques de particules créant de la matière négative.\n\nProduction de base : §Y80§! £physics_research£ §Y0.7§! £ehof_sr_negative_mass£\nProbabilité d'échec : §R+10%§!"
 
     giga_acc_intensity_5:0 "Intensité actuelle:\n§BExtreme§!\n\nEffet :\n§G+50% Prod. de la mégastructure§!\n§R+100% Entretien de la mégastructure§!\n\n$mega_intensity_meaning$"
     giga_acc_intensity_4:0 "Intensité actuelle:\n§BHaute§!\n\nEffet :\n§G+25% Prod. de la mégastructure§!\n§R+40% Entretien de la mégastructure§!\n\n$mega_intensity_meaning$"
@@ -13945,7 +13997,7 @@
 
     asteroid_artillery_0:0 "Structure de l'artillerie d'astéroïde"
     asteroid_artillery_0_DESC:0 "Cette structure entoure un astéroïde, le préparant à la prochaine étape de la construction de l'artillerie d'astéroïde."
-    asteroid_artillery_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_defensive$\nTransforms an §YAsteroid§! into a §YStationary Defense Platform§!\n§LUne artillerie d'astéroïde est une puissante construction défensive stationnaire intégrée à un astéroïde, conçue pour repousser les incursions ennemies.§!"
+    asteroid_artillery_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_kilostructure$ - $giga_list_category_defensive$\nTransforme un §YAstéroïde§! en une §YPlateforme de Défense Stationnaire§!\n§LUne artillerie d'astéroïde est une puissante construction défensive stationnaire intégrée à un astéroïde, conçue pour repousser les incursions ennemies.§!"
 
     asteroid_artillery_1:0 "Artillerie d'astéroïde"
     asteroid_artillery_1_DESC:0 "Une artillerie d'astéroïde est une grande plate-forme d'armes intégrée à un petit corps rocheux qui est évidé pour accueillir la plate-forme. Elle se compose d'une arme spinale centrale, complétée par un éventail de petites tourelles auxiliaires et est faite pour repousser les incursions d'ennemis de taille moyenne."
@@ -14036,7 +14088,7 @@
     pc_giga_asteroid_artillery:0 "Artillerie d'astéroïde"
     pc_giga_asteroid_artillery_desc:0 "Cet astéroïde a été converti en arme défensive."
 
-    adds_4_asteroid_artillery_points:0 "Points d'amélioration d'artillerie d'astéroïdes : §G+4§!\n- PV des Corvettes d'assaut : §G+80%§!\n- Dégâts des armes : §G+80%§!\n- Capacité : §G+100%§!"
+    adds_4_asteroid_artillery_points:0 "Points d'amélioration d'artillerie d'astéroïdes : §G+4§!\n- PV des corvettes d'assaut : §G+80%§!\n- Dégâts des armes : §G+80%§!\n- Capacité : §G+100%§!"
 	
     PERDITION_BEAM_ARTILLERY:0 "$PERDITION_BEAM_TITAN$"
     PERDITION_BEAM_ARTILLERY_DESC:0 "$PERDITION_BEAM_TITAN_DESC$"
@@ -16105,34 +16157,34 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     ###DEFENSE NEXUS###
 	
     giga_tech_defense_nexus_capacity_1:0 "Infrastructure de hangar élargie"
-    giga_tech_defense_nexus_capacity_1_desc:0 "L'amélioration de l'infrastructure de nos Nexus de défense planétaire nous permet d'intégrer davantage de Strike Corvettes dans le cadre de la mégastructure."
-    allow_defense_nexus_capacity_1:0 "Capacité de la corvette de frappe : §G+30%§!"
+    giga_tech_defense_nexus_capacity_1_desc:0 "L'amélioration de l'infrastructure de nos Nexus de défense planétaire nous permet d'intégrer davantage de corvettes d'assaut dans le cadre de la mégastructure."
+    allow_defense_nexus_capacity_1:0 "Capacité de corvettes d'assaut : §G+30%§!"
 
     giga_tech_defense_nexus_production_1:0 "Assemblage rationalisé de la cuve planétaire"
-    giga_tech_defense_nexus_production_1_desc:0 "Des améliorations minimes dans le processus d'assemblage de nos Strike Corvettes donnent des résultats notables dans leur taux d'assemblage final, assurant une production accélérée."
-    allow_defense_nexus_production_1:0 "Corvettes d'attaque mensuelles : §G+30%§!"
+    giga_tech_defense_nexus_production_1_desc:0 "Des améliorations minimes dans le processus d'assemblage de nos Corvettes d'assaut donnent des résultats notables dans leur taux d'assemblage final, assurant une production accélérée."
+    allow_defense_nexus_production_1:0 "Corvettes d'assaut mensuelles : §G+30%§!"
 
-    giga_tech_defense_nexus_damage_1:0 "Charges utiles améliorées pour les corvettes d'attaque"
-    giga_tech_defense_nexus_damage_1_desc:0 "Comme elles n'ont pas de moteur PRL, les Strike Corvettes peuvent se permettre d'emporter un armement beaucoup plus lourd et puissant que celui de leurs congénères ordinaires. En tirant parti de cet avantage, elles pourront rester compétitives face à la puissance toujours croissante des flottes spatiales."
-    allow_defense_nexus_damage_1:0 "Dégâts de la corvette de combat : §G+40%§!\nPersonnes à charge de la corvette de combat : §G+25%§!."
+    giga_tech_defense_nexus_damage_1:0 "Charges utiles améliorées pour les Corvettes d'assaut"
+    giga_tech_defense_nexus_damage_1_desc:0 "Comme elles n'ont pas de moteur PRL, les Corvettes d'assaut peuvent se permettre d'emporter un armement beaucoup plus lourd et puissant que celui de leurs congénères ordinaires. En tirant parti de cet avantage, elles pourront rester compétitives face à la puissance toujours croissante des flottes spatiales."
+    allow_defense_nexus_damage_1:0 "Dégâts des corvettes d'assaut : §G+40%§!\nPV des corvettes d'assaut : §G+25%§!."
 
     giga_tech_defense_nexus_capacity_2:0 "Systèmes de hangars à plusieurs niveaux"
-    giga_tech_defense_nexus_capacity_2_desc:0 "Le développement continu de la conception des hangars signifie que nous pouvons loger beaucoup plus de Strike Corvettes dans le même volume."
-    allow_defense_nexus_capacity_2:0 "Capacité de la corvette de frappe : §G+40%§!"
+    giga_tech_defense_nexus_capacity_2_desc:0 "Le développement continu de la conception des hangars signifie que nous pouvons loger beaucoup plus de corvettes d'assaut dans le même volume."
+    allow_defense_nexus_capacity_2:0 "Capacité des corvettes d'assaut : §G+40%§!"
 
-    giga_tech_defense_nexus_damage_2:0 "Mise à l'échelle de Strike Corvette"
-    giga_tech_defense_nexus_damage_2_desc:0 "Grâce à nos grandes améliorations concernant l'optimisation des hangars, nous pouvons nous permettre de rendre nos Strike Corvettes nettement plus grandes et plus volumineuses qu'auparavant."
-    allow_defense_nexus_damage_2:0 "Dégâts de la corvette de combat : §G+60%§!\nPersonnes à charge de la corvette de combat : §G+60%§!."
+    giga_tech_defense_nexus_damage_2:0 "Mise à l'échelle des corvettes d'assaut"
+    giga_tech_defense_nexus_damage_2_desc:0 "Grâce à nos grandes améliorations concernant l'optimisation des hangars, nous pouvons nous permettre de rendre nos Corvettes d'assaut nettement plus grandes et plus volumineuses qu'auparavant."
+    allow_defense_nexus_damage_2:0 "Dégâts des corvettes d'assaut : §G+60%§!\nPV des corvettes d'assaut : §G+60%§!."
 
-    giga_tech_defense_nexus_production_2:0 "Auto-assemblage de la Corvette Strike"
+    giga_tech_defense_nexus_production_2:0 "Auto-assemblage des corvettes d'assaut"
     giga_tech_defense_nexus_production_2_desc:0 "Nous pouvons encore augmenter la vitesse à laquelle nos Nexus de défense planétaire assemblent leurs vaisseaux en permettant à ces derniers de se construire eux-mêmes."
-    allow_defense_nexus_production_2:0 "Corvettes d'attaque mensuelles : §G+50%§!"
+    allow_defense_nexus_production_2:0 "Corvettes d'assaut mensuelles : §G+50%§!"
 
     giga_tech_repeatable_defense_nexus_capacity_upgrade:0 "Hangars multidimensionnels"
-    giga_tech_repeatable_defense_nexus_capacity_upgrade_desc:0 "Les nouvelles connaissances en matière d'ingénierie multidimensionnelle nous permettent de faire rentrer encore plus de Corvettes de Strike dans des volumes toujours plus petits."
-    increases_defense_nexus_capacity:0 "Capacité de la corvette de frappe : §G+15%§!"
+    giga_tech_repeatable_defense_nexus_capacity_upgrade_desc:0 "Les nouvelles connaissances en matière d'ingénierie multidimensionnelle nous permettent de faire rentrer encore plus de corvettes de Strike dans des volumes toujours plus petits."
+    increases_defense_nexus_capacity:0 "Capacité des corvettes d'assaut : §G+15%§!"
 
-    giga_megaview_defense_nexus_dismantle_button:0 "§RDismantle Megastructure§!"
+    giga_megaview_defense_nexus_dismantle_button:0 "§RDémanteler la mégastructure§!"
 
     giga_megaview_defense_nexus_dismantle_no:0 "Nous envisageons déjà de démanteler ce §YNexus de défense planétaire§!."
     giga_megaview_defense_nexus_dismantle_tooltip:0 "Si nous n'avons plus d'utilité pour ce §YNexus de défense planétaire§!, nous pouvons choisir de le démanteler ou de le déclasser en §YArsenal planétaire§!."
@@ -16145,17 +16197,17 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
 
     giga_megaview_defense_nexus_cant_deploy:0 "Impossible de déployer un escadron de défense. Le déploiement ne doit pas être en cooldown et la planète ne peut pas être assiégée ou occupée."
 
-    giga_megaview_defense_nexus_deploy_tooltip:0 "Cliquez pour §Gdéployer§! les §YStrike Corvettes§! maintenant."
+    giga_megaview_defense_nexus_deploy_tooltip:0 "Cliquez pour §Gdéployer§! les §YCorvettes d'assaut§! maintenant."
 
     giga_megaview_defense_nexus_deploy_now_button:0 "§GDéployer les corvettes§!"
     
     building_defense_nexus_capacity:0 "Hangars auxiliaires"
-    building_defense_nexus_capacity_desc:0 "De vastes hangars abritant des §YCorvettes d'attaque§! à déployer lorsque le monde est menacé par des vaisseaux hostiles."
-    building_defense_nexus_capacity_effect_desc:0 "Augmente la capacité de la corvette de frappe de §Y15§!."
+    building_defense_nexus_capacity_desc:0 "De vastes hangars abritant des §YCorvettes d'assaut§! à déployer lorsque le monde est menacé par des vaisseaux hostiles."
+    building_defense_nexus_capacity_effect_desc:0 "Augmente la capacité des corvettes d'assaut de §Y15§!."
 
     building_defense_nexus_construction:0 "Chantiers navals planétaires"
-    building_defense_nexus_construction_desc:0 "Ces grands chantiers navals complètent les opérations de construction navale du §YNexus de défense planétaire§!, permettant la construction mensuelle de plus de §YCorvettes d'attaque§!."
-    building_defense_nexus_construction_effect_desc:0 "Augmente le nombre de §YCorvettes d'attaque§! mensuelles de §Y3§!."
+    building_defense_nexus_construction_desc:0 "Ces grands chantiers navals complètent les opérations de construction navale du §YNexus de défense planétaire§!, permettant la construction mensuelle de plus de §YCorvettes d'assaut§!."
+    building_defense_nexus_construction_effect_desc:0 "Augmente le nombre de §YCorvettes d'assaut§! mensuelles de §Y3§!."
 
     name_planetshipyard:0 "Dock Arsenal planétaire"
 
@@ -16164,7 +16216,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     planetary_drive_yard_0_DESC:0 "Le Site de construction d'une installation de construction navale autour de l'équateur d'une planète. Les grands postes d'amarrage de la structure augmenteront l'efficacité de la base stellaire du système tout en fournissant des emplois de capacité navale et de soldat."
     planetary_drive_yard_0_MEGASTRUCTURE_DETAILS:0 "$giga_list_category_megastructure$ - $giga_list_category_ship_production$ §H(3 Chantiers navals)§! - $giga_list_category_military$\nGrandes §YCréneaux navals§!, §YCapacité navale§! et §Y+15% Vitesse de construction§! à sa base stellaire\n$giga_list_category_requires_starbase_uplink$\n§LUne installation de construction navale orbitale fournissant des bonus militaires à sa planète." #megalistentry PLANETARY DOCKYARD
 
-    planetary_drive_yard_0_CONSTRUCTION_INFO_DELAYED:0 "$giga_list_additional_data$ - Comme il occupe le §YEmplacement Orbital§! d'une planète, il ne peut être empilé avec l'§YArcologie Orbitale§!. Il peut ensuite être transformé en §YChantier de propulsion planétaire§! pour se concentrer sur la §YConstruction navale§! ou en §YNexus de défense planétaire§! qui construit et déploie de manière autonome des §YCorvettes d'attaque§! pour défendre son monde.\n\nJusqu'à §Y20§! de ces mégastructures peuvent cumuler leurs effets sur la §YBase stellaire§!."
+    planetary_drive_yard_0_CONSTRUCTION_INFO_DELAYED:0 "$giga_list_additional_data$ - Comme il occupe le §YEmplacement Orbital§! d'une planète, il ne peut être empilé avec l'§YArcologie Orbitale§!. Il peut ensuite être transformé en §YChantier de propulsion planétaire§! pour se concentrer sur la §YConstruction navale§! ou en §YNexus de défense planétaire§! qui construit et déploie de manière autonome des §YCorvettes d'assaut§! pour défendre son monde.\n\nJusqu'à §Y20§! de ces mégastructures peuvent cumuler leurs effets sur la §YBase stellaire§!."
 
     planetary_drive_yard_1:0 "L'arsenal planétaire"
     planetary_drive_yard_1_DESC:0 "Un arsenal planétaire opérationnel équipé d'installations de construction navale entièrement fonctionnelles, accordant une capacité navale, des emplois de soldat et une légère protection contre les bombardements orbitaux à sa planète.\n\nProcurer la base stellaire du système avec 3 chantiers navals et une vitesse de construction navale de 15%."
@@ -16199,7 +16251,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     desc_planetary_drive_yard_shipyard:0 "Améliorée par rapport à l'§Yarsenal planétaire§!, l'§Yarsenal à propulsion planétaire§! double le bonus de vitesse de construction des chantiers navals et réduit le coût des vaisseaux construits dans la base stellaire du système. Améliore également la portée de la collecte commerciale."
 
     allow_planetary_drive_yard_defense:0 "§HDéverrouille la mégastructure§! : Nexus de défense planétaire"
-    desc_planetary_drive_yard_defense:0 "Amélioré par rapport à l'§YArsenal planétaire§!, le §YNexus de défense planétaire§! fait passer la mégastructure de la construction navale à la défense planétaire. Elle acquiert surtout la capacité de construire et de maintenir de manière autonome sa propre force de §YCorvettes d'attaque§!, qui seront automatiquement déployées si une flotte hostile s'approche trop près."
+    desc_planetary_drive_yard_defense:0 "Amélioré par rapport à l'§YArsenal planétaire§!, le §YNexus de défense planétaire§! fait passer la mégastructure de la construction navale à la défense planétaire. Elle acquiert surtout la capacité de construire et de maintenir de manière autonome sa propre force de §YCorvettes d'assaut§!, qui seront automatiquement déployées si une flotte hostile s'approche trop près."
 
     giga_dialog.13400.name:0 "Site de construction d'un arsenal planétaire terminé !"
     giga_dialog.13400.desc:0 "Le site de construction d'un chantier naval planétaire a été achevé en orbite de §Y[giga_planet.GetName]§!.\n\nCette plate-forme orbitale servira de base pour assembler un anneau entourant §Y[giga_planet.GetName]§!, équipé d'installations de construction navale ainsi que de mouillages.\n\nUne fois construit, il accordera §Y3§! chantiers navals et §Y20%§! de vitesse de construction de vaisseaux à sa base stellaire ainsi que §Y40§! capacité navale et §Y+2. 5%§! capacité navale globale. De plus, §Y[giga_planet.GetName]§! gagnera §Y1 emploi de soldat§! par §Y20§! pops et §Y-33%§! de dégâts de bombardement orbital.\n\nNous devrons construire un §YBâtiment de liaison montante§! sur la base stellaire pour qu'elle puisse bénéficier de ces avantages, qui peuvent se cumuler jusqu'à §Y20§! arsenaux planétaires dans un même système."
@@ -16210,7 +16262,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     giga_dialog.13401.a:0 "Super !"
 
     giga_dialog.13402.name:0 "Nexus de défense planétaire Opérationnel"
-    giga_dialog.13402.desc:0 "Le §Y[giga_system.GetName]§! chantier naval planétaire a été transformé en un §YNexus de défense planétaire§! fonctionnel.\n\nEquipé de vastes hangars et de quais pour vaisseaux de guerre, le Nexus de défense est capable de construire automatiquement une certaine quantité de §YCorvettes d'attaque§! déterminée par la population de §Y[giga_planet.GetName]§!.\n\nCes §YCorvettes d'attaque§! seront déployées dès qu'une flotte ennemie s'approchera de §Y[giga_planet.GetName]§! et engageront automatiquement tous les vaisseaux hostiles dans le système avant de retourner à §Y[giga_planet.GetName]§! si aucune menace ne subsiste.\n\nNos §YCorvettes d'attaque§! utiliseront le design de la §YCorvette§! de notre §YConcepteur de vaisseau§! (Nous n'avons donc pas besoin de concevoir une nouvelle classe de vaisseau) mais elles auront plus de puissance de feu et n'auront pas de moteur PRL.\n\nNous pouvons voir combien de §YStrike Corvettes§! la structure contient actuellement et configurer leur déploiement en sélectionnant le §YNexus de défense planétaire§! lui-même.\n\nEn outre, il créera une puissante armée de §YGardiens planétaires§! pour tous les §Y10§! habitants de sa planète, assurant la sécurité de la planète en cas d'invasion terrestre."
+    giga_dialog.13402.desc:0 "Le §Y[giga_system.GetName]§! chantier naval planétaire a été transformé en un §YNexus de défense planétaire§! fonctionnel.\n\nEquipé de vastes hangars et de quais pour vaisseaux de guerre, le Nexus de défense est capable de construire automatiquement une certaine quantité de §YCorvettes d'assaut§! déterminée par la population de §Y[giga_planet.GetName]§!.\n\nCes §YCorvettes d'assaut§! seront déployées dès qu'une flotte ennemie s'approchera de §Y[giga_planet.GetName]§! et engageront automatiquement tous les vaisseaux hostiles dans le système avant de retourner à §Y[giga_planet.GetName]§! si aucune menace ne subsiste.\n\nNos §YCorvettes d'assaut§! utiliseront le design de la §YCorvette§! de notre §YConcepteur de vaisseau§! (Nous n'avons donc pas besoin de concevoir une nouvelle classe de vaisseau) mais elles auront plus de puissance de feu et n'auront pas de moteur PRL.\n\nNous pouvons voir combien de §YCorvettes d'assaut§! la structure contient actuellement et configurer leur déploiement en sélectionnant le §YNexus de défense planétaire§! lui-même.\n\nEn outre, il créera une puissante armée de §YGardiens planétaires§! pour tous les §Y10§! habitants de sa planète, assurant la sécurité de la planète en cas d'invasion terrestre."
     giga_dialog.13402.a:0 "Merveilleux."
 
     giga_dialog.13404.name:0 "Entraînement planétaire Yards opérationnels"
@@ -16226,40 +16278,40 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     giga_defense_nexus_text_no:0 ""
 
     defense_nexus_title:0 "Nombre de corvettes de frappe : §Y[planet.giga_nexus_ship_count]§! /§Y[planet.giga_nexus_ship_count_max]§!"
-    defense_nexus_title_deployed:0 "§GDéploiement des Corvettes d'attaque§!"
+    defense_nexus_title_deployed:0 "§GDéploiement des Corvettes d'assaut§!"
     defense_nexus_max_count:0 "Max : §Y[planet.giga_nexus_ship_count_max]§!"
     defense_nexus_monthly_count:0 "Gain mensuel : §Y[planet.giga_nexus_ship_count_monthly]§!"
 
-    giga_megaview_defense_nexus_deploy_system_yes:0 "Déploiement des corvettes d'attaque : §GSystème§!\n\nLe §YNexus de défense planétaire§! libérera ses §YCorvettes d'attaque§! dès qu'une flotte hostile entrera dans le système."
+    giga_megaview_defense_nexus_deploy_system_yes:0 "Déploiement des corvettes d'attaque : §GSystème§!\n\nLe §YNexus de défense planétaire§! libérera ses §YCorvettes d'assaut§! dès qu'une flotte hostile entrera dans le système."
 
-    giga_megaview_defense_nexus_deploy_bombard_yes:0 "Déploiement des corvettes d'attaque : §YBombardement§!\n\nLe §YNexus de défense planétaire§! libère ses §YCorvettes d'attaque§! lorsqu'une flotte hostile bombarde §Y[planet.GetName]§!."
+    giga_megaview_defense_nexus_deploy_bombard_yes:0 "Déploiement des corvettes d'attaque : §YBombardement§!\n\nLe §YNexus de défense planétaire§! libère ses §YCorvettes d'assaut§! lorsqu'une flotte hostile bombarde §Y[planet.GetName]§!."
 
-    giga_megaview_defense_nexus_deploy_never_yes:0 "Déploiement des corvettes d'attaque : §RJamais§!\n\nLe §YNexus de défense planétaire§! ne libérera pas ses §RCorvettes d'attaque§!."
+    giga_megaview_defense_nexus_deploy_never_yes:0 "Déploiement des corvettes d'attaque : §RJamais§!\n\nLe §YNexus de défense planétaire§! ne libérera pas ses §RCorvettes d'assaut§!."
 
-    defense_nexus_cant_deploy:0 "§RLa planète est assiégée ou occupée. Impossible de déployer des Strike Corvettes.§!"
+    defense_nexus_cant_deploy:0 "§RLa planète est assiégée ou occupée. Impossible de déployer des corvettes d'assaut.§!"
 
-    giga_strike_corvette:0 "Strike Corvette"
-    giga_strike_corvette_plural:0 "Strike Corvettes"
+    giga_strike_corvette:0 "Corvette d'assaut"
+    giga_strike_corvette_plural:0 "Corvettes d'assaut"
 
     GIGA_STRIKE_CORVETTE_MISSILE:0 "Coque de torpille"
     GIGA_STRIKE_CORVETTE_SMALL:0 "Coque de l'essaim"
     GIGA_STRIKE_CORVETTE_MEDIUM:0 "Coque de ligne"
     GIGA_STRIKE_CORVETTE_LARGE:0 "Coque d'artillerie"
 
-    REACTOR_STRIKE_CORVETTE:0 "Réacteur de la Corvette Strike"
+    REACTOR_STRIKE_CORVETTE:0 "Réacteur des corvettes d'assaut"
     REACTOR_STRIKE_CORVETTE_DESC:0 "L'absence de systèmes PRL permet à la Corvette de Strike de maximiser sa puissance disponible."
 
     COMBAT_COMPUTER_STRIKE_CORVETTE:0 "Comportement de la corvette de grève"
     COMBAT_COMPUTER_STRIKE_CORVETTE_DESC:0 "Les corvettes d'attaque repèrent l'ennemi de loin, s'engagent rapidement et frappent fort afin de désorganiser les flottes ennemies en approche."
 
-    THRUSTER_STRIKE_CORVETTE:0 "Strike Corvette Thrusters"
+    THRUSTER_STRIKE_CORVETTE:0 "Propulseurs des Corvettes d'assaut"
     THRUSTER_STRIKE_CORVETTE_DESC:0 "Les corvettes d'attaque ont besoin d'une vitesse et d'une maniabilité incroyables pour intercepter les forces hostiles qui arrivent."
 
     giga_dialog.13403.name:0 "Nexus de défense planétaire Mécanique"
 
     giga_megaview_defense_nexus_explain_tooltip:0 "Cliquez pour afficher les mécanismes du §YNexus de défense planétaire§!."
 
-    defense_nexus_explanation_text:0 "Le Defense Nexus s'appuie sur sa flotte automatisée de §YStrike Corvettes§! pour défendre sa planète.\n\nIl construit et stocke lui-même §YStrike Corvettes§! chaque mois. \n\nLa capacité maximale de base est égale à §Yun tiers§! de la population de la planète et peut être augmentée de diverses manières.\n\n§Y2§! sont construites chaque mois, et toutes les §Y20§! populations ajoutent §Y1§! corvette supplémentaire par mois. Tout comme la capacité maximale, le taux de construction peut également être augmenté de différentes manières.\n\nLes corvettes d'attaque ne peuvent cependant pas être déployées si la planète est §Renvahie§! ou §Roccupée§! par une force hostile.\n\n§YCorvettes d'attaque§! sont des §YCorvettes§! ordinaires dépourvues de §YFTL§! mais dotées d'une §Ymobilité§! et d'une §Ypuissance de feu§! accrues. Nous n'avons donc §Rpas§! besoin de concevoir une nouvelle classe de vaisseau, car les escadrons de défense puiseront au hasard dans tous les modèles de §YCorvette§! existants dans le §YConcepteur de vaisseaux§!.\n\nCes vaisseaux se déploieront automatiquement lorsqu'une flotte hostile s'approchera de la mégastructure et nous pouvons configurer le moment où les §YCorvettes d'attaque§! seront libérées à l'aide des boutons de configuration de l'interface utilisateur de la mégastructure elle-même.\n\nUne fois les menaces éliminées, l'escadron de défense retournera automatiquement au §YNexus de défense§!. Il y a un temps de recharge de §Y3 mois§! avant que les flottes puissent être déployées à nouveau.\n\nLa mégastructure fera également apparaître une armée de §YGardiens planétaires§! sur la planète pour tous les §Y10§! habitants qui y vivent."
+    defense_nexus_explanation_text:0 "Le Defense Nexus s'appuie sur sa flotte automatisée de §YCorvettes d'assaut§! pour défendre sa planète.\n\nIl construit et stocke lui-même §YCorvettes d'assaut§! chaque mois. \n\nLa capacité maximale de base est égale à §Yun tiers§! de la population de la planète et peut être augmentée de diverses manières.\n\n§Y2§! sont construites chaque mois, et toutes les §Y20§! populations ajoutent §Y1§! corvette supplémentaire par mois. Tout comme la capacité maximale, le taux de construction peut également être augmenté de différentes manières.\n\nLes corvettes d'attaque ne peuvent cependant pas être déployées si la planète est §Renvahie§! ou §Roccupée§! par une force hostile.\n\n§YCorvettes d'assaut§! sont des §YCorvettes§! ordinaires dépourvues de §YFTL§! mais dotées d'une §Ymobilité§! et d'une §Ypuissance de feu§! accrues. Nous n'avons donc §Rpas§! besoin de concevoir une nouvelle classe de vaisseau, car les escadrons de défense puiseront au hasard dans tous les modèles de §YCorvette§! existants dans le §YConcepteur de vaisseaux§!.\n\nCes vaisseaux se déploieront automatiquement lorsqu'une flotte hostile s'approchera de la mégastructure et nous pouvons configurer le moment où les §YCorvettes d'assaut§! seront libérées à l'aide des boutons de configuration de l'interface utilisateur de la mégastructure elle-même.\n\nUne fois les menaces éliminées, l'escadron de défense retournera automatiquement au §YNexus de défense§!. Il y a un temps de recharge de §Y3 mois§! avant que les flottes puissent être déployées à nouveau.\n\nLa mégastructure fera également apparaître une armée de §YGardiens planétaires§! sur la planète pour tous les §Y10§! habitants qui y vivent."
 
     giga_dialog.13403.a:0 "Bien reçu."
 
@@ -17077,7 +17129,7 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
     giga_katzen.8512.a:0 "Excellent !"
     giga_katzen.8512.b:0 "Excellent !"
 
-    giga_katzen.8512.a.tooltip:0 "Nous pouvons maintenant construire le bâtiment §YPiège subspatial§! sur nos §YStarbases§!, qui entraînera de force les §YVaisseau subspatiaux§! Félidé hors du sous-espace dès qu'ils entreront dans le système."
+    giga_katzen.8512.a.tooltip:0 "Nous pouvons maintenant construire le bâtiment §YPiège subspatial§! sur nos §Ybases stellaires§!, qui entraînera de force les §YVaisseau subspatiaux§! Félidé hors du sous-espace dès qu'ils entreront dans le système."
 
     sm_katzen_submarine_snare:0 "Piège subspatial"
     sm_katzen_submarine_snare_desc:0 "Ce bâtiment entraînera de force tout §YVaisseau subspatial§! félidéen entrant dans ce système hors du sous-espace. De plus, ils ne pourront plus échapper à la destruction lorsque leurs HP seront trop bas."
