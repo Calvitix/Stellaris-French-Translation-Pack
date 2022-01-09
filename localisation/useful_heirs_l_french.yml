@@ -1,0 +1,133 @@
+﻿l_french:
+
+ edict_useful_heirs_1:0 "Convoquez mon héritier"
+ edict_useful_heirs_1_desc:0 "Il y a des questions qui doivent être discutées avec mon héritier."
+
+ edict_useful_heirs_2:0 "Nommer l'héritier"
+ edict_useful_heirs_2_desc:0 "L'absence d'un héritier est un danger pour le royaume. Je dois nommer un héritier."
+
+ usefulheirs.2000.AI: "AI"
+
+ usefulheirs.1000.name:0 "[root.GetHeirTitle] [event_target:heir_leader.GetName]"
+ usefulheirs.1000.desc:0 "Vous m'avez convoqué, [root.GetRulerTitle] ?"
+
+ usefulheirs.1000.a:0 "Tu dois acquérir de l'expérience au sein de notre empire."
+ usefulheirs.1000.a.tooltip:0 "Nous serons en mesure d'assigner notre héritier à une position de leader au sein de notre empire."
+ usefulheirs.1000.b:0 "Tu es indigne d'être mon héritier."
+ usefulheirs.1000.b.ad:0 "Le temps est venu pour moi de désigner un héritier."
+ usefulheirs.1000.b.tooltip:0 "Nous pouvons chercher un nouvel héritier parmi nos dirigeants, ou simplement déshériter notre héritier."
+ usefulheirs.1000.c:0 "J'ai l'intention d'abdiquer. Le temps est venu pour Toi de diriger."
+ usefulheirs.1000.c.tooltip:0 "Nous allons nous retirer et notre héritier prendra la relève."
+ usefulheirs.1000.d:0 "Jamais de la vie."
+
+ usefulheirs.2000.name:0 "[root.GetHeirTitle] [event_target:heir_leader.GetName]"
+ usefulheirs.2000.desc:0 "Comment puis-je vous servir au mieux, vous et '§Y[Root.GetName]§!' ?"
+
+ usefulheirs.2000.a:0 "En tant que gouverneur d'un de nos secteurs."
+ usefulheirs.2000.b:0 "En tant qu'amiral dans notre marine."
+ usefulheirs.2000.c:0 "Comme un général de notre armée."
+ usefulheirs.2000.d:0 "En tant que scientifique au sein de notre empire."
+ usefulheirs.2000.e:0 "En fait, vous n'avez pas besoin d'autres responsabilités."
+
+ usefulheirs.3000.name:0 "[root.GetHeirTitle] [event_target:heir_leader.GetName]"
+ usefulheirs.3000.desc:0 "Mon [root.GetRulerTitle], je vous supplie de reconsidérer la question !"
+ usefulheirs.3000.ad.desc:0 "Bien sûr, mon [root.GetRulerTitle]."
+
+ usefulheirs.3100.name:0 "[root.GetRulerTitle] [root.ruler.GetName]"
+ usefulheirs.3100.desc:0 "Qui est digne d'être mon héritier ?"
+
+ usefulheirs.3000.a:0 "L'un de nos gouverneurs sera mon héritier."
+ usefulheirs.3000.b:0 "L'un de nos amiraux sera mon héritier."
+ usefulheirs.3000.c:0 "L'un de nos généraux sera mon héritier."
+ usefulheirs.3000.d:0 "L'un de nos scientifiques sera mon héritier."
+ usefulheirs.3000.e:0 "Le prochain dans la ligne de succession prendra votre place."
+ usefulheirs.3000.f:0 "Vous pouvez peut-être encore faire vos preuves."
+ usefulheirs.3000.f.ad:0 "Le moment n'est pas encore venu."
+
+ usefulheirs.3011.name: "Gouverneurs"
+ usefulheirs.3012.name: "Amiraux"
+ usefulheirs.3013.name: "Généraux"
+ usefulheirs.3014.name: "Scientifiques"
+ usefulheirs.3011.desc: "Qui est digne d'être l'héritier de l'empire ?"
+
+ usefulheirs.3011.back: "Aucun n'est digne."
+ usefulheirs.3011.heir_maybe_1: "§Y[heir_maybe_1.GetName]§!"
+ usefulheirs.3011.heir_maybe_2: "§Y[heir_maybe_2.GetName]§!"
+ usefulheirs.3011.heir_maybe_3: "§Y[heir_maybe_3.GetName]§!"
+ usefulheirs.3011.heir_maybe_4: "§Y[heir_maybe_4.GetName]§!"
+ usefulheirs.3011.heir_maybe_5: "§Y[heir_maybe_5.GetName]§!"
+ usefulheirs.3011.heir_maybe_6: "§Y[heir_maybe_6.GetName]§!"
+ usefulheirs.3011.heir_maybe_7: "§Y[heir_maybe_7.GetName]§!"
+ usefulheirs.3011.heir_maybe_8: "§Y[heir_maybe_8.GetName]§!"
+ usefulheirs.3011.heir_maybe_9: "§Y[heir_maybe_9.GetName]§!"
+ usefulheirs.3011.heir_maybe_10: "§Y[heir_maybe_10.GetName]§!"
+
+ usefulheirs.3500.name: "§YPréparations du Couronnement§!"
+ usefulheirs.3500.desc: "Alors que nous nous préparons au couronnement de §H[new_chosen_heir.GetName]§!, la décision doit être prise de savoir s'ils rejoindront ou non la Maison impériale. Dans le cas contraire, ils conserveront leur ancien nom."
+
+ usefulheirs.3500.no_name_change: "Ils garderont le nom avec lequel ils sont nés."
+ usefulheirs.3500.yes_name_change: "Ils rejoindront la Maison de §Y[ruler.GetSecondName]§! et adopteront notre nom."
+ usefulheirs.3500.yes_name_change.tooltip: "§H[new_chosen_heir.GetName]§! adoptera le nom §H[ruler.GetSecondName]§! et deviendra §H[new_chosen_heir.GetName][ruler.GetSecondName]§!."
+
+ usefulheirs.3501.name: "§YNouvel héritier présumé§!"
+ usefulheirs.3501.desc: "Une grande cérémonie de couronnement a eu lieu aujourd'hui dans la capitale, et a été diffusée dans tout notre empire. §H[new_chosen_heir.GetName]§! a été proclamé le nouveau §Y[root.GetHeirTitle]§!, et est désormais §Yhéritier§! du trône. Comme prévu avec un changement de cette ampleur, certains dans l'empire ont exprimé leur mécontentement. L'ancien §Yhéritier§!, §H[previous_heir.GetName]§!, a toujours ses partisans. Cependant, ce mécontentement est susceptible de s'estomper avec le temps."
+ usefulheirs.3501.ad.desc: "Conformément à nos coutumes et traditions, une grande cérémonie de couronnement a eu lieu aujourd'hui dans la capitale, et a été diffusée dans tout notre empire. §H[new_chosen_heir.GetName]§! a été proclamé le nouveau §Y[root.GetHeirTitle]§!, et est désormais l'héritier du trône."
+
+ usefulheirs.3900.name: "§RL'ascension d'un héritier dynastique§!"
+ usefulheirs.3900.desc: "En rupture avec la tradition, §H[deceased_ruler.GetName]§! est décédé sans avoir désigné d'héritier. En tant que suivant dans la ligne de succession dynastique, §H[root.ruler.GetName]§! est monté sur le trône. Cela a provoqué un malaise général, la population craignant que le nouveau couronné §Y[root.GetRulerTitle]§! §H[root.ruler.GetName]§! ne soit pas à la hauteur de la tâche."
+
+ usefulheirs.3900.a: "Nous ferons nos preuves."
+
+ usefulheirs.3950.name: "§RL'héritier désigné meurt§!"
+ usefulheirs.3950.desc: "Une grande perte pour l'empire, [deceased_heir.GetTitle] §H[deceased_heir.GetName]§!, l'§Yhéritier présumé§!, est décédé. Un nouvel §Yhéritier§! devra être nommé."
+
+ usefulheirs.3950.a: "Tragique."
+
+ heir_fired_name:0 "[event_target:clone_leader_name_1.GetName]"
+ heir_name_bold:0 "§H[event_target:heir_leader.GetName]§!"
+ heir_name_bold_new:0 "§H[event_target:new_chosen_heir.GetName]§!"
+ # not_heir_name_normal:0 "§! [event_target:old_designated_heir.GetName]§!"
+ # ruler_name_normal: "§! [event_target:named_ruler.GetName]§!"
+
+ usefulheirs.4000.name:0 "[root.GetHeirTitle] [event_target:heir_leader.GetName]"
+ usefulheirs.4000.desc:0 "Mon [root.GetRulerTitle], êtes-vous sûr ?"
+
+ usefulheirs.4000.a:0 "En fait, je ne suis pas sûr. Je vais y réfléchir."
+ usefulheirs.4000.b:0 "J'en suis sûr. C'est votre heure. Je vais me retirer."
+ usefulheirs.4000.b.tooltip:0 "Nous allons nous retirer."
+ usefulheirs.4000.c:0 "Je le suis. Cependant, je sais que je peux encore contribuer à d'autres titres."
+ usefulheirs.4000.c.tooltip:0 "Nous nous retirerons du pouvoir et choisirons une autre position de leader au sein de notre empire."
+
+ usefulheirs.4010.name:0 "[root.GetHeirTitle] [event_target:heir_leader.GetName]"
+ usefulheirs.4010.desc:0 "Si c'est ce que vous souhaitez. Je ne vous décevrai pas. Que voulez-vous faire ?"
+
+ usefulheirs.4010.a:0 "Je présiderai l'un de nos secteurs en tant que gouverneur."
+ usefulheirs.4010.b:0 "Je dirigerai une de nos flottes en tant qu'amiral."
+ usefulheirs.4010.c:0 "Je dirigerai nos troupes en tant que Général."
+ usefulheirs.4010.d:0 "Je vais poursuivre la connaissance en tant que scientifique."
+
+
+ usefulheirs.4051.a:0 "Je vais diriger."
+
+ response_they_shall_accept:0 "Ils l'accepteront."
+ response_excellent:0 "Excellent"
+
+ influencefail_text_useful_heirs:0 "§RNécessite§! §Y500§! £influence£ §YInfluence§!"
+
+ ### Civics
+ civic_adoptive_dynasties: "Dynasties adoptives"
+ civic_adoptive_dynasties_desc: "Une dynastie de souverains inefficaces dans un passé lointain a conduit à une tradition dans cette société selon laquelle le monarque nomme généralement son héritier parmi les individus les plus compétents de sa cour. Cette tradition a donné naissance à un empire très stable. Cependant, jusqu'à ce qu'un héritier soit nommé, celui-ci est toujours choisi par primogéniture absolue."
+ civic_tooltip_adoptive_dynasties_effects: "Pas de pénalité de £stability£ §YStabilité§! ou de coût d'£influence£ §YInfluence§! pour désigner un héritier. Un héritier non désigné devenant dirigeant diminuera la £stability£ §YStabilité§! pendant §R10§! ans de §Y20§! sur chaque planète sauf la capitale, où la stabilité sera diminuée de §Y25§!."
+
+ # Modifiers
+ chose_new_heir: "Nouvel héritier"
+ chose_new_heir_desc: "La nomination d'un nouvel héritier a provoqué quelques perturbations au sein de l'élite dirigeante de cette planète. Il leur faudra un certain temps pour s'adapter à cette nouvelle réalité."
+
+ chose_new_heir_capital: "Nouvel héritier"
+ chose_new_heir_capital_desc: "La nomination d'un nouvel héritier a provoqué d'importantes perturbations au sein de l'élite dirigeante de la capitale. Il leur faudra du temps pour s'adapter à cette nouvelle réalité."
+
+ dynastic_heir: "Règle dynastique"
+ dynastic_heir_desc: "En raison des traumatismes du passé, l'ascension d'un héritier dynastique a provoqué une détresse considérable sur cette planète."
+
+ dynastic_heir_capital: "Règle dynastique"
+ dynastic_heir_capital_desc: "En raison des traumatismes du passé, l'ascension d'un héritier dynastique a provoqué un désarroi considérable dans la capitale."
