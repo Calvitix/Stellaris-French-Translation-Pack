@@ -56,6 +56,7 @@
   ver.100.desc: "'§Y[From.GetName]§!' a été récemment intégré dans notre sphère d'influence, et va devenir un de nos vassaux. C'est maintenant à nous de décider comment la population [From.GetAdj] peut au mieux contribuer à notre '§Y[Root.GetName]§!', en choisissant un type d'état-vassal."
   ver.100.appendage: "Ils aideront la ruche à grandir."
   ver.100.appendage.tooltip: "Transformer '§Y[From.GetName]§!' en un état-vassal de type §YAnnexe§!.\n\n$SUBJECT_DESC_verappendage$"
+  ver.100.autonomous: "Région autonome"
   ver.100.autonomous.tooltip: "Transformer '§Y[From.GetName]§!' et un état-vassal de type §YRégion autonome§!.\n\n$SUBJECT_DESC_verautonomous$"
   ver.100.beneficiary: "Qu'ils prospèrent sous notre tutelle."
   ver.100.beneficiary.tooltip: "Transformer '§Y[From.GetName]§!' en un état-vassal de type §YBénéficiaire§!.\n\n$SUBJECT_DESC_verbeneficiary$"
@@ -126,7 +127,7 @@
   ver.31.back: "Peut-être que ce n'est pas une bonne idée après tout..."
   ver.31.back.tooltip: "Dispersons nos États fantoches pour le moment."
   ver.33.name: "Guerre par procuration - Cible"
-  ver.33.desc: "Le '§Y[FROM.GetName]§!' partage ses frontières avec les États suivants, qui ne sont pas de nos alliés. Lequel devrait-on attaquer ?"
+  ver.33.desc: "'§Y[FROM.GetName]§!' partage ses frontières avec les États suivants, qui ne sont pas de nos alliés. Lequel devrait-on attaquer ?"
   ver.33.puppet_neighbor_1: "[puppet_neighbor_1.GetName]"
   ver.33.puppet_neighbor_2: "[puppet_neighbor_2.GetName]"
   ver.33.puppet_neighbor_3: "[puppet_neighbor_3.GetName]"
@@ -168,6 +169,7 @@
   ver_overlord_indoctrination: "Endoctrinement du Suzerain"
   ver_overlord_indoctrination_desc: "Notre suzerain nous voit comme des disciples qui devont apprendre le chemin du salut."
   ver_demilitarized: "Démilitarisé"
+  ver_demilitarized_desc: "Nous avons été démilitarisé par notre Suzerain."
   ver_military_subsidies: "Subventions militaires"
   ver_military_subsidies_desc: "Notre suzerain subventionne une partie de notre appareil militaire."
   ver_puppet_state: "État-fantôche"
@@ -326,47 +328,241 @@
  exalted_subjects.52.desc: "'§Y[From.GetName]§!' nous reconnait à présent comme leur société-mère. Nous devons maintenant décider de quelle manière la population [From.GetAdj] peut jouer un rôle au sein de notre '§Y[Root.GetName]§!'."
  
  SUBJECT_vervassal:0 "Vassal"
- SUBJECT_DESC_vervassal:0 "Les vassaux sont soumis à leur Suzerain. Ils ont des options diplomatiques limitées et doivent se battre aux côtés de leur Suzerain.\n\nPeut s'étendre : £trigger_no£\nA des pouvoirs diplomatiques : £trigger_no£\nEst protégé : £trigger_yes£\nRejoint les guerres du Suzerain : £trigger_yes£\nPeut être intégré : £trigger_yes£\nTribut : §G+0.2§! £influence£ §Hinfluence§! "
+ SUBJECT_DESC_vervassal:0 "Les vassaux sont soumis à leur Suzerain. Ils ont des options diplomatiques limitées et doivent se battre aux côtés de leur Suzerain.\n\nPeut s'étendre : £trigger_no£\nA des pouvoirs diplomatiques : £trigger_no£\nEst protégé : £trigger_yes£\nRejoint les guerres du Suzerain : £trigger_yes£\nPeut être intégré : £trigger_yes£\nTribut : §G+0.2§! £influence£ §Hinfluence§!"
 
- SUBJECT_DESC_tributary:0 "Les Tributaires sont plutôt indépendants, mais paient un tribut à leur Suzerain protecteur.\n\nPeut s'étendre : £trigger_yes£\nA des pouvoirs diplomatiques : £trigger_yes£\nEst protégé : £trigger_yes£\nRejoint les guerres du Suzerain : £trigger_no£\nPeut être intégré : £trigger_no£\nTribut : §25%§! £energy£ §Hénergie§! et £minerals£ §Hminéraux§! "
+ SUBJECT_DESC_tributary:0 "Les Tributaires sont plutôt indépendants, mais paient un tribut à leur Suzerain protecteur.\n\nPeut s'étendre : £trigger_yes£\nA des pouvoirs diplomatiques : £trigger_yes£\nEst protégé : £trigger_yes£\nRejoint les guerres du Suzerain : £trigger_no£\nPeut être intégré : £trigger_no£\nTribut : §25%§! £energy£ §Hénergie§! et £minerals£ §Hminéraux§!"
 
  SUBJECT_vertributary:0 "Tributaire"
- SUBJECT_DESC_vertributary:0 "Les Tributaires sont surtout indépendants, mais paient un tribut à leur Suzerain protecteur.\n\nPeut s'étendre : £trigger_yes£\nA des pouvoirs diplomatiques : £trigger_yes£\nEst protégé : £trigger_yes£\nRejoint les guerres du Suzerain : £trigger_no£\nPeut être intégré : £trigger_no£\nTribut : §25%§! £energy£ §Hénergie§! et £minerals£ §Hminéraux§! "
+ SUBJECT_DESC_vertributary:0 "Les Tributaires sont surtout indépendants, mais paient un tribut à leur Suzerain protecteur.\n\nPeut s'étendre : £trigger_yes£\nA des pouvoirs diplomatiques : £trigger_yes£\nEst protégé : £trigger_yes£\nRejoint les guerres du Suzerain : £trigger_no£\nPeut être intégré : £trigger_no£\nTribut : §25%§! £energy£ §Hénergie§! et £minerals£ §Hminéraux§!"
 
+ SUBJECT_DESC_protectorate:5 "Les protectorats sont garantis par leur suzerain, paient §Y80%§! de moins pour toute technologie connue de leur suzerain, et deviennent des vassaux lorsqu'ils atteignent §Y50%§! du niveau technologique de leur suzerain : £trigger_yes£\nPossède des pouvoirs diplomatiques : £trigger_yes£\nProtégé par son suzerain : £trigger_yes£\nDefends Overlord : £trigger_no£\nPeut être intégré : £trigger_no£\nTribute : §Y0. 1§! £influence£ §HInfluence§!"
+
+ edict_veru_manage_subject:0 "Gérer les états du sujet"
+ edict_veru_manage_subject_desc:0 "Nous permet de gérer nos sujets."
+ edict_veru_manage_subject_tooltip:0 "Nous permet de gérer nos sujets."
+ 
  # Decentralized Empires 2.7
-
  ver.100.member:0 "Etat membre"
  ver.100.member.tooltip:0 "Un territoire assez autonome dans un empire plus grand."
  
+ # Manage Subject
+ veru.2000.name: "Modifier la relation de l'état-vassal"
+ veru.2000.desc: "Quel état-vassal doit voir sa relation modifiée ?"
+ veru.2000.desc.fail: "Nous n'avons aucun état-vassal pour le moment."
+ veru.2000.fail: "Mince."
+ veru.2000.subject_1: "§Y[event_target:subject_1.GetName]§!"
+ veru.2000.subject_2: "§Y[event_target:subject_2.GetName]§!"
+ veru.2000.subject_3: "§Y[event_target:subject_3.GetName]§!"
+ veru.2000.subject_4: "§Y[event_target:subject_4.GetName]§!"
+ veru.2000.subject_5: "§Y[event_target:subject_5.GetName]§!"
+ veru.2000.subject_6: "§Y[event_target:subject_6.GetName]§!"
+ veru.2000.subject_7: "§Y[event_target:subject_7.GetName]§!"
+ veru.2000.subject_8: "§Y[event_target:subject_8.GetName]§!"
+ veru.2000.subject_9: "§Y[event_target:subject_9.GetName]§!"
+ veru.2000.subject_10: "§Y[event_target:subject_10.GetName]§!"
+ veru.2000.back: "J'ai changé d'avis."
+ veru.back: "Ils resteront comme ils sont."
+
+ # Change Subject Type or Name
+ veru.2050.name: "[event_target:chosen_subject.ruler.GetTitle] §H[event_target:chosen_subject.ruler.GetName]§! du §Y[event_target:chosen_subject.GetName]§!"
+ veru.2050.loyal.desc: "Comment puis-je servir le §Y[root.GetName]§! ?"
+ veru.2050.disloyal.desc: "Que voulez-vous ?"
+ veru.2050.backup.desc: "Comment '§Y[event_target:chosen_subject.GetName]§!' doit-il servir le §Y[Root.GetName]§! ?"
+ veru.2050.type: "Nous devons modifier notre relation."
+ veru.2050.gov: "Nous devons modifier votre structure de gouvernance."
+ veru.2050.leader: "Nous installons un nouveau chef."
+ veru.2050.tech: "Nous vous donnons accès à toute notre technologie."
+ veru.2050.tech.tooltip: "'§Y[event_target :chosen_subject.GetName]§!' aura accès à toutes les technologies que nous avons étudiées jusqu'à présent."
+
+ veru.2050.type: "Nous devons revoir notre relation."
+ veru.2050.name_change: "Nous allons changer le nom de votre nation."
+ veru.2050.name_change.tooltip: "Le §Y[event_target:chosen_subject.GetName]§! sera renommé en §Y[root.capital_scope.solar_system.GetName]§!."
+
  # Change Subject Type
-
- veru.2.name: "Modifier la relation de l'état-vassal"
- veru.2.desc: "En raison de l'environnement politique en constante évolution de notre galaxie, il sera parfois dans notre intérêt de changer la nature de notre relation avec un État sujet."
- veru.2.desc.fail: "Nous n'avons aucun état-vassal pour le moment."
- veru.2.fail: "Mince."
- veru.2.subject_1: "§Y[subject_1.GetName]§! "
- veru.2.subject_2: "§Y[subject_2.GetName]§! "
- veru.2.subject_3: "§Y[subject_3.GetName]§! "
- veru.2.subject_4: "§Y[subject_4.GetName]§! "
- veru.2.subject_5: "§Y[subject_5.GetName]§! "
- veru.2.subject_6: "§Y[subject_6.GetName]§! "
- veru.2.subject_7: "§Y[subject_7.GetName]§! "
- veru.2.subject_8: "§Y[subject_8.GetName]§! "
- veru.2.subject_9: "§Y[subject_9.GetName]§! "
- veru.2.subject_10: "§Y[subject_10.GetName]§! "
- veru.2.back: "J'ai changé d'avis."
- veru.3.back: "Ils resteront comme ils sont."
-
-
- edict_aaaveru_change_subject:0 "Revoir la relation de l'état-vassal"
- edict_aaaveru_change_subject_desc:0 "Nous permet d'examiner la nature de nos relations avec nos état-vassaux et de la modifier si nécessaire."
- edict_aaaveru_change_subject_tooltip:0 "Nous permet d'examiner la nature de nos relations avec nos état-vassaux et de la modifier si nécessaire."
-
- veru.31.name: "Modifier la relation"
- veru.31.desc: "Sous quel type de relation '§Y[event_target:chosen_subject.GetName]§!' doit-il nous servir ?"
+ veru.3000.name: "[event_target:chosen_subject.ruler.GetTitle] §H[event_target:chosen_subject.ruler.GetName]§! du §Y[event_target:chosen_subject.GetName]§!"
+ veru.3000.loyal.desc: "Comment souhaitez-vous que '§Y[event_target:chosen_subject.GetName]§!' serve notre '§Y[Root.GetName]§!' ?"
+ veru.3000.disloyal.desc: "Comment voulez-vous que '§Y[event_target:chosen_subject.GetName]§!' serve notre '§Y[Root.GetName]§!' ?"
+ veru.3000.backup.desc: "Comment '§Y[event_target:chosen_subject.GetName]§!' doit-il servir le §Y[Root.GetName]§! ?"
  
+ # Regular Empires
+ veru.3000.vertributary: "Vous serez un §YTributaire§!."
+ veru.3000.vervassal: "Vous serez un §YVassal§!."
+ veru.3000.appendage: "Vous serez un §YAppendice§!."
+ veru.3000.autonomous: "Vous serez une §YRégion autonome§!."
+ veru.3000.beneficiary: "Vous serez un §YBénéficiaire§!."
+ veru.3000.disciple: "Vous serez un §YDisciple§!."
+ veru.3000.foederatus: "Vous serez un §YFoederatus§!."
+ veru.3000.jrpartner: "Vous serez un §YJr. partenaire§!."
+ veru.3000.puppet: "Vous serez un §YÉtat fantoche§!."
+ veru.3000.serf: "Vous serez un §YSerf§!."
+ veru.3000.sister: "Vous serez une §YRépublique soeur§!."
+ veru.3000.organic: "Vous serez un §YAuxiliaire organique§!."
+ veru.3000.parallel: "Vous serez un §YProcesseur parallèle§!."
+ veru.3000.blood: "Vous serez un §YTributaire du sang§!."
+
+ # Exalted Domination
+ veru.3000.beneficiary: "Vous serez un §Y$SUBJECT_exalted_subject_beneficiary$§!."
+ veru.3000.cultural_conservation: "Vous serez un §Y$SUBJECT_exalted_subject_cultural_conservation$§!."
+ veru.3000.subject_dominion: "Vous serez un §Y$SUBJECT_exalted_subject_dominion$§!."
+ veru.3000.exarchate: "Vous serez un §Y$SUBJECT_exalted_subject_exarchate$§!."
+ veru.3000.noble_house: "Vous serez un §Y$SUBJECT_exalted_subject_noble_house$§!."
+ veru.3000.special_administrative_region: "Vous serez un §Y$SUBJECT_exalted_subject_special_administrative_region$§!."
+ veru.3000.warden: "Vous serez un §Y$SUBJECT_exalted_subject_warden$§!."
+ veru.3000.xenoharvest: "Vous serez un §Y$SUBJECT_exalted_subject_xenoharvest$§!."
+ veru.3000.symbiont: "Vous serez un §Y$SUBJECT_exalted_subject_symbiont$§!."
+ veru.3000.pet: "Vous serez un §Y$SUBJECT_exalted_subject_pet$§!."
+ veru.3000.automated_assembler: "Vous serez un §Y$SUBJECT_exalted_subject_pet$§!."
+ veru.3000.remote_archive: "Vous serez un §Y$SUBJECT_exalted_subject_remote_archive$§!."
+ veru.3000.prefecture: "Vous serez un §Y$SUBJECT_exalted_subject_prefecture$§!."
+ veru.3000.satellite: "Vous serez un §Y$SUBJECT_exalted_subject_satellite$§!."
+ veru.3000.signatory: "Vous serez un §Y$SUBJECT_exalted_subject_signatory$§!."
+ veru.3000.thrall: "Vous serez un §Y$SUBJECT_exalted_subject_thrall$§!."
+
+ # Decentralized Empires
+ veru.3000.member_state: "Vous serez un §Y$SUBJECT_member_state$§!."
+
+ # Megacorp
+ veru.3100.subsidiary: "Vous serez une §YFiliale§!."
+ veru.3100.devotee: "Vous serez un §YDévot§!."
+ veru.3100.kobun: "Vous serez un §YKobun§!."
+ veru.3100.supplier: "Vous serez un §YFournisseur§!."
+ veru.3100.worshipper: "Vous serez un §YAdorateur§!."
+ veru.3100.debtor: "Vous serez un §YDébiteur§!."
+ veru.3100.subscriber: "Vous serez un §YAbonné§!."
+ veru.3100.armsdealer: "Vous serez un §YMarchand d'armes§!."
+ veru.3100.subcontractor: "Vous serez un §YSous-traitant§!."
+ veru.3100.dependency: "Vous serez une §YDépendance§!."
+
+ # Change Government Type
+ veru.4000.loyal.desc: "Comment souhaitez-vous que '§Y[event_target:chosen_subject.GetName]§!' soit gouverné ?"
+ veru.4000.disloyal.desc: "Comment voulez-vous que '§Y[event_target:chosen_subject.GetName]§!' soit gouverné ?"
+
+ veru.4000.dictatorial: "En tant que §YDictature§!."
+ veru.4000.imperial: "En tant que §YMonarchie§!."
+ veru.4000.oligarchic: "En tant que §YOligarchie§!."
+ veru.4000.democratic: "En tant que §YDémocratie§!."
+ veru.4000.corporate: "En tant que §YSociété§!."
+ # More Authorities
+ veru.4000.democratic_dictatorship: "En tant que §YDictature démocratique§!."
+ veru.4000.strict_democratic: "En tant que §Ydémocratie à un seul terme§!."
+ veru.4000.corporate_imperial: "En tant que §YSociété privée§!."
+ # Ethics and Civics
+ veru.4000.direct_democratic: "En tant que §YDémocratie directe§!."
+
+ # Change Leader
+ veru.5000.loyal.desc: "Bien que je préférerais rester au pouvoir, je ferai ce qu'on m'ordonne."
+ veru.5000.disloyal.desc: "C'est scandaleux ! Vous n'avez aucun droit de me priver de ma position."
+
+ veru.5000.governor: "Un de nos §YGouverneurs§! doit prendre le relais."
+ veru.5000.admiral: "Un de nos §Yamiraux§! doit prendre le relais."
+ veru.5000.general: "Un de nos §YGénéraux§! doit prendre le relais."
+ veru.5000.scientist: "Un de nos §YScientifiques§! doit prendre le relais."
+
+ # Governors
+ veru.5000.governor_leader_1: "§Y[event_target:governor_leader_1.GetName]§!"
+ veru.5000.governor_leader_2: "§Y[event_target:governor_leader_2.GetName]§!"
+ veru.5000.governor_leader_3: "§Y[event_target:governor_leader_3.GetName]§!"
+ veru.5000.governor_leader_4: "§Y[event_target:governor_leader_4.GetName]§!"
+ veru.5000.governor_leader_5: "§Y[event_target:governor_leader_5.GetName]§!"
+ veru.5000.governor_leader_6: "§Y[event_target:governor_leader_6.GetName]§!"
+ veru.5000.governor_leader_7: "§Y[event_target:governor_leader_7.GetName]§!"
+ veru.5000.governor_leader_8: "§Y[event_target:governor_leader_8.GetName]§!"
+ veru.5000.governor_leader_9: "§Y[event_target:governor_leader_9.GetName]§!"
+ veru.5000.governor_leader_10: "§Y[event_target:governor_leader_10.GetName]§!"
+
+ # Admirals
+ veru.5000.admiral_leader_1: "§Y[event_target:admiral_leader_1.GetName]§!"
+ veru.5000.admiral_leader_2: "§Y[event_target:admiral_leader_2.GetName]§!"
+ veru.5000.admiral_leader_3: "§Y[event_target:admiral_leader_3.GetName]§!"
+ veru.5000.admiral_leader_4: "§Y[event_target:admiral_leader_4.GetName]§!"
+ veru.5000.admiral_leader_5: "§Y[event_target:admiral_leader_5.GetName]§!"
+ veru.5000.admiral_leader_6: "§Y[event_target:admiral_leader_6.GetName]§!"
+ veru.5000.admiral_leader_7: "§Y[event_target:admiral_leader_7.GetName]§!"
+ veru.5000.admiral_leader_8: "§Y[event_target:admiral_leader_8.GetName]§!"
+ veru.5000.admiral_leader_9: "§Y[event_target:admiral_leader_9.GetName]§!"
+ veru.5000.admiral_leader_10: "§Y[event_target:admiral_leader_10.GetName]§!"
+
+ # Generals
+ veru.5000.general_leader_1: "§Y[event_target:general_leader_1.GetName]§!"
+ veru.5000.general_leader_2: "§Y[event_target:general_leader_2.GetName]§!"
+ veru.5000.general_leader_3: "§Y[event_target:general_leader_3.GetName]§!"
+ veru.5000.general_leader_4: "§Y[event_target:general_leader_4.GetName]§!"
+ veru.5000.general_leader_5: "§Y[event_target:general_leader_5.GetName]§!"
+ veru.5000.general_leader_6: "§Y[event_target:general_leader_6.GetName]§!"
+ veru.5000.general_leader_7: "§Y[event_target:general_leader_7.GetName]§!"
+ veru.5000.general_leader_8: "§Y[event_target:general_leader_8.GetName]§!"
+ veru.5000.general_leader_9: "§Y[event_target:general_leader_9.GetName]§!"
+ veru.5000.general_leader_10: "§Y[event_target:general_leader_10.GetName]§!"
+
+ # Scientists
+ veru.5000.scientist_leader_1: "§Y[event_target:scientist_leader_1.GetName]§!"
+ veru.5000.scientist_leader_2: "§Y[event_target:scientist_leader_2.GetName]§!"
+ veru.5000.scientist_leader_3: "§Y[event_target:scientist_leader_3.GetName]§!"
+ veru.5000.scientist_leader_4: "§Y[event_target:scientist_leader_4.GetName]§!"
+ veru.5000.scientist_leader_5: "§Y[event_target:scientist_leader_5.GetName]§!"
+ veru.5000.scientist_leader_6: "§Y[event_target:scientist_leader_6.GetName]§!"
+ veru.5000.scientist_leader_7: "§Y[event_target:scientist_leader_7.GetName]§!"
+ veru.5000.scientist_leader_8: "§Y[event_target:scientist_leader_8.GetName]§!"
+ veru.5000.scientist_leader_9: "§Y[event_target:scientist_leader_9.GetName]§!"
+ veru.5000.scientist_leader_10: "§Y[event_target:scientist_leader_10.GetName]§!"
+
+ ##### Loyalty Events
+ # Release
+ veru_l.2100.name: "[event_target:demanding_subject.ruler.GetTitle] §H[event_target:demanding_subject.ruler.GetName]§!"
+ veru_l.2100.loyal.desc: "'§Y[event_target:demanding_subject.GetName]§!' a longtemps été un sujet loyal de '§Y[root.GetName]§!'. En récompense de ces loyaux services, '§Y[event_target:demanding_subject.GetName]§!' demande officiellement à être libéré de notre vassalité."
+ veru_l.2100.disloyal.desc: "'§Y[event_target:demanding_subject.GetName]§!' a depuis longtemps des difficultés en tant que sujet de '§Y[root.GetName]§!'. Nous pensons que le temps est venu de mettre fin à cette relation, et demandons à être libérés de notre vassalité."
+
+ veru_l.2100.a: "Votre statut ne sera pas modifié."
+ veru_l.2100.b: "Très bien, vous êtes libéré de toute obligation."
+
+ veru_l.2150.loyal.desc: "'§Y[event_target:demanding_subject.GetName]§!' a longtemps été un sujet loyal de '§Y[root.GetName]§!'. En récompense de ces loyaux services, '§Y[event_target:demanding_subject.GetName]§!' demande officiellement à être libéré de notre vassalité. Si vous refusez, nous n'aurons d'autre choix que de déclarer notre indépendance par la force."
+ veru_l.2150.disloyal.desc: "'§Y[event_target:demanding_subject.GetName]§!' a depuis longtemps des difficultés en tant que sujet de '§Y[root.GetName]§!'. Nous pensons que le temps est venu de mettre fin à cette relation, et demandons à être libérés de notre vassalité. Si vous refusez, nous n'aurons d'autre choix que de déclarer notre indépendance par la force."
+
+ veru_l.2150.a: "Votre statut ne sera pas modifié. Cela signifie la guerre."
+
+ # Autonomous State
+ veru_l.2200.loyal.desc: "'§Y[event_target:demanding_subject.GetName]§!' a longtemps été un sujet loyal de '§Y[root.GetName]§!'. En récompense de ces loyaux services, '§Y[event_target:demanding_subject.GetName]§!' demande officiellement à changer de statut pour devenir un §YÉtat autonome§!."
+ veru_l.2200.disloyal.desc: "'§Y[event_target:demanding_subject.GetName]§!'  a depuis longtemps des difficultés en tant que sujet de '§Y[root.GetName]§!'. Nous pensons que le temps est venu de changer cette relation, et demandons un changement de statut pour devenir un §YÉtat autonome§!."
+ veru_l.2200.b: "Très bien, vous serez un §YÉtat autonome§!."
+
+ veru_l.2250.loyal.desc: "'§Y[event_target:demanding_subject.GetName]§!' a longtemps été un sujet loyal de '§Y[root.GetName]§!'. En récompense de ces loyaux services, l'[event_target:demanding_subject.GetName] demande officiellement un changement de statut en celui d'un §YÉtat autonome§!. Si vous refusez, nous n'aurons d'autre choix que de déclarer notre indépendance par la force."
+ veru_l.2250.disloyal.desc: "'§Y[event_target:demanding_subject.GetName]§!' a depuis longtemps des difficultés en tant que sujet de '§Y[root.GetName]§!'. Nous pensons que le temps est venu de changer cette relation, et demandons un changement de statut pour devenir un §YÉtat autonome§!. Si vous refusez, nous n'aurons d'autre choix que de déclarer notre indépendance par la force."
+
+
+
+ # Modifiers
+ overlord_intervention_disloyal_faction: "Intervention du Suzerain"
+ overlord_intervention_disloyal_leader: "Intervention du Suzerain"
+ overlord_intervention_loyal_faction: "Intervention du Suzerain"
+ overlord_intervention_loyal_leader: "Intervention du Suzerain"
+
+ overlord_intervention_loyal_planet: "Intervention du Suzerain"
+ overlord_intervention_loyal_planet_desc: "La population de cette planète est contrariée par une récente atteinte à sa souveraineté."
+ overlord_intervention_disloyal_planet: "Intervention du Suzerain"
+ overlord_intervention_disloyal_planet_desc: "La population de cette planète est contrariée par une récente atteinte à sa souveraineté."
+
+ overlord_intervention_loyal_planet_gov: "Intervention du Suzerain"
+ overlord_intervention_loyal_planet_gov_desc: "La population de cette planète est contrariée par un changement récent de leur structure de gouvernement."
+ overlord_intervention_disloyal_planet_gov: "Intervention du Suzerain"
+ overlord_intervention_disloyal_planet_gov_desc: "La population de cette planète est contrariée par un changement récent de leur structure de gouvernement."
+
+ overlord_intervention_loyal_planet_leader: "Intervention du Suzerain"
+ overlord_intervention_loyal_planet_leader_desc: "La population de cette planète est contrariée par le fait que leur leader soit choisi par une puissance étrangère."
+ overlord_intervention_disloyal_planet_leader: "Intervention du Suzerain"
+ overlord_intervention_disloyal_planet_leader_desc: "La population de cette planète est contrariée par le fait que leur leader soit choisi par une puissance étrangère."
+
+
  choice_veru_vassal:0 "Vassal"
  choice_veru_tributary:0 "Tributaire"
  choice_veru_subsidiary:0 "Filiale"
 
  influencefail_text_veru:0 "§RNécessite§! §Y100§! £influence£ §Hinfluence§!"
+ influencefail_text_veru_200:0 "§RNécessite§! §Y200§! £influence£ §HInfluence§!"
+ influencefail_text_veru_300:0 "§RNécessite§! §Y300§! £influence£ §HInfluence§!"
+ capitalist_auth_fail:0 "§RNécessite§! une combinaison d'éthique §Ycompetitive§Y et §Yautoritaire§Y."
+
+ # Other
+ ai.random: "Aléatoire"
+ veru_autonomous_state.tooltip:0 "'§Y[event_target:demanding_subject.GetName]§!' deviendra un §YÉtat autonome§! au sein de notre nation. Ils nous paieront §Y15% de toutes leurs ressources§!. En tant qu'État, il sera en mesure de s'étendre et de déclarer la guerre. Il ne sera pas tenu de nous aider dans nos guerres, et sera également responsable de sa propre défense. Cela nous coûtera 0,2 d'£influence£ §HInfluence§! par mois. §RNous ne serons jamais en mesure de les intégrer.§!"
+
+
