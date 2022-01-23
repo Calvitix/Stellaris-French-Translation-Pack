@@ -2,8 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.2 : 22.11.2021
- # Translation check : 22.11.2021
+ # Update check for 3.3b : 22.01.2022
  ####################################
 
  ####################################
@@ -190,6 +189,8 @@
  HAS_NOT_NUM_YEARS_AT_PEACE:0 "La durée de la paix n'est PAS $COMPARATOR$ $NUM|Y$ ans"
  HAS_NUM_OWNED_PLANETS:0 "Le nombre de planètes possédées est $COMPARATOR$ $NUM|Y$"
  HAS_NOT_NUM_OWNED_PLANETS:0 "Le nombre de planètes possédées n'est PAS $COMPARATOR$ $NUM|Y$"
+ HAS_NUM_OWNED_LEADERS:0 "Le nombre de leaders possédés est de $COMPARATOR$ $NUM|Y$."
+ HAS_NOT_NUM_OWNED_LEADERS:0 "Le nombre de dirigeants possédés n'est PAS $COMPARATOR$ $NUM|Y$."
  HAS_FREE_JOBS:0 "Nombre d'emplois inoccupés $COMPARATOR$ $NUM|Y$"
  HAS_NOT_FREE_JOBS:0 "Nombre d'emplois inoccupés PAS $COMPARATOR$ $NUM|Y$"
  HAS_UNEMPLOYED:0 "Nombre de pops inemployées $COMPARATOR$ $NUM|Y$"
@@ -294,8 +295,8 @@
  IS_NOT_IDEAL_PLANET_CLASS_DETAILED:0 "$IS_NOT_IDEAL_PLANET_CLASS$ (§Y$PLANET_CLASS$§!)"
  VARIABLE_VALUE:0 "La valeur de la variable $VARIABLE|Y$ est $COMPARATOR$ $NUM|Y$"
  VARIABLE_NOT_VALUE:0 "La valeur de la variable $VARIABLE|Y$ n'est PAS $COMPARATOR$ $NUM|Y$"
- VARIABLE_ARITHMETIC_VALUE:0 "Le déclencheur arithmétique de la variable $VARIABLE|Y$ est $COMPARATOR$ $NUM|Y$."
- VARIABLE_ARITHMETIC_NOT_VALUE:0 "Le déclencheur arithmétique de la variable $VARIABLE|Y$ n'est PAS $COMPARATOR$ $NUM|Y$."
+ VARIABLE_ARITHMETIC_VALUE:1 "Le déclencheur arithmétique de la variable est $COMPARATOR$ à $NUM|Y$."
+ VARIABLE_ARITHMETIC_NOT_VALUE:1 "Le déclencheur arithmétique de la variable n'est PAS $COMPARATOR$ à $NUM|Y$."
  ANY_SHIP:0 "N'importe quel vaisseau"
  ANY_BORDERING_COUNTRY:0 "Tout empire frontalier"
  ANY_SHIP_IN_SYSTEM:0 "N'importe quel vaisseau dans le système"
@@ -333,7 +334,7 @@
  HAS_PREV_BUILDING:0 "Le bâtiment précédent était $BUILDING|Y$"
  HAS_NOT_PREV_BUILDING:0 "Le bâtiment précédent n'était PAS $BUILDING|Y$"
  OR_TRIGGER_STARTS:0 "Une de ces conditions doit être remplie"
- AND_TRIGGER_STARTS:0 "Toutes ces conditions doivent être remplies"
+ AND_TRIGGER_STARTS:0 "Toutes ces conditions doivent être remplies "
  IS_IN_ALLIANCE:0 "'$COUNTRY|Y$' est membre d'une alliance"
  IS_NOT_IN_ALLIANCE:0 "'$COUNTRY|Y$' n'est PAS membre d'une alliance"
  IS_IN_FEDERATION:0 "'$COUNTRY|Y$' est membre d'une fédération"
@@ -529,8 +530,8 @@
  PREVENTING_DISCOVERIES_NOT_TRIGGER:0 "N'empêche PAS les anomalies"
  HAS_DEPOSIT_FOR_TRIGGER:0 "A un gisement collecté par $CLASS$"
  HAS_NOT_DEPOSIT_FOR_TRIGGER:0 "N'a PAS de gisement collecté par $CLASS$"
- COLONY_AGE_TRIGGER:0 "L'âge de la colonie est de $COMPARE$ $VALUE|Y$ mois"
- COLONY_AGE_NOT_TRIGGER:0 "L'âge de la colonie n'est PAS de $COMPARE$ $VALUE|Y$ mois"
+ COLONY_AGE_TRIGGER:1 "L'âge de la colonie est $COMPARATOR$ à $VALUE|Y$ mois"
+ COLONY_AGE_NOT_TRIGGER:1 "L'âge de la colonie n'est PAS $COMPARATOR$ à $VALUE|Y$ mois"
  IS_NOT_RIM_SYSTEM_TRIGGER:0 "N'est PAS sur la frange de la galaxie"
  IS_RIM_SYSTEM_TRIGGER:0 "Est sur la frange de la galaxie"
  IS_NOT_BOTTLENECK_SYSTEM_TRIGGER:0 "N'est pas un goulot d'étranglement"
@@ -560,6 +561,8 @@
  HAS_NOT_NUM_STARBASES:0 "Nombre de bases stellaires possédées ($NUM_OWNED|Y$) PAS $COMPARE$ à $NUM_COMPARE|Y$"
  NUM_SYSTEM_PLANETS_TRIGGER:0 "Nombre de mondes du système ($VALUE1|0Y$) $COMPARE$ à $VALUE2|0Y$."
  NUM_SYSTEM_PLANETS_NOT_TRIGGER:0 "Nombre de mondes du système ($VALUE1|0Y$) PAS $COMPARE$ à $VALUE2|0Y$."
+ NUM_GALAXY_SYSTEMS: "Le nombre de systèmes stellaires dans la galaxie est de $COMPARATOR$ $VALUE|0Y$."
+ NUM_GALAXY_SYSTEMS_NOT: "Le nombre de systèmes stellaires dans la galaxie n'est PAS $COMPARATOR$ $VALUE|0Y$."
  HAS_NOT_PROGRESS:0 "Le progrès de la mission $VAL0|2Y$ n'est PAS $COMPARE$ $VAL1|2Y$"
  HAS_PROGRESS:0 "Le progrès de la mission $VAL0|2Y$ est $COMPARE$ $VAL1|2Y$"
  HAS_NOT_TRUCE_TRIGGER:0 "'$COUNTRY|Y$' n'a pas de trêve avec '$TARGET|Y$'"
@@ -853,8 +856,8 @@
  SPECIES_PLANET_SLAVE_PERCENTAGE_AT_LEAST:0 "Pourcentage des esclaves de l'espèce $SPECIES$ sur la planète au moins $COMPARE$ $VAL1|2Y$"
  HAS_SPACEPORT_MODULE:0 "Le spatioport dispose de l'amélioration du module $MODULE|Y$.\n"
  HAS_NOT_SPACEPORT_MODULE:0 "Le spatioport ne dispose PAS de l'amélioration du module $MODULE|Y$.\n"
- NOT_USES_PORTRAIT:0 "N'utilise pas le portrait "$PORTRAIT|Y$"
- USES_PORTRAIT:0 "Utilise le portrait "$PORTRAIT|Y$"
+ NOT_USES_PORTRAIT:0 "N'utilise pas le portrait $PORTRAIT|Y$"
+ USES_PORTRAIT:0 "Utilise le portrait $PORTRAIT|Y$"
  HAS_NOT_FREE_SPACEPORT_MODULE_SLOT:0 "Ne dispose PAS d'emplacement de module de spatioport libre.\n"
  HAS_FREE_SPACEPORT_MODULE_SLOT:0 "Dispose d'un emplacement de module de spatioport libre.\n"
  IS_NOT_SPACEPORT_MODULE_SLOT_FREE:0 "L'emplacement de module de spatioport $SLOT|Y$ est occupé.\n"
@@ -922,7 +925,7 @@
  TRIGGER_RELATIVE_FLEET_CAPACITY_NOT:1 "La capacité navale de la §Y$COUNTRY$§! n'est PAS $VALUE$ $COMPARE$e à celle de la §Y$WHO$§!"
  TRIGGER_RELATIVE_TECHNOLOGY_NOT:1 "Le niveau technologique de la §Y$COUNTRY$§! n'est PAS $VALUE$ $COMPARE$ à celui de la §Y$WHO$§!"
  TRIGGER_RELATIVE_POWER_NOT:1 "La puissance de la §Y$COUNTRY$§! n'est PAS $VALUE$ $COMPARE$e à celle de la §Y$WHO$§!"
- NOR_TRIGGER_STARTS:0 "Aucune de ces conditions ne doit être remplie"
+ NOR_TRIGGER_STARTS:0 "Aucune de ces conditions ne doit être remplie "
  NAND_TRIGGER_STARTS:0 "Au moins une de ces conditions ne doit être remplie"
 
  HAS_FORMER_CITIZENSHIP_TYPE:0 "Les anciens droits étaient $SPECIES_RIGHT|Y$"
@@ -958,6 +961,9 @@
 
  HAS_NUM_STARBASE_SIZES:2 "Le nombre de bases stellaires de taille $SIZE$ est $COMPARE$ à $NUM|Y$"
  HAS_NOT_NUM_STARBASE_SIZES:1 "Le nombre de bases stellaires de taille $SIZE$ n'est pas $COMPARE$ à $NUM|Y$"
+
+ IS_STARBASE_TYPE:0 "Starbase Est un $TYPE|Y$"
+ IS_NOT_STARBASE_TYPE:0 "Starbase N'est PAS un $TYPE|Y$"
 
  ####################################
  # Effects
@@ -1140,6 +1146,8 @@
  ADD_BUILDING_EFFECT:0 "Ajoute le bâtiment £building£$BUILDING|Y$ au monde"
  REMOVE_BUILDING_EFFECT:0 "Retirer le bâtiment"
  REMOVE_ALL_BUILDINGS_EFFECT:1 "Détruit tous les bâtiments"
+ DOWNGRADE_ALL_BUILDINGS_EFFECT:0 "Tous les bâtiments autres que le capitole sont rétrogradés."
+ DOWNGRADE_ALL_BUILDINGS_OF_TYPE_EFFECT:0 "Tous les bâtiments de type $TYPE$ sont rétrogradés."
  REMOVE_SPECIFIC_BUILDING_EFFECT:0 "Détruit $BUILDING|Y$"
  ADD_DISTRICT_EFFECT:0 "Ajoute un $DISTRICT|Y$ au monde"
  REMOVE_DISTRICT_EFFECT:0 "Détruit le district"
@@ -1275,6 +1283,8 @@
  any_owned_megastructure_trigger:0 "Toutes les mégastructures possédées"
  effect_random_owned_megastructure:0 "Une mégastructure possédée au hasard"
  effect_every_owned_megastructure:0 "Chaque mégastructure possédée"
+ count_owned_megastructure_trigger:0 "Nombre de mégastructures possédées$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
+ count_owned_megastructure_all_trigger:0 "$IS_ALL_NOT$ mégastructures possédées remplissent ces conditions"
  any_system_megastructure_trigger:0 "N'importe quelle mégastructure du système"
  effect_random_system_megastructure:0 "Une mégastructure au hasard dans le système"
  effect_every_system_megastructure:0 "Chaque mégastructure du système"
@@ -1442,8 +1452,8 @@
  SCIENTIST_COUNT_TRIGGER:0 "Nombre de scientifiques recrutés $COMPARATOR$ $NUM|Y$"
  SCIENTIST_COUNT_NOT_TRIGGER:0 "Nombre de scientifiques recrutés PAS $COMPARATOR$ $NUM|Y$"
 
- # [LocEditor:UntranslatedKey] `CIVICS_COUNT_TRIGGER`
- # [LocEditor:UntranslatedKey] `CIVICS_COUNT_NOT_TRIGGER`
+ CIVICS_COUNT_TRIGGER:0 "Nombre de doctrines $COMPARATOR$ à $NUM|Y$"
+ CIVICS_COUNT_NOT_TRIGGER:0 "Nombre de doctrines PAS $COMPARATOR$ à $NUM|Y$"
 
  NUM_RELICS_TRIGGER:0 "Nombre de reliques rassemblées $COMPARATOR$ $NUM|Y$"
  NUM_RELICS_NOT_TRIGGER:0 "Nombre de reliques rassemblées PAS $COMPARATOR$ $NUM|Y$"
@@ -1498,6 +1508,27 @@
 
  FEDERATION_COHESION_LESS_THAN:1 "La cohésion de la $FEDERATION|H$ n'est PAS $COMPARE$e à $VAL1|2Y$"
  FEDERATION_COHESION_AT_LEAST:1 "La cohésion de la $FEDERATION|H$ est $COMPARE$e à $VAL1|2Y$"
+
+ START_SITUATION_EFFECT:0 "Lance la situation $SITUATION|Y$."
+ DESTROY_SITUATION_EFFECT:0 "Met fin à la situation $NAME|Y$."
+ ADD_SITUATION_PROGRESS:0 "La situation $SITUATION|Y$ progresse de $AMOUNT|Y$"
+ ADD_SITUATION_PROGRESS_NEGATIVE:0 "La situation $SITUATION|Y$ recule de $AMOUNT|Y$"
+ SET_SITUATION_APPROACH_EFFECT: "L'approche de la situation est réglée sur '$APPROACH|Y$''."
+
+ TRIGGER_SITUATION_PROGRESS:0 "La progression totale (actuellement $CURRENT$) est $COMPARE$e à $PROGRESS|Y$"
+ TRIGGER_SITUATION_PROGRESS_NOT:0 "La progression totale (actuellement $CURRENT$) n'est PAS $COMPARE$e à $PROGRESS|Y$"
+ TRIGGER_SITUATION_MONTHLY_PROGRESS:0 "La progression mensuelle (actuellement $CURRENT$) est $COMPARE$e à $PROGRESS|Y$"
+ TRIGGER_SITUATION_MONTHLY_PROGRESS_NOT:0 "La progression mensuelle (actuellement $CURRENT$) n'est PAS $COMPARE$e à $PROGRESS|Y$"
+ TRIGGER_SITUATION_TYPE:0 "Est du type $TYPE|Y$"
+ TRIGGER_SITUATION_TYPE_NOT:0 "N'est PAS du type $TYPE|Y$"
+ TRIGGER_SITUATION_APPROACH: "L'approche actuelle est '$APPROACH|Y$'"
+ TRIGGER_SITUATION_APPROACH_NOT: "L'approche actuelle n'est PAS '$APPROACH|Y$'"
+
+ any_situation_trigger:0 "N'importe quelle situation en cours"
+ effect_random_situation:0 "Une situation en cours au hasard"
+ effect_every_situation:0 "Toutes les situations en cours"
+ count_situation_trigger:0 "Nombre de situations en cours$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
+ count_situation_all_trigger:0 "$IS_ALL_NOT$ situations en cours remplissent ces conditions"
 
  HAS_NOT_TRADE_ROUTES:0 "Le système n'a pas de route commerciale"
  HAS_TRADE_ROUTES:0 "Le système a une route commerciale"
@@ -1755,8 +1786,8 @@
  CAN_SET_POLICY_TRIGGER:0 "Permet d'adopter une politique de $POLICY_GROUP|Y$ $OPTION|Y$"
  CAN_NOT_SET_POLICY_TRIGGER:0 "Interdit d'adopter une politique de $POLICY_GROUP|Y$ $OPTION|Y$"
 
- WOULD_WORK_TYPE_TRIGGER:0 "Prendrait n'importe quel emploi de $JOB$ qui serait disponible."
- WOULD_NOT_WORK_JOB_TYPE_TRIGGER:0 "Ne prendrait PAS n'importe quel emploi de $JOB$ qui serait disponible."
+ CAN_WORK_SPECIFIC_WORK_TYPE_TRIGGER:1 "Peut occuper n'importe quel emploi de $JOB$ disponible."
+ CAN_NOT_WORK_SPECIFIC_JOB_TYPE_TRIGGER:1 "Ne peut PAS occuper n'importe quel emploi de $JOB$ disponible."
 
  HAS_PATH_TRIGGER:0 "'$COUNTRY|Y$' suit la $PATH|Y$"
  HAS_NOT_PATH_TRIGGER:0 "'$COUNTRY|Y$' ne suit PAS la $PATH|Y$"
@@ -1815,6 +1846,8 @@
  STARBASE_IS_FIRST_IN_QUEUE:0 "$FIRST|Y$ est devant $SECOND|Y$ dans la file d'attente des constructions"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ WOULD_WORK_TYPE_TRIGGER:0 "Prendrait n'importe quel emploi de $JOB$ qui serait disponible."
+ WOULD_NOT_WORK_JOB_TYPE_TRIGGER:0 "Ne prendrait PAS n'importe quel emploi de $JOB$ qui serait disponible."
  OPINION_LOWER_THAN:0 "Opinion inférieure à"
  OPINION_AT_LEAST:0 "Opinion d'au moins"
  TRUST_LOWER_THAN:0 "Confiance inférieure à "

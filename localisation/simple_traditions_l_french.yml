@@ -22,7 +22,7 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
 # Adopt
   tr_industry_adopt:0 "Traditions de l'industrie"
   tr_industry_adopt_desc:0 "§Y$mod_station_gatherers_produces_mult$§! augmenté de §G20§!."
-
+  tr_industry_adopt_effect:0 "$mod_station_gatherers_cost_mult$ : §G-50%§!\nVitesse de construction des stations minières : §G+100%§!\nMaintenance des stations minières : §G-50%§!"
   tr_industry_adopt_machine:0 "Traditions de l'industrie"
   tr_industry_adopt_machine_desc:0 "$tradition_industry_machine_desc$\n\n$tr_industry_adopt_effect$\n\n$tr_industry_finish_machine_effect$"
   tr_industry_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$mod_station_gatherers_produces_mult$§! augmenté de §G20§!."
@@ -34,6 +34,7 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
 # Finisher
   tr_industry_finish:0 "Traditions de l'industrie terminées"
   tr_industry_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter toutes les $tr_industry_adopt$ nous donne accès aux décisions suivantes : \n§HDéverouille la Décision planétaire :§! Désigner comme Monde minier \n§HDéverouille la Décision planétaire :§! Désigner comme Monde énergétique \n§HDéverouille la Décision planétaire :§! Désigner comme Monde alimentaire \n§HDéverouille la Décision planétaire :§! Désigner comme Monde industriel\n§HDéverouille la Décision planétaire :§! Désigner comme Monde de fonderie\n"
+  tr_industry_finish_desc:1 "§HDéverouille la Décision planétaire :§! Désigner comme Monde minier \n§HDéverouille la Décision planétaire :§! Désigner comme Monde énergétique \n§HDéverouille la Décision planétaire :§! Désigner comme Monde alimentaire \n§HDéverouille la Décision planétaire :§! Désigner comme Monde industriel\n§HDéverouille la Décision planétaire :§! Désigner comme Monde de fonderie\nAtouts d'Ascension déverrouillés : §G+1§!"
 
   tr_industry_finish_machine:0 "Traditions de l'industrie terminées"
   tr_industry_finish_machine_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter toutes les $tr_industry_adopt_machine$ nous donne accès aux décisions suivantes : \n§HDéverouille la Décision planétaire :§! Désigner comme Monde minier \n§HDéverouille la Décision planétaire :§! Désigner comme Monde énergétique \n§HDéverouille la Décision planétaire :§! Désigner comme Monde alimentaire \n§HDéverouille la Décision planétaire :§! Désigner comme Monde industriel\n§HDéverouille la Décision planétaire :§! Désigner comme Monde de fonderie\n"
@@ -72,6 +73,10 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
   tr_industry_compact_extraction_centers_hive_delayed:0 "§LEn regroupant nos drones près de leurs lieux de travail désignés, nous pouvons réduire la nécessité de logement ailleurs.§!"
   tr_industry_compact_extraction_centers_hive_desc:0 "§Y$district_generator$§!, §Y$district_mining$§! et §Y$district_farming$§! fournissent §G1§! £housing£ §YLogement§! supplémentaire."
 
+# rare resource extraction
+  tr_industry_rare_resource_extraction:0 "Extraction de ressources rares"
+  tr_industry_rare_resource_extraction_delayed:0 "En ayant accès à des équipements de meilleure qualité, nos spécialistes compétents peuvent extraire plus efficacement certaines ressources rares."
+  
 # industry traditions 4
   tr_industry_low_level_management:0 "Extraction des ressources rares"
   tr_industry_low_level_management_delayed:0 "§LAvec l'accès à un équipement de qualité supérieure, nos spécialistes compétents peuvent extraire certaines ressources rares plus efficacement.§!"
@@ -90,6 +95,10 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
   tr_industry_optimized_algorithms_delayed:0 "§LEn accordant nos extracteurs de ressources sur les fréquences et les modèles optimaux, nous pouvons augmenter notre production.§!"
   tr_industry_optimized_algorithms_desc:0 "§YEntretien des stations minières§! réduit de §G10%§!."
 
+# natural forges
+  tr_industry_forge:0 "Forges intégrées"
+  tr_industry_forge_delayed:0 "En utilisant l'énergie excédentaire du soleil local, nous pouvons fabriquer et préparer de manière préventive des alliages à partir de nos stations minières."
+  tr_industry_forge_desc:0 "Sortie de la station minière : §G+0. 10§! £alloys£ Alliages"
 ######################################
 #   Science
 ######################################
@@ -106,6 +115,7 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
 
 # Adopt
   tr_research_adopt:0 "Traditions scientifiques"
+  tr_research_adopt_desc:0 "$tr_research_adopt_effect$"
   tr_research_adopt_effect:0 "§HDéverouille la Décision planétaire :§! Station de recherche de faible orbite"
 
   tr_research_adopt_machine:0 "Traditions scientifiques"
@@ -119,6 +129,7 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
 # Finisher
   tr_research_finish:0 "Traditions scientifiques terminées"
   tr_research_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter toutes les $tr_research_adopt$ va débloquer les politiques de §YStratégies scientifiques§!."
+  tr_research_finish_desc:0 "Débloque les politiques §YStratégies scientifiques§!\nAscension Perks débloqués : §G+1§!"
 
   tr_research_finish_machine:0 "Traditions scientifiques terminées"
   tr_research_finish_machine_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter toutes les $tr_research_adopt$ va débloquer la mise au point §Yscience§! Stratégies."
@@ -135,6 +146,17 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
   tr_research_standardized_equipment:0 "Équipement standardisé"
   tr_research_standardized_equipment_delayed:0 "§LEn créant des normes dynamiques pour nos équipements scientifiques, nous avons pu réduire l'empreinte de maintenance de nos stations de recherche.§!"
   tr_research_standardized_equipment_desc:0 "§YEntretien des stations de recherche§! réduit de §G10%§!."
+
+# science director
+  tr_research_science_director:0 "Directeur scientifique"
+  tr_research_science_director_delayed:0 "Nous installerons sur chaque planète un individu chargé de diriger nos efforts scientifiques sur cette planète."
+
+  tr_research_science_director_machine:0 "Emballage dimensionnel"
+  tr_research_science_director_machine_delayed:0 "Après avoir étudié les dimensions supérieures et leur utilisation de l'espace, nous avons trouvé un moyen d'entasser un peu plus de puissance de traitement sur nos planètes."
+
+  tr_research_science_director_hive:0 "$tr_research_science_director_machine$"
+  tr_research_science_director_hive_delayed:0 "$tr_research_science_director_machine_delayed$"
+
 
 # science traditions 3
   tr_research_research_grants:0 "Bourse de recherche"
@@ -188,7 +210,8 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
 # Finisher
   tr_navy_finish:0 "Traditions marines terminées"
   tr_navy_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter toutes les $tr_navy_adopt$ augmente nos vaisseaux §Y$MOD_SHIP_ACCURACY_MULT$§! de §G+10%§! et nos vaisseaux §Y$MOD_SHIP_EVASION_MULT$§! de §G+10%§!."
-
+  tr_navy_finish_desc:0 "$MOD_SHIP_ACCURACY_MULT$: §G+10%§!\n$MOD_SHIP_EVASION_MULT$: §G+10%§!\nAtout d'ascension déverrouillé: §G+1§!"
+  
 # navy traditions 1
   tr_navy_defensive_capabilities:0 "Capacités défensives"
   tr_navy_defensive_capabilities_delayed:0 "§LNous ne pouvons pas faire nos vaisseaux invincibles, mais nous pouvons faire certains aspects d'eux beaucoup plus difficiles.§!"
@@ -348,7 +371,8 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
 # Finisher
   tr_statecraft_finish:0 "Traditions d'Habileté politique terminées"
   tr_statecraft_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter toutes les $tr_statecraft_adopt$ augmente notre §Y$MOD_COUNTRY_GOVERNMENT_CIVIC_POINTS_ADD$§! de §Y1§!."
-
+  tr_statecraft_finish_desc:0 "$MOD_COUNTRY_GOVERNMENT_CIVIC_POINTS_ADD$: §G+1§!\nAtout d'ascension déverrouillé: §G+1§!"
+  
   tr_statecraft_finish_machine:0 "Traditions d'Habileté politique terminées"
   tr_statecraft_finish_machine_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter toutes les $tr_statecraft_adopt_machine$ augmente notre §Y$MOD_COUNTRY_GOVERNMENT_CIVIC_POINTS_ADD$§! de §Y1§!."
 
@@ -406,6 +430,22 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
   tr_statecraft_minimalist_existence_hive:0 "Gouvernement stellaire"
   tr_statecraft_minimalist_existence_hive_delayed:0 "§L§LNous avons rejeté nos liaisons terrestres et levées jusqu'au cosmos, dans ce processus, notre façon de gouverner a également évolué.§!"
   tr_statecraft_minimalist_existence_hive_desc:0 "Augmente notre §Y$MOD_COUNTRY_EDICT_CAPACITY_ADD$§! de §Y1§! et augmente notre £influence£ §Y$mod_country_base_influence_produces_add$§! de §Y1§!."
+
+# administration
+  tr_statecraft_administration:0 "Administration centrale"
+  tr_statecraft_administration_delayed:0 "Les difficultés de croissance de notre empire peuvent être atténuées par une administration efficace."
+
+  tr_statecraft_administration_machine:0 "Parallélisation de la charge de travail"
+  tr_statecraft_administration_machine_delayed:0 "Nous avons amélioré la parallélisation de nos tâches administratives."
+
+  tr_statecraft_administration_hive:0 "Hive Synapse Distribution"
+  tr_statecraft_administration_hive_delayed:0 "En renforçant nos synapses de distribution, nous pouvons contrôler efficacement une ruche plus grande."
+
+# stellar government
+  tr_statecraft_stellar_government:0 "Gouvernement Stellaire"
+  tr_statecraft_stellar_government_delayed:0 "Nous nous sommes débarrassés de nos liens terrestres et nous nous sommes élevés vers le cosmos. Dans ce processus, notre façon de gouverner a également évolué."
+
+
 
 # statecraft traditions 5
   tr_statecraft_unison:0 "Unisson"

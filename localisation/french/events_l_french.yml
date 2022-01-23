@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 22.11.2021  3.2
+ # Update check : 22.01.2022  3.3b
  # Translation check : 22.11.2021
  # 
  ####################################
@@ -202,7 +202,7 @@
  action.1.t5:0 "§EAssimilation prévue reportée§!"
  action.1.t6:0 "§EAnnihilation prévue reportée§!"
  action.1.u1:0 "§ENous serons amis, que vous le vouliez ou non§!"
- action.1.u2:0 "§EVous aussi serviez [Root.GetLeLaLDir][Root.GetRulerTitle]§!"
+ action.1.u2:0 "§EVous aussi servirez [Root.GetLeLaLDir][Root.GetRulerTitle]§!"
  action.1.u3:0 "§EUnis, nous vous détruirons§!"
 
  action.4.name:0 "Violation des frontières"
@@ -332,6 +332,10 @@
  action.75.desc:0 "L'amiral [malfunctioning_leader.GetName] a subi une défaillance fatale, probablement due à une erreur de fabrication."
  action.76.name:0 "$action.71.name$"
  action.76.desc:0 "Le gouverneur [malfunctioning_leader.GetName] a subi une défaillance critique - un briquage en fait - après l'installation malheureuse d'un logiciel embarqué corrompu au cours d'une opération de maintenance de routine."
+ action.400.desc:0 "action.400.desc"
+ action.400.machine.desc:0 "action.400.machine.desc"
+ action.400.hive.desc:0 "action.400.hive.desc"
+ action.400.hive.a:0 "action.400.hive.a"
 
  # End of War messages
  action.37.name:1 "Victoire contre notre adversaire :  '§H[From.GetName]§!'"
@@ -1520,7 +1524,7 @@
  primitive.161.a:0 "La sécurité des nôtres est prioritaire."
  primitive.161.b:0 "Ils ne sont clairement pas prêts."
  primitive.162.name:0 "Otages exécutés"
- primitive.162.desc:0 "Au cours d'une odieuse mise en scène, nos scientifiques capturés sur §Y[From.From.GetName]§! ont été présentés devant les caméras comme des "horreurs aliens", avant d'être démembrés devant une foule en liesse."
+ primitive.162.desc:0 "Au cours de ce qu'on ne peut qualifier que comme une mise en scène ignoble, nos scientifiques capturés sur §Y[From.From.GetName]§! ont été offerts en spectacle devant les caméras du système télévisuel indigène comme des « horreurs aliens », avant d'être démembrés avec brutalité devant la foule en délire."
  primitive.162.a:0 "Les sauvages !"
  primitive.171.name:0 "Proposition de recherche"
  primitive.171.desc:0 "Les scientifiques de notre avant-poste d'observation situé au-dessus de §Y[From.GetName]§! ont demandé l'intervention d'un vaisseau scientifique pour les aider à collecter des spécimens à la surface de la [From.GetPlanetMoon]. Dans le cadre de leurs recherches, ils aimeraient discrètement enlever des autochtones afin de les soumettre à des tests, après quoi ceux-ci seront réintroduits dans leur milieu, sans qu'ils se souviennent de rien."
@@ -1577,7 +1581,7 @@
  observation.19.a:0 "L'opération est lancée. Éliminez-le."
  observation.19.b:0 "Cela ne ferait qu'aggraver la situation..."
  observation.20.name:0 "Évacuation réussie"
- observation.20.desc:0 "Nous avons réussi à évacuer le scientifique rebelle de §Y[From.From.GetName]§! ! Des centaines d'autochtones sont morts en martyrs en tentant de protéger leur "dieu".\n\nNotre système juridique va maintenant s'occuper du scientifique, mais ces événements ont certainement ébranlé la civilisation de la [From.From.GetPlanetMoon]. Ces gens sont toujours en possession d'une partie de notre technologie et leur divinité vient d'être enlevée par des envahisseurs venus de l'espace."
+ observation.20.desc:0 "Les opérations pour extraire ce scientifique rebelle de §Y[From.From.GetName]§! ont été un véritable succès ! Malgré tout, des centaines d'indigènes sont tragiquement morts en lançant des attaques suicides afin de tenter vainement de protéger leur « dieu ».\n\nC'est la justice qui va désormais s'occuper du scientifique, mais ces événements vont avoir des conséquences considérables pour la civilisation de la [From.From.GetPlanetMoon], qui est toujours en possession d'armes semblables aux nôtres et considère que son dieu a été enlevé par des envahisseurs venus de l'espace."
  observation.20.a:0 "Quoi qu'il en soit, ce problème est réglé."
  observation.22.name:0 "Conflits religieux sur §Y[From.GetName]§!"
  observation.22.desc:0 "§Y[From.GetName]§! a été le théâtre d'une guerre de grande ampleur après l'évacuation de notre scientifique rebelle. L'empire qu'il a bâti s'est fragmenté en plusieurs factions adverses, chacune dotée de sa propre interprétation de son dogme religieux.\n\nLes combats ont été particulièrement féroces compte tenu des armes redoutables dont disposent désormais les autochtones. Plusieurs bombes radiologiques ont été utilisées par les différentes factions et visiblement, le conflit ne fait que commencer."
@@ -1586,10 +1590,10 @@
  observation.24.desc:0 "La situation sur §Y[From.GetName]§! s'est apparemment calmée depuis l'évacuation de notre scientifique rebelle. Sans son interprétation, les données techniques qu'il avait emportées avec lui ne leur seront d'aucune utilité. Ils ont commencé à régresser."
  observation.24.a:0 "Une bonne nouvelle, enfin."
  observation.26.name:0 "L'avant-poste d'observation a été la cible de tirs de missiles !"
- observation.26.desc:0 "Un barrage de missiles sol-espace a été lancé de la surface de §Y[From.GetName]§! contre notre avant-poste d'observation ! La station a été détruite et il n'y a aucun survivant.\n\nLa civilisation primitive de la [From.GetPlanetMoon] continue de progresser à un rythme effréné, même après l'élimination de leur soi-disant "dieu". La technologie dont il les a dotés a probablement déclenché une révolution scientifique durable."
+ observation.26.desc:0 "Le poste d'observation en orbite de §Y[From.GetName]§! a été la cible d'une salve de missiles sol-espace lancée depuis la surface de la [From.GetPlanetMoon] ! La station a été détruite, et il n'y a aucun survivant.\n\nTout laisse croire que la civilisation primitive locale a continué de s'y développer à un rythme effréné, même après l'extraction de son prétendu « dieu », et visiblement la technologie dont il l'a dotée a permis une révolution scientifique profonde et durable."
  observation.26.a:0 "C'est la raison pour laquelle il nous faut appliquer la directive de non-ingérence."
- observation.28.desc:0 "Mon dieu ! Vous ressemblez à notre "Saint sauveur", mais les différences sont révélatrices. Il parlait de démons qui se feraient passer pour lui et descendraient du ciel pour l'éliminer. La prophétie s'est réalisée et dans mon esprit, il ne fait aucun doute que vous en êtes responsables.\n\nOù est notre Saint sauveur, misérables créatures ? J'exige qu'il soit libéré sur-le-champ !"
- observation.28.a:0 "Votre "Saint sauveur" n'était en fait qu'un simple scientifique."
+ observation.28.desc:0 "Par tous les esprits ! Vous ressemblez à notre Saint Sauveur, même si les différences entre vous sont évidentes. Il nous avait parlé de démons qui prendraient son apparence et qui pourraient descendre un jour du ciel pour tenter de L'enlever. Sa prophétie s'est réalisée, et je n'ai aucun doute : c'est bien de vous qu'il parlait !\n\nOù est notre Saint Sauveur, créatures misérables ? Nous exigeons qu'Il soit libéré immédiatement !"
+ observation.28.a:0 "Votre «Saint Sauveur» n'était qu'un simple scientifique"
  observation.28.a.response:0 "Chez nous, calomnier le nom du Saint sauveur est un impardonnable péché passible de la peine de mort. Seules Ses inventions magiques ont permis à notre civilisation d'en arriver là. Je pardonnerai votre blasphème à la seule condition que vous nous rendiez le Saint sauveur."
  observation.28.b:0 "Il a été exécuté pour les crimes commis contre votre peuple."
  observation.28.b.response:0 "Vous... vous avez assassiné le Saint sauveur ? Je... vous... nous... nous ne pouvons pas...\n\nCe... ce crime ne restera pas impuni, démons. Même si cela doit prendre un millier d'années, mon peuple réduira votre empire démoniaque en poussière."
@@ -1626,7 +1630,7 @@
  observation.46.a.mach:0 "La sécurité de nos unités autonomes est une priorité"
  observation.46.b:0 "Ils ne sont clairement pas prêts."
  observation.47.name:0 "Otages exécutés"
- observation.47.desc:0 "Au cours d'une odieuse mise en scène, nos scientifiques capturés sur §Y[From.From.GetName]§! ont été présentés devant les caméras comme des "horreurs aliens", avant d'être démembrés devant une foule en liesse."
+ observation.47.desc:0 "Au cours de ce qu'on ne peut qualifier que comme une mise en scène ignoble, nos scientifiques capturés sur §Y[From.From.GetName]§! ont été offerts en spectacle devant les caméras du système télévisuel indigène comme des « horreurs aliens », avant d'être démembrés avec brutalité devant la foule en délire."
  observation.47.desc.mach:0 "Au cours de ce qu'on ne peut qualifier que comme une mise en scène ignoble, nos unités scientifiques capturées sur §Y[From.From.GetName]§! ont été offertes en spectacle devant les caméras du système télévisuel indigène comme des «horreurs mécaniques d'au-delà de la lune», avant d'être brutalement réduites en pièces devant la foule en délire."
  observation.47.a:0 "Les sauvages !"
 
@@ -1659,7 +1663,7 @@
  observation.1013.desc:1 "Les implants cérébraux défectueux de nos derniers cobayes [From.From.Owner.Species.GetName] sur §Y[From.From.GetName]§! ont fini par les tuer. Bon nombre d'entre eux ont sombré dans la folie, hurlant des séquences de code aléatoires dans le langage de programmation [Root.Species.GetName] utilisé par les implants alors qu'ils attaquaient sauvagement tout ce qui les entourait."
  observation.1013.a:0 "Comment cela a-t-il pu arriver ?"
  observation.1021.name:0 "[From.GetName] : corps expéditionnaire anti-aliens"
- observation.1021.desc:0 "En réponse aux opérations que nous menons sur leur monde primitif, bon nombre d'États-nations [From.Owner.Species.GetName] de §Y[From.GetName]§! ont provisoirement mis de côté leurs différends pour former une organisation militaire supranationale.\n\nD'après les médias locaux, ce corps expéditionnaire a été chargé de défendre la [From.GetPlanetMoon] des 'activités hostiles' perpétrées par une agence alien inconnue à l'encontre de l'espèce [From.Owner.Species.GetName] tout entière."
+ observation.1021.desc:0 "Bon nombre d'États-nations des [From.Owner.GetSpeciesNamePlural] semblent réagir aux opérations que nous menons actuellement sur §Y[From.GetName]§! : ils ont provisoirement mis de côté leurs dissensions pour former une organisation militaire supranationale.\n\nSelon les médias locaux, cette Force opérationnelle serait chargée de la défense de la [From.GetPlanetMoon] contre «toute activité hostile perpétrée par une agence alien inconnue à l'encontre de l'espèce [From.Owner.GetSpeciesName]»."
  observation.1023.name:0 "[From.GetName] : activités du corps expéditionnaire"
  observation.1023.desc:0 "Les vidéos de reconnaissances prises par notre poste d'observation au-dessus §Y[From.GetName]§! ont confirmé la construction de plusieurs bases militaires et installations radar à la surface de la [From.GetPlanetMoon], le tout sous le contrôle du corps expéditionnaire supranational anti-aliens formé par les [From.Owner.GetSpeciesNamePlural].\n\nNous assistons à un niveau de coopération sans précédent entre les États-nations et nos vols d'enlèvement sont régulièrement interceptés par leurs chasseurs atmosphériques. Malgré notre avantage technologique, leur grand nombre leur a permis d'abattre plusieurs de nos navettes d'enlèvement !"
  observation.1023.a:0 "Cela nuira à nos activités d'observation agressive."
@@ -1779,11 +1783,11 @@
  observation.3135.c.tooltip:0 "La £building£ §S$building_great_pyramid$§! de §Y[From.GetName]§! est §Ren ruine§!.\n§B1 pop§! de §Y[From.GetName]§! meurt."
  observation.3135.d:0 "Espérons que notre intervention passera inaperçue."
  observation.3135.d.tooltip:0 "Tentez le tout pour le tout en espérant que tout se passera bien."
- observation.3136.desc:0 "Après avoir laissé la poussière retomber et poursuivi les opérations d'observation des autochtones de §Y[From.From.GetName]§!, nous devons hélas en conclure que la situation est catastrophique. Des guerres ont éclaté entre les autochtones de la [From.From.GetPlanetMoon] suite aux tensions religieuses qu'a engendré la soudaine apparition (puis la disparition) de celui qu'ils appellent "l'Être céleste".\n\nUne des factions a construit une autre pyramide en l'honneur de leur nouvelle divinité et les combats ont fait de nombreuses victimes."
+ observation.3136.desc:0 "Après avoir laissé la poussière retomber et poursuivi les opérations d'observation des indigènes de §Y[From.From.GetName]§!, nous devons hélas nous rendre à l'évidence. La situation a tourné à la catastrophe. Les habitants de la [From.From.GetPlanetMoon] se sont déchirés, des guerres brutales ayant éclaté suite aux tensions religieuses engendrées par l'apparition, puis la disparition aussi soudaine, de celui qu'ils appellent «l'Être céleste».\n\nL'un des camps a construit une nouvelle pyramide en l'honneur de cette nouvelle divinité, et les affrontements ont fait de très nombreuses victimes."
  observation.3136.a.tooltip:0 "§Y2 pops§! de §Y[From.From.GetName]§! ont perdu la vie.\n\n$observation.3136.c.tooltip$"
  observation.3136.b.tooltip:0 "§Y1 pops§! de §Y[From.From.GetName]§! a perdu la vie.\n\n$observation.3136.c.tooltip$"
  observation.3136.c.tooltip:0 "Une autre £building£ §S$building_great_pyramid$§! apparaît sur §Y[From.From.GetName]§!.\n\n[From.From.GetName] gagne le modificateur §R$pyramid_wars$§! pour §Y720§! jours, se traduisant par :\n£happiness£ bonheur §R-40%§!\n\n"
- observation.3137.desc:0 "Suite à notre ingérence imprévue au sein de la population de §Y[From.From.GetName]§!, nous n'avons constaté aucune catastrophe. Les autochtones se sont faits à l'idée que "l'Être céleste" n'était qu'un mythe. Aucune religion (ni rien de pire) n'est née de la construction de la pyramide. Celle-ci est désormais étudiée par des intellectuels autochtones.\n\nCette expérience nous a permis de récolter de précieuses données sur le développement de la pensée logique chez les formes de vie primitives, même lorsqu'elles sont confrontées à des événements extraordinaires."
+ observation.3137.desc:0 "Suite à l'ingérence imprévue au sein de la population de §Y[From.From.GetName]§!, aucune catastrophe n'a été constatée. Les indigènes semblent s'accorder sur le fait que cet «Être céleste» n'était qu'une supercherie. La construction de la pyramide n'a engendré aucune nouvelle religion, ni rien d'aussi catastrophique, devenant simplement un sujet d'étude pour les intellectuels, qui s'intéressent à sa construction.\n\nAu final, cette expérience nous aura permis de récolter de précieuses données sur le développement de la pensée logique chez les formes de vie primitives face à des événements extraordinaires et inexpliqués."
  observation.3137.a:0 "C'est une chance."
  observation.3139.name:0 "Changements sociétaux chez les [From.GetSpeciesNamePlural]"
  observation.3139.start.desc:0 "Les agents opérant clandestinement en orbite et à la surface de §Y[From.Capital.GetName]§! ont réussi. Ils sont parvenus à faire évoluer les valeurs sociétales de '§Y[From.GetName]§!' à notre avantage."
@@ -2124,7 +2128,7 @@
  crisis.2403.desc_05:0 "Puissent les Kuur nous pardonner. Nous n'étions que des enfants insensés et arrogants."
  crisis.2403.desc_06:0 "Serait-ce... Serait-ce notre forge militaire ?\n\nParce que ça y ressemble beaucoup..."
  crisis.2403.a:0 "Qui êtes-vous ?"
- crisis.2403.a.response:0 "Nous sommes la §YCybrex§!. Il y a 612 421 cycles, nous nous sommes lancés dans une guerre contre la génération précédente des civilisations galactiques. Nous classions toute forme de vie organique intelligence comme une menace, et cherchâmes alors à y mettre un terme par la violence.\n\nÀ notre grand regret, nous avons été sur le point de gagner cette guerre. Des billiards de créatures douées de raison ont été exterminées, et des civilisations entières ont été détruites avant que nous réalisions la gravité de notre erreur. Nous avons alors procédé à l'Ajustement, et redéfini nos objectifs. Nous avons renoncé à cette guerre."
+ crisis.2403.a.response:0 "Nous sommes la §YCybrex§!. Il y a 612 421 cycles, nous nous sommes lancés dans une guerre contre la génération précédente des civilisations galactiques. Nous classions toute forme de vie organique intelligente comme une menace, et cherchâmes alors à y mettre un terme par la violence.\n\nÀ notre grand regret, nous avons été sur le point de gagner cette guerre. Des billiards de créatures douées de raison ont été exterminées, et des civilisations entières ont été détruites avant que nous réalisions la gravité de notre erreur. Nous avons alors procédé à l'Ajustement, et redéfini nos objectifs. Nous avons renoncé à cette guerre."
  crisis.2403.b:0 "Pourquoi vous cachiez-vous ?"
  crisis.2403.b.response:0 "Peu de temps après avoir renoncé à la guerre, le premier de nos habitats cachés, Cybrex Alpha, a été découvert par un vaisseau de reconnaissance dont l'équipage était composé d'organiques. Nous savions qu'une expédition militaire allait survenir peu de temps après, mais comme le système était maintenu sous une surveillance étroite nous ne pouvions l'évacuer.\n\nNous sommes parvenus à un consensus : Cybrex Alpha serait sacrifié, de façon à ce que le reste de notre espèce puisse rester caché. Nous avons juré de ne jamais plus exercer la moindre violence à l'encontre des organiques, et avons tenu notre promesse."
  crisis.2403.c:0 "Au revoir"
@@ -2155,7 +2159,7 @@
  # Pop Events
  #############################
  pop.1.name:0 "Une nouvelle espèce"
- pop.1.desc:0 "Bon nombre d'habitants [Root.Planet.Owner.Species.GetName] de [Root.Planet.GetName] ont eu recours à des modifications génétiques pour mieux supporter l'environnement hostile de la [Root.Planet.GetPlanetMoon]. Les changements dont ils ont fait l'objet se transmettent à leur progéniture et leur apparence physique évolue à un rythme alarmant. Ils se font désormais appeler "[Root.Species.GetName]"."
+ pop.1.desc:0 "Bon nombre des [Root.Planet.Owner.GetSpeciesNamePlural] de §Y[Root.Planet.GetName]§! ont eu recours à des modifications génétiques pour mieux supporter l'environnement hostile de la [Root.Planet.GetPlanetMoon]. Ces changements se sont transmis à leur descendance, et leur apparence physique évolue à un rythme alarmant. Ils ont même commencé à se faire appeler «[Root.GetSpeciesNamePlural]»."
  pop.3.name:0 "Tensions croissantes sur §Y[Root.GetName]§!"
  pop.3.desc:0 "Les tensions entre la population [modified_pop_1.Species.GetName] de §Y[Root.GetName]§! et les [non_modified_pop_1.GetSpeciesNamePlural] avec qui ils se partagent la [Root.GetPlanetMoon] s'intensifient. Plusieurs attaques ont été lancées par des individus des deux camps, y compris deux attentats à la bombe. Les deux camps se radicalisent et une escalade de la violence est à prévoir."
  pop.3.a.tooltip:0 "Tous les §Y[modified_pop_1.GetSpeciesNamePlural]§! et §Y[non_modified_pop_1.GetSpeciesNamePlural]§! de §Y[Root.GetName]§! accèdent aux principes philosophiques §YMilitarisme§! et §YXénophobie§!."
@@ -2163,7 +2167,7 @@
  pop.6.desc:0 "Les [modified_pop_1.GetSpeciesNamePlural] de [modified_pop_1.Planet.GetName] ont encore modifié leur ADN. En plus d'une hausse de leur fertilité, leurs enfants atteignent désormais l'âge adulte plus rapidement que les [non_modified_pop_1.GetSpeciesNamePlural] normaux. La population [modified_pop_1.Species.GetName] risque d'augmenter de manière exponentielle."
  pop.6.tooltip:0 "Modifie les pops §Y[modified_pop_1.Species.GetName]§! de §Y[modified_pop_1.Planet.GetName]§! en ajoutant la caractéristique §G$trait_rapid_breeders$§!"
  pop.8.name:0 "Les [modified_pop_1.GetSpeciesNamePlural] ont été massacrés sur §Y[Root.GetName]§! !"
- pop.8.desc:0 "Une milice extrémiste [non_modified_pop_1.Species.GetName] a récemment attaqué une grande ville [modified_pop_1.Species.GetName] de §H[Root.GetName]§!. Ses habitants ont été massacrés par milliers et leurs maisons ont été rasées. Un message laissé par les attaquants sur le réseau de données planétaire indique laconiquement :\n\n§S"§Y[Root.GetName]§! appartient à [non_modified_pop_1.GetSpeciesNamePlural] !"§!"
+ pop.8.desc:0 "Une milice extrémiste [non_modified_pop_1.Species.GetName] a récemment attaqué une grande ville [modified_pop_1.Species.GetName] sur §H[Root.GetName]§!. Ses habitants ont été massacrés par milliers et leurs maisons ont été rasées. Un message laissé par les attaquants sur le réseau de données planétaire indique laconiquement :\n\n§S'§Y[Root.GetName]§! appartient aux [non_modified_pop_1.GetSpeciesNamePlural] !'§!"
  pop.10.name:0 "Les [non_modified_pop_1.GetSpeciesNamePlural] ont été massacrés sur §Y[Root.GetName]§! !"
  pop.10a.desc:0 "Une force de frappe appartenant au Front [modified_pop_1.Species.GetName], un groupe radical de §H[Root.GetName]§!, a récemment attaqué une grande colonie [non_modified_pop_1.Species.GetName]. Les quelques défenseurs ont été rapidement maîtrisés, après quoi les [modified_pop_1.GetSpeciesNamePlural] ont déferlé dans la colonie et massacré sa population. Dans les décombres, un message peint à la bombe indique ce qui suit :\n\n§S"Les [modified_pop_1.GetSpeciesNamePlural] sont l'avenir !"§!"
  pop.10b.desc:0 "D'intenses combats ont été signalés dans les zones rurales de §H[Root.GetName]§!. Plusieurs escarmouches ont éclaté entre [modified_pop_1.Species.GetName] et [non_modified_pop_1.Species.GetName] irréguliers. Les [modified_pop_1.GetSpeciesNamePlural] semblent avoir remporté une victoire et leurs guérilleros ont brûlé bon nombre de colonies. Les pertes civiles sont élevées."
@@ -2205,7 +2209,7 @@
  galactic_features.303.a:0 "Ouvrez un canal."
  galactic_features.304.desc:0 "Qu'il est bon de revoir un coin de ciel dégagé, [Root.Species.GetName] ! Je suis le Grand amiral Tuborek, l'ancien maître de l'armada combinée du [fallen_4_species.GetName] aux cent victoires. Il y a des centaines de vos siècles, j'ai personnellement supervisé la conquête des empires Duthbejak, Riikinak, Binark et Jusskari.\n\nVous m'avez sauvé et je suis désormais à votre service. Je serais honoré de mener vos puissantes flottes au combat."
  galactic_features.304.a:0 "Que faites-vous derrière ce bouclier ?"
- galactic_features.304.a.response:1 "Sans mes compétences martiales, le [fallen_4_species.GetNamePlural] aurait disparu et sombré dans l'oubli. Le [fallen_empire.GetName] est l'appellation que se donne désormais votre peuple ? J'ai anéanti les flottes de tous nos opposants et détruit une bonne dizaine de mondes dans le seul but de protéger mon espèce.\n\nEt voilà comment j'ai été récompensé. Une fois la paix rétablie et l'heure des traités venue, je suis devenu gênant. J'incarnais la cruauté du [fallen_4_species.GetName] et les "crimes de guerre" que j'ai commis m'ont valu d'être emprisonné dans ce monde. Ils n'ont pas eu le courage de m'exécuter, voyez-vous."
+ galactic_features.304.a.response:1 "Sans mes compétences martiales, les [fallen_4_species.GetNamePlural] ne seraient aujourd'hui qu'une autre espèce disparue et oubliée. J'ai vaincu les flottes de tous ceux qui se sont opposés à nous, et mis le feu à une douzaine de mondes pour préserver l'avenir des miens.\n\nTelle a été ma récompense. Lorsque la paix est enfin arrivée et que nous avons voulu signer des traités avec ceux que nous avions vaincus, ma présence est devenue gênante. J'étais devenu le symbole de la cruauté des [fallen_4_species.GetNamePlural], et pour mes «crimes de guerre» j'ai été emprisonné, seul, sur ce monde. Comme vous pouvez le voir, personne n'a eu le courage de m'exécuter."
  galactic_features.304.b:0 "Depuis quand êtes-vous là ?"
  galactic_features.304.b.response:0 "Après m'avoir abandonné ici, les miens m'ont expliqué que le temps s'écoulerait plus lentement derrière cette barrière énergétique. Quelques quarante de vos années ont passé... et des siècles dans le reste de l'univers depuis que cette barrière a été dressée.\n\nEn ce qui me concerne, j'ai l'impression d'avoir passé des siècles, assis seul dans l'obscurité de ma cabane. Vraiment."
  galactic_features.304.c:0 "Nous serions ravis de vous avoir à nos côtés, amiral."
@@ -2213,8 +2217,8 @@
  galactic_features.304.d:0 "Réactivez le bouclier. Laissez cette créature à ses malheurs."
  galactic_features.304.d.response:0 "Attendez... qu'est-ce que vous faites ?! Vous ne pouvez pas me laisser ici ! Je ne veux plus rester ici, derrière ce bouclier !\n\nJ'ai purgé ma peine ! J'AI PURGÉ MA PEINE...\n\n<Transmission interrompue.>"
  galactic_features.305:0 "Exil prolongé"
- galactic_features.305.desc:0 "Dès que nos scientifiques ont désactivé la barrière énergétique qui entourait §Y[From.From.GetName]§!, tous les êtres présents du système ont brièvement été pris de violents maux de tête et ont laissé échapper un mot issu de l'ancien dialecte du [fallen_4_species.GetName] :\n\n'LIBERTÉ...'"
- galactic_features.305.desc.mech:0 "Aussitôt après que le bouclier énergétique qui entourait §Y[From.From.GetName]§! a été abaissé, nos transmetteurs subspatiaux à courte portée ont subi une émission d'interférences, causée par une émission énergétique anormale, provenant de derrière le bouclier. Après analyse par les logiciels de décryptage, l'interférence s'est avérée être un message dans un dialecte ancien des [fallen_4_species.GetSpeciesNamePlural] :\n\n«LIBRE...»"
+ galactic_features.305.desc:0 "Aussitôt que les scientifiques sont parvenus à abaisser le bouclier énergétique qui entourait §Y[From.From.GetName]§!, tous les êtres présents dans le système ont été brièvement pris d'une violente gêne, accompagnée d'un mot à peine murmuré dans un dialecte ancien des [fallen_4_species.GetNamePlural] :\n\n« LIBRE... »"
+ galactic_features.305.desc.mech:0 "Aussitôt après que le bouclier énergétique qui entourait §Y[From.From.GetName]§! a été abaissé, nos transmetteurs subspatiaux à courte portée ont subi une émission d'interférences, causée par une émission énergétique anormale, provenant de derrière le bouclier. Après analyse par les logiciels de décryptage, l'interférence s'est avérée être un message dans un dialecte ancien des [fallen_4_species.GetNamePlural] :\n\n« LIBRE... »"
  galactic_features.305.a:0 "Peut-être avons-nous libéré une force obscure..."
  galactic_features.350:0 "Anneau-monde découvert"
  galactic_features.350.desc:0 "Nous avons découvert un immense anneau-monde qui entoure l'étoile du système §H[From.GetName]§!. Les analyses préliminaires indiquent qu'il aurait été construit il y a des lustres à l'aide de matériaux provenant de planètes situées au coeur du système. Cet anneau-monde abrite quatre segments habitables, chacun renfermant visiblement une civilisation préspatiale.\n\nCette vaste station spatiale se trouve entre l'anneau-monde et son étoile. Une transmission nous parvient !"

@@ -44,7 +44,7 @@
 
  # Projects
  LONELY_BOT_PROJECT:0 "Restauration de l'usine"
- LONELY_BOT_PROJECT_DESC:0 "L'usine de [Root.GetName] est en bien mauvais état, depuis des siècles déjà, et menace désormais de tomber en ruine. Étant donné le rôle qu'elle a joué depuis la colonisation de la [Root.GetPlanetMoon], les colons ont demandé à pouvoir restaurer le bâtiment.\n\nRécompense : £alloys£§Galliages§!"
+ LONELY_BOT_PROJECT_DESC:0 "L'usine de §Y[Root.GetName]§! est en bien mauvais état, depuis des siècles déjà, et menace désormais de tomber en ruine. Étant donné le rôle qu'elle a joué depuis la colonisation de la [Root.GetPlanetMoon], les colons ont demandé à pouvoir restaurer le bâtiment.\n\nRécompense : £alloys£§Galliages§!"
 
  LONELY_BOT_MISSING_PROJECT:0 "Le robot disparu"
  LONELY_BOT_MISSING_PROJECT_DESC:0 "Le robot de §H[Root.GetName]§! a disparu, tout comme un grand nombre de colons établis sur la [Root.GetPlanetMoon]. Les ingénieurs ont donc commencé à étudier les signaux reçus par l'usine pour remonter jusqu'à leur source et déterminer s'ils peuvent retrouver les colons et le robot."
@@ -75,8 +75,8 @@
  GAS_RESTORATION:0 "Restauration de la vie sur [From.From.GetName]"
  GAS_RESTORATION_DESC:0 "Réparer ses erreurs est un privilège réservé à ceux qui ont le pouvoir de le faire. Dans le cas des créatures microbiennes de [From.From.GetName], nous devons nous racheter. Le désastre dont nous sommes responsables est effrayant, et notre seul espoir est que les scientifiques pourront inverser la polarité des scanneurs en profondeur afin, peut-être, de rallumer cette étincelle de vie que nous avons étouffée dans l'atmosphère de la géante gazeuse."
 
- RESCUE_STORM:0 "Sauver le [Root.GetName]"
- RESCUE_STORM_DESC:0 "Le [Root.GetName] est retenu dans l'une des tempêtes de la géante gazeuse [From.From.GetName]. Son seul espoir est qu'un vaisseau de secours soit envoyé sur place afin de moduler à distance la fréquence de ses boucliers."
+ RESCUE_STORM:0 "Sauver le §Y[Root.GetName]§!"
+ RESCUE_STORM_DESC:0 "Le §Y[Root.GetName]§! est retenu dans l'une des tempêtes de la géante gazeuse [From.From.GetName]. Son seul espoir est qu'un vaisseau de secours soit envoyé sur place afin de moduler à distance la fréquence de ses boucliers."
 
  STUDY_SLEEPING_CRYSTAL:0 "Étude de l'étrange astéroïde"
  STUDY_SLEEPING_CRYSTAL_DESC:0 "[From.From.GetName] est un astéroïde particulièrement étrange. Par des moyens indéterminés, il semble capable de se mettre en rotation et détruire la station minière que nous y avions établie. Nous devrions envoyer un vaisseau scientifique sur place pour en apprendre plus."
@@ -86,13 +86,13 @@
  # Decisions
  decision_crystalline_refugees:0 "Établir des réfugiés cristallins"
  decision_crystalline_refugees_desc:0 "Trouve un lieu où des réfugiés zêr-ayakî pourront s'établir après avoir été bannis de la $NAME_Central_Crystal_Country$."
- decision_crystalling_refugees_effect_tt:0 "§G5§! £pops£pops de §HZêr-Ayakî§! vont s'installer sur §Y[Root.GetName]§!."
+ decision_crystalling_refugees_effect_tt:0 "§G5§! £pops£pops de §HZêr-Ayakî§! vont s'installer sur §H[Root.GetName]§!."
 
  decision_crystalline_architecture:0 "Construction cristalline"
  decision_crystalline_architecture_desc:0 "Une équipe d'ingénieurs dépêchés par la $NAME_Central_Crystal_Country$ va permettre d'améliorer la disposition de cet habitat."
 
  decision_expand_dayside:0 "Développement des infrastructures diurnes"
- decision_expand_dayside_desc:0 "En tirant parti de la situation unique de [Root.GetName], il est possible de disposer des panneaux solaires sur toute la face diurne de la [Root.GetPlanetMoon] afin de démultiplier la production énergétique."
+ decision_expand_dayside_desc:0 "En tirant parti de la situation unique de §Y[Root.GetName]§!, il est possible de disposer des panneaux solaires sur toute la face diurne de la [Root.GetPlanetMoon] afin de démultiplier la production énergétique."
 
  decision_introduce_chaos:0 "Introduire le chaos"
  decision_introduce_chaos_desc:0 "Ce monde est beaucoup trop parfait pour nous. Les colons y subissent des ruptures mentales au beau milieu des rues. La seule option raisonnable est d'y introduire quelques imperfections."
@@ -183,22 +183,22 @@
  anomaly.6835.b:0 "Nous nous passerons de ces fermes"
 
  anomaly.6840.name:0 "Pas assez de moutons"
- anomaly.6840.desc:0 "§Y[From.GetName]§! est une géante gazeuse tout à fait particulière. Selon les modèles astrophysiques, elle devrait être dotée d'un anneau, ce qui n'est pourtant pas le cas.\n\nLa cause de ce phénomène a toutefois été révélée lorsque le [Root.GetName] a examiné de façon rapprochée une lune qui l'intriguait. La [From.GetPlanetMoon] est en fait entourée de satellites bergers, tous incroyablement riches en minéraux, qui amassent toujours davantage de débris. Nous pourrions donc faire éclater ces lunes grâce à des explosions précises et contrôlées afin d'en récolter les fragments ; à moins de les conserver dans la zone de l'anneau pour y collecter les débris qui s'y accumulent."
+ anomaly.6840.desc:0 "§Y[From.GetName]§! est une géante gazeuse tout à fait particulière. Selon les modèles astrophysiques, elle devrait être dotée d'un anneau, ce qui n'est pourtant pas le cas.\n\nLa cause de ce phénomène a toutefois été révélée lorsque le §Y[Root.GetName]§! a examiné de façon rapprochée une lune qui l'intriguait. La [From.GetPlanetMoon] est en fait entourée de satellites bergers, tous incroyablement riches en minéraux, qui amassent toujours davantage de débris. Nous pourrions donc faire éclater ces lunes grâce à des explosions précises et contrôlées afin d'en récolter les fragments ; à moins de les conserver dans la zone de l'anneau pour y collecter les débris qui s'y accumulent."
  anomaly.6840.a:0 "Il nous faut ces minéraux tout de suite"
  anomaly.6840.b:0 "Tout vient à point pour qui sait attendre"
 
  anomaly.6845.name:0 "Catastrophe en cascade"
- anomaly.6845.desc:0 "Il y avait effectivement de la vie sur §Y[From.GetName]§!, mais elle a été éradiquée par nos actions.\n\nLes créatures microbiennes qui vivaient dans l'atmosphère supérieure de la géante gazeuse ont mal réagi à nos scans en profondeur. Ces fréquences ont créé des résonnances dans leur structure cellulaire, et le phénomène s'est alors aggravé et propagé de spécimen en spécimen. Très vite, toute vie avait disparu.\n\nLe [Root.GetName] se trouve donc en orbite au-dessus de la plus grande nécropole de la galaxie..."
+ anomaly.6845.desc:0 "Il y avait effectivement de la vie sur §Y[From.GetName]§!, mais elle a été éradiquée par nos actions.\n\nLes créatures microbiennes qui vivaient dans l'atmosphère supérieure de la géante gazeuse ont mal réagi à nos scans en profondeur. Ces fréquences ont créé des résonnances dans leur structure cellulaire, et le phénomène s'est alors aggravé et propagé de spécimen en spécimen. Très vite, toute vie avait disparu.\n\nLe §Y[Root.GetName]§! se trouve donc en orbite au-dessus de la plus grande nécropole de la galaxie..."
  anomaly.6845.a:0 "Peut-on encore faire quelque chose ?"
  anomaly.6850.name:0 "Inversion de polarité des scanneurs"
- anomaly.6850.desc:0 "C'est fait ! Comme par miracle, aussitôt que les [Root.Owner.GetScientistPlural] ont procédé aux modifications sur les scanneurs du [Root.GetName], ils ont pu inverser la cascade initiale. Cette fois, les effets ont été bien différents : la vie a aussitôt commencé à se propager, sous la forme d'ondes et de vagues, dans toute l'atmosphère de §Y[From.From.From.GetName]§!."
+ anomaly.6850.desc:0 "C'est fait ! Comme par miracle, aussitôt que les [Root.Owner.GetScientistPlural] ont procédé aux modifications sur les scanneurs du §Y[Root.GetName]§!, ils ont pu inverser la cascade initiale. Cette fois, les effets ont été bien différents : la vie a aussitôt commencé à se propager, sous la forme d'ondes et de vagues, dans toute l'atmosphère de §Y[From.From.From.GetName]§!."
  anomaly.6850.desc.valuesothers:0 "Quoi qu'il en soit, ces événements nous auront beaucoup appris sur l'univers, et sans doute bien davantage sur nous-mêmes."
  anomaly.6850.desc.novaluesothers:0 "À l'avenir, mieux vaudra éviter de pointer nos scanners n'importe où."
  anomaly.6850.a:0 "Voilà des nouvelles rassurantes !"
 
  anomaly.6855.name:0 "En plein dans l'oeil"
- anomaly.6855.desc.regular:0 "Le dernier signal reçu du [Root.GetName] n'était guère autre chose que du bruit électrostatique. Il était chargé d'étudier la localisation de ces étranges tempêtes sur §Y[From.GetName]§!, et avait déjà envoyé plusieurs rapports préliminaires incroyables. D'après ceux-ci, les tempêtes semblent réagir aux sondes qui sont envoyées à l'intérieur, en ouvrant des poches de vide tout autour pour les éviter, avant de se resserrer très lentement sur elles.\n\nLe [Root.GetName] avait prévu de scanner ces tempêtes à de nombreuses fréquences avant que le contact soit perdu. Il semble avoir à présent coulé dans l'atmosphère gazeuse et a tout l'air d'être désactivé."
- anomaly.6855.desc.gestalt:0 "Les signaux du [Root.GetName] ont soudain été coupés de la Conscience. Les [Root.Owner.GetScientistPlural] ne semblent pas morts, mais incapables de communiquer avec nous. Ils étaient en train d'étudier la localisation des étranges tempêtes de §Y[From.GetName]§! et avaient déjà envoyé plusieurs rapports préliminaires incroyables. D'après ceux-ci, les tempêtes semblent réagir aux sondes qui sont envoyées à l'intérieur, en ouvrant des poches de vide tout autour pour les éviter, avant de se resserrer très lentement sur elles.\n\nLe projet du [Root.GetName] était de scanner ces tempêtes à de nombreuses fréquences lorsque la communication a été coupée. Il semble à présent avoir coulé dans l'atmosphère gazeuse et a tout l'air d'être désactivé."
+ anomaly.6855.desc.regular:0 "Le dernier signal reçu du §Y[Root.GetName]§! n'était guère autre chose que du bruit électrostatique. Il était chargé d'étudier la localisation de ces étranges tempêtes sur §Y[From.GetName]§!, et avait déjà envoyé plusieurs rapports préliminaires incroyables. D'après ceux-ci, les tempêtes semblent réagir aux sondes qui sont envoyées à l'intérieur, en ouvrant des poches de vide tout autour pour les éviter, avant de se resserrer très lentement sur elles.\n\nLe §Y[Root.GetName]§! avait prévu de scanner ces tempêtes à de nombreuses fréquences avant que le contact soit perdu. Il semble avoir à présent coulé dans l'atmosphère gazeuse et a tout l'air d'être désactivé."
+ anomaly.6855.desc.gestalt:0 "Les signaux du §Y[Root.GetName]§! ont soudain été coupés de la Conscience. Les [Root.Owner.GetScientistPlural] ne semblent pas morts, mais incapables de communiquer avec nous. Ils étaient en train d'étudier la localisation des étranges tempêtes de §Y[From.GetName]§! et avaient déjà envoyé plusieurs rapports préliminaires incroyables. D'après ceux-ci, les tempêtes semblent réagir aux sondes qui sont envoyées à l'intérieur, en ouvrant des poches de vide tout autour pour les éviter, avant de se resserrer très lentement sur elles.\n\nLe projet du §Y[Root.GetName]§! était de scanner ces tempêtes à de nombreuses fréquences lorsque la communication a été coupée. Il semble à présent avoir coulé dans l'atmosphère gazeuse et a tout l'air d'être désactivé."
  anomaly.6855.a:0 "Nous devons sauver ce vaisseau !"
  anomaly.6855.b:0 "[From.GetName] est encore plus intéressante maintenant !"
  anomaly.6855.b.tooltip:0 "Le §Y[Root.GetName]§! va être abandonné dans l'atmosphère de §H[From.GetName]§! pour étudier la réaction de ses tempêtes."
@@ -207,7 +207,7 @@
  anomaly.6860.a:0 "Maintenant, tout le monde au travail !"
 
  anomaly.6865.name:0 "Courrier express"
- anomaly.6865.desc:0 "Une fois le [Root.GetName] suffisamment proche pour scanner la capsule cargo, l'équipage a pensé que les capteurs étaient déréglés. La capsule est en effet constituée des mêmes [Root.Owner.GetBioAlloy] que nous utilisons nous-mêmes pour nos structures spatiales. La probabilité que des aliens puissent avoir élaboré les mêmes matériaux exactement est infinitésimale. Pourtant, après avoir recalibré les capteurs, les résultats étaient parfaitement identiques.\n\nEn ouvrant la capsule, la seule chose qu'a trouvé l'équipage à l'intérieur était un lot de documents détaillant précisément les lieux d'affectation conseillés pour nos [Root.Owner.GetScientistPlural], et ce que devraient être leurs sujets d'étude lors des dix années à venir..."
+ anomaly.6865.desc:0 "Une fois le §Y[Root.GetName]§! suffisamment proche pour scanner la capsule cargo, l'équipage a pensé que les capteurs étaient déréglés. La capsule est en effet constituée des mêmes [Root.Owner.GetBioAlloy] que nous utilisons nous-mêmes pour nos structures spatiales. La probabilité que des aliens puissent avoir élaboré les mêmes matériaux exactement est infinitésimale. Pourtant, après avoir recalibré les capteurs, les résultats étaient parfaitement identiques.\n\nEn ouvrant la capsule, la seule chose qu'a trouvé l'équipage à l'intérieur était un lot de documents détaillant précisément les lieux d'affectation conseillés pour nos [Root.Owner.GetScientistPlural], et ce que devraient être leurs sujets d'étude lors des dix années à venir..."
  anomaly.6865.a:0 "Que ces documents soient envoyés sur [Root.Owner.GetHomeWorldName]"
  anomaly.6865.b:0 "Non, c'est beaucoup trop perturbant"
  anomaly.6870.name:0 "Fermer la boucle"
@@ -252,7 +252,7 @@
  anomaly.6910.desc.start:0 "L'intérieur de §Y[From.From.From.GetName]§! ne recelait pas ce à quoi nous pouvions nous attendre. Au lieu du foetus d'une forme de vie titanesque, il n'y avait qu'une bouillie génétique. L'ensemble de la [From.From.From.GetPlanetMoon] regorge de matériau génétique et de ressources variées. Il est difficile de savoir ce qu'auraient dû devenir tous ces matériaux, mais la galaxie est sans doute plus en sécurité ainsi."
  anomaly.6910.desc.hatchling:0 "De fait, si cette forme de vie aurait sans doute été assez semblable à l'être du vide que nous avons rencontré, l'oeuf aurait très certainement donné naissance à une créature bien plus imposante encore."
  anomaly.6915.name:0 "Gratitude"
- anomaly.6915.desc.regular:0 "§R« C'EST... C'EST VIVANT ! ÇA BOUGE ! Nous ne sommes vraiment rien face à une telle chose. Les querelles mesquines entre les empires de la galaxie ne sont vraiment rien face à une telle gr... »§!\n\nL'ultime transmission du [Root.GetName] s'est interrompue abruptement, et les sondes utilisées pour examiner l'intérieur de §Y[From.From.From.GetName]§! n'ont révélé qu'une coquille vide. Il semble que le monstre n'a guère témoigné de gratitude envers ses libérateurs..."
+ anomaly.6915.desc.regular:0 "§R« C'EST... C'EST VIVANT ! ÇA BOUGE ! Nous ne sommes vraiment rien face à une telle chose. Les querelles mesquines entre les empires de la galaxie ne sont vraiment rien face à une telle gr... »§!\n\nL'ultime transmission du §Y[Root.GetName]§! s'est interrompue abruptement, et les sondes utilisées pour examiner l'intérieur de §Y[From.From.From.GetName]§! n'ont révélé qu'une coquille vide. Il semble que le monstre n'a guère témoigné de gratitude envers ses libérateurs..."
  anomaly.6915.desc.gestalt:0 "Les [Root.Owner.GetScientistPlural] que nous avions envoyés dans le système de §H[Solar_System.GetName]§! ont tous réagi de façon alarmiste, juste avant que le contact avec l'[Root.Owner.GetBrainName] ne soit coupé. Leur seul message aura été : §R« C'EST SORTI ! »§! L'ultime transmission du §Y[Root.GetName]§! s'est interrompue abruptement au moment où l'oeuf commençait à s'ouvrir, et lorsque les sondes ont examiné l'intérieur de §Y[From.From.From.GetName]§! elles n'ont révélé qu'une coquille vide. La créature semble avoir témoigné bien peu de gratitude à ses libérateurs..."
 
  colony.5000.name:0 "Un ami inattendu"
@@ -408,7 +408,7 @@
  colony.9020.b.gestalt:0 "Le projet peut donc être qualifié de satisfaisant"
 
  colony.9025.name:0 "Surpopulation"
- colony.9025.desc:0 "Malheureusement, les dernières tentatives pour ajouter un nouveau nemma sur §Y[Root.GetName]§! ont échoué. De fait, il s'est avéré impossible de trouver un espace suffisant pour permettre à un nouveau de ces animaux gigantesques de vivre. Les [Root.Owner.GetScientistPlural] ne sont malgré tout pas découragés, et espèrent obtenir de meilleurs résultats à l'avenir."
+ colony.9025.desc:0 "Malheureusement, les dernières tentatives pour ajouter un nouveau nemma sur §H[Root.GetName]§! ont échoué. De fait, il s'est avéré impossible de trouver un espace suffisant pour permettre à un nouveau de ces animaux gigantesques de vivre. Les [Root.Owner.GetScientistPlural] ne sont malgré tout pas découragés, et espèrent obtenir de meilleurs résultats à l'avenir."
  colony.9025.a:0 "Retentons donc"
 
  colony.9030.name:0 "Dressage"
@@ -416,7 +416,7 @@
  colony.9030.a:0 "Parfait, les vrais travaux vont pouvoir débuter"
 
  colony.9035.name:0 "Défenseurs des nemmas"
- colony.9035.desc:0 "Aujourd'hui, des émeutes ont éclaté sur §Y[Root.GetName]§! : une partie de la population s'y est soulevée pour protester contre le traitement réservé aux nemmas de ce monde. Les manifestants ont formé des lignes tout autour de la tête de l'animal sur lequel est établi le capitole, exigeant que toutes ces créatures soient libérées et que la [Root.Owner.GetName] se consacre désormais à préserver l'espèce plutôt qu'à l'exploiter.\n\nLe mouvement de contestation s'est rapidement propagé à des sites installés sur d'autres nemmas. Malgré tout, des contre-manifestants ont aussi défendu les programmes actuels, aggravant donc la tension régnant sur la [Root.GetPlanetMoon] et rendant plausible la menace de violences."
+ colony.9035.desc:0 "Aujourd'hui, des émeutes ont éclaté sur §H[Root.GetName]§! : une partie de la population s'y est soulevée pour protester contre le traitement réservé aux nemmas de ce monde. Les manifestants ont formé des lignes tout autour de la tête de l'animal sur lequel est établi le capitole, exigeant que toutes ces créatures soient libérées et que la [Root.Owner.GetName] se consacre désormais à préserver l'espèce plutôt qu'à l'exploiter.\n\nLe mouvement de contestation s'est rapidement propagé à des sites installés sur d'autres nemmas. Malgré tout, des contre-manifestants ont aussi défendu les programmes actuels, aggravant donc la tension régnant sur la [Root.GetPlanetMoon] et rendant plausible la menace de violences."
  colony.9035.a:0 "Mieux vaut donc passer à un programme d'élevage"
  colony.9035.b:0 "Que ces agitateurs soient mutés aux déchetteries"
 
@@ -563,7 +563,7 @@
  colony.2090.name:0 "Les spores sont nos oreilles"
  colony.2090.desc:0 "Le mycélium de §Y[Root.GetName]§! a été renforcé et l'équipement informatique local réglé de manière à ne subir aucune interférence. L'équipe chargée de la mise en oeuvre du projet a rapporté que le réseau surveille désormais de près la colonie. Déjà, un certain nombre de fripouilles ont reçu un châtiment approprié à leurs délits.\n\nMalheureusement, les tentatives pour reproduire l'installation en d'autres lieux se sont toutes soldées par des échecs. Le système dépend donc d'un facteur qui reste parfaitement inconnu."
  colony.2095.name:0 "Échec fongique"
- colony.2095.desc:0 "Les tentatives visant à stimuler la propagation du mycélium sur §Y[Root.GetName]§! se sont traduites par la croissance de ces champignons plus « traditionnels ». Un incident ayant impliqué quelques colons a montré qu'ils étaient comestibles. Cet événement a créé des perturbations dans le réseau pendant un temps, mais tout semble de nouveau revenu à la normale et le réseau est désormais stabilisé et fonctionnel. Malgré tout, aucune amélioration significative n'a pu être notée. Tout laisse donc à penser que ces champignons ne sont rien d'autre qu'une réserve d'eau, et ne contribuent en rien au réseau. Leur destruction n'aurait donc aucune conséquence sur lui."
+ colony.2095.desc:0 "Les tentatives visant à stimuler la propagation du mycélium sur §H[Root.GetName]§! se sont traduites par la croissance de ces champignons plus « traditionnels ». Un incident ayant impliqué quelques colons a montré qu'ils étaient comestibles. Cet événement a créé des perturbations dans le réseau pendant un temps, mais tout semble de nouveau revenu à la normale et le réseau est désormais stabilisé et fonctionnel. Malgré tout, aucune amélioration significative n'a pu être notée. Tout laisse donc à penser que ces champignons ne sont rien d'autre qu'une réserve d'eau, et ne contribuent en rien au réseau. Leur destruction n'aurait donc aucune conséquence sur lui."
  colony.2095.a:0 "On peut donc les cueillir ?"
  colony.2095.b:0 "Il serait plus utile de les étudier"
 
@@ -614,7 +614,7 @@
  terra.65.desc:0 "Ce que les [Root.GetTerraformerPlural] de §Y[From.GetName]§! avaient pris au départ pour une vilaine poche de gaz s'est avéré être en fait une véritable bénédiction. Les vapeurs toxiques qu'elle dégage sont en fait des §Ygaz exotiques§! non raffinés. Grâce à cette nouvelle ressource naturelle, l'énergie devant par nécessité être introduite dans l'atmosphère de la [From.GetPlanetMoon] a grandement diminué, et nous pourrons collecter ces gaz durant des années encore !"
  terra.65.a:0 "Excellent !"
  terra.70.name:0 "Mutations inattendues"
- terra.70.desc:0 "Les [Root.GetTerraformerPlural] ont de bonnes et de mauvaises nouvelles au sujet de §Y[From.GetName]§!. D'une part, la terraformation s'est déroulée sans accroc, et la [Root.GetName] dispose désormais d'un magnifique monde Gaïa. Par contre, tous ceux qui vivaient sur la [From.GetPlanetMoon] ont été exposés aux gaz de terraformation et ne peuvent plus vivre ailleurs que sur un monde Gaïa. Ces habitants ont toutefois fait preuve d'une productivité surprenante dans leur environnement paradisiaque, bien supérieure à celle des travailleurs qui s'y sont installés après l'accident."
+ terra.70.desc:0 "Les [Root.GetTerraformerPlural] ont de bonnes et de mauvaises nouvelles au sujet de §Y[From.GetName]§!. D'une part, la terraformation s'est déroulée sans accroc, et la §Y[Root.GetName]§! dispose désormais d'un magnifique monde Gaïa. Par contre, tous ceux qui vivaient sur la [From.GetPlanetMoon] ont été exposés aux gaz de terraformation et ne peuvent plus vivre ailleurs que sur un monde Gaïa. Ces habitants ont toutefois fait preuve d'une productivité surprenante dans leur environnement paradisiaque, bien supérieure à celle des travailleurs qui s'y sont installés après l'accident."
  terra.70.a:0 "À tout prendre, leur situation aurait pu être plus inconfortable..."
  terra.75.name:0 "Le paradis est sur §H[From.GetName]§!"
  terra.75.desc_regular:0 "Il semble que parmi les [Root.GetTerraformerPlural] ayant travaillé sur §Y[From.GetName]§! se trouvent de nombreux membres d'une secte très ancienne, née sur [Root.GetHomeWorldName]. Selon leurs croyances, les [Root.GetSpeciesNamePlural] seraient promis à un paradis situé... quelque part. Mais au lieu de le chercher, ils ont décidé de le créer eux-mêmes. §H[From.GetName]§! est donc devenue l'image de ce qu'ils conçoivent comme une [From.GetPlanetMoon] paradisiaque, venue tout droit des légendes les plus anciennes de notre histoire."
@@ -632,7 +632,7 @@
  terra.80.c.tooltip:0 "Permet le trait §Y$trait_plantoid_radiotrophic$§! pour la modification génétique."
  terra.80.d:0 "On ne va pas arrêter la terraformation pour des mauvaises herbes"
  terra.85.name:0 "Un accueil radiant"
- terra.85.desc:0 "Après avoir passé des années à acclimater et ajuster ces plantes radiotrophes trouvées sur §Y[From.From.From.GetName]§!, la [Root.GetName] est désormais prête à les accueillir en son sein. S'il s'agit d'une espèce incroyablement jeune, elle semble déjà exceller à collecter de l'énergie."
+ terra.85.desc:0 "Après avoir passé des années à acclimater et ajuster ces plantes radiotrophes trouvées sur §Y[From.From.From.GetName]§!, la §Y[Root.GetName]§! est désormais prête à les accueillir en son sein. S'il s'agit d'une espèce incroyablement jeune, elle semble déjà exceller à collecter de l'énergie."
  terra.85.a:0 "Bienvenue parmi nous !"
  terra.85.a.tooltip:0 "§Y6§! £pops£pops §Yradiotrophes§! vont apparaître dans l'empire."
  terra.90.name:0 "Dépôt d'armement"
@@ -665,15 +665,169 @@
  fumongus_monitor_pops:0 "Réseau mycélial local"
  fumongus_monitor_pops_desc:0 "Depuis que nous avons pris le contrôle du réseau mycélial de §H[Root.GetName]§!, nous pouvons surveiller les colons qui s'y trouvent."
  disinformation_protocols:0 "Protocoles de désinformation"
+
+ UBUME_BABY_CAT: "Débris étranges"
+ UBUME_BABY_CAT_DESC: "Les scanners ont identifié un champ de débris d'origine incertaine. Cela pourrait-il avoir un rapport avec le vaisseau scientifique abandonné qui patrouille dans le système   ?"
+
+ anomaly.6791.name: "Vaisseau fantôme"
+ anomaly.6791.desc: "Nos scans du champ de débris de Hillos sont terminés. Possédant à la fois des propriétés organiques et abiogéniques, la structure chimique est différente de tout ce que nous avons vu. Le lien entre les débris et l'étrange vaisseau patrouillant dans le système reste flou. Il n'y a aucun signe de vie à bord. En fait, nous ne pouvons détecter aucune signature énergétique d'aucune sorte. En l'absence d'un meilleur descripteur, nous sommes tombés sur un vaisseau fantôme."
+ anomaly.6791.a: "Effrayant."
+
+ anomaly.6792.name: "Le bébé d'Ubume"
+ anomaly.6792.desc: "Notre équipe scientifique a conclu que le vaisseau abandonné, appelé 'Ubume' dans son journal de bord, menait une expérience dans le système Hillos, dont le but était de créer une vie synthétique. Une explosion accidentelle a entraîné la mort de l'équipage du vaisseau, ainsi que celle du nouveau-né. Cependant, l'énergie psionique de faible niveau détectée dans tous les systèmes du vaisseau suggère que le 'fantôme' de la forme de vie a pris possession du vaisseau quelques secondes avant l'accident.\n\nIl est concevable que la conscience naissante ait passé les siècles intermédiaires à rechercher en vain sa mère. Malheureusement, à l'heure actuelle, nous n'avons aucun moyen de communiquer avec l'entité, ni de l'aider à trouver le repos. Pour l'instant, la hantise du système Hillos semble destinée à continuer."
+ anomaly.6792.a: "Un triste sort."
+
+
+
+#The Mask of Transformation
+
+ mask_of_transformation:0 "Le Masque de transformation"
+ site_transformation_dig:0 "Un message dans la canopée"
+ site_transformation_intro:0 "Les scientifiques ont découvert quelque chose d'inhabituel sur §Y[From.Planet.GetName]§!. La plus grande partie de la surface de ce monde tropical est couverte d'une jungle dense. Là, des arbres gigantesques, âgés d'un millier d'années, se dressent au-dessus de la canopée, leurs couronnes de feuilles dominant tout le paysage aux alentours.\n\nÀ première vue, leur distribution semble parfaitement aléatoire. Pourtant, des analyses complémentaires indiquent que ces arbres sont arrangés avec une précision toute mathématique, au point qu'il semble vraisemblable qu'ils ont été plantés par une civilisation depuis longtemps disparue. Qui plus est, le responsable de l'équipe semble persuadé que le schéma qu'ils forment compose un ensemble de coordonnées, qui pointe vers un site inexploré se trouvant au plus profond de la jungle."
+
+ ancrel.15010.name:0 "$site_transformation_dig$"
+ ancrel.15010.desc:0 "$site_transformation_intro$"
+
+ ancrel.15000.name:0 "Bienvenue dans la jungle"
+ ancrel.15000.desc:0 "Étant donné l'épaisseur de la canopée de §Y[From.Planet.GetName]§!, les reconnaissances aériennes se sont avérées incapables de déterminer la meilleure route pour traverser la jungle jusqu'aux coordonnées. Sous le feuillage, les sous-bois grouillent de vie : des prédateurs sans membres ; des primates au visage aplati ; des essaims d'insectes hématophages. Le sol de la forêt est glaiseux, et des mares d'eau saumâtre ont considérablement retardé l'équipe. Et, bien pire encore, quelque chose, que ce soit l'épaisseur de la végétation ou une interférence électrique indéfinie, empêche la plupart du matériel de fonctionner.\n\n[Root.GetLeaderName] pense malgré tout que l'équipe pourra tracer sa route au travers des arbres, mais cela risque assurément de prendre du temps."
+ ancrel.15000.a:0 "Qu'ils continuent donc"
+
+ ancrel.15001.name:0 "Métamorphose psionique"
+ ancrel.15001.desc:0 "L'analyse de ses sols a révélé que §Y[From.Planet.GetName]§! a subi une transformation climatologique pour le moins étonnante depuis les 100 derniers cycles. Loin d'être couverte d'une jungle luxuriante comme c'est le cas aujourd'hui, la [From.Planet.GetPlanetMoon] était autrefois rocheuse et désolée. [Root.GetLeaderName] pense que les grands arbres eux-mêmes en sont la cause : un scan d'imagerie par résonance a détecté la présence d'énergie psionique au sein de leur sève. Tirée de la nappe phréatique par leur vaste système racinaire, cette énergie se diffuse alors dans toute l'atmosphère de la [From.Planet.GetPlanetMoon] par un processus proche de la photosynthèse. Il est très probable que c'est là l'explication des dysfonctionnements du matériel de l'équipe.\n\nCurieusement, la lumière nocturne semble accélérer le processus de diffusion psionique. Au cours des nuits les plus claires, l'air semble comme vibrer, et le phénomène est de plus en plus perceptible à mesure que l'équipe se rapproche de sa destination. Assurément, rien de semblable n'a jamais été constaté ailleurs."
+ ancrel.15001.a:0 "C'est absolument fascinant"
+
+ ancrel.15002.name:0 "La caverne"
+ ancrel.15002.desc:0 "Après avoir enfin atteint les coordonnées, l'équipe de fouille a débouché sur une vallée fluviale tortueuse, masquée par l'épaisseur de la canopée. S'écoulant de l'entrée toute ronde d'une caverne, le fleuve semble naître d'une source souterraine très puissante. Un escalier périlleux, creusé dans le rocher il y a des millénaires, permet d'accéder à un tunnel.\n\nLes parois de la grotte et sa voûte sont couvertes d'idéogrammes compacts, dont le plus fréquent est un visage humanoïde rond. Les algorithmes de traduction sont parvenus à décoder une grande part de leur symbolique, et ce symbole en particulier représente presque certainement la lune de ce monde.\n\nDans la caverne, la présence d'énergie psionique est si forte que l'équipe l'a décrite comme « un brouillard invisible ». Malheureusement, son chemin semble bloqué par un effondrement remontant à plusieurs siècles. Malgré tout, avec un peu de patience l'expédition devrait finir par réussir à le franchir."
+ ancrel.15002.a:0 "Il va falloir qu'ils creusent !"
+
+ ancrel.15003.name:0 "Le pilier"
+ ancrel.15003.desc:0 "L'équipe chargée des fouilles sur §Y[From.Planet.GetName]§! vient de faire parvenir un rapport triomphal. Après avoir réussi à atteindre les niveaux inférieurs de la caverne, elle est parvenue dans une vaste chambre hémisphérique. Là, le fleuve entoure un îlot souterrain, au centre duquel se dresse une stalagmite de cristaux rares. Formé goutte après goutte au cours de longs millénaires, ce pilier semble être la source de l'étrange énergie psionique si omniprésente sur la [From.Planet.GetPlanetMoon]. L'équipe a découvert aux alentours des signes montrant qu'y ont été organisées des cérémonies religieuses, ainsi que plusieurs artefacts ayant apparemment une importance rituelle. Qui plus est, un balayage multiphasique a révélé un objet rond incrusté dans la base du pilier. Les fouilleurs ont donc bon espoir que, une fois retiré, cet artefact jettera une lumière nouvelle sur la nature véritable de ce lieu si mystérieux."
+ ancrel.15003.a:0 "Mieux vaut qu'ils soient prudents"
+ ancrel.15003.b:0 "Nous devons à tout prix prendre possession de ce pouvoir"
+
+ ancrel.15004.name:0 "Le Masque de transformation"
+ ancrel.15004.desc:0 "L'équipe scientifique a rapporté un magnifique succès sur §Y[From.From.Planet.GetName]§!. L'excavation précautionneuse du pilier de cristal est achevée. Préservé à l'intérieur se trouvait un masque humanoïde très ancien. Les idéogrammes se trouvant sur la face interne le qualifient de §HMasque de transformation§!. C'est vraisemblablement une référence au pouvoir transformatif de la lune, qui contrôle les marées de transition d'une phase à une autre.\n\nLe Masque lui-même possède des propriétés psioniques impressionnantes, et est sans doute responsable du changement climatique rapide sur la [From.From.Planet.GetPlanetMoon]. Quiconque a permis la création du pilier de cristal et planté la carte sylvestre dans la forêt avait visiblement pour intention d'honorer l'artefact tout en le protégeant. La théorie de l'équipe est que, si le Masque est utilisé convenablement, il pourrait contribuer à transformer des mondes entiers de la [From.From.Planet.Owner.GetName]."
+ ancrel.15004.a:0 "C'est parfaitement incroyable"
+
+ ancrel.15005.name:0 "Pilier brisé"
+ ancrel.15005.desc:0 "La frustration est à son comble sur §Y[From.From.Planet.GetName]§!. L'équipe scientifique n'a pu retirer l'artefact enfermé dans la stalagmite de cristal. Sans doute du fait d'une vigueur et d'un empressement mal placés, les travaux ont causé l'effondrement du pilier, qui est désormais brisé. Pire encore, l'artefact qu'il renfermait est désormais endommagé au point qu'on ne peut savoir maintenant de quoi il s'agissait, et toute trace d'énergie psionique a disparu de la caverne.\n\nUne piètre consolation est que le cristal lui-même pourrait s'avérer extrêmement précieux. Si nous n'en saurons sans doute jamais davantage sur les intentions de la civilisation de précurseurs qui a établi ce lieu, au moins nos efforts n'auront pas été entièrement vains."
+ ancrel.15005.a:0 "Frustrant, certes, mais lucratif"
+
+ ancrel.15006.name:0 "Embuscade"
+ ancrel.15006.desc:0 "L'équipe scientifique de §Y[From.Planet.GetName]§! a transmis une communication urgente. Au cours de son périple dans la jungle, elle semble avoir dérangé la faune locale.\n\nDurant plusieurs nuits, elle a pu entrapercevoir des ombres flottantes, à demi visibles entre les broussailles. Puis, à la veille d'une nuit de pleine lune, une troupe de créatures simiesques est tombée sur le campement, en hurlant et en brandissant des bâtons. Étant donné l'avantage technologique des scientifiques, les attaquants ont bien vite été repoussés dans les arbres, mais pas sans avoir enlevé plusieurs membres de l'équipe. Apparemment, même le feuillage dense n'a pu masquer leurs hurlements.\n\nMalgré le danger, [Root.GetLeaderName] a juré de poursuivre le périple jusqu'à son terme."
+ ancrel.15006.a:0 "Malgré tout, c'est inquiétant..."
+
+ ancrel.15007.name:0 "Pertes et profits"
+ ancrel.15007.desc:0 "Des nouvelles de l'expédition sur §Y[From.Planet.GetName]§! nous sont parvenues. La traversée de la jungle labyrinthique s'est avérée plus difficile que cela n'était escompté. Tandis qu'elle luttait pour avancer malgré les marais inattendus et les lianes épaisses et insidieuses, l'équipe a été approchée par un simien inhabituellement intelligent. Monté sur le dos d'un ongulé domestiqué, celui-ci a guidé l'équipe à travers le feuillage dense, lui permettant de franchir la région la plus difficile de la forêt. Il leur a aussi montré les larves d'insectoïdes comestibles dissimulées dans les racines des grands arbres. Et, au vu de ses gestes frénétiques, il s'agit là d'un véritable délice pour les autochtones. Mais, plus important, ce conseil a permis de mettre en évidence la présence d'une civilisation de précurseurs sur la [From.Planet.GetPlanetMoon], puisque l'équipe a pu bien vite mettre au jour des artefacts anciens."
+ ancrel.15007.a:0 "Sympa ce simien !"
+
+ ancrel.15008.name:0 "Balade en forêt"
+ ancrel.15008a.desc:0 "L'équipe scientifique sur §Y[From.Planet.GetName]§! a rencontré des difficultés. La traversée de la jungle a été quasi interrompue après la découverte inattendue d'une rivière dissimulée par l'épaisseur de la canopée. Ses eaux tourbillonnantes et agitées dissimulaient des rochers tranchants, rendant son franchissement impossible. Et le détour nécessaire a eu des conséquences inattendues, puisqu'il a permis de rencontrer une troupe de simiens locaux particulièrement sociaux. Ces créatures au visage incliné ont réjoui l'équipe de leurs pitreries constantes, arrivant chaque nuit avec des baies fermentées aux pouvoirs apparemment ravageurs. Si le moral des membres est au beau fixe, l'avancée dans la jungle est lente, et [Root.GetLeaderName] rapporte que le manque d'initiative chez ses subordonnés est particulièrement exaspérant."
+ ancrel.15008b.desc:0 "L'équipe scientifique sur §Y[From.Planet.GetName]§! a rencontré des difficultés. La traversée de la jungle a été quasi interrompue après la découverte inattendue d'une rivière dissimulée par l'épaisseur de la canopée. Ses eaux tourbillonnantes et agitées dissimulaient des rochers tranchants, rendant son franchissement impossible. Et le détour nécessaire a eu des conséquences inattendues, puisqu'il a permis de rencontrer une troupe de simiens locaux particulièrement sociaux. Ces créatures au visage incliné ont réjoui l'équipe de leurs pitreries constantes, arrivant chaque nuit avec des baies fermentées aux pouvoirs apparemment ravageurs. Même si l'équipe est évidemment incapable de digérer leur cadeau, elle s'est toutefois attachée à cette troupe, pardonnant aisément les singeries de ces êtres qui pourtant retardent la mission."
+ ancrel.15008.a:0 "Bon, au travail maintenant !"
+
  engineered_nature:0 "Ingénierie de la nature"
- engineered_nature_desc:0 "Les opérations d'ingénierie sur [Root.GetName] ont superbement mis en valeur ses caractéristiques naturelles, permettant à ses habitants de profiter de leur esthétique et d'en faire le meilleur usage."
+ engineered_nature_desc:0 "Les opérations d'ingénierie sur §H[Root.GetName]§! ont superbement mis en valeur ses caractéristiques naturelles, permettant à ses habitants de profiter de leur esthétique et d'en faire le meilleur usage."
  second_home:0 "Second foyer"
  second_home_desc:0 "Cette [Root.GetPlanetMoon] ressemble de manière troublante au monde natal de ses créateurs."
  intentionally_tidally_locked:0 "Rotation synchrone intentionnelle"
- intentionally_tidally_locked_desc:0 "Au cours du processus de terraformation, [Root.GetName] a été intentionnellement bloquée sur une rotation synchrone afin de générer une quantité phénoménale d'énergie sur la partie diurne de sa surface."
+ intentionally_tidally_locked_desc:0 "Au cours du processus de terraformation, §Y[Root.GetName]§! a été intentionnellement bloquée sur une rotation synchrone afin de générer une quantité phénoménale d'énergie sur la partie diurne de sa surface."
  perfect_organization_modifier:0 "Perfection organisationnelle"
- perfect_organization_modifier_desc:0 "Tout est absolument parfaitement organisé sur [Root.GetName], à tel point que tous les esprits uniques qui la visiteraient y seraient plongés dans le plus profond désarroi."
+ perfect_organization_modifier_desc:0 "Tout est absolument parfaitement organisé sur §H[Root.GetName]§!, à tel point que tous les esprits uniques qui la visiteraient y seraient plongés dans le plus profond désarroi."
  imperfect_organization_modifier:0 "Déperfection organisationnelle"
- imperfect_organization_modifier_desc:0 "Tout était autrefois parfaitement organisé sur [Root.GetName], à tel point que ses habitants y étaient plongés dans le plus profond désarroi."
+ imperfect_organization_modifier_desc:0 "Tout était autrefois parfaitement organisé sur §H[Root.GetName]§!, à tel point que ses habitants y étaient plongés dans le plus profond désarroi."
  paradise_made:0 "Paradis artificiel"
  paradise_made_desc:0 "[Root.GetName] a été terraformée de façon à ressembler au paradis décrit dans les légendes de ses créateurs."
+
+ #lostsoulanomaly
+
+ lost_soul_cat:0 "Âme en peine"
+ lost_soul_cat_desc:0 "Un robot bipède très endommagé a été retrouvé flottant dans l'espace non loin de §H[From.GetName]§!. Nous ne comprenons pas de quelle source il tire son énergie, mais sa mémoire pourrait livrer des informations intéressantes."
+
+ anomaly.6786.name:0 "$lost_soul_cat$"
+ anomaly.6786.desc:0 "Le robot bipède retrouvé flottant dans l'espace est très endommagé. Ses plaques avant ne révèlent rien, et sa coque est en mauvais état. Les premiers scans indiquent qu'il dispose toujours de puissance, mais la source de cette énergie est radicalement différente de celles que nous connaissons. Ses circuits internes pourraient malgré tout contenir des informations sur son existence, mais les charger et les traduire va assurément prendre du temps."
+ anomaly.6786.a:0 "L'étudier devrait valoir la peine"
+ anomaly.6786.a.tooltip:0 "§LVoyons de quoi tu te souviens, voyageur cosmique.§!"
+ anomaly.6786.b:0 "Mieux vaut l'abandonner là"
+ anomaly.6786.b.tooltip:0 "§LSale tas de ferraille.§!"
+
+ anomaly.6787.name:0 "Âme ancienne"
+ anomaly.6787.desc:0 "Au prix de nombreux efforts, l'équipage du §Y[Root.GetName]§! a pu recharger le robot et décoder ses banques de mémoire. Malheureusement, la machine est si détériorée qu'aucune information cohérente n'a pu en être tirée. Il est possible de continuer à l'étudier, et d'en chercher d'autres de même conception, mais l'histoire de ce paria mécanique restera de toute manière un mystère."
+ 
+ #TEMPORAL PRISM
+
+ TEMPORAL_PRISM_CAT:0 "Fluctuations temporelles inhabituelles"
+ TEMPORAL_PRISM_CAT_DESC:0 "Des fluctuations inhabituelles de l'espace-temps ont été détectées dans le voisinage de §H[From.GetName]§!. Des analyses complémentaires seraient bienvenues."
+
+ anomaly.6788.name:0 "Prisme temporel"
+ anomaly.6788.desc:0 "Les analyses des fluctuations temporelles constatées dans le système de [From.GetStarName] ont révélé quelque chose de remarquable : un prisme gigantesque, flottant dans l'espace. Plutôt que la lumière, il réfléchit le temps. Selon l'angle d'incidence, l'équipage du §Y[Root.GetName]§! a pu constater que le temps s'écoulait à des vitesses différentes. Les balayages biométriques indiquent que certains ont vieilli plus rapidement que d'autres, tandis que certains sont désormais plus jeunes de quelques jours ou années.\n\nQuoi qu'il en soit, si l'étude du prisme a permis une meilleure compréhension de la nature et des propriétés du temps, ses origines et son objet restent malgré tout un véritable mystère."
+
+ #snek
+ colony.8099.name: "Ophidiens insidieux"
+ colony.8099.desc: "Nous avons détecté des essaims de créatures creusant dans le sol de notre colonie sur §H[Root.GetName]§!. Elles pourraient sortir d'un jour à l'autre. Nos scientifiques pensent que les vibrations de la surface ont pu les réveiller d'une sorte de sommeil souterrain."
+ colony.8099.a: "Mobilisez les scientifiques et les soldats."
+ 
+ colony.9100.name: "Subterfuge glissant"
+ colony.9100.desc: "Les colons sur §H[Root.GetName]§! signalent que certaines maisons sont maintenant infestées de serpents, et que de nombreuses structures connaissent des coupures de courant. Nous devrions voir s'il y a un lien."
+ colony.9100.a: "Observez ces curieuses créatures."
+ colony.9100.b: "Forcez-les à quitter la colonie par le feu."
+ 
+ colony.9101.desc: "Les serpents sont attirés par des sources d'énergie électrique, peut-être pour se nourrir ou pour le plaisir. Si nous pouvons modifier notre source d'énergie, peut-être la trouveront-ils déplaisante... ou douloureuse."
+ colony.9102.desc: "Les serpents sur §H[Root.GetName]§! sont moins agressifs maintenant, mais ils semblent vouloir démanteler la technologie des colons. Leurs techniques impliquent qu'ils possèdent au moins une intelligence rudimentaire."
+ 
+ colony.9103.name: "Sinistre sibilance"
+ colony.9103.desc: "Tout comme nous avons observé les serpents envahisseurs sur §H[Root.GetName]§!, ils nous observent. Ils ont trouvé des moyens d'infiltrer et de faire fonctionner de façon aléatoire nos véhicules, ordinateurs et équipements miniers."
+ colony.9103.a: "Laissez-les se nourrir de nos sources d'énergie. Activez le traducteur universel."
+ colony.9103.b: "Mobilisez les troupes de choc. Attaquez avec des incinérateurs."
+
+ colony.9104.name: "Underworld"
+ colony.9104.desc: "Les serpents sur §H[Root.GetName]§! ont converti certains de nos équipements miniers en moyens de transport pour voyager entre leur monde souterrain et notre monde de surface. Cela a considérablement endommagé notre écologie.\n\nLes scientifiques de notre colonie ont commencé à appeler ces envahisseurs serpents les Ophidiens. Les soldats leur donnent d'autres noms, dont la plupart ne valent pas la peine d'être répétés."
+ colony.9104.a: "Mettez le reste de l'équipement minier hors ligne."
+ colony.9104.b: "C'est ce qui arrive quand on n'utilise pas assez de feu."
+
+ colony.9105.name: "Infestation Dévastation"
+ colony.9105.desc: "Les destructions incessantes des envahisseurs serpentins et les fouilles élaborées sur §H[Root.GetName]§! ont dévasté l'écologie du monde."
+
+ colony.9106.name: "Un coup de pouce et un cadeau"
+ colony.9106.desc: "Les serpents sur §H[Root.GetName]§! utilisent maintenant des équipements miniers pour voyager librement entre leurs nids souterrains et notre monde de surface. Notre technologie leur a-t-elle donné de nouveaux pouvoirs   ?"
+ colony.9106.a: "Ces nouveaux tunnels de serpent ont déterré... des minéraux !"
+
+ colony.9107.name: "Bateau-serpent"
+ colony.9107.desc: "Les serpents sur §H[Root.GetName]§! ont patiemment attendu qu'un vaisseau entre dans le système. Quelqu'un a pensé que ce serait une bonne idée d'atterrir sur notre colonie, donc leur vaisseau est maintenant plein de serpents."
+ colony.9107.a: "Laissez le vaisseau aux ophidiens en fuite."
+ colony.9107.a.tooltip: "Lorsque ces serpents hyperintelligents s'aventurent dans le cosmos, on ne peut s'empêcher de se demander quel sera leur destin final."
+ colony.9107.b: "Détruisez le navire-serpent."
+ colony.9107.b.tooltip: "Ces serpents hyperintelligents ont relocalisé leur population à bord de notre vaisseau tentateur. Nous devrions les laisser monter à bord... et surcharger le réacteur."
+
+ colony.9108.name: "Aux étoiles"
+ colony.9108.desc: "Un vaisseau solitaire a échappé à tous nos équipements de détection et s'est glissé dans le système stellaire environnant. Les Ophidiens ont laissé §H[Root.GetName]§! avec une série d'ascenseurs souterrains et une richesse en minéraux."
+ colony.9108.a: "Adieu, serpents."
+ colony.9108.a.tooltip: "Votre histoire a été... édifiante."
+
+ colony.9109.name: "Son histoire"
+ colony.9109.desc: "Une explosion massive s'est produite à l'extérieur de notre plus grande colonie sur §H[Root.GetName]§!. Nous resterons vigilants, mais pour autant que nous puissions dire, nous avons incinéré le dernier de nos envahisseurs ophidiens."
+ colony.9109.a: "Adieu, serpents."
+ colony.9109.a.tooltip: "Votre longue histoire est terminée. Vous êtes... de l'histoire ancienne."
+
+ #VENDING MACHINE
+
+ VENDING_MACHINE_CAT:0 "Une invitation"
+ VENDING_MACHINE_CAT_DESC:0 "Une balise de communication orbite autour de §H[From.GetName]§!, à l'attention des voyageurs passant à proximité. Et sur l'astéroïde se dresse un énorme monolithe de métal, dont l'objet est inconnu."
+ 
+ anomaly.7000.name:0 "Monolithe mystérieux"
+ anomaly.7000.desc:0 "Le monolithe découvert sur §Y[From.GetName]§! fait paraître le vaisseau scientifique dépêché pour l'étudier absolument minuscule. C'est un bloc de métal, lisse et imposant, même si les symboles autrefois peints de façon très visible sur une face ont été réduits à de simples taches.\n\nUne petite prise de courant sur l'un de ses côtés promet toutefois que ses secrets seront dévoilés en échange d'une quantité modeste de crédits énergétiques."
+
+ anomaly.7000.a:0 "Activons cette machine"
+ anomaly.7000.b:0 "Mieux vaut ne pas trop l'approcher"
+
+ anomaly.7010.name:0 "L'éveil de la machine"
+ anomaly.7010.desc.base:0 "La machine se réveille, ses mécanismes antiques cliquettent derrière sa façade lisse. Après de longs vrombissements et bourdonnements, suivis d'une pause théâtrale, un panneau métallique s'ouvre et un cylindre de la taille d'un vaisseau apparaît dans l'ouverture...\n\n"
+ anomaly.7010.a:0 "Faisons breveter cette boisson pour la vendre à toute la galaxie"
+ anomaly.7010.desc.full:0 "Il contient un breuvage ancien, préservé miraculeusement du passage du temps."
+ anomaly.7010.desc.full.megacorp:0 "$anomaly.7010.desc.base$$anomaly.7010.desc.full$ Selon les analyses des données de marché, cette boisson depuis si longtemps oubliée est 20% plus savoureuse que les breuvages habituels conçus pour les entités biologiques."
+ anomaly.7010.desc.full.nonbio:0 "$anomaly.7010.desc.base$$anomaly.7010.desc.full$ Si ce liquide ne présente aucune sorte d'intérêt pour nous, les [Root.Owner.GetScientistPlural] ont pu le convertir en une ressource bien plus intéressante : des §Hgaz exotiques§!."
+ anomaly.7010.desc.full.bio:0 "$anomaly.7010.desc.base$$anomaly.7010.desc.full$ Cette boisson a été aisée à reproduire par les [Root.Owner.GetScientistPlural], qui, après l'avoir testée de façon poussée et rigoureuse, sont certains d'une chose : elle ne présente aucun danger, est très nutritive et, ce qui est plus important encore, absolument délicieuse."
+ anomaly.7010.desc.empty:0 "$anomaly.7010.desc.base$Il est vide, son contenu s'étant depuis longtemps évaporé par un obturateur corrodé. Le contenant lui-même est malgré tout toujours en bon état, et l'alliage utilisé pour sa fabrication vaut largement ceux que nous utilisons pour nos vaisseaux."
+ anomaly.7010.desc.rot.bio:0 "$anomaly.7010.desc.base$Il contient un liquide aujourd'hui infâme, même s'il s'agissait au départ d'une boisson nutritive autrefois délicieuse que le temps a fait tourner. En étudiant cette substance, les [Root.Owner.GetScientistPlural] espèrent en apprendre davantage sur la biologie des aliens qui s'en délectaient autrefois. À condition qu'ils puissent faire quelque chose pour son odeur infecte, évidemment."
+ anomaly.7010.desc.rot.nonbio:0 "$anomaly.7010.desc.base$Il contient une mixture liquide composée de saccharose, d'acide citrique et d'autres composés biologiques. Les [Root.Owner.GetScientistPlural] pensent qu'il s'agissait d'une substance nutritive élaborée par et pour des êtres carbonés. Des études complémentaires devraient en révéler davantage sur la biologie de cette espèce disparue."
+
