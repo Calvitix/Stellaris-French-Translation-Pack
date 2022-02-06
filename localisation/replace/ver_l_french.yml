@@ -31,7 +31,7 @@
   SUBJECT_DESC_verblood: "Les états-vassaux de type 'Tributaires du sang' paient un tribut spécial, l'impot du sang. Tous les 15 ou 20 ans, 10% de leur population est envoyée à leur Suzerain en tribut. Comme ce type de vassal semble être à peine plus qu'une source d'esclaves de la part de leur suzerain, il n'a aucune liberté diplomatique, le vassal est incapable de se développer ou de mener des guerres indépendamment.\n\nPeut s'étendre : £trigger_no£\nA des pouvoirs diplomatiques : £trigger_no£\nEst protégé : £trigger_yes£\nRejoint les guerres du Suzerain : £trigger_yes£\nPeut être intégré : £trigger_no£\nTribut : §10%§! £pops£ §HPops§! tous les 15-20 ans\nEffet spécial : §R-1000§! d'opinion envers Suzerain"
   # Corporate Subjects
   SUBJECT_versubsidiary: "$SUBJECT_subsidiary$"
-  SUBJECT_DESC_versubsidiary: "$SUBJECT_DESC_subsidiary$"
+  SUBJECT_DESC_versubsidiary: "Les états-vassaux de type 'filiales' sont diplomatiquement soumises à leur propriétaire et protégées par lui, mais elles sont autorisées à se développer et à se faire la guerre entre elles. A des pouvoirs diplomatiques : £trigger_yes£\nPeut être intégré : £trigger_no£\nTribut : §Y25%§! £energy£ §Hénergie§!"
   SUBJECT_verdevotee: "Dévots"
   SUBJECT_DESC_verdevotee: "Les états-vassaux de type 'Dévots' paient §Y20%§! de leurs crédits énergétiques mensuels et §Y5%§! de leur unité mensuelle en tribut, mais sont autorisés à se développer et à mener des guerres. A des pouvoirs diplomatiques : £trigger_yes£\nPeut être intégré : £trigger_no£\nTribut : §Y20%§! £energy£ §Hénergie§!, §Y5%§! £unity£ §Hunité§!"
   SUBJECT_verkobun: "Kobun"
@@ -560,6 +560,23 @@
  influencefail_text_veru_200:0 "§RNécessite§! §Y200§! £influence£ §HInfluence§!"
  influencefail_text_veru_300:0 "§RNécessite§! §Y300§! £influence£ §HInfluence§!"
  capitalist_auth_fail:0 "§RNécessite§! une combinaison d'éthique §Ycompetitive§Y et §Yautoritaire§Y."
+
+ # CBs and War Goals
+ veru.6100.border_subject_1: "§Y[event_target:border_subject_1.GetName]§!"
+ veru.6100.border_subject_2: "§Y[event_target:border_subject_2.GetName]§!"
+ veru.6100.border_subject_3: "§Y[event_target:border_subject_3.GetName]§!"
+ veru.6100.border_subject_4: "§Y[event_target:border_subject_4.GetName]§!"
+ veru.6100.border_subject_5: "§Y[event_target:border_subject_5.GetName]§!"
+ veru.6100.border_subject_6: "§Y[event_target:border_subject_6.GetName]§!"
+ veru.6100.border_subject_7: "§Y[event_target:border_subject_7.GetName]§!"
+ veru.6100.border_subject_8: "§Y[event_target:border_subject_8.GetName]§!"
+ veru.6100.border_subject_9: "§Y[event_target:border_subject_9.GetName]§!"
+ veru.6100.border_subject_10: "§Y[event_target:border_subject_10.GetName]§!"
+ veru.6100.name: "[from.Ruler.GetTitle] §H[from.ruler.GetName]§!"
+ veru.6100.desc: "Lequel de nos vassaux frontaliers revendiquez-vous ?"
+ casus_belli_cb_buffer_zone: "Zone tampon"
+ war_goal_wg_claim_subject: "Saisir le vassal"
+ war_goal_wg_claim_subject_desc: "Une guerre est menée pour prendre le contrôle d'un vassal tampon crucial."
 
  # Other
  ai.random: "Aléatoire"

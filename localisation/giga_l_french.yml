@@ -490,7 +490,7 @@
     giga_menu.2.refresh.tooltip:0 "Ici, vous pouvez vérifier vos paramètres actifs."
 
     giga_menu.1.name:0 ""
-    giga_menu.1.desc:0 "v 3.20.1"
+    giga_menu.1.desc:0 "v 3.20.2"
 
     giga_menu_1:0 "Capacité en mégastructures : §H1§!"
     giga_menu_2:0 "Capacité en mégastructures : §Y2§!"
@@ -1183,6 +1183,7 @@
     giga_menu_presets_patreon_18:0 "Patreon: §MLilyflower§!"
     giga_menu_presets_patreon_19:0 "Patreon: §MMan Emperor of Mankind§!"
     giga_menu_presets_patreon_20:0 "Blokchat: §GBlokkazoi§!"
+    giga_menu_presets_patreon_21:0 "Patreon: §MDrCaos§!"
 	
     giga_menu_presets_other_01:0 "Gagnant du concours : §HThe_Strateg1st§!"
 
@@ -1837,8 +1838,6 @@
 
 
     r_arcane_manipulator_1:0 "§BManipulateur de failles arcaniques§!"
-
-    r_arcane_manipulator_1:0 "$r_arcane_manipulator_1$"
     r_arcane_manipulator_1_desc:0 "Semblant être en phase avec la réalité elle-même, la construction d'un autre monde possède la capacité de stabiliser et de manipuler les vortex de toute sorte, y compris de $ehof_wormhole$ virtuels. \n\nCependant, le dispositif est encore un mystère pour nous et toutes ses capacités n'ont pas encore été révélées."
 
     ehof_megastructure.0056_name:0 "L' I.D.H.E."
@@ -5189,6 +5188,9 @@
     tech_ehof_phase_01:0 "$ehof_ehofp1$"
     tech_ehof_phase_01_desc:0 "Utiliser des champs électromagnétiques compressés et condensés pour manipuler et alimenter des $ehof_wormholes$ probabilistes, qui apparaissent et disparaissent à l'horizon des événements d'un trou noir. En raison de leur comportement probabiliste, les emplacements auxquels ils mènent sont aléatoires."
 
+      # EHOF tech gateways
+      gateway_ehof:0 "§HChemin vers la Physique abstraite§!\n§ECette technologie permettra de faire progresser l'étude de la physique et de la génération de $ehof_wormhole$.§!"
+
       # Abstract Physics Theory
       tech_abstract_1:0 "Théorie de la physique abstraite"
       tech_abstract_1_desc:0 "Certains phénomènes physiques exotiques pourraient ne pas pouvoir être expliqués par les seules approches de la théorie quantique ou de la théorie des cordes. Une nouvelle branche de la physique appelée 'physique abstraite', qui utilise des méthodes et des approches mathématiques et physiques extrêmement peu conventionnelles, pourrait apporter des réponses aux phénomènes les plus absurdes de l'univers et au-delà."
@@ -5199,11 +5201,11 @@
 
       # Quoudroplean Formalism
       tech_abstract_3:0 "Le formalisme de Quoudroplean"
-      tech_abstract_3_desc:0 "La physique abstraite étant très différente des autres branches de la physique, elle a besoin de son propre formalisme mathématique personnalisé et adapté. Le 'formalisme de Quoudroplean' utilise des cadres mathématiques et des théorèmes alternatifs et bizarres, qui ne s'inscrivent pas dans l'univers classique des mathématiques et qui ont été considérés comme totalement inapplicables et inadéquats pour l'analyse et l'étude de la réalité. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
+      tech_abstract_3_desc:0 "La physique abstraite étant très différente des autres branches de la physique, elle a besoin de son propre formalisme mathématique personnalisé et adapté. Le 'formalisme de Quoudroplean' utilise des cadres mathématiques et des théorèmes alternatifs et bizarres, qui ne s'inscrivent pas dans l'univers classique des mathématiques et qui ont été considérés comme totalement inapplicables et inadéquats pour l'analyse et l'étude de la réalité."
 
       # Non-paradoxical Information Supercausality
       tech_abstract_4:0 "Information non paradoxale Supercausalité"
-      tech_abstract_4_desc:0 "Le transport de l'information, de la matière et de l'énergie dans la physique non abstraite est strictement lié à la vitesse de la causalité, qui est elle-même limitée et relativement petite par rapport à la taille de l'univers. Seuls les processus dans lesquels aucune information n'est transmise ou la courbure de l'espace-temps peuvent permettre une apparition plus rapide que la vitesse de causalité. Cependant, en physique abstraite, les frontières entre ce qui est une règle fixe et ce qui ne l'est pas sont fluides et changeantes. Il existe certaines façons de contourner ces règles, de les modifier ou même de les ignorer tout simplement. Aussi absurde que cela puisse paraître. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
+      tech_abstract_4_desc:0 "Le transport de l'information, de la matière et de l'énergie dans la physique non abstraite est strictement lié à la vitesse de la causalité, qui est elle-même limitée et relativement petite par rapport à la taille de l'univers. Seuls les processus dans lesquels aucune information n'est transmise ou la courbure de l'espace-temps peuvent permettre une apparition plus rapide que la vitesse de causalité. Cependant, en physique abstraite, les frontières entre ce qui est une règle fixe et ce qui ne l'est pas sont fluides et changeantes. Il existe certaines façons de contourner ces règles, de les modifier ou même de les ignorer tout simplement. Aussi absurde que cela puisse paraître."
 
       # Transdimensional Overspin-Network Landscape
       tech_abstract_5:0 "Physique abstraite extrême appliquée"
@@ -5215,11 +5217,11 @@
 
       # Negative Pressure Application
       tech_negative_pressure:0 "Application de la pression négative"
-      tech_negative_pressure_desc:0 "La pression négative est un phénomène qui a déjà été observé dans l'effet casimir de la mécanique quantique. Là, elle se manifeste sous la forme de fluctuations du vide, mais elle est incontrôlable. La physique abstraite appliquée a conduit à la découverte de moyens alternatifs, mieux applicables et plus efficaces pour générer et contrôler la pression négative. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
+      tech_negative_pressure_desc:0 "La pression négative est un phénomène qui a déjà été observé dans l'effet casimir de la mécanique quantique. Là, elle se manifeste sous la forme de fluctuations du vide, mais elle est incontrôlable. La physique abstraite appliquée a conduit à la découverte de moyens alternatifs, mieux applicables et plus efficaces pour générer et contrôler la pression négative."
 
       # Negative Energy Studies
       tech_negative_e_s:0 "Études sur les énergies négatives"
-      tech_negative_e_s_desc:0 "L'énergie négative est un sujet purement hypothétique, controversé et extrêmement abstrait, qui a été écarté pendant longtemps. Du moins jusqu'à la découverte de la masse négative stable et époustouflante. La physique abstraite nous permettra d'étudier plus avant ce phénomène apparemment impossible, mais pourtant réel, de masse et d'énergie négatives, possédant une densité d'énergie négative et même une énergie cinétique négative. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
+      tech_negative_e_s_desc:0 "L'énergie négative est un sujet purement hypothétique, controversé et extrêmement abstrait, qui a été écarté pendant longtemps. Du moins jusqu'à la découverte de la masse négative stable et époustouflante. La physique abstraite nous permettra d'étudier plus avant ce phénomène apparemment impossible, mais pourtant réel, de masse et d'énergie négatives, possédant une densité d'énergie négative et même une énergie cinétique négative."
 
       # Hardlight Construct Utilization
       tech_hardlight_c_u:0 "Utilisation de la structure Lumière dure"
@@ -5231,15 +5233,15 @@
 
       # Prototype Negative Mass Utilities
       tech_nm_utilization_1:0 "Prototype d'utilisation de la masse négative"
-      tech_nm_utilization_1_desc:0 "La première génération de dispositifs, de processus et de méthodes utilisant la masse négative, unique et exotique. Ce sont encore des prototypes expérimentaux et ils n'utilisent pas tout le potentiel de la masse négative, mais ils sont néanmoins puissants. Ils nous permettront d'augmenter considérablement la puissance économique et militaire de notre empire. De l'amélioration considérable de l'astro-ingénierie et de la construction planétaire, aux propulseurs PRL pour les voyages intrastellaires, à la manipulation extrême des corps stellaires. La masse négative est un atout incroyablement puissant. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
+      tech_nm_utilization_1_desc:0 "La première génération de dispositifs, de processus et de méthodes utilisant la masse négative, unique et exotique. Ce sont encore des prototypes expérimentaux et ils n'utilisent pas tout le potentiel de la masse négative, mais ils sont néanmoins puissants. Ils nous permettront d'augmenter considérablement la puissance économique et militaire de notre empire. De l'amélioration considérable de l'astro-ingénierie et de la construction planétaire, aux propulseurs PRL pour les voyages intrastellaires, à la manipulation extrême des corps stellaires. La masse négative est un atout incroyablement puissant."
 
       # Advanced Negative Mass Utilities
       tech_nm_utilization_2:0 "Utilisation avancée de la masse négative"
-      tech_nm_utilization_2_desc:0 "Le potentiel de la masse négative est vaste. Une meilleure compréhension de cette ressource bizarre nous permet de développer et de créer des ressources de masse négative encore plus avancées et puissantes. Des utilitaires de masse négative avancés, qui utilisent tout le potentiel de la masse négative, rendront notre empire encore plus puissant. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
+      tech_nm_utilization_2_desc:0 "Le potentiel de la masse négative est vaste. Une meilleure compréhension de cette ressource bizarre nous permet de développer et de créer des ressources de masse négative encore plus avancées et puissantes. Des utilitaires de masse négative avancés, qui utilisent tout le potentiel de la masse négative, rendront notre empire encore plus puissant."
 
       # Métal sensible Utilities
       tech_nm_utilization:0 "Utilisation de la masse négative"
-      tech_nm_utilization_desc:0 "L'utilisation de l'unique et exotique 'masse négative' crée d'innombrables opportunités technologiques. De l'amélioration considérable de l'astro-ingénierie et de la construction planétaire, en passant par les propulseurs PRL pour les voyages intrastellaires, jusqu'à la manipulation extrême des corps stellaires. La masse négative est un atout incroyablement puissant. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
+      tech_nm_utilization_desc:0 "L'utilisation de l'unique et exotique 'masse négative' crée d'innombrables opportunités technologiques. De l'amélioration considérable de l'astro-ingénierie et de la construction planétaire, en passant par les propulseurs PRL pour les voyages intrastellaires, jusqu'à la manipulation extrême des corps stellaires. La masse négative est un atout incroyablement puissant."
 
       # Micro-wormhole Destination Precognition
       tech_prob_c:0 "Précognition des destinations de $ehof_wormhole$ "
@@ -5247,11 +5249,11 @@
 
       # Electroweak Quasi-Field Materialization
       tech_condensed_ews:0 "Matérialisation du quasi-champ électrofaible"
-      tech_condensed_ews_desc:0 "Les états d'énergie extrêmement élevés conduisent à l'unification de la force électromagnétique et de la force faible en leur force initiale, la 'force électrofaible'. Les secrets de l'Éternel Changeant nous ont révélé comment manifester des ' quasi-champs électrofaibles ' physiques, qui ouvrent des possibilités de manipulation extrêmement précise du champ et de l'espace-temps, jusqu'au niveau de la mousse quantique elle-même. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
+      tech_condensed_ews_desc:0 "Les états d'énergie extrêmement élevés conduisent à l'unification de la force électromagnétique et de la force faible en leur force initiale, la 'force électrofaible'. Les secrets de l'Éternel Changeant nous ont révélé comment manifester des ' quasi-champs électrofaibles ' physiques, qui ouvrent des possibilités de manipulation extrêmement précise du champ et de l'espace-temps, jusqu'au niveau de la mousse quantique elle-même."
 
       # Arcane Rift Generator Restoration
       tech_arcane_g_r:0 "Restauration du générateur de failles arcaniques"
-      tech_arcane_g_r_desc:0 "Les secrets de du Chaos permanent nous ont permis de contrôler l'énigmatique Métal sensible. Avec l'aide de ce métal et de la Masse Négative, nous sommes maintenant en mesure de restaurer entièrement le Générateur de faille arcanique à sa gloire d'antan, ce qui nous permet de l'utiliser à son plein potentiel. \n§B(Requis pour le développement de l'I.D.H.E.)§!"
+      tech_arcane_g_r_desc:0 "Les secrets de du Chaos permanent nous ont permis de contrôler l'énigmatique Métal sensible. Avec l'aide de ce métal et de la Masse Négative, nous sommes maintenant en mesure de restaurer entièrement le Générateur de faille arcanique à sa gloire d'antan, ce qui nous permet de l'utiliser à son plein potentiel."
 
       # Event Horizon Offset Facility Alpha
       allow_ehof_p1:0 "§HDéverrouille la mégastructure :§! $ehof_ehofp1$"
@@ -5298,6 +5300,11 @@
     allow_ehof_p4:0 "§HDéverrouille la mégastructure :§! $ehof_ehofp4$"
     tech_ehof_phase_04:0 "$ehof_ehofp4$"
     tech_ehof_phase_04_desc:0 "Utilisant les mystères de l'Éternel Changement, l'$ehof_ehofp4$ est la forme parfaite de l'I.D.H.E., capable de voyager vers n'importe quel endroit de notre choix, sans limites ni risques. Des possibilités illimitées nous attendent."
+
+    tech_ehof_phase_04_partial_custom:0 "§HAperçu du futur :§! $tech_ehof_phase_04$"
+    tech_ehof_phase_04_partial_custom_desc:0 "Grâce aux connaissances glanées dans l'Éternel, nous nous trouvons au bord du précipice d'une nouvelle ère de voyage à travers les vortex. Bien que nous n'en saisissions pas encore toutes les subtilités, si nous pouvons maîtriser ces principes, il sera peut-être possible de perfectionner l'I.D.H.E."
+
+
 
       # Light Conductuction Distribution Systems
       tech_l_conductor:0 "Systèmes de distribution par conduction lumineuse"
@@ -15775,6 +15782,9 @@ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_NANOBOTS_SYSTEMCRAFT: "$FLEETORDER_
 
     giga_blokkat.1008.name:0 "Les Blokchats"
     giga_blokkat.1008.desc:0 "La diffusion subspatiale des Blokchats ne laisse aucune place à une interprétation créative de leurs objectifs. Bien que la méthode exacte qu'ils emploieront pour y parvenir ne soit pas encore connue, des scans préliminaires à longue portée ont déjà été entrepris sur leur colossal vaisseau-mère actuellement stationné dans le système de §Y[blokkat_spawn_system.GetName]§!, pour évaluer leur force actuelle. \n\nMalheureusement pour nous et le reste de la galaxie, les résultats de ces scanners dressent un tableau bien sombre. En effet, le vaisseau-mère semble être entouré d'une colossale masse d'énergie, formant un bouclier environ §Ydeux quadrillions§! fois plus puissant que ce que n'importe quel dispositif de protection de la taille d'une étoile pourrait manifester.\n\nEn l'état, leur vaisseau-mère et tout ce qui se trouve dans le système environnant seraient complètement §Yinvulnérables§! à §Rtoutes§! formes de dégâts, quelle que soit leur source ou leur intensité. Le bouclier ne s'étend cependant qu'au système du vaisseau-mère, ce qui signifie que tout vaisseau Blokchat s'aventurant dans les systèmes voisins devrait pouvoir être détruit avec une puissance de feu suffisante.\n\nMais pour l'instant, des analyses supplémentaires devront être menées de toute urgence sur l'énorme bouclier du vaisseau-mère si nous voulons un jour l'abattre et empêcher les Blokchats de consommer entièrement notre galaxie."
+    giga_blokkat.1008.a.tooltip:0 "\n§BNOTE AU JOUEUR : SI LES PORTRAITS DE BLOKKAT SONT INVISIBLES, VOUS POURRIEZ AVOIR UN CONFLIT DE MOD ! OBTENEZ LE MOD §Y'SHADERS MERGE'§! ET PLACEZ-LE AU BAS DE VOTRE ORDRE DE CHARGEMENT POUR LES FAIRE APPARAÎTRE CORRECTEMENT§!."
+
+
     giga_blokkat.1008.a:0 "Bien reçu."
 
     blokkat_chain_title:0 "Les Blokchats"
