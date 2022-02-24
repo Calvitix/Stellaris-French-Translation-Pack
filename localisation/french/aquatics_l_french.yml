@@ -1,10 +1,14 @@
 ﻿l_french:
 
+# Original File, Overwritten by FrenchTranslationPack
+# Calvitix 3.3.1 Check OK, 23/02/2022
+#
+
  vo_aquatics_voice:0 "Aquatique"
 
  trait_aquatic:0 "Aquatique"
  trait_aquatic_desc:0 "§LCette espèce est parfaitement adaptée à la vie au plus profond des océans. Mais, sur la terre ferme, ses membres sont comme un poisson sorti de l'eau...§!\n"
- trait_aquatic_tooltip:1 "Sur les mondes §Yocéaniques§! :\n  £housing£Logements nécessaires : §G-10%§!\n Prod. de £food£nourriture, £energy£énergie et £minerals£minéraux : §G+10%§!\nSur les mondes §Ynon humides§! :\n  £housing£Logements nécessaires : §R+30%§!\n  Habitabilité : §R-20%§!\n\nL'atout de l'ascension §H$ap_hydrocentric$§! renforce les effets de ce trait."
+ trait_aquatic_tooltip:2 "Sur les mondes §Yocéaniques§! et les §Yhabitats inondés§! :\n  £housing£Logements nécessaires : §G-10%§!\n Prod. de £food£nourriture, £energy£énergie et £minerals£minéraux : §G+10%§!\nSur les mondes §Ynon humides§! :\n  £housing£Logements nécessaires : §R+30%§!\n  Habitabilité : §R-20%§!\n\nL'atout de l'ascension §H$ap_hydrocentric$§! renforce les effets de ce trait."
  trait_aquatic_remove_evolutionary_mastery:0 "§RNécessite l'atout de l'ascension §Y$ap_evolutionary_mastery$§! pour être retiré.§!"
  trait_aquatic_remove_hydrocentric:0 "§RLe trait §Y$trait_aquatic$§! ne peut être retiré après avoir choisi l'atout de l'ascension §Y$ap_hydrocentric$§!.§!"
 
@@ -73,7 +77,7 @@
  aquatics.160.desc:0 "Le dragon semble avoir compris nos intentions, et s'est posé avec grâce dans une région bien dégagée à la surface de §Y[Root.GetName]§!. La grande quantité de nourriture que nous y avions laissée a sans doute contribué à l'y attirer, et il s'y est attaqué avec une voracité incroyable.\n\nLes [Root.Owner.GetResearchers] l'observent à une distance certaine."
  aquatics.160.A:0 "Soyons prudents"
  aquatics.165.name:0 "$aquatics.160.name$"
- aquatics.165.desc.normal:0 "Après avoir effectué plusieurs survols de §Y[Root.GetName]§!, le dragon a apparemment décidé qu'il pouvait se poser sans danger. S'il a bien choisi une région assez isolée, un certain nombre de [Root.Owner.GetSpeciesNamePlural] ont été tués, et il a fallu en déplacer de nombreux autres. Cela n'est après tout pas si surprenant, étant donné sa taille incroyable et son féroce appétit.\n\nIl semble maintenant s'être installé là pour un moment, et décime la flore et la faune locales à une vitesse pour le moins alarmante. La population locale a quant à elle sagement choisi de garder ses distances."
+ aquatics.165.desc.normal:1 "Après avoir effectué plusieurs survols de §Y[Root.GetName]§!, le dragon a apparemment décidé qu'il pouvait se poser sans danger. S'il a bien choisi une région assez isolée, un certain nombre de [Root.Owner.GetSpeciesNamePlural] ont été tués, et il a fallu en déplacer de nombreux autres. Cela n'est après tout pas si surprenant, étant donné sa taille incroyable et son féroce appétit.\n\nIl semble maintenant s'être installé là pour un moment, et décime la flore et la faune locales à une vitesse pour le moins alarmante. La population locale a quant à elle sagement choisi de garder ses distances."
  aquatics.165.desc.gestalt:0 "Après avoir effectué plusieurs survols de §Y[Root.GetName]§!, le dragon a apparemment décidé qu'il pouvait se poser sans danger. S'il a bien choisi une région assez isolée, un certain nombre de drones ont été tués, et il a fallu en déplacer de nombreux autres. Cela n'est après tout pas si surprenant étant donné sa taille incroyable et son féroce appétit.\n\nIl semble maintenant s'être installé là pour un moment, et décime la faune et la flore locales à une vitesse pour le moins alarmante. Les drones, quant à eux, gardent sagement leurs distances."
  aquatics.170.name:0 "L'envol du dragon"
  aquatics.170.desc:0 "Après avoir passé plusieurs années à se goinfrer sur les récoltes et de toutes sortes de victuailles qu'avait à lui offrir §Y[Root.GetName]§!, le dragon céleste, désormais remplumé, a repris son envol. Poussant un dernier rugissement en guise de salut, il s'est élevé vers les cieux, ne laissant derrière lui qu'une collection impressionnante d'écailles, d'exuvies et d'autres sous-produits dus à sa présence."
@@ -161,7 +165,7 @@
 
  ap_hydrocentric:0 "Hydrocentrisme"
  ap_hydrocentric_desc:0 "Nous ne devons pas nous contenter d'imitations au rabais de nos demeures océaniques. Aucun monde ne doit être jugé colonisable tant qu'il n'aura pas été entièrement inondé."
- ap_hydrocentric_tooltip:1 "Permet la construction de §Ystations de minage de glace§! sur les bases stellaires, donnant accès à la décision §Y$decision_expand_planetary_sea$§! sur les mondes §Yocéaniques§!.\nLes espèces ayant le trait §Y$trait_aquatic$§! tirent 50% de bénéfices supplémentaires lorsqu'elles vivent sur les mondes §Yocéaniques§!, mais les pénalités liées aux mondes §Ynon humides§! sont elles aussi majorées."
+ ap_hydrocentric_tooltip:2 "Permet la construction de §Ystations de minage de glace§! sur les bases stellaires, donnant accès à la décision §Y$decision_expand_planetary_sea$§! sur les mondes §Yocéaniques§! et §Y$decision_flood_habitat$§! sur les §Yhabitats§!.\nLes espèces ayant le trait §Y$trait_aquatic$§! tirent 50% de bénéfices supplémentaires lorsqu'elles vivent sur les mondes §Yocéaniques§!, mais les pénalités liées aux mondes §Ynon humides§! sont elles aussi majorées."
  ap_hydrocentric_deluge_tooltip:0 "Permet l'armement §Y$PLANET_KILLER_DELUGE$§! des vaisseaux de classe colosse."
  ap_hydrocentric_deluge_pre_unlock_tooltip:0 "Permet l'armement §YDéluge§! des vaisseaux de classe colosse §R(requiert l'atout de l'ascension §Y$ap_colossus$§!)§!."
 
@@ -175,7 +179,7 @@
 
  sm_ice_mining_station:0 "Station de minage de glace"
  sm_ice_mining_station_desc:0 "Ce système constitue une source abondante de glace inexploitée. En y établissant une station de collecte, cette glace pourra être mise à profit en créant des mondes habitables pour notre espèce.\n\n$ice_mining_details$\n"
- ice_mining_station_tooltip:0 "Modificateur du système :\n    $mod_station_gatherers_produces_mult$ : §G+15%§!\nDonne accès à la décision §Y$decision_expand_planetary_sea$§! sur les mondes océaniques."
+ ice_mining_station_tooltip:2 "Modificateur du système :\n    $mod_station_gatherers_produces_mult$: §G+15%§!\nDonne accès aux décisions §Y$decision_expand_planetary_sea$§! sur les mondes océaniques et §Y$decision_flood_habitat$§! sur les §Yhabitats§!."
  requires_ice_source:0 "§RNécessite au moins un astéroïde glacé ou un monde gelé dans le système.§!"
  ice_mining_details:0 "Les astéroïdes glacés peuvent être minés une fois, les mondes gelés jusqu'à 3 fois."
  has_ice_source:0 "§YMinage de glace disponible.§!"
@@ -189,22 +193,22 @@
  requires_max_3_times_ice_dumping:0 "$TRIGGER_PASS$ Ne peut être fait que §Y3§! fois par monde (déjà fait §Y[This.ice_dumping_happened]§! fois)."
  ICE_MINING_INTERRUPTED_TITLE:0 "Minage de glace interrompu"
  ICE_MINING_INTERRUPTED_DESC:0 "Aucune source de glace n'étant disponible, la tentative en cours pour étendre l'océan planétaire sur §Y[This.GetName]§! a été abandonnée."
- # [LocEditor:UntranslatedKey] `ICE_MINING_INTERRUPTED_HABITAT_DESC`
+ ICE_MINING_INTERRUPTED_HABITAT_DESC:0 "Aucune source de glace n'étant disponible, la tentative pour inonder §Y[This.GetName]§! a été abandonnée."
  ICE_MINING_SUCCESS_TITLE:0 "Extension de l'océan planétaire"
  ICE_MINING_SUCCESS_DESC:0 "Grâce à la glace minée dans le système de $SYSTEM|Y$, l'océan planétaire de §Y[This.GetName]§! a pu être étendu."
  ICE_MINING_SUCCESS_BUT_EXHAUSTED_DESC:0 "$ICE_MINING_SUCCESS_DESC$\n\nToutefois, l'approvisionnement en glace est tari, aussi la §Ystation de minage de glace§! a-t-elle été démantelée."
- # [LocEditor:UntranslatedKey] `ICE_MINING_HABITAT_SUCCESS_TITLE`
- # [LocEditor:UntranslatedKey] `ICE_MINING_HABITAT_SUCCESS_DESC`
- # [LocEditor:UntranslatedKey] `ICE_MINING_HABITAT_SUCCESS_BUT_EXHAUSTED_DESC`
+ ICE_MINING_HABITAT_SUCCESS_TITLE:0 "Habitat inondé"
+ ICE_MINING_HABITAT_SUCCESS_DESC:0 "Grâce à la glace minée dans le système de $SYSTEM|Y$, l'habitat de §Y[This.GetName]§! a pu être inondé."
+ ICE_MINING_HABITAT_SUCCESS_BUT_EXHAUSTED_DESC:0 "$ICE_MINING_SUCCESS_HABITAT_DESC$\n\nToutefois, l'approvisionnement en glace est tari, aussi la §Ystation de minage de glace§! a-t-elle été démantelée."
  ice_mined_planet:0 "Minages de glace"
  ice_mined_planet_desc:0 "Conséquence des opérations de minage de glace qui y ont été menées, [Root.GetName] s'est trouvée réduite, dans le sens littéral du terme."
 
- # [LocEditor:UntranslatedKey] `decision_flood_habitat`
- # [LocEditor:UntranslatedKey] `decision_flood_habitat_desc`
- # [LocEditor:UntranslatedKey] `decision_flood_habitat_tooltip`
- # [LocEditor:UntranslatedKey] `flooded_habitat`
- # [LocEditor:UntranslatedKey] `flooded_habitat_desc`
- # [LocEditor:UntranslatedKey] `flooded_habitat_tooltip`
+ decision_flood_habitat:0 "Inondation de l'habitat"
+ decision_flood_habitat_desc:0 "Les habitats pourraient être des lieux de vie parfaits pour nous, si seulement ils disposent d'eau en abondance. Les opérations de minage de glace permettent toutefois d'en prélever sur les autres corps célestes pour inonder [This.GetName] et en faire un aquarium orbital."
+ decision_flood_habitat_tooltip:0 "Habitabilité : §R-20%§!\nSera considéré comme un monde §Yocéanique§! pour les espèces §Yaquatiques§!.\nLa glace peut être collectée dans un système dont la base stellaire dispose d'une §Ystation de minage de glace§!."
+ flooded_habitat:0 "Habitat inondé"
+ flooded_habitat_desc:0 "[Root.GetName] a été inondée afin d'imiter l'environnement naturel des créatures aquatiques."
+ flooded_habitat_tooltip:0 "Habitabilité : §R-20%§!\nConsidéré comme un monde §Yocéanique§! pour les espèces §Yaquatiques§!."
 
  # Ocean Paradise Origin
  origin_ocean_paradise:0 "Paradis océanique"

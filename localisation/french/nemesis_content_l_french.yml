@@ -1,6 +1,6 @@
 ﻿l_french:
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.1.1. Check OK, 16/09/2021
+# Calvitix 3.3.1. Check OK, 23/02/2022
 #
 
  CRISIS_TITLE_TXT:0 "Niveau de la crise :"
@@ -250,13 +250,13 @@
  espionage.1040.a.tooltip:0 "Nous disposons désormais d'une §Ynouvelle source§! pour le réseau d'espionnage établi dans l'espace de '§H[luckycatch_country.GetName]§!."
 
  espionage.1050.name:0 "Trouver n'est pas voler"
- espionage.1050.desc:0 "Un agent particulièrement perspicace, déployé dans l'espace de '§Y[finderskeepers_country.GetName]§!', a mis la [Root.Species.GetHandName] sur une portion de §Hclef de cryptage [finderskeepers_country.Species.GetName]§!. Il semblerait qu'un administrateur particulièrement négligent aurait égaré le dispositif en dehors de ses horaires de travail.\n\nC'est non seulement de très bon augure pour nos opérations dans la [finderskeepers_country.GetName], mais l'étude de ce système unique a aussi fourni des informations capitales pour notre approche générale du §Ydécryptage§!."
+ espionage.1050.desc:0 "Un agent particulièrement perspicace, déployé dans l'espace de '§Y[finderskeepers_country.GetName]§!', a mis la [Root.Species.GetHandName] sur une portion de §Hclef de cryptage [finderskeepers_country.GetSpeciesName]§!. Il semblerait qu'un politicien particulièrement négligent aurait égaré le dispositif en dehors de ses horaires de travail.\n\nC'est non seulement de très bon augure pour nos opérations dans la [finderskeepers_country.GetName], mais l'étude de ce système unique a aussi fourni des informations capitales pour notre approche générale du §Ydécryptage§!."
 
  espionage.1060.name:0 "Déclaration de perte"
- espionage.1060.desc:0 "Un de nos administrateurs, sur [Root.Capital.GetName], a négligemment égaré un lot de documents ultra-secrets, dont une §Hclef de cryptage§! dont le simple fait qu'elle soit sortie des sites gouvernementaux indique une faille béante dans les protocoles de sécurité.\n\nLes autorités intérieures ont déjà lancé la course pour modifier toutes les plateformes de sécurité, car il est tout à fait possible que ces documents soient tombés entre des [Root.Species.GetHandNamePlural] hostiles."
+ espionage.1060.desc:1 "Un de nos politiciens, sur §Y[Root.Capital.GetName]§!, a négligemment égaré un lot de documents ultra-secrets, dont une §Hclef de cryptage§! dont le simple fait qu'elle soit sortie des sites gouvernementaux indique une faille béante dans les protocoles de sécurité.\n\nLes autorités intérieures ont déjà lancé la course pour modifier toutes les plateformes de sécurité, car il est tout à fait possible que ces documents soient tombés entre des [Root.Species.GetHandNamePlural] hostiles."
  espionage.1060.desc.corp:0 "Un de nos directeurs, sur [Root.Capital.GetName], a négligemment égaré un lot de documents ultra-secrets, dont une §Hclef de cryptage§! dont le simple fait qu'elle soit sortie des bureaux du siège social indique une faille béante dans les protocoles de sécurité.\n\nLes équipes de sécurité ont déjà lancé la course pour modifier les procédures opérationnelles, car il est tout à fait possible que ces documents soient tombés entre les [Root.Species.GetHandNamePlural] de nos concurrents."
  espionage.1060.a:0 "Tous les responsables, dehors !"
- espionage.1060.a.tooltip:0 "Une pop d'£job_administrator£§Yadministrateurs§! du monde capitale est renvoyée et §Rdéclassée§!."
+ espionage.1060.a.tooltip:1 "Une pop de £job_politician£§Ypoliticiens§! de §Y[Root.Capital.GetName]§! est renvoyée et §Rdéclassée§!."
  espionage.1060.b:0 "$espionage.1060.a$"
  espionage.1060.b.tooltip:0 "Une pop de £job_executive£§Ydirecteurs§! du monde capitale est renvoyée et §Rdéclassée§!."
 
@@ -793,7 +793,7 @@
  espionage_finderskeepers:0 "Clef de cryptage trouvée"
  espionage_finderskeepers_desc:0 "L'un de nos agents a récemment trouvé une clef de cryptage, perdue par un administrateur d'une puissance étrangère. L'étude de sa conception a fourni des informations nouvelles dans les techniques de décryptage."
  espionage_straycomm:0 "Clef de cryptage égarée"
- espionage_straycomm_desc:0 "Un de nos administrateurs a récemment égaré des documents ultra-secrets, dont une clef de cryptage direct. La sécurité intérieure est donc compromise."
+ espionage_straycomm_desc:1 "Un de nos politiciens a récemment égaré des documents ultra-secrets, dont une clef de cryptage direct. La sécurité intérieure est donc compromise."
  espionage_drain_resources_exploit:0 "Agents entreprenants"
  espionage_drain_resources_exploit_desc:0 "Un groupe d'agents de l'un de nos réseaux d'espionnage a été pris en train de faire du profit dans les sociétés locales. Notre $role_spymaster$ a donc imposé son autorité sur leur compagnie fantôme, à notre avantage cette fois."
 
@@ -965,7 +965,7 @@
  resolution_emperor_by_election_tooltip:0 "L'appartenance au Conseil impérial est déterminée par des élections dépendant du £diplo_weight£§Ypoids diplomatique§!."
 
  resolution_emperor_ina:0 "Agence de navigation impériale"
- resolution_emperor_ina_desc:0 "$resolution_custodian_ina_desc$"
+ resolution_emperor_ina_desc:1 "L'ANI permettra d'imposer des normes et pratiques standardisées recommandées concernant le voyage spatial, tout en veillant au maintien d'une base de données colossale où sera mentionné chaque danger connu dans les systèmes de l'espace impérial galactique."
  resolution_emperor_disband_ina:0 "Démanteler l'Agence de navigation impériale"
  resolution_emperor_disband_ina_desc:0 "$resolution_custodian_disband_ina_desc$"
  resolution_emperor_gto:0 "$resolution_custodian_gto$"

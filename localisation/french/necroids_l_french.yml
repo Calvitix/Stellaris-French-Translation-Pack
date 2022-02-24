@@ -1,6 +1,6 @@
 ﻿l_french:
 
-#Calvitix 3.3b : 22/01/2022
+#Calvitix 3.3.1 : 23/02/2022
 
  ########################
  # Necroids Species Pack
@@ -78,7 +78,12 @@
  job_mortal_initiate_effect_desc:0 "Les £job_mortal_initiate£initiés mortels transforment les £consumer_goods£§Ybiens de consommation§! en recherche £society£§Ysociale§!."
  mod_job_mortal_initiate_add:0 "Emplois d'initiés mortels"
  mod_job_mortal_initiate_per_pop:0 "§G+1§! emploi d'£job_mortal_initiate£initié mortel par palier de $VALUE$ pops"
- mod_job_mortal_initiate_per_pop_short:0 "\n§G+1§! £mod_job_mortal_initiate_add£ pour $VALUE$£pop£"
+ mod_job_mortal_initiate_per_pop_short:0 "\n§G+1§! £mod_job_mortal_initiate_add£ pour $VALUE$ £pop£"
+ jobs_death_priest_and_mortal_initiate_effect_desc:0 "$job_death_priest_effect_desc$\n$job_mortal_initiate_effect_desc$"
+
+ edict_sacrifice_dummy:0 "Sacrifices"
+ edict_sacrifice_dummy_desc:0 "Les plus dévots d'entre nous sont déjà prêts à faire face à leur sort et à donner leur vie pour faire progresser la société. Grâce aux sacrifices pour l'§Hunicité§!, l'§Hharmonie§! et la §Hprospérité§!, ils n'auront pas besoin d'attendre davantage."
+ edict_sacrifice_dummy_tooltip:0 "§RTue tous les £job_mortal_initiate£initiés mortels.§! Selon le rituel choisi, chaque sacrifié va accroître l'£unity£unité suscitée, le £happiness£bonheur des pops ou la production de £minerals£minéraux et d'£energy£énergie."
 
  edict_sacrifice_togetherness:0 "Sacrifice pour l'unicité"
  edict_sacrifice_togetherness_desc:0 "Les plus dévots d'entre nous sont préparés à faire face à leur sort afin de veiller à ce que la société soit réunie. Que notre unité brille dans l'obscurité de l'espace !"
@@ -233,6 +238,32 @@
  mod_job_chronicle_drone_per_pop_short:0 "\n§G+1§! £mod_job_chronicle_drone_add£ pour $VALUE$£pop£"
  action.62.memorialist.a:0 "Ils resteront dans nos mémoires"
 
+ ### Permanent Employment by Victor Haeggman
+ civic_permanent_employment:0 "Emploi perpétuel"
+ civic_permanent_employment_desc:0 "Cette mégacorporation veille à ce que jamais aucun de ses employés soit inoccupé. Jamais. Lorsque son temps est révolu, il est réaffecté à des tâches plus simples, afin de continuer à pourvoir aux besoins de sa famille et de rembourser ses dettes."
+ civic_tooltip_permanent_employment_effects:0 "Permet de construire des £building£§YOffices des Emplois Posthumes§!.\n$job_reassigner_effect_desc$\nLes léviathans organiques vaincus peuvent parfois être ressuscités."
+ job_reassigner:0 "$job_reassigner_plural$"
+ job_reassigner_desc:0 "Les réaffecteurs sont chargés de veiller à ce que, pour chaque citoyen de la mégacorporation décédé, ses restes continuent de travailler jusqu'à ce que son contrat ait été rempli."
+ job_reassigner_plural:0 "Réaffecteurs"
+ job_reassigner_effect_desc:0 "(les £job_necromancer£réaffecteurs transforment les £consumer_goods£§Ybiens de consommation§! et soit la £food£§Ynourriture§!, soit les £minerals£§Yminéraux§! en £mod_pop_growth_speed£§Yassemblage mensuel des pops organiques§!, toutes les £pop£pops assemblées recevant le trait §Y$trait_zombie$§!)"
+ planet_reassigners:0 "Emplois de réaffecteurs"
+ mod_job_reassigner_add:0 "Emplois de £job_necromancer£réaffecteurs "
+ trait_zombie:0 "Zombies"
+ trait_zombie_desc:0 "§LUltimes vestiges d'êtres autrefois conscients, ces enveloppes corporelles désormais vides ne peuvent plus guère faire autre que les tâches les plus simples.§!"
+ TRAIT_ZOMBIE_EFFECT:0 "$mod_planet_jobs_produces_mult$: §R-25%§!\n$mod_planet_pops_upkeep_mult$: §G-100%§!\nNe peut donner naissance à des §Ypersonnalités§!\nNe peut être employée comme £pop_cat_ruler£§Ygouvernants§! ou £pop_cat_specialist£§Yspécialistes§!."
+ building_posthumous_employment_center:0 "Office des Emplois Posthumes"
+ building_posthumous_employment_center_desc:0 "À l'Office des Emplois Posthumes, des cadavres dépourvus de toute conscience peuvent continuer de servir tout en contribuant à rembourser leurs dettes."
+ edict_sacrifice_bounty_zombie:0 "$edict_sacrifice_bounty$"
+ edict_sacrifice_bounty_zombie_desc:0 "Les plus dévots d'entre nous sont préparés à faire face à leur sort, confiants dans le fait que la société sera enrichie de leur sacrifice final. Nos morts ont une grande valeur pour la firme, et nos corps continueront de servir."
+ edict_sacrifice_bounty_zombie_tooltip:0 "$edict_sacrifice_bounty_tooltip$\nPour tous les £job_necromancer£réaffecteurs : §G+1§! en £mod_pop_growth_speed£§YAssemblage mensuel des pops organiques§!"
+
+ necroids.260.name:0 "Drones décomposés productifs"
+ necroids.260.desc:0 "Les cadres supérieurs étaient tous réunis pour une holo-réunion afin de discuter la croissance sur le marché des produits d'hygiène pour zombies, lorsque l'un des adjoints du directeur général des Ressources Non Vivantes a surgi dans la salle de conférence : « Un des zombies de §Y[debt_free_zombie.Planet.GetName]§! a réussi à rembourser ses dettes ! » Tous ont éclaté de rire avant de réaliser quelles pouvaient être les conséquences si c'était avéré. Un silence glacial s'est abattu sur la salle, avant que les discussions reprennent, agitées, tous voulant avoir immédiatement une estimation de l'impact précis que cela aurait sur l'approvisionnement en travailleurs réanimés.\n\nAu terme de quelques analyses, il s'avère que ce cas ne peut être qu'extrêmement rare. Seuls les morts dont le corps a duré plus d'un siècle peuvent parvenir à rembourser l'intégralité de leur dette. Autant le dire, leur nombre est extrêmement réduit. L'impact pour la Firme serait donc négligeable s'il était décidé d'accorder le repos à ces travailleurs."
+ necroids.260.a:0 "Ils ont mérité leur repos, accordons-leur cette grâce"
+ necroids.260.b:0 "Rajoutons juste un ou deux zéros à leurs créances"
+
+ zombie_contract_manipulation:0 "Contrats des zombies traficotés"
+ zombie_contract_manipulation_desc:0 "Il a été procédé à quelques « arrangements » avec les contrats des travailleurs zombies pour qu'il leur soit impossible de rembourser l'intégralité de leurs dettes."
  ### Miscellaneous
 
  vo_necroid_voice:0 "Nécroïde"

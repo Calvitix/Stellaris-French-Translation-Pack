@@ -1,5 +1,9 @@
 ﻿l_french:
 
+ ####################################
+ # Warning : Original Stellaris File (Adaptation by Calvitix)
+ # Update check 3.3.1 : 23.02.2022
+ ####################################
  # Anomaly Category
  the_lonely_bot_category:0 "Signes d'une vie ancienne"
  the_lonely_bot_category_desc:0 "Des signes montrent que §H[Root.GetName]§! abritait autrefois une civilisation ancienne."
@@ -39,8 +43,10 @@
  job_turtle_miner_gestalt_desc:0 "$job_turtle_miner_desc$"
  mod_job_turtle_miner_add:0 "Emplois de mineurs de nemmas "
  mod_job_turtle_miner_gestalt_add:0 "Emplois de drones miniers de nemmas "
- mod_job_turtle_miner_per_pop:0 "§G+1§! emploi de mineurs de nemmas par palier de $VALUE$ pops"
+ mod_job_turtle_miner_per_pop:1 "§G+1§! emploi de mineur de nemmas par palier de $VALUE$ pops"
+ mod_job_turtle_miner_per_pop_short:0 "\n§G+1§! £job_turtle_miner£ pour $VALUE$£pop£"
  mod_job_turtle_miner_gestalt_per_pop:0 "§G+1§! emploi de drones miniers de nemmas par palier de $VALUE$ pops"
+ mod_job_turtle_miner_gestalt_per_pop_short:0 "\n§G+1§! £job_turtle_miner_gestalt£ pour $VALUE$£pop£"
 
  # Projects
  LONELY_BOT_PROJECT:0 "Restauration de l'usine"
@@ -666,16 +672,16 @@
  fumongus_monitor_pops_desc:0 "Depuis que nous avons pris le contrôle du réseau mycélial de §H[Root.GetName]§!, nous pouvons surveiller les colons qui s'y trouvent."
  disinformation_protocols:0 "Protocoles de désinformation"
 
- UBUME_BABY_CAT: "Débris étranges"
- UBUME_BABY_CAT_DESC: "Les scanners ont identifié un champ de débris d'origine incertaine. Cela pourrait-il avoir un rapport avec le vaisseau scientifique abandonné qui patrouille dans le système   ?"
+ UBUME_BABY_CAT:0 "Débris étranges"
+ UBUME_BABY_CAT_DESC:0 "Les scanners ont identifié un champ de débris dont l'origine n'a pu être déterminée. Cela pourrait-il être lié à ce  vaisseau scientifique abandonné qui patrouille dans le système de [From.System.GetName] ?"
 
- anomaly.6791.name: "Vaisseau fantôme"
- anomaly.6791.desc: "Nos scans du champ de débris de Hillos sont terminés. Possédant à la fois des propriétés organiques et abiogéniques, la structure chimique est différente de tout ce que nous avons vu. Le lien entre les débris et l'étrange vaisseau patrouillant dans le système reste flou. Il n'y a aucun signe de vie à bord. En fait, nous ne pouvons détecter aucune signature énergétique d'aucune sorte. En l'absence d'un meilleur descripteur, nous sommes tombés sur un vaisseau fantôme."
- anomaly.6791.a: "Effrayant."
+ anomaly.6791.name:0 "Vaisseau fantôme"
+ anomaly.6791.desc:0 "Nos scans du champ de débris de Hillos sont terminés. Possédant à la fois des propriétés organiques et abiogéniques, la structure chimique est différente de tout ce que nous avons vu. Le lien entre les débris et l'étrange vaisseau patrouillant dans le système reste flou. Il n'y a aucun signe de vie à bord. En fait, nous ne pouvons détecter aucune signature énergétique d'aucune sorte. En l'absence d'un meilleur descripteur, nous sommes tombés sur un vaisseau fantôme."
+ anomaly.6791.a:0 "Effrayant."
 
- anomaly.6792.name: "Le bébé d'Ubume"
- anomaly.6792.desc: "Notre équipe scientifique a conclu que le vaisseau abandonné, appelé 'Ubume' dans son journal de bord, menait une expérience dans le système Hillos, dont le but était de créer une vie synthétique. Une explosion accidentelle a entraîné la mort de l'équipage du vaisseau, ainsi que celle du nouveau-né. Cependant, l'énergie psionique de faible niveau détectée dans tous les systèmes du vaisseau suggère que le 'fantôme' de la forme de vie a pris possession du vaisseau quelques secondes avant l'accident.\n\nIl est concevable que la conscience naissante ait passé les siècles intermédiaires à rechercher en vain sa mère. Malheureusement, à l'heure actuelle, nous n'avons aucun moyen de communiquer avec l'entité, ni de l'aider à trouver le repos. Pour l'instant, la hantise du système Hillos semble destinée à continuer."
- anomaly.6792.a: "Un triste sort."
+ anomaly.6792.name:0 "Le bébé de l'Ubumé"
+ anomaly.6792.desc:0 "Notre équipe scientifique a conclu que le vaisseau abandonné, appelé 'Ubumé' dans son journal de bord, menait une expérience dans le système de §YHillos§!, dont le but était de créer une vie synthétique. Une explosion accidentelle a entraîné la mort de l'équipage du vaisseau, ainsi que celle du nouveau-né. Cependant, l'énergie psionique de faible niveau détectée dans tous les systèmes du vaisseau suggère que le 'fantôme' de la forme de vie a pris possession du vaisseau quelques secondes avant l'accident.\n\nIl est concevable que la conscience naissante ait passé les siècles intermédiaires à rechercher en vain sa mère. Malheureusement, nous ne disposons pour l'instant d'aucun moyen de communiquer avec elle, ni de l'aider à trouver le repos. Il est donc tout à fait probable qu'elle soit condamnée à errer dans le système..."
+ anomaly.6792.a:0 "Bien triste destin..."
 
 
 
@@ -763,51 +769,56 @@
  anomaly.6788.desc:0 "Les analyses des fluctuations temporelles constatées dans le système de [From.GetStarName] ont révélé quelque chose de remarquable : un prisme gigantesque, flottant dans l'espace. Plutôt que la lumière, il réfléchit le temps. Selon l'angle d'incidence, l'équipage du §Y[Root.GetName]§! a pu constater que le temps s'écoulait à des vitesses différentes. Les balayages biométriques indiquent que certains ont vieilli plus rapidement que d'autres, tandis que certains sont désormais plus jeunes de quelques jours ou années.\n\nQuoi qu'il en soit, si l'étude du prisme a permis une meilleure compréhension de la nature et des propriétés du temps, ses origines et son objet restent malgré tout un véritable mystère."
 
  #snek
- colony.8099.name: "Ophidiens insidieux"
- colony.8099.desc: "Nous avons détecté des essaims de créatures creusant dans le sol de notre colonie sur §H[Root.GetName]§!. Elles pourraient sortir d'un jour à l'autre. Nos scientifiques pensent que les vibrations de la surface ont pu les réveiller d'une sorte de sommeil souterrain."
- colony.8099.a: "Mobilisez les scientifiques et les soldats."
+ colony.8099.name:0 "Ophidiens insidieux"
+ colony.8099.desc:0 "Nous avons détecté des essaims de créatures creusant dans le sol de notre colonie sur §H[Root.GetName]§!. Elles pourraient sortir d'un jour à l'autre. Nos scientifiques pensent que les vibrations de la surface ont pu les réveiller d'une sorte de sommeil souterrain."
+ colony.8099.a:0 "Mobilisons les scientifiques et l'armée"
  
- colony.9100.name: "Subterfuge glissant"
- colony.9100.desc: "Les colons sur §H[Root.GetName]§! signalent que certaines maisons sont maintenant infestées de serpents, et que de nombreuses structures connaissent des coupures de courant. Nous devrions voir s'il y a un lien."
- colony.9100.a: "Observez ces curieuses créatures."
- colony.9100.b: "Forcez-les à quitter la colonie par le feu."
+ colony.9100.name:0 "Subterfuge ondulant"
+ colony.9100.desc:0 "Les colons sur §H[Root.GetName]§! signalent que certaines maisons sont maintenant infestées de serpents, et que de nombreuses structures connaissent des coupures de courant. Nous devrions voir s'il y a un quelconque rapport avec les créatures remontant vers la surface."
+ colony.9100.a:0 "Observez ces curieuses créatures."
+ colony.9100.b:0 "Recourons au feu pour les chasser"
  
- colony.9101.desc: "Les serpents sont attirés par des sources d'énergie électrique, peut-être pour se nourrir ou pour le plaisir. Si nous pouvons modifier notre source d'énergie, peut-être la trouveront-ils déplaisante... ou douloureuse."
- colony.9102.desc: "Les serpents sur §H[Root.GetName]§! sont moins agressifs maintenant, mais ils semblent vouloir démanteler la technologie des colons. Leurs techniques impliquent qu'ils possèdent au moins une intelligence rudimentaire."
+ colony.9101.desc:0 "Les recherches ont montré que les serpents de §Y[Root.GetName]§! sont attirés par les sources d'énergie électrique, peut-être pour trouver de la nourriture ou par simple plaisir. Si nous pouvons changer de sources d'énergie, ils pourraient les trouver désormais désagréables, voire douloureuses..."
+ colony.9102.desc:0 "Les serpents de §Y[Root.GetName]§! sont désormais devenus moins agressifs, mais semblent avoir toujours l'intention de démanteler les infrastructures de la colonie. Leurs techniques laissent supposer un niveau d'intelligence au moins rudimentaire."
  
- colony.9103.name: "Sinistre sibilance"
- colony.9103.desc: "Tout comme nous avons observé les serpents envahisseurs sur §H[Root.GetName]§!, ils nous observent. Ils ont trouvé des moyens d'infiltrer et de faire fonctionner de façon aléatoire nos véhicules, ordinateurs et équipements miniers."
- colony.9103.a: "Laissez-les se nourrir de nos sources d'énergie. Activez le traducteur universel."
- colony.9103.b: "Mobilisez les troupes de choc. Attaquez avec des incinérateurs."
+ colony.9103.name:0 "Sifflements sinistres"
+ colony.9103.desc:0 "Tout comme les colons de §Y[Root.GetName]§! ont observé les serpents qui les avaient envahis, ceux-ci les ont observés, trouvant le moyen de les infiltrer et même, d'une façon ou d'une autre, de faire fonctionner les véhicules, les ordinateurs et le matériel de minage."
+ colony.9103.desc.science:0 "Tout comme les colons de §Y[Root.GetName]§! ont observé les serpents qui les avaient envahis, ceux-ci les ont observés, trouvant le moyen de les infiltrer et même, d'une façon ou d'une autre, de faire fonctionner les véhicules, les ordinateurs et le matériel de minage.\n\nNous savons que ces serpents ont une langue simple. Pour préserver les apparences diplomatiques, les scientifiques les appellent désormais « Ophidiens », même s'ils se qualifient eux-mêmes de « Hissss ». Mais ce mot est difficile à prononcer pour nous, ce qui les rend furieux et les pousse à mordre davantage encore."
+ colony.9103.desc.soldier:0 "Tout comme les colons de §Y[Root.GetName]§! ont observé les serpents qui les avaient envahis, ceux-ci les ont observés, trouvant le moyen de les infiltrer et même, d'une façon ou d'une autre, de faire fonctionner les véhicules, les ordinateurs et le matériel de minage.\n\nDe ce que peuvent dire les soldats, ces ophidiens vivent au plus profond du sol. Les incinérateurs sont à leur avis un moyen de dissuasion extrêmement efficace. Ils nous haïssent, mais le feu davantage encore que nous..."
+ colony.9103.a:0 "Laissons-les faire mais activons le traducteur universel"
+ colony.9103.b:0 "Mobilisation des troupes d'assaut et distribution d'incinérateurs !"
 
- colony.9104.name: "Underworld"
- colony.9104.desc: "Les serpents sur §H[Root.GetName]§! ont converti certains de nos équipements miniers en moyens de transport pour voyager entre leur monde souterrain et notre monde de surface. Cela a considérablement endommagé notre écologie.\n\nLes scientifiques de notre colonie ont commencé à appeler ces envahisseurs serpents les Ophidiens. Les soldats leur donnent d'autres noms, dont la plupart ne valent pas la peine d'être répétés."
- colony.9104.a: "Mettez le reste de l'équipement minier hors ligne."
- colony.9104.b: "C'est ce qui arrive quand on n'utilise pas assez de feu."
+ colony.9104.name:0 "Monde souterrain"
+ colony.9104.desc:0 "Les serpents de §Y[Root.GetName]§! sont parvenus à convertir une partie de l'équipement minier en véhicules de transport pour passer de leur monde souterrain à la surface de la [Root.GetPlanetMoon]. Cela cause de grands dommages environnementaux.\n\nLes scientifiques locaux ont commencé à qualifier ces envahisseurs serpentins d'ophidiens. Les troupes, elles, leur ont trouvé d'autres noms, qu'il ne serait guère décent de répéter."
+ colony.9104.desc.science:0 "Les serpents de §Y[Root.GetName]§! sont parvenus à convertir une partie de l'équipement minier en véhicules de transport pour passer de leur monde souterrain à la surface de la [Root.GetPlanetMoon]. Cela cause de grands dommages environnementaux.\n\nSi ces « Hissss » provoquent le plus effroyable chaos, les scientifiques se demandent si tout cela ne pourrait pas être une diversion. Les Ophidiens n'ont pas pris l'ensemble du matériel de minage, aussi est-il possible d'arrêter certaines machines pour les réparer."
+ colony.9104.desc.soldier:0 "Les serpents de §Y[Root.GetName]§! sont parvenus à convertir une partie de l'équipement minier en véhicules de transport pour passer de leur monde souterrain à la surface de la [Root.GetPlanetMoon]. Cela cause de grands dommages environnementaux.\n\nQuelle que soit la motivation de ces Ophidiens, les troupes insistent pour que les opérations de minage se poursuivent. Nous y perdrons assurément des gardes et des soldats, mais nous ne pouvons nous permettre de laisser un seul serpent pénétrer dans les logements, ou se lover dans le matériel indispensable à la production économique."
+ colony.9104.a:0 "Arrêtons tout le reste du matériel de minage"
+ colony.9104.b:0 "Voilà ce qui se passe quand on ne fait pas tout pour écraser l'ennemi"
 
- colony.9105.name: "Infestation Dévastation"
- colony.9105.desc: "Les destructions incessantes des envahisseurs serpentins et les fouilles élaborées sur §H[Root.GetName]§! ont dévasté l'écologie du monde."
+ colony.9105.name:0 "Invasion dévastatrice"
+ colony.9105.desc:0 "Les dégâts causés par les envahisseurs ophidiens et les excavations trop poussées sur toute la [Root.GetPlanetMoon] ont dévasté l'environnement de §Y[Root.GetName]§!."
 
- colony.9106.name: "Un coup de pouce et un cadeau"
- colony.9106.desc: "Les serpents sur §H[Root.GetName]§! utilisent maintenant des équipements miniers pour voyager librement entre leurs nids souterrains et notre monde de surface. Notre technologie leur a-t-elle donné de nouveaux pouvoirs   ?"
- colony.9106.a: "Ces nouveaux tunnels de serpent ont déterré... des minéraux !"
+ colony.9106.name:0 "Provolution et don"
+ colony.9106.desc:0 "Les serpents de §Y[Root.GetName]§! font désormais couramment usage de matériel minier pour voyager selon leur bon vouloir entre leurs nids souterrains et la surface. Notre technologie semble avoir décuplé les moyens à leur disposition..."
+ colony.9106.desc.science:0 "Les serpents de §Y[Root.GetName]§! font désormais couramment usage de matériel minier pour voyager selon leur bon vouloir entre leurs nids souterrains et la surface. Notre technologie semble avoir décuplé les moyens à leur disposition...\n\nLes scientifiques ont rapporté aussi avoir noté que les Hissss ont tracé le même symbole sur les moyens de transport, et soupçonnent donc qu'ils possèdent une écriture, même si elle est rudimentaire."
+ colony.9106.a:0 "Leurs nouveaux tunnels ont révélé des minéraux !"
 
- colony.9107.name: "Bateau-serpent"
- colony.9107.desc: "Les serpents sur §H[Root.GetName]§! ont patiemment attendu qu'un vaisseau entre dans le système. Quelqu'un a pensé que ce serait une bonne idée d'atterrir sur notre colonie, donc leur vaisseau est maintenant plein de serpents."
- colony.9107.a: "Laissez le vaisseau aux ophidiens en fuite."
- colony.9107.a.tooltip: "Lorsque ces serpents hyperintelligents s'aventurent dans le cosmos, on ne peut s'empêcher de se demander quel sera leur destin final."
- colony.9107.b: "Détruisez le navire-serpent."
- colony.9107.b.tooltip: "Ces serpents hyperintelligents ont relocalisé leur population à bord de notre vaisseau tentateur. Nous devrions les laisser monter à bord... et surcharger le réacteur."
+ colony.9107.name:0 "Vaisseau ophidien"
+ colony.9107.desc:0 "Les serpents de §Y[Root.GetName]§! ont patiemment attendu qu'un vaisseau entre dans le système. Quelqu'un semble avoir eu l'idée brillante de se poser à la surface de la [Root.GetPlanetMoon], et désormais le vaisseau est infesté à son tour."
+ colony.9107.a:0 "Autant le leur laisser, maintenant..."
+ colony.9107.a.tooltip:0 "On peut se demander quelle sera leur destinée lorsque ces serpents si intelligents commenceront à s'aventurer dans la galaxie."
+ colony.9107.b:0 "Détruisons immédiatement ce vaisseau !"
+ colony.9107.b.tooltip:0 "Puisque ces serpents si intelligents se sont réinstallés dans le vaisseau, nous devrions les laisser tous monter à bord et laisser le réacteur surchauffer..."
 
- colony.9108.name: "Aux étoiles"
- colony.9108.desc: "Un vaisseau solitaire a échappé à tous nos équipements de détection et s'est glissé dans le système stellaire environnant. Les Ophidiens ont laissé §H[Root.GetName]§! avec une série d'ascenseurs souterrains et une richesse en minéraux."
- colony.9108.a: "Adieu, serpents."
- colony.9108.a.tooltip: "Votre histoire a été... édifiante."
+ colony.9108.name:0 "Sssur la route dezzz étoiles"
+ colony.9108.desc:0 "Un unique vaisseau a passé les dispositifs de détection et ondulé dans le système stellaire de §Y[Root.GetStarName]§!. Grâce à de multiples voyages, les ophidiens ont désormais quitté leur [Root.GetPlanetMoon], emportant avec eux de grandes réserves de minéraux."
+ colony.9108.a:0 "En ce cas, bon vent !"
+ colony.9108.a.tooltip:0 "§LCette fois, ils ont fait leur mue...§!"
 
- colony.9109.name: "Son histoire"
- colony.9109.desc: "Une explosion massive s'est produite à l'extérieur de notre plus grande colonie sur §H[Root.GetName]§!. Nous resterons vigilants, mais pour autant que nous puissions dire, nous avons incinéré le dernier de nos envahisseurs ophidiens."
- colony.9109.a: "Adieu, serpents."
- colony.9109.a.tooltip: "Votre longue histoire est terminée. Vous êtes... de l'histoire ancienne."
+ colony.9109.name:0 "Relégués dans les annales de l'hissstoire"
+ colony.9109.desc:0 "Une explosion a été entendue non loin de l'établissement principal de §Y[Root.GetName]§!. Les colons devront évidemment rester vigilants à l'avenir, mais pour ce que l'on peut constater, tous les envahisseurs ophidiens semblent avoir été détruits en même temps que le vaisseau."
+ colony.9109.a:0 "Pour les serpents..."
+ colony.9109.a.tooltip:0 "Votre longue histoire est terminée. Vous êtes... de l'histoire ancienne."
 
  #VENDING MACHINE
 
@@ -833,34 +844,33 @@
 
  #### Rage Sage
 
- site_rage_sage_dig:0 "Les graines de la destruction"
- seeds_of_destruction_intro:0 "Nous avons découvert un ancien vaisseau alien à moitié enterré dans un cratère d'astéroïde. La glace glaciaire s'est inexorablement étendue sur la majeure partie du vaisseau, mais nous pouvons facilement accéder au sas... et chercher les secrets qui s'y cachent."
+ site_rage_sage_dig:0 "Germes de la destruction"
+ seeds_of_destruction_intro:0 "Le vaisseau alien à demi enterré dans un cratère de §Y[From.Planet.GetName]§! a été progressivement envahi par les glaces, qui ont inexorablement pris possession de la plus grande partie de l'intérieur de la coque. Le sas d'entrée est toutefois aisément accessible, ce qui permettrait de découvrir les secrets cachés derrière."
 
- ancrel.14001.name:0 "Rage dans une cage"
- ancrel.14001.desc:0 "Lorsque nous avons ouvert le sas du vaisseau alien, la putréfaction et la pourriture nous attendaient de l'autre côté. Notre enquête préliminaire a mis à jour une scène de carnage. Après avoir examiné les corps mutilés de l'équipage, nous sommes certains qu'ils se sont déchirés membre par membre. Nous pourrions simplement partir... mais alors nous ne saurions jamais pourquoi cette tragédie est arrivée."
- ancrel.14002.name:0 "Laboratoire élaboré"
- ancrel.14002.desc:0 "En creusant davantage, nous avons découvert le laboratoire scientifique du vaisseau. Une puissance minimale sature la scène d'une illumination ultraviolente. Une éruption d'arbustes violets libère d'épais nuages de spores. Le médecin du vaisseau a utilisé un laboratoire et des conduits de ventilation pour inonder le vaisseau d'une brume enivrante."
- ancrel.14003.name:0 "Lancez le commutateur !"
- ancrel.14003.desc:0 "Nous pensons être immunisés contre les effets complets de la brume intoxicante. Si nous pouvons mettre les moteurs du vaisseau en marche, nous pourrons le lancer et le renvoyer chez nous pour étude. Cela prendra du temps, mais le laboratoire pharmaceutique élaboré pourrait fournir une augmentation biochimique utile aux soldats de notre empire."
- ancrel.14003.a:0 "Mettez le réacteur en ligne maintenant !"
- ancrel.14003.b:0 "Effectuer des diagnostics et des réparations."
- ancrel.14004.name:0 "L'épidémie de Bliss"
- ancrel.14004.desc:0 "Nous pensions bêtement être immunisés contre la brume, mais nos ingénieurs connaissent un état de béatitude extatique. Ils dansent dans les couloirs du vaisseau, en chantant atonalement. Nous devons purger l'atmosphère et capturer nos ingénieurs avant de pouvoir lancer le vaisseau. Ce retard nous fera perdre du temps."
- ancrel.14004.a:0 "Capturez les ingénieurs en état de béatitude."
- ancrel.14005.name:0 "L'épidémie de rage"
- ancrel.14005.desc:0 "Nous pensions bêtement être immunisés contre le brouillard, mais nos scientifiques ont des accès de rage psychotique. Des combats ont éclaté dans tout le vaisseau. Nous devons purger l'atmosphère et maîtriser les victimes du brouillard avant de pouvoir lancer le vaisseau. Ce retard nous fera perdre du temps."
- ancrel.14005.a:0 "Maîtrisez les scientifiques maniaques."
+ ancrel.14001.name:0 "Rage en cage"
+ ancrel.14001.desc:0 "Aussitôt ouvert le sas d'entrée dans le vaisseau alien de §Y[From.Planet.GetName]§!, l'aspect le plus marquant pour l'expédition a été la putréfaction et la pourriture. L'enquête préliminaire a révélé qu'il s'agissait d'une scène de carnage. Après avoir examiné les corps mutilés de l'équipage, il est certain qu'ils se sont entredéchirés. Nous pourrions tout aussi bien laisser le vaisseau à son sort tragique, mais nous ne saurions alors jamais comment une telle tragédie a pu se produire."
+ ancrel.14002.name:0 "Laboratoire avancé"
+ ancrel.14002.desc:0 "La fouille du vaisseau de §Y[From.Planet.GetName]§! s'est poursuivie, permettant de retrouver le laboratoire scientifique. Même sous un éclairage faible, la scène est saturée d'illuminations ultraviolentes. Un massif de fleurs pourpres libère d'épais nuages de spores. Les médecins de bord ont visiblement utilisé le laboratoire et la ventilation pour inonder le vaisseau d'une brume intoxicante."
+ ancrel.14003.name:0 "Remise en marche"
+ ancrel.14003.desc:0 "Nous pensons être immunisés aux effets de la brume intoxicante. S'il est possible de remettre les propulseurs du vaisseau de §Y[From.Planet.GetName]§! en fonction, nous pourrions le ramener pour l'étudier. Cela va prendre du temps, mais le laboratoire pharmaceutique élaboré pourrait assurer des avancées biochimiques utiles pour les troupes de la [From.Planet.Owner.GetName]."
+ ancrel.14003.a:0 "Rallumons le réacteur"
+ ancrel.14003.b:0 "Lançons des diagnostics avant de réparer"
+ ancrel.14004.name:0 "Épidémie de bonheur"
+ ancrel.14004.desc:0 "Nous nous pensions immunisés face aux effets de la brume du vaisseau de §Y[From.From.Planet.GetName]§!, mais les ingénieurs se trouvent dans un état de béatitude euphorique. Ils dansent dans les couloirs du vaisseau, chantent atonallement. Il va falloir nettoyer l'atmosphère à bord et capturer les ingénieurs avant qu'ils puissent remettre le vaisseau en route. Cela va donc causer du retard pour le projet."
+ ancrel.14004.a:0 "Capturons donc ces ingénieurs heureux"
+ ancrel.14005.name:0 "Épidémie de rage"
+ ancrel.14005.desc:0 "Nous nous pensions immunisés face aux effets de la brume du vaisseau de §Y[From.From.Planet.GetName]§!, mais les scientifiques à bord semblent être en proie à une poussée de rage psychotique. Des combats ont éclaté partout dans le vaisseau. Il va falloir que l'atmosphère soit purifiée et les victimes capturées avant qu'ils puissent remettre le vaisseau en route. Cela va donc causer du retard pour le projet."
+ ancrel.14005.a:0 "Capturons donc ces maniaques"
  ancrel.14006.name:0 "Les tentations de la technologie"
- ancrel.14006.desc:0 "Nous avons décollé ! Bien que dangereuse, la brume enivrante du vaisseau alien pourrait augmenter l'efficacité et la loyauté des soldats de notre empire. Cependant, la question demeure : devons-nous soumettre nos propres soldats à cette substance dangereuse   ? Ou devrions-nous dire non et apprendre de leurs tragiques erreurs   ?"
- ancrel.14006.a:0 "Exploitez cette technologie prometteuse."
- ancrel.14006.a.tooltip:0 "La victoire attend ! Nos soldats doivent être prêts à prendre ce risque."
- ancrel.14006.b:0 "Abandonnez cette technologie dangereuse."
- ancrel.14006.b.tooltip:0 "Il y a des secrets que nous ne sommes pas censés connaître."
+ ancrel.14006.desc:0 "Le vaisseau de §Y[From.Planet.GetName]§! a redécollé ! Même si elle est dangereuse, la brume intoxicante pourrait contribuer à augmenter l'efficacité et la loyauté des troupes. La question reste toutefois posée : devons-nous soumettre nos propres forces armées à cette substance dangereuse ? Ne serait-il pas préférable de retenir la leçon de la tragédie vécue par le premier équipage ?"
+ ancrel.14006.a:0 "Cette technologie prometteuse mérite être exploitée"
+ ancrel.14006.a.tooltip:0 "Nos troupes n'aspirent qu'à la victoire, et devraient être impatientes de pouvoir prendre le risque."
+ ancrel.14006.b:0 "C'est trop dangereux, mieux vaut renoncer"
+ ancrel.14006.b.tooltip:0 "Il est certains secrets qu'il vaut mieux ne jamais dévoiler."
 
- on_crashed_ship_cat:0 "Site du crash"
- on_crashed_ship_desc:0 "Nous avons découvert un ancien vaisseau alien à moitié enterré dans un cratère d'astéroïde."
+ on_crashed_ship_cat:0 "Site de crash"
+ on_crashed_ship_desc:0 "Un ancien vaisseau alien a été retrouvé à demi enterré dans le cratère de l'astéroïde [From.GetName]."
 
- anomaly.7030.name:0 "Site du crash"
- anomaly.7030.desc:0 "Nous avons découvert un ancien vaisseau alien à moitié enterré dans un cratère d'astéroïde. L'extérieur de ce vaisseau scientifique est doté d'un vaste réseau sensoriel mais pas d'armement. L'extérieur n'a été endommagé d'aucune façon avant qu'il ne s'écrase. On peut supposer que cette catastrophe est le résultat d'une erreur fatale de l'équipage."
- anomaly.7030.desc.a:0 "C'est tragique."
-
+ anomaly.7030.name:0 "$on_crashed_ship_cat$"
+ anomaly.7030.desc:0 "L'ancien vaisseau retrouvé à demi enterré dans le cratère de §Y[From.GetName]§! était un vaisseau scientifique. Sur les parois extérieures se trouve un ensemble de capteurs volumineux, mais aucun armement. Le vaisseau ne semble pas avoir été autrement abîmé avant le crash. On peut donc penser que l'accident a été causé par une erreur fatale commise par l'équipage."
+ anomaly.7030.desc.a:0 "C'est tragique"

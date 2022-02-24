@@ -742,7 +742,10 @@
 
  requires_strongest:0 "§RRequiert que la présidence soit attribuée selon la §Ypuissance§!.§!"
 
- requires_megacorp_or_merchant:1 "§RExige soit d'être une §Ymégacorporation§!, soit d'avoir les civismes §Y$civic_merchant_guilds$§! ou §Y$civic_corporate_dominion$§!.§!"
+ mercantile_traditions_completed:0 "A adopté toutes les §Ytraditions de négoce§!"
+ discovery_traditions_completed:0 "A adopté toutes les §Ytraditions de découverte§!"
+ domination_traditions_completed:0 "A adopté toutes les §Ytraditions de domination§!"
+ unyielding_traditions_completed:0 "A adopté toutes les §Ytraditions de résilience§!"
  disabled_for_hegemony:0 "§RUne fédération §Yhégémonique§! ne peut interdire aux dépendances de l'intégrer.§!"
  president_no_effect:0 "Aucune conséquence."
 
@@ -752,6 +755,9 @@
  level_4:0 "Niveau 4"
  level_5:0 "Niveau 5"
 
+ federation_acceptance_current_president_under_this_law:0 "Détient la présidence grâce à cette loi"
+ federation_acceptance_would_win:0 "Plus forte selon ce critère"
+ federation_acceptance_leader_would_lose:0 "Perdrait la présidence"
  federation_acceptance_stronger:0 "Trop puissante"
  federation_acceptance_gestalt:0 "$ethic_gestalt_consciousness$"
  federation_acceptance_hegemony:0 "Fédération de type hégémonique"
@@ -795,9 +801,11 @@
  federation_acceptance_has_subjects:0 "A des dépendances"
 
  #Federation specific
+ federation_acceptance_hegemony_or_default:0 "$default_federation$ ou hégémonie"
  federation_acceptance_hegemony_federation:0 "$hegemony_federation$"
  federation_acceptance_military_federation:0 "$military_federation$"
- federation_acceptance_trade_league:0 "$trade_federation$"
+ federation_acceptance_research_federation:0 "$research_federation$"
+ federation_acceptance_trade_league:1 "$trade_federation$"
 
  #Empire specific
  federation_acceptance_authoritarian:0 "$ethic_authoritarian$"
@@ -805,10 +813,10 @@
  federation_acceptance_xenophobe:0 "$ethic_xenophobe$"
  federation_acceptance_xenophile:0 "$ethic_xenophile$"
  federation_acceptance_materialist:0 "$ethic_materialist$"
- federation_acceptance_erudite_explorers_in_research_federation:0 "$personality_erudite_explorers$ et $research_federation$"
- federation_acceptance_honorbound_warriors_in_military_federation:0 "$personality_honorbound_warriors$ et $military_federation$"
- federation_acceptance_ruthless_capitalists_in_trade_federation:0 "$personality_ruthless_capitalists$ et $trade_federation$"
- federation_acceptance_peaceful_traders_in_trade_federation:0 "$personality_peaceful_traders$ et $trade_federation$"
+ federation_acceptance_erudite_explorers_in_research_federation:1 "$personality_erudite_explorers$ et association scientifique"
+ federation_acceptance_honorbound_warriors_in_military_federation:1 "$personality_honorbound_warriors$ et alliance militaire"
+ federation_acceptance_ruthless_capitalists_in_trade_federation:1 "$personality_ruthless_capitalists$ et ligue commerciale"
+ federation_acceptance_peaceful_traders_in_trade_federation:1 "$personality_peaceful_traders$ et ligue commerciale"
  #federation_acceptance_erudite_explorers_in_research_federation: "$erudite_explorers$ in a $research_federation$"
  #federation_acceptance_honorbound_warriors_in_military_federation: "$honorbound_warriors$ in a $military_federation$"
  #federation_acceptance_ruthless_capitalists_in_trade_federation: "$ruthless_capitalists$ in a $trade_federation$"
@@ -878,7 +886,7 @@
  resolution_category_ecology:0 "Protection environnementale"
 
  resolution_ecology_repeal_1:0 "§RAbrogation des initiatives de recyclage pangalactiques§!"
- resolution_ecology_repeal_1_desc:0 "Si la protection de l'environnement est évidemment un sujet crucial, on doit faire confiance aux membres [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium] pour agir d'eux-mêmes sur ces questions."
+ resolution_ecology_repeal_1_desc:1 "Si la protection de l'environnement est évidemment un sujet crucial, on doit faire confiance aux membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] pour agir d'eux-mêmes sur ces questions."
  resolution_ecology_repeal_1_effect_success:0 "Abroge la résolution §Y$resolution_ecology_recycling_initiatives$§!."
 
  resolution_ecology_repeal_2:0 "§RAbroger les sanctuaires naturels§!"
@@ -1012,6 +1020,7 @@
  decision_project_cornucopia_desc:0 "$resolution_industry_project_cornucopia_desc$"
  decision_project_cornucopia_effects_short:0 "Permet de miner ce monde en profondeur grâce à :\n- £district£§Ydistricts miniers§! : §G+4§! ;\n- §Y$mod_planet_jobs_minerals_produces_mult$§!: §G+5%§! ;\n- §YHabitabilité§! : §R-20%§!"
  d_project_cornucopia:0 "$resolution_industry_project_cornucopia$"
+ d_project_cornucopia_desc:0 "Des opérations minières jusqu'aux tréfonds de son manteau ont rendu ce monde difficile à habiter. Mais bien plus aisé à exploiter..."
 
  federations.10000.name:0 "$resolution_industry_project_cornucopia$"
  federations.10000.desc:0 "Des ingénieurs venus de tout[global_event_country.GetXECommGalEmpGal] [global_event_country.GetLeLaLCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] se sont réunis pour partager leurs idées sur la meilleure façon d'exploiter davantage les ressources de tous nos mondes.\n\nGrâce à eux, la décision planétaire §HProjet Corne d'abondance§! est maintenant disponible."
@@ -1723,12 +1732,31 @@
  ### Colony Type
  ################
 
- col_bureau:0 "Monde administratif"
- col_bureau_desc:1 "Un monde entier, totalement dédié aux besoins toujours croissants de l'administration."
+ col_bureau:2 "Centre d'unification"
+ col_bureau_desc:4 "Un monde entièrement dédié à l'unification de l'empire."
  col_bureaucracy_custom:1 "£mod_country_admin_cap_add£Capacité administrative grâce aux £job_bureaucrat£bureaucrates : §G+2§!\nEntretien des £job_bureaucrat£bureaucrates : §G-10%§!\nRisques de changements éthiques des £pop£pops : §G-20%§!."
 
- col_habitat_bureau:0 "Station administrative"
- col_habitat_bureau_desc:0 "Un habitat entièrement dédié aux besoins toujours croissants de l'administration."
+
+ col_bureau_spiritualist:0 "Centre ecclésiastique"
+ col_bureau_spiritualist_desc:0 "$col_bureau_desc$"
+
+ col_bureau_hive:0 "$col_bureau$"
+ col_bureau_hive_desc:0 "$col_bureau_desc$"
+
+ col_bureau_machine:0 "$col_bureau$"
+ col_bureau_machine_desc:0 "$col_bureau_desc$"
+
+ col_habitat_bureau:1 "Station unificatrice"
+ col_habitat_bureau_desc:1 "Un habitat entièrement dédié à l'unification de l'empire."
+
+ col_habitat_bureau_spiritualist:0 "Station ecclésiastique"
+ col_habitat_bureau_spiritualist_desc:0 "$col_habitat_bureau_desc$"
+
+ col_habitat_bureau_hive:0 "$col_habitat_bureau$"
+ col_habitat_bureau_hive_desc:0 "$col_habitat_bureau_desc$"
+
+ col_habitat_bureau_machine:0 "$col_habitat_bureau$"
+ col_habitat_bureau_machine_desc:0 "$col_habitat_bureau_desc$"
 
  ################
  ### Modifiers
