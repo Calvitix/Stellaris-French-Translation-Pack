@@ -300,6 +300,7 @@
   ver_triggered_opinion_moderate_overlord_taxes: "Impôts modérés au Suzerain"
   ver_triggered_opinion_heavy_overlord_taxes: "Impôts élevés au Suzerain"
   ver_triggered_opinion_burdensome_overlord_taxes: "Impôts écrasants au Suzerain"
+  opinion_installed_as_vassal_leader:0 "Installé comme dirigeant"
   ##### Policies #####
   policy_ver_taxation_of_subject_empires: "Imposition des états-vassaux"
   policy_ver_taxation_of_subject_empires_desc: "Nous pouvons décider la proportion de la valeur commerciale de nos état-vassaux qui doit nous reveni sous forme de taxes."
@@ -557,6 +558,7 @@
  choice_veru_subsidiary:0 "Filiale"
 
  influencefail_text_veru:0 "§RNécessite§! §Y100§! £influence£ §Hinfluence§!"
+ influencefail_text_veru_150:0 "§RNécessite§! §Y150§! £influence£ §HInfluence§!"
  influencefail_text_veru_200:0 "§RNécessite§! §Y200§! £influence£ §HInfluence§!"
  influencefail_text_veru_300:0 "§RNécessite§! §Y300§! £influence£ §HInfluence§!"
  capitalist_auth_fail:0 "§RNécessite§! une combinaison d'éthique §Ycompetitive§Y et §Yautoritaire§Y."
@@ -576,7 +578,31 @@
  veru.6100.desc: "Lequel de nos vassaux frontaliers revendiquez-vous ?"
  casus_belli_cb_buffer_zone: "Zone tampon"
  war_goal_wg_claim_subject: "Saisir le vassal"
- war_goal_wg_claim_subject_desc: "Une guerre est menée pour prendre le contrôle d'un vassal tampon crucial."
+ war_goal_wg_claim_subject_desc: "La guerre est menée pour prendre le contrôle d'un état 'tampon' crucial. Lors du déclenchement de la guerre, nous préciserons quel état sujet voisin nous revendiquons."
+ chosen_subject_text: "Nous §Yinstallerons notre leader préféré§! dans la nation que nous avons choisie au début de la guerre, §Yfaisant d'eux nos sujets§!."
+ 
+  veru.6400.name: "Leadership de '§Y[event_target :chosen_subject.GetName]§!'"
+ veru.6400.desc: "Maintenant que nous avons pris le contrôle de §Y[event_target :chosen_subject.GetName]§!, nous devons installer des dirigeants qui se plient à nos règles. Nous pouvons choisir un dirigeant sympathique à notre régime parmi son propre peuple. L'avantage de ce choix est qu'il rendra la transition beaucoup plus facile. Cependant, nous pouvons également choisir d'installer un dirigeant issu de notre propre peuple, ce qui garantira pratiquement sa loyauté."
+
+ veru.6400.them: "Un de §Yleur§! peuple."
+ veru.6400.them.tooltip: "Choisir l'un de leurs chefs nous permettra d'éviter toute pénalité de £stability£ §YStabilité§! et £happiness£ §YBonheur§! sur le peuple de §Y[event_target :chosen_subject.GetName]§!."
+ veru.6400.us: "Un des §Ynôtres§!."
+ veru.6400.us.tooltip: "Choisir l'un de nos leaders nous donnera un grand £opinion£ §YOpinion§! avec  '§Y[event_target :chosen_subject.GetName]§!' jusqu'à ce que notre leader installé meure. Cependant, cela entraînera également une £stability£ §YStabilité§! et £happiness£ §YBonheur§! §Rpénalité§! sur '§Y[event_target :chosen_subject.GetName]§!' pour les §Y15 à 20§! prochaines années."
+
+ veru.6510.name: "Gouverneurs"
+ veru.6520.name: "Amiraux"
+ veru.6530.name: "Généraux"
+ veru.6540.name: "Scientifiques"
+
+ veru.6510.desc: "Qui dirigera '§Y[event_target :chosen_subject.GetName]§!' ?"
+
+ veru.6500.governor: "Un de leurs §YGouverneurs§! doit prendre le relais."
+ veru.6500.admiral: "Un de leurs §YAmiraux§! doit prendre le relais."
+ veru.6500.general: "Un de leurs §YGénéraux§! doit prendre le relais."
+ veru.6500.scientist: "Un de leurs §YScientifiques§! doit prendre le relais."
+
+
+ 
 
  # Other
  ai.random: "Aléatoire"
