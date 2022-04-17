@@ -1,0 +1,150 @@
+﻿l_french:
+  # Alternative Mega Build - Job-Based megastructure construction
+  
+  ############################################################################################################
+  # MODIFIERS
+  
+  # MOD_MEGASTRUCTURE_BUILD_SPEED_MULT_amb:0 "Megastructure Build Efficiency"
+  # MOD_MEGASTRUCTURE_BUILD_SPEED_MULT_original:0 "Megastructure Build Speed"
+  
+  # MOD_MEGASTRUCTURE_BUILD_SPEED_ADD_amb:0 "Monthly Megastructure Build Progress Per Megastructure"
+  # MOD_MEGASTRUCTURE_BUILD_SPEED_ADD_original:0 "Megastructure Build Speed"
+  
+  MOD_COUNTRY_MEGASTRUCTURE_BUILD_CAP_ADD_amb:99 "Nbr. $building_giga_megaworkshop_hub_plural$ Max"
+  MOD_COUNTRY_MEGASTRUCTURE_BUILD_CAP_ADD_original:99 "Capacité de construction des mégastructures"
+  mod_country_resource_max_giga_sr_amb_megaconstruction_add:99 "Capacité de stockage des $giga_sr_amb_megaconstruction$"
+  
+  mod_planet_giga_megaengineers_produces_mult:99 "Production des £job_giga_megaengineer£ $planet_giga_megaengineers$"
+  mod_planet_giga_megaengineers_upkeep_mult:99 "Entretiend es $planet_giga_megaengineers$"
+  
+  mod_planet_giga_megaengineers_job_giga_sr_amb_megaconstruction_produces_add:99 "£giga_sr_amb_megaconstruction£ $giga_sr_amb_megaconstruction$ des £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]"
+  mod_planet_giga_megaengineers_job_alloys_upkeep_add:99 "Entretien en £alloys£ $alloys$ des £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]"
+  mod_planet_giga_megaengineers_job_ehof_sr_sentient_metal_upkeep_add:99 "Entretien en £ehof_sr_sentient_metal£ $ehof_sr_sentient_metal$ des £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]"
+  
+  mod_planet_giga_megaengineering_overseers_giga_sr_amb_megaconstruction_produces_add:99 "£giga_sr_amb_megaconstruction£ $giga_sr_amb_megaconstruction$ des £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]"
+  mod_planet_giga_megaengineering_overseers_alloys_upkeep_add:99 "entretien en £alloys£ $alloys$ des £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]"
+  mod_planet_giga_megaengineering_overseers_ehof_sr_sentient_metal_upkeep_add:99 "Entretien en £ehof_sr_sentient_metal£ $ehof_sr_sentient_metal$ des £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]"
+  
+  giga_tooltip_positive:99 "§G+"
+  giga_tooltip_negative:99 "§R"
+  giga_tooltip_neutral:99 "§Y"
+  
+  mod_giga_amb_tooltips_minerals_produces_add:99 "§W--------------§!\n§HDetails:§!\n\n£giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§! Revenus : [This.giga_amb_income_colour][This.giga_amb_income]§!\nInvestissement potentiel de ce mois (incluant le stock): [This.giga_amb_stockpile_colour][This.giga_amb_stockpile]§!\n\nVitesse de base par £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!: §G+[This.giga_amb_ratio]§!\nTotal de vitesse de constr. de base : [This.giga_amb_total_progress_colour][This.giga_amb_total_progress]§!\n\n[This.giga_amb_ai_details]Mégastructures actuellement en construction : §Y[This.giga_amb_building_megas]§!\nVitesse de construction par mégastructure"
+  
+  giga_amb_ai_details:99 "Cap de constr. de l'AI : §Y[This.giga_amb_ai_limit]§!\n\n"
+  
+  ############################################################################################################
+  # BUILDINGS
+  
+  building_giga_megaworkshop:99 "Fonderie moléculaire"
+  building_giga_megaworkshop_plural:99 "Fonderies moléculaires"
+  building_giga_megaworkshop_desc:99 "Des réseaux de synthèse moléculaire et des salles blanches impeccables remplissent ces installations, produisant les matériaux hautement spécialisés nécessaires aux projets de construction orbitale à grande échelle."
+  mod_planet_building_giga_megaworkshop_build_speed_mult:99 "$building_giga_megaworkshop$ Vitesse de construction"
+    building_giga_megaworkshop_hub:99 "Plate-forme logistique de mégaconstruction"
+  building_giga_megaworkshop_hub_plural:99 "Plate-formes logistiques de mégaconstruction"
+  building_giga_megaworkshop_hub_desc:99 "Des experts coordonnent une vaste flotte de vaisseaux de transport et de construction, porteurs de leurs grands projets, tandis que des fonderies moléculaires fabriquent de grandes quantités de matériaux de construction."
+  building_giga_megaworkshop_hub_count_condition:99 ""  mod_planet_building_giga_megaworkshop_hub_build_speed_mult:99 "Vitesse de construction du $building_giga_megaworkshop_hub$"
+  building_giga_supertensiles_mines:99 "Extracteur de $giga_sr_amb_megaconstruction$"
+  building_giga_supertensiles_mines_plural:99 "Extracteurs de $giga_sr_amb_megaconstruction$"
+  building_giga_supertensiles_mines_desc:99 "Dans de rares cas, les bonnes conditions peuvent permettre à des matériaux d'une résistance improbable de se former dans la nature."
+  mod_building_giga_supertensiles_mines_max:99 "Nbre mas de $building_giga_supertensiles_mines$"
+    building_giga_living_metal_infusion_plant:99 "Usine d'infusion de métaux vivants"
+  building_giga_living_metal_infusion_plant_plural:99 "Usines d'infusion de métaux vivants"
+  building_giga_living_metal_infusion_plant_desc:99 "L'incorporation des propriétés régénératrices du métal vivant dans nos processus de fabrication sera un atout majeur pour nos projets de construction dans l'espace lointain."
+    ############################################################################################################  # ECONOMIC CATEGORIES    
+  planet_giga_megaengineers:99 "Emplois en mégaconstruction"
+  planet_giga_megaengineers_job:99 "Emplois de Technicien Supertensiles"
+  planet_giga_megaengineering_overseers:99 "Emplois de directeur de mégaconstruction"
+    ############################################################################################################  # JOBS    job_giga_megaengineer:99 "Technicien Supertensiles"
+  job_giga_megaengineer_plural:99 "Techniciens Supertensiles"
+  job_giga_megaengineer_desc:99 "Les matériaux spécialisés utilisés dans la construction spatiale à grande échelle nécessitent une main-d'oeuvre tout aussi spécialisée."
+  job_giga_megaengineer_effect_desc:99 "Les £job_giga_megaengineer£ $job_giga_megaengineer_plural$ transforment £alloys£ §Y$alloys$§! et £unity£ §Y$unity$§! en £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!."
+  mod_job_giga_megaengineer_add:99 "Emplois de $job_giga_megaengineer$"
+  mod_job_giga_megaengineer_per_pop:99 "§G+1§! emploi de $job_giga_megaengineer$ par palier de $VALUE$ Pops"
+  mod_job_giga_megaengineer_per_pop_short:99 "\n§G+1§! £mod_job_giga_megaengineer_add£ par $VALUE$ £pop£"
+    job_giga_megaengineer_drone:99 "Drone Supertensile"
+  job_giga_megaengineer_drone_plural:99 "Drones supertensiles"
+  job_giga_megaengineer_drone_desc:99 "Les matériaux spécialisés utilisés dans la construction spatiale à grande échelle nécessitent une main-d'oeuvre tout aussi spécialisée."
+  job_giga_megaengineer_drone_effect_desc:99 "Les £job_giga_megaengineer_drone£ $job_giga_megaengineer_drone_plural$ transforment £alloys£ §Y$alloys$§! et £unity£ §Y$unity$§! en £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!."
+  mod_job_giga_megaengineer_drone_add:99 "Emplois de $job_giga_megaengineer_drone$"
+  mod_job_giga_megaengineer_drone_per_pop:99 "§G+1§! emploi de $job_giga_megaengineer_drone$ par palier de $VALUE$ Pops"
+  mod_job_giga_megaengineer_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_megaengineer_drone_add£ par $VALUE$ £pop£"
+    job_giga_megaengineering_overseer:99 "Directeur de mégaconstruction"
+  job_giga_megaengineering_overseer_plural:99 "Directeurs de mégaconstruction"
+  job_giga_megaengineering_overseer_desc:99 "Ces scientifiques très recherchés sont les meilleurs dans leur domaine, les plus grands experts en construction spatiale et en projets logistiques à grande échelle."
+  job_giga_megaengineering_overseer_effect_desc:99 "Les £job_giga_megaengineering_overseer£ $job_giga_megaengineering_overseer_plural$ transforment de grandes quantités de £alloys£ §Y$alloys$§! et £unity£ §Y$unity$§! en £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!, mais ont un entretien important."
+  mod_job_giga_megaengineering_overseer_add:99 "Emplois de $job_giga_megaengineering_overseer$"
+  mod_job_giga_megaengineering_overseer_per_pop:99 "§G+1§! emploi de $job_giga_megaengineering_overseer$ par palier de $VALUE$ Pops"
+  mod_job_giga_megaengineering_overseer_per_pop_short:99 "\n§G+1§! £mod_job_giga_megaengineering_overseer_add£ par $VALUE$ £pop£"
+    job_giga_megaengineering_overseer_drone:99 "Superviseur de la mégaconstruction"
+  job_giga_megaengineering_overseer_drone_plural:99 "Superviseurs de la mégaconstruction"
+  job_giga_megaengineering_overseer_drone_desc:99 "Ces groupes de drones hautement spécialisés traitent les énormes quantités de données nécessaires à la gestion de projets de construction et de logistique à grande échelle."
+  job_giga_megaengineering_overseer_drone_effect_desc:99 "Les £job_giga_megaengineering_overseer_drone£ $job_giga_megaengineering_overseer_drone_plural$ transforment de grandes quantités de £alloys£ §Y$alloys$§! et £unity£ §Y$unity$§! en £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§! mais ont une maintenance accrue."
+  mod_job_giga_megaengineering_overseer_drone_add:99 "Emplois de $job_giga_megaengineering_overseer_drone$"
+  mod_job_giga_megaengineering_overseer_drone_per_pop:99 "§G+1§! emploi de $job_giga_megaengineering_overseer_drone$ par palier de $VALUE$ Pops"
+  mod_job_giga_megaengineering_overseer_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_megaengineering_overseer_drone_add£ par $VALUE$ £pop£"
+    job_giga_supertensiles_extractor:99 "Extracteur de supertensiles"
+  job_giga_supertensiles_extractor_plural:99 "Extracteurs de supertensiles"
+  job_giga_supertensiles_extractor_desc:99 "Des équipements d'extraction de précision et des techniques de traitement chimique sont utilisés pour démêler les matériaux supertensibles de leur état naturel et chaotique."
+  job_giga_supertensiles_extractor_effect_desc:99 "Les £job_giga_supertensiles_extractor£ $job_giga_supertensiles_extractor_plural$ produisent  £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!"
+  mod_job_giga_supertensiles_extractor_add:99 "Emplois de $job_giga_supertensiles_extractor$"
+  mod_job_giga_supertensiles_extractor_per_pop:99 "§G+1§! emploi de $job_giga_supertensiles_extractor$ par palier de $VALUE$ Pops"
+  mod_job_giga_supertensiles_extractor_per_pop_short:99 "\n§G+1§! £mod_job_giga_supertensiles_extractor_add£ par $VALUE$ £pop£"
+    job_giga_supertensiles_extractor_drone:99 "Drone extracteur de supertensiles"
+  job_giga_supertensiles_extractor_drone_plural:99 "Drones extracteurs de supertensiles"
+  job_giga_supertensiles_extractor_drone_desc:99 "Des équipements d'extraction de précision et des techniques de traitement chimique sont utilisés pour démêler les matériaux supertensibles de leur état naturel et chaotique."
+  job_giga_supertensiles_extractor_drone_effect_desc:99 "Les £job_giga_supertensiles_extractor_drone£ $job_giga_supertensiles_extractor_drone_plural$ produisent £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!"
+  mod_job_giga_supertensiles_extractor_drone_add:99 "Emplois de $job_giga_supertensiles_extractor_drone$"
+  mod_job_giga_supertensiles_extractor_drone_per_pop:99 "§G+1§! emploi de $job_giga_supertensiles_extractor_drone$ par palier de $VALUE$ Pops"
+  mod_job_giga_supertensiles_extractor_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_supertensiles_extractor_drone_add£ par $VALUE$ £pop£"
+
+  ############################################################################################################  # COUNTRY MODIFIERS    
+  giga_amb_base:99 "Mécanismes de mégaconstruction basés sur les emplois"
+  giga_amb_base_tooltip:99 "Notre $MOD_MEGASTRUCTURE_BUILD_SPEED_ADD$ est basée sur le revenu de notre empire en £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!.\n\nChaque mois, lorsqu'au moins une mégastructure est en cours de construction, le double de notre revenu de £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§! est soustrait de notre stock et converti en $MOD_MEGASTRUCTURE_BUILD_SPEED_ADD$. Cette valeur est ensuite répartie entre toutes les mégastructures en construction.\n\nVoir le modificateur d'empire §Y$giga_amb_speed$§! pour plus de détails sur le calcul de la vitesse."
+  giga_amb_base_desc:99 "§LUn personnel qualifié et des matériaux spécialisés sont nécessaires pour dépasser les étoiles elles-mêmes.§!"
+  giga_amb_storage_capacity:99 "Capacité de stockage de $giga_sr_amb_megaconstruction$"
+  giga_amb_storage_capacity_tooltip:99 "£giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§! la capacité de stockage est limitée et n'est pas augmentée par les modificateurs généraux £mod_country_resource_max_add£ §Y$MOD_COUNTRY_RESOURCE_MAX_ADD$§!."
+  giga_amb_storage_capacity_desc:99 "§LRare et précieux, nous devons stocker nos matériaux les plus avancés avec beaucoup de précautions.§!"
+    giga_amb_speed:99 "Vitesse de la mégaconstruction"
+  giga_amb_speed_desc:99 "§LAvec des experts et des matériaux en quantité limitée, nous devons choisir avec soin où nous les déployons.§!"
+    giga_amb_flat_replacement:99 "Compatibilité avec la mégaconstruction"
+  giga_amb_flat_replacement_desc:99 "Un autre mod est de fournir une source de $MOD_MEGASTRUCTURE_BUILD_SPEED_ADD$. Ce modificateur l'annule et fournit un bonus de remplacement adapté au système de mégaconstruction basé sur le travail.\n§W--------------§!\n§LUne correction concise de la méthodologie de la méga échelle.§!"
+    giga_amb_ai_limit:99 "Limite AI de la mégaconstruction"
+  giga_amb_ai_limit_tooltip:99 "Limite artificiellement le nombre de mégastructures que l'IA peut construire en même temps, car elle ne comprend pas le concept de répartition de sa vitesse de construction entre plusieurs projets, et a tendance à la répartir trop finement lorsque de nombreux projets sont disponibles.\n\nEssaie généralement de rester à une vitesse de 0, 75-0, 5 par projet lorsqu'elle est au plafond maximum. Mises à jour annuelles.\n\nVoir le modificateur de pays §Y$giga_amb_speed$§! pour la valeur du plafond."
+  giga_amb_ai_limit_desc:99 "§L\n-Pourquoi construisez-vous DIX segments de monde en anneau avec une vitesse de 1, 4  ? ! \N-§! - TTFTCUTS §!"
+    ############################################################################################################  # RESOURCES    
+  giga_sr_amb_megaconstruction:99 "Matériaux supertendus"
+  giga_sr_amb_megaconstruction_desc_only:99 "Capables de résister à des niveaux incroyables de contrainte de traction, ces matériaux avancés sont essentiels à la construction des plus grandes installations spatiales."
+  giga_sr_amb_megaconstruction_desc:99 "$giga_sr_amb_megaconstruction_desc_only$\n\n§LCette ressource est utilisée lorsque l'option §YCap de construction de mégastructure§! du menu de personnalisation des gigastructures est définie sur §YBasé sur les tâches§!.§!"
+    ############################################################################################################  # TECHNOLOGIES    
+  giga_tech_amb_supertensiles:99 "Supertensiles appliqués"
+  giga_tech_amb_supertensiles_desc:99 "L'amélioration des méthodes de synthèse moléculaire permet l'application pratique de matériaux ayant une résistance à la traction quasi inimaginable."
+    giga_tech_amb_living_metal_infusion:99 "Processus d'infusion de métal vivant"
+  giga_tech_amb_living_metal_infusion_desc:99 "Les propriétés régénératrices du métal vivant pourraient théoriquement être exploitées pour améliorer la qualité et le rendement de nos fonderies moléculaires."
+  giga_tech_amb_sentient_metal_molecular_foundries:99 "Nano-informatique industrielle de métal sensible"
+  giga_tech_amb_sentient_metal_molecular_foundries_desc:99 "Les équipements de traitement intégrant la capacité de calcul à l'échelle nanométrique du métal sensible pourraient permettre d'améliorer considérablement le débit des fonderies moléculaires."
+    ############################################################################################################  # DISTRICTS    
+  district_giga_supertensiles:99 "Districts de fonderie moléculaire"
+  district_giga_supertensiles_plural:99 "Districts de fonderie moléculaire"
+  district_giga_supertensiles_desc:99 "$building_giga_megaworkshop_desc$"
+    ############################################################################################################  # DEPOSITS    
+  d_giga_amb_start_bonus:99 "Cache des matériaux de mégaconstruction"
+  d_giga_amb_start_bonus_desc:99 "§WLes ressources accordées par ce dépôt diminueront au fil du temps pour devenir un filet d'eau en milieu de jeu. Utilisez-les à bon escient.§!\n§W--------------§!\nUne cache de matériaux de construction adaptés à la construction spatiale à grande échelle. Malheureusement, elle ne durera pas éternellement..."
+  d_giga_hab_supertensiles_1:99 "Dépôt de $giga_sr_amb_megaconstruction$"
+  d_giga_hab_supertensiles_1_desc:99 "Cet habitat est construit près d'un gisement exploitable de matériaux supertensifs."
+    d_giga_hab_supertensiles_2:99 "$d_giga_hab_supertensiles_1$"
+  d_giga_hab_supertensiles_2_desc:99 "$d_giga_hab_supertensiles_1_desc$"
+    ############################################################################################################  # COLONY DESIGNATIONS    
+  col_giga_supertensiles_foundry:99 "Centre de  méga-logistique"
+  col_giga_supertensiles_foundry_desc:99 "Cette planète est un centre de fabrication et de logistique axé sur les projets de construction dans l'espace lointain."
+  col_giga_habitat_supertensiles_foundry:99 "Station de méga-logistique"
+  col_giga_habitat_supertensiles_foundry_desc:99 "Une arcologie artificielle de l'espace profond dédiée à la fabrication de mégastructures."
+    ############################################################################################################  # EDICTS    
+  edict_giga_amb_sentient_metal_supertensiles:99 "Fonderies moléculaires assistées par des métaux sensibles"
+  edict_giga_amb_sentient_metal_supertensiles_desc:99 "Les propriétés adaptatives du métal sensible ont plusieurs applications potentielles dans la fabrication de matériaux supertensifs.\n\nAméliore le rendement de base et l'entretien de £job_giga_megaengineer£ §Y$job_giga_megaengineer_plural$§! de §Y50%§!.\n\nAugmente le rendement de base et les frais d'entretien de £job_giga_megaengineering_overseer£ §Y$job_giga_megaengineering_overseer_plural$§! de §Y20%§!.\n\nRemplace §Yla moitié des £alloys£ $alloys$ frais d'entretien§! des deux jobs par £ehof_sr_sentient_metal£ §Y$ehof_sr_sentient_metal$§!.."
+    ############################################################################################################  # EVENTS    
+	
+  giga_amb.1000.name:99 "§Y[FromFrom.GetName]§! : Ressource stratégique découverte"
+  giga_amb.1000.has_tech:99 "'§Y[Root.GetName]§!' a découvert une source inconnue de §H$giga_sr_amb_megaconstruction$§! sur [FromFrom.GetName]. Autrefois considérées comme impossibles dans la nature, il semble que, dans des conditions très spécifiques, ces molécules en chaîne incroyablement solides soient effectivement capables de se former. Cette nouvelle découverte pourrait être exploitée pour compléter notre production de supertensiles artificiels."
+  giga_amb.1000.no_tech:99 "'§Y[Root.GetName]§!' a découvert une ressource stratégique jusqu'alors inconnue sur [FromFrom.GetName], appelée §H$giga_sr_amb_megaconstruction$§!.. Ces fibres à maillage dense possèdent un niveau incroyable de résistance à la traction, qui pourrait être exploité dans des projets à grande échelle où les forces impliquées rendaient auparavant la construction infaisable."
+  giga_amb.1000.tooltip:99 "£giga_sr_amb_megaconstruction£§Y$giga_sr_amb_megaconstruction$§!\n§E$giga_sr_amb_megaconstruction_desc_only$§!"

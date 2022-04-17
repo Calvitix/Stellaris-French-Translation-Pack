@@ -264,16 +264,21 @@
   
   district_giga_frameworld_refinery_gases:99 "$district_giga_frameworld_refinery$ $building_refinery$"
   district_giga_frameworld_refinery_gases_plural:99 "$district_giga_frameworld_refinery_plural$"
-  district_giga_frameworld_refinery_gases_desc:99 "[Owner.GetFrameworldRefineryTooltip] qui produit $exotic_gases$."
+  district_giga_frameworld_refinery_gases_desc:99 "[Owner.GetFrameworldRefineryTooltip] qui produit du $exotic_gases$."
   
   district_giga_frameworld_refinery_crystals:99 "$district_giga_frameworld_refinery$ $building_crystal_plant$"
   district_giga_frameworld_refinery_crystals_plural:99 "$district_giga_frameworld_refinery_plural$"
-  district_giga_frameworld_refinery_crystals_desc:99 "[Owner.GetFrameworldRefineryTooltip] qui produit $rare_crystals$."
+  district_giga_frameworld_refinery_crystals_desc:99 "[Owner.GetFrameworldRefineryTooltip] qui produit des $rare_crystals$."
   
   district_giga_frameworld_refinery_motes:99 "$district_giga_frameworld_refinery$ $building_chemical_plant$"
   district_giga_frameworld_refinery_motes_plural:99 "$district_giga_frameworld_refinery_plural$"
-  district_giga_frameworld_refinery_motes_desc:99 "[Owner.GetFrameworldRefineryTooltip] qui produit $volatile_motes$."
+  district_giga_frameworld_refinery_motes_desc:99 "[Owner.GetFrameworldRefineryTooltip] qui produit des $volatile_motes$."
   
+  # supertensiles
+  district_giga_frameworld_supertensiles:0 "$district_giga_supertensiles$"
+  district_giga_frameworld_supertensiles_plural:0 "$district_giga_supertensiles_plural$"
+  district_giga_frameworld_supertensiles_desc:0 "$district_giga_supertensiles_desc$"
+	
   # fortress
   district_giga_frameworld_fortress:99 "District forteresse"
   district_giga_frameworld_fortress_plural:99 "Districts forteresses"
@@ -692,7 +697,7 @@
   frameworld_harvest_0:99 "Récolte d'astéroïdes"
   frameworld_harvest_0_DESC:99 "Si vous pouvez voir ça, c'est que quelque chose a mal tourné."
   frameworld_harvest_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_project$ - $giga_list_category_special$\nDémantelez n'importe quel astéroïde pour obtenir les matières premières nécessaires à l'expansion du §Y$pc_giga_frameworld$§!\n§LUne construction à grande échelle nécessite l'acquisition de ressources à grande échelle§!."
-  frameworld_harvest_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - Développe le §Y$pc_giga_frameworld$§! une fois, en ajoutant en plus §G+1§! §Y$mod_district_giga_frameworld_mining_max$ par 4 récoltes§!.\n\nLe coût augmente avec les modificateurs £mod_planet_clear_blocker_cost_mult£ §Y$MOD_COUNTRY_CLEAR_BLOCKER_COST_MULT$§!.\n\nEffets d'extension :\n\n$frameworld_expansion_fake_tooltip$\n\n$frameworld_asteroid_fake_tooltip$"
+  frameworld_harvest_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - Développe le §Y$pc_giga_frameworld$§! une fois, en ajoutant en plus §G+1§! §Y$mod_district_giga_frameworld_mining_max$ par 4 récoltes§!.\n\nLe coût augmente avec les modificateurs £mod_planet_clear_blocker_cost_mult£ §Y$MOD_COUNTRY_CLEAR_BLOCKER_COST_MULT$§!.\n\nEffets d'extension :\n\n$frameworld_size_fake_tooltip$\n\n$frameworld_expansion_fake_tooltip$\n\n$frameworld_asteroid_fake_tooltip$"
   
   # habitat salvage project
   frameworld_salvage_habitat_0:99 "Sauvegarde de l'habitat"
@@ -743,6 +748,10 @@
   frameworld_conquered:99 "Sur-extension administrative"
   frameworld_conquered_desc:99 "Ce monde est en plein chaos suite à un changement de propriétaire."
   frameworld_conquered_tooltip:99 "La croissance, la construction et l'entraînement de l'armée sont effectivement interrompus sur ce monde."
+  
+  frameworld_building_wreck_fix:0 "Correctif pour l'Upgrade Nexus District"
+  frameworld_building_wreck_fix_desc:0 "Si vous lisez ceci, c'est que quelque chose a mal tourné. Ce modificateur existe pour éviter que les bâtiments soient détruits lors de la décision d'amélioration du district nexus et n'est pas censé persister après la fin du projet."
+  
   
   # asteroid harvest modifiers
   mod_deposit_blockers_frameworld_cost_mult:99 "Coût de la récolte d'astéroïdes"
@@ -888,6 +897,10 @@
   #####################
   ### Fake Tooltips ###
   #####################
+  
+
+  # size up effect
+  frameworld_size_fake_tooltip:0 "Taille du §Y$pc_giga_frameworld$§!: §G+1§!"
   
   # outpost modifier effect
   frameworld_outpost_fake_tooltip:99 "$mod_job_replicator_add$ : §G+0. 5§!\n$MOD_PLANET_POP_ASSEMBLY_REDUCTION$ : §G-10%§!\n$mod_planet_pop_assemblers_alloys_upkeep_add$ : §R+0. 1§!\n$MOD_POP_GROWTH_SPEED_REDUCTION$ : §G- 10%§!\n$MOD_EMPIRE_SIZE_COLONIES_MULT$ : §R+150%§!\n$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$ : §G+10%§!\n$MOD_PLANET_DECISION_ENACT_SPEED_MULT$ : §G+10%§!\n$MOD_PLANET_HOUSING_ADD$ : §G+5§!\n$MOD_PLANET_ARMY_BUILD_SPEED_MULT$ : §G+10%§!\n$MOD_POP_PURGE_SPEED$ : §G+10%§!"
