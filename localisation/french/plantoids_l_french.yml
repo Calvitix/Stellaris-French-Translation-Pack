@@ -7,10 +7,24 @@
  civic_idyllic_bloom_desc:0 "Cette société a toujours consacré beaucoup de temps à préserver et améliorer son environnement, visant à rien moins que construire un véritable paradis pour ses membres."
  civic_hive_idyllic_bloom:0 "$civic_idyllic_bloom$"
  civic_hive_idyllic_bloom_desc:0 "La Conscience fait tout pour préserver son environnement, construisant un véritable paradis afin d'atteindre la perfection synergique."
- civic_tooltip_idyllic_bloom_effects:0 "Permet de construire des £building£§Y$building_gaiaseeders$§! sur les mondes, parfaits pour l'espèce fondatrice.\n$building_gaiaseeders_all_desc$"
+ civic_tooltip_idyllic_bloom_effects:2 "Permet de construire des £building£§Yensemenceurs Gaïa§! sur les mondes et ceux des vassales dont la classe est idéale pour l'espèce fondatrice.\n$building_gaiaseeders_all_desc$\nÀ mesure que des £society£technologies liées à la §Yterraformation§! seront découvertes, des £building£§Yensemenceurs Gaïa§! pourront être construits sur de nouvelles classes de mondes."
  civic_tooltip_not_idyllic_bloom:0 "N'a PAS le civisme §Y$civic_idyllic_bloom$§!"
 
  disables_idyllic_bloom:0 "§RChoisir cet atout de l'ascension revient à renoncer au civisme §Y$civic_idyllic_bloom$§!.§!"
+
+ gaiaseeders_tomb_world:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes morts§! nécessite la technologie £society£§Y$tech_climate_restoration$§!."
+ gaiaseeders_same_climate_start:0 "$TRIGGER_FAIL$ Nécessite la technologie £society£§Y$tech_terrestrial_sculpting$§! pour être construit sur des §Ymondes§!"
+ gaiaseeders_different_climate_start:0 "$TRIGGER_FAIL$ Nécessite la technologie £society£§Y$tech_ecological_adaptation$§! pour être construit sur des §Ymondes§!"
+ gaiaseeders_wet:0 "§Yhumides§!"
+ gaiaseeders_dry:0 "§Ysecs§!"
+ gaiaseeders_cold:0 "§Yglaciaires§!"
+ gaiaseeders_same_climate_wet:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes humides§! nécessite la technologie £society£§Y$tech_terrestrial_sculpting$§!."
+ gaiaseeders_same_climate_dry:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes secs§! nécessite la technologie £society£ §Y$tech_terrestrial_sculpting$§!."
+ gaiaseeders_same_climate_cold:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes glaciaires§! nécessite la technologie £society£ §Y$tech_terrestrial_sculpting$§!."
+ gaiaseeders_different_climate_wet:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes secs§! ou §Yglaciaires§! nécessite la technologie £society£§Y$tech_ecological_adaptation$§!."
+ gaiaseeders_different_climate_dry:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes humides§! ou §Yglaciaires§! nécessite la technologie £society£§Y$tech_ecological_adaptation$§!."
+ gaiaseeders_different_climate_cold:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes humides§! ou §Ysecs§! nécessite la technologie £society£§Y$tech_ecological_adaptation$§!."
+ gaiaseeders_special_habitability_preference:0 "$TRIGGER_FAIL$ La construction sur des §Ymondes humides§!, §Ysecs§! ou §Yglaciaires§! nécessite la technologie £society£§Y$tech_ecological_adaptation$§!."
 
  building_gaiaseeders:0 "Ensemenceurs Gaïa"
  building_gaiaseeders_1:0 "$building_gaiaseeders$, phase 1"
@@ -25,13 +39,26 @@
  building_gaiaseeders_4_effect_desc:0 "Terraforme le monde en un §Ymonde Gaïa§! lorsque le processus est achevé."
 
  plant.100.name:0 "Perfection idyllique"
- plant.100.desc:0 "Grâce aux performances de la bio-ingénierie [Root.GetSpeciesName], à des investissements considérables et à des années d'un labeur acharné, le projet de semeurs Gaïa lancé sur §Y[Root.GetName]§! a atteint son objectif.\n\nDésormais, cette [Root.GetPlanetMoon] sera un véritable joyau de la galaxie, que tous admireront. Et jalouseront sans doute."
+ plant.100.desc:1 "Grâce aux performances de la bio-ingénierie [Root.GetSpeciesName], à des investissements considérables et à des années d'un labeur acharné, le projet d'ensemenceurs Gaïa lancé sur §Y[Root.GetName]§! a atteint son objectif.\n\nDésormais, cette [Root.GetPlanetMoon] sera un véritable joyau de la galaxie, que tous admireront. Et jalouseront sans doute."
  plant.100.a:0 "Que les réjouissances commencent !"
  plant.100.b:0 "Magnifique, passons maintenant à la suite !"
 
+ plant.105.desc:0 "Grâce aux performances de la bio-ingénierie [Root.GetSpeciesName], à des investissements considérables et à des années d'un labeur acharné, le projet d'ensemenceurs Gaïa lancé sur §Y[From.Planet.GetName]§! a atteint son objectif.\n\nDésormais, cette [From.Planet.GetPlanetMoon] sera un véritable joyau de la galaxie, que tous admireront, et jalouseront sans doute. Espérons que la [From.Planet.Owner.GetName] appréciera tous les efforts faits pour elle."
+
+ plant.110.desc:0 "La [Root.Overlord.GetName] a mené à bien son étrange projet sur §Y[From.From.Planet.GetName]§!, la terraformant ainsi en un monde Gaïa. Désormais, un climat idyllique baigne sa surface, et de vastes territoires paradisiaques s'y étendent."
+ plant.110.desc.hydrocentric:0 "La [Root.Overlord.GetName] a mené à bien son projet sur §Y[From.From.Planet.GetName]§!. Inutile de le dire, la [From.From.Planet.GetPlanetMoon] n'a plus la moindre valeur en l'état. Le magnifique océan qui couvrait autrefois sa surface a été remplacé par des plaines et des collines verdoyantes. L'atmosphère autrefois détrempée est au mieux humide, au pire desséchée.\n\nNous n'avons jamais masqué aux [Root.Overlord.GetSpeciesNamePlural] nos inquiétudes, et les avons encore confrontés aux résultats catastrophiques de leur projet, mais leur réponse reste toujours la même : « Mais ce monde est tellement plus joli comme cela, vous ne trouvez pas ? »"
+
+ plant.110.a:0 "Sales... !"
+ plant.110.b:0 "C'est un présent magnifique !"
+ plant.110.c:0 "Ces [Root.Overlord.GetSpeciesNamePlural] sont décidément étranges..."
+
  celebrate_idyllic_bloom:0 "Célébrations de la transformation idyllique"
  celebrate_idyllic_bloom_desc:0 "Une célébration se déroule sur [Root.GetName] pour fêter sa transformation en un paradis parfaitement idyllique."
+ terraformed_our_ocean_world:0 "A terraformé notre monde océanique"
+ terraformed_our_ocean_world_desc:0 "Notre suzeraine a terraformé un magnifique monde océanique en un vilain monde Gaïa. Sans doute voulait-elle ainsi démontrer à toute la galaxie son manque de goût et de bon sens..."
 
+ thankful_for_gaia:0 "Magnifique monde Gaïa"
+ thankful_for_gaia_desc:0 "Notre suzeraine a terraformé l'un de nos mondes en un monde Gaïa. C'est là un présent magnifique, dont nous lui serons éternellement reconnaissants !"
 ### Traits by Byron Aytoun
 
  trait_plantoid_phototrophic:0 "Phototrophe"
@@ -54,20 +81,19 @@
  civic_catalytic_processing:0 "Processus catalytiques"
  civic_catalytic_processing_desc:0 "En orientant la recherche industrielle sur la chimie catalytique, cette civilisation a trouvé le moyen de construire des structures spatiales au moyen de matériaux organiques."
  civic_tooltip_catalytic_processing_effects:0 "Remplace les £job_foundry£§Ymétallurgistes§! par des £job_catalytic_technician£§Ytechniciens catalyseurs§!. $job_catalytic_technician_effect_desc$."
- civic_tooltip_not_catalytic:0 "N'a PAS le civisme §Y$civic_catalytic_processing$§!"
 
 # Corporate
- civic_corporate_catalytic_processing:0 "$civic_catalytic_processing$"
+ civic_corporate_catalytic_processing:1 "Recycleurs catalytiques"
  civic_corporate_catalytic_processing_desc:0 "Cette mégacorporation fait tout pour assurer des profits maximaux en recyclant la matière organique en des ressources avancées utilisables pour la construction de structures spatiales."
  civic_tooltip_catalytic_processing_corporate_effects:0 "$civic_tooltip_catalytic_processing_effects$"
 
 # Hive Mind
- civic_hive_catalytic_processing:0 "$civic_catalytic_processing$"
+ civic_hive_catalytic_processing:1 "Retraitement organique"
  civic_hive_catalytic_processing_desc:0 "La Conscience transforme la matière organique en excès en des ressources avancées utilisables pour la construction de structures spatiales."
  civic_tooltip_hive_catalytic_processing_effects:0 "Remplace les £job_alloy_drone£§Ydrones fondeurs§! par des £job_catalytic_drone£§Ydrones catalyseurs§!. $job_catalytic_drone_effect_desc$."
 
 # Machine Intelligence
- civic_machine_catalytic_processing:0 "$civic_catalytic_processing$"
+ civic_machine_catalytic_processing:1 "$civic_hive_catalytic_processing$"
  civic_machine_catalytic_processing_desc:0 "L'intelligence mécanique transforme la matière organique en excès en des ressources avancées utilisables pour la construction de structures spatiales."
  civic_tooltip_machine_catalytic_processing_effects:0 "Remplace les £job_fabricator£§Yfabricateurs§! par des £job_catalytic_drone£ §Ydrones catalyseurs§!. $job_catalytic_drone_effect_desc$."
 

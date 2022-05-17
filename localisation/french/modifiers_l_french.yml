@@ -3,7 +3,7 @@
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
  #
- # Update check 3.3.1 : 23.02.2022
+ # Update check 3.4.2 : 14.05.2022
  # exemple de modifs : points de coque --> coque
  ####################################
 
@@ -99,6 +99,7 @@
  MOD_COUNTRY_SUBJECT_INTEGRATION_INFLUENCE_COST_MULT:0 "Coût en influence de l'intégration des dépendances"
  MOD_COUNTRY_SUBJECT_INFLUENCE_GAIN_MULT:0 "Influence tirée des dépendances"
  MOD_COUNTRY_SUBJECT_ACCEPTANCE_ADD:0 "Acceptation de la soumission"
+ MOD_MONTHLY_LOYALTY_GAIN:0 "Évolution mensuelle de la £loyalty£loyauté "
  MOD_COUNTRY_FACTION_INFLUENCE_MULT:0 "Influence tirée des factions"
  MOD_COUNTRY_FACTION_INFLUENCE_ADD:0 "Influence maximale tirée des factions"
  MOD_COUNTRY_CLEAR_BLOCKER_COST_MULT:0 "Coût de déblaiement des bloqueurs"
@@ -113,6 +114,7 @@
  MOD_COUNTRY_CLAIM_DISTANCE_MULT:0 "Distance des revendications"
  MOD_COUNTRY_GOVERNMENT_CIVIC_POINTS_ADD:0 "Doctrines diponibles"
  MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT:0 "Coût en influence des bases stellaires "
+ MOD_COUNTRY_STARBASE_INFLUENCE_COST_DISTANCE_MULT:0 "Coût en £influence£ des bases stellaires lié à la distance "
  MOD_COUNTRY_TRADE_FEE:0 "Frais du marché "
  MOD_COUNTRY_SLAVE_MARKET_COST_MULT:0 "Frais du marché d'esclaves "
  MOD_COUNTRY_MEGASTRUCTURE_BUILD_CAP_ADD:0 "Capacité de construction de mégastructures"
@@ -157,6 +159,12 @@
  MOD_POP_ROBOT_BUILD_SPEED_MULT_DESC:0 "Détermine la vitesse de construction des £pop£pops robotiques."
  MOD_POP_ROBOT_BUILD_COST_MULT:0 "Coût de construction des robots"
 
+ mod_pop_job_trade_mult:0 "Prod. de £trade_value£valeur commerciale des £job£emplois "
+ mod_pop_lifestyle_trade_mult:0 "Prod. de £trade_value£valeur commerciale grâce aux conditions de vie "
+ mod_pop_job_amenities_mult:0 "Prod. de £amenities£services des £job£emplois "
+
+ mod_job_soldier_stability_add:0 "Stabilité assurée par les £job_soldier£[GetSoldierPlural_lower] "
+
  MOD_COUNTRY_COLONY_INFLUENCE_COST_MULT:0 "Coût en influence des colonies"
  MOD_COUNTRY_CLAIM_INFLUENCE_COST_MULT:0 "Coût £influence£ des revendications "
  MOD_COUNTRY_HOSTILE_CLAIM_INFLUENCE_COST_MULT:0 "Coût £influence£ des revendications hostiles "
@@ -190,7 +198,7 @@
  MOD_PLANET_POP_ASSEMBLY_REDUCTION:0 "Réduction de la vitesse d'assemblage des £pop£pops mécaniques "
  MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD:0 "Assemblage mensuel des £pop£pops organiques "
  MOD_PLANET_POP_ASSEMBLY_ORGANIC_MULT:0 "Vit. d'assemblage des £pop£pops organiques "
- MOD_PLANET_POP_ASSEMBLY_ORGANIC_REDUCTION:0 "Réduc. de la vit. d'assemblage des £pop£pops organiques "
+ MOD_PLANET_POP_ASSEMBLY_ORGANIC_REDUCTION:1 "Réduc. de la vit. d'assembl. des £pop£pops organiques "
  MOD_PLANET_MIGRATION_ALL_MULT:0 "Toutes les migrations"
  MOD_POP_DECLINE_FROM_EMIGRATION:0 "Déclin des £pop£pops du fait de l'émigration "
  MOD_POP_GROWTH_FROM_IMMIGRATION:0 "Développement des £pop£pops du fait de l'immigration "
@@ -200,7 +208,9 @@
  MOD_PLANET_IMMIGRATION_PULL_MULT:0 "$MOD_PLANET_IMMIGRATION_PULL_ADD$"
  MOD_PLANET_EMIGRATION_PUSH_ADD:0 "Incitations à émigrer"
  MOD_PLANET_EMIGRATION_PUSH_MULT:0 "$MOD_PLANET_EMIGRATION_PUSH_ADD$"
- MOD_PLANET_RESETTLEMENT_UNEMPLOYED_MULT:0 "Chances de réimplantation automatique "
+ MOD_PLANET_RESETTLEMENT_UNEMPLOYED_DESTINATION_MULT:0 "Chances locales de réimplantation autonome "
+ MOD_PLANET_RESETTLEMENT_UNEMPLOYED_DESTINATION_MULT_DESC:0 "Accroît les chances que les £unemployment£pops inemployées de l'empire migrent spontanément vers cette colonie, si celle-ci dispose d'£job£emplois, de £housing£logements et d'une habitabilité convenable."
+ MOD_PLANET_RESETTLEMENT_UNEMPLOYED_MULT:0 "Chances de réimplantation autonome "
  MOD_PLANET_RESETTLEMENT_UNEMPLOYED_MULT_DESC:0 "Accroît les chances que les £unemployment£pops inemployées migrent spontanément vers d'autres colonies de l'empire disposant d'emplois, de logements et d'une habitabilité convenable."
  MOD_POP_DECLINE_SPEED:0 "Vitesse de déclin des £pop£pops "
  MOD_POP_DECLINE_SPEED_DESC:1 "Définit la vitesse à laquelle les pops déclinent naturellement, par exemple à cause de la surpopulation."
@@ -303,6 +313,10 @@
  MOD_SHIP_STARTING_EXPERIENCE_ADD:0 "Expérience de départ des vaisseaux "
  MOD_SHIP_EXPERIENCE_GAIN_MULT:0 "Gain d'expérience des vaisseaux "
  MOD_SHIP_JUMPDRIVE_COOLDOWN_MULT:0 "Rechargement entre deux bonds "
+ MOD_SHIP_NAVAL_CAP_USAGE_ADD:0 "£navy_size£Capacité navale utilisée "
+ MOD_SHIP_NAVAL_CAP_USAGE_MULT:0 "$MOD_SHIP_NAVAL_CAP_USAGE_ADD$"
+ MOD_SHIP_REPAIR_HULL_MULT:0 "Vit. de réparation des coques des vaisseaux à quai "
+ MOD_SHIP_REPAIR_ARMOR_MULT:0 "Vit. de réparation des blindages des vaisseaux à quai "
 
  #Army
  MOD_ARMY_DISENGAGE_CHANCE_MULT:0 "Chances de désengagement des armées "
@@ -354,6 +368,7 @@
  MOD_PLANET_CRIME_NO_HAPPINESS_ADD:0 "£crime£Déviance"
  MOD_PLANET_CRIME_NO_HAPPINESS_MULT:0 "$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$"
  MOD_PLANET_STABILITY_ADD:0 "£stability£Stabilité "
+ mod_habitat_stability_add:0 "£stability£Stabilité dans les habitats "
  MOD_PLANET_STABILITY_MULT:0 "$MOD_PLANET_STABILITY_ADD$"
  MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE:1 "Dégâts causés par les bomb. orbitaux "
  MOD_SHIP_ORBITAL_BOMBARDMENT_MULT:0 "$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$"
@@ -386,6 +401,7 @@
  mod_planet_structures_upkeep_mult:0 "Maintenance des bâtiments et districts "
  mod_planet_buildings_cost_mult:0 "Coût des £building£bâtiments "
  mod_planet_buildings_upkeep_mult:0 "Maintenance des bâtiments "
+ mod_planet_buildings_energy_upkeep_mult:0 "Maintenance £energy£ des £building£bâtiments "
  mod_planet_districts_cost_mult:0 "Coût des £district£districts "
  mod_planet_districts_upkeep_mult:0 "Maintenance des districts "
  mod_planet_districts_cities_upkeep_mult:0 "Maintenance des districts urbains "
@@ -513,6 +529,8 @@
  MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_MULT:0 "$MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_ADD$"
  MOD_COUNTRY_STARBASE_CAPACITY_ADD:0 "$STARBASE_CAPACITY_TITLE$"
  MOD_COUNTRY_STARBASE_CAPACITY_MULT:0 "$STARBASE_CAPACITY_TITLE$"
+ MOD_COUNTRY_ENCLAVE_CAPACITY_ADD:0 "Nombre maximal d'enclaves de Mercenaires "
+ MOD_COUNTRY_ENCLAVE_CAPACITY_MULT:0 "$MOD_COUNTRY_ENCLAVE_CAPACITY_ADD$"
  MOD_STARBASE_TRADE_COLLECTION_RANGE_ADD:2 "Portée de collecte "
  MOD_STARBASE_TRADE_PROTECTION_RANGE_ADD:2 "Portée de protection "
  MOD_STARBASE_TRADE_PROTECTION_ADD:0 "£trade_protection£Protection du commerce "
@@ -619,8 +637,8 @@
  mod_country_traditions_influence_produces_add:0 "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
  mod_country_ruler_influence_produces_add:0 "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
  mod_country_ethic_influence_produces_add:0 "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
- mod_country_power_projection_influence_produces_add:0 "$country_power_projection$ "
- mod_country_power_projection_influence_produces_mult:0 "$country_power_projection$ "
+ mod_country_power_projection_influence_produces_add:1 "£influence£Influence max. tirée de la proj. des forces "
+ mod_country_power_projection_influence_produces_mult:1 "£influence£Influence tirée de la proj. des forces "
 
  ####################################
  # Dynamic Modifiers
@@ -971,6 +989,12 @@
  mod_pc_alpine_habitability:0 "Habitabilité des mondes montagneux"
  mod_pc_habitat_habitability:0 "Habitabilité des habitats"
  mod_pc_shattered_ring_habitable_habitability:0 "Habitabilité des anneaux brisés "
+ MOD_HABITABILITY_FLOOR:0 "Habitabilité minimale de l'espèce"
+ MOD_HABITABILITY_CEIL:0 "Plafond d'habitabilité de l'espèce"
+ MOD_HABITABILITY_FLOOR_ADD:0 "$MOD_HABITABILITY_FLOOR$ "
+ MOD_HABITABILITY_FLOOR_MULT:0 "$MOD_HABITABILITY_FLOOR$ "
+ MOD_HABITABILITY_CEIL_ADD:0 "$MOD_HABITABILITY_CEIL$ "
+ MOD_HABITABILITY_CEIL_MULT:0 "$MOD_HABITABILITY_CEIL$ "
 
  ####################################
  # Triggered Modifiers
@@ -1023,20 +1047,20 @@
  triggered_dc_opinion_of_servitors:0 "Oppresseurs"
  triggered_dc_opinion_of_assimilators:0 "$triggered_dc_opinion_of_servitors$"
  ## ETHOS
- opinion_xenophobia:0 "Xénophobie"
- opinion_xenophobes:0 "Sales xénophobes extrémistes"
- opinion_xenophilia:0 "Xénophilie"
- opinion_xenophiles:0 "Diplomatie xénophile"
- opinion_xenophage:0 "Xénophages"
+ triggered_opinion_xenophobia:0 "Xénophobes "
+ triggered_opinion_xenophobes:0 "Saletés de xénophobes "
+ triggered_opinion_xenophilia:0 "Xénophiles "
+ triggered_opinion_xenophiles:0 "Diplomatie xénophile "
+ triggered_opinion_xenophage:0 "Xénophages "
  opinion_biophage:0 "Biophages"
- opinion_of_materialist:0 "Imbéciles de matérialistes"
- opinion_of_materialist_pos:0 "Matérialistes intelligents"
- opinion_of_spiritualist:0 "Imbéciles de spiritualistes"
- opinion_of_spiritualist_pos:0 "Sages spiritualistes"
- opinion_of_egalitarian_pos:0 "Égalitaristes libres"
- opinion_of_pacifist_pos:0 "Pacifistes éclairés"
- opinion_of_egalitarian:1 "Sales égalitaristes"
- opinion_of_authoritarian:1 "Tyrans d'autoritaristes"
+ triggered_opinion_of_materialist:0 "Imbéciles de matérialistes "
+ triggered_opinion_of_materialist_pos:0 "Brillants matérialistes "
+ triggered_opinion_of_spiritualist:0 "Imbéciles de spiritualistes "
+ triggered_opinion_of_spiritualist_pos:0 "Sages spiritualistes "
+ triggered_opinion_of_egalitarian_pos:0 "Égalitaristes bienveillants "
+ triggered_opinion_of_pacifist_pos:0 "Pacifistes éclairés "
+ triggered_opinion_of_egalitarian:1 "Idiots d'égalitaristes "
+ triggered_opinion_of_authoritarian:1 "Autoritaristes tyranniques "
  opinion_from_personality:0 "Personnalité de [Root.GetPersonalityName]"
  opinion_desecrated_holy_world:0 "Planète sacrée profanée"
  opinion_desecrated_tomb_world:0 "Monde radioactif profané"
@@ -1511,6 +1535,21 @@
  mod_pc_hive_habitability:0 "Habitabilité des mondes de la Conscience"
  MOD_POSTFIX_PERCENT:0 "§G%§!"
 
+ SPECIES_TRAIT_PICKS:0 "Choix de traits d'espèce"
+ mod_BIOLOGICAL_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ organique "
+ mod_MECHANICAL_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ mécanique "
+ mod_MACHINE_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ artificielle "
+ mod_HUM_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ humanoïde "
+ mod_MAM_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ mammalienne "
+ mod_REP_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ reptilienne "
+ mod_AVI_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ aviaire "
+ mod_ART_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ arthropoïde "
+ mod_MOL_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ molluscoïde "
+ mod_FUN_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ fongoïde "
+ mod_PLANT_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ plantoïde "
+ mod_LITHOID_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ lithoïde "
+ mod_AQUATIC_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ aquatique "
+
  MOD_COUNTRY_SENSOR_RANGE_ADD:0 "Portée des capteurs de l'empire"
  MOD_SHIP_SENSOR_RANGE_ADD:0 "Portée des capteurs "
 
@@ -1544,3 +1583,13 @@
  MOD_SHIP_DAMAGE_AGAINST_STARBASES_MULT:0 "Dégâts infligés aux bases stellaires "
 
  MOD_DIPLO_ACTION_ACCEPTANCE_ADD:0 "Acceptation diplomatique "
+
+ mod_ships_energy_upkeep_mult:0 "Maintenance en £energy£ des vaisseaux "
+ mod_starbases_energy_upkeep_mult:0 "Maintenance en £energy£ des bases stellaires "
+
+ MOD_CATAPULT_SPREAD_BASE:0 "Précision de base de la catapulte quantique "
+ MOD_CATAPULT_SPREAD_MULT:0 "Précision de la catapulte quantique "
+ MOD_CATAPULT_RANGE_BASE:0 "Portée de base de la catapulte quantique "
+ MOD_CATAPULT_RANGE_MULT:0 "Portée de la catapulte quantique "
+ mod_quantum_catapult_megastructure_bypass_windup_mult:0 "Temps de rechargement de la catapulte quantique "
+

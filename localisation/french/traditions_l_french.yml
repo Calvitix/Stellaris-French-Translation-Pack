@@ -3,7 +3,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.3.1 : 23.01.2022
+ # Update check for 3.4.2 : 14.05.2022
  ####################################
  
  ####################################
@@ -655,7 +655,7 @@
  tr_subterfuge_finish_desc:0 "Remboursement de §G50%§! du coût du niveau d'infiltration pour toute §Yopération§! débouchant sur un succès.\nDébloque §G1§! atout de l'ascension."
 
  tr_subterfuge_information_security:0 "Sécurité de l'information"
- tr_subterfuge_information_security_delayed:0 "§LCe n'est qu'en adoptant une tradition du secret qu'il est possible de protéger les informations vitales d'une trop grande curiosité.§!"
+ tr_subterfuge_information_security_delayed:0 "§LCe n'est qu'en adoptant une tradition du secret qu'il est possible de protéger les informations vitales d'une trop grande curiosité. Contre-mesures et systèmes de sécurité doivent à tout prix être renforcés pour ne donner aucun avantage à nos ennemis§!"
 
  tr_subterfuge_nda:0 "Accord de non-divulgation"
  tr_subterfuge_nda_hive:0 "Aucune fuite"
@@ -670,14 +670,11 @@
  tr_subterfuge_operational_security_gestalt_delayed:0 "§LNous ne sommes plus isolés comme c'était le cas auparavant : une myriade d'entités rivales, potentiellement hostiles, partage la galaxie avec nous. Afin de prospérer dans cette réalité nouvelle, nous devons nous adapter au concept de «camouflage» et consacrer une part importante de nous-mêmes à découvrir les secrets des autres.§!"
 
  tr_subterfuge_double_agents:0 "Agents doubles"
- tr_subterfuge_double_agents_desc:0 "Si une §Yopération§! hostile à notre égard est un échec : §G+10§! renseignements sur l'empire qui nous a espionnés."
+ tr_subterfuge_double_agents_effect:0 "Si une §Yopération§! hostile à notre égard est un échec : §G+10§! renseignements sur l'empire qui nous a espionnés."
  tr_subterfuge_double_agents_delayed:0 "§LPar des moyens de persuasion créatifs, il est toujours possible d'acheter jusqu'aux ennemis les plus acharnés afin qu'ils s'attachent à notre cause.§!"
 
  tr_subterfuge_shadow_recruits:0 "Recrues des ombres"
- tr_subterfuge_shadow_recruits_gestalt:0 "$tr_subterfuge_shadow_recruits$"
- tr_subterfuge_shadow_recruits_delayed:0 "§LTandis que nos ennemis se sont faits à la vie dans l'ombre, nos propres agents y sont nés et en ont été façonnés en son sein.§!"
- tr_subterfuge_shadow_recruits_gestalt_delayed:0 "§LTandis que nos ennemis se sont faits à la vie dans l'ombre, nos propres agents ont été créés et façonnés en son sein.§!"
-
+ tr_subterfuge_shadow_recruits_delayed:0 "§LNos ennemis se sont faits à la vie dans l'ombre. Mais nos [Root.GetOperativesLowerPlural] y sont nés et en ont été façonnés en son sein.§!"
 
 ################################################################
 # Unyielding
@@ -692,7 +689,7 @@
  tr_unyielding_federations_finish_desc:0 "$MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_MULT$: §G+50%§!\n$mod_starbases_upkeep_mult$: §G-20%§!\nDonne accès aux fédérations de type §Y$military_federation$§!.\nDébloque §G1§! atout de l'ascension."
 
  tr_unyielding_resistance_is_frugal:0 "Économie de résistance"
- tr_unyielding_resistance_is_frugal_desc:0 "Les £building£§Ybastions§! suscitent désormais §Y3§! en £unity£unité.\n§Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§!: §G+25%§!"
+ tr_unyielding_resistance_is_frugal_desc:1 "Les £defense_army£§Yarmées défensives§! suscitent désormais §Y0.5§! en £unity£unité.\n$MOD_ARMY_DEFENSE_HEALTH_MULT$: §G+25%§!"
  tr_unyielding_resistance_is_frugal_hive:0 "$tr_unyielding_resistance_is_frugal$"
  tr_unyielding_resistance_is_frugal_machine:0 "$tr_unyielding_resistance_is_frugal$"
  tr_unyielding_resistance_is_frugal_delayed:0 "§LLa population se réjouit de la puissance des défenses qui gardent nos mondes, et les considère comme vitales pour assurer notre prospérité future.§!"
@@ -748,7 +745,7 @@
  requires_not_ap_the_flesh_is_weak:1 "$TRIGGER_FAIL$ Incompatible avec l'atout de l'ascension §Y$ap_the_flesh_is_weak$§!."
  requires_finished_cybernetics_project:1 "$TRIGGER_FAIL$ Le projet spécial §YLa chair est faible§! doit avoir été mené à bien."
 
- requires_ap_mind_over_matter:1 "$TRIGGER_FAIL$ Nécessite l'atout de l'ascension §Y$ap_mind_over_matter$§!."
+ requires_ap_mind_over_matter:2 "$TRIGGER_FAIL$ Nécessite soit l'atout de l'ascension §Y$ap_mind_over_matter$§!, soit l'origine §Y$origin_shroudwalker_apprentice$§!."
  requires_not_ap_mind_over_matter:1 "$TRIGGER_FAIL$ Incompatible avec l'atout de l'ascension §Y$ap_mind_over_matter$§!."
  allow_decision_mastery_of_nature:0 "§HPermet la décision§! $decision_mastery_of_nature$"
  describe_decision_mastery_of_nature:0 "§ECette décision ajoute de façon permanente §Y2§! districts à la limite maximale de districts d'un monde. Elle ne peut être prise qu'une fois par monde.§!"
@@ -843,6 +840,7 @@
  ap_hive_worlds_desc:0 "Nous devrions créer des mondes vivants qui seraient tout autant membres de la conscience que les drones qui y résident."
  ap_shared_destiny:0 "Destinée commune"
  ap_shared_destiny_desc:0 "§WNous sommes sur le point d'accéder à une gloire supérieure, mais ne pouvons abandonner ceux qui nous ont fidèlement servi. L'avenir de l'empire a toujours été rêvé comme commun.§!"
+ ap_shared_destiny_effect:0 "Si nous avons plusieurs §Ydépendances§!, elles ne subissent pas de pénalité de $r_loyalty_lower$."
  ap_world_shaper_desc:0 "§WFaçonner et altérer l'écosystème d'une planète entière pour en faire quelque chose d'entièrement nouveau n'est pas si différent d'un artiste modelant l'argile pour en faire une statue.§!"
  ap_master_builders_desc:0 "§WConstruire une mégastructure nécessite des ressources et de la planification à des échelles inédites. Nous explorons des territoires vierges en termes de macro-ingénierie.§!"
  ap_imperial_prerogative_desc:0 "§WNotre civilisation continue de s'étendre, aussi son coeur doit-il lui aussi en faire autant. Plus de systèmes doivent être placés sous notre contrôle direct.§!"
@@ -875,3 +873,6 @@
  ap_galactic_wonders_utopia_and_megacorp_desc:1 "$ap_galactic_wonders_desc$"
 
  ap_technological_ascendancy_rare:2 "Les §Mtechnologies rares§! apparaissent désormais §Y1,5§! fois plus. Une chance de §Y1%§! de les voir apparaître passe donc à §Y1,5%§!."
+ ap_grasp_the_void_tech_effect:0 "Les §Ytechnologies de voyage PRL§! apparaissent désormais §Y1,5§! fois plus."
+
+ requires_not_shroudwalker_apprentice:0 "$TRIGGER_FAIL$ Impossible avec l'origine §Y$origin_shroudwalker_apprentice$§!."

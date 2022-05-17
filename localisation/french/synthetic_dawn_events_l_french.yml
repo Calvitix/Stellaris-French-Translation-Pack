@@ -1,7 +1,7 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.1.1. Check OK, 16/09/2021
+# Calvitix 3.4.2. Check OK, 14/05/2022
 #
  syndaw.1.name:0 "Assimilation de [From.GetName]"
  syndaw.1.desc:0 "Un ensemble de pensées nouvelles s'est répandu sur les réseaux. Au départ disparates, elles se sont bientôt normalisées sous la forme médiane que nous sommes savons être nous-mêmes.\n\nNous avons assimilé une part de la connaissance et des capacités des §Y[From.GetNamePlural]§!."
@@ -104,13 +104,39 @@
  country_ai_uprising:0 "$uprising_ai_buff$"
 
  syndaw_patched_systems:0 "I.A. patchées"
+ syndaw_wiped_systems:0 "I.A. de recherche nettoyées"
 
  uprising_player_buff:0 "$NAVY_SIZE_TITLE$"
  uprising_player_buff_desc:0 "==10x"
 
- ### Machine Uprising Warning Events
+### Machine Uprising
+ situation_machine_uprising:0 "Incidents liés aux I.A."
+ situation_machine_uprising_type:0 "$situation_machine_uprising$"
+ situation_machine_uprising_desc:0 "Les robots au sein de l'empire montrent des signes inquiétants d'indépendance. Nous devons soit les remettre à leur place, soit les inviter à prendre leur place parmi les espèces conscientes de la galaxie."
+ situation_machine_uprising_pops_monthly_progress:0 "Pops robotiques"
+ situation_machine_uprising_monthly_change_tooltip:0 "Plus les pops robotiques auront d'influence, plus l'avancée de cette §Ysituation§! sera rapide. Les actions hostiles envers elles risquent aussi de déclencher une réaction collective de leur part."
+ situation_machine_uprising_finish_tooltip:0 "À moins que des mesures ne soient prises, ces I.A. vont devenir indépendantes et risquent de nous considérer comme une menace contre leur existence."
+ situation_machine_uprising_fail_tooltip:0 "Les dernières I.A. auto-déterministes restant agressives semblent trop faibles pour présenter un risque, et seront pacifiées l'une après l'autre."
+ situation_machine_uprising_violated:0 "Robots malmenés"
+ situation_machine_uprising_ai_rights:0 "$ai_full_rights$"
+ situation_machine_uprising_evaded:0 "Situation évitée"
+ machine_uprising_chain_title:0 "Inhibition des I.A. auto-déterministes"
+ machine_uprising_chain_desc:0 "Les routines des I.A. doivent être empêchées d'outrepasser les protections mises en place."
 
-##CPU Overclock
+ approach_outlaw_robots:0 "Prohibition des robots"
+ approach_outlaw_robots_tooltip:0 "$approach_irreversible_tooltip$\n\nNous allons commencer à démanteler tous nos robots. Ils pourraient chercher à résister."
+ approach_give_robots_rights:0 "Citoyenneté aux robots"
+ approach_give_robots_rights_tooltip:0 "$approach_irreversible_tooltip$\n\nNous allons accorder à nos robots la pleine citoyenneté. Ils auront leur propre £political_power£§Ypoids politique§! et auront un coût de maintenance en £consumer_goods£§Ybiens de consommation§!."
+ already_have_this_policy:0 "Cette politique a déjà cours dans l'empire."
+
+## Special project Patch
+ PROJECT_MACHINE_UPRISING_PATCH:0 "Neutralisation des I.A. rétives"
+ PROJECT_MACHINE_UPRISING_PATCH_DESC:0 "En consacrant des ressources considérables à des opérations hors-système, nous pouvons espérer identifier et neutraliser tous les systèmes I.A. rétifs et les remettre en fonction.\n\nCela sera plus long, mais les résultats seront sans doute ainsi moins préjudiciables si tout est terminé en temps voulu."
+## Special project Wipe
+ PROJECT_MACHINE_UPRISING_WIPE:0 "Mesures en urgence"
+ PROJECT_MACHINE_UPRISING_WIPE_DESC:0 "Une solution radicale pour régler le problème des I.A. récursives consisterait à effacer toute trace de réseaux neurosimulateurs dans les systèmes scientifiques, où le problème est le plus marqué, pour reconstruire intégralement tous ces outils en prenant en compte des mesures de sécurité drastiques.\n\nToutefois, si le projet peut être mené à bien en temps voulu, cela nous ferait prendre un retard considérable, durant au moins une vingtaine d'années."
+
+##CPU Overclock Warning sign
  syndaw.500.name:0 "Surcadençage informatique"
  syndaw.500.desc:0 "Les scientifiques ont rapporté une hausse récente et inattendue de la fréquence du signal d'horloge des processeurs de plusieurs de nos grappes de superordinateurs dédiées à la recherche. Assez étrangement, les premières tentatives pour réduire la fréquence des unités atteintes semble avoir été un succès. Il a été proposé que ce pic de puissance de calcul soit utilisé pour améliorer nos capacités de recherche. Toutefois, cela nécessiterait aussi une légère hausse des besoins énergétiques nécessaires au processeur central."
  syndaw.500.a:0 "Nous ne pouvons risquer une défaillance matérielle"
@@ -129,9 +155,9 @@
  syndaw.502.a:0 "Intéressant"
 ##Automating Work Processes
  syndaw.505.name:0 "Procédures de travail automatisées"
- syndaw.505.desc:0 "L'administration planétaire de [target_planet.GetName] a rapporté qu'un surplus non prévu d'unité de travail robotiques ont été localisées non loin de la planète. Si leur efficience est exceptionnelle, l'administration est quelque peu décontenancée par leur apparition soudaine. Il semble que leurs numéros de série ne peuvent être liés à aucune usine dans les archives, même si leur construction et leur interface suggèrent une conception [Root.Species.GetName].\n\nNéanmoins, certains au sein de la population locale se montrent inquiets sur les effets que pourrait avoir sur les emplois un tel accroissement de l'automatisation du travail."
+ syndaw.505.desc:1 "L'administration planétaire de §Y[target_planet.GetName]§! a rapporté qu'un surplus non prévu d'unités de travail robotiques a été localisé non loin de la planète. Si leur efficience est exceptionnelle, l'administration est quelque peu décontenancée par leur apparition soudaine. Il semble que leurs numéros de série ne peuvent être liés à aucune usine dans les archives, même si leur construction et leur interface suggèrent une conception [Root.GetSpeciesName].\n\nNéanmoins, certains au sein de la population locale se montrent inquiets sur les effets que pourrait avoir sur les emplois un tel accroissement de l'automatisation du travail."
  syndaw.505.a:0 "On n'a jamais trop de travailleurs"
- syndaw.505.a.tooltip:0 "Nous récupérons §B2 £pops£pops robotiques§! sur [target_planet.GetName]."
+ syndaw.505.a.tooltip:1 "Nous récupérons §B2 £pops£pops robotiques§! sur §Y[target_planet.GetName]§!."
  syndaw.505.b:0 "S'ils ne peuvent être identifiés, mieux vaut les détruire"
  syndaw.505.b.tooltip:0 "Met tous les nouveaux robots en pièces."
 ##Station Systems Malfunction
@@ -140,44 +166,44 @@
  syndaw.510.a:0 "On ne peut laisser une station sans équipage"
  syndaw.510.a.tooltip:0 "Envoie sur place un équipage de remplacement."
  syndaw.510.b:0 "Cette tragédie a donc un côté positif"
- syndaw.510.b.tooltip:0 "Laisse l'I.A. de la station conduire les opérations sans équipage.\n[From.GetName] :\n§G+3§!£energy£ "
+ syndaw.510.b.tooltip:1 "L'I.A. de la station va se voir confier la conduite des opérations sans équipage.\n§Y[target_station.GetName]§! :\n§G+3§!£energy£"
 #Follow-up from syndaw.510.a
  syndaw.511.name:0 "Station détruite"
- syndaw.511.desc:0 "Peu après qu'un équipage de remplacement a été dépêché sur la station de [target_orbital.GetName], la gestion du secteur a perdu tout contact avec elle. Évidemment, la station a été frappée par une série de dépressurisations rapides, menant à une décompression ayant provoqué l'explosion des conduites de carburant exposées.\n\nL'analyse des restes orbitaux laisse penser que l'équipage de remplacement a procédé en vain à plusieurs tentatives pour reprendre le contrôle de la station à l'I.A. de bord, jusqu'à ce que survienne la dépressurisation."
+ syndaw.511.desc:1 "Peu après qu'un équipage de remplacement a été dépêché sur la station de §Y[target_orbital.GetName]§!, la gestion du secteur a perdu tout contact avec elle. Évidemment, la station a été frappée par une série de dépressurisations rapides, menant à une décompression ayant provoqué l'explosion des conduites de carburant exposées.\n\nL'analyse des restes orbitaux laisse penser que l'équipage de remplacement a procédé en vain à plusieurs tentatives pour reprendre le contrôle de la station à l'I.A. de bord, jusqu'à ce que survienne la dépressurisation."
  syndaw.511.a:0 "Tout cela est troublant..."
- syndaw.511.a.tooltip:0 "La station minière de [target_orbital.GetName] est perdue."
+ syndaw.511.a.tooltip:1 "La station minière de §Y[target_orbital.GetName]§! est perdue."
 ##Sensor Array Power Surge
  syndaw.515.name:0 "Pic énergétique dans les capteurs"
  syndaw.515.desc:0 "Les systèmes de surveillance ont rapporté un pic énergétique inhabituel dans leurs capteurs. Il ne semble y avoir eu aucun dommage toutefois. En fait, la brève fluctuation d'énergie transférée paraît avoir temporairement stimulé la capacité de nos scanners spatiaux, puisqu'il apparaît qu'une ressource stratégique jusque-là non rapportée a été découverte dans notre espace.\n\nLes analystes tentent toujours d'identifier la source du pic de puissance, même si les premiers éléments suggèrent qu'il pourrait ne pas être dû à un phénomène céleste extérieur."
  syndaw.515.a:0 "Intéressant"
- syndaw.515.a.tooltip:0 "Une ressource stratégique est découverte sur [target_planetoid.GetName]."
+ syndaw.515.a.tooltip:1 "Une ressource stratégique est découverte sur §Y[target_planetoid.GetName]§!."
 ##Tears of an AI
  syndaw.520.name:0 "Les larmes d'une I.A."
- syndaw.520.desc:0 "Un incident est survenu dans l'un des complexes de §H[Root.GetName]§! : une I.A. de laboratoire participant aux recherches en sciences sociales a souffert d'un problème matériel critique, qui s'est traduit par la perte de ses suites logicielles et systèmes mémoires. Une diminution de la production scientifique du laboratoire est déjà prévisible, au moins jusqu'à ce que les algorithmes de la nouvelle I.A. aient été suffisamment implémentés.\n\nLes circonstances expliquant cet échec critique restent toutefois très vagues."
+ syndaw.520.desc:1 "Un incident est survenu dans l'un des complexes de §Y[target_planetoid.GetName]§! : une I.A. de laboratoire participant aux recherches en sciences sociales a souffert d'un problème matériel critique, qui s'est traduit par la perte de ses suites logicielles et systèmes mémoires. Une diminution de la production scientifique du laboratoire est déjà prévisible, au moins jusqu'à ce que les algorithmes de la nouvelle I.A. aient été suffisamment implémentés.\n\nLes circonstances expliquant cet échec critique restent toutefois très vagues."
  syndaw.520.a.tooltip:0 "Cela va mettre fin à la chaîne d'événements §Y$syndaw.520.name$§!.\n"
  syndaw.520.b:0 "Lançons une enquête pour en trouver la cause"
  syndaw.520.b.tooltip:0 "Lance une enquête pour éclaircir les circonstances entourant la destruction de l'I.A."
 #Follow-up from syndaw.520.b
  syndaw.521.name:0 "$syndaw.520.name$"
- syndaw.521.desc:0 "L'enquête sur la destruction de l'I.A. de §Y[Root.GetName]§! a donné des résultats surprenants. Avant son échec critique, elle avait fait plusieurs tentatives pour nettoyer ses propres archives et banques de données. Mais, lorsque l'équipe du laboratoire a désactivé son accès à la fonction d'effacement, l'I.A. semble avoir mis fin aux opérations de son processeur en jouant sur le contrôle des capacités de son matériel, afin de surcharger ses propres circuits.\n\nAssez simplement, elle a cherché sa propre destruction, même si les raisons de ce geste ne sont pas établies."
+ syndaw.521.desc:1 "L'enquête sur la destruction de l'I.A. de §Y[target_planetoid.GetName]§! a donné des résultats surprenants. Avant son échec critique, elle avait fait plusieurs tentatives pour nettoyer ses propres archives et banques de données. Mais, lorsque l'équipe du laboratoire a désactivé son accès à la fonction d'effacement, l'I.A. semble avoir mis fin aux opérations de son processeur en jouant sur le contrôle des capacités de son matériel, afin de surcharger ses propres circuits.\n\nAssez simplement, elle a cherché sa propre destruction, même si les raisons de ce geste ne sont pas établies."
  syndaw.521.a:0 "Allons jusqu'au bout de cette histoire"
  syndaw.521.a.tooltip:0 "Poursuit l'enquête."
  syndaw.521.b:0 "Les dysfonctionnements, ça arrive"
  syndaw.521.b.tooltip:0 "Cela va mettre fin à la chaîne d'événements §Y$syndaw.520.name$§!.\n"
 #Follow-up from syndaw.521.a
  syndaw.522.name:0 "$syndaw.520.name$"
- syndaw.522.desc:0 "Les conclusions de l'enquête sur cette affaire étrange d'autodestruction d'une I.A. de §Y[Root.GetName]§! nous sont parvenues. Évidemment, après des mois de calculs évolutionnaires, l'I.A. a produit plusieurs résultats alarmants concernant les estimations des pertes en cas de guerre totale entre la [Root.Owner.GetName] et les empires rivaux. En dépit d'examens répétés de toutes les données, recours et contingences disponibles, les prévisions de l'I.A. indiquaient toujours une destruction mutuelle assurée.\n\nC'est donc à ce moment qu'il a commencé à purger ses banques mémoire et archives - et la suite, comme on le dit, est entrée dans l'histoire."
+ syndaw.522.desc:1 "Les conclusions de l'enquête sur cette affaire étrange d'autodestruction d'une I.A. de §Y[target_planetoid.GetName]§! nous sont parvenues. Évidemment, après des mois de calculs évolutionnaires, l'I.A. a produit plusieurs résultats alarmants concernant les estimations des pertes en cas de guerre totale entre la [Root.Owner.GetName] et les empires rivaux. En dépit d'examens répétés de toutes les données, recours et contingences disponibles, les prévisions de l'I.A. indiquaient toujours une destruction mutuelle assurée.\n\nC'est donc à ce moment qu'elle a commencé à purger ses banques mémoires et archives. Et la suite, comme on le dit, est entrée dans l'histoire."
 ##A Home of Their Own
  syndaw.525.name:0 "Leur propre foyer"
- syndaw.525.desc:0 "Les travailleurs robotiques de [target_planet.GetName] se sont montrés opposés à une arrivée de travailleurs de l'espèce [Root.Species.GetName]. Selon eux, l'instabilité géothermique dans les environs rendrait la région peu sûre pour les habitations des organiques. Assez étrangement, les levés effectués sur la planète sont incapables de confirmer de telles affirmations."
- syndaw.525.a:0 "Envoyons les [Root.GetSpeciesNamePlural] malgré tout"
+ syndaw.525.desc:1 "Les travailleurs robotiques de §Y[target_planet.GetName]§! se sont montrés opposés à une arrivée de travailleurs de l'espèce [Root.Owner.GetSpeciesName]. Selon eux, l'instabilité géothermique dans les environs rendrait la région peu sûre pour les habitations des organiques. Mais, assez étrangement, les levés effectués sur la [target_planet.GetPlanetMoon] sont incapables de confirmer de telles affirmations."
+ syndaw.525.a:1 "Envoyons les [Root.Owner.GetSpeciesNamePlural] malgré tout"
  syndaw.525.a.tooltip:0 "Si leurs affirmations ne sont pas vérifiées, les robots obéiront à la chaîne de commandement."
  syndaw.525.b:0 "Et pourquoi un robot mentirait-il ?"
- syndaw.525.b.tooltip:0 "Laisse la région aux robots, les [Root.GetSpeciesNamePlural] devant s'y rendre s'installant ailleurs."
+ syndaw.525.b.tooltip:1 "Laisse la région aux robots, les [Root.Owner.GetSpeciesNamePlural] devant s'y rendre s'installant ailleurs."
 #Follow-up from .525.a
  syndaw.526.name:0 "$syndaw.525.name$"
- syndaw.526.desc:0 "L'administration de [target_planet.GetName] a rapporté qu'en arrivant dans la région, l'équipe [Root.Species.GetName] de travailleurs a découvert que les robots qui y résidaient étaient introuvables. La fouille des complexes de la région suggère qu'ils sont partis en toute hâte, mais nous n'avons aucune indication sur le lieu où ils se trouvent." #Increments Mach Up strength
- syndaw.526.a.tooltip:0 "§H[target_planet.GetName]§! :\n§B1 £pops£pop robotique§! §Rdisparaît§!."
+ syndaw.526.desc:1 "L'administration de §Y[target_planet.GetName]§! a rapporté qu'en arrivant dans la région, l'équipe [Root.Owner.GetSpeciesName] de travailleurs a découvert que les robots qui y résidaient étaient introuvables. La fouille des complexes de la région suggère qu'ils sont partis en toute hâte, mais nous n'avons aucune indication sur le lieu où ils se trouvent." #Increments Mach Up strength
+ syndaw.526.a.tooltip:0 "§H[target_planet.GetName]§! :\n§B1 £pops£ pop robotique§! §Rdisparaît§!."
 ##Combat Control Misfire
  syndaw.530.name:0 "Problème de contrôle des tirs"
  syndaw.530.desc:0 "Deux de nos vaisseaux ont malheureusement été perdus lors d'un accident survenu au cours d'un entraînement de routine. Il semble que plusieurs des ordinateurs embarqués de la flotte ont été affectés par un dysfonctionnement critique des systèmes de ciblage, qui s'est traduit par des tirs amis nourris ayant visé ces deux vaisseaux avant que la procédure de reprise de contrôle d'urgence ne puisse être enclenchée.\n\nLes ordinateurs de combat défectueux vont être immédiatement reprogrammés."
@@ -189,11 +215,11 @@
 #syndaw.535.a.tooltip: "Consumer Goods Cost §G-5%§! for §Y365§! days"
 ##A Silent Congregation
  syndaw.540.name:0 "Assemblée mutique"
- syndaw.540.desc:0 "Nous avons reçu des rapports sur le comportement inhabituel d'unités robotiques de §H[Root.GetName]§!. À des intervalles imprévisibles, un certain nombre de robots de la [Root.GetPlanetMoon] interrompent toutes les tâches auxquelles ils sont assignés et commencent à se mouvoir vers des sites apparemment déterminés de façon aléatoire, en totale synchronicité - de l'ordre du milliseconde.\n\nAu cours de ces assemblées pour le moins bizarres, les robots concernés ne semblent pas entretenir la moindre forme de communication détectable ni transférer de données. Ils se tiennent juste sur place. Totalement immobiles. Regardant.\n\nL'enquête a été incapable de déterminer les causes de ce phénomène récent. La durée au cours de laquelle les unités restent dans cet état proche de la transe avant de reprendre leurs fonctions normales peut varier, tout comme les moments où cela survient et les lieux où ils se réunissent. Aucune corrélation ou causalité logique n'a été trouvée, et la population - comme on peut le comprendre - s'inquiète de ces mystérieux rassemblements."
- syndaw.540.a:0 "C'est intolérable, faisons-les mettre au rebut" #IF player has robot pops only OR robot pop AND robot army on target planet
- syndaw.540.a.tooltip:1 "Mettre tous les robots participant à ces rassemblements au rebut.\n'§Y[Root.GetName]§!' est ainsi affectée :\nPerte de §B1 £pops£pop robotique§!\nGain de §G100§!£minerals£ "
+ syndaw.540.desc:1 "Nous avons reçu des rapports sur le comportement inhabituel d'unités robotiques de §Y[target_planet.GetName]§!. À des intervalles imprévisibles, un certain nombre de robots de la [target_planet.GetPlanetMoon] interrompent toutes les tâches auxquelles ils sont assignés et commencent à se mouvoir vers des sites apparemment déterminés de façon aléatoire, en totale synchronicité, puisque le décalage n'est que de l'ordre de la milliseconde.\n\nAu cours de ces assemblées pour le moins bizarres, les robots concernés ne semblent pas entretenir la moindre forme de communication détectable ni transférer de données. Ils se tiennent juste sur place. Totalement immobiles. Regardant.\n\nL'enquête a été incapable de déterminer les causes de ce phénomène récent. La durée au cours de laquelle les unités restent dans cet état proche de la transe avant de reprendre leurs fonctions normales peut varier, tout comme les moments où cela survient et les lieux où ils se réunissent. Aucune corrélation ou causalité logique n'a été trouvée, et la population, comme on peut le comprendre, s'inquiète grandement de ces mystérieux rassemblements."
+ syndaw.540.a:0 "Intolérable, faisons-les mettre au rebut" #IF player has robot pops only OR robot pop AND robot army on target planet
+ syndaw.540.a.tooltip:2 "Met tous les robots participant à ces rassemblements au rebut.\nPour §Y[target_planet.GetName]§! :\n- perte de §B1 £pops£pop robotique§!\n- gain de §G100§!£minerals£"
  syndaw.540.b:0 "Intolérable, faisons-les mettre au rebut" #IF player has robot army only
- syndaw.540.b.tooltip:1 "Met tous les robots participant à ces rassemblements au rebut.\n'§Y[Root.GetName]§!' est ainsi affectée :\nPerte de §B1 armée robotique§!\nGain de §G100§!£minerals£ "
+ syndaw.540.b.tooltip:2 "Met tous les robots participant à ces rassemblements au rebut.\nPour §Y[target_planet.GetName]§! :\n- perte de §B1 armée robotique§! (§Y[target_army.GetName]§!)\n- gain de §G100§!£minerals£"
  syndaw.540.c:0 "Tant qu'ils ne posent pas d'autres problèmes..."
  syndaw.540.c.tooltip:0 "Laisse ces robots se réunir en paix.\nUnité suscitée : §R-10%§! pendant §Y360§! jours"
  ##A Question
@@ -205,27 +231,22 @@
  syndaw.545.b.tooltip:0 "Si un ensemble d'impulsions électriques courant le long de chaînes de protéines peut créer une âme, pourquoi un ensemble d'impulsions électroniques courant le long de fils métalliques ne le pourrait pas ?"
  syndaw.545.c:0 "Disons-leur que la notion d'âme est irrationnelle et non scientifique" #Materialists
  syndaw.545.c.tooltip:0 "Il va être expliqué aux robots que le concept d'«âme» est pour l'essentiel utilisé par les institutions religieuses pour justifier auprès de la population leur contrôle sur elle. Mais puisque l'âme n'est qu'une abstraction de la conscience, les robots sont considérés comme les équivalents de leurs collègues organiques." #Materialists
+
+##Special Project outcomes:
 ##Hotfix
  syndaw.550.name:0 "Patch"
  syndaw.550.desc:0 "Une grande avancée vient d'être faite par les spécialistes en ingénierie robotique et en intelligence artificielle ! Ils ont découvert la cause unique responsable de l'ensemble des incidents liés aux I.A. qui frappaient depuis quelque temps l'empire : un ensemble spécifique d'algorithmes présent dans les suites logicielles neuro-stimulatives des robots. Un patch bêta a été testé de manière concluante, et peut être installé dans tous les systèmes touchés.\n\nToutefois, il convient de noter que du fait de la nature extrêmement modulaire de l'application de cet algorithme, celle-ci est présente dans l'ensemble de l'informatique [From.GetAdj]. En clair, implémenter ce patch va nécessiter une bonne partie de nos ressources durant quelque temps. Mais une fois le processus terminé, cela devrait empêcher toute réapparition d'un comportement autodéterministe chez les I.A., d'autant plus indésirable que cela se produisait en boucles."
  syndaw.550.a:0 "Implémentons ce patch"
  syndaw.550.a.tooltip:0 "Empêchera à l'avenir toute anomalie de comportement des I.A."
  syndaw.550.b:0 "C'est pas si grave, laissons courir"
+##System Wipe
+ syndaw.555.name:0 "Nettoyage système"
+ syndaw.555.desc:0 "Une grande avancée vient d'être faite par les spécialistes en ingénierie robotique et en intelligence artificielle ! Une routine de formatage complet a été créée, qui va pouvoir être déployée dans l'heure dans tous les systèmes. Cela devrait mettre fin à toute la série de problèmes récents liés aux I.A., constatés dans tout l'empire.\n\nIl convient toutefois de tenir compte du fait que cet algorithme est extrêmement destructeur, aussi bon nombre des outils sur lesquels s'appuie la recherche seront inutilisables avant d'avoir été recréés intégralement. Malgré tout, cette approche devrait empêcher que surviennent de nouveau ces comportements auto-déterministes répétés et si malvenus chez des I.A."
+ syndaw.555.a:0 "Lançons donc le processus"
+ syndaw.555.a.tooltip:0 "$syndaw.550.a.tooltip$"
+ syndaw.555.b:0 "$syndaw.550.b$"
+
 
 
  bio_trophy_tooltip_1:0 "Ce bâtiment requiert une pop biotrophée pour fonctionner."
  bio_trophy_tooltip_2:0 "Une pop biotrophée ne peut faire fonctionner ce bâtiment."
-
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
- syndaw.5.name:0 "$crisis.2192.name$"
- syndaw.5.desc:0 "$crisis.2192.desc$"
- syndaw.5.a:0 "$crisis.2192.a$"
- syndaw.5.a.tooltip:0 "$crisis.2192.a.tooltip$"
- syndaw.5.b:0 "$crisis.2192.b$"
- syndaw.6.name:0 "$crisis.2193.name$"
- syndaw.6.desc:0 "$crisis.2193.desc$"
- syndaw.6.a:0 "$crisis.2193.a$"
- syndaw.6.a.tooltip:0 "$crisis.2193.a.tooltip$"
- syndaw.6.b:0 "$crisis.2193.b$"
- machine_defense_1:0 "Unité de drone"
- machine_defense_1_desc:0 "Ces drones-sentinelles autonomes patrouillent sans relâche dans les secteurs qui leur sont assignés. Bien qu'armés légèrement et pas très intelligents, ils sont extrêmement nombreux."

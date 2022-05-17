@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check 3.3.1 : 23.02.2022
+ # Update check 3.4.2 : 14.05.2022
  ####################################
  # Anomaly Category
  the_lonely_bot_category:0 "Signes d'une vie ancienne"
@@ -615,6 +615,11 @@
  terra.50.b:0 "Nous avons d'autres projets pour ce monde"
  terra.55.name:0 "Perfection organisationnelle"
  terra.55.desc:0 "Surpasser la nature n'est pas quelque chose de nouveau pour la Conscience. Ainsi, au cours du processus de terraformation de §Y[From.GetName]§!, la moindre colline a été prise en considération, le moindre fragment de vie animale placé de manière stratégique. La [From.GetPlanetMoon] est donc désormais un véritable paradis logistique, organisé de manière parfaite pour les [Root.GetUnitDronePlural]."
+ terra.60.name:0 "Primitifs déterrés"
+ terra.60.desc:0 "Lors des procédures d'enrichissement du sol et d'ajout d'une atmosphère sur §Y[From.GetName]§!, les [Root.GetTerraformerPlural] ont fait une découverte inattendue : sous la surface de la [From.GetPlanetMoon] se trouve une civilisation d'alien souterrains. Sans doute n'avait-elle pas été repérée par les capteurs jusqu'à présent du fait de la haute densité des minéraux de la croûte.\n\nCes primitifs ne semblent pas conscients que la surface a changé, ce qui nous permet de faire ce que nous voulons d'eux."
+ terra.60.a:0 "Voilà qui est commode"
+ terra.60.b:0 "Ces xénovermines se cachent décidément partout..."
+ terra.60.c:0 "Ces primitifs ne le sont donc pas tant que cela"
  terra.55.a:0 "Leur productivité atteindra des sommets"
  terra.65.name:0 "Imperfection utile"
  terra.65.desc:0 "Ce que les [Root.GetTerraformerPlural] de §Y[From.GetName]§! avaient pris au départ pour une vilaine poche de gaz s'est avéré être en fait une véritable bénédiction. Les vapeurs toxiques qu'elle dégage sont en fait des §Ygaz exotiques§! non raffinés. Grâce à cette nouvelle ressource naturelle, l'énergie devant par nécessité être introduite dans l'atmosphère de la [From.GetPlanetMoon] a grandement diminué, et nous pourrons collecter ces gaz durant des années encore !"
@@ -789,9 +794,9 @@
  colony.9103.b:0 "Mobilisation des troupes d'assaut et distribution d'incinérateurs !"
 
  colony.9104.name:0 "Monde souterrain"
- colony.9104.desc:0 "Les serpents de §Y[Root.GetName]§! sont parvenus à convertir une partie de l'équipement minier en véhicules de transport pour passer de leur monde souterrain à la surface de la [Root.GetPlanetMoon]. Cela cause de grands dommages environnementaux.\n\nLes scientifiques locaux ont commencé à qualifier ces envahisseurs serpentins d'ophidiens. Les troupes, elles, leur ont trouvé d'autres noms, qu'il ne serait guère décent de répéter."
- colony.9104.desc.science:0 "Les serpents de §Y[Root.GetName]§! sont parvenus à convertir une partie de l'équipement minier en véhicules de transport pour passer de leur monde souterrain à la surface de la [Root.GetPlanetMoon]. Cela cause de grands dommages environnementaux.\n\nSi ces « Hissss » provoquent le plus effroyable chaos, les scientifiques se demandent si tout cela ne pourrait pas être une diversion. Les Ophidiens n'ont pas pris l'ensemble du matériel de minage, aussi est-il possible d'arrêter certaines machines pour les réparer."
- colony.9104.desc.soldier:0 "Les serpents de §Y[Root.GetName]§! sont parvenus à convertir une partie de l'équipement minier en véhicules de transport pour passer de leur monde souterrain à la surface de la [Root.GetPlanetMoon]. Cela cause de grands dommages environnementaux.\n\nQuelle que soit la motivation de ces Ophidiens, les troupes insistent pour que les opérations de minage se poursuivent. Nous y perdrons assurément des gardes et des soldats, mais nous ne pouvons nous permettre de laisser un seul serpent pénétrer dans les logements, ou se lover dans le matériel indispensable à la production économique."
+ colony.9104.desc:1 "Les serpents de §Y[Root.GetName]§! sont parvenus à convertir une partie de l'équipement minier en véhicules de transport pour passer de leur monde souterrain à la surface de la [Root.GetPlanetMoon]. Cela cause de grands dommages environnementaux.\n\nLes scientifiques locaux ont commencé à qualifier ces envahisseurs serpentins d'ophidiens. Les troupes, elles, leur ont trouvé d'autres noms, qu'il ne serait guère décent de répéter."
+ colony.9104.desc.science:1 "Les serpents de §Y[Root.GetName]§! sont parvenus à convertir une partie de l'équipement minier en véhicules de transport pour passer de leur monde souterrain à la surface de la [Root.GetPlanetMoon]. Cela cause de grands dommages environnementaux.\n\nSi ces « Hissss » provoquent le plus effroyable chaos, les scientifiques se demandent si tout cela ne pourrait pas être une diversion. Les ophidiens n'ont pas encore pris l'ensemble du matériel de minage, aussi est-il possible d'arrêter certaines machines pour les réparer."
+ colony.9104.desc.soldier:1 "Les serpents de §Y[Root.GetName]§! sont parvenus à convertir une partie de l'équipement minier en véhicules de transport pour passer de leur monde souterrain à la surface de la [Root.GetPlanetMoon]. Cela cause de grands dommages environnementaux.\n\nQuelle que soit la motivation de ces ophidiens, les troupes insistent pour que les opérations de minage se poursuivent. Nous y perdrons assurément des gardes et des soldats, mais nous ne pouvons nous permettre de laisser un seul serpent pénétrer dans les logements, ou se lover dans le matériel indispensable à la production économique."
  colony.9104.a:0 "Arrêtons tout le reste du matériel de minage"
  colony.9104.b:0 "Voilà ce qui se passe quand on ne fait pas tout pour écraser l'ennemi"
 
@@ -806,16 +811,16 @@
  colony.9107.name:0 "Vaisseau ophidien"
  colony.9107.desc:0 "Les serpents de §Y[Root.GetName]§! ont patiemment attendu qu'un vaisseau entre dans le système. Quelqu'un semble avoir eu l'idée brillante de se poser à la surface de la [Root.GetPlanetMoon], et désormais le vaisseau est infesté à son tour."
  colony.9107.a:0 "Autant le leur laisser, maintenant..."
- colony.9107.a.tooltip:0 "On peut se demander quelle sera leur destinée lorsque ces serpents si intelligents commenceront à s'aventurer dans la galaxie."
+ colony.9107.a.tooltip:1 "On peut se demander quelle sera leur destinée lorsque ces ophidiens si intelligents commenceront à s'aventurer dans la galaxie."
  colony.9107.b:0 "Détruisons immédiatement ce vaisseau !"
- colony.9107.b.tooltip:0 "Puisque ces serpents si intelligents se sont réinstallés dans le vaisseau, nous devrions les laisser tous monter à bord et laisser le réacteur surchauffer..."
+ colony.9107.b.tooltip:1 "Puisque ces ophidiens si intelligents se sont réinstallés dans le vaisseau, nous devrions les laisser tous monter à bord et laisser le réacteur surchauffer..."
 
  colony.9108.name:0 "Sssur la route dezzz étoiles"
  colony.9108.desc:0 "Un unique vaisseau a passé les dispositifs de détection et ondulé dans le système stellaire de §Y[Root.GetStarName]§!. Grâce à de multiples voyages, les ophidiens ont désormais quitté leur [Root.GetPlanetMoon], emportant avec eux de grandes réserves de minéraux."
  colony.9108.a:0 "En ce cas, bon vent !"
  colony.9108.a.tooltip:0 "§LCette fois, ils ont fait leur mue...§!"
 
- colony.9109.name:0 "Relégués dans les annales de l'hissstoire"
+ colony.9109.name:1 "Ces serpents qui sifflent sur nos têtes"
  colony.9109.desc:0 "Une explosion a été entendue non loin de l'établissement principal de §Y[Root.GetName]§!. Les colons devront évidemment rester vigilants à l'avenir, mais pour ce que l'on peut constater, tous les envahisseurs ophidiens semblent avoir été détruits en même temps que le vaisseau."
  colony.9109.a:0 "Pour les serpents..."
  colony.9109.a.tooltip:0 "Votre longue histoire est terminée. Vous êtes... de l'histoire ancienne."
@@ -841,6 +846,44 @@
  anomaly.7010.desc.empty:0 "$anomaly.7010.desc.base$Il est vide, son contenu s'étant depuis longtemps évaporé par un obturateur corrodé. Le contenant lui-même est malgré tout toujours en bon état, et l'alliage utilisé pour sa fabrication vaut largement ceux que nous utilisons pour nos vaisseaux."
  anomaly.7010.desc.rot.bio:0 "$anomaly.7010.desc.base$Il contient un liquide aujourd'hui infâme, même s'il s'agissait au départ d'une boisson nutritive autrefois délicieuse que le temps a fait tourner. En étudiant cette substance, les [Root.Owner.GetScientistPlural] espèrent en apprendre davantage sur la biologie des aliens qui s'en délectaient autrefois. À condition qu'ils puissent faire quelque chose pour son odeur infecte, évidemment."
  anomaly.7010.desc.rot.nonbio:0 "$anomaly.7010.desc.base$Il contient une mixture liquide composée de saccharose, d'acide citrique et d'autres composés biologiques. Les [Root.Owner.GetScientistPlural] pensent qu'il s'agissait d'une substance nutritive élaborée par et pour des êtres carbonés. Des études complémentaires devraient en révéler davantage sur la biologie de cette espèce disparue."
+
+ #GREED IS BAD
+ colony.9050.name:0 "Filon minéral inattendu"
+ colony.9050.desc:0 "Les études géologiques de §Y[Root.GetName]§! ont révélé que la [Root.GetPlanetMoon] était plus riche en minéraux que nous ne le pensions. Après avoir calibré les capteurs pour pénétrer plus profondément le sol, plusieurs sites miniers prometteurs ont été repérés. Consacrer davantage de ressources à de telles prospections devrait donc permettre de noter la présence de filons plus profonds de minerais utiles."
+ colony.9050.a:0 "Pas de dépenses supplémentaires, lançons l'exploitation"
+ colony.9050.b:0 "Allouons des ressources à de nouvelles prospections"
+ colony.9055.name:0 "Filons en profondeur"
+ colony.9055.desc:0 "Prospecter les profondeurs de §Y[Root.GetName]§! est un processus fastidieux : les capteurs ne réagissent pas aussi bien à la composition du sol, et les mouvements des plaques géologiques obligent à les recalibrer constamment. Malgré tout, d'autres veines exploitables ont été repérées, contenant des minerais de grande qualité. Leur profondeur implique une logistique minière plus complexe qu'à l'ordinaire, mais cela n'en empêchera pas l'exploitation. Toutefois, rien ne prouve que de nouvelles prospections permettront de découvrir de nouveaux gisements."
+ colony.9055.a:0 "Lançons donc les opérations minières"
+ colony.9055.b:0 "Il y en a sans doute davantage encore"
+ colony.9060.name:0 "Trop peu, trop profonds"
+ colony.9060.desc:0 "Les dernières opérations de prospection, sur §Y[Root.GetName]§!, n'ont guère apporté de résultats. Tous les minéraux qui ont pu être repérés étaient trop profonds, en trop petites quantités, et couverts par des matériaux instables. Les coûts d'exploitation seraient donc beaucoup trop élevés par rapport aux profits espérés. Malgré tout, les découvertes déjà faites représentent un revenu en ressources énorme, qui devrait nous tenir occupés durant des décennies, si ce n'est des siècles."
+ colony.9060.a:0 "Au travail donc !"
+ colony.9065.name:0 "Davantage de minerais"
+ colony.9065.desc:0 "Peu importe à quelle profondeur se cachent les minéraux de §Y[Root.GetName]§!, nous les trouverons et les exploiterons. Après tout, c'est ce que fait la [Root.Owner.GetName]. D'autres peuvent bien renoncer lorsqu'ils sont confrontés à des sols trop instables, à de trop grandes profondeurs ou à des problèmes logistiques de maintenance des galeries de transport, mais pas nous. Le sous-sol est notre foyer, et si nous savons où chercher, nous finissons toujours par trouver. Plus nous descendons, meilleurs et plus nombreux sont les minerais. Et les derniers échantillons ont même révélé la présence possible de cristaux rares, enfouis encore plus profondément."
+ colony.9065.a:0 "Cela nous suffira, lançons l'extraction"
+ colony.9065.b:0 "Ces cristaux seront bientôt à nous !"
+ colony.9070.name:0 "Cristaux de feu"
+ colony.9070.desc:0 "Les expéditions de prospection, sur §Y[Root.GetName]§!, ont atteint des profondeurs lointaines. Et, comme nous l'avions prévu, des amas de cristaux ont été trouvés, qui brillent de mille feux aux teintes orangées, jaunes ou rouges lorsque la lumière tombe dessus. Parfois, cela donne l'impression qu'un brasier illumine les cavernes où ils se trouvent, jetant des ombres mouvantes sur les murs.\n\nUne étrange observation a aussi été faite : tout laisse penser qu'au cours des millénaires ces cristaux migrent lentement vers le coeur de la [Root.GetPlanetMoon]. Il y a donc toutes les raisons de penser que nous en trouverons davantage si nous creusons plus profondément encore."
+ colony.9070.a:0 "Ces prospections deviennent coûteuses..."
+ colony.9070.b:0 "On continue !"
+ colony.9075.name:0 "Le prix de l'avarice"
+ colony.9075.intro:0 "Tandis que les opérations de prospections s'enfonçaient toujours plus loin sous la surface de §Y[Root.GetName]§!, elles ont découvert des cristaux en quantités toujours plus importantes. Enfin, elles ont débouché sur une gigantesque caverne, non loin du manteau de la [Root.GetPlanetMoon]. C'est alors que les communications ont été coupées. La dernière chose que nous savons est qu'elles étaient en train d'installer de l'éclairage et divers capteurs pour étudier la grotte. Puis des cris. La douleur. La mort. La destruction.\n\nLes causes ont bientôt été révélées, lorsque d'autres prospecteurs ont détecté des échos remontant à une vitesse phénoménale vers les établissements au-dessus : peu après, au milieu des séismes et des secousses, les établissements ont été attaqués par une entité cristalline aux proportions monstrueuses. Elle ressemble beaucoup aux cristaux que l'on trouve dans l'espace, mais paraît beaucoup plus agressive, et dotée des capacités de reconstruction de son espèce pour réparer son corps en un instant.\n\n"
+ colony.9075.outro:0 "Car, si le corps de la créature reste enfoui dans les profondeurs, ses appendices tentaculaires creusent le sol pour attaquer ou absorber de nouveaux cristaux et grossir encore. Les estimations faites sont inquiétantes, et nous risquons bien de perdre la colonie..."
+ colony.9075.desc.a:0 "$colony.9075.intro$ Toutes les tentatives faites pour déployer les signaux radio qui apaisent les cristaux spatiaux se sont soldées par des échecs. $colony.9075.outro$" #Pacified Crystals
+ colony.9075.desc.b:0 "$colony.9075.intro$ C'est une chose de faire face à une telle entité dans l'espace, où les vaisseaux peuvent mettre à profit leur vitesse et leur armement ; mais il en va bien autrement de la combattre au sol. $colony.9075.outro$" #Regular
+ NAME_Crystal_Kraken:0 "Fléau de cristal"
+ crystal_kraken_army:0 "Entité cristalline souterraine"
+ crystal_kraken:0 "Fléau de cristal"
+ NAME_Crystal_Shard:0 "Éclat de cristal"
+ colony.9080.name:0 "Entité cristalline vaincue"
+ colony.9080.desc:0 "Au terme d'une campagne exténuante, l'entité cristalline de §Y[crystal_kraken_planet.GetName]§! a enfin pu être vaincue. Les derniers combats ont eu lieu dans les profondeurs de la [crystal_kraken_planet.GetPlanetMoon], dans la caverne même où se trouvait son coeur, et ce n'est que lorsque le géant de cristal a été brisé en éclats qu'il a cessé de combattre. Ses divers appendices, désintégrés, ont perdu de leur cohésion au niveau moléculaire, laissant de la poussière de cristal absolument partout. Les innombrables tunnels creusés par les tentacules, toutefois, seront d'une grande utilité pour exploiter l'impressionnante quantité de minéraux de ce monde.\n\nQuant aux origines de la créature, de nombreuses questions restent sans réponses. Mais nous disposons au moins de nouvelles informations sur la façon dont sont nées les entités cristallines qui errent dans l'espace."
+ colony.9080.a:0 "Victoire !"
+ d_crystal_kraken_body:0 "Restes cristallins"
+ colony.9085.name:0 "Événements inhabituels"
+ colony.9085.desc:0 "Sur §Y[Root.GetName]§!, les opérations minières ont rencontré des difficultés inattendues. Entre les légères secousses et les veines cristallines mouvantes, il se passe quelque chose. Malgré toute notre expérience pour ce qui concerne les mines, nous n'avons aucune idée de ce que cela peut être. Les circonstances rendent difficiles les conditions de travail en toute sécurité, et les accidents et effondrements imprévus ont déjà coûté cher en matériel, en vies et en matériaux perdus. Il serait donc peut-être préférable de ne pas miner en dessous d'une certaine profondeur."
+ colony.9085.a:0 "Ce n'est sans doute pas grand-chose..."
+ colony.9085.b:0 "La sécurité avant tout !"
 
  #### Rage Sage
 
@@ -874,3 +917,32 @@
  anomaly.7030.name:0 "$on_crashed_ship_cat$"
  anomaly.7030.desc:0 "L'ancien vaisseau retrouvé à demi enterré dans le cratère de §Y[From.GetName]§! était un vaisseau scientifique. Sur les parois extérieures se trouve un ensemble de capteurs volumineux, mais aucun armement. Le vaisseau ne semble pas avoir été autrement abîmé avant le crash. On peut donc penser que l'accident a été causé par une erreur fatale commise par l'équipage."
  anomaly.7030.desc.a:0 "C'est tragique"
+
+ #SPACE SHANTY (by Brian Campbell), Melody: "Fish in the Sea"
+
+ site_space_shanty_dig:0 "Un message dans une bouteille"
+ space_shanty_intro:0 "L'épave de ce vaisseau primitif retrouvée sur §Y[From.Planet.GetName]§! est réellement inhabituelle. Au lieu d'utiliser un système de propulsion similaire à celui des vaisseaux modernes, elle utilisait de grandes voiles déployées dans le vide de l'espace. On suppose donc que le vaisseau collectait l'énergie stellaire et dérivait en suivant les vents solaires. Les archéologues sont donc impatients de découvrir tous les secrets que recèle cette machinerie."
+
+ ancrel.15021.name:0 "$site_space_shanty_dig$"
+ ancrel.15021.desc:0 "Comme nous pouvions nous y attendre, l'intérieur du « voilier solaire » de §Y[From.Planet.GetName]§! est tout à fait primitif. Le pont ressemble assez à celui des antiques voiliers naviguant sur les mers : s'il est lui-même couvert de métal, la plupart des surfaces sont de bois sculpté, ce qui contraste avec le verre utilisé pour les baies et les écrans de données.\n\nEn allumant les ordinateurs, des fichiers ont été retrouvés, dont un contenant un antique chant de marins. Selon les archéologues, ce type de mélodies était autrefois appelé « chant de marins », ou « chant de navigateurs ». Les paroles sont en cours de traduction."
+ ancrel.15022.name:0 "Chant de matelots"
+ ancrel.15022.desc:0 "Aussitôt après que les fichiers ont été restaurés et pu être lus, une chanson entraînante et bien cadencée a retenti dans le vaisseau de §Y[From.Planet.GetName]§!, qui s'est mis à résonner de la voix d'anciens mariniers. En voici la traduction :\n\n$t$Écoutez moussaillons,  je vais vous chanter\n$t$La chanson des poissons  des mers étoilées !\n\n$tt$Le temps est gros, garçons,  le ciel est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !\n\n$t$Portés jusqu'aux étoiles  par les vents stellaires\n$t$Nébuleuses et systèmes  voilà notre mer !\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !"
+ ancrel.15023.name:0 "Créatures cosmiques"
+ ancrel.15023.desc:0 "L'exploration du voilier de §Y[From.Planet.GetName]§! s'est poursuivie, et de nouvelles tentatives pour le remettre en fonctionnement et lire ses fichiers de données ont permis de retrouver d'autres couplets de l'ancien chant de marins. Les projecteurs holographiques du vaisseau ont projeté des images de matelots et de navigateurs spatiaux dansant en chantant ces paroles :\n\n$t$Fondant depuis l'espace  vient le grand dragon\n$t$Chercher dessous les flots  où sont nos maisons !\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !\n\n$t$Roi de l'hyperespace  c'est le tiyanki\n$t$Qui course nos vaisseaux  jusqu'à l'infini !\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !\n\n$t$Avec ses tentacules  c'est le léviathan\n$t$Qui brise les vaisseaux  pour passer le temps !\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !"
+ ancrel.15024.name:0 "Liquides forts"
+ ancrel.15024.desc:0 "Les archéologues ont retrouvé dans le voilier de §Y[From.Planet.GetName]§! une cachette contenant des breuvages forts. L'équipage consommait-il ces liquides puants ? Les scientifiques refusent eux-mêmes d'en ingérer, même pour la science. Selon eux, l'exploration du vaisseau serait déjà bien assez enivrante... Quoi qu'il en soit, ils ont aussi retrouvé de nouveaux couplets de ce chant de marins :\n\n$t$De pierre et de rocher  sont les lithoïdes\n$t$Ces lourdauds sont costauds  mais pas bien rapides !\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !\n\n$t$Effroyables et glacés  sont les nécroïdes\n$t$Pas forcément méchants  mais un peu fétides !\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !\n\n$t$Par essaims et nuées  viennent les robots\n$t$Dix, vingt, cent droïdes ? Non !   C'est 1 ou 0 !\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !"
+ ancrel.15025.name:0 "Larguer les amarres"
+ ancrel.15025.desc:0 "L'exploration du voilier de §Y[From.Planet.GetName]§! a livré des aperçus d'un passé lointain, montrant le courage et l'abnégation de ces antiques explorateurs. Tout laisse croire que le capitaine du vaisseau utilisait ce chant pour motiver l'équipage et l'aider à se coordonner. Peut-être même chantaient-ils tous en choeur ? Les archéologues sont persuadés que ce morceau devrait être préservé dans un musée.\n\nQuant à la mélodie elle-même, toutes les paroles que nous avons pu retrouver ont été transcrites, traduites et ajoutées dans nos bases de données. Nos propres « marins » ont eux-mêmes pris l'habitude d'en chanter des versions qui leur sont propres, qui semblent contribuer à leur moral et leur efficacité :\n\n$t$Sortis de l'océan  dans nos beaux navires\n$t$Bientôt la galaxie  sera notre empire !$t$\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !\n\nIl est temps donc que notre propre vaisseau largue lui-même les amarres et quitte cet antique voilier pour faire voile sur les vents solaires jusqu'à la bordure de la galaxie. Vers l'espace obscur !"
+ ancrel.15022.a:0 "Faisons traduire la suite des paroles !"
+ ancrel.15023.a:0 "$ancrel.15022.a$"
+ ancrel.15024.a:0 "Il nous faut la suite de ces paroles !"
+ ancrel.15025.a:0 "Qu'ils retiennent ces paroles et suivent le cap !"
+
+ on_solar_sails_cat:0 "Sur les vents stellaires"
+ on_solar_sails_cat_desc:0 "L'épave d'un vaisseau primitif a été retrouvée sur [Root.GetName], qui est d'une conception inhabituelle. Des investigations devraient être menées pour mieux comprendre comment fonctionnait son système de propulsion."
+
+ anomaly.7020.name:0 "$on_solar_sails_cat$"
+ anomaly.7020.desc:0 "L'épave de ce vaisseau primitif retrouvée sur §Y[From.GetName]§! est réellement inhabituelle. Au lieu d'utiliser un système de propulsion similaire à celui des vaisseaux modernes, elle utilisait de grandes voiles déployées dans le vide de l'espace. On suppose donc que le vaisseau collectait l'énergie stellaire et dérivait en suivant les vents solaires."
+ anomaly.7020.a:0 "Nous devrions continuer d'étudier cela"
+
+ harmonious_crew:0 "Équipages bien coordonnés"

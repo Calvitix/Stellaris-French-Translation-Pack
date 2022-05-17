@@ -1,7 +1,7 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Update check 3.3.1 : 23.02.2022
+# Update check 3.4.2 : 14.05.2022
 #
 
  envoy:0 "$default_envoy$"
@@ -149,6 +149,11 @@
  any_owned_ship_trigger:0 "N'importe quel vaisseau possédé"
  count_owned_ship_trigger:0 "Nombre de vaisseaux possédés$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
  count_owned_ship_all_trigger:0 "$IS_ALL_NOT$ vaisseaux possédés remplissent ces conditions"
+
+ effect_random_controlled_ship:0 "Un vaisseau contrôlé aléatoire"
+ effect_every_controlled_ship:0 "Tous les vaisseaux contrôlés"
+ any_controlled_ship_trigger:0 "N'importe quel vaisseau contrôlé"
+ count_controlled_ship_trigger:0 "Nombre de vaisseaux contrôlés$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
 
  NUM_DEFENSIVE_PACTS_TRIGGER:0 "Nombre de pactes défensifs ($VALUE1|0Y$) $COMPARE$ à $VALUE2|0Y$."
  NUM_DEFENSIVE_PACTS_NOT_TRIGGER:0 "Nombre de pactes défensifs ($VALUE1|0Y$) PAS $COMPARE$ à $VALUE2|0Y$."
@@ -530,13 +535,14 @@
  galactic_features.367.c:0 "Bon débarras"
  galactic_features.385:0 "Tiyanki tués"
  galactic_features.385.desc:0 "Nous sommes parvenus à traquer et tuer plusieurs tiyanki sauvages dans le système de §Y[tiyanki_kill_system.GetName]§!. Notre flotte a usé de lasers pour extraire de leurs cadavres des matériaux et ressources."
- tiyanki_kills:0 "Tiyanki abattus :\n§Y[Root.tiyanki_cow_kill_counter]§! §Hbaleines tiyanki :§! §Y[Root.tiyanki_cow_credits]£energy£ et [Root.tiyanki_cow_gas]£exotic_gases£§!\n§Y[Root.tiyanki_bull_kill_counter]§! §Hmâles tiyanki :§! §Y[Root.tiyanki_bull_credits]£energy£ et [Root.tiyanki_bull_gas]£exotic_gases£§!\n§Y[Root.tiyanki_calf_kill_counter]§! §Hjeunes tiyanki :§! §Y[Root.tiyanki_calf_credits]£energy£ et [Root.tiyanki_calf_gas]£exotic_gases£§!\n§Y[Root.tiyanki_hatchling_kill_counter]§! §Hfemelle tiyanki :§! §Y[Root.tiyanki_hatchling_credits]£energy£ et [Root.tiyanki_hatchling_gas]£exotic_gases£§!"
+ #tiyanki_kills:1 "Harvested Tiyanki:\n§Y[Root.tiyanki_cow_kills]§! §HTiyanki Cows:§! £energy£§Y[Root.tiyanki_cow_credits]§!, £exotic_gases£§Y[Root.tiyanki_cow_gas]§!\n§Y[Root.tiyanki_bull_kills]§! §HTiyanki Bulls:§! £energy£§Y[Root.tiyanki_bull_credits]§!, £exotic_gases£§Y[Root.tiyanki_bull_gas]§!\n§Y[Root.tiyanki_calf_kills]§! §HTiyanki Calves:§! £energy£§Y[Root.tiyanki_calf_credits]§!, £exotic_gases£§Y[Root.tiyanki_calf_gas]§!\n§Y[Root.tiyanki_hatchling_kills]§! §HTiyanki Hatchlings:§! £energy£§Y[Root.tiyanki_hatchling_credits]§!, £exotic_gases£§Y[Root.tiyanki_hatchling_gas]§!\n§Y[Root.tiyanki_ox_kills]§! §HTiyanki Oxen:§! £energy£§Y[Root.tiyanki_ox_credits]§!, £exotic_gases£§Y[Root.tiyanki_ox_gas]§!"
  galactic_features.385.a:0 "Bravo !"
  harvested_tiyanki:0 "Tiyanki abattus :"
- harvested_cows:0 "§Y[Root.tiyanki_cow_kill_counter]§! §Hbaleines tiyanki :§!\n"
- harvested_bulls:0 "§Y[Root.tiyanki_bull_kill_counter]§! §Hmâles tiyanki :§!\n"
- harvested_calves:0 "§Y[Root.tiyanki_calf_kill_counter]§! §Hjeunes tiyanki :§!\n"
- harvested_hatchlings:0 "§Y[Root.tiyanki_hatchling_kill_counter]§! §Hfemelles tiyanki :§!\n"
+ harvested_cows:0 "§Y[Root.tiyanki_cow_kills]§! §Hbaleines tiyanki :§!\n"
+ harvested_bulls:0 "§Y[Root.tiyanki_bull_kills]§! §Hmâles tiyanki :§!\n"
+ harvested_calves:0 "§Y[Root.tiyanki_calf_kills]§! §Hjeunes tiyanki :§!\n"
+ harvested_hatchlings:0 "§Y[Root.tiyanki_hatchling_kills]§! §Hfemelles tiyanki :§!\n"
+ harvested_oxes:0 "§Y[Root.tiyanki_ox_kills]§! §Hboeufs tiyanki :§!\n"
  galcom.110.desc:0 "Des officiels de la Communauté galactique ont appris notre récente victoire contre la matriarche tiyanki. Ils nous ont informés que la destruction de cette créature était une grave violation de la loi de préservation des tiyanki, peu importe que la matriarche se soit montrée hostile ou non.\n\nPar voie de fait, '§Y[Root.GetName]§!' est donc désormais considérée comme en §Rinfraction§! par rapport aux lois galactiques pour les dix années à venir. En outre, nous avons reçu une amende de §Y5000§!£energy£ pour avoir tué «une forme de vie tiyanki littéralement unique, que la galaxie ne reverra plus jamais.»"
  galcom.110.a:0 "D'une façon ou d'une autre, il fallait la détruire"
  galcom.110.b:0 "Mais... mais c'est elle qui nous a attaqués !"
@@ -1062,24 +1068,3 @@
 
 #calvitix added
 resolution_passed_diplomatic_weight:0 "Poids diplomatique de Résolution adoptée"
-# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
-# diplomatic.1051.desc:0 " "
-# diplomatic.1051.a.tooltip:0 " "
-# diplomatic.1051.b.tooltip:0 " "
-# diplomatic.1051.c.tooltip:0 " "
-# diplomatic.1051.d.tooltip:0 " "
-# diplomatic.1051.e.tooltip:0 " "
-# diplomatic.1052.desc:0 " "
-# diplomatic.1053.desc:0 " "
-# diplomatic.1054.desc:0 " "
-# diplomatic.1055.desc:0 " "
-# diplomatic.1056.desc:0 " "
-# diplomatic.1057.a.desc:0 " "
-# diplomatic.1057.b.desc:0 " "
-# diplomatic.1057.c.desc:0 " "
-# diplomatic.1057.d.desc:0 " "
-# diplomatic.1057.e.desc:0 " "
-# world_of_tomorrow_desc:0 " "
-# egghead_exchange_desc:0 " "
-# suspicious_leaps_desc:0 " "
-# interstellar_choir_desc:0 " "

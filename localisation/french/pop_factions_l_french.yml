@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.3b : 22.01.2022
- # Translation check : 16.09.2021
+ # Update check for 3.4.2 : 13.05.2022
+ # Translation check : 14.05.2022
  ####################################
 
 
@@ -99,6 +99,9 @@
  SUPREMACIST_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "Protocoles de premier contact agressifs"
  SUPREMACIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "$SUPREMACIST_AGGRESSIVE_FIRST_CONTACT_POLICY$"
  SUPREMACIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY_DESC:0 "Le [Root.GetName] exige que nous ayons le droit de prendre toutes les mesures nécessaires face aux menaces inconnues qui pourraient être rencontrées pendant les voyages interstellaires."
+ SUPREMACIST_OPPRESSIVE_SUBJUGATION_POLICY:0 "Politique de soumission oppressive"
+ SUPREMACIST_NO_OPPRESSIVE_SUBJUGATION_POLICY:0 "$SUPREMACIST_OPPRESSIVE_SUBJUGATION_POLICY$"
+ SUPREMACIST_NO_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Selon la faction [Root.GetName], nos dépendances n'ont d'autre objet que nous servir, et cela devrait leur être rappelé de manière constante. Il sera donc mécontent si nous faisons preuve de la moindre complaisance à leur égard."
 
  # XENOISTS
  XENOIST_PASSIVE_STUDY:0 "Xénologie indirecte (+10/-5)"
@@ -155,6 +158,13 @@
  XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "Protocoles de premier contact agressifs"
  XENOIST_NO_AGGRESSIVE_FIRST_CONTACT_POLICY:0 "$XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY$"
  XENOIST_AGGRESSIVE_FIRST_CONTACT_POLICY_DESC:0 "En cette ère d'exploration, le [Root.GetName] sera mécontent si nous n'inscrivons pas dans la loi les sanctions contre les §Yagressions§! infligées à ceux que nous rencontrerons lors de nos voyages interstellaires."
+ XENOIST_OPPRESSIVE_SUBJUGATION_POLICY:0 "$SUPREMACIST_OPPRESSIVE_SUBJUGATION_POLICY$"
+ XENOIST_NO_OPPRESSIVE_SUBJUGATION_POLICY:0 "$XENOIST_OPPRESSIVE_SUBJUGATION_POLICY$"
+ XENOIST_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Selon la faction [Root.GetName], notre mission est d'élever et d'assurer la prospérité de la galaxie. Cela exige en premier lieu de veiller au bien-être de nos dépendances, et il sera mécontent si nous les exploitons."
+ XENOIST_BENEVOLENT_SUBJUGATION_POLICY:0 "Politique de soumission bienveillante"
+ XENOIST_ADOPT_BENEVOLENT_SUBJUGATION_POLICY:0 "$XENOIST_BENEVOLENT_SUBJUGATION_POLICY$"
+ XENOIST_BENEVOLENT_SUBJUGATION_POLICY_DESC:0 "La faction [Root.GetName] sera satisfaite si nous veillons sur nos dépendances et les aidons à se développer."
+
 
  # IMPERIALISTS
  IMPERIALIST_PHILOSOPHY:0 "Diplomatie agressive (0/-30)"
@@ -187,12 +197,21 @@
  IMPERIALIST_UNDERLING:0 "Dépendance (+0/-25)"
  IMPERIALIST_NOT_UNDERLING:0 "$IMPERIALIST_UNDERLING$"
  IMPERIALIST_UNDERLING_DESC:0 "La faction '§Y[Root.GetName]§!' sera extrêmement mécontente si nous devenons une dépendance sous §Ysuzeraineté§! étrangère."
+ IMPERIALIST_BULWARK:0 "$IMPERIALIST_UNDERLING$"
+ IMPERIALIST_NOT_BULWARK:0 "$IMPERIALIST_UNDERLING$"
+ IMPERIALIST_BULWARK_DESC:0 "La faction [Root.GetName] sera extrêmement mécontente si nous devenons une dépendance autre qu'une marche sous §Ysuzeraineté§! étrangère."
  IMPERIALIST_MILITARY_APPLICATIONS:0 "Réquisition militaire d'artefacts (+5/-0)"
  IMPERIALIST_NO_MILITARY_APPLICATIONS:0 "$IMPERIALIST_MILITARY_APPLICATIONS$"
  IMPERIALIST_MILITARY_APPLICATIONS_DESC:0 "La faction '§Y[Root.GetName]§!' sera satisfaite pour un temps sinous trouvons des applications militaires à des artefacts mineurs."
  IMPERIALIST_PEACEFUL_APPLICATIONS:0 "Artefacts gâchés (+0/-5)"
  IMPERIALIST_NO_PEACEFUL_APPLICATIONS:0 "$IMPERIALIST_PEACEFUL_APPLICATIONS$"
  IMPERIALIST_PEACEFUL_APPLICATIONS_DESC:0 "La faction '§Y[Root.GetName]§!' sera mécontente pendant un temps si nous consacrons des artefacts mineurs à des futilités."
+ IMPERIALIST_BENEVOLENT_SUBJUGATION_POLICY:0 "$XENOIST_BENEVOLENT_SUBJUGATION_POLICY$"
+ IMPERIALIST_NO_BENEVOLENT_SUBJUGATION_POLICY:0 "$IMPERIALIST_BENEVOLENT_SUBJUGATION_POLICY$"
+ IMPERIALIST_BENEVOLENT_SUBJUGATION_POLICY_DESC:0 "La faction [Root.GetName] sera mécontente si nous faisons preuve de la moindre compassion envers nos dépendances. Selon elle, les forts gouvernent, et les faibles n'ont pas à avoir d'autre ambition que les servir au mieux."
+ IMPERIALIST_OPPRESSIVE_SUBJUGATION_POLICY:0 "$SUPREMACIST_OPPRESSIVE_SUBJUGATION_POLICY$"
+ IMPERIALIST_ADOPT_OPPRESSIVE_SUBJUGATION_POLICY:0 "$IMPERIALIST_OPPRESSIVE_SUBJUGATION_POLICY$"
+ IMPERIALIST_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "La faction [Root.GetName] sera satisfaite si nos dépendances comprennent qu'elles doivent rester à leur place. Une [Root.Owner.Species.GetHandName] de fer dans un gant de fer."
 
  # ISOLATIONISTS
  ISOLATIONIST_PHILOSOPHY:0 "Défense héroïque (+0/-25)"
@@ -348,6 +367,9 @@
  PROGRESSIVE_SOCIAL_EQUALITY:0 "Égalité des droits"
  PROGRESSIVE_SOCIAL_EQUALITY_DESC:0 "La faction '§Y[Root.GetName]§!' sera satisfaite si nous nous assurons que toutes les espèces de l'empire jouissent de la pleine citoyenneté."
  PROGRESSIVE_NO_SOCIAL_EQUALITY:0 "$PROGRESSIVE_SOCIAL_EQUALITY$"
+ PROGRESSIVE_BENEVOLENT_SUBJUGATION_POLICY:0 "$XENOIST_BENEVOLENT_SUBJUGATION_POLICY$"
+ PROGRESSIVE_BENEVOLENT_NO_OPPRESSIVE_SUBJUGATION_POLICY:0 "$PROGRESSIVE_BENEVOLENT_SUBJUGATION_POLICY$"
+ PROGRESSIVE_BENEVOLENT_NO_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "Nos dépendances nous regardent comme un guide et un modèle, et selon la faction [Root.GetName] tout devrait être fait pour récompenser leur loyauté par le respect de leurs libertés. Il sera donc satisfait si nous adoptons une attitude bienveillante à leur égard."
 
  # TOTALITARIANS
  TOTALITARIAN_AUTOCRACY:0 "Autocratie (+10/-0)"
@@ -380,6 +402,12 @@
  TOTALITARIAN_UNDERLING:0 "Soumission (+0/-10)"
  TOTALITARIAN_NOT_UNDERLING:0 "$TOTALITARIAN_UNDERLING$"
  TOTALITARIAN_UNDERLING_DESC:0 "La faction '§Y[Root.GetName]§!' sera mécontente si nous devenons une dépendance sous §Ysuzeraineté étrangère§!."
+ TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY:0 "$XENOIST_BENEVOLENT_SUBJUGATION_POLICY$"
+ TOTALITARIAN_NO_BENEVOLENT_SUBJUGATION_POLICY:0 "$TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY$"
+ TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY_DESC:0 "Selon la faction [Root.GetName], pour éviter à nos dépendances de devenir indolentes et complaisantes, elles doivent être guidées d'une [Root.Owner.Species.GetHandName] ferme. Il sera donc mécontent si nous leur accordons de trop grandes libertés."
+ TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY:0 "$TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY$"
+ TOTALITARIAN_ADOPT_OPPRESSIVE_SUBJUGATION_POLICY:0 "$TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY$"
+ TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "La faction [Root.GetName] sera satisfaite si nous surveillons de près nos dépendances. Tout comme nos propres [Root.Owner.Species.GetSpawnNamePlural], elles doivent être guidées et éduquées afin de comprendre toutes les vertus de la discipline."
 
  # PROSPERITY
  PROSPERITY_PHILOSOPHY:0 "Posture défensive (+10/-10)"

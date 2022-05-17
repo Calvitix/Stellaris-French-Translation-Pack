@@ -493,7 +493,7 @@
   giga_menu.2.refresh.tooltip:99 "Ici, vous pouvez vérifier vos paramètres actifs."
 
   giga_menu.1.name:99 ""
-  giga_menu.1.desc:99 "v 3.22.1"
+  giga_menu.1.desc:99 "v 3.22.2"
 
   giga_menu_1:99 "Capacité en mégastructures : §H1§!"
   giga_menu_2:99 "Capacité en mégastructures : §Y2§!"
@@ -1193,6 +1193,8 @@
   giga_menu_presets_patreon_20:99 "Chabloc : §GBlokkazoi§!"
   giga_menu_presets_patreon_21:99 "Patreon : §MDrCaos§!"
   giga_menu_presets_patreon_22:99 "Patreon : §MASILiara§!"
+  giga_menu_presets_patreon_23:99 "Patreon: §Msleepy Miifit§!"
+  
 	
   giga_menu_presets_other_01:99 "Gagnant du concours : §HThe_Strateg1st§!"
 
@@ -4455,14 +4457,17 @@
   job_matter_synthesizer_effect_desc:99 "Les £job_matter_synthesizer£ $job_matter_synthesizer_plural$ produisent £minerals£ §Y$minerals$§! à partir de £energy£ §Y$energy$§!"
   job_matter_synthesizer_plural:99 "Ingénieurs en synthèse de matière"
   mod_job_matter_synthesizer_add:99 "Travaux d'ingénierie de synthèse de matière"
-
+  mod_job_matter_synthesizer_per_pop:99 "§G+1§! emploi de $job_matter_synthesizer$ par palier de $VALUE$ Pops"
+  mod_job_matter_synthesizer_per_pop_short:99 "(£mod_job_matter_synthesizer_add£§G+1§! par £pop£$VALUE$)"
   # Gestalt
   job_matter_synthesizer_drone:99 "Drone de synthèse de matière"
   job_matter_synthesizer_drone_desc:99 "Fabrication de minéraux à l'aide d'énergie."
   job_matter_synthesizer_drone_effect_desc:99 "Les £job_matter_synthesizer_drone£ $job_matter_synthesizer_drone_plural$ produisent £minerals£ §Y$ minéraux $§! à partir de £energy£ §Y$energy$§!"
   job_matter_synthesizer_drone_plural:99 "Drones de synthèse de matière"
   mod_job_matter_synthesizer_drone_add:99 "Emploi de drone de synthèse de matière"
-
+  mod_job_matter_synthesizer_drone_per_pop:99 "§G+1§! emploi de $job_matter_synthesizer_drone$ par palier de $VALUE$ Pops"
+  mod_job_matter_synthesizer_drone_per_pop_short:99 "(£mod_job_matter_synthesizer_drone_add£§G+1§! par £pop£$VALUE$)"
+  
   ### Alderson ###########################################################################################################################################
   # "miners"
   job_ald_matter_synthesizer:99 "Synthétiseur de matière disque"
@@ -5811,7 +5816,7 @@
   name_plural_asteroid_manufactory:99 "Manufactures d'astéroïdes"
 
   asteroid_manufactory_0:99 "Site de construction de la manufacture d'astéroïdes"
-  asteroid_manufactory_0_DESC:99 "Le chantier de construction d'une future manufacture d'astéroïdes, abritant le matériel et le personnel nécessaires pour construire une grande installation minière et une usine autour d'un astéroïde à proximité."
+  asteroid_manufactory_0_DESC:99 "Le site de construction d'une future manufacture d'astéroïdes, abritant le matériel et le personnel nécessaires pour construire une grande installation minière et une usine autour d'un astéroïde à proximité."
   asteroid_manufactory_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_kilostructure$ - $giga_list_category_advanced_resource_production$\nExtrait de n'importe quel type d'§YAstéroïde§! les matières nécessaires pour produire des £consumer_goods£ biens de consommation\n§LUne grande usine construite autour d'un astéroïde, en extrayant les matériaux, transformés ensuite en produits utilitaires pour notre population." #gigalistentry ASTEROID MANUFACTORY
 
   asteroid_manufactory_1:99 "Appareils miniers de fabrication d'astéroïdes"
@@ -5826,7 +5831,7 @@
 
   # Construction Site
   giga_dialog.10901.name:99 "Site de construction de la manufacture d'astéroïdes terminé !"
-  giga_dialog.10901.desc:99 "Le chantier de construction d'une future manufacture d'astéroïdes est maintenant terminé dans le système §H[From.GetName]§!. Flottant près d'un astéroïde, cette grande plate-forme contient l'équipement nécessaire pour commencer la construction d'un grand complexe de fabrication, qui sera utilisé pour récolter les matériaux de l'astéroïde afin de les raffiner en toutes sortes de produits nécessaires à notre population."
+  giga_dialog.10901.desc:99 "Le site de construction d'une future manufacture d'astéroïdes est maintenant terminé dans le système §H[From.GetName]§!. Flottant près d'un astéroïde, cette grande plate-forme contient l'équipement nécessaire pour commencer la construction d'un grand complexe de fabrication, qui sera utilisé pour récolter les matériaux de l'astéroïde afin de les raffiner en toutes sortes de produits nécessaires à notre population."
   giga_dialog.10901.a:99 "Excellent."
 
   # Phase 1
@@ -5859,7 +5864,7 @@
   name_psychic_beacon:99 "Balise psionique"
   name_plural_psychic_beacon:99 "Balises psioniques"
 
-  psychic_beacon_0:99 "Chantier de construction d'une $name_psychic_beacon$"
+  psychic_beacon_0:99 "Site d'une $name_psychic_beacon$"
   psychic_beacon_0_DESC:99 "$giga_list_category_megastructure$ - $giga_list_category_psionics$\nHabrite une §YEntité du Suaire§! conférant des §Ybonus puissants§!\n§LCette immense installation abrite des millions d'ingénieurs qualifiés et des télépathes particulièrement puissants travaillant ensemble dans une harmonie précise.§!"
   psychic_beacon_0_MEGASTRUCTURE_DETAILS:99 "$psychic_beacon_0_DESC$"
 
@@ -5882,7 +5887,7 @@
   giga_tech_psychic_beacon_desc:99 "Les efforts de nos astropathes pourraient, en théorie, être amplifiés plusieurs fois davantage grâce à l'utilisation d'une mégastructure de navigation spécialisée."
 
   # Construction Site
-  giga_dialog.11001.name:99 "Chantier de construction terminé"
+  giga_dialog.11001.name:99 "Site de construction terminé"
   giga_dialog.11001.desc:99 "La première étape de la $name_psychic_beacon$ est maintenant terminée. Cette énorme installation hébergera des ingénieurs, des astropathes et des créateurs de runes dans leur long projet de construction d'une $name_psychic_beacon$ complète"
   giga_dialog.11001.a:99 "Un pas de plus vers le Suaire."
 
@@ -6457,7 +6462,7 @@
   ehof_ehof:99 "Installation de Décalage de l'Horizon des Événements"
   ehof_ehofs:99 "$ehof_ehof$"
   ehof_ehof_abr:99 "I.D.H.E"
-  ehof_ehofp0:99 "Chantier de construction $ehof_ehof_abr$"
+  ehof_ehofp0:99 "Site de l'$ehof_ehof_abr$"
   ehof_ehofp1:99 "$ehof_ehof_abr$ Alpha"
   ehof_ehofp2:99 "$ehof_ehof_abr$ Lambda"
   ehof_ehofp3:99 "$ehof_ehof_abr$ Oméga"
@@ -6736,7 +6741,7 @@
   ################
 
   ehof_megastructure.101_name:99 "$ehof_ehof$"
-  ehof_megastructure.101_desc_0:99 "Le chantier de construction de notre $ehof_ehof$ prévu est terminé et prêt pour la prochaine étape. Une fois que nous aurons les ressources nécessaires, la construction de l'installation pourra commencer."
+  ehof_megastructure.101_desc_0:99 "Le site de construction de notre $ehof_ehof$ prévu est terminé et prêt pour la prochaine étape. Une fois que nous aurons les ressources nécessaires, la construction de l'installation pourra commencer."
 
   ehof_megastructure.101_desc_1:99 "L'$ehof_ehofp1$ est terminée\n\nCette installation est de loin l'une des plus grandes réalisations de notre société ! Avec lui, nous pouvons maintenant plier le tissu même de l'univers et créer un $ehof_wormhole$ n'importe où dans la galaxie."
 
@@ -6832,8 +6837,8 @@
   giga_dialog.2501.e:99 "Section Machine Alderson"
   giga_dialog.2501.e.tooltip:99 "Une section Alderson dédiée à l'industrie et au logement. Les Caractéristiques des Districts permettront de générer des §YMinéraux§! et §YAlliages§!"
 
-  giga_dialog.2502.title:99 "Chantier de construction de $name_alderson$ terminé !"
-  giga_dialog.2502.desc:99 "Le chantier de construction de notre $name_alderson$ est terminé dans le système §H[giga_system.GetName]§!. Cette plate-forme servira de lieu de rassemblement pour commencer à construire La Structure colossal de la structure, qui s'étendra jusqu'aux bords de ce système. Il sera également possible de construire le calcul planétaire et les sections Alderson d'Ecumenopolis si leurs homologues planétaires sont déjà déverrouillés."
+  giga_dialog.2502.title:99 "Site de $name_alderson$ terminé !"
+  giga_dialog.2502.desc:99 "Le site de construction de notre $name_alderson$ est terminé dans le système §H[giga_system.GetName]§!. Cette plate-forme servira de lieu de rassemblement pour commencer à construire La Structure colossal de la structure, qui s'étendra jusqu'aux bords de ce système. Il sera également possible de construire le calcul planétaire et les sections Alderson d'Ecumenopolis si leurs homologues planétaires sont déjà déverrouillés."
   giga_dialog.2502.a:99 "Bien."
 
   giga_dialog.2503.title:99 "Structure de $name_alderson$ terminé !"
@@ -6866,7 +6871,7 @@
   giga_dialog.2507.desc:99 "C'est fait ! Dans le système §H[giga_system.GetName]§!, nous avons réussi à assembler complètement un disque colossal s'étendant de l'étoile au bord du système. Cette gigastructure gargantuesque éclipse tout ce que nous avons construit auparavant et témoigne de notre domination ultime sur les lois de la physique et de l'ingénierie."
   giga_dialog.2507.a:99 "Qui pourrait s'opposer à nous maintenant ?"
 
-  alderson_disk_0:99 "Chantier de construction d'un $name_alderson$"
+  alderson_disk_0:99 "Site d'un $name_alderson$"
   alderson_disk_0_DESC:99 "Cette plate-forme de construction abrite l'infrastructure nécessaire pour commencer à construire un disque massif couvrant tout le système solaire."
   alderson_disk_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_gigastructure$ - $giga_list_category_habitable_mega$\nUn $name_alderson$ est un disque gigantesque, de la taille d'un système solaire, entourant une étoile, et offrant une surface habitable énorme. §BLes pops du $name_alderson$ bénéficient de 50 % de productivité supplémentaires des emplois§! et §RToutes les planètes du système seront détruites§!" #megalistentry ALDERSON DISK
   alderson_disk_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - §YAlderson Slices§! be turned into §YGaia§!/§YMachine§!/§YHive§! Slices, §YAlderson Computing Complex§! Slices or §YEcumenopolis§! Slices"
@@ -7109,8 +7114,8 @@
   giga_tech_terraform_molten:99 "Stabilisation géothermique planétaire"
   giga_tech_terraform_molten_desc:99 "Les mondes en fusion sont parmi les plus hostiles des planètes de type rocheuses. Leur surface est déchirée par les forces des marées et l'activité géologique. Cependant, en utilisant des faisceaux de refroidissement orbitaux colossaux ainsi que des perceuses laser mégastructurelles pour modifier leur composition tectonique, il pourrait devenir possible de refroidir et de stabiliser la surface d'un tel monde, le rendant potentiellement habitable."
 
-  giga_dialog.4001.name:99 "Chantier de construction  $name_terraform_molten$ terminé !"
-  giga_dialog.4001.desc:99 "Le chantier de construction d'un $name_terraform_molten$ dans le système §H[giga_system.GetName]§! est maintenant terminé. Cette plate-forme orbitale servira de terrain de jeu pour construire une grande structure autour de ce monde en fusion, qui utilisera des faisceaux de refroidissement et des forets laser pour modifier à distance les propriétés de surface du monde en fusion, le rendant habitable pour la plupart des formes de vie, bien que sans vie."
+  giga_dialog.4001.name:99 "Site du $name_terraform_molten$ terminé !"
+  giga_dialog.4001.desc:99 "Le site de construction d'un $name_terraform_molten$ dans le système §H[giga_system.GetName]§! est maintenant terminé. Cette plate-forme orbitale servira de terrain de jeu pour construire une grande structure autour de ce monde en fusion, qui utilisera des faisceaux de refroidissement et des forets laser pour modifier à distance les propriétés de surface du monde en fusion, le rendant habitable pour la plupart des formes de vie, bien que sans vie."
   giga_dialog.4001.a:99 "Bien."
 
   giga_dialog.4002.name:99 "Installations orbitales du $name_terraform_molten$ terminées !"
@@ -7126,7 +7131,7 @@
   giga_dialog.4004.a:99 "Merveilleux!"
   giga_dialog.4004.a.tooltip:99 "Veillez à ne pas obtenir de pneumonoultramicroscopiquesilicovolcanoconiose des cendres résiduelles flottant dans l'atmosphère."
 
-  terraform_molten_0:99 "Chantier de construction d'un $name_terraform_molten$"
+  terraform_molten_0:99 "Site d'un $name_terraform_molten$"
   terraform_molten_0_DESC:99 "Le chantier d'un futur $name_terraform_molten$ à construire autour de cette planète, qui refroidira et stabilisera la surface dure de ce monde pour le rendre habitable."
   terraform_molten_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_kilostructure$ - $giga_list_category_terraforming$\nConvertit un §YMonde en fusion§! en un §YMonde torride sans vie§!\n§LLe Stabilisateur géothermique est un appareil capable de refroidir et de stabiliser un monde en fusion, le rendant habitable, bien que sans vie.§!"
 
@@ -7146,7 +7151,7 @@
   giga_tech_terraform_shattered_desc:99 "Les mondes brisés et explosés sont parmi les plus compliqués des planètes rocheuses à reconstruire. Leur surface ayant été déchirée par une force inconnue, que ce soit une super-arme ou un super-organisme. Cependant, en utilisant des moteurs gravitatifs colossaux, il pourrait devenir possible de collecter et d'unifier les fragments d'un tel monde, ce qui rend à ce monde une unité, pour envisager ensuite une potentiellement terraformation."
 
   giga_dialog.11201.name:99 "Site de construction du $name_terraform_shattered$ terminé !"
-  giga_dialog.11201.desc:99 "Le chantier de construction d'un $name_terraform_shattered_full$ dans le système §H[giga_system.GetName]§! est maintenant terminé. Cette plate-forme orbitale servira de terrains de point de départ pour construire une grande structure autour de ces éclats de matière planétaire, en utilisant des moteurs gravitationnels pour combiner les rochers en une masse assez grande pour redémarrer l'activité géologique."
+  giga_dialog.11201.desc:99 "Le site de construction d'un $name_terraform_shattered_full$ dans le système §H[giga_system.GetName]§! est maintenant terminé. Cette plate-forme orbitale servira de terrains de point de départ pour construire une grande structure autour de ces éclats de matière planétaire, en utilisant des moteurs gravitationnels pour combiner les rochers en une masse assez grande pour redémarrer l'activité géologique."
   giga_dialog.11201.a:99 "Bien."
 
   giga_dialog.11202.name:99 "Anneau intérieur du $name_terraform_shattered$"
@@ -7165,8 +7170,8 @@
   giga_dialog.11205.desc:99 "Excellente nouvelle ! Notre système $name_terraform_shattered$ dans le système de §H[giga_system.GetName]§! a transformé avec succès le monde détruit en une seule pièce, une planète entièrement inhabitable, mais une planète tout de même, capable d'être à présent encore terraformée."
   giga_dialog.11205.a:99 "Merveilleux!"
 
-  terraform_shattered_0:99 "Chantier de construction d'un $name_terraform_shattered$"
-  terraform_shattered_0_DESC:99 "Le chantier de construction d'un avenir $name_terraform_shattered$ doit être construit autour de cette planète, qui collectera les restes en planétaire et créera une planète géologiquement active."
+  terraform_shattered_0:99 "Site d'un $name_terraform_shattered$"
+  terraform_shattered_0_DESC:99 "Le site de construction d'un avenir $name_terraform_shattered$ doit être construit autour de cette planète, qui collectera les restes en planétaire et créera une planète géologiquement active."
   terraform_shattered_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_kilostructure$ - $giga_list_category_terraforming$\nConvertit un §YMonde éclaté§! ou un §YMonde brisé§! en un §YMonde en fusion§!\n§LCe merveilleux dispositif est capable d'unifier les mondes brisés et éclatés, ce qui les rend suffisamment cohésifs pour plus de terraformation.§!"
 
   terraform_shattered_1:99 "Anneau intérieur du $name_terraform_shattered$"
@@ -7188,7 +7193,7 @@
   giga_tech_terraform_barren_desc:99 "La réactivation du champ magnétique d'une planète et la génération d'une atmosphère respirable sont deux tâches très difficiles. Cependant, des techniques de terraformation de plus en plus avancées peuvent rapprocher ces exploits de la réalité."
 
   giga_dialog.3801.name:99 "Site du $name_terraform_barren$ créé"
-  giga_dialog.3801.desc:99 "Le chantier de construction d'un $name_terraform_barren$ est maintenant terminé. Ce site servira de base de montage pour construire un $name_terraform_barren$ dans le système §H[giga_system.GetName]§!. Cette merveille technologique pourra implémenter une atmosphère et une hydrosphère sur ce monde stérile, le rendant plus habitable."
+  giga_dialog.3801.desc:99 "Le site de construction d'un $name_terraform_barren$ est maintenant terminé. Ce site servira de base de montage pour construire un $name_terraform_barren$ dans le système §H[giga_system.GetName]§!. Cette merveille technologique pourra implémenter une atmosphère et une hydrosphère sur ce monde stérile, le rendant plus habitable."
   giga_dialog.3801.a:99 "Bien."
 
   giga_dialog.3802.name:99 "Hyper-bobinages du $name_terraform_barren$ construits"
@@ -7203,7 +7208,7 @@
   giga_dialog.3804.desc:99 "Le $name_terraform_barren$ intégré au système §H[giga_system.GetName]§! a réussi à terraformer cette planète en un monde habitable ! Bien qu'il ait un climat tolérable pour la plupart des formes de vie, il est complètement dépourvu de vie et nécessitera une terraformation supplémentaire si son habitabilité est encore trop faible pour permettre une colonisation adéquate. Sinon, c'est une belle prouesse technologique que nous venons d'accomplir, prouvant notre maîtrise de la terraformation."
   giga_dialog.3804.a:99 "Incroyable !"
 
-  terraform_barren_0:99 "Chantier de construction d'un $name_terraform_barren$"
+  terraform_barren_0:99 "Site d'un $name_terraform_barren$"
   terraform_barren_0_DESC:99 "Le chantier du futur $name_terraform_barren$. Il contient la grande quantité de personnel et de machines nécessaires pour construire un appareil capable de donner vie à un monde stérile."
   terraform_barren_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_kilostructure$ - $giga_list_category_terraforming$\nConvertit un §YMonde stérile§! ou un §YMonde gelé§! en un §YMonde tempéré sans vie§!\n§LCette construction qui tourne autour de la planète réactive le champ magnétique d'une planète morte et met en place une hydrosphère, rendant ainsi les mondes désolés plus habitables.§!"
 
@@ -7230,7 +7235,7 @@
   giga_tech_terraform_toxic_desc:99 "D'énormes usines de conversion chimique orbitale permettent en théorie de purifier entièrement l'atmosphère d'un monde toxique de ses composants toxiques, la rendant habitable pour la plupart des espèces."
 
   giga_dialog.3901.name:99 "Site de construction du $name_terraform_toxic$ construit"
-  giga_dialog.3901.desc:99 "Le chantier de construction d'un futur $name_terraform_toxic$ est maintenant terminé dans le système §H[giga_system.GetName]§! ! Cette plate-forme orbitale plutôt grande abrite l'équipement nécessaire pour commencer à construire un $name_terraform_toxic$ autour d'un monde toxique, le rendant finalement habitable."
+  giga_dialog.3901.desc:99 "Le site de construction d'un futur $name_terraform_toxic$ est maintenant terminé dans le système §H[giga_system.GetName]§! ! Cette plate-forme orbitale plutôt grande abrite l'équipement nécessaire pour commencer à construire un $name_terraform_toxic$ autour d'un monde toxique, le rendant finalement habitable."
   giga_dialog.3901.a:99 "Très bien."
 
   giga_dialog.3902.name:99 "Anneaux de traitement du $name_terraform_toxic$ construits"
@@ -7245,7 +7250,7 @@
   giga_dialog.3904.desc:99 "Fantastique nouvelle ! Notre $name_terraform_toxic$ dans le système §H[giga_system.GetName]§! a réussi à terraformer un monde autrefois toxique en un monde habitable, quoique sans vie. Bien que la planète terraformée possède une atmosphère plutôt épaisse, elle devrait maintenant être prête pour la colonisation. Nous pouvons également choisir de le terraformer davantage si nous le souhaitons."
   giga_dialog.3904.a:99 "Un exploit incroyable."
 
-  terraform_toxic_0:99 "Chantier de construction d'un $name_terraform_toxic$"
+  terraform_toxic_0:99 "Site d'un $name_terraform_toxic$"
   terraform_toxic_0_DESC:99 "Le chantier d'un futur $name_terraform_toxic$, abritant les équipements nécessaires pour commencer la construction des mégastructures. Il pourra éventuellement transformer une planète toxique en un monde habitable, bien que sans vie."
   terraform_toxic_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_kilostructure$ - $giga_list_category_terraforming$\nConvertit un §YMonde toxique§! en un §YMonde brumeux et sans vie§!\n§LLe purificateur atmosphérique est une installation massive construite autour de la planète, capable de débarrasser l'atmosphère de la planète des toxines."
 
@@ -7268,7 +7273,7 @@
   giga_tech_war_moon_2_desc:99 "En termes d'armement mobile, on pensait que le Titan était aussi grand que possible. L'idée de déplacer une lune entière et de l'utiliser comme une arme semble incroyablement ridicule. Mais les progrès des technologies de méga-ingénierie et de la configuration énergétique peuvent faire de ces terrifiantes lunes une réalité."
 
   giga_dialog.2601.name:99 "Site de construction de la $name_war_moon$ créé"
-  giga_dialog.2601.desc:99 "Le chantier de construction d'un futur $name_war_moon$ est maintenant terminé dans le §H[giga_system.GetName]§!. Il servira de dépôt de préparation afin de convertir ce planétoïde pour la plupart inoffensif en une machine de combat... pleinement opérationnelle."
+  giga_dialog.2601.desc:99 "Le site de construction d'un futur $name_war_moon$ est maintenant terminé dans le §H[giga_system.GetName]§!. Il servira de dépôt de préparation afin de convertir ce planétoïde pour la plupart inoffensif en une machine de combat... pleinement opérationnelle."
   giga_dialog.2601.a:99 "Cela restera dans l'histoire."
 
   giga_dialog.2602.name:99 "Systèmes de propulsion de la $name_war_moon$ installés"
@@ -7279,7 +7284,7 @@
   giga_dialog.2603.desc:99 "C'est fait. Le corps céleste autour duquel nous avons construit la $name_war_moon$ n'est plus une simple lune ou une petite planète. Il a été équipé d'une très grande lance d'annihilation Oméga, capable de percer presque tout.\n\nLes propulseurs colossaux intégrés à sa croûte ont poussé la lune hors de son orbite, tandis que son hyperpropulseur colossal se met lentement en fonctionnement, en puisant d'immenses quantités d'énergie dans le gigantesque réacteur installé au coeur du planétoïde. Le vaisseau a maintenant rejoint nos forces militaires et est prêt pour l'Annihilation."
   giga_dialog.2603.a:99 "Fantastique. Nos ennemis trembleront de peur face à cette installation."
 
-  war_moon_0:99 "Chantier de construction d'une $name_war_moon$"
+  war_moon_0:99 "Site d'une $name_war_moon$"
   war_moon_0_DESC:99 "Le chantier d'une future $name_war_moon$. Ce dépôt de préparation abrite l'équipement nécessaire pour transformer cette lune en une arme redoutable."
   war_moon_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_celestial_warship$\nConvertit un §YMonde en fusion§!, §Ystérile§! ou §Ygelé§! de §YTaille 5 à 7§! en un  §YVaisseau planétaire§!\n§LUn projet d'ingénierie insensé qui convertit un petit planétoïde en une plateforme de combat intégré dans une lune, capable de dévaster même les vaisseaux les plus résistants."
 
@@ -7358,7 +7363,7 @@
   giga_tech_war_planet_desc:99 "On pensait que la $name_war_moon$ était le summum des vaisseaux spatiaux absurdement énormes. Mais on peut aller plus loin. Si nous combinons plusieurs technologies incroyablement avancées, de la manipulation de des champs de force à la stabilisation de la gravité, il devient possible de transformer la $name_war_moon$ (~3000 km) en un corps beaucoup, beaucoup plus grand (~15000 km). Un vaisseau spatial aussi incroyablement massif serait presque indestructible et pourrait anéantir des empires déchus entiers à lui seul."
 
   giga_dialog.2701.name:99 "Site de construction de la $name_war_planet$"
-  giga_dialog.2701.desc:99 "Le chantier de construction d'une future $name_war_planet$ est maintenant terminé. Cette forme de planète orbitale servira de dépôt de préparation afin de commencer à construire le vaisseau-planète lui-même. Maintenant, nous devons commencer à convertir la planète ci-dessous en un énorme noyau de vaisseau.\n\nREMARQUE : N'oubliez pas de concevoir la $name_war_planet$ dans le concepteur du vaisseau !"
+  giga_dialog.2701.desc:99 "Le site de construction d'une future $name_war_planet$ est maintenant terminé. Cette forme de planète orbitale servira de dépôt de préparation afin de commencer à construire le vaisseau-planète lui-même. Maintenant, nous devons commencer à convertir la planète ci-dessous en un énorme noyau de vaisseau.\n\nREMARQUE : N'oubliez pas de concevoir la $name_war_planet$ dans le concepteur du vaisseau !"
   giga_dialog.2701.a:99 "Merveilleux."
 
   giga_dialog.2702.name:99 "Croûte terrestre de la $name_war_planet$ terminée"
@@ -7373,7 +7378,7 @@
   giga_dialog.2704.desc:99 "Nous l'avons fait. Les principales armes du vaisseau-planète étant terminées, ce monstrueux vaisseau spatial est désormais opérationnel. Long de plus de dix mille kilomètres, cette construction vraiment massive éclipse même la $name_war_moon$... La planète a été poussée hors de son orbite et est maintenant prête à rejoindre nos flottes."
   giga_dialog.2704.a:99 "Vraiment un accomplissement merveilleux."
 
-  war_planet_0:99 "Chantier de construction d'une $name_war_planet$"
+  war_planet_0:99 "Site d'une $name_war_planet$"
   war_planet_0_DESC:99 "Le chantier d'un futur $name_war_planet$, un vaisseau spatial littéralement insensé construit autour d'une planète entière. Beaucoup de travail nous attend."
   war_planet_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_gigastructure$ - $giga_list_category_celestial_warship$ - $giga_list_category_ship_production$\nConvertit un §YMonde en fusion§!, §Ystériel§! ou §Ygelé§! de §YTaille 24 ou plus§! en un  §YVaisseau planétaire§!\n§LLe vaisseau planétaire Béhémoth est équipé d'un armement encore plus puissant que ses frères lunaires et devrait être capable de repousser la plupart des menaces par lui-même.§!"
 
@@ -7423,7 +7428,7 @@
   giga_dialog.2801.a:99 "Compris."
 
   giga_dialog.2802.name:99 "Site de construction du Vaisseau-système établi"
-  giga_dialog.2802.desc:99 "Le chantier de construction de notre futur $name_war_system$ est maintenant terminé ! Sur cet échafaudage, nous assemblerons le plus grand vaisseau de guerre que cette galaxie ait jamais vu. Composé de plusieurs planètes et de Lunes de combat reliées entre elles, ce vaisseau redoutable sera capable de vaincre n'importe quoi.\n\nN'oubliez pas qu'il sera nécessaire d'amener $name_war_planet$s et $name_war_moon$s à ce système afin d'assembler le Vaisseau-système !"
+  giga_dialog.2802.desc:99 "Le site de construction de notre futur $name_war_system$ est maintenant terminé ! Sur cet échafaudage, nous assemblerons le plus grand vaisseau de guerre que cette galaxie ait jamais vu. Composé de plusieurs planètes et de Lunes de combat reliées entre elles, ce vaisseau redoutable sera capable de vaincre n'importe quoi.\n\nN'oubliez pas qu'il sera nécessaire d'amener $name_war_planet$s et $name_war_moon$s à ce système afin d'assembler le Vaisseau-système !"
   giga_dialog.2802.a:99 "Cela commence."
 
   giga_dialog.2803.name:99 "Compresseur solaire du Vaisseau-système construit"
@@ -7454,8 +7459,8 @@
   giga_dialog.2809.a:99 "Votre empire est raisonnable. Vous ferez un grand vassal."
   giga_dialog.2809.b:99 "Allez au diable ! Vous serez les premières cibles de Vaisseau-système..."
 
-  war_system_0:99 "Chantier de construction d'un $name_war_system$"
-  war_system_0_DESC:99 "Le chantier de construction d'un futur $name_war_system$, probablement le vaisseau le plus grand et le plus puissant jamais construit dans cette galaxie."
+  war_system_0:99 "Site d'un $name_war_system$"
+  war_system_0_DESC:99 "Le site de construction d'un futur $name_war_system$, probablement le vaisseau le plus grand et le plus puissant jamais construit dans cette galaxie."
    war_system_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_gigastructure$ - $giga_list_category_celestial_warship$\nConvertit une §YÉtoile§!, §Y5 Lunes de combat§! et §Y4 Vaisseaux-planètes béhémoths§! en un §YVaisseau-Système§!\n$giga_list_removes_system_planets$\n§LUn gigantesque système stellaire armé, possédant d'énormes quantités d'armements." #megalistentry SYSTEMCRAFT
   war_system_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - S'il est vaincu, le §YVaisseau-Système§! éclatera et se séparera les éléments qui le constituent, à savoir §Y4 Lunes de combat§! et §Y5 Vaisseaux-planètes béhémoths§!.\n§RWARNING! ÉVITEZ DE METTRE DES COMPOSANTS DE RÉGÉNÉRATION DE COQUE SUR LE VAISSEAU SYSTÈME CAR CELA RISQUE DE PROVOQUER UN DÉBORDEMENT ET DE SUPPRIMER LE VAISSEAU!§!"
   
@@ -7502,8 +7507,8 @@
   giga_dialog.4101.desc:99 "Après un voyage ardu, notre vaisseau scientifique a enfin atteint le centre de notre galaxie.\nEn entrant dans le système, l'équipage a été stupéfait par la vue d'un §YTrou noir Supermassif inactif§! absolument gigantesque !\n\nCet objet gargantuesque pèse plusieurs milliards de masses stellaires et a un diamètre de plusieurs centaines d'unités astronomiques. Une planète océanique isolée a également été aperçue en orbite autour d'elle, et l'un des scientifiques a supposé qu'elle aurait certainement des vagues gigantesques en raison des immenses forces de marée du trou noir.\n\nBien qu'il ne s'agisse que de pure spéculation pour le moment, certains des éléments les plus exotiques de la communauté scientifique théorise qu'il serait possible de construire une sphère massive autour de ce trou noir, qui pourrait être habité par des quadrillions d'êtres vivants."
   giga_dialog.4101.a:99 "Incroyable !"
 
-  giga_dialog.4102.name:99 "Chantier de construction d'un $name_birch$ terminé !"
-  giga_dialog.4102.desc:99 "Le chantier de construction d'un futur $name_birch$ est maintenant terminé autour du trou noir central de notre galaxie. Cet échafaudage servira de terrain de rassemblement pour commencer à construire la structure elle-même, qui sera une coquille géante de superalliages juste au-dessus de l'horizon des événements, où la gravité est habitable."
+  giga_dialog.4102.name:99 "Site d'un $name_birch$ terminé !"
+  giga_dialog.4102.desc:99 "Le site de construction d'un futur $name_birch$ est maintenant terminé autour du trou noir central de notre galaxie. Cet échafaudage servira de terrain de rassemblement pour commencer à construire la structure elle-même, qui sera une coquille géante de superalliages juste au-dessus de l'horizon des événements, où la gravité est habitable."
   giga_dialog.4102.a:99 "Bien."
 
   giga_dialog.4103.name:99 "Structure équatoriale du $name_birch$ terminée !"
@@ -7518,7 +7523,7 @@
   giga_dialog.4105.desc:99 "Aujourd'hui est une journée incroyable dans l'histoire galactique. En effet, après des décennies de travail dangereux, nous avons maintenant achevé la construction d'un $name_birch$ absolument massif autour du noyau galactique.\n\nCette coquille massive est actuellement stérile, mais son immense superficie signifie qu'elle peut effectivement abriter un nombre pratiquement infini de personnes. une fois colonisé. Une fois ce projet terminé, nous avons définitivement atteint le summum de l'ingénierie de l'habitat, et cette grande construction éclipsera probablement toutes les autres mégastructure jamais construites dans l'histoire galactique ! grandit, jusqu'à un montant infini.§!\n\nNous avons maintenant un édit disponible pour commencer §YLa Grande Migration§! pour peupler ce vaste monde."
   giga_dialog.4105.a:99 "Grandiose !"
 
-  birch_world_0:99 "Chantier de construction d'un $name_birch$"
+  birch_world_0:99 "Site d'un $name_birch$"
   birch_world_0_DESC:99 "Le chantier d'un futur $name_birch$, abritant le personnel et l'infrastructure nécessaires pour commencer à construire une sphère massive autour d'un trou noir supermassif."
   birch_world_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_terastructure$ - $giga_list_category_habitable_mega$\nConstruit un habitat autour d'un §YTrou noir Supermassif§! avec un nombre §BInfini§! de §YDistricts§!\n§LUne structure gigantesque construite autour d'un trou noir supermassif, pouvant abriter une population infinie. L'habitat ultime.§!"
   birch_world_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - Le §YMonde de Birch§! va gagner §Y1 emplacement de district§! pour §Y100§! pops. Ces districts sont très puissants et fournissent une pléthore d'emplois. Si le mod §YACOT§! est activé et que les §YSphères du vide§! sont déverrouillées, il peut être transformé en un §YMonde de Birch en Sphères du vide§!, l'habitat le plus puissant de l'existence"
@@ -7554,7 +7559,7 @@
   giga_dialog.1804.desc:99 "Bonne nouvelle ! Nos ingénieurs ont réussi à remettre le $name_particle_accel$ en état de fonctionnement ! Il est désormais opérationnel et produit un flux constant de recherche en physique, ainsi que de nombreuses particules exotiques."
   giga_dialog.1804.a:99 "Incroyable."
 
-  particle_accelerator_0:99 "Chantier de construction d'un $name_particle_accel$"
+  particle_accelerator_0:99 "Site d'un $name_particle_accel$"
   particle_accelerator_0_DESC:99 "Un grand chantier abritant le personnel et les matériaux nécessaires à la construction d'un accélérateur de particules autour d'une étoile."
   particle_accelerator_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_kilostructure$ - $giga_list_category_science_production$\nGénère £physics_research£ §YRecherche en physique§! et augmente les §YBoucliers§! de §Y2.5%§!\n§LUn très gros accélérateur de particules construit autour d'une étoile pour accélérer les particules proches de la vitesse de la lumière.§!"
 
@@ -7593,7 +7598,7 @@
   giga_dialog.1004.desc:99 "Un $name_orbital_artificial_eco$ en ruine a été remis en état de marche par nos ingénieurs et biologistes.\n\nRempli de nombreuses formes de vie étranges, dont certaines ont été clonées à partir de traces de matière biologique retrouvées dans les débris, cette nouvellement restauréela station spatiale aidera certainement un peu notre société à faire des recherches."
   giga_dialog.1004.a:99 "Excellent."
 
-  orbital_artificial_eco_0:99 "Chantier de construction d'un $name_orbital_artificial_eco$"
+  orbital_artificial_eco_0:99 "Site d'un $name_orbital_artificial_eco$"
   orbital_artificial_eco_0_DESC:99 "Ce site servira de base à la construction d'un $name_orbital_artificial_eco$, qui est une grande structure abritant un écosystème entièrement artificiel sur lequel on pourra expérimenter librement."
   orbital_artificial_eco_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_kilostructure$ - $giga_list_category_science_production$\nGénère de la £society_research£ §YRecherche sociétale§! et augmente la §YVitesse de terraformation§! de §Y7.5%§!\n§LUne très grande station abritant un écosystème complètement artificiel pour étudier la nature.§!"
 
@@ -7617,7 +7622,7 @@
   giga_tech_engineering_test_site_desc:99 "Construire une installation d'essai en orbite autour d'une planète peut s'avérer à la fois difficile et incroyablement mortel. Cependant, les applications potentielles sont très prometteuses."
 
   giga_dialog.401.name:99 "La construction de la $name_eng_test_site$ peut commencer"
-  giga_dialog.401.desc:99 "Le chantier de construction d'une grande $name_eng_test_site$ a été terminé dans le système §H[giga_system.GetName]§!. Une fois terminée, cette merveilleuse station se révélera être un endroit idéal pour tester de nombreuses conceptions techniques, des stations orbitales aux nouvelles conceptions de vaisseaux spatiaux.\n\nLa planète en orbite deviendra un terrain d'essai pour une ingénierie révolutionnaire."
+  giga_dialog.401.desc:99 "Le site de construction d'une grande $name_eng_test_site$ a été terminé dans le système §H[giga_system.GetName]§!. Une fois terminée, cette merveilleuse station se révélera être un endroit idéal pour tester de nombreuses conceptions techniques, des stations orbitales aux nouvelles conceptions de vaisseaux spatiaux.\n\nLa planète en orbite deviendra un terrain d'essai pour une ingénierie révolutionnaire."
   giga_dialog.401.a:99 "Bon travail."
 
   giga_dialog.402.name:99 "$name_eng_test_site$ construit"
@@ -7632,7 +7637,7 @@
   giga_dialog.404.desc:99 "Un $name_eng_test_site$ précédemment en ruines a été entièrement réparé par nos équipes de construction.\n\nIl est maintenant complètement opérationnel et nous pouvons commencer à l'utiliser à des fins scientifiques."
   giga_dialog.404.a:99 "Merveilleux."
 
-  macro_test_site_0:99 "Chantier de construction d'une $name_eng_test_site$"
+  macro_test_site_0:99 "Site d'une $name_eng_test_site$"
   macro_test_site_0_DESC:99 "Un grand chantier abritant tous les matériaux nécessaires pour construire un grand site de station de macro-ingénierie, une structure qui nous permettra de faire diverses expériences liées à l'ingénierie sur la planète ci-dessous."
   macro_test_site_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_kilostructure$ - $giga_list_category_science_production$\nGénère de la £engineering_research£ §YRecherche en ingénierie§! et augmente le §YBlindage§! de §Y2.5%§!\n§LUne grande station en orbite autour d'une planète pour mener librement des expériences d'ingénierie.§!"
 
@@ -7679,7 +7684,7 @@
   giga_dialog.706.desc:99 "Un $name_neut_gigaforge$ en ruine a été très soigneusement réparé ! Le foret à neutronium et les anneaux de traitement ont été remis en fonction et extraient maintenant de grandes quantités de neutronium que nous pouvons utiliser. Cela profitera sans aucun doute grandement à nos militaires."
   giga_dialog.706.a:99 "Merveilleux."
 
-  neutronium_gigaforge_0:99 "Chantier de construction d'une $name_neut_gigaforge$"
+  neutronium_gigaforge_0:99 "Site d'une $name_neut_gigaforge$"
   neutronium_gigaforge_0_DESC:99 "Cette construction servira de base principale pour stocker les ressources et le personnel nécessaires à la construction d'une $name_neut_gigaforge$, gigantesque station d'extraction et de traitement dédiée à l'extraction du Neutronium directement à partir d'une étoile à neutrons."
   neutronium_gigaforge_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_advanced_resource_production$\nExtrait d'une §YÉtoile à neutrons§! ou d'un §YPulsar§! des £alloys£§Y$alloys$§! et augmente le §YBlindage§! de §Y7.5%§!\n§LUne grande raffinerie capable de récolter de grandes quantités de neutronium d'une étoile à neutrons et de la transformer en £alloys£ alliages."
   
@@ -7735,7 +7740,7 @@
   giga_dialog.1404.desc:99 "Le grand portail reliant notre réalité au Suaire près de §H[giga_system.GetName]§! a été entièrement activé ! De l'énergie pure se déverse maintenant de cette porte artificielle vers le royaume psychique, et nos télépathes ressentent déjà le grand avantage que ce lien direct accorde à leurs capacités psioniques ! Certains éléments sceptiques de notre société craignent que ce portail puisse attirer une `` attention indésirable '', mais nos scientifiques ont prouvé que les voyages interdimensionnels sont strictement impossibles, et ils nous assurent que le portail est trop énergique pour permettre à tout être organisé de le traverser.\n\n... Pas vrai ?...\n\n§R... proie...§!"
   giga_dialog.1404.a:99 "Merveilleux!"
 
-  psychic_hypersiphon_0:99 "Chantier de construction d'un $name_psy_siphon$"
+  psychic_hypersiphon_0:99 "Site d'un $name_psy_siphon$"
   psychic_hypersiphon_0_DESC:99 "Ce chantier de construction servira de lieu de rassemblement et de dépôt pour la quantité massive de personnel qualifié et de médiums requis pour construire le merveilleux PsychicHypersiphon, qui sera capable de siphonner directement l'énergie du Suaire lui-même."
   psychic_hypersiphon_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_psionics$ - $giga_list_category_science_production$\nOuvre un portail vers le §YSuaire§!, procurant ressources et bonus§! - $giga_list_potentially_hazardous$\n§LUn immense portail reliant notre univers au Suaire, générant des ressources et augmentant nos capacités psioniques.§!"
 
@@ -7758,7 +7763,7 @@
   giga_tech_yggdrasil_orchid_desc:99 "Une géante gazeuse hébergeant un grand organisme végétal dans sa haute atmosphère pourrait être un atout précieux pour notre production alimentaire. Grâce à des technologies avancées de modification génétique et de manipulation du climat, un tel projet pourrait être réalisable."
 
   giga_dialog.2001.name:99 "Site du $name_yggdrasil$ créé"
-  giga_dialog.2001.desc:99 "Le chantier de construction d'un $name_yggdrasil$ est maintenant terminé. Il servira de terrain de rassemblement pour construire les structures nécessaires pour ensemencer la haute atmosphère d'un géant gazeux avec de grandes quantités de formes de vie bio-conçues, capables de nourrir de grandes quantités de personnes."
+  giga_dialog.2001.desc:99 "Le site de construction d'un $name_yggdrasil$ est maintenant terminé. Il servira de terrain de rassemblement pour construire les structures nécessaires pour ensemencer la haute atmosphère d'un géant gazeux avec de grandes quantités de formes de vie bio-conçues, capables de nourrir de grandes quantités de personnes."
   giga_dialog.2001.a:99 "Bien."
 
   giga_dialog.2002.name:99 "Laboratoires du $name_yggdrasil$ construits"
@@ -7781,7 +7786,7 @@
   giga_dialog.2006.desc:99 "Dans une incroyable prouesse technologique, nous avons réussi à remettre un $name_yggdrasil$ en état de marche ! Les manipulateurs météorologiques ont été remis en ligne et la haute atmosphère de la Géante gazeuse a de nouveau été générée d'une vaste nappe de matières organiques, capables de nourrir de grandes quantités de personnes."
   giga_dialog.2006.a:99 "Merveilleux."
 
-  yggdrasil_orchid_0:99 "Chantier de construction d'un $name_yggdrasil$"
+  yggdrasil_orchid_0:99 "Site d'un $name_yggdrasil$"
   yggdrasil_orchid_0_DESC:99 "Le chantier d'un futur $name_yggdrasil$, contenant tout ce dont nos ingénieurs et biologistes auront besoin pour transformer ce monde en une gigantesque ferme aérienne."
   yggdrasil_orchid_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_basic_resource_production$\nUtilise une §YGéante gazeuse§! pour produire £food£ §Y$food$§! et §YRecherche§! £physics_research£ £society_research£\n§LUn complexe massif construit près d'une géante gazeuse pour ensemencer son atmosphère d'une flore spéciale.§!"
 
@@ -7827,8 +7832,8 @@
   giga_dialog.11305.desc:99 "L'$name_the_vat_long$ est à présent complète. Avec 6 cuves auxiliaires et une Cuve principale Gargantuesque, nous pourrons cloner des flottes entières d'abominations géantes à l'aide de £food£ et £energy£ en très peu de temps, ce qui nous permet de dominer le champ de bataille de manière jamais envisagée avant."
   giga_dialog.11305.a:99 "Laissez le clonage commencer."
 
-  the_vat_0:99 "Chantier de construction d'un $name_the_vat$"
-  the_vat_0_DESC:99 "Le chantier de construction d'une future Installation de Clonage, contenant tout ce que nos ingénieurs et nos biologistes devront transformer cela en une gigantesque centre de clonage."
+  the_vat_0:99 "Site d'un $name_the_vat$"
+  the_vat_0_DESC:99 "Le site de construction d'une future Installation de Clonage, contenant tout ce que nos ingénieurs et nos biologistes devront transformer cela en une gigantesque centre de clonage."
   the_vat_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_ship_production$\nUtilise de la £food£ pour créer des §YVaisseaux Biologiques§! basés sur les §YLéviathans§! connus et les §Ycréatures du vide§!\n§LL'installation de Clonage B.I.G. est une installation de clonage spatiale capable de produire de grandes quantités de créatures spatiales biologiques.§!"
 
   the_vat_1:99 "$name_the_vat$: Cuve principale"
@@ -7961,7 +7966,7 @@
   giga_dialog.508.a:99 "Faisons un autre pas."
 
   ###Megastructures###
-  matrioshka_brain_0:99 "Chantier de construction d'un $name_matrioshka_brain$"
+  matrioshka_brain_0:99 "Site d'un $name_matrioshka_brain$"
   matrioshka_brain_0_DESC:99 "Ce chantier de construction servira de dépôt provisoire pour héberger les grandes quantités de ressources et de personnel nécessaires à la construction d'un $name_matrioshka_brain$."
   matrioshka_brain_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_gigastructure$ - $giga_list_category_science_production$\nRécupère l'énergie d'une §YÉtoile§! pour alimenter des ordinateurs colossaux, produisant de la §YRecherche§! £physics_research£ £society_research£ £engineering_research£\n$giga_list_removes_system_planets$ - $giga_list_scales_with_star_size$\n§LUn $name_matrioshka_brain$ est un énorme ordinateur composé de plusieurs couches s'étendant autour d'une étoile entière.§!"
 
@@ -8001,7 +8006,7 @@
   giga_tech_fusion_suppressor_desc:99 "Des dispositifs expérimentaux de modulation de la gravité ainsi que des injecteurs de masse spéciaux peuvent permettre de modifier les énergies cataclysmiques d'une étoile. De telles technologies pourraient nous permettre de compresser et de détruire des étoiles entières en perturbant stratégiquement les réactions de fusion."
 
   giga_dialog.3401.name:99 "Site de construction du $name_fusion_suppressor$ établi"
-  giga_dialog.3401.desc:99 "Le chantier de construction d'un futur $name_fusion_suppressor$ a été construit avec succès dans le système §H[giga_system.GetName]§!. Il hébergera l'infrastructure nécessaire pour commencer à construire un $name_fusion_suppressor$, capable de modifier les processus mêmes au sein d'une étoile."
+  giga_dialog.3401.desc:99 "Le site de construction d'un futur $name_fusion_suppressor$ a été construit avec succès dans le système §H[giga_system.GetName]§!. Il hébergera l'infrastructure nécessaire pour commencer à construire un $name_fusion_suppressor$, capable de modifier les processus mêmes au sein d'une étoile."
   giga_dialog.3401.a:99 "Bien."
 
   giga_dialog.3402.name:99 "Modulateurs de gravité construits"
@@ -8041,7 +8046,7 @@
   giga_dialog.3410.desc:99 "Le $name_fusion_suppressor$ a intensifié son champ gravitationnel artificiel à son maximum. L'étoile s'est effondrée au point où même la lumière ne peut pas échapper à son attraction gravitationnelle naturelle, la transformant efficacement en un trou noir. Les laboratoires de recherche du $name_fusion_suppressor$ ont commencé à étudier le trou noir artificiel, produisant des données scientifiques incroyables."
   giga_dialog.3410.a:99 "Merveilleux!"
 
-  fusion_suppressor_0:99 "Chantier de construction d'un $name_fusion_suppressor$"
+  fusion_suppressor_0:99 "Site d'un $name_fusion_suppressor$"
   fusion_suppressor_0_DESC:99 "Le chantier d'un futur $name_fusion_suppressor$, abritant tout le nécessaire pour commencer la construction de cet appareil extrêmement avancé."
   fusion_suppressor_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_miscellaneous$\nPeut convertir des §YÉtoiles§! normales en §YÉtoiles à neutrons§! ou en §YTrous noirs§! - $giga_list_damages_system_planets$\n§LLe suppresseur de fusion manipule les processus de fusion au sein d'une étoile pour déclencher prématurément une supernova, transformant l'étoile en un corps céleste plus exotique.§!"
    fusion_suppressor_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - Une §YÉtoile à neutrons§! créée par le §Y$name_fusion_suppressor$§! est adaptée pour y accueillir une §YHyperforge Nidavellir§!. Les §YTrous noirs§! peuvent être utilisés pour toute autre mégastructure basée sur un trou noir"
@@ -8082,8 +8087,8 @@
   giga_tech_ndb_4:99 "Redirection d'énergie offensive échelle Giga"
   giga_tech_ndb_4_desc:99 "En utilisant des technologies incroyablement avancées, il devient possible de concentrer complètement la sortie d'une étoile entière dans un faisceau de destruction pure."
 
-  giga_dialog.3201.name:99 "Chantier de construction d'un $name_ndb$ terminé"
-  giga_dialog.3201.desc:99 "Le chantier de construction d'un futur $name_ndb$ est terminé. Cette plate-forme servira de point de départ pour commencer la construction d'un $name_ndb$ capable d'annihiler des systèmes entiers."
+  giga_dialog.3201.name:99 "Site d'un $name_ndb$ terminé"
+  giga_dialog.3201.desc:99 "Le site de construction d'un futur $name_ndb$ est terminé. Cette plate-forme servira de point de départ pour commencer la construction d'un $name_ndb$ capable d'annihiler des systèmes entiers."
   giga_dialog.3201.a:99 "Merveilleux."
 
   giga_dialog.3202.name:99 "Magnéto-collecteur du $name_ndb$ construit"
@@ -8136,8 +8141,8 @@
   giga_ndb.008.d:99 "Saboter les infrastructures"
   giga_ndb.008.d.tooltip:99 "La planète cible sera endommagée, la transformant en un monde tempéré sans vie, et augmentera le niveau de dévastation de planétaire à 100%."
 
-  nicoll_beam_0:99 "Chantier de construction d'un $name_ndb$"
-  nicoll_beam_0_DESC:99 "Le chantier de construction d'un futur $name_ndb$, abritant l'infrastructure nécessaire à la construction de cette super-arme titanesque."
+  nicoll_beam_0:99 "Site d'un $name_ndb$"
+  nicoll_beam_0_DESC:99 "Le site de construction d'un futur $name_ndb$, abritant l'infrastructure nécessaire à la construction de cette super-arme titanesque."
   nicoll_beam_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_gigastructure$ - $giga_list_category_weaponry$\nUtilise l'énergie d'une §YÉtoile de classe A§! ou une §YÉtoile de classe B§! pour alimenter un terrible Laser §YDestructeur de systèmes§!\n$giga_list_removes_system_planets$\n§LUne super-arme d'une ampleur sans précédent, capable de réduire en cendre des systèmes entiers.§!"
 
   nicoll_beam_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - Une §YÉtoile à neutrons§! créé par un §Y$name_fusion_suppressor$§! est adapté pour y accueillir une §YHyperforge Nidavellir§!, mais celle créé par un §YRayon Nicoll-Dyson§! ne l'est pas. Peut être configuré pour détruire soit des §YPlanètes individuelles§!, soit des §YSystèmes entiers§!, mais aura comme effet de §RMécontenter§! le reste de la galaxie"
@@ -8213,7 +8218,7 @@
   giga_dialog.3305.desc:99 "La $name_auto_stripmine$ de [giga_planet.GetName] est à court de minéraux à extraire. [giga_planet.GetName] a été réduit à un petit noyau fondu exposé à la froideur de l'espace. Les minéraux restants du noyau ont été extraits via des techniques de fracturation avancées, ce qui signifie qu'il ne reste que des déchets et des matériaux à peine exploitables. L'appareil orbital a été démantelé et un gisement minéral est maintenant présent sur le noyau exposé de la planète."
   giga_dialog.3305.a:99 "C'était inévitable."
 
-  automated_stripmine_0:99 "Chantier de construction d'une $name_auto_stripmine$"
+  automated_stripmine_0:99 "Site d'une $name_auto_stripmine$"
   automated_stripmine_0_DESC:99 "Le chantier du futur $name_auto_stripmine$. Il contient tout le nécessaire pour construire l'appareil minier orbital ainsi que les usines liées à la planète."
   automated_stripmine_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_basic_resource_production$\nExtrait des any §YMonde rocheux§! for £minerals£ §Y$minerals$§! - $giga_list_category_eventually_runs_out$\n§LUne grande structure construite autour d'une planète, afin de dépouiller la surface de la planète, rassemblant de grandes quantités de minéraux.§!"
   automated_stripmine_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - Enlève §Y1 Taille§! de la planète tous les §Y2 ans§!. S'épuise lorsque la planète atteint la §YTaille 2§!. Obtient des ressources supplémentaires si elle est construite sur un monde §YChthonien§!, §YDiamant§! ou §YOcéan d'éthane§! du mod §YPlanetary Diversity§!"
@@ -8231,7 +8236,7 @@
   giga_tech_kugelblitz_desc:99 "La possibilité de générer un Kugelblitz pourrait s'avérer utile, car de tels objets pourraient être utilisés comme générateurs de singularité efficaces. Plus important encore, les Kugelblitz contrôlés pourraient être alimentés en matière et en énergie pour une récupération ultérieure, agissant efficacement comme un dispositif de stockage via Trou noir."
 
   giga_dialog.101.name:99 "Site de $name_kugelblitz$ créé"
-  giga_dialog.101.desc:99 "Le chantier de construction d'un $name_kugelblitz$ dans le système §H[giga_system.GetName]§! est maintenant terminé. Il abrite le personnel et l'équipement nécessaires à la construction d'un appareil capable de générer un Kugelblitz artificiel, qui est un trou noir fait de rayonnement au lieu de matière ! Nous pourrons injecter de l'énergie et de la matière dans le Kugelblitz, puis l'extraire plus tard et la reconvertir en matière si nécessaire, faisant du Kugelblitz un silo très efficace !"
+  giga_dialog.101.desc:99 "Le site de construction d'un $name_kugelblitz$ dans le système §H[giga_system.GetName]§! est maintenant terminé. Il abrite le personnel et l'équipement nécessaires à la construction d'un appareil capable de générer un Kugelblitz artificiel, qui est un trou noir fait de rayonnement au lieu de matière ! Nous pourrons injecter de l'énergie et de la matière dans le Kugelblitz, puis l'extraire plus tard et la reconvertir en matière si nécessaire, faisant du Kugelblitz un silo très efficace !"
   giga_dialog.101.a:99 "Excellent."
 
   giga_dialog.102.name:99 "$name_kugelblitz$ construit"
@@ -8250,7 +8255,7 @@
   giga_dialog.105.desc:99 "Un $name_kugelblitz$ en ruine a maintenant été remis en état de marche par nos équipes d'ingénieurs ! Lors de la réactivation, la construction a commencé à générer une singularité contrôlée massive, à partir de laquelle nous pouvons extraire de grandes quantités d'énergie, ainsi que stocker de la matière sous forme de rayonnement."
   giga_dialog.105.a:99 "Comment ça marche ?"
 
-  kugelblitz_0:99 "Chantier de construction d'un $name_kugelblitz$"
+  kugelblitz_0:99 "Site d'un $name_kugelblitz$"
   kugelblitz_0_DESC:99 "Le chantier du futur $name_kugelblitz$. Abrite le personnel nécessaire à la construction de ce périphérique de stockage incroyablement avancé."
   kugelblitz_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_storage$\nStoque §Y40000§! de chaque ressource et génère de l'£energy£ §Yénergie§!\n§LUn dispositif de stockage incroyablement avancé, qui peut stocker de l'énergie et de la matière sous forme de rayonnement.§!"
 
@@ -8293,8 +8298,8 @@
   giga_dialog.1705.desc:99 "Dans une merveilleuse prouesse d'ingénierie et de technologie, notre $name_sub_compressor$ a chauffé le noyau de la naine brune au point que l'hydrogène a commencé à fusionner en hélium, générant de l'énergie et amorçant une réaction en chaîne, provoquant l'inflammation du noyau de la naine brune. embrasez tout le corps céleste et en le transformant en une nouvelle étoile. Nous pouvons prétendre avoir fait ce que peu d'empires osaient imaginer : donner naissance à une nouvelle étoile.\n\nLe $name_sub_compressor$ recueille maintenant l'énergie de l'étoile et étudie ses processus de fusion, et il stabilise également l'étoile nouvellement née. Nos scientifiques rapportent que le système lunaire de l'ancien nain brun a été radicalement modifié et qu'au moins une lune est devenue habitable. Nous estimons que chacune de ces lunes (ou sont-elles techniquement des planètes maintenant ?) est désormais terraformable."
   giga_dialog.1705.a:99 "Une étoile brille."
 
-  substellar_compressor_0:99 "Chantier de construction d'un $name_sub_compressor$"
-  substellar_compressor_0_DESC:99 "Le chantier de construction d'un $name_sub_compressor$, hébergeant le personnel nécessaire pour construire un $name_sub_compressor$ autour d'un nain brun."
+  substellar_compressor_0:99 "Site d'un $name_sub_compressor$"
+  substellar_compressor_0_DESC:99 "Le site de construction d'un $name_sub_compressor$, hébergeant le personnel nécessaire pour construire un $name_sub_compressor$ autour d'un nain brun."
   substellar_compressor_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_miscellaneous$\nConvertit une §YNaine brune§! en une §YÉtoile enflammée§!, rendant ses lunes plus habitables tout en générant de la £physics_research£ §YRecherche en physique§! et de l'£energy£ §Yénergie§!\n§LLe compresseur substellaire peut déclencher des réactions de fusion au sein d'une naine brune, permet littéralement de l'allumer.§!"
 
   substellar_compressor_1:99 "Panneaux magnétiques du $name_sub_compressor$"
@@ -8377,7 +8382,7 @@
   giga_tech_penrose_sphere_3_desc:99 "Théoriquement, il pourrait être possible d'assembler un anneau-monde alimenté par une $name_penrose$. Un tel anneau-monde serait alimenté par un rayonnement électromagnétique introduit dans l'ergosphère du trou noir et pourrait fournir un havre de paix pendant des milliards et des milliards d'années, même après que les étoiles elles-mêmes se soient éteintent."
 
   giga_dialog.1201.name:99 "Site de construction de la $name_penrose$ construit"
-  giga_dialog.1201.desc:99 "Le chantier de construction d'une future $name_penrose$ est terminé près de §H[giga_system.GetName]§!. Sur cet échafaudage, nous envelopperons complètement un trou noir d'un miroir hyper-réfléchissant, afin d'exploiter les énergies gargantuesques de la rotation du trou noir."
+  giga_dialog.1201.desc:99 "Le site de construction d'une future $name_penrose$ est terminé près de §H[giga_system.GetName]§!. Sur cet échafaudage, nous envelopperons complètement un trou noir d'un miroir hyper-réfléchissant, afin d'exploiter les énergies gargantuesques de la rotation du trou noir."
   giga_dialog.1201.a:99 "Bien."
 
   giga_dialog.1202.name:99 "Structure de la $name_penrose$ construite"
@@ -8409,7 +8414,7 @@
   giga_dialog.1208.desc:99 "Nous avons maintenant injecté suffisamment de rayonnement électromagnétique dans notre bombe à distorsion sous-spatiale pour la pousser au-delà de ses limites. Les radiations hyper-amplifiées rebondissent maintenant sans fin, et La Structure du miroir se brisera très bientôt à cause d'une surcharge d'énergie. Asseyez-vous et profitez des feux d'artifice !"
   giga_dialog.1208.a:99 "Les feux d'artifice sont toujours appréciés."
 
-  penrose_sphere_0:99 "Chantier de construction de $name_penrose$"
+  penrose_sphere_0:99 "Site de $name_penrose$"
   penrose_sphere_0_DESC:99 "Cette plate-forme abrite le personnel et l'infrastructure nécessaires pour construire une $name_penrose$ autour d'un trou noir."
   penrose_sphere_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_basic_resource_production$ - $giga_list_category_weaponry$\nPeut générer de l'£energy£ §Yénergie§! ou devenir une §YBombe§!. Peut être amélioré en un §YAnneau-monde de Penrose§!\n§LUne boule de miroirs autour d'un trou noir, exploitant la diffusion superradiante pour générer de l'énergie, pour son exploitation, ou pour la destruction.§!"
 
@@ -8632,8 +8637,8 @@
   giga_tech_nidavellir:99 "Forgeage d'alliages spatio-temporels"
   giga_tech_nidavellir_desc:99 "Le summum des technologies d'alliage. En exploitant la nature défiant la physique des étoiles à neutrons parallèlement à la manipulation avancée de l'espace-temps, il devient possible d'utiliser les propriétés d'une étoile à neutrons pour faciliter les processus de raffinage des minéraux, rendant la production en masse d'alliages triviale. Ces alliages, lorsqu'ils sont mélangés au neutronium récolté, pourraient alors être transformés en armes les plus pures et les plus puissantes jamais conçues par une espèce intelligente, capable de plier l'espace-temps lui-même. Cela nécessiterait une structure annulaire colossale construite autour d'une étoile à neutrons, utilisant les technologies les plus avancées connues de la galaxie."
 
-  giga_dialog.801.name:99 "Chantier de construction d'un $name_nidavellir$ terminé"
-  giga_dialog.801.desc:99 "Le chantier de construction d'un $name_nidavellir$ est maintenant terminé dans le système §H[giga_system.GetName]§! ! Sur cet échafaudage, nous construirons une construction massive, encerclant complètement cette étoile à neutrons. Il sera capable de raffiner des quantités vraiment immenses de minéraux en alliages purs."
+  giga_dialog.801.name:99 "Site d'un $name_nidavellir$ terminé"
+  giga_dialog.801.desc:99 "Le site de construction d'un $name_nidavellir$ est maintenant terminé dans le système §H[giga_system.GetName]§! ! Sur cet échafaudage, nous construirons une construction massive, encerclant complètement cette étoile à neutrons. Il sera capable de raffiner des quantités vraiment immenses de minéraux en alliages purs."
   giga_dialog.801.a:99 "Bien."
 
   giga_dialog.802.name:99 "Anneau intérieur du $name_nidavellir$ terminé"
@@ -8652,8 +8657,8 @@
   giga_dialog.805.desc:99 "Fantastique nouvelle ! Enfin, le $name_nidavellir$ est enfin terminé. Le quatrième et dernier anneau a été entièrement construit et le faisceau gravitique massif de la forge siphonne d'énormes quantités d'énergie et de neutronium de l'étoile à neutrons, qui sont ensuite utilisées avec des minéraux pour fabriquer des alliages. Cette mégastructure vraiment impressionnante est un témoignage de notre véritable maîtrise de l'ingénierie."
   giga_dialog.805.a:99 "Incroyable !"
 
-  nidavellir_forge_0:99 "Chantier de construction d'un $name_nidavellir$"
-  nidavellir_forge_0_DESC:99 "Le chantier de construction de la $name_nidavellir$, qui est la fonderie d'alliages la plus avancée jamais conçue. Il fournira bientôt un approvisionnement presque illimité d'alliages, à condition que nous ayons suffisamment de minéraux."
+  nidavellir_forge_0:99 "Site d'un $name_nidavellir$"
+  nidavellir_forge_0_DESC:99 "Le site de construction de la $name_nidavellir$, qui est la fonderie d'alliages la plus avancée jamais conçue. Il fournira bientôt un approvisionnement presque illimité d'alliages, à condition que nous ayons suffisamment de minéraux."
   nidavellir_forge_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_gigastructure$ - $giga_list_category_advanced_resource_production$\nUtilise une §YÉtoile à neutrons§! ou un §YPulsar§! pour transformer les £minerals£ §Y$minerals$§! en £alloys£§Y$alloys$§! et augmenter de manière globale la §YProduction d'alliages§! - $giga_list_removes_system_planets$\n§LUne raffinerie gargantuesque construite autour d'une étoile à neutrons, raffinant £minerals£ minéraux en d'immenses quantités d'alliages £alloys£.§!"
   nidavellir_forge_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - Une §YÉtoile à neutrons§! créé par un §Y$name_fusion_suppressor$§! est adaptée pour une §YHyperforge Nidavellir§!, mais celle créé par un §YRayon Nicoll-Dyson§! ne l'est pas. Peut être superposé avec la §YGigaforge à Neutronium§!"
   
@@ -8675,8 +8680,8 @@
   giga_tech_hyperstructural_ass:99 "Installations du chantier naval gargantuesque"
   giga_tech_hyperstructural_ass_desc:99 "Parfois, même la plus grande des citadelles ne fournit pas suffisamment de chantiers navals pour satisfaire les besoins de production d'un empire. La réponse est simple : allez plus grand. Beaucoup plus grand. Le $name_hyperstructural_ass$ serait une structure absolument gargantuesque construite autour d'une étoile, composée d'un anneau de levage stellaire interne et d'un anneau extérieur de chantier naval, similaire au $name_eq_shipyard$. Cette construction gigantesque fournirait d'immenses capacités de construction navale, ainsi que de vastes quantités de capacité navale."
 
-  giga_dialog.3701.name:99 "Chantier de construction d'un $name_hyperstructural_ass$ terminé"
-  giga_dialog.3701.desc:99 "Le chantier de construction de notre $name_hyperstructural_ass$ est terminé vers §H[giga_system.GetName]§! ! Bien que cela puisse ne pas sembler beaucoup pour le moment, cet échafaudage sera utilisé pour assembler le chantier naval le plus grand et le plus efficace que la galaxie ait jamais vu, capable d'assembler des dizaines de vaisseaux simultanément."
+  giga_dialog.3701.name:99 "Site d'un $name_hyperstructural_ass$ terminé"
+  giga_dialog.3701.desc:99 "Le site de construction de notre $name_hyperstructural_ass$ est terminé vers §H[giga_system.GetName]§! ! Bien que cela puisse ne pas sembler beaucoup pour le moment, cet échafaudage sera utilisé pour assembler le chantier naval le plus grand et le plus efficace que la galaxie ait jamais vu, capable d'assembler des dizaines de vaisseaux simultanément."
   giga_dialog.3701.a:99 "Bien."
 
   giga_dialog.3702.name:99 "Anneau interne du $name_hyperstructural_ass$ terminé"
@@ -8695,8 +8700,8 @@
   giga_dialog.3705.desc:99 "Enfin, après des décennies de travail exténuant et des centaines de milliers d'alliages dépensés, notre $name_hyperstructural_ass$ est terminé. Ses gigantesques réseaux de chantiers navals sont capables d'assembler d'immenses quantités de vaisseaux en peu de temps, ce qui assurera notre domination navale absolue sur toute la galaxie."
   giga_dialog.3705.a:99 "C'est complet. Nous sommes vraiment les maîtres de la galaxie maintenant."
 
-  hyperstructural_ass_0:99 "Chantier de construction d'un $name_hyperstructural_ass$"
-  hyperstructural_ass_0_DESC:99 "Le chantier de construction d'un futur $name_hyperstructural_ass$, un chantier naval gargantuesque aux capacités de production inégalées."
+  hyperstructural_ass_0:99 "Site d'un $name_hyperstructural_ass$"
+  hyperstructural_ass_0_DESC:99 "Le site de construction d'un futur $name_hyperstructural_ass$, un chantier naval gargantuesque aux capacités de production inégalées."
   hyperstructural_ass_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_gigastructure$ - $giga_list_category_ship_production$ §H(90 Chantiers navals)§!\nExtrait les ressources d'une §YÉtoile§! pour assembler des §YVaisseaux§! et produire des £minerals£ §Y$minerals$§!, §YCapacité navale§! et §YVitesse de construction des vaisseaux§! - $giga_list_removes_system_planets$ - $giga_list_category_requires_starbase_uplink$\n§LUn complexe de chantiers navals et d'ancrages, capable d'assembler rapidement des armadas entières.§!"
 
   # hyperstructural_ass_0_CONSTRUCTION_INFO_DELAYED:0 "$giga_list_additional_data$ - Provides various buffs to §YShip Build Speed§! and §Y1500§! §YNaval Capacity§! to our empire"
@@ -8719,7 +8724,7 @@
   giga_tech_disco_moon:99 "Appareils de réfraction à Hyper-échelle"
   giga_tech_disco_moon_desc:99 "La vie d'un citoyen peut être dure et épuisante. Couvrir une lune voisine avec des plaques de cristal et des projecteurs souterrains créerait un appareil capable de projeter de magnifiques aurores et lumières dans le ciel d'une planète. De tels effets majestueux auraient sûrement un impact positif sur le moral de notre peuple !"
 
-  giga_dialog.201.name:99 "Chantier de construction d'une $name_discomoon$ terminé"
+  giga_dialog.201.name:99 "Site d'une $name_discomoon$ terminé"
   giga_dialog.201.desc:99 "Nos ingénieurs ont maintenant terminé le chantier de construction d'un futur $name_discomoon$ dans le système §H[giga_system.GetName]§!. Sur cet échafaudage, nous construirons une énorme coquille de cristaux autour d'une lune, qui sera utilisée pour réfracter la lumière des projecteurs souterrains, créant de magnifiques rayons lumineux visibles de tous les corps du système planétaire local.\n\nToutes les planètes proches et la lune aura un bonus pour l'unité, les services, le bonheur et la valeur commerciale."
   giga_dialog.201.a:99 "Brillant."
 
@@ -8731,8 +8736,8 @@
   giga_dialog.203.desc:99 "Dans un exploit de macro-ingénierie, la totalité de la surface d'une lune a été recouverte de plaques de cristal polies dans le §H[giga_system.GetName]§!. Un vaste réseau de projecteurs souterrains les traverse maintenant, projetant de merveilleux rayons lumineux visibles dans le ciel de tous les corps du système planétaire local."
   giga_dialog.203.a:99 "Spectaculaire !"
 
-  lunar_disco_ball_0:99 "Chantier de construction d'une $name_discomoon$"
-  lunar_disco_ball_0_DESC:99 "Le chantier de construction d'un futur $name_discomoon$, un réseau de cristaux couvrant la planète, conçu pour projeter de magnifiques spectacles de lumière sur le ciel des planètes voisines."
+  lunar_disco_ball_0:99 "Site d'une $name_discomoon$"
+  lunar_disco_ball_0_DESC:99 "Le site de construction d'un futur $name_discomoon$, un réseau de cristaux couvrant la planète, conçu pour projeter de magnifiques spectacles de lumière sur le ciel des planètes voisines."
   lunar_disco_ball_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_miscellaneous$\nProcure des £amenities£ §YServices§!, £unity£ §Y$unity$§! et £trade_value£ §YValeur commerciale§! à son §YSystème planétaire local§!\n§LUn appareil qui projette de merveilleuses aurores boréales sur le ciel des planètes proches. Possède plusieurs modes qui peuvent être activés.§!"
 
   lunar_disco_ball_1:99 "$name_discomoon$"
@@ -8748,7 +8753,7 @@
   giga_tech_equatorial_shipyard_desc:99 "Les mondes en fusion possèdent un potentiel incroyable pour l'expansion de nos chantiers navals. Nous pouvons utiliser leur activité géothermique pour alimenter nos installations et exploiter leurs ressources pour construire les vaisseaux eux-mêmes. La mise en place d'un cercle de récolte spécialisé autour d'un tel monde s'avérerait certainement très utile."
 
   giga_dialog.3601.name:99 "Site de construction du $name_eq_shipyard$ établi"
-  giga_dialog.3601.desc:99 "Le chantier de construction d'un futur $name_eq_shipyard$ a été achevé près d'un monde en fusion dans le système §H[giga_system.GetName]§!. Cette plate-forme orbitale sera utilisée pour construire deux anneaux autour de cette planète, afin d'affiner de grandes quantités d'alliages et de les transformer en vaisseaux.\n\nVeuillez noter que les lunes de la planète, le cas échéant, seront consommées dans le processus."
+  giga_dialog.3601.desc:99 "Le site de construction d'un futur $name_eq_shipyard$ a été achevé près d'un monde en fusion dans le système §H[giga_system.GetName]§!. Cette plate-forme orbitale sera utilisée pour construire deux anneaux autour de cette planète, afin d'affiner de grandes quantités d'alliages et de les transformer en vaisseaux.\n\nVeuillez noter que les lunes de la planète, le cas échéant, seront consommées dans le processus."
   giga_dialog.3601.a:99 "Bien."
 
   giga_dialog.3602.name:99 "Structure du $name_eq_shipyard$ construite"
@@ -8759,8 +8764,8 @@
   giga_dialog.3603.desc:99 "Bonne nouvelle ! Nos ingénieurs rapportent que notre $name_eq_shipyard$ dans le système §H[giga_system.GetName]§! est désormais pleinement opérationnel ! L'anneau intérieur est prêt pour la colonisation et les chantiers navals de l'anneau extérieur sont pleinement actifs."
   giga_dialog.3603.a:99 "Merveilleux!"
 
-  eq_shipyard_0:99 "Chantier de construction d'un $name_eq_shipyard$"
-  eq_shipyard_0_DESC:99 "Le chantier de construction d'un $name_eq_shipyard$ composé d'un anneau de traitement des alliages et d'un anneau de chantier naval."
+  eq_shipyard_0:99 "Site d'un $name_eq_shipyard$"
+  eq_shipyard_0_DESC:99 "Le site de construction d'un $name_eq_shipyard$ composé d'un anneau de traitement des alliages et d'un anneau de chantier naval."
   eq_shipyard_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_ship_production$ §H(8 Chantiers navals)§! - $giga_list_category_habitable_mega$\nExtrait les ressources d'un §YMonde en fusion§! pour assembler des §YVaisseaux§! et produire des £alloys£§Y$alloys$§!\n$giga_list_category_requires_starbase_uplink$\n§LDeux anneaux autour d'un monde en fusion, utilisés pour le traitement des alliages et la construction navale.§!"
 
   eq_shipyard_1:99 "Structure du $name_eq_shipyard$"
@@ -8775,8 +8780,8 @@
   giga_tech_crystal_megabore:99 "Récolte de cristaux de noyau"
   giga_tech_crystal_megabore_desc:99 "Des cristaux rares se forment lorsque des pressions extrêmes rencontrent des températures extrêmes à l'intérieur des corps célestes. C'est alors au hasard de les faire remonter à la surface, où ils peuvent être récoltés par nous. Cependant, ce facteur de chance peut être éliminé en forant directement dans le noyau d'un monde et en récoltant directement les précieux cristaux à partir de là !"
 
-  giga_dialog.3501.name:99 "Chantier de construction d'un $name_crystal_megabore$ terminé"
-  giga_dialog.3501.desc:99 "Le chantier de construction d'un futur $name_crystal_megabore$ a été achevé dans le système §H[giga_system.GetName]§!. Sur cet échafaudage, nous construirons une station spatiale massive, qui projettera un gigantesque faisceau laser forant directement dans le noyau du monde en fusion, en récoltant des cristaux purs."
+  giga_dialog.3501.name:99 "Site d'un $name_crystal_megabore$ terminé"
+  giga_dialog.3501.desc:99 "Le site de construction d'un futur $name_crystal_megabore$ a été achevé dans le système §H[giga_system.GetName]§!. Sur cet échafaudage, nous construirons une station spatiale massive, qui projettera un gigantesque faisceau laser forant directement dans le noyau du monde en fusion, en récoltant des cristaux purs."
   giga_dialog.3501.a:99 "Bien."
 
   giga_dialog.3502.name:99 "Hub principal du $name_crystal_megabore$ terminé"
@@ -8791,7 +8796,7 @@
   giga_dialog.3504.desc:99 "Notre $name_crystal_megabore$ est entièrement terminé dans le système §H[giga_system.GetName]§! ! Équipé d'un gigantesque faisceau laser orbital, il a percé la croûte et le manteau de ce monde et atteint son coeur même. Des quantités massives de cristaux et de minéraux sont maintenant extraites du centre infernal de la planète, ce qui sera sûrement très utile à nos industries."
   giga_dialog.3504.a:99 "Merveilleux!"
 
-  crystal_megabore_0:99 "Chantier de construction d'un $name_crystal_megabore$"
+  crystal_megabore_0:99 "Site d'un $name_crystal_megabore$"
   crystal_megabore_0_DESC:99 "Cette plate-forme orbitale sert de chantier pour un futur $name_crystal_megabore$ autour de ce monde en fusion. Il abrite le personnel et l'infrastructure nécessaires pour commencer la construction de cette station spatiale massive."
   crystal_megabore_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_strategic_resource_production$\nExtrait des £rare_crystals£ §YCristaux rares§! d'un §YMonde en fusion§!\n§LUn Mégabore de cristaux extrait de grandes quantités de cristaux et de minéraux rares du noyau d'une planète en fusion.§!"
 
@@ -8810,8 +8815,8 @@
   giga_tech_succ:99 "Exploitation des bandes atmosphériques mondiales"
   giga_tech_succ_desc:99 "Les atmosphères des géantes gazeuses regorgent de ressources, telles que les gaz exotiques et les particules volatiles. Des faisceaux tracteurs massifs, associés à des installations de fusion et de raffinage, pourraient nous permettre de décaper progressivement l'atmosphère d'une géante gazeuse, en récoltant toutes ses ressources."
 
-  giga_dialog.1901.name:99 "Chantier de construction d'un $name_succ$ terminé"
-  giga_dialog.1901.desc:99 "Le chantier de construction d'un futur $name_succ_full$ dans le système §H[giga_system.GetName]§! est terminé ! Sur cet échafaudage, nous construirons un appareil massif, qui récoltera régulièrement l'atmosphère du Géant Gazeux et la filtrera en gaz exotiques. Il produira également de l'énergie grâce aux réacteurs à fusion utilisant l'hydrogène présent dans l'atmosphère.\n\nGardez à l'esprit qu'il finira par s'épuiser, laissant derrière lui un monde stérile."
+  giga_dialog.1901.name:99 "Site d'un $name_succ$ terminé"
+  giga_dialog.1901.desc:99 "Le site de construction d'un futur $name_succ_full$ dans le système §H[giga_system.GetName]§! est terminé ! Sur cet échafaudage, nous construirons un appareil massif, qui récoltera régulièrement l'atmosphère du Géant Gazeux et la filtrera en gaz exotiques. Il produira également de l'énergie grâce aux réacteurs à fusion utilisant l'hydrogène présent dans l'atmosphère.\n\nGardez à l'esprit qu'il finira par s'épuiser, laissant derrière lui un monde stérile."
   giga_dialog.1901.a:99 "Combien de temps a-t-il fallu pour trouver cet acronyme ?"
 
   giga_dialog.1902.name:99 "Appareil orbital du $name_succ$ terminé"
@@ -8826,7 +8831,7 @@
   giga_dialog.1904.desc:99 "Notre $name_succ_full$ dans le système §H[giga_system.GetName]§! a maintenant atteint le noyau rocheux interne de la Géante gazeuse. Il n'y a plus d'atmosphère à extraire, et l'ancienne géante gazeuse a été réduite à un petit monde stérile riche en minéraux. La mégastructure elle-même a été démantelée et le noyau peut désormais être utilisé de la manière que nous voulons."
   giga_dialog.1904.a:99 "Tout doit finir un jour."
 
-  succ_0:99 "Chantier de construction d'un $name_succ$"
+  succ_0:99 "Site d'un $name_succ$"
   succ_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_strategic_resource_production$\nExtrait les ressources d'une §YGéante gazeuse§! pour obtenir £exotic_gases£ et £volatile_motes£ ainsi que de l'£energy£ - $giga_list_category_eventually_runs_out$\n§LUn appareil massif construit autour d'une géante gazeuse pour extraire de son atmosphère des ressources.§!"
   succ_0_DESC:99 "Le chantier du futur $name_succ_full$. Il abrite le personnel et les infrastructures nécessaires pour construire un $name_succ$ autour de cette géante gazeuse."
 
@@ -8844,16 +8849,16 @@
   giga_tech_orbital_arcologies:99 "Arcologies de l'anneau orbital"
   giga_tech_orbital_arcologies_desc:99 "Au fur et à mesure que les planètes grandissent et se développent, elles commencent souvent à manquer d'espace pour des districts supplémentaires. En construisant des anneaux massifs autour de l'équateur d'une planète, de grandes quantités d'espace utilisable peuvent être créées."
 
-  giga_dialog.901.name:99 "Chantier de construction d'un $name_orbital_arcology$ terminé"
-  giga_dialog.901.desc:99 "Le chantier de construction d'un $name_orbital_arcology$ dans le système §H[giga_system.GetName]§! est terminé. Cette plate-forme servira de base pour construire un grand anneau orbital autour de cette planète, augmentant sa capacité maximale de district. Les planètes plus grandes obtiennent de meilleurs buffs mais à un coût plus élevé."
+  giga_dialog.901.name:99 "Site d'un $name_orbital_arcology$ terminé"
+  giga_dialog.901.desc:99 "Le site de construction d'un $name_orbital_arcology$ dans le système §H[giga_system.GetName]§! est terminé. Cette plate-forme servira de base pour construire un grand anneau orbital autour de cette planète, augmentant sa capacité maximale de district. Les planètes plus grandes obtiennent de meilleurs buffs mais à un coût plus élevé."
   giga_dialog.901.a:99 "Bien."
 
   giga_dialog.902.name:99 "$name_orbital_arcology$ terminé"
   giga_dialog.902.desc:99 "Un $name_orbital_arcology$ a été réalisé autour d'une planète dans le système §H[giga_system.GetName]§! ! Ce vaste anneau s'étend autour de l'équateur de la planète et offre de vastes espaces à nos industries.\n\nCette arcologie va permettre à §Y[giga_planet.GetName]§! §Y[giga_planet.orbital_arcology_modifier]§! District(s) §Hgénérateur§H et §GAgricole§!,  s'il peut le supporter, et également §Y[giga_planet.orbital_arcology_modifier_districts]§! §BEmplacements de District§!."
   giga_dialog.902.a:99 "Excellent."
 
-  orbital_arcology_0:99 "Chantier de construction d'un $name_orbital_arcology$"
-  orbital_arcology_0_DESC:99 "Le chantier de construction d'un $name_orbital_arcology$, qui est un anneau-monde miniature encerclant cette planète. Il offrira de grands espaces à nos industries."
+  orbital_arcology_0:99 "Site d'un $name_orbital_arcology$"
+  orbital_arcology_0_DESC:99 "Le site de construction d'un $name_orbital_arcology$, qui est un anneau-monde miniature encerclant cette planète. Il offrira de grands espaces à nos industries."
   orbital_arcology_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_miscellaneous$\nProcure des §YDistricts supplémentaires§! à une §YColonie§!. Le §YCoût§! et les §YBonuses§! dépendent de la §Ytaille§! de la §YPlanète§!\n§LUn petit anneau-monde circulaire autour d'une planète, fournissant des emplacements de district supplémentaires. Plus cher pour les grandes planètes, mais elles en bénéficient davantage.§!"
   orbital_arcology_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - Comme il occupe l'emplacement orbital d'une planète, il ne peut pas être superposé avec l'§Yarsenal planétaire§!."
 
@@ -8884,8 +8889,8 @@
   giga_tech_planetary_computer:99 "Complexes de calcul à l'échelle planétaire"
   giga_tech_planetary_computer_desc:99 "La solution aux besoins toujours croissants de puissance de calcul : une planète entière transformée en ordinateur ! En utilisant des techniques de terraformation spécialisées, ce projet apparemment idiot peut devenir une réalité."
 
-  giga_dialog.1301.name:99 "Chantier de construction d'un $name_planetary_computer$ terminé"
-  giga_dialog.1301.desc:99 "Le chantier de construction d'un futur $name_planetary_computer$ est maintenant terminé dans le système §H[giga_system.GetName]§!. Sur cet échafaudage, nous finirons par convertir cette planète entière en un ordinateur massif, possédant une immense puissance de traitement."
+  giga_dialog.1301.name:99 "Site d'un $name_planetary_computer$ terminé"
+  giga_dialog.1301.desc:99 "Le site de construction d'un futur $name_planetary_computer$ est maintenant terminé dans le système §H[giga_system.GetName]§!. Sur cet échafaudage, nous finirons par convertir cette planète entière en un ordinateur massif, possédant une immense puissance de traitement."
   giga_dialog.1301.a:99 "Merveilleux."
 
   giga_dialog.1302.name:99 "$name_planetary_computer$ Internes terminés"
@@ -8896,7 +8901,7 @@
   giga_dialog.1303.desc:99 "Fantastique nouvelle ! Dans le système §H[giga_system.GetName]§!, nous avons complètement enfermé une planète dans un superordinateur massif, qui s'étend de la surface au manteau de la planète. Cette construction vraiment impressionnante offrira d'immenses possibilités de recherche aux chercheurs à sa surface, et ce sera certainement une grande aubaine pour notre recherche."
   giga_dialog.1303.a:99 "Incroyable"
 
-  planetary_computer_0:99 "Chantier de construction de $name_planetary_computer$"
+  planetary_computer_0:99 "Site de $name_planetary_computer$"
   planetary_computer_0_DESC:99 "Le chantier d'un futur $name_planetary_computer$ à construire autour de la planète ci-dessous. Cet ordinateur massif s'étendra un jour profondément dans le manteau de la planète et possédera une puissance de traitement impensable. Tous les quartiers de la planète à l'exception du logement seront remplacés par des quartiers uniques, axés sur la recherche."
   planetary_computer_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_science_production$ - $giga_list_category_habitable_mega$\nConvertit un §YMonde rocheux§! en un §YOrdinateur planétaire§! efficient, produisant de la §YRecherche§! en £physics_research£ £society_research£ £engineering_research£ et de la §YCapacité Administrative§!\n§LUn ordinateur engloutissant une planète entière, avec une immense puissance de traitement. Fournit un bonus important de §YRecherche§! et des quartiers uniques.§!"
 
@@ -8913,7 +8918,7 @@
   giga_tech_terraform_gas_desc:99 "Les atmosphères des géantes gazeuses regorgent de ressources rares qui sont malheureusement impossibles à accéder en raison des atmosphères tumultueuses des planètes. Cependant, des réseaux massifs de modulation de gravité orbitale au-dessus de l'atmosphère de la planète pourraient stabiliser la haute atmosphère de la planète, permettant potentiellement la colonisation par des villes flottantes."
 
   giga_dialog.301.name:99 "Site de construction du $name_terraform_gasgiant$ établi"
-  giga_dialog.301.desc:99 "Le chantier de construction d'un futur chantier de construction Macro-atmosphérique a été achevé dans le système §H[giga_system.GetName]§!. Sur cet échafaudage, nous construirons un appareil capable de stabiliser la haute atmosphère d'une géante gazeuse, le rendant apte à la colonisation par les colonies aéroportées."
+  giga_dialog.301.desc:99 "Le site de construction d'un futur chantier de construction Macro-atmosphérique a été achevé dans le système §H[giga_system.GetName]§!. Sur cet échafaudage, nous construirons un appareil capable de stabiliser la haute atmosphère d'une géante gazeuse, le rendant apte à la colonisation par les colonies aéroportées."
   giga_dialog.301.a:99 "Merveilleux."
 
   giga_dialog.302.name:99 "Magnétorages du $name_terraform_gasgiant$ construites"
@@ -8928,7 +8933,7 @@
   giga_dialog.304.desc:99 "Merveilleuses nouvelles ! Nos ingénieurs rapportent que notre $name_terraform_gasgiant$ dans le système §H[giga_system.GetName]§! a maintenant stabilisé la haute atmosphère d'un géant gazeux ! La Géante gazeuse est maintenant colonisable et peut accueillir des colonies aéroportées, ce qui profitera certainement à notre économie, car les géantes gazeuses recèlent souvent des ressources rares."
   giga_dialog.304.a:99 "Merveilleux!"
 
-  macro_stabilizer_0:99 "Chantier de construction d'un $name_terraform_gasgiant$"
+  macro_stabilizer_0:99 "Site d'un $name_terraform_gasgiant$"
   macro_stabilizer_0_DESC:99 "Le chantier d'un $name_terraform_gasgiant$, abritant le personnel et l'équipement nécessaires pour construire une installation massive autour de cette géante gazeuse afin de le rendre plus habitable."
   macro_stabilizer_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_kilostructure$ - $giga_list_category_terraforming$\nConvertit une §YGéante gazeuse§! en une §YGéante gazeuse habitable§!, permettant de produire £energy£ et £exotic_gases£\n§LUne grande construction en forme d'anneau autour d'une géante gazeuse qui peut stabiliser sa haute atmosphère afin de permettre la création de villes flottantes au sein de la planète.§!"
 
@@ -8951,7 +8956,7 @@
   giga_tech_interstellar_ringworld_desc:99 "Nous maîtrisons l'art de la construction de mondes annulaires qui ne nécessitent pas beaucoup de chaleur naturelle pour fonctionner. La prochaine étape logique consiste à pousser cela à l'extrême et à mettre à niveau notre $name_interstellar_hab$ avec des anneaux-mondes massifs !"
 
   giga_dialog.2901.title:99 "Site de construction du $name_interstellar_hab$ terminé"
-  giga_dialog.2901.desc:99 "Le chantier de construction d'un futur $name_interstellar_hab$ a été construit dans le système §H[giga_system.GetName]§!. En utilisant un faisceau tachyon focalisé sous-espace, il générera une hyperligne partielle qui mènera au chantier de construction pour un $name_interstellar_hab$.\n\nMaintenant, nous devons choisir où placer ledit chantier autour du système actuel."
+  giga_dialog.2901.desc:99 "Le site de construction d'un futur $name_interstellar_hab$ a été construit dans le système §H[giga_system.GetName]§!. En utilisant un faisceau tachyon focalisé sous-espace, il générera une hyperligne partielle qui mènera au chantier de construction pour un $name_interstellar_hab$.\n\nMaintenant, nous devons choisir où placer ledit chantier autour du système actuel."
   giga_dialog.2901.a:99 "Espace-Est"
   giga_dialog.2901.b:99 "Espace-Nord"
   giga_dialog.2901.c:99 "Espace-Ouest"
@@ -8969,7 +8974,7 @@
   giga_dialog.2904.desc:99 "Un segment de notre $name_interstellar_ring$ est maintenant terminé ! Bénéficiant de deux habitats massifs $name_interstellar_ring$, cette immense construction fonctionne sans soleil pour la chauffer. C'est vraiment une réalisation étonnante que peu d'espèces peuvent même rêver de rivaliser."
   giga_dialog.2904.a:99 "Merveilleux."
 
-  interstellar_habitat_0:99 "Chantier de construction d'un $name_interstellar_hab$"
+  interstellar_habitat_0:99 "Site d'un $name_interstellar_hab$"
   interstellar_habitat_0_DESC:99 "Le dépôt de préparation pour un futur $name_interstellar_hab$s. Il émet un faisceau de tachyon focalisé à travers le sous-espace jusque dans l'espace interstellaire, générant une hyperligne partielle que les vaisseaux peuvent utiliser pour se rendre sur le site à l'avenir $name_interstellar_hab$."
   interstellar_habitat_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_habitable_mega$\nCréé un habitat dans l'§YEspace interstellaire§! qui peut être ultérieurement transformé en un §YAnneau-monde interstellaire§!\n§LUn $name_interstellar_hab$ est une station spatiale autonome située entre des systèmes stellaires.§!"
 
@@ -8997,7 +9002,7 @@
   giga_tech_orbital_bastion_desc:99 "Au fur et à mesure que la flotte de notre empire grandit, ses besoins augmentent également. Une solution aux besoins sans cesse croissants de la flotte est de construire un énorme $name_orb_bastion$s, abritant de vastes réseaux d'équipements militaires pour soutenir notre flotte."
   orbital_bastion_desc:99 "Un vaste complexe militaire qui aide à gérer notre armée."
 
-  giga_dialog.601.name:99 "Chantier de construction d'un $name_orb_bastion$ terminé."
+  giga_dialog.601.name:99 "Site d'un $name_orb_bastion$ terminé."
   giga_dialog.601.desc:99 "La zone d'entraînement et plusieurs casernes sont terminées. L'entraînement peut commencer.\nNous devons cependant mettre à niveau cette station pour qu'elle profite à notre empire."
 
   giga_dialog.602.name:99 "$name_orb_bastion$ Terminé."
@@ -9009,7 +9014,7 @@
   giga_dialog.604.name:99 "Quartiers de l'amiral terminé."
   giga_dialog.604.desc:99 "Une belle journée pour nos militaires. Notre quartier général administratif a maintenant été transformé en quartier général amiral. Avec cela complet, l'un de nos meilleurs amiraux a maintenant une base d'opérations personnelle. Comprend un système d'interphone gratuit connecté à tous les vaisseaux de la flotte, pour de grandes capacités de hurlement. Fournit des buffs incroyables à nos armadas."
 
-  orbital_bastion_0:99 "Chantier de construction d'un $name_orb_bastion$"
+  orbital_bastion_0:99 "Site d'un $name_orb_bastion$"
   orbital_bastion_0_DESC:99 "Juste votre station de formation ordinaire. Rien de bien spécial ici. Ne fournit actuellement aucun bonus. une structure pour la construction d'un bastion militaire."
   orbital_bastion_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_military$\nAugmente la §YCapacité navale§! et la §YLimite de commandement§!\n§LUne grande structure orbitale abritant diverses installations pour améliorer la capacité de notre flotte militaire. Fournit divers bonus à nos flottes.§!"
 
@@ -9063,7 +9068,7 @@
   giga_tech_quasi_stellar_6:99 "Le $name_quasistellar$"
   giga_tech_quasi_stellar_6_desc:99 "Le $name_quasistellar$ est une arme employant pratiquement tous les types de technologie que nous connaissons, afin de fabriquer une arme à partir du corps le plus énergétique de toute la galaxie. Cette construction redoutable est vraiment le summum de l'armement à grande échelle, surpassant même le $name_ndb$ et le Vaisseau-système de plusieurs ordres de grandeur."
 
-  quasi_stellar_obliterator_0:99 "Chantier de construction d'un $name_quasistellar$"
+  quasi_stellar_obliterator_0:99 "Site d'un $name_quasistellar$"
   quasi_stellar_obliterator_0_DESC:99 "Le chantier d'un futur $name_quasistellar$, flottant à côté d'un colossal quasar supermassif. Cette plate-forme relativement petite sera utilisée comme base pour construire la plus grande et la plus ridicule des hyper-armes jamais assemblées par des êtres intelligents dans cette galaxie."
   quasi_stellar_obliterator_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_terastructure$ - $giga_list_category_weaponry$\nConstructs a hyperweapon around a §YHyperquasar§! which can destroy entire §YStar Clusters§!\n§LUne hyper-arme ridiculement gigantesque construite autour d'un Quasar, capable d'un pouvoir destructeur incalculable.§!"
   
@@ -9343,7 +9348,7 @@
   giga_tech_hrae_mc_desc:99 "Des trous noirs, malgré une très petite énergie eux-mêmes, sont des réserves énergiques. La combinaison de plusieurs méthodes de récolte d'énergie avancées, adaptées à un trou noir massif, pourrait nous laisser assembler une machine extrêmement efficace pour monopoliser complètement toute l'énergie que le trou noir a à offrir."
 
   giga_dialog.3101.name:99 "Construction du $name_hraemc$"
-  giga_dialog.3101.desc:99 "Le chantier de construction de notre futur $name_hraemc$ est maintenant prêt. Cette merveille technologique siphonner l'énergie immédiatement de [giga_system.GetName], et elle s'avérera également être un centre de recherche Merveilleux pour étudier de près le trou noir."
+  giga_dialog.3101.desc:99 "Le site de construction de notre futur $name_hraemc$ est maintenant prêt. Cette merveille technologique siphonner l'énergie immédiatement de [giga_system.GetName], et elle s'avérera également être un centre de recherche Merveilleux pour étudier de près le trou noir."
   giga_dialog.3101.a:99 "Excellent."
 
   giga_dialog.3102.name:99 "Les accélérateurs construit"
@@ -9362,7 +9367,7 @@
   giga_dialog.3105.desc:99 "Notre macro-collecteur d'émissions de rayonnement et d'accrétion de Hawking, ou $name_hraemc$ est maintenant terminé.Cet exploit technologique incroyable nous accordera d'énormes quantités d'énergie, ainsi que de nombreuses données sur la nature des corps étranges qui sont des trous noirs. Les collectionneurs polaires collectent activement la majeure partie de l'énergie émise par le trou noir, ainsi que la matière Noire résiduelle en sortant.\nL'intégration civile a également été ajoutée, permettant à nos citoyens de jeter leur poubelle dans le trou noir, réduire le coût des consommateurs."
   giga_dialog.3105.a:99 "Puisse cela nous aider à dominer la galaxie."
 
-  hrae_mc_0:99 "Chantier de construction d'un $name_hraemc$"
+  hrae_mc_0:99 "Site d'un $name_hraemc$"
   hrae_mc_0_DESC:99 "Ce chantier de construction servira de dépôt et de base pour accueillir les grandes quantités de ressources et de personnel nécessaires pour construire un collecteur de macro de rayonnement et d'émission d'accrétion."
   hrae_mc_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_gigastructure$ - $giga_list_category_basic_resource_production$ - $giga_list_category_science_production$\nExploite un §YTrou noir§! pour son £energy£ §Yénergie§!, et génère £physics_research£ §YRecherche en physique§! et £sr_dark_matter£ §YMatière noire§! et réduit l'§YEntretien en biens de consommation§! de §Y5%§!\n§LLe $name_hraemc$ est un joyau technologique construit autour d'un trou noir pour collecter son énergie.§!"
   
@@ -10592,8 +10597,8 @@
 	stellarite_kaiser_moon_modifier:99 "Lune du Kaiser, en Stellarite"
 	stellarite_kaiser_moon_modifier_desc:99 "Cette Lune de combat incroyablement puissante est faite d'un matériau ésotérique extrêmement énergétique."
 
-	stellarite_kaiser_moon_0:99 "Chantier de construction d'une 'Lune du Kaiser' en Stellarite"
-	stellarite_kaiser_moon_0_DESC:99 "Le chantier de construction d'une future Lune du Kaiser en Stellarite, une super-arme colossale construite autour d'une petite lune, capable de ravager le champ de bataille stellaire."
+	stellarite_kaiser_moon_0:99 "Site d'une 'Lune du Kaiser' en Stellarite"
+	stellarite_kaiser_moon_0_DESC:99 "Le site de construction d'une future Lune du Kaiser en Stellarite, une super-arme colossale construite autour d'une petite lune, capable de ravager le champ de bataille stellaire."
 	stellarite_kaiser_moon_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_celestial_warship$\nConvertit un §YMonde en fusion§!, §Ystérile§! ou §Ygelé§! de §Ytaille 5 à 7§! en un §YVaisseau planétaire§! spécial\n§LBasé sur la technologie des Félidés, la 'Lune du Kaiser' se compose d'un gigantesque canon à rail intégré dans une petite lune, fabriqué à partir d'un matériau extrêmement énergétique.§!"
 
 	stellarite_kaiser_moon_1:99 "Systèmes de propulsion Lune du Kaiser en Stellarite"
@@ -10602,8 +10607,8 @@
 	stellarite_kaiser_moon_2:99 "Lune du Kaiser en Stellarite"
 	stellarite_kaiser_moon_2_DESC:99 "Une Lune du Kaiser en Stellarite complète, équipée d'un gigantesque canon à rail capable de percer presque tout, aux côtés de lanceurs d'ogives atomiques et de vastes réseaux de batteries cinétiques."
 
-	giga_katzen.0905.name:99 "Le chantier de construction de la 'Lune du Kaiser' en Stellarite est terminé !"
-	giga_katzen.0905.desc:99 "Le chantier de construction d'une future Lune du Kaiser en Stellarite est maintenant terminé dans le système de §H[giga_system.GetName]§!.\n\nCette plate-forme industrielle sera utilisée comme base pour convertir une petite lune en une redoutable super-arme. En étudiant la lune, nous avons réussi à comprendre comment reproduire quelque peu le matériau utilisé pour la construire, et bien que ce ne soit pas une réplique parfaite, elle viendra avec un entretien très raide de §Y750§! £energy£ et §Y250§! £alloys£."
+	giga_katzen.0905.name:99 "Le site de construction de la 'Lune du Kaiser' en Stellarite est terminé !"
+	giga_katzen.0905.desc:99 "Le site de construction d'une future Lune du Kaiser en Stellarite est maintenant terminé dans le système de §H[giga_system.GetName]§!.\n\nCette plate-forme industrielle sera utilisée comme base pour convertir une petite lune en une redoutable super-arme. En étudiant la lune, nous avons réussi à comprendre comment reproduire quelque peu le matériau utilisé pour la construire, et bien que ce ne soit pas une réplique parfaite, elle viendra avec un entretien très raide de §Y750§! £energy£ et §Y250§! £alloys£."
 	giga_katzen.0905.a:99 "Bien."
 
 	giga_katzen.0906.name:99 "Systèmes de propulsion Lune du Kaiser en Stellarite terminés !"
@@ -11087,7 +11092,7 @@
 	katzenartig_splinter_desc:99 "Pour éviter un effondrement catastrophique."
 
 	#War Forge
-	katzen_forge_0:99 "Chantier de construction d'une forge de guerre des Félidés"
+	katzen_forge_0:99 "Site d'une forge de guerre des Félidés"
 	katzen_forge_0_DESC:99 "Le site de construction d'une forge de guerre des Félidés, une grande construction orbitale qui récolte les ressources d'un grand astéroïde et les transforme en vaisseaux de guerre."
   katzen_forge_0_MEGASTRUCTURE_DETAILS:99 "$katzen_forge_0_DESC$"
 
@@ -11169,8 +11174,8 @@
 	kaiser_moon_2:99 "La Lune du Kaiser"
 	kaiser_moon_2_DESC:99 "Une Lune du Kaiser complète, équipée d'un gigantesque canon à rail capable de percer presque tout, aux côtés de lanceurs d'ogives atomiques et de vastes réseaux de batteries cinétiques."
 
-	giga_katzen.0902.name:99 "Le chantier de construction de la Lune du Kaiser est terminé !"
-	giga_katzen.0902.desc:99 "Le chantier de construction d'une future Lune du Kaiser est maintenant terminé dans le système de §H[giga_system.GetName]§!.\n\nCette plate-forme industrielle sera utilisée comme base pour convertir une petite lune en une redoutable super-arme, inspirée par la super-arme de l'ingénierie des Félidés.\n\nGardez à l'esprit que les Lunes Impériales ont un entretien de 250 alliages et 75 énergie."
+	giga_katzen.0902.name:99 "Le site de construction de la Lune du Kaiser est terminé !"
+	giga_katzen.0902.desc:99 "Le site de construction d'une future Lune du Kaiser est maintenant terminé dans le système de §H[giga_system.GetName]§!.\n\nCette plate-forme industrielle sera utilisée comme base pour convertir une petite lune en une redoutable super-arme, inspirée par la super-arme de l'ingénierie des Félidés.\n\nGardez à l'esprit que les Lunes Impériales ont un entretien de 250 alliages et 75 énergie."
 	giga_katzen.0902.a:99 "Bien."
 
 	giga_katzen.0903.name:99 "Systèmes de propulsion de la Lune du Kaiser terminés !"
@@ -11330,8 +11335,8 @@
   giga_katzen.020dprot.desc:99 "Le Kaiser est plus qu'heureux de partager notre gloire avec vos semblables."
   giga_katzen.020eprot.desc:99 "Nous conquérerons la galaxie ensemble, §Y[Root.GetName]§! !"
 
-  kaiser_ehof_0:99 "Chantier de construction d'une M.O.H.E. Félidéenne"
-  kaiser_ehof_0_DESC:99 "Le chantier de construction d'une Machine d'Offset de l'Horizon des Événements, qui est une forme d' I.D.H.E. conçue avec la technologie Félidés. Il sera utilisé par les Félidés pour générer des trous de ver vers d'autres destinations inaccessibles."
+  kaiser_ehof_0:99 "Site d'une M.O.H.E. Félidéenne"
+  kaiser_ehof_0_DESC:99 "Le site de construction d'une Machine d'Offset de l'Horizon des Événements, qui est une forme d' I.D.H.E. conçue avec la technologie Félidés. Il sera utilisé par les Félidés pour générer des trous de ver vers d'autres destinations inaccessibles."
   kaiser_ehof_0_MEGASTRUCTURE_DETAILS:99 "$kaiser_ehof_0_DESC$"
 
   kaiser_ehof_1:99 "M.O.H.E. Félidéenne"
@@ -12730,7 +12735,7 @@
   giga_aeternum.43261.b.noeng:99 "Un rappel de leurs propres faiblesses."
 
   giga_aeternum.43261.b.eng:99 "Restaurons le vaisseau !"
-  giga_aeternum.43261.b.eng.tooltip:99 "giga_aeternum_1_intel_tooltip\n\nNous gagnons un §YTitan aéternite§!."
+  giga_aeternum.43261.b.eng.tooltip:99 "$giga_aeternum_1_intel_tooltip$\n\nNous gagnons un §YTitan aéternite§!."
 
   giga_aeternum.43261.desc.c:99 "Les responsables de notre expédition sur§HAiondia§!ont terminé avec succès leur analyse du vaisseau gigantesque trouvé sur la surface d'§HAiondia§!.\n\nCe vaisseau particulier n'a pas été construit par l'Aéternum, mais plutôt par une civilisation qui s'est développée indépendamment sur le monde de Birch il y a environ un demi-million d'années.\n\nCette espèce est originaire d'un secteur voisin d'§HAiondia§! qui ressemblait à la surface d'un monde tropical, mais en raison de la disparition de l'Aéternum, la petite partie du monde de Birch sur lequel ils résidaient a commencé à s'effondrer et à tomber dans le Trou noir supermassif au cours de quelques décennies.\n\nL'espèce a eu ainsi pour projet d'assembler un grand §YVaisseau de colonisation§! afin de quitter le monde de Birch, emportant la majeure partie de leur civilisation avec eux. Malheureusement pour eux, il semble qu'ils n'étaient pas réellement conscients qu'ils résidaient dans un monde de Birch et croyaient plutôt que la planète était simplement un monde plat infini et que d'autres mondes de ce type existaient dans les cieux. Ils ont donc été incapables de calculer correctement la poussée et la puissance nécessaires requises par le vaisseau afin d'échapper à l'énorme gravité d'§HAiondia§!.\n\nLeur vaisseau a à peine fait cent mille kilomètres au-dessus de la surface, avant de revenir inévitablement s'écraser, annihilant en un coup toute leur civilisation dans l'aventure.\n\nNotre expédition a réussi à récupérer la plupart des composants importants du vaisseau, et a rassemblé des données de recherche importantes sur cette société éteinte."
   giga_aeternum.43261.c:99 "Parmi tout l'espace de l'univers, il n'y a pas moyen de fuir."
@@ -16759,7 +16764,7 @@
   maginot_world_2:99 "$name_maginot_world$"
   maginot_world_2_DESC:99 "Une vaste forteresse à l'échelle de la planète qui se veut totalement inattaquable par toute force ennemie."
   # ringworld version
-  maginot_world_ringworld_0:99 "Chantier de construction de l'$name_maginot_ringworld$"
+  maginot_world_ringworld_0:99 "Site de l'$name_maginot_ringworld$"
   maginot_world_ringworld_0_DESC:99 "Le site de construction d'un futur $name_maginot_ringworld$ qui sera construit dans la section inférieure du monde des anneaux. Cette forteresse massive transformera un jour la superstructure de l'anneau, présentant un obstacle quasi inattaquable pour les ennemis. Tous les quartiers de la planète seront remplacés par des quartiers défensifs uniques, et la gestion des plateformes de défense planétaire deviendra disponible."
   maginot_world_ringworld_0_MEGASTRUCTURE_DETAILS:99 "Cela ne devrait pas être visible."
   maginot_world_ringworld_1:99 "Superstructure de l'$name_maginot_ringworld$"
@@ -16786,7 +16791,7 @@
   giga_dialog.5003.a:99 "Enfin, nous sommes en sécurité."
 
   # ringworld versions
-  giga_dialog.5004.name:99 "Chantier de construction de l'$name_maginot_ringworld$ terminé"
+  giga_dialog.5004.name:99 "Site de l'$name_maginot_ringworld$ terminé"
   giga_dialog.5004.desc:99 "Le site de construction d'un futur $name_maginot_ringworld$ est maintenant terminé dans le système de §H[giga_system.GetName]§!. Bientôt, cette partie de l'anneau deviendra un complexe fortifié massif, et nous aurons la défense ultime.\nTous les quartiers de la planète seront remplacés par des quartiers défensifs uniques, et la gestion des plates-formes de défense dans l'espace proche sera disponible.\n\n§RAVERTISSEMENT : Le $name_maginot_ringworld$ dispose d'un dispositif de sécurité qui fait exploser la planète et annihile tous les vaisseaux en orbite en cas de destruction de la colonie !"
   giga_dialog.5004.a:99 "Excellent."
 
@@ -18227,7 +18232,7 @@
   mod_weapon_role_point_defense_weapon_damage_mult:99 "Dégâts des syst. de défense"
   mod_weapon_role_point_defense_weapon_fire_rate_mult:99 "Cadence de tir des syst. de défense"
 
-  weapon_type_explosive_speed_mult:99 "Vitesse des armes explosives"
+  mod_weapon_type_explosive_speed_mult:99 "Vitesse des armes explosives"
 
   MOON_ARMOR_6:99 "Supports lunaires Quantiques"
   MOON_ARMOR_6_DESC:99 "La manipulation du champ nous permet de modifier localement le comportement de la matière, ce qui augmente considérablement les capacités défensives de notre armure lunaire en rendant supportables des densités auparavant impossibles."
@@ -18435,9 +18440,9 @@
   giga_flusionoperations.1000.b:99 "Utilisez 4 §Bressources de résistance§! pour l'opération ([flusion_primitives_country.flusion_success_chance_total_2]% de chances de réussite)."
   giga_flusionoperations.1000.c:99 "Utilisez 5 §Bressources de résistance§! pour l'opération ([flusion_primitives_country.flusion_success_chance_total_3]% de chances de réussite)."
 
-  giga_flusionoperations.3000.a:99 "Utilisez 4 §Bressources de résistance§! pour l'opération ([flusion_primitives_country.flusion_success_chance_total]% de chances de réussite)."
+  giga_flusionoperations.3000.a:99 "Utilisez 3 §Bressources de résistance§! pour l'opération ([flusion_primitives_country.flusion_success_chance_total]% de chances de réussite)."
 
-  giga_flusionoperations.3000.b:99 "Utilisez 5 §Bressources de résistance§! pour l'opération ([flusion_primitives_country.flusion_success_chance_total_2]% de chances de réussite)."
+  giga_flusionoperations.3000.b:99 "Utilisez 4 §Bressources de résistance§! pour l'opération ([flusion_primitives_country.flusion_success_chance_total_2]% de chances de réussite)."
 
   giga_flusionoperations.3000.c:99 "Utilisez 5 §BRessources§! et §YOgives supplémentaires§! pour l'opération ([flusion_primitives_country.flusion_success_chance_total_3]% de chances de réussite)."
 

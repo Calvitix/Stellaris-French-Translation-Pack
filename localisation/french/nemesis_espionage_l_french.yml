@@ -1,6 +1,6 @@
 ﻿l_french:
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.3.1. Check OK, 23/02/2022
+# Calvitix 3.4.2. Check OK, 14/05/2022
 #
  SPY_NETWORK:1 "$spy_network$"
  SPY_NETWORK_NAME:0 "$spy_network$"
@@ -25,6 +25,9 @@
  UPKEEP:0 "Mainten."
  TARGET:0 "Cible"
  IF_SUCCESSFUL:0 "En cas de succès :"
+
+ operative_plural_lower:0 "agents"
+ operative_drone_plural_lower:0 "$operative_plural_lower$"
 
  ESPIONAGE_OPERATION_NOT_SUFFICENT_VALUE_FORMAT:0 "$VALUE|R0$"
  ESPIONAGE_OPERATION_SUFFICENT_VALUE_FORMAT:0 "$VALUE|0$"
@@ -121,10 +124,11 @@
  operation_sleeper_cells:0 "Mettre en place des cellules dormantes"
  operation_sleeper_cells_desc:0 "Nous avons pour l'heure d'autres priorités pour nos agents de renseignement, mais il est possible de préparer la plus grande partie du réseau pour nos besoins futurs."
  operation_sleeper_cells_on_success:0 "$IF_SUCCESSFUL|E$\nToute activité au sein de ce réseau va cesser, permettant à notre $role_spymaster$ d'être réaffecté ailleurs sans que le niveau d'infiltration ne se dégrade."
- operation_sabotage_starbase:0 "Saboter une base stellaire"
- operation_sabotage_starbase_desc:0 "Les bases stellaires sont le coeur de tout empire. Il est toujours dommage que quelque chose de fâcheux y survienne..."
- operation_sabotage_starbase_on_success:0 "$IF_SUCCESSFUL|E$\nUn module ou une construction aléatoire sur une base stellaire va être détruit. Cela n'affecte pas les modules de chantiers spatiaux."
- operation_sabotage_starbase_no_targets:0 "$TRIGGER_FAIL$ §RSeules les bases stellaires dotées de modules et de constructions n'étant pas des chantiers navals peuvent être ciblées.§!"
+ operation_sabotage_starbase:1 "Saboter une base stellaire"
+ operation_sabotage_starbase_desc:0 "Les bases stellaires sont le coeur de tout empire. Il serait évidemment dommage que quelque chose de fâcheux y survienne."
+ operation_sabotage_starbase_orbring_desc:0 "Bases stellaires et anneaux orbitaux sont le coeur de tout empire. Il est toujours dommage que quelque chose de fâcheux y survienne..."
+ operation_sabotage_starbase_on_success:1 "$IF_SUCCESSFUL|E$\nUn module ou une construction aléatoire sur une base stellaire ou un anneau orbital va être détruit. Cela n'affecte pas les modules de chantiers spatiaux."
+ operation_sabotage_starbase_no_targets:1 "$TRIGGER_FAIL$ §RSeuls les bases stellaires ou anneaux orbitaux dotés de modules et de constructions n'étant pas des chantiers navals peuvent être ciblés.§!"
  operation_smear_campaign:0 "Lancer une campagne de calomnie"
  operation_smear_campaign_desc:0 "Des agents de talent peuvent aisément propager notre propre vision de la vérité et contribuer ainsi à détériorer même les relations les plus amicales."
  operation_smear_campaign_on_success:0 "$IF_SUCCESSFUL|E$\nLes relations entre '§Y[Root.target.GetName]§!' et un autre empire vont se dégrader."
@@ -167,7 +171,7 @@
  MOD_ESPIONAGE_HOSTILE_OPERATION_DIFFICULTY_MULT:0 "$MOD_ESPIONAGE_HOSTILE_OPERATION_DIFFICULTY_ADD$"
  MOD_ESPIONAGE_OPERATION_COST_ADD:0 "Coût de l'opération"
  MOD_ESPIONAGE_OPERATION_COST_MULT:0 "$MOD_ESPIONAGE_OPERATION_COST_ADD$"
- MOD_ESPIONAGE_HOSTILE_OPERATION_COST_ADD:0 "Coût des opérations hostiles "
+ MOD_ESPIONAGE_HOSTILE_OPERATION_COST_ADD:1 "Niv. d'infiltration requis pour les opérations hostiles "
  MOD_ESPIONAGE_HOSTILE_OPERATION_COST_MULT:0 "$MOD_ESPIONAGE_HOSTILE_OPERATION_COST_ADD$"
  MOD_ESPIONAGE_OPERATION_SKILL_ADD:0 "Compétence pour les opérations "
  MOD_ESPIONAGE_OPERATION_SKILL_MULT:0 "$MOD_ESPIONAGE_OPERATION_SKILL_ADD$"

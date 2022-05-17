@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check for 3.3.1 : 23.02.2022
+ # Update check for 3.4.2 : 14.05.2022
  ####################################
 
 
@@ -77,10 +77,15 @@
  opinion-3:0 "Opinion : §R-3§!£opinion£"
  opinion-5:0 "Opinion : §R-5§!£opinion£"
 
- opinion5:0 "Opinion : §G+5§!£opinion£"
- opinion10:0 "Opinion : §G+10§!£opinion£"
- opinion15:0 "Opinion : §G+15§!£opinion£"
- opinion20:0 "Opinion : §G+20§!£opinion£"
+ opinion1:0 "$OPINION$ : §G+1§!£opinion£ "
+ opinion2:0 "$OPINION$: §G+2§!£opinion£"
+ opinion3:0 "$OPINION$: §G+3§!£opinion£"
+ opinion4:0 "$OPINION$: §G+4§!£opinion£"
+ opinion5:0 "Opinion : §G+5§!£opinion£ "
+ opinion7:0 "$OPINION$ : §G+7§!£opinion£ "
+ opinion10:0 "Opinion : §G+10§!£opinion£ "
+ opinion15:0 "Opinion : §G+15§!£opinion£ "
+ opinion20:0 "Opinion : §G+20§!£opinion£ "
  opinion25:0 "Opinion : §G+25§!£opinion£"
  opinion-20:0 "Opinion : §R-20§!£opinion£"
  
@@ -119,7 +124,7 @@
  leviathans.105.a:0 "Nous souhaiterions acheter des £minerals£§Yminéraux§!"
  leviathans.105.b:0 "Nous souhaiterions acheter de l'£energy£§Yénergie§!"
  leviathans.105.f:0 "Nous souhaiterions acheter de la £food£§Ynourriture§!"
- leviathans.105.c:0 "Auriez-vous des ressources stratégiques ?"
+ leviathans.105.c:1 "Auriez-vous des §Yressources stratégiques§! ?"
  leviathans.105.c.sr1:0 "Nous avons déjà un §Yaccord commercial avec Riggan§!\n"
  leviathans.105.c.sr2:0 "Nous avons déjà un §Yaccord commercial avec XuraCorp§!\n"
  leviathans.105.c.sr3:0 "Nous avons déjà un §Yaccord commercial avec Muutagan§!\n"
@@ -161,7 +166,7 @@
  leviathans.125.b.reply:0 "Parfait. La nourriture vous sera livrée dans des conditions parfaites de consommation."
  leviathans.125.c.reply:0 "Ce n'est pas ce cycle que votre population mourra de faim ! Nous commençons le chargement des vaisseaux immédiatement."
 
- leviathans.130.desc:2 "Les particules volatiles sont un condiment de Riggan très prisé, réputé dans toute la galaxie pour sa saveur particulière, comparable à nulle autre, et pour son explosivité, comparable à nulle autre. Nous n'en vendons qu'à nos partenaires d'affaires que nous apprécions le plus, parmi lesquels nous comptons la [Root.GetName].\n\nSi nos bas prix vous conviennent, nous acceptons d'en exporter sur vos mondes, pendant une durée de dix années standard."
+ leviathans.130.desc:3 "Les particules volatiles sont un condiment de Riggan très prisé, réputé dans toute la galaxie pour sa saveur particulière, comparable à nulle autre. Et aussi pour son explosivité, comparable à nulle autre. Nous n'en vendons qu'à nos partenaires d'affaires que nous apprécions le plus, parmi lesquels nous comptons évidemment '§Y[Root.GetName]§!'.\n\nSi nos bas prix vous conviennent, nous acceptons d'en exporter sur vos mondes, pendant une durée de dix années standard."
  leviathans.130.a.reply:0 "Vous ne le regretterez pas. À moins de trop en consommer, évidemment... Il y a alors un danger - minime - que vous vous consumiez spontanément. Mais, encore une fois, le risque est infime."
  #leviathans.130.a:0 "Entendu, nous acceptons de vous en acheter"
  leviathans.131.desc:1 "Voici un produit dont nous sommes particulièrement fiers, chez XuraCorp. Notre Département médical a récemment commencé à raffiner un tout nouveau gaz, doté de propriétés uniques, qui facilite énormément le processus souvent complexe de l'adaptation à un environnement planétaire étranger. Il est toutefois peu probable qu'il soit compatible avec les physiologies aliens !\n\nNous sommes prêts à exporter notre gaz exotique pendant une période de dix années standard. Une fois ce laps de temps écoulé, le contrat devra être renégocié."
@@ -240,19 +245,19 @@
  leviathans.300.name:0 "La Troupe des Artistes"
  leviathans.300.desc:1 "Salutations, [my_country.GetRulerName]. Au nom de la Troupe des Artistes, je vous souhaite la bienvenue.\n\nQue pouvons-nous pour vous ? Peut-être produire quelque oeuvre d'art dont vous aimeriez jouir ? À moins que vous ne souhaitiez parrainer notre enclave dans la création de beautés éthérées ?"
  leviathans.300.desc.continued:0 "Très bien. En ce cas, y a-t-il autre chose que nous puissions faire pour vous ?"
- leviathans.300.a:0 "Nous souhaiterions commander une oeuvre d'art"
+ leviathans.300.a:1 "Nous souhaiterions commander une §Yoeuvre d'art§!"
  leviathans.300.a.reply:0 "Malheureusement, nous n'en avons pas d'autres à vous proposer. À moins que vous sous-entendiez que vous n'appréciez pas celles que vous avez déjà achetées ? Vous comprenez, j'en suis sûr, que nous devons songer aussi à notre intégrité."
- leviathans.300.b:0 "Nous souhaitons patronner votre enclave"
- leviathans.300.b.stop:0 "Nous souhaiterions cesser de vous patronner"
+ leviathans.300.b:1 "Nous souhaitons §Ypatronner§! votre enclave"
+ leviathans.300.b.stop:1 "Nous souhaiterions §Ycesser de vous patronner§!"
  leviathans.300.b.stop.tooltip:0 "§RMet fin§! au gain mensuel d'£opinion£opinion\n\n"
- leviathans.300.b.reply:0 "Oh, je vois. C'est bien dommage, [my_country.GetSpeciesNamePlural]. Malgré tout, soyez remerciés de votre soutien passé.\n\nAu revoir."
- leviathans.300.c:0 "Nous souhaiterions organiser une fête sur tous nos mondes"
+ leviathans.300.b.reply:1 "Oh, je vois. C'est bien dommage, [my_country.GetSpeciesNamePlural]. Malgré tout, soyez remerciés de votre soutien passé.\n\nAu revoir."
+ leviathans.300.c:1 "Nous souhaiterions organiser une §Yfête§! sur tous nos mondes"
  leviathans.300.c.allow:0 "Requiert que la §YTroupe des Artistes§! ait :\nOpinion : +50£opinion£ "
  leviathans.300.c.outofstock:1 "Nous ne pouvons organiser une §YCélébration de tous les mondes§! que tous les 20 ans."
- leviathans.300.d:0 "Dites-nous-en plus sur votre troupe"
+ leviathans.300.d:1 "§YDites-nous-en plus§! sur votre troupe"
  leviathans.300.d.reply:0 "Nous sommes la Troupe des Artisans, un rassemblement de plusieurs stations habitées par des créateurs venus de bien des mondes, tous unis par leur désir de créer de nouvelles beautés dans ces refuges. Ils y amènent des idées et des méthodes venues de toute la galaxie, et à nous tous nous recherchons l'expression ultime de l'identité.\n\nNous rendons de très nombreux services à ceux qui souhaitent jouir de l'art. Si vous patronnez notre travail, nous pourrions même songer à organiser de plus grandes choses pour la population de votre empire."
  leviathans.300.e:0 "Que pouvez-vous faire d'autre ?"
- leviathans.300.f:0 "Nous souhaiterions investir dans un Ministère de la culture"
+ leviathans.300.f:1 "Nous souhaiterions investir dans un §Yministère de la Culture§!"
  leviathans.316.name:0 "Le Ministère de la culture"
  leviathans.316.desc:1 "Ah, le §YMinistère de la culture§!... Il a été conçu pour s'opposer aux idées divergentes et promouvoir par les arts une plus grande unité au sein de votre empire. Un véritable chef-d'oeuvre, si je puis me permettre.\n\nTout ce que nous en demandons, c'est seulement §R2000§!£energy£."
  leviathans.302.desc:2 "Magnifique ! Nous serons heureux de vous confier l'une de nos créations. Elle apportera à coup sûr joie et bonheur à la population de votre empire.\n\nVoici notre prix :\n§R600§!£energy£"
@@ -337,15 +342,15 @@
  leviathans.500k.desc:0 "Nous possédons des cartes détaillées de la galaxie tout entière, dressées par des explorateurs issus d'une centaine d'espèces différentes. Peut-être vous intéresseraient-elles ?"
  leviathans.500l.desc:0 "La connaissance est tout. Elle doit être préservée."
  
- leviathans.500.a:0 "Nous aimerions acheter de nouvelles cartes stellaires"
- leviathans.500.b:0 "Pourriez-vous nous aider dans nos recherches ?"
+ leviathans.500.a:1 "Nous aimerions acheter de nouvelles §Ycartes stellaires§!"
+ leviathans.500.b:1 "Pourriez-vous nous aider dans nos §Yrecherches§! ?"
  leviathans.500.b.alreadyaided:0 "Les Conservateurs contribuent déjà à nos recherches."
- leviathans.500.c:0 "Parlez-nous des mystères de l'univers"
- leviathans.500.d:0 "Pourrions-nous recruter l'un de vos scientifiques ?"
+ leviathans.500.c:1 "Parlez-nous des §Ymystères de l'univers§!"
+ leviathans.500.d:1 "Pourrions-nous recruter l'un de vos §Yscientifiques§! ?"
  leviathans.500.d.alreadyrecruited:0 "Nous avons déjà recruté un scientifique des Conservateurs."
- leviathans.500.d.opinion:0 "Requiert que les §YConservateurs§! aient :\n£opinion£Opinion : +50"
+ leviathans.500.d.opinion:0 "Requiert que les §YConservateurs§! aient :\n£opinion£ Opinion : +50"
  leviathans.500.e:0 "Au revoir"
- leviathans.500.h:0 "Que pouvez-vous nous dire sur vos autres clients ?"
+ leviathans.500.h:1 "Que pouvez-vous nous dire sur §Yvos autres clients§! ?"
  
  leviathans.506.name:0 "Cartes des étoiles"
  leviathans.506a.desc:0 "Nous pouvons vous fournir des données mises à jour sur des systèmes stellaires que vous n'avez pas encore explorés. Combien de systèmes vous intéresseraient ?"
@@ -365,14 +370,46 @@
  leviathans.508.desc:0 "Il existe des entités excessivement puissantes, tapies dans certains systèmes stellaires de la galaxie. Des agents des Conservateurs, au prix de nombreuses vies et pour un grand nombre de ressources, sont parvenus avec la plus grande difficulté à rassembler des connaissances qui devraient vous permettre de mieux faire face à ces êtres la prochaine fois que vous les rencontrerez."
  leviathans.508.a:0 "Dites-nous des choses que nous ne savons pas"
  leviathans.508.a.reply:0 "Cela pourrait vous intéresser... Nous avons noté la position d'un système solaire dans votre §YJournal de bord§!."
- leviathans.508.b:0 "Dites-nous en plus sur le $leviathans.510.name$" #ether drake
- leviathans.508.c:0 "Dites-nous en plus sur la $leviathans.515.name$" #enigmatic fortress
- leviathans.508.d:0 "Dites-nous en plus sur le $leviathans.520.name$" #stellar devourer
- leviathans.508.e:0 "Dites-nous en plus sur l'$leviathans.525.name$" #dimensional horror
- leviathans.508.f:0 "Dites-nous en plus sur les $leviathans.530.name$" #asteroid hiver
- leviathans.508.g:0 "Dites-nous en plus sur la $leviathans.535.name$" #infinity machine
- leviathans.508.h:0 "Dites-nous en plus sur le $leviathans.540.name$" #automated dreadnought
- leviathans.508.i:0 "Dites-nous en plus sur les $leviathans.545.name$" #wraith
+ leviathans.508.b:1 "Dites-nous-en plus sur le §Ydragon d'éther§!"
+ leviathans.508.c:1 "Dites-nous-en plus sur la §YForteresse énigmatique§!"
+ leviathans.508.d:1 "Dites-nous-en plus sur le §Ydévoreur stellaire§!"
+ leviathans.508.e:1 "Dites-nous-en plus sur l'§Yhorreur dimensionnelle§!"
+ leviathans.508.f:1 "Dites-nous-en plus sur les §Yruchers des astéroïdes§!" #Asteroid Hive
+ leviathans.508.g:1 "Dites-nous-en plus sur la §YMachine d'infinité§!"
+ leviathans.508.h:1 "Dites-nous-en plus sur le §Ydreadnought automatisé§!"
+ leviathans.508.i:1 "Dites-nous-en plus sur les §Yspectres fantomatiques§!"
+ leviathans.508.j:0 "Dites-nous-en plus sur l'être du vide" # [LocEditor:ForFutureBatchExport]
+ leviathans.508.k:0 "Dites-nous en plus sur le $leviathans.555.name$" #Scavenger Bot [LocEditor:ForFutureBatchExport]
+ leviathans.508.l:0 "Dites-nous en plus sur la $leviathans.556.name$" #Tiyanki Matriarch [LocEditor:ForFutureBatchExport]
+
+ leviathans.550.name:0 "L'être du vide"
+ leviathans.550.desc:0 "Si nos soupçons sont confirmés, cet être du vide est loin de chez lui. Nous pensons qu'il s'agit du petit d'un prédateur extragalactique aux proportions inimaginables qui parcourt le vide de l'espace à la recherche de proies. Si nous n'avons jamais rencontré de sujet en vie, nous avons entendu des récits sur les destructions et le chaos que les êtres du vide laissent dans leur sillage. Il se dit même que les mondes pourrissent dans leur ombre."
+ leviathans.550.a:0 "$leviathans.510.a$"
+ leviathans.550.a.reply:0 "De ce que nous pouvons en dire, la femelle laisse ses oeufs, de la taille d'une planète, en orbite d'une étoile, où ils restent en incubation durant des milliers d'années, et parfois même suffisamment longtemps pour que s'y développe une atmosphère et une vie organique.\n\nIls se nourrissent de matière vivante, et les êtres du vide exerceraient une étrange influence sur toute chose vivante. Heureusement, ce petit semble avoir été abandonné par ses parents.\n\nPeut-être serait-il préférable d'étouffer cette créature tant qu'elle est jeune et vulnérable ?"
+ leviathans.550.b:0 "Comment peut-il être vaincu ?"
+ leviathans.550.b.reply:0 "Nous n'avons pas connaissance qu'un être du vide ait jamais été vaincu au cours d'un combat, mais celui-ci est encore tout petit. Ils envoient de la salive et des projections corrosives, qui peuvent percer le plus épais des blindages, mais en appliquant un revêtement protecteur anti-acide le processus peut être ralenti. Nous vous aiderons à l'élaborer. Cet être du vide est une menace pour nous tous."
+
+ leviathans.555.name:0 "Trifouilleur"
+ leviathans.555.desc:0 "Ah, le robot du cimetière. Le Trifouilleur est une drôle de construction, remontant à une ère depuis longtemps oubliée. Il parcourt sans fin les champs de débris de la galaxie, ressoudant canons, moteurs et matériaux divers ramassés sur un nombre incalculable de débris pour les fixer sur sa propre coque. Sa masse et sa puissance de feu n'ont fait que s'accroître au cours des siècles, sans qu'aucun signe ne montre que cela doive s'arrêter un jour.\n\nNul ne sait s'il y a une limite à la taille qu'il peut atteindre, s'il dispose de suffisamment de temps et de débris."
+ leviathans.555.a:0 "Qui l'a conçu au départ ?"
+ leviathans.555.a.reply:0 "Malheureusement, on ne dispose d'aucune donnée précise sur les origines du Trifouilleur. Certains chercheurs pensent qu'il s'agit d'une machine de ramassage des déchets défaillante, remontant à un empire oublié, dont le but premier serait depuis longtemps perdu par la pagaille de son matériel. D'autres croient qu'il était à l'origine un simple et minuscule nanobot, programmé par quelque concepteur inconnu pour se construire lui-même éternellement en une version plus grande et plus puissante en exploitant son environnement. D'autres, enfin, sont persuadés qu'il a commencé comme le capitaine robotique d'un vaisseau, le seul survivant d'une bataille intergalactique livrée il y a des millénaires, dont les systèmes de raisonnement auraient été endommagés par la destruction soudaine et critique de sa civilisation entière.\n\nBien évidemment, tout cela n'est que pure spéculation."
+ leviathans.555.b:0 "Peut-on communiquer avec lui ?"
+ leviathans.555.b.reply:1 "De nombreuses tentatives ont été faites au cours des années, de même que des essais pour altérer sa programmation. Malheureusement, la plupart de ces expéditions se sont soldées par l'ajout de nouveaux cimetières de vaisseaux où le Trifouilleur se trouve. Ceux qui ont pu le semer ont survécu. Il a déjà rajouté suffisamment d'artillerie lourde à sa coque dépareillée pour détruire la flotte d'une civilisation entière - ce qui s'est sans doute déjà produit à plus d'une occasion.\n\nBien évidemment, de telles rencontres destructrices ne feraient que renforcer encore sa puissance, en lui fournissant toujours plus de composants à réutiliser."
+ leviathans.555.c:0 "$leviathans.510.b$"
+ leviathans.555.c.reply:0 "Comme vous l'avez sans doute déjà conjecturé, le Trifouilleur n'a pas été construit selon un plan final et préexistant. Par conséquent, certains de ses constituants s'accordent parfaitement... et d'autres un peu moins, d'où un certain nombre de faiblesses structurelles. Bien sûr, la plupart restent invisibles aux yeux des non-initiés, mais nos capteurs avancés sont parvenus à les isoler.\n\nDonnez l'ordre à vos flottes de concentrer leurs tirs sur ses parties de sa coque, et cela devrait avoir un effet non négligeable sur la quantité de dégâts qu'il pourra endurer avant de se désintégrer."
+ leviathans.555.aa:0 "Rappelez-nous ses origines ?"
+ leviathans.555.bb:0 "Rappelez-nous les tentatives de communication avec lui ?"
+
+ leviathans.556.name:0 "Matriarche tiyanki"
+ leviathans.556.desc:0 "Magnifique, n'est-ce pas ? Une vieille matriarche toute flétrie, à la peau blanchie et durcie par les âges, des tentacules capables de briser net les coques de cuirassés comme s'il s'agissait de coquilles d'huître. Il y a quelques décennies, nos chercheurs ont entendu des rumeurs sur un capitaine qui avait juré de chasser la matriarche jusqu'à l'autre extrémité de la galaxie. Pourtant, si l'on en juge par le fait qu'elle est toujours vivante, on peut douter que cette entreprise ait eu le succès qu'il escomptait."
+ leviathans.556.a:0 "Pourquoi est-elle si grande par rapport aux autres tiyanki ?"
+ leviathans.556.a.reply:0 "Pour sûr, sa taille incroyable doit provenir d'une anomalie. Nous pensons que la matriarche est arrivée de l'espace d'une autre galaxie, où une espèce de tiyanki bien plus imposante et bien plus puissante aurait divergé au cours de son évolution de ceux trouvés chez nous.\n\nÉvidemment, il est possible que la matriarche souffre tout simplement d'une forme de gigantisme particulière - même si cela n'expliquerait aucunement qu'elle ait vécu si longtemps."
+ leviathans.556.b:0 "Que savez-vous du capitaine qui voulait la chasser ?"
+ leviathans.556.b.reply:0 "Bien peu de choses. Il est tout à fait possible qu'il l'ait chassée jusqu'ici depuis une autre galaxie. Mais ce qui nous échappe, c'est la raison pour laquelle quelqu'un pourrait être suffisamment insensé pour défier à bord d'un unique vaisseau une créature capable de détruire des flottes entières."
+ leviathans.556.c:0 "$leviathans.510.b$"
+ leviathans.556.c.reply:0 "La matriarche est certes impressionnante, mais pas indestructible. Si sa peau caparaçonnée la protège d'un vaste éventail de projectiles, elle a aussi un remarquable point faible.\n\nIl y a une énorme torpille à proton fichée dans son dos : une blessure d'une bataille récente qui a mal cicatrisé. Même si elle semble défectueuse, nos scans ont révélé que cette torpille peut toujours exploser si elle est agitée d'une impulsion énergétique bien précise.\n\nNous allons immédiatement vous transmettre tous les détails nécessaires."
+ leviathans.556.aa:0 "Rappelez-nous pourquoi elle est si grande ?"
+ leviathans.556.bb:0 "Rappelez-nous l'histoire de ce capitaine ?"
  
  leviathans.590.name:0 "Recrutement d'un scientifique"
  leviathans.590.desc:0 "Nous sommes prêts à mettre l'un de nos scientifiques les plus brillants au service de votre cause. Ce n'est pas une offre que nous faisons à tout le monde, notez bien !\n\nUn geste, disons... approprié sera bien évidemment nécessaire, avant que les détails de son voyage ne soient réglés."
@@ -391,7 +428,7 @@
  leviathans.597a.desc:0 "Fous que vous êtes ! En nous attaquant, vous condamnez tous vos descendants à une existence misérable de technologie primitive !"
  leviathans.597b.desc:0 "Vos instincts primitifs vous ont poussés à nous attaquer, et vous devez maintenant en payer le prix. Jamais plus nous ne partagerons nos connaissances avec la [Root.GetName]."
  leviathans.597c.desc:0 "Nous avions tant à vous offrir, [Root.GetSpeciesNamePlural], et pourtant vous rejetez tout ça ? Bande de racailles néo-barbares !"
- leviathans.597d.desc:0 "Vous êtes désormais les ennemis de l'ensemble de la congrégation des Conservateurs."
+ leviathans.597d.desc:0 "Vous êtes désormais les ennemis de l'ensemble de l'ordre des Conservateurs."
 
  leviathans.510.name:0 "Dragon d'éther"
  leviathans.510.desc:0 "L'espèce des vers d'éther est mal adaptée à la vie dans notre univers. Le dernier dragon est certes fort, mais pas invincible."
@@ -475,6 +512,7 @@
  ### DRAGON
  leviathans.610.name:1 "Rencontre avec un dragon d'éther"
  leviathans.610.desc:1 "La créature observée dans le système de §Y[From.GetName]§! ne ressemble à rien de tout ce qu'avait pu observer le §Y[Root.GetName]§! auparavant.\n\nExtrêmement agressive et dotée de très grandes capacités destructrices, elle garde un planétoïde qui, selon les premiers balayages, serait exceptionnellement riche en ressources."
+ leviathans.610.desc.here_be_dragons:0 "La créature observée dans le système de §Y[From.GetName]§! ressemble assez au dragon céleste qui se trouve dans notre système natal, même si des rapports complémentaires ont montré qu'ils appartiennent clairement à deux espèces différentes, ayant sans doute évolué de manière indépendante.\n\nExtrêmement agressive et dotée de très grandes capacités destructrices, la créature que l'on vient de rencontrer garde un planétoïde qui, selon les premiers balayages, serait exceptionnellement riche en ressources."
  leviathans.610.a:0 "C'est de mauvais augure"
 
  leviathans.649.desc:0 "Nous avons reçu une dernière transmission de notre flotte, juste avant son annihilation. Elle mentionnait leur ennemi gigantesque, apparemment en train de remonter la piste laissée par leur signature PRL...\n\nSi cette créature peut remonter jusqu'à nous de cette manière, mieux vaut nous préparer à des représailles..."
@@ -520,11 +558,11 @@
  leviathans.1000.name:0 "Dévoreur stellaire"
  leviathans.1000.desc:0 "Émergeant depuis les tréfonds de l'étoile de §Y[stellarite_system.GetName]§!, un être gigantesque apparaît, plus grand qu'une lune de taille habituelle. Son corps irradie de chaleur, de la même onde que l'énergie produite par l'étoile du système...\n\nC'est en train de la §Ydévorer§! !\n\nLa créature se nourrit de taches solaires, dévore des éruptions solaires. Et nous avons interrompu son repas... La bête exsude des vagues lumineuses, pulsant à une fréquence effrénée, comme s'il s'agissait d'un rugissement luminescent..."
  leviathans.1001.desc:0 "Alors que le §Y[Root.GetName]§! entrait dans le système de §Y[Root.GetStarName]§!, il a rencontré quelque chose de monstrueux : un être gigantesque, irradiant de la lumière comme une étoile miniature. Les instruments de bord ont d'abord indiqué qu'il s'agissait d'une étoile binaire.\n\nMais la bête a commencé à exsuder des vagues lumineuses, pulsant à une fréquence effrénée, comme s'il s'agissait d'un rugissement luminescent..."
- leviathans.1016.desc:1 "Le dévoreur stellaire a été vaincu. Ses restes se sont ramassés sur eux-mêmes et évaporés, ne laissant derrière que son système digestif et la matière stellaire qu'il contenait.\n\nNotre équipe scientifique nous presse d'examiner ces restes : peut-être l'étude de ce système digestif permettra-t-elle d'acquérir de grandes connaissances ?"
- leviathans.1016.desc.gesta:0 "Le dévoreur stellaire a été vaincu. Ses restes se sont ramassés sur eux-mêmes et évaporés, ne laissant derrière que son système digestif et la matière stellaire qu'il contenait.\n\nPeut-être l'étude de ce système digestif permettra-t-elle d'acquérir de grandes connaissances ?"
+ leviathans.1016.desc:2 "Le dévoreur stellaire a été vaincu. Ses restes se sont ramassés sur eux-mêmes et évaporés, ne laissant derrière que sa poche ovarienne et son système digestif empli de matière stellaire.\n\nPlusieurs scientifiques nous pressent d'examiner ces restes, tandis que d'autres proposent plutôt de récupérer la poche ovarienne. Peut-être l'étude de ce système digestif permettra-t-elle d'acquérir de grandes connaissances, à moins que celle des oeufs ne soit plus porteuse d'applications utiles ?"
+ leviathans.1016.desc.gesta:1 "Le dévoreur stellaire a été vaincu. Ses restes se sont ramassés sur eux-mêmes et évaporés, ne laissant derrière que sa poche ovarienne et son système digestif empli de matière stellaire.\n\nPeut-être l'étude de ce système digestif permettra-t-elle d'acquérir de grandes connaissances, à moins qu'il ne soit préférable d'étudier plus en profondeur les oeufs ?"
  leviathans.1016.a:0 "Étudions ce corps"
  leviathans.1016.b:0 "Faisons-en un trophée que tous pourront contempler"
- leviathans.1016.b.tooltip:0 "Permet de construire un §S£building£ bâtiment§! unique pour l'empire : le $building_stellarite_trophy$.\n\n"
+ leviathans.1016.c:0 "Récupérons la poche ovarienne"
  leviathans.1017.desc:0 "Les études menées sur les restes lumineux du dévoreur stellaire ont stupéfié nos scientifiques. Cet être mangeur d'étoiles est lui-même une fournaise en fusion miniature, récoltant de la matière solaire afin de synthétiser sa propre source d'énergie.\n\nLe corps contenant encore des restes significatifs de la matière de l'étoile [guardians_stellarite_home_system.GetName], la dernière dont il s'est nourri, il pourrait être possible d'en extraire l'énergie pour la réintroduire dans l'étoile et ainsi la revigorer. De fait, récolter la chaleur du corps pourrait répondre à nos besoins énergétiques sur le court terme, mais condamnerait l'ensemble du système à un âge glaciaire éternel."
  leviathans.1017.desc.gesta:0 "Les études menées sur les restes lumineux du dévoreur stellaire nous ont laissés perplexes et surpris. Cet être mangeur d'étoiles est lui-même une fournaise en fusion miniature, récoltant de la matière solaire afin de synthétiser sa propre source d'énergie. Le corps contenant encore des restes significatifs de la matière de l'étoile [guardians_stellarite_home_system.GetName], la dernière dont il s'est nourri, il pourrait être possible d'en extraire l'énergie pour la réintroduire dans l'étoile et ainsi la revigorer. De fait, récolter la chaleur du corps pourrait répondre à nos besoins énergétiques sur le court terme, mais condamnerait l'ensemble du système à un âge glaciaire éternel."
  leviathans.1017.a:0 "Tentons de réactiver l'étoile"
@@ -906,8 +944,7 @@
  TECH_UNLOCK_CURATOR_LAB_2_TITLE:0 "$TECH_UNLOCK_COMPONENT_LINE$ $tech_archeology_lab$"
  TECH_UNLOCK_CURATOR_LAB_2_DESC:0 "$tech_archeology_lab_desc$"
  
- opinion1:0 "$OPINION$ : §G+1§!£opinion£"
- opinion7:0 "$OPINION$ : §G+7§!£opinion£"
+
  
  horror_energy_object:0 "$energy_uninhabitable_category$"
 
@@ -926,4 +963,8 @@
  monthly_opinion3:0 "Opinion mensuelle : §G+3§!£opinion£"
 
  mod_planet_jobs_energy_upkeep_mult: "Entretien en £energy£ des emplois"
+ mod_planet_jobs_consumer_goods_upkeep_mult:0 "Entretien en £consumer_goods£ des £job£emplois "
  mod_planet_structures_energy_upkeep_mult: "Entretien en £energy£ des £district£districts et £building£bâtiments"
+ mod_planet_structures_rare_crystals_upkeep_mult:0 "Entretien en £rare_crystals£cristaux rares des £district£districts et £building£bâtiments "
+ mod_planet_structures_volatile_motes_upkeep_mult:0 "Entretien des £district£districts et £building£bâtiments en £volatile_motes£ "
+ mod_planet_structures_exotic_gases_upkeep_mult:0 "Entretien des £district£districts et £building£bâtiments en £exotic_gases£ "

@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.3.1 : 23.02.2022
+ # Update check for 3.4.2 : 14.05.2022
  ####################################
 
  ####################################
@@ -21,7 +21,7 @@
  TRIGGER_CAPITAL:0 "Capitale"
  TRIGGER_CAPITAL_STAR:0 "Étoile capitale"
  TRIGGER_OWNER:1 "Possesseur"
- TRIGGER_CONTROLLER:0 "Gestionnaire de la planète"
+ TRIGGER_CONTROLLER:1 "Contrôleur"
  TRIGGER_OWNER_SPECIES:0 "Espèce fondatrice"
  TRIGGER_SPECIES:0 "Espèce"
  TRIGGER_SPACE_OWNER:0 "Possesseur de l'espace"
@@ -97,6 +97,8 @@
  HAS_AI_PERSONALITY_BEHAVIOUR:0 "A le comportement de $PERSONALITY|Y$."
  HAS_NOT_RIGHTS:0 "Non soumise à une politique spéciste de type $TYPE|H$"
  HAS_RIGHTS:0 "Soumise à une politique spéciste de type $TYPE|H$"
+ HAS_CITIZENSHIP_RIGHTS_TRIGGER:0 "A la citoyenneté"
+ HAS_NOT_CITIZENSHIP_RIGHTS_TRIGGER:0 "N'a PAS la citoyenneté"
  END_RIVALRY_EFFECT:0 "Met un terme à la rivalité avec '$COUNTRY$'."
  SET_TRUCE_COUNTRY_EFFECT:0 "Établit une trêve avec '$COUNTRY$'."
  SET_TRUCE_WAR_EFFECT:0 "Établit une trêve dans la $WAR|H$."
@@ -161,6 +163,8 @@
  IS_NOT_CAPITAL:0 "N'est PAS la capitale d'un empire"
  IS_HOMEWORLD:0 "Est le monde natal d'un empire"
  IS_NOT_HOMEWORLD:0 "N'est PAS le monde natal d'un empire"
+ HAS_ANY_SECTOR_FOCUS:0 "Relève d'un secteur ayant une priorité"
+ HAS_NOT_ANY_SECTOR_FOCUS:0 "Ne relève pas d'un secteur ayant une priorité"
  HAS_GROUND_COMBAT:0 "A du combat au sol"
  HAS_NOT_GROUND_COMBAT:0 "N'a PAS de combat au sol"
  IS_AT_WAR:0 "Est en guerre"
@@ -557,6 +561,12 @@
  HAS_NOT_NUM_ARMIES:0 "Le nombre d'armées de $VAL0|Y$ n'est PAS de $COMPARE$ $VAL1|Y$"
  HAS_NUM_STARBASE_MODULES:1 "Nombre de modules $TYPE$ $COMPARE$ à $NUM|Y$"
  HAS_NOT_NUM_STARBASE_MODULES:1 "Nombre de modules $TYPE$ PAS $COMPARE$ à $NUM|Y$"
+ HAS_NUM_STARBASE_BUILDINGS:1 "Nombre de constructions de base stellaire de type $TYPE$ $COMPARE$ à $NUM|Y$"
+ HAS_NOT_NUM_STARBASE_BUILDINGS:1 "Nombre de constructions de base stellaire de type $TYPE$ PAS $COMPARE$ à $NUM|Y$"
+ HAS_NUM_STARBASE_MODULES_IN_SYSTEM:1 "Nombre de modules de base stellaire de type $TYPE$ dans le système $COMPARE$ à $NUM|Y$"
+ HAS_NOT_NUM_STARBASE_MODULES_IN_SYSTEM:1 "Nombre de modules de base stellaire $TYPE$ dans le système PAS $COMPARE$ à $NUM|Y$"
+ HAS_NUM_STARBASE_BUILDINGS_IN_SYSTEM:1 "Nombre de constructions de base stellaire de type $TYPE$ dans le système $COMPARE$ à $NUM|Y$"
+ HAS_NOT_NUM_STARBASE_BUILDINGS_IN_SYSTEM:1 "Nombre de constructions de base stellaire de type $TYPE$ dans le système PAS $COMPARE$ à $NUM|Y$"
  HAS_NUM_STARBASES:0 "Nombre de bases stellaires possédées ($NUM_OWNED|Y$) $COMPARE$ à $NUM_COMPARE|Y$"
  HAS_NOT_NUM_STARBASES:0 "Nombre de bases stellaires possédées ($NUM_OWNED|Y$) PAS $COMPARE$ à $NUM_COMPARE|Y$"
  NUM_SYSTEM_PLANETS_TRIGGER:0 "Nombre de mondes du système ($VALUE1|0Y$) $COMPARE$ à $VALUE2|0Y$."
@@ -619,6 +629,10 @@
  NOT_GRANTS_MIGRATION_ACCESS_TRIGGER:0 "N'accorde PAS d'accès"
  TECH_RATIO_TRIGGER:0 "Le ratio de recherche technologique entre '$COUNTRY|Y$' et $|FROMY$ est de $COMPARE$ $VALUE|Y$"
  TECH_RATIO_NOT_TRIGGER:0 "Le ratio de recherche technologique entre '$COUNTRY|Y$' et $|FROMY$ n'est PAS de $COMPARE$ $VALUE|Y$"
+ ACTION_IS_ACTIVE_TRIGGER:0 "L'action commerciale est déjà active dans un accord commercial de '$COUNTRY|Y$'"
+ ACTION_IS_NOT_ACTIVE_TRIGGER:0 "L'action commerciale n'est pas active dans un accord commercial de '$COUNTRY|Y$'"
+ ACTION_IS_ACTIVE_BETWEEN_SPECIFIC_TRIGGER:0 "L'action commerciale est déjà active dans un accord commercial entre '$COUNTRY|Y$' et '$OTHERCOUNTRY|Y$'"
+ ACTION_IS_NOT_ACTIVE_BETWEEN_SPECIFIC_TRIGGER:0 "L'action commerciale n'est pas active dans un accord commercial entre '$COUNTRY|Y$' et '$OTHERCOUNTRY|Y$'"
  BRANCH_OFFICE_VALUE_TRIGGER:0 "Vérifie si la valeur d'une succursale de '$COUNTRY|Y$' sur $PLANET$ est $COMPARE$e à $VALUE|Y$"
  BRANCH_OFFICE_VALUE_NOT_TRIGGER:0 "Vérifie si la valeur d'une succursale de '$COUNTRY|Y$' sur $PLANET$ n'est PAS $COMPARE$e à $VALUE|Y$"
  WOULD_JOIN_WAR_TRIGGER:0 "Si $ATTACKER|Y$ déclarait la guerre à $DEFENDER|Y$, '$COUNTRY|Y$' rejoindrait le camp de $SIDE|Y$"
@@ -754,6 +768,10 @@
  NUM_TECHS_TRIGGER:0 "Nombre de technologies découvertes $COMPARATOR$ $NUM|Y$"
  NUM_TECHS_NOT_TRIGGER:0 "Nombre de technologies découvertes PAS $COMPARATOR$ $NUM|Y$"
  NUM_REPEATABLE_TECHS_NOT_TRIGGER:0 "Nombre de technologies répétables découvertes PAS $COMPARATOR$ $NUM|Y$"
+ NUM_TECHS_OF_TIER_TRIGGER:0 "Nombre de technologies de niveau $TIER|Y$ découvertes $COMPARATOR$ à $NUM|Y$"
+ NUM_TECHS_OF_TIER_NOT_TRIGGER:0 "Nombre de technologies de niveau $TIER|Y$ découvertes PAS $COMPARATOR$ à $NUM|Y$"
+ CAN_RESEARCH_TIER_TRIGGER:0 "Peut rechercher des technologies de niveau $TIER|Y$"
+ CANNOT_RESEARCH_TIER_TRIGGER:0 "Ne peut PAS rechercher des technologies de niveau $TIER|Y$"
  SECTOR_CONTROLLED_TRIGGER:0 "Est contrôlée par un secteur"
  SECTOR_CONTROLLED_NOT_TRIGGER:0 "N'est PAS contrôlée par un secteur"
  NUM_SECTORS_OVER_LIMIT_TRIGGER:0 "Le nombre de secteurs au-dessus de la limite est $COMPARATOR$ $NUM|Y$"
@@ -770,6 +788,10 @@
  CAN_RESEARCH_TECHNOLOGY:0 "Peut rechercher la technologie $TECH$"
  CANNOT_RESEARCH_TECHNOLOGY:0 "Ne peut pas rechercher la technologie $TECH$"
 
+ VASSALS_NOT_TRIGGER:0 "N'a PAS $OPERATOR$$VALUE|Y$ dépendances vassales"
+ VASSALS_TRIGGER:0 "A $OPERATOR$$VALUE|Y$ dépendances vassales"
+ SUBJECTS_NOT_TRIGGER:0 "N'a PAS $OPERATOR$$VALUE|Y$ dépendances"
+ SUBJECTS_TRIGGER:0 "A $OPERATOR$$VALUE|Y$ dépendances"
  NUM_KILLED_SHIPS_NOT_TRIGGER:0 "N'a PAS éliminé de vaisseaux $OPERATOR$$VALUE|Y$ appartenant à $TARGET|Y$"
  NUM_KILLED_SHIPS_TRIGGER:0 "A éliminé des vaisseaux $OPERATOR$$VALUE|Y$ appartenant à $TARGET|Y$"
  NUM_TAKEN_PLANETS_NOT_TRIGGER:0 "N'a PAS pris de planètes $OPERATOR$$VALUE|Y$ à $TARGET|Y$"
@@ -874,6 +896,7 @@
  NUM_SPACEPORT_MODULES:0 "Le nombre de modules de spatioport est de $COMPARATOR$ $NUM|Y$.\n"
  MAX_NAVAL_CAPACITY_TRIGGER:0 "La capacité navale est $COMPARATOR$ $NUM|Y$."
  MAX_NAVAL_CAPACITY_NOT_TRIGGER:0 "La capacité navale n'est PAS $COMPARATOR$ $NUM|Y$."
+ ENCLAVE_CAPACITY_LEFT_TRIGGER:0 "Nombre maximal d'enclaves de Mercenaires $COMPARATOR$ à $NUM|Y$."
  COMMAND_LIMIT_TRIGGER:0 "Limite de commandement $COMPARATOR$ $NUM|Y$."
  COMMAND_LIMIT_NOT_TRIGGER:0 "Limite de commandement PAS $COMPARATOR$ $NUM|Y$."
  USED_NAVAL_CAPACITY_PERCENT_TRIGGER:0 "La taille totale de la flotte représente $COMPARATOR$ $NUM|Y%0$ de la capacité navale."
@@ -1154,6 +1177,8 @@
  DOWNGRADE_ALL_BUILDINGS_EFFECT:0 "Tous les bâtiments autres que le capitole sont rétrogradés."
  DOWNGRADE_ALL_BUILDINGS_OF_TYPE_EFFECT:0 "Tous les bâtiments de type $TYPE$ sont rétrogradés."
  REMOVE_SPECIFIC_BUILDING_EFFECT:0 "Détruit $BUILDING|Y$"
+ RUIN_SPECIFIC_BUILDING_EFFECT:0 "Ruine $BUILDING|Y$"
+ DISABLE_SPECIFIC_BUILDING_EFFECT:0 "Désactive $BUILDING|Y$"
  ADD_DISTRICT_EFFECT:0 "Ajoute un $DISTRICT|Y$ au monde"
  REMOVE_DISTRICT_EFFECT:0 "Détruit le district"
  REMOVE_ALL_DISTRICTS_EFFECT:1 "Détruit tous les districts"
@@ -1247,7 +1272,7 @@
  RANDOM_FLEET_IN_SYSTEM_EFFECT:0 "Flotte aléatoire du système"
  SET_RUINED_EFFECT:0 "Le bâtiment est en ruine"
  SET_NOT_RUINED_EFFECT:0 "Le bâtiment est réparé"
- SET_SUBJECT_OF_EFFECT:1 "'$COUNTRY|Y$' devient un $TYPE$ de $COUNTRYTWO|Y$"
+ SET_SUBJECT_OF_EFFECT:1 "'$COUNTRY|Y$' devient une dépendance de $COUNTRYTWO|Y$"
  SET_SUBJECT_OF_EFFECT_NONE:0 "Devient indépendant"
  SET_SPACEPORT_MODULE_EFFECT_REPLACE:0 "Remplace le module $MODULE_REPLACED|Y$ par $MODULE|Y$ dans le spatioport.\n"
  SET_SPACEPORT_MODULE_EFFECT:0 "Ajoute le module $MODULE|Y$ au spatioport.\n"
@@ -1280,6 +1305,8 @@
  effect_every_owned_species:0 "$effect_every_owned_pop_species$"
  STORE_GALCOM_LEADER_BACKUP_DATA_EFFECT:0 "Copie des caractéristiques propres à '$COUNTRY|Y$', dirigeant la Communauté galactique, enregistrée."
  RESTORE_GALCOM_LEADER_BACKUP_DATA_EFFECT:0 "'$COUNTRY|Y$', dirigeant la Communauté galactique, a retrouvé ses caractéristiques propres."
+ STORE_COUNTRY_BACKUP_DATA_EFFECT:0 "Sauvegarde une copie des propriétés de la $COUNTRY|Y$"
+ RESTORE_COUNTRY_BACKUP_DATA_EFFECT:0 "Restaure les propriétés sauvegardées de la $COUNTRY|Y$"
  ROOM_NAME_OVERRIDE_EFFECT:0 "Donne à '$COUNTRY|Y$' la salle de fond $ROOM_NAME|Y$."
 
  any_megastructure_trigger:0 "N'importe quelle mégastructure"
@@ -1425,6 +1452,8 @@
  effect_set_starbase_component:0 "Ajout de $COMPONENT$ à la $CLASS$ dans le système de $SYSTEM$."
  effect_remove_starbase_module:0 "Retrait d'un module de la $CLASS$ dans le système de $SYSTEM$."
  effect_remove_starbase_building:0 "Ajout d'une construction à la $CLASS$ dans le système de $SYSTEM$."
+ effect_add_starbase_component:0 "Ajoute le composant pour vaisseaux $COMPONENT$ à la base stellaire du système de $SYSTEM$"
+ effect_remove_starbase_component:0 "Retire le composant pour vaisseaux $COMPONENT$ de la base stellaire du système de $SYSTEM$"
 
  REMOVE_RANDOM_STARBASE_MODULE_EFFECT:0 "Retire $COUNT|Y$ modules aléatoires"
  REMOVE_RANDOM_STARBASE_BUILDING_EFFECT:0 "Retire $COUNT|Y$ constructions aléatoires"
@@ -1435,6 +1464,8 @@
  IS_NOT_DISTANCE_EUCLIDEAN:0 "La distance euclidienne n'est PAS entre $MIN|Y2$ et $MAX|Y2$"
  IS_DISTANCE_SAME_SYSTEM:0 "Distance interne au système entre $MIN|Y2$ et $MAX|Y2$"
  IS_NOT_DISTANCE_SAME_SYSTEM:0 "Distance interne au système PAS entre $MIN|Y2$ et $MAX|Y2$"
+ IS_DISTANCE_TO_EMPIRE:0 "Distance jusqu'à '$WHO|Y$' $COMPARATOR$e à $DISTANCE|Y$"
+ IS_NOT_DISTANCE_TO_EMPIRE:0 "Distance jusqu'à '$WHO|Y$' PAS $COMPARATOR$e à $DISTANCE|Y$"
 
  HAS_COMMUNICATIONS_TRIGGER:0 "A établi des communications avec la '$COUNTRY|Y$'."
  HAS_NOT_COMMUNICATIONS_TRIGGER:0 "N'a PAS établi de communications avec la '$COUNTRY|Y$'."
@@ -1518,7 +1549,7 @@
  DESTROY_SITUATION_EFFECT:0 "Met fin à la situation $NAME|Y$."
  ADD_SITUATION_PROGRESS:0 "La situation $SITUATION|Y$ progresse de $AMOUNT|Y$"
  ADD_SITUATION_PROGRESS_NEGATIVE:0 "La situation $SITUATION|Y$ recule de $AMOUNT|Y$"
- SET_SITUATION_APPROACH_EFFECT:0 "L'approche de la situation est définie comme $APPROACH|Y$"
+ SET_SITUATION_APPROACH_EFFECT:1 "L'approche de la situation est définie comme $APPROACH|Y$, ce qui a pour conséquences :\n$EFFECTS$"
 
  TRIGGER_SITUATION_PROGRESS:0 "La progression totale (actuellement $CURRENT$) est $COMPARE$e à $PROGRESS|Y$"
  TRIGGER_SITUATION_PROGRESS_NOT:0 "La progression totale (actuellement $CURRENT$) n'est PAS $COMPARE$e à $PROGRESS|Y$"
@@ -1526,6 +1557,8 @@
  TRIGGER_SITUATION_MONTHLY_PROGRESS_NOT:0 "La progression mensuelle (actuellement $CURRENT$) n'est PAS $COMPARE$e à $PROGRESS|Y$"
  TRIGGER_SITUATION_TYPE:0 "Est du type $TYPE|Y$"
  TRIGGER_SITUATION_TYPE_NOT:0 "N'est PAS du type $TYPE|Y$"
+ TRIGGER_SITUATION_STAGE:0 "La phase actuelle est $STAGE|Y$"
+ TRIGGER_SITUATION_STAGE_NOT:0 "La phase actuelle n'est PAS $STAGE|Y$"
  TRIGGER_SITUATION_APPROACH:0 "L'approche actuelle est $APPROACH|Y$"
  TRIGGER_SITUATION_APPROACH_NOT:0 "L'approche actuelle n'est PAS $APPROACH|Y$"
  TRIGGER_CAN_SET_SITUATION_APPROACH:0 "L'approche $APPROACH|Y$ peut être choisie"
@@ -1536,6 +1569,12 @@
  effect_every_situation:0 "Toutes les situations en cours"
  count_situation_trigger:0 "Nombre de situations en cours$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
  count_situation_all_trigger:0 "$IS_ALL_NOT$ situations en cours remplissent ces conditions"
+
+ any_targeting_situation_trigger:0 "N'importe quelle situation ciblée"
+ effect_random_targeting_situation:0 "Une situation ciblée aléatoire"
+ effect_every_targeting_situation:0 "Toutes les situations ciblées"
+ count_targeting_situation_trigger:0 "Nombre de situations ciblées$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
+ count_targeting_situation_all_trigger:0 "$IS_ALL_NOT$ situations ciblées remplissent ces conditions"
 
  HAS_NOT_TRADE_ROUTES:0 "Le système n'a pas de route commerciale"
  HAS_TRADE_ROUTES:0 "Le système a une route commerciale"
@@ -1578,6 +1617,12 @@
  effect_every_owned_sector:0 "Tous les secteurs possédés"
  count_owned_sector_trigger:0 "Nombre de secteurs possédés$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
  count_owned_sector_all_trigger:0 "$IS_ALL_NOT$ secteurs possédés remplissent ces conditions"
+
+ any_owned_design_trigger:0 "N'importe quel modèle de vaisseaux possédé"
+ effect_random_owned_design:0 "Un modèle de vaisseau possédé aléatoire"
+ effect_every_owned_design:0 "Tous les modèles de vaisseaux possédés"
+ count_owned_design_trigger:0 "Nombre de modèles de vaisseaux possédés$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
+ count_owned_design_all_trigger:0 "$IS_ALL_NOT$ modèles de vaisseaux possédés remplissent ces conditions"
 
  any_galaxy_sector_trigger:1 "N'importe quel secteur de la galaxie"
  effect_random_sector:0 "Un secteur aléatoire dans la galaxie"
@@ -1654,6 +1699,11 @@
  effect_random_fleet_in_system:0 "Une flotte aléatoire dans le système :"
  effect_random_owned_fleet:0 "Une flotte possédée aléatoire :"
  effect_every_fleet_in_system:0 "Chaque flotte dans le système :"
+
+ effect_random_controlled_fleet:0 "Une flotte contrôlée aléatoire"
+ effect_every_controlled_fleet:0 "Toutes les flottes contrôlées"
+ any_controlled_fleet_trigger:0 "N'importe quelle flotte contrôlée"
+ count_controlled_fleet_trigger:0 "Nombre de flottes contrôlées$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
 
  any_owned_planet_trigger:0 "N'importe quel monde possédé"
  effect_random_owned_planet:0 "Un monde possédé aléatoire"
@@ -1781,6 +1831,9 @@
  CHECK_MODIFIER_VALUE:0 "Valeur de $MODIFIER$ ($VAL1$) $COMPARATOR$ $VAL2|Y$"
  CHECK_MODIFIER_VALUE_NOT:0 "Valeur de $MODIFIER$ ($VAL1$) PAS $COMPARATOR$ $VAL2|Y$"
 
+ CHECK_ECONOMIC_PRODUCTION_MODIFIER_VALUE:0 "Modificateurs de production de $RESOURCE|Y$ par les $JOB|Y$ $COMPARATOR$s à $VAL2|Y$ (actuellement $VAL1$)"
+ CHECK_ECONOMIC_PRODUCTION_MODIFIER_VALUE_NOT:0 "Modificateurs de production de $RESOURCE|Y$ par les $JOB|Y$ PAS $COMPARATOR$s à $VAL2|Y$ (actuellement $VAL1$)"
+
  TRIGGER_IS_TOTAL_WAR:0 "Est une guerre totale"
  TRIGGER_IS_NOT_TOTAL_WAR:0 "N'est PAS une guerre totale"
 
@@ -1799,6 +1852,9 @@
  HAS_PLANETARY_ASCENSION_TIER:0 "Niveau d'ascension du monde $COMPARATOR$ à $TIER|Y$"
  HAS_NOT_PLANETARY_ASCENSION_TIER:0 "Niveau d'ascension du monde PAS $COMPARATOR$ à $TIER|Y$"
  SET_PLANETARY_ASCENSION_TIER:0 "Niveau d'ascension du monde fixé à $TIER|Y$"
+
+ HAS_DEFENSIVE_ARMY_STRENGTH:0 "Puissance de la garnison $COMPARATOR$e à $VALUE|Y$"
+ HAS_NOT_DEFENSIVE_ARMY_STRENGTH:0 "Puissance de la garnison PAS $COMPARATOR$e à $VALUE|Y$"
 
  HAS_PATH_TRIGGER:0 "'$COUNTRY|Y$' suit la $PATH|Y$"
  HAS_NOT_PATH_TRIGGER:0 "'$COUNTRY|Y$' ne suit PAS la $PATH|Y$"
@@ -1855,3 +1911,55 @@
 
  STARBASE_IS_NOT_FIRST_IN_QUEUE:0 "$FIRST|Y$ n'est PAS devant $SECOND|Y$ dans la file d'attente des constructions"
  STARBASE_IS_FIRST_IN_QUEUE:0 "$FIRST|Y$ est devant $SECOND|Y$ dans la file d'attente des constructions"
+
+ HAS_AGREEMENT_BETWEEN_TRIGGER:0 "Un accord a été contracté entre la $COUNTRY|Y$ et la $TARGET|Y$."
+ HAS_AGREEMENT_BETWEEN_NOT_TRIGGER:0 "AUCUN accord n'a été contracté entre la $COUNTRY|Y$ et la $TARGET|Y$."
+
+ HAS_TERM_VALUE_TRIGGER:0 "Clause du contrat concernant $TERM|Y$ : $VALUE|Y$."
+ HAS_TERM_VALUE_NOT_TRIGGER:0 "Clause du contrat concernant $TERM|Y$ : pas $VALUE|Y$."
+ HAS_SPECIALIST_PERK_TRIGGER:0 "L'atout de spécialité $PERK|Y$ est permis par le contrat."
+ HAS_SPECIALIST_PERK_NOT_TRIGGER:0 "L'atout de spécialité $PERK|Y$ n'est PAS permis par le contrat."
+ HAS_ACTIVE_SPECIALIST_TYPE_ANY_TRIGGER:0 "Le contrat comporte une spécialisation en cours"
+ HAS_ACTIVE_SPECIALIST_TYPE_ANY_NOT_TRIGGER:0 "Le contrat ne comporte PAS de spécialisation en cours"
+ HAS_ACTIVE_SPECIALIST_TYPE_TRIGGER:0 "Le contrat a une spécialisation de $SPECIALIST_TYPE|Y$ en cours"
+ HAS_ACTIVE_SPECIALIST_TYPE_NOT_TRIGGER:0 "Le contrat n'a PAS de spécialisation de $SPECIALIST_TYPE|Y$ en cours"
+ SPECIALIST_TIER_LESS_THAN:0 "En tant que dépendance, '$SUBJECT|H$' a un degré de spécialisation $COMPARE$ à $VAL1|2Y$"
+ SPECIALIST_TIER_AT_LEAST:0 "En tant que dépendance, '$SUBJECT|H$' n'a PAS un degré de spécialisation $COMPARE$ à $VAL1|2Y$"
+ AGREEMENT_PRESET_TRIGGER:0 "Le contrat correspond au contrat-type d'une $PRESET|Y$."
+ AGREEMENT_PRESET_NOT_TRIGGER:0 "Le contrat ne correspond PAS au contrat-type d'une $PRESET|Y$."
+
+ SET_RULE_JOIN_OVERLORD_WARS:0 "Amende le contrat concernant la participation de la dépendance aux guerres de sa suzeraine."
+ SET_RULE_JOIN_SUBJECT_WARS:0 "Amende le contrat concernant la participation de la suzeraine aux guerres de sa dépendance."
+
+ SET_RULE_CAN_SUBJECT_BE_INTEGRATED:0 "Amende le contrat pour permettre l'intégration de la dépendance au sein de sa suzeraine."
+ SET_RULE_CAN_NOT_SUBJECT_BE_INTEGRATED:0 "Amende le contrat pour interdire l'intégration de la dépendance au sein de sa suzeraine."
+ SET_RULE_CAN_SUBJECT_DO_DIPLOMACY:0 "Amende le contrat pour autoriser les relations diplomatiques à la dépendance."
+ SET_RULE_CAN_NOT_SUBJECT_DO_DIPLOMACY:0 "Amende le contrat pour interdire toute relation diplomatique à la dépendance."
+ SET_RULE_CAN_SUBJECT_VOTE:0 "Amende le contrat pour permettre à la dépendance de voter en toute indépendance."
+ SET_RULE_CAN_NOT_SUBJECT_VOTE:0 "Amende le contrat pour interdire à la dépendance de voter en toute indépendance."
+ SET_RULE_CAN_SUBJECT_EXPAND:0 "Amende le contrat pour autoriser l'expansion de la dépendance."
+ SET_RULE_CAN_SUBJECT_EXPAND_WITH_TITHE:0 "Amende le contrat pour autoriser l'expansion de la dépendance en échange d'une dîme en £influence£influence à la suzeraine."
+ SET_RULE_CAN_NOT_SUBJECT_EXPAND:0 "Amende le contrat pour interdire à la dépendance toute expansion de son espace."
+ SET_RULE_SUBJECT_HAS_SENSORS:0 "Amende le contrat pour que la dépendance accède aux données issues des capteurs de sa suzeraine."
+ SET_RULE_SUBJECT_DOES_NOT_HAVE_SENSORS:0 "Amende le contrat pour que la dépendance n'ait PAS accès aux données issues des capteurs de sa suzeraine."
+
+ GET_TRADE_DATA_EFFECT_HIRE_FLEET:1 "Verse $PRICE|Y$ pour louer une §R£military_ship£flotte de Mercenaires ($POWER$£military_power£)§! pendant $DAYS|G$£time£" # [LocEditor:ForFutureBatchExport]
+ GET_TRADE_DATA_NOTHING_TO_OFFER:0 "Rien à offrir"
+
+ CONVERT_TO_SPECIALIST:0 "Entame la conversion de l'empire en une dépendance de type $SPECIALIST_TYPE|Y$.\n"
+ SET_AGREEMENT_TERMS_EFFECT:0 "Définit les clauses pour l'accord entre la $OVERLORD|Y$ et la $SUBJECT|Y$."
+ SET_DISCRETE_TERM_VALUE_EFFECT:0 "$TERM|Y$ : $VALUE|Y$"
+ SET_RESOURCE_TERM_VALUE_EFFECT:0 "$TERM|Y$ : $VALUE|Y$"
+
+ IS_OFFER_TERMS_ACTUAL_TRIGGER:0 "Une offre commerciale entre la $BUYER|Y$ et '$SELLER|Y$' est en cours."
+ IS_OFFER_TERMS_ACTUAL_NOT_TRIGGER:0 "Une offre commerciale entre la $BUYER|Y$ et '$SELLER|Y$' n'est PAS en cours."
+ CAN_AFFORD_SPECIAL_OFFER_TRIGGER:0 "'$BUYER|Y$' peut se permettre l'offre particulière présentée par '$SELLER|Y$'."
+ CAN_AFFORD_SPECIAL_OFFER_NOT_TRIGGER:0 "'$BUYER|Y$' ne peut PAS se permettre l'offre particulière présentée par '$SELLER|Y$'."
+
+ SET_AGREEMENT_PRESET_EFFECT:0 "Applique à l'accord les clauses du contrat-type de $PRESET|Y$."
+ SET_AGREEMENT_PRESET_EFFECT_NO_APPLY:0 "Transfère les clauses du contrat au contrat-type de $PRESET|Y$."
+
+ HAS_LOYALTY_LESS_THAN:0 "Loyauté de '$SUBJECT|H$' PAS $COMPARE$e à $VAL1|2Y$"
+ HAS_LOYALTY_AT_LEAST:0 "Loyauté de '$SUBJECT|H$' $COMPARE$e à $VAL1|2Y$"
+ HAS_MONTHLY_LOYALTY_LESS_THAN:0 "Loyauté mensuelle de '$SUBJECT|H$' PAS $COMPARE$e à $VAL1|2Y$"
+ HAS_MONTHLY_LOYALTY_AT_LEAST:0 "Loyauté mensuelle de '$SUBJECT|H$' $COMPARE$e à $VAL1|2Y$"
