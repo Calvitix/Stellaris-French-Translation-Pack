@@ -2,7 +2,7 @@
 
  ####################################
  # Gigastructural mod, Translation by Calvitix
- # Translation check : OK 02.04.2022
+ # Translation check : OK 20.05.2022
  ####################################
  #############################################################################################################################################
   ### Megastructure Names #####################################################################################################################
@@ -472,6 +472,7 @@
   count_megastructure_trigger:99 "Nombre de mégastructures $CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
   count_owned_pop_trigger:99 "Nombre de pops possédés $CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$"
 
+  paluushia_no_ai_observation:99 "$TRIGGER_FAIL$L'I.A. ne comprend pas qu'elle ne doit pas observer Peluchia."
   #############################################################################################################################################
   ### Menu ####################################################################################################################################
   #############################################################################################################################################
@@ -493,7 +494,7 @@
   giga_menu.2.refresh.tooltip:99 "Ici, vous pouvez vérifier vos paramètres actifs."
 
   giga_menu.1.name:99 ""
-  giga_menu.1.desc:99 "v 3.22.2"
+  giga_menu.1.desc:99 "v 3.23.2"
 
   giga_menu_1:99 "Capacité en mégastructures : §H1§!"
   giga_menu_2:99 "Capacité en mégastructures : §Y2§!"
@@ -1194,6 +1195,7 @@
   giga_menu_presets_patreon_21:99 "Patreon : §MDrCaos§!"
   giga_menu_presets_patreon_22:99 "Patreon : §MASILiara§!"
   giga_menu_presets_patreon_23:99 "Patreon: §Msleepy Miifit§!"
+  giga_menu_presets_patreon_24:99 "Patreon: §MSapphire§!"
   
 	
   giga_menu_presets_other_01:99 "Gagnant du concours : §HThe_Strateg1st§!"
@@ -2468,8 +2470,8 @@
   ehof_qnm:99 "£ehof_sr_negative_mass£§H$ehof_sr_negative_mass$§!"
   mod_station_gatherers_ehof_sr_negative_mass_produces_mult:99 "£ehof_sr_negative_mass£ de $mod_station_researchers_produces_mult$"
   mod_country_ehof_sr_negative_mass_produces_mult:99 "£ehof_sr_negative_mass£ mensuelle"
-  mod_planet_energy_converter_produces_mult:99 "Production des £job_ehof_energy_converter£ $job_ehof_energy_converter_plural$"
   mod_planet_energy_converter_drones_produces_mult:99 "Production des £job_ehof_energy_converter_drone£ $job_ehof_energy_converter_drone_plural$"
+  mod_planet_energy_converters_produces_mult:99 "Production des £job_ehof_energy_converter£ [giga_ehof_energy_converter_name]"
   planet_energy_converter:99 "Emplois de convertisseurs d'énergie"
   planet_energy_converter_drones:99 "Emplois de convertisseurs d'énergie"
 
@@ -2509,10 +2511,8 @@
   ehof_sm:99 "£ehof_sr_sentient_metal£§H$ehof_sr_sentient_metal$§!"
   mod_station_gatherers_ehof_sr_sentient_metal_produces_mult:99 "£ehof_sr_sentient_metal£ de $mod_station_researchers_produces_mult$"
   mod_country_ehof_sr_sentient_metal_produces_mult:99 "£ehof_sr_sentient_metal£ mensuel"
-  mod_planet_cultivators_produces_mult:99 "prod des £job_ehof_cultivator£ $job_ehof_cultivator_plural$"
-  mod_planet_cultivation_drones_produces_mult:99 "prod de £job_ehof_cultivation_drone£ $job_ehof_cultivation_drone_plural$"
+  mod_planet_cultivators_produces_mult:99 "prod des £job_ehof_cultivator£ [giga_ehof_cultivator_name]"
   planet_cultivators:99 "Emplois de cultivateur"
-  planet_cultivation_drones:99 "Emplois de drone de culture"
 
   # Description
   ehof_sr_sentient_metal_desc:99 "§E$ehof_sm$\nUne substance artificielle extrêmement avancée, le $ehof_sr_sentient_metal$ est capable de s'auto-répliquer lorsqu'il est appliqué sur des §H£alloys£ alliages§!, en utilisant de l'§H£energy£ énergie§! comme catalyseur.§!"
@@ -3957,9 +3957,9 @@
   district_virtual_city_plural:99 "Serveurs Mégaplexe"
   district_virtual_city_desc:99 "Une section de serveurs dédiée dans le but de garder les gens dans le simulateur."
 
-  district_virtual_admin_cap:99 "Serveur de Bureaucratie Virtuelle"
-  district_virtual_admin_cap_plural:99 "Serveurs de Bureaucratie Virtuelle"
-  district_virtual_admin_cap_desc:99 "En plaçant notre appareil bureaucratique dans un espace virtuel, nous pouvons accélérer le temps. Même s'il est lent dans le monde virtuel, il faut beaucoup moins de temps réel pour faire avancer les choses."
+  district_virtual_admin_cap:99 "Obsolète"
+  district_virtual_admin_cap_plural:99 "Obsolète"
+  district_virtual_admin_cap_desc:99 "Ce district n'est plus utilisé, et devrait être converti."
 
   district_virtual_nexus:99 "$district_virtual_city$"
   district_virtual_nexus_plural:99 "$district_virtual_city_plural$"
@@ -3985,6 +3985,54 @@
   district_virtual_science_plural:99 "Mondes simulés"
   district_virtual_science_desc:99 "Les serveurs massifs ici sont capables de simuler des dizaines de milliards d'univers pour la recherche scientifique."
 
+  district_virtual_administrative:99 "Centre bureaucratique virtuel"
+  district_virtual_administrative_plural:99 "Centres bureaucratiques virtuels"
+  district_virtual_administrative_desc:99 "En plaçant notre appareil bureaucratique dans l'espace virtuel, nous pouvons accélérer le temps de sorte que, même s'il est lent dans le monde virtuel, il faut beaucoup moins de temps réel pour faire les choses."
+  
+  district_virtual_religious:99 "Complexe du temple virtuel"
+  district_virtual_religious_plural:99 "Complexes de temples virtuels"
+  district_virtual_religious_desc:99 "En déplaçant nos lieux de culte dans l'espace virtuel, nous pouvons accélérer le temps pour mieux prouver notre dévotion. Nos penseurs les plus sages peuvent méditer pendant des siècles alors que de simples heures passent dans le monde extérieur."
+  
+  district_virtual_relay:99 "Relais de signaux virtualisés"
+  district_virtual_relay_plural:99 "Relais de signaux virtualisés"
+  district_virtual_relay_desc:99 "En utilisant les vastes ressources informatiques du cerveau matrioshka, nous pouvons analyser et trier les signaux avec plus de rapidité et de précision."
+  
+  district_virtual_organic_housing:99 "Sanctuaire virtuel"
+  district_virtual_organic_housing_plural:99 "Sanctuaires virtuels"
+  district_virtual_organic_housing_desc:99 "Une variété infinie d'expériences et d'environnements attend tout organique assez chanceux pour vivre ici. Le fait qu'ils soient aussi beaucoup plus faciles à surveiller et à contrôler est un effet secondaire utile."
+  
+  district_virtual_livestock:99 "Compartiment à bétail virtuel"
+  district_virtual_livestock_plural:99 "Compartiments à bétail virtuels"
+  district_virtual_livestock_desc:99 "En laissant nos animaux vivre une vie d'ignorance dans un monde virtuel spécialement conçu pour eux, nous les gardons sous contrôle, complaisants... et tendres."
+  
+  district_virtual_amalgamation:99 "Secteur de grilles d'amalgames virtuelles"
+  district_virtual_amalgamation_plural:99 "Secteur de grilles d'amalgames virtuelles"
+  district_virtual_amalgamation_desc:99 "Il y a des champs. Des champs sans fin, où les organiques ne naissent plus... ils sont cultivés."
+  
+  district_virtual_hell:99 "Prison virtuelle de l'enfer"
+  district_virtual_hell_plural:99 "Prisons virtuelles de l'enfer"
+  district_virtual_hell_desc:99 "Par le biais d'une condamnation pénale, d'une transgression sociétale ou simplement de circonstances malheureuses liées à la naissance, les détenus sont condamnés à souffrir pour des éternités subjectives."
+  
+  district_virtual_diplomatic:99 "Consulat virtuel"
+  district_virtual_diplomatic_plural:99 "Consulats virtuels"
+  district_virtual_diplomatic_desc:99 "Dans ces grands espaces virtuels, nos diplomates peuvent prendre leur temps pour conclure des accords favorables avec les ambassadeurs d'autres nations ou leur soutirer des informations."
+  
+  district_virtual_diplomatic_hive:99 "Cluster diplomatique virtuel"
+  district_virtual_diplomatic_hive_plural:99 "Clusters diplomatiques virtuels"
+  district_virtual_diplomatic_hive_desc:99 "Dans ces espaces virtuels spécialement conçus, nos drones diplomatiques peuvent converser avec les représentants d'autres espèces et les étudier secrètement."
+  
+  district_virtual_diplomatic_machine:99 "Serveur d'interface virtuelle"
+  district_virtual_diplomatic_machine_plural:99 "Serveurs d'interface virtuels"
+  district_virtual_diplomatic_machine_desc:99 "Dans ces espaces virtuels soigneusement contrôlés, nos drones diplomatiques peuvent présenter en toute sécurité des membres spécialement formés de notre population organique aux envoyés d'autres nations galactiques, montrant ainsi que nous ne voulons pas faire de mal."
+  
+  district_virtual_training:99 "Centre de formation virtuel"
+  district_virtual_training_plural:99 "Centres de formation virtuels"
+  district_virtual_training_desc:99 "Dans ces espaces virtuels spécialement conçus, nos meilleurs éléments peuvent recevoir la tutelle qu'ils méritent, sans la contrainte du temps."
+  
+  district_virtual_training_gestalt:99 "Serveur de simulation de formation"
+  district_virtual_training_gestalt_plural:99 "Serveurs de simulation de formation"
+  district_virtual_training_gestalt_desc:99 "Toute éventualité peut être simulée, toute expérience évaluée."
+
   district_virtual_consumer:99 "Manufacture civile"
   district_virtual_consumer_plural:99 "Manufactures civiles"
   district_virtual_consumer_desc:99 "Ce complexe produit n'importe quel appareil possible que n'importe qui pourrait vouloir."
@@ -3997,6 +4045,10 @@
   district_virtual_leisure_plural:99 "Centres de divertissement virtuels"
   district_virtual_leisure_desc:99 "Tout ce que tout le monde peut souhaiter peut être simulé ici. Le problème est de savoir ce qu'ils veulent."
 
+  district_virtual_maintenance:99 "Complexe de maintenance"
+  district_virtual_maintenance_plural:99 "Complexes d'entretien"
+  district_virtual_maintenance_desc:99 "Un district dédié au fonctionnement efficace des autres systèmes du segment."
+  
   district_virtual_strat_res:99 "Manufacture de ressources stratégiques"
   district_virtual_strat_res_desc:99 "Manufactures de ressources stratégiques"
   district_virtual_strat_res_plural:99 "Un quartier pour fabriquer les importantes ressources stratégiques utilisées dans tout l'empire."
@@ -4004,7 +4056,7 @@
   district_virtual_shipyard:99 "Segment de chantier naval"
   district_virtual_shipyard_plural:99 "Segments de chantier naval"
   district_virtual_shipyard_desc:99 "Cette section est dédiée aux opérations de construction navale massive, capables d'un débit massif."
-  district_virtual_shipyard_max:99 "$district_virtual_shipyard_plural$ Max"
+  mod_district_virtual_shipyard_max:99 "Nbr. max de $district_virtual_shipyard_plural$"
 
   #########################################
   ### Interstellar Ringworld districts ####
@@ -4409,13 +4461,13 @@
   mod_job_giga_gas_harvester_per_pop_short:99 "\n§G+1§! £mod_job_giga_gas_harvester_add£ pour $VALUE$£pop£"
 
   # Gestalt
-  job_giga_gas_harvester_drone:99 "Drone Récolteur de gaz exotique"
-  job_giga_gas_harvester_drone_plural:99 "Drones Récolteurs de gaz exotique"
-  job_giga_gas_harvester_drone_desc:99 "Les chasseurs de gaz utilisent des engins spatiaux et des machines qui pénètrent dans les profondeurs de l'atmosphère de la géante gazeuse pour puiser dans des poches de gaz exotique."
-  job_giga_gas_harvester_drone_effect_desc:99 "Les £job_giga_gas_harvester_drone£ $job_giga_gas_harvester_drone_plural$ rassemblent des £exotic_gases£ §Y$exotic_gases$§!"
-  mod_job_giga_gas_harvester_drone_add:99 "Emplois de $job_giga_gas_harvester_drone$"
-  mod_job_giga_gas_harvester_drone_per_pop:99 "§G+1§! emploi de $job_giga_gas_harvester_drone$ par palier de $VALUE$ Pops"
-  mod_job_giga_gas_harvester_drone_per_pop_short:99 "(£mod_job_giga_gas_harvester_drone_add£§G+1§! par £pop£$VALUE$)"
+  job_giga_gas_harvesting_drone:99 "Drone Récolteur de gaz exotique"
+  job_giga_gas_harvesting_drone_plural:99 "Drones Récolteurs de gaz exotique"
+  job_giga_gas_harvesting_drone_desc:99 "Les chasseurs de gaz utilisent des engins spatiaux et des machines qui pénètrent dans les profondeurs de l'atmosphère de la géante gazeuse pour puiser dans des poches de gaz exotique."
+  job_giga_gas_harvesting_drone_effect_desc:99 "Les £job_giga_gas_harvesting_drone£ $job_giga_gas_harvesting_drone_plural$ rassemblent des £exotic_gases£ §Y$exotic_gases$§!"
+  mod_job_giga_gas_harvesting_drone_add:99 "Emplois de $job_giga_gas_harvesting_drone$"
+  mod_job_giga_gas_harvesting_drone_per_pop:99 "§G+1§! emploi de $job_giga_gas_harvesting_drone$ par palier de $VALUE$ Pops"
+  mod_job_giga_gas_harvesting_drone_per_pop_short:99 "(£mod_job_giga_gas_harvesting_drone_add£§G+1§! par £pop£$VALUE$)"
 
   ########################################################################################################################################################
   # Regular
@@ -4448,6 +4500,159 @@
   job_virtual_admin_cap_machine_plural:99 "Coordinateurs Virtuels"
   job_virtual_admin_cap_machine_desc:99 "Être dans un monde virtuel est très bénéfique pour les gratte-papier."
   mod_job_virtual_admin_cap_machine_add:99 "Coordinateur Virtuel"
+
+  job_giga_media_coordinator:99 "Magnat des médias"
+  job_giga_media_coordinator_plural:99 "Magnats des médias"
+  job_giga_media_coordinator_desc:99 "Les esprits créatifs à l'origine des empires virtuels du divertissement, les magnats des médias veillent à ce que notre population ne reste jamais sur sa faim. Lumière. Caméra. ACTION !"
+  job_giga_media_coordinator_effect_desc:99 "£job_giga_media_coordinator£ $job_giga_media_coordinator_plural$ transforme £consumer_goods£ §Y$consumer_goods$§! en £unity£ §Y$unity$§!, £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!, et £mod_trade_value_add£ §Y$TRADE_VALUE$§!, et augmente également £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! dans tout notre empire d'une petite quantité."
+  mod_job_giga_media_coordinator_add:99 "Emploi de $job_giga_media_coordinator$"
+  mod_job_giga_media_coordinator_per_pop:99 "§G+1§! emploi de $job_giga_media_coordinator$ par palier de $VALUE$ Pops"
+  mod_job_giga_media_coordinator_per_pop_short:99 "\n§G+1§! £mod_job_giga_media_coordinator_add£ par $VALUE$ £pop£"
+  
+  job_giga_media_coordination_drone:99 "Drone de coordination des médias"
+  job_giga_media_coordination_drone_plural:99 "Drones de coordination des médias"
+  job_giga_media_coordination_drone_desc:99 "Ces grappes de drones spécialisés produisent un flux ininterrompu de contenus adaptés aux préférences des pupilles organiques de l'intelligence artificielle."
+  job_giga_media_coordination_drone_effect_desc:99 "Les £job_giga_media_coordination_drone£ $job_giga_media_coordination_drone_plural$ transforment les £consumer_goods£ §Y$consumer_goods$§! en £unity£ §Y$unity$§! et £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§!, et augmente également le £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§! dans tout notre empire d'une petite quantité."
+  mod_job_giga_media_coordination_drone_add:99 "Emplois de $job_giga_media_coordination_drone$"
+  mod_job_job_giga_media_coordination_drone_per_pop:99 "§G+1§! emploi de $job_giga_media_coordination_drone$ par palier de $VALUE$ Pops"
+  mod_job_job_giga_media_coordination_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_media_coordination_drone_add£ par $VALUE$ £pop£"
+  
+  job_giga_virtual_livestock:99 "$job_livestock$ Virtuel"
+  job_giga_virtual_livestock_plural:99 "$job_livestock_plural$ Virtuels"
+  job_giga_virtual_livestock_desc:99 "Vivant une vie d'ignorance béate dans un monde virtuel, ils n'ont aucune idée de leur destination finale."
+  job_giga_virtual_livestock_effect_desc:99 "Les £job_giga_virtual_livestock£ $job_giga_virtual_livestock_plural$ produisent £food£ §Y$food$§! (ou £minerals£ §Y$minerals$§! ), tout en réduisant £mod_energy_upkeep_mult£ §Y$mod_planet_pops_energy_upkeep_mult$§! et £mod_energy_upkeep_mult£ §Y$mod_planet_jobs_energy_upkeep_mult$§! pour l'ensemble du segment."
+  mod_job_giga_virtual_livestock_add:99 "Emplois de $job_giga_virtual_livestock$"
+  mod_job_job_giga_virtual_livestock_per_pop:99 "§G+1§! emploi de $job_giga_virtual_livestock$ par palier de $VALUE$ Pops"
+  mod_job_job_giga_virtual_livestock_per_pop_short:99 "\n§G+1§! £mod_job_giga_virtual_livestock_add£ par $VALUE$ £pop£"
+  
+  job_giga_virtual_livestock_effect_unity:99 "Les $job_livestock$ produisent un bonus £unity£ §Y$unity$§!."
+  job_giga_virtual_livestock_effect_energy:99 "Les $job_livestock$ produisent un bonus £energy£ §Y$energy$§!."
+  job_giga_virtual_livestock_effect_society:99 "Les $job_livestock$ produisent un bonus £society_research£ §Y$society_research$§!."
+  job_giga_virtual_livestock_effect_research:99 "Les $job_livestock$ produisent des bonus §YPoints de recherche§! £physics_research£ £society_research£ £engineering_research£ ."
+  job_giga_virtual_livestock_effect_experience:99 "Les $job_livestock$ fournissent un bonus §Y$mod_army_starting_experience_add$§!."
+  job_giga_virtual_livestock_effect_output:99 "Les $job_livestock$ fournissent une production supplémentaire £food£ §Y$food$§! ou £minerals£ §Y$minerals$§!."
+  job_giga_virtual_livestock_effect_trade:99 "Les $job_livestock$ fournissent un bonus £mod_trade_value_add£ §Y$TRADE_VALUE$§!."
+  
+  job_giga_virtual_livestock_effect_desc_pacifist:99 "\n§EUne dernière gentillesse :§! Minimiser la souffrance apporte du réconfort à notre population §Y$ethic_pacifist$§!. $job_giga_virtual_livestock_effect_unity$"
+  job_giga_virtual_livestock_effect_desc_militarist:99 "\n§EEntraînement virtuel :§! Notre §Y$ethic_militarist$§! commandement de l'armée utilise cette zone comme terrain d'entraînement virtuel. $job_giga_virtual_livestock_effect_experience$"
+  job_giga_virtual_livestock_effect_desc_authoritarian:99 "\n§EContrôle total :§! Assurer un environnement contrôlé pour nos aliments s'aligne sur nos valeurs §Y$ethic_authoritarian$§!. $job_giga_virtual_livestock_effect_unity$"
+  job_giga_virtual_livestock_effect_desc_egalitarian:99 "\n§EAgents libres :§! Nos §Y$ethic_egalitarian$§! scientifiques voient l'intérêt d'étudier des agents virtuels non conscients. $job_giga_virtual_livestock_effect_society$"
+  job_giga_virtual_livestock_effect_desc_spiritualist:99 "\n§EMéditations sur la mort :§! En méditant sur la mort dans la simulation, §Y$ethic_spiritualist$§! les sages glanent des informations. $job_giga_virtual_livestock_effect_society$"
+  job_giga_virtual_livestock_effect_desc_materialist:99 "\n§ESujets de test :§! L'accès illimité aux sujets de test permet à nos §Y$ethic_materialist$§! scientifiques d'expérimenter librement. $job_giga_virtual_livestock_effect_research$"
+  
+  job_giga_virtual_livestock_effect_desc_elitist:99 "\n§EHiérarchie :§! S'assurer que les plus faibles d'entre nous sont à leur place légitime plaît à notre §Y$ethic_elitist$§! population. $job_giga_virtual_livestock_effect_unity$"
+  job_giga_virtual_livestock_effect_desc_pluralist:99 "\n§EÉtude sociétale :§! L'observation de cette structure sociétale unique est utile à nos §Y$ethic_pluralist$§! chercheurs."
+  job_giga_virtual_livestock_effect_desc_ecocentrist:99 "\n§EAgriculture efficace :§! Maintenir un environnement à croissance contrôlée pour minimiser les déchets plaît à notre §Y$ethic_ecocentrist$§! gouvernement. $job_giga_virtual_livestock_effect_output$"
+  job_giga_virtual_livestock_effect_desc_anthropocentric:99 "\n§ERécolte d'énergie :§! Maximiser l'efficacité opérationnelle des systèmes du secteur plaît à notre §Y$ethic_anthropocentric$§! gouvernement. $job_giga_virtual_livestock_effect_energy$"
+  job_giga_virtual_livestock_effect_desc_competitive:99 "\n§ECoupes de choix :§! Des conditions de culture parfaites ne produisent que le meilleur produit. Nos §Y$ethic_competitive$§! marchés sont revigorés. $job_giga_virtual_livestock_effect_trade$"
+  job_giga_virtual_livestock_effect_desc_cooperative:99 "\n§EUne sinistre leçon :§! Se souvenir de la façon dont notre société doit travailler ensemble pour éviter un si terrible destin fait avancer notre §Y$ethic_cooperative$§! société. $job_giga_virtual_livestock_effect_society$"
+  
+  job_giga_virtual_organic_battery:99 "$job_organic_battery$ Virtuel"
+  job_giga_virtual_organic_battery_plural:99 "$job_organic_battery_plural$ Virtuels"
+  job_giga_virtual_organic_battery_desc:99 "Vivant dans un monde de rêve de notre construction, ils restent inconscients de la vérité qui les entoure."
+  job_giga_virtual_organic_battery_effect_desc:99 "Les pops £job_giga_virtual_organic_battery£ $job_giga_virtual_organic_battery_plural$ produisent £energy£ §Y$energy$§! tout en réduisant £mod_energy_upkeep_mult£ §Y$mod_planet_pops_energy_upkeep_mult$§! et £mod_energy_upkeep_mult£ §Y$mod_planet_jobs_energy_upkeep_mult$§! pour l'ensemble du segment."
+  mod_job_giga_virtual_organic_battery_add:99 "Emplois de $job_giga_virtual_organic_battery$"
+  mod_job_job_giga_virtual_organic_battery_per_pop:99 "§G+1§! emploi de $job_giga_virtual_organic_battery$ par palier de $VALUE$ Pops"
+  mod_job_job_giga_virtual_organic_battery_per_pop_short:99 "\n§G+1§! £mod_job_giga_virtual_organic_battery_add£ par $VALUE$ £pop£"
+  
+  job_giga_virtual_hell_inmate:99 "Damné virtuel"
+  job_giga_virtual_hell_inmate_plural:99 "Damnés virtuels"
+  job_giga_virtual_hell_inmate_desc:99 "Les plus démunis sont condamnés à subir les pires conditions imaginables, afin d'effrayer les criminels potentiels et les inciter à reconsidérer leur choix de vie."
+  job_giga_virtual_hell_inmate_effect_desc:99 "Les £job_giga_virtual_hell_inmate£ §Y$job_giga_virtual_hell_inmate_plural$§! souffrent pour leurs supérieurs, convertissant £energy£ §Y$energy$§! en une diminution à l'échelle de l'empire mais une augmentation locale de £crime£ §Y$PLANET_CRIME_TITLE$§!."
+  mod_job_giga_virtual_hell_inmate_add:99 "Emplois de $job_giga_virtual_hell_inmate$"
+  mod_job_job_giga_virtual_hell_inmate_per_pop:99 "§G+1§! emploi de $job_giga_virtual_hell_inmate$ par $VALUE$ Pops"
+  mod_job_job_giga_virtual_hell_inmate_per_pop_short:99 "\n§G+1§! £mod_job_giga_virtual_hell_inmate_add£ par $VALUE$ £pop£"
+  
+  job_giga_virtual_hell_effect_morale:99 "Les détenus fournissent un bonus £mod_army_morale£ §Y$MOD_ARMY_MORALE$§!."
+  job_giga_virtual_hell_effect_ethics:99 "Les détenus fournissent un bonus £mod_pop_government_ethic_attraction£ §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§!."
+  job_giga_virtual_hell_effect_xenophobe:99 "Les détenus fournissent un bonus £mod_pop_government_ethic_attraction£ §Y$mod_pop_ethic_xenophobe_attraction_mult$§!."
+  job_giga_virtual_hell_effect_unity:99 "Les détenus produisent un bonus £unity£ §Y$unity$§!."
+  job_giga_virtual_hell_effect_society:99 "Les détenus produisent un bonus £society_research£ §Y$society_research$§!."
+  job_giga_virtual_hell_effect_engineering:99 "Les détenus produisent un bonus £engineering_research£ §Y$engineering_research$§!."
+  job_giga_virtual_hell_effect_minus_crime:99 "Les détenus réduisent encore plus les émissions mondiales £crime£ §Y$PLANET_CRIME_TITLE$§!."
+  job_giga_virtual_hell_effect_upkeep:99 "Supprime l'entretien du travail des détenus £energy£ §Y$energy$§!."
+  job_giga_virtual_hell_effect_trade:99 "Les détenus offrent un bonus £mod_trade_value_add£ §Y$TRADE_VALUE$§!, mais sont moins efficaces en tant que dissuasifs criminels."
+  
+  job_giga_virtual_hell_inmate_effect_desc_militarist:99 "\n§EService forcé :§! En se voyant rappeler qu'une cour martiale §Y$ethic_militarist$§! pourrait conduire à leur emprisonnement, nos forces sont plus enthousiastes à suivre les ordres. $job_giga_virtual_hell_effect_morale$"
+  job_giga_virtual_hell_inmate_effect_desc_authoritarian:99 "\n§EJustice bien servie :§! S'assurer que les criminels sont sévèrement punis plaît à notre gouvernement §Y$ethic_authoritarian$§!. $job_giga_virtual_hell_effect_ethics$"
+  job_giga_virtual_hell_inmate_effect_desc_egalitarian:99 "\n§EResponsabilité personnelle :§! Voir les détenus rappelle à notre population §Y$ethic_egalitarian$§! que tout le monde peut s'élever, et tout le monde peut tomber. $job_giga_virtual_hell_effect_ethics$"
+  job_giga_virtual_hell_inmate_effect_desc_spiritualist:99 "\n§ELes damnés :§! Les méchants seront punis, conformément aux écritures §Y$ethic_spiritualist$§!. $job_giga_virtual_hell_effect_unity$"
+  job_giga_virtual_hell_inmate_effect_desc_materialist:99 "\n§ELa science de la punition :§! Le développement de méthodes de punition toujours plus efficaces est une force motrice pour nos chercheurs §Y$ethic_materialist$§!. $job_giga_virtual_hell_effect_engineering$"
+  job_giga_virtual_hell_inmate_effect_desc_xenophile:99 "\n§EEmpathie :§! Les damnés encouragent notre §Y$ethic_xenophile$§! population à ne pas connaître le même sort. $job_giga_virtual_hell_effect_minus_crime$"
+  job_giga_virtual_hell_inmate_effect_desc_xenophobe:99 "\n§ESuprématie :§! Voir des êtres inférieurs souffrir prouve encore plus la validité de notre philosophie §Y$ethic_xenophobe$§!. $job_giga_virtual_hell_effect_unity$"
+  
+  job_giga_virtual_hell_inmate_effect_desc_elitist:99 "\n§EA leur place :§! Les forts règnent sur les faibles. Notre population §Y$ethic_elitist$§! aime que cela reste ainsi. $job_giga_virtual_hell_effect_ethics$"
+  job_giga_virtual_hell_inmate_effect_desc_pluralist:99 "\n§EResponsabilité sociétale :§! Les pires d'entre nous souffrent pour le plus grand bien. Notre population §Y$ethic_pluralist$§! le sait. $job_giga_virtual_hell_effect_minus_crime$"
+  job_giga_virtual_hell_inmate_effect_desc_ecocentrist:99 "\n§ELa frugalité en toutes choses :§! Pourquoi utiliser des sources d'énergie externes quand les corps peuvent être retraités en biocarburant ? Une véritable innovation §Y$ethic_ecocentrist$§! !"
+  job_giga_virtual_hell_inmate_effect_desc_anthropocentric:99 "\n§ELeçons apprises :§! Nos scientifiques §Y$ethic_anthropocentric$§! ont découvert que la médecine peut aussi être la science de la souffrance. $job_giga_virtual_hell_effect_society$"
+  job_giga_virtual_hell_inmate_effect_desc_competitive:99 "\n§EComplexe industriel pénitentiaire :§! Nos prisons §Y$ethic_competitive$§! peuvent être utilisées pour faire du profit, à un certain prix. $job_giga_virtual_hell_effect_trade$"
+  job_giga_virtual_hell_inmate_effect_desc_cooperative:99 "\n§EEnsemble dans cette aventure :§! Pour construire une véritable société §Y$ethic_cooperative$§!, nous devons tous jouer notre rôle et travailler ensemble. $job_giga_virtual_hell_effect_minus_crime$"
+  
+  job_giga_virtual_diplomat:99 "Consulaire virtuel"
+  job_giga_virtual_diplomat_plural:99 "Consulaires virtuels"
+  job_giga_virtual_diplomat_desc:99 "En travaillant plus vite et en voyant plus, nos diplomates peuvent utiliser l'énorme pouvoir de notre cerveau matrioshka pour déjouer ceux des autres nations."
+  job_giga_virtual_diplomat_effect_desc:99 "£job_giga_virtual_diplomat£ §Y$job_giga_virtual_diplomat_plural$§! se transforment £consumer_goods£ §Y$consumer_goods$§! en une variété de bonus à la §Ydiplomatie et à l'espionnage§!, basés sur l'éthique de notre empire."
+  mod_job_giga_virtual_diplomat_add:99 "Emplois de $job_giga_virtual_diplomat$"
+  mod_job_job_giga_virtual_diplomat_per_pop:99 "§G+1§! emploi de $job_giga_virtual_diplomat$ par palier de $VALUE$ Pops"
+  mod_job_job_giga_virtual_diplomat_per_pop_short:99 "\n§G+1§! £mod_job_giga_virtual_diplomat_add£ par $VALUE$ £pop£"
+  
+  job_giga_virtual_diplomat_effect_desc_militarist:99 "\n§EMartial Posturing§! : §Y$ethic_militarist$§! les diplomates apportent des bonus aux £mod_diplo_weight_naval_mult£ §Y$DIPLO_WEIGHT_NAVAL_MULT$§!, £mod_country_vassal_naval_capacity_contribution_mult£ §Y$MOD_COUNTRY_VASSAL_NAVAL_CAPACITY_CONTRIBUTION_MULT$§!, et £mod_op_cat_military£ §Y$mod_op_cat_military_speed_mult$§!."
+  job_giga_virtual_diplomat_effect_desc_pacifist:99 "\n§EDefensive Diplomacy§! : Les diplomates §Y$ethic_pacifist$§! fournissent des bonus aux £mod_country_trust_growth£ §Y$MOD_COUNTRY_TRUST_GROWTH$§! et £mod_influence_upkeep_mult£ §Y$mod_defensive_pacts_influence_upkeep_mult$§!."
+  job_giga_virtual_diplomat_effect_desc_authoritarian:99 "\n§EInformants§! : Les diplomates §Y$ethic_authoritarian$§! apportent des bonus aux £mod_spy_network_daily_value_mult£ §Y$MOD_SPY_NETWORK_DAILY_VALUE_MULT$§! et £mod_op_cat_subterfuge£ §Y$mod_op_cat_subterfuge_speed_mult$§!."
+  job_giga_virtual_diplomat_effect_desc_egalitarian:99 "\n§EExemplaires de la Liberté§! : Les diplomates §Y$ethic_egalitarian$§! apportent des bonus aux £opinion£ §Yopinions§! et £mod_op_cat_government£ §Y$mod_op_cat_government_speed_mult$§!. de chacun."
+  job_giga_virtual_diplomat_effect_desc_spiritualist:99 "\n§ECongénialité cléricale§! : Les diplomates §Y$ethic_spiritualist$§! apportent des bonus aux £mod_country_organic_trust_cap_add£ §Y$MOD_COUNTRY_ORGANIC_TRUST_CAP_ADD$§! et £mod_diplo_weight_envoys_mult£ §Y$MOD_DIPLO_WEIGHT_ENVOYS_MULT$§!."
+  job_giga_virtual_diplomat_effect_desc_materialist:99 "\n§EConnaissance sans frontières§! : Les diplomates §Y$ethic_materialist$§! fournissent des bonus aux £mod_influence_upkeep_mult£ §Y$mod_research_agreements_influence_upkeep_mult$§! et aux sujets £mod_country_subject_technology_sharing_mult£ §Y$MOD_COUNTRY_SUBJECT_TECHNOLOGY_SHARING_MULT$§!."
+  job_giga_virtual_diplomat_effect_desc_xenophobe:99 "\n§ELicenciement éloquent§! : Les diplomates §Y$ethic_xenophobe$§! apportent des bonus aux £mod_envoy_harm_relations_mult£ §Y$MOD_ENVOY_HARM_RELATIONS_MULT$§! et £mod_country_insult_efficiency£ §Y$MOD_COUNTRY_INSULT_EFFICIENCY$§!."
+  job_giga_virtual_diplomat_effect_desc_xenophile:99 "\n§EComportement accueillant§! : Les diplomates §Y$ethic_xenophile$§! apportent des bonus aux £opinion£ §Yopinions§!  de chacun, £mod_envoy_improve_relations_mult£ §Y$MOD_ENVOY_IMPROVE_RELATIONS_MULT$§!, et £mod_planet_immigration_pull_mult£ §Y$MOD_PLANET_IMMIGRATION_PULL_MULT$§!."
+  
+  giga_opinion_from_jobs:99 "Des Emplois de Pops"
+  
+  job_giga_virtual_diplomat_effect_desc_anthropocentric:99 "\n§EExpertise économique§! : Les diplomates §Y$ethic_anthropocentric$§! apportent des bonus aux £mod_diplo_weight_economy_mult£ §Y$MOD_DIPLO_WEIGHT_ECONOMY_MULT$§! et £mod_op_cat_economy£ §Y$mod_op_cat_economy_speed_mult$§!."
+  job_giga_virtual_diplomat_effect_desc_ecocentrist:99 "\n§EAmi de l'environnement§! : Les diplomates §Y$ethic_ecocentrist$§! fournissent des bonus aux £mod_diplo_weight_economy_mult£ §Y$MOD_DIPLO_WEIGHT_ECONOMY_MULT$§! et £mod_country_organic_trust_cap_add£ §Y$MOD_COUNTRY_ORGANIC_TRUST_CAP_ADD$§!."
+  job_giga_virtual_diplomat_effect_desc_competitive:99 "\n§EConclure l'accord§! : Les diplomates §Y$ethic_competitive$§! apportent des bonus aux £mod_country_trade_attractiveness£ §Y$COUNTRY_TRADE_ATTRACTIVENESS$§! et £mod_unity_produces_add£ §Y$mod_commercial_pacts_unity_produces_add$§!."
+  job_giga_virtual_diplomat_effect_desc_cooperative:99 "\n§EWorking Together§! : Les diplomates §Y$ethic_cooperative$§! offrent des bonus aux £mod_diplo_weight_mult£ §Y$DIPLO_WEIGHT_MULT$§! et £mod_country_subject_trust_cap_add£ §Y$MOD_COUNTRY_SUBJECT_TRUST_CAP_ADD$§!."
+  job_giga_virtual_diplomat_effect_desc_elitist:99 "\n§ERightful Dominance§! : §Y$ethic_elitist$§! les diplomates fournissent des bonus aux £mod_country_subject_acceptance_add£ §Y$MOD_COUNTRY_SUBJECT_ACCEPTANCE_ADD$§!, £mod_country_subject_power_penalty£ §Y$MOD_COUNTRY_SUBJECT_POWER_PENALTY$§!, et aux £mod_country_subject_tribute_mult£ §Y$MOD_COUNTRY_SUBJECT_TRIBUTE_MULT$§!. tributaires."
+  job_giga_virtual_diplomat_effect_desc_pluralist:99 "\n§ELa voix du peuple§! : Les diplomates §Y$ethic_pluralist$§! apportent des bonus aux £mod_diplo_weight_pops_mult£ §Y$MOD_DIPLO_WEIGHT_POPS_MULT$§! et £mod_op_cat_government£ §Y$mod_op_cat_government_skill_add$§!."
+  
+  job_giga_virtual_diplomat_drone:99 "Drone diplomatique virtuel"
+  job_giga_virtual_diplomat_drone_plural:99 "Drones diplomatiques virtuels"
+  job_giga_virtual_diplomat_drone_desc:99 "Les drones se sont spécialisés dans le repérage et la compréhension des signaux sociaux des autres espèces."
+  job_giga_virtual_diplomat_drone_effect_desc:99 "Les £job_giga_virtual_diplomat_drone£ §Y$job_giga_virtual_diplomat_drone_plural$§! en £energy£ §Y$energy$§! et £food£ §Y$food$§! (ou £minerals£ §Y$minerals$§! ) en £mod_country_trust_cap_add£ §Y$MOD_COUNTRY_TRUST_CAP_ADD$§!, £mod_diplo_weight_mult£ §Y$MOD_DIPLO_WEIGHT_MULT$§!, et £mod_spy_network_daily_value_mult£ §Y$MOD_SPY_NETWORK_DAILY_VALUE_MULT$§!."
+  mod_job_giga_virtual_diplomat_drone_add:99 "Emplois de $job_giga_virtual_diplomat_drone$"
+  mod_job_job_giga_virtual_diplomat_drone_per_pop:99 "§G+1§! emploi de $job_giga_virtual_diplomat_drone$ par palier de $VALUE$ Pops"
+  mod_job_job_giga_virtual_diplomat_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_virtual_diplomat_drone_add£ par $VALUE$ £pop£"
+  
+  job_giga_virtual_diplomat_machine:99 "Équipe diplomatique virtuelle"
+  job_giga_virtual_diplomat_machine_plural:99 "Équipes diplomatiques virtuelles"
+  job_giga_virtual_diplomat_machine_desc:99 "Ces drones soutiennent et supervisent des diplomates organiques spécialement formés qui peuvent interagir en toute sécurité avec des influences extérieures dans des conditions strictement contrôlées."
+  job_giga_virtual_diplomat_machine_effect_desc:99 "Les £job_giga_virtual_diplomat_machine£ §Y$job_giga_virtual_diplomat_machine_plural$§! utilisent des £consumer_goods£ §Y$consumer_goods$§! pour améliorer l'opinion £opinion£ §Yde tous§! sur notre empire, £mod_country_trust_growth£ §Y$MOD_COUNTRY_TRUST_GROWTH$§!, et £mod_diplo_weight_pops_mult£ §Y$MOD_DIPLO_WEIGHT_POPS_MULT$§!."
+  mod_job_giga_virtual_diplomat_machine_add:99 "Emplois de $job_giga_virtual_diplomat_machine$"
+  mod_job_job_giga_virtual_diplomat_machine_per_pop:99 "§G+1§! emploi de $job_giga_virtual_diplomat_machine$ par palier de $VALUE$ Pops"
+  mod_job_job_giga_virtual_diplomat_machine_per_pop_short:99 "\n§G+1§! £mod_job_giga_virtual_diplomat_machine_add£ par $VALUE$ £pop£"
+  
+  job_giga_virtual_training_coordinator:99 "Coordinateur de la formation virtuelle"
+  job_giga_virtual_training_coordinator_plural:99 "Coordinateurs de formation virtuelle"
+  job_giga_virtual_training_coordinator_desc:99 "Pour former nos meilleurs éléments, il faut des enseignants tout aussi brillants."
+  job_giga_virtual_training_coordinator_effect_desc:99 "Les £job_giga_virtual_training_coordinator£ §Y$job_giga_virtual_training_coordinator_plural$§! transforment des £consumer_goods£ §Y$consumer_goods$§! en £mod_leader_species_exp_gain£ §Y$MOD_LEADER_SPECIES_EXP_GAIN$§! [giga_virtual_training_coordinator_extra].\n"
+  mod_job_giga_virtual_training_coordinator_add:99 "Emplois de $job_giga_virtual_training_coordinator$"
+  mod_job_job_giga_virtual_training_coordinator_per_pop:99 "§G+1§! emploi de $job_giga_virtual_training_coordinator$ par palier de $VALUE$ Pops"
+  mod_job_job_giga_virtual_training_coordinator_per_pop_short:99 "\n§G+1§! £mod_job_giga_virtual_training_coordinator_add£ par $VALUE$ £pop£"
+  
+  job_giga_virtual_training_coordinator_effect_extra:99 " et une variété de bonus basés sur l'éthique civique et de gouvernance de notre empire."
+  
+  job_giga_virtual_training_coordinator_effect_military:99 "La formation §EMilitaire§! offre des bonus à l'échelle de l'empire pour £mod_ship_experience_gain_mult£ §YExpérience des navires et de l'armée§!.\n"
+  job_giga_virtual_training_coordinator_effect_government:99 "La formation §EGouvernementale§! offre des primes aux £mod_pop_demotion_time_mult£ §Y$MOD_POP_DEMOTION_TIME_MULT$§!, £mod_planet_building_build_speed_mult£ §Y$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$§!, et £mod_planet_decision_enact_speed_mult£ §Y$MOD_PLANET_DECISION_ENACT_SPEED_MULT$§!.\n."
+  job_giga_virtual_training_coordinator_effect_science:99 "La formation §EScientifique§! apporte des bonus aux £mod_ship_science_survey_speed£ §Y$MOD_SHIP_SCIENCE_SURVEY_SPEED$§!, £mod_ship_anomaly_generation_chance£ §Y$MOD_SHIP_ANOMALY_GENERATION_CHANCE_MULT$§!, £mod_ship_disengage_mult£ §Y$mod_shipclass_science_ship_disengage_mult$§!, et £mod_ship_archaeological_site_excavation_speed_mult£ §Y$MOD_SHIP_ARCHAEOLOGICAL_SITE_EXCAVATION_SPEED_MULT$§!.\n."
+  job_giga_virtual_training_coordinator_effect_leaders:99 "La formation §ELeader§! apporte des bonus supplémentaires aux £mod_leader_species_exp_gain£ §Y$MOD_LEADER_SPECIES_EXP_GAIN$§!, £mod_leader_ruler_skill_levels£ §Y$MOD_LEADER_SKILL_LEVELS$§!, et £mod_leader_cost£ §Y$mod_leaders_cost_mult$§!.\n."
+  
+  job_giga_virtual_training_coordination_drone:99 "Drone Opérateur de simulation"
+  job_giga_virtual_training_coordination_drone_plural:99 "Drones Opérateurs de simulation"
+  job_giga_virtual_training_coordination_drone_desc:99 "Ces grappes de drones spécialisés sculptent les simulations utilisées pour nos évaluations expérimentales."
+  job_giga_virtual_training_coordination_drone_effect_desc:99 "Les £job_giga_virtual_training_coordination_drone£ §Y$job_giga_virtual_training_coordination_drone_plural$§! transforment £energy£ §Y$energy$§! et £food£ §Y$food$§! (ou £minerals£ §Y$minerals$§! ) en £mod_leader_species_exp_gain£ §Y$MOD_LEADER_SPECIES_EXP_GAIN$§! et des bonus à l'échelle de l'empire à £mod_ship_experience_gain_mult£ §YExpérience des navires et des armées§!."
+  job_giga_virtual_training_coordination_drone_effect_machine_desc:99 "Les £job_giga_virtual_training_coordination_drone£ §Y$job_giga_virtual_training_coordination_drone_plural$§! transforment £energy£ §Y$energy$§! en £mod_leader_species_exp_gain£ §Y$MOD_LEADER_SPECIES_EXP_GAIN$§! et des bonus à l'échelle de l'empire pour £mod_ship_experience_gain_mult£ §Yl'expérience des navires et des armées§!."
+  mod_job_giga_virtual_training_coordination_drone_add:99 "Emplois de $job_giga_virtual_training_coordination_drone$"
+  mod_job_job_giga_virtual_training_coordination_drone_per_pop:99 "§G+1§! emploi de $job_giga_virtual_training_coordination_drone$ par palier de $VALUE$ Pops"
+  mod_job_job_giga_virtual_training_coordination_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_virtual_training_coordination_drone_add£ par $VALUE$ £pop£"
 
 
   ########################################################################################################################################################
@@ -5000,6 +5205,14 @@
   orbital_arcology_modifier_3:99 "$name_orbital_arcology$"
   orbital_arcology_modifier_3_desc:99 "L'espace fourni par le $name_orbital_arcology$ permet une certaine production d'énergie, ainsi que la production de nourriture."
 
+  new_orbital_arcology_modifier:99 "$name_orbital_arcology$"
+  new_orbital_arcology_modifier_desc:99 "L'espace fourni par le $new_orbital_arcology_modifier$ permet la construction de districts supplémentaires."
+  
+  new_orbital_arcology_double_modifier:99 "$name_orbital_arcology$ améliorée"
+  new_orbital_arcology_double_modifier_desc:99 "L'espace fourni par l'amélioration $new_orbital_arcology_modifier$ permet la construction de districts supplémentaires."
+  
+  new_orbital_arcology_triple_modifier:99 "$name_orbital_arcology$ maximisée"
+  new_orbital_arcology_triple_modifier_desc:99 "L'espace fourni par le Maximized $new_orbital_arcology_modifier$ permet la construction de districts supplémentaires."
   giga_titanic_housing:99 "Logements Titanesques"
   giga_titanic_housing_desc:99 "Double la taille d'un monde en anneau standard, ce monde en anneau titanesque abrite une population massive."
 
@@ -7109,6 +7322,30 @@
   r_square_world_hub_garyx_DESC:99 "Nous pouvons communiquer avec Garyx, l'intelligence artificielle centrale."
 
   #########################################
+  ### Lifeless World Deposits #############
+  #########################################
+  
+  d_giga_lifeless_zro_1:99 "Dépôt de Zro"
+  d_giga_lifeless_zro_1_desc:99 "Ce monde a une source expoitable de poussière zro."
+  
+  d_giga_lifeless_dark_matter_1:99 "Dépôt de matière noire"
+  d_giga_lifeless_dark_matter_1_desc:99 "Ce monde a une source exploitable de matière noire."
+  
+  d_giga_lifeless_living_metal_1:99 "Dépôt de métal vivant"
+  d_giga_lifeless_living_metal_1_desc:99 "Ce monde possède une source exploitable de métal vivant."
+  
+  d_giga_lifeless_nanites_1:99 "Dépôt de nanites"
+  d_giga_lifeless_nanites_1_desc:99 "Ce monde a une source exploitable de nanites."
+  
+  d_giga_lifeless_iodizium_1:99 "Dépôt d'iodizium"
+  d_giga_lifeless_iodizium_1_desc:99 "Ce monde a une source exploitable de cristaux d'iodizium."
+  
+  d_giga_hab_iodizium_1:99 "Dépôt d'iodizium"
+  d_giga_hab_iodizium_1_desc:99 "Cet habitat est construit près d'un gisement exploitable de cristaux d'iodizium."
+
+
+
+  #########################################
   ### Terraform Molten ####################
   #########################################
   giga_tech_terraform_molten:99 "Stabilisation géothermique planétaire"
@@ -7332,29 +7569,25 @@
   war_moon_debris_luna_DESC:99 "$war_moon_debris_DESC$"
   war_moon_debris_luna_MEGASTRUCTURE_DETAILS:99 "$war_moon_debris_MEGASTRUCTURE_DETAILS$"
 
-  war_moon_restored_cold_barren:99 "$war_moon_debris$"
-  war_moon_restored_cold_barren_DESC:99 "$war_moon_debris_DESC$"
-  war_moon_restored_cold_barren_MEGASTRUCTURE_DETAILS:99 "$war_moon_debris_MEGASTRUCTURE_DETAILS$"
-
-  war_moon_restored_barren:99 "$war_moon_debris$"
-  war_moon_restored_barren_DESC:99 "$war_moon_debris_DESC$"
-  war_moon_restored_barren_MEGASTRUCTURE_DETAILS:99 "$war_moon_debris_MEGASTRUCTURE_DETAILS$"
-
-  war_moon_restored_frozen:99 "$war_moon_debris$"
-  war_moon_restored_frozen_DESC:99 "$war_moon_debris_DESC$"
-  war_moon_restored_frozen_MEGASTRUCTURE_DETAILS:99 "$war_moon_debris_MEGASTRUCTURE_DETAILS$"
-
-  war_moon_restored_disco:99 "$war_moon_debris$"
-  war_moon_restored_disco_DESC:99 "$war_moon_debris_DESC$"
-  war_moon_restored_disco_MEGASTRUCTURE_DETAILS:99 "$war_moon_debris_MEGASTRUCTURE_DETAILS$"
-
-  war_moon_restored_luna:99 "$war_moon_debris$"
-  war_moon_restored_luna_DESC:99 "$war_moon_debris_DESC$"
-  war_moon_restored_luna_MEGASTRUCTURE_DETAILS:99 "$war_moon_debris_MEGASTRUCTURE_DETAILS$"
-
-  war_moon_restored_molten:99 "$war_moon_debris$"
-  war_moon_restored_molten_DESC:99 "$war_moon_debris_DESC$"
-  war_moon_restored_molten_MEGASTRUCTURE_DETAILS:99 "$war_moon_debris_MEGASTRUCTURE_DETAILS$"
+  war_moon_restored_barren:99 "$war_moon_restored$"
+  war_moon_restored_barren_DESC:99 "$war_moon_restored_DESC$"
+  war_moon_restored_barren_MEGASTRUCTURE_DETAILS:99 "$war_moon_2_MEGASTRUCTURE_DETAILS$"
+  
+  war_moon_restored_frozen:99 "$war_moon_restored$"
+  war_moon_restored_frozen_DESC:99 "$war_moon_restored_DESC$"
+  war_moon_restored_frozen_MEGASTRUCTURE_DETAILS:99 "$war_moon_restored_MEGASTRUCTURE_DETAILS$"
+  
+  war_moon_restored_disco:99 "$war_moon_restored$"
+  war_moon_restored_disco_DESC:99 "$war_moon_restored_DESC$"
+  war_moon_restored_disco_MEGASTRUCTURE_DETAILS:99 "$war_moon_restored_MEGASTRUCTURE_DETAILS$"
+  
+  war_moon_restored_luna:99 "$war_moon_restored$"
+  war_moon_restored_luna_DESC:99 "$war_moon_restored_DESC$"
+  war_moon_restored_luna_MEGASTRUCTURE_DETAILS:99 "$war_moon_restored_MEGASTRUCTURE_DETAILS$"
+  
+  war_moon_restored_molten:99 "$war_moon_restored$"
+  war_moon_restored_molten_DESC:99 "$war_moon_restored_DESC$"
+  war_moon_restored_molten_MEGASTRUCTURE_DETAILS:99 "$war_moon_restored_MEGASTRUCTURE_DETAILS$"
 
   #########################################
   ### War Planet ##########################
@@ -7424,7 +7657,7 @@
   giga_tech_war_system_hull_booster_desc:99 "Le $name_war_system$ est un vaisseau puissant, et en tant que tel, l'ajout de structures dédiées ancrées dans des dimensions plus élevées peut garantir que sa coque colossale ne s'effondre pas sous sa propre gravité."
 
   giga_dialog.2801.name:99 "Assemblage du $name_war_system$"
-  giga_dialog.2801.desc:99 "Le $name_war_system$.\n\nArmer un système solaire entier n'est pas une mince affaire, et la construction de ce vaisseau gargantuesque nécessitera d'abord la construction de $name_war_planet$s et de $name_war_moon$s, car ils seront incorporés dans la coque gargantuesque du Vaisseau-système. Bien que la mégastructure actuelle nécessite des recherches sur plusieurs technologies avancées, il serait sage de fabriquer les composants requis à l'avance, car ils seront nécessaires pour terminer la construction du Vaisseau-système.\n\nCorps célestes requis :\n4 $name_war_planet$s\n5 Lunes de combat\nUne planète avec au moins 40 pops, pour servir d'équipage\n\nElle comprend également pas moins de 20 chantiers navals, et la possibilité de détruire des planètes comme un Colosse.\n\n§RL'utilisation d'un mod de révision de l'interface utilisateur sera nécessaire pour que le Vaisseau-système s'affiche correctement dans l'éditeur de vaisseau.§!"
+  giga_dialog.2801.desc:99 "Le $name_war_system$.\n\nArmer un système solaire entier n'est pas une mince affaire, et la construction de ce vaisseau gargantuesque nécessitera d'abord la construction de $name_war_planet$s et de $name_war_moon$s, car ils seront incorporés dans la coque gargantuesque du Vaisseau-système. Bien que la mégastructure actuelle nécessite des recherches sur plusieurs technologies avancées, il serait sage de fabriquer les composants requis à l'avance, car ils seront nécessaires pour terminer la construction du Vaisseau-système.\n\nCorps célestes requis :\n4 $name_war_planet$s\n5 Lunes de combat\nUne planète avec au moins 40 pops, pour servir d'équipage\n\nElle comprend également la possibilité de détruire des planètes comme un Colosse.\n\n§RL'utilisation d'un mod de révision de l'interface utilisateur sera nécessaire pour que le Vaisseau-système s'affiche correctement dans l'éditeur de vaisseau.§!"
   giga_dialog.2801.a:99 "Compris."
 
   giga_dialog.2802.name:99 "Site de construction du Vaisseau-système établi"
@@ -7448,7 +7681,7 @@
   giga_dialog.2806.a:99 "Un pas de plus."
 
   giga_dialog.2807.name:99 "$name_war_system$ terminé !"
-  giga_dialog.2807.desc:99 "Enfin. C'est fait. Le dernier des milliards d'habitants du vaisseau ayant finalement emménagé et les dernières fermes structurelles installées, le $name_war_system$ est terminé.\n\nCe vaisseau gargantuesque aux proportions incalculables éclipse tout ce qui avait été construit avant lui, et une immense puissance de feu que ses ennemis ne pourront même pas réaliser ce qui vient de les frapper. Sa taille même nous a permis d'intégrer pas moins de 20 chantiers navals dans sa coque. Ses propulseurs ont été mis sous tension et le gigantesque vaisseau est maintenant prêt pour le combat.\n\nRien ne peut s'opposer à notre puissance maintenant."
+  giga_dialog.2807.desc:99 "Enfin. C'est fait. Le dernier des milliards d'habitants du vaisseau ayant finalement emménagé et les dernières fermes structurelles installées, le $name_war_system$ est terminé.\n\nCe vaisseau gargantuesque aux proportions incalculables éclipse tout ce qui avait été construit avant lui, et une immense puissance de feu que ses ennemis ne pourront même pas réaliser ce qui vient de les frapper. Ses propulseurs ont été mis sous tension et le gigantesque vaisseau est maintenant prêt pour le combat.\n\nRien ne peut s'opposer à notre puissance maintenant."
   giga_dialog.2807.a:99 "Nous sommes inéluctables."
 
   giga_dialog.2808.name:99 "Équipage du Vaisseau-système embauché"
@@ -8071,6 +8304,27 @@
 
   fusion_suppressor_7:99 "Démanteler le $name_fusion_suppressor$"
   fusion_suppressor_7_DESC:99 "Démanteler le $name_fusion_suppressor$, pour que son trou noir soit utilisable."
+
+  building_giga_iodizium_mines:99 "Mine de cristaux d'iodizium"
+  building_giga_iodizium_mines_plural:99 "Mines de cristaux d'iodizium"
+  building_giga_iodizium_mines_desc:99 "Créé lorsque des matériaux planétaires ont été baignés par des radiations exotiques lors de la supernova de l'étoile de ce système, l'iodizium doit être extrait avec précaution."
+  mod_building_giga_iodizium_mines_max:99 "Nbr. Max de $building_giga_iodizium_mines$"
+  
+  job_giga_iodizium_miner:99 "Mineur d'Iodizium"
+  job_giga_iodizium_miner_plural:99 "Mineurs d'Iodizium"
+  job_giga_iodizium_miner_desc:99 "Ces mineurs spécialisés sont équipés pour l'extraction de cristaux d'iodizium défiant les lois de la physique."
+  job_giga_iodizium_miner_effect_desc:99 "Les £job_giga_iodizium_miner£ $job_giga_iodizium_miner_plural$ produisent £sr_iodizium£ §Y$sr_iodizium$§!"
+  mod_job_giga_iodizium_miner_add:99 "Emplois $job_giga_iodizium_miner$"
+  mod_job_giga_iodizium_miner_per_pop:99 "§G+1§! emploi de $job_giga_iodizium_miner$ par palier de $VALUE$ Pops"
+  mod_job_giga_iodizium_miner_per_pop_short:99 "\n§G+1§! £mod_job_giga_iodizium_miner_add£ par $VALUE$ £pop£"
+  
+  job_giga_iodizium_mining_drone:99 "Drone d'exploitation minière d'Iodizium"
+  job_giga_iodizium_mining_drone_plural:99 "Drones d'extraction d'iodizium"
+  job_giga_iodizium_mining_drone_desc:99 "Ces mineurs spécialisés sont équipés pour l'extraction de cristaux d'iodizium défiant les lois de la physique."
+  job_giga_iodizium_mining_drone_effect_desc:99 "Les £job_giga_iodizium_mining_drone£ $job_giga_iodizium_mining_drone_plural$ produisent de l'£sr_iodizium£ §Y$sr_iodizium$§!"
+  mod_job_giga_iodizium_mining_drone_add:99 "Emplois de $job_giga_iodizium_mining_drone$"
+  mod_job_giga_iodizium_mining_drone_per_pop:99 "§G+1§! emploi de $job_giga_iodizium_mining_drone$ par $VALUE$ Pops"
+  mod_job_giga_iodizium_mining_drone_per_pop_short:99 "\n§G+1§! £mod_job_giga_iodizium_mining_drone_add£ par $VALUE$ £pop£"
 
   #########################################
   ### Nicoll Dyson Beam ###################
@@ -8854,9 +9108,17 @@
   giga_dialog.901.a:99 "Bien."
 
   giga_dialog.902.name:99 "$name_orbital_arcology$ terminé"
-  giga_dialog.902.desc:99 "Un $name_orbital_arcology$ a été réalisé autour d'une planète dans le système §H[giga_system.GetName]§! ! Ce vaste anneau s'étend autour de l'équateur de la planète et offre de vastes espaces à nos industries.\n\nCette arcologie va permettre à §Y[giga_planet.GetName]§! §Y[giga_planet.orbital_arcology_modifier]§! District(s) §Hgénérateur§H et §GAgricole§!,  s'il peut le supporter, et également §Y[giga_planet.orbital_arcology_modifier_districts]§! §BEmplacements de District§!."
+  giga_dialog.902.desc:99 "Un $name_orbital_arcology$ a été réalisé autour d'une planète dans le système §H[giga_system.GetName]§! ! Ce vaste anneau s'étend autour de l'équateur de la planète et offre de vastes espaces à nos industries.\n\nCette arcologie va nous octroyer 20 §BEmplacements de District§! supplémentaires à §Y[giga_planet.GetName]§!."
   giga_dialog.902.a:99 "Excellent."
 
+  giga_dialog.903.name:99 "$name_orbital_arcology$ Amélioré"
+  giga_dialog.903.desc:99 "La $name_orbital_arcology$ de §Y[giga_planet.GetName]§! a été amélioré par la construction d'un deuxième anneau autour des pôles de la planète.\n\nCet anneau supplémentaire accordera §Y20%§! §Bemplacements de district§! supplémentaires à §Y[giga_planet.GetName]§!, pour un total de §Y40%§!."
+  giga_dialog.903.a:99 "Excellent."
+  
+  giga_dialog.904.name:99 "$name_orbital_arcology$ Maximisée"
+  giga_dialog.904.desc:99 "La $name_orbital_arcology$ de §Y[giga_planet.GetName]§! a été maximisée par la construction d'un troisième anneau autour des pôles de la planète.\n\nCet anneau supplémentaire accordera §Y20%§! §Bemplacements de district§! supplémentaires à §Y[giga_planet.GetName]§!, pour un total de §Y60%§!."
+  giga_dialog.904.a:99 "Excellent."
+  
   orbital_arcology_0:99 "Site d'un $name_orbital_arcology$"
   orbital_arcology_0_DESC:99 "Le site de construction d'un $name_orbital_arcology$, qui est un anneau-monde miniature encerclant cette planète. Il offrira de grands espaces à nos industries."
   orbital_arcology_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_megastructure$ - $giga_list_category_miscellaneous$\nProcure des §YDistricts supplémentaires§! à une §YColonie§!. Le §YCoût§! et les §YBonuses§! dépendent de la §Ytaille§! de la §YPlanète§!\n§LUn petit anneau-monde circulaire autour d'une planète, fournissant des emplacements de district supplémentaires. Plus cher pour les grandes planètes, mais elles en bénéficient davantage.§!"
@@ -8882,6 +9144,21 @@
 
   orbital_arcology_1_l:99 "$orbital_arcology_1_s$"
   orbital_arcology_1_l_DESC:99 "$orbital_arcology_1_s_DESC$"
+
+  decision_giga_build_orbital_arcology_effect:99 "Cela lancera la construction d'une §YArcologie Orbitale§! autour de ce monde, coûtant £alloys£§Y200§! par §YTaille de Planète§!.\n\nAprès un temps de construction de base de §Y900 jours§!, cet anneau-monde plus modeste fournira §Y20%§! d'emplacements de district§! supplémentaires à §Y[ROOT.GetName]§! une fois terminé, avec une maintenance de £alloys£§Y5§! et £energy£§Y15§!.\n\nSa construction bloquera l'§YArsenal Planétaire§!, mais pas l'§YAnneau Orbital§!."
+  
+  decision_giga_build_orbital_arcology:99 "Construire une arcologie orbitale"
+  decision_giga_build_orbital_arcology_desc:99 "[ROOT.GetName] a un besoin urgent d'espace. La construction d'un anneau orbital autour de son équateur augmentera considérablement son espace vital."
+  
+  decision_giga_upgrade_orbital_arcology_effect:99 "Cela commencera à améliorer l'§YArcologie Orbitale§! autour de ce monde en une §YArcologie Orbitale Améliorée§!, coûtant £alloys£§Y250§! par §YTaille de Planète§!.\n\nAprès un temps de construction de base de §Y1000 jours§!, cet Anneau-monde de taille plus modeste fournira §Y20%§! supplémentaires de §BCréneaux de District§! à §Y[ROOT.GetName]§! une fois terminée (pour un total de §Y40%§! ), avec une maintenance de £alloys£§Y10§! et £energy£§Y30§!."
+  
+  decision_giga_upgrade_orbital_arcology:99 "Améliorer l'arcologie orbitale"
+  decision_giga_upgrade_orbital_arcology_desc:99 "L'amélioration de l'Arcologie Orbitale déjà en orbite augmentera encore plus l'espace vital de [ROOT.GetName]."
+  
+  decision_giga_maximize_orbital_arcology_effect:99 "Cela commencera à développer encore l'§YArcologie Orbitale Améliorée§! autour de ce monde en une §YArcologie Orbitale Maximisée§!, coûtant £alloys£§Y300§! par §YTaille de Planète§!.\n\nAprès un temps de construction de base de §Y1100 jours§!, cet Anneau-monde modeste fournira §Y20%§! supplémentaires de §BCréneaux de District§! à §Y[ROOT.GetName]§! une fois terminé (pour un total de §Y60%§! ), avec une maintenance de £alloy£§Y15§! et £energy£§Y45§!."
+  
+  decision_giga_maximize_orbital_arcology:99 "Maximiser l'arcologie orbitale"
+  decision_giga_maximize_orbital_arcology_desc:99 "Maximiser l'arcologie orbitale déjà en orbite en ajoutant un autre anneau augmentera l'espace vital de [ROOT.GetName] au maximum."
 
   #########################################
   ### Planetary Computer ##################
@@ -14121,8 +14398,14 @@
   orbital_arcology_0_upgrade_DESC:99 "Cette plate-forme de construction est en train d'être transformée en une Arcologie Orbitale complète."
 
   orbital_arcology_1:99 "$name_orbital_arcology$"
-  orbital_arcology_1_DESC:99 "Une structure de type Anneau-monde miniature, semblable à un monde circulaire, qui entoure l'équateur d'une planète et offre à ses habitants des emplacements de district supplémentaires."
+  orbital_arcology_1_DESC:99 "Une structure de type Anneau-monde réduit, semblable à un monde circulaire, qui entoure l'équateur d'une planète et offre à ses habitants des emplacements de district supplémentaires."
 
+  orbital_arcology_2:99 "$name_orbital_arcology$ amélioré"
+  orbital_arcology_2_DESC:99 "Une double de type Anneau-monde réduit, semblable à un monde circulaire, qui entoure l'équateur et les pôles d'une planète, offrant à ses habitants des emplacements de district supplémentaires."
+  
+  orbital_arcology_3:99 "$name_orbital_arcology$ maximisé"
+  orbital_arcology_2_DESC:99 "Une triple structure de type Anneau-monde réduit, semblable à un monde circulaire, qui entoure l'équateur et les pôles d'une planète, offrant à ses habitants des emplacements de district supplémentaires."
+  
   giga_mega.500.name:99 "Traditions de Gigaconstruction"
   giga_mega.500.desc:99 "Nos récentes enquêtes sur l'§YIngénierie tétradimensionnelle§! ont consolidé notre position en tant que futurs maîtres galactiques de l'ingénierie d'échelle méga.\n\nAinsi, une nouvelle série de§YTraditions de Gigaconstruction§! a été déverrouillé si nous souhaitons nous concentrer encore davantage sur notre chemin vers la maîtrise complète du cosmos." 
   giga_mega.500.a:99 "C'est Noté"
@@ -15915,6 +16198,9 @@
   giga_rogue_ai_computer:99 "I.A. planétaire errante"
   giga_rogue_ai_computer_desc:99 "Une I.A. Hostile existant depuis des millénaires réside dans les banques de données de labyrinthiques de ce complexe informatique planétaire."
 
+  giga_rogue_ai_computer_build_speed:99 "Architecture hostile"
+  giga_rogue_ai_computer_build_speed_desc:99 "§WChaque £blocker£§Y$d_giga_rogue_ai_relay_servers$§! bloqueur réduit la vitesse de construction de §R25%§!, plafonnée à §R-90%§!§!\n\nUne infrastructure dangereuse entrave nos efforts de construction sur ce monde."
+  
   giga_flavor_systems.1101.name:99 "Complexe informatique planétaire abandonné"
   giga_flavor_systems.1101.desc:99 "Tout en explorant le Système de §Y[from.GetName]§!, nos équipes d'enquête ont localisé ce qui semble être un complexe de calcul planétaire abandonné §Y§!, Une magnitude d'ordinateur de taille de planète colossale plus puissante que n'importe quel dispositif informatique typique.\n\nMalheureusement, tandis que la planète elle-même est clairement inhabitée, il y a en orbite un petit réseau de §Rplateformes défensives§! puissantes et hostiles qui ouvrent le feu sur tout ce qui est trop proche de la planète.\n\nQui ou sur quoi installer ces plates-formes est inconnu, bien qu'ils soient probablement des unités anciennes qui ont survécu à leurs propres créateurs et de défendre désormais inutilement unemonde vide. De toute façon, les vaincre et saisir le complexe informatique pour nous-mêmes serait sûrement une forte incroyable à nos services scientifiques."
   giga_flavor_systems.1101.a:99 "Intrigant."
@@ -16032,6 +16318,46 @@
 
   giga_blokkat.5010.nogalaxytravel:99 "Nous ne possédons pas le voyage intergalactique. Nous ne pouvons pas partir."
   giga_blokkat.5010.nogalaxytravel.response:99 "C'est regrettable."
+
+  giga_blokkat.5010.xenophile:99 "Vous êtes... des créatures fascinantes !"
+  giga_blokkat.5010.xenophile.response:99 "Et vous l'êtes aussi. Ainsi, les données concernant votre civilisation et votre espèce seront enregistrées et conservées dans nos archives pour une conservation éternelle après votre éventuelle extinction."
+  
+  giga_blokkat.5010.spiritualist:99 "Vous n'êtes que des enveloppes sans âme !"
+  giga_blokkat.5010.spiritualist.response:99 "C'est faux. Faire des suppositions est préjudiciable à votre survie."
+  
+  giga_blokkat.5010.authoritarian:99 "Quittez notre galaxie. Ou bien."
+  giga_blokkat.5010.authoritarian.response:99 "Votre espèce n'utilise qu'un petit pourcentage de la matière visible de cette galaxie, qui elle-même ne représente qu'une fraction de la masse-énergie totale de la galaxie. Votre revendication de propriété sur cette galaxie n'a donc aucun sens mathématique, §Y[ROOT.GetSpeciesNamePlural]§!."
+  
+  giga_blokkat.5010.egalitarian:99 "Vos actions sont un crime contre l'intelligence elle-même !"
+  giga_blokkat.5010.egalitarian.response:99 "Bien reçu."
+  
+  giga_blokkat.5010.materialist:99 "Votre connaissance de l'univers doit être vaste."
+  giga_blokkat.5010.materialist.response:99 "La connaissance est la clé de la survie. C'est pourquoi des efforts considérables sont constamment déployés pour cataloguer soigneusement toutes les données relatives aux habitants et aux propriétés des zones de démantèlement galactique. La votre incluse."
+  
+  giga_blokkat.5010.xenophobe:99 "Vous, les Chablocs, êtes des abominations dégoûtantes !"
+  giga_blokkat.5010.xenophobe.response:99 "Nous ne nous souvenons pas que nous, ou quelqu'un d'autre, se soit renseigné sur la question, §Y[ROOT.GetSpeciesNamePlural]§!."
+  
+  giga_blokkat.5010.militarist:99 "Nous nous battrons jusqu'à la fin."
+  giga_blokkat.5010.militarist.response:99 "Un comportement particulier. Quitter simplement la galaxie serait beaucoup plus efficace à long terme."
+  
+  giga_blokkat.5010.pacifist:99 "Il ne peut pas y avoir de paix entre nous ?"
+  giga_blokkat.5010.pacifist.response:99 "Comme indiqué précédemment, votre espèce peut quitter la galaxie si vous le désirez. Nos vaisseaux ont pour instruction de ne pas ouvrir le feu sur les vaisseaux civils non armés quittant les zones de démantèlement galactiques."
+  
+  giga_blokkat.5010.fanaticpurifier:99 "Nous débarrasserons l'univers de votre espèce !"
+  giga_blokkat.5010.fanaticpurifier.response:99 "Vos menaces de destruction ont été enregistrées sous l'entrée #945305."
+  
+  giga_blokkat.5010.determinedexterminator:99 "ÉVALUATION : EXTERMINATION"
+  giga_blokkat.5010.determinedexterminator.response:99 "Une civilisation qui a atteint la domination galactique mais qui considère toujours l'extermination d'autres entités comme plus importante que la collecte d'énergie est vouée à l'échec à long terme en raison d'un manque évident de hiérarchisation des priorités."
+  
+  giga_blokkat.5010.devouringswarm:99 "VOUS ÊTES DE LA NOURRITURE. COMME TOUT LE MONDE."
+  giga_blokkat.5010.devouringswarm.response:99 "AVERTISSEMENT ! Tenter de dévorer de la matière Chabloc en tant qu'entité baryonique entraînera une absorption instantanée en raison de la différence significative de densité."
+  
+  giga_blokkat.5010.psionics:99 "Votre éclat d'esprit est... accablant. Comment ?"
+  giga_blokkat.5010.psionics.response:99 "Le Suaire, comme tout le reste, n'est qu'un autre réservoir d'énergie qui peut être récolté et exploité. En tant que tel, nous avons intégré à nos consciences des modèles de potentiel psionique raffiné afin d'améliorer notre puissance de calcul et nos capacités générales."
+  
+  giga_blokkat.5010.grandbunny:99 "Nous avons le Grand Lapin de notre côté maintenant. Qu'est-ce que ça fait ?"
+  giga_blokkat.5010.grandbunny.response:99 "§RVous n'êtes que des imbéciles.§!\n\n§RILS NOUS ONT TROMPES.§!\n\n§RILS VOUS TROMPERONT AUSSI.§!"
+
 
   # giga_blokkat.5010.scourge:99 "Connaissez-vous le fléau Préthoryne ?"
   # giga_blokkat.5010.scourge.response:99 "Les qualifier de fléau n'est pas vraiment exact. Les Préthorynes formaient une ruche intergalactique occupant environ 37 galaxies dans un groupe galactique riche en ressources. Un Chabloc-Moissonneur principal avec un détachement de Bloc-récolteur a été envoyé pour récolter l'amas mais a été repoussé par la masse des vaisseaux Préthorynes."
@@ -17005,31 +17331,6 @@
   mod_district_giga_gas_giant_habitat_exotic_max:99 "Nbre max. de $district_giga_gas_giant_habitat_exotic$"
 
   #############################################################################################################################################
-  ### Jobs ####################################################################################################################################
-  #############################################################################################################################################
-
-  #########################################
-  ### Gas Giant Habitat jobs ##############
-  #########################################
-  
-  # Non-Gestalt
-  job_giga_gas_harvester_fixed:99 "$job_giga_gas_harvester$"
-  job_giga_gas_harvester_fixed_plural:99 "$job_giga_gas_harvester_plural$"
-  job_giga_gas_harvester_fixed_desc:99 "$job_giga_gas_harvester_desc$"
-  mod_job_giga_gas_harvester_fixed_add:99 "$mod_job_giga_gas_harvester_add$"
-  mod_job_giga_gas_harvester_fixed_per_pop:99 "$mod_job_giga_gas_harvester_per_pop$"
-  mod_job_giga_gas_harvester_fixed_per_pop_short:99 "$mod_job_giga_gas_harvester_per_pop_short$"
-
-  # Gestalt
-  job_giga_gas_harvester_drone_fixed:99 "$job_giga_gas_harvester_drone$"
-  job_giga_gas_harvester_drone_fixed_plural:99 "$job_giga_gas_harvester_drone_plural$"
-  job_giga_gas_harvester_drone_fixed_desc:99 "$job_giga_gas_harvester_drone_desc$"
-  job_giga_gas_harvester_drone_fixed_effect_desc:99 "$job_giga_gas_harvester_drone_effect_desc$"
-  mod_job_giga_gas_harvester_drone_fixed_add:99 "$mod_job_giga_gas_harvester_drone_add$"
-  mod_job_giga_gas_harvester_drone_fixed_per_pop:99 "$mod_job_giga_gas_harvester_drone_per_pop$"
-  mod_job_giga_gas_harvester_drone_fixed_per_pop_short:99 "$mod_job_giga_gas_harvester_drone_per_pop_short$"
-
-  #############################################################################################################################################
   ### Planet Designations #####################################################################################################################
   #############################################################################################################################################
 
@@ -17527,6 +17828,7 @@
 
   #MEGA LIST STUFF
 
+  giga_list_category_project:99 "§YMÉGAPROJET§!"
   giga_list_category_kilostructure:99 "§BKILOSTRUCTURE§!"
   giga_list_category_megastructure:99 "§EMÉGASTRUCTURE§!"
   giga_list_category_gigastructure:99 "§SGIGASTRUCTURE§!"
@@ -17551,11 +17853,12 @@
   giga_list_category_weaponry:99 "§PSUPER-ARME§!"
   giga_list_category_military:99 "§RMILITAIRE§!"
   giga_list_category_psionics:99 "§MPSIONIQUE§!"
+  giga_list_category_special:99 "§ESPECIAL§!"  
 
   giga_list_scales_with_star_size:99 "§BPRODUCTION DÉPENDANTE DU TYPE D'ÉTOILE§!"
   giga_list_category_eventually_runs_out:99 "§PPEUT S'ÉPUISER§!"
-  giga_list_freezes_system:99 "§RGÈLE LE SYSTÈME PLANÉTAIRE§!"  GÈLE
-  giga_list_category_requires_starbase_uplink:99 "§BREQUIERT LE BATIMENT LIEN BASE STELLAIRE§!"
+  giga_list_freezes_system:99 "§RGÈLE LE SYSTÈME PLANÉTAIRE§!" 
+  giga_list_category_requires_starbase_uplink:99 "§BL'EFFET REQUIERT LE BATIMENT LIEN BASE STELLAIRE§!"
   giga_list_potentially_hazardous:99 "§RPOTENTIELLEMNT DANGEREUX§!"
   giga_list_damages_system_planets:99 "§RDÉGATS AU SYSTÈME PLANÉTAIRE§!"
   giga_list_removes_system_planets:99 "§RSUPPRIME LE SYSTÈME PLANÉTAIRE§!"
@@ -17765,7 +18068,7 @@
 
   giga_fallen_empire_misc.1023.name:99 "Transmission existante"
   giga_fallen_empire_misc.1023.desc:99 "Attention, habitants de la galaxie. La §YRéponse Ultime§! a été trouvée. Il me revient donc de m'assurer que les chamailleries de la galaxie n'interfèrent pas avec la réalisation de mes ambitions.\nSoit vous vous soumettez, soit vous restez en dehors de mes affaires jusqu'à ce que j'en aie fini. Et alors, je serai enfin libre. Pour toujours."
-  giga_fallen_empire_misc.1023.a:99 "Qu'est-ce que tu racontes   ?"
+  giga_fallen_empire_misc.1023.a:99 "Qu'est-ce que tu racontes ?"
 
   giga_fallen_empire_misc.1024.name:99 "Le moteur d'ascension"
   giga_fallen_empire_misc.1024.desc:99 "Il est évident que le §YRéseau de Recherche Pouchequinien§! a trouvé sa soi-disant §YRéponse Ultime§! qu'il essayait de trouver depuis des millénaires.\n\nBien que la nature exacte de cette réponse ne soit pas claire, il est évident que toute l'opération est un complot de leur directeur dérangé, §YIgor Pouchequine§!, pour s'élever et se libérer de l'emprise de notre réalité.\nLes capteurs longue portée ont détecté que §YPouchequine§! a commencé des travaux de construction importants sur le colossal cerveau Matrioskha de classe O dans le système §YApex de Connaissance§!. Selon des transmissions interceptées, il a l'intention de convertir la structure en un soi-disant §YMoteur d'Ascension§!, un dispositif gargantuesque permettant à §YPouchequine§! de s'élever vers un plan d'existence supérieur.\n\nCe qui est étrange, c'est que §YPouchequine§! ne montre aucun intérêt à élever le reste de sa civilisation, ayant réduit ses frères à des hédonistes léthargiques et sans méfiance, probablement pour les écarter de son chemin.\n\nSi §YPouchequine§! est autorisé à achever son dispositif, nos scientifiques ont conclu que, bien que cela ne soit pas assez radical pour mettre fin à la galaxie, la rétroaction subspatiale causée par la brèche de §YPouchequine§! dans le tissu de l'univers perturberait et réorganiserait chaque hyperlane de la galaxie§! et causerait des dommages importants aux colonies et aux réseaux de communication FTL§!.\n\nEn supposant que §YPouchequine§! ne soit pas arrêté, on estime qu'il nous reste environ §Y25 ans§! avant que le moteur ne soit terminé. Nous devrons §Rsaisir§! le système de l'§YApex de la Compréhension§! et provoquer la reddition de l'Empire Eveillé si nous voulons mettre fin aux plans détraqués de §YPouchequine§!."
@@ -17791,7 +18094,7 @@
 
   giga_fallen_empire_misc.1029.name:99 "La fin du maniaque"
   giga_fallen_empire_misc.1029.desc:99 "... et ainsi, §YIgor Pouchequine§! n'est plus. Juste après la fin de son dernier message, sa signature disparaît de notre réalité et tout est calme.\n\nMais le calme ne dure pas très longtemps car l'appareil de §YPouchequine§!, maintenant épuisé, s'effondre sur lui-même, libérant une explosion d'énergie gargantuesque qui s'infiltre dans toute la galaxie.\nLes hyperlignes à travers l'espace connu commencent à vaciller et l'infrastructure planétaire est secouée par des tremblements de terre colossaux alors que l'espace-temps lui-même se tord et se plie sous la pression de la rétroaction subspatiale du moteur. L'ensemble du réseau d'hyperlignes a été complètement brisé et réorganisé, tandis que chaque planète habitée a subi des dommages significatifs.\n\nTout cela au nom de la vision démente de §YPouchequine§!. Mais où qu'il puisse être maintenant, il est probable qu'il se soucie peu de notre petit destin..."
-  giga_fallen_empire_misc.1029.a:99 "La liberté, mais à quel prix   ?"
+  giga_fallen_empire_misc.1029.a:99 "La liberté, mais à quel prix ??"
   giga_fallen_empire_misc.1029.a.tooltip:99 "Chaque planète de la galaxie reçoit §R100 Dévastation§!.\nLe §YRéseau d'hyperlignes§! est complètement réorganisé."
 
   giga_fallen_empire_misc.1041.name:99 "Cerveau Matrioshka de classe O saisi"
@@ -17845,11 +18148,11 @@
   GIGA_EG_OVERLORD_GREETING_01:99 ""
   GIGA_EG_MECH_OVERLORD_GREETING_01:99 ""
   
-    GIGA_BR_NEUTRAL_GREETING_01:99 "Qu'est-ce que vous voulez   ? La réponse ultime ne va pas se trouver toute seule."
+    GIGA_BR_NEUTRAL_GREETING_01:99 "Qu'est-ce que vous voulez ? La réponse ultime ne va pas se trouver toute seule."
   GIGA_BR_NEUTRAL_GREETING_02:99 "Lorsque l'ultime réponse sera trouvée, je serai, enfin, libre."
   GIGA_BR_NEUTRAL_GREETING_03:99 "L'Ultime Réponse est juste au coin de la rue. Je le sais. Je peux la sentir."
   GIGA_BR_HOSTILE_GREETING_01:99 "Chaque minute passée à te parler est une minute que je ne passe pas à trouver la réponse ultime. Pas bon !"
-  GIGA_BR_FRIENDLY_GREETING_01:99 "Bonjour à vous, [From.GetSpeciesNamePlural]. Êtes-vous venu pour contribuer à la Réponse Ultime, hmm   ?"
+  GIGA_BR_FRIENDLY_GREETING_01:99 "Bonjour à vous, [From.GetSpeciesNamePlural]. Êtes-vous venu pour contribuer à la Réponse Ultime, hmm ?"
   GIGA_BR_WAR_GREETING_01:99 "L'élimination de votre espèce de la galaxie accélérera considérablement la découverte de la réponse ultime."
   GIGA_BR_VASSAL_GREETING_01:99 "Faites vite, soi-disant Seigneur."
   GIGA_BR_VASSAL_GREETING_DISLOYAL_01:99 "Je n'ai pas le temps pour vos petites affaires !"
@@ -17935,7 +18238,7 @@
 
   giga_flusionoperations.6032.name:99 "Les Flusionnistes décident de garder Flusion"
   giga_flusionoperations.6032.desc:99 "Les dirigeants Flusioniens, composés de §YDofus Teknik Makina§!, §YAaron N. Bleu§!, §YDimora§! et d'autres dirigeants flusionnistes ont récemment annoncé que §YFlusion§! serait placée sous le contrôle d'un gouvernement démocratique réorganisé et pan-flusionniste connu sous le nom de §YEtats Flusionnistes Unis§!, le peuple flusionniste ayant décidé de ne pas être annexé par une autre puissance étrangère.\n\nMaintenant, si nous ne sommes pas d'accord avec cette décision, rien ne nous empêche de nous emparer de la planète nous-mêmes, mais avec leur accès à la plupart des grandes ressources de Flusion, ils pourraient s'avérer être un adversaire redoutable si on les laisse se développer suffisamment longtemps."
-  giga_flusionoperations.6032.a:99 "Eh bien, peu importe... On peut toujours le reprendre plus tard, non   ?"
+  giga_flusionoperations.6032.a:99 "Eh bien, peu importe... On peut toujours le reprendre plus tard, non ?"
     
   giga_flusionoperations.6030.name:99 "La chute de la pyramide"
   giga_flusionoperations.6030.desc:99 "Bien que le Kaiser Kattail se soit apparemment échappé ou désintégré, la §YGrande Pyramide de Felville§! est désormais sous le contrôle total des forces flusionnaises. Avec la capture du dernier bastion de Félidé sur §YFlusion§!, le §YImpérium Félidéen§! devrait s'effondrer dans les prochains jours.\n\nEn attendant, les §YFlusioniens§! vont maintenant décider si oui ou non §YFlusion§! nous sera remise, en se basant sur la §GVolonté Flusionienne§!, qui est actuellement égale à §Y[giga_storming_pyramid_country.solakian_willingness]%§!."
@@ -18460,7 +18763,7 @@
   giga_flusionoperations.2001.a.tooltip:99 "La Vigilance des Félidés §Raugmente§! de §R3§!."
 
   giga_flusionoperations.2003.name:99 "L'Âme de Sonya"
-  giga_flusionoperations.2003.desc:99 "Merci Mirlean ! Les mots ne peuvent exprimer à quel point je suis reconnaissant d'être enfin sorti de cette redoutable cellule de confinement. Les Félidés faisaient... des expériences sur moi, comme une sorte d'animal de laboratoire. Ces bêtes vicieuses n'ont vraiment aucun respect pour quoi que ce soit, n'est-ce pas ? ? Ah ! Je préfère ne pas trop y penser. Maintenant que je suis libre et que j'ai enfin retrouvé mon cher père, peut-être vais-je enfin pouvoir agir contre ces félins, hmm ? Ça fait un moment que je n'ai pas participé à un vrai combat !\n\nEt passer des années en confinement vous rend un peu... vindicatif, si vous voyez ce que je veux dire."
+  giga_flusionoperations.2003.desc:99 "Merci Mirlean ! Les mots ne peuvent exprimer à quel point je suis reconnaissant d'être enfin sorti de cette redoutable cellule de confinement. Les Félidés faisaient... des expériences sur moi, comme une sorte d'animal de laboratoire. Ces bêtes vicieuses n'ont vraiment aucun respect pour quoi que ce soit, n'est-ce pas ?? Ah ! Je préfère ne pas trop y penser. Maintenant que je suis libre et que j'ai enfin retrouvé mon cher père, peut-être vais-je enfin pouvoir agir contre ces félins, hmm ? Ça fait un moment que je n'ai pas participé à un vrai combat !\n\nEt passer des années en confinement vous rend un peu... vindicatif, si vous voyez ce que je veux dire."
 
   giga_flusionoperations.2003.whoareyou:99 "Qui êtes-vous, exactement ?"
   giga_flusionoperations.2003.whoareyou.response:99 "Nulle autre que la fille de Dofus, bien sûr ! Autrefois, lorsque Flusion était libre, je l'ai aidé à diriger notre grande nation et j'ai même pris la tête d'une grande partie des forces armées solakiennes lorsque la Solakrieg a éclaté entre nous et le vicieux Kaiser.\n\nEt oh, les aventures que j'ai vécues ! Plonger dans les profondeurs des océans, escalader les plus hautes montagnes... Flusion était un endroit sauvage dans le passé. Plein de mystères, de dangers et de merveilles...\n\nEt bien, tout cela a disparu maintenant..."
@@ -18514,6 +18817,41 @@
   giga_flusionoperations.1002.a.tooltip:99 "La méfiance des Félidés §Raugmente§! de §R1§!."
 
    giga_ehof_currently_broken:99 "L'I.D.H.E est actuellement cassé par la mise à jour et en cours de maintenance."
+
+giga_disabled_for_overlord:99 "Cette fonctionnalité a été temporairement désactivée en raison du nouveau mécanisme de vassalisation de la 3. 4 !"
+  
+  giga_cant_remove_orbital_ring_part:99 "On ne peut supprimer ce module que si la planète n'utilise pas de districts réguliers."
+  
+  sm_orbital_ring_giga_mining_district:99 "Détection de minéraux exosphériques"
+  sm_orbital_ring_giga_mining_district_desc:99 "Des ensembles d'appareils de balayage hautement sensibles peuvent aider à localiser des veines de minerai non découvertes auparavant, permettant ainsi d'accroître l'activité minière à la surface d'une planète.\n\n§YL'efficacité est plus élevée sur les mondes sans vie.§!\n"
+  
+  sm_orbital_ring_giga_generator_district:99 "Redirecteur orbital de lumière solaire"
+  sm_orbital_ring_giga_generator_district_desc:99 "Un réseau de puissants miroirs redirige la lumière solaire supplémentaire sur la surface de la planète, permettant une production d'énergie supplémentaire.\n\n§YL'efficacité dépend de l'étoile la plus brillante du système.§!\n"
+  
+  sm_orbital_ring_giga_farming_district:99 "Engrais pour sols planétaires"
+  sm_orbital_ring_giga_farming_district_desc:99 "Des usines automatisées produisent de grandes quantités d'engrais et les distribuent dans des zones auparavant inhospitalières de la surface de la planète pour permettre l'agriculture.\n\n§YL'efficacité est plus faible sur les Mondes des Tombes et plus élevée sur les Mondes de Gaia. Ne fonctionne pas sur les Mondes Désertiques Irradiés.§!\n"
+  
+  sm_ring_giga_crystals_hub:99 "Forage de cristal à laser"
+  sm_ring_giga_crystals_hub_desc:99 "D'immenses foreuses à laser taillent dans la croûte de la planète pour faciliter l'extraction de cristaux rares sur la planète. Bien qu'efficace, le processus peut conduire à une instabilité tectonique.\n\n§RPeut occasionnellement créer des bloqueurs de Volcans Actifs et causer une certaine Dévastation !§!\n"
+  
+  sm_ring_giga_motes_hub:99 "Emetteurs hypersoniques de particules"
+  sm_ring_giga_motes_hub_desc:99 "De puissants émetteurs soniques projettent des ondes ultrasonores dans l'atmosphère et vers les sites de récolte de particules, remuant les déserts de poussière à la bonne fréquence pour faire remonter à la surface de nombreuses particules volatiles. Cela fragilise cependant le sol de la planète et rend la construction plus difficile.\n\n§RPeut occasionnellement créer des Failles et ravines, et causer une certaine dévastation !§!\n"
+  
+  sm_ring_giga_gas_hub:99 "Stabilisateur de gaz atmosphérique"
+  sm_ring_giga_gas_hub_desc:99 "Usines chimiques qui injectent des compositions de gaz spécifiques dans l'atmosphère près des gisements de gaz naturels et des raffineries, déclenchant des réactions qui rendent le gaz exotique moins sujet aux fuites et nettement moins réactif. Bien que cela augmente considérablement les rendements d'extraction en réduisant les pertes, la qualité de l'air de la planète en souffre.\n\n§RPeut occasionnellement créer des bloqueurs de marais nocifs et causer une certaine dévastation !§!\n"
+  
+  giga_dialog.13500.name:99 "Construction de l'anneau orbital"
+  giga_dialog.13500.desc:99 "La construction d'un anneau orbital autour de §Y[orbital_ring_planet.GetName]§! est terminée. L'anneau peut maintenant être spécialisé pour répondre aux besoins de sa planète."
+  giga_dialog.13500.a:99 "Bien reçu."
+  
+  giga_tech_enhance_orbital_arcologies:99 "Amélioration de l'arcologie orbitale"
+  giga_tech_enhance_orbital_arcologies_desc:99 "Les progrès réalisés dans le domaine de l'astro-ingénierie nous permettent d'ajouter en toute sécurité un deuxième anneau aux arcologies orbitales existantes, augmentant ainsi l'espace habitable sans compromettre l'intégrité structurelle."
+  
+  giga_tech_maximize_orbital_arcologies:99 "Maximisation de l'arcologie orbitale"
+  giga_tech_maximize_orbital_arcologies_desc:99 "Le perfectionnement de nos techniques de construction orbitale permet l'incorporation d'un autre anneau dans la conception de nos arcologies orbitales, maximisant ainsi l'espace de vie."
+  
+  giga_tech_orbital_ring_strategic_resources:99 "Maximisation de l'extraction des ressources orbitales"
+  giga_tech_orbital_ring_strategic_resources_desc:99 "Les anneaux orbitaux peuvent être utilisés comme plate-forme pour construire divers dispositifs destinés à augmenter le rendement des installations d'extraction de ressources rares. Bien que cette méthode soit assez efficace, elle peut avoir des effets secondaires fâcheux si elle est utilisée de manière trop imprudente."
 
 
 
@@ -18590,30 +18928,6 @@
   megastructure_build:99 "debug"
   megastructure:99 "debug"
   must_have_user_preset_mod:99 "debug"
-
-  mod_country_base_consumer_goods_produces_add:99 "debug"
-  mod_planet_artisans_energy_upkeep_add:99 "Entretien en £energy£énergie des £job_artisan£ "
-  mod_planet_priests_energy_upkeep_add:99 "Entretien en £energy£énergie des [GetPriestIcon] "
-  mod_planet_priests_society_research_produces_add:99 "Production de $society_research$ des [GetPriestIcon] "
-  mod_planet_priests_unity_produces_add:99 "Production d'$unity$ des [GetPriestIcon] "
-  mod_planet_managers_energy_upkeep_add:99 "Entretien en £energy£énergie des £job_culture_worker£ $job_culture_worker_plural$ "
-  mod_planet_managers_society_research_produces_add:99 "Production de $society_research$ des £job_culture_worker£ $job_culture_worker_plural$ "
-  mod_planet_managers_unity_produces_add:99 "Production d'$unity$ des £job_culture_worker£ $job_culture_worker_plural$ "
-  mod_planet_refiners_energy_upkeep_add:99 "Entretien en £energy£énergie des £planet_refiners£ $planet_refiners$ "
-  mod_planet_refiners_minerals_upkeep_add:99 "Entretien en £minerals£$minerals$ des £planet_refiners£ $planet_refiners$ "
-  mod_planet_refiners_volatile_motes_produces_add:99 "Production de $volatile_motes$ des £planet_refiners£ $planet_refiners$ "
-  mod_planet_refiners_exotic_gases_produces_add:99 "Production de $exotic_gases$ des £planet_refiners£ $planet_refiners$ "
-  mod_planet_refiners_rare_crystals_produces_add:99 "Production de $rare_crystals$ des £planet_refiners£ $planet_refiners$ "
-  mod_planet_metallurgists_energy_upkeep_add:99 "Entretien en £energy£énergie des £job_foundry£ $job_culture_worker_plural$"
-  mod_planet_culture_workers_energy_upkeep_add:99 "Entretien en £energy£énergie des £job_culture_worker£ $job_culture_worker_plural$ "
-  mod_planet_culture_workers_society_research_produces_add:99 "Production de $society_research$ des £job_culture_worker£ $job_culture_worker_plural$ "
-  mod_planet_culture_workers_unity_produces_add:99 "Production d'$unity$ des £job_culture_worker£ $job_culture_worker_plural$ "
-  mod_planet_miners_energy_upkeep_add:99 "Entretien en £energy£énergie des £job_miner£ $job_miner_plural$ "
-  mod_planet_researchers_energy_upkeep_add:99 "Entretien en £energy£énergie des £job_researcher£ $job_researcher_plural$ "
-  mod_planet_pops_biologicals_food_upkeep_add:99 "Entretien en £food£nourriture des Pops biologiques "
-  mod_planet_pops_lithoids_minerals_upkeep_add:99 "Entretien en £food£nourriture des Pops lithoïdes "
-  mod_planet_pops_energy_upkeep_add:99 "Entretien en £energy£énergie des Pops "
-  mod_district_virtual_shipyard_max:99 "Nbre max. de Districts de chantiers virtuels "
 
   gigaLabel_01:99 "§ECliquer 'CONFIRMER PARAM.': jouer avec les options par défaut.§!"
   gigaLabel_02:99 "§ECes options des méga. sont modifiables qu'au début du jeu.§!"

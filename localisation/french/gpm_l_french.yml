@@ -6,6 +6,9 @@
  ####################################
  
  #### In this file localisation for ####
+ # Map Mode
+ # Generic Name
+ # Other non-cat events
  # Ambiend Objects
  # Armies
  # Artifact Actions
@@ -14,13 +17,13 @@
  # Colour Tricks
  # Country Modifiers
  # Debug
- # Districts 
+ # Districts **************** NEW *******************
  # Edicts
  # Jobs
  # Messages
  # Modifier localisations
  # Opinions
- # Planet Classes
+ # Planet Classes **************** NEW *******************
  # Policies
  # R.E.S.
  # Ships
@@ -32,6 +35,59 @@
  # War Goals
  # war Names
  #######################################
+ 
+  
+ #######################################
+ #### Map Mode
+ #######################################
+ gpm_relic_map_mode:1 "Ancient Relic Map Mode"
+ gpm_relic_map_mode_desc:1 "Empire borders will be colored based on owning an ancient relic or not." 
+ GPM_MAP_MODE_NOT_HAS_RELIC:1 "Has no §YAncient Relics§!"
+ GPM_MAP_MODE_HAS_RELIC:1 "Has an §YAncient Relic§!"
+ GPM_MAP_MODE_HAS_RELIC_2:1 "Has 2 §YAncient Relics§!"
+ GPM_MAP_MODE_HAS_RELIC_3:1 "Has 3 §YAncient Relics§!"
+ GPM_MAP_MODE_HAS_RELIC_4:1 "Has 4 §YAncient Relics§!"
+ GPM_MAP_MODE_HAS_RELIC_5:1 "Has 5 §YAncient Relics§!"
+ GPM_MAP_MODE_HAS_RELIC_6:1 "Has 6 §YAncient Relics§!"
+ GPM_MAP_MODE_HAS_RELIC_7:1 "Has 7 §YAncient Relics§!"
+ GPM_MAP_MODE_HAS_RELIC_8:1 "Has 8 §YAncient Relics§!"
+ GPM_MAP_MODE_HAS_RELIC_9:1 "Has 9 §YAncient Relics§!"
+ GPM_MAP_MODE_HAS_RELIC_10:1 "Has 10 §YAncient Relics§!"
+ GPM_MAP_MODE_HAS_RELIC_11:1 "Has too many §YAncient Relics!§!"
+
+ #######################################
+ #### Generic Names
+ #######################################
+ 
+ NAME_gpm_ego:0 "The Living Planet"
+ NAME_gpm_ego_ship:0 "Gaia World"
+ NAME_Rogue_Traders:0 "Rogue Traders"
+ NAME_Rogue_Trader_Faction:0 "Rogue Traders"
+ NAME_Rogue_Trader:0 "Rogue Trader"
+ NAME_Rogue_Den:0 "Rogue Trader Outpost"
+ gpm_ego:0 "Gaia World"
+ NAME_Guilli:0 "G'uil-li"
+ NAME_docile_arachnid:0 "Docile Arachnid"
+ NAME_docile_arachnid_ship:0 "Arachnid Droppod"
+ NAME_docile_arachnid_fleet:0 "Docile Arachnids"
+ NAME_wild_xenomorph:0 "Docile Arachnid"
+ NAME_wild_xenomorph_ship:0 "Arachnid Droppod"
+ NAME_wild_xenomorph_fleet:0 "Docile Arachnids"
+ NAME_xenomorph:0 "Xenomorphs"
+ NAME_xenomorph_ship:0 "Xenomorph Carrier"
+ NAME_xenomorph_fleet:0 "Ravenous Xenomorphs"
+ NAME_venerable_dreadnaught:0 "The Venerable Dreadnaught"
+ NAME_venerable_dreadnaught_ship:0 "The Venerable Dreadnaught"
+ NAME_venerable_dreadnaught_fleet:0 "The Venerable Dreadnaught"
+ NAME_daughter_of_the_stars:0 "Daughter Of The Stars"
+ NAME_primitive_world_name_1:0 "The Prison"
+ NAME_primitive_world_name_2:0 "Caprica"
+ NAME_primitive_world_name_3:0 "New Caprica"
+ NAME_primitive_world_name_4:0 "Titaen"
+ NAME_primitive_world_name_5:0 "Reach"
+ NAME_primitive_world_name_6:0 "Anthem"
+ NAME_primitive_world_name_7:0 "Tron"
+ NAME_Fen_Habbanis_IIIa:0 "Fen Habbanis IIIa"
  
   
 
@@ -201,7 +257,7 @@
  GPM_unlock_artifact_research_centre_locked_desc:0 "$artifact_action_locked_desc$"
  GPM_unlock_artifact_research_centre:0 "Fonder $gpm_tech_arcane_research$"
  GPM_unlock_artifact_research_centre_desc:0 "Débloque la technologie §H$gpm_tech_arcane_research$§! permettant la construction d'un §H$gpm_precursor_research_center$§! sur des planètes avec des modificateurs de planète précurseurs ou des habitats en orbite autour de ces planètes. Il s'agit d'un bâtiment unique de l'empire pour aider à la recherche et à l'expérimentation d'artefacts mineurs."
- GPM_unlock_artifact_research_centre_TT:0 "\n§Y$gpm_tech_arcane_research$§! débloque le bâtiment §H$gpm_precursor_research_center$§! qui ajoute 2 emplois de $job_gpm_precursor_archaeologist$.\n\n$job_gpm_precursor_archaeologist_effect_desc$\n\n"
+ GPM_unlock_artifact_research_centre_TT:0 "\n§Y$gpm_tech_arcane_research$§! débloque le bâtiment §H$gpm_precursor_research_center$§! qui ajoute 3 emplois de $job_gpm_archaeologist$ et produit des £minor_artifacts£ artéfacts mineurs.\n\n$job_gpm_precursor_archaeologist_effect_desc$\n\n"
  gpm_artifact.1.name:0 "Percée technologique antique!"
  gpm_artifact.1.desc:0 "Des expériences sur les artefacts des arcanes ont abouti à une percée technologique incroyable!"
  gpm_artifact.2.name:0 "§HIngénierie inverse§! prête"
@@ -286,23 +342,23 @@
  #### Colour Tricks
  #######################################
  # Change name to red with skull icon
- color_red:0 "£military_power_boss  §R[This.GetName]§!"
+ NAME_color_red:0 "£military_power_boss  §R[This.GetName]§!"
  
  # Change name to orange with something icon
- # color_planet_wonder:0 "£gpm_planet_wonder §H[This.GetName]§!"
- color_planet_wonder:0 "§H[This.GetName]§!"
- color_planet_wonder_col:0 "§H[This.GetName]§!"
+ # NAME_color_planet_wonder:0 "£gpm_planet_wonder §H[This.GetName]§!"
+ NAME_color_planet_wonder:0 "§H[This.GetName]§!"
+ NAME_color_planet_wonder_col:0 "§H[This.GetName]§!"
  
  # Change name to teal with something icon
- # color_precursor:0 "£gpm_precursor §B[This.GetName]§!"
- color_precursor:0 "§B[This.GetName]§!"
- color_precursor_col:0 "§B[This.GetName]§!"
+ # NAME_color_precursor:0 "£gpm_precursor §B[This.GetName]§!"
+ NAME_color_precursor:0 "§B[This.GetName]§!"
+ NAME_color_precursor_col:0 "§B[This.GetName]§!"
  
  # reset to default, only applies to planet names
- color_default_white:0 "[Root.Solar_System.GetName] en ruines"
- color_default_white_col:0 "§W[This.GetName]§!"
+ NAME_color_default_white:0 "[This.Solar_System.GetName] en ruines"
+ NAME_color_default_white_col:0 "§W[This.GetName]§!"
  
- gpm_infested:0 "£military_power_boss §R infesté§!"
+ NAME_gpm_infested:0 "£military_power_boss §R Monde infesté§!"
  
  #######################################
  #### Country Modifiers
@@ -406,20 +462,36 @@
  #######################################
  #### Districts
  #######################################
- district_gpm_precursor_housing:0 "District urbain réparé"
- district_gpm_precursor_housing_desc:0 "Une section réparée de ce monde-cité autrefois florissant"
- district_gpm_precursor_science:0 "District d'archéologie"
- district_gpm_precursor_science_desc:0 "Désigner un secteur urbain en ruine comme un site archéologique important"
+ district_gpm_precursor_housing:0 "District urbain restauré"
+ district_gpm_precursor_housing_plural:0 "Districts urbains restaurés"
+ district_gpm_precursor_housing_desc:0 "Une section restaurée de ce monde-cité autrefois florissant"
+ mod_district_gpm_precursor_housing_max:1 "Nrb. Max de $district_gpm_precursor_housing_plural$" 
+
+ district_gpm_precursor_science:0 "District archéologique"
+ district_gpm_precursor_science_plural:0 "Districts archéologiques"
+ district_gpm_precursor_science_desc:0 "Désigner un secteur comme site archéologique important"
+ mod_district_gpm_precursor_science_max:0 "Nbre max. de $district_gpm_precursor_science_plural$"
  
- district_gpm_precursor_science_standard:0 "District archéologique"
- district_gpm_precursor_science_standard_plural:0 "Districts archéologiques"
- district_gpm_precursor_science_standard_desc:0 "Désigner un secteur comme site archéologique important"
- mod_district_gpm_precursor_science_standard_max:0 "Nbre max. de $district_gpm_precursor_science_standard_plural$"
- 
- district_gpm_precursor_manufactorium:0 "District de Manufactorium restauré"
- district_gpm_precursor_manufactorium_plural:0 "Districts de Manufactorium restaurés"
- district_gpm_precursor_manufactorium_desc:0 "Un district de Manufactorium entièrement restauré peut produire des quantités inimaginables de produits"
+ district_gpm_precursor_manufactorium:0 "District de Manufactorium autonome"
+ district_gpm_precursor_manufactorium_plural:0 "Districts de Manufactorium autonomes"
+ district_gpm_precursor_manufactorium_desc:0 "Un district de Manufactorium autonome entièrement restauré peut produire des quantités inimaginables de ressources"
  mod_district_gpm_precursor_manufactorium_max:0 "Nbre max. de $district_gpm_precursor_manufactorium_plural$"
+ 
+ district_gpm_precursor_power_plant:1 "Arc Reactor"
+ district_gpm_precursor_power_plant_plural:1 "Arc Reactors"
+ district_gpm_precursor_power_plant_desc:1 "Repaired ancient arc reactor capable of generating enough energy to power entire cities."
+ mod_district_gpm_precursor_power_plant_max:1 "Max $district_gpm_precursor_power_plant_plural$"
+ 
+ gpm_col_megalopolis_mix:1 "Megalopolis Centric"
+ gpm_col_megalopolis_mix_desc:1 " "
+ gpm_col_megalopolis_research:1 "Archaeology Centric"
+ gpm_col_megalopolis_research_desc:1 " "
+ gpm_col_megalopolis_industrial:1 "Industrial Centric"
+ gpm_col_megalopolis_industrial_desc:1 " "
+ gpm_col_megalopolis_generator:1 "Generator Centric"
+ gpm_col_megalopolis_generator_desc:1 " "
+
+ district_gpm_precursor_scienceTT:0 "\nAdds an unremovable §Y$d_archaeological_site$§! blocker when build."
  
  #######################################
  #### Edicts
@@ -586,6 +658,30 @@
  GPM_MESSAGE_WONDROUS_WORLD_TITLE:0 "Découverte d'un monde merveilleux"
  GPM_MESSAGE_WONDROUS_WORLD_DESC:0 "$PLANET|H$ se trouve être une §HMonde merveilleux§!"
 
+ GPM_MESSAGE_GATHER_INTELLIGENCE_RELIC_TARGET_MED_TITLE:1 "Someone knows about our relic"
+ GPM_MESSAGE_GATHER_INTELLIGENCE_RELIC_TARGET_MED_DESC:1 "An unknown empire knows that we are currently in possetion of a rare and powerful relic!"
+
+ GPM_MESSAGE_GATHER_INTELLIGENCE_RELIC_TARGET_HIGH_TITLE:1 "They know about our relic!"
+ GPM_MESSAGE_GATHER_INTELLIGENCE_RELIC_TARGET_HIGH_DESC:1 "The §Y$COUNTRY$§! Empire has found out we are in possetion of a rare and powerful Relic!"
+
+ GPM_MESSAGE_STEAL_RELIC_WARNING_TITLE:1 "An empire is attempting to steal our relic!"
+ GPM_MESSAGE_STEAL_RELIC_WARNING_DESC:1 "A plot has been discovered that the §Y$COUNTRY$§! empire is attempting to steal a rare and valuable Relic!"
+
+ GPM_MESSAGE_STEAL_RELIC_PUBLIC_NOTIFICATION_TITLE:1 "A Relic has been stolen!"
+ GPM_MESSAGE_STEAL_RELIC_PUBLIC_NOTIFICATION_DESC:1 "The §Y$COUNTRY$§! empire managed to steal a relic from the §Y[from.GetName]§! empire. This will certainly have long lasting diplomatic consequences."
+
+ GPM_MESSAGE_MINIMEGA_REFINERY_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Refinery§!"
+ GPM_MESSAGE_MINIMEGA_REFINERY_COMPLETE_DESC:1 "The ancient refinery station in the $SYSTEM|H$ system has been fully repaired"
+
+ GPM_MESSAGE_MINIMEGA_MINING_FACILITY_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Mining Facility§!"
+ GPM_MESSAGE_MINIMEGA_MINING_FACILITY_COMPLETE_DESC:1 "The ancient mining facility in the $SYSTEM|H$ system has been fully repaired"
+
+ GPM_MESSAGE_MINIMEGA_STATION_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Planetary Station§!"
+ GPM_MESSAGE_MINIMEGA_STATION_COMPLETE_DESC:1 "The ancient orbital station in the $SYSTEM|H$ system has been fully repaired"
+
+ GPM_MESSAGE_MINIMEGA_SILO_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Silo§!"
+ GPM_MESSAGE_MINIMEGA_SILO_COMPLETE_DESC:1 "The ancient silo in the $SYSTEM|H$ system has been fully repaired"
+
  
  #######################################
  #### Modifier localisations
@@ -666,6 +762,14 @@
  mod_planet_telepaths_produces_mult:0 "Prod. des £job_telepath£ $job_telepath_plural$"
  mod_planet_metallurgists_minerals_upkeep_add:0 "Entretien en minéraux des £job_foundry£ Métallurgistes"
  mod_planet_artisans_minerals_upkeep_add:0 "Entretien en minéraux des £job_artisan£ Artisans"
+ mod_station_gatherers_minerals_cost_add:1 "Mining Station Mineral Cost"
+ mod_station_researchers_minerals_cost_add:1 "Research Station Mineral Cost"
+ mod_planet_district_gpm_precursor_housing_build_speed_mult:1 "$district_gpm_precursor_housing$ Build Speed"
+ mod_planet_district_gpm_precursor_science_build_speed_mult:1 "$district_gpm_precursor_science$ Build Speed"
+ mod_planet_district_gpm_precursor_manufactorium_build_speed_mult:1 "$district_gpm_precursor_manufactorium$ Build Speed"
+ mod_planet_district_gpm_precursor_power_plant_build_speed_mult:1 "$district_gpm_precursor_power_plant$ Build Speed"
+ mod_ROBOT_species_trait_picks_add:1 "Robot $SPECIES_TRAIT_PICKS$"
+ mod_job_criminal_per_pop:1 "§G+1§! $job_criminal$ Job per $VALUE$ Pops"
  
  #######################################
  #### Opinions

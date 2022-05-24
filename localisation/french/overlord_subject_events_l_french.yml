@@ -1,0 +1,438 @@
+﻿l_french:
+ ### Bulwark
+ ## Event Chain - Lucrative Adventures for Veterans
+ subject.1.title:0 "Aventures rémunératrices"
+ subject.1.desc:0 "Un contingent de vétérans a envoyé un message pour demander à recevoir l'autorisation de se rendre sur §Y[subject_empire.Capital.GetName]§!, la capitale de la [subject_empire.GetName]. Accompagnant le message se trouvait une certaine somme, destinée à « aider les papelards à se décider », comme cela était expliqué avec une absolue délicatesse.\n\nIl semble circuler de nombreuses rumeurs parmi les troupes sur les aventures nombreuses, et fort rémunératrices, que l'on peut trouver dans les systèmes de notre marche, que ce soit comme mercenaire ou comme pirate. Ces vétérans, dans leur message, montrent clairement que si cette somme a été difficile à réunir pour eux, ils espèrent bien vite se refaire si nous les autorisons à gagner l'espace de notre dépendance.\n\nAccepter officiellement leur requête pourrait peut-être permettre de contribuer à renforcer la puissance militaire [subject_empire.GetSpeciesName], et inciter ces vétérans à respecter les lois et usages de la marche. Sans doute davantage, en tout cas, que si nous nous opposions à eux ou choisissions de les laisser faire..."
+ subject.1.a:0 "Envoyons-les officiellement sur [subject_empire.Capital.GetName]"
+ subject.1.a.tt:0 "Ces vétérans vont pouvoir contribuer à renforcer la §Y[subject_empire.GetName]§!."
+ subject.1.b:0 "Laissons-les faire et voyons ce qu'il en ressortira..."
+ subject.1.b.tt:0 "Ces vétérans pourraient causer des soucis dans l'espace de la §Y[subject_empire.GetName]§!."
+ subject.1.c:0 "Nous ne nous laisserons pas corrompre de la sorte !"
+ subject.1.c.tt:0 "Ces vétérans se verront interdire de quitter notre espace."
+
+ subject.3.title:0 "Vétérans de la [overlord_empire.GetName]"
+ subject.3.desc:0 "Un groupe de vétérans s'est présenté sur [Root.Capital.GetName], prétendant être dépêché par la §Y[overlord_empire.GetName]§!. Selon eux, [overlord.Ruler.GetRegnalName] [overlord.Ruler.GetLuiElleDir]-même aurait approuvé leur venue, afin de contribuer à renforcer la marche et partager avec nous leur expérience et leur science de la guerre.\n\nMais depuis leur arrivée ces vétérans semblent déçus, comme s'ils s'attendaient à quelque chose de différent. Leurs récriminations constantes et leur attitude négative révèlent qu'ils pensaient trouver dans la [Root.GetName] des richesses incommensurables, dont ils auraient pu facilement s'emparer en se faisant pirates. Si nous les acceptons dans notre espace, mieux vaut nous assurer qu'ils soient surveillés de près..."
+ subject.3.a:0 "Au moins leur expérience nous sera-t-elle utile"
+ subject.3.b:0 "Mieux vaut les renvoyer sur [overlord_empire.Capital.GetName]"
+
+ subject.10.title:0 "Amélioration des relations"
+ subject.10.desc:0 "Si nous pouvions au départ avoir quelques réticences à propos de ces vétérans qui cherchaient l'aventure dans l'espace de la §Y[subject_empire.GetName]§!, les rapports reçus depuis de notre marche montrent qu'ils se sont établis paisiblement et s'y sont révélés plus utiles que l'on aurait pu s'y attendre."
+ subject.10.a:0 "Nos inquiétudes n'étaient donc pas fondées"
+
+ subject.12.title:0 "Retour des vétérans"
+ subject.12.desc:0 "Au terme d'un court séjour sur §Y[subject_empire.Capital.GetName]§!, nos vétérans ont été renvoyés sur [Root.Capital.GetName]. Selon les rapports ils y ont causé de nombreux troubles, et ils semblent avoir été mal reçus de la population [subject_empire.GetSpeciesName]."
+ subject.12.a:0 "N'était-ce pas prévisible ?"
+
+ subject.14.title:0 "Aventures pirates"
+ subject.14.desc:0 "Nos premières inquiétudes semblaient bien fondées. Peu après être arrivés dans l'espace de la §Y[subject_empire.GetName]§!, nos vétérans ont apparemment commencé à se livrer à des actes de piraterie. Pour l'instant, cet acte de trahison ne semble pas nous être reproché."
+ subject.14.a:0 "Espérons qu'il en restera ainsi..."
+
+ subject.16.title:0 "Mercenaires indisciplinés"
+ subject.16.desc:0 "Ces vétérans à qui nous avions interdit de gagner l'espace de la §Y[subject_empire.GetName]§! ont non seulement défié nos ordres en s'y rendant malgré tout, mais en plus prétendu sur [subject_empire.Capital.GetName] l'avoir fait avec notre autorisation. La situation est quelque peu embarrassante : il serait peu reluisant de laisser entendre que nous n'avons aucune autorité sur les anciens de nos forces militaires."
+ subject.16.a:0 "Espérons donc qu'ils y feront bonne impression..."
+
+ subject.18.title:0 "Pirates en rupture de ban"
+ subject.18.desc:0 "Ces vétérans à qui nous avions interdit de gagner l'espace de la §Y[subject_empire.GetName]§! ont désobéi. Les derniers rapports arrivés de [subject_empire.Capital.GetName] à leur sujet disent qu'ils ont même renoncé à prétendre avoir le moindre lien avec la [Root.GetName] et commencé à se livrer à des actes de piraterie."
+ subject.18.a:0 "Ce qui n'est pas totalement inattendu..."
+
+ # Modifiers
+ specialist_bulwark_veterans_modifier:0 "Vétérans expérimentés"
+ specialist_bulwark_veterans_modifier_desc:0 "Un contingent de vétérans contribue largement à former nos troupes et nous aide à tirer le meilleur parti des dernières avancées technologiques dans le domaine militaire."
+
+ ## Event Chain - Subject upgrade
+ subject.55.title:0 "Requête"
+ subject.55.desc:0 "Nous venons d'apprendre que la §Y[overlord_empire.GetName]§! avait consacré des sommes et des ressources considérables à l'amélioration de ses bases stellaires, démultipliant leur production et leurs capacités militaires.\n\nOr, le domaine de la défense est l'un des fondements de notre relation avec elle. Peut-être donc pourrions-nous demander à [overlord_empire.Capital.GetName] l'envoi d'ingénieurs pour nous aider à améliorer nos propres bases stellaires ?"
+ subject.55.a:0 "Cette requête pourrait être une bonne idée"
+ subject.55.b:0 "Nous n'en sommes pas encore rendus à devoir mendier"
+
+ subject.60.title:0 "Requête de la [subject_empire.GetName]"
+ subject.60.desc:0 "Un message vient d'arriver de [subject_empire.Capital.GetName] afin de nous présenter une requête : la §Y[subject_empire.GetName]§! semble particulièrement désireuse d'investir dans ses bases stellaires, et paraît très intéressée par les améliorations apportées aux nôtres. Tout laisse croire qu'elle serait prête à payer pour recevoir une aide technique en ce sens."
+ subject.60.a:0 "Envoyons donc quelques ingénieurs sur place"
+ subject.60.a.tt:0 "La §Y[targeted_starbase.GetName]§! va être améliorée grâce aux dernières technologies employées sur nos propres bases stellaires."
+ subject.60.b:0 "Leurs compétences nous sont bien trop indispensables"
+
+ subject.62.title:0 "[targeted_starbase.GetName] améliorée"
+ subject.62.desc:0 "Peu après avoir envoyé notre requête à la [overlord_empire.GetName], des ingénieurs sont arrivés sur la §Y[targeted_starbase.GetName]§!. Ils ont immédiatement réquisitionné tout le personnel, et rapidement amélioré la base.\n\nSi certains détails des améliorations apportées restent quelque peu obscurs, nos propres ingénieurs ont bon espoir d'avoir une meilleure compréhension de la situation d'ici quelque temps."
+ subject.62.desc_overlord_gestalt:0 "Peu après avoir envoyé notre requête à la [overlord_empire.GetName], des drones d'ingénierie sont arrivés sur la §Y[targeted_starbase.GetName]§!. Ils ont immédiatement tout réorganisé à leur façon, et la base a été très vite améliorée et rééquipée.\n\nSi certains détails des améliorations apportées restent quelque peu obscurs, nos ingénieurs ont bon espoir d'avoir une meilleure compréhension de la situation d'ici quelque temps."
+ subject.62.a:0 "Remercions donc les [overlord_empire.GetSpeciesNamePlural]"
+
+ subject.65.title:0 "Requête rejetée"
+ subject.65.desc:0 "Nous venons de recevoir la réponse de la §Y[overlord_empire.GetName]§! concernant l'amélioration de nos bases stellaires. Le ton en était peu chaleureux, et il semble que nul sur [overlord_empire.Capital.GetName] n'a de temps à consacrer au renforcement de nos défenses."
+ subject.65.a:0 "C'est quelque peu décevant..."
+
+ # Modifiers
+ specialist_bulwark_helpful_overlord_modifier:0 "Aide technique"
+ specialist_bulwark_helpful_overlord_modifier_desc:0 "Nous sommes réputés pour accorder une aide bienveillante à nos dépendances, ce qui contribue à améliorer notre image."
+
+ ## Event Chain - Occupied Bulwark
+ subject.100.title:0 "Marche sous occupation"
+ subject.100.desc:0 "Des rapports viennent de nous parvenir de la §Y[subject_empire.GetName]§!, qui se trouve sous occupation, est désorganisée et fait face à une situation catastrophique. Incapable de se défendre seule, elle demande à présent notre aide.\n\nÉtant donnée la nature essentiellement militaire du contrat qui nous lie à elle, il semble naturel pour la [Root.GetName] d'intervenir pour la protéger face à ses ennemis. Mais certains pensent qu'il serait plus avisé d'inciter les [subject_empire.GetSpeciesNamePlural] à se soulever et à créer des mouvements de résistance pour assurer eux-mêmes leur propre défense, plutôt qu'en intervenant directement."
+ subject.100.desc_overlord_gestalt:0 "Des rapports viennent de nous parvenir de la §Y[subject_empire.GetName]§!, qui se trouve sous occupation, est désorganisée et fait face à une situation catastrophique. Incapable de se défendre seule, elle demande à présent notre aide.\n\nÉtant donnée la nature essentiellement militaire du contrat qui nous lie à elle, il semble naturel pour la [Root.GetName] d'intervenir pour la protéger face à ses ennemis. Des calculs sont en cours pour définir s'il serait plus avisé d'inciter les [subject_empire.GetSpeciesNamePlural] à se soulever et à créer des mouvements de résistance pour assurer eux-mêmes leur propre défense, plutôt qu'en intervenant directement."
+ subject.100.a:0 "Nous devons les inciter à résister eux-mêmes"
+ subject.100.a.tt:0 "La §Y[subject_empire.GetName]§! pourrait devenir plus militariste encore."
+ subject.100.b:0 "Toute suzeraine doit la protection à ses dépendances"
+ subject.100.c:0 "Les [subject_empire.GetSpeciesNamePlural] devront s'en sortir seuls"
+
+ subject.105.title:0 "Occupation"
+ subject.105.desc:0 "Les mauvais traitements infligés à la population se multiplient dans les zones occupées par l'ennemi, et nombreux étaient ceux qui espéraient que notre suzeraine, la §Y[overlord_empire.GetName]§!, finirait par venir à notre secours. Elle a toujours beaucoup exigé de nous, aussi paraissait-il juste qu'elle intervienne enfin et nous envoie de l'aide.\n\nBien consciente de la situation, [overlord_empire.Capital.GetName] a fini par envoyer des conseillers militaires, qui se consacrent déjà aux préparatifs pour reprendre le contrôle de notre espace. Ils ont d'ores et déjà avancé des propositions sur la meilleure façon d'utiliser la population [Root.GetSpeciesName] au regard de la situation militaire, mais il nous faudra nécessairement payer le prix de nos décisions."
+ subject.105.desc_subject_gestalt:0 "Les mauvais traitements infligés aux drones des zones occupées par l'ennemi se multiplient, aussi espérions-nous que la §Y[overlord_empire.GetName]§! finirait par venir à notre secours. Elle a toujours beaucoup exigé de nous, aussi paraissait-il juste qu'elle intervienne enfin et nous envoie de l'aide.\n\nBien consciente de la situation, [overlord_empire.Capital.GetName] a fini par envoyer des conseillers militaires, qui vont tout faire pour nous aider à réorganiser la Conscience afin de pouvoir reprendre le contrôle de notre espace par nous-mêmes. C'est quelque peu décevant, étant donné que nous attendions davantage de notre suzeraine, d'autant plus que nous ne pourrons pas utiliser nos ressources de la manière qui avait été envisagée jusqu'à présent."
+ subject.105.desc_overlord_gestalt:0 "Les mauvais traitements infligés à la population se multiplient dans les zones occupées par l'ennemi, et nombreux étaient ceux qui espéraient que la §Y[overlord_empire.GetName]§! finirait par venir à notre secours. Elle a toujours beaucoup exigé de nous, aussi paraissait-il juste qu'elle intervienne enfin et nous envoie de l'aide.\n\nBien consciente de la situation, la Conscience [overlord_empire.GetSpeciesName] a fini par envoyer des drones militaires, qui ont calmement réorganisé la marche pour préparer la reconquête de notre espace. Notre suzeraine semble persuadée qu'il serait préférable que nous reprenions par nous-mêmes nos colonies, plutôt que compter sur elle pour le faire à notre place. Toutefois, cela exigera nécessairement quelques bouleversements au sein de notre société..."
+ subject.105.desc_both_gestalt:0 "Les mauvais traitements infligés aux drones des zones occupées par l'ennemi se multiplient, aussi espérions-nous que la §Y[overlord_empire.GetName]§! finirait par venir à notre secours. Elle a toujours beaucoup exigé de nous, aussi paraissait-il juste qu'elle intervienne enfin et nous envoie de l'aide.\n\nBien consciente de la situation, la Conscience [overlord_empire.GetSpeciesName] a fini par envoyer des drones militaires, qui nous ont calmement réorganisés pour reprendre le contrôle de notre espace par nous-mêmes. Notre suzeraine semble persuadée qu'il serait préférable que nous reprenions par nous-mêmes nos colonies, plutôt que compter sur elle pour le faire à notre place. Toutefois, cela exigera nécessairement quelques bouleversements en notre sein..."
+ subject.105.a:0 "C'est là le prix à payer pour la libération"
+ subject.105.b:0 "Même notre liberté ne vaut pas de tels sacrifices"
+
+ subject.107.title:0 "Les défenseurs de la [subject_empire.GetName]"
+ subject.107.desc:0 "Dans tout l'espace de la §Y[subject_empire.GetName]§!, la population s'est soudée pour assurer la défense de la marche face à l'occupation ennemie, et se mobilise pour assurer la poursuite du combat contre l'ennemi. Espérons que ces changements marqueront enfin le retour à une situation plus favorable pour notre dépendance."
+ subject.107.a:0 "Espérons-le"
+
+ subject.110.title:0 "Une marche pacifiste ?"
+ subject.110.desc:0 "Même confrontée à l'occupation par ses ennemis, la §Y[subject_empire.GetName]§! s'est refusée à accepter les propositions et réformes proposées par nos conseillers pour reprendre au plus vite le contrôle de son espace."
+ subject.110.a:0 "En ce cas, nous ne pouvons rien pour elle"
+
+ # Modifiers
+ specialist_bulwark_home_defense_force_modifier:0 "Protection de notre espace"
+ specialist_bulwark_home_defense_force_modifier_desc:0 "Il y a peu de choses qui inspirent autant à atteindre la grandeur et la gloire que de voir ses colonies occupées par l'ennemi."
+
+ specialist_bulwark_defensive_overlord_modifier:0 "Intervention suzeraine"
+ specialist_bulwark_defensive_overlord_modifier_desc:0 "Toute suzeraine bienveillante sait déléguer. Mais une suzeraine véritablement glorieuse guide par l'exemple qu'elle donne."
+
+ ## Event Chain - War Fever
+ subject.1003.title:0 "Fièvre guerrière"
+ subject.1003.desc:0 "Des rapports montrent la montée en puissance d'un mouvement belliciste sur §Y[Root.Capital.GetName]§!, composé pour l'essentiel de vétérans décorés. Se fondant sur un passé idéalisé de la [Root.GetName], un passé où nous aurions été libres d'attaquer et détruire quiconque s'opposait à nous, ses militants prônent de manière violente la mise en place d'un programme militaire plus agressif, censé permettre aux [Root.GetSpeciesNamePlural] de donner le meilleur d'eux-mêmes dans l'adversité tout en affaiblissant leurs rivaux.\n\nAvec la paix actuelle, aussi fragile soit-elle, ils ont aisément rassemblé de nombreux partisans parmi les plus humbles et chez les militaires. Si nous devions choisir de mettre fin à cette fièvre qui s'est emparée de la marche et aux émeutes qui en résultent, les conseillers ont rapporté que ce mouvement repose pour l'essentiel sur la personnalité d'un vétéran charismatique. Pour parler clair : s'il était retiré de l'équation d'une façon ou d'une autre, c'est tout son mouvement qui disparaîtrait avec lui..."
+ subject.1003.a:0 "Son programme s'accorde assez bien au nôtre..."
+ subject.1003.b:0 "Mieux vaut éviter de perdre le contrôle de la situation"
+
+ subject.1005.title:0 "À la croisée des chemins"
+ subject.1005.desc:0 "Après que nous avons laissé ce mouvement belliciste se développer davantage, il a commencé à exiger des décisions plus agressives encore de la part du gouvernement, et multiplié le nombre de ses soutiens. Et lorsque la situation s'est faite plus tendue avec les élites dirigeantes, c'est notre [Root.GetRulerTitle], [Root.GetRulerName] [Root.GetLuiElleDir]-même, qui a choisi d'apporter son soutien à ce vétéran si charismatique.\n\nLes militants attendent donc désormais de voir quelles seront nos prochaines décisions..."
+ subject.1005.a:0 "Offrons un poste au dirigeant du mouvement"
+ subject.1005.a.tt:0 "Un §Yamiral§! va être recruté."
+ subject.1005.b:0 "L'heure est venue d'adopter pleinement nos valeurs militaristes"
+ subject.1005.c:0 "Consacrons nos ressources au renforcement de la flotte"
+
+ subject.1010.title:0 "$subject.1003.title$"
+ subject.1010.desc:0 "Des rapports en provenance de la §Y[subject_empire.GetName]§! soulignent que ses habitants semblent pris d'une véritable fièvre militariste, lancée par un mouvement dirigé par un vétéran charismatique. Tout montre que les [subject_empire.GetSpeciesNamePlural] n'aspirent qu'à trouver un prétexte pour vider leurs frustrations et attendent de leurs dirigeants qu'ils déclenchent une guerre.\n\nFace à l'agitation croissante et aux émeutes, les autorités de la marche ont cédé au mouvement, contribuant à renforcer encore ses tendances bellicistes, et fait plusieurs promesses dont nos informateurs doutent qu'elles puissent y répondre."
+ subject.1010.a:0 "Ils veulent donc se trouver des ennemis ?"
+
+ # Modifiers
+ specialist_overlord_war_fever_modifier:0 "Préparatifs militaires"
+ specialist_overlord_war_fever_modifier_desc:0 "Il a été décidé de consacrer une grande part de nos ressources au renforcement de la flotte pour préparer les conflits à venir."
+
+ ## Event Chain - War Exhaustion
+ subject.1052.title:0 "Lassitude de la guerre"
+ subject.1052.desc:0 "Si le contrat qui nous lie à la §Y[overlord_empire.GetName]§! est essentiellement de nature militaire, nous ne pouvions nous attendre aux effets atroces que cela aurait pour la [Root.GetName]. La population souffre des exigences constantes venues de [overlord_empire.Capital.GetName], et plusieurs conseillers craignent que si la situation se perpétue cela finisse par avoir de lourdes conséquences sur nos plans à long terme."
+ subject.1052.desc_gestalt:0 "Si le contrat qui nous lie à la §Y[overlord_empire.GetName]§! est essentiellement de nature militaire, nous n'avions pas planifié ni prévu les effets atroces que cela aurait pour la [Root.GetName]. Nous avons les plus grandes peines à répondre aux demandes constantes venues de [overlord_empire.Capital.GetName], et de nombreux plans à moyen terme ont dû être abandonnés afin de répondre aux impératifs militaires qui ne cessent de croître."
+ subject.1052.a:0 "Nous devons informer [overlord_empire.Capital.GetName] de la situation"
+ subject.1052.b:0 "Mieux vaut ne rien en dire pour l'instant..."
+
+ subject.1055.title:0 "$subject.1052.title$"
+ subject.1055.desc:0 "La §Y[subject_empire.GetName]§! vient de nous faire parvenir un communiqué détaillé sur les difficultés qu'elle rencontre à répondre à nos exigences, du fait de la guerre que nous lui imposons de livrer.\n\nÉtant donné la nature essentiellement militaire du contrat qui nous lie à notre marche, il est pour le moins troublant de voir les [subject_empire.GetSpeciesNamePlural] nous demander de revenir sur nos politiques..."
+ subject.1055.a:0 "Assurons-les que nous allons améliorer la situation"
+ subject.1055.b:0 "C'est à eux de régler leurs problèmes"
+ subject.1055.b.tt:0 "Si nous ignorons les problèmes auxquels elle est confrontée, la §Y[subject_empire.GetName]§! pourrait perdre en loyauté."
+
+ subject.1057.title:0 "Réponse à nos inquiétudes"
+ subject.1057.desc:0 "La §Y[overlord_empire.GetName]§! nous a fait parvenir une réponse tout à fait rassurante, expliquant qu'elle veillera à améliorer la situation diplomatique, et fera tout pour prendre désormais en considération les problèmes auxquels est confrontée la [Root.GetName]."
+ subject.1057.a:0 "C'est effectivement rassurant"
+
+ subject.1060.title:0 "Contrat fatal"
+ subject.1060.desc:0 "En dépit des rapports détaillant à la §Y[overlord_empire.GetName]§! les problèmes auxquels nous sommes confrontés du fait de ses politiques, elle semble bien peu s'en soucier. Sa nature belliciste ne semble plus connaître aucune borne, et les [Root.GetSpeciesNamePlural] sont toujours les premiers à en souffrir.\n\nIl ne faudra pas longtemps avant que la réponse de notre suzeraine et les détails de la situation soient connus de toute la population. Déjà, un mouvement politique, très critique envers l'autorité [overlord_empire.GetSpeciesName], a commencé à gagner en importance. Il semble tout prêt à se retourner contre nous. La question se pose donc désormais : est-il donc encore dans notre intérêt de rester loyaux envers [overlord_empire.Capital.GetName] ?"
+ subject.1060.desc_gestalt:0 "En dépit des rapports aussi concis que précis transmis à la §Y[overlord_empire.GetName]§!, détaillant les problèmes auxquels nous sommes confrontés du fait de ses politiques, elle semble bien peu s'en soucier. Elle paraît peu s'inquiéter de notre loyauté, et surtout déterminée à poursuivre ce chemin destructeur qu'elle suit.\n\nNous avions espéré que le contrat signé avec elle nous serait plus favorable ; mais désormais toutes les estimations montrent que la [Root.GetName] est menacée par les problèmes à long terme causés par notre suzeraine..."
+ subject.1060.a:0 "Nous ne pouvons nous opposer à [overlord_empire.Capital.GetName]..."
+ subject.1060.b:0 "À moins que..."
+
+ subject.1062.title:0 "Opposition croissante"
+ subject.1062.desc:0 "Le rejet de la requête de la §Y[subject_empire.GetName]§! semble avoir favorisé l'émergence d'un petit mouvement politique au sein de sa population. Il n'a évidemment pas bien accueilli notre réponse, mais ces radicaux semblent avoir des difficultés à susciter l'adhésion, et la marche dans son ensemble ne paraît pas être en mesure de s'opposer à notre autorité."
+ subject.1062.desc_gestalt:0 "Le rejet de la requête [subject_empire.GetDuDelaDelDir][subject_empire.GetRulerTitle] [subject_empire.GetSpeciesName] semble avoir alimenté ses doutes sur notre droit à lui imposer notre autorité. Mais malgré sa contestation croissante du contrat qui nous lie, elle n'est pas en mesure de s'opposer directement à nous."
+ subject.1062.a:0 "De toute manière, sa soumission n'est pas négociable"
+
+ # Modifiers
+ specialist_overlord_war_exhaustion_modifier:0 "Lassitude de la guerre"
+ specialist_overlord_war_exhaustion_modifier_desc:0 "Parfois, les problèmes causés par la guerre paraissent menacer jusqu'aux empires les plus puissants."
+
+ specialist_overlord_war_exhaustion_lithoid_modifier:0 "$specialist_overlord_war_exhaustion_modifier$"
+ specialist_overlord_war_exhaustion_lithoid_modifier_desc:0 "$specialist_overlord_war_exhaustion_modifier_desc$"
+
+ specialist_overlord_war_exhaustion_robot_modifier:0 "$specialist_overlord_war_exhaustion_modifier$"
+ specialist_overlord_war_exhaustion_robot_modifier_desc:0 "$specialist_overlord_war_exhaustion_modifier_desc$"
+
+ ## Event Chain - Rival Admirals
+ subject.1102.title:0 "Querelle entre amiraux"
+ subject.1102.desc:0 "Les désaccords sont de plus en plus fréquents entre les amiraux. Il suffit que [admiral_democracy.GetName] propose quelque chose pour qu'aussitôt [admiral_oligarchy.GetName] cherche à s'y opposer de toutes les manières possibles.\n\nSi ces débats continuels ne paraissaient au départ relever que de l'émulation entre pairs, ils sont devenus de plus en plus fréquents et néfastes, d'autant que l'ensemble de la flotte semble maintenant se diviser entre leurs deux partis."
+ subject.1102.a:0 "Nous devons mettre un terme à ces chamailleries"
+ subject.1102.b:0 "Ils finiront bien par revenir à la raison..."
+
+ subject.1105.title:0 "L'amirauté divisée"
+ subject.1105.desc_democracy:0 "Ce qui relevait de simples désaccords entre deux amiraux a pris une tournure plus inquiétante, car toute l'amirauté est maintenant divisée entre deux factions hostiles l'une envers l'autre, et les débats se sont envenimés au point que plus personne ne semble en mesure de réconcilier leurs points de vue.\n\nCes différends ont d'ailleurs des conséquences plus graves, puisque les lignes de fractures recoupent maintenant des visions politiques, une faction soutenant ouvertement les valeurs démocratiques de la [Root.GetName], tandis que l'autre prône le renforcement de la place accordée à l'amirauté dans les décisions politiques."
+ subject.1105.desc_oligarchy:0 "Ce qui relevait de simples désaccords entre deux amiraux a pris une tournure plus inquiétante, car toute l'amirauté est maintenant divisée entre deux factions hostiles l'une envers l'autre, et les débats se sont envenimés au point que plus personne ne semble en mesure de réconcilier leurs points de vue.\n\nCes différends ont d'ailleurs des conséquences plus graves, puisque les lignes de fractures recoupent maintenant des visions politiques, une faction soutenant ouvertement les valeurs oligarchiques de la [Root.GetName], tandis que l'autre prétend que la population dans son ensemble devrait avoir son mot à dire en matière politique."
+ subject.1105.desc_neither:0 "Ce qui relevait de simples désaccords entre deux amiraux a pris une tournure plus inquiétante, car toute l'amirauté est maintenant divisée entre deux factions hostiles l'une envers l'autre, et les débats se sont envenimés au point que plus personne ne semble en mesure de réconcilier leurs points de vue.\n\nCes différends ont d'ailleurs des conséquences plus graves, puisque les lignes de fractures recoupent maintenant des visions politiques, une faction prônant le renforcement de la place accordée à l'amirauté dans les décisions politiques, tandis que l'autre pense que la population dans son ensemble devrait avoir son mot à dire sur les sujets qui la concernent."
+ subject.1105.a:0 "Combien de temps cela va-t-il donc durer ?"
+
+ subject.1107.title:0 "Divisions dans l'amirauté [subject_empire.GetSpeciesName]"
+ subject.1107.desc:0 "Des querelles intestines semblent semer le trouble dans les instances dirigeantes de la §Y[subject_empire.GetName]§!, son amirauté semblant divisée par les querelles de deux amiraux ayant dégénéré jusqu'à causer un véritable conflit politique.\n\nLes deux factions qui se sont formées au sein du haut-commandement cherchent à assurer leur contrôle dans tous les domaines, ce qui se traduit par des querelles incessantes. La question se pose donc désormais de la fiabilité de la marche à notre égard."
+ subject.1107.a:0 "Intervenons avant qu'il soit trop tard"
+ subject.1107.b:0 "Ce n'est pas à nous de régler leurs chamailleries"
+
+ subject.1110.title:0 "Arbitrage de [overlord_empire.Capital.GetName]"
+ subject.1110.desc:0 "Il était à craindre que les conflits au sein de l'amirauté se propagent au reste des instances dirigeantes de l'empire, aussi la §Y[overlord_empire.GetName]§! a-t-elle préféré intervenir pour mettre un terme aux différends et apaiser la situation. Tout laisse croire que ni [admiral_oligarchy.GetName], ni [admiral_democracy.GetName] eux-mêmes ne prendront le risque de s'opposer à cette intervention directe de [overlord_empire.Capital.GetName]."
+ subject.1110.a:0 "Enfin le calme est revenu"
+
+ subject.1112.title:0 "Ingérence [overlord_empire.GetSpeciesName]"
+ subject.1112.desc:0 "Tout laissait croire que cette querelle entre [admiral_oligarchy.GetName] et [admiral_democracy.GetName] et leurs partisans pourrait enfin s'apaiser, lorsque des émissaires de la §Y[overlord_empire.GetName]§! sont soudainement arrivés sur [Root.Capital.GetName] pour imposer un règlement au conflit. Mais après des jours de négociations infructueuses et de débats houleux, la seule chose sur laquelle les deux factions ont semblé s'accorder est que les [overlord_empire.GetSpeciesNamePlural] n'ont aucunement le droit d'intervenir dans de telles questions..."
+ subject.1112.a:0 "Donc même [overlord_empire.Capital.GetName] ne peut rien faire ?"
+
+ subject.1115.title:0 "Exacerbation des conflits"
+ subject.1115.desc:0 "Cela fait des mois maintenant que le conflit entre les deux factions de [admiral_oligarchy.GetName] et de [admiral_democracy.GetName] divise l'amirauté. Jusqu'à présent, le risque d'un recours à la violence semblait écarté, mais le corps d'un partisan de la faction démocrate vient d'être découvert.\n\nIl n'y a aucune preuve que les partisans de l'oligarchie sont impliqués dans ce que tous soupçonnent être un meurtre, mais le risque est grand que l'incident déclenche des réactions plus radicales des deux côtés..."
+ subject.1115.a:0 "Mais comment tout cela va-t-il finir ?"
+
+ subject.1120.title:0 "Catastrophe sur [crash_planet.GetName]"
+ subject.1120.desc:0 "Nous venons de recevoir un rapport selon lequel un cargo non identifié s'est écrasé sur un district résidentiel de §Y[crash_planet.GetName]§!. Tous ceux qui vivaient là ont été recueillis dans des abris temporaires, tandis que la situation est en cours d'évaluation.\n\nEn s'écrasant, le vaisseau a révélé l'existence d'un riche gisement minéral dont nous n'avions pas connaissance, aussi la faction oligarchiste a-t-elle aussitôt proposé d'ouvrir une nouvelle mine dans le district pour exploiter ces richesses, ce qui impliquerait de déplacer la population. Leurs rivaux démocrates, naturellement, s'opposent à ce projet et exigent que nous nous concentrions sur la reconstruction des zones touchées."
+ subject.1120.a:0 "La priorité va aux habitants"
+ subject.1120.b:0 "Et donc, à propos de ces minéraux..."
+
+ subject.1125.title:0 "Questions de financement"
+ subject.1125.desc:0 "Les dissensions qui déchiraient jusqu'à présent l'amirauté ont désormais des répercussions dans toutes les institutions et agences gouvernementales. Des débats houleux ont ainsi lieu à propos de l'attribution de fonds réservés aux besoins civils sur §Y[Root.Capital.GetName]§!, que la faction oligarchiste propose de réaffecter aux militaires et à la flotte."
+ subject.1125.a:0 "Ces fonds ont été réservés pour une bonne raison..."
+ subject.1125.b:0 "La flotte doit toujours avoir la priorité"
+
+ subject.1130.title:0 "Violences dans les rues"
+ subject.1130.desc:0 "Après qu'une manifestation a viré à l'émeute, non loin des bureaux de la faction oligarchiste de l'amirauté, plusieurs membres des deux groupes ont été arrêtés et interrogés. Comme on pouvait s'y attendre, les versions de chacun divergent considérablement, et tous accusent leurs rivaux d'avoir provoqué ces troubles.\n\nDésormais, tous attendent que le gouvernement prenne un parti, et les deux factions veulent s'assurer que ce sera la « bonne » décision..."
+ subject.1130.a:0 "Les démocrates ont été attaqués sans raison"
+ subject.1130.b:0 "Les oligarchistes sont visiblement innocents"
+
+ subject.1135.title:0 "Scandale chez les démocrates"
+ subject.1135.desc:0 "Un scandale vient d'éclater au sein de la faction démocrate : on vient de découvrir qu'un proche allié de [admiral_democracy.GetName] a dépensé des fonds publics conséquents pour convenances personnelles. Les démocrates prétendent que ces fonds ont été utilisés pour défendre leurs intérêts, mais si la population l'apprenait cela nuirait considérablement à la faction."
+ subject.1135.a:0 "Mieux vaut étouffer l'affaire, cette fois seulement"
+ subject.1135.b:0 "Tout l'empire mérite être informé"
+
+ subject.1140.title:0 "Le meurtrier démasqué"
+ subject.1140.desc:0 "Au terme d'une longue enquête, le responsable du meurtre commis dans les bureaux de l'amirauté a enfin été identifié. Toutes les preuves montrent que c'est l'un des plus proches conseillers de [admiral_oligarchy.GetName] qui a personnellement ordonné l'assassinat de son opposant.\n\nSi [admiral_oligarchy.GetName] ne semble en rien responsable, son mouvement pourrait malgré tout se trouver discrédité si la nouvelle venait à se savoir."
+ subject.1140.a:0 "Assurons-nous que personne ne sache rien"
+ subject.1140.b:0 "Ainsi donc, le meurtrier a été retrouvé ?"
+
+ subject.1142.title:0 "La tempête menace"
+ subject.1142.desc:0 "Le conflit entre nos deux amiraux déchire désormais non plus seulement l'amirauté, mais bien toute la [Root.GetName]. Si les actes les plus odieux ont pu être cachés à la population, les deux factions ont d'ores et déjà beaucoup perdu.\n\nLes informateurs dont nous disposons dans les deux camps sont par ailleurs certains que démocrates comme oligarchistes songent désormais à s'emparer du pouvoir pour imposer leurs vues, en préparant un coup qui leur permettrait de se débarrasser de leurs opposants.\n\nÉtant donné la gravité de la situation, [Root.GetLeLaLDir][Root.GetRulerTitle] [Root.GetLuiElleDir]-même va devoir intervenir en prenant parti, ou [Root.GetIlElleDir] risquerait d'être pris[Root.GetXEDir] entre deux feux..."
+ subject.1142.a:0 "Mieux vaut [admiral_democracy.GetName] et les démocrates"
+ subject.1142.b:0 "[admiral_oligarchy.GetName], les oligarchistes et la flotte d'abord"
+
+ subject.1145.title:0 "Fin des divisions"
+ subject.1145.desc:0 "[Root.GetAdmiraltyWinner]\n\n[Root.GetAdmiraltyLoserConsequences]\n\n[Root.GetAdmiraltyConsequences]"
+ subject.1145.a:0 "Espérons que le pire est passé désormais..."
+ subject.1145.a.separatist.tt:0 "Des séparatistes ont pris le contrôle du système de §Y[separatist_home.GetName]§!."
+
+ subject.1147.title:0 "La [subject_empire.GetName] divisée"
+ subject.1147.desc:0 "Les nombreux désaccords et conflits entre les membres de l'amirauté §Y[subject_empire.GetSpeciesName]§! auront finalement causé la division de la marche. Malgré tout, même s'ils semblent farouchement décidés à s'annihiler mutuellement, l'un comme l'autre parti paraissent toujours reconnaître l'autorité de la [Root.GetName]."
+ subject.1147.a:0 "Espérons ne plus avoir à nous mêler de leurs histoires"
+
+ # Scripted Loc
+ overlord_admiralty_democratic_victory:0 "La faction démocrate a fini par l'emporter sur ses opposants oligarchistes, et elle a pu s'assurer du contrôle de la plupart des complexes et institutions de l'amirauté et de la flotte."
+ overlord_admiralty_oligarchic_victory:0 "La faction oligarchiste a fini par l'emporter sur ses opposants démocrates, et elle a annoncé une proclamation publique dans tout l'espace de la [Root.GetName]."
+
+ overlord_admiralty_democratic_killed_opponents:0 "Les amiraux oligarchistes ont rapidement été jugés lors de simulacres de procès, avant d'être exécutés publiquement comme traîtres à la [Root.GetName]."
+ overlord_admiralty_democratic_released_opponents:0 "Les amiraux oligarchistes ont rapidement été jugés lors de simulacres de procès, avant que la plupart soient libérés après avoir versé de lourdes amendes."
+ overlord_admiralty_democratic_separatists:0 "Les amiraux oligarchistes se sont toutefois très vite volatilisés, profitant du chaos ayant suivi leur chute. Il n'a pas fallu longtemps, malgré tout, pour que des rapports nous parviennent, indiquant que des mouvements séparatistes s'étaient constitués, où les anciens rivaux des démocrates semblent bien représentés."
+
+ overlord_admiralty_oligarchic_killed_opponents:0 "Comme c'était à prévoir, au cours de ce discours les démocrates ont été qualifiés d'agitateurs, de populistes et de traîtres. Aussitôt après, les principaux meneurs démocrates ont été mis à mort, tandis que leurs partisans et militants disparaissaient mystérieusement."
+ overlord_admiralty_oligarchic_released_opponents:0 "Comme c'était à prévoir, au cours de ce discours les démocrates ont été dénoncés pour leurs actions, soumis à de lourdes amendes, et l'amirauté réunifiée s'est assurée qu'ils ne pourraient plus lui nuire."
+ overlord_admiralty_oligarchic_separatists:0 "Comme c'était à prévoir, aussitôt le discours terminé la chasse aux démocrates a été lancée, mais en vain ou presque : les anciens rivaux des oligarchistes avaient tous disparu dans le chaos de l'affrontement qui s'est déroulé dans les locaux de l'amirauté."
+
+ overlord_admiralty_imposed_government:0 "Enfin, aussitôt assurés de leur succès, les vainqueurs ont décidé d'imposer désormais leurs vues politiques à la tête de l'État."
+ overlord_admiralty_continued_government:0 "Enfin, aussitôt assurés de leur succès, les vainqueurs ont annoncé publiquement leur intention de laisser le gouvernement en charge des affaires de la marche. Pour l'instant, du moins..."
+ overlord_admiralty_imposed_leadership:0 "Enfin, aussitôt assurés de leur succès, les vainqueurs ont décidé d'imposer désormais non seulement leurs vues politiques à la tête de l'État, mais aussi de le confier à l'un des leurs pour qu'il dirige désormais la marche."
+
+ # Tooltip loc
+ bickering_admirals_democratic_boon_tt:0 "La faction §Ydémocrate§! au sein de l'amirauté va gagner en influence."
+ bickering_admirals_democratic_boon_significant_tt:0 "La faction §Ydémocrate§! au sein de l'amirauté va considérablement gagner en influence."
+
+ bickering_admirals_oligarchic_boon_tt:0 "La faction §Yoligarchiste§! au sein de l'amirauté va gagner en influence."
+ bickering_admirals_oligarchic_boon_significant_tt:0 "La faction §Yoligarchiste§! au sein de l'amirauté va considérablement gagner en influence."
+
+ # Modifiers & Deposits
+ d_admirals_bickering_crashed_cargo_ship:0 "Vaisseau cargo écrasé"
+ d_admirals_bickering_crashed_cargo_ship_desc:0 "Un cargo s'est écrasé, détruisant un district résidentiel mais révélant la présence d'un riche gisement minéral."
+
+ specialist_overlord_admirals_bickering_democratic_funding_modifier:0 "Financements pour les civils"
+ specialist_overlord_admirals_bickering_democratic_funding_modifier_desc:0 "Des fonds ont été réservés pour répondre aux besoins civils de la capitale."
+
+ specialist_overlord_admirals_bickering_oligarchic_funding_modifier:0 "Financements réaffectés à la flotte"
+ specialist_overlord_admirals_bickering_oligarchic_funding_modifier_desc:0 "Des fonds réservés aux civils ont été réaffectés à la flotte."
+
+ ### Scholarium
+ ## Event Chain - Technology Advancement
+ subject.2005.title:0 "Avancées technologiques"
+ subject.2005.desc:0 "Grâce au contrat conclu avec [overlord_empire.Capital.GetName], nous avons pu consacrer une grande partie de nos efforts à affermir et améliorer la gestion de notre espace. Les scientifiques et ingénieurs sont productifs, les colonies prospèrent, et des choses qui auraient relevé de la science-fiction il y a encore quelques cycles sont soudainement devenues non seulement réelles, mais aussi communes.\n\nOr, nous venons d'apprendre que la §Y[overlord_empire.GetName]§! allait dépêcher un émissaire pour constater les avancées réalisées, et peut-être en profiter pour faire transférer des échantillons dans son espace."
+ subject.2005.desc_gestalt:0 "Grâce au contrat conclu avec [overlord_empire.Capital.GetName], nous avons pu consacrer une grande partie de nos efforts à affermir et améliorer la gestion de notre espace. Une grande partie de la Conscience est dorénavant consacrée à la recherche technologique, et les découvertes récentes dans le domaine de l'ingénierie sont désormais d'un usage courant sur nos mondes.\n\nOr, nous venons d'apprendre que la §Y[overlord_empire.GetName]§! allait dépêcher un émissaire pour constater les avancées réalisées, et peut-être en profiter pour faire transférer des échantillons dans son espace."
+ subject.2005.a:0 "Les [overlord_empire.GetSpeciesNamePlural] ne seront pas déçus"
+
+ subject.2010.title:0 "Les devoirs d'une technopole"
+ subject.2010.desc:0 "L'émissaire de la §Y[overlord_empire.GetName]§! arrivera d'ici peu sur [Root.Capital.GetName], et nous devons décider à quel point nous avons l'intention de partager nos dernières innovations et nos modèles avec notre suzeraine. Sans doute apprécierait-elle que nous ne lui dissimulerions rien, mais cela pourrait aussi l'inciter à s'assurer d'un contrôle plus direct à l'avenir sur nos axes de recherche..."
+ subject.2010.a:0 "Il n'y a aucune raison de rien dissimuler"
+ subject.2010.b:0 "Mieux vaut garder certains secrets pour nous..."
+
+ subject.2015.title:0 "$subject.2005.title$"
+ subject.2015.desc:0 "La §Y[subject_empire.GetName]§! a fait ces derniers temps des progrès remarquables dans le développement de ses colonies. Plusieurs innovations et modèles ont été présentés sur [overlord_empire.Capital.GetName], tous très prometteurs. Si nous le souhaitions, il serait possible de demander aux [subject_empire.GetSpeciesNamePlural] de se concentrer sur un axe de recherche particulier, plutôt que les laisser mener leurs recherches sans réelle supervision générale."
+ subject.2015.a:0 "Ils ont l'air de parfaitement savoir ce qu'ils font"
+ subject.2015.b:0 "Ils devraient se recentrer sur les sciences physiques"
+ subject.2015.c:0 "Les avancées sociétales sont cruciales pour l'avenir"
+ subject.2015.d:0 "L'ingénierie est un secteur hautement prioritaire"
+
+ subject.2020.title:0 "Encouragements de la [overlord_empire.GetName]"
+ subject.2020.desc:0 "La §Y[overlord_empire.GetName]§! a semblé tout à fait satisfaite de nos travaux, et a décidé de nous laisser les poursuivre comme nous l'entendions, sans chercher à les orienter vers un domaine particulier."
+ subject.2020.a:0 "Tant mieux !"
+
+ subject.2025.title:0 "Directive pour le développement de la physique"
+ subject.2025.desc:0 "Après que son émissaire a pu constater l'avancée de nos travaux, la §Y[overlord_empire.GetName]§! nous a fait parvenir une directive. Elle souhaite que la technopole concentre désormais ses recherches sur les sciences physiques, dont les innovations et avancées lui semblent particulièrement prometteuses pour l'avenir."
+ subject.2025.a:0 "Il en sera donc ainsi"
+
+ subject.2030.title:0 "Directive pour le développement sociétal"
+ subject.2030.desc:0 "Après que son émissaire a pu constater l'avancée de nos travaux, la §Y[overlord_empire.GetName]§! nous a fait parvenir une directive. Elle souhaite que la technopole concentre désormais ses recherches sur les progrès sociétaux, dont les innovations et avancées lui semblent particulièrement prometteuses pour l'avenir."
+ subject.2030.a:0 "$subject.2025.a$"
+
+ subject.2035.title:0 "Directive pour le développement de l'ingénierie"
+ subject.2035.desc:0 "Après que son émissaire a pu constater l'avancée de nos travaux, la §Y[overlord_empire.GetName]§! nous a fait parvenir une directive. Elle souhaite que la technopole concentre désormais ses recherches sur l'ingénierie, dont les innovations et avancées lui semblent particulièrement prometteuses pour l'avenir."
+ subject.2035.a:0 "$subject.2025.a$"
+
+ # Modifiers
+ specialist_technocracy_technology_inflation_general:0 "$subject.2005.title$"
+ specialist_technocracy_technology_inflation_general_desc:0 "Tous les domaines technologiques ont connu des avancées significatives ces derniers cycles."
+
+ specialist_technocracy_technology_inflation_physics:0 "Avancées dans les sciences physiques"
+ specialist_technocracy_technology_inflation_physics_desc:0 "Après avoir pris connaissance de nos avancées technologiques, notre suzeraine nous a fait parvenir une directive visant à ce que la technopole axe en priorité ses recherches sur le secteur des sciences physiques."
+
+ specialist_technocracy_technology_inflation_society:0 "Avancées dans les sciences sociétales"
+ specialist_technocracy_technology_inflation_society_desc:0 "Après avoir pris connaissance de nos avancées technologiques, notre suzeraine nous a fait parvenir une directive visant à ce que la technopole axe en priorité ses recherches sur le secteur des sciences sociétales."
+
+ specialist_technocracy_technology_inflation_engineering:0 "Avancées en ingénierie"
+ specialist_technocracy_technology_inflation_engineering_desc:0 "Après avoir pris connaissance de nos avancées technologiques, notre suzeraine nous a fait parvenir une directive visant à ce que la technopole axe en priorité ses recherches sur le secteur de l'ingénierie."
+
+ ## Event Chain - Destructive Research
+ subject.2055.title:0 "Recherches dévastatrices"
+ subject.2055.desc:0 "Des recherches importantes, portant sur la structure de la [targeted_planet.GetPlanetMoon], sont en cours sur §Y[targeted_planet.GetName]§!, qui visent à faciliter le développement de l'ensemble des colonies de la technopole. Les dernières avancées, malheureusement, ont toutefois donné des résultats peu concluants : de vastes zones sont désormais toxiques, et en grande partie inhabitables.\n\nLes calculs montrent que cet incident n'est en rien isolé, et que tant que les expérimentations se poursuivront d'autres catastrophes pourraient se produire."
+ subject.2055.a:0 "Ces recherches valent la peine d'être poursuivies"
+ subject.2055.a.tt:0 "Les risques vont s'accroître que des effets collatéraux affectent §Y[targeted_planet.GetName]§!."
+ subject.2055.b:0 "Cessons ces recherches, le temps de mieux évaluer la situation"
+
+ subject.2060.title:0 "$subject.2055.title$ : crise stérilisatrice"
+ subject.2060.desc:0 "Effet collatéral de la toxicité des zones contaminées par les recherches sur §Y[targeted_planet.GetName]§!, une partie de la faune et de la flore qui se trouvait sur la [targeted_planet.GetPlanetMoon] est désormais éteinte, ce qui a provoqué une réaction en chaîne pour tout l'écosystème. Même si cela n'était pas prévu, les habitants ont heureusement été épargnés, pour la plupart d'entre eux en tout cas. Malgré tout, la vie est devenue bien plus difficile pour eux."
+ subject.2060.a:0 "Rien qui soit irrémédiable sans doute..."
+ subject.2060.a.tt:0 "Les risques vont être encore accrus que des effets collatéraux affectent §Y[targeted_planet.GetName]§!."
+ subject.2060.b:0 "Interrompons immédiatement ces expérimentations !"
+
+ subject.2065.title:0 "$subject.2055.title$ : crise océanique"
+ subject.2065.desc:0 "Les estimations initiales n'étaient visiblement pas aussi précises que nous aurions pu l'espérer, et l'évolution de la situation sur §Y[targeted_planet.GetName]§! s'est encore empirée. Les étendues toxiques ont déjà contaminé toute l'eau à la surface de la [targeted_planet.GetPlanetMoon], ce qui a ensuite impacté les terres avec lesquelles elle est en contact.\n\nDésormais, une grande partie des océans et des terres est ravagée, et pour assurer leur sécurité il a fallu éloigner les habitants sur place."
+ subject.2065.a:0 "Au point où l'on en est, autant poursuivre"
+ subject.2065.a.tt:0 "Il paraît évident que d'autres effets collatéraux vont affecter §Y[targeted_planet.GetName]§!."
+ subject.2065.b:0 "Renonçons à ces recherches avant qu'il soit trop tard"
+
+ subject.2070.title:0 "$subject.2055.title$ : crise lavique"
+ subject.2070.desc:0 "Nous venons de recevoir un rapport indiquant que de la lave a commencé à apparaître à la surface de §Y[targeted_planet.GetName]§!. Il semblerait que les dernières recherches menées sur la [targeted_planet.GetPlanetMoon] ont rendu son manteau instable au point que les séismes se sont multipliés ces derniers mois, et que les habitants ont perdu toute confiance en la science.\n\nDe l'avis de tous les scientifiques, cependant, il semblerait que rien de pire ne puisse se produire désormais."
+ subject.2070.desc_gestalt:0 "Les dernières recherches menées sur §Y[targeted_planet.GetName]§! ont semble-t-il causé de nouveaux effets collatéraux sur la [targeted_planet.GetPlanetMoon] : après qu'un séisme relativement mineur se soit produit non loin de l'un de nos établissements, de la roche fondue et des gaz toxiques sont soudains apparus à la surface. La situation, jusqu'à présent considérée comme « sous contrôle », a aussitôt été requalifiée en « catastrophe majeure ».\n\nMalgré tout, les estimations les plus précises démontrent que les dernières calamités auxquelles font face les drones sur place ne pourront pas être pires désormais."
+ subject.2070.a:0 "Nous voilà donc rassurés !"
+
+ # Modifiers & Deposits
+ specialist_technocracy_reduced_research:0 "Expérimentations scientifiques limitées"
+ specialist_technocracy_reduced_research_desc:0 "Les recherches scientifiques menées sur [Root.GetName] ont été limitées, au moins de manière temporaire. Cela semblait préférable pour éviter une nouvelle aggravation de la situation sur place."
+
+ d_technocracy_toxic_waste_blocker:0 "£blocker£Zone toxique"
+ d_technocracy_toxic_waste_blocker_desc:0 "Les recherches menées sur la structure de ce monde ont transformé toute la région en une vaste zone toxique. Des scientifiques insensibles, toutefois, pourraient être intéressés par l'étude des effets que cela aura sur les habitants."
+
+ d_technocracy_barren_lands_blocker:0 "£blocker£Zone stérile"
+ d_technocracy_barren_lands_blocker_desc:0 "Du fait de la toxicité importante de certaines régions de ce monde, une partie de la faune et de la flore a été détruite, créant des zones totalement stériles."
+
+ d_technocracy_toxic_ocean_blocker:0 "£blocker£Eaux contaminées"
+ d_technocracy_toxic_ocean_blocker_desc:0 "Une grande partie de l'eau de ce monde a été contaminée par les étendues toxiques qui se trouvent à la surface, créant des dommages considérables pour les terres qu'elle touche et laissant des régions entières inhospitalières pour les habitants."
+
+ d_technocracy_molten_waste_blocker:0 "£blocker£Étendues de lave"
+ d_technocracy_molten_waste_blocker_desc:0 "De la lave a émergé du sol après un séisme, causant des dommages considérables dans de nombreux établissements de ce monde."
+
+ ## Event Chain - Experiments!
+ subject.2105.title:0 "Recherches expérimentales"
+ subject.2105.desc:0 "L'investissement dans la recherche n'a jamais été si important étant donné les exigences toujours plus grandes de la §Y[overlord_empire.GetName]§!. Bon nombre de scientifiques ont d'ailleurs du mal à faire face à la pression, même si l'on voit parfois des étincelles de génie et des avancées proprement miraculeuses.\n\nL'une des dernières survenues est le fait de [targeted_scientist.GetName], qui a élaboré des protocoles expérimentaux audacieux pour l'un de nos départements scientifiques. Le problème qui se pose, malgré tout, est que ces expériences doivent toutes être menées, sans exception, sur des [Root.GetSpeciesNamePlural] vivants."
+ subject.2105.desc_gestalt:0 "La §Y[overlord_empire.GetName]§! souhaiterait que nos recherches soient plus productives, et ses exigences sont de plus en plus pressantes. Des estimations ont été faites pour déterminer comment répondre à ces demandes, et la solution la plus efficace consisterait à ajuster nos protocoles expérimentaux.\n\nMalgré tout, cela exigerait de conduire toute une batterie d'expériences sur nos propres drones et sur le réseau neural communautaire. Inutile de le dire, cela présente des risques non négligeables."
+ subject.2105.a:0 "Donnons à [targeted_scientist.GetName] notre aval" # Non-Gestalt yes
+ subject.2105.b:0 "Mieux vaut l'empêcher d'agir" # Non-Gestalt no
+ subject.2105.c:0 "Lançons ces protocoles" # Gestalt yes
+ subject.2105.d:0 "Nous ne pouvons nous mettre ainsi en danger" # Gestalt no
+
+ subject.2110.title:0 "Tout pour la recherche"
+ subject.2110.desc:0 "Des rapports provenant de l'un des districts résidentiels de [Root.Capital.GetName] indiquent que le domicile de [targeted_scientist.GetName] a été fouillé par les forces de l'ordre, qui ont trouvé sur place les restes de plusieurs [Root.GetSpeciesNamePlural]. Il s'agit sans doute des traces laissées par toutes ces expérimentations hasardeuses qu'[targeted_scientist.GetSheHe] avait proposé de mener, qui auraient débouché sur des échecs absolument terrifiants.\n\nPersonne ne semble être en mesure de dire où [targeted_scientist.GetSheHe] se trouve maintenant car [targeted_scientist.GetSheHe] a réussi, d'une manière ou d'une autre, à échapper à tous les capteurs."
+ subject.2110.a:0 "Nous avons sans doute bien fait de refuser..."
+
+ subject.2112.title:0 "$subject.2105.title$"
+ subject.2112.desc:0 "Nous venons de recevoir des informations sur les recherches en cours dans la §Y[subject_empire.GetName]§!. Elle a lancé toute une série d'expériences inquiétantes sur l'espèce [subject_empire.GetSpeciesName], qui se sont conclues le plus souvent par des résultats désastreux. Notre émissaire sur place n'a pas ouvertement demandé une intervention de notre part, mais ses communiqués sous-entendent que cela devrait être fait rapidement."
+ subject.2112.desc_gestalt:0 "Nous venons de recevoir des informations sur les recherches en cours dans la §Y[subject_empire.GetName]§!, menées sur l'espèce [subject_empire.GetSpeciesName]. Il est difficile de savoir quel est l'objectif recherché. Il ne semble pas y avoir de raisons particulières de s'inquiéter des résultats, hormis le fait que la laisser faire pourrait faire peser des risques sur l'ensemble des [subject_empire.GetSpeciesNamePlural]."
+ subject.2112.a:0 "Nous n'avons pas à intervenir dans les recherches de la technopole"
+ subject.2112.b:0 "Mieux vaut interdire ces expériences hasardeuses"
+
+ subject.2115.title:0 "Recherches prohibées"
+ subject.2115.desc:0 "Un émissaire de la §Y[overlord_empire.GetName]§! nous a fait part d'une directive interdisant la poursuite des expérimentations récemment lancées sur [Root.Capital.GetName]. Si les motifs de cette décision ne sont pas donnés, le sens au moins de la directive est parfaitement clair."
+
+ subject.2120.title:0 "Recherches approuvées"
+ subject.2120.desc:0 "Si nous n'avons reçu aucune communication récente de la part de la §Y[overlord_empire.GetName]§! concernant les recherches en cours, elle semble malgré tout au courant des expérimentations récemment initiées et ne pas s'y opposer.\n\nNous pouvons donc poursuivre le programme, en commençant par définir nos priorités. Plus les résultats seront risqués et les processus dangereux, plus il y a de chances que la [Root.GetName] en tire de grands bénéfices à long terme."
+ subject.2120.a:0 "Tant qu'à faire, lançons les protocoles les plus expérimentaux !"
+ subject.2120.a.tt:0 "Les expériences les plus dangereuses vont être menées."
+ subject.2120.b:0 "Commençons peut-être par ce qui paraît le plus simple..."
+ subject.2120.b.tt:0 "Les expériences les moins hasardeuses vont être menées en priorité."
+
+ subject.2125.title:0 "Échec des expérimentations"
+ subject.2125.desc:0 "Les nombreuses expérimentations menées n'ont finalement débouché que sur des échecs décevants. Au moins aurons-nous appris ce qu'il ne faut pas faire, et pourrons éviter de reproduire nos erreurs à l'avenir..."
+
+ subject.2130.title:0 "Succès des expérimentations"
+ subject.2130.desc:0 "La plupart des expérimentations menées ont fini par porter leurs fruits, et ont permis des découvertes inattendues. La plupart des spécimens impliqués dans les essais ont survécu, et semblent avoir bien supporté les divers protocoles. Tout cela peut donc être considéré comme un succès."
+ subject.2130.a:0 "Tant mieux !"
+
+ subject.2135.title:0 "$subject.2130.title$"
+ subject.2135.desc:0 "Si le prix à payer a sans doute été plus élevé que nous l'avions d'abord imaginé, les expérimentations ont débouché sur un magnifique succès. Plusieurs résultats extrêmement intéressants, et particulièrement inattendus, ont été obtenus, et nous avons appris bien davantage au cours de ce programme que ce qu'indiquaient les projections les plus optimistes."
+ subject.2135.a:0 "Cela en valait donc largement la peine"
+
+ subject.2140.title:0 "Mutations inattendues"
+ subject.2140.desc:0 "Les nombreuses expérimentations lancées sur l'espèce [Root.GetSpeciesName] ont provoqué quelques mutations particulièrement intéressantes chez les spécimens étudiés, depuis le plus grotesque et horrible jusqu'à des changements limités au niveau physique ou psychique. La conséquence la plus inattendue, malgré tout, a été que ces mutations se sont propagées au-delà des laboratoires de recherche, commençant rapidement à affecter l'ensemble des [Root.GetSpeciesNamePlural]."
+ subject.2140.a:0 "Voilà qui est effectivement très intéressant !"
+
+ subject.2145.title:0 "Hybridation"
+ subject.2145.desc:0 "Bon nombre des expérimentations lancées ont débouché sur des échecs, au point que plusieurs protocoles ont dû être entièrement revus avant d'arriver au moindre résultat.\n\nL'un des scénarios retravaillés, certainement l'un des plus atypiques, impliquait ainsi des [targeted_species.GetSpeciesNamePlural]. Peu de résultats étaient attendus, mais cela a été un véritable succès. Grâce au fruit de ces recherches, les expérimentations vont pouvoir se poursuivre sur ces deux espèces que nous sommes désormais."
+ subject.2145.a:0 "C'est certes inattendu, mais extrêmement intéressant !"
+ subject.2145.a.tt:0 "1 £pop£pop §Y[Root.Species.GetName]§! et 1 £pop£pop §Y[targeted_species.Species.GetName]§! se sont combinées pour donner naissance à 1 £pop£pop §Y[new_species.Species.GetName]§!."
+
+ subject.2150.title:0 "$subject.2125.title$"
+ subject.2150.desc:0 "$subject.2125.desc$"
+
+ ### General
+ ## Event Chain - Overlord Tourist Disagreements
+ subject.3005.title:0 "Conflits xénotouristiques"
+ subject.3005.desc:0 "Après que nous avons accepté de reconnaître l'autorité de la §Y[overlord_empire.GetName]§!, de nombreux [overlord_empire.GetSpeciesNamePlural] ont commencé à visiter nos mondes, faisant preuve d'un intérêt marqué pour la culture [Root.GetSpeciesName]. Nous nous figurions au départ que cela aurait des effets bénéfiques, en permettant un rapprochement mutuel, mais les conflits entre visiteurs et locaux se sont multipliés ces derniers temps. Ces xénotouristes semblent se méprendre sur de nombreux aspects de notre culture, et n'hésitent jamais à prétexter de leur propre culture et de leurs propres valeurs pour justifier leurs comportements trop souvent déplacés, si ce n'est purement insultants."
+ subject.3005.a:0 "Avec le temps, nous finirons par nous comprendre"
+ subject.3005.b:0 "Mieux vaut restreindre le xénotourisme"
+
+ subject.3010.title:0 "Troubles sur [subject_empire.Capital.GetName]"
+ subject.3010.desc:0 "Plusieurs appels de détresse ont été reçus de [Root.GetSpeciesNamePlural] se trouvant sur §Y[subject_empire.Capital.GetName]§!. Les autorités locales semblent leur avoir interdit de visiter la [subject_empire.Capital.GetPlanetMoon], nos citoyens n'étant visiblement plus les bienvenus dans la [subject_empire.GetName] après que plusieurs conflits ont éclaté entre locaux et visiteurs."
+ subject.3010.a:0 "Les frontières des [subject_empire.GetSpeciesNamePlural] devront pourtant rester ouvertes"
+ subject.3010.b:0 "Si les [Root.GetSpeciesNamePlural] ne savent pas se tenir, tant pis pour eux"
+
+ subject.3015.title:0 "Frontières ouvertes"
+ subject.3015.desc:0 "Les autorités de la §Y[overlord_empire.GetName]§! semblent avoir appris que les conflits s'étaient multipliés entre [overlord_empire.GetSpeciesNamePlural] et [Root.GetSpeciesNamePlural], et ont fait envoyer un groupe de bureaucrates, escortés de quelques troupes, pour clarifier les problèmes au plus vite.\n\nDe fait, la situation est on ne peut plus claire désormais : soit nous laissons notre espace ouvert aux [overlord_empire.GetSpeciesNamePlural], soit il le sera par la force."
+ subject.3015.a:0 "Cela ne vaut sans doute pas la peine de déclencher un conflit..."
+
+ subject.3020.title:0 "Relations « privilégiées »"
+ subject.3020.desc:0 "Les autorités de la §Y[overlord_empire.GetName]§! semblent avoir appris que les conflits s'étaient multipliés entre [overlord_empire.GetSpeciesNamePlural] et [Root.GetSpeciesNamePlural], et acceptent visiblement notre décision de fermer notre espace à ses voyageurs civils. Plusieurs conseillers craignaient que cela déclenche un incident diplomatique majeur, mais pour cette fois rien de tel ne s'est produit."
+ subject.3020.a:0 "Cela a mieux tourné que nous pouvions le craindre..."
+
+ # Modifiers
+ specialist_overlord_frustrated_population:0 "Conflits xénotouristiques"
+ specialist_overlord_frustrated_population_desc:0 "Les xénotouristes visitant [Root.GetName] méprisent à tel point les coutumes et usages locaux qu'ils y perturbent la vie quotidienne des habitants."
+
+ ## Event Chain - Pilgrimages
+ subject.3055.title:0 "Des pèlerins sur [overlord_empire.Capital.GetName]"
+ subject.3055.desc:0 "Un groupe de pèlerins venus de la §Y[subject_empire.GetName]§! se trouvent dans notre espace, dont ils semblent croire que s'y trouvent plusieurs sites revêtant une grande importance religieuse pour eux. Si les détails sur ces croyances sont relativement obscurs, ces [subject_empire.GetSpeciesNamePlural] semblent avoir un comportement exemplaire, et nul rapport négatif ne nous a été adressé."
+ subject.3055.a:0 "Faisons donc preuve de bienveillance"
+
+ subject.3060.title:0 "Des pèlerins de retour"
+ subject.3060.desc:0 "Un groupe de civils vient de rentrer d'un pèlerinage [overlord_empire.Capital.GetName], dans l'espace de la §Y[overlord_empire.GetName]§!, avec de nombreux récits et histoires sur ceux qu'ils y ont rencontrés. Ces [Root.GetSpeciesNamePlural] semblent avoir été particulièrement bien reçus au cours de leur périple, et le nombre des candidats à un voyage semblable s'est multiplié. Peut-être donc nous serait-il possible de mettre à profit ces échanges culturels pour nous rapprocher de notre suzeraine ?"
+ subject.3060.a:0 "Nos relations n'en seront que plus cordiales"
+ subject.3060.b:0 "Mieux vaut décourager cette mode insensée"
+
+ subject.3065.title:0 "Rapprochement avec la [subject_empire.GetName]"
+ subject.3065.desc:0 "Non seulement ce groupe de pèlerins venus de la §Y[subject_empire.GetName]§! s'est montré particulièrement amical et ouvert, mais il semble que les autorités de la marche ont profité de l'occasion pour chercher à établir avec notre espace des relations plus régulières en autorisant plus fréquemment de tels pèlerins à venir sur [Root.Capital.GetName]."
+ subject.3065.a:0 "C'est une excellente chose"
+
+ subject.3070.title:0 "Les pèlerinages interrompus"
+ subject.3070.desc:0 "Si ce groupe de pèlerins venus de la §Y[subject_empire.GetName]§! a été bien reçu sur [overlord_empire.Capital.GetName] et a semblé y apprécier son séjour, nous venons d'apprendre que les autorités de la marche avaient restreint de tels voyages à l'avenir."

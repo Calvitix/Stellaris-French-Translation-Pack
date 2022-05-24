@@ -1,0 +1,595 @@
+﻿l_french:
+
+ #########################
+ # Progenitor Hive Origin
+ #########################
+
+ origin_progenitor_hive:0 "Conscience progénitrice"
+ origin_progenitor_hive_desc:1 "Son évolution a donné à cette conscience collective un avantage sous la forme de personnalités semi-indépendantes. Ces « progénitures » accroissent grandement l'efficacité de la conscience, mais un contrôle constant est indispensable."
+ START_SCREEN_PROGENITOR_HIVE:1 "Au départ était la Progénitrice.\n\nLa vie sur [GetHomeWorldName] était rude et difficile, et pourtant elle est parvenue à étendre toujours davantage son territoire, à tel point qu'il lui est bientôt devenu impossible de gouverner des possessions aussi vastes. Aussi a-t-elle créé la première progéniture. Mais, au cours du temps, il lui est apparu que ses progénitures ne pouvaient tout faire seules. À leur tour, elles ont donc produit des drones subalternes, afin de les aider à dominer notre monde.\n\nMaintenant que nous nous apprêtons à tenter pour la première fois d'assurer notre emprise sur l'ensemble du système de [capital_scope.System.GetName], la Progénitrice s'est isolée dans un nid bien spécifique : avec le contrôle plus grand et plus performant que cela lui permet, nous sommes prêts désormais à propager son influence à toutes les étoiles de la galaxie. Car la Progénitrice a été, la Progénitrice est, et la Progénitrice sera. La [GetName] y veillera."
+ origin_tooltip_progenitor_hive_effects:3 "- Emploie des §Hpersonnalités§! spécifiques, les §Yprogénitures§!, qui gagnent de l'expérience de manière passive ;\n- remplace les £building£§Hbassins de croissance§! par des £building£§Hnids progénitaires§!, permettant une puissante armée défensive et une productivité accrue pour les £pop_cat_simple_drone£drones subalternes ;\n- permet la construction de £building£§Hnids progénitaires§! sur les mondes des dépendances ;\n- peut accorder l'indépendance à des §Hsecteurs§! comme §Hdépendances§! ;\n- permet la construction de §Hvaisseaux progénitaires§!, améliorant l'efficacité des vaisseaux à proximité, les flottes en étant dépourvues subissant :"
+ #Progenitor deposits, armies and decisions
+ progenitor_defense:0 "Progénitrice de la Conscience"
+ progenitor_defense_plural:0 "$progenitor_defense$"
+ progenitor_defense_desc:0 "La progénitrice de la Conscience, constituant son membre le plus important et le plus sophistiqué."
+ d_progenitor:0 "Nid progénital"
+ d_progenitor_desc:0 "Le nid où naissent toutes les progénitures de la Conscience."
+ d_progenitor_empty:0 "Nid progénital vide"
+ d_progenitor_empty_desc:0 "La progénitrice autrefois si puissante a été vaincue, laissant ses membres dans un état de confusion total."
+
+ decision_grow_progenitor:0 "Incuber une nouvelle progéniture"
+ decision_grow_progenitor_desc:0 "Nos progénitures les plus âgées pourraient prendre la suite de feu notre progénitrice."
+
+ missing_progenitor_modifier:0 "Progénitrice disparue"
+ missing_progenitor_modifier_desc:0 "Cette conscience n'a pas de progénitrice et se trouve dans un état de confusion totale."
+
+ ship_progenitor_hive_modifier:0 "Manque d'autonomie handicapant"
+ ship_progenitor_hive_modifier_desc:0 "Cette conscience collective est désavantagée lors des batailles spatiales si les combats ne sont pas contrôlés par un vaisseau progénitaire."
+
+ #Events
+ origin.3210.name:0 "Chute de la progénitrice"
+ origin.3210.desc:1 "L'inimaginable vient de survenir. §Y[From.From.GetName]§! est tombée entre les [From.Species.GetHandNamePlural] de la détestable [From.GetName]. En tentant de repousser l'invasion et de défendre la [Root.GetName], la progénitrice est tombée, emportant avec elle un grand nombre de [From.GetSpeciesNamePlural].\n\nAu cas où une telle situation devrait se présenter, elle avait malgré tout désigné son successeur parmi les progénitures, qui est parvenu à stabiliser une partie de notre conscience, bien que la complexité et la pression soient trop grandes pour lui permettre de prendre la suite. Nous allons donc devoir l'incuber pour en faire notre nouvelle progénitrice, avant que nos ennemis ne profitent de ces circonstances funestes et de notre confusion momentanée."
+ origin.3215.name:0 "Migration"
+ origin.3215.desc:0 "L'inimaginable vient de survenir. Notre monde natal est tombé entre les [From.Species.GetHandNamePlural] de la détestable [From.GetName]. Toute l'administration [Root.GetSpeciesName] doit désormais être transférée sur [capital_scope.GetName], ce qui comprend aussi l'établissement d'un nouveau nid progénital. L'une de nos progénitures va devoir incuber afin de pouvoir devenir notre nouvelle progénitrice, avant que nos ennemis ne profitent de ces circonstances funestes et de notre confusion momentanée."
+ origin.3215.a:0 "Mais nous nous rétablirons"
+ origin.3245.name:0 "Perdus"
+ origin.3245.desc:0 "§Y[Root.GetName]§! a été frappée par l'armement d'un colosse de la redoutée §H[From.GetName]§!. C'est non seulement un monde qu'a perdu la Conscience, mais aussi sa progénitrice, ainsi que toutes les progénitures qui résidaient là. Tous les drones et les progénitures sur place s'étaient assemblés pour protéger la progénitrice, mais tous leurs efforts se sont avérés vains, ne faisant que retarder l'inévitable. La progénitrice a été perdue peu après.\n\nLa Conscience est désormais noyée sous des flots de pensées et d'impulsions contradictoires. Si nous n'avons pas bientôt une nouvelle progénitrice, alors la [Root.Owner.GetName] risque bien de disparaître."
+ origin.3245.a:0 "Nous devons nous venger !"
+ origin.3245.b:0 "Nous devons fuir !"
+ origin.3245.c:0 "Il nous faut des minéraux !"
+ origin.3245.d:0 "(Hurlements incompréhensibles)"
+ origin.3265.name:0 "Des explosions par milliers"
+ origin.3265.desc:0 "Après des mois de bombardement, tout est terminé. §Y[From.GetName]§! est tombée, et toute trace de vie y a été éradiquée. Des nuages de poussière parcourent les rues en ruines de l'ancienne capitale de la [Root.GetName]. Les cadavres de [Root.GetSpeciesNamePlural] jonchent le sol, partout, et un énorme tas de cadavres entoure la plus grande d'entre nous : notre Progénitrice, tombée lors de l'ultime phase du bombardement.\n\nNous devons désormais transférer l'administration sur [capital_scope.GetName]. Il va être nécessaire d'y établir un nouveau nid progénital, et d'y incuber l'une des progénitures pour en faire notre nouvelle progénitrice, avant que nos ennemis ne profitent de ces circonstances funestes et de notre confusion momentanée."
+
+ MESSAGE_OFFSPRING_DEFEATED_TITLE:0 "Une progéniture vaincue"
+ MESSAGE_OFFSPRING_DEFEATED_DESC:0 "Notre progéniture sur $PLANET|Y$ a été vaincue, ce qui a causé la destruction du §Ynid progénitaire§!."
+ MESSAGE_NO_OFFSPRING_TITLE:0 "Progéniture manquante"
+ MESSAGE_NO_OFFSPRING_DESC:0 "Aucune progéniture n'a été affectée à un §Ynid progénitaire§! sur $PLANET|Y$, ce qui cause une chute de la productivité des drones subalternes."
+
+ MESSAGE_FINAL_OFFSPRING_SHIP_TITLE:0 "Ultime vaisseau progénitaire détruit"
+ MESSAGE_FINAL_OFFSPRING_SHIP_DESC:0 "Notre ultime §Yvaisseau progénitaire§! a été détruit dans le système de $SYSTEM|Y$. Nos flottes se trouvent donc perdues et dépourvues de commandement."
+
+ job_offspring_drone:0 "$job_offspring_drone_plural$"
+ job_offspring_drone_plural:0 "Progénitures"
+ mod_job_offspring_drone_add:0 "Emplois de £job_spawning_drone£progénitures "
+ job_offspring_drone_desc:0 "C'est ici que réside l'administrateur de l'ensemble de ce monde, par l'intermédiaire duquel la progénitrice de la Conscience accomplit son grand dessein."
+ job_offspring_drone_effect_desc:1 "(les £job_spawning_drone£progénitures accroissent les £mod_planet_amenities_no_happiness_add£§Yservices§!, l'£mod_planet_pop_assembly_mult£§Yassemblage mensuel des pops organiques§!, forment des §Yarmées progénitaires§! et accroissent de §G10%§! la £mod_planet_jobs_simple_drone_produces_mult£§Yproduction des drones subalternes§!)"
+ building_offspring_nest:0 "Nid progénitaire"
+ building_offspring_nest_desc:1 "Ce nid fortifié assure la sécurité de la progéniture locale tout en accélérant le développement des drones de la conscience dans le voisinage."
+ offspring_nest_tooltip:0 "\n§HSeuls les drones de l'espèce formant la Conscience progénitrice peuvent être assemblés par les £building£nids progénitaires.§!\n"
+
+ offspring_defense:1 "Armée progénitaire"
+ offspring_defense_plural:1 "Armées progénitaires"
+ offspring_defense_desc:1 "Sous la supervision directe de la progéniture de ce monde, les armées sont à la fois beaucoup plus mortelles et beaucoup plus résistantes que tout ce que pourrait former une Conscience classique."
+
+ missing_offspring_modifier:0 "Progéniture manquante"
+ missing_offspring_modifier_desc:0 "Aucune progéniture ne se trouve sur [Root.GetName], ce qui cause une chute de l'efficacité des drones subalternes."
+
+ #Progentior Hive Ships
+
+ offspring_corvette:0 "Corvette progénitaire"
+ offspring_corvette_plural:0 "Corvettes progénitaires"
+ OFFSPRING_CORVETTE_MID_M1S1:0 "$CORVETTE_MID_M1S1$"
+ OFFSPRING_CORVETTE_MID_S3:0 "$CORVETTE_MID_S3$"
+ OFFSPRING_CORVETTE_MID_S1:0 "$CORVETTE_MID_S1$"
+ OFFSPRING_CORVETTE_MID_S2PD1:0 "$CORVETTE_MID_S2PD1$"
+
+ offspring_cruiser:0 "Croiseur progénitaire"
+ offspring_cruiser_plural:0 "Croiseurs progénitaires"
+ OFFSPRING_CRUISER_BOW_L1:0 "$CRUISER_BOW_L1$"
+ OFFSPRING_CRUISER_BOW_M1S2:0 "$CRUISER_BOW_M1S2$"
+ OFFSPRING_CRUISER_BOW_M2:0 "$CRUISER_BOW_M2$"
+ OFFSPRING_CRUISER_MID_S2HB:0 "$CRUISER_MID_S2HB$"
+ OFFSPRING_CRUISER_MID_L1M1:0 "$CRUISER_MID_L1M1$"
+ OFFSPRING_CRUISER_MID_M3:0 "$CRUISER_MID_M3$"
+ OFFSPRING_CRUISER_MID_M2S2:0 "$CRUISER_MID_M2S2$"
+ OFFSPRING_CRUISER_STERN_M1:0 "$CRUISER_STERN_M1$"
+ OFFSPRING_CRUISER_STERN_S2:0 "$CRUISER_STERN_S2$"
+
+ offspring_destroyer:0 "Destroyer progénitaire"
+ offspring_destroyer_plural:0 "Destroyers progénitaires"
+ OFFSPRING_DESTROYER_BOW_M1S2:0 "$DESTROYER_BOW_M1S2$"
+ OFFSPRING_DESTROYER_BOW_S3:0 "$DESTROYER_BOW_S3$"
+ OFFSPRING_DESTROYER_BOW_L1:0 "$DESTROYER_BOW_L1$"
+ OFFSPRING_DESTROYER_STERN_PD2:0 "$DESTROYER_STERN_PD2$"
+ OFFSPRING_DESTROYER_STERN_S2:0 "$DESTROYER_STERN_S2$"
+ OFFSPRING_DESTROYER_STERN_M1:0 "$DESTROYER_STERN_M1$"
+
+ offspring_battleship:0 "Cuirassé progénitaire"
+ offspring_battleship_plural:0 "Cuirassés progénitaires"
+ OFFSPRING_BATTLESHIP_BOW_L1M1S2:0 "$BATTLESHIP_BOW_L1M1S2$"
+ OFFSPRING_BATTLESHIP_BOW_L1S4:0 "$BATTLESHIP_BOW_L1S4$"
+ OFFSPRING_BATTLESHIP_BOW_L2:0 "$BATTLESHIP_BOW_L2$"
+ OFFSPRING_BATTLESHIP_BOW_M1S2SHB:0 "$BATTLESHIP_BOW_M1S2SHB$"
+ OFFSPRING_BATTLESHIP_BOW_M2S4:0 "$BATTLESHIP_BOW_M2S4$"
+ OFFSPRING_BATTLESHIP_BOW_M3S2:0 "$BATTLESHIP_BOW_M3S2$"
+ OFFSPRING_BATTLESHIP_MID_L2S4:0 "$BATTLESHIP_MID_L2S4$"
+ OFFSPRING_BATTLESHIP_MID_L1M4:0 "$BATTLESHIP_MID_L1M4$"
+ OFFSPRING_BATTLESHIP_MID_L2M2:0 "$BATTLESHIP_MID_L2M2$"
+ OFFSPRING_BATTLESHIP_MID_L3:0 "$BATTLESHIP_MID_L3$"
+ OFFSPRING_BATTLESHIP_MID_M4SHB:0 "$BATTLESHIP_MID_M4SHB$"
+ OFFSPRING_BATTLESHIP_MID_S4LHB:0 "$BATTLESHIP_MID_S4LHB$"
+ OFFSPRING_BATTLESHIP_STERN_M1S2:0 "$BATTLESHIP_STERN_M1S2$"
+ OFFSPRING_BATTLESHIP_STERN_L1:0 "$BATTLESHIP_STERN_L1$"
+ OFFSPRING_BATTLESHIP_STERN_M2:0 "$BATTLESHIP_STERN_M2$"
+ OFFSPRING_BATTLESHIP_STERN_S4:0 "$BATTLESHIP_STERN_S4$"
+
+ SHIP_AURA_OFFSPRING:0 "$OFFSPRING_AURA$"
+ OFFSPRING_AURA:0 "Supervision progénitaire"
+ sm_offspring_outlook:0 "Vigie progénitaire"
+ sm_offspring_outlook_desc:0 "Un module de base stellaire permettant à une progéniture de contrôler et commander les batailles en cours dans le système.\n"
+ STARBASE_OFFSPRING_OUTLOOK:0 "$sm_offspring_outlook$"
+
+ mod_shipsize_offspring_corvette_build_speed_mult: "Vit. de constr. des corvettes progénitaires "
+ mod_shipsize_offspring_destroyer_build_speed_mult: "Vit. de constr. des destroyers progénitaires "
+ mod_shipsize_offspring_cruiser_build_speed_mult: "Vit. de constr. des croiseurs progénitaires "
+ mod_shipsize_offspring_battleship_build_speed_mult: "Vit. de constr. des cuirassés progénitaires "
+
+ mod_shipsize_offspring_corvette_hull_add: "Points de coque des corvettes progénitaires "
+ mod_shipsize_offspring_destroyer_hull_add: "Points de coque des destroyers progénitaires "
+ mod_shipsize_offspring_cruiser_hull_add: "Points de coque des croiseurs progénitaires "
+ mod_shipsize_offspring_battleship_hull_add: "Points de coque des cuirassés progénitaires "
+
+ ##########################
+ # Subterranean origin
+ ##########################
+
+ origin_subterranean:0 "Souterraine"
+ origin_subterranean_desc:0 "Que ce soit pour éviter les prédateurs ou disposer d'un accès plus aisé aux ressources, cette espèce a su évoluer pour vivre sous la surface de son monde natal, donnant naissance à une société plus polyvalente au niveau environnemental."
+ origin_tooltip_subterranean_effects:1 "- Lance la partie avec le trait §Y$trait_cave_dweller$§! ;\n- l'espèce construit des cités souterraines, accroissant le coût des £building£bâtiments et £district£districts de §R10%§!, et ralentissant leur vitesse de construction de §R10%§! ;\n- les dommages causés aux colonies par les bombardements orbitaux sont réduits de §G75%§! ;\n- les £district£§Hdistricts miniers§! :\n   - ne sont plus limités,\n   - ajoutent §G2§! £housing£§Ylogements§!,\n   - ajoutent §G1§! £building£§Yemplacement constructible§! par palier §Y3§!."
+ trait_cave_dweller:0 "Habitants des cavernes"
+ trait_cave_dweller_desc:0 "§LCette espèce prospère sous la surface de tous les mondes qu'elle colonise, mais se développe moins rapidement.§!"
+ trait_cave_dweller_tooltip: "$MOD_BIO_POP_GROWTH_SPEED$: §R-20%§!"
+
+ START_SCREEN_SUBTERRANEAN:1 "Si toutes les autres créatures sur [GetHomeWorldName] passent leurs nuits dans les étendues sauvages, les prédécesseurs des [GetSpeciesNamePlural] ont bien vite appris tous les avantages qu'il y avait à vivre dans des refuges souterrains, à l'abri de la lumière trop violente et des intempéries.\n\n$START_SCREEN_SUBTERRANEAN_END$"
+ START_SCREEN_SUBTERRANEAN_PLANT:1 "Sur [GetHomeWorldName], les formes de vie ont pris des chemins radicalement différents. Au contraire de toutes celles avec lesquelles nous nous partageons ce monde, qui tirent leur énergie de la lumière stellaire, les [GetSpeciesNamePlural] tirent leurs nutriments des profondeurs du sol, comme le faisaient déjà leurs ancêtres.\n\n$START_SCREEN_SUBTERRANEAN_END$"
+ START_SCREEN_SUBTERRANEAN_LITHOID:0 "Nous sommes nés des profondeurs les plus lointaines de [GetHomeWorldName]. Éloignés de la lumière violente de notre étoile, le chemin qu'a suivi l'espèce [GetSpeciesName] a divergé de celui de nos cousins immobiles, qui sont restés comme des sentinelles au-dessus et tout autour de nous. Contrairement à eux, nous avons acquis la capacité à nous déplacer, à penser, et avons pu donner naissance à une civilisation.\n\n$START_SCREEN_SUBTERRANEAN_END$"
+ START_SCREEN_SUBTERRANEAN_END:1 "Un accès aisé aux minéraux a rapidement permis à nos prédécesseurs de s'industrialiser, d'unifier notre espèce et de faire progresser notre civilisation dans les cavernes. De nombreuses tentatives ont été faites de retourner vers la surface, mais chaque fois cela s'est terminé de façon brutale et impitoyable. Aussi sommes-nous restés enfouis au plus profond du sol, établissant notre domination depuis les fondements mêmes de notre monde.\n\nEt maintenant, avec la découverte de l'hyperpropulseur, nous pouvons lancer notre expérience la plus hardie jusqu'à présent : atteindre les étoiles. Ainsi, tout comme nos aïeux avant nous, nous pourrons continuer de bâtir nos foyers dans l'obscurité."
+ SUBTERRANEAN:0 "souterraine"
+
+ d_subterranean_mines:0 "Mines souterraines"
+ d_subterranean_mines_desc:0 "Cette civilisation s'est développée sous la surface de son monde, ce qui lui a offert un accès privilégié à ses minéraux."
+
+ subterranean_nation_modifier:0 "Civilisation souterraine"
+ subterranean_nation_modifier_desc:0 ""
+
+ leader_trait_subterranean_archaeology:0 "Expertise souterraine"
+ leader_trait_subterranean_archaeology_desc:0 "Cette personnalité est parfaitement accoutumée aux excavations souterraines."
+
+ ##########################
+ # Teachers of the Shroud #
+ ##########################
+
+ origin_shroudwalker_apprentice:0 "Maîtres du Suaire"
+ origin_shroudwalker_apprentice_desc:1 "Longtemps avant qu'elle ne fasse son apparition sur la scène galactique, cette civilisation était guidée et façonnée par une assemblée de Pérégrins du Suaire."
+ START_SCREEN_SHROUDWALKER_APPRENTICE:1 "Les mythes se rapportant à nos aïeux parlent des Maîtres, des êtres d'un grand savoir et d'une grande puissance qui contribuèrent à façonner la civilisation [GetSpeciesName] naissante. Par l'intermédiaire de nos rêves, ils s'adressèrent de loin à nous, partageant leur connaissance du Suaire et de ses enseignements.\n\nOr, les Maîtres nous ont de nouveau contactés. Semant dans nos rêves des visions fantasmagoriques, ils nous ont fourni la clef du voyage interstellaire. En quelques années seulement, la [GetName] a pu construire des vaisseaux capables de traverser le néant.\n\nMais jusqu'où est-il possible d'aller désormais ? Les Maîtres ont fait à plusieurs reprises référence à « une percée dans le Suaire », un trou de ver naturel qui se trouverait à la bordure de leur système natal, qui nous offre un chemin direct pour les rejoindre. Puissent-ils continuer de nous conférer leur sagesse tandis que nous nous aventurons pour la première fois sur la scène galactique."
+ START_SCREEN_SHROUDWALKER_APPRENTICE_CORPORATE:0 "Les fondateurs de notre Église ont beaucoup écrit sur les Maîtres, des êtres d'un grand savoir et d'une grande puissance qui contribuèrent à façonner les premiers écrits sacrés des [GetSpeciesNamePlural]. Par l'intermédiaire de nos rêves, ils s'adressèrent de loin à nous, partageant leur connaissance du Suaire sacré.\n\nOr, les Maîtres nous ont de nouveau contactés. Semant dans nos rêves des visions fantasmagoriques, ils nous ont fourni la clef du voyage interstellaire. En quelques années seulement, la [GetName] a pu construire des vaisseaux capables de propager la sainte vérité à travers les étoiles.\n\nMais notre ambition ne doit pas s'arrêter là. Les Maîtres ont fait à plusieurs reprises référence à « une percée dans le Suaire », un trou de ver naturel qui se trouverait à la bordure de leur système natal. Si nous pouvons faire apparaître ce passage sacré, nous disposerons d'une voie d'accès directe à nos Maîtres. Puissent-ils continuer de nous conférer leur sagesse tandis que nous nous aventurons pour la première fois sur la scène galactique."
+ origin_tooltip_shroudwalker_apprentice_effects:1 "- Reçoit le trait §H$trait_latent_psionic$§! ;\n- dispose de la capacité de construire un §HFlambeau du Suaire§! sur une base stellaire ;\n- lance la partie en étant en contact avec une §Henclave de Pérégrins du Suaire§!."
+
+ origin.5605.name:0 "Disciples fidèles"
+ origin.5605.generic.desc:1 "Disciples, des générations durant nous vous avons instruits, parsemant dans vos rêves notre savoir sur le Suaire et ses mystères. Maintenant que vous avez atteint les étoiles, votre apprentissage véritable approche. Le chemin qui vous attend ne sera pas aisé. Pour l'éclairer, nous vous permettons de connaître le Flambeau du Suaire, un dispositif d'une grande puissance. Une fois construit sur l'une de vos bases stellaires, il fera apparaître une percée dans le Suaire. Choisissez avec grand soin son emplacement, car vous ne pourrez ouvrir d'autres passages semblables.\n\nDans les périodes de besoin et d'incertitude, appelez-nous. Nous veillerons dans vos rêves. Et dans le plan matériel, nous attendrons votre arrivée."
+ origin.5605.corporate.desc:0 "Disciples, des générations durant nous vous avons guidés dans vos rêves. Par vos visions, nous avons façonné votre monde. Désormais, vous voilà prêts à propager notre vérité parmi les étoiles, et votre apprentissage véritable approche. C'est par votre oeuvre que le Suaire sera honoré. Les profits de votre travail seront la réponse à nos enseignements. Pour attiser les feux de l'industrie, nous vous permettons de connaître le Flambeau du Suaire, un dispositif d'une grande puissance. Une fois construit sur l'une de vos bases stellaires, il fera apparaître une percée dans le Suaire. Choisissez avec grand soin son emplacement, car vous ne pourrez ouvrir d'autres passages semblables.\n\nDans les périodes de besoin et d'incertitude, appelez-nous. Nous veillerons dans vos rêves. Et dans le plan matériel, nous attendrons votre arrivée."
+ origin.5605.a:0 "Nous acceptons votre présent avec gratitude"
+ origin.5605.b:0 "Nous l'avons bien mérité"
+ origin.5605.tt:0 "Nous allons aussi bénéficier de :"
+
+ origin.5615.name:0 "Bienvenue, disciples !"
+ origin.5615.a.desc:0 "Disciples, enfin nous pouvons vous accueillir. Les signes et les augures avaient prédit ce moment, et le Suaire lui-même a été témoin de votre passage. Nous avons longuement attendu de pouvoir vous rencontrer dans le domaine des sens. Soyez les bienvenus ici."
+ origin.5620.name:0 "$origin.5615.name$"
+ origin.5620.b.desc:0 "Disciples, enfin nous pouvons vous accueillir. Grâce à la percée préparée il y a si longtemps, votre passage a été ressenti par tout le Suaire. Les échos continuent de s'y répercuter, rebondissant dans les eaux de l'esprit inconscient. Ceux qui résident dans les mystères du Suaire ont assurément béni cette rencontre. Soyez les bienvenus ici."
+
+ origin.5625.name:0 "Le Flambeau brille de mille feux"
+ origin.5625.a.desc:1 "Au terme d'une longue période passée à nous débattre dans les ténèbres, le voile couvrant le Suaire a été levé. Le présent de nos Maîtres est magnifique. Ce Flambeau, par la percée qu'il génère, éclairera assurément notre cheminement à travers les étoiles. Les périples depuis ce système seront bien plus rapides désormais. Et infiniment plus mystérieux aussi..."
+ origin.5625.a.option:0 "Puisse le Suaire faciliter notre passage"
+ origin.5625.b.desc:1 "Au terme d'une longue période passée à nous débattre dans les ténèbres, le voile couvrant le Suaire a été levé. Le présent de nos Maîtres est magnifique. Ce Flambeau, par la percée qu'il génère, éclairera assurément notre cheminement à travers les étoiles.\n\nNe reste donc qu'une dernière chose à régler : la frontière au-delà de laquelle nos Maîtres résident nous est fermée. Tout aussi immatérielles qui puissent sembler des lignes sur une carte dans le Suaire, dans la galaxie elles restent problématiques. Pour l'heure, tout passage par la percée semble donc impossible."
+
+ ################################
+ # Slingshot to the Stars Origin
+ ################################
+
+ origin_star_slingshot:0 "Fronde stellaire"
+ origin_star_slingshot_desc:0 "Les cieux surplombant cette civilisation ont été illuminés par les étoiles filantes, avant que survienne une longue période d'obscurité. Depuis lors, elle aspire à atteindre le ciel pour y trouver des réponses, en commençant par s'intéresser à ce qui s'est avéré être une catapulte quantique abandonnée."
+ START_SCREEN_STAR_SLINGSHOT:0 "Aussi loin que remonte la mémoire des [GetSpeciesNamePlural], nous avons pu voir de temps à autre les cieux être illuminés par d'innombrables étoiles filantes. Jusqu'à il y a peu, nos scientifiques étaient incapables d'expliquer ce phénomène. Mais nous avons commencé à explorer la galaxie, et avons désormais tous les outils à notre disposition pour trouver la source de ces perturbations célestes. Il s'agit d'une structure antique, que les ingénieurs nomment une « catapulte quantique ».\n\n$START_SCREEN_STAR_SLINGSHOT_SECOND_PART$"
+ START_SCREEN_STAR_SLINGSHOT_GESTALT:0 "Aussi loin que remonte la mémoire de la Conscience [GetSpeciesName], nous avons pu voir de temps à autre les cieux être illuminés d'innombrables étoiles filantes, sans comprendre pourtant quelle pouvait être la cause de ce phénomène mystérieux. Mais à mesure que nous nous sommes libérés de l'entrave qu'est [GetHomeWorldName], nous avons acquis les outils indispensables pour trouver la source de ces lumières : une catapulte quantique.\n\n$START_SCREEN_STAR_SLINGSHOT_SECOND_PART$"
+ START_SCREEN_STAR_SLINGSHOT_SECOND_PART:0 "Si elle est désaffectée, en partie en ruine, et abandonnée, nous sommes persuadés qu'elle pourrait être restaurée. Et si elle fonctionne bien comme nous l'imaginons, elle pourrait être le portail qui nous permettra d'atteindre le reste de la galaxie."
+ origin_tooltip_star_slingshot_effects:1 "- Lance la partie avec une §Hcatapulte quantique en ruine§! non loin du système natal, et la technologie nécessaire pour la remettre en service et l'utiliser ;\n- cette catapulte remplace un monde habitable garanti ;\n- les bases stellaires construites dans les systèmes éloignés coûtent §G75%§! d'£influence£influence en moins."
+
+ # Events
+
+ origin.3510.title:0 "Catapulte quantique sous contrôle"
+ origin.3510.desc:0 "La [Root.GetName] s'est enfin assurée du contrôle du système de §Y[From.From.GetName]§!, où se trouve la catapulte quantique brisée. Des ingénieurs peuvent désormais être dépêchés sur le site pour lancer les travaux de réparation indispensable pour remettre cette structure en état de fonctionnement."
+ origin.3510.a:0 "Ce n'est qu'une première étape"
+
+ # Dig Site
+
+ slingshot_digsite:0 "$quantum_catapult_1$"
+ slingshot_digsite_desc:0 "Les ruines d'une mégastructure ont été trouvées dans le système de §Y[From.Planet.System.GetName]§!. Cette construction a désespérément besoin de réparations, et ses banques de données renferment de nombreux aperçus xénologiques. Aussi, le temps qu'il soit décidé s'il vaut la peine de reconstruire cette technologie antique, les archéologues ont l'opportunité d'extraire et rassembler des preuves sur l'origine du dispositif.\n\nUne série de journaux de l'un de ses concepteurs, l'§HArchitecte Quantique§!, semble tout particulièrement prometteuse. Recouvrer ces fichiers contribuerait sans doute à mieux comprendre la culture et l'histoire de ceux qui ont laissé derrière eux cette technologie."
+
+ origin.3515.name:0 "Mille points de lumière"
+ origin.3515.desc:0 "Parmi les esquisses et les schémas, un étrange document concernant la §Ycatapulte quantique§! a été découvert.\n\nExtrait des fichiers personnels de l'§HArchitecte Quantique§!.\n\n« Au commencement, nous résidions dans les ténèbres. Les dieux avaient dit "Que l'obscurité soit", et l'obscurité avait été. Lorsque nos plus lointains aïeux ont acquis l'étincelle de la conscience, ils ont fouillé les cieux à la recherche de signes de vie, d'une signification, mais au-dessus de nous n'étaient que les ténèbres. À mesure que nous nous érigions en civilisation, nos esprits scrutaient les ombres de la nuit. Nous oeuvrions en ces lieux où nous avions construit nos premières cités, cherchant sans cesse à éprouver leurs fondements.\n\n» Et, des millénaires plus tard, j'ai eu la témérité de regarder là-haut. Tandis que tous les autres ne se consacraient qu'à ce qui se trouvait sous eux, mon esprit s'ouvrait à ce ciel qui nous surplombait. Érigeant un temple d'acier et de circuits, je forgeais mes propres outils, poussé par la lumière de mon intellect. Perfectionnant toujours plus ce dédale de diodes et de condensateurs, je projetais ma conscience à travers le cosmos, percevant quelque chose au-delà des étendues sombres du ciel qui voilait notre monde.\n\n» Car je pouvais sentir plus que tout autre que nous n'étions pas seuls dans l'univers. Même si c'était comme à travers une glace noircie, je pouvais détecter des milliers d'autres mondes. Je pouvais sentir l'impossible. Au-delà de la nuit brillaient mille de points de lumière. »"
+ origin.3520.name:0 "Venu des ténèbres"
+ origin.3520.desc:0 "En poursuivant les fouilles des données afin de déchiffrer les plans de la §Ycatapulte quantique§!, l'expédition a retrouvé de nouveaux extraits de ce qui ressemble à un texte de nature religieuse.\n\nExtrait des dossiers personnels de l'§HArchitecte Quantique§!.\n\n« J'énonçais la vérité, et mon peuple répondait par le chaos. Chacun de nous oeuvre dans le brouillard de ses pensées et de ses émotions. Nous tentons bien de nous atteindre les uns les autres, mais tant parmi nous restent isolés. Nos dieux ont créé un monde à partir des ténèbres, dit-on, et nous sommes censés être le coeur de leur création.\n\n» Parce que j'ai osé rêver de mondes au-delà, on a dit que ma vision était un mensonge. "Qui parmi nous tous serait en mesure de confirmer ces rêves ?" ont demandé les autres. "Comment croire en ce qui ne peut être prouvé ?" ajoutaient-ils encore. En réponse, je guidais ceux qui étaient prêts à écouter jusqu'à mon laboratoire. Les esprits les plus brillants percevaient bien un reflet de ce que j'avais éprouvé : d'autres mondes, par-delà le voile de la nuit.\n\n» Les esprits les plus sombres ont forgé d'autres réponses, élaboré de nouveaux arguments, empoigné des armes mortelles. Des esprits dangereux ont chanté que notre monde se trouvait en grand danger, car nous n'étions plus les créatures chéries des dieux. Et pourtant, je connais la vérité : l'illumination de la Création était une vaste fresque. En admirant la majesté du cosmos, j'étais balayé par les vagues de l'extase, et perdait mon identité. »"
+ origin.3525.name:0 "Lumières"
+ origin.3525.desc:0 "D'autres écrits de ce personnage quasi messianique lié à la §Ycatapulte quantique§! ont été retrouvés.\n\nExtrait des fichiers personnels de l'§HArchitecte Quantique§!.\n\n« Tourmenté et convoqué par un cosmos sans limites, je songeais aux moyens de voyager jusqu'à ces mondes si lointains, de les contempler par moi-même. Enveloppés au-delà de la nuit perpétuelle, d'autres esprits rêvaient, et je cherchais la communion avec eux. Au-delà d'une profonde obscurité, une grande lumière me guidait, me soumettant à la tentation et aux révélations infinies. Ainsi mon esprit s'aventurait-il toujours plus loin dans l'inconnu...\n\n» Mais ce qui est là-haut se reflète ici-bas. Mes visions célestes m'apportaient la plus grande joie, tandis qu'ici je rencontrais une personne qui m'assurait de la même libération du bonheur. Je m'attachais profondément à une autre scientifique, une visionnaire parlant d'autres moyens de chercher ces étoiles que j'avais senties dans mes rêves.\n\n» Nous fîmes bien davantage que partager une vision commune. Nous nous liâmes l'un à l'autre, comme partenaires, aussi longtemps que dureraient nos jours. Et tandis que nos travaux progressaient, nous restions chaque nuit plus tard. Ma partenaire rêvait de concevoir des vaisseaux spatiaux, gravant dans la cire de ses planches à dessin les ébauches de vaisseaux propulsés par l'énergie stellaire. Quant à moi, je jouais avec mes circuits, m'efforçant d'unir mon esprit à l'infini. Plus loin je m'aventurais, plus mon extase grandissait. Quel bonheur que les transports d'une éternité sans bornes ! »"
+ origin.3530.name:0 "À travers les étoiles"
+ origin.3530.desc:0 "Extrait des fichiers personnels de l'§HArchitecte Quantique§!, époux de la §HCharpentière Cosmique§!.\n\n« Ma partenaire était si patiente, et moi si fougueux. Ma chère avait les sciences et la logique, moi mes rêves psychiques. Toujours plus avant dans la nuit, je tentais vainement de projeter ma conscience dans le néant. Je négligeais le sommeil. Je négligeais la nourriture. Je négligeais ma tendre. Tandis que nous poursuivions notre rêve de nous aventurer dans le cosmos, un gouffre se fit jour entre nous.\n\n» Mon aimée trouva des mots pour ce phénomène : l'enchevêtrement quantique. Mon corps était présent ici, mais mon âme à des éternités de là, cherchant désespérément cette extase et la communion avec l'éternel. Mon adorée me disait de nouvelles paroles, mais je ne l'écoutais pas. "Mon aimé, reviens-moi !" appelait-elle, mais je ne pouvais rien entendre d'autre que les échos des étoiles.\n\n» Bientôt vint le moment de mettre à l'épreuve son vaisseau stellaire. Je me portais volontaire pour le manoeuvrer. Et tandis que je me tiens à la barre pour le premier vol, je rêve d'une course jusqu'à des côtes lointaines, mon esprit ici et mon corps là-bas.\n\n» Mon aimée est impassible, mais je vais lui offrir l'infini, une piste flamboyante vers l'éternité. Je vais lui offrir les rêves d'un millier de mondes. »"
+ origin.3535.name:0 "Souvenirs"
+ origin.3535.desc:0 "Extrait des fichiers personnels de la §HCharpentière Cosmique§!.\n\n« Notre premier vaisseau stellaire a disparu il y a un an. Nous ne savons toujours pas précisément ce qu'il s'est passé. Mon aimé, l'Architecte Cosmique, a laissé derrière lui son héritage et ses mystères. Aussi loin qu'il dérivera, mon amour sera uni enfin au cosmos. À la barre de notre premier vaisseau, il s'unira à l'infini, submergé par la contemplation psychique extatique des cieux. Notre vaisseau n'est jamais revenu.\n\n» J'oeuvre désormais avec mes propres outils si grossiers, restés là pour reprendre mon labeur et ma vie, les relever des ruines. Davantage de mes vaisseaux stellaires ont entamé leur périple dans la Grande Nuit. J'ai commencé à concevoir des moteurs plus élaborés, des prototypes pouvant propulser nos vaisseaux dans l'hyperespace. Et, certaines nuits, je rêve d'une technologie qui offrirait de bondir vers les étoiles, nous propulsant vers l'inconnu, comme l'âme et l'esprit de mon aimé perdu.\n\n» Tandis que je cherche à atteindre la lumière, je refuse de succomber aux ténèbres. Je suis assise dans le laboratoire de mon aimé, tout comme en ce moment même, lisant ses journaux et rédigeant le mien. Et, parfois, lorsque tout n'est plus qu'obscurité, je tente de lancer mon propre esprit à travers le cosmos. L'infini m'appelle. »"
+ origin.3540.name:0 "Quantification"
+ origin.3540.desc:0 "Les derniers éléments des plans de la structure de la §Ycatapulte cosmique§! ont enfin été retrouvés, mais aussi un ultime texte.\n\nExtrait des fichiers personnels de la §HCharpentière Cosmique§!, veuve de l'§HArchitecte Quantique§!.\n\n« Nous avons cherché des moyens d'employer les inventions de mon aimé, ses créations quantiques. Je me demande toujours si nous pourrons emprunter ce même chemin si téméraire, poussés par les conceptions de l'Architecte Quantique, mais quant à moi je vais vers les étoiles bien plus lentement. Je cherche une vague à chevaucher pour franchir l'hyperespace, un courant qui nous portera jusqu'à des côtes lointaines.\n\n» Mes vaisseaux empruntent une route plus lente, mais jusque tard dans la nuit je lis les journaux de mon aimé, luttant pour dompter ses calculs et ses mécanismes. Et tandis que mon esprit se projette vers l'éternité, je sais au plus profond de mon coeur que mon aimé est toujours là-bas. Il a laissé une trace flamboyante vers le ciel, que je dois suivre.\n\n» Ma perte m'a offert l'inspiration. Nous avons commencé à élaborer une gigantesque machine qui propulsera nos vaisseaux à travers la galaxie, tout comme mon aimé a bondi dans l'infini. Et, à un moment ou un autre, je ferai ce qu'il a déjà fait lui-même avant moi. Au moment de partir, je demanderai humblement que ce mécanisme cosmique et toutes ses reproductions incluent les journaux personnels de l'Architecte Quantique. Il ne fait aucun doute que lorsque d'autres liront cela, mon âme aura déjà pris son envol. J'aurais trouvé le moyen de rejoindre mon aimé là-bas, dans les étendues sans bornes. Car je sais que nous serons ensemble dans l'éternité, rêvant et dérivant côte à côte à travers mille points de lumière. »"
+ origin.3515.a:0 "Il faut trouver d'autres fichiers"
+ origin.3540.a:0 "L'infini nous appelle"
+ infinity_beckons:0 "$origin.3540.a$"
+# infinity_beckons_desc:0 "TODO"
+ into_the_unknown:0 "En route pour l'inconnu"
+ into_the_unknown_desc:0 "Par son histoire et ses origines, l'empire est tourné vers l'exploration de l'espace lointain."
+
+ ##########################
+ # Imperial Vassal Origin #
+ ##########################
+ origin_imperial_vassal:0 "Fief impérial"
+ origin_imperial_vassal_desc:0 "Nos premiers pas au-delà de notre planète natale ont été douloureux. Nous avons été assujettis, soumis aux caprices d'une puissance galactique alien. Mais nos regards se portent désormais vers un avenir, aussi lointain soit-il, dans lequel nous ne devrons plus vivre sous le joug d'un autre empire."
+ START_SCREEN_IMPERIAL_VASSAL:0 "Alors même que nous nous apprêtions à sortir de notre système natal pour la première fois, nous sommes entrés en contact avec un empire alien qui exigea des [GetSpeciesNamePlural] la soumission. Si c'est un souvenir douloureux pour nous, nous avons beaucoup appris depuis que nous nous sommes soumis, la relation avec notre puissance suzeraine s'avérant plus bénéfique que nous aurions pu l'espérer.\n\nDe fait, la [GetName] n'est pas la seule à devoir se soumettre, et nous avons ainsi pu rencontrer des diplomates et ambassadeurs de plusieurs autres dépendances. Et si nous ne sommes pas toujours pleinement en accord avec certains d'entre eux, ils devraient pour l'heure être des alliés utiles.\n\nEt si nous aspirons à être un jour capables de décider par nous-mêmes de notre avenir, nous nous contenterons pour l'instant de rester loyaux, afin de tirer les plus grands avantages de la situation qui nous a été imposée."
+ origin_tooltip_imperial_vassal_effects:0 "- Lance la partie comme vassale d'un §Hempire I.A. avancé§! ;\n- a la possibilité de devenir une §Hdépendance spécialisée§! au lancement."
+
+ # AI Overlord Version
+ origin_imperial_vassal_overlord:0 "Suzeraineté impériale"
+ origin_imperial_vassal_overlord_desc:0 "Une civilisation suzeraine ambitieuse ayant consacré son temps et ses efforts à soumettre ses voisins immédiats afin qu'ils servent le moindre de ses besoins. Mais elle cède de plus en plus à la nonchalance en confiant des responsabilités toujours plus importantes à ses vassales."
+ origin_tooltip_imperial_vassal_overlord_effects:0 "- Commence la partie en tant qu'§Hempire avancé§! ;\n- commence la partie avec plusieurs vassales."
+
+ # Personalities
+ personality_imperial_origin_overlord_ai:0 "Suzerains nonchalants"
+ personality_imperial_origin_overlord_ai_desc:0 "Un empire se reposant sur ses vassales, rarement intéressé par ce qui se passe hors de son système natal. Il ne s'attaque pas aux autres civilisations et s'il n'y est pas contraint ne cherche pas à étendre son espace."
+
+ # Modifiers
+ imperial_vassal_ai_modifier:0 "Dîme impériale"
+ imperial_vassal_ai_modifier_desc:0 "La bonne tenue au jour le jour d'une administration impériale requiert un effort considérable du corps diplomatique de toutes les parties impliquées."
+
+ # Wars
+ NAME_Imperial_War:0 "Guerre civile impériale"
+
+ # Events
+ origin.5703.desc:0 "Toutes nos salutations, chers [Root.GetSpeciesNamePlural] !\n\nMaintenant que vous avez choisi de prendre part à notre... alliance, nous devions vous contacter. Nous sommes heureux que vous ayez fait le choix de la sagesse, plutôt que de nous contraindre à recourir à des moyens plus coercitifs."
+ origin.5703.a:0 "Vous ne nous avez guère laissé le choix..."
+ dialog_hostile_overlord:0 "Nous allons adopter une attitude §Rhostile§! envers la §Y[overlord_empire.GetName]§!."
+ opinion_imperial_vassal_harsh_response_overlord_opinion:0 "Réponse hostile à la suzeraine "
+ origin.5703.b:0 "Vouliez-vous nous parler de quelque chose en particulier ?"
+ dialog_wary_overlord:0 "Nous allons adopter une attitude §Yneutre§! envers la §Y[overlord_empire.GetName]§!."
+ origin.5703.c:0 "Nous sommes honorés de nous compter parmi vos alliés"
+ dialog_friendly_overlord:0 "Nous allons adopter une attitude §Gamicale§! envers la §Y[overlord_empire.GetName]§!."
+ opinion_imperial_vassal_grateful_response_overlord_opinion:0 "Réponse amicale à la suzeraine "
+
+ origin.5705.desc.harsh:0 "Humm... Quoi qu'il en soit...\n\n$origin.5705.desc$"
+ origin.5705.desc.grateful:0 "C'est nous qui sommes honorés de pouvoir vous compter parmi les amis de la [overlord_empire.GetName].\n\n$origin.5705.desc$"
+ origin.5705.desc:0 "Après y avoir mûrement réfléchi, nous avons décidé d'investir une quantité conséquente de ressources afin de vous aider à spécialiser votre empire. Cela devrait ainsi vous permettre de jouer un rôle important à l'avenir, pour tous nos alliés et amis.\n\nMalgré tout, nous ne savions pas quel serait le choix que vous autres [Root.GetSpeciesNamePlural] privilégieraient. Préféreriez-vous renforcer votre militarisation, mener des recherches ? À moins que vous ne préfériez excaver et produire des minéraux et développer votre industrie ?"
+ origin.5705.desc.reconsider:0 "Or donc... Avez-vous pris une décision ?"
+ origin.5705.a:0 "Un contrat orienté sur le militaire nous conviendrait parfaitement"
+ origin.5705.a.tt:2 "La §Y[Root.GetName]§! va devenir une £bulwark£§Ymarche§!, centrée sur les capacités militaires et la défense, et devra verser pour son expansion une dîme en $r_influence_lower$ à la §Y[overlord_empire.GetName]§!.\nEn retour, celle-ci va lui octroyer une flotte de §Ydestroyers§! ainsi que la technologie permettant d'en construire d'autres."
+ origin.5705.b:0 "Qu'implique exactement de devenir une marche ?"
+ origin.5705.c:0 "Par nature, nous nous intéressons beaucoup aux sciences"
+ origin.5705.c.tt:1 "La §Y[Root.GetName]§! va devenir une £scholarium£§Ytechnopole§!, centrée sur la recherche et la technologie, et devra verser pour son expansion une §Ydîme§! en $r_influence_lower$ à la §Y[overlord_empire.GetName]§!.\nEn retour, celle-ci va lui octroyer un §Yscientifique§! et un §Yvaisseau scientifique§!."
+ origin.5705.d:0 "Qu'implique exactement de devenir une technopole ?"
+ origin.5705.e:0 "Seuls nous intéressent les minéraux"
+ origin.5705.e.tt:1 "La §Y[Root.GetName]§! va devenir une £prospectorium£§Yexploitation§!, centrée sur la production minière et les ressources stratégiques, et devra verser pour son expansion une §Ydîme§! en $r_influence_lower$ à la §Y[overlord_empire.GetName]§!.\nEn retour, celle-ci va lui octroyer 2 §Yvaisseaux de construction§!."
+ origin.5705.f:0 "Qu'implique exactement de devenir une exploitation ?"
+
+ origin.5706.desc:0 "Les [Root.GetSpeciesNamePlural] sont mus par des tendances violentes, n'est-ce pas ?\n\nUne marche, comme nous qualifions généralement ce type de dépendance, est un empire spécialisé dans la chose militaire et la défense. Nous veillerons quant à nous à vous fournir des minéraux et de la nourriture, chaque mois, afin que vous puissiez consacrer pleinement toute votre attention aux affaires militaires.\n\nEn retour, nous vous demanderons de contribuer à la défense de la [overlord_empire.GetName] face aux menaces extérieures, aussi jouerez-vous un rôle important sur les bordures de l'espace allié. Ce type de contrat vous siérait-il ?"
+ origin.5706.a:0 "Cela semble tout à fait nous convenir"
+ origin.5706.b:0 "Nous aimerions réfléchir davantage à la question..."
+
+ origin.5707.desc:0 "Nous avons éveillé votre intérêt, n'est-ce pas ?\n\nUne technopole, comme nous qualifions ce type de dépendance, est un empire spécialisé dans la recherche et les sciences. Nous nous engagerions à assurer votre protection afin que vous puissiez consacrer l'essentiel de vos ressources à la recherche.\n\nEn retour, nous vous demanderions de partager avec nous et nos alliés toutes vos avancées technologiques. Ce type de contrat vous siérait-il ?"
+ origin.5707.a:0 "Ce contrat nous paraît des plus prometteurs"
+ origin.5707.b:0 "$origin.5706.b$"
+
+ origin.5708.desc:1 "Les [Root.GetSpeciesNamePlural] sont visiblement toujours intéressés, dans tous les sens du terme...\n\nUne exploitation, comme nous qualifions ce type de dépendance, est un empire spécialisé dans la prospection des minéraux et la fabrication de ressources stratégiques, ce qui a souvent des effets néfastes quant à ses avancées scientifiques. Mais dotées des bons outils, certaines exploitations ont été capables de localiser des minéraux là où d'autres n'ont jamais rien trouvé. C'est du moins ce que disent les rumeurs.\n\nCe type de contrat vous siérait-il ?"
+ origin.5708.a:0 "Cela paraît nous convenir tout à fait"
+ origin.5708.b:0 "$origin.5706.b$"
+
+ origin.5710.title:0 "Décider de notre avenir"
+ origin.5710.desc:0 "Une petite ambassade diplomatique vient de nous être envoyée par la §Y[overlord_empire.GetName]§!, porteuse de nouvelles et de ses dernières exigences. La [Root.GetName] n'étant soumise que depuis peu à sa volonté, elle souhaiterait définir plus précisément la relation qui nous lie en définissant un contrat plus précis et élaboré."
+
+ # Dissolution of the Empire events
+ origin.5725.title:0 "Succession contestée"
+ origin.5725.desc:0 "Des nouvelles viennent d'arriver de §Y[Root.Overlord.Capital.GetName]§! : la disparition soudaine de feu [overlord_ruler.GetName] provoque la plus grande confusion dans la §H[Root.Overlord.GetName]§!. Aussi impopulaire soit-[overlord_heir.GetSheHe], [overlord_heir.GetName] a pu monter sur le trône grâce au soutien des militaires ; mais les nombreux rivaux qu'[overlord_heir.GetSheHe] compte parmi ses parents et dans l'empire lui en contestent le droit.\n\nAvec cette accession troublée au pouvoir, nombreux sont ceux qui commencent à remettre en cause la légitimité des [Root.Overlord.GetSpeciesNamePlural] à nous imposer leur autorité. De fait, la question se pose désormais : s'ils sont incapables de préserver le calme sur [Root.Overlord.Capital.GetName], comment donc pourraient-ils assurer la sécurité de la [Root.GetName] ?"
+ origin.5725.a:0 "Si le coeur est pourri, le reste suivra bientôt..."
+
+ origin.5735.title:0 "Implosion de la [previous_overlord.GetName]"
+ origin.5735.desc:0 "Nul n'a plus les moyens désormais de maintenir cet édifice qu'était la §Y[previous_overlord.GetName]§!, et l'empire est désormais divisé entre plusieurs entités issues de son démembrement, chacune prétendant détenir le droit de gouverner les autres, toutes prêtes à se déchirer pour imposer leur pouvoir.\n\nMais, maintenant dépourvus de la puissance ou de la légitimité qui était jadis les leur, le contrôle des [previous_overlord.GetSpeciesNamePlural] sur leurs anciens vassaux est réduit à néant. À ces derniers de décider maintenant ce qu'ils feront de leur avenir. Et, peut-être, de leur indépendance retrouvée..."
+ origin.5735.a:0 "Ainsi retrouvons-nous la liberté !"
+ origin.5735.b:0 "Le pouvoir doit bien revenir à quelqu'un..."
+ origin.5735.b.tt:0 "Alloue pour §Y30 ans§! le casus belli §Y$casus_belli_cb_subjugation$§! à l'encontre de la §Y[previous_overlord.GetName]§! et de toutes ses anciennes dépendances."
+
+ # AI Vassals looking for new overlord events
+ origin.5745.title:0 "Protection des sciences"
+ origin.5745.desc:0 "La §Y[new_subject_target.GetName]§! se soucie peu de ce qui s'étend en dehors de son espace, mais est bien consciente que les événements actuels pourraient la contraindre à se détourner de ces recherches qu'elle estime si cruciales. Elle vient donc de demander à bénéficier de la protection de la [Root.GetName], tout comme la [previous_overlord.GetName] le faisait jadis."
+ origin.5745.a:0 "Cela sera d'un grand avantage pour nous"
+ origin.5745.b:0 "À quoi bon nous soucier de ces intellos ?"
+
+ origin.5750.title:0 "Princes-électeurs réunis"
+ origin.5750.desc:0 "Les princes-électeurs de la §Y[new_subject_target.GetName]§! sont réputés pour leurs querelles incessantes, tous n'aspirant qu'à imposer leur influence et conspirant sans fin pour gagner en puissance. Mais, pour une fois, ils semblent s'être accordés sur une chose, et ont dépêché des émissaires sur [Root.Capital.GetName] pour contracter un accord avec nous. Leur souhait, semble-t-il, est que la [Root.GetName] assure désormais leur protection, tout comme la [previous_overlord.GetName] le faisait autrefois."
+ origin.5750.a:0 "Si pour une fois ils s'entendent sur quelque chose..."
+ origin.5750.b:0 "C'est sûr, ces intrigants mijotent quelque chose..."
+
+ origin.5755.title:0 "Délégation de la [new_subject_target.GetName]"
+ origin.5755.desc:0 "La §Y[new_subject_target.GetName]§! était particulièrement proche de notre suzeraine commune, la [previous_overlord.GetName], avant son implosion. Or, elle semble désireuse aujourd'hui d'établir une relation semblable avec nous. Elle vient ainsi de dépêcher plusieurs diplomates pour négocier les termes d'un accord avec la [Root.GetName], qui permettra de définir à l'avenir nos relations mutuelles."
+ origin.5755.a:0 "Un tel accord serait bénéfique pour les deux parties"
+ origin.5755.b:0 "Nous n'avons rien à discuter avec eux"
+
+ origin.5760.title:0 "Des crédits pour une flotte"
+ origin.5760.desc:0 "Les marchés de [new_subject_target.Capital.GetName] semblent être en proie à la plus vive agitation depuis la dissolution de la [previous_overlord.GetName] et la fin de la protection qu'elle accordait à ces princes marchands. Plusieurs d'entre eux nous ont ainsi fait parvenir des propositions, visant à nous assurer de la soumission de la §Y[new_subject_target.GetName]§! et même d'une part de ses profits si la [Root.GetName] consentait à intervenir pour stabiliser sa situation intérieure."
+ origin.5760.a:0 "Tant qu'ils peuvent se départir de quelques crédits..."
+ origin.5760.b:0 "Que nous importe toute leur fortune ?"
+
+ #########################
+ # Mercenary Enclave
+ #########################
+
+ FLEET_LEASED_OUT:0 "La $FLEET|Y$ a été louée à la $COUNTRY|Y$ pour une durée de $DAYS|Y$£time£"
+ FLEET_RETURNED:0 "Le contrat de location de la $FLEET|Y$ a été rompu. La flotte est donc de nouveau contrôlée par la $COUNTRY|Y$, qui la possède."
+ FLEET_CONTRACT_PROLONGED:0 "Le contrat de location de la $FLEET|Y$ a été prolongé pour $DAYS|Y$£time£"
+ TRIGGER_IS_LEASED:0 "La $FLEET|Y$ est louée"
+ TRIGGER_IS_NOT_LEASED:0 "La $FLEET|Y$ n'est PAS louée"
+ TRIGGER_LEASE_DAYS:0 "Durée de location de la $FLEET|Y$ $COMPARE$e à $VALUE|Y$"
+ TRIGGER_LEASE_DAYS_NOT:0 "Durée de location de la $FLEET|Y$ PAS $COMPARE$e à $VALUE|Y$"
+
+ #########################
+ # Galcom Resolutions
+ #########################
+
+ resolution_category_defenseprivatization:0 "Privatisation de la défense"
+
+ resolution_defenseprivatization_repeal_1:0 "§RAbrogation de la contractualisation de la sécurité§!"
+ resolution_defenseprivatization_repeal_1_desc:0 "Le professionnalisme des compagnies privées de défense est indéniable, mais les membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] ne peuvent se reposer trop sur des privés pour maintenir la paix et la sécurité."
+ resolution_defenseprivatization_repeal_2:0 "§RAbrogation de la contractualisation renforcée de la sécurité§!"
+ resolution_defenseprivatization_repeal_2_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_3:0 "§RAbrogation de la défense indépendante§!"
+ resolution_defenseprivatization_repeal_3_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_4:0 "§RAbrogation de la gestion galactique des risques§!"
+ resolution_defenseprivatization_repeal_4_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_5:0 "§RAbrogation de la privatisation du maintien de la paix§!"
+ resolution_defenseprivatization_repeal_5_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+
+ resolution_defenseprivatization_defense_contracts:0 "Contractualisation de la sécurité"
+ resolution_defenseprivatization_defense_contracts_desc:0 "Afin d'assurer le maintien de la sécurité galactique, des ressources doivent être investies dans des compagnies indépendantes de sécurité. Ces professionnels entraînés et indépendants de toute considération politique permettront ainsi d'organiser la défense des membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]."
+ resolution_defenseprivatization_private_support_troops:0 "Contractualisation renforcée de la sécurité"
+ resolution_defenseprivatization_private_support_troops_desc:0 "Alors que l'échelle des conflits s'aggrave, les partenaires de sécurité privés doivent avoir les moyens de faire ce qu'ils savent faire : préserver la sécurité des membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]."
+ resolution_defenseprivatization_condottieri:0 "Défense indépendante"
+ resolution_defenseprivatization_condottieri_desc:0 "Les guerres sont sans doute inévitables, mais les dommages collatéraux ne le sont pas. En confiant la défense de ses membres à des spécialistes de la question, [global_event_country.GetLeLaLCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] est certain[global_event_country.GetXECommGalEmpGal] de limiter grandement les crimes de guerre."
+ resolution_defenseprivatization_security_business:0 "Gestion galactique des risques"
+ resolution_defenseprivatization_security_business_desc:0 "Malgré tous les efforts en ce sens, la galaxie est toujours en proie à des conflits idéologiques. Puisque les membres [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] ne peuvent s'empêcher de se livrer des conflits mesquins, la réduction de leurs forces armées aidera donc les contractuels de défense neutres à préserver plus efficacement la paix."
+ resolution_defenseprivatization_corporate_warlords:0 "Privatisation du maintien de la paix"
+ resolution_defenseprivatization_corporate_warlords_desc:0 "« $enclave.235.4.desc$ »"
+
+ resolution_defenseprivatization_repeal_1_effect_success:0 "Abroge la résolution §Y$resolution_defenseprivatization_defense_contracts$§!."
+ resolution_defenseprivatization_repeal_2_effect_success:0 "Abroge la résolution §Y$resolution_defenseprivatization_private_support_troops$§! tout en conservant la loi galactique §Y$resolution_defenseprivatization_defense_contracts$§!."
+ resolution_defenseprivatization_repeal_3_effect_success:0 "Abroge la résolution §Y$resolution_defenseprivatization_condottieri$§! tout en conservant la loi galactique §Y$resolution_defenseprivatization_private_support_troops$§!."
+ resolution_defenseprivatization_repeal_4_effect_success:0 "Abroge la résolution §Y$resolution_defenseprivatization_security_business$§! tout en conservant la loi galactique §Y$resolution_defenseprivatization_condottieri$§!."
+ resolution_defenseprivatization_repeal_5_effect_success:0 "Abroge la résolution §Y$resolution_defenseprivatization_corporate_warlords$§! tout en conservant la loi galactique §Y$resolution_defenseprivatization_security_business$§!."
+ resolution_defenseprivatization_defense_contracts_tooltip:1 "Pour toutes les enclaves de §YMercenaires§!, §G+10§! en £navy_size£capacité navale.\n§YDividendes des Mercenaires§! plus fréquents.\nLes §Yflottes louées par les Mercenaires§! mobilisent §G5%§! de £navy_size£capacité navale en moins mais ont un entretien en £energy£ accru de §R10%§!."
+ resolution_defenseprivatization_private_support_troops_tooltip:1 "Pour toutes les enclaves de §YMercenaires§!, §G+20§! en £navy_size£capacité navale.\n§YDividendes des Mercenaires§! plus fréquents.\nLes §Yflottes louées par les Mercenaires§! mobilisent §G10%§! de £navy_size£capacité navale en moins mais ont un entretien en £energy£ accru de §R20%§!."
+ resolution_defenseprivatization_condottieri_tooltip:1 "Pour toutes les enclaves de §YMercenaires§!, §G+30§! en £navy_size£capacité navale.\n§YDividendes des Mercenaires§! plus fréquents.\nLes §Yflottes louées par les Mercenaires§! mobilisent §G15%§! de £navy_size£capacité navale en moins mais ont un entretien en £energy£ accru de §R30%§!.\n\n$resolution_defenseprivatization_breach$"
+ resolution_defenseprivatization_security_business_tooltip:1 "Pour toutes les enclaves de §YMercenaires§!, §G+40§! en £navy_size£capacité navale.\nLes §Yflottes louées par les Mercenaires§! mobilisent §G20%§! de £navy_size£capacité navale en moins mais ont un entretien en £energy£ accru de §R40%§!.\n§YDividendes des Mercenaires§! plus fréquents.\nSi une §Yflotte de Mercenaires§! est louée, §G+20%§! en £diplo_weight£§Ypoids diplomatique§!.\n\n$resolution_defenseprivatization_breach$"
+ resolution_defenseprivatization_corporate_warlords_tooltip:1 "Pour toutes les enclaves de §YMercenaires§!, §G+50§! en £navy_size£capacité navale.\nLes §Yflottes louées par les Mercenaires§! mobilisent §G25%§! de £navy_size£capacité navale en moins mais ont un entretien en £energy£ accru de §R50%§!.\n§YDividendes des Mercenaires§! plus fréquents.\nSi une §Yflotte de Mercenaires§! est louée, §G+40%§! en £diplo_weight£§Ypoids diplomatique§!.\n\n§YNe pas solder de Mercenaires§! est §Rprohibé§!."
+
+ resolution_defenseprivatization_breach:0 "§YÊtre en guerre sans solder de Mercenaires§! est §Rprohibé§!."
+ resolution_defenseprivatization_defense_contracts_merc_naval_cap:0 "£navy_size£Capacité navale par les résolutions "
+ resolution_defenseprivatization_private_support_troops_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_condottieri_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_security_business_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_corporate_warlords_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_security_business_merc_hired:0 "$resolution_defenseprivatization_security_business$ "
+ resolution_defenseprivatization_corporate_warlords_merc_hired:0 "$resolution_defenseprivatization_corporate_warlords$ "
+
+ # Suzerains & Sovereignty
+ not_allowed_for_galcom_resolution:0 "§RCette clause est prohibée par une résolution de la Communauté galactique.§!"
+ galcom_tooltip_no_independent_sensors:0 "La clause sur les §Ycapteurs isolés§! n'est plus recevable dans les contrats entre membres de la Communauté galactique."
+ galcom_tooltip_no_independent_diplomacy:0 "La clause sur l'§Yindépendance diplomatique des dépendances§! n'est plus recevable dans les contrats entre membres de la Communauté galactique."
+ galcom_tooltip_no_integration_permitted:0 "La clause sur l'§Yintégration des dépendances§! n'est plus recevable dans les contrats entre membres de la Communauté galactique."
+ galcom_tooltip_no_expansion_prohibited:0 "La clause interdisant §Yl'expansion des dépendances§! n'est plus recevable dans les contrats entre membres de la Communauté galactique."
+ galcom_tooltip_no_expansion_regulated:0 "La clause sur l'§Yexpansion réglementée des dépendances§! n'est plus recevable dans les contrats entre membres de la Communauté galactique."
+ galcom_tooltip_no_limited_diplomacy:0 "La clause imposant des §Yrestrictions diplomatiques aux dépendances§! n'est plus recevable dans les contrats entre membres de la Communauté galactique."
+ galcom_tooltip_no_holdings_3:0 "La clause portant à §Y3§! le §Ynombre de possessions§! dans leurs dépendances n'est plus recevable pour les suzeraines membres de la Communauté galactique."
+ galcom_tooltip_no_holdings_4:0 "La clause portant à §Y4§! le §Ynombre de possessions§! dans leurs dépendances n'est plus recevable pour les suzeraines membres de la Communauté galactique."
+ galcom_tooltip_strengthened_specialists:0 "Amélioration des §Ybases stellaires§! et §Yplateformes défensives§! des £bulwark£§Ymarches§!.\nAmélioration des §Ycapteurs planétaires§! des £scholarium£§Ytechnopoles§!.\nAmélioration des §Ydécouvertes de ressources§! par les £prospectorium£§Yexploitations§!."
+
+ galcom_tooltip_ethics_tier_1:0 "Attractivité de §Y25%§! des éthiques des suzeraines fanatiques pour leurs dépendances."
+ galcom_tooltip_ethics_tier_2:0 "Attractivité de §Y50%§! des éthiques des suzeraines fanatiques pour leurs dépendances."
+ galcom_tooltip_ethics_tier_3:0 "Attractivité de §Y75%§! des éthiques des suzeraines fanatiques pour leurs dépendances."
+
+ galcom_is_subject:0 "Est une dépendance"
+ galcom_is_overlord:0 "Est une suzeraine"
+
+ suzerains_sovereignty:1 "Suzeraineté et souveraineté"
+
+ resolution_category_intergalacticdirective:0 "Directives intergalactiques"
+ resolution_category_bureaucraticsurveillance:0 "Surveillance administrative"
+
+ resolution_intergalacticdirective_regulated_growth:0 "Réglementation de l'expansion"
+ resolution_intergalacticdirective_regulated_growth_desc:0 "En soumettant à des réglementations l'expansion territoriale des membres de la Communauté galactique, il est possible d'assurer le maintien de la paix et de relations cordiales. Certains trouveront certes la paperasserie étouffante, mais cela profitera à tous."
+ resolution_intergalacticdirective_ensured_sovereignty:0 "Respect de la souveraineté"
+ resolution_intergalacticdirective_ensured_sovereignty_desc:0 "La Communauté galactique doit mettre en oeuvre des directives destinées à assurer la souveraineté de ses membres, notamment ceux dont l'intégrité territoriale a déjà été bafouée."
+ resolution_intergalacticdirective_a_voice_for_all:0 "Une voix pour tous"
+ resolution_intergalacticdirective_a_voice_for_all_desc:0 "Tout doit être fait pour veiller à ce que chaque membre de la Communauté galactique puisse avoir son mot à dire sur l'avenir de son propre empire."
+
+ resolution_intergalacticdirective_repeal_1:0 "§RAbrogation de la réglementation de l'expansion§!"
+ resolution_intergalacticdirective_repeal_1_desc:0 "S'il est naturel que les membres exigent de voir leurs frontières respectées, les directives votées par la Communauté galactique deviennent trop lourdes et complexes. Pour disposer d'une administration efficace, il est temps de revenir sur certaines résolutions."
+ resolution_intergalacticdirective_repeal_2:0 "§RAbrogation du respect de la souveraineté§!"
+ resolution_intergalacticdirective_repeal_2_desc:0 "$resolution_intergalacticdirective_repeal_1_desc$"
+ resolution_intergalacticdirective_repeal_3:0 "§RAbrogation de la voix pour tous§!"
+ resolution_intergalacticdirective_repeal_3_desc:0 "$resolution_intergalacticdirective_repeal_1_desc$"
+
+ resolution_bureaucraticsurveillance_administrative_insight:0 "Vision administrative"
+ resolution_bureaucraticsurveillance_administrative_insight_desc:0 "Partie intégrante du processus visant à simplifier l'administration galactique, une hiérarchie administrative plus claire doit être mise en place au Sénat, notamment entre ces membres qui disposent déjà de contrats diplomatiques les liant mutuellement."
+ resolution_bureaucraticsurveillance_borderless_authority:0 "Autorité sans frontières"
+ resolution_bureaucraticsurveillance_borderless_authority_desc:0 "Partie intégrante des efforts constants pour simplifier son administration interne, une plus grande autorité doit être confiée aux membres les plus puissants du Sénat galactique."
+ resolution_bureaucraticsurveillance_personal_oversight:0 "Contrôle individuel"
+ resolution_bureaucraticsurveillance_personal_oversight_desc:0 "Si certains membres récriminent à juste titre contre la réduction de leur souveraineté, les efforts pour éliminer la paperasserie bureaucratique doivent permettre de renforcer notablement l'efficacité du Sénat galactique."
+
+ resolution_bureaucraticsurveillance_repeal_1:0 "§RAbrogation de la vision administrative§!"
+ resolution_bureaucraticsurveillance_repeal_1_desc:0 "Si les projets de réduction de la paperasserie ont été un succès, ils mécontentent aussi de nombreux membres, inquiets de voir leur souveraineté réduite. Une partie de leur indépendance perdue devrait donc être restaurée."
+ resolution_bureaucraticsurveillance_repeal_2:0 "§RAbrogation de l'autorité sans frontières§!"
+ resolution_bureaucraticsurveillance_repeal_2_desc:0 "$resolution_bureaucraticsurveillance_repeal_1_desc$"
+ resolution_bureaucraticsurveillance_repeal_3:0 "§RAbrogation du contrôle individuel§!"
+ resolution_bureaucraticsurveillance_repeal_3_desc:0 "$resolution_bureaucraticsurveillance_repeal_1_desc$"
+
+ #########################
+ # Triggers & Effects
+ #########################
+
+ count_available_debris_trigger:0 "Débris disponibles "
+ effect_random_available_debris:0 "Un débris aléatoire"
+ DEBRIS_OWNERSHIP_PASSED_TO:0 "Exploration des débris confiée à la $COUNTRY|Y$"
+
+
+ #########################
+ # Modifiers
+ #########################
+
+ MOD_SHIP_FRIENDLY_TERRITORY_SHIELD_ADD:0 "Solidité des boucliers dans les systèmes amis "
+ MOD_SHIP_FRIENDLY_TERRITORY_SHIELD_MULT:0 "Solidité des boucliers dans les systèmes amis "
+ MOD_SHIP_FRIENDLY_TERRITORY_EVASION_ADD:0 "Chances d'évitement dans les systèmes amis "
+ MOD_SHIP_FRIENDLY_TERRITORY_EVASION_MULT:0 "Évitement dans les systèmes amis "
+ MOD_SHIP_FRIENDLY_TERRITORY_ACCURACY_ADD:0 "Chances de toucher dans les systèmes amis "
+ MOD_SHIP_FRIENDLY_TERRITORY_ACCURACY_MULT:0 "Précision dans les systèmes amis "
+ MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_ADD:0 "Ciblage dans les systèmes amis "
+ MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_MULT:0 "$MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_ADD$"
+ MOD_SHIP_FRIENDLY_TERRITORY_FIRE_RATE_MULT:0 "Cadence de tir des vaisseaux dans les systèmes amis "
+ subject_loyalty_effects:0 "Dépendance"
+
+ resolution_galcom_ethic_modifier:0 "$resolution_category_bureaucraticsurveillance$"
+ resolution_galcom_ethic_modifier_desc:0 "Avec le soutien de la Communauté galactique, la suzeraine de cet empire dispose d'un contrôle et d'une autorité renforcés sur le fonctionnement interne de ses dépendances."
+
+ resolution_galcom_spiritualist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_materialist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_materialist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_materialist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_authoritarian_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_egalitarian_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_xenophile_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophile_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophile_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_xenophobe_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_militarist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_militarist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_militarist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_pacifist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_pacifist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_pacifist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_bulwark_modifier:0 "$resolution_intergalacticdirective_a_voice_for_all$"
+ resolution_galcom_bulwark_modifier_desc:0 "Cet empire est renforcé par les lois et directives de la Communauté galactique."
+
+ #########################
+ # Opinion Modifiers
+ #########################
+ opinion_imperial_overlord_ai_opinion:0 "Suzeraineté bienveillante "
+ opinion_imperial_vassal_ai_opinion:0 "Dépendance récente "
+ opinion_imperial_vassal_new_overlord:0 "Protection suzeraine "
+ opinion_imperial_vassal_refused_overlordship:0 "Suzeraineté refusée "
+
+ ####################
+ # Assorted Tooltips
+ ####################
+
+ dialog_friendly_tt:0 "Nous allons nous montrer §Gamicaux§!."
+ dialog_neutral_tt:0 "Nous allons nous montrer §Yneutres§!."
+ dialog_wary_tt:0 "Nous allons nous montrer §Yméfiants§!."
+ dialog_hostile_tt:0 "Nous allons nous montrer §Rhostiles§!."
+
+ is_a_signatory_vassal:0 "Est une signataire."
+ is_not_a_signatory_vassal:0 "N'est PAS une signataire."
+ is_a_signatory_vassal_success:0 "$TRIGGER_PASS$ $is_a_signatory_vassal$"
+ is_a_signatory_vassal_fail:0 "$TRIGGER_FAIL$ $is_a_signatory_vassal$"
+ is_not_a_signatory_vassal_success:0 "$TRIGGER_PASS$ $is_not_a_signatory_vassal$"
+ is_not_a_signatory_vassal_fail:0 "$TRIGGER_FAIL$ $is_not_a_signatory_vassal$"
+
+ same_federation_as_overlord:0 "$TRIGGER_FAIL$ Impossible pour une dépendance d'être membre d'une fédération sans que sa suzeraine le soit aussi."
+ requires_not_subject_or_subject_asking_overlord:0 "$TRIGGER_FAIL$ §RSeule sa suzeraine peut accepter l'entrée de sa dépendance dans la fédération dont elle est membre.§!"
+ requires_not_subject_or_overlord_asking:0 "$TRIGGER_FAIL$ §RSeule sa suzeraine peut inviter une dépendance à entrer dans la fédération dont elle est membre.§!"
+ requires_not_subject_to_start_federation:0 "$TRIGGER_FAIL$ §RUne dépendance ne peut former de fédération qu'avec sa suzeraine.§!"
+ requires_not_guaranteeing_independence:0 "$TRIGGER_FAIL$ §RAvant de lui proposer la sujétion, nous devons cesser de garantir son indépendance.§!"
+
+ STARBASE_AURA_MERCENARY_GARRISON:0 "Garnison de Mercenaires"
+ aura_starbase_mercenary_garrison:0 "Aura défensive (garnison de Mercenaires)"
+
+ # Ambient Object
+ central_crystal_gateway:0 "Portail intérieur"
+ central_crystal_gateway_desc:0 "Un portail mystérieux, semblant déconnecté de tous les autres dans la galaxie."
+
+ ##################
+ # Civics Changes
+ ##################
+
+ civic_private_military_companies_ove:0 "$civic_private_military_companies$"
+ civic_private_military_companies_ove_desc:0 "$civic_private_military_companies_desc$"
+ civic_naval_contractors_ove:0 "$civic_naval_contractors$"
+ civic_naval_contractors_ove_desc:0 "$civic_naval_contractors_desc$"
+ civic_barbaric_despoilers_ove:0 "$civic_barbaric_despoilers$"
+ civic_barbaric_despoilers_ove_desc:0 "$civic_barbaric_despoilers_desc$"
+ civic_warrior_culture_ove:0 "$civic_warrior_culture$"
+ civic_warrior_culture_ove_desc:0 "$civic_warrior_culture_desc$"
+
+ ##################
+ # New Ascension Perk
+ ##################
+
+ ap_lord_of_war:0 "Seigneurs de la guerre"
+ ap_lord_of_war_desc:0 "Certains prétendent que la guerre est mauvaise pour les affaires. Mais nos affaires, c'est la guerre. Une galaxie déchirée fait la prospérité des mercenaires, et donc la nôtre."
+ ap_lord_of_war_tooltip:0 "Les §Yenclaves de Mercenaires§! que nous finançons versent des §Ydividendes§! plus fréquemment."
+
+ ################
+ # Initializers #
+ ################
+ NAME_Auge:0 "Augé"
+ NAME_Auge_adj:0 "augéenne"
+ NAME_Anatole:0 "Anatolé"
+ NAME_Anatole_adj:0 "anatoléenne"
+ NAME_Mousika:0 "Mousiké"
+ NAME_Mousika_adj:0 "mousikéenne"
+ NAME_Mesembria:0 "Mésembrie"
+ NAME_Mesembria_adj:0 "mésembrienne"
+ NAME_Dysis:0 "Dysis"
+ NAME_Dysis_adj:0 "dysienne"
+ NAME_Hesperis:0 "Hespéris"
+ NAME_Hesperis_adj:0 "hespérisienne"
+ NAME_Arktos:0 "Arctos"
+ NAME_Arktos_adj:0 "arctosienne"
