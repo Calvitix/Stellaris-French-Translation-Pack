@@ -1,0 +1,251 @@
+﻿### Avian 3 #œ
+### Created by Johan Andersson 2015-07-31
+
+AVI3 = {
+	category = "Avian"
+	ship_names = {
+
+		corvette = {
+			AVI3_SHIP_Sharp AVI3_SHIP_Quick AVI3_SHIP_Frenzy AVI3_SHIP_Bloodstain AVI3_SHIP_Scar AVI3_SHIP_Gore AVI3_SHIP_Maim AVI3_SHIP_Maul AVI3_SHIP_Wound AVI3_SHIP_Hurt AVI3_SHIP_Slash AVI3_SHIP_Scratch AVI3_SHIP_Cut AVI3_SHIP_Mutilate AVI3_SHIP_Injury AVI3_SHIP_Crippler AVI3_SHIP_Disfigure AVI3_SHIP_Griever AVI3_SHIP_Deformer AVI3_SHIP_Piercer AVI3_SHIP_Scream AVI3_SHIP_Screech AVI3_SHIP_Shriek AVI3_SHIP_Howl AVI3_SHIP_Cry AVI3_SHIP_Soar AVI3_SHIP_Ascend AVI3_SHIP_Rise AVI3_SHIP_Escalate AVI3_SHIP_Fly AVI3_SHIP_Drift AVI3_SHIP_Float AVI3_SHIP_Glide AVI3_SHIP_Swoop AVI3_SHIP_Pounce AVI3_SHIP_Sweep AVI3_SHIP_Dive
+		}
+
+		destroyer = {
+			AVI3_SHIP_SharpClaw AVI3_SHIP_QuickClaw AVI3_SHIP_FrenziedClaw AVI3_SHIP_BloodstainedClaw AVI3_SHIP_ScarringClaw AVI3_SHIP_GoryClaw AVI3_SHIP_GrislyClaw AVI3_SHIP_MaimingClaw AVI3_SHIP_MaulingClaw AVI3_SHIP_WoundingClaw AVI3_SHIP_SlashingClaw AVI3_SHIP_ScratchingClaw AVI3_SHIP_CuttingClaw AVI3_SHIP_MutilatingClaw AVI3_SHIP_InjuringClaw AVI3_SHIP_CripplingClaw AVI3_SHIP_DisfiguringClaw AVI3_SHIP_GrievingClaw AVI3_SHIP_DeformingClaw AVI3_SHIP_PiercingClaw
+		}
+
+		cruiser = {
+			AVI3_SHIP_SharpBeak AVI3_SHIP_QuickBeak AVI3_SHIP_FrenziedBeak AVI3_SHIP_BloodstainedBeak AVI3_SHIP_ScarringBeak AVI3_SHIP_GoryBeak AVI3_SHIP_GrislyBeak AVI3_SHIP_MaimingBeak AVI3_SHIP_MaulingBeak AVI3_SHIP_WoundingBeak AVI3_SHIP_SlashingBeak AVI3_SHIP_ScratchingBeak AVI3_SHIP_CuttingBeak AVI3_SHIP_MutilatingBeak AVI3_SHIP_InjuringBeak AVI3_SHIP_CripplingBeak AVI3_SHIP_DisfiguringBeak AVI3_SHIP_GrievingBeak AVI3_SHIP_DeformingBeak AVI3_SHIP_PiercingBeak
+		}
+
+		battleship = {
+			AVI3_SHIP_GloriousMassacre AVI3_SHIP_GloriousBloodbath AVI3_SHIP_GloriousCarnage AVI3_SHIP_GloriousSlaughter AVI3_SHIP_GloriousBloodshed AVI3_SHIP_GorgeousMassacre AVI3_SHIP_GorgeousBloodbath AVI3_SHIP_GorgeousCarnage AVI3_SHIP_GorgeousSlaughter AVI3_SHIP_GorgeousBloodshed AVI3_SHIP_InspiringMassacre AVI3_SHIP_InspiringBloodbath AVI3_SHIP_InspiringCarnage AVI3_SHIP_InspiringSlaughter AVI3_SHIP_InspiringBloodshed AVI3_SHIP_DelightfulMassacre AVI3_SHIP_DelightfulBloodbath AVI3_SHIP_DelightfulCarnage AVI3_SHIP_DelightfulSlaughter AVI3_SHIP_DelightfulBloodshed
+		}
+
+		titan = {
+			AVI3_SHIP_MajesticHavoc AVI3_SHIP_MajesticCarnage AVI3_SHIP_MajesticSlaughter AVI3_SHIP_MajesticBloodbath AVI3_SHIP_MajesticMayhem
+		}
+
+		colossus = {
+			AVI3_SHIP_EggofDeath AVI3_SHIP_EggofDestruction AVI3_SHIP_EggofOblivion AVI3_SHIP_EggofRuination
+		}
+
+		juggernaut = {
+			AVI3_SHIP_ExaltedBreaker AVI3_SHIP_ExaltedLaceration AVI3_SHIP_ExaltedRending AVI3_SHIP_ExaltedRipper AVI3_SHIP_ExaltedRivening AVI3_SHIP_ExaltedRuin
+		}
+
+		constructor = {
+			AVI3_SHIP_NestMaker AVI3_SHIP_NestBuilder AVI3_SHIP_NestCreator AVI3_SHIP_NestProducer AVI3_SHIP_NestManufacturer AVI3_SHIP_RoostMaker AVI3_SHIP_RoostBuilder AVI3_SHIP_RoostCreator AVI3_SHIP_RoostProducer AVI3_SHIP_RoostManufacturer
+		}
+
+		colonizer = {
+			AVI3_SHIP_EggcarrierI AVI3_SHIP_EggcarrierII AVI3_SHIP_EggcarrierIII AVI3_SHIP_EggcarrierIV AVI3_SHIP_EggcarrierV AVI3_SHIP_EggcarrierVI AVI3_SHIP_EggcarrierVII AVI3_SHIP_EggcarrierVIII AVI3_SHIP_EggcarrierIX AVI3_SHIP_EggcarrierX AVI3_SHIP_EggcarrierXI AVI3_SHIP_EggcarrierXII AVI3_SHIP_EggcarrierXIII AVI3_SHIP_EggcarrierXIV AVI3_SHIP_EggcarrierXV AVI3_SHIP_EggcarrierXVI AVI3_SHIP_EggcarrierXVII AVI3_SHIP_EggcarrierXVIII AVI3_SHIP_EggcarrierXIX AVI3_SHIP_EggcarrierXX
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names
+			AVI3_SHIP_EggcarrierI AVI3_SHIP_EggcarrierII AVI3_SHIP_EggcarrierIII AVI3_SHIP_EggcarrierIV AVI3_SHIP_EggcarrierV AVI3_SHIP_EggcarrierVI AVI3_SHIP_EggcarrierVII AVI3_SHIP_EggcarrierVIII AVI3_SHIP_EggcarrierIX AVI3_SHIP_EggcarrierX AVI3_SHIP_EggcarrierXI AVI3_SHIP_EggcarrierXII AVI3_SHIP_EggcarrierXIII AVI3_SHIP_EggcarrierXIV AVI3_SHIP_EggcarrierXV AVI3_SHIP_EggcarrierXVI AVI3_SHIP_EggcarrierXVII AVI3_SHIP_EggcarrierXVIII AVI3_SHIP_EggcarrierXIX AVI3_SHIP_EggcarrierXX
+		}
+
+		science = {
+			AVI3_SHIP_InnerEye AVI3_SHIP_ThirdEye AVI3_SHIP_ViewingEye AVI3_SHIP_ExaminingEye AVI3_SHIP_AnalysingEye AVI3_SHIP_ContemplatingEye AVI3_SHIP_ConsideringEye AVI3_SHIP_EvaluatingEye AVI3_SHIP_ThinkingEye AVI3_SHIP_AppraisingEye AVI3_SHIP_AssessingEye AVI3_SHIP_ClassifyingEye AVI3_SHIP_EstimatingEye AVI3_SHIP_DetermeningEye AVI3_SHIP_InspectingEye AVI3_SHIP_StudyingEye AVI3_SHIP_InvestigatingEye AVI3_SHIP_ProbingEye AVI3_SHIP_ObservingEye
+		}
+
+		transport = {
+			AVI3_SHIP_DeathBringer AVI3_SHIP_DoomBringer AVI3_SHIP_DestructionBringer AVI3_SHIP_RuinationBringer
+		}
+
+		military_station_small = {
+			AVI3_SHIP_SharpTalon AVI3_SHIP_QuickTalon AVI3_SHIP_FrenziedTalon AVI3_SHIP_BloodstainedTalon AVI3_SHIP_ScarringTalon AVI3_SHIP_GoryTalon AVI3_SHIP_GrislyTalon AVI3_SHIP_MaimingTalon AVI3_SHIP_MaulingTalon AVI3_SHIP_WoundingTalon AVI3_SHIP_SlashingTalon AVI3_SHIP_ScratchingTalon AVI3_SHIP_CuttingTalon AVI3_SHIP_MutilatingTalon AVI3_SHIP_InjuringTalon AVI3_SHIP_CripplingTalon AVI3_SHIP_DisfiguringTalon AVI3_SHIP_GrievingTalon AVI3_SHIP_DeformingTalon AVI3_SHIP_PiercingTalon
+		}
+
+		ion_cannon = {
+			AVI3_SHIP_DoomPerch AVI3_SHIP_JudgmentPerch AVI3_SHIP_RuinPerch AVI3_SHIP_DeathPerch AVI3_SHIP_CalamityPerch
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			AVI3_FLEET_MurderofFidgit AVI3_FLEET_MurderofTrast AVI3_FLEET_MurderofCroo AVI3_FLEET_MurderofCarcan AVI3_FLEET_MurderofTripato AVI3_FLEET_MurderofFoosh AVI3_FLEET_MurderofUrya AVI3_FLEET_MurderofLarii AVI3_FLEET_MurderofCawica AVI3_FLEET_MurderofForoo AVI3_FLEET_MurderofTrytara AVI3_FLEET_MurderofRickit AVI3_FLEET_MurderofBarraw AVI3_FLEET_MurderofCatawa
+		}
+		sequential_name = AVI3_xxMURDER_ROM
+#		sequential_name = AVI3_xxMURDER_ORD
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = AVI3_xxDEFENSEFLOCK_ROM
+#			sequential_name = AVI3_xxDEFENSEFLOCK_ORD
+		}
+
+		machine_assault_1 = {
+			sequential_name = AVI3_xxASSAULTFLOCK_ROM
+#			sequential_name = AVI3_xxASSAULTFLOCK_ORD
+		}
+
+		machine_assault_2 = {
+			sequential_name = AVI3_xxASSAULTFLOCK_ROM
+#			sequential_name = AVI3_xxASSAULTFLOCK_ORD
+		}
+
+		machine_assault_3 = {
+			sequential_name = AVI3_xxASSAULTFLOCK_ROM
+#			sequential_name = AVI3_xxASSAULTFLOCK_ORD
+		}
+
+		defense_army = {
+			sequential_name = AVI3_xxDEFENSEFLOCK_ROM
+#			sequential_name = AVI3_xxDEFENSEFLOCK_ORD
+		}
+
+		assault_army = {
+			sequential_name = AVI3_xxASSAULTFLOCK_ROM
+#			sequential_name = AVI3_xxASSAULTFLOCK_ORD
+		}
+
+		slave_army = {
+			sequential_name = AVI3_xxBONDEDARMY_ROM
+#			sequential_name = AVI3_xxBONDEDARMY_ORD
+		}
+
+		clone_army = {
+			sequential_name = AVI3_REPLICAFORCESxx_ROM
+		}
+
+		undead_army = {
+			sequential_name = AVI3_xxDREADFLOCK_ROM
+#			sequential_name = AVI3_xxDREADFLOCK_ORD
+		}
+
+		robotic_army = {
+			sequential_name = AVI3_DROIDFORCESxx_ROM
+		}
+
+		robotic_defense_army = {
+			sequential_name = AVI3_DROIDDEFENSEFORCESxx_ROM
+		}
+
+
+		psionic_army = {
+			sequential_name = AVI3_xxSOARINGMINDS_ROM
+#			sequential_name = AVI3_xxSOARINGMINDS_ORD
+		}
+
+		xenomorph_army = {
+			sequential_name = AVI3_xxXENOFLOCK_ROM
+#			sequential_name = AVI3_xxXENOFLOCK_ORD
+		}
+
+		gene_warrior_army = {
+			sequential_name = AVI3_xxMUTATIONFLOCK_ROM
+#			sequential_name = AVI3_xxMUTATIONFLOCK_ORD
+		}
+
+		occupation_army = {
+			sequential_name = AVI3_xxOCCUPATIONFLOCK_ROM
+#			sequential_name = AVI3_xxOCCUPATIONFLOCK_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = AVI3_DROIDOCCUPATIONFORCESxx_ROM
+		}
+
+		primitive_army = {
+			sequential_name = AVI3_PRIMITIVEARMYxx_ROM
+#			sequential_name = AVI3_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = AVI3_INDUSTRIALARMYxx_ROM
+#			sequential_name = AVI3_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = AVI3_POSTATOMICARMYxx_ROM
+#			sequential_name = AVI3_POSTATOMICARMYxx_SEQ
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				AVI3_PLANET_Trast AVI3_PLANET_Fidgit AVI3_PLANET_Micaw AVI3_PLANET_Crawt AVI3_PLANET_Cawtaan AVI3_PLANET_KrachawsNest AVI3_PLANET_FrackawsEyrie AVI3_PLANET_RickichisRoost AVI3_PLANET_LirchisNest AVI3_PLANET_CroosCocoon AVI3_PLANET_Carcana AVI3_PLANET_Frippit AVI3_PLANET_Whootar AVI3_PLANET_Fashaaw AVI3_PLANET_Chyyta AVI3_PLANET_Fyyrt AVI3_PLANET_Drakoo AVI3_PLANET_FoshoosRest AVI3_PLANET_Ury AVI3_PLANET_Travuu AVI3_PLANET_Kloo AVI3_PLANET_Claive AVI3_PLANET_Biribit AVI3_PLANET_Rooki AVI3_PLANET_Tripitit AVI3_PLANET_Trobbi AVI3_PLANET_Trittita AVI3_PLANET_Fooshro AVI3_PLANET_Urytry
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names = {
+				AVI3_CHR_Clawsof
+				AVI3_CHR_Beakof
+				AVI3_CHR_Wingsof
+				AVI3_CHR_Feathersof
+				AVI3_CHR_Plumeof
+				AVI3_CHR_Eyesof
+			}
+
+			# Always combined with a first name
+			second_names = {
+				AVI3_CHR_White AVI3_CHR_Grey AVI3_CHR_Black AVI3_CHR_Burgundy AVI3_CHR_Red AVI3_CHR_Blue AVI3_CHR_Indigo AVI3_CHR_Cyan AVI3_CHR_Yellow AVI3_CHR_Orange AVI3_CHR_Ivory AVI3_CHR_Ebony AVI3_CHR_Purple AVI3_CHR_Brown AVI3_CHR_Teal AVI3_CHR_Green AVI3_CHR_Aquamarine AVI3_CHR_Khaki AVI3_CHR_Magenta AVI3_CHR_Gold AVI3_CHR_Silver
+				AVI3_CHR_Bronze AVI3_CHR_Honeydew AVI3_CHR_Lavender AVI3_CHR_Maroon AVI3_CHR_Olive
+			}
+
+			regnal_first_names = {
+				AVI3_CHR_BlackWing AVI3_CHR_WhiteWing AVI3_CHR_RedWing AVI3_CHR_StarWing AVI3_CHR_SkyWing AVI3_CHR_CloudWing
+			}
+
+			regnal_second_names = {
+				AVI3_CHR_Extak
+			}
+		}
+	}
+}

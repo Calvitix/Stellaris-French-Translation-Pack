@@ -1,0 +1,276 @@
+﻿### Plantoid 1 #œ
+### Created by Rufus Tronde and Miranda van den Brink
+
+PLANT = {
+	category = "Plantoid"
+	ship_names = {
+
+		generic = {
+		}
+
+		corvette = {
+			PLANT_SHIP_Thorn PLANT_SHIP_SilverThorn PLANT_SHIP_IronThorn PLANT_SHIP_PiercingThorn PLANT_SHIP_EmeraldThorn PLANT_SHIP_GoldThorn PLANT_SHIP_Trichome PLANT_SHIP_SilverTrichome PLANT_SHIP_IronTrichome PLANT_SHIP_JadeTrichome PLANT_SHIP_EmeraldTrichome PLANT_SHIP_GoldTrichome PLANT_SHIP_Needle PLANT_SHIP_SilverNeedle PLANT_SHIP_IronNeedle PLANT_SHIP_JadeNeedle PLANT_SHIP_GoldNeedle PLANT_SHIP_PiercingNeedle PLANT_SHIP_EmeraldNeedle PLANT_SHIP_Rash
+		}
+
+		destroyer = {
+			PLANT_SHIP_Petal PLANT_SHIP_SilverPetal PLANT_SHIP_IronPetal PLANT_SHIP_JadePetal PLANT_SHIP_EmeraldPetal PLANT_SHIP_GoldPetal PLANT_SHIP_Piercer PLANT_SHIP_SilverPiercer PLANT_SHIP_GoldPiercer PLANT_SHIP_IronPiercer PLANT_SHIP_EmeraldPiercer PLANT_SHIP_SilverStinger PLANT_SHIP_Stinger PLANT_SHIP_SteelStinger PLANT_SHIP_PiercingStinger PLANT_SHIP_Slasher PLANT_SHIP_Cutter
+		}
+
+		cruiser = {
+			PLANT_SHIP_Blade PLANT_SHIP_SilverBlade PLANT_SHIP_IronBlade PLANT_SHIP_JadeBlade PLANT_SHIP_EmeraldBlade PLANT_SHIP_GoldBlade PLANT_SHIP_CuttingBlade PLANT_SHIP_SlashingBlade PLANT_SHIP_PiercingBlade
+		}
+
+		battleship = {
+			PLANT_SHIP_Spike PLANT_SHIP_SilverSpike PLANT_SHIP_IronSpike PLANT_SHIP_JadeSpike PLANT_SHIP_EmeraldSpike PLANT_SHIP_GoldSpike PLANT_SHIP_PiercingSpike PLANT_SHIP_Fury PLANT_SHIP_EmeraldFury PLANT_SHIP_ThornFury PLANT_SHIP_SpikeofFury PLANT_SHIP_Punisher
+		}
+
+		titan = {
+			PLANT_SHIP_SilverFlower PLANT_SHIP_IronFlower PLANT_SHIP_EmeraldFlower PLANT_SHIP_PiercingFlower PLANT_SHIP_GoldFlower PLANT_SHIP_JadeFlower
+		}
+
+		colossus = {
+			PLANT_SHIP_BlossomofJudgment PLANT_SHIP_BlossomofDoom PLANT_SHIP_FinalBlossom
+		}
+
+		juggernaut = {
+			PLANT_SHIP_PersistentRoot PLANT_SHIP_FatesTendrils PLANT_SHIP_RhizomeofDestiny
+		}
+
+		science = {
+			PLANT_SHIP_DriftingLeaf PLANT_SHIP_FloatingLeaf PLANT_SHIP_SeekingLeaf PLANT_SHIP_FlutteringLeaf PLANT_SHIP_SoaringLeaf
+		}
+
+		colonizer = {
+			PLANT_SHIP_SeedCapsule PLANT_SHIP_FruitCarrier
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names
+			PLANT_SHIP_SeedCapsule PLANT_SHIP_FruitCarrier
+		}
+
+		constructor = {
+			PLANT_SHIP_Meristem
+		}
+
+		transport = {
+			PLANT_SHIP_IronBranch PLANT_SHIP_PiercingBranch PLANT_SHIP_EmeraldBranch PLANT_SHIP_GoldBranch PLANT_SHIP_SilverBranch PLANT_SHIP_JadeBranch
+		}
+
+		military_station_small = {
+			PLANT_SHIP_IronThistle PLANT_SHIP_PiercingThistle PLANT_SHIP_EmeraldThistle PLANT_SHIP_GoldThistle PLANT_SHIP_SilverThistle PLANT_SHIP_JadeThistle
+		}
+
+		ion_cannon = {
+			PLANT_SHIP_IronBarb PLANT_SHIP_PiercingBarb PLANT_SHIP_EmeraldBarb PLANT_SHIP_GoldBarb PLANT_SHIP_SilverBarb PLANT_SHIP_JadeBarb
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			PLANT_FLEET_BlossomingCorolla PLANT_FLEET_FlourishingCorolla PLANT_FLEET_VanquishingCorolla PLANT_FLEET_WhirlingCorolla PLANT_FLEET_BurgeoningCorolla
+		}
+		sequential_name = PLANT_xxCOROLLA_ROM
+#		sequential_name = PLANT_xxCOROLLA_ORD
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = PLANT_xxPROTECTORSWREATH_ROM
+#			sequential_name = PLANT_xxPROTECTORSWREATH_ORD
+		}
+
+		machine_assault_1 = {
+			sequential_name = PLANT_xxFUNERALWREATH_ROM
+#			sequential_name = PLANT_xxFUNERALWREATH_ORD
+		}
+
+		machine_assault_2 = {
+			sequential_name = PLANT_xxFUNERALWREATH_ROM
+#			sequential_name = PLANT_xxFUNERALWREATH_ORD
+		}
+
+		machine_assault_3 = {
+			sequential_name = PLANT_xxFUNERALWREATH_ROM
+#			sequential_name = PLANT_xxFUNERALWREATH_ORD
+		}
+
+		defense_army = {
+			sequential_name = PLANT_xxPROTECTORSWREATH_ROM
+#			sequential_name = PLANT_xxPROTECTORSWREATH_ORD
+		}
+
+		assault_army = {
+			sequential_name = PLANT_xxFUNERALWREATH_ROM
+#			sequential_name = PLANT_xxFUNERALWREATH_ORD
+		}
+
+		slave_army = {
+			sequential_name = PLANT_xxBOUNDWREATH_ROM
+#			sequential_name = PLANT_xxBOUNDWREATH_ORD
+		}
+
+		undead_army = {
+			sequential_name = PLANT_xxDREADWREATH_ROM
+#			sequential_name = PLANT_xxDREADWREATH_ORD
+		}
+
+		clone_army = {
+			sequential_name = PLANT_OFFSETWREATHxx_ROM
+		}
+
+		robotic_army = {
+			sequential_name = PLANT_BRASSWREATHxx_ROM
+		}
+
+		robotic_defense_army = {
+			sequential_name = PLANT_BRASSSHIELDxx_ROM
+		}
+
+		psionic_army = {
+			sequential_name = PLANT_xxOAKENWREATH_ROM
+#			sequential_name = PLANT_xxOAKENWREATH_ORD
+		}
+
+		xenomorph_army = {
+			sequential_name = PLANT_xxWREATHOFFLESH_ROM
+#			sequential_name = PLANT_xxWREATHOFFLESH_ORD
+		}
+
+		gene_warrior_army = {
+			sequential_name = PLANT_xxTRANSGENICWREATH_ROM
+#			sequential_name = PLANT_xxTRANSGENICWREATH_ORD
+		}
+
+		occupation_army = {
+			sequential_name = PLANT_xxOCCUPATIONWREATH_ROM
+#			sequential_name = PLANT_xxOCCUPATIONWREATH_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = PLANT_xxBRASSOCCUPATIONWREATH_ROM
+#			sequential_name = PLANT_xxBRASSOCCUPATIONWREATH_ORD
+		}
+
+		primitive_army = {
+			sequential_name = PLANT_PRIMITIVEARMYxx_ROM
+#			sequential_name = PLANT_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = PLANT_INDUSTRIALARMYxx_ROM
+#			sequential_name = PLANT_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = PLANT_POSTATOMICARMYxx_ROM
+#			sequential_name = PLANT_POSTATOMICARMYxx_SEQ
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				PLANT_PLANET_Beauty PLANT_PLANET_Joy PLANT_PLANET_NewBeginning PLANT_PLANET_BearsFruit PLANT_PLANET_RoundNut PLANT_PLANET_SeedofHope PLANT_PLANET_BuddingDreams PLANT_PLANET_NectarofHope PLANT_PLANET_HopesTendrils PLANT_PLANET_FruitfulEndeavor PLANT_PLANET_ForeverSpring PLANT_PLANET_SpringRain PLANT_PLANET_NewLight PLANT_PLANET_Triumph PLANT_PLANET_Scion PLANT_PLANET_Sprout PLANT_PLANET_ThrivingGreen PLANT_PLANET_Bloom PLANT_PLANET_BloomingFields PLANT_PLANET_StarRoot PLANT_PLANET_SoilofHope PLANT_PLANET_GreatPromise PLANT_PLANET_Abundance PLANT_PLANET_NewRoots PLANT_PLANET_GentleWinds PLANT_PLANET_GraspingBranch PLANT_PLANET_PollenCloud
+			}
+		}
+
+		pc_desert = {
+			names = {
+				PLANT_PLANET_CactusRest PLANT_PLANET_PalmsOasis PLANT_PLANET_EndlessThirst PLANT_PLANET_Scorch PLANT_PLANET_Dune PLANT_PLANET_RedEarth PLANT_PLANET_RedDunes PLANT_PLANET_Yellow PLANT_PLANET_Dryland PLANT_PLANET_Hope PLANT_PLANET_EternalSun PLANT_PLANET_Sand PLANT_PLANET_Duststorm PLANT_PLANET_BurningPlains PLANT_PLANET_DesertFlower PLANT_PLANET_ScorchedLeaves PLANT_PLANET_Parched PLANT_PLANET_WiltedDreams PLANT_PLANET_Leafsizzler PLANT_PLANET_BurningBushland
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				PLANT_PLANET_SunPlains PLANT_PLANET_FarGrass PLANT_PLANET_GreatPlains PLANT_PLANET_Flatlands PLANT_PLANET_Grasslands PLANT_PLANET_Radiance PLANT_PLANET_Suntear PLANT_PLANET_HowlingPlains PLANT_PLANET_YellowGrass PLANT_PLANET_WindyPlains PLANT_PLANET_GoldenFields PLANT_PLANET_TallgrassFields PLANT_PLANET_LonelyTree
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				PLANT_PLANET_TheCloudForest PLANT_PLANET_TheRainforest PLANT_PLANET_Flourish PLANT_PLANET_Leaflands PLANT_PLANET_Greenery PLANT_PLANET_EternalBlossom PLANT_PLANET_ForeverGreen PLANT_PLANET_MistyForest PLANT_PLANET_Delight PLANT_PLANET_TreeVale PLANT_PLANET_Fernlands PLANT_PLANET_Sky-canopy PLANT_PLANET_GreatHumidity PLANT_PLANET_Paradise
+			}
+		}
+
+		pc_arid = {
+			names = {
+				PLANT_PLANET_DryFoliage PLANT_PLANET_SunsScrutiny PLANT_PLANET_Riverdry PLANT_PLANET_DeepRoots PLANT_PLANET_Tolerance PLANT_PLANET_GreatDrought PLANT_PLANET_NoRest PLANT_PLANET_LeafsFolly PLANT_PLANET_Desolation PLANT_PLANET_BarrenLands PLANT_PLANET_Treeless PLANT_PLANET_Victory PLANT_PLANET_Scrublands PLANT_PLANET_Shrublands PLANT_PLANET_FearofFoliage PLANT_PLANET_TheGreatChaparral PLANT_PLANET_Endeavor
+				# Retiré : PLANT_PLANET_Rock (doublon)
+			}
+		}
+
+		pc_continental = {
+			names = {
+				PLANT_PLANET_ManyWoods PLANT_PLANET_ManyMeadows PLANT_PLANET_Beryl PLANT_PLANET_RichSoil PLANT_PLANET_GreenSplendor PLANT_PLANET_Seasons PLANT_PLANET_GreenGrove PLANT_PLANET_GoldenCrown PLANT_PLANET_TheOrchard PLANT_PLANET_EmeraldFields PLANT_PLANET_GrainofTruth PLANT_PLANET_GoodProspects
+				# Retiré : PLANT_PLANET_Flourish (doublon)
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				PLANT_PLANET_TheGreatReef PLANT_PLANET_CoralsHome PLANT_PLANET_Eversea PLANT_PLANET_Blue PLANT_PLANET_Oceana PLANT_PLANET_Indigo PLANT_PLANET_Bluehope PLANT_PLANET_IndigoDream PLANT_PLANET_Plenty PLANT_PLANET_BluePearl PLANT_PLANET_Droplet PLANT_PLANET_Waterweeds PLANT_PLANET_FloatingBlossom PLANT_PLANET_BlueHome
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				PLANT_PLANET_BorealRim PLANT_PLANET_MossExpanse PLANT_PLANET_Prudence PLANT_PLANET_Frost PLANT_PLANET_Spring PLANT_PLANET_Rock PLANT_PLANET_ColdNights PLANT_PLANET_FrostyMoss PLANT_PLANET_GreyNut PLANT_PLANET_RockyNut PLANT_PLANET_MossySpruce PLANT_PLANET_SiltySoil PLANT_PLANET_StoneForest PLANT_PLANET_LateBloomer
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				PLANT_PLANET_BlossomingSlopes PLANT_PLANET_Befrosted PLANT_PLANET_ValleyofFlowers PLANT_PLANET_Dale PLANT_PLANET_BillowingMountains PLANT_PLANET_GreatRidge PLANT_PLANET_JaggedEarth PLANT_PLANET_TornEarth PLANT_PLANET_WhiteCrag PLANT_PLANET_SpringVale PLANT_PLANET_Pinelands PLANT_PLANET_FirValley PLANT_PLANET_WhiteRidge PLANT_PLANET_GloryGlens
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				PLANT_PLANET_Evergreen PLANT_PLANET_Perseverence PLANT_PLANET_Endurance PLANT_PLANET_Snowland PLANT_PLANET_WhiteStorm PLANT_PLANET_Winterland PLANT_PLANET_OnlyWinter	PLANT_PLANET_WhiteBlanket	PLANT_PLANET_SnowGlobe PLANT_PLANET_FrostyRoots PLANT_PLANET_SilverFields PLANT_PLANET_WhiteExpanse PLANT_PLANET_IceFlower PLANT_PLANET_IceLeaf PLANT_PLANET_FrostFlower PLANT_PLANET_Defiance
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+
+			# Always combined with a second name
+			first_names = {
+				PLANT_CHR_Petalsof
+				PLANT_CHR_Frondsof
+				PLANT_CHR_Rhizomeof
+				PLANT_CHR_Stalkof
+			}
+
+			# Always combined with a first name
+			second_names = {
+				PLANT_CHR_White PLANT_CHR_Grey PLANT_CHR_Black PLANT_CHR_Burgundy PLANT_CHR_Red PLANT_CHR_Blue PLANT_CHR_Indigo PLANT_CHR_Cyan PLANT_CHR_Yellow PLANT_CHR_Orange PLANT_CHR_Ivory PLANT_CHR_Ebony PLANT_CHR_Purple PLANT_CHR_Brown PLANT_CHR_Teal PLANT_CHR_Green PLANT_CHR_Aquamarine PLANT_CHR_Khaki PLANT_CHR_Magenta PLANT_CHR_Gold PLANT_CHR_Silver
+				PLANT_CHR_Bronze PLANT_CHR_Honeydew PLANT_CHR_Lavender PLANT_CHR_Maroon PLANT_CHR_Olive
+			}
+
+			use_full_regnal_name = yes
+
+			regnal_first_names = {
+				PLANT_CHR_Trunkof
+			}
+
+			regnal_second_names = {
+				PLANT_CHR_Yggdrasil PLANT_CHR_YaxImixChe PLANT_CHR_Kalpavriksha PLANT_CHR_Bo PLANT_CHR_Akshayavat PLANT_CHR_NookomisGiizhig PLANT_CHR_Irminsul PLANT_CHR_Somb PLANT_CHR_Tule PLANT_CHR_Ashvattha PLANT_CHR_Fusang
+			}
+		}
+	}
+}

@@ -1,0 +1,479 @@
+## Supremacists #œ
+pop_faction_name_parts_list = {
+	key = "supremacist_names_1"
+	parts = {
+		supremacist_names_1_Supremacy = 1
+		supremacist_names_1_Unity = 1
+		supremacist_names_1_Primacy = 1
+		supremacist_names_1_Dominance = 1
+		supremacist_names_1_Future = 1
+		supremacist_names_1_Ascendancy = 1
+		supremacist_names_1_Superiority = 1
+		supremacist_names_1_Preservation = 1
+		supremacist_names_1_Purity = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "supremacist_names_2"
+	parts = {
+		supremacist_names_2_Vanguard = 1
+		supremacist_names_2_Front = 1
+		supremacist_names_2_Movement = 1
+		supremacist_names_2_Party = 1
+		supremacist_names_2_Bloc = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "supremacist"
+		}
+	}
+	lookups = "[This.Owner.GetSpeciesName] <supremacist_names_1> <supremacist_names_2>"
+	format = fr_format.pop_faction.supremacist # [This.Owner.GetSpeciesName] <supremacist_names_1> <supremacist_names_2>
+}
+
+## Imperialists
+pop_faction_name_parts_list = {
+	key = "imperialist_names"
+	parts = {
+		imperialist_names_Military_Officers_Association = 1
+		imperialist_names_Veterans_for_Victory_Movement = 1
+		imperialist_names_Military_Industrial_Complex = 1
+		imperialist_names_Strength_Through_Conquest_Coalition = 1
+		imperialist_names_Knights_of_the_Void = 1
+		imperialist_names_Patriotic_Vanguard = 1
+		imperialist_names_Order_of_the_Burning_Star = 1
+		imperialist_names_Crimson_Warrior_Lodge = 1
+		imperialist_names_First_Strike_Legion = 1
+		imperialist_names_Red_Legion = 1
+		imperialist_names_Whetstone_Initiative = 1
+		imperialist_names_Operation_Battle_Cry = 1
+		imperialist_names_Banner_of_Triumph = 1
+		imperialist_names_Battle_Brethren = 1
+		imperialist_names_Silver_Guard = 1
+		imperialist_names_Glory_Initiative = 1
+		imperialist_names_Path_to_Victory_Committee = 1
+		imperialist_names_Vanguard_of_the_Chosen = 1
+		imperialist_names_Drumbeat_of_Victory_Party = 1
+		imperialist_names_Martial_Order_of_the_Thorn = 1
+		imperialist_names_Martial_Supremacy_Alliance = 1
+		imperialist_names_March_of_the_Brave = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "imperialist"
+		}
+	}
+	lookups = "<imperialist_names>"
+	format = fr_format.pop_faction.imperialist # <imperialist_names>
+}
+
+## Isolationists
+pop_faction_name_parts_list = {
+	key = "isolationist_names_1"
+	parts = {
+		isolationist_names_1_Non_Interventionist = 1
+		isolationist_names_1_No_Entanglements = 1
+		isolationist_names_1_Defense_First = 1
+		isolationist_names_1_National_Preparedness = 1
+		isolationist_names_1_Defensive_Readiness = 1
+		isolationist_names_1_Neutrality = 1
+		isolationist_names_1_Internal_Strength = 1
+		isolationist_names_1_Closed_Borders = 1
+		isolationist_names_1_Eternal_Vigilance = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "isolationist_names_2"
+	parts = {
+		isolationist_names_2_Coalition = 1
+		isolationist_names_2_Council = 1
+		isolationist_names_2_Committee = 1
+		isolationist_names_2_Center = 1
+		isolationist_names_2_Foundation = 1
+		isolationist_names_2_Initiative = 1
+		isolationist_names_2_Society = 1
+		isolationist_names_2_Watch = 1
+		isolationist_names_2_Alliance = 1
+		isolationist_names_2_Movement = 1
+		isolationist_names_2_Group = 1
+		isolationist_names_2_Organization = 1
+		isolationist_names_2_Network = 1
+		isolationist_names_2_Forum = 1
+		isolationist_names_2_Association = 1
+		isolationist_names_2_League = 1
+		isolationist_names_2_Party = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "isolationist"
+		}
+	}
+	lookups = "<isolationist_names_1> <isolationist_names_2>"
+	format = fr_format.pop_faction.isolationist # <isolationist_names_1> <isolationist_names_2>
+}
+
+## Totalitarians
+pop_faction_name_parts_list = {
+	key = "totalitarian_names_1"
+	parts = {
+		totalitarian_names_1_Strength_Through_Unity = 1
+		totalitarian_names_1_Authoritarian = 1
+		totalitarian_names_1_Imperial_Unity = 1
+		totalitarian_names_1_One_Throne = 1
+		totalitarian_names_1_Hierarchical = 1
+		totalitarian_names_1_United_As_One = 1
+		totalitarian_names_1_Noble_Privilege = 1
+		totalitarian_names_1_Monarchist = 1
+		totalitarian_names_1_Ordered_Society = 1
+		totalitarian_names_1_Peace_and_Order = 1
+		totalitarian_names_1_Loyal_Citizenry = 1
+		totalitarian_names_1_Citizen_Elite = 1
+		totalitarian_names_1_Citizen_Obedience = 1
+		totalitarian_names_1_Obedience_Loyalty_and_Duty = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "totalitarian_names_2"
+	parts = {
+		totalitarian_names_2_Initiative = 1
+		totalitarian_names_2_Coalition = 1
+		totalitarian_names_2_Movement = 1
+		totalitarian_names_2_Group = 1
+		totalitarian_names_2_Union = 1
+		totalitarian_names_2_Party = 1
+		totalitarian_names_2_Vanguard = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "totalitarian"
+		}
+	}
+	lookups = "<totalitarian_names_1> <totalitarian_names_2>"
+	format = fr_format.pop_faction.totalitarian # <totalitarian_names_1> <totalitarian_names_2>
+}
+
+## Progressives
+pop_faction_name_parts_list = {
+	key = "progressive_names_1"
+	parts = {
+		progressive_names_1_Democratic = 1
+		progressive_names_1_Freedom = 1
+		progressive_names_1_Free_Elections = 1
+		progressive_names_1_Liberty_Now = 1
+		progressive_names_1_Democratic_Reform = 1
+		progressive_names_1_Citizen_Self_Determinism = 1
+		progressive_names_1_Full_Enfranchisement = 1
+		progressive_names_1_True_Democracy = 1
+		progressive_names_1_Individual_Choice = 1
+		progressive_names_1_Free_Thought = 1
+		progressive_names_1_Free_Citizen = 1
+		progressive_names_1_Popular_Vote = 1
+		progressive_names_1_Democratic_Rights = 1
+		progressive_names_1_Friends_of_Liberty = 1
+		progressive_names_1_Galactic_Emancipation = 1
+		progressive_names_1_Electoral_Freedom = 1
+		progressive_names_1_Citizens_for_Freedom = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "progressive_names_2"
+	parts = {
+		progressive_names_2_Coalition = 1
+		progressive_names_2_Council = 1
+		progressive_names_2_Committee = 1
+		progressive_names_2_Center = 1
+		progressive_names_2_Foundation = 1
+		progressive_names_2_Initiative = 1
+		progressive_names_2_Society = 1
+		progressive_names_2_Watch = 1
+		progressive_names_2_Alliance = 1
+		progressive_names_2_Movement = 1
+		progressive_names_2_Group = 1
+		progressive_names_2_Organization = 1
+		progressive_names_2_Network = 1
+		progressive_names_2_Forum = 1
+		progressive_names_2_Association = 1
+		progressive_names_2_League = 1
+		progressive_names_2_Party = 1
+		progressive_names_2_Convention = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "progressive"
+		}
+	}
+	lookups = "<progressive_names_1> <progressive_names_2>"
+	format = fr_format.pop_faction.progressive # <progressive_names_1> <progressive_names_2>
+}
+
+
+## Prosperity Faction
+pop_faction_name_parts_list = {
+	key = "prosperity_names_1"
+	parts = {
+		prosperity_names_1_Internal_Development = 1
+		prosperity_names_1_National_Growth = 1
+		prosperity_names_1_Economic_Development = 1
+		prosperity_names_1_National_Wealth = 1
+		prosperity_names_1_Wealth_Promotion = 1
+		prosperity_names_1_Progress_Promotion = 1
+		prosperity_names_1_Peaceful_Progress = 1
+		prosperity_names_1_Prosperity = 1
+		prosperity_names_1_National_Prosperity = 1
+		prosperity_names_1_Internal_Growth = 1
+		#prosperity_names_1_National_Prosperity = 1 # Doublon
+		prosperity_names_1_Peaceful_Advancement = 1
+		prosperity_names_1_Peace_and_Prosperity = 1
+		prosperity_names_1_National_Evolvement = 1
+		prosperity_names_1_Progress_Peace_Prosperity = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "prosperity_names_2"
+	parts = {
+		prosperity_names_2_Foundation = 1
+		prosperity_names_2_Initiative = 1
+		prosperity_names_2_Association = 1
+		prosperity_names_2_Board = 1
+		prosperity_names_2_Committee = 1
+		prosperity_names_2_Party = 1
+		prosperity_names_2_Coalition = 1
+		prosperity_names_2_League = 1
+		prosperity_names_2_Group = 1
+		prosperity_names_2_Lobby = 1
+		prosperity_names_2_Network = 1
+		prosperity_names_2_Council = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "prosperity"
+		}
+	}
+	lookups = "<prosperity_names_1> <prosperity_names_2>"
+	format = fr_format.pop_faction.prosperity # <prosperity_names_1> <prosperity_names_2>
+}
+
+## Technologists
+pop_faction_name_parts_list = {
+	key = "technologist_names_1"
+	parts = {
+		technologist_names_1_Committee = 1
+		technologist_names_1_Academy = 1
+		technologist_names_1_Council = 1
+		technologist_names_1_Institute = 1
+		technologist_names_1_Association = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "technologist_names_2"
+	parts = {
+		technologist_names_2_of_Higher_Learning = 1
+		technologist_names_2_of_United_Scientists = 1
+		technologist_names_2_of_Technological_Progress = 1
+		technologist_names_2_of_Technologists = 1
+		technologist_names_2_of_Advanced_Sciences = 1
+		technologist_names_2_of_Scientific_Scholars = 1
+		technologist_names_2_of_Scientific_Ascendancy = 1
+		technologist_names_2_of_High_Technology = 1
+		technologist_names_2_for_the_Advancement_of_Science = 1
+		technologist_names_2_of_Technocratic_Reform = 1
+		technologist_names_2_of_Research_Efficiency = 1
+		technologist_names_2_of_Technological_Mastery = 1
+		technologist_names_2_of_Scientific_Betterment = 1
+		technologist_names_2_of_Robotic_Sciences = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "technologist"
+		}
+	}
+	lookups = "<technologist_names_1> <technologist_names_2>"
+	format = fr_format.pop_faction.technologist # <technologist_names_1> <technologist_names_2>
+}
+
+## Traditionalists
+pop_faction_name_parts_list = {
+	key = "traditionalist_names_1"
+	parts = {
+		traditionalist_names_1_Union = 1
+		traditionalist_names_1_Alliance = 1
+		traditionalist_names_1_Council = 1
+		traditionalist_names_1_Committee = 1
+		traditionalist_names_1_Church = 1
+		traditionalist_names_1_Conclave = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "traditionalist_names_2"
+	parts = {
+		traditionalist_names_2_of_Traditional_Values = 1
+		traditionalist_names_2_of_Spiritualists = 1
+		traditionalist_names_2_of_Divine_Guidance = 1
+		traditionalist_names_2_of_Sacred_Traditions = 1
+		traditionalist_names_2_of_Religious_Conservatism = 1
+		traditionalist_names_2_of_Spiritual_Redemption = 1
+		traditionalist_names_2_of_Spiritualism_Unchained = 1
+		traditionalist_names_2_of_the_True_Gospel = 1
+		traditionalist_names_2_of_Spiritual_Philosophy = 1
+		traditionalist_names_2_of_Traditional_Foundations = 1
+		traditionalist_names_2_of_Metaphysical_Cleansing = 1
+		traditionalist_names_2_of_Exalted_Clergy = 1
+		traditionalist_names_2_of_the_High_Priesthood = 1
+		traditionalist_names_2_of_the_Sacrosanct_Truths = 1
+		traditionalist_names_2_of_Pious_Traditionalists = 1
+		traditionalist_names_2_of_Faith_and_Values = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "traditionalist"
+		}
+	}
+	lookups = "<traditionalist_names_1> <traditionalist_names_2>"
+	format = fr_format.pop_faction.traditionalist # <traditionalist_names_1> <traditionalist_names_2>
+}
+
+## Xenoists
+pop_faction_name_parts_list = {
+	key = "xenoist_names_1"
+	parts = {
+		xenoist_names_1_Alien = 1
+		xenoist_names_1_Xeno = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "xenoist_names_2"
+	parts = {
+		xenoist_names_2_Rights = 1
+		xenoist_names_2_Tolerance = 1
+		xenoist_names_2_Friendship = 1
+		xenoist_names_2_Equality = 1
+		xenoist_names_2_Justice = 1
+		xenoist_names_2_Compassion = 1
+		xenoist_names_2_Protection = 1
+		xenoist_names_2_Liberty = 1
+		xenoist_names_2_Freedom = 1
+		xenoist_names_2_Aid = 1
+		xenoist_names_2_Reform = 1
+		xenoist_names_2_Awareness = 1
+		xenoist_names_2_Suffrage = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "xenoist_names_3"
+	parts = {
+		xenoist_names_3_Coalition = 1
+		xenoist_names_3_Lobby = 1
+		xenoist_names_3_Council = 1
+		xenoist_names_3_Committee = 1
+		xenoist_names_3_Center = 1
+		xenoist_names_3_Foundation = 1
+		xenoist_names_3_Initiative = 1
+		xenoist_names_3_Society = 1
+		xenoist_names_3_Watch = 1
+		xenoist_names_3_Alliance = 1
+		xenoist_names_3_Movement = 1
+		xenoist_names_3_Group = 1
+		xenoist_names_3_Organization = 1
+		xenoist_names_3_Network = 1
+		xenoist_names_3_Forum = 1
+		xenoist_names_3_Association = 1
+		xenoist_names_3_Trust = 1
+		xenoist_names_3_Institute = 1
+		xenoist_names_3_League = 1
+		xenoist_names_3_Observatory = 1
+		xenoist_names_3_Party = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "xenoist"
+		}
+	}
+	lookups = "<xenoist_names_1> <xenoist_names_2> <xenoist_names_3>"
+	format = fr_format.pop_faction.xenoist # <xenoist_names_1> <xenoist_names_2> <xenoist_names_3>
+}
+
+## Manifesti
+pop_faction_name_parts_list = {
+	key = "manifesti_names_1"
+	parts = {
+		manifesti_names_1_Manifesti = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "manifesti_names_2"
+	parts = {
+		manifesti_names_2_Partay = 1
+		manifesti_names_2_Dalliance = 1
+		manifesti_names_2_Palette = 1
+		manifesti_names_2_Convolution = 1
+		manifesti_names_2_Praxis = 1
+		manifesti_names_2_Weave = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "manifesti"
+		}
+	}
+	lookups = "<manifesti_names_1> <manifesti_names_2>"
+	format = fr_format.pop_faction.manifesti # <manifesti_names_1> <manifesti_names_2>
+}

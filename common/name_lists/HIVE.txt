@@ -1,0 +1,247 @@
+﻿### Hive Mind #œ
+### Created by Miranda van den Brink
+
+HIVE = {
+	category = "Hive Mind"
+	randomized = no
+	should_name_home_system_planets = no
+
+	ship_names = {
+		generic = {
+		}
+
+		corvette = {
+			HIVE_SHIP_CombatVessel
+		}
+
+		destroyer = {
+			HIVE_SHIP_CombatVessel
+		}
+
+		cruiser = {
+			HIVE_SHIP_CombatVessel
+		}
+
+		battleship = {
+			HIVE_SHIP_CombatVessel
+		}
+
+		titan = {
+			HIVE_SHIP_CombatVessel
+		}
+
+		colossus = {
+			HIVE_SHIP_PrimaryCombatVessel
+		}
+
+		juggernaut = {
+			HIVE_SHIP_PrimaryCombatNode
+		}
+
+		science = {
+			HIVE_SHIP_SeekerVessel
+		}
+
+		colonizer = {
+			HIVE_SHIP_Nester
+		}
+
+		constructor = {
+			HIVE_SHIP_BuilderVessel
+		}
+
+		transport = {
+			HIVE_SHIP_CarrierVessel
+		}
+
+		military_station_small = {
+			HIVE_SHIP_StationaryDefensive
+		}
+
+		ion_cannon = {
+			HIVE_SHIP_IonDefensive
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+			HIVE_CLASS_TypeAlpha HIVE_CLASS_TypeBeta HIVE_CLASS_TypeGamma HIVE_CLASS_TypeDelta HIVE_CLASS_TypeEpsilon HIVE_CLASS_TypeZeta HIVE_CLASS_TypeEta HIVE_CLASS_TypeTheta HIVE_CLASS_TypeIota HIVE_CLASS_TypeKappa HIVE_CLASS_TypeLambda HIVE_CLASS_TypeMu HIVE_CLASS_TypeNu HIVE_CLASS_TypeXi HIVE_CLASS_TypeOmicron HIVE_CLASS_TypePi HIVE_CLASS_TypeRho HIVE_CLASS_TypeSigma HIVE_CLASS_TypeTau HIVE_CLASS_TypeUpsilon HIVE_CLASS_TypePhi HIVE_CLASS_TypeChi HIVE_CLASS_TypePsi HIVE_CLASS_TypeOmega
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			HIVE_FLEET_HowlingSwarm HIVE_FLEET_RavenousSwarm HIVE_FLEET_RavagingSwarm HIVE_FLEET_DevastatingSwarm HIVE_FLEET_GorgingSwarm HIVE_FLEET_RushingSwarm HIVE_FLEET_StalkingSwarm HIVE_FLEET_ChargingSwarm HIVE_FLEET_ThunderingSwarm HIVE_FLEET_TeemingSwarm HIVE_FLEET_CeaselessSwarm HIVE_FLEET_BalefulSwarm HIVE_FLEET_PestilentSwarm HIVE_FLEET_MercilessSwarm HIVE_FLEET_PitilessSwarm HIVE_FLEET_RancorousSwarm
+		}
+		sequential_name = HIVE_COMBATSWARMxx_SEQ2
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = HIVE_xxHIVEDEFENDERS_SEQ
+#			sequential_name = HIVE_xxHIVEDEFENDERS_ORD
+		}
+
+		machine_assault_1 = {
+			sequential_name = HIVE_xxAGGRESSORS_SEQ
+#			sequential_name = HIVE_xxAGGRESSORS_ORD
+		}
+
+		machine_assault_2 = {
+			sequential_name = HIVE_xxAGGRESSORS_SEQ
+#			sequential_name = HIVE_xxAGGRESSORS_ORD
+		}
+
+		machine_assault_3 = {
+			sequential_name = HIVE_xxAGGRESSORS_SEQ
+#			sequential_name = HIVE_xxAGGRESSORS_ORD
+		}
+
+		defense_army = {
+			sequential_name = HIVE_xxHIVEDEFENDERS_SEQ
+#			sequential_name = HIVE_xxHIVEDEFENDERS_ORD
+		}
+
+		assault_army = {
+			sequential_name = HIVE_xxAGGRESSORS_SEQ
+#			sequential_name = HIVE_xxAGGRESSORS_ORD
+		}
+
+		slave_army = {
+			sequential_name = HIVE_xxSLAVEWARRIORDRONES_SEQ
+#			sequential_name = HIVE_xxSLAVEWARRIORDRONES_ORD
+		}
+
+		clone_army = {
+			sequential_name = HIVE_xxCLONEDWARRIORDRONES_SEQ
+#			sequential_name = HIVE_xxCLONEDWARRIORDRONES_ORD
+		}
+
+		undead_army = {
+			sequential_name = HIVE_xxDREADDRONES_SEQ
+#			sequential_name = HIVE_xxDREADDRONES_ORD
+		}
+
+		robotic_army = {
+			sequential_name = HIVE_xxROBOTICWARRIORDRONES_SEQ
+#			sequential_name = HIVE_xxROBOTICWARRIORDRONES_ORD
+		}
+
+		robotic_defense_army = {
+			sequential_name = HIVE_xxROBOTICDEFENSEDRONES_SEQ
+#			sequential_name = HIVE_xxROBOTICDEFENSEDRONES_ORD
+		}
+
+		psionic_army = {
+			sequential_name = HIVE_xxPSIWARRIORDRONES_SEQ
+#			sequential_name = HIVE_xxPSIWARRIORDRONES_ORD
+		}
+
+		xenomorph_army = {
+			sequential_name = HIVE_xxMORPHEDWARRIORDRONES_SEQ
+#			sequential_name = HIVE_xxMORPHEDWARRIORDRONES_ORD
+		}
+
+		gene_warrior_army = {
+			sequential_name = HIVE_xxENHANCEDWARRIORDRONES_SEQ
+#			sequential_name = HIVE_xxENHANCEDWARRIORDRONES_ORD
+		}
+
+		primitive_army = {
+			sequential_name = HIVE_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = HIVE_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = HIVE_POSTATOMICARMYxx_SEQ
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				HIVE_PLANET_AlphaCell HIVE_PLANET_SwarmCellAlpha HIVE_PLANET_DroneCell HIVE_PLANET_NestingChamber HIVE_PLANET_DroneNest HIVE_PLANET_OutwardReach HIVE_PLANET_ExteriorDroneChamber HIVE_PLANET_ExtensionNode HIVE_PLANET_StandardNode HIVE_PLANET_DroneNode HIVE_PLANET_ExpansiveCell HIVE_PLANET_ProductionChamber HIVE_PLANET_SuperiorVertex HIVE_PLANET_ExpansionNode HIVE_PLANET_DevelopmentChamber HIVE_PLANET_AdvancementCell HIVE_PLANET_ManufacturingNode HIVE_PLANET_AssemblyCell HIVE_PLANET_GuardJunction HIVE_PLANET_Supra-Vertex HIVE_PLANET_ForwardJunction HIVE_PLANET_AssemblyNode HIVE_PLANET_BroodColony HIVE_PLANET_AlphaColony HIVE_PLANET_BetaColony HIVE_PLANET_GammaColony HIVE_PLANET_DeltaColony HIVE_PLANET_EpsilonColony HIVE_PLANET_ZetaColony HIVE_PLANET_EtaColony HIVE_PLANET_ThetaColony HIVE_PLANET_IotaColony HIVE_PLANET_ProductionCell HIVE_PLANET_BroodCell HIVE_PLANET_DroneCluster HIVE_PLANET_SwarmColony HIVE_PLANET_DroneColony HIVE_PLANET_AssemblyColony
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+
+				HIVE_CHR_AutonomousDrone1 HIVE_CHR_AutonomousDrone2 HIVE_CHR_AutonomousDrone3 HIVE_CHR_AutonomousDrone4 HIVE_CHR_AutonomousDrone5 HIVE_CHR_AutonomousDrone6 HIVE_CHR_AutonomousDrone7 HIVE_CHR_AutonomousDrone8 HIVE_CHR_AutonomousDrone9 HIVE_CHR_AutonomousDrone10 HIVE_CHR_AutonomousDrone11 HIVE_CHR_AutonomousDrone12 HIVE_CHR_AutonomousDrone13 HIVE_CHR_AutonomousDrone14 HIVE_CHR_AutonomousDrone15 HIVE_CHR_AutonomousDrone16 HIVE_CHR_AutonomousDrone17 HIVE_CHR_AutonomousDrone18 HIVE_CHR_AutonomousDrone19 HIVE_CHR_AutonomousDrone20 HIVE_CHR_AutonomousDrone21 HIVE_CHR_AutonomousDrone22 HIVE_CHR_AutonomousDrone23 HIVE_CHR_AutonomousDrone24 HIVE_CHR_AutonomousDrone25 HIVE_CHR_AutonomousDrone26 HIVE_CHR_AutonomousDrone27 HIVE_CHR_AutonomousDrone28 HIVE_CHR_AutonomousDrone29 HIVE_CHR_AutonomousDrone30 HIVE_CHR_AutonomousDrone31 HIVE_CHR_AutonomousDrone32 HIVE_CHR_AutonomousDrone33 HIVE_CHR_AutonomousDrone34 HIVE_CHR_AutonomousDrone35 HIVE_CHR_AutonomousDrone36 HIVE_CHR_AutonomousDrone37 HIVE_CHR_AutonomousDrone38 HIVE_CHR_AutonomousDrone39 HIVE_CHR_AutonomousDrone40 HIVE_CHR_AutonomousDrone41 HIVE_CHR_AutonomousDrone42 HIVE_CHR_AutonomousDrone43 HIVE_CHR_AutonomousDrone44 HIVE_CHR_AutonomousDrone45 HIVE_CHR_AutonomousDrone46 HIVE_CHR_AutonomousDrone47 HIVE_CHR_AutonomousDrone48 HIVE_CHR_AutonomousDrone49 HIVE_CHR_AutonomousDrone50 HIVE_CHR_AutonomousDrone51 HIVE_CHR_AutonomousDrone52 HIVE_CHR_AutonomousDrone53 HIVE_CHR_AutonomousDrone54 HIVE_CHR_AutonomousDrone55 HIVE_CHR_AutonomousDrone56 HIVE_CHR_AutonomousDrone57 HIVE_CHR_AutonomousDrone58 HIVE_CHR_AutonomousDrone59 HIVE_CHR_AutonomousDrone60 HIVE_CHR_AutonomousDrone61 HIVE_CHR_AutonomousDrone62 HIVE_CHR_AutonomousDrone63 HIVE_CHR_AutonomousDrone64 HIVE_CHR_AutonomousDrone65 HIVE_CHR_AutonomousDrone66 HIVE_CHR_AutonomousDrone67 HIVE_CHR_AutonomousDrone68 HIVE_CHR_AutonomousDrone69 HIVE_CHR_AutonomousDrone70 HIVE_CHR_AutonomousDrone71 HIVE_CHR_AutonomousDrone72 HIVE_CHR_AutonomousDrone73 HIVE_CHR_AutonomousDrone74
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+			}
+
+			regnal_second_names = {
+			}
+		}
+	}
+
+	ruler_names = {
+		default = {
+			full_names = {
+				HIVE_RULER_SynapticNexus HIVE_RULER_Consciousness
+			}
+		}
+	}
+}

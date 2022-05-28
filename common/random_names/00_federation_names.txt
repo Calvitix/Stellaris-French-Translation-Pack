@@ -1,0 +1,340 @@
+# Galactic Union #œ
+
+federation_name_parts_list = {
+	key = "default_federation_names_1_1"
+	parts = {
+		default_federation_names_1_1_Pan-Galactic = 1
+		default_federation_names_1_1_Galactic = 1
+		default_federation_names_1_1_Interstellar = 1
+		default_federation_names_1_1_Star = 1
+		default_federation_names_1_1_Stellar = 1
+		default_federation_names_1_1_Cosmic = 1
+		default_federation_names_1_1_MutualAssistance = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "default_federation_names_1_2"
+	parts = {
+		default_federation_names_1_2_Alliance = 1
+		default_federation_names_1_2_League = 1
+		default_federation_names_1_2_Federation = 1
+		default_federation_names_1_2_Pact = 1
+		default_federation_names_1_2_Coalition = 1
+		default_federation_names_1_2_Compact = 1
+		default_federation_names_1_2_Concord = 1
+		default_federation_names_1_2_Entente = 1
+		default_federation_names_1_2_Partnership = 1
+		default_federation_names_1_2_TreatyOrganization = 1
+		default_federation_names_1_2_Accord = 1
+		default_federation_names_1_2_Assembly = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "default_federation_names_2_1"
+	parts = {
+		default_federation_names_2_1_Coalitionof = 1
+		default_federation_names_2_1_Leagueof = 1
+		default_federation_names_2_1_Allianceof = 1
+		default_federation_names_2_1_Unionof = 1
+		default_federation_names_2_1_Allied = 1
+		default_federation_names_2_1_United = 1
+		default_federation_names_2_1_Federal = 1
+		default_federation_names_2_1_Federated = 1
+		default_federation_names_2_1_Confederated = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "default_federation_names_2_2"
+	parts = {
+		default_federation_names_2_2_StarNations = 1
+		default_federation_names_2_2_InterlinkedSystems = 1
+		default_federation_names_2_2_IndependentSystems = 1
+		default_federation_names_2_2_SovereignNations = 1
+		default_federation_names_2_2_AutonomousPowers = 1
+		default_federation_names_2_2_GalacticPowers = 1
+		default_federation_names_2_2_SovereignStars = 1
+		default_federation_names_2_2_CivilizedWorlds = 1
+		default_federation_names_2_2_AssociatedNations = 1
+		default_federation_names_2_2_SapientNations = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = default_federation
+		}
+	}
+	lookups = "<default_federation_names_1_1> <default_federation_names_1_2>"
+	format = fr_format.federation.1 # <default_federation_names_1_1> <default_federation_names_1_2>
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = default_federation
+		}
+	}
+	lookups = "<default_federation_names_2_1> <default_federation_names_2_2>"
+	format = fr_format.federation.2 # <default_federation_names_2_1> <default_federation_names_2_2>
+}
+
+# Trade League
+
+federation_name_parts_list = {
+	key = "trade_federation_names_1_1"
+	parts = {
+		trade_federation_names_1_1_Pan-Galactic = 1
+		trade_federation_names_1_1_Galactic = 1
+		trade_federation_names_1_1_Interstellar = 1
+		trade_federation_names_1_1_Star = 1
+		trade_federation_names_1_1_Stellar = 1
+		trade_federation_names_1_1_Cosmic = 1
+		trade_federation_names_1_1_United = 1
+		trade_federation_names_1_1_Free = 1
+		trade_federation_names_1_1_Consolidated = 1
+		trade_federation_names_1_1_Harmonious = 1
+		trade_federation_names_1_1_Golden = 1
+		trade_federation_names_1_1_Favorable = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "trade_federation_names_1_2"
+	parts = {
+		trade_federation_names_1_2_Prosperity = 1
+		trade_federation_names_1_2_Commerce = 1
+		trade_federation_names_1_2_Trade = 1
+		trade_federation_names_1_2_Mercantile = 1
+		trade_federation_names_1_2_Monetary = 1
+		trade_federation_names_1_2_Co-Prosperity = 1
+		trade_federation_names_1_2_Economic = 1
+		trade_federation_names_1_2_FreeTrade = 1
+		trade_federation_names_1_2_Trading = 1
+		trade_federation_names_1_2_Merchant = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "trade_federation_names_1_3"
+	parts = {
+		trade_federation_names_1_3_Sphere = 1
+		trade_federation_names_1_3_Coalition = 1
+		trade_federation_names_1_3_Alliance = 1
+		trade_federation_names_1_3_Federation = 1
+		trade_federation_names_1_3_Pact = 1
+		trade_federation_names_1_3_Compact = 1
+		trade_federation_names_1_3_Concord = 1
+		trade_federation_names_1_3_Entente = 1
+		trade_federation_names_1_3_Partnership = 1
+		trade_federation_names_1_3_Accord = 1
+		trade_federation_names_1_3_Assembly = 1
+		trade_federation_names_1_3_Exchange = 1
+		trade_federation_names_1_3_Network = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = trade_federation
+		}
+	}
+	lookups = "<trade_federation_names_1_1> <trade_federation_names_1_2> <trade_federation_names_1_3>"
+	format = fr_format.federation.3 # <trade_federation_names_1_1> <trade_federation_names_1_2> <trade_federation_names_1_3>
+}
+
+
+# Research Cooperative
+
+federation_name_parts_list = {
+	key = "research_federation_names_1_1"
+	parts = {
+		research_federation_names_1_1_Pan-Galactic = 1
+		research_federation_names_1_1_Galactic = 1
+		research_federation_names_1_1_Interstellar = 1
+		research_federation_names_1_1_Star = 1
+		research_federation_names_1_1_Stellar = 1
+		research_federation_names_1_1_Cosmic = 1
+		research_federation_names_1_1_United = 1
+		research_federation_names_1_1_Free = 1
+		research_federation_names_1_1_Harmonious = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "research_federation_names_1_2"
+	parts = {
+		research_federation_names_1_2_Science = 1
+		research_federation_names_1_2_Research = 1
+		research_federation_names_1_2_Information = 1
+		research_federation_names_1_2_Knowledge = 1
+		research_federation_names_1_2_Technologist = 1
+		research_federation_names_1_2_Academy = 1
+		research_federation_names_1_2_Advancement = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "research_federation_names_1_3"
+	parts = {
+		research_federation_names_1_3_Cooperative = 1
+		research_federation_names_1_3_Sphere = 1
+		research_federation_names_1_3_Coalition = 1
+		research_federation_names_1_3_Alliance = 1
+		research_federation_names_1_3_Federation = 1
+		research_federation_names_1_3_Pact = 1
+		research_federation_names_1_3_Compact = 1
+		research_federation_names_1_3_Concord = 1
+		research_federation_names_1_3_Entente = 1
+		research_federation_names_1_3_Partnership = 1
+		research_federation_names_1_3_Accord = 1
+		research_federation_names_1_3_Assembly = 1
+		research_federation_names_1_3_Exchange = 1
+		research_federation_names_1_3_Network = 1
+		research_federation_names_1_3_Association = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = research_federation
+		}
+	}
+	lookups = "<research_federation_names_1_1> <research_federation_names_1_2> <research_federation_names_1_3>"
+	format = fr_format.federation.4 # <research_federation_names_1_1> <research_federation_names_1_2> <research_federation_names_1_3>
+}
+
+
+# Martial Alliance
+
+federation_name_parts_list = {
+	key = "military_federation_names_1_1"
+	parts = {
+		military_federation_names_1_1_Pan-Galactic = 1
+		military_federation_names_1_1_Galactic = 1
+		military_federation_names_1_1_Interstellar = 1
+		military_federation_names_1_1_Star = 1
+		military_federation_names_1_1_Stellar = 1
+		military_federation_names_1_1_Cosmic = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "military_federation_names_1_2"
+	parts = {
+		military_federation_names_1_2_TreatyOrganization = 1
+		military_federation_names_1_2_DefenseForce = 1
+		military_federation_names_1_2_Pact = 1
+		military_federation_names_1_2_DefenseLeague = 1
+		military_federation_names_1_2_StrategicAlliance = 1
+		military_federation_names_1_2_Entente = 1
+		military_federation_names_1_2_SecurityPartnership = 1
+		military_federation_names_1_2_DefenseInitiative = 1
+		military_federation_names_1_2_SecurityOrganization = 1
+		military_federation_names_1_2_CombinedForces = 1
+		military_federation_names_1_2_MilitaryBloc = 1
+		military_federation_names_1_2_DefenseAxis = 1
+		military_federation_names_1_2_MutualAssistancePact = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = military_federation
+		}
+	}
+	lookups = "<military_federation_names_1_1> <military_federation_names_1_2>"
+	format = fr_format.federation.5 # <military_federation_names_1_1> <military_federation_names_1_2>
+}
+
+# Hegemony
+
+federation_name_parts_list = {
+	key = "hegemony_federation_names_1_1"
+	parts = {
+		hegemony_federation_names_1_1_StarHegemony = 1
+		hegemony_federation_names_1_1_StarHierarchy = 1
+		hegemony_federation_names_1_1_SecurityPact = 1
+		hegemony_federation_names_1_1_StarDominion = 1
+		hegemony_federation_names_1_1_AffiliationBloc = 1
+		hegemony_federation_names_1_1_GalacticDomain = 1
+		hegemony_federation_names_1_1_GalacticOrder = 1
+		hegemony_federation_names_1_1_InfluenceSphere = 1
+		hegemony_federation_names_1_1_PartnershipAlliance = 1
+		hegemony_federation_names_1_1_FriendshipSphere = 1
+		hegemony_federation_names_1_1_ControlZone = 1
+		hegemony_federation_names_1_1_ProtectionSphere = 1
+		hegemony_federation_names_1_1_DependancyUnion = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "hegemony_federation_names_2_1"
+	parts = {
+		hegemony_federation_names_2_1_New = 1
+		hegemony_federation_names_2_1_Greater = 1
+		hegemony_federation_names_2_1_Great = 1
+		hegemony_federation_names_2_1_Grand = 1
+		hegemony_federation_names_2_1_Exalted = 1
+		hegemony_federation_names_2_1_Glorious = 1
+		hegemony_federation_names_2_1_Supreme = 1
+		hegemony_federation_names_2_1_United = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "hegemony_federation_names_2_2"
+	parts = {
+		hegemony_federation_names_2_2_Order = 1
+		hegemony_federation_names_2_2_Hegemony = 1
+		hegemony_federation_names_2_2_Hierarchy = 1
+		hegemony_federation_names_2_2_Domain = 1
+		hegemony_federation_names_2_2_Dominion = 1
+		hegemony_federation_names_2_2_Sphere = 1
+		hegemony_federation_names_2_2_Authority = 1
+		hegemony_federation_names_2_2_Pact = 1
+		hegemony_federation_names_2_2_Bloc = 1
+		hegemony_federation_names_2_2_Coalition = 1
+		hegemony_federation_names_2_2_League = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = hegemony_federation
+		}
+	}
+	lookups = "[This.Leader.GetSpeciesName] <hegemony_federation_names_1_1>"
+	format = fr_format.federation.6 # [This.Leader.GetSpeciesName] <hegemony_federation_names_1_1>
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = hegemony_federation
+		}
+	}
+	lookups = "<hegemony_federation_names_2_1> [This.Leader.GetSpeciesName] <hegemony_federation_names_2_2>"
+	format = fr_format.federation.7 # <hegemony_federation_names_2_1> [This.Leader.GetSpeciesName] <hegemony_federation_names_2_2>
+}

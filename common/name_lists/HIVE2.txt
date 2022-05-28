@@ -1,0 +1,247 @@
+﻿### Hive Mind 2 #œ
+### Created by Douglas Furen
+
+HIVE2 = {
+	category = "Hive Mind"
+	randomized = no
+	should_name_home_system_planets = no
+
+	ship_names = {
+		generic = {
+		}
+
+		corvette = {
+			HIVE2_SHIP_MinorBattleUnit
+		}
+
+		destroyer = {
+			HIVE2_SHIP_BattleUnit
+		}
+
+		cruiser = {
+			HIVE2_SHIP_BattleUnit
+		}
+
+		battleship = {
+			HIVE2_SHIP_MajorBattleUnit
+		}
+
+		titan = {
+			HIVE2_SHIP_SignificantBattleUnit
+		}
+
+		colossus = {
+			HIVE2_SHIP_PillarBattleUnit
+		}
+
+		juggernaut = {
+			HIVE2_SHIP_PinnacleBattleUnit
+		}
+
+		science = {
+			HIVE2_SHIP_SearcherUnit
+		}
+
+		colonizer = {
+			HIVE2_SHIP_ExpansionUnit
+		}
+
+		constructor = {
+			HIVE2_SHIP_ConstructionUnit
+		}
+
+		transport = {
+			HIVE2_SHIP_CarrierUnit
+		}
+
+		military_station_small = {
+			HIVE2_SHIP_OrbitalDefenseUnit
+		}
+
+		ion_cannon = {
+			HIVE2_SHIP_IonDefenseUnit
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+			HIVE2_CLASS_EntityAlef HIVE2_CLASS_EntityBet HIVE2_CLASS_EntityGimel HIVE2_CLASS_EntityVav HIVE2_CLASS_EntityZayin HIVE2_CLASS_EntityDalet HIVE2_CLASS_EntityLamed HIVE2_CLASS_EntitySamech HIVE2_CLASS_EntityTsade HIVE2_CLASS_EntityShin HIVE2_CLASS_EntityTav HIVE2_CLASS_EntityChet HIVE2_CLASS_EntityTet HIVE2_CLASS_EntityYod HIVE2_CLASS_EntityKaf HIVE2_CLASS_EntityMem HIVE2_CLASS_EntityAyin HIVE2_CLASS_EntityQof HIVE2_CLASS_EntityResh
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			HIVE2_FLEET_IntentionThrong HIVE2_FLEET_PurposeThrong HIVE2_FLEET_DesignThrong HIVE2_FLEET_FunctionThrong HIVE2_FLEET_DeterminationThrong HIVE2_FLEET_DirectionThrong HIVE2_FLEET_PrincipleThrong HIVE2_FLEET_TargetThrong HIVE2_FLEET_AimThrong HIVE2_FLEET_GoalThrong HIVE2_FLEET_CorrectionThrong HIVE2_FLEET_DecisionThrong HIVE2_FLEET_DedicationThrong HIVE2_FLEET_TenacityThrong HIVE2_FLEET_ResolveThrong HIVE2_FLEET_ResoluteThrong HIVE2_FLEET_ObjectiveThrong HIVE2_FLEET_SolutionThrong
+			# Retiré : HIVE2_FLEET_TargetThrong (doublon)
+		}
+		sequential_name = HIVE2_BATTLETHRONGxx_SEQ2
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = HIVE2_xxPROTECTIONEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxPROTECTIONEXTREMITY_ORD
+		}
+
+		machine_assault_1 = {
+			sequential_name = HIVE2_xxASSAULTEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxASSAULTEXTREMITY_ORD
+		}
+
+		machine_assault_2 = {
+			sequential_name = HIVE2_xxASSAULTEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxASSAULTEXTREMITY_ORD
+		}
+
+		machine_assault_3 = {
+			sequential_name = HIVE2_xxASSAULTEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxASSAULTEXTREMITY_ORD
+		}
+
+		defense_army = {
+			sequential_name = HIVE2_xxPROTECTIONEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxPROTECTIONEXTREMITY_ORD
+		}
+
+		assault_army = {
+			sequential_name = HIVE2_xxASSAULTEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxASSAULTEXTREMITY_ORD
+		}
+
+		slave_army = {
+			sequential_name = HIVE2_xxFORFEITEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxFORFEITEXTREMITY_ORD
+		}
+
+		clone_army = {
+			sequential_name = HIVE2_xxREPLICATEEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxREPLICATEEXTREMITY_ORD
+		}
+
+		undead_army = {
+			sequential_name = HIVE2_xxDREADEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxDREADEXTREMITY_ORD
+		}
+
+		robotic_army = {
+			sequential_name = HIVE2_xxMACHINEEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxMACHINEEXTREMITY_ORD
+		}
+
+		robotic_defense_army = {
+			sequential_name = HIVE2_xxDEFENSEMACHINEEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxDEFENSEMACHINEEXTREMITY_ORD
+		}
+
+		psionic_army = {
+			sequential_name = HIVE2_xxWEAPONIZEDTHOUGHTEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxWEAPONIZEDTHOUGHTEXTREMITY_ORD
+		}
+
+		xenomorph_army = {
+			sequential_name = HIVE2_xxMORPHEDEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxMORPHEDEXTREMITY_ORD
+		}
+
+		gene_warrior_army = {
+			sequential_name = HIVE2_xxENHANCEDEXTREMITY_SEQ
+#			sequential_name = HIVE2_xxENHANCEDEXTREMITY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = HIVE2_xxPRIMITIVEEXTREMITY_SEQ
+		}
+		industrial_army = {
+			sequential_name = HIVE2_xxINDUSTRIALEXTREMITY_SEQ
+		}
+		postatomic_army = {
+			sequential_name = HIVE2_xxRUINEDEXTREMITY_SEQ
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				HIVE2_PLANET_ClusterMak HIVE2_PLANET_GripTak HIVE2_PLANET_AcquisitionGim HIVE2_PLANET_ProcurementVoph HIVE2_PLANET_ObtainmentFir HIVE2_PLANET_AppropriationYig HIVE2_PLANET_AmendmentJud HIVE2_PLANET_GainOep HIVE2_PLANET_AdditionThet HIVE2_PLANET_AttainmentShu HIVE2_PLANET_RetrievalAhin HIVE2_PLANET_InclusionChak HIVE2_PLANET_ExtensionHemi HIVE2_PLANET_AnnexationTreh HIVE2_PLANET_AddendumEgr HIVE2_PLANET_IncrementPann HIVE2_PLANET_DividendByel HIVE2_PLANET_AdvancementSek HIVE2_PLANET_StepKyn HIVE2_PLANET_AlefCluster HIVE2_PLANET_BetGrip HIVE2_PLANET_GimelAcquisition HIVE2_PLANET_VavProcurement HIVE2_PLANET_ZayinObtainment HIVE2_PLANET_DaletAppropriation HIVE2_PLANET_SamechGain HIVE2_PLANET_TsadeAttainment HIVE2_PLANET_TavInclusion HIVE2_PLANET_ChetExtension HIVE2_PLANET_TetAnnexation HIVE2_PLANET_YodExpansion HIVE2_PLANET_KafAddendum HIVE2_PLANET_MemIncrement HIVE2_PLANET_AyinDividend HIVE2_PLANET_QofAdvancement HIVE2_PLANET_ReshStep
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				HIVE2_CHR_MotileOrgan1 HIVE2_CHR_MotileOrgan2 HIVE2_CHR_MotileOrgan3 HIVE2_CHR_MotileOrgan4 HIVE2_CHR_MotileOrgan5 HIVE2_CHR_MotileOrgan6 HIVE2_CHR_MotileOrgan7 HIVE2_CHR_MotileOrgan8 HIVE2_CHR_MotileOrgan9 HIVE2_CHR_MotileOrgan10 HIVE2_CHR_MotileOrgan11 HIVE2_CHR_MotileOrgan12 HIVE2_CHR_MotileOrgan13 HIVE2_CHR_MotileOrgan14 HIVE2_CHR_MotileOrgan15 HIVE2_CHR_MotileOrgan16 HIVE2_CHR_MotileOrgan17 HIVE2_CHR_MotileOrgan18 HIVE2_CHR_MotileOrgan19 HIVE2_CHR_MotileOrgan20 HIVE2_CHR_MotileOrgan21 HIVE2_CHR_MotileOrgan22 HIVE2_CHR_MotileOrgan23 HIVE2_CHR_MotileOrgan24 HIVE2_CHR_MotileOrgan25 HIVE2_CHR_MotileOrgan26 HIVE2_CHR_MotileOrgan27 HIVE2_CHR_MotileOrgan28 HIVE2_CHR_MotileOrgan29 HIVE2_CHR_MotileOrgan30 HIVE2_CHR_MotileOrgan31 HIVE2_CHR_MotileOrgan32 HIVE2_CHR_MotileOrgan33 HIVE2_CHR_MotileOrgan34 HIVE2_CHR_MotileOrgan35 HIVE2_CHR_MotileOrgan36 HIVE2_CHR_MotileOrgan37 HIVE2_CHR_MotileOrgan38 HIVE2_CHR_MotileOrgan39 HIVE2_CHR_MotileOrgan40 HIVE2_CHR_MotileOrgan41 HIVE2_CHR_MotileOrgan42 HIVE2_CHR_MotileOrgan43 HIVE2_CHR_MotileOrgan44 HIVE2_CHR_MotileOrgan45 HIVE2_CHR_MotileOrgan46 HIVE2_CHR_MotileOrgan47 HIVE2_CHR_MotileOrgan48 HIVE2_CHR_MotileOrgan49 HIVE2_CHR_MotileOrgan50 HIVE2_CHR_MotileOrgan51 HIVE2_CHR_MotileOrgan52 HIVE2_CHR_MotileOrgan53 HIVE2_CHR_MotileOrgan54 HIVE2_CHR_MotileOrgan55 HIVE2_CHR_MotileOrgan56 HIVE2_CHR_MotileOrgan57 HIVE2_CHR_MotileOrgan58 HIVE2_CHR_MotileOrgan59 HIVE2_CHR_MotileOrgan60 HIVE2_CHR_MotileOrgan61 HIVE2_CHR_MotileOrgan62 HIVE2_CHR_MotileOrgan63 HIVE2_CHR_MotileOrgan64 HIVE2_CHR_MotileOrgan65 HIVE2_CHR_MotileOrgan66 HIVE2_CHR_MotileOrgan67 HIVE2_CHR_MotileOrgan68 HIVE2_CHR_MotileOrgan69 HIVE2_CHR_MotileOrgan70 HIVE2_CHR_MotileOrgan71 HIVE2_CHR_MotileOrgan72 HIVE2_CHR_MotileOrgan73 HIVE2_CHR_MotileOrgan74 HIVE2_CHR_MotileOrgan75 HIVE2_CHR_MotileOrgan76 HIVE2_CHR_MotileOrgan77 HIVE2_CHR_MotileOrgan78 HIVE2_CHR_MotileOrgan79 HIVE2_CHR_MotileOrgan80
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+			}
+
+			regnal_second_names = {
+			}
+		}
+	}
+
+	ruler_names = {
+		default = {
+			full_names = {
+				HIVE2_RULER_Consciousness HIVE2_RULER_Mind HIVE2_RULER_Legion HIVE2_RULER_Source HIVE2_RULER_Wellspring
+			}
+		}
+	}
+}
