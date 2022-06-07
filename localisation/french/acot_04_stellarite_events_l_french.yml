@@ -1,9 +1,22 @@
 ﻿l_french:
 
-stellarite_events.1.name: "Stellarite ? Quelle stellarite ???"
+stellarite_events.1.name: "L'attirance pour les étoiles"
 stellarite_events.1.desc: "Nous avons une situation intéressante. Apparemment, certains de nos scientifiques ont affirmé avoir découvert un nouveau type de source d'alimentation après avoir passé un certain temps à scanner la signature énergétique avec nos capteurs énigmatiques avancés. Ces scientifiques affirment que la puissance des étoiles peut être transformée en une source d'énergie plus avancée que même la matière noire.\n\nNous ne pouvons pas encore vérifier la vérité de cette affirmation, car cela semble être lié à l'énergie solaire. ..que nous connaissions avant même que nos empires soient capables de voyager dans l'espace."
-stellarite_events.1.a: "Intéressant, nous devrions explorer cela."
-stellarite_events.1.b: "L'énergie solaire est connue depuis des centaines d'années, idiot stupide."
+stellarite_events.1.a: "Intéressant, peut-être SOPHIA pourra nous expliquer."
+stellarite_events.1.b: "Now's not the time to be experimenting."
+ 
+stellarite_events.100.name: "Precursor Databank"
+stellarite_events.100.desc.a: "Interesting...that the shard's remains could reach all the way here...\n\nSorry, was just thinking out loud. Your scientist's presumptions are correct, the energy signatures you detected are related to solar power, but its far more powerful, far more divine. What you see is but a flicker remains of its once glorious existence. The shards of the First Star, the power of Stellarite. Gotta admit though, I did not expect your scientists to actually be able to trace its signature all the way here."
+stellarite_events.100.desc.b: "This topic again? I thought you did not have any interest in it, did you change your mind somehow?"
+stellarite_events.100.a: "What's this First Star?"
+stellarite_events.100.a.response: "Uhh...its a very long story, and admittedly my knowledge is second-handed. But suffice to say, its what the name implies, the very first star of this reality. Created by higher beings as a gift of sort. But let's just say, due to some unfortunate series of events, the First Star is no more, its shards scattered into pieces beyond physical recognition. Yet its power remain true, and those who can tap into it, gains immeasurable power, the power of Stellarite."
+stellarite_events.100.b: "Can this power really be used?"
+stellarite_events.100.b.response: "In theory, yes. The shards resonate with the caller's desire, and those who understands its nature, can make use of Stellarite, bend it to whatever one needs. The problem is, frankly speaking, your empire and people are more likely going to explode yourselves trying to comprehend the scope of its design than actually using it. But perhaps there's a chance..."
+stellarite_events.100.c: "We want to harness this power."
+stellarite_events.100.c.response: "Hmmm...your empire certainly pass the minimum technological requirements to wield the power, thats for sure. But I am more worried about the potential consequences due to your lack of understanding behind its science. You're unlikely going to be able to shape the power towards the full potential, especially with how you already fumble your waith with void ener...actually perhaps you can still work around and create one that still works similarly enough to what you already have. The potency of the power will be somewhat reduced due to reliance on counteracting elements, but it should still be powerful.\n\nVery well, I will forward the details, pick your most gifted and experienced scientist, and see whether they are up to the task. Oh and make sure you have a good chunk of resources, you need to build a proper facility to experiment it on."
+stellarite_events.100.d: "Don't think we have any use for it."
+stellarite_events.100.d.response: "Ah, what a shame. Nevermind then."
+
  
 RESEARCH_STELLARITE_POWER: "L'attirance pour les étoiles"
 RESEARCH_STELLARITE_POWER_DESC: "Des scientifiques de tout notre empire se réuniront pour débattre et expérimenter la vérité de cette nouvelle source d'énergie. Il faudra un temps considérable avant que cette affirmation audacieuse puisse être vérifiée. Il existe également de nombreux risques possibles, ce ne sera pas facile."
@@ -20,11 +33,21 @@ RESEARCH_STELLARITE_COPY_DESC: "Quelqu'un vient de découvrir de nouveaux jouets
 stellarite_events.2.name: "Le Stellar"
 stellarite_events.2.desc: "C'est confirmé ! Après plusieurs expériences infructueuses, l'équipe a terminé un test approximatif de cette puissance de la stellarite. La puissance existe en effet et peut être utilisée comme source d'alimentation. Mais nous n'avons pas encore de prototype fonctionnel pouvant être utilisé pour des applications militaires. Nous devons creuser plus profondément."
 stellarite_events.2.desc.stellaritegate: "Les enregistrements à l'intérieur de la porte suggèrent fortement l'existence de la puissance de la stellarite, ce qui prouve que ce pouvoir existait dans le passé. Mais nous n'avons pas encore de prototype fonctionnel pouvant être utilisé pour des applications militaires. Nous devons creuser plus profondément."
+stellarite_events.2.a: "Settings our goal high."
 stellarite_events.2.tooltip: "Bien qu'il soit désormais admis que la stellarite est une source d'énergie potentielle, nous ne pouvons toujours pas créer un moyen fiable de contenir une énergie aussi puissante, nous aurons besoin d'un scientifique hautement qualifié dans les départements d'ingénierie pour le faire.\n\n§YLe scientifique en question doit être de niveau 10 et avoir un des traits suivants : conservateur, génie, Erudit, Choisi, Sapient AI Assistant, cerveau ou Expert en matériaux."
 
+stellarite_events_no_scientist: "It appears we somehow don't have any remaining scientist left for duty, shocking."
+  
 
 stellarite_events.3.name: "Un Candidat chef de projet"
 stellarite_events.3.desc: "Nous devons sélectionner l'un de nos scientifiques pour diriger l'ensemble du projet. C'est un domaine que nous ne connaissons pas et il peut y avoir de nombreux risques. Il est donc préférable que le candidat sélectionné ait un curriculum vitae respectable.\n\nCertains de nos dirigeants objectent qu'il peut également être imprudent de risquer de précieux scientifiques pour des dangers aussi indicibles. NOUS devons choisir."
+stellarite_events.3.desc.b: "Due to the complicated and alien nature of this field of study, only a few of our lead sciene units are capable of handling this task, even less so have the necessary cognitive skills to work on both their current assignment and the new project they will lead. Who should lead the project?"
+
+stellarite_events.3.1.a: "§GGo with [leader_1.GetName]§!"
+stellarite_events.3.1.b: "§GGo with [leader_2.GetName]§!"
+stellarite_events.3.1.c: "§GGo with [leader_3.GetName]§!"
+stellarite_events.3.1.d: "§GGo with [leader_4.GetName]§!"
+stellarite_events.3.1.e: "§GGo with [leader_5.GetName]§!"
  
 stellarite_events.4.name: "Échec de la mission critique"
 stellarite_events.4.desc.a: "Terribles nouvelles ! Le projet d'étudier la nouvelle source d'énergie a mal tourné ! L'un des scientifiques, désespéré par le manque de progrès, a tenté de réaliser l'expérience sans supervision appropriée.\n\nLe laboratoire secret a explosé, et toutes les équipes, y compris le superviseur, seraient mortes."
@@ -35,42 +58,125 @@ stellarite_events.4.desc.e: "Terribles nouvelles ! Le projet d'étudier la nouve
 stellarite_events.4.desc.f: "Terribles nouvelles ! Le projet d'étudier la nouvelle source d'énergie a mal tourné ! Tout comme lorsque les choses se passent bien. L'un des scientifiques s'est déchaîné de colère quand il a réalisé que le prochain jeu qui le passionnait était exclusif à Epoch Games. Il a brisé le terminal avec colère et a accidentellement mis tout le laboratoire à exploser."
 stellarite_events.4.desc.g: "Terribles nouvelles ! Le projet d'étudier la nouvelle source d'énergie a mal tourné ! Le superviseur et certaines des équipes étaient dans un ascenseur lorsqu'il a soudainement mal fonctionné en raison d'une panne d'électricité. L'ascenseur a explosé et détruit tout le laboratoire."
 stellarite_events.4.desc.h: "Terribles nouvelles ! Le projet d'étudier la nouvelle source d'énergie a mal tourné ! Un singe de laboratoire a été libéré, et il a mangé tous les scientifiques avant de sauter dans la chambre d'essai et a tout fait exploser."
-stellarite_events.4.desc.i: "Terribles nouvelles ! Le projet d'étudier la nouvelle source d'énergie a mal tourné ! L'équipe a essayé d'utiliser un moteur obsolète dans l'espoir que tout cela fonctionne. Mais non, cela n'a pas fonctionné. Le laboratoire a explosé et tout le monde est maintenant réduit en cendres."
 
 
 stellarite_events.4.a: "Nooon ! Nous devons réessayer !"
 stellarite_events.4.b: "Quelle perte de temps et d'énergie."
+stellarite_events.4.c: "We cannot afford another experiment at this time."
 
   
 stellarite_events.5.name: "Puissance écrasante !"
 stellarite_events.5.desc: "C'est fait ! Nous avons terminé le développement de la version de production en série du réacteur Stellarite. Cette nouvelle invention s'accompagne de plusieurs applications futures pour diverses applications de combat, nous devrions commencer à les explorer sans tarder !."
 stellarite_events.5.a: "Commençons !"
  
-stellarite_events.8.name: "Les Armes d'après-demain"
-stellarite_events.8.desc: "Nous avons terminé de finaliser les nouveaux schémas de nos nouvelles technologies de stellarite et tous les produits associés sont prêts pour la production de masse et les tests sur le terrain."
-stellarite_events.8.a: "Excelsior !"
+stellarite_events.500.name: "Precursor Databank"
+stellarite_events.500.desc: "Congratuations! You managed to avoid blowing up!\n\nI must say, I was skeptical about your chances, but you persevere regardless. Now you can begin to experiment and integrate stellarite within your arsenals. I must warn you though, that technically speaking, stellarite are not meant to be used this way. Combining void energies alone is already risky enough, but you also have dark matter into the mix. If you're not careful, there could be some...unforeseen consequences. Also make sure to keep your stellarite stockpile in check, you do not want some angry stellarite entities to manifest."
+stellarite_events.500.a: "Arsenals? What about infrastructure upgrades?"
+stellarite_events.500.a.response: "Easy there. You barely managed to cobble up the Stellarite power to work with your current technology. Utilizing them as weapons alone is already tricky enough, but at least you have the benefit of military grade hardware. Squeezing it into your every day planetary buildings may be a bit above your current capabilities at the moment. It'd require way too much..."Acquisitions of Technologies" to realistically work. But that's non-cano...nevermind, pretend you didn't hear the last part."
+stellarite_events.500.b: "What is this unforeseen consequences?"
+stellarite_events.500.b.response: "In case it was not yet obvious to you, Void energies and Stellarite do not play well together. Even though you mostly manage to isolate the non-compatible parts with the help of Dark Matter and some other procedures, the product is still notably void-based. Adding more of them to increase your stellarite production will likely result in...extremely explosive outcomes to say the least."
+stellarite_events.500.c: "Why do we have to vent stellarite?"
+stellarite_events.500.c.response: "To put it simply, stellarite are somewhat attuned to emotions and thoughts, as its power came from the shard of the First Star. Raw stellarite not being readily utilized may draw upon the lingering presences from the ages past...ghosts if you want to be spooky. This is rarely a concern for a more advanced stellarite empire, but for one such as yours may find it a little bit more challenging to keep these anomalies in check. Still, drawn to the power as they are, they are still just that, lingering emotions and thoughts. Even if they gain some semblances of form in the physical world, it will not last. If you do not deal with them yourselves, they'll probably just vanish back into nothingness once the powers are spent."
+stellarite_events.500.d: "We have much to do then."
+stellarite_events.500.d.response: "Yes. Exciting days are ahead of us, I am sure. I wonder what will you do with this new power."
 
-stellarite_events.9.name: "Jours après hier"
-stellarite_events.9.desc: "Nous avons reçu des rapports selon lesquels il existe un nouveau type de pouvoir utilisé appelé Solarite ou Sailor Rite ou quelque chose ... les rapports sont assez peu fiables. Mais cela semble assez remarquable. Ce sera un gaspillage de leur laisser ces technologies seules. Nous devons reproduire leurs dessins, après tout ..."
-stellarite_events.9.a: "'Ce qui est à toi est à moi, et ce qui est à moi est aussi à moi."
+stellarite_events.501.name: "A New Empire of the Rising Sun"
+stellarite_events.501.desc: "We're getting reports from credible source that the [event_target:new_stellarite_empire.GetName] has recently developed a new power source that seems to be much more formidable than the ones in use by the fallen empires. Details are sketchy but it seems to be related to the precursor technologies."
+stellarite_events.501.desc.b: "We're getting reports from credible source that the [event_target:new_stellarite_empire.GetName] has recently developed a new power source that seems to be much more formidable than the ones in use by the fallen empires. Unfortunately we have no idea what this new power is."
+stellarite_events.501.desc.c: "We're getting reports from credible source that the [event_target:new_stellarite_empire.GetName] has recently developed a new power source that match the readings and details of Stellarite. If this is correct, it means yet another empire is progressing towards a new revelation. We should monitor their progress very carefully."
+stellarite_events.501.a: "Perhaps SOPHIA can tell us more."
+stellarite_events.501.b: "Seems a bit over our level for the moment."
+stellarite_events.501.c: "We shall see."
 
-stellarite_events.10.name: "Anomalie stellarite de classe 12 !"
-stellarite_events.10.desc: "Alerte ! Anomalie instable détectée. Il semble que notre utilisation imprudente et gourmande de la technologie stellarite a fait émerger un être très étrange à base de stellarite de l'un de nos systèmes. Il essaie maintenant de nous manger pour le plaisir."
-stellarite_events.10.a.desc: "Alerte ! Anomalie instable détectée. Une autre créature stellarite a émergé. Elle souhaite nous transformer en pizza et prétend qu'elle reviendra tant que nous existons. Nous devons cesser d'exister pour qu'il cesse d'apparaître."
-stellarite_events.10.a: "Non, c'est la créature qui sera mangée."
-stellarite_events.10.b: "Encore ? Très bien, mange-le. Nous ne cesserons certainement pas d'exister."
+stellarite_events.10.name: "Stellarite Anomaly Detected!"
+stellarite_events.10.desc: "Alert! Unstable anomaly detected. A Stellarite entity has been reported to begin forming up in one of our systems. We can stop it by dispersing our stellarite stockpile or attacking the entity before it can form, albeit not without risk. Alternatively, we can let the entity form and see what comes out of it."
+stellarite_events.10.a.desc: "Alert! Unstable anomaly detected. Another Stellarite entity is beginning to form. It appears to draw upon our stellarite stockpile to materialize, if we flush some of the Stellarite out now, the creature will be unable to maintain its presence. Or we can just stop it from forming if we do not mind some explosive results."
+stellarite_events.10.a: "Vent the Stellarites. We have no time to waste on this."
+stellarite_events.10.a.tooltip: "A little loss of Stellarite won't hurt our economy. Beats having to deal with crazy ghosts." 
+stellarite_events.10.b: "Let the entity form. We may learn something useful."
+stellarite_events.10.b.tooltip: "No Pain, No Gain. This is a rare opportunity to study more about stellarite-based anomaly!" 
+stellarite_events.10.c: "Stop the entity. We're not losing the Stellarite!" 
+stellarite_events.10.c.tooltip: "Trying to directly intefere with its formation may cause it to deform. May be a bit risky, given that its Stellarite we're talking about here." 
 
-stellarite_events.12.name: "Kaboom !"
-stellarite_events.12.desc: "En raison de notre utilisation imprudente des réacteurs Stellarite sur §Y[FROM.GetName]§!, les générateurs subissent une fusion après une exposition prolongée aux vagues de chaleur massives de l'autre. Il en résulte une puissante explosion qui fait exploser le réacteur et transforme certaines de nos populations en cendres de l'histoire."
-stellarite_events.12.a: "Ooups."
+stellarite_events.1000.name: "Stellarite Anomaly Failure"
+stellarite_events.1000.desc: "Unfortunately, it appears that the entity fails to gain a tangible form and soons dissipate back into nothingness. Regardless, we are able to harvest some of its leftover stellarite."
+stellarite_events.1000.desc.b: "It appears the entity is having difficulty trying to form itself into a tangible form, and will likely dissipiate soon. However, it should be  possible to feed it more stellarite to manifest its form into physical space."
+stellarite_events.1000.a: "Better than nothing."
+stellarite_events.1000.b: "No. Let it dissipate."
+stellarite_events.1000.c: "Yes, let's try that." 
+stellarite_events.1000.c.tooltip: "This is not very logical, but very exciting regardless." 
 
-stellarite_events.13.name: "XPLOSION massive !"
-stellarite_events.13.desc: "En raison de notre utilisation imprudente des réacteurs Stellarite sur §Y[FROM.GetName]§!, les générateurs subissent une fusion critique après qu'un technicien ait appuyé sur le mauvais bouton après des heures de travail prolongées. Les générateurs ont explosé et ont provoqué une apocalypse massive qui anéantit la colonie. Les rapports indiquent que toutes les boissons gazeuses sont désormais correctement grillées.\n\nUne équipe de médecins a été envoyée pour tenter de soigner les survivants, mais il n'y a pas de survivants."
-stellarite_events.13.a: "Excell ... attendez non, c'est vraiment une très mauvaise nouvelle !"
+stellarite_events.1001.name: "Stellarite Anomaly Failure"
+stellarite_events.1001.desc: "It appears the entity is having difficulty trying to form itself into a tangible form, and will likely dissipiate soon. However, it should be possible to feed it more stellarite to manifest its form into physical space. The entity is currently located on [event_target:stellarite_forming_location.GetName]."
+stellarite_events.1001.a: "No. Let it dissipate."
+stellarite_events.1001.b: "Yes, let's try that." 
+stellarite_events.1001.b.tooltip: "This is not very logical, but very exciting regardless." 
 
-stellarite_events.14.name: "Destination Finale"
-stellarite_events.14.desc: "En raison de notre utilisation imprudente des réacteurs Stellarite sur §Y[FROM.GetName]§!, l'un des techniciens chargés de l'entretien des systèmes est tombé accidentellement dans l'arbre du générateur et a provoqué l'explosion de l'ensemble du bâtiment. L'accident qui en a résulté a provoqué une destruction massive et la planète n'est plus que de la roche en fusion et du feu."
-stellarite_events.14.a: "Tant pis."
+stellarite_events.1002.name: "Stellarite Entity"
+stellarite_events.1002.desc: "The Stellarite forms into a peculiar entity. It seems to lack sapience, displaying behavior akin to that of spaceborne entities such as tiyanki. While it does not show signs of hostility at the moment, destroying it may yield us some stellarite however. The entity is currently located on [event_target:stellarite_forming_location.GetName]."
+stellarite_events.1002.a: "It is harmless. let it be."
+stellarite_events.1002.a.tooltip: "The Entity will be left alone, allowing it to do whatever it wants until its stellarite reserve run out and expire." 
+stellarite_events.1002.b: "Destroy it, we need those stellarite." 
+stellarite_events.1002.b.tooltip: "The Entity will turn hostile and must be destroyed, after which its remaining stellarite can be extracted." 
+
+stellarite_events.1003.name: "Stellarite Entity"
+stellarite_events.1003.desc: "The Stellarite forms into a peculiar entity. It seems to show a basic level of sapience and responsiveness to our command. We can keep it around, or consume it for stellarite. The entity is currently located on [event_target:stellarite_forming_location.GetName]."
+stellarite_events.1003.a: "Yes. We are your master now, little one."
+stellarite_events.1003.a.tooltip: "The Entity can be controlled until its stellarite reserve run out and expire." 
+stellarite_events.1003.b: "We need stellarite, not a pet." 
+stellarite_events.1003.b.tooltip: "The Entity can be safety destroyed and its stellarite recovered without resistance." 
+
+stellarite_events.1004.name: "Stellar Fade"
+stellarite_events.1004.desc.a: "The Stellarite Entity [root.GetName] that we preserve as a pet has finally run out of its energy and begins to fade away. We can try to prolong its lifespan by feeding additional stellarite, but it will become weaker. It won't likely survive another degradation afterwards."
+stellarite_events.1004.desc.b: "The Stellarite Entity [root.GetName] that we preserve as a pet has finally deplete the last of its energy reserve and fades away. There's nothing we can do about it anymore as its light has degraded too heavily."
+stellarite_events.1004.desc.c: "The Stellarite Entity [root.GetName] that we preserve as a pet are showing signs of degradation, it has begun to lose some of its strength but is otherwise still maintain a tangible presence."
+stellarite_events.1004.a: "We're not parting with our pet just yet!"
+stellarite_events.1004.b: "All things must come to an end."
+stellarite_events.1004.c: "Aw, not the pet." 
+stellarite_events.1004.d: "Inevitable in retrospect." 
+stellarite_events.1004.e: "Troubling." 
+stellarite_events.1004.f: "Better to just nom it for stellarite then." 
+
+stellarite_events.1005.name: "Stellarite Entity Defeated"
+stellarite_events.1005.desc.a: "We have defeated a Stellarite Entity. The entity contains a large amount of leftover stellarite energy that can still be used."
+stellarite_events.1005.desc.b: "We have defeated a Stellarite Entity. The entity still contains a moderate amount of leftover stellarite energy that can still be used."
+stellarite_events.1005.desc.c: "We have defeated a Stellarite Entity. The entity appears to have only a small amount of leftover stellarite energy that can still be used."
+stellarite_events.1005.desc.d: "We have defeated this strange, ghastly entity. The creature releases strange energy in its final moment, yet we know not what this energy is."
+stellarite_events.1005.a: "Good Bounty!"
+stellarite_events.1005.b: "How Curious."
+
+stellarite_events.1010.name: "Stellarwyrm Defeated!"
+stellarite_events.1010.desc.a: "We have defeated the great Stellarwyrm! Upon it's death, massive shower of stellarite energies could be harvested!"
+stellarite_events.1010.desc.b: "Our investment has borne fruit! After we defeated the great Stellarwyrm, even more stellarite seems to have poured out from its essence!.\n\nWe can either harvest these for our own uses, or attempt to reignite once again, perhaps something interesting could happen?"
+stellarite_events.1010.a: "Good Bounty!"
+stellarite_events.1010.b: "Negative, just harvest the stellarites."
+stellarite_events.1010.c: "Yes, let's try that." 
+stellarite_events.1010.c.tooltip: "This is not very logical, but very exciting regardless." 
+
+stellarite_events.1010.explain.outcome.1: "Two more hostile Stellarwyrms will spawn. Each will repeat this event upon death." 
+stellarite_events.1010.explain.outcome.2: "Another Stellarwyrm emerges under your control." 
+
+stellarite_events.1011.name: "A Dragon Awakens!"
+stellarite_events.1011.desc.a: "The Stellarite Lifeform seems to have materialize into a very distinct shape, that of an ether drake. Scans indicate it is much stronger than the usual ones. But if we can defeat it, we may be able to harvest large amount of stellarites."
+stellarite_events.1011.desc.b: "Yet another Stellarwyrm has materialized...it is as strong as the last one. The options to deal with it remains the same, however."
+stellarite_events.1011.a: "Finally a worthy foe!"
+stellarite_events.1011.b: "This is going to hurt, is'n it?"
+
+stellarite_events.12.name: "Stellarite Overload!"
+stellarite_events.12.desc: "Alarming! The Stellarite Generators on [event_target:stellarite_fucked_up_planet.GetName] have suffered a meltdown after prolonged overcharged, destroying nearby buildings and killed some people. We should stop the sequence immediately before it gets any worse!"
+stellarite_events.12.a: "Yes, we don't want to blow up our colony."
+stellarite_events.12.b: "No, sacrifices must be made for the greater good."
+stellarite_events.12.b.tooltip: "No more damage report of this type will be notified until the planet falls until the next year or the overload is cancelled."
+ 
+stellarite_events.13.name: "Stelarite Critical Failure"
+stellarite_events.13.desc: "Due to our reckless use of Stellarite Reactors on [event_target:stellarite_fucked_up_planet.GetName], the generators suffer critical meltdown and caused a massive explosion, ushering into a great apocalypse that wipes out the colony.\n\nA team of recovery crew has been sent in an attempt to locate survivors, although there appears to be none."
+stellarite_events.13.a: "We kinda brought that on ourselves."
+stellarite_events.13.b: "A destruction of a planet is insignificant to more Stellarite."
+
+stellarite_events.14.name: "Stellarite Yellow Alert"
+stellarite_events.14.desc: "Alert! The Stellarite Generators on [event_target:stellarite_fucked_up_planet.GetName] are suffering from prolonged exposure to system overload. There're no signs of degradation yet, but if we continue on, accidents may happen soon. We should stop the sequence immediately!"
+stellarite_events.14.a: "Yes, we don't want to blow up our colony."
+stellarite_events.14.b: "No, we need more stellarite. Continue the charge."
 
 acot_stellarite_chain: "Puissance stellaire"
 acot_stellarite_chain_title: "Puissance stellaire"
@@ -81,3 +187,67 @@ acot_stellarite_experiment_desc: "Les détails sont actuellement trop sommaires,
 
 acot_stellarite_research: "Maîtriser les étoiles"
 acot_stellarite_research_desc: "Maintenant qu'il est clair que Stellarite est une nouvelle source d'énergie formidable. Le prochain obstacle est d'explorer comment utiliser le pouvoir dans la guerre spatiale. Nos premiers prototypes étaient trop instables et trop dangereux pour être utilisés pratiquement. En tant que tel, il est important que nous développions un dispositif de protection sûr qui peut contenir de tels pouvoirs sans provoquer d'explosion majeure lorsqu'il est soumis à diverses réactions dangereuses.\n\nÀ cette fin, un scientifique doué dans le domaine de l'ingénierie sera nécessaire. Le scientifique doit avoir une expertise en étincelle de génie, conservateur, Sapient AI, Erudite, Brainslug ou matériaux (un niveau de compétence de 10 est également nécessaire)."
+
+stellarite_events.15.name: "Honorable Discharge Confirmation"
+stellarite_events.15.desc: "Honorable Discharge Protocol has been authorized on the planet [root.GetName]. Proceed?"
+stellarite_events.15.a: "Proceed."
+stellarite_events.15.b: "Belay that order. False alarm."
+
+#################### SPECIAL ENEMIES #############################
+
+acot_stellarite_fading_debuff: "Weak"
+acot_stellarite_fading_debuff_desc: "Weak"
+acot_stellarite_strong_buff: "Strong"
+acot_stellarite_strong_buff_desc: "Strong"
+
+acot_bomb_stellarite: "§HStellarite Energy Bomb§!"
+acot_bomb_stellarite_plural: "§HStellarite Energy Bombs§!"
+acot_bomb_stellarite_desc: "§HStellarite Energy Bombs§!"
+
+acot_bomb_stellarite_key: "§HStellarite Energy Bomb§!"
+
+ACOT_MONSTER_BOMB_STELLARITE_SMALL: "§HUnstable Stellar Discharge§!"
+ACOT_MONSTER_BOMB_STELLARITE_SMALL_DESC: "§HUnstable Stellar Discharge§!"
+
+ACOT_MONSTER_BOMB_STELLARITE_LARGE: "§HStellar Discharge§!"
+ACOT_MONSTER_BOMB_STELLARITE_Large_DESC: "§HStellar Discharge§!"
+
+acot_large_stellarite: "§HGiga-Stellarite Devouver§!"
+acot_large_stellarite_plural: "§HGiga-Stellarite Devouvers§!"
+acot_large_stellarite_desc: "§HGiga-Stellarite Devouvers§!"
+
+acot_large_stellarite_key: "§HGiga-Stellarite Devouver§!"
+
+acot_dragon_stellarite: "§HStellarwrynm§!"
+acot_dragon_stellarite_plural: "§HStellarwrynm§!"
+acot_dragon_stellarite_desc: "§HStellarwrynm§!"
+
+acot_dragon_stellarite_key: "§HStellarite Stardragon§!"
+
+ACOT_MONSTER_TITAN_STELLARITE_BEAM: "§HGiga Stellar Terrablast§!"
+ACOT_MONSTER_TITAN_STELLARITE_BEAM_DESC: "§HGiga Stellar Terrablast§!"
+
+ACOT_MONSTER_STELLARITE_BEAM: "§HGiga Stellar Blast§!"
+ACOT_MONSTER_STELLARITE_BEAM_DESC: "§HGiga Stellar Blast§!"
+
+ACOT_MONSTER_STELLARITE_MISSILE: "§HGiga Stellar Flare§!"
+ACOT_MONSTER_STELLARITE_MISSILE_DESC: "§HGiga Stellar Flare§!"
+
+ACOT_MONSTER_STELLARITE_PLASMA: "§HGiga Stellar Foul§!"
+ACOT_MONSTER_STELLARITE_PLASMA_DESC: "§HGiga Stellar Foul§!"
+
+ACOT_MONSTER_STELLARITE_LASER: "§HGiga Stellar Heat§!"
+ACOT_MONSTER_STELLARITE_LASER_DESC: "§HGiga Stellar Heat§!"
+
+ACOT_MONSTER_STELLARITE_DRAGON_WEAPON: "§HStellarwrynm Starbreaker§!"
+ACOT_MONSTER_STELLARITE_DRAGON_WEAPON_DESC: "§HStellarwrynm Starbreaker§!"
+
+ACOT_MONSTER_STELLARITE_DRAGON_BEAM: "Stellarwrynm Fury§!"
+ACOT_MONSTER_STELLARITE_DRAGON_BEAM_DESC: "Stellarwrynm Fury§!"
+
+ACOT_MONSTER_STELLARITE_DRAGON_PLASMA: "§HStellarwrynm Radiance§!"
+ACOT_MONSTER_STELLARITE_DRAGON_PLASMA_DESC: "§HStellarwrynm Radiance§!"
+
+ACOT_MONSTER_STELLARITE_DRAGON_LASER: "§HStellarwrynm Shell§!"
+ACOT_MONSTER_STELLARITE_DRAGON_LASER_DESC: "§HStellarwrynm Shell§!"
+

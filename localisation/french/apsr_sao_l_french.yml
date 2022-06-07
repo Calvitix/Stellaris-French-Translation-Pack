@@ -1,0 +1,274 @@
+﻿l_french:
+
+######################
+### SAO FAN EVENTS ###
+######################
+
+
+
+ ### STORY
+ 
+ #launcher
+ apsr_sao.2.title:0 "«Aincrad» Project"
+ apsr_sao.2.desc:0 "$RULER$, after our recent shielding of planet §H[From.GetName]§!, lead scientist [event_target:apsr_sao_societyleader.GetName] has proposed an experiment of unprecedented scale, which will encompass the entire planet.\nAccording to the project abstract, we'll need to develop advanced augmented reality technology, through which all of the planet's inhabitants will be forced to live in a semi-simulated world. Death in the world of the game will mean death in the real world as well.\nBesides the will to survive, players will also be motivated by our promise to, on the completion of the game's final level, remove the shield cutting off their planet from the rest of the galaxy, and to grant full freedom to the world's inhabitants. That is, to those who survive, at least."
+ apsr_sao.2.button_1:0 "Prepare for the «Aincrad» project launch"
+ apsr_sao.2.button_1.tooltip:0 "Begins §M«Aincrad» Project§! event chain"
+ apsr_sao.2.button_2:0 "No, this is stupid idea"
+ apsr_sao.2.button_2.tooltip:0 "The «Aincrad» project will never be launched"
+ 
+ #on research all 5 techs
+ apsr_sao.3.title:0 "$apsr_sao.2.title$"
+ apsr_sao.3.desc:0 "$RULER$, we have successfully finished our preparations for the launch of project «Aincrad». Next time our colossus shields an inhabited planet, the project will be activated. All inhabitants will be drawn into a cruel and dangerous game, where their life and their future will be at stake."
+ apsr_sao.3.button_1:0 "Harsh, but necessary, in the name of science"
+ apsr_sao.3.button_1.tooltip:0 "The «Aincrad» project will be launched upon the next planet shielding"
+ apsr_sao.3.button_2:0 "This will displease many, but the project will be launched nevertheless"
+ apsr_sao.3.button_2.tooltip:0 "$apsr_sao.3.button_1.tooltip$\n§ROur citizens will be displeased§!"
+ apsr_sao.3.button_3:0 "Enough. Shut this project down"
+ apsr_sao.3.button_3.tooltip:0 "§ROur scientists will not appreciate their time being wasted§!"
+ 
+ # wrong planet owner
+ apsr_sao.92.title:0 "$apsr_sao.2.title$"
+ apsr_sao.92.desc:0 "Even though we've shielded planet §H[From.GetName]§!, project «Aincrad» cannot be launched, as a gestalt consciousness species is not an appropriate subject for this experiment.\nWe should find another planet."
+ apsr_sao.92.button:0 "Acknowledged"
+ apsr_sao.92.button.tooltip:0 "In order to launch «Aincrad» project we need a planet that is not inhabited by a hivemind or by robots" 
+ 
+ # wrong planer type
+ apsr_sao.93.title:0 "$apsr_sao.2.title$"
+ apsr_sao.93.desc:0 "Despite the fact that we screened planet §H[From.GetName]§!, the launch of the «Aincrad» project is impossible, since this type of planet cannot ensure the stable work of the research team.\nWe need to find another planet."
+ apsr_sao.93.button:0 "Clear"
+ apsr_sao.93.button.tooltip:0 "To start the project «Aincrad» we require a planet of the standart type. Planets of special and modified types that are not part of the base galaxy cannot be used as staging for the project.\n\n§MNote - only standard types of planets are suitable, such as continental, desert, ideal worlds and others. Types of planets that are added by modifications will not work.§!" 
+ 
+ #second pacifier shot
+ apsr_sao.4.title:0 "$apsr_sao.2.title$"
+ apsr_sao.4.desc:0 "After the successful shielding of planet §H[From.GetName]§!, the «Aincrad» project is finally in effect. The work to connect the test subjects' consciousnesses into our state of the art artificial reality technology has already begun. In a few days all citizens will have been drawn into this game of life and death."
+ apsr_sao.4.button:0 "The game is afoot"
+ apsr_sao.4.button.tooltip:0 "Project «Aincrad» has been launched"
+ 
+ # integration complete
+ apsr_sao.5.title:0 "$apsr_sao.2.title$"
+ apsr_sao.5.desc:0 "$RULER$, we have been informed that the AR integration efforts have been completed on planet §H[event_target:apsr_sao_planetname.GetName]§!.\nEverything is ready for the start of the experiment."
+ apsr_sao.5.button:0 "Begin"
+ apsr_sao.5.button.tooltip:0 "It's been a long road to this moment" 
+ 
+ # choose show planet story or no
+ apsr_sao.6.title:0 "$apsr_sao.2.title$"
+ apsr_sao.6.desc:0 "$RULER$, project «Aincrad» is in full effect on planet §H[event_target:apsr_sao_planetname.GetName]§!. You may find interest in the players' notes of events just after the launch of the game."
+ apsr_sao.6.button_1:0 "Show me"
+ apsr_sao.6.button_1.tooltip:0 "Description of the events seen by inhabitants"
+ apsr_sao.6.button_2:0 "I'm not interested, keep me informed of key events only"
+ apsr_sao.6.button_2.tooltip:0 "New information will be provided every 1-2 years"
+ 
+ # planet story - part 1
+ apsr_sao.7.title:0 "Event log"
+ apsr_sao.7.desc:0 "It was a fine day on planet §H[event_target:apsr_sao_planetname.GetName]§!. Rays of light from the setting §Y[event_target:apsr_sao_planetname.GetName]§! sun illuminated this half-ruined city. Most people had already accepted their fate - of being isolated from the rest of the galaxy. And although many could not live like this, the rest were ready to carry on."
+ apsr_sao.7.button:0 "Next"
+ apsr_sao.7.button.tooltip:0 "Event log of planet §H[event_target:apsr_sao_planetname.GetName]§!" 
+ 
+ # planet story - part 2
+ apsr_sao.8.title:0 "$apsr_sao.7.title$"
+ apsr_sao.8.desc:0 "But barely had the last §Y[event_target:apsr_sao_planetname.GetStarName]§! ray of light lit the city when the shield around the planet began to glimmer, and across it spread a field of hexagons, inscribed with incomprehensible text.\nPanic erupted across the now red-tinged surface of the planet. Some tried to hide, some prayed, some simply fell to their knees, awaiting the inevitable."
+ apsr_sao.8.button:0 "$apsr_sao.7.button$"
+ apsr_sao.8.button.tooltip:0 "$apsr_sao.7.button.tooltip$" 
+ 
+ # planet story - part 3
+ apsr_sao.9.title:0 "$apsr_sao.7.title$"
+ apsr_sao.9.desc:0 "From the hexagons began to leak a thick red liquid, reminiscent of the blood of some species. The flow of liquid intensified, but not a single drop fell to the ground. They stayed hanging in the air, gradually congregating into a single point."
+ apsr_sao.9.button:0 "$apsr_sao.7.button$"
+ apsr_sao.9.button.tooltip:0 "$apsr_sao.7.button.tooltip$" 
+ 
+ # planet story - part 4
+ apsr_sao.10.title:0 "$apsr_sao.7.title$"
+ apsr_sao.10.desc:0 "Then the liquid took the form of some kind of being, heretofore unseen.\n«People of §H[event_target:apsr_sao_planetname.GetName]§!» - boomed the being's voice - «You have surely noticed that your planet has been encompassed in an impenetrable force field, which you cannot hope to leave. But what would you say if I told you that, in fact, there is no field around your planet at all, that everything you see and feel is a deception - a product of an augmented reality simulation? That this is all a game? What then?»"
+ apsr_sao.10.button:0 "$apsr_sao.7.button$"
+ apsr_sao.10.button.tooltip:0 "$apsr_sao.7.button.tooltip$" 
+ 
+ # planet story - part 5
+ apsr_sao.11.title:0 "$apsr_sao.7.title$"
+ apsr_sao.11.desc:0 "«But despite the fact that nothing around you is quite real, leaving this game is almost impossible. The only way out - is to get to the end of the game and defeat the final boss. Then you will return to the real world. But one final important point: if you die in this game, you will die in the real world as well. Good luck!»\nAfter these words, the being disintegrated into streams of the dark red liquid, which retreated back into the sea of hexagons in the planet's shield. Then, the hexagons themselves vanished, leaving behind the clear starry sky."
+ apsr_sao.11.button:0 "$apsr_sao.7.button$"
+ apsr_sao.11.button.tooltip:0 "$apsr_sao.7.button.tooltip$" 
+ 
+ # planet story - part 6
+ apsr_sao.12.title:0 "$apsr_sao.7.title$"
+ apsr_sao.12.desc:0 "After the disappearance of the unknown being, the panic which had ceased upon his appearance reignited once more, with renewed strength. The unlucky inhabitants of the game were not simply afraid - they were horrified. The fact that their lives were now a lie shocked even the most stoic of them. It's unknown what awaits us in the future.\n\nHere the record ends."
+ apsr_sao.12.button:0 "Rather interesting."
+ apsr_sao.12.button.tooltip:0 "Now, the fate of §H[event_target:apsr_sao_planetname.GetName]§! is in the hands of its people" 
+ 
+ # 1 year from begin
+ apsr_sao.13.title:0 "$apsr_sao.2.title$"
+ apsr_sao.13.desc:0 "In the year past since the beginning of the experiment, the population of the planet has decreased by 20%. Causes of death range from encounters with monsters created by the game, to suicide and even murder.\nNow on planet §H[event_target:apsr_sao_planetname.GetName]§! everything has more or less settled down, and the unwilling players have started to play through the game, in hopes of making it to the end."
+ apsr_sao.13.button:0 "Keep me in the loop"
+ 
+ # 2-3 years from begin (5-7)
+ apsr_sao.14.title:0 "$apsr_sao.2.title$"
+ apsr_sao.14.desc:0 "$RULER$, news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nThe game's players have cleared level [Root.apsr_sao_level_count] out of the total 100. Progressing so quickly has its cost - the death toll may climb even further yet."
+ apsr_sao.14.button:0 "Let's see what they're made of"
+ 
+ # 3-5 years from begin (8-12)
+ apsr_sao.15.title:0 "$apsr_sao.2.title$"
+ apsr_sao.15.desc:0 "$RULER$, more news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nLevel [Root.apsr_sao_level_count] has been cleared. The inhabitants of the planet are uniting into groups and organizing joint operations so as to minimize risk and losses. For now, their level of organization is rather weak, but there's some potential here.\nWe can expect an acceleration in their rate of level clearing, and a reduction of casualties."
+ apsr_sao.15.button:0 "Interesting"
+ 
+ # 4-7 years from begin (13-22)
+ apsr_sao.16.title:0 "$apsr_sao.2.title$"
+ apsr_sao.16.desc:0 "The inhabitants' organization efforts on planet §H[event_target:apsr_sao_planetname.GetName]§! have borne fruit. Just moments ago, they managed to clear level [Root.apsr_sao_level_count]. If all continues according to this trajectory, then it seems they may well make it to the end of the game within the next few decades."
+ apsr_sao.16.button:0 "Bravo"
+ 
+ # 5-9 years from begin (18-32)
+ apsr_sao.17.title:0 "$apsr_sao.2.title$"
+ apsr_sao.17.desc:0 "$RULER$, we've received news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nPlayers are continuing to make headway in clearing the game. Already they've passed level [Root.apsr_sao_level_count]. But just since the launch of the experiment, the adult population of the planet has decreased by 40%. If things continue at this pace, the people of planet §H[event_target:apsr_sao_planetname.GetName]§! will likely have some serious problems."
+ apsr_sao.17.button:0 "Continue to observe"
+ 
+ # 6-11 years from begin (23-39)
+ apsr_sao.18.title:0 "$apsr_sao.2.title$"
+ apsr_sao.18.desc:0 "$RULER$, bad news. Lead scientist [event_target:apsr_sao_societyleader.GetName] has decided to link into the game.\nWhen this became known to us, it was already too late. His ship managed to create a small breach in the planetary shield and penetrate within. Moreover, he's disguised himself and we cannot find him.\nIn other news, the people of planet §H[event_target:apsr_sao_planetname.GetName]§! have cleared level [Root.apsr_sao_level_count]."
+ apsr_sao.18.button:0 "Keep an eye on the situation"
+ 
+ # 7-13 years from begin (27-45)
+ apsr_sao.19.title:0 "$apsr_sao.2.title$"
+ apsr_sao.19.desc:0 "On planet §H[event_target:apsr_sao_planetname.GetName]§! the experiment continues. The speed of progress through the game is gradually decreasing. This could have to do with the decreased number of people particpating - whether from death, or the fear of death. At this point, level [Root.apsr_sao_level_count] has been cleared."
+ apsr_sao.19.button:0 "Continue to observe"
+ 
+ # 8-15 years from begin (31-51)
+ apsr_sao.20.title:0 "$apsr_sao.2.title$"
+ apsr_sao.20.desc:0 "$RULER$, news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nEnough time has passed now since the beginning of the experiment that, even though the adult population of the planet has been cut in half, the next generation has come to replace them. Perhaps by the time the game is finished, the new generation will have entirely replaced the old. Level [Root.apsr_sao_level_count] has been cleared."
+ apsr_sao.20.button:0 "Interesting"
+ 
+ # 9-17 years from begin (34-57)
+ apsr_sao.21.title:0 "$apsr_sao.2.title$"
+ apsr_sao.21.desc:0 "$RULER$, more news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nThe speed of progress through the game continues to fall. More and more of the youth are arriving to replace the older generation, but despite the inflow of forces for battle, organization is getting worse and worse. At the same time, a new guild has appeared on the planet, «The Knights of the Blood Oath», who are using their years of experience to plan raids. With their help, level [Root.apsr_sao_level_count] was successfully cleared."
+ apsr_sao.21.button:0 "Let us pay this guild special attention"
+ 
+ # 10-19 years from begin (39-64)
+ apsr_sao.22.title:0 "$apsr_sao.2.title$"
+ apsr_sao.22.desc:0 "$RULER$, we have news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\n«The Knights of the Blood Oath» has managed to take on a large number of supports in recent times, thanks to its unique approach to raid organization, which has resulted in low death rates, and as well to its charismatic commander, a natural-born leader. It's possible that this turn of events will hasten the game's completion, as they've already managed to clear level [Root.apsr_sao_level_count]."
+ apsr_sao.22.button:0 "Collect more information"
+ 
+ # 11-21 years from begin (45-71)
+ apsr_sao.23.title:0 "$apsr_sao.2.title$"
+ apsr_sao.23.desc:0 "$RULER$, news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\n«The Knights of the Blood Oath» continue to clear levels, bringing down casualty numbers practically to zero. Level [Root.apsr_sao_level_count] has already been cleared! Our scientists express concern that we may not have sufficiently balanced the difficulty of the levels. In any case, changing anything at this point isn't recommended, so as to avoid inconsistencies and data desynchronization."
+ apsr_sao.23.button:0 "Let's see what happens next"
+ 
+ # 12-23 years from begin (52-81)
+ apsr_sao.24.title:0 "$apsr_sao.2.title$"
+ apsr_sao.24.desc:0 "$RULER$, news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\n«The Knights of the Blood Oath» has fully absorbed all other groups and alliances, and become the only organization on the planet working towards finishing the game. The speed of progress is amazing - a few days ago level [Root.apsr_sao_level_count] was cleared. The guild leader continues to personally lead level-clearing efforts and in every possible way tries to convince people to continue the fight."
+ apsr_sao.24.button:0 "The experiment is nearing its completion"
+ 
+ # 13-25 years from begin (57-88)
+ apsr_sao.25.title:0 "$apsr_sao.2.title$"
+ apsr_sao.25.desc:0 "$RULER$, yet more news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nProgress through the game has decreased somewhat - level [Root.apsr_sao_level_count] has only just been cleared. Despite the charisma of the leader of «The Knights of the Blood Oath», people are growing tired of fighting, of the fear of death, and want to simply live in peace. Our specialists predict the inevitable collapse of the guild. If only the game could be finished before that time comes."
+ apsr_sao.25.button:0 "Continue to observe"
+ 
+ # 14-27 years from begin (62-95)
+ apsr_sao.26.title:0 "$apsr_sao.2.title$"
+ apsr_sao.26.desc:0 "$RULER$, news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nPeople are leaving «The Knights of the Blood Oath». Meanwhile, the young generation is refusing to risk their lives in order to finish some kind of mysterious game, as they no longer believe they're in a simulation. They believe that their life and the world around them, the only one they can remember, is reality. Our scientists are already studying this phenomenon.\nDespite these problems, «The Knights of the Blood Oath» continue to progress through the game. Their current location is level [Root.apsr_sao_level_count]."
+ apsr_sao.26.button:0 "Strange behavior"
+ 
+ # 15-29 years from begin (67-102)
+ apsr_sao.27.title:0 "$apsr_sao.2.title$"
+ apsr_sao.27.desc:0 "$RULER$, news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nThe number of players participating in clearing the game is rapidly falling. «The Knights of the Blood Oath» are clearly starting to lose ground. And although their influence is still considerable, the imminent collapse of the organization and an abrupt fall of the speed of level clearing is obvious to all. Nonetheless, just days ago level [Root.apsr_sao_level_count] was cleared. It's unknown, though, if the guild will have sufficient strength to reach the end."
+ apsr_sao.27.button:0 "The end is nigh"
+ 
+ # 16-31 years from begin (72-109)
+ apsr_sao.28.title:0 "$apsr_sao.2.title$"
+ apsr_sao.28.desc:0 "$RULER$, more news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\n«The Knights of the Blood Oath» continue their slow progression through the game. Despite their problems, they have managed to best level [Root.apsr_sao_level_count]. But it is clear that the guild is already stretched to its limits. We expect its collapse within 2-3 years, as many skilled fighters have already left, and the enlistment of young warriors is extremely low."
+ apsr_sao.28.button:0 "They were everyone's best chance to win..."
+ 
+ # 17-33 years from begin (74-113)
+ apsr_sao.29.title:0 "$apsr_sao.2.title$"
+ apsr_sao.29.desc:0 "$RULER$, urgent news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nWe found our scientist that vanished all those years ago! More precisely, he was found by one of the citizens of planet §H[event_target:apsr_sao_planetname.GetName]§!. It turns out that the scientist, using his knowledge about project «Aincrad», was able to quickly rise through the ranks of the game and become one of its most influential players. Even you, $RULER$, have surely heard of him. He was none other than the leader of «The Knights of the Blood Oath»! It's due to his knowledge of the game they were able to so rapidly progress through the levels with such few losses. Unfortunately, after he was identified, the players were convinced he was the final boss and killed him, and the absence of any sort of reaction from the game has discouraged them from any desire to continue trying. It seems that level [Root.apsr_sao_level_count] won't be cleared after all..."
+ apsr_sao.29.button:0 "Is this really the end?"
+ 
+ # 18-35 years from begin (76-117)
+ apsr_sao.30.title:0 "$apsr_sao.2.title$"
+ apsr_sao.30.desc:0 "$RULER$, news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\n«The Knights of the Blood Oath» have totally collapsed. The remaining fighters, at least those who believe it is still necessary to fight, are still clearing levels, but with much reduced efficacy. Nevertheless, level [Root.apsr_sao_level_count] has been cleared. But will their strength suffice to finish what remains?"
+ apsr_sao.30.button:0 "It seems that their strength is running out"
+ 
+ # 19-37 years from begin (77-120)
+ apsr_sao.31.title:0 "$apsr_sao.2.title$"
+ apsr_sao.31.desc:0 "$RULER$, more news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nSome small groups, formed after the dissolution of the «The Knights of the Blood Oath», are still trying to finish the game. But their effectiveness falls every day and with every casualty. Nobody wants to risk their life anymore. Reinforcements of new fighters no longer arrive, quite the opposite - experienced warriors are abandoning the fight and going to live out their days in peace and quiet. Level [Root.apsr_sao_level_count] is one of the last which the team of remaining fighters can hope to overcome."
+ apsr_sao.31.button:0 "The last crumbs of hope"
+ 
+ # 20-39 years from begin (78-122)
+ apsr_sao.32.title:0 "$apsr_sao.2.title$"
+ apsr_sao.32.desc:0 "$RULER$, news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nDespite much loss and difficulty, the remaining fighters - very slowly, but with great stubbornness - continue to clear levels. Level [Root.apsr_sao_level_count] has been completed with great effort and considerable casualties. It is unlikely that they'll last much longer..."
+ apsr_sao.32.button:0 "Apparently, their strength did not suffice"
+ 
+ # 21-41 years from begin (79-124) this is end (peoples or game)
+ apsr_sao.33.title:0 "$apsr_sao.2.title$"
+ apsr_sao.33.desc:0 "$RULER$, news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\n The last fighters have laid down their weapons after the clearing of level [Root.apsr_sao_level_count]. No one else will try to finish the game. There is no one left with the will to try. The planet's inhabitants continue to live in their augmented reality world as if it were real, and not simply our fabrication.\nScientists no longer consider the planet worthy of our attention, and project «Aincrad», even though it was not brought to an end, nonetheless has proven a worthwhile scientific endeavor."
+ apsr_sao.33.button:0 "Even so, it wasn't in vain"
+  
+ # final
+ apsr_sao.final.title:0 "$apsr_sao.2.title$"
+ apsr_sao.final.desc:0 "$RULER$, news from planet §H[event_target:apsr_sao_planetname.GetName]§!.\nThe final level has at last been cleared! The population of the planet is celebrating and exulting in their victory. In accordance with experiment protocol, AR devices immediately shut down, resulting in the disappearance of monsters and any signs of the game from the people's lives. Now it's ours to decide - will we remove the shield from the planet or leave it as it is?"
+ apsr_sao.final.button_1:0 "We are bound by our promises"
+ apsr_sao.final.button_1.tooltip:0 "Maybe they've forgotten who put them there..." 
+ apsr_sao.final.button_2:0 "Remove the shield? Of course not!"
+ apsr_sao.final.button_2.tooltip:0 "Planet §H[event_target:apsr_sao_planetname.GetName]§! will forever be isolated from the rest of the universe." 
+ apsr_sao.final.button_3:0 "Pitiful lifeforms. Let them suffer further"
+ apsr_sao.final.button_3.tooltip:0 "$apsr_sao.final.button_2.tooltip$" 
+ 
+ # if planet is open
+ apsr_sao.34.title:0 "$apsr_sao.2.title$"
+ apsr_sao.34.desc:0 "The project to remove the shield from planet §H[event_target:apsr_sao_planetname.GetName]§! has been finished, and now the population is free to leave the surface and travel to other stars. Their joy has no limit, and what's more, they consider us their liberators and wish to become a part of our empire. To careful questions as to who cut them off from the universe in the first place, they can give no answer, saying that they do not remember.\nLet us hope they never recall."
+ apsr_sao.34.button:0 "We welcome them gladly"
+ apsr_sao.34.button.tooltip:0 "$apsr_sao.2.title$ successfully completed" 
+ 
+ 
+ 
+ ### TECHNOLOGY
+ 
+ tech_apsr_sao_1:0 "Image Projection Tech"
+ tech_apsr_sao_1_desc:0 "§R$apsr_sao.2.title$§!\nWe must first develop a means to deliver our messages to the planet's population."
+ tech_apsr_sao_2:0 "Augmented Reality Tech"
+ tech_apsr_sao_2_desc:0 "§R$apsr_sao.2.title$§!\nFoundational technology for our upcoming experiment."
+ tech_apsr_sao_3:0 "Consciousnes Interference Tech"
+ tech_apsr_sao_3_desc:0 "§R$apsr_sao.2.title$§!\nNobody will voluntarily agree to such an experiment. We will connect them by force."
+ tech_apsr_sao_4:0 "Implementation Strategy Development"
+ tech_apsr_sao_4_desc:0 "§R$apsr_sao.2.title$§!\nThe required technologies have been developed, and now we must work out a mechanism and strategy to deploy them."
+ tech_apsr_sao_5:0 "Launching the «Aincrad» Project"
+ tech_apsr_sao_5_desc:0 "§R$apsr_sao.2.title$§!\nFinal preparations before the project launch."
+ TECH_UNLOCK_APSR_SAO_TITLE:0 "§R$apsr_sao.2.title$§!"
+ TECH_UNLOCK_APSR_SAO_DESC:0 "§R$apsr_sao.2.title$§!\nA most cruel experiment, which will take place on an entire planet."
+
+ 
+ 
+ ### PLANET MODIFIER
+ 
+ apsr_sao_project:0 "Project «Aincrad»"
+ apsr_sao_project_desc:0 "An exceptionally cruel experiment is being conducted on this planet."
+ 
+ 
+ 
+ ### EMPIRE MODOFIERS
+ 
+ apsr_sao_event3_xenophile:0 "Dissatisfaction with Project «Aincrad»"
+ apsr_sao_event3_xenophile_desc:0 "Our population express their displeasure over an unnecessarily cruel experiment. You're going to stop it, aren't you?"
+ apsr_sao_event3_endproject:0 "Scientist strike"
+ apsr_sao_event3_endproject_desc:0 "Years wasted to prepare for the launch of project «Aincrad»... Was it all for naught?!"
+ apsr_sao_project_bad_complete:0 "Project «Aincrad»"
+ apsr_sao_project_bad_complete_desc:0 "Project «Aincrad» hasn't finished yet, but nonetheless we're learning something from our observations."
+ apsr_sao_project_good_complete:0 "Project «Aincrad»"
+ apsr_sao_project_good_complete_desc:0 "Project «Aincrad» turned out a complete success!"
+ 
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr_sao_open_shield:0 "Removing the shield"
+ apsr_sao_open_shield_DESC:0 "The population of the planet have successfully passed our trial, and now we will remove the shield from their planet."
+ 
+ 
+ 
+ ### OPINION MODIFIER
+ 
+ apsr_sao_freedom:0 "Shield Removed"
+ 
+ 
+ 
+ ### ORIGIN
+  
+ apsr_sao_survival:0 "Survivors in isolation"
+ apsr_sao_survival_desc:0 "This empire has long time been on a planet completely isolated from the outer galaxy by an energy shield. In addition, for their survival, they needed to go through a fierce game of survival, where freedom was the prize for victory. This led to the fact that the organization of hostilities and the regulation of the use of resources in this empire were brought to the most effective state."
+ 

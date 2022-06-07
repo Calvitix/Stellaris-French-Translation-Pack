@@ -1,0 +1,366 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr7_planet_modifier:0 "Anomalous zone"
+ apsr7_planet_modifier_desc:0 "Things that happen in this area cannot be explained by using neither logic, science or even mysticism."
+ 
+ apsr7_deposit:0 "$apsr7_planet_modifier$"
+ apsr7_deposit_desc:0 "$apsr7_planet_modifier_desc$\n\n§M$apsr7_deposit_effect$§!" 
+ apsr7_deposit_effect:0 "Unique resource available: $apsr7_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr7_building_cordon_text:0 "The main danger of the anomalous zone is a bunch of deeply mutated beasts. These creatures leave the zone, and put inhabited parts of the planet into chaos. The Cordon should hold them at bay."
+ 
+ apsr7_building_part1_text:0 "A specially designed building, which brings the energy of the Time Engine to a safe state and converts some of it into energy usable for our needs."
+ 
+ apsr7_building_part2_text:0 "A specially designed building, which transforms the energy of the Time Engine into a more suitable form we can use: Energy Credits."
+ 
+ apsr7_building_part3_text:0 "By using the Time Engine - an experimental device of the ancient civilization - which is located in the center of the Anomalous zone, we will receive access to an unlimited source of energy!"
+ 
+ apsr7_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr7_building_fake_predesc:0 "§MUnique building§!\n§RWe don't have the proper technologies to maximize the output of this building!§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr7_building_cordon:0 "Cordon"
+ apsr7_building_cordon_desc:0 "$apsr7_building_predesc$\n$apsr7_building_cordon_text$"
+  
+ apsr7_building_part1:0 "Barrier"
+ apsr7_building_part1_desc:0 "$apsr7_building_predesc$\n$apsr7_building_part1_text$"
+ 
+ apsr7_building_part2:0 "The Pendulum"
+ apsr7_building_part2_desc:0 "$apsr7_building_predesc$\n$apsr7_building_part2_text$"
+ 
+ apsr7_building_part3:0 "The Pendulum"
+ apsr7_building_part3_desc:0 "$apsr7_building_predesc$\n$apsr7_building_part3_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr7_building_cordon:0 "Protection from the Anomalous zone"
+ tech_apsr7_building_cordon_desc:0 "Firstly, it's necessary to find some way to hold the zone creatures at bay."
+ TECH_APSR7_CORDON_TITLE:0 "§HBuilding:§! $apsr7_building_cordon$"
+ TECH_APSR7_CORDON_DESC:0 "$apsr7_building_cordon_desc$"
+ 
+ tech_apsr7_tank:0 "The exploration of the Anomalous zone"
+ tech_apsr7_tank_desc:0 "To get to the very heart of the zone, we need to find the way to traverse it and to protect us from external influence."
+ TECH_APSR7_TANK_TITLE:0 "§HSpecial project:§! $apsr_defendship_army$"
+ TECH_APSR7_TANK_DESC:0 "$apsr_defendship_army_desc$"
+ 
+ tech_apsr7_building_part1:0 "Ancient Engine Investigation"
+ tech_apsr7_building_part1_desc:0 "We must examine the strange device located at the center of the Anomalous zone. At a first investigation, it appears to be a large cube which functions as some kind of engine."
+ TECH_APSR7_PART1_TITLE:0 "§HBuilding:§! $apsr7_building_part1$"
+ TECH_APSR7_PART1_DESC:0 "$apsr7_building_part1_desc$"
+ 
+ tech_apsr7_building_part2:0 "Project Pendulum"
+ tech_apsr7_building_part2_desc:0 "The Anomalous Engine is producing a high amount of uncontrolled energy. Our scientists designed a new building, which will recycle this energy into a form we could use - Energy Credits"
+ TECH_APSR7_PART2_TITLE:0 "§HBuilding:§! $apsr7_building_part2$"
+ TECH_APSR7_PART2_DESC:0 "$apsr7_building_part2_desc$"
+ 
+ tech_apsr7_building_part3:0 "The Usage of the Pendulum Power"
+ tech_apsr7_building_part3_desc:0 "The Pendulum is located in the heart of the anomalous zone and it produces a huge amount of energy. It can be used for the betterment of our Empire!"
+ TECH_APSR7_PART3_TITLE:0 "§HBuilding:§! $apsr7_building_part3$"
+ TECH_APSR7_PART3_DESC:0 "$apsr7_building_part3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.7000.title:0 "$apsr7_building_cordon$ is completed"
+ apsr.7000.desc:0 "The §Y$Cordon$§! arond the anomalos zone is completed, and from now the mutated species will not disturb our settlements. \nNow we can concentrate on the exploration of the zone and preparing an expedition to its center."
+ apsr.7000.ok-button:0 "Start preparing the expedition"
+ apsr.7000.button.effect:1 "Advanced tank design template available"
+ 
+ apsr.7001.title:0 "$apsr7_building_part1$ is completed"
+ apsr.7001.desc:0 "Tau-energy, our scientists named the emissions of §YThe Pendulum§!. Now, it is no longer wasted in the environment, but it is collected and transformed in Energy Credits. We've obtained a truly inexhaustible power source."
+ apsr.7001.ok-button:0 "Great"
+ 
+ apsr.7002.title:0 "$apsr7_building_part2$ is completed"
+ apsr.7002.desc:0 "Using modified lenses for concentrating the Tau-energy not only allowed us to increase the energy flow, but also removed the need to have a manned crew to operate the facility. Our infinite energy source has become autonomous."
+ apsr.7002.ok-button:0 "Excellent"
+ 
+ apsr.7003.title:0 "$apsr7_building_part3$ is completed"
+ apsr.7003.desc:0 "Thanks to the latest advances in nanotechnology, we were able to create an ultra-light material that defies physics. We rebuilt the pendulum and as a result, we have managed to reach maximum efficiency. This is the limit...for now."
+ apsr.7003.ok-button:0 "Amazing"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.7011.title:0 "Detected: §M$apsr7_planet_modifier$§!"
+ apsr.7011.desc:0 "A scientific expedition led by §H[Root.GetLeaderName]§! from the ship §H[Root.GetName]§! has found something peculiar! \nOn this planet, there is an anomalous zone where the laws of reality themselves seem to bend. As one gets closer to the center of the zone, the equipment starts malfunctioning, and §H[Root.GetLeaderName]§! proposed we organise a special expedition in order to reach the heart of this zone."
+ apsr.7011.button:1 "We must get to the center!"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.7013.title:0 "Detected: §M$apsr7_planet_modifier$§!"
+ apsr.7013.desc:0 "On one of the ocupied planets, somenig peculiar has been found. \nOn the planet, there is an anomalous zone where the laws of reality themselves seem to bend. As one gets closer to the center of the zone, the equipment starts malfunctioning, and §H[Root.GetLeaderName]§! proposed we organise a special expedition in order to reach the heart of this zone."
+ apsr.7013.button:1 "Great"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.7015.title:0 "Detected: §M$apsr7_planet_modifier$§!"
+ apsr.7015.desc:0 "Our intelligence services, while checking information about the planets of other empires, has found something interesting!\nOn one of the planets, there is an anomalous zone where the laws of reality themselves seem to bend. As one gets closer to the center of the zone, the equipment starts malfunctioning. Our lead scientists proposed we organise a special expedition in order to reach the heart of this zone."\n\n§GInformation:§!\n§YPlanet name:§! §W[event_target:apsr7_planet_target.GetName]§! \n§YPlanet class:§! §W[event_target:apsr7_planet_target.GetClassName]§! \n§YSolar system name:§! §W[event_target:apsr7_planet_target.solar_system.GetName]§! \n§YPlanet owner:§! §W[event_target:apsr7_planet_target.Owner.GetName]§!"
+ apsr.7015.button:1 "Interesting!"
+ 
+ 
+ 
+   #########################################################################################
+   #                                                                                       #
+   #   #### #####   #   #     #   # ##### ####       ##### #   # ##### #   #  #####  ####  #
+   #  #       #    # #  #     #  #  #     #   #      #     #   # #     ##  #    #   #      #
+   #  #       #   #   # #     # #   #     #   #      #     #   # #     ##  #    #   #      #
+   #   ###    #   #   # #     ##    ####  ####       ####  #   # ####  # # #    #    ###   #
+   #      #   #   ##### #     # #   #     # #        #     #   # #     # # #    #       #  #
+   #      #   #   #   # #     #  #  #     #  #       #      # #  #     #  ##    #       #  #
+   #  ####    #   #   # ##### #   # ##### #   #      #####   #   ##### #  ##    #   ####   #
+   #                                                                                       #
+   #########################################################################################
+  
+  
+  
+ ### СЮЖЕТ - ИССЛЕДОВАНИЕ АНОМАЛЬНОЙ ЗОНЫ (2хх) ###
+ 
+ # Показ сообщения, добавление спецпроекта постройки спецтанка
+ 
+ apsr.7212.title:0 "Project development completed"
+ apsr.7212.desc:0 "The development of an ultra armored vehicle in finished, and it's time to start building it. It will take some time, but we hope that all our efforts will pay off."
+ apsr.7212.button:1 "Start building it"
+
+ 
+ 
+ # после постройки спецтанка - проект на запуск экспедиции
+ 
+ apsr.7213.title:0 "The exploration of the anomalous zone"
+ apsr.7213.desc:0 "We've developed an utmostly secure tank, and now we're ready to send an expedition to the center of the anomalous zone!"
+ apsr.7213.button:1 "Get started"
+
+ 
+ 
+ # конец экcпедиции - доступ к техе на здание 1 уровня
+ 
+ apsr.7215.title:0 "The pendulum"
+ apsr.7215.desc:0 "The expedition was a complete success! In spite of having some trubbles, the high-safeguard ship crew managed to reach the zone center. A "time engine" appeared to be located there. It was constructed long ago and has been accumulating power from the time flow for decades. And when it was filled with the overflowing time energy, it spits it into the surrounding environment. \nAccording to the extant documents found nearby, the time is meant as a physical process. Scientists of the civilization the pendulum was created by had developed a theory that the time can be used as a physical process connected with energy. This theory is based on considering time a material process that produces some type of energy. Later, the numerical characteristics determining the release of the time energy were defined - first theoretically, then practically. The used to call it "physical time" mechanics, or "tau-mechanics". \nUnfortunately, or fortunately, only such a device was created and can exist at the same time."
+ apsr.7215.button:1 "Interesting"
+ apsr.7215.button.effect:1 ""
+ 
+ 
+ 
+ ## СОБЫТИЯ НАПАДЕНИЯ МУТАНТОВ (22х, 23х, 24х, 25х) ##
+ 
+ 
+ 
+ ## СОБЫТИЯ ПЕРВОГО ГОДА (22х) ##
+ 
+ 
+ # нападение
+  
+ apsr.7221.title:0 "Mutant attack"
+ apsr.7221.desc:0 "We've got a message from the planet where §Y$apsr7_planet_modifier$§! is located. \nA group of creatures went over the borders of the anomalous zone and started attacking one of our settlements. Unfortunately, by the time the response team got there, all the buildigs were already destroyed, and most of the settlers were killed."
+ apsr.7221.button:1 "Enhance the control of the zone borders"
+ apsr.7221.button.tooltip:1 "Restoration of the buildings will require resources."
+ 
+ 
+ 
+ ## СОБЫТИЯ ТРЕТЬЕГО ГОДА (23х) ##
+ 
+ 
+ # нападение
+ 
+ apsr.7231.title:0 "Mutant attack. Again"
+ apsr.7231.desc:0 "We've got a message from the planet where §Y$apsr7_planet_modifier$§! is located. \nA group of creatures crossed the anomalous zone borders again and headed for one of our settlements, but this time we were prepared. Our armies have already joined the battle."
+ apsr.7231.button:1 "Hold the defence!"
+ 
+ # поражение
+
+ apsr.7232.title:0 "Mutant attack. Defeat"
+ apsr.7232.desc:0 "We couldn't hold back the mutants. The creatures broke through our defence, destroyed some settlements to the ground and returned back to the zone as if nothing had happened."
+ apsr.7232.button:1 "Damn it!"
+ apsr.7232.button.tooltip:1 "Two settlements were destroyed. Restoration of the buildings will require resources."
+
+ # победа
+
+ apsr.7233.title:0 "Mutant attack. Creatures liquidated"
+ apsr.7233.desc:0 "We've killed all the creatures successfully, and there is no more danger for our colony - at least for now. But we should not rest on our laurels, as more attacks may come."
+ apsr.7233.button:1 "Great"
+ 
+ 
+ 
+ ## СОБЫТИЯ ШЕСТОГО ГОДА (24х) ##
+ 
+ 
+ # нападение
+
+ apsr.7241.title:0 "Mutant attack. A horde"
+ apsr.7241.desc:0 "We've got a message from the planet where §Y$apsr7_planet_modifier$§! is located. \nA group of mutants has come from the anomalous zone again! We've joined the battle according to plan. But the lack of special fortifications is limiting our countering abilities really much."
+ apsr.7241.button:1 "Hold the defence!"
+
+ ## поражение
+
+ apsr.7242.title:0 "Mutant attack. Defeat"
+ apsr.7242.desc:0 "We couldn't hold back the mutants. The creatures broke through our defence and brought chaos to the most of the planet - and they've also attacked a big part of our settlements. Some were fully destroyed, all that could be devoured is devoured, and what couldn't is now nothing but debris. After destroying our settlements, the creatures returned back to the zone as if nothing had haddened. We would probebly need to build some fortifications that would hold them within the zone."
+ apsr.7242.button:1 "Damn it!"
+ apsr.7242.button.tooltip:1 "Three settlements were destroyed. Restoration of the buildings will require resources."
+
+ ## победа
+
+ apsr.7243.title:0 "Mutant attack. Creatures liquidated"
+ apsr.7243.desc:0 "We've killed all the creatures successfully, and there is no more danger for our colony - at least for now. But we should not rest on our laurels, as more attacks may come."
+ apsr.7243.button:1 "Great"
+ 
+ 
+ 
+ ## СОБЫТИЯ ДЕСЯТОГО ГОДА (25х) ##
+ 
+ 
+ ## нападение
+
+ apsr.7251.title:0 "Mutant attack. The darkness"
+ apsr.7251.desc:0 "We've got a unsettling message from the planet where §Y$apsr7_planet_modifier$§! is located. The creatures have crossed the anomalous zone borders again, and the amount of them has gone beyond all the limits. Stationary fortifications haven't been completed yet and are unable to hold the mutants efficiently. We have nothing to do but to hope for the best and rely on the number of our armies."
+ apsr.7251.button:1 "Hold the defence!"
+
+ ## поражение
+
+ apsr.7252.title:0 "Mutant attack. Defeat"
+ apsr.7252.desc:0 "The mutants have broken through our armies, and now the planet is a living hell. An incredible amount of them swept all across the planet, destroying enerything along the way. After every living creature on the planet was dead, a abnormal bluish fog spread from the heart of the zone and covered all the planet. Some hours later it scattered, and now there is nothing left on the planet but ruins...and the cursed anomalous zone..."
+ apsr.7252.button:1 "It's a completede failure..."
+ apsr.7252.button.tooltip:1 "All the settlements on the planet are destroyed. \nWe've lost the colony"
+ 
+ ## победа
+
+ apsr.7253.title:0 "Mutant attack. Creatures liquidated"
+ apsr.7253.desc:0 "We've killed all the creatures successfully, and there is no more danger for our colony - at least for now. However, given the amount of creatures that took part in the attack, and were subsequently killed, gives us hope we have at least some time to prepare for the next encounter."
+ apsr.7253.button:1 "Great"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr7_special:0 "$apsr7_planet_modifier$"
+ apsr7_special_desc:0 "$apsr7_planet_modifier_desc$"
+ 
+ APSR7_MESSAGE_SR_INFORMED_TITLE:0 "Information about an unique planet"
+ APSR7_MESSAGE_SR_INFORMED:0 "We received information about a special resource called §M$apsr7_planet_modifier$§!, which is located on the planet §Y$PLANET$§! under control of the §Y$COUNTRY$§!."
+ 
+ apsr7_tankconstruct_special:0 "Creating a super fortified armored vehicle"
+ apsr7_tankconstruct_special_DESC:0 "The blueprints for our specially designed armored vechilce are now completed. All that is left is to put it into reality."
+ 
+ apsr7_expedition_special:0 "Expedition to the center of the anomalous zone"
+ apsr7_expedition_special_DESC:0 "The armored vehicle is completed, and now we are ready to send the expedition to the center of the anomalous zone. It's time to learn the secret of this place!"
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr7_anomaly:0 "Interesting data"
+ apsr7_anomaly_desc:0 "During the research of the [From.GetName] planet's surface we aquired data that definitely needs further investigation."
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.7601.title:0 "$apsr.7011.title$"
+ apsr.7601.desc:0 "$apsr.7011.desc$"
+
+ 
+ 
+ ### текст спецтанка
+ 
+ apsr_defendship_army:0 "Fortified armored vehicle project"
+ apsr_defendship_army_desc:0 "It's not a tank - it's a true masterpiece! It's been developed using the most advanced technologies. \n§MIt enables us to organize an expedition to the heart of the anomalous zone§!"
+  
+ 
+ 
+ ### новые должности
+   
+ apsr7_planet_soldier_normal:0 "Cordon Soldiers"
+ job_apsr7_soldier_normal:0 "Cordon Soldier"
+ job_apsr7_soldier_normal_plural:0 "Cordon Soldiers"
+ job_apsr7_soldier_normal_desc:0 "The main task of the Cordon is to prevent the mutants from escaping from the Abnormal zone. They protect the settlements of this planet from attacks coming from inside the zone."
+ mod_job_apsr7_soldier_normal_add:0 "Cordon Soldier"
+   
+ apsr7_planet_soldier_hive:0 "Cordon Defense Drones"
+ job_apsr7_soldier_hive:0 "Cordon Defense Drone"
+ job_apsr7_soldier_hive_plural:0 "Cordon Defense Drones"
+ job_apsr7_soldier_hive_desc:0 "The main task of the Cordon is to prevent the mutants from escaping from the Abnormal zone. They protect our lairs on this planet from attacks coming from inside the zone."
+ mod_job_apsr7_soldier_hive_add:0 "Cordon Defense Drone"
+   
+ apsr7_planet_soldier_machine:0 "Cordon Defense Drones"
+ job_apsr7_soldier_machine:0 "Cordon Defense Drone"
+ job_apsr7_soldier_machine_plural:0 "Cordon Defense Drones"
+ job_apsr7_soldier_machine_desc:0 "The main task of the Cordon is to prevent the mutants from escaping from the Abnormal zone. They protect our operations on this planet from attacks coming from inside the zone."
+ mod_job_apsr7_soldier_machine_add:0 "Cordon Defense Drone"
+ 
+   
+ apsr7_planet_power_engineer_normal:0 "Power Engineers"
+ job_apsr7_power_engineer_normal:0 "Power Engineer"
+ job_apsr7_power_engineer_normal_plural:0 "Power Engineers"
+ job_apsr7_power_engineer_normal_desc:0 "The duties of the power engineer include overall control of the on-site energy production, optimization of production and consumption processes, tracking network load peaks and more."
+ mod_job_apsr7_power_engineer_normal_add:0 "Power Engineer"
+   
+ apsr7_planet_power_engineer_hive:0 "Power Drones"
+ job_apsr7_power_engineer_hive:0 "Power Drone"
+ job_apsr7_power_engineer_hive_plural:0 "Power Drones"
+ job_apsr7_power_engineer_hive_desc:0 "This being controls the work of ordinary technicians and ensures the stable and uninterrupted operation of the facility."
+ mod_job_apsr7_power_engineer_hive_add:0 "Power Drone"
+   
+ apsr7_planet_power_engineer_machine:0 "Power Drones"
+ job_apsr7_power_engineer_machine:0 "Power Drone"
+ job_apsr7_power_engineer_machine_plural:0 "Power Drones"
+ job_apsr7_power_engineer_machine_desc:0 "This drone model has an improved autonomous AI, whose main task is to monitor the operation of the facility, the work of ordinary drones-technicians, and the optimization of energy generation processes."
+ mod_job_apsr7_power_engineer_machine_add:0 "Power Drone"
+ 
+   
+ apsr7_planet_technician_normal:0 "Qualified technicians"
+ job_apsr7_technician_normal:0 "Qualified technician"
+ job_apsr7_technician_normal_plural:0 "Qualified technicians"
+ job_apsr7_technician_normal_desc:0 "Only technicians of the highest qualification are eligible to work on the Pendulum."
+ mod_job_apsr7_technician_normal_add:0 "Qualified technician"
+   
+ apsr7_planet_technician_hive:0 "Qualified technician drones"
+ job_apsr7_technician_hive:0 "Qualified technician drone"
+ job_apsr7_technician_hive_plural:0 "Qualified technician drones"
+ job_apsr7_technician_hive_desc:0 "Only technician beings of the highest qualification are eligible to work on the Pendulum."
+ mod_job_apsr7_technician_hive_add:0 "Qualified technician drone"
+   
+ apsr7_planet_technician_machine:0 "Technician drones v2.0"
+ job_apsr7_technician_machine:0 "Technician drone v2.0"
+ job_apsr7_technician_machine_plural:0 "Technician drones v2.0"
+ job_apsr7_technician_machine_desc:0 "Updated and expensive drone model for working with high-energy substances."
+ mod_job_apsr7_technician_machine_add:0 "Technician drone v2.0"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

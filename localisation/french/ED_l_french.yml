@@ -1,0 +1,762 @@
+﻿l_french:
+ ##################################################
+ #                                                #
+ # Housing Districts:                             #
+ #                                                #
+ ##################################################
+
+ ## Underground City
+ # deposits
+ d_city_cavesystem:0 "City-sized Cave System"
+ d_city_cavesystem_desc:0 "This enormous cave can be used to construct underground cities."
+ # districts
+ district_underground_city:0 "Underground City"
+ district_underground_city_plural:0 "Underground Cities"
+ district_underground_city_desc:0 "Underground cities will provide living-space without reducing available areas on planet surface."
+ mod_district_underground_city_max:0 "Max $district_underground_city_plural$"
+ mod_planet_district_underground_city_build_speed_mult:0 "$district_underground_city$ Build Speed"
+
+ ## Ascended Housing
+ d_precurser_city:0 "Precurser City"
+ d_precurser_city_desc:0 "This ancient precurser city can be reconstructed to provide an imensily powerful housing skyscraper skyline."
+ # districts
+ district_ascended_housing:0 "Ascended Housing"
+ district_ascended_housing_plural:0 "Ascended Housings"
+ district_ascended_housing_desc:0 "This district uses restored precursor gravity-modifying technology to allow construction of ridiculously tall and spacious housing."
+ mod_district_ascended_housing_max:0 "Max $district_ascended_housing_plural$"
+ mod_planet_district_ascended_housing_build_speed_mult:0 "$district_ascended_housing$ Build Speed"
+
+ ## Slums
+ # districts
+ district_slums:0 "Slums"
+ district_slums_plural:0 "Slums"
+ district_slums_desc:0 "Slums are cheap high-density housing, although reduced control and poverty in those areas will increase crime rates."
+ mod_district_slums_max:0 "Max $district_slums_plural$"
+ mod_planet_district_slums_build_speed_mult:0 "$district_slums$ Build Speed"
+
+ ## Shelters
+ # districts
+ district_shelters:0 "Shelter"
+ district_shelters_plural:0 "Shelters"
+# district_shelters_desc:0 "Shelters are highly protected housing areas with life support systems, to allow housing on less hospitable planets.\nEven if some areas aren't protected, they will have some §Y$MOD_HABITABILITY_FLOOR$§!."
+ district_shelters_desc:0 "Shelters are highly protected housing areas with life support systems, to allow housing on less hospitable planets.\nEven if some areas aren't protected, they will have some §Y$MOD_POP_ENVIRONMENT_TOLERANCE$§! bonus."
+ mod_district_shelters_max:0 "Max $district_shelters_plural$"
+ # jobs
+ job_shelter_maintenance_worker:0 "Shelter Maintenance Worker"
+ job_shelter_maintenance_worker_plural:0 "Shelter Maintenance Workers"
+ job_shelter_maintenance_worker_desc:0 "$job_shelter_maintenance_worker_plural$ take care of your shelter's life support systems."
+# job_shelter_maintenance_worker_effect_desc:0 "See $d_ED_shelter_effect_manager$ about $MOD_HABITABILITY_FLOOR$."
+# job_shelter_maintenance_worker_effect_desc:0 "$d_ED_shelter_effect_manager$ $RARE_DEPOSITS$ gives $MOD_POP_ENVIRONMENT_TOLERANCE$ bonus.\nIt is proportional with $job_shelter_maintenance_job_plural$-per-Pops.\n(Max 40% bonus when 0.2-or-more)"
+ job_shelter_maintenance_worker_effect_desc:0 "Each $job_shelter_maintenance_worker$ provides $@ED_shelter_bonus_base|Y*0$ score, and divide the sum by number of Pops (excludes purged, assimilated and presapient Pops) on the planet.\nThe result (Max at $@ED_shelter_bonus_max|Y*0$) will be $MOD_POP_ENVIRONMENT_TOLERANCE$ bonus (provided by $d_ED_shelter_effect_manager$ $RARE_DEPOSITS$)."
+ mod_job_shelter_maintenance_worker_add:0 "$job_shelter_maintenance_worker$ Jobs"
+ job_shelter_maintenance_drone:0 "Shelter Maintenance Drone"
+ job_shelter_maintenance_drone_plural:0 "Shelter Maintenance Drones"
+ job_shelter_maintenance_drone_desc:0 "$job_shelter_maintenance_drone_plural$ take care of your shelter's life support systems."
+ job_shelter_maintenance_drone_effect_desc:0 "Each $job_shelter_maintenance_drone$ provides $@ED_shelter_bonus_base|Y*0$ score, and divide the sum by number of Pops (excludes purged, assimilated and presapient Pops) on the planet.\nThe result (Max at $@ED_shelter_bonus_max|Y*0$) will be $MOD_POP_ENVIRONMENT_TOLERANCE$ bonus (provided by $d_ED_shelter_effect_manager$ $RARE_DEPOSITS$)."
+ mod_job_shelter_maintenance_drone_add:0 "$job_shelter_maintenance_drone$ Jobs"
+ 
+ # It include both "Shelter Maintenance Worker" and "Shelter Maintenance Drone".
+ job_shelter_maintenance_job:0 "$district_shelters$ Job"
+ job_shelter_maintenance_job_plural:0 "$district_shelters$ Jobs"
+
+ # Deposits
+ d_ED_shelter_effect_manager:0 "ED $district_shelters$ Effect Manager"
+ d_ED_shelter_effect_manager_desc:0 "More $job_shelter_maintenance_job_plural$-per-Pops, higher $MOD_HABITABILITY_FLOOR$ will be provided.\n(Max 40% with 0.2-or-more $job_shelter_maintenance_job$-per-Pops)"
+
+#####
+# unused
+#####
+# # Ocean Housing
+# d_underwater_foundation:0 "Underwater Foundation"
+# d_underwater_foundation_desc:0 "This strong underwater foundation is able to support oceanic cities."
+#  # Ocean Housing
+#  district_ocean_housing:0 "Ocean Housing"
+#  mod_district_ocean_housing_max:0 "Max $district_ocean_housing_plural$"
+#  district_ocean_housing_plural:0 "Ocean Housings"
+#  district_ocean_housing_desc:0 "These districts are gigantic buildings floating on the ocean."
+# mod_planet_district_ocean_housing_build_speed_mult:0 "$district_ocean_housing$ Build Speed"
+
+ ##################################################
+ #                                                #
+ # Basic Resource Districts				          #
+ #                                                #
+ ##################################################
+
+ ## Wind Turbines
+ # Deposits
+ d_stormy_highlands:0 "Stormy Highlands"
+ d_stormy_highlands_desc:0 "Stormy highlands might be a little chilly, but perfect for wind turbines."
+ d_stormy_flats:0 "Stormy Flats"
+ d_stormy_flats_desc:0 "Stormy flats might be a little chilly, but perfect for wind turbines."
+ # districts
+ district_wind_turbines:0 "Wind Park"
+ district_wind_turbines_plural:0 "Wind Parks"
+ district_wind_turbines_desc:0 "Intense winds on this part of the planet can be efficiently converted into energy."
+ mod_district_wind_turbines_max:0 "Max $district_wind_turbines_plural$"
+ mod_planet_district_wind_turbines_build_speed_mult:0 "$district_mining_ED_cold$ Build Speed"
+ # jobs
+ job_turbine_technician:0 "Turbine Technician"
+ job_turbine_technician_plural:0 "Turbine Technicians"
+ job_turbine_technician_desc:0 "$job_turbine_technician_plural$ maintain and work at Wind powerplants to generate energy."
+ job_turbine_technician_effect_desc:0 "£job_turbine_technician£ $job_turbine_technician_plural$ produce £energy£ §Y$energy$§!"
+ mod_job_turbine_technician_add:0 "$job_turbine_technician$ Jobs"
+ job_turbine_technician_drone:0 "Turbine Technician Drone"
+ job_turbine_technician_drone_plural:0 "Turbine Technician Drones"
+ job_turbine_technician_drone_desc:0 " $job_turbine_technician_drone_plural$ maintain and work at Wind powerplants to generate energy."
+ job_turbine_technician_drone_effect_desc:0 "£job_turbine_technician_drone£ $job_turbine_technician_drone_plural$ produce £energy£ §Y$energy$§!"
+ mod_job_turbine_technician_drone_add:0 "$job_turbine_technician_drone$ Jobs"
+
+ ## Geothermal Generators
+ # Deposits
+ d_boiling_lake:0 "Boiling Lake"
+ d_boiling_lake_desc:0 "Geothermal steam-vents make nearby lakes boil, which can be used to produce energy."
+ d_hot_volcano:0 "Hot Volcano"
+ d_hot_volcano_desc:0 "An active volcano that is stable enought to be utilized for energy generation."
+ # districts
+ district_geothermal_generator:0 "Geothermal Power Plant"
+ district_geothermal_generator_plural:0 "Geothermal Power Plants"
+ district_geothermal_generator_desc:0 "A geothermal power plant uses the planet's natural geothermal activity and converts it to energy, while producing a small amount of minerals as a byproduct."
+ mod_district_geothermal_generator_max:0 "Max $district_geothermal_generator_plural$"
+ mod_planet_district_geothermal_generator_build_speed_mult:0 "$district_geothermal_generator$ Build Speed"
+ # jobs
+ job_geothermal_technician:0 "Geothermal Technician"
+ job_geothermal_technician_plural:0 "Geothermal Technicians"
+ job_geothermal_technician_desc:0 "Geothermal Technicians maintain and work at geothermal powerplants to generate energy."
+ job_geothermal_technician_effect_desc:0 "£job_geothermal_technician£ $job_geothermal_technician_plural$ produce £energy£ §Y$energy$§! and £minerals£ §Y$minerals$§!"
+ mod_job_geothermal_technician_add:0 "$job_geothermal_technician$ Jobs"
+ job_geothermal_technician_drone:0 "Geothermal Technician Drone"
+ job_geothermal_technician_drone_plural:0 "Geothermal Technician Drones"
+ job_geothermal_technician_drone_desc:0 "Geothermal Technician Drones maintain and work at geothermal powerplants to generate energy."
+ job_geothermal_technician_drone_effect_desc:0 "£job_geothermal_technician_drone£ $job_geothermal_technician_drone_plural$ produce £energy£ §Y$energy$§! and £minerals£ §Y$minerals$§!"
+ mod_job_geothermal_technician_drone_add:0 "$job_geothermal_technician_drone$ Jobs"
+
+ ## Tidal Generators
+ # Deposits
+ d_underwater_hill:0 "Underwater Hill"
+ d_underwater_hill_desc:0 "An underwater hill creates strong underwater currents, which yield a large amount of energy."
+ d_underwater_mountain:0 "Underwater Mountain"
+ d_underwater_mountain_desc:0 "An underwater mountain creates very powerful underwater currents, which yield a large amount of energy."
+ # districts
+ district_tidal_generator:0 "Tidal Generator"
+ district_tidal_generator_plural:0 "Tidal Generators"
+ district_tidal_generator_desc:0 "These Tidal Generators are installed in the ocean and use the planets tidal forces and currents to produce energy."
+ mod_district_tidal_generator_max:0 "Max $district_tidal_generator_plural$"
+ mod_planet_district_tidal_generator_build_speed_mult:0 "$district_tidal_generator$ Build Speed"
+
+ ## Fuel-based Generators
+ # Deposits
+ d_fuelbased_generator_deposit_2:0 "Natural Gas Field"
+ d_fuelbased_generator_deposit_2_desc:0 "Natural gas deposits are used in $district_generator_finite_plural$."
+ d_fuelbased_generator_deposit_3:0 "Fossil Fuel Field"
+ d_fuelbased_generator_deposit_3_desc:0 "Oil or coal deposits are used in $district_generator_finite_plural$."
+ d_fuelbased_generator_deposit_depleted:0 "Depleted Deposit Field"
+ d_fuelbased_generator_deposit_depleted_desc:0 "All fuel deposit in this field are mined out."
+ # districts
+ district_generator_finite:0 "Fuel-based Generator"
+ district_generator_finite_plural:0 "Fuel-based Generators"
+ district_generator_finite_desc:0 "Oil, coal or natural gas are burnt, and drive steam turbines or gas turbines so they can generate energy. They produce more power, but the fuel will be depleted over decades.\nNote: Each 50 district-years, $mod_district_generator_finite_max$ §Rwill be decreased 1§!."
+ mod_district_generator_finite_max:0 "Max $district_generator_finite_plural$"
+ mod_planet_district_generator_finite_build_speed_mult:0 "$district_generator_finite$ Build Speed"
+ # jobs
+ job_technician_finite:0 "Fuel Technician"
+ job_technician_finite_plural:0 "Fuel Technicians"
+ job_technician_finite_desc:0 "$job_technician_desc$ Just beware on overmining."
+ job_technician_finite_effect_desc:0 "£job_technician_finite£ $job_technician_finite_plural$ produce more £energy£ §Y$energy$§! than $job_technician_plural$, but they will mine-out $district_generator_finite$ deposit in decades."
+ mod_job_technician_finite_add:0 "$job_technician_finite$ Jobs"
+ job_technician_drone_finite:0 "Fuel Tech-Drone"
+ job_technician_drone_finite_plural:0 "Fuel Tech-Drones"
+ job_technician_drone_finite_desc:0 "$job_technician_drone_desc$ Just beware on overmining."
+ job_technician_drone_finite_effect_desc:0 "£job_technician_drone_finite£ $job_technician_drone_finite_plural$ produce more £energy£ §Y$energy$§! than $job_technician_drone_plural$, but they will mine-out $district_generator_finite$ deposit in decades."
+ mod_job_technician_drone_finite_add:0 "$job_technician_drone_finite$ Jobs"
+ # messages
+ ED_MESSAGE_GENERATOR_FINITE_DEPLETED: "$district_generator_finite$ deposit was depleted"
+ ed_message_generator_finite_depleted: "We have mined too much. On [This.GetPlanetMoon] [This.GetName], $mod_district_generator_finite_max$ is reduced 1."
+ ED_MESSAGE_GENERATOR_FINITE_REMOVED: "$district_generator_finite$ Gridbox was removed"
+ ed_message_generator_finite_removed: "On [This.GetPlanetMoon] [This.GetName], $district_generator_finite_plural$ deposits were totally mine-outed. So $district_generator_finite$ Gridbox was removed."
+
+ ## Unsecure Mining
+ # Deposits
+ d_loose_rock:0 "Loose Rocks"
+ d_loose_rock_desc:0 "The rocks in this area have cracks in them which increase chances for caves or holes to break in."
+ d_loose_rock_formation:0 "Unstable Ground"
+ d_loose_rock_formation_desc:0 "The ground in this area has been found to be unstable, which could pose dangers when it is mined."
+ # districts
+ district_unstable_mining:0 "Unsecure Mine"
+ district_unstable_mining_plural:0 "Unsecure Mines"
+ district_unstable_mining_desc:0 "A less stable surface in the planets crust will increase the danger for your miners and will make them more likly to rebell against you."
+ mod_district_unstable_mining_max:0 "Max $district_unstable_mining_plural$"
+ mod_planet_district_unstable_mining_build_speed_mult:0 "$district_unstable_mining$ Build Speed"
+ # decision
+ decision_unlock_district_unstable_mining:0 "Allow $district_unstable_mining_plural$"
+ decision_unlock_district_unstable_mining_desc:0 "$district_unstable_mining_plural$ have too much potential to miss. Allow their development."
+ decision_lock_district_unstable_mining:0 "Ban $district_unstable_mining_plural$"
+ decision_lock_district_unstable_mining_desc:0 "$district_unstable_mining_plural$ are too danger to work. Ban their development."
+ decision_secure_district_unstable_mining:0 "Massive safety precaution at $district_unstable_mining_plural$"
+ decision_secure_district_unstable_mining_desc:0 "Enough unhappy workers and §R$MOD_PLANET_CRIME_ADD$§!! Take safety precaution at $district_unstable_mining$ and make it \"Secure\" Mine."
+ decision_secure_district_unstable_mining_gestalt:0 "$decision_secure_district_unstable_mining$"
+ decision_secure_district_unstable_mining_gestalt_desc:0 "Enough §R$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$§!! Take safety precaution at $district_unstable_mining$ and make it \"Secure\" Mine."
+ # planet modifier
+ ED_PM_locked_district_unstable_mining:0 "Prohibition of $district_unstable_mining_plural$"
+ ED_PM_locked_district_unstable_mining_desc:0 "For worker's safety, $district_unstable_mining_plural$ are off-limit on the planet. It is nice to potential $job_unsecure_miner_plural$."
+ # jobs
+ job_unsecure_miner:0 "Unsecure Miner"
+ job_unsecure_miner_plural:0 "Unsecure Miners"
+ job_unsecure_miner_desc:0 "Even with modern power drills and advanced machinery, their operations are far from sacure and safty one. More than few miners lost by accident, and all of they have resentment against this job."
+ job_unsecure_miner_effect_desc:0 "£job_unsecure_miner£ $job_unsecure_miner_plural$ produce £minerals£ §Y$minerals$§! but have low §R$HAPPINESS$§! and raise §R$MOD_PLANET_CRIME_ADD$§!. And low job weight if they can choose their job."
+ mod_job_unsecure_miner_add:0 "$job_unsecure_miner$ Jobs"
+ job_reckless_mining_drone:0 "Unsecure Mining Drone"
+ job_reckless_mining_drone_plural:0 "Reckless Mining Drones"
+ job_reckless_mining_drone_desc:0 "Even with modern power drills and advanced machinery, their operations are far from sacure and safty one. More than few drones lost by accident, and some might escaped."
+ job_reckless_mining_drone_effect_desc:0 "£job_reckless_mining_drone£ $job_reckless_mining_drone_plural$ produce £minerals£ §Y$minerals$§! but raise §R$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$§!"
+ mod_job_reckless_mining_drone_add:0 "$job_reckless_mining_drone$ Jobs"
+
+ ## Rare Mineral Mine
+ # Deposits
+ d_rare_mineral_deposit_2:0 "Rare Mineral Lode"
+ d_rare_mineral_deposit_2_desc:0 "Some rare metals or precious metals are found in the lode."
+ d_rare_mineral_deposit_3:0 "Diverse Rare Mineral Lode"
+ d_rare_mineral_deposit_3_desc:0 "Diverse rare metals and precious metals are found in the lode."
+ d_rare_mineral_deposit_depleted:0 "Depleted Mine"
+ d_rare_mineral_deposit_depleted_desc:0 "All rare mineral in this lode are mined out."
+ # districts
+ district_mining_finite:0 "Rare Mineral Mine"
+ district_mining_finite_plural:0 "Rare Mineral Mines"
+ district_mining_finite_desc:0 "A Mine of lesser amount of rare metals and precious metals. They are valued, but will be depleted over decades.\nNote: Each 50 district-years, $mod_district_mining_finite_max$ §Rwill be decreased 1§!."
+ mod_district_mining_finite_max:0 "Max $district_mining_finite_plural$"
+ mod_planet_district_mining_finite_build_speed_mult:0 "$district_mining_finite$ Build Speed"
+ # jobs
+ job_miner_finite:0 "Rare Mineral Miner"
+ job_miner_finite_plural:0 "Rare Mineral Miners"
+ job_miner_finite_desc:0 "$job_miner_desc$ Just beware on overmining."
+ job_miner_finite_effect_desc:0 "£job_miner_finite£ $job_miner_finite_plural$ produce more £minerals£ §Y$minerals$§! than $job_miner_plural$, but they will mine-out $district_mining_finite$ deposit in decades."
+ mod_job_miner_finite_add:0 "$job_miner_finite$ Jobs"
+ job_mining_drone_finite:0 "Rare Mineral Mining Drone"
+ job_mining_drone_finite_plural:0 "Rare Mineral Mining Drones"
+ job_mining_drone_finite_desc:0 "$job_mining_drone_desc$ Just beware on overmining."
+ job_mining_drone_finite_effect_desc:0 "£job_mining_drone_finite£ $job_mining_drone_finite_plural$ produce more £minerals£ §Y$minerals$§! than $job_mining_drone_plural$, but they will mine-out $district_mining_finite$ deposit in decades."
+ mod_job_mining_drone_finite_add:0 "$job_mining_drone_finite$ Jobs"
+ # messages
+ ED_MESSAGE_MINING_FINITE_DEPLETED: "$district_mining_finite$ deposit was depleted"
+ ed_message_mining_finite_depleted: "We have mined too much. On [This.GetPlanetMoon] [This.GetName], $mod_district_mining_finite_max$ is reduced 1."
+ ED_MESSAGE_MINING_FINITE_REMOVED: "$district_mining_finite$ Gridbox was removed"
+ ed_message_mining_finite_removed: "On [This.GetPlanetMoon] [This.GetName], $district_mining_finite_plural$ deposits were totally mine-outed. So $district_mining_finite$ Gridbox was removed."
+
+ ## Hunting field
+ # Deposits
+ d_hunting_field_deposit_2:0 "Wild Animals"
+ d_hunting_field_deposit_2_desc:0 "Wild animals that is difficult to tame but delicious as a game."
+ d_hunting_field_deposit_3:0 "Wild Titanics"
+ d_hunting_field_deposit_3_desc:0 "Wild titanics that is difficult to tame but delicious as a game."
+ d_hunting_field_deposit_depleted:0 "Overhunted Wild Animals"
+ d_hunting_field_deposit_depleted_desc:0 "Due to overhunting, wild animals don't be seen any more."
+ # districts
+ district_farming_finite:0 "Hunting Area"
+ district_farming_finite_plural:0 "Hunting Areas"
+ district_farming_finite_desc:0 "Hunting area for less-fertility animals. with poor fertility. They are rich in nutrition, but will be depleted over decades.\nNote: Each 50 district-years, $mod_district_farming_finite_max$ §Rwill be decreased 1§!."§!。"
+ mod_district_farming_finite_max:0 "Max $district_farming_finite_plural$"
+ mod_planet_district_farming_finite_build_speed_mult:0 "$district_farming_finite$ Build Speed"
+ # messages
+ ED_MESSAGE_FARMING_FINITE_DEPLETED: "$district_farming_finite$ deposit was depleted"
+ ed_message_farming_finite_depleted: "We have hunted too much. On [This.GetPlanetMoon] [This.GetName], $mod_district_farming_finite_max$ is reduced 1."
+ ED_MESSAGE_FARMING_FINITE_REMOVED: "$district_farming_finite$ Gridbox was removed"
+ ed_message_farming_finite_removed: "On [This.GetPlanetMoon] [This.GetName], $district_farming_finite_plural$ deposits were totally mine-outed. So $district_farming_finite$ Gridbox was removed."
+
+ ##################################################
+ #                                                #
+ # Advanced Resource Districts				      #
+ #                                                #
+ ##################################################
+
+ ## Chemistry Industry
+ # Deposits
+ d_carbon_compounds:0 "Carbon Compounds"
+ d_carbon_compounds_desc:0 "Amino acids and other carbon based substances can be found here."
+ d_complex_carbon_compounds:0 "Complex Carbon Compounds"
+ d_complex_carbon_compounds_desc:0 "Large amounts of amino acids and very complex carbon compunds can be found here."
+ # districts
+ district_chemistry_industry:0 "Chemical Refinery"
+ district_chemistry_industry_plural:0 "Chemical Refineries"
+ district_chemistry_industry_desc:0 "It might not be that good for the environment, but you can always just colonize another planet."
+ mod_district_chemistry_industry_max:0 "Max $district_chemistry_industry_plural$"
+ mod_planet_district_chemistry_industry_build_speed_mult:0 "$district_chemistry_industry$ Build Speed"
+
+ ## Gas Refinery
+ # Deposits
+ d_bubbling_lake:0 "Bubbling Lake"
+ d_bubbling_lake_desc:0 "Underwater gas deposits regularly release gas bubbles into this lake, which can extracted."
+ d_bubbling_ocean:0 "Bubbling Ocean"
+ d_bubbling_ocean_desc:0 "Large underwater gas deposits release gas bubbles which can be extracted."
+ # districts
+ district_gas_refinery:0 "Gas Refinery"
+ district_gas_refinery_plural:0 "Gas Refineries"
+ district_gas_refinery_desc:0 "Trace amounts of exotic gases can be found in the planet's deposits. This district-wide facility is dedicated to extracting and refining them into usable concentrations."
+ mod_district_gas_refinery_max:0 "Max $district_gas_refinery_plural$"
+ mod_planet_district_gas_refinery_build_speed_mult:0 "$district_gas_refinery$ Build Speed"
+
+ ## Crystal Mines
+ # Deposits
+ d_luminescent_cave:0 "Luminescent Cave"
+ d_luminescent_cave_desc:0 "Rare crystals in nearby caves give them a fantastic look and can be harvested."
+ d_luminescent_cave_system:0 "Luminescent Cave System"
+ d_luminescent_cave_system_desc:0 "Large amounts of caves filled with rare crystals can be found close by."
+ # districts
+ district_crystal_mines:0 "Crystal Mine"
+ district_crystal_mines_plural:0 "Crystal Mines"
+ district_crystal_mines_desc:0 "Rare crystals can be found in this planet's crust. It takes a district-wide facility to dig deep enough for them."
+ mod_district_crystal_mines_max:0 "Max $district_crystal_mines_plural$"
+ mod_planet_district_crystal_mines_build_speed_mult:0 "$district_crystal_mines$ Build Speed"
+
+ ## Nature Reserve
+ # Deposits
+ d_interesting_wildlife:0 "Interesting Wildlife"
+ d_interesting_wildlife_desc:0 "The local wildlife is very unique, so there is a lot of biology to learn from them."
+ d_complex_ecosystem:0 "Complex Ecosystem"
+ d_complex_ecosystem_desc:0 "Complex ecosystem on this planet has many interesting plants and wildlife."
+ # districts
+ district_nature_reserve:0 "Nature Reserve"
+ district_nature_reserve_plural:0 "Nature Reserves"
+# district_nature_reserve_desc:0 "A patch of natural planetary environment free from industrial activity, maintained and guarded by the rangers."
+ district_nature_reserve_desc:0 "A patch of natural planetary environment free from industrial activity."
+ mod_district_nature_reserve_max:0 "Max $district_nature_reserve_plural$"
+ mod_planet_district_nature_reserve_build_speed_mult:0 "$district_nature_reserve$ Build Speed"
+ # jobs
+ mod_job_do_park_ranger_add:0 "$job_do_park_ranger$ Jobs"
+ job_do_park_ranger:0 "Xenobiologist"
+ job_do_park_ranger_plural:0 "Xenobiologists"
+# job_do_park_ranger:0 "Park Ranger"
+# job_do_park_ranger_desc:0 "They take care of the enviroment and research it to boost your knowledge."
+ job_do_park_ranger_desc:0 "They research local unique enviroment to boost your knowledge."
+ job_do_park_ranger_effect_desc:0 "£job_do_park_ranger£ $job_do_park_ranger_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £society£ §Y$society_research$§!"
+# job_do_park_ranger_plural:0 "Park Rangers"
+ mod_job_nature_research_drone_add:0 "$job_nature_research_drone$ Jobs"
+ job_nature_research_drone:0 "Nature Research Drone"
+ job_nature_research_drone_desc:0 "Nature Research Drones take care of the enviroment and research it to boost your knowledge."
+ job_nature_research_drone_effect_desc:0 "£job_nature_research_drone£ $job_nature_research_drone_plural$ turn £energy£ §Y$energy$§! or £minerals£ §Y$minerals$§! into £society£ §Y$society_research$§!"
+ job_nature_research_drone_plural:0 "Nature Research Drones"
+
+ ## Anomaly
+ # Deposits
+ d_small_anomaly:0 "Small Anomaly"
+ d_small_anomaly_desc:0 "A unusual anomaly reduces the density of the atmosphere around this area, which can't be explained yet."
+ d_medium_anomaly:0 "Medium Anomaly"
+ d_medium_anomaly_desc:0 "A medium gravitational anomaly can be found here, which currently can't be explained."
+ # districts
+ district_anomaly:0 "Anomaly Research Complex"
+ district_anomaly_plural:0 "Anomaly Research Complexes"
+ district_anomaly_desc:0 "Anomaly research complexes will bring groundbreaking (sometimes literally) research to your empire."
+ mod_district_anomaly_max:0 "Max $district_anomaly_plural$"
+ mod_planet_district_anomaly_build_speed_mult:0 "$district_anomaly$ Build Speed"
+ # jobs
+ mod_job_do_anomaly_researcher_add:0 "$job_do_anomaly_researcher$ Jobs"
+ job_do_anomaly_researcher:0 "Anomaly Researcher"
+ job_do_anomaly_researcher_plural:0 "Anomaly Researchers"
+ job_do_anomaly_researcher_desc:0 "They will try to find explenations for all sorts of wierd anomalys."
+ job_do_anomaly_researcher_effect_desc:0 "£job_do_anomaly_researcher£ $job_do_anomaly_researcher_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £physics£ §Y$physics_research$§!"
+ mod_job_do_scientific_drone_add:0 "$job_do_scientific_drone$ Jobs"
+ job_do_scientific_drone:0 "Scientific Drone"
+ job_do_scientific_drone_plural:0 "Scientific Drones"
+ job_do_scientific_drone_desc:0 "Scientific Drones will try to find explenations for all sorts of wierd anomalys."
+ job_do_scientific_drone_effect_desc:0 "£job_do_scientific_drone£ $job_do_scientific_drone_plural$ turn £energy£ §Y$energy$§! or £minerals£ §Y$minerals$§! into £physics£ §Y$physics_research$§!"
+
+ ## Crustal observation Districts"
+ # Deposits
+ d_small_geological_anomaly:0 "Small Geological Anomaly"
+ d_small_geological_anomaly_desc:0 "A unusual geological anomaly, which can't be explained yet, are observed in the depth on this celestial body."
+ d_medium_geological_anomaly:0 "Medium Geological Anomaly"
+ d_medium_geological_anomaly_desc:0 "A medium geological anomaly, which can't be explained yet, are observed in the depth on this celestial body."
+ # districts
+ district_scrapyard:0 "Crustal observation District"
+ district_scrapyard_plural:0 "Crustal observation Districts"
+ district_scrapyard_desc:0 "$district_scrapyard_plural$ will bring groundbreaking (sometimes literally) research to your empire."
+ mod_district_scrapyard_max:0 "Max $district_scrapyard_plural$"
+ mod_planet_district_scrapyard_build_speed_mult:0 "$district_scrapyard$ Build Speed"
+ # jobs
+ job_do_engineer:0 "Xenogeologist"
+ job_do_engineer_plural:0 "Xenogeologists"
+ job_do_engineer_desc:0 "$job_do_engineer_plural$ will try to find explenations for geological anomalies, observed in the depth on this celestial body."
+ job_do_engineer_effect_desc:0 "£job_do_engineer£ $job_do_engineer_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £engineering£ §Y$engineering_research$§!"
+ mod_job_do_engineer_add:0 "$job_do_engineer$ Jobs"
+ job_do_engineering_drone:0 "Xenogeology Drone"
+ job_do_engineering_drone_plural:0 "Xenogeology Drones"
+ job_do_engineering_drone_desc:0 "These drones will try to find explenations for geological anomalies, observed in the depth on this celestial body."
+ job_do_engineering_drone_effect_desc:0 "£job_do_engineering_drone£ $job_do_engineering_drone_plural$ turn £energy£ §Y$energy$§! or £minerals£ §Y$minerals$§! into £engineering£ §Y$engineering_research$§!"
+ mod_job_do_engineering_drone_add:0 "$job_do_engineering_drone$ Jobs"
+
+ ## Archeology
+ # Deposits
+ d_ancient_structure:0 "Ancient Structures"
+ d_ancient_structure_desc:0 "These ancient structures possibly house some minor relics from ancient civilizations."
+ # districts
+ district_archeology:0 "Archeology District"
+ district_archeology_plural:0 "Archeology Districts"
+ district_archeology_desc:0 "Remnants of an ancient precursor can be found here. Archeologists can find minor relics for usage in your empire."
+ mod_district_archeology_max:0 "Max $district_archeology_plural$"
+ mod_planet_district_archeology_build_speed_mult:0 "$district_archeology$ Build Speed"
+ # jobs
+ mod_job_do_archaeologist_add:0 "$job_do_archaeologist$ Jobs"
+ job_do_archaeologist:0 "Archaeologist"
+ job_do_archaeologist_plural:0 "Archaeologists"
+ job_do_archaeologist_desc:0 "Archaeologists dig up secured digsites to find §B$minor_artifacts$§!"
+ job_do_archaeologist_effect_desc:0 "£job_do_archaeologist£ $job_do_archaeologist_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £minor_artifacts£ §Y$minor_artifacts$§!"
+ mod_job_do_archaeologist_drone_add:0 "$job_do_archaeologist_drone$ Jobs"
+ job_do_archaeologist_drone:0 "Archaeologist Drone"
+ job_do_archaeologist_drone_plural:0 "Archaeologist Drones"
+ job_do_archaeologist_drone_desc:0 "Archaeologist Drones dig up secured digsites to find §B$minor_artifacts$§!"
+ job_do_archaeologist_drone_effect_desc:0 "£job_do_archaeologist_drone£ $job_do_archaeologist_drone_plural$ turn £energy£ §Y$energy$§! or £minerals£ §Y$minerals$§! into £minor_artifacts£ §Y$minor_artifacts$§!"
+
+ ##################################################
+ #                                                #
+ # Habitat Districts				          	  #
+ #                                                #
+ ##################################################
+
+ ## Orbital Alloy Mine
+ # deposit
+ d_habitat_alloys:0 "Celestial Body Alloy Deposit"
+ d_habitat_alloys_desc:0 "The residing celestial body has Alloys depisit. And a $pc_habitat$ can mine on a larger scale than a mining station."
+ # districts
+ district_hab_alloys:0 "Orbital Alloy Mine"
+ district_hab_alloys_plural:0 "Orbital Alloy Mines"
+ district_hab_alloys_desc:0 "Centers of Alloys mining operations."
+ mod_district_hab_alloys_max:0 "Max $district_hab_alloys_plural$"
+ mod_planet_district_hab_alloys_build_speed_mult:0 "$district_hab_alloys$ Build Speed"
+ # jobs
+ job_alloy_miner:0 "Alloy Miner"
+ job_alloy_miner_plural:0 "Alloy Miners"
+ job_alloy_miner_desc:0 "These workers use spacesuit or teleoperation devices to mine on the inhabitable celestial body."
+ job_alloy_miner_effect_desc:0 "£job_alloy_miner£ $job_alloy_miner_plural$ produce £alloys£ §Y$alloys$§!"
+ mod_job_alloy_miner_add:0 "$job_alloy_miner$ Jobs"
+ job_alloy_mining_drone:0 "Alloy Mining Drone"
+ job_alloy_mining_drone_plural:0 "Alloy Mining Drones"
+ job_alloy_mining_drone_desc:0 "These drones use spacesuit or teleoperation devices to mine on the inhabitable celestial body."
+ job_alloy_mining_drone_effect_desc:0 "£job_alloy_mining_drone£ $job_alloy_mining_drone_plural$ produce £alloys£ §Y$alloys$§!"
+ mod_job_alloy_mining_drone_add:0 "$job_alloy_mining_drone$ Jobs"
+
+# ## Orbital Volatile Motes Mine
+# # deposit
+# d_habitat_volatile_motes:0 "Planet Volatile Motes Deposit"
+# d_habitat_volatile_motes_desc:0 ""
+# # districts
+# district_hab_volatile_motes:0 "Orbital Volatile Motes Mine"
+# district_hab_volatile_motes_plural:0 "Orbital Volatile Motes Mines"
+# district_hab_volatile_motes_desc:0 ""
+# mod_district_hab_volatile_motes_max:0 "Max $district_hab_volatile_motes_plural$"
+# mod_planet_district_hab_volatile_motes_build_speed_mult:0 "$district_hab_volatile_motes$ Build Speed"
+#
+# ## Orbital Exotic Gas Mine
+# # deposit
+# d_habitat_exotic_gases:0 "Planet Exotic Gases Deposit"
+# d_habitat_exotic_gases_desc:0 ""
+# # districts
+# district_hab_exotic_gases:0 "Orbital Exotic Gas Mine"
+# district_hab_exotic_gases_plural:0 "Orbital Exotic Gas Mines"
+# district_hab_exotic_gases_desc:0 ""
+# mod_district_hab_exotic_gases_max:0 "Max $district_hab_exotic_gases_plural$"
+# mod_planet_district_hab_exotic_gases_build_speed_mult:0 "$district_hab_exotic_gases$ Build Speed"
+#
+# ## Orbital Rare Crystal Mine
+# # deposit
+# d_habitat_rare_crystals:0 "Planet Rare Crystals Deposit"
+# d_habitat_rare_crystals_desc:0 ""
+# # districts
+# district_hab_rare_crystals:0 "Orbital Rare Crystal Mine"
+# district_hab_rare_crystals_plural:0 "Orbital Rare Crystal Mines"
+# district_hab_rare_crystals_desc:0 ""
+# mod_district_hab_rare_crystals_max:0 "Max $district_hab_rare_crystals_plural$"
+# mod_planet_district_hab_rare_crystals_build_speed_mult:0 "$district_hab_rare_crystals$ Build Speed"
+
+ ## Orbital Dark Matter Collecting Facility
+ # deposit
+ d_habitat_dark_matter:0 "Celestial Body Dark Matter Deposit"
+ d_habitat_dark_matter_desc:0 "The residing celestial body has Dark Matter depisit. And a $pc_habitat$ can mine on a larger scale than a research station."
+ # districts
+ district_hab_dark_matter:0 "Orbital Dark Matter Collecting Facility"
+ district_hab_dark_matter_plural:0 "Orbital Dark Matter Collecting Facilities"
+ district_hab_dark_matter_desc:0 "Centers of Dark Matter Collecting operations."
+ mod_district_hab_dark_matter_max:0 "Max $district_hab_dark_matter_plural$"
+ mod_planet_district_hab_dark_matter_build_speed_mult:0 "$district_hab_dark_matter$ Build Speed"
+ # jobs
+ job_do_dark_matter_researcher:0 "Dark Matter Researcher"
+ job_do_dark_matter_researcher_plural:0 "Dark Matter Researchers"
+ job_do_dark_matter_researcher_desc:0 "Researchers who collect Dark Matter and study its curious properties."
+ job_do_dark_matter_researcher_effect_desc:0 "£job_do_dark_matter_researcher£ $job_do_dark_matter_researcher_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £sr_dark_matter£ §Y$sr_dark_matter$§! and provide £physics£ §Y$physics_research$§!"
+ mod_job_do_dark_matter_researcher_add:0 "$job_do_dark_matter_researcher$ Jobs"
+ job_do_dark_matter_brain_drone:0 "Dark Matter Brain Drone"
+ job_do_dark_matter_brain_drone_plural:0 "Dark Matter Brain Drones"
+ job_do_dark_matter_brain_drone_desc:0 "Drones who collect Dark Matter and study its curious properties."
+ job_do_dark_matter_brain_drone_effect_desc:0 "£job_do_dark_matter_brain_drone£ $job_do_dark_matter_brain_drone_plural$ turn £energy£ §Y$energy$§! or £minerals£ §Y$minerals$§! into £sr_dark_matter£ §Y$sr_dark_matter$§! and provide £physics£ §Y$physics_research$§!"
+ mod_job_do_dark_matter_brain_drone_add:0 "$job_do_dark_matter_brain_drone$ Jobs"
+
+ ## Orbital Zro Collecting Facility
+ # deposit
+ d_habitat_zro:0 "Celestial Body Zro Deposit"
+ d_habitat_zro_desc:0 "The residing celestial body has Zro depisit. And a $pc_habitat$ can mine on a larger scale than a mining station."
+ # districts
+ district_hab_zro:0 "Orbital Zro Collecting Facility"
+ district_hab_zro_plural:0 "Orbital Zro Collecting Facilities"
+ district_hab_zro_desc:0 "Centers of $sr_zro$ Collecting operations."
+ mod_district_hab_zro_max:0 "Max $district_hab_zro_plural$"
+ mod_planet_district_hab_zro_build_speed_mult:0 "$district_hab_zro$ Build Speed"
+ # jobs
+ job_do_zro_researcher:0 "$sr_zro$ Researcher"
+ job_do_zro_researcher_plural:0 "$sr_zro$ Researchers"
+ job_do_zro_researcher_desc:0 "Researchers who collect $sr_zro$."
+ job_do_zro_researcher_effect_desc:0 "£job_do_zro_researcher£ $job_do_zro_researcher_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £sr_zro£ §Y$sr_zro$§!"
+ mod_job_do_zro_researcher_add:0 "$job_do_zro_researcher$ Jobs"
+ job_do_zro_brain_drone:0 "$sr_zro$ Brain Drone"
+ job_do_zro_brain_drone_plural:0 "$sr_zro$ Brain Drones"
+ job_do_zro_brain_drone_desc:0 "Drones who collect $sr_zro$."
+ job_do_zro_brain_drone_effect_desc:0 ""£job_do_zro_brain_drone£ $job_do_zro_brain_drone_plural$ turn £energy£ §Y$energy$§! or £minerals£ §Y$minerals$§! into £sr_zro£ §Y$sr_zro$§!"
+ mod_job_do_zro_brain_drone_add:0 "$job_do_zro_brain_drone$ Jobs"
+
+ ## Orbital Living Metal Collecting Facility
+ # deposit
+ d_habitat_living_metal:0 "Celestial Body Living Metal Deposit"
+ d_habitat_living_metal_desc:0 "The residing celestial body has Living Metal depisit. And a $pc_habitat$ can mine on a larger scale than a mining station."
+ # districts
+ district_hab_living_metal:0 "Orbital Living Metal Collecting Facility"
+ district_hab_living_metal_plural:0 "Orbital Living Metal Collecting Facilities"
+ district_hab_living_metal_desc:0 "Centers of $sr_living_metal$ Collecting operations."
+ mod_district_hab_living_metal_max:0 "Max $district_hab_living_metal_plural$"
+ mod_planet_district_hab_living_metal_build_speed_mult:0 "$district_hab_living_metal$ Build Speed"
+ # jobs
+ job_do_living_metal_researcher:0 "$sr_living_metal$ Researcher"
+ job_do_living_metal_researcher_plural:0 "$sr_living_metal$ Researchers"
+ job_do_living_metal_researcher_desc:0 "Researchers who collect $sr_living_metal$."
+ job_do_living_metal_researcher_effect_desc:0 "£job_do_living_metal_researcher£ $job_do_living_metal_researcher_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £sr_living_metal£ §Y$sr_living_metal$§!"
+ mod_job_do_living_metal_researcher_add:0 "$job_do_living_metal_researcher$ Jobs"
+ job_do_living_metal_brain_drone:0 "$sr_living_metal$ Brain Drone"
+ job_do_living_metal_brain_drone_plural:0 "$sr_living_metal$ Brain Drones"
+ job_do_living_metal_brain_drone_desc:0 "Drones who collect $sr_living_metal$."
+ job_do_living_metal_brain_drone_effect_desc:0 ""£job_do_living_metal_brain_drone£ $job_do_living_metal_brain_drone_plural$ turn £energy£ §Y$energy$§! or £minerals£ §Y$minerals$§! into £sr_living_metal£ §Y$sr_living_metal$§!"
+ mod_job_do_living_metal_brain_drone_add:0 "$job_do_living_metal_brain_drone$ Jobs"
+
+ ## Orbital Nanites Collecting Facility
+ # deposit
+ d_habitat_nanites:0 "Celestial Body Nanites Deposit"
+ d_habitat_nanites_desc:0 "The residing celestial body has Nanites depisit. And a $pc_habitat$ can mine on a larger scale than a mining station."
+ # districts
+ district_hab_nanites:0 "Orbital Nanites Collecting Facility"
+ district_hab_nanites_plural:0 "Orbital Nanites Collecting Facilities"
+ district_hab_nanites_desc:0 "Centers of $nanites$ Collecting operations."
+ mod_district_hab_nanites_max:0 "Max $district_hab_nanites_plural$"
+ mod_planet_district_hab_nanites_build_speed_mult:0 "$district_hab_nanites$ Build Speed"
+ # jobs
+ job_do_nanites_researcher:0 "$nanites$ Researcher"
+ job_do_nanites_researcher_plural:0 "$nanites$ Researchers"
+ job_do_nanites_researcher_desc:0 "Researchers who collect $nanites$."
+ job_do_nanites_researcher_effect_desc:0 "£job_do_nanites_researcher£ $job_do_nanites_researcher_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into £nanites£ §Y$nanites$§!"
+ mod_job_do_nanites_researcher_add:0 "$job_do_nanites_researcher$ Jobs"
+ job_do_nanites_brain_drone:0 "Nanites Brain Drone"
+ job_do_nanites_brain_drone_plural:0 "$nanites$ Brain Drones"
+ job_do_nanites_brain_drone_desc:0 "Drones who collect $nanites$."
+ job_do_nanites_brain_drone_effect_desc:0 ""£job_do_nanites_brain_drone£ $job_do_nanites_brain_drone_plural$ turn £energy£ §Y$energy$§! or £minerals£ §Y$minerals$§! into £nanites£ §Y$nanites$§!"
+ mod_job_do_nanites_brain_drone_add:0 "$job_do_nanites_brain_drone$ Jobs"
+ 
+ ##################################################
+ #                                                #
+ # Facility Districts				          	  #
+ #                                                #
+ ##################################################
+
+ ## Shelters
+ # districts
+# district_shelters:0 "Shelters"
+# district_shelters_plural:0 "Shelters"
+# district_shelters_desc:0 "Shelters are highly protected housing areas with protected life support systems, to allow housing on less hospitable planets."
+# mod_district_shelters_max:0 "Max $district_shelters_desc$"
+ # jobs
+ mod_job_do_maintenance_worker_add:0 "$job_do_maintenance_worker$ Jobs"
+ job_do_maintenance_worker:0 "Maintenance Worker"
+ job_do_maintenance_worker_desc:0 "Maintenance Workers take care of your shelters life support systems."
+ job_do_maintenance_worker_effect_desc:0 "£job_do_maintenance_worker£ $job_do_maintenance_worker_plural$ improve §YHabitability§! by §G5§!%"
+ job_do_maintenance_worker_plural:0 "Maintenance Workers"
+ mod_job_do_maintenance_drone_add:0 "$job_do_maintenance_drone$ Jobs"
+ job_do_maintenance_drone:0 "Maintenance Drone"
+ job_do_maintenance_drone_desc:0 "Maintenance Drones take care of your shelters life support systems."
+ job_do_maintenance_drone_effect_desc:0 "£job_do_maintenance_drone£ $job_do_maintenance_drone_plural$ improve §YHabitability§! by §G5§!%"
+ job_do_maintenance_drone_plural:0 "Maintenance Drones"
+
+ ## University
+ # districts
+ district_university:0 "University"
+ district_university_plural:0 "Universities"
+ district_university_desc:0 "University will better your specialists educate and provide a forum of discussion."
+ mod_district_university_max:0 "Max $district_university_plural$"
+ mod_planet_district_university_build_speed_mult:0 "$district_rw_exotic_resource_collector$ Build Speed"
+ # Training Yard (gestalt University variant)
+ district_university_gestalt:0 "Drone Training Yard"
+ district_university_gestalt_plural:0 "Drone Training Yards"
+ district_university_gestalt_desc:0 "At Training Yard, your drones will trained better."
+ # jobs
+ mod_job_do_teacher_add:0 "$job_do_teacher$ Jobs"
+ job_do_teacher:0 "Educator"
+ job_do_teacher_desc:0 "Educators help your specialists to perfect their work."
+ job_do_teacher_effect_desc:0 "£job_do_teacher£ $job_do_teacher_plural$ increase your £mod_planet_jobs_specialist_produces_mult£ §Y$planet_jobs_specialist_produces_mult$§!"
+ job_do_teacher_plural:0 "Educators"
+
+ ## Spaceport
+ # districts
+ district_spaceport:0 "Spaceport"
+ mod_district_spaceport_max:0 "Max $district_spaceport_plural$"
+ district_spaceport_plural:0 "Spaceports"
+ district_spaceport_desc:0 "A spaceport has docks for your ships and will also train pilots to fly them."
+ # jobs
+ job_pilot:0 "Pilot"
+ job_pilot_plural:0 "Pilots"
+ job_pilot_desc:0 "$job_pilot_plural$ can fly military ships also, but tend to fly civilian ships or suppress space pirates."
+ job_pilot_effect_desc:0 "£job_pilot£ $job_pilot_plural$ increase your §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§! and £trade_protection£ §Y$MOD_STARBASE_TRADE_PROTECTION_ADD$§!.\nNote: They won't spawn £defense_army£ §YDefense Armies§!."
+ mod_job_pilot_add:0 "$job_pilot$ Jobs"
+ job_pilot_drone:0 "Pilot Drone"
+ job_pilot_drone_plural:0 "Pilot Drones"
+ job_pilot_drone_desc:0 "$job_pilot_drone_plural$ can fly military ships also, but tend to fly civilian ships or suppress space pirates."
+ job_pilot_drone_effect_desc:0 "£job_pilot_drone£ $job_pilot_drone_plural$ increase your §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§! and §Y$MOD_STARBASE_TRADE_PROTECTION_ADD$§!.\nNote: They won't spawn £defense_army£ §YDefense Armies§!."
+ mod_job_pilot_drone_add:0 "$job_pilot_drone$ Jobs"
+
+ ## Logistics Hub
+ # districts
+ district_logistics_hub:0 "Logistics Hub"
+ mod_district_logistics_hub_max:0 "Max $district_logistics_hub_plural$"
+ district_logistics_hub_plural:0 "Logistics Hubs"
+ district_logistics_hub_desc:0 "Logistic Hubs will take care of the transportation of goods on the planet, so that your workers can focus on doing their primary job."
+ # jobs
+ mod_job_do_logistic_worker_add:0 "$job_do_logistic_worker$ Jobs"
+ job_do_logistic_worker:0 "Logistics Worker"
+ job_do_logistic_worker_desc:0 "Logistic Workers transport any goods around your planets to improve workflows."
+ job_do_logistic_worker_effect_desc:0 "£job_do_logistic_worker£ $job_do_logistic_worker_plural$ increase your £mod_planet_jobs_worker_produces_mult£ §Y$planet_jobs_worker_produces_mult$§."
+ job_do_logistic_worker_plural:0 "Logistics Workers"
+ mod_job_do_logistic_drone_add:0 "$job_do_logistic_drone$ Jobs"
+ job_do_logistic_drone:0 "Logistics Drone"
+ job_do_logistic_drone_desc:0 "Logistic Drones transport any goods around your planets to improve workflows."
+ job_do_logistic_drone_effect_desc:0 "£job_do_logistic_drone£ $job_do_logistic_drone_plural$ increase your £mod_planet_jobs_simple_drone_produces_mult£ §Y$planet_jobs_simple_drone_produces_mult$§."
+ job_do_logistic_drone_plural:0 "Logistics Drones"
+
+ ## Necrophage
+ # districts
+ district_necrophage:0 "Necrophage District"
+ mod_district_necrophage_max:0 "Max $district_necrophage_plural$"
+ district_necrophage_plural:0 "Necrophage Districts"
+ district_necrophage_desc:0 "Necrophage Districts will help you convert your pops to a higher level."
+
+ ### Ethic attraction districts / jobs
+ ## Spiritualist attraction
+ # districts
+ district_spiritualist_attraction:0 "Mission district"
+ district_spiritualist_attraction_plural:0 "Mission districts"
+ district_spiritualist_attraction_desc:0 "Base for missionary work. From here, $job_ED_spiritualist_mentor_plural$ go across the planet."
+ mod_district_spiritualist_attraction_max:0 "Max $district_spiritualist_attraction_plural$"
+ # jobs
+ job_ED_spiritualist_mentor:0 "Missionary"
+ job_ED_spiritualist_mentor_plural:0 "Missionaries"
+ job_ED_spiritualist_mentor_desc:0 "For those whose faith has been shaken, misguided by false faith or wandering in avid darkness of Materialism, $job_ED_spiritualist_mentor_plural$ send Good Words and guide their souls."
+# job_ED_spiritualist_mentor_effect_desc:0 "£job_ED_spiritualist_mentor£ $job_ED_spiritualist_mentor_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into §Y$spiritualist_attraction$§!"
+ job_ED_spiritualist_mentor_effect_desc:0 "£job_ED_spiritualist_mentor£ $job_ED_spiritualist_mentor_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into §Y$MOD_POP_ETHICS_SHIFT_SPEED$§!.\nAnd $d_ED_district_construction_buffer$ deposit will produce §G+15%§! §Y$spiritualist_attraction$§!."
+ mod_job_ED_spiritualist_mentor_add:0 "$job_ED_spiritualist_mentor$ Jobs"
+
+ ## Materialist attraction
+ # districts
+ district_materialist_attraction:0 "Lifehacking Workshop"
+ district_materialist_attraction_plural:0 "Lifehacking Workshops"
+ district_materialist_attraction_desc:0 "Base for lifehacking work. From here, $job_ED_materialist_mentor_plural$ go across the planet."
+ mod_district_materialist_attraction_max:0 "Max $district_materialist_attraction_plural$"
+ # jobs
+ job_ED_materialist_mentor:0 "Lifehacker"
+ job_ED_materialist_mentor_plural:0 "Lifehackers"
+ job_ED_materialist_mentor_desc:0 "Life could be more efficient, streamlined and better. $job_ED_materialist_mentor_plural$ teach the knacks and philosophy behind them."
+ job_ED_materialist_mentor_effect_desc:0 "£job_ED_materialist_mentor£ $job_ED_materialist_mentor_plural$ turn £consumer_goods£ §Y$consumer_goods$§! into §Y$MOD_POP_ETHICS_SHIFT_SPEED$§!.\nAnd $d_ED_district_construction_buffer$ deposit will produce §G+15%§! §Y$materialist_attraction$§!."
+ mod_job_ED_materialist_mentor_add:0 "$job_ED_materialist_mentor$ Jobs"
+
+ ##################################################
+ #                                                #
+ # Combined Districts				          	  #
+ #                                                #
+ ##################################################
+
+ ## Sunbathing Garden
+ # districts
+ district_facility_unity_generator:0 "Sunbathing Garden"
+ district_facility_unity_generator_plural:0 "Sunbathing Gardens"
+ district_facility_unity_generator_desc:0 "The sun has been pouring nearly endless supply of energy into our planet and ourselves. These gifts from the heaven are important for us."
+ mod_planet_district_facility_unity_generator_build_speed_mult:0 "$district_facility_unity_generator$ Build Speed"
+
+ ## Subterranean Garden
+ # districts
+ district_facility_unity_mining:0 "Subterranean Garden"
+ district_facility_unity_mining_plural:0 "Subterranean Gardens"
+ district_facility_unity_mining_desc:0 "Deep in the planets crust there is a large abundance of minerals. While it is too expensive to collect on large scale, these gifts in the land are important for us."
+ mod_planet_district_facility_unity_mining_build_speed_mult:0 "$district_facility_unity_mining$ Build Speed"
+
+ ## Nature Garden
+ # districts
+ district_facility_unity_farming:0 "Nature Garden"
+ district_facility_unity_farming_plural:0 "Nature Gardens"
+ district_facility_unity_farming_desc:0 "The land has been bringing nearly endless supply of food for us. These gifts from the land are important for us."
+ mod_planet_district_facility_unity_farming_build_speed_mult:0 "$district_facility_unity_farming$ Build Speed"
+
+ ## Electricity Feast Regulator
+ # districts
+ district_facility_unity_generator_machine:0 "Electricity Feast Regulator"
+ district_facility_unity_generator_machine_plural:0 "Electricity Feast Regulators"
+ district_facility_unity_generator_machine_desc:0 "Machine inteligence can and do taste delicate tastes between various electricity and think toward their background, much like organic taste epicurean food. This facility is, so to speak, a kitchen."
+ mod_planet_district_facility_unity_generator_machine_build_speed_mult:0 "$district_facility_unity_generator_machine$ Build Speed"
+
+ ## Mine-integrated Foundry
+ # districts
+ district_facility_alloys_mining:0 "Mine-integrated Foundry"
+ district_facility_alloys_mining_plural:0 "Mine-integrated Foundries"
+ district_facility_alloys_mining_desc:0 "A kind of $district_industrial$, has integrated major mineral mine and dedicated for Alloys production."
+ mod_planet_district_facility_alloys_mining_build_speed_mult:0 "$district_facility_alloys_mining$ Build Speed"
+ mod_district_facility_alloys_mining_max:0 "Max $district_facility_alloys_mining$"
+
+ ## Farm-integrated Foundry
+ # districts
+ district_facility_alloys_farming:0 "Farm-integrated Foundry"
+ district_facility_alloys_farming_plural:0 "Farm-integrated Foundries"
+ district_facility_alloys_farming_desc:0 "A kind of $district_industrial$, has integrated major farm and dedicated for Alloys production."
+ mod_planet_district_facility_alloys_farming_build_speed_mult:0 "$district_facility_alloys_farming$ Build Speed"
+# mod_planet_metallurgists_minerals_upkeep_mult:0 "$mod_planet_metallurgists_minerals_upkeep_add$"
+ mod_district_facility_alloys_farming_max:0 "Max $district_facility_alloys_farming$"
+# mod_planet_metallurgists_food_upkeep_add:0 "$mod_planet_metallurgists_minerals_upkeep_add$"
+
+ ## Mine-integrated Factory
+ # districts
+ district_facility_CG_mining:0 "Mine-integrated Factory"
+ district_facility_CG_mining_plural:0 "Mine-integrated Factories"
+ district_facility_CG_mining_desc:0 "A kind of $district_industrial$, has integrated major mineral mine and dedicated for Consumer Goods production."
+ mod_planet_district_facility_CG_mining_build_speed_mult:0 "$district_facility_CG_mining$ Build Speed"
+ mod_district_facility_CG_mining_max:0 "Max $district_facility_CG_mining$"
+
+ ##################################################
+ #                                                #
+ # Edicts:                              		  #
+ #                                                #
+ ##################################################
+ # Decision
+ decision_show_unavailable_ED_districts:0 "Show unavailable ED districts"
+ decision_show_unavailable_ED_districts_desc:0 "Many \"Extra Districts\" districts are available only when certain conditions are met. This decision will show all them, include unavailable ones.\nSelect any district and point \"Build\" button. Tooltip will show why the district is unavailable on this planet."
+ decision_hide_unavailable_ED_districts:0 "Hide unavailable ED districts"
+ decision_hide_unavailable_ED_districts_desc:0 "It will hide unavailable \"Extra Districts\" districts."
+ 
+ # Deposits
+ d_ED_habitat_districts_filler:0 "Districts slot filler (ED)"
+ d_ED_habitat_districts_filler_desc:0 "\"Extra Districts\" expands total districts per planet size, so planetary habitats have much more district slots. This blocker cancel out it."
+ d_ED_district_construction_buffer:0 "ED District Manager"
+ d_ED_district_construction_buffer_desc:0 "Some  \"Extra Districts\" modifiers are provided by this deposit."
+
+ # fail_text
+ ED_has_district_energy_uncapped:0 "$district_generator_uncapped_plural$ (uncapped) or $district_hab_energy_plural$ are available on this planet"
+ ED_has_district_minerals_uncapped:0 "$district_mining_uncapped_plural$ (uncapped) or $district_hab_mining_plural$ are available on this planet"
+ ED_has_district_food_uncapped:0 "$district_farming_uncapped_plural$ are available on this planet"
+ ED_failtext_has_building_construction_fail:0 "£trigger_no£ The planet may not have construction of any building or district"
+ ED_failtext_has_building_construction_success:0 "£trigger_yes£ The planet may not have construction of any building or district"
+ ED_failtext_energy_produces_mult_negative_fail:0 "£trigger_no£ The planet may not have penalty on $mod_planet_jobs_energy_produces_mult$"
+ ED_failtext_energy_produces_mult_negative_success:0 "£trigger_yes£ The planet may not have penalty on $mod_planet_jobs_energy_produces_mult$"
+ ED_failtext_minerals_produces_mult_negative_fail:0 "£trigger_no£ The planet may not have penalty on $mod_planet_jobs_minerals_produces_mult$"
+ ED_failtext_minerals_produces_mult_negative_success:0 "£trigger_yes£ The planet may not have penalty on $mod_planet_jobs_minerals_produces_mult$"
+ ED_failtext_food_produces_mult_negative_fail:0 "£trigger_no£ The planet may not have penalty on $mod_planet_jobs_food_produces_mult$"
+ ED_failtext_food_produces_mult_negative_success:0 "£trigger_yes£ The planet may not have penalty on $mod_planet_jobs_food_produces_mult$"
+ ED_can_have_district_facility_unity_common_building:0 "Has Building: $building_autochthon_monument$ or $building_autocurating_vault$ (include variants and upgraded ones) building"
+
+ # Jobs Multiplier
+# mod_planet_jobs_consumer_goods_upkeep_mult:0 "£consumer_goods£ $consumer_goods$ Upkeep from £job£ Jobs"
+

@@ -1,0 +1,195 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr21_planet_modifier:0 "Factory Planetary Complex"
+ apsr21_planet_modifier_desc:0 "This whole planet is a decrepit factory complex belonging to an ancient civilization. It did not take to the passage of the ages well, but with an appropriate investment of time and resources, it can be restored."
+ 
+ apsr21_deposit:0 "$apsr21_planet_modifier$"
+ apsr21_deposit_desc:0 "$apsr21_planet_modifier_desc$\n\n§M$apsr21_deposit_effect$§!" 
+ apsr21_deposit_effect:0 "Unique resource available: $apsr21_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr21_building_part_b1_text:0 "A shadow of past greatness."
+ 
+ apsr21_building_part_b2_text:0 "Fraction of the restored Factory Planetary Complex"
+ 
+ apsr21_building_part_b3_text:0 "Partly restored Factory Planetary Complex"
+ 
+ 
+ apsr21_building_part_m1_text:0 "A shadow of past greatness."
+ 
+ apsr21_building_part_m2_text:0 "Fraction of the alloy focused Factory Planetary Complex"
+ 
+ apsr21_building_part_m3_text:0 "Partly restored alloy focused Factory Planetary Complex"
+ 
+ 
+ apsr21_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr21_building_fake_predesc:0 "§MUnique building§!\n§RWe don't have the proper technologies to maximize the output of this building!§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr21_building_part_b1:0 "Factory Planetary Complex: Incipient"
+ apsr21_building_part_b1_desc:0 "$apsr21_building_predesc$\n$apsr21_building_part_b1_text$"
+ 
+ apsr21_building_part_b2:0 "Factory Planetary Complex: Section"
+ apsr21_building_part_b2_desc:0 "$apsr21_building_predesc$\n$apsr21_building_part_b2_text$"
+ 
+ apsr21_building_part_b3:0 "Factory Planetary Complex"
+ apsr21_building_part_b3_desc:0 "$apsr21_building_predesc$\n$apsr21_building_part_b3_text$"
+ 
+  
+ apsr21_building_part_m1:0 "Modified Factory Planetary Complex: Incipient"
+ apsr21_building_part_m1_desc:0 "$apsr21_building_predesc$\n$apsr21_building_part_m1_text$"
+ 
+ apsr21_building_part_m2:0 "Modified Factory Planetary Complex: Section"
+ apsr21_building_part_m2_desc:0 "$apsr21_building_predesc$\n$apsr21_building_part_m2_text$"
+ 
+ apsr21_building_part_m3:0 "Modified Factory Planetary Complex"
+ apsr21_building_part_m3_desc:0 "$apsr21_building_predesc$\n$apsr21_building_part_m3_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr21_building_part_b1:0 "Restoring the Complex: Stage 1"
+ tech_apsr21_building_part_b1_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR21_PART1B_TITLE:0 "§HBuilding:§! $apsr21_building_part_b1$"
+ TECH_APSR21_PART1B_DESC:0 "$apsr21_building_part_b1_desc$"
+ 
+ tech_apsr21_building_part_b2:0 "Restoring the Complex: Stage 2"
+ tech_apsr21_building_part_b2_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR21_PART2B_TITLE:0 "§HBuilding:§! $apsr21_building_part_b2$"
+ TECH_APSR21_PART2B_DESC:0 "$apsr21_building_part_b2_desc$"
+ 
+ tech_apsr21_building_part_b3:0 "Restoring the Complex: Stage 3"
+ tech_apsr21_building_part_b3_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR21_PART3B_TITLE:0 "§HBuilding:§! $apsr21_building_part_b3$"
+ TECH_APSR21_PART3B_DESC:0 "$apsr21_building_part_b3_desc$"
+ 
+ 
+ tech_apsr21_building_part_m1:0 "Restoring the Complex: Stage 1"
+ tech_apsr21_building_part_m1_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR21_PART1M_TITLE:0 "§HBuilding:§! $apsr21_building_part_m1$"
+ TECH_APSR21_PART1M_DESC:0 "$apsr21_building_part_m1_desc$"
+ 
+ tech_apsr21_building_part_m2:0 "Restoring the Complex: Stage 2"
+ tech_apsr21_building_part_m2_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR21_PART2M_TITLE:0 "§HBuilding:§! $apsr21_building_part_m2$"
+ TECH_APSR21_PART2M_DESC:0 "$apsr21_building_part_m2_desc$"
+ 
+ tech_apsr21_building_part_m3:0 "Restoring the Complex: Stage 3"
+ tech_apsr21_building_part_m3_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR21_PART3M_TITLE:0 "§HBuilding:§! $apsr21_building_part_m3$"
+ TECH_APSR21_PART3M_DESC:0 "$apsr21_building_part_m3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.21001.title:0 "$apsr21_building_part_b1$ completed"
+ apsr.21001.desc:0 "We have completed the §Y$apsr21_building_part_b1$§!, and this is just the beginning of the restoration of the former greatness of the planetary complex."
+ apsr.21001.ok-button:0 "Nice"
+ 
+ apsr.21002.title:0 "$apsr21_building_part_b2$ completed"
+ apsr.21002.desc:0 "We have completed the §Y$apsr21_building_part_b2$§!! This is a truly great breakthrough!"
+ apsr.21002.ok-button:0 "Wonderful"
+ 
+ apsr.21003.title:0 "$apsr21_building_part_b3$ completed"
+ apsr.21003.desc:0 "We have restored as much as we could of the §YFactory Planetary Complex§! and got access to the heights of industrial development!"
+ apsr.21003.ok-button:0 "Great"
+ 
+ apsr.21004.title:0 "$apsr21_building_part_m1$ completed"
+ apsr.21004.desc:0 "We have completed the §Y$apsr21_building_part_m1$§!, and this is just the beginning of the restoration of the former greatness of the planetary complex, and repurposing it for our own goals."
+ apsr.21004.ok-button:0 "Great"
+ 
+ apsr.21005.title:0 "$apsr21_building_part_m2$ completed"
+ apsr.21005.desc:0 "We have completed the §Y$apsr21_building_part_m2$§!! This is a truly great breakthrough!"
+ apsr.21005.ok-button:0 "Great"
+ 
+ apsr.21006.title:0 "$apsr21_building_part_m3$ completed"
+ apsr.21006.desc:0 "We have restored as much as we could of the §YModified Factory Planetary Complex§! and got access to the heights of industrial development!"
+ apsr.21006.ok-button:0 "Great"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.21011.title:0 "Detected: §M$apsr21_planet_modifier$§!"
+ apsr.21011.desc:0 "A research team led by §H[Root.GetLeaderName]§! from the ship §H[Root.GetName]§! has discovered something peculiar! \nThis whole planet is a decrepit factory complex belonging to an ancient civilization. It did not take to the passage of the ages well, but with an appropriate investment of time and resources, it can be restored."
+ apsr.21011.button:1 "We must get this artifact!"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.21013.title:0 "Detected: §M$apsr21_planet_modifier$§!"
+ apsr.21013.desc:0 "Something peculiar has been found on one of our newly acquired worlds! \nThis whole planet is a decrepit factory complex belonging to an ancient civilization. It did not take to the passage of the ages well, but with an appropriate investment of time and resources, it can be restored."
+ apsr.21013.button:1 "Great!"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.21015.title:0 "Detected: §M$apsr21_planet_modifier$§!"
+ apsr.21015.desc:0 "Our intelligence services, while checking for information about the planets of other empires, has found something interesting!\nOn one of the planets a decrepit factory complex belonging to an ancient civilization can be found. It did not take to the passage of the ages well, but with an appropriate investment of time and resources, it can be restored.\n\n§GInformation:§!\n§YPlanet name:§! §W[event_target:apsr21_planet_target.GetName]§! \n§YPlanet class:§! §W[event_target:apsr21_planet_target.GetClassName]§! \n§YSolar system name:§! §W[event_target:apsr21_planet_target.solar_system.GetName]§! \n§YPlanet owner:§! §W[event_target:apsr21_planet_target.Owner.GetName]§!"
+ apsr.21015.button:1 "Interesting!"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr21_special:0 "$apsr21_planet_modifier$"
+ apsr21_special_desc:0 "$apsr21_planet_modifier_desc$"
+ 
+ APSR21_MESSAGE_SR_INFORMED_TITLE:0 "Information about a unique planet"
+ APSR21_MESSAGE_SR_INFORMED:0 "We received information about a special resource called §M$apsr21_planet_modifier$§!, which is located on the planet §Y$PLANET$§! under control of the §Y$COUNTRY$§!."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr21_anomaly:0 "Interesting data"
+ apsr21_anomaly_desc:0 "During the survey of [From.GetName]'s surface we aquired data that definitely needs further investigation."
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.21601.title:0 "$apsr.21011.title$"
+ apsr.21601.desc:0 "$apsr.21011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr21_planet_artisan_normal:0 "Artisans"
+ job_apsr21_artisan_normal:0 "Artisan"
+ job_apsr21_artisan_normal_plural:0 "Artisans"
+ job_apsr21_artisan_normal_desc:0 "A specialist who creates various consumer goods using the power of the Factory Planetary Complex."
+ mod_job_apsr21_artisan_normal_add:0 "Artisan"
+ 
+ apsr21_planet_foundry_hive:0 "Artisan drones"
+ job_apsr21_foundry_hive:0 "Artisan drone"
+ job_apsr21_foundry_hive_plural:0 "Artisan drones"
+ job_apsr21_foundry_hive_desc:0 "Drone that synthesizes alloys using the power of the Factory Planetary Complex."
+ mod_job_apsr21_foundry_hive_add:0 "Artisan drone"
+ 
+ apsr21_planet_foundry_machine:0 "Artisan drones"
+ job_apsr21_foundry_machine:0 "Artisan drone"
+ job_apsr21_foundry_machine_plural:0 "Artisan drones"
+ job_apsr21_foundry_machine_desc:0 "Drone synthesizes alloys using the power of the Factory Planetary Complex."
+ mod_job_apsr21_foundry_machine_add:0 "Artisan drone"
+ 
+ 
+ 
+ 
+ 

@@ -36,7 +36,7 @@
  # war Names
  #######################################
  
-  
+
  #######################################
  #### Map Mode
  #######################################
@@ -54,6 +54,20 @@
  GPM_MAP_MODE_HAS_RELIC_9:1 "Has 9 §YAncient Relics§!"
  GPM_MAP_MODE_HAS_RELIC_10:1 "Has 10 §YAncient Relics§!"
  GPM_MAP_MODE_HAS_RELIC_11:1 "Has too many §YAncient Relics!§!"
+ GPM_MAP_MODE_HAS_UNKNOWN_RELICS:1 "This empire has an unknown number of §YRelics§!.\nRequires more §Hintel§!."
+
+ GPM_MAP_MODE_SAME_EMPIRE_NOT_HAS_RELIC:1 ":1 "We have no §YAncient Relics§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC:1 ":1 "We have an §YAncient Relic§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_2:1 ":1 "We have 2 §YAncient Relics§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_3:1 ":1 "We have 3 §YAncient Relics§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_4:1 ":1 "We have 4 §YAncient Relics§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_5:1 ":1 "We have 5 §YAncient Relics§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_6:1 ":1 "We have 6 §YAncient Relics§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_7:1 ":1 "We have 7 §YAncient Relics§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_8:1 ":1 "We have 8 §YAncient Relics§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_9:1 ":1 "We have 9 §YAncient Relics§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_10:1 ":1 "We have 10 §YAncient Relics§!"
+ GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_11:1 ":1 "We have over 10 §YAncient Relics!§!"
 
  #######################################
  #### Generic Names
@@ -90,7 +104,6 @@
  NAME_Fen_Habbanis_IIIa:0 "Fen Habbanis IIIa"
  
   
-
  #######################################
  #### Other non-cat events
  #######################################
@@ -100,7 +113,6 @@
  precursor.99336.desc.first_league:0 "Un autre Empire a trouvé le monde natal de la Première Ligue !"
  precursor.99336.desc.irassian:0 "Un autre Empire a trouvé le monde natal des Irrassiens !"
  precursor.99336.desc.cybrex:0 "Un autre Empire a trouvé le monde natal de la Cybrex !"
- 
  
  #######################################
  #### Ambiend Objects
@@ -161,9 +173,6 @@
  
  gpm_james_web:0 "Télescope James Webb"
  gpm_james_web_desc:0 "Le télescope James Webb est considéré comme l'une des plus grandes réalisations de l'humanité. Il a donné un aperçu sans précédent des débuts de l'univers."
- 
-
-
  
  #######################################
  #### Armies
@@ -234,7 +243,6 @@
  # dreadnaught army
  gpm_dreadnaught_army:0 "Dreadnought"
  gpm_dreadnaught_army_desc:0 "Un mech personnel lent équipé de systèmes d'armes dévastateurs et de plaques d'armure colossales"
- hexagongpm_dreadnaught_army_desc:0 "Un mech personnel lent équipé de systèmes d'armes dévastateurs et de plaques d'armure colossales"
  
  #######################################
  #### Artifact Actions
@@ -317,6 +325,7 @@
  casus_belli_cb_gpm_r_q_storage_compressor:0 "Revendiquer : $gpm_r_q_storage_compressor$"
  casus_belli_cb_gpm_r_soul_gem:0 "Revendiquer : $gpm_r_soul_gem$"
  casus_belli_cb_gpm_r_self_repairing_obelisk:0 "Revendiquer : $gpm_r_self_repairing_obelisk$"
+
  casus_belli_cb_gpm_r_dragon_trophy:0 "Revendiquer : $r_dragon_trophy$"
  casus_belli_cb_gpm_r_khans_throne:0 "Revendiquer : $r_khans_throne$"
  casus_belli_cb_gpm_r_worm_scales:0 "Revendiquer : $r_worm_scales$"
@@ -337,7 +346,6 @@
  casus_belli_cb_gpm_r_war_forge:0 "Revendiquer : $r_war_forge$"
  casus_belli_cb_gpm_r_rubricator:0 "Revendiquer : $r_rubricator$"  #calvitix debug
  
- 
  #######################################
  #### Colour Tricks
  #######################################
@@ -352,7 +360,6 @@
  # Change name to teal with something icon
  # NAME_color_precursor:0 "£gpm_precursor §B[This.GetName]§!"
  NAME_color_precursor:0 "§B[This.GetName]§!"
- NAME_color_precursor_col:0 "§B[This.GetName]§!"
  
  # reset to default, only applies to planet names
  NAME_color_default_white:0 "[This.Solar_System.GetName] en ruines"
@@ -640,50 +647,6 @@
  job_gpm_android_entertainer_effect_desc:0 "Les £job_gpm_android_entertainer£ $job_gpm_android_entertainer_plural$ produisent £amenities£ §Y$ameneties$§! £trade_value£ §Y$trade_value$§! £unity£ §Y$unity$§!"
  
  #######################################
- #### Messages
- #######################################
- gpm_relics.1001.name:0 "Ce qui était à vous est maintenant à nous"
- gpm_relics.1001.desc:0 "Nous avons réussi à nous emparer d'un empire et sa vaste collection de ressources, d'art culturel et de reliques est prête à être exploitée."
- gpm_relics.1101.name:0 "Le butin de l'asservissement"
- gpm_relics.1101.desc:0 "Grâce à notre influence et à notre puissance, nous avons réussi à soumettre l'Empire §Y[from.GetName]§!, et nous avons ainsi accès à son butin."
- gpm_relics.1201.name:0 "Toutes vos reliques sont à nous"
- gpm_relics.1201.desc:0 "Avec l'intégration de l'Empire '§Y[from.GetName]§!', nous avons maintenant le contrôle de leur vaste collection d'antiquités."
- 
- GPM_MESSAGE_NEIGHBOUR_RELIC_RUMOUR_TITLE:0 "Un Empire Alien a découvert une relique"
- GPM_MESSAGE_NEIGHBOUR_RELIC_RUMOUR_DESC:0 "Nos renseignements indiquent que '$COUNTRY|H$' aurait découvert une §HRelique antique§!."
-
- GPM_MESSAGE_VALUABLE_WORLD_DESC:0 "$PLANET|H$ se trouve être un §Hmonde précieux§!. Il y a assez d'éléments pour que ce monde puisse être §Hterraformé§!, avec la bonne technologie."
- GPM_MESSAGE_VALUABLE_WORLD_TITLE:0 "Découverte d'un monde précieux"
- 
- GPM_MESSAGE_WONDROUS_WORLD_TITLE:0 "Découverte d'un monde merveilleux"
- GPM_MESSAGE_WONDROUS_WORLD_DESC:0 "$PLANET|H$ se trouve être une §HMonde merveilleux§!"
-
- GPM_MESSAGE_GATHER_INTELLIGENCE_RELIC_TARGET_MED_TITLE:1 "Someone knows about our relic"
- GPM_MESSAGE_GATHER_INTELLIGENCE_RELIC_TARGET_MED_DESC:1 "An unknown empire knows that we are currently in possetion of a rare and powerful relic!"
-
- GPM_MESSAGE_GATHER_INTELLIGENCE_RELIC_TARGET_HIGH_TITLE:1 "They know about our relic!"
- GPM_MESSAGE_GATHER_INTELLIGENCE_RELIC_TARGET_HIGH_DESC:1 "The §Y$COUNTRY$§! Empire has found out we are in possetion of a rare and powerful Relic!"
-
- GPM_MESSAGE_STEAL_RELIC_WARNING_TITLE:1 "An empire is attempting to steal our relic!"
- GPM_MESSAGE_STEAL_RELIC_WARNING_DESC:1 "A plot has been discovered that the §Y$COUNTRY$§! empire is attempting to steal a rare and valuable Relic!"
-
- GPM_MESSAGE_STEAL_RELIC_PUBLIC_NOTIFICATION_TITLE:1 "A Relic has been stolen!"
- GPM_MESSAGE_STEAL_RELIC_PUBLIC_NOTIFICATION_DESC:1 "The §Y$COUNTRY$§! empire managed to steal a relic from the §Y[from.GetName]§! empire. This will certainly have long lasting diplomatic consequences."
-
- GPM_MESSAGE_MINIMEGA_REFINERY_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Refinery§!"
- GPM_MESSAGE_MINIMEGA_REFINERY_COMPLETE_DESC:1 "The ancient refinery station in the $SYSTEM|H$ system has been fully repaired"
-
- GPM_MESSAGE_MINIMEGA_MINING_FACILITY_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Mining Facility§!"
- GPM_MESSAGE_MINIMEGA_MINING_FACILITY_COMPLETE_DESC:1 "The ancient mining facility in the $SYSTEM|H$ system has been fully repaired"
-
- GPM_MESSAGE_MINIMEGA_STATION_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Planetary Station§!"
- GPM_MESSAGE_MINIMEGA_STATION_COMPLETE_DESC:1 "The ancient orbital station in the $SYSTEM|H$ system has been fully repaired"
-
- GPM_MESSAGE_MINIMEGA_SILO_COMPLETE_TITLE:1 "Repairs Complete: §YAncient Silo§!"
- GPM_MESSAGE_MINIMEGA_SILO_COMPLETE_DESC:1 "The ancient silo in the $SYSTEM|H$ system has been fully repaired"
-
- 
- #######################################
  #### Modifier localisations
  #######################################
  mod_planet_districts_minerals_cost_add:0 "Coût en £minerals£ Minéraux des districts de la planète"
@@ -777,6 +740,14 @@
  opinion_respected_species:0 "Enfants respectés"
  opinion_respected_species_desc:0 "Pour une raison quelconque, cet Empire déchu a une attitude positive à votre égard. Ils semblent très intéressés par vos origines."
  opinion_intellectual_promise:0 "Promesse intellectuelle"
+ opinion_gpm_stolen_relic:1 "Stolen a Relic!"
+ 
+ #######################################
+ #### Planet Classes
+ #######################################
+ 
+ pc_gpm_precursor_tomb:0 "Monde tombeau des Précurseurs"
+ pc_gpm_precursor_tomb_desc:0 "An ancient ruined precursor city world stripped of most of its toxic atmosphere. Surviving on the surface of this once great city world would be very challenging."
  
  #######################################
  #### Policies
@@ -830,6 +801,22 @@
  gpm_crystal_ship_large_red_elite:0 "Entité cristalline"
  gpm_crystal_ship_large_red_elite_plural:0 "Entités cristallines"
  gpm_crystal_ship_large_red_elite_section:0 " "
+ 
+ # Crystal Event Ships
+ NAME_GPM_Large_Crystal_Entity_Blue_Elite:0 "Blue Crystaline Beast"
+ NAME_GPM_Large_Crystal_Entity_Green_Elite:0 "Green Crystaline Beast"
+ NAME_GPM_Large_Crystal_Entity_Yellow_Elite:0 "Yellow Crystaline Beast"
+ NAME_GPM_Large_Crystal_Entity_Red_Elite:0 "Red Crystaline Beast"
+  
+ # manufactorium ship
+ NAME_manufactorium_fleet:0 "Manufactorium Ship"
+ NAME_gpm_manufactorium_ship:0 "Fabricator"
+ NAME_manufactorium_ship_name:0 ""
+  
+ # precursor ship
+ NAME_precursor_fleet:0 "Precursor Ship"
+ NAME_gpm_precursor_ship:0 "Warbringer"
+ NAME_precursor_ship_name:0 ""
  
  #######################################
  #### Ship Components
@@ -901,47 +888,36 @@
  gpm_start_menu.2.disable_homeworld:0 "£options_icon  §RDésactive Modif. des Capitales§!"
  gpm_start_menu.2.disable_homeworldTT:0 "§HCliquer pour désactiver les Modif. des Capitales§!\nCela empêchera les modificateurs sur notre planète capitale."
 
- gpm_start_menu.2.disable_precursor:0 "£options_icon  §RDésactive Modif. des précurseurs§!"
- gpm_start_menu.2.enable_precursor:0 "£options_icon  §GActive Modif. des précurseurs§!"
+ gpm_start_menu.2.disable_precursor:1 "£options_icon  §RDésactive Modif. des précurseurs§!"
+ gpm_start_menu.2.enable_precursor:1 "£options_icon  §GActive Modif. des précurseurs§!"
  gpm_start_menu.2.disable_fallen_empire:0 "£options_icon  §RDésactive Modif. des Empires déchus§!"
  gpm_start_menu.2.enable_fallen_empire:0 "£options_icon  §GActive Modif. des Empires déchus§!"
- gpm_start_menu.2.disable_habitats:0 "£options_icon  §RDésactive Modif. des Habitats§!"
- gpm_start_menu.2.enable_habitats:0 "£options_icon  §GActive Modif. des Habitats§!"
- gpm_start_menu.2.disable_ringworlds:0 "£options_icon  §RDésactive Modif. des Anneaux-mondes§!"
- gpm_start_menu.2.enable_ringworlds:0 "£options_icon  §GActive Modif. des Anneaux-mondes§!"
  gpm_start_menu.2.disable_wonders:0 "£options_icon  §RDésactive Merveilles planétaires§!"
  gpm_start_menu.2.enable_wonders:0 "£options_icon  §GActive Merveilles planétaires§!"
  gpm_start_menu.2.disable_planetary_rings:0 "£options_icon  §RDésactive Anneaux planétaires§!"
  gpm_start_menu.2.enable_planetary_rings:0 "£options_icon  §GActive Anneaux planétaires§!"
- gpm_start_menu.2.enable_arcane_technology:0 "£options_icon  §GActive Artéfacts Mineurs§!"
- gpm_start_menu.2.disable_arcane_technology:0 "£options_icon  §RDésactive Artéfacts Mineurs§!"
- gpm_start_menu.2.enable_precursor_ai_chain:0 "£options_icon  §GActive Chaîne des Précurseurs pour l'IA§!"
- gpm_start_menu.2.disable_precursor_ai_chain:0 "£options_icon  §RDésactive Chaîne des Précurseurs pour l'IA§!"
 
- gpm_start_menu.2.disable_precursorTT:0 "§HCliquer pour désactiver les Modif. des précurseurs§!\nCela va empêcher les Modif. des précurseurs d'être générés dans la galaxie."
- gpm_start_menu.2.enable_precursorTT:0 "§HCliquer pour activer les Modif. des précurseurs§!"
+ gpm_start_menu.2.disable_precursorTT:1 "§HCliquer pour désactiver les Modif. des précurseurs§!\nCela va empêcher les Modif. des précurseurs d'être générés dans la galaxie."
+ gpm_start_menu.2.enable_precursorTT:1 "§HCliquer pour activer les Modif. des précurseurs§!"
  gpm_start_menu.2.disable_fallen_empireTT:0 "§HCliquer pour désactiver les Modif. des Empires déchus§!\nCela va empêcher les Modif. des Empires déchus d'être générés dans la galaxie."
  gpm_start_menu.2.enable_fallen_empireTT:0 "§HCliquer pour activer les Modif. des Empires déchus§!"
- gpm_start_menu.2.disable_habitatsTT:0 "§HCliquer pour désactiver les Modif. des Habitats§!\nCela va empêcher les Modif. des Habitats d'être générés sur les Habitats."
- gpm_start_menu.2.enable_habitatsTT:0 "§HCliquer pour activer les Modif. des Habitats§!"
- gpm_start_menu.2.disable_ringworldsTT:0 "§HCliquer pour désactiver les Modif. des Anneaux-mondes§!\nCela va empêcher les Modif. des Anneaux-mondes d'être générés sur les anneaux-mondes."
- gpm_start_menu.2.enable_ringworldsTT:0 "§HCliquer pour activer les Modif. des Anneaux-mondes§!"
  gpm_start_menu.2.disable_wondersTT:0 "§HCliquer pour désactiver les Merveilles planétaires§!\nCela va empêcher les modificateurs et bloqueurs planétaire des merveilles d'être générés dans la galaxie."
  gpm_start_menu.2.enable_wondersTT:0 "§HCliquer pour activer les Merveilles planétaires§!"
  gpm_start_menu.2.disable_planetary_ringsTT:0 "§HCliquer pour désactiver les Anneaux planétaires§!\nCela va empêcher les Anneaux planétaires et les riches ressources d'être générés dans la galaxie."
  gpm_start_menu.2.enable_planetary_ringsTT:0 "§HCliquer pour activer les Anneaux planétaires§!"
  
- gpm_start_menu.2.disable_precursor_ai_chainTT:0 "§HCliquer pour désactiver§! Les chaînes d'événements pour les AI. Les AI ne seront pas capable de faire des chaînes de précurseurs."
- gpm_start_menu.2.enable_precursor_ai_chainTT:0 "§HCliquer pour activer§! Les chaînes d'événements pour les AI. Les AI seront capable de faire des chaînes de précurseurs."
-
  gpm_start_menu.2.back:0 "§YRetour au menu§!"
  gpm_start_menu.2.backTT:0 "Retour au menu principal pour commencer."
 
- gpm_start_menu.2.disable_relic_drops:0 "£options_icon  §RDésactive la récup. de Reliques§!"
- gpm_start_menu.2.enable_relic_drops:0 "£options_icon  §GActive la récup. de Reliques§!"
- gpm_start_menu.2.disable_relic_dropsTT:0 "§HCliquez sur ce bouton pour désactiver l'apparition de reliques du mod.§!\nCela empêchera toute relique de ce mod d'apparaître dans la galaxie."
- gpm_start_menu.2.enable_relic_dropsTT:0 "§HCliquez sur ce bouton pour activer l'apparition de reliques du mod§!"
+ gpm_start_menu.2.disable_relic_AI_heists:1 "£options_icon  §RDisable AI Relic Heists§"
+ gpm_start_menu.2.disable_relic_AI_heistsTT:1 "§HClick this to disable Steal Relic spy operations for AI§!\nThis will prevent the AI from using §YSteal Relic§! Spy Operations on players."
+ gpm_start_menu.2.enabled_relic_AI_heists:1 "£options_icon  §GEnable AI Relic Heists§!"
+ gpm_start_menu.2.enable_relic_AI_heistsTT:1 "§HClick this to enable Steal Relic spy operations for AI§!\nThis will allow the AI to use §YSteal Relic§! Spy Operations on players."
  
+ gpm_start_menu.2.enabled_mp_fun:1 "£options_icon  §GEnable Increased Presursor 'drops'§!"
+ gpm_start_menu.2.enabled_mp_funTT:1 "§HClick this to increase the chance of precursor dig sites and increase their special rewards§!\nGreatly increases the chance of precursor dig sites appearing during the game.\nGreatly increases the chance precursor dig sites give special or unique rewards such as relics, ships, components,..\n\n§TAlso works in single player!§!"
+ gpm_start_menu.2.disable_mp_fun:1 "£options_icon  §RDisable Increased Presursor 'drops'§!"
+ gpm_start_menu.2.disable_mp_funTT:1 "§HClick this to reset the chance of precursor dig sites and reset their special rewards§!\nResets the chance of precursor dig sites appearing during the game to their default values.\nResets the chance precursor digsites give special rewards to their default values"
  
  #######################################
  #### Techologies
@@ -1302,7 +1278,11 @@
  gpm_tech_ringworld_mass_transit_desc:0 "La décision d'Anneau-monde §H$decision_gpm_ringworld_mass_transit$§! ajoute un modificateur d'anneau-monde §H$gpm_ringworld_mass_transit_systems$§! réduire le coût d'entretien des pops."
  gpm_tech_ringworld_mass_transit_tt:0 "§HDéverrouille la décision de l'anneau-monde§! : $decision_gpm_ringworld_mass_transit$"
 
+ tech_gpm_station_gatherers_build_cost:1 "Modular Mining Rigs"
+ tech_gpm_station_gatherers_build_cost_desc:1 "New foldable pre-fabricated mining rigs greatly speed up our construction of our space mining infrastructure."
 
+ tech_gpm_station_researchers_build_cost:1 "Modular Research Sections"
+ tech_gpm_station_researchers_build_cost_desc:1 "Pre-designed specialised research sections greatly speeds up our ability to observe the universe."
 
  #######################################
  #### Traits
@@ -1448,12 +1428,39 @@
  #######################################
  #### war Names
  #######################################
+ # War names 
+ gpm_war_of_time:0 "The Time Wars"
+ gpm_war_of_the_xenos:0 "War for the Xeno Queen"
+ gpm_war_of_the_machine:0 "War for the Machine Core"
+ gpm_war_of_knowledge:0 "War of Knowledge"
+ gpm_war_of_power:0 "War of Power"
+ gpm_war_of_the_sphere:0 "The Quantum Wars"
+ gpm_war_of_the_architect:0 "The Architect Wars"
+ gpm_war_of_the_stc:0 "War for the STC"
+ gpm_war_of_the_codex:0 "War of the Codex"
+ gpm_war_of_the_soul:0 "War for the Soul"
+ gpm_war_of_the_queen:0 "The Sentinal War"
+ gpm_war_of_the_fallen:0 "War of the Fallen" 
+ gpm_war_of_the_dragon:0 "War of the Dragon"
+ gpm_war_of_the_throne:0 "War for the Throne"
+ gpm_war_of_the_worm:0 "War for the Worm"
+ gpm_war_of_the_rubricator:0 "The Rubricator Wars"
+ gpm_war_of_the_galaxy:0 "War for the Miniature Galaxy"
+ gpm_war_of_the_omnicodex:0 "The Omnicodex Wars"
+ gpm_war_of_the_surveyor:0 "The Surveyor Wars"
+ gpm_war_of_the_ancient_sword:0 "War for the Warrior's Sword"
+ gpm_war_of_the_severed_head:0 "Holy War of the Head"
+ gpm_war_of_the_prethoryn_queen:0 "War for the Prethoryn Queen"
+ gpm_war_of_the_unbidden_warlock:0 "The Warlock Wars"
+ gpm_war_of_the_contingency_core:0 "War for the Core"
+ gpm_war_of_the_zro_crystal:0 "The Zro Wars"
+ gpm_war_of_the_last_baol:0 "War for the Last Baol"
+ gpm_war_of_the_defragmentor:0 "The Defragmentor Wars"
+ gpm_war_of_the_reality_perforator:0 "The Reality wars"
+ gpm_war_of_the_pox_sample:0 "The Pox Wars"
+ gpm_war_of_the_cryo_core:0 "The Cryo Wars"
+ gpm_war_of_the_war_forge:0 "War of the Forge"
  
- gpm_mega_shipyard_ruined_precursor:0 "Chantiers navals de précurseurs en ruines"
- gpm_mega_shipyard_ruined_precursor_DESC:0 "Un chantier naval précurseur en ruines."
- gpm_mega_shipyard_ruined_precursor_MEGASTRUCTURE_DETAILS:0 "Ce $mega_shipyard_3$ a connu des jours meilleurs. Il ne produira plus de vaisseaux sans réparations importantes..."
- gpm_mega_shipyard_restored_precursor:0 "Chantiers navals de précurseurs restauré"
- gpm_mega_shipyard_restored_precursor_DESC:0 "Cet ancien chantier naval précurseur a été restauré au mieux de nos capacités."
  
  
  

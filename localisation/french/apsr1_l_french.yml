@@ -1,0 +1,156 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr1_planet_modifier:0 "Symbol of interstellar power"
+ apsr1_planet_modifier_desc:0 "Here we have found the ruins of a fantastic alien palace, surpassing all other analogues with its monumentality and accuracy of artwork, which can compete with the best artworks of other civilisations. In its throne hall we have found a large detailed holographic projection of our galaxy. Once we saw it, we knew with no doubt that our nation will prevail!"
+ 
+ apsr1_deposit:0 "$apsr1_planet_modifier$"
+ apsr1_deposit_desc:0 "$apsr1_planet_modifier_desc$\n\n§M$apsr1_deposit_effect$§!" 
+ apsr1_deposit_effect:0 "Unique resource available: $apsr1_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr1_building_part1_text:0 "Renovated ruins of the alien §YPalace complex§!"
+ 
+ apsr1_building_part2_text:0 "Fully repaired §YPalace complex§!, further suplemented by the use of a combined visual projection and augmented reality technology"
+ 
+ apsr1_building_part3_text:0 "§YThe palace complex§! with a fully restored Great Hall, where the §YSymbol of Interstellar power§! is located"
+ 
+ apsr1_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr1_building_fake_predesc:0 "§MUnique building§!\n§RWe don't have the proper technologies to maximize the output of this building!§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr1_building_part1:0 "Obelisk of Interstellar power"
+ apsr1_building_part1_desc:0 "$apsr1_building_predesc$\n$apsr1_building_part1_text$"
+ 
+ apsr1_building_part2:0 "Monument of Interstellar power"
+ apsr1_building_part2_desc:0 "$apsr1_building_predesc$\n$apsr1_building_part2_text$"
+ 
+ apsr1_building_part3:0 "Symbol of Interstellar power"
+ apsr1_building_part3_desc:0 "$apsr1_building_predesc$\n$apsr1_building_part3_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr1_building_part1:0 "Interstellar power I"
+ tech_apsr1_building_part1_desc:0 "We can increase our influence on neighbouring empires by rebuilding the Monument of Power and restoring these breathtaking ruins. A memorial to ages past that will enspire our empire to greater heights!"
+ TECH_APSR1_PART1_TITLE:0 "§HBuilding:§! $apsr1_building_part1$"
+ TECH_APSR1_PART1_DESC:0 "$apsr1_building_part1_desc$"
+ 
+ tech_apsr1_building_part2:0 "Interstellar power II"
+ tech_apsr1_building_part2_desc:0 "Our culture is spreading faster and faster. We should modernize our landsites in order to follow the progress. By combining augmented reality with design technologies we will make every visit to the Monument unforgetable!"
+ TECH_APSR1_PART2_TITLE:0 "§HBuilding:§! $apsr1_building_part2$"
+ TECH_APSR1_PART2_DESC:0 "$apsr1_building_part2_desc$"
+ 
+ tech_apsr1_building_part3:0 "Interstellar power III"
+ tech_apsr1_building_part3_desc:0 "We have discovered the true use of this artifact. With its help we will increase our influence on our neighbouring empire!"
+ TECH_APSR1_PART3_TITLE:0 "§HBuilding:§! $apsr1_building_part3$"
+ TECH_APSR1_PART3_DESC:0 "$apsr1_building_part3_desc$" 
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.1001.title:0 "$apsr1_building_part1$ completed"
+ apsr.1001.desc:0 "We have restored the alien §YPalace complex§! and now our citizens can freely visit it. It also draws the attention of neighboring empires, giving us the opportunity to exert greater influence on them."
+ apsr.1001.ok-button:0 "Good"
+ 
+ apsr.1002.title:0 "$apsr1_building_part2$ completed"
+ apsr.1002.desc:0 "Improved design strategies combined with augmented reality machinery make it possible to have every visit to the §YMonument of interstellar power§! truly unforgettable, attracting more and more attention and provoking the interest of other empires..." 
+ apsr.1002.ok-button:0 "Excellent"
+ 
+ apsr.1003.title:0 "$apsr1_building_part3$ completed"
+ apsr.1003.desc:0 "By reconstructing the room in which §Y$apsr1002$§! is located, and using it for our own purposes, we have achieved a significant increase of our influence on the galactic arena"
+ apsr.1003.ok-button:0 "It is our time!"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.1011.title:0 "Detected: §M$apsr1_planet_modifier$§!"
+ apsr.1011.desc:0 "A scouting group led by §H[Root.GetLeaderName]§! from ship §H[Root.GetName]§! found something interesting: \nThe ancient ruins of an alien palace. In its throne hall we found a large and detailed hologram of our galaxy. Once we saw it, we had no doubt that our nation will prevail!"
+ apsr.1011.button:1 "We must get this artifact!"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.1013.title:0 "Detected: §M$apsr1_planet_modifier$§!"
+ apsr.1013.desc:0 "We found something interesting on this recently occupied planet.\nThis place has a building serving some unknown purpose. In the middle of building a "floating" prophecy levitates without any visible devices. Our researchers think that this ancient message is addressed to [Root.GetRulerTitle], It even mentions [Root.GetRulerName] by name. It sounds to have successfully predicted our past, we can only wait and see if its grand tales of great rulers are true aswell" 
+ apsr.1013.button:1 "The future is always in motion, the past is not" 
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.1015.title:0 "Detected: §M$apsr1_planet_modifier$§!"
+ apsr.1015.desc:0 "Our intelligence service, while checking information about the planets of other empires, has found something interesting!\nOn one of the planets there is a construction of unknown purpose, in the center of which, without the use of visible devices, «The prophecy» hangs. Scientists believe that this ancient message is addressed to the race, which is destined to be the rulers of all things.\n\n§GInformation:§!\n§YPlanet name:§! §W[event_target:apsr1_planet_target.GetName]§! \n§YPlanet class:§! §W[event_target:apsr1_planet_target.GetClassName]§! \n§YSolar system name:§! §W[event_target:apsr1_planet_target.solar_system.GetName]§! \n§YPlanet owner:§! §W[event_target:apsr1_planet_target.Owner.GetName]§!"
+ apsr.1015.button:1 "Interesting!"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr1_special:0 "$apsr1_planet_modifier$"
+ apsr1_special_desc:0 "$apsr1_planet_modifier_desc$"
+ 
+ APSR1_MESSAGE_SR_INFORMED_TITLE:0 "Information about a unique planet"
+ APSR1_MESSAGE_SR_INFORMED:0 "We have received information about a special resource called §M$apsr1_planet_modifier$§!, which is located on the planet §Y$PLANET$§! under control of the §Y$COUNTRY$§!."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr1_anomaly:0 "Interesting data"
+ apsr1_anomaly_desc:0 "During the research of the [From.GetName] planet's surface we aquired data that definitely needs further investigation."
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.1601.title:0 "$apsr.1011.title$"
+ apsr.1601.desc:0 "$apsr.1011.desc$"
+ 
+ 
+ 
+ ### новые должности
+  
+ apsr1_planet_custodian_normal:0 "Astrogaphs"
+ job_apsr1_custodian_normal:0 "Astrograph"
+ job_apsr1_custodian_normal_plural:0 "Astrogaphs"
+ job_apsr1_custodian_normal_desc:0 "Astrographs track and analyze changes occurring on the galactic map. The one who owns the information, owns the whole galaxy."
+ mod_job_apsr1_custodian_normal_add:0 "Astrograph"
+ 
+ apsr1_planet_custodian_hive:0 "Astrograph drones"
+ job_apsr1_custodian_hive:0 "Astrograph drone"
+ job_apsr1_custodian_hive_plural:0 "Astrograph drones"
+ job_apsr1_custodian_hive_desc:0 "Astrograph drones specialize in analyzing and predicting the effects of changes on a galactic map."
+ mod_job_apsr1_custodian_hive_add:0 "Astrograph drone"
+ 
+ apsr1_planet_custodian_machine:0 "Astrograph drones"
+ job_apsr1_custodian_machine:0 "Astrograph drone"
+ job_apsr1_custodian_machine_plural:0 "Astrograph drones"
+ job_apsr1_custodian_machine_desc:0 "Astrograph drones specialize in analyzing and predicting the effects of changes on a galactic map."
+ mod_job_apsr1_custodian_machine_add:0 "Astrograph drone"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,157 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr12_planet_modifier:0 "Frequence anomaly"
+ apsr12_planet_modifier_desc:0 "This area is somehow accelerating all signals and waves that pass through it. Our scientists plan to use it as a means to improve the logistics of our empire."
+ 
+ apsr12_deposit:0 "$apsr12_planet_modifier$"
+ apsr12_deposit_desc:0 "$apsr12_planet_modifier_desc$\n\n§M$apsr12_deposit_effect$§!" 
+ apsr12_deposit_effect:0 "Unique resource available: $apsr12_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr12_building_part1_text:0 "A state of the art Communication Center built around and making use of the local Frequence anomaly in order to ensure the instant movement of data across points millions of light years away from each other."
+ 
+ apsr12_building_part2_text:0 "The adjacent logistic support service, the newest addition to the Communication Center, further improves its already extraordinary capabilities, by further improving the ever expanding logistic network of our empire."
+ 
+ apsr12_building_part3_text:0 "The Headquarters of the Imperial Logistic Service is the latest iteration of improvements added to the Communication Center. Instant communication between points on the opposite ends of the galaxy has never been easier."
+ 
+ apsr12_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr12_building_fake_predesc:0 "§MUnique building§!\n§RWe don't have the proper technologies to maximize the output of this building!§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr12_building_part1:0 "Communication Center"
+ apsr12_building_part1_desc:0 "$apsr12_building_predesc$\n$apsr12_building_part1_text$"
+ 
+ apsr12_building_part2:0 "Logistic Support Service"
+ apsr12_building_part2_desc:0 "$apsr12_building_predesc$\n$apsr12_building_part2_text$"
+ 
+ apsr12_building_part3:0 "Headquarters of the Imperial Logistic Service"
+ apsr12_building_part3_desc:0 "$apsr12_building_predesc$\n$apsr12_building_part3_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr12_building_part1:0 "Anomalous communication"
+ tech_apsr12_building_part1_desc:0 "We have identified the center of the Frequence anomaly. The area is perfect for building a Communication Center, a state of the art facility which will take advantage of the miraculous effects of the anomaly in order to estabilish a cutting edge logistic network. There will be no delay in communication anymore, our empire being united on a greater level than ever before."
+ TECH_APSR12_PART1_TITLE:0 "§HBuilding:§! $apsr12_building_part1$"
+ TECH_APSR12_PART1_DESC:0 "$apsr12_building_part1_desc$"
+ 
+ tech_apsr12_building_part2:0 "Space Logistics"
+ tech_apsr12_building_part2_desc:0 "The Logistic Support Service is but one of the many improvements that will be added to the Communication Center. With its help, our logistic network will expand in order to be able to meet the demands of the expanding logistic network."
+ TECH_APSR12_PART2_TITLE:0 "§HBuilding:§! $apsr12_building_part2$"
+ TECH_APSR12_PART2_DESC:0 "$apsr12_building_part2_desc$"
+ 
+ tech_apsr12_building_part3:0 "Superlogistics"
+ tech_apsr12_building_part3_desc:0 "The Headquarters of the Imperial Logistic Service is the latest in the long line of improvements of the Communication Center. It takes full advantage of the local Frequence anomaly in order to bring our logistic network to hitherto unseen levels of optimization, effectiveness and efficiency."
+ TECH_APSR12_PART3_TITLE:0 "§HBuilding:§! $apsr12_building_part3$"
+ TECH_APSR12_PART3_DESC:0 "$apsr12_building_part3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.12001.title:0 "$apsr12_building_part1$ completed"
+ apsr.12001.desc:0 "The facility is now in place, the power supply is stable and all the equipment and personel is ready and accounted for."
+ apsr.12001.ok-button:0 "Good"
+ 
+ apsr.12002.title:0 "$apsr12_building_part2$ completed"
+ apsr.12002.desc:0 "The Logistic Support Service addition to the Communication Center is now up and running, further improving upon the latter's output and efficiency."
+ apsr.12002.ok-button:0 "Great"
+ 
+ apsr.12003.title:0 "$apsr12_building_part3$ completed"
+ apsr.12003.desc:0 "The Headquarters of the Imperial Logistic Service maximises the efficiency of our logistic network."
+ apsr.12003.ok-button:0 "Perfect"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.12011.title:0 "Detected: §M$apsr12_planet_modifier$§!"
+ apsr.12011.desc:0 "A research team lead by §H[Root.GetLeaderName]§! from the ship §H[Root.GetName]§! have discovered an anomalous zone that seems to accelerate any wave, signal or radiation that passes through it to speeds higher than that of the light."
+ apsr.12011.button:1 "Unbelieveable!"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.12013.title:0 "Detected: §M$apsr12_planet_modifier$§!"
+ apsr.12013.desc:0 "File report: Incident 12887-A - guerilla operation - The incident led to the discovery of an anomalous zone where any signal that passes through is accelerated to speeds that lead to the instant transmition of its contents."
+ apsr.12013.button:1 "Great!"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.12015.title:0 "Detected: §M$apsr12_planet_modifier$§!"
+ apsr.12015.desc:0 "Our intelligence services, while checking information about the planets of other empires, has found something interesting!\nOn one of the planets there is an anomaly where any signal that passes through is accelerated to speeds that lead to the instant transmition of its contents.\n\n§GInformation:§!\n§YPlanet name:§! §W[event_target:apsr12_planet_target.GetName]§! \n§YPlanet class:§! §W[event_target:apsr12_planet_target.GetClassName]§! \n§YSolar system name:§! §W[event_target:apsr12_planet_target.solar_system.GetName]§! \n§YPlanet owner:§! §W[event_target:apsr12_planet_target.Owner.GetName]§!"
+ apsr.12015.button:1 "Interesting!"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr12_special:0 "$apsr12_planet_modifier$"
+ apsr12_special_desc:0 "$apsr12_planet_modifier_desc$"
+ 
+ APSR12_MESSAGE_SR_INFORMED_TITLE:0 "Information about an unique planet"
+ APSR12_MESSAGE_SR_INFORMED:0 "We have received information about a special resource called §M$apsr12_planet_modifier$§!, which is located on the planet §Y$PLANET$§! under control of the §Y$COUNTRY$§!."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr12_anomaly:0 "$apsr1_anomaly$"
+ apsr12_anomaly_desc:0 "$apsr1_anomaly_desc$"
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.12601.title:0 "$apsr.12011.title$"
+ apsr.12601.desc:0 "$apsr.12011.desc$"
+ 
+ 
+ 
+ ### новые должности
+ 
+ apsr12_planet_manager_normal:0 "Coordinators"
+ job_apsr12_manager_normal:0 "Coordinator"
+ job_apsr12_manager_normal_plural:0 "Coordinators"
+ job_apsr12_manager_normal_desc:0 "The ever expanding distance between the empire holdings has always presented a logistics issue, as information took longer and longer to travel. The coordinators help in this regard, taking advantage of the anomalous zone in order to completely remove any delay in interstellar communications."
+ mod_job_apsr12_manager_normal_add:0 "Coordinator"
+ 
+ apsr12_planet_manager_hive:0 "Coordinator drones"
+ job_apsr12_manager_hive:0 "Coordinator drone"
+ job_apsr12_manager_hive_plural:0 "Coordinator drones"
+ job_apsr12_manager_hive_desc:0 "The ever expanding distance between our hive's holdings has always presented a logistics issue, as information took longer and longer to travel. The coordinator drones help in this regard, taking advantage of the anomalous zone in order to completely remove any delay in interstellar communications."
+ mod_job_apsr12_manager_hive_add:0 "Coordinator drone"
+ 
+ apsr12_planet_manager_machine:0 "Coordination drones"
+ job_apsr12_manager_machine:0 "Coordination drone"
+ job_apsr12_manager_machine_plural:0 "Coordination drones"
+ job_apsr12_manager_machine_desc:0 "This special drones model relay the signals of the main AI to the direct performers without delays that would normally be attributed to the distance."
+ mod_job_apsr12_manager_machine_add:0 "Coordination drone"
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

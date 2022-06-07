@@ -1,0 +1,194 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr8_planet_modifier:0 "Largesium"
+ apsr8_planet_modifier_desc:0 "An unstable radioactive substance. In theory it can be used as a fuel for an incredibly powerful reactor."
+ 
+ apsr8_deposit:0 "$apsr8_planet_modifier$"
+ apsr8_deposit_desc:0 "$apsr8_planet_modifier_desc$\n\n§M$apsr8_deposit_effect$§!" 
+ apsr8_deposit_effect:0 "Unique resource available: $apsr8_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr8_building_part1_text:0 "An electrostation prototype using largesium energy."
+ 
+ apsr8_building_part2_text:0 "An improved electrostation model using largesium energy."
+ 
+ apsr8_building_part3_text:0 "An electrostation using largesium energy with top efficiency."
+ 
+ apsr8_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr8_building_fake_predesc:0 "§MUnique building§!\n§RWe don't have the proper technologies to maximize the output of this building!§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr8_building_part1:0 "Largesium reactor: Prototype"
+ apsr8_building_part1_desc:0 "$apsr8_building_predesc$\n$apsr8_building_part1_text$"
+ 
+ apsr8_building_part2:0 "Largesium reactor"
+ apsr8_building_part2_desc:0 "$apsr8_building_predesc$\n$apsr8_building_part2_text$"
+ 
+ apsr8_building_part3:0 "Largesium reactor"
+ apsr8_building_part3_desc:0 "$apsr8_building_predesc$\n$apsr8_building_part3_text$"
+ 
+ 
+ 
+ ### катаклизм
+  
+ apsr8_building_cataclysm:0 "§RStopped $apsr8_building_part3$§!"
+ apsr8_building_cataclysm_desc:0 "$apsr8_building_predesc$\n The Largesium reactor, which stopped its work as a result of the destruction of the fourth power unit."
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr8_building_part1:0 "Largesium Stabilization"
+ tech_apsr8_building_part1_desc:0 "Producing energy from Largesium requires just a modified version of nuclear reactors used by us decades ago. The only problem is that the substance is highly unstable, and turning into a form that can be used by us will take some research; some ideas have already been proposed by our leading scientists."
+ TECH_APSR8_PART1_TITLE:0 "§HBuilding:§! $apsr8_building_part1$"
+ TECH_APSR8_PART1_DESC:0 "$apsr8_building_part1_desc$"
+ 
+ tech_apsr8_building_part2:0 "Largesium Reactor Modernization"
+ tech_apsr8_building_part2_desc:0 "We can increase the flow of energocredits from the largesium reactor by using a multistage reaction of synthesization and disintegration of the Largesium."
+ TECH_APSR8_PART2_TITLE:0 "§HBuilding:§! $apsr8_building_part2$"
+ TECH_APSR8_PART2_DESC:0 "$apsr8_building_part2_desc$"
+ 
+ tech_apsr8_building_part3:0 "Largesium Power"
+ tech_apsr8_building_part3_desc:0 "By tweaking the reactions passing inside of the reactor we've come to the conclusion that the Largesium can be used even more efficiently."
+ TECH_APSR8_PART3_TITLE:0 "§HBuilding:§! $apsr8_building_part3$"
+ TECH_APSR8_PART3_DESC:0 "$apsr8_building_part3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.8001.title:0 "$apsr8_building_part1$ completed"
+ apsr.8001.desc:0 "We have found the most suitable use of the Largesium lodes - supplying our empire with energy."
+ apsr.8001.ok-button:0 "Good"
+ 
+ apsr.8002.title:0 "$apsr8_building_part2$ completed"
+ apsr.8002.desc:0 "The Largesium reactor building is completed, and the energocredit flow has greatly increased."
+ apsr.8002.ok-button:0 "Great"
+ 
+ apsr.8003.title:0 "$apsr8_building_part3$ completed"
+ apsr.8003.desc:0 "§Y$apsr8_building_part3$§! has reached the peak of its power, and the energy flow has exceeded all of our expectations."
+ apsr.8003.ok-button:0 "Perfect"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.8011.title:0 "Detected: §M$apsr8_planet_modifier$§!"
+ apsr.8011.desc:0 "§H[Root.GetLeaderName]§! from the science ship §H[Root.GetName]§! has found something peculiar. \nOn this planet, a highly unstable radioactive substance can be found. Our scientists have already devised plans on how to exploit it: as nuclear reactor fuel."
+ apsr.8011.button:1 "Incredible"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.8013.title:0 "Detected: §M$apsr8_planet_modifier$§!"
+ apsr.8013.desc:0 "Something peculiar has been found on one of the occupied planets. \nOn this planet, a highly unstable radioactive substance can be found. Our scientists have already devised plans on how to exploit it: as nuclear reactor fuel."
+ apsr.8013.button:1 "Great!"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.8015.title:0 "Detected: §M$apsr8_planet_modifier$§!"
+ apsr.8015.desc:0 "Our intelligence services, while checking information about the planets of other empires, has found something interesting!\nOn a certain planet, a highly unstable radioactive substance can be found; its energy potential is unfathomable.\n\n§GInformation:§!\n§YPlanet name:§! §W[event_target:apsr8_planet_target.GetName]§! \n§YPlanet class:§! §W[event_target:apsr8_planet_target.GetClassName]§! \n§YSolar system name:§! §W[event_target:apsr8_planet_target.solar_system.GetName]§! \n§YPlanet owner:§! §W[event_target:apsr8_planet_target.Owner.GetName]§!"
+ apsr.8015.button:1 "Interesting!"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr8_special:0 "$apsr8_planet_modifier$"
+ apsr8_special_desc:0 "$apsr8_planet_modifier_desc$"
+ 
+ APSR8_MESSAGE_SR_INFORMED_TITLE:0 "Information about a unique planet"
+ APSR8_MESSAGE_SR_INFORMED:0 "We received information about a special resource called §M$apsr8_planet_modifier$§!, which is located on the planet §Y$PLANET$§! under control of the §Y$COUNTRY$§!."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr8_anomaly:0 "$apsr1_anomaly$"
+ apsr8_anomaly_desc:0 "$apsr1_anomaly_desc$"
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.8601.title:0 "$apsr.8011.title$"
+ apsr.8601.desc:0 "$apsr.8011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr8_planet_power_engineer_normal:0 "Power Engineers"
+ job_apsr8_power_engineer_normal:0 "Power Engineer"
+ job_apsr8_power_engineer_normal_plural:0 "Power Engineers"
+ job_apsr8_power_engineer_normal_desc:0 "The duties of the power engineer include overall control of the on-site energy production, optimization of the production and consumption processes, tracking network load peaks and more."
+ mod_job_apsr8_power_engineer_normal_add:0 "Power Engineer"
+   
+ apsr8_planet_power_engineer_hive:0 "Power Drones"
+ job_apsr8_power_engineer_hive:0 "Power Drone"
+ job_apsr8_power_engineer_hive_plural:0 "Power Drones"
+ job_apsr8_power_engineer_hive_desc:0 "This being controls the work of ordinary technicians, and ensures the stable and uninterrupted operation of the facility."
+ mod_job_apsr8_power_engineer_hive_add:0 "Power Drone"
+   
+ apsr8_planet_power_engineer_machine:0 "Power Drones"
+ job_apsr8_power_engineer_machine:0 "Power Drone"
+ job_apsr8_power_engineer_machine_plural:0 "Power Drones"
+ job_apsr8_power_engineer_machine_desc:0 "This drone model has an improved autonomous AI, whose main task is to monitor the operation of the facility, the work of ordinary drones-technicians, and the optimization of energy generation process."
+ mod_job_apsr8_power_engineer_machine_add:0 "Power Drone"
+ 
+   
+ apsr8_planet_technician_normal:0 "Qualified technicians"
+ job_apsr8_technician_normal:0 "Qualified technician"
+ job_apsr8_technician_normal_plural:0 "Qualified technicians"
+ job_apsr8_technician_normal_desc:0 "Only technicians of the highest qualification are eligible to work with Largesium."
+ mod_job_apsr8_technician_normal_add:0 "Qualified technician"
+   
+ apsr8_planet_technician_hive:0 "Qualified technician drones"
+ job_apsr8_technician_hive:0 "Qualified technician drone"
+ job_apsr8_technician_hive_plural:0 "Qualified technician drones"
+ job_apsr8_technician_hive_desc:0 "Specially biologically designed technician drones, which can work with Largesium."
+ mod_job_apsr8_technician_hive_add:0 "Qualified technician drone"
+   
+ apsr8_planet_technician_machine:0 "Technician drones v2.0"
+ job_apsr8_technician_machine:0 "Technician drone v2.0"
+ job_apsr8_technician_machine_plural:0 "Technician drones v2.0"
+ job_apsr8_technician_machine_desc:0 "An updated and resource costly drone model, designed for working with high-energy substances."
+ mod_job_apsr8_technician_machine_add:0 "Technician drone v2.0"
+ 
+ 
+ # прочее
+ 
+ apsr_8_scientist_name:0 "Transformed"
+ 
+ apsr8_leader_trait_ruler:0 "Transformed"
+ apsr8_leader_trait_ruler_desc:0 "Once a simple leading scientist, this leader has undergone transformation into a race of energetic entities, and now leads us to prosperity!"
+ 
+ apsr8_leader_trait_scientist:0 "Transformed"
+ apsr8_leader_trait_scientist_desc:0 "Once a simple leading scientist, this leader has undergone transformation into a race of energetic entities."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

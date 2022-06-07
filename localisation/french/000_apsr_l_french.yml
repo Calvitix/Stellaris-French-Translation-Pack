@@ -1,0 +1,344 @@
+﻿l_french:
+
+
+ 
+ ### сообщение на 40 день
+
+ # нет цивика (стандарт)
+ apsr.2.title:0 "Unique planets"
+ apsr.2.desc:0 "[Root.GetRulerTitle], while observing a supernova, our astronomers received an encrypted signal originating from a planet in an otherwise unremarkable system situated near the exploding star. Although we have managed to decrypt it, the better part of the message was distorted by the explosion. However, the general idea of the contents was inferred. The message speaks of wonderous planets present within our galaxy; from planets made entirely of strange materials to ones where mysterious alien artifacts reside. The location of such places must have been part of the lost fragments of the signal. While we do not know who sent it, we remain hopeful the contents weren't a lie, and that someday we may find at least one of these planets."  
+ apsr.2.button:1 "We must be the first!" 
+ 
+ # есть цивик
+ apsr.2.desc_with_civic_d:0 "[Root.GetRulerTitle], after deciphering some of the records the Ancients left behind on [Root.Capital.GetName], we have received not only the confirmation of the existence, but also a list of various star systems' coordinates. These most likely point to planets that belong to the Ancients. \nOr once belonged..."
+ apsr.2.desc_with_civic_g:0 "After deciphering the records the Ancients left on [Root.Capital.GetName], we obtained information of interest to the hivemind. It details a set of deep space coordinates, all pointing to specific star systems which represent points of interest. These are most likely planets that belong to the Ancients. \nOr once belonged..."
+ apsr.2.desc_with_civic_m:0 "The Central Processing Unit has managed to decrypt the records left behind by the Ancients on [Root.Capital.GetName]. The findings point to various star systems of seemingly great importance, which may belong to them. \nOr may have belonged..."
+ apsr.2.button_with_civic:1 "We must be the first!"
+ apsr.2.button_with_civic.tooltip:1 "The coordinates of possible Ancients' colonies are recorded in the Situation Log"
+ 
+ 
+ 
+ ### цивик 
+  
+ apsr_origin_unique_capital:0 "Venerators of the Ancients"
+ apsr_origin_unique_capital_desc:0 "§Y«...And thus the Ancients created the New World, and settled it with plants and creatures, hitherto unseen, and gifted them with sapience. Bequeathed they had been to live in peace, never knowing disease, hunger, war or any suffering. It was a time of prosperity and piety, as life grew and glorified its creators. Yet such golden age couldn't last, for the Dark Day arrived. The sky rained fire, bringing death and terror. The Ancients rose up in defense of all that was living; thus they ascended into the heavens and stopped the Evil that brought forth such destruction. After this final gift they had bestowed upon their creations, they were never seen again...»§! \n§WLegends of the Ancient Creators, makers of all that can be seen.§!\n\nThe culture of this empire is suffused with legends of a mighty race that protected and guided them, before ascending into heavens to defend them from a great Evil, never to be seen again, though tales speak of their eventual return. The existence of this species is confirmed by records found in ancient ruins. Modern technology has enabled further study in such places, revealing dated star maps, poiting to certain space objects which may represent planets that have belonged to these Ancients."
+ apsr_origin_unique_capital_effects:11 "The game will begin on the Ancient World, where there will be no one of the unique resources.\nThe coordinates of all generated Unique and Ancient worlds will be recorded in the journal after the start of the game, and the chance of the emergence of technologies for the development of resources is significantly increased."
+ 
+ apsr_origin_deposit:0 "Traces of an ancient civilization"
+ apsr_origin_deposit_desc:0 "On this planet, there is irrefutable evidence of the presence of an incredibly advanced civilization in the distant past!"
+ 
+ apsr_origin_planet_modifier:0 "Ancient world"
+ apsr_origin_planet_modifier_desc:0 "On this planet, on the ruins and traces of a very ancient and extinct civilization, a new life arose and developed."
+ apsr_origin_planet_modifier_gestalt:0 "$apsr_origin_planet_modifier$"
+ apsr_origin_planet_modifier_gestalt_desc:0 "On this planet, on the ruins and traces of a very ancient and extinct civilization, a new civilization arose and developed."
+ 
+ 
+ 
+ ### раздел в журнале
+
+ apsr_beacons_title:0 "Unique planets"
+ apsr_beacons_desc:0 "We have received some information that revealed the existence of unique features and traces of ancient civilizations on some planets in our galaxy. While under our control, we can study and exploit the said unique features in order to gain £apsr_knowledge£ §M$apsr_knowledge$§!, which can be used for our benefit.\n\nNote - in order to use £apsr_knowledge£ §M$apsr_knowledge$§! it is necessary to find a special relic, which can only be obtained by developing Unique and Ancient Worlds."
+ 
+   
+ 
+ ### новый ресурс
+  
+ apsr_knowledge:0 "Ancient Knowledge"
+ apsr_knowledge_desc:0 "Information on how to use unique resources.\n§MAncient Knowledge is needed in order to improve unique buildings.§!"
+ # PLEASE DO NOT DISPLAY THIS RESOURCE ON THE RESOURCE PANEL! KNOWLEDGE IS IMPOSSIBLE TO EVALUATE, THIS CAN BE MADE BY ONLY SPECIALIZED ENCLAVE!
+ mod_planet_jobs_apsr_knowledge_produces_mult:0 "Ancient Knowledge income"
+ mod_planet_apsr_buildings_produces_mult:0 "$mod_planet_jobs_apsr_knowledge_produces_mult$"
+  
+  
+ 
+ ### новые должности
+ 
+ apsr_planet_prospector_normal:0 "Analysts"
+ job_apsr_prospector_normal:0 "Analyst"
+ job_apsr_prospector_normal_plural:0 "Analysts"
+ job_apsr_prospector_normal_desc:0 "Scientists who research the §Y$relic_apsr_cube$§! found on this planet and generate £apsr_knowledge£ §M$apsr_knowledge$§!"
+ mod_job_apsr_prospector_normal_add:0 "Analyst"
+ 
+ apsr_planet_prospector_hive:0 "Analyst drones"
+ job_apsr_prospector_hive:0 "Analyst drone"
+ job_apsr_prospector_hive_plural:0 "Analyst drones"
+ job_apsr_prospector_hive_desc:0 "Specialist drones that research the §Y$relic_apsr_cube$§! found on this planet and generate £apsr_knowledge£ §M$apsr_knowledge$§!"
+ mod_job_apsr_prospector_hive_add:0 "Analyst drone"
+ 
+ apsr_planet_prospector_machine:0 "Analyst drones"
+ job_apsr_prospector_machine:0 "Analyst drone"
+ job_apsr_prospector_machine_plural:0 "Analyst drones"
+ job_apsr_prospector_machine_desc:0 "Special drones that research the §Y$relic_apsr_cube$§! found on this planet and generate £apsr_knowledge£ §M$apsr_knowledge$§!"
+ mod_job_apsr_prospector_machine_add:0 "Analyst drone"
+ 
+ 
+ 
+ ### новые типы планет
+ 
+ pc_apsr_ancient:0 "Ancient World"
+ pc_apsr_ancient_desc:0 "A planet where traces of activity of the Ancients - a civilization which existed untold millennia ago - have been found."
+ pc_apsr_ancient_adj:0 "Ancient"
+ mod_pc_apsr_ancient_habitability:0 "Habitality for the Ancient Worlds"
+ trait_pc_apsr_ancient_preference:0 "Ancient world preferred"
+ trait_pc_apsr_ancient_preference_desc:0 "This race originated on the ruins of the Ancient World, and prefers them. Other types of planets cause great discomfort in this race."
+ 
+ pc_apsr_unique:0 "Unique World"
+ pc_apsr_unique_desc:0 "While seeming ordinary at first glance, research has shown that something makes this planet very unique."
+ pc_apsr_unique_adj:0 "Unique"
+ mod_pc_apsr_unique_habitability:0 "Habitality for the Unique Worlds"
+ trait_pc_apsr_unique_preference:0 "Unique world preferred"
+ trait_pc_apsr_unique_preference_desc:0 "This race originated on the Unique world, and is poorly adapted to less favorable conditions."
+ 
+ pc_apsr_glass:0 "Glassed world"
+ pc_apsr_glass_desc:0 "The planet, the entire surface of which has melted as a result of prolonged massive plasma bombardments, and then froze. Many samples taken indicate that this planet was inhabited by living things at the time of the bombing."
+ pc_apsr_glass_adj:0 "Glassed"
+ mod_pc_apsr_glass_habitability:0 "Habitality for the Glassed Worlds"
+ trait_pc_apsr_glass_preference:0 "Glassed world preferred"
+ trait_pc_apsr_glass_preference_desc:0 "It is not known how and why this race arose on such an unfavorable planet. Mods, I guess?"
+ 
+ 
+ 
+ ### новые депозиты
+
+ ## Древние депозиты для Древнего мира с комплексами
+ 
+ apsr_ancient_c_deposit_blocker:0 "Exploration of the Ancient World"
+ apsr_ancient_c_deposit_blocker_desc:0 "Much about this planet remains unknown and by thoroughly exploring the uncharted areas we may find something useful."
+ apsr_ancient_c_deposit_blocker_cleared_tooltip:0 "Our exploration efforts have revealed several places of interest where resources such as energy, minerals or food may be extracted.\n§HNote - a new deposit will be created, in which resources can be mined.§!"
+ 
+ apsr_ancient_c_deposit_energy_1:0 "Underground power station"
+ apsr_ancient_c_deposit_energy_1_desc:0 "A complex of ancient generators supplying energy at a planetary scale can be found here."
+ apsr_ancient_c_deposit_energy_1_blocker:0 "Destroyed underground power station"
+ apsr_ancient_c_deposit_energy_1_blocker_desc:0 "Once an active energy complex, the passage of time has deteriorated its structural integrity. Though nothing more than a pile of scrap metal and stones today, with great effort, it can be brought back to working order."
+ 
+ apsr_ancient_c_deposit_energy_2:0 "Hydroelectric complex"
+ apsr_ancient_c_deposit_energy_2_desc:0 "A massive network of hydroelectric plants process the raw force of nature, manifested through rivers, into energy supplied on a planetary scale."
+ apsr_ancient_c_deposit_energy_2_blocker:0 "Destroyed hydroelectric complex"
+ apsr_ancient_c_deposit_energy_2_blocker_desc:0 "Once an integral part of the global energy generation network, it is but a flooded pile of scrap metal and stones today. With great effort it may once be brought to working order."
+ 
+ apsr_ancient_c_deposit_energy_3:0 "Solar panel complex"
+ apsr_ancient_c_deposit_energy_3_desc:0 "A massive complex of solar panels converting the light of the local star into energy fed into the planetary network. "
+ apsr_ancient_c_deposit_energy_3_blocker:0 "Broken solar panel complex"
+ apsr_ancient_c_deposit_energy_3_blocker_desc:0 "An array of solar panel lies broken across this planet. With great effort it may be restored to working order."
+ 
+ apsr_ancient_c_deposit_energy_4:0 "Wind power complex"
+ apsr_ancient_c_deposit_energy_4_desc:0 "A complex network of wind turbines make use of the tumultuous winds of this planet to generate energy."
+ apsr_ancient_c_deposit_energy_4_blocker:0 "Broken down wind power network"
+ apsr_ancient_c_deposit_energy_4_blocker_desc:0 "Broken down wind turbines litter a large part of this planet's surface.  With great effort they may be restored to working order."
+ 
+ apsr_ancient_c_deposit_energy_5:0 "Thermonuclear Power Station"
+ apsr_ancient_c_deposit_energy_5_desc:0 "A complex network of thermonuclear reactors that use the power of fusion to produce energy."
+ apsr_ancient_c_deposit_energy_5_blocker:0 "Ruined thermonuclear Power Station"
+ apsr_ancient_c_deposit_energy_5_blocker_desc:0 "The remains of a sprawling thermonuclear power complex can be found here. With great effort it may be restored to working order." 
+ 
+ apsr_ancient_c_deposit_energy_6:0 "Geothermal Power Station"
+ apsr_ancient_c_deposit_energy_6_desc:0 "A massive power plant that harvests the thermal energy of this planet core and processes it into workable energy can be found here."
+ apsr_ancient_c_deposit_energy_6_blocker:0 "Power Station Ruins"
+ apsr_ancient_c_deposit_energy_6_blocker_desc:0 "The remains of an ancient geothermal power plant. While broken down, with great effort it may be restored to working order." 
+ 
+ apsr_ancient_c_deposit_minerals_1:0 "Huge quarry"
+ apsr_ancient_c_deposit_minerals_1_desc:0 "A huge open-pit mine where various minerals close to the surface are extracted. The materials harvested here are then used to supply the planetary complexes."
+ apsr_ancient_c_deposit_minerals_1_blocker:0 "Collapsed quarry"
+ apsr_ancient_c_deposit_minerals_1_blocker_desc:0 "A former huge open-pit strip mine, the passage of time and geological movemements have collapsed the edges and covered the former workable areas. With a sizeable effort it may once be cleaned and a mining installation may be set up."
+ 
+ apsr_ancient_c_deposit_minerals_2:0 "Deep Core mineshaft"
+ apsr_ancient_c_deposit_minerals_2_desc:0 "A mineshaft reaching deep within the planet's bowels, close to the core. Various minerals are extracted here, sent and processed then in the specialised forges that make up the planetary complex."
+ apsr_ancient_c_deposit_minerals_2_blocker:0 "Collapsed mineshaft"
+ apsr_ancient_c_deposit_minerals_2_blocker_desc:0 "Once a very prosperous mining operation, it is now but a hole filled with debris. Usable materials have been detected by our geologists as still being  able to be harvested. By cleaning the debris we may once restore the mining installation and use it for ourselves."
+ 
+ apsr_ancient_c_deposit_minerals_3:0 "Liquido-gaseous extracting operation"
+ apsr_ancient_c_deposit_minerals_3_desc:0 "A complex installation that extracts various fuels and gases from within the planet mantle, then to be processed by the local planetary industry."
+ apsr_ancient_c_deposit_minerals_3_blocker:0 "Extracting operation ruins"
+ apsr_ancient_c_deposit_minerals_3_blocker_desc:0 "Our geophysicists managed to identify a huge reservoir of natural gases and liquid fuels under this planet's mantle. It seems we are not the first to try and harvest these resources, as the remains of an extracting operation can be found here. With a sizeable effort we may set up a gathering operation."
+ 
+ apsr_ancient_c_deposit_minerals_4:0 "Mineral refining operation"
+ apsr_ancient_c_deposit_minerals_4_desc:0 "A facility engaged in the purification of minerals from waste rock. This improves the quality of minerals mined on the planet, some of which are used in supplying the local planetary settlements."
+ apsr_ancient_c_deposit_minerals_4_blocker:0 "Mineral refining wreckage"
+ apsr_ancient_c_deposit_minerals_4_blocker_desc:0 "While it may be but a wreckage now, it was a very efficient mineral enrichment operation a long time ago. With great effort it may be restored to working order."
+ 
+ apsr_ancient_c_deposit_food_1:0 "Underground farming complex"
+ apsr_ancient_c_deposit_food_1_desc:0 "Vast underground spaces designated for farming can be found in the bowels of this Ancient World."
+ apsr_ancient_c_deposit_food_1_blocker:0 "Colapsed farming complex"
+ apsr_ancient_c_deposit_food_1_blocker_desc:0 "The remains of a sprawling underground farming complex, deteriorated by age and geological movements. While not beyond recovery, it will take a sizeable investment to bring it back to working order."
+ 
+ apsr_ancient_c_deposit_food_2:0 "GMO - Plant Laboratory"
+ apsr_ancient_c_deposit_food_2_desc:0 "A facility where plants are modified and enhanced to be more resilient, produce more, and grow faster. The workings that take place here enhance the overal agricultural output of the planet."
+ apsr_ancient_c_deposit_food_2_blocker:0 "Ruined GMP - Plant Laboratory"
+ apsr_ancient_c_deposit_food_2_blocker_desc:0 "A ruined facility where genetic modification of plants took place. While most of the research is gone, and the equipement is beyond recovery, we may attempt to restore it."
+ 
+ apsr_ancient_c_deposit_food_3:0 "GMA - Animal Laboratory"
+ apsr_ancient_c_deposit_food_3_desc:0 "A facility where animals are modified and enhanced to better serve in agriculture. It improves the food output of the planet."
+ apsr_ancient_c_deposit_food_3_blocker:0 "Ruined GMA - Animal Laboratory"
+ apsr_ancient_c_deposit_food_3_blocker_desc:0 "A ruined facility where the genetic modification of animals took place. While most of the equipement is ruined, we may attempt to restore it."
+ 
+ ## Древние депозиты для Древнего мира без комплексов
+ 
+ apsr_ancient_deposit_blocker:0 "$apsr_ancient_c_deposit_blocker$"
+ apsr_ancient_deposit_blocker_desc:0 "$apsr_ancient_c_deposit_blocker_desc$"
+ apsr_ancient_deposit_blocker_cleared_tooltip:0 "$apsr_ancient_c_deposit_blocker_cleared_tooltip$"
+ 
+ apsr_ancient_deposit_energy_1:0 "$apsr_ancient_c_deposit_energy_1$"
+ apsr_ancient_deposit_energy_1_desc:0 "A network of ancient generators, supplying energy to the surface of the planet."
+ apsr_ancient_deposit_energy_1_blocker:0 "$apsr_ancient_c_deposit_energy_1_blocker$"
+ apsr_ancient_deposit_energy_1_blocker_desc:0 "$apsr_ancient_c_deposit_energy_1_blocker_desc$"
+ 
+ apsr_ancient_deposit_energy_2:0 "$apsr_ancient_c_deposit_energy_2$"
+ apsr_ancient_deposit_energy_2_desc:0 "On this planet, the flow of rivers is converted into energy, which is used to supply the surrounding buildings."
+ apsr_ancient_deposit_energy_2_blocker:0 "$apsr_ancient_c_deposit_energy_2_blocker$"
+ apsr_ancient_deposit_energy_2_blocker_desc:0 "$apsr_ancient_c_deposit_energy_2_blocker_desc$"
+ 
+ apsr_ancient_deposit_energy_3:0 "$apsr_ancient_c_deposit_energy_3$"
+ apsr_ancient_deposit_energy_3_desc:0 "A network of solar planets that convert the light of the local star into usable energy."
+ apsr_ancient_deposit_energy_3_blocker:0 "$apsr_ancient_c_deposit_energy_3_blocker$"
+ apsr_ancient_deposit_energy_3_blocker_desc:0 "$apsr_ancient_c_deposit_energy_3_blocker_desc$"
+ 
+ apsr_ancient_deposit_energy_4:0 "$apsr_ancient_c_deposit_energy_4$"
+ apsr_ancient_deposit_energy_4_desc:0 "A complex of air turbines that make use of the air movements of the planet to produce energy."
+ apsr_ancient_deposit_energy_4_blocker:0 "$apsr_ancient_c_deposit_energy_4_blocker$"
+ apsr_ancient_deposit_energy_4_blocker_desc:0 "$apsr_ancient_c_deposit_energy_4_blocker_desc$"
+ 
+ apsr_ancient_deposit_energy_5:0 "$apsr_ancient_c_deposit_energy_5$"
+ apsr_ancient_deposit_energy_5_desc:0 "A complex of thermonuclear power plants that make use of the power of fusion to produce energy."
+ apsr_ancient_deposit_energy_5_blocker:0 "$apsr_ancient_c_deposit_energy_5_blocker$"
+ apsr_ancient_deposit_energy_5_blocker_desc:0 "$apsr_ancient_c_deposit_energy_5_blocker_desc$"
+ 
+ apsr_ancient_deposit_energy_6:0 "$apsr_ancient_c_deposit_energy_6$"
+ apsr_ancient_deposit_energy_6_desc:0 "A powerplant that makes use of the planet's geothermal energy."
+ apsr_ancient_deposit_energy_6_blocker:0 "$apsr_ancient_c_deposit_energy_6_blocker$"
+ apsr_ancient_deposit_energy_6_blocker_desc:0 "$apsr_ancient_c_deposit_energy_6_blocker_desc$"
+ 
+ apsr_ancient_deposit_minerals_1:0 "$apsr_ancient_c_deposit_minerals_1$"
+ apsr_ancient_deposit_minerals_1_desc:0 "An open-pit strip mine where various mining operation take place."
+ apsr_ancient_deposit_minerals_1_blocker:0 "$apsr_ancient_c_deposit_minerals_1_blocker$"
+ apsr_ancient_deposit_minerals_1_blocker_desc:0 "$apsr_ancient_c_deposit_minerals_1_blocker_desc$"
+ 
+ apsr_ancient_deposit_minerals_2:0 "$apsr_ancient_c_deposit_minerals_2$"
+ apsr_ancient_deposit_minerals_2_desc:0 " A very deep mining shaft that leads into the bowels of the planet. Usable minerals are extracted from the deepest parts."
+ apsr_ancient_deposit_minerals_2_blocker:0 "$apsr_ancient_c_deposit_minerals_2_blocker$"
+ apsr_ancient_deposit_minerals_2_blocker_desc:0 "$apsr_ancient_c_deposit_minerals_2_blocker_desc$"
+ 
+ apsr_ancient_deposit_minerals_3:0 "$apsr_ancient_c_deposit_minerals_3$"
+ apsr_ancient_deposit_minerals_3_desc:0 "A complex installation where gases and liquid fuels are extracted."
+ apsr_ancient_deposit_minerals_3_blocker:0 "$apsr_ancient_c_deposit_minerals_3_blocker$"
+ apsr_ancient_deposit_minerals_3_blocker_desc:0 "$apsr_ancient_c_deposit_minerals_3_blocker_desc$"
+ 
+ apsr_ancient_deposit_minerals_4:0 "$apsr_ancient_c_deposit_minerals_4$"
+ apsr_ancient_deposit_minerals_4_desc:0 "A facility where minerals are purified, improving the overal output of the planet's mining operations."
+ apsr_ancient_deposit_minerals_4_blocker:0 "$apsr_ancient_c_deposit_minerals_4_blocker$"
+ apsr_ancient_deposit_minerals_4_blocker_desc:0 "$apsr_ancient_c_deposit_minerals_4_blocker_desc$"
+ 
+ apsr_ancient_deposit_minerals_5:0 "Offshore mining platform"
+ apsr_ancient_deposit_minerals_5_desc:0 "A platform that manages the surrounding seafloor mining operations."
+ apsr_ancient_deposit_minerals_5_blocker:0 "Platform wreckage"
+ apsr_ancient_deposit_minerals_5_blocker_desc:0 "Ruins of a former mining platform can be found scattered around the seafloor. While beyond recovery, the presence of rich mineral deposits still in the area could make it worthwile to build a replacement." 
+ 
+ apsr_ancient_deposit_minerals_6:0 "Rich ocean floor"
+ apsr_ancient_deposit_minerals_6_desc:0 "Various mineral deposits can be found scattered across the ocean floor."
+ apsr_ancient_deposit_minerals_6_blocker:0 "Seafloor ruins"
+ apsr_ancient_deposit_minerals_6_blocker_desc:0 "Scattered fragments of a former mining installation ltter the ocean floor. With a sizeable investement and lots of effort we may bring it back to working order."
+ 
+ apsr_ancient_deposit_food_1:0 "$apsr_ancient_c_deposit_food_1$"
+ apsr_ancient_deposit_food_1_desc:0 "A sprawling underground farming complex can be found on this Ancient world."
+ apsr_ancient_deposit_food_1_blocker:0 "$apsr_ancient_c_deposit_food_1_blocker$"
+ apsr_ancient_deposit_food_1_blocker_desc:0 "$apsr_ancient_c_deposit_food_1_blocker_desc$"
+ 
+ apsr_ancient_deposit_food_2:0 "$apsr_ancient_c_deposit_food_2$"
+ apsr_ancient_deposit_food_2_desc:0 "A facility where plants are genetically engineered for agricultural purposes."
+ apsr_ancient_deposit_food_2_blocker:0 "$apsr_ancient_c_deposit_food_2_blocker$"
+ apsr_ancient_deposit_food_2_blocker_desc:0 "$apsr_ancient_c_deposit_food_2_blocker_desc$"
+ 
+ apsr_ancient_deposit_food_3:0 "$apsr_ancient_c_deposit_food_3$"
+ apsr_ancient_deposit_food_3_desc:0 "A facility where animals are genetically engineered in order to improve agricultural output."
+ apsr_ancient_deposit_food_3_blocker:0 "$apsr_ancient_c_deposit_food_3_blocker$"
+ apsr_ancient_deposit_food_3_blocker_desc:0 "$apsr_ancient_c_deposit_food_3_blocker_desc$"
+ 
+ apsr_ancient_deposit_food_4:0 "Algae Farms"
+ apsr_ancient_deposit_food_4_desc:0 "A farming complex making use of lakes to grow certain species of edible algae."
+ apsr_ancient_deposit_food_4_blocker:0 "Algae"
+ apsr_ancient_deposit_food_4_blocker_desc:0 "A multitude of edible algae grow in this area. Estabilishing a farming complex to make use of them is recommended."
+ 
+ apsr_ancient_deposit_food_5:0 "Huge plantation"
+ apsr_ancient_deposit_food_5_desc:0 "A good part of this planet's surface area is occupied by a sprawling plantation."
+ apsr_ancient_deposit_food_5_blocker:0 "Fertile soil"
+ apsr_ancient_deposit_food_5_blocker_desc:0 "The level of fertility displayed by the lithosphere is outstaning by our standards. The advisors recommend making use of this and estabilish a farming operation."
+ 
+ apsr_ancient_deposit_food_6:0 "Animal rearing complex"
+ apsr_ancient_deposit_food_6_desc:0 "A good part of this planet's surface is occupied by a sprawling network of animal husbandry operations."
+ apsr_ancient_deposit_food_6_blocker:0 "Outstaning animal feed"
+ apsr_ancient_deposit_food_6_blocker_desc:0 "The flora of this planet displays impressive nutritional value; it can be used to grow and rear animals. However it will take a lot of effort to properly harvest it."
+ 
+ ## Уникальные депозиты для уникального мира 
+ 
+ apsr_unique_deposit_blocker:0 "Explore the Unique World"
+ apsr_unique_deposit_blocker_desc:0 "$apsr_ancient_c_deposit_blocker_desc$"
+ apsr_unique_deposit_blocker_cleared_tooltip:0 "$apsr_ancient_c_deposit_blocker_cleared_tooltip$"
+ 
+ apsr_unique_deposit_energy_1:0 "Powerful winds"
+ apsr_unique_deposit_energy_1_desc:0 "The winds that circle this planet reach impressive speed."
+ apsr_unique_deposit_energy_2:0 "Powerful streams"
+ apsr_unique_deposit_energy_2_desc:0 "The streams of some rivers on this planet are unusually fast."
+ apsr_unique_deposit_energy_3:0 "Bright sun"
+ apsr_unique_deposit_energy_3_desc:0 "Due to a very thin ozone layer, the radiation emitted by the local star hits this planet in full force." 
+ apsr_unique_deposit_minerals_1:0 "High mountains"
+ apsr_unique_deposit_minerals_1_desc:0 "The mountains on this planet reach very impressive heights."
+ apsr_unique_deposit_minerals_2:0 "Rich deposits"
+ apsr_unique_deposit_minerals_2_desc:0 "Mineral rich pockets litter this planet's crust."
+ apsr_unique_deposit_minerals_3:0 "Unique minerals"
+ apsr_unique_deposit_minerals_3_desc:0 "Some unique elements can be found on this planet."
+ apsr_unique_deposit_food_1:0 "Unique flora"
+ apsr_unique_deposit_food_1_desc:0 "The flora of this planet evolved in a very peculiar way."
+ apsr_unique_deposit_food_2:0 "Unique fauna"
+ apsr_unique_deposit_food_2_desc:0 "The fauna of this planet evolved in a very peculiar way."
+ apsr_unique_deposit_food_3:0 "Unique soil"
+ apsr_unique_deposit_food_3_desc:0 "The soil of this planet is unusually fertile."
+ 
+  
+ 
+ ### модификаторы терраформинга
+ 
+ apsr_terraforming_candidate:0 "Valuable world"
+ apsr_terraforming_candidate_desc:0 "Valuable resource is present on this planet.\nWhile it is currently uninhabitable, by terraforimg it to suit our needs we may estabilish a colony."
+ 
+ apsr_restoration_candidate:0 "Valuable world"
+ apsr_restoration_candidate_desc:0 "Valuable resource is present on this planet.\nDestroyed long ago by an explosion that decimated it's core, this planet is impossible to settle. However, we can try to restore it, though it will take tremendous resources."
+ 
+ apsr_unshielded_candidate:0 "Valuable world"
+ apsr_unshielded_candidate_desc:0 "Valuable resource is present on this planet.\nThis planet was enclosed in an impenetrable barrier a long time ago. We can try to remove it and estabilish a colony on it, but any being on the planet, living or mechanical, will be destroyed."
+ 
+ apsr_uninfected_candidate:0 "Valuable world"
+ apsr_uninfected_candidate_desc:0 "Valuable resource is present on this planet.\nPrethoryn Scourge once infected this planet, turning it into an Infected World, which was then cleared using planetary bombing. However, we can try to restore it, though it will take tremendous resources."
+
+ 
+ 
+ ### Раздел технологий
+  
+ apsr_knowledge_tech:0 "Ancient Knowledge"
+ apsr_knowledge_tech_desc:0 "Technologies of the Ancients"
+ 
+ 
+ 
+ 
+ ### Особые Сообщения
+ 
+ # нахождение остекленного мира
+ apsr.8.name:0 "Glassed world"
+ apsr.8.desc:0 "While exploring the star system [From.Planet.Solar_System.GetName], the research team of the [Root.GetName] discovered a strange planet. Judging by the traces, [From.Planet.GetName] was bombarded with plasma shells for a very long time, as a result of which the entire surface of the planet heated up to a tremendous temperature, melted, and then froze in the form of an endless glass ocean. It is especially worth highlighting the fact that most likely, during the bombing, this planet was densely populated. It is difficult to imagine the horror that the inhabitants of this planet experienced during the bombardment."
+ apsr.8.ok:0 "Terrible sight"
+ 
+ # предупреждение если мод включен не со старта
+ apsr.31.title:0 "§RATTENTION§!"
+ apsr.31.desc:0 "The main content of the mod is special planets that appear at the start of the game. If you start using the mod after the start of the game, no special planets will be generated. But this can be fixed - to generate special modifiers on random planets for the possibility of terraforming these planets.\n\nGenerate?"
+ apsr.31.button.yes:0 "Yes"
+ apsr.31.button.no:0 "No"
+  
+ 
+ 
+ ### Прочее
+ apsr_knowledges_found:0 "Found $apsr_knowledge$:"
+ AI_discount_APSR:0 "AI discount"
+ planet_apsr_buildings:0 "Unique buildings"
+ mod_planet_apsr_buildings_cost_mult:0 "Unique buildings cost"
+ tech_apsr_special:0 "TECHONOLOGY BLOCK"
+ tech_apsr_special_desc:0 "THIS IS A SPECIAL TECHNOLOGY THAT BLOCKS THE APPEARANCE OF FURTHER ENCLAVE TECHNOLOGIES ONCE THE CODE IS EXECUTED (RANDOM TECHONOLOGIES NOT YET BLOCKED). IT IS IMPOSSIBLE TO REASEARCH IT!"
+ apsr_knowledge_building_info:0 "§W--------------§!\n§YDuring the exploitation of this building, our scientists study its interaction with a local unique resource, while receiving £apsr_knowledge£ §M$apsr_knowledge$§!. Having accumulated enough £apsr_knowledge£ §M$apsr_knowledge$§!, it will be possible to start developing an improved version of the building.§!"
+ apsr_building_fake_desc:0 "§RWe don't have the technology to use this building! §!\n§HThe operability will be restored after studying the necessary technology§!"

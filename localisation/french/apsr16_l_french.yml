@@ -1,0 +1,156 @@
+﻿l_french:
+ 
+
+ 
+ ### ресурс
+ 
+ apsr16_planet_modifier:0 "Science Planetary Complex"
+ apsr16_planet_modifier_desc:0 "This whole planet is a holistic archive of knowledge gathered by an ancient civilization. While it is a ruin at the moment, it can be restored to its former glory."
+ 
+ apsr16_deposit:0 "$apsr16_planet_modifier$"
+ apsr16_deposit_desc:0 "$apsr16_planet_modifier_desc$\n\n§M$apsr16_deposit_effect$§!" 
+ apsr16_deposit_effect:0 "Unique resource available: $apsr16_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr16_building_part1_text:0 "A shadow of past greatness."
+ 
+ apsr16_building_part2_text:0 "Fraction of the restored Science Planetary Complex"
+ 
+ apsr16_building_part3_text:0 "Partly restored Science Planetary Complex"
+ 
+ apsr16_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr16_building_fake_predesc:0 "§MUnique building§!\n§RWe don't have the proper technologies to maximize the output of this building!§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr16_building_part1:0 "Science Planetary Complex: Incipient"
+ apsr16_building_part1_desc:0 "$apsr16_building_predesc$\n$apsr16_building_part1_text$"
+ 
+ apsr16_building_part2:0 "Science Planetary Complex: Section"
+ apsr16_building_part2_desc:0 "$apsr16_building_predesc$\n$apsr16_building_part2_text$"
+ 
+ apsr16_building_part3:0 "Science Planetary Complex"
+ apsr16_building_part3_desc:0 "$apsr16_building_predesc$\n$apsr16_building_part3_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr16_building_part1:0 "Restoring the Complex: Stage 1"
+ tech_apsr16_building_part1_desc:0 "The artifacts of the bygone civilization can and must be used."
+ TECH_APSR16_PART1_TITLE:0 "§HBuilding:§! $apsr16_building_part1$"
+ TECH_APSR16_PART1_DESC:0 "$apsr16_building_part1_desc$"
+ 
+ tech_apsr16_building_part2:0 "Restoring the Complex: Stage 2"
+ tech_apsr16_building_part2_desc:0 "The artifacts of the bygone civilization can and must be used."
+ TECH_APSR16_PART2_TITLE:0 "§HBuilding:§! $apsr16_building_part2$"
+ TECH_APSR16_PART2_DESC:0 "$apsr16_building_part2_desc$"
+ 
+ tech_apsr16_building_part3:0 "Restoring the Complex: Stage 3"
+ tech_apsr16_building_part3_desc:0 "The artifacts of the bygone civilization can and must be used."
+ TECH_APSR16_PART3_TITLE:0 "§HBuilding:§! $apsr16_building_part3$"
+ TECH_APSR16_PART3_DESC:0 "$apsr16_building_part3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.16001.title:0 "$apsr16_building_part1$ completed"
+ apsr.16001.desc:0 "We have built the §Y$apsr16_building_part1$§!, and this is just the beginning of the restoration of the former greatness of the planetary complex."
+ apsr.16001.ok-button:0 "Perfect"
+ 
+ apsr.16002.title:0 "$apsr16_building_part2$ completed"
+ apsr.16002.desc:0 "We have finished the §Y$apsr16_building_part2$§!! This is a truly great breakthrough!"
+ apsr.16002.ok-button:0 "Perfect"
+ 
+ apsr.16003.title:0 "$apsr16_building_part3$ completed"
+ apsr.16003.desc:0 "We have partly rebuilt the §YScience Planetary Complex§! and got access to the heights of technological development!"
+ apsr.16003.ok-button:0 "Perfect"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.16011.title:0 "Detected: §M$apsr16_planet_modifier$§!"
+ apsr.16011.desc:0 "A research group from the science ship §H[Root.GetName]§! led by §H[Root.GetLeaderName]§! has discovered something peculiar!\nThe whole planet appears to be a holistic archive of knowledge gathered by an ancient civilization. While it is a ruin at the moment, it can be restored to its former glory."
+ apsr.16011.button:1 "We must get this artifact!"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.16013.title:0 "Detected: §M$apsr16_planet_modifier$§!"
+ apsr.16013.desc:0 "Something peculiar has been found on one of our newly acquired worlds. \nThe whole planet appears to be a holistic archive of knowledge gathered by an ancient civilization. While it is a ruin at the moment, it can be restored to its former glory."
+ apsr.16013.button:1 "Great!"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.16015.title:0 "Detected: §M$apsr16_planet_modifier$§!"
+ apsr.16015.desc:0 "Our intelligence services, while checking for information about the planets of other empires, has found something interesting!\nOne of the planets appears to be a holistic archive of knowledge gathered by an ancient civilization. While it is a ruin at the moment, it can be restored to its former glory.\n\n§GInformation:§!\n§YPlanet name:§! §W[event_target:apsr16_planet_target.GetName]§! \n§YPlanet class:§! §W[event_target:apsr16_planet_target.GetClassName]§! \n§YSolar system name:§! §W[event_target:apsr16_planet_target.solar_system.GetName]§! \n§YPlanet owner:§! §W[event_target:apsr16_planet_target.Owner.GetName]§!"
+ apsr.16015.button:1 "Interesting!"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr16_special:0 "$apsr16_planet_modifier$"
+ apsr16_special_desc:0 "$apsr16_planet_modifier_desc$"
+ 
+ APSR16_MESSAGE_SR_INFORMED_TITLE:0 "Information about a unique planet"
+ APSR16_MESSAGE_SR_INFORMED:0 "We received information about a special resource called §M$apsr16_planet_modifier$§!, which is located on the planet §Y$PLANET$§! under control of the §Y$COUNTRY$§!."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr16_anomaly:0 "Interesting data"
+ apsr16_anomaly_desc:0 "During the survey of [From.GetName]'s surface we aquired data that definitely needs further investigation."
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.16601.title:0 "$apsr.16011.title$"
+ apsr.16601.desc:0 "$apsr.16011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr16_planet_scientist_normal:0 "Scientists of the Science Planetary Complex"
+ job_apsr16_scientist_normal:0 "Scientist of the Science Planetary Complex"
+ job_apsr16_scientist_normal_plural:0 "Scientists of the Science Planetary Complex"
+ job_apsr16_scientist_normal_desc:0 "Scientists of the Science Planetary Complex explore archives left over from the ancient civilization in search of knowledge, technology and information."
+ mod_job_apsr16_scientist_normal_add:0 "Scientist of the Science Planetary Complex"
+   
+ apsr16_planet_scientist_hive:0 "Drones of the Science Planetary Complex"
+ job_apsr16_scientist_hive:0 "Drone of the Science Planetary Complex"
+ job_apsr16_scientist_hive_plural:0 "Drones of the Science Planetary Complex"
+ job_apsr16_scientist_hive_desc:0 "Drones of the Science Planetary Complex explore archives left over from the ancient civilization in search of knowledge, technology and information."
+ mod_job_apsr16_scientist_hive_add:0 "Drone of the Science Planetary Complex"
+   
+ apsr16_planet_scientist_machine:0 "Drones of the Science Planetary Complex"
+ job_apsr16_scientist_machine:0 "Drone of the Science Planetary Complex"
+ job_apsr16_scientist_machine_plural:0 "Drones of the Science Planetary Complex"
+ job_apsr16_scientist_machine_desc:0 "Drones of the Science Planetary Complex explore archives left over from the ancient civilization in search of knowledge, technology and information."
+ mod_job_apsr16_scientist_machine_add:0 "Drone of the Science Planetary Complex"
+  
+ mod_job_apsr16_scientist_normal_per_pop:2 "§G+1§! $job_apsr16_scientist_normal$ for each $VALUE$ pops"
+ mod_job_apsr16_scientist_normal_per_pop_short:0 "\n$mod_job_apsr16_scientist_normal_per_pop$"
+ mod_job_apsr16_scientist_hive_per_pop:2 "§G+1§! $job_apsr16_scientist_hive$ for each $VALUE$ pops"
+ mod_job_apsr16_scientist_hive_per_pop_short:0 "\n$mod_job_apsr16_scientist_hive_per_pop$"
+ mod_job_apsr16_scientist_machine_per_pop:2 "§G+1§! $job_apsr16_scientist_machine$ for each $VALUE$ pops"
+ mod_job_apsr16_scientist_machine_per_pop_short:0 "\n$mod_job_apsr16_scientist_machine_per_pop$"
+ 
+ 
+ 
+ 
+ 

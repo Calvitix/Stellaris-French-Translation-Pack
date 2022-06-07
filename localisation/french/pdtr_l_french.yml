@@ -1,0 +1,104 @@
+﻿l_french:
+
+# Technologies
+tech_terrestrial_biome_manipulation:0 "Terrestrial Biome Manipulation"
+tech_terrestrial_biome_manipulation_desc:0 "These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy."
+tech_unlock_terrestrial_biome_manipulation_title:0 "§HUnlocks Terraforming:§! Biome Alteration"
+tech_unlock_terrestrial_biome_manipulation_desc:0 "Allows us to shift planetary biomes between Wet, Dry, and Frozen planet classes."
+
+tech_terraforming_reconstruction:0 "Terraforming: Planet Reconstruction"
+tech_terraforming_reconstruction_desc:0 "Through gravitational field modifications we are able to reconstruct destroyed planets."
+tech_unlock_terraforming_reconstruction:0 "§HUnlocks Terraforming:§! $pc_broken$\n§HUnlocks Terraforming:§! $pc_shattered$"
+
+tech_terraforming_frozen:0 "Terraforming: Frozen Worlds"
+tech_terraforming_frozen_desc:0 "Through the installation of an innumerable number of portable space heaters we can make any frozen world habitable."
+tech_unlock_terraforming_frozen:0 "§HUnlocks Terraforming:§! $pc_frozen$"
+
+tech_terraforming_molten:0 "Terraforming: Molten Worlds"
+tech_terraforming_molten_desc:0 "We have developed sub-orbital industrial air conditioning units capable of absorbing massive amounts of heat and expelling it into space. The air filters must be cleaned regularly due to high ambient amounts of volcanic ash."
+tech_unlock_terraforming_molten:0 "§HUnlocks Terraforming:§! $pc_molten$"
+
+tech_terraforming_barren:0 "Terraforming: Barren Worlds"
+tech_terraforming_barren_desc:0 "Developing an artificial magnetosphere enables the creation of an atmosphere on even the most lifeless of planets."
+tech_unlock_terraforming_barren:0 "§HUnlocks Terraforming:§! $pc_barren$\n§HUnlocks Terraforming:§! Barren Cold World"
+
+tech_terraforming_toxic:0 "Terraforming: Toxic Worlds"
+tech_terraforming_toxic_desc:0 "Construction of orbital atmosphere renewers allow us to filter out elements hostile to sentient life."
+tech_unlock_terraforming_toxic:0 "§HUnlocks Terraforming:§! $pc_toxic$\n§HUnlocks Terraforming:§! $pc_hothouse$"
+
+# Modifiers
+mod_country_sr_zro_produces_mult:0 "Monthly $sr_zro$"
+mod_country_sr_zro_produces_add:0 "$mod_country_sr_zro_produces_mult$"
+
+# Ascension Perks
+ap_breath_of_creation:0 "Breath of Creation"
+ap_breath_of_creation_desc:0 "With time any planet in the universe can be altered to support life."
+requires_ap_world_shaper_tier:1 "$TRIGGER_FAIL$Requires one of the following Ascension Perks:\n§Y$ap_world_shaper$§!\n§Y$ap_hive_worlds$§!\n§Y$ap_machine_worlds$§!"
+
+ap_sublunaris_progressus:0 "Sublunaris Progressus"
+ap_sublunaris_progressus_desc:0 "There is no limits to our creativity or ingenuity. Any planet can be transformed to meet our specifications."
+requires_ap_breath_of_creation:1 "$TRIGGER_FAIL$Requires the §Y$ap_breath_of_creation$§! Ascension Perk."
+allow_gaia_any:0 "§HUnlocks Megastructure:§! Gaia Transformation Module\n§HUnlocks Terraforming:§! Allows us to terraform worlds from any planet class to §MRare§! planet classes."
+
+# Gaia Transformation Module Megastructure
+is_gaia_transformation:0 "$TRIGGER_FAIL$Must be a §Y$pc_pd_gas_giant_hab$§!, §Y$pc_pd_barren_hab$§!, §YBarren Cold Habitat§!, §Y$pc_pd_molten_hab$§!, §Y$pc_pd_frozen_hab$§!, §Y$pc_pd_hothouse_hab$§!, §Y$pc_pd_asteroid_hab$§!, or §Y$pc_pd_toxic_hab$§!."
+gaia_transformation_0:0 "Gaia Transformation Module"
+gaia_transformation_0_DESC:0 "Gaia Transformation Module"
+gaia_transformation_0_MEGASTRUCTURE_DETAILS:1 "Transform a planetary habitat into a §Y$pc_gaia$§! with  §G10 constructed districts§!."
+gaia_transformation_0_CONSTRUCTION_INFO_DELAYED:4 "An ideal, temperate world with a nitrogen-oxygen atmosphere and a resilient ecosystem. Optimal conditions for all known higher forms of life at different latitudes."
+
+# Policies
+policy_terraforming_basic:0 "Terraforming Options: Basic"
+policy_terraforming_basic_desc:0 "Allows the terraforming of planets to basic planet classes."
+terraforming_basic_visible:0 "Basic: Visible"
+terraforming_basic_visible_desc:0 "Displays the 45 basic planet classes in the terraforming window. Can be further filtered with Wet, Dry, and Frozen policy options. No, I'm not going to list them all here. There are too many."
+terraforming_basic_invisible:0 "Basic: Hidden"
+terraforming_basic_invisible_desc:0 "Hides the 45 basic planet classes in the terraforming window."
+
+policy_terraforming_rare:0 "Terraforming Options: Rare"
+policy_terraforming_rare_desc:0 "Allows the terraforming of planets to rare planet classes."
+terraforming_rare_visible:0 "Rare: Visible"
+terraforming_rare_visible_desc:0 "Displays the 18 rare planet classes in the terraforming window. Can be further filtered with Wet, Dry, and Frozen policy options. The full list of planet classes are listed below:\n§G$pc_geothermal$§!\n§G$pc_superhabitable$§!\n§G$pc_biolumen$§!\n§G$pc_megaflora$§!\n§G$pc_karst$§!\n§G$pc_reef$§!\n§H$pc_tidallylocked$§!\n§H$pc_coral$§!\n§H$pc_salt$§!\n§H$pc_primal$§!\n§H$pc_supercon$§!\n§H$pc_aquifer$§!\n§E$pc_storm$§!\n§E$pc_rogue$§!\n§E$pc_eyeball$§!\n§E$pc_glacio$§!\n§E$pc_lanthanide$§!\n§E$pc_lichen$§!"
+terraforming_rare_invisible:0 "Rare: Hidden"
+terraforming_rare_invisible_desc:0 "Hides the 18 rare planet classes in the terraforming window."
+
+policy_terraforming_special:0 "Terraforming Options: Special"
+policy_terraforming_special_desc:0 "Allows the terraforming of planets to special planet classes."
+terraforming_special_visible:0 "Special: Visible"
+terraforming_special_visible_desc:0 "Displays the 9 special planet classes in the terraforming window. The full list of planet classes are listed below:\n§M$pc_ammonia$§!\n§M$pc_methane$§!\n§M$pc_irradiated$§!\n§M$pc_ash$§!\n§M$pc_acid$§!\n§M$pc_sulfur$§!\n§M$pc_gaia$§!\n§M$pc_aquatic$§!\n§M$pc_hive$§!\n§M$pc_machine$§!\n"
+terraforming_special_invisible:0 "Special: Hidden"
+terraforming_special_invisible_desc:0 "Hides the 9 special planet classes in the terraforming window."
+
+policy_terraforming_wet:0 "Terraforming Options: Wet"
+policy_terraforming_wet_desc:0 "Allows the terraforming of planets to wet planet classes."
+terraforming_wet_visible:0 "Wet: Visible"
+terraforming_wet_visible_desc:0 "Displays the 21 wet planet classes in the terraforming window. Can be further filtered by basic and rare policy options. The full list of planet classes are listed below:\n§G$pc_continental$§!\n§G$pc_ocean$§!\n§G$pc_tropical$§!\n§G$pc_cascadian$§!\n§G$pc_desertislands$§!\n§G$pc_wetswamp$§!\n§G$pc_subarctic$§!\n§G$pc_mangrove$§!\n§G$pc_hajungle$§!\n§G$pc_retinal$§!\n§G$pc_forest$§!\n§G$pc_lake$§!\n§G$pc_tepid$§!\n§G$pc_cenote$§!\n§G$pc_fog$§!\n§M$pc_geothermal$§!\n§M$pc_superhabitable$§!\n§M$pc_biolumen$§!\n§M$pc_megaflora$§!\n§M$pc_karst$§!\n§M$pc_reef$§!"
+terraforming_wet_invisible:0 "Wet: Hidden"
+terraforming_wet_invisible_desc:0 "Hides the 21 wet planet classes in the terraforming window."
+
+policy_terraforming_dry:0 "Terraforming Options: Dry"
+policy_terraforming_dry_desc:0 "Allows the terraforming of planets to dry planet classes."
+terraforming_dry_visible:0 "Dry: Visible"
+terraforming_dry_visible_desc:0 "Displays the 21 dry planet classes in the terraforming window. Can be further filtered by basic and rare policy options. The full list of planet classes are listed below:\n§H$pc_desert$§!\n§H$pc_arid$§!\n§H$pc_savannah$§!\n§H$pc_steppe$§!\n§H$pc_sandsea$§!\n§H$pc_outback$§!\n§H$pc_oasis$§!\n§H$pc_mesa$§!\n§H$pc_hadesert$§!\n§H$pc_prairie$§!\n§H$pc_med$§!\n§H$pc_veld$§!\n§H$pc_semiarid$§!\n§H$pc_badlands$§!\n§H$pc_coastal$§!\n§M$pc_tidallylocked$§!\n§M$pc_coral$§!\n§M$pc_salt$§!\n§M$pc_primal$§!\n§M$pc_supercon$§!\n§M$pc_aquifer$§!"
+terraforming_dry_invisible:0 "Dry: Hidden"
+terraforming_dry_invisible_desc:0 "Hides the 21 dry planet classes in the terraforming window."
+
+policy_terraforming_frozen:0 "Terraforming Options: Frozen"
+policy_terraforming_frozen_desc:0 "Allows the terraforming of planets to frozen planet classes."
+terraforming_frozen_visible:0 "Frozen: Visible"
+terraforming_frozen_visible_desc:0 "Displays the 21 frozen planet classes in the terraforming. Can be further filtered by basic and rare policy options. The full list of planet classes are listed below:\n§E$pc_arctic$§!\n§E$pc_alpine$§!\n§E$pc_tundra$§!\n§E$pc_swamp$§!\n§E$pc_frozen_desert$§!\n§E$pc_highland$§!\n§E$pc_glacial$§!\n§E$pc_boreal$§!\n§E$pc_mushroom$§!\n§E$pc_antarctic$§!\n§E$pc_snow$§!\n§E$pc_mud$§!\n§E$pc_basalt$§!\n§E$pc_aeolian$§!\n§E$pc_duneforest$§!\n§M$pc_storm$§!\n§M$pc_rogue$§!\n§M$pc_eyeball$§!\n§M$pc_glacio$§!\n§M$pc_lanthanide$§!\n§M$pc_lichen$§!"
+terraforming_frozen_invisible:0 "Special: Hidden"
+terraforming_frozen_invisible_desc:0 "Hides the 21 frozen planet classes in the terraforming window."
+
+terraforming_basic_visible_name:0 "$terraforming_basic_visible$"
+terraforming_basic_invisible_name:0 "$terraforming_basic_invisible$"
+terraforming_rare_visible_name:0 "$terraforming_rare_visible$"
+terraforming_rare_invisible_name:0 "$terraforming_rare_invisible$"
+terraforming_special_visible_name:0 "$terraforming_special_visible$"
+terraforming_special_invisible_name:0 "$terraforming_special_invisible$"
+terraforming_wet_visible_name:0 "$terraforming_wet_visible$"
+terraforming_wet_invisible_name:0 "$terraforming_wet_invisible$"
+terraforming_dry_visible_name:0 "$terraforming_dry_visible$"
+terraforming_dry_invisible_name:0 "$terraforming_dry_invisible$"
+terraforming_frozen_visible_name:0 "$terraforming_frozen_visible$"
+terraforming_frozen_invisible_name:0 "$terraforming_frozen_invisible$"

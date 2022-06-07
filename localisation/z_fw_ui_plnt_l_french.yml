@@ -1,0 +1,237 @@
+﻿l_french:
+#_[面板按钮]
+#_[伞の优化]
+#_[产业革命]   碧蓝航线dlc/舰R/swg/灰烬/涅托/约战/苍蓝    /ACOT/巨构
+
+
+###_[面板按钮]
+ z_fw_btn_plnt_ui_tb_job_check:0 "Checks all jobs on the current planet, and spend £energy£§Y$energy$§! to demote unemployed high-stratum pops."
+ z_fw_tips_pf2_needed:0 "Pop/Manpower Migration \nNeed §BBetter Performance§!"
+ 
+ z_fw_btn_plnt_ui_tb_setting:0 "Open Detailed Planet Settings\nNow supports §BBetter Performance/ Production Revolution§!"
+ z_fw_tips_empty:0 ""
+ z_fw_plnt_ui_setting.name:0 "Detailed Planet Settings"
+ z_fw_plnt_ui_setting.desc:0 "Details about the planet in §BBetter Performance/ Production Revolution§! are displayed here."
+ 
+ z_fw_btn_plnt_ui_tb_checking:0 "Open Detailed Planetary Statistics\nNow supports §BBetter Performance/ Production Revolution§!"
+ z_fw_plnt_ui_setting.check.name:0 "Detailed Planetary Statistics"
+ z_fw_plnt_ui_setting.check.desc:0 "Check detailed planet statistics for §BBetter Performance/ Production Revolution§!"
+ 
+#_决策
+ z_fw_dec_plnt_setting:0 "Open Detailed Planetary Setting"
+ z_fw_dec_plnt_setting_desc:0 "$z_fw_plnt_ui_setting.desc$"
+ z_fw_dec_plnt_checking:0 "Open Detailed Planetary Statistics"
+ z_fw_dec_plnt_checking_desc:0 "$z_fw_plnt_ui_setting.check.desc$"
+
+
+
+
+###_[伞の优化]  ############
+ PF_var_cntr_pop_cap_final:0 "Empire Population Capacity §T---§! [root.owner.PF_var_cntr_pop_cap_final]"
+ PF_var_cntr_pop_increase_bonus:0 "Population Growth Effectiveness §Y(1 is normal)§! §T---§! [root.owner.PF_var_cntr_pop_increase_bonus]"
+ PF_var_plnt_pop_growth:0 "Planetary Population Growth Base Multiplier §T---§! [root.PF_var_plnt_pop_growth]"
+ PF_var_plnt_pop_clone:0 "Planetary Population Clone Base Add §T---§! [root.PF_var_plnt_pop_clone]"
+ PF_var_plnt_pop_assembly:0 "Planetary Population Assembly Base Add §T---§! [root.PF_var_plnt_pop_assembly]"
+
+
+###_[产业革命]  ############    兼容/desc/checking/opt
+ z_pr_tips_spcs_cd:0 "当前国家§H正在执行物种调控§!或§H未完成产业革命§!。"
+ 
+#_[兼容]
+ z_pr_tips_comp_azl:0 "§YAzur Lane Stellaris DLC§! §T---§! Compatible"
+ z_pr_tips_comp_wsg:0 "§YWarship Girls R And MIST Species§! §T---§! Compatible"
+ 
+#_[desc]
+ z_pr_title:0 "§BProduction Revolution $z_pr_version$: §! Settings"
+ z_PR_var:0 "§BProduction Revolution $z_pr_version$: §! Values"
+ 
+ z_pr_tips_var_plnt_guide:0 "§ESee guide and compatibility in §MPR§! setting Panel.§!"
+ z_pr_tips_var_plnt_pop_man:0 "§GTotal Manpower§! [root.PR_var_plnt_HC] = §RManpower§! [root.PR_var_plnt_MAN] + §BPops§! [root.PR_var_plnt_POP]"
+ z_pr_tips_var_cntr_man:0 "§REmpire Manpower§! [root.owner.PR_var_cntr_MAN] /§GEmpire Total Manpower§! [root.owner.PR_var_cntr_HC]"
+ z_pr_tips_var_plnt_man:0 "§RTotal Manpower§! [root.PR_var_plnt_MAN] /§HYWorkshop§! [root.PR_var_plnt_WORKSHOP] = §LUltilization§! [root.PR_var_plnt_ULTILIZATION]"
+ z_pr_tips_var_plnt_man_desc:0 "<more manpower> or <less workshop> means a higher Ultilization."
+ z_pr_tips_var_plnt_man_desc_1:0 "Keep ultilization above 0.7, there will be no production waste."
+ z_pr_tips_var_EFFICIENCY:0 "§Efficiency§! [root.PR_var_plnt_EFFICIENCY] /§LUltilization§! [root.PR_var_plnt_ULTILIZATION] = §YRatio§! [root.PR_var_plnt_RATIO]"
+ z_pr_tips_var_EFFICIENCY_desc:0 "The Ultilization will be converted into Efficiency and provide additional economic bonus, but the higher the ultilization, the lower the conversion Ratio."
+ z_pr_tips_var_plnt_man_cap:0 "§RManpower§! [root.PR_var_plnt_MAN] /§HManpower Capacity§! [root.z_PR_var_plnt_man_beta_max]"
+ z_pr_tips_var_plnt_man_cap_desc:0 "§EManpower Growth slows as it reaches its capacity§!"
+ z_pr_tips_var_plnt_man_growth:0 "§HMonthly growth rate§! §G[root.PR_var_plnt_MAN_rise_RATE]§!"
+ z_pr_tips_var_plnt_man_growth_desc:0 "from natural population growth§B[root.PR_var_plnt_MAN_growth_RATE]§!\nfrom pop assembly§B[root.PR_var_plnt_MAN_assembly_RATE]§!\nManpower Growth Correction Parameters §E[root.PR_var_plnt_MAN_rise_MULT]§!"
+
+#_[checking]
+ z_pr_tips_plnt_man_economy:0 "§EAll §YEconomic Multipliers§! are condensed into one single §BEconomic Modifier§! Value.§!"
+ z_pr_tips_mod_plnt_trade:0 "$MOD_TRADE_VALUE_ADD$ = §G[root.z_PR_var_job_trade_value_add]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_plnt_amenities:0 "$MOD_PLANET_AMENITIES_ADD$ = §G[root.z_PR_var_job_planet_amenities_add]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_plnt_maintain:0 "$MOD_PLANET_AMENITIES_NO_HAPPINESS_ADD$ = §G[root.z_PR_var_job_planet_amenities_no_happiness_add]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_plnt_stability:0 "$MOD_PLANET_STABILITY_ADD$ = §G[root.z_PR_var_job_planet_stability_add]§!"
+ z_pr_tips_mod_plnt_crime:0 "$MOD_PLANET_CRIME_ADD$ = §G[root.z_PR_var_job_planet_crime_add]§!"
+ z_pr_tips_mod_plnt_deviant:0 "$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$ = §G[root.z_PR_var_job_planet_crime_no_happiness_add]§!"
+ z_pr_tips_mod_plnt_tolerance:0 "$MOD_POP_ENVIRONMENT_TOLERANCE$ = §G[root.z_PR_var_job_pop_environment_tolerance]§!"
+ z_pr_tips_var_plnt_job_cntr_navy_add:0 "$MOD_COUNTRY_NAVAL_CAP_ADD$ = §G[root.z_PR_var_job_country_naval_cap_add]§!"
+ z_pr_tips_var_plnt_job_cntr_admin_add:0 "$MOD_COUNTRY_ADMIN_CAP_ADD$ = §G[root.z_PR_var_job_country_admin_cap_add]§!"
+ z_pr_tips_mod_pop_plnt_pdf:0 "$MOD_POP_DEFENSE_ARMIES_ADD$ = §G[root.z_PR_var_job_pop_defense_armies_add]§!"
+ 
+ z_pr_tips_var_plnt_res_all_mult:0 "All Output Modifiers §B = §! §G[root.z_PR_var_plnt_job_produces_mult]§! / All Upkeep Modifiers §B = §! §G[root.z_PR_var_plnt_job_upkeep_mult]§!"
+ z_pr_tips_mod_pop_job_p_v_1e:0 "£energy£§Y$energy$§! Output §B=§! Jobs §G[root.z_PR_var_energy_produces_base]§! * Modifier §G[root.z_PR_var_energy_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_1e:0 "£energy£§Y$energy$§! Upkeep §B=§! Jobs §G[root.z_PR_var_energy_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_1e_add:0 "Manpower: £energy£§Y$energy$§! Upkeep §B=§! §G[root.z_PR_var_man_energy_upkeep_add]§!"
+ z_pr_tips_mod_pop_job_p_v_1m:0 "£minerals£§R$minerals$§! Output §B=§! Jobs §G[root.z_PR_var_minerals_produces_base]§! * Modifier §G[root.z_PR_var_minerals_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_1m:0 "£minerals£§R$minerals$§! Upkeep §B=§! Jobs §G[root.z_PR_var_minerals_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_1m_add:0 "Manpower: £minerals£§R$minerals$§! Upkeep §B=§! §G[root.z_PR_var_man_minerals_upkeep_add]§!"
+ z_pr_tips_mod_pop_job_p_v_1f:0 "£food£§G$food$§! Output §B=§! Jobs §G[root.z_PR_var_food_produces_base]§! * Modifier §G[root.z_PR_var_food_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_1f:0 "£food£§G$food$§! Upkeep §B=§! Jobs §G[root.z_PR_var_food_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_1f_add:0 "Manpower: £food£§G$food$§! Upkeep §B=§! §G[root.z_PR_var_man_food_upkeep_add]§!"
+ z_pr_tips_mod_pop_job_p_v_2a:0 "£alloys£§P$alloys$§! Output §B=§! Jobs §G[root.z_PR_var_alloys_produces_base]§! * Modifier §G[root.z_PR_var_alloys_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_2a:0 "£alloys£§P$alloys$§! Upkeep §B=§! Jobs §G[root.z_PR_var_alloys_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_alloys_man:0 "Manpower: £alloys£§P$alloys$§! Upkeep §B=§! §G[root.z_PR_var_man_alloys_upkeep_add]§!"
+ z_pr_tips_mod_pop_job_p_v_2c:0 "£consumer_goods£§H$consumer_goods$§! Output §B=§! Jobs §G[root.z_PR_var_consumer_goods_produces_base]§! * Modifier §G[root.z_PR_var_consumer_goods_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_2c:0 "£consumer_goods£§H$consumer_goods$§! Upkeep §B=§! Jobs §G[root.z_PR_var_consumer_goods_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_u_v_2c_add:0 "Manpower: £consumer_goods£§H$consumer_goods$§! Upkeep §B=§! §G[root.z_PR_var_man_consumer_goods_upkeep_add]§!"
+ 
+ z_pr_tips_mod_pop_job_p_v_3rc:0 "£rare_crystals£§Y$rare_crystals$§! Output §B=§! Jobs §G[root.z_PR_var_rare_crystals_produces_base]§! * Modifier §G[root.z_PR_var_rare_crystals_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_p_v_3rc_add:0 "Manpower: £rare_crystals£§Y$rare_crystals$§! Output (from traits) §B=§! §G[root.z_PR_var_man_rare_crystals_produces_add]§!"
+ z_pr_tips_mod_pop_job_u_v_3rc:0 "£rare_crystals£§Y$rare_crystals$§! Upkeep §B=§! Jobs §G[root.z_PR_var_rare_crystals_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_3eg:0 "£exotic_gases£§G$exotic_gases$§! Output §B=§! Jobs §G[root.z_PR_var_exotic_gases_produces_base]§! * Modifier §G[root.z_PR_var_exotic_gases_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_p_v_3eg_add:0 "Manpower: £exotic_gases£§G$exotic_gases$§! Output (from traits) §B=§! §G[root.z_PR_var_man_exotic_gases_produces_add]§!"
+ z_pr_tips_mod_pop_job_u_v_3eg:0 "£exotic_gases£§G$exotic_gases$§! Upkeep §B=§! Jobs §G[root.z_PR_var_exotic_gases_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_3vm:0 "£volatile_motes£§B$volatile_motes$§! Output §B=§! Jobs §G[root.z_PR_var_volatile_motes_produces_base]§! * Modifier §G[root.z_PR_var_volatile_motes_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_plnt_man_p_v_3vm_add:0 "Manpower: £volatile_motes£§B$volatile_motes$§! Output (from traits) §B=§! §G[root.z_PR_var_man_volatile_motes_produces_add]§!"
+ z_pr_tips_mod_pop_job_u_v_3vm:0 "£volatile_motes£§B$volatile_motes$§! Upkeep §B=§! Jobs §G[root.z_PR_var_volatile_motes_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ 
+ z_pr_tips_pop_job_p_v_rp:0 "£physics_research£§B$physics_research$§! Output §B=§! Jobs §G[root.z_PR_var_physics_research_produces_base]§! * Modifier §G[root.z_PR_var_physics_research_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_physics_research_man:0 "Manpower: £physics_research£§B$physics_research$§! Output §B=§! §G[root.z_PR_var_man_physics_research_produces_add]§!"
+ z_pr_tips_pop_job_p_v_re:0 "£engineering_research£§H$engineering_research$§! Output §B=§! Jobs §G[root.z_PR_var_engineering_research_produces_base]§! * Modifier §G[root.z_PR_var_engineering_research_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_engineering_research_man:0 "Manpower: £engineering_research£§H$engineering_research$§! Output §B=§! §G[root.z_PR_var_man_engineering_research_produces_add]§!"
+ z_pr_tips_pop_job_p_v_rs:0 "£society_research£§G$society_research$§! Output §B=§! Jobs §G[root.z_PR_var_society_research_produces_base]§! * Modifier §G[root.z_PR_var_society_research_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_society_research_man:0 "Manpower: £society_research£§G$society_research$§! Output §B=§! §G[root.z_PR_var_man_society_research_produces_add]§!"
+ z_pr_tips_pop_job_p_v_ru:0 "£unity£§E$unity$§! Output §B=§! Jobs §G[root.z_PR_var_unity_produces_base]§! * Modifier §G[root.z_PR_var_unity_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_pop_job_u_v_ru:0 "£unity£§E$unity$§! Output §B=§! Jobs §G[root.z_PR_var_unity_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency§G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_unity_man:0 "Manpower: £unity£§E$unity$§! Output §B=§! §G[root.z_PR_var_man_unity_produces_add]§!"
+ 
+ z_pr_tips_mod_pop_job_p_v_slm:0 "£sr_living_metal£§T$sr_living_metal$§! Output §B=§! Jobs §G[root.z_PR_var_sr_living_metal_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_slm:0 "£sr_living_metal£§T$sr_living_metal$§! Upkeep §B=§! Jobs §G[root.z_PR_var_sr_living_metal_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_zro:0 "£sr_zro£§B$sr_zro$§! Output §B=§! Jobs §G[root.z_PR_var_sr_zro_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_zro:0 "£sr_zro£§B$sr_zro$§! Upkeep §B=§! Jobs §G[root.z_PR_var_sr_zro_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_dm:0 "£sr_dark_matter£§E$sr_dark_matter$§! Output §B=§! Jobs §G[root.z_PR_var_sr_dark_matter_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_dm:0 "£sr_dark_matter£§E$sr_dark_matter$§! Upkeep §B=§! Jobs §G[root.z_PR_var_sr_dark_matter_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_p_v_nnt:0 "£nanites£§T$nanites$§! Output §B=§! Jobs §G[root.z_PR_var_nanites_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mod_pop_job_u_v_nnt:0 "£nanites£§T$nanites$§! Upkeep §B=§! Jobs §G[root.z_PR_var_nanites_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+
+ z_pr_tips_mod_pop_job_p_v_ma:0 "£minor_artifacts£§M$minor_artifacts$§! Output §B=§! Jobs §G[root.z_PR_var_minor_artifacts_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_influence_produces_base:0 "£influence£§M$influence$§! Output §B=§! §G[root.z_PR_var_influence_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+
+#_[碧蓝航线DLC]
+ z_pr_tips_mind_club_produces_base:0 "£mind_club£§B$mind_club$§! Output §B=§! Jobs §G[root.z_PR_var_mind_club_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_mind_club_upkeep_base:0 "£mind_club£§B$mind_club$§! Upkeep §B=§! Jobs §G[root.z_PR_var_mind_club_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_azur_shippartbox_produces_base:0 "£azur_shippartbox£§P$azur_shippartbox$§! Output §B=§! Jobs §G[root.z_PR_var_azur_shippartbox_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[舰R]
+ z_pr_tips_sr_pantsu_produces_base:0 "£sr_pantsu£§G$sr_pantsu$§! Output §B=§! Jobs §G[root.z_PR_var_sr_pantsu_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_pantsu_upkeep_base:0 "£sr_pantsu£§G$sr_pantsu$§! Upkeep §B=§! Jobs §G[root.z_PR_var_sr_pantsu_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_neo_produces_base:0 "£sr_neo£§G$sr_neo$§! Output §B=§! Jobs §G[root.z_PR_var_sr_neo_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_neo_upkeep_base:0 "£sr_neo£§G$sr_neo$§! Upkeep §B=§! Jobs §G[root.z_PR_var_sr_neo_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_alpha_produces_base:0 "£sr_alpha£§H$sr_alpha$§! Output §B=§! Jobs §G[root.z_PR_var_sr_alpha_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_alpha_upkeep_base:0 "£sr_alpha£§H$sr_alpha$§! Upkeep §B=§! Jobs §G[root.z_PR_var_sr_alpha_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_se_produces_base:0 "£sr_se£§Y$sr_se$§! Output §B=§! Jobs §G[root.z_PR_var_sr_se_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_se_upkeep_base:0 "£sr_se£§Y$sr_se$§! Upkeep §B=§! Jobs §G[root.z_PR_var_sr_se_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[swg]
+ z_pr_tips_sr_kyber_swgs_produces_base:0 "£sr_kyber_swgs£§G$sr_kyber_swgs$§! Output §B=§! Jobs §G[root.z_PR_var_sr_kyber_swgs_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_kyber_swgs_upkeep_base:0 "£sr_kyber_swgs£§G$sr_kyber_swgs$§! Upkeep §B=§! Jobs §§G[root.z_PR_var_sr_kyber_swgs_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_tibanna_swgs_produces_base:0 "£sr_tibanna_swgs£§G$sr_tibanna_swgs$§! Output §B=§! Jobs §G[root.z_PR_var_sr_tibanna_swgs_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_tibanna_swgs_upkeep_base:0 "£sr_tibanna_swgs£§G$sr_tibanna_swgs$§! Upkeep §B=§! Jobs §§G[root.z_PR_var_sr_tibanna_swgs_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[灰烬]
+ z_pr_tips_sr_crystal_adf_produces_base:0 "£sr_crystal_adf£§G$sr_crystal_adf$§! Output §B=§! Jobs §G[root.z_PR_var_sr_crystal_adf_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_crystal_adf_upkeep_base:0 "£sr_crystal_adf£§G$sr_crystal_adf$§! Upkeep §B=§! Jobs §§G[root.z_PR_var_sr_crystal_adf_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_parts_adf_produces_base:0 "£sr_parts_adf£§G$sr_parts_adf$§! Output §B=§! Jobs §G[root.z_PR_var_sr_parts_adf_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_parts_adf_upkeep_base:0 "£sr_parts_adf£§G$sr_parts_adf$§! Upkeep §B=§! Jobs §§G[root.z_PR_var_sr_parts_adf_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_|涅托|
+ z_pr_tips_GF_nyto_collapse_liquid_produces_base:0 "£GF_nyto_collapse_liquid£§G$GF_nyto_collapse_liquid$§! Output §B=§! Jobs §G[root.z_PR_var_GF_nyto_collapse_liquid_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_GF_nyto_collapse_liquid_man:0 "Manpower: £GF_nyto_collapse_liquid£§Y$GF_nyto_collapse_liquid$§! Upkeep §B=§! §G[root.z_PR_var_man_GF_nyto_collapse_liquid_upkeep_add]§!"
+ z_pr_tips_GF_nyto_dark_star_core_man:0 "Manpower: £GF_nyto_dark_star_core£§Y$GF_nyto_dark_star_core$§! Output §B=§! §G[root.z_PR_var_man_GF_nyto_dark_star_core_upkeep_add]§!"
+#_|约战|
+ z_pr_tips_datealive_crystals_produces_base:0 "£datealive_crystals£§G$datealive_crystals$§! Output §B=§! Jobs §G[root.z_PR_var_datealive_crystals_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_datealive_crystals_upkeep_base:0 "£datealive_crystals£§G$datealive_crystals$§! Upkeep §B=§! Jobs §§G[root.z_PR_var_datealive_crystals_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[苍蓝]  nanomaterial/union_core
+ z_pr_tips_nanomaterial_produces_base:0 "£nanomaterial£§G$nanomaterial$§! Output §B=§! Jobs §G[root.z_PR_var_nanomaterial_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_nanomaterial_upkeep_base:0 "£nanomaterial£§G$nanomaterial$§! Upkeep §B=§! Jobs §§G[root.z_PR_var_nanomaterial_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_nanomaterial_produces_base:0 "£union_core£§G$union_core$§! Output §B=§! Jobs §G[root.z_PR_var_union_core_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+
+#_[ACOT]
+ z_pr_tips_acot_sr_stellarite_produces_base:0 "£acot_sr_stellarite£§G$acot_sr_stellarite$§! Output §B=§! Jobs §G[root.z_PR_var_acot_sr_stellarite_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_acot_sr_stellarite_upkeep_base:0 "£acot_sr_stellarite£§G$acot_sr_stellarite$§! Upkeep §B=§! Jobs §§G[root.z_PR_var_acot_sr_stellarite_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_acot_sr_dark_energy_produces_base:0 "£acot_sr_dark_energy£§G$acot_sr_dark_energy$§! Output §B=§! Jobs §G[root.z_PR_var_acot_sr_dark_energy_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_acot_sr_dark_energy_upkeep_base:0 "£acot_sr_dark_energy£§G$acot_sr_dark_energy$§! Upkeep §B=§! Jobs §§G[root.z_PR_var_acot_sr_dark_energy_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+#_[巨构]
+ z_pr_tips_sr_iodizium_produces_base:0 "£sr_iodizium£§G$sr_iodizium$§! Output §B=§! Jobs §G[root.z_PR_var_sr_iodizium_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_iodizium_upkeep_base:0 "£sr_iodizium£§G$sr_iodizium$§! Upkeep §B=§! Jobs §§G[root.z_PR_var_sr_iodizium_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_solar_energy_produces_base:0 "£sr_solar_energy£§G$sr_solar_energy$§! Output §B=§! Jobs §G[root.z_PR_var_sr_solar_energy_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_solar_energy_upkeep_base:0 "£sr_solar_energy£§G$sr_solar_energy$§! Upkeep §B=§! Jobs §§G[root.z_PR_var_sr_solar_energy_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_magical_neutronium_produces_base:0 "£sr_magical_neutronium£§G$sr_magical_neutronium$§! Output §B=§! Jobs §G[root.z_PR_var_sr_magical_neutronium_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_magical_neutronium_upkeep_base:0 "£sr_magical_neutronium£§G$sr_magical_neutronium$§! Upkeep §B=§! Jobs §G[root.z_PR_var_sr_magical_neutronium_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_psionic_sublimate_produces_base:0 "£sr_psionic_sublimate£§G$sr_psionic_sublimate$§! Output §B=§! Jobs §G[root.z_PR_var_sr_psionic_sublimate_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_sr_psionic_sublimate_upkeep_base:0 "£sr_psionic_sublimate£§G$sr_psionic_sublimate$§! Upkeep §B=§! Jobs §G[root.z_PR_var_sr_psionic_sublimate_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_negative_mass_produces_base:0 "£ehof_sr_negative_mass£§G$ehof_sr_negative_mass$§! Output §B=§! Jobs §G[root.z_PR_var_ehof_sr_negative_mass_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_negative_mass_upkeep_base:0 "£ehof_sr_negative_mass£§G$ehof_sr_negative_mass$§! Upkeep §B=§! Jobs §G[root.z_PR_var_ehof_sr_negative_mass_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_sentient_metal_produces_base:0 "£ehof_sr_sentient_metal£§G$ehof_sr_sentient_metal$§! Output §B=§! Jobs §G[root.z_PR_var_ehof_sr_sentient_metal_produces_base]§! * Modifier §G[root.z_PR_var_plnt_job_produces_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+ z_pr_tips_ehof_sr_sentient_metal_upkeep_base:0 "£ehof_sr_sentient_metal£§G$ehof_sr_sentient_metal$§! Upkeep §B=§! Jobs §G[root.z_PR_var_ehof_sr_sentient_metal_upkeep_base]§! * Modifier §G[root.z_PR_var_plnt_job_upkeep_mult]§! * Efficiency §G[root.PR_var_plnt_EFFICIENCY]§!"
+
+
+
+
+#_[opt]
+ z_pr_opt_test:0 "test"
+
+ z_pr_option_plnt_ignore_on:0 "§GEnable Production Revolution§! on this planet"
+ z_pr_option_plnt_ignore_off:0 "§RDisable Production Revolution§! on this planet"
+ z_pr_option_plnt_ignore:0 "When §BProduction Revolution§! is §Rdisabled§! on a planet, any new changes to §BProduction Revolution§! will not take effect. Pops will no longer be converted into §YManpower§!, and jobs and economy will revert to Vanilla operations."
+
+ z_pr_option_plnt_pop_cnvt_5:0 "§G5§! Unemployed Pops into §YManpower§!"
+ z_pr_option_plnt_pop_cnvt_25:0 "§G25§! Unemployed Pops into §YManpower§!"
+ z_pr_tips_plnt_pop_cnvt:0 "Convert Pops into §YManpower§!."
+ z_pr_tips_plnt_ignore:0 "Not allowed\n$z_pr_option_plnt_ignore_on$"
+
+ z_pr_option_plnt_man_cnvt_full:0 "§YManpower§! to §GFull Citizenship Pops§!"
+ z_pr_option_plnt_man_cnvt_limited:0 "§YManpower§! to §YLimited Citizenship Pops§!"
+ z_pr_option_plnt_man_cnvt_slavery:0 "§YManpower§! to §HEnslaved Pops§!"
+ z_pr_option_plnt_man_cnvt_servitude:0 "§YManpower§! to §BEnslaved Robot Pops (Robotic Servitude)§!"
+ z_pr_option_plnt_man_cnvt_trophy:0 "§YManpower§! to §EBio-Trophy§!"
+ 
+ z_pr_tips_plnt_man_cnvt:0 "Convert §YManpower§! on the planet into a specified type of population."
+ z_pr_tips_plnt_has_man:0 "§YManpower§! must exist on the current planet."
+ z_pr_tips_plnt_apmc:0 "Automatic manpower conversion ongoing."
+ 
+ z_pr_opt_reserved_job_non:0 "Current number of backfill positions §BNone§!"
+ z_pr_opt_reserved_job_10:0 "Current number of backfill positions §G10§!"
+ z_pr_opt_reserved_job_25:0 "Current number of backfill positions §G25§!"
+ z_pr_opt_reserved_job_50:0 "Current number of backfill positions §G50§!"
+ z_pr_opt_reserved_job_100:0 "Current number of backfill positions §G100§!"
+ z_pr_tips_reserved_job:0 "Follow the settings to add backfill positions for the current planet, $z_pr_freelancer$ for normal countries and $z_pr_free_drone$ for Gestalt countries. \nWhen you encounter some mod functions that require a large population, you can manually add back posts to the planet with this function, and then convert manpower to population to fill those posts quickly."
+
+ z_pr_option_plnt_spcs:0 "为当前星球设置物种控制倾向。请注意，你的调整只能控制星球以后的物种倾向，不会立刻改变物种构成。\n§B默认§!：当前星球将保持默认倾向，允许较多的非公民物种存在。\n§H排外§!：当前星球允许非公民物种存在，但会控制他们的数量。\n§R纯血§!：当前星球不允许非公民物种存在。"
+ z_pr_option_plnt_spcs_normal:0 "星球物种倾向已设为§B默认§!"
+ z_pr_option_plnt_spcs_cliquy:0 "星球物种倾向已设为§H排外§!"
+ z_pr_option_plnt_spcs_pure:0 "星球物种倾向已设为§R纯血§!"
+ 
+ z_pr_opt_plnt_abandon:0 "§RAbandon Colony§!"
+ z_pr_tips_plnt_abandon:0 "Abandon this planet and migrate all pops and §YManpower§! to other owned planets. §HNote§!: All pops will be converted into §YManpower§!. §RNon-reversible§!"
+ 
+ z_pr_opt_setting_cntr_mig:0 "Empire §YManpower§! Migration"
+ z_pr_tips_setting_cntr_mig:0 "Automatically transfer all §YManpower§! within the empire from planets with excess §YManpower§! to planets with less than §G100%§! Efficiency."
+ z_pr_opt_plnt_man_mig_show:0 "Manpower Migration Details §HNow Shown§!"
+ z_pr_opt_plnt_man_mig_hide:0 "Manpower Migration Details §GNow Hidden§!"
+ z_pr_opt_plnt_man_mig_show_hide:0 "Display or hide the detailed manpower migration function, which can force the migration in or out of manpower, or instantly fill the current planet with manpower to make the capacity ultilization reach 100%."
+ z_pr_opt_plnt_man_mig_5:0 "Emigrate §G5§! §YManpower§!"
+ z_pr_opt_plnt_man_mig_25:0 "Emigrate §G25§! §YManpower§!"
+ z_pr_tips_plnt_man_mig:0 "Transfer §YManpower§! out to planets with less than §G100%§! Efficiency."
+ z_pr_opt_plnt_man_immig_5:0 "Immigrate §G5§! §YManpower§!"
+ z_pr_opt_plnt_man_immig_25:0 "Immigrate §G25§! §YManpower§!"
+ z_pr_tips_plnt_man_immig:0 "Transfer §YManpower§! from planets with excess §YManpower§! here."
+ z_pr_opt_plnt_man_immig_full:0 "Immigrate from owned planets here until §BManpower Capacity§! is reached."
+ z_pr_tips_plnt_man_immig_full:0 "Transfer §YManpower§! from planets with excess §YManpower§! to this planet to achieve §G100%§! Efficiency."
+ 
+ mod_pr_linkage:0 "Incorporated Mod Function"
+ azl_pr_opt_assimilation_materialist:0 "Azur Lane Assimialtion: §BMaterialist§!"
+ azl_pr_opt_assimilation_materialist_desc:0 "Converting a $job_z_pr_freeman_worker$ into a Mind Robot, that is, 1/10 of the manpower is transformed into a Mind Robot, and each manpower costs £energy£§Y$energy$§!40, £alloys£§P$alloys$§!10. \nThe production revolution must be completed and the planet has manpower."
+ azl_pr_opt_assimilation_spiritualist:0 "Azur Lane Assimialtion: §PSpiritualist§!"
+ azl_pr_opt_assimilation_spiritualist_desc:0 "Assimilate 5~40 manpower into the Mind Matrix.\nThe production revolution must be completed and planet manpower must >=5."
+ 
+ 

@@ -1,0 +1,169 @@
+﻿l_french:
+ 
+ 
+ ### ресурс
+ 
+ apsr3_planet_modifier:0 "Underground Computing System" 
+ apsr3_planet_modifier_desc:0 "Here are the I/O ports of a massive facility that seems to have been dedicated to advanced data processing. Despite its old age the systems hasn't been damaged by any type of erosion and is practically fully preserved. We could possibly use it to simulate advanced scientific models that we've previously only theorized about." 
+ 
+ apsr3_deposit:0 "$apsr3_planet_modifier$"
+ apsr3_deposit_desc:0 "$apsr3_planet_modifier_desc$\n\n§M$apsr3_deposit_effect$§!" 
+ apsr3_deposit_effect:0 "Unique resource available: $apsr3_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr3_building_part1_text:0 "In theory this would prototype allow us to turn on §Y$Underground Computer System$§!." 
+ 
+ apsr3_building_part2_text:0 "This research center has its own supercomputer which will allow us to run this facility. We can ask any question and we will get the answer. However our systems are not as advanced and it will take some time to process the response."
+ 
+ apsr3_building_part3_text:0 "Now that the answer processing delays are at a minimum, we can ask any question and immediately get the answer." 
+ 
+ apsr3_building_part4_text:0 "Sadly, it's impossible to directly connect our minds to the Machine, but we can at-least build a facsimile of a communication channel. This will allow us to use most of its calculation power by connecting it to our Central Processor. Estimations have shown that it will significantly increase the efficiency of our own logical network." 
+ 
+ apsr3_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr3_building_fake_predesc:0 "§MUnique building§!\n§RWe don't have the proper technologies to maximize the output of this building!§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr3_building_part1:0 "Supercomputer Prototype"
+ apsr3_building_part1_desc:0 "$apsr3_building_predesc$\n$apsr3_building_part1_text$"
+ 
+ apsr3_building_part2:0 "Research Center"
+ apsr3_building_part2_desc:0 "$apsr3_building_predesc$\n$apsr3_building_part2_text$"
+ 
+ apsr3_building_part3:0 "Modernized Research Center"
+ apsr3_building_part3_desc:0 "$apsr3_building_predesc$\n$apsr3_building_part3_text$"
+ 
+ apsr3_building_part4:0 "Communication Configurator"
+ apsr3_building_part4_desc:0 "$apsr3_building_predesc$\n$apsr3_building_part4_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr3_building_part1:0 "Ancient Supercomputer Investigation"
+ tech_apsr3_building_part1_desc:0 "We require a significant amount of time in order to turn on the §YUnderground Computer System§!."
+ TECH_APSR3_PART1_TITLE:0 "§HBuilding:§! $apsr3_building_part1$"
+ TECH_APSR3_PART1_DESC:0 "$apsr3_building_part1_desc$"
+ 
+ tech_apsr3_building_part2:0 "Activating the Ancient Supercomputer"
+ tech_apsr3_building_part2_desc:0 "Using our cutting edge technology we have managed to create a state of the art Research Center which is capable of further studying the Ancient Supercomputer. Using it we can significantly improve our technology advancement." 
+ TECH_APSR3_PART2_TITLE:0 "§HBuilding:§! $apsr3_building_part2$"
+ TECH_APSR3_PART2_DESC:0 "$apsr3_building_part2_desc$"
+ 
+ tech_apsr3_building_part3:0 "Furthering the Ancient Supercomputer's capabilities"
+ tech_apsr3_building_part3_desc:0 "By using newly discovered quantum engineering algorithms we can turn on the «Sleeping» powers of this underground complex"
+ TECH_APSR3_PART3_TITLE:0 "§HBuilding:§! $apsr3_building_part3$"
+ TECH_APSR3_PART3_DESC:0 "$apsr3_building_part3_desc$"
+ 
+ tech_apsr3_building_part4:0 "Porting the system"
+ tech_apsr3_building_part4_desc:0 "We have never worked with systems that can't understand our programming language before, so the time has come to return to our basic programming algorithms and fix them up to a perfect state.\n§MSet the planet with §YUnderground Computer System§! as your capital in order to upgrade the building!§!"
+ TECH_APSR3_PART4_TITLE:0 "§HBuilding:§! $apsr3_building_part4$"
+ TECH_APSR3_PART4_DESC:0 "$apsr3_building_part4_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.3001.title:0 "Supercomputer Prototype completed!"
+ apsr.3001.desc:0 "The §YSupercomputer Prototype§! has been built. Now we must prepare its activation."
+ apsr.3001.ok-button:0 "Great!"
+ 
+ apsr.3002.title:0 "Research Center completed!"
+ apsr.3002.desc:0 "The §YResearch Center§! was completed and now our scientists recieved an access code to work with this ancient supercomputer. Our research efforts should be significantly boosted now!"
+ apsr.3002.ok-button:0 "Great!"
+ 
+ apsr.3003.title:0 "Modernized Research Center completed!"
+ apsr.3003.desc:0 "As a result of the completion of the §YModernized Research Center§!, our science level will advance with tremendous speed!"
+ apsr.3003.ok-button:0 "Great!"
+ 
+ apsr.3004.title:0 "Communication Configurator completed!"
+ apsr.3004.desc:0 "Now that the §YCommunication Configurator§! is completed, our administrative and technological efficiency has been improved, freeing manpower we can re-assign somewhere else"
+ apsr.3004.ok-button:0 "Confirmation recieved"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.3011.title:0 "Detected: §M$apsr3_planet_modifier$§!"
+ apsr.3011.desc:0 "Our expeditionary group led by §H[Root.GetLeaderName]§! from the §H[Root.GetName]§! has found something interesting! Deep underground on this planer lies a Giant Computing system which has been left by an unknown civilization. Our scanners show that the complex is undamaged and filled with the knowledge of this ancient civilization" 
+ apsr.3011.button:1 "Great"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.3013.title:0 "Detected: §M$apsr3_planet_modifier$§!"
+ apsr.3013.desc:0 "On one of our new planets, we have found something peculiar: an ancient Underground Computer System. The owner of the planet uses the knowledge stored on it to enhance their science."
+ apsr.3013.button:1 "Great"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.3015.title:0 "Detected: §M$apsr3_planet_modifier$§!"
+ apsr.3015.desc:0 "Our intelligence service, while checking information about the planets of other empires, has found something interesting!\nOn one of the planets there is a giant computer, almost pristine despite its age. The owner of the planet uses the knowledge stored on it to enhance their science.\n\n§GInformation:§!\n§YPlanet name:§! §W[event_target:apsr3_planet_target.GetName]§! \n§YPlanet class:§! §W[event_target:apsr3_planet_target.GetClassName]§! \n§YSolar system name:§! §W[event_target:apsr3_planet_target.solar_system.GetName]§! \n§YPlanet owner:§! §W[event_target:apsr3_planet_target.Owner.GetName]§!"
+ apsr.3015.button:1 "Interesting!"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr3_special:0 "$apsr3_planet_modifier$"
+ apsr3_special_desc:0 "$apsr3_planet_modifier_desc$"
+ 
+ APSR3_MESSAGE_SR_INFORMED_TITLE:0 "Information about an unique planet"
+ APSR3_MESSAGE_SR_INFORMED:0 "We have received information about a special resource called §M$apsr3_planet_modifier$§!, which is located on the planet §Y$PLANET$§! under control of the §Y$COUNTRY$§!."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr3_anomaly:0 "$apsr1_anomaly$"
+ apsr3_anomaly_desc:0 "$apsr1_anomaly_desc$"
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.3601.title:0 "$apsr.3011.title$"
+ apsr.3601.desc:0 "$apsr.3011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr3_planet_scientist_normal:0 "Computing Staff"
+ job_apsr3_scientist_normal:0 "Computing Staff"
+ job_apsr3_scientist_normal_plural:0 "Computing Staff"
+ job_apsr3_scientist_normal_desc:0 "All employees of the computer complex have the highest qualifications and are engaged both in maintenance of the complex itself and in research activities"
+ mod_job_apsr3_scientist_normal_add:0 "Computing Staff"
+   
+ apsr3_planet_scientist_hive:0 "Computing drones"
+ job_apsr3_scientist_hive:0 "Computing drone"
+ job_apsr3_scientist_hive_plural:0 "Computing drones"
+ job_apsr3_scientist_hive_desc:0 "All beings of the computer complex have the highest qualifications and are engaged both in maintenance of the complex itself and in research activities"
+ mod_job_apsr3_scientist_hive_add:0 "Computing drone"
+   
+ apsr3_planet_scientist_machine:0 "Computing drones"
+ job_apsr3_scientist_machine:0 "Computing drone"
+ job_apsr3_scientist_machine_plural:0 "Computing drones"
+ job_apsr3_scientist_machine_desc:0 "Specialized drones created for research activities and maintainance of the complex" 
+ mod_job_apsr3_scientist_machine_add:0 "Computing drone"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

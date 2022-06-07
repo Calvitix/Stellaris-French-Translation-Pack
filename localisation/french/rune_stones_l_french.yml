@@ -1,0 +1,681 @@
+﻿l_french:
+ ##################
+ # Inifinity Rune Relics
+ ##################
+ 
+ relic_cube_activation_cooldown: "Powering up the Nyblax Cube"
+ 
+ # Relics
+ r_damage_rune:0 "The Mighty Rune"
+ r_damage_rune_desc:0 "The Mighty Rune was created by a Machine Empire by request of the Nyblax. When first tested the Rune released so much energy that it destroyed the whole system. The Rune provides great power for he who holds it."
+ damage_rune_passive:1 "Fleets can now use the §RMighty Rune Annihilation§! Orbital Bombardment stance against planets."
+ damage_rune_activated:1 "Fleets using the §RMighty Rune Annihilation§! Orbital Bombardment stance can reduce planets to lifeless §YTomb Worlds§!."
+ damage_rune_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y1800§!"
+
+
+ r_haste_rune:0 "The Haste Rune"
+ r_haste_rune_desc:0 "The Haste Rune was created by a spiritualist civilization. They worshiped The Nyblax as if it was their god. The Nyblax took advantage of their beliefs and tricked them into creating the Haste Rune, having them die in the process."
+ haste_rune_activated:1 "§HUnlocks Decision:§! §G$decision_planet_haste_rune$§!, granting the ability accelerated time on one planet, increasing §YBuilding Construction Speed and Blocker Clear Speed§!."
+
+ r_illusion_rune:0 "The Illusion Rune"
+ r_illusion_rune_desc:0 "The Illusion Rune was created by a race of antrophoids that could camouflage, in their attempt to use The Rune to hide from The Nyblax, they dissapeared. The Illusion Rune grants its user absolute control over reality itself, converting antimatter into matter."
+ illusion_rune_activated:1 "§HUnlocks Decision:§! §G$decision_planet_illusion_rune$§!, granting the ability to add two planetary features to a planet."
+ illusion_rune_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y1800§!"
+ 
+ r_arcane_rune:0 "The Arcane Rune"
+ r_arcane_rune_desc:0 "The First Rune, also known as The Arcane Rune, was created by Vorta, a Shakzem scientist. He drained the living energy out of his people to harvest the required power to forge the Rune."
+ arcane_rune_activated:1 "Creates a §YGovernor§!, §YScientist§!, §YAdmiral§! or §YGeneral§! from the souls of the harvested Shakzem people."
+ arcane_rune_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y1800§!"
+
+ r_invisibility_rune:0 "The Invisibility Rune"
+ r_invisibility_rune_desc:0 "Little is known about the Invisibility Rune, it was created for The Nyblax but lost due to the negligence of its creators."
+
+ r_regeneration_rune:0 "The Regeneration Rune"
+ r_regeneration_rune_desc:0 "The Regeneration Rune was created by a Hive mind entity that was merged into one single planet-like being when used for the first time. It has the power to heal and repair damage extremely fast."
+ regeneration_rune_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y900§!"
+
+
+ r_cube:0 "§RThe Nyblax Cube§!"
+ r_cube_desc:0 "A Cube made from various alloys powerful enough to contain the Power Runes. By placing a Rune in each side of the Cube and activating it, we can interface and channel the energy of fallen civilizations to grant us our wishes."
+ cube_activated:1 "Activate the Nyblax Interface."
+ cube_build:1 "§RDangerous Project:§! §YBuilds The Nyblax Cube§!."
+ NYBLAX_CUBE_PROJECT:0 "Power up The Nyblax Cube"
+ NYBLAX_CUBE_PROJECT_DESC:0 "Our [Root.GetScientistPlural] will start powering up one of the greatest Artifacts the galaxy has ever known, a device capable of great good or mass destruction."
+
+
+ # Mighty rune Bombardment
+ bombardment_damage_rune:0 "Rune of Mighty Annihilation"
+ bombardment_damage_rune_desc:0 "Using the Mighty Rune we can whipe plants clean, destroying buildings and killing pops until the planet is barren. \n- §REXTREME§! damage to §YArmies§!\n- §REXTREME§! damage to §YPlanet§!\n- §REXTREME§! damage to §YPops§!\n- Will bombard undefended planets\n- Can reduce planets to lifeless Tomb Worlds"
+
+ # Mighty rune modifiers
+ damage_rune:0 "$r_damage_rune$"
+ damage_rune_desc:0 "Fleets can now use the §YMighty Rune Annihilation§! Orbital Bombardment stance against planets."
+
+
+ # Mighty rune Wars Events
+ power_runes_war.1.name:0 "Seizing the §YMighty Rune§!"
+ power_runes_war.1.desc:0 "The [From.From.GetName] has admitted defeat, and we have wrested the glorious §EMighty Rune§! from their unworthy grasp!"
+ power_runes_war.1.a:0 "It belongs to us now."
+ power_runes_war.2.name:0 "Losing the §YMighty Rune§!"
+ power_runes_war.2.desc:0 "Aside from numerous members breaking down into hysterics during the handover, the surrendering of the §EMighty Rune§! forces was an uneventful affair."
+ power_runes_war.2.a:0 "A wordless wail of anguish."
+
+
+
+ # haste rune Wars Events
+ power_runes_war.3.name:0 "Seizing the §YHaste Rune§!"
+ power_runes_war.3.desc:0 "The [From.From.GetName] has admitted defeat, and we have wrested the glorious §EHaste Rune§! from their unworthy grasp!"
+ power_runes_war.3.a:0 "It belongs to us now."
+ power_runes_war.4.name:0 "Losing the §YHaste Rune§!"
+ power_runes_war.4.desc:0 "Aside from numerous members breaking down into hysterics during the handover, the surrendering of the §EHaste Rune§! forces was an uneventful affair."
+ power_runes_war.4.a:0 "A wordless wail of anguish."
+ 
+ 
+ ## desissions
+ # illusion
+ decision_planet_illusion_rune:0 "Illusion Rune Terraforming"
+ decision_planet_illusion_rune_desc:1 "Adds two planetary features to the planet."
+ decision_two_prospect_effects_short:1 "Adds two random §YPlanetary Features§! to the planet."
+ planet_illusion_rune_boost:0 "Illusion Rune Terraforming"
+ planet_illusion_rune_boost_desc:1 "This planet's environment has been cleared by the §YIllusion Rune§!"
+ 
+ # haste desision
+ decision_planet_haste_rune:0 "Haste Rune Acceleration"
+ decision_planet_haste_rune_desc:1 "Swift as the wolves of Icewrack."
+ planet_haste_rune_boost:0 "Haste Rune Acceleration"
+ planet_haste_rune_boost_desc:1 "This planet is currently being accelerated by the Haste Rune."
+
+ # illusion rune Events
+ power_runes_war.5.name:0 "Seizing the §YIllusion Rune§!"
+ power_runes_war.5.desc:0 "The [From.From.GetName] has admitted defeat, and we have wrested the glorious §EIllusion Rune§! from their unworthy grasp!"
+ power_runes_war.5.a:0 "It belongs to us now."
+ power_runes_war.6.name:0 "Losing the §YIllusion Rune§!"
+ power_runes_war.6.desc:0 "Aside from numerous members breaking down into hysterics during the handover, the surrendering of the §EIllusion Rune§! forces was an uneventful affair."
+ power_runes_war.6.a:0 "A wordless wail of anguish."
+
+
+ # Arcane rune Events
+ arcane_rune.1.name:0 "Synthetic Assembly"
+ arcane_rune.1.desc:0 "We can now create an artificial lifeform out of the souls of the Shakzem ancestors into one being to aid us. The question remains, what purpose should this §YArcane Synthetic§! serve?"
+ arcane_rune.1.a:0 "Build us a Governor"
+ arcane_rune.1.b:0 "Build us a Scientist"
+ arcane_rune.1.c:0 "Build us an Admiral"
+ arcane_rune.1.d:0 "Build us a General"
+
+ 
+
+ # Arcane Rune Wars Events
+ power_runes_war.7.name:0 "Seizing the §YArcane Rune§!"
+ power_runes_war.7.desc:0 "The [From.From.GetName] has admitted defeat, and we have wrested the glorious §EArcane Rune§! from their unworthy grasp!"
+ power_runes_war.7.a:0 "It belongs to us now."
+ power_runes_war.8.name:0 "Losing the §YArcane Rune§!"
+ power_runes_war.8.desc:0 "Aside from numerous members breaking down into hysterics during the handover, the surrendering of the §EArcane Rune§! forces was an uneventful affair."
+ power_runes_war.8.a:0 "A wordless wail of anguish."
+
+
+
+ # invisibility_rune modifiers
+ invisibility_rune:0 "$r_invisibility_rune$"
+ invisibility_rune_desc:0 "Our ships have some sort of cloaking mechanism thanks to the power of the Invisibility Rune, granting us superior fighting capability."
+ invisibility_rune_passive:0 "Our systems can not be scanned from the outside."
+
+
+ # Invisibility Rune Wars Events
+ power_runes_war.9.name:0 "Seizing the §YInvisibility Rune§!"
+ power_runes_war.9.desc:0 "The [From.From.GetName] has admitted defeat, and we have wrested the glorious §EInvisibility Rune§! from their unworthy grasp!"
+ power_runes_war.9.a:0 "It belongs to us now."
+ power_runes_war.10.name:0 "Losing the §YInvisibility Rune§!"
+ power_runes_war.10.desc:0 "Aside from numerous members breaking down into hysterics during the handover, the surrendering of the §EInvisibility Rune§! forces was an uneventful affair."
+ power_runes_war.10.a:0 "A wordless wail of anguish."
+
+ # regeneration rune modifiers
+ regeneration_rune:0 "$r_regeneration_rune$"
+ regeneration_rune_desc:0 "The Regeneration Rune allows are ships to heal its armor and hull."
+
+
+ # regen rune Wars Events
+ power_runes_war.11.name:0 "Seizing the §YRegeneration Rune§!"
+ power_runes_war.11.desc:0 "The [From.From.GetName] has admitted defeat, and we have wrested the glorious §ERegeneration Rune§! from their unworthy grasp!"
+ power_runes_war.11.a:0 "It belongs to us now."
+ power_runes_war.12.name:0 "Losing the §YRegeneration Rune§!"
+ power_runes_war.12.desc:0 "Aside from numerous members breaking down into hysterics during the handover, the surrendering of the §ERegeneration Rune§! forces was an uneventful affair."
+ power_runes_war.12.a:0 "A wordless wail of anguish."
+
+
+ # opinions
+ triggered_opinion_damage_rune:0 "Holder of the Mighty Rune"
+ triggered_opinion_haste_rune:0 "Holder of the Haste Rune"
+ triggered_opinion_illusion_rune:0 "Holder of the Illusion Rune"
+ triggered_opinion_arcane_rune:0 "Holder of the Arcane Rune"
+ triggered_opinion_invisibility_rune:0 "Holder of the Invisibility Rune"
+ triggered_opinion_regeneration_rune:0 "Holder of the Regeneration Rune"
+ 
+ triggered_opinion_nyblax_cube:0 "Holder of the Nyblax Cube"
+ 
+ opinion_infninity_war_non_aligned_league:0 "Allies against a common threat"
+ opinion_infninity_war_non_aligned_league_declined:0 ""
+ opinion_infninity_war_non_aligned_league_fe:0 "Used the Nyblax Cube"
+
+#####################################################################################################################################
+# Planet events and stuff
+
+# Khnum boom
+ techis.0.name:0 "Destroyed System"
+ techis.0.desc:0 "The §Y[Root.GetName]§! reported that the §HKhnum§! system has been obliviated for some time now and that the cause of its destruction was not the star but some kind of enemy surge that originated in the planet §HTharkun§!."
+ techis.0.a:0 "Find out what happen!"
+
+ techis_site:0 "Tharkun Digsite"
+ techis_relic_world_site_desc:0 "Long range scans reveal the system has been destroyed by a power surge that originated in planet Spleen."
+
+ techis.1.name:0 "Initial report"
+ techis.1.desc:0 "It appears our initial scans were correct. The whole system was obliviated by a large energy surge millennia ago, annihilating every single planet in the system, including its sun, which collapsed into a black hole. Even tho the planet was utterly destroyed and lost its gravity, some of the pieces still hold remains of what appears to be ruins of an ancient civilization."
+ techis.1.a:0 "Check them out."
+
+ techis.2.name:0 "Machine Worlds"
+ techis.2.desc:0 "Our scientists went to the ruins of the planet's piece with the highest residual energy reading and found out that the planet's surface was once covered with metal and wires, like a giant supercomputer, this planet was able to host and interconnect different data hubs from all across the globe.\nSome of the data nodes are still powered and we might be able to connect our systems and hack into the planet's mainframe."
+ techis.2.a:0 "Start the connection."
+
+ techis.3.name:0 "Failing Archives"
+ techis.3.desc:0 "Creating an interface with the planet's data stream proved more difficult than we initially thought. Nevertheless, our hackers were able to access the data stored in the ruined archive buildings.\n\n§B'Unlocated redundancies, creating local backup...\nLoading nyblax.log...\nLog: Unidentified creature detected.\nLog: Assigning code beta alien.\nLog: Engaging defensive protocols.\nLog: Beta alien not hostile.\nLog: Commencing social interactions...'§!\n\nThe systems are looping through a file named Nyblax.log and, by the looks of it, the civilization encontered an alien creature they started interacting with. Our hackers wonder if this creature caused the destruction of the system."
+ techis.3.a:0 "Keep Reading!"
+
+ techis.4.name:0 "The Nyblax"
+ techis.4.desc:0 "The system logs were difcult to read, even though machines are efficient in their data storage, trying to grasp the narrative of events was a challenge our hackers did not anticipate. In their report they confirmed the arrival of the creature they identified as Nyblax.\n\nThe Nyblax and the machines started trading and did so for many years. The creature brought lots of advancements from other civilizations it encountered and, in return, the machines would create what they called The Rune.\nAccording to their logs, they were able to create such a device, unfortunately no details on how they did it were specified.\n\nThey decided to test it before handling it over to the Nyblax. Our team arrived at the conclusion that testing the rune was what caused the whole system to collapse since their last log entry reads as follows:\n\n§B'Log: Rune - Planetary Matrix connection established.\nLog: Initiating Rune debug.§!\n§RSystem Failing\nSaving nyblax.log\nSystem Failure\nCorrupt data\nCorrupt data\nCorrupt data\nCorrupt data\nCorrupt data\nCorrupt data\nCorrupt data\nCorrupt data\nCorrupt data\nCorrupt data\nCorrupt data'§!"
+ techis.4.a:0 "Such power. Where is the Rune now?"
+
+ techis.5.name:0 "The Mighty Rune"
+ techis.5.desc:0 "Our team head back to the §Y[Root.GetName]§! to search for the Rune among the debris.\n\nThey used the ship's scanners to pinpoint the source of the lingering energy readings.\n\nOnce the course to the Rune was set, the crew navigated through the planet's remains.\n\nThey found the Rune floating in the the vacuum of space."
+ techis.5.a:0 "With the Mighty Rune, how can we ever be defeated!"
+
+#  somebody else got there first
+ techis.6.desc:0 "Our team head back to the §Y[Root.GetName]§! to search for the Rune among the debris.\n\nThey used the ship's scanners to pinpoint the source of the lingering energy readings but nothing showed up.\n\nThe Rune was nowhere to be found. It either got lost to the vacuum of space or somebody else got to it first."
+ techis.6.a:0 "This is bad..."
+ 
+ 
+# Ninsun haste rune
+ narrow_maze.0.name:0 "Spotted Signal"
+ narrow_maze.0.desc:0 "Our ship, the §Y[Root.GetName]§!, has come across a dragon shaped dust signal coming from the planet §HNinsun§!.\n\nLong rage scanners show that the planet where the signal is coming from is full of abandoned colonies, which may be worth investigating."
+ narrow_maze.0.a:0 "Most intriguing."
+
+ narrow_maze_site:0 "Ruined Planet"
+ narrow_maze_relic_world_site_desc:0 "A dragon shaped dust signal is coming from one of the ghost cities from §HNinsun§!."
+
+ narrow_maze.1.name:0 "The Ninsun Maze"
+ narrow_maze.1.desc:0 "As the team walk the ruins trying to reach the source of the signal, they find themselves lost in a maze like city.\n\nThe team reported sightings of several giant statues and devotional paintings of a being called Nyblax, which seem to be pointing to a place of interest."
+ narrow_maze.1.a:0 "Follow the leads!"
+
+ narrow_maze.2.name:0 "The Quarri Church"
+ narrow_maze.2.desc:0 "Our experts have located the site where the paintings and statues where pointing at, and in so, the source of the signal.\n\nA temple laid at the end of the path. The temple's architecture appears to be from their renaissance era. Nyblax shaped gargoyles, a putrid stench and piles of a decomposing bodies greeted our archaeologists as soon as they got into the temple."
+ narrow_maze.2.a:0 "What happened?"
+
+ narrow_maze.3.name:0 "The Book of the Dead"
+ narrow_maze.3.desc:0 "There was no sign of struggle, disease or battle in the church, its almost like these people just... died...\n\nOne of or scientists found a tome in the altar named The Book of the Dead. The tome was open and one of the pages read the following passage:\n\n§B"And by doing so, thy shall summon the Nyblax. For his needs are above ours and our souls shall be eternal."§!"
+ narrow_maze.3.a:0 "Continue Reading."
+
+ narrow_maze.4.name:0 "The Dark Ritual"
+ narrow_maze.4.desc:0 "The book, which they based their faith on, tells the story of the Nyblax and the Runes. According to legend, the Nyblax came to the Ninsun thousands of years ago promising the Quarri civilization a quick ascension.\n\nThe ritual consisted in mass sacrifice arround the altar with at least a specific amount of people, and by doing so, the Quarri people would ascend into the Aeoloock, a higher plane of existance.\n\nThe book states that once the ritual is complete, the Rune will be created from the soulless bodies and the Nyblax will return to ensure that their ascension was complete."
+ narrow_maze.4.a:0 "Where is the Rune?"
+
+ narrow_maze.5.name:0 "The Haste Rune"
+ narrow_maze.5.desc:0 "Amongst the bodies of the fallen, a strange necklace was found to be releasing the energy pulses.\n\nThe necklace seems to have belonged to the high priest and is the source of the looping signal.\n\nAs our team dismanteled the necklace they found that it was made by the Nyblax to harness the energy from the dead and create the Rune, and when complete, it would signal the Nyblax so it could return to collect it.\n\nThe Rune was still inside the necklace!"
+ narrow_maze.5.a:0 "It seems we got to it first!"
+
+#  somebody else got there first
+ narrow_maze.6.desc:0 "Amongst the bodies of the fallen, a strange necklace was found.\n\nThe necklace seems to have belonged to the high priest and is the source of the looping signal.\n\nOur team noticed the necklace was recently dismanteled. They found that it was made by the Nyblax to harness the energy from the dead and create the Rune, and when complete, it would signal the Nyblax so it could return to collect it.\n\nThe Rune was not there! Either the Nyblax or somebody else took it first!"
+ narrow_maze.6.a:0 "This is bad..."
+
+
+ # jex illusion rune story
+ jex.0.name:0 "The Dark Sun"
+ jex.0.desc:0 "There appears to be a planet in the §HCelaeno§! system orbiting the black hole. It wouldn't be the strangest occurrence, except there appears to be signs of civilization and flora on the planet. Without the energy of a star it seems unlikely that life could have thrived on the planet."
+ jex.0.a:0 "Lets take a look at it"
+
+ jex_site:0 "Jex Digsite"
+ jex_relic_world_site_desc:0 "There are signs of civilization in the surface of §HCelaeno§!, but, without the energy of a star it seems unlikely that life could have thrived on the planet."
+
+ jex.1.name:0 "Deceitful Senses"
+ jex.1.desc:0 "Once our archaeologists landed they felt... well.. hot, very hot.\nThere was a lot of humidity in the air, the whole place was illuminated from light coming from the Black Hole's direction and the local flora had their flowers blossomed, typical of a spring time of the year.\nThe lack of sun had our scientists baffled and after failing to figure out the annomaly, they headed towards the city looking for answers."
+ jex.1.a:0 "Just go!"
+
+ jex.2.name:0 "The Camouflaged Lab"
+ jex.2.desc:0 "By the time they got there, the city was gone! There was an abandoned lab in its place with tons of research material.\nAfter deciphering the alien language our team started to skim through the research material. Thanks to the research our team was able to determine that the lab was created by a race of anthropoids with cryptic coloration, also known as camouflage, to create some device using their DNA or essence."
+ jex.2.a:0 "Keep reading!."
+
+ jex.3.name:0 "The Visitor"
+ jex.3.desc:0 "According to the resaerch notes, the antrophoids where encountered by a supreme being called Nyblax.\n\nThey explain how the creature tought them a way to harness their traits and create what they called §YRunes of Power§!, which they allegedly created and were planning on testing it in a site called the White Spire.\nMost of the details on how to create such a Rune are so old and worn that replicating the process seems impossible. Our best bet is to investigate the White Spire hoping to find another clue to what happened to them, their sun and their civilization."
+ jex.3.a:0 "Go to the site!"
+
+ jex.4.name:0 "The White Spire"
+ jex.4.desc:0 "After exploring the planet, we where able to locate the White Spire. Just like the lab, this site was long abandoned by the antrophoids.\n\nThere was a digital console that controlled and logged the White Spire's activity. We successfully accessed the logs and found out that the rune worked! They called it §YThe Illusion Rune§! and, acording to the logs, it was used to hide the Sun and turn it into a Black Hole.\n\nThey used the power of the Rune in their labs, cities and planet alike, hiding, enhancing or creating this paradise of a world.\n\nFearing the return of the Nyblax and any hidden agenda, they moved the Rune to the Yellow Spire."
+ jex.4.a:0 "Just get the Rune!"
+
+ jex.5.name:0 "The Illusion Rune"
+ jex.5.desc:0 "The Yellow Spire was exactly like the White one, the only difference we found was that the §HThe Illusion Rune§! was just sitting in the main input system.\n\nOur archaeologists, intrigued, took a look at the systems logs and discovered that once their sensors detected the Nyblax aproaching their planet, the antrophoids used §HThe Illusion Rune§! in their entire population.\n\nOur only conclusion is that in an attempt to make themselves invisibles they litteraly disappeared, since no further entries were found in the systems log.\n\nThe team headed back with the Rune and tales of a lost species hosted by the most beautifull planet they have ever seen."
+ jex.5.a:0 "Don't look at the past of a gifted Rune.."
+
+#  somebody else got there first
+ jex.6.desc:0 "The Yellow Spire was exactly like the White one.\n\nOur archaeologists, intrigued, took a look at the systems logs and discovered that once their sensors detected the Nyblax aproaching their planet, the antrophoids used §HThe Illusion Rune§! in their entire population.\n\nOur only conclusion is that in an attempt to make themselves invisibles they litteraly disappeared, since no further entries were found in the systems log.\n\nThe Rune was nowhere to be found. It looks like somebody else got to it first.\n\The team headed back with the Rune and tales of a lost species hosted by the most beautifull planet they have ever seen."
+ jex.6.a:0 "This is bad..."
+
+ # ghastly_eyrie arcane rune story
+ ghastly_eyrie.0.name:0 "Strange Radiation"
+ ghastly_eyrie.0.desc:0 "Upon entering the §HHyrokkin§! system, our science ships have picked up a strange radiation signature from §HMoxxu§!."
+ ghastly_eyrie.0.a:0 "Send a team to investigate."
+
+ ghastly_eyrie_site:0 "Moxxu Digsite"
+ ghastly_eyrie_relic_world_site_desc:0 "Our science ships have picked up a strange radiation signature from §HMoxxu§!."
+
+ ghastly_eyrie.1.name:0 "The Long Journey"
+ ghastly_eyrie.1.desc:0 "After scanning the planet's surface, our team found a crumbling city in the planet's deepest abyss. The radiation we cought is being emanated from said city, but it is so strong that it is messing with the ship's instruments making it impossible to navigate the chasm.\nOur archaeologists will continue on foot."
+ ghastly_eyrie.1.a:0 "Go on."
+
+ ghastly_eyrie.2.name:0 "Lovers Quarrel"
+ ghastly_eyrie.2.desc:0 "Nearing the bottom of the chasm lays the city. According to our team, the city used to be floating over the abyss but for some yet to discover reason its hovering mechanism failed.\nAs the team aproaches the city, they could hear voices chattering, laughters of infants and wailing screams in the distance. Some of the men thought ghosts haunted the ruined city and stood behind. The most skeptical and adventurous continued the journey until a spirit like creatures approached.\n\n§B"Fear not travelers, we are the Shakzems and we come in peace."§!\n\nOne of them approached the team as a representative.\nIt remainded the team they came in peace and proceeds to tell them they are the last remnants of a long dead civilization. Our archaeologists wondered what happened to them and so they began to narrate the tale of Vorta and Dniki.\n\nAccording to their story, Vorta was one of the greatest scientists the Shakzems have ever seen, until one day their god Goauldai showed up.\n\n§B"The other Shakzems considered the creature to be a God, but Vorta and Dniki knew better... The creature was no God! It was nothing but a space bourne entity, one of a kind in the whole galaxy: A Nyblax!§!\n\nThey continues to explain that Vorta started spending a lot of time trying to help the Nyblax in this secret project of theirs until one day, Dniki found out that Vorta and the Nyblax were using Shakzem citizens as sacrifice for their wicked experiments! And so, the lovers quarrel began..."
+ ghastly_eyrie.2.a:0 "Tragic."
+
+ ghastly_eyrie.3.name:0 "The First Rune"
+ ghastly_eyrie.3.desc:0 "The quarrel did not end well, a civil war broke out after Vorta' crimes went public. In his experiments, he was trying to create what he called §YThe Runes of Power§!.\nThese runes would be created by harvesting the energy of living beings and, with enough runes, it would be able to create another Nyblax being. Though his intentions were noble, the means where just... sick...\n\nIn the end, Vorta was able to create the first §YRune§! which he called §YThe Arcane Rune§!.\n\nOnce the Rune was complete, the Nyblax joined the fight and tore the city to the ground, destroying and killing every Shakzem living in it.\n\nWhat it did not know is that one Rune was not enought to grant it its wish.\n\nDuring the war, Dniki was able to get hold of the Rune, but it was damaged during the battle of Ekbor. The remnants seem to posses such a device and they appear to be willing to provide us with the Artifact, but, they have a price...\n\nSince the Rune was damaged, it is now non-functional, which means that lots of Shakzem citizens were sacrificed in vain. To fix the rune, another sacrifice is needed.\n\nOnce the sacrifice is complete, the Shakzems give us the §YThe Arcane Rune§!."
+ ghastly_eyrie.3.a:0 "Such a complicated scenario..."
+ 
+ ghastly_eyrie.11.name:0 "The Sacrifice"
+ ghastly_eyrie.11.desc:0 "The Shakzems are waiting for an answer. Who should we sacrifice?"
+ ghastly_eyrie.11.a:0 "It wouldn't be right if the captain didn't sacrifice himself."
+ ghastly_eyrie.11.b:0 "§Y[Root.GetLeaderName]§! is too important, sacrifice somebody else."
+
+ ghastly_eyrie.12.name:0 "The Arcane Rune"
+ ghastly_eyrie.12.desc:0 "Our science officer was placed in an ancient device were his life force was taken. As soon as the sacrifice was complete, the machine collapsed and The Shakzem faded away, leaving the Rune in their place.\n\nIt is unclear whether or not The Shakzem remnants were actual spirits or an advanced holographic projection created by the machine, but in the end, at the cost of our science officer, we have now obtained the §YThe Arcane Rune§!."
+ ghastly_eyrie.12.a:0 "Death is highly overrated"
+
+ ghastly_eyrie.13.desc:0 "Our first officer was placed in an ancient device were his life force was taken. As soon as the sacrifice was complete, the machine collapsed and The Shakzem faded away, leaving the Rune in their place.\n\nIt is unclear whether or not The Shakzem remnants were actual spirits or an advanced holographic projection created by the machine, but in the end, at the cost of our first officer, we have now obtained the §YThe Arcane Rune§!."
+
+ ghastly_eyrie.50.name:0 "The Arcane Rune"
+ ghastly_eyrie.50.desc:0 "We wanted to make sure the sacrifice worked, so we gathered a bunch of deviant drones and held our part of the deal.\nAs soon as the sacrifice was complete, the machine collapsed and The Shakzem faded away, leaving the Rune in their place.\n\nIt is unclear whether or not The Shakzem remnants were actual spirits or an advanced holographic projection created by the machine, but in the end, we now posses §YThe Arcane Rune§!."
+ ghastly_eyrie.50.mach:0 "Error 404: Soul not found."
+ ghastly_eyrie.50.hive:0 "Anything for our queen."
+
+#  somebody else got there first
+ ghastly_eyrie.14.name:0 "The Arcane Rune"
+ ghastly_eyrie.14.desc:0 "The Shakzem vanished once the sacrifice was complete, but nothing happened... It appears somebody else got the §YThe Arcane Rune§! first and the Shakzem tricked us."
+ ghastly_eyrie.14.a:0 "This is bad..."
+
+
+ # quad regeneration rune
+ quad.0.name:0 "Arrhythmic Heartbeat"
+ quad.0.desc:0 "Upon entering the §HKikimora§! system, our science ships have detected a heartbeat coming from §HM'Cholou§!, §Y[Root.GetLeaderName]§! is keen to investigate the planet."
+ quad.0.a:0 "They can investigate if they wish."
+
+ quad_site:0 "M'Cholou Digsite"
+ quad_relic_world_site_desc:0 "The plannet appears to have an arrhytmic heartbeat."
+
+ quad.1.name:0 "Sticky Gounds"
+ quad.1.desc:0 "After landing on the planets surface, we found that the whole thing was a living organism. It is hard to tell how old the organic tissue is but we are able to estimate over a thousand years thanks to a carbon test we were able to conduct on some dead samples we found.\nAn arrhytmic heartbeat can be heard all across the planet, and in every heartbeat the ground shakes. The heartbeat seems to be coming from the heart of a mountain near some ruins. Our team would like to investigate the ruins while they head towards the mountain."
+ quad.1.a:0 "Go ahead."
+
+ quad.2.name:0 "Bone Buildings"
+ quad.2.desc:0 "As out team aproached the ruins they started to notice the planet's heartbeat got faster and faster, as if the planet knew we where there.\nThe team reported that buildings were constructed with muscle, tissue and bones. The organic architecture was amazing, those buildings were still breathing and alive.\n\nBy the looks of it, those buildings used to host thousands, yet, no other sentient species where found.\nOur archaeologists estimate that there was a mass exodus towards the mountain were the beat came from, and so, the jurney continued.\n\nOnce the team got near the summit they found a tunnel that looked like a larynx or *CENSORED* which went deep into the heart of the mountain."
+ quad.2.a:0 "Keep moving forward."
+
+ quad.5.name:0 "M'Cholou"
+ quad.5.a.desc:0 "§B*Tentacles surround the exploration team while a giant faceless creature aproaches, they notice that this THING is the main source of both, the heartbeat and the tentacles*§!\n\n'Is it you, Nyblax?'\n\n§B*The creature looks disappointed after it realizes your team is not the creature it was expecting.*§!\n\n'Yes, I am disappointed...'\n'And yes, I linked my thoughts to your thoughts, creating a bridge between our minds so we can communicate. The connection is weaker on inferior or mechanical species like yourselves, yet, here we are.'\n'How is this possible? Well.. it was thanks to the Nyblax. We were once a proud and benevolent collective called the Morthra, but now we have merged into one single superior being.'\n'What is the Nyblax??'\n\n§B*The creature seems upset and annoyed by your thoughts*§!\n\n'The Nyblax is a creature that arrived at our home planet thousands of years ago. You see, the creature thought we were just like it: *one of a kind*, and in a way, we were... It wanted to befriend us and sought our help'\n'It is unclear if the creature was being honest, good, evil or just in a state of hopeless despair.'\n'It wanted us to create a Rune for him, and when we did, it would come to collect it.'\n'Yes, ofcourse we created the Rune! How do you think we managed to merge our collective into this vessel?'\n'The Rune? I have it arround here somewhere. I have been trying to get rid of it for a very long time now, but, overpowering my own gravity has proven to be rather dificult.'\n\n§B*One of the creature's tentacle aproaches your team with the Rune.*§!\n\n'Please, take it with you... as soon as the Rune leaves the planet I will be able to finally die...'\n\n§B*The creature takes a long pause, she seems melancholic.*§!\n\n'Because I have been sentient for millennia, waiting for the Nyblax to return and take the Rune but it never came. One can only live as long as one has a purpose, mine has expired. Will you do this for me?'"
+ quad.5.phil:0 "Life is a choice, we will help you."
+ quad.5.phob:0 "Help you end your horrid life? Give us the Rune!"
+ quad.5.spir:0 "Fate brought us here for a reason, its our lords will"
+ quad.5.mate:0 "Sure. Life is overrated"
+ quad.5.egal:0 "It is only fair you get to chose whether or not you live."
+ quad.5.auth:0 "Your wish is meaningless, you must serve us or die."
+ quad.5.mili:0 "*Take the Rune and launch tactical nukes to the surface*"
+ quad.5.paci:0 "We shall help you end your torment, may you rest in peace."
+ quad.5.mach:0 "*IF mercyKill OR exterminate THEN target.endLife* Positve"
+ quad.5.hive:0 "We will take the Rune, Lady. May we meet again."
+
+ quad.6.name:0 "The Regeneration Rune"
+ quad.6.desc:0 "Once we got the §YThe Regeneration Rune§! and started to leave planet's surface, lots of tentacles came out of the mountain's tunnel trying to get hold of our ship.\nOur capitan did some evasive maneuvers and got into orbit safely. We witnessed how the tentacles fell lifelessly while we dodged them and reached the stratosphere."
+ quad.6.a:0 "I guess that, in the end, nobody wants to die"
+
+#  somebody else got there first
+ quad.7.name:0 "The Regeneration Rune"
+ quad.7.desc:0 "As our team kept walking through the tunnel, the heartbeat stopped. Later on, a rotting stench cought their notice. There were dead tentacles all over the place that recently fought some other creature and lost.\n\nAt the end of the tunnnel layed a chamber which our archaeologists fully inspected. In said chamber, there was dead body which was impossible to identify due to the damage it recieved.\n\nA fading echo could be heard:\n\n§BHe took it, my precious, my Rune! The Regeneration Rune!§!\n\nIt appears somebody else got to the Rune first and killed everything in his path."
+ quad.7.a:0 "This is bad..."
+ 
+ 
+# riki invisibility_rune
+ riki.0.name:0 "Diffuse Light"
+ riki.0.desc:0 "The §Y[Root.GetName]§! has detected that at a certain possition and time of the day, the light from the star gets diffused. This annomaly would not have cought our attention but the precision and timing is just perfect. The light dispersion seems to be caused by an unidentified object orbiting planet §HDeani§!."
+ riki.0.a:0 "Could it be ancient civilization?"
+
+ riki_site:0 "Diffuse Light"
+ riki_relic_world_site_desc:0 "The light from the star gets diffused caused by an unidentified object orbiting planet §HDeani§!."
+
+ riki.1.name:0 "The Invisible Station"
+ riki.1.desc:0 "Upon entering the orbit of §HDeani§!, one of crew members spotted a station shaped cloud of space dust. As the ship approached the annomaly, it was clear the we were dealing with some sort of cloacked orbital station."
+ riki.1.a:0 "Breach the station and investigate its purpose."
+
+ riki.2.name:0 "The Breach"
+ riki.2.desc:0 "After successfully breaching the docking bay, our team scouted the station. Nobody was there.\n\nThe place was completely abandoned, but one of the scouts mentioned that voices could be heard near the communal sector.\n\nAs the team approached the area, they found out that the source of the voice was a looping hologram being projected. The most disturbing part about this projection was that there was a light diffusing silhouette doing the speech."
+ riki.2.a:0 "What did it say?"
+
+ riki.3.name:0 "Lost in Space"
+ riki.3.desc:0 "The feed was long and spoken in an alien language which our Language specialists had to decipher in order to translate.\n\nAccording to the speaker, the entire crew abandoned the ship in hopes to find the Nyblax but they forgot their station was invisible and had lost their way back.\n\n§B'Its been *STATIC* months since we left Arkanin station, we were out of fuel and had to *STATIC* in Deani's surface. Without means to escape the planets gravity it is unlikely we will *LONG STATIC*. If you see this message, please find us, we are at *LONG STATIC* rift valley. We successfully created *LONG STATIC*, which was able to turn the station invisible.'§!"
+ riki.3.a:0 "We need that tech!"
+
+ riki.4.name:0 "The Nyblax Paintings"
+ riki.4.desc:0 "Deani's surface is inhospitable, no wonder the Arkanin crew were so grim... Our scanners were not able to find any structure nor wreckage so our archaeologists did a grid search in every valley they could find.\n\nFortunately the expedition proved successful: We found the cave were the crew spent their final days. The cave walls were decorated with rupestre paintings which told the story of the Nyblax.\n\nIn the first set of paintings it shows their first encounter, were the creature gives the crew a gift. Our linguistics interpret this as the gift of knowledge.\n\nThe story follows when the crew use this gift in their home planet and accidentally kill most of their people.\n\nThe last set display how the crew members are lifting a glowing Rune, as if it was some sort of prize or achievement.\n\nWhen the accident ocurred, the life force of their people was materialized as this Rune.\nAccording to the drawings, the Rune holds the power to turn objects invisible."
+ riki.4.a:0 "Probably the dumbest crew ever, now, where is the rune?"
+
+ riki.5.name:0 "The Invisibility Rune"
+ riki.5.desc:0 "The task prove harder than expected. We expected the rune to be sitting right next to the corpses of the Arkanin crew, but one of the members was unaccounted for.\n\nWe summoned our best trackers and we finally found his body at the shore of a lake, which, happens to be poisoned...\n\nThe guy died instantly when trying to drinking from it, luckily for us, he still had the rune when he did."
+ riki.5.a:0 "Can I see it?"
+
+ abandoned_invisible_observation_outpost:0 "Arkanin Research Station"
+ riki_observation_tooltip:0 "A cloacked orbital station"
+ riki_observation_desc: "A cloacked orbital station"
+
+#  somebody else got there first
+ riki.6.desc:0 "The task prove harder than expected. We expected the rune to be sitting right next to the corpses of the Arkanin crew, but one of the members was unaccounted for.\n\nWe summoned our best trackers and we finally found his body at the shore of a lake, which, happens to be poisoned...\n\nThe guy died instantly when trying to drinking from it, unfortunately he no longer had the Rune.\n\nAnother set of footprints was found in the scene. It seems somebody else got to it first and left no other leads."
+ riki.6.a:0 "This is bad..."
+
+
+# Maintenance Events
+ pr_maintenance.3.name:0 "Survivor from the [LastKilledCountryName]"
+ pr_maintenance.3.desc:0 "After the destruction of the §H[LastKilledCountryName]§!, a survivor has come to us with an offer. They seek passage through our empire in exchange for the §YMighty Rune§!."
+ pr_maintenance.3.a:0 "Grant him passage, we must have the §YMighty Rune§!."
+
+ pr_maintenance.6.name:0 "Survivor from the [LastKilledCountryName]"
+ pr_maintenance.6.desc:0 "After the destruction of the §H[LastKilledCountryName]§!, a survivor has come to us with an offer. They seek passage through our empire in exchange for the §YHaste Rune§!."
+ pr_maintenance.6.a:0 "Grant him passage, we must have the §YHaste Rune§!."
+
+ pr_maintenance.9.name:0 "Survivor from the [LastKilledCountryName]"
+ pr_maintenance.9.desc:0 "After the destruction of the §H[LastKilledCountryName]§!, a survivor has come to us with an offer. They seek passage through our empire in exchange for the §YIllusion Rune§!."
+ pr_maintenance.9.a:0 "Grant him passage, we must have the §YIllusion Rune§!."
+
+ pr_maintenance.12.name:0 "Survivor from the [LastKilledCountryName]"
+ pr_maintenance.12.desc:0 "After the destruction of the §H[LastKilledCountryName]§!, a survivor has come to us with an offer. They seek passage through our empire in exchange for the §YArcane Rune§!."
+ pr_maintenance.12.a:0 "Grant him passage, we must have the §YArcane Rune§!."
+
+ pr_maintenance.15.name:0 "Survivor from the [LastKilledCountryName]"
+ pr_maintenance.15.desc:0 "After the destruction of the §H[LastKilledCountryName]§!, a survivor has come to us with an offer. They seek passage through our empire in exchange for the §YInvisibility Rune§!."
+ pr_maintenance.15.a:0 "Grant him passage, we must have the §YInvisibility Rune§!."
+
+ pr_maintenance.18.name:0 "Survivor from the [LastKilledCountryName]"
+ pr_maintenance.18.desc:0 "After the destruction of the §H[LastKilledCountryName]§!, a survivor has come to us with an offer. They seek passage through our empire in exchange for the §YRegeneration Rune§!."
+ pr_maintenance.18.a:0 "Grant him passage, we must have the §YRegeneration Rune§!."
+
+ rune_lost:0 "Loss of an Power Rune"
+ rune_lost_desc:0 "Our carelessness lost us one of the most power weapons in the galaxy."
+
+# Mighty rune Subject Remove
+pr_maintenance.52.name:0 "§YMighty Rune§! Missing!"
+pr_maintenance.52.desc:0 "After the administrative upheaval caused by our vassalisation, it appears the §YMighty Rune§! has vanished. We have people looking everywhere for it, but most have already given up hope on finding it."
+pr_maintenance.52.a:0 "A most tragic loss"
+pr_maintenance.53.name:0 "The Mysterious Hoarder"
+pr_maintenance.53.desc:0 "A shady figure has come to our leaders with a most exciting news. He posseses the §YMighty Rune§! and he would be willing to give ir for free."
+pr_maintenance.53.a:0 "Excelent news."
+
+# haste rune Subject Remove
+pr_maintenance.55.name:0 "§YHaste Rune§! Missing!"
+pr_maintenance.55.desc:0 "After the administrative upheaval caused by our vassalisation, it appears the §YHaste Rune§! has vanished. We have people looking everywhere for it, but most have already given up hope on finding it."
+pr_maintenance.55.a:0 "A most tragic loss"
+pr_maintenance.56.name:0 "The One Eyed Golem"
+pr_maintenance.56.desc:0 "A strange rock creature came to us today with an offer, in exchange for a massage from one of our people, it'll give us the §YHaste Rune§!!"
+pr_maintenance.56.a:0 "Odd, but OK..."
+
+# illusion rune Subject Remove
+pr_maintenance.58.name:0 "§YIllusion Rune§! Missing!"
+pr_maintenance.58.desc:0 "After the administrative upheaval caused by our vassalisation, it appears the §YIllusion Rune§! has vanished. We have people looking everywhere for it, but most have already given up hope on finding it."
+pr_maintenance.58.a:0 "A most tragic loss"
+pr_maintenance.59.name:0 "The Collector's Collection"
+pr_maintenance.59.desc:0 "A collector of rare artifacts recently came into the ownership of the §YIllusion Rune§!, however, as people kept trying to kill him for it, he has decided to sell it to us for a "low price"."
+pr_maintenance.59.a:0 "If that's what it takes!"
+
+
+# Arcane Rune Subject Remove
+pr_maintenance.61.name:0 "§YArcane Rune§! Missing!"
+pr_maintenance.61.desc:0 "After the administrative upheaval caused by our vassalisation, it appears the §YArcane Rune§! has vanished. We have people looking everywhere for it, but most have already given up hope on finding it."
+pr_maintenance.61.a:0 "A most tragic loss"
+pr_maintenance.62.name:0 "The Vengefull Spirit"
+pr_maintenance.62.desc:0 "A ghost like creature appeared in the dream of §Y[Root.GetRulerTitle] [Root.GetRulerName]§! last night and handed them the §YArcane Rune§! with the condition to use it against the Nyblax. When §Y[Root.GetRulerName]§! awoke, they had the §YArcane Rune§! in the real world too!"
+pr_maintenance.62.a:0 "Spooky"
+
+# Invisibility Rune Subject Remove
+pr_maintenance.64.name:0 "§YInvisibility Rune§! Missing!"
+pr_maintenance.64.desc:0 "After the administrative upheaval caused by our vassalisation, it appears the §YInvisibility Rune§! has vanished. We have people looking everywhere for it, but most have already given up hope on finding it."
+pr_maintenance.64.a:0 "A most tragic loss"
+pr_maintenance.65.name:0 "The Trickster"
+pr_maintenance.65.desc:0 "A thief was captured yesterday. He committed crimes by "convincing" others to do things for him. It may, however, have been more than convincing as inside his pockets we found the §YInvisibility Rune§!. The thief disappeared from his cell later that night."
+pr_maintenance.65.a:0 "An interesting development."
+
+# regen rune Subject Remove
+pr_maintenance.67.name:0 "§YRegeneration Rune§! Missing!"
+pr_maintenance.67.desc:0 "After the administrative upheaval caused by our vassalisation, it appears the §YRegeneration Rune§! has vanished. We have people looking everywhere for it, but most have already given up hope on finding it."
+pr_maintenance.67.a:0 "A most tragic loss"
+pr_maintenance.68.name:0 "Overgrowth"
+pr_maintenance.68.desc:0 "A commercial ship of §H[Root.Capital.GetName]§! was destroyed from within by the sudden overgrowth of the ships cargo. Inside the wreckage, we found that the §YRegeneration Rune§! had some seeds overgrow instantly, craeting a bunch of trees that tore the ship apart."
+pr_maintenance.68.a:0 "A weird development."
+
+##################################################################################################################
+
+  
+  
+
+ # nyblax cube
+ requires_relic_six_runes:0 "$TRIGGER_FAIL$§RThe Nyblax Cube requies  all six runes to work.§!"
+ powering_cube:0 "$TRIGGER_FAIL$§RThe Nyblax Cube needs to be powered up through a special project.§!"
+ 
+ 
+ nyblax_cube.10.name:0 "The Nyblax Cube"
+ nyblax_cube.10.desc:0 "Once we placed all the §YPower Runes§! in the §YNyblax Cube§!, a collective voice coordinated in harmony could be heard.\n\n§B'We are the Nyblax Interface, the fading echoes of long dead civilizations.'§!\n\nThe voices are a collective manifestation of all the sacrifices made to create the §YPower Runes§!.\n\n§B'These are the options currently available in your Nyblax Cube, please select the desired option:'§!"
+ 
+ nyblax_cube.10.a:0 "Purge the galaxy!" ## goddess of death
+ 
+ nyblax_cube.10.b:0 "Bring happiness and equality to the Galaxy" ## god of joy egalitarian ?
+ nyblax_cube.10.c:0 "Rule the Galaxy!" ## -happiness to all athoritarian ? xD
+ 
+ nyblax_cube.10.d:0 "Bring peace" ## no possible wars
+ nyblax_cube.10.da:0 "Break the peace!" ## no possible wars
+ nyblax_cube.10.e:0 "Own the galaxy!" ## militaristic
+ 
+ nyblax_cube.10.f:0 "Absolute Knowledge." ## materialistic?  ## removed
+ nyblax_cube.10.g:0 "Make them to believe!" ## spiritual
+ 
+ nyblax_cube.10.h:0 "Purge the Xenos!" ## xenophobe
+ nyblax_cube.10.i:0 "Unite the Galaxy!" ## xenophile
+ 
+ nyblax_cube.10.j:0 "Force others to join the collective!" ## assimilate them all
+  
+ nyblax_cube.10.k:0 "Others should pay tribute to our empire!" ## make tributary or subsidiartu  ## megacorp enabled also serves as materialistic, maybe ?
+ 
+ nyblax_cube.10.l:0 "Balance the Universe."
+ 
+ nyblax_cube.10.z:0 "Just do anything!"
+ nyblax_cube.10.y:0 "Destroy the Runes!"
+ nyblax_cube.10.goodbye:0 "Oh.. nothing."
+
+## notifications
+## robotontos
+ nyblax_cube.101.name:0 "The Death Wish"
+ nyblax_cube.101.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\n§Y[From.GetRulerTitle] [From.GetRulerName]§! configured the Cube to target and destroy all biological lifeforms.\n\nA swarm of microscopic agents is spreading across the hole galaxy, infecting and reproducing inside the targeted hosts, eating and decomposing their cellular structures until no other organisms remains.\n\nEveryone is being desintegrated and turned into dust during this devastating event."
+ nyblax_cube.101.a:0 "Astonishing."
+
+ nyblax_cube.102.name:0 "A Happy Wish"
+ nyblax_cube.102.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\n§Y[From.GetRulerTitle] [From.GetRulerName]§! was laughing, and the laughter was contagious!\nHis laughter spreads across the galaxy bringing joy and happiness. All sentient life are feeling content and with pleasure.\n\nIt seems the purpose of §Y[From.GetRulerTitle] [From.GetRulerName]§! was to bring laughter and joy to the galaxy."
+ nyblax_cube.102.a:0 "Smile and put on a happy face."
+
+ nyblax_cube.103.name:0 "The Great Conqueror" #vasal
+ nyblax_cube.103.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\n§Y[From.GetRulerTitle] [From.GetRulerName]§! configured the Cube and somehow The §YNyblax Cube§! got into every system and changed their data. Before anybody could do something about it, all their systems indicated that they were vassals to the §Y[From.GetAdjective]§! people!! The §Y[From.GetAdjective]§! are not sorry, simply better!"
+ nyblax_cube.103.a:0 "All hail [From.GetRulerTitle] [From.GetRulerName]!"
+
+ nyblax_cube.104.name:0 "The Peace Bringer"
+ nyblax_cube.104.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\n§Y[From.GetRulerTitle] [From.GetRulerName]§! configured the Cube to bring peace. It is unknown what the §YNyblax Cube§! did but, the galaxy started to lose the will to fight.\n\nFrom now on, no other wars will be waged!"
+ nyblax_cube.104.a:0 "Awesome."
+
+ nyblax_cube.104b.name:0 "The Peace Breaker"
+ nyblax_cube.104b.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\n§Y[From.GetRulerTitle] [From.GetRulerName]§! configured the Cube to break the peace. It is unknown what the §YNyblax Cube§! did but, the galaxy regained the will to fight.\n\nFrom now on: WAR!"
+ nyblax_cube.104b.a:0 "Awesome."
+
+ nyblax_cube.105.name:0 "The Great Conqueror" #conquer planets
+ nyblax_cube.105.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\n§Y[From.GetRulerTitle] [From.GetRulerName]§! configured the Cube and after activating it, every planet started to fall under the rule of the §Y[From.GetAdjective]§! people!!\n\nThe §Y[From.GetAdjective]§! are slowly controling the galaxy and their people. Soon: no more borders, no more wars, just the §Y[From.GetAdjective]§! united worlds."
+ nyblax_cube.105.a:0 "All hail [From.GetRulerTitle] [From.GetRulerName]!"
+## 106 is knowledge but we removed it
+ nyblax_cube.107.name:0 "The God of Light"
+ nyblax_cube.107.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\n§Y[From.GetRulerTitle] [From.GetRulerName]§! configured the Cube to shed light upon the blind. Glorious incandescence, the galaxy was bathe in the light and darkness banished. Thanks to §Y[From.GetRulerTitle] [From.GetRulerName]§!, the galaxy has finally opened their eyes and hearts, turned from darkness to light. And by doing so, the galaxy may receive forgiveness of sins and a place among those who are sanctified by faith."
+ nyblax_cube.107.a:0 "Amen."
+
+ nyblax_cube.108.name:0 "The Death Wish"
+ nyblax_cube.108.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\n§Y[From.GetRulerTitle] [From.GetRulerName]§! configured the Cube to target and destroy all lifeforms other than themselves. A swarm of microscopic agents is spreading across the hole galaxy, infecting and reproducing inside the targeted hosts, eating and decomposing their cellular structures until no other organisms remains.\n\nEveryone is being desintegrated and turned into dust during this devastating event."
+ nyblax_cube.108.a:0 "Astonishing."
+
+ nyblax_cube.109.name:0 "The Power of Friendship"
+ nyblax_cube.109.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\nIt is unclear what §Y[From.GetRulerTitle] [From.GetRulerName]§! did with the Cube, but a warm hug was felt by everybody in the galaxy, even robots had a subrutine simulating confort and warmth. Every envoy, politician and ruler from every planet accross the galaxy gathered and created the ultimate alliance\n\nMay this alliance last forever!"
+ nyblax_cube.109.a:0 "Lovely!"
+
+ nyblax_cube.110.name:0 "The Assimilation"
+ nyblax_cube.110.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\n§Y[From.GetRulerTitle] [From.GetRulerName]§! configured the Cube to unite the galaxy under a single voice. A swarm of microscopic agents is spreading across the hole galaxy, infecting and reproducing inside the targeted hosts, changing their cellular structures to fit the collective.\n\nEveryone's individuality is being lost during this event. The galaxy will be one voice, and those whose voices can not be heard will be destroyed in the process."
+ nyblax_cube.110.a:0 "We are one."
+
+ nyblax_cube.111.name:0 "Payday"
+ nyblax_cube.111.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\n§Y[From.GetRulerTitle] [From.GetRulerName]§! configured the Cube to compel every other empire into submission. Now the §Y[From.GetAdjective]§! people are taxing their subjects wile also limiting their freedom.\n\nHow long will this opretion be put up with?"
+ nyblax_cube.111.a:0 "All hail [From.GetRulerTitle] [From.GetRulerName]!"
+
+ nyblax_cube.112.name:0 "Galaxy: Balanced"
+ nyblax_cube.112.desc:0 "By using the §YPower Runes§! in unison, the §R[From.GetAdjective]§! activated the §YNyblax Cube§!.\n\n§Y[From.GetRulerTitle] [From.GetRulerName]§! configured the Cube to target and destroy half of all lifeforms in the galaxy.\n\nA swarm of microscopic agents spread across the hole galaxy, infecting and reproducing inside the targeted hosts, eating and decomposing their cellular structures until no other organisms remained.\n\nHalf of the galaxy was turned into dust in this devastating event."
+ nyblax_cube.112.a:0 "Perfectly balanced as all things should be."
+ 
+ 
+ nyblax_cube.199.name:0 "The Free Civilizations"
+ nyblax_cube.199.desc:0 "By using the power of the §YPower Runes§!, the §R[From.GetAdjective]§! used its power to destroy the Runes! The §R[From.GetAdjective]§! hope that, by doing so, the souls of the old civilizations would be free and could rest in peace.\n\nThe Cube was also destroyed in the process and during the aftermath, §Y[From.GetRulerTitle] [From.GetRulerName]§! found a sock that nobody could recognize."
+ nyblax_cube.199.a:0 "Interesting."
+
+
+
+
+
+## notifications
+ nyblax_cube.100.name:0 "The Wish"
+ nyblax_cube.100.desc:0 "After collecting all the §YPower Runes§!, the Mad Collector placed them in each side of the §YNyblax Cube§!.\n\nThe Mad Collector configured the Cube to target and destroy all lifeforms other than themselves!\nA swarm of microscopic agents is spreading across the hole galaxy, infecting and reproducing inside the targeted hosts, eating and decomposing their cellular structures until no other organisms remain.\n\nEveryone is being desintegrated in this devastating event...\n\nHe did exactly what he said he was going to do. He wipes out all sentient creatures in the galaxy but them.\n\nNow the galaxy is going silent, waiting for new life to thrive once again."
+ nyblax_cube.100.a:0 "He was... inevitable."
+
+ nyblax_cube.4.name:0 "The Nyblax Cube"
+ nyblax_cube.4.desc:0 "After collecting all the §YPower Runes§! and using some minor artifacts we were able to forge the §YNyblax Cube§!.\n\nPower beyond our wildest dreams await!\n\nThe §YNyblax Cube§! requires a vast amount of power to be activated. A §Yspecial project§! was created to power up the Artifact."
+ nyblax_cube.4.a:0 "We are... inevitable."
+
+
+ ################### wish extras #############
+
+ happy_wish:0 "The Nyblax Happiness"
+ opinion_happy_wish:0 "The Nyblax Happiness"
+ opinion_galactic_unifier:0 "Galactic Unifier"
+ ################### DEBUG EVENTS #############
+
+ pr_debug.0.a:0 "Sweet"
+
+
+ pr_debug.1.name:0 "6 runes request"
+ pr_debug.1.desc:0 "Gives all six runes"
+ pr_debug.1.a:0 "Sweet"
+ pr_debug.1.b:0 "I don't want this"
+
+ pr_debug.2.name:0 "6 runes remove"
+ pr_debug.2.desc:0 "Removes all six runes"
+ pr_debug.2.a:0 "Sweet"
+ pr_debug.2.b:0 "I don't want this"
+
+ pr_debug.50.name:0 "Fixer"
+ pr_debug.50.desc:0 "Removes cube and runes from all nations"
+ pr_debug.50.a:0 "Sweet"
+ pr_debug.50.b:0 "I don't want this"
+
+ pr_debug.99.name:0 "Colony Destroyer"
+ pr_debug.99.desc:0 "Colony is already destroyed, rip if you did by accidentally."
+ pr_debug.99.a:0 "..."
+ 
+ pr_debug.3.name:0 "Give collector runes"
+ pr_debug.3.desc: "Gives collector some runes"
+ pr_debug.3.a: "sure.. why not"
+ 
+ pr_debug.6.name:0 "Dig all the runes"
+ pr_debug.6.desc: "Dig all the runes"
+ pr_debug.6.a: "Dig and dig and dig and digaridig!"
+ 
+ ###### collector ########
+ thanos_mothership: "Moving Vault IV"
+ thanos_mothership_plural: "Moving Vault IV"
+ 
+ complexwar.5057.name: "The Mad Collector"
+ complexwar.5057.desc: "No one is actually dead until the ripples they caused in the world die away. Embrace death, long for it, and when dead those ripples you caused will echo in our vaults for all eternity.\n\nWe are The Collectors, keepers of ancient relics and artifacts of long dead civilizations.\nSurrender your Runes, give in to the inevitability of death and we shall collect the remains of your kind, for they will be treasured and wondered by generations to come!"
+ complexwar.5057.a: "Big mouthfuls often choke! They will be stopped!"
+ complexwar.5057.b: "A greedy father has thieves for children."
+ 
+ complexwar.5059.name: "Planet raided"
+ complexwar.5059.desc: "The Mad Collector left the planet after getting all the Power Runes he could find and killing a great part of its population in his wake."
+ complexwar.5059.a: "He will pay for this! He has to..."
+ complexwar.5059.b: "Even death is not to be feared by one who has lived wisely."
+ 
+ complexwar.1016.name: "Mad Collector defeated!"
+ complexwar.1016.desc: "Battles after battle, massacre after massacre, finally the Mad Collector has fallen. Though his body was not found, his ship was destroyed and the remains of the Nyblax Cube were taken, along with the runes he was able to collect. Now, the galaxy can rest in peace."
+ complexwar.1016.a: "You have my respect, Collector. I hope they remember you."
+ complexwar.1016.b: "The work is done. I won. What I'm about to do, I'm gonna enjoy it."
+ complexwar.1016.c: "At last! The threat is over!"
+
+ collectors.2005a.desc: ""
+ complexwar.1018.name: ""
+ complexwar.1018.desc: ""
+ 
+ 
+ thanos: "The Collector"
+ collector_in_orbit: "Raiding the planet"
+ collector_in_orbit_desc: "The Collector and his minions have landed, chaos and destruction rules over this planet while the Collector seeks for the Power Runes."
+ 
+
+  
+ casus_belli_cb_power_runes: "§YPower Runes§!"
+ war_goal_wg_power_runes:0 "Seize §YPower Runes§!"
+ war_goal_wg_power_runes_desc:0 "The enemy has §YPower Runes§!. Raw untainted power, and beyond that, something truly special."
+
+ artifact_build_cube: "Forge §YThe Nyblax Cube§!"
+ artifact_build_cube_desc: "Forge a device capable of harnessing the power of all the six §YPower Runes§!."
+ 
+ 
+ 
+  ###################################################################################################################
+
+ ## will reuse later with another wish
+ war_goal_wg_cube_war:0 "§YThe Interdiction§!"
+ war_goal_wg_cube_war_desc:0 "§YThe Interdiction§! was waged to prevent the use of the Nyblax Cube."
+ 
+ 
+ # INFINITY WAR EVENTS
+ cube_war_events.13.name:0 "§YThe Interdiction§!"
+ cube_war_events.13.desc:0 "The §Y[event_target:cube_holder.GetName]§! has constructed §RThe Nyblax Cube§! and started powering it up.\n§Y[Root.GetRulerTitle] [Root.GetRulerName]§! wishes to form a galatic alliance to force the cease of the powering on the Cube and its destruction."
+ cube_war_events.13.a:0 "We will form this alliance."
+ cube_war_events.13.b:0 "It is too dangerous."
+
+ cube_war_events.20.name:0 "§YThe Interdictors§!"
+ cube_war_events.20.desc:0 "The §Y[From.GetName]§! has invited us to an alliance against the §Y[event_target:cube_holder.GetName]§! to stop the powering up and destruction of §RThe Nyblax Cube§!."
+ cube_war_events.20.a:0 "We have no choice."
+ cube_war_events.20.b:0 "It does not concern us."
+
+ cube_war_events.15.name:0 "§YThe Interdictors§!"
+ cube_war_events.15.desc:0 "The §Y[From.GetName]§! has agreed to join our alliance."
+ cube_war_events.15.a:0 "Excellent."
+
+
+ cube_war_events.50.name:0 "§YThe Interdiction§!"
+ cube_war_events.50.desc:0 "It is time to stop the §Y[event_target:cube_holder.GetName]§! once and for all!"
+ cube_war_events.50.a:0 "To war!."
+
+ cube_war_events.51.name:0 "§YThe Interdiction§!"
+ cube_war_events.51.desc:0 "§YThe Interdictors§! have gone to war with the §Y[event_target:cube_holder.GetName]§! to prevent the use of the §RThe Nyblax Cube§!!"
+ cube_war_events.51.a:0 "The hardest choices require the strongest wills."
+
+  # unsused, will reuse with another wish
+  
+ cube_war_events.1.name:0 "§MThe Interdiction§!"
+ cube_war_events.1.desc:0 "The §H[cube_holder.GetName]§! has come into to possesion of all 6 Power Runes and now seeks to use them in unison for an unknown purpose. Due to the destructive nature of the runes, the outcome of such an endeavour cannot be taken lightly.\nThere are wispers around the galaxy of forming a united league against the §H[cube_holder.GetName]§! to stop them from powering up §YThe Nyblax Cube§!."
+ cube_war_events.1.a:0 "Understood."
+
+ complexwar.5062.name:0 "§MThe Interdiction§!"
+ complexwar.5062.desc:0 "The §H[cube_holder.GetName]§! is halfway through powering the §YThe Nyblax Cube§!. Citizens all across the galaxy are concerned with what might happen once the cube is powered up. There are numerous episodes of civil unrest, riots and protests asking governments to do something about it!\n\nWhatever the galaxy council is doing is certainly not enough and the people are worried. Anti-cube movements are spreading in hope the galactic powers can revert this crisis."
+ complexwar.5062.a:0 "Our people should not worry!"
+ complexwar.5062.b:0 "We have other matters to attend to."
+# END OF WAR EVENTS #
+

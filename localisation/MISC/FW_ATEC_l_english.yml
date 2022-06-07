@@ -1,0 +1,39 @@
+﻿l_english:
+#_[ATEC通用evts]
+#_[ATEC通用tips]
+
+
+
+
+###_[ATEC通用evts]    ########################################################################
+ ATEC_desc_Done:0 "The current research project has been completed, and you can choose to §Bstart a new project§! or §Hstop further research§!."
+ ATEC_option_None:0 ""
+ ATEC_tips_NOTE_option_CONTINUE_title:0 "§WStart a New Project§!"
+ ATEC_tips_NOTE_option_CONTINUE_desc:0 "§EThe Advanced Research panel will open to select a new project.§!"
+ ATEC_tips_NOTE_option_STOP_title:0 "§YStop Further Research§!"
+ ATEC_tips_NOTE_option_STOP_desc:0 "§HClose the panel without triggering any new commands.§!"
+
+
+
+
+###_[ATEC通用tips]    ########################################################################
+ FW_tips_ATEC_no_cap: "§HThe advanced research channel is full: §!§R[root.FW_var_cntr_ATEC_ongoing]§!/ §G[root.FW_var_cntr_ATEC_cap]§!\n§YCancel any ongoing Advanced Research Projects to continue.§!"
+ FW_tips_MTEC_no_cap: "§HThe top-tech maintenance channel is full: §!§R[root.FW_var_cntr_MTEC_ongoing]§!/ §G[root.FW_var_cntr_MTEC_cap]§!\n§YCancel any ongoing Top-tech Maintenance Projects to continue.§!"
+ 
+ ATEC_Points: "§BAdvanced Tech Point§!"
+ ATEC_guide_Decline: "§ETechnology Decline:§!\nSome unfinished §HAdvanced Research Projects§! progress will decay over time, as will some completed ones. \nFor the completed §HAdvanced Research Project§!, its title color and the color of the icon vertex triangle determine its decline indicator. \n\n§BBlue§! means never decay. \n§HYellow§! means that it will not decay under certain conditions. \n§RRed§! means that it will always decline, and such projects require constant investment of $ATEC_Points$ to maintain their progress."
+ ATEC_guide_Process: "§EResearch Progress:§!\nClick on an ongoing §HAdvanced Research Project§! to pause it, but its progress will be preserved. \n§YThe progress of some projects will decay over time in the paused state. §!"
+ ATEC_guide_Difficult: "§HDifficulty Level:§!\nThe difficulty of some research projects will increase as the §EResearch Progress§! increases, the higher the difficulty, the slower the progress."
+ ATEC_guide_Cost: "§BResearch Costs:§!\nAll §HAdvanced Research Projects§! cost $ATEC_Points$. \n§YCompleting any normal technology will provide 10 $ATEC_Points$, and some specific technologies will provide more $ATEC_Points$. §!"
+ ATEC_guide_Succed: "§GBreakthrough Probability:§!\nCompleting some special events or tasks can increase the breakthrough probability of the current project.\n§YWhen research is in progress, the breakthrough probability may also change dynamically, usually encountering card points frequently may increase the breakthrough probability .§!"
+ ATEC_guide_Stuck: "§RStuck Points: §!\nIf the breakthrough probability is lower than 100%, the progress may be stuck. The lower the probability of breakthrough, the easier it is to encounter stuck points. \n§YStuck Points will significantly slow down research progress. §!"
+
+ ATEC_tips_btn_Deficit: "Insufficient $ATEC_Points$. \nView ongoing research projects in the current tech tree to view requirements details."
+ ATEC_tips_btn_Stuck: "Encountering §RStuck Points§!, please check the §GBreakthrough Probability§! of the current project. \n§HNote:§! The lower the breakthrough rate, the easier it is to encounter stuck points. You need to weigh the value of continuing the current project and find ways to increase the probability of breakthrough."
+ 
+ ATEC_tips_Toggle: "Clicking on §Ha project not under research§! will initiate advanced research. \nClick on §Ga project under research§! to stop advanced research, and the research progress will be retained."
+ ATEC_tips_Process: "£ATEC_tips_Process£ Research progress:"
+ ATEC_tips_Difficult: "£ATEC_tips_Difficult£ Difficulty Level:"
+ ATEC_tips_Cost: "£ATEC_tips_Cost£ Research Costs:"
+ ATEC_tips_Succed: "£ATEC_tips_Succed£ Breakthrough Probability:"
+ ATEC_tips_Stuck: "£ATEC_tips_Stuck£ Current Stuck Points:"  #

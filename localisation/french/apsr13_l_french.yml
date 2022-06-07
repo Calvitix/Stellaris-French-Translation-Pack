@@ -1,0 +1,157 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr13_planet_modifier:0 "Galaxy Market"
+ apsr13_planet_modifier_desc:0 "Long ago, this was the center of the galactic trade and commerce network."
+ 
+ apsr13_deposit:0 "$apsr13_planet_modifier$"
+ apsr13_deposit_desc:0 "$apsr13_planet_modifier_desc$\n\n§M$apsr13_deposit_effect$§!" 
+ apsr13_deposit_effect:0 "Unique resource available: $apsr13_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr13_building_part1_text:0 "A sprawling facility, equipped with state of the art equipment and consisting of a complex network of buildings, terminals and storage area, all used to facilitate trade."
+ 
+ apsr13_building_part2_text:0 "A sprawling facility, equipped with state of the art equipment and consisting of a complex network of buildings, terminals and storage area, all used to facilitate trade."
+ 
+ apsr13_building_part3_text:0 "A sprawling facility, equipped with state of the art equipment and consisting of a complex network of buildings, terminals and storage area, all used to facilitate trade."
+ 
+ apsr13_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr13_building_fake_predesc:0 "§MUnique building§!\n§RWe don't have the proper technologies to maximize the output of this building!§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr13_building_part1:0 "Trading Complex"
+ apsr13_building_part1_desc:0 "$apsr13_building_predesc$\n$apsr13_building_part1_text$"
+ 
+ apsr13_building_part2:0 "Galactic Market"
+ apsr13_building_part2_desc:0 "$apsr13_building_predesc$\n$apsr13_building_part2_text$"
+ 
+ apsr13_building_part3:0 "Galactic Trade Center"
+ apsr13_building_part3_desc:0 "$apsr13_building_predesc$\n$apsr13_building_part3_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr13_building_part1:0 "Galactic Trade I"
+ tech_apsr13_building_part1_desc:0 "Rebuilding the §YGalaxy Market§! will be a hard endeavour, but we have the resources required in order to pull it off."
+ TECH_APSR13_PART1_TITLE:0 "§HBuilding:§! $apsr13_building_part1$"
+ TECH_APSR13_PART1_DESC:0 "$apsr13_building_part1_desc$"
+ 
+ tech_apsr13_building_part2:0 "Galactic Trade II"
+ tech_apsr13_building_part2_desc:0 "The §YGalaxy Market§! can increase our trade revenue and connections with the other players on the galactic stage."
+ TECH_APSR13_PART2_TITLE:0 "§HBuilding:§! $apsr13_building_part2$"
+ TECH_APSR13_PART2_DESC:0 "$apsr13_building_part2_desc$"
+ 
+ tech_apsr13_building_part3:0 "Galactic Trade III"
+ tech_apsr13_building_part3_desc:0 "With the complete reconstruction and enhancing of the §YGalaxy Market§!, we will finally become the center of galactic trade!"
+ TECH_APSR13_PART3_TITLE:0 "§HBuilding:§! $apsr13_building_part3$"
+ TECH_APSR13_PART3_DESC:0 "$apsr13_building_part3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.13001.title:0 "$apsr13_building_part1$ constructed"
+ apsr.13001.desc:0 "Finally, we have partly finished our Galactic Complex recostruction. Today, the buildings, which were lying in the dust for ages, will start their work again!"
+ apsr.13001.ok-button:0 "Excellent"
+ 
+ apsr.13002.title:0 "$apsr13_building_part2$ constructed"
+ apsr.13002.desc:0 "Now we have finished reconstruction of the largest part of this old Trading Complex. New shops and markets were opened, and many traders from other countries are immigrating to our empire, and our trading power has grown stronger."
+ apsr.13002.ok-button:0 "We will raise the trading-level in this galaxy!"
+ 
+ apsr.13003.title:0 "$apsr13_building_part3$ constructed"
+ apsr.13003.desc:0 "Many years have passed since we found this ancient trading complex, and now it finally was reopened. Now we are famous among traders from other countries and alien trading companies are fighting for any meter of earth for their shops. And, also, we're getting huge profits from taxes here."
+ apsr.13003.ok-button:0 "The economy of our galaxy is centered in our hands!"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.13011.title:0 "Detected: §M$apsr13_planet_modifier$§!"
+ apsr.13011.desc:0 "A research team from the ship §H[Root.GetName]§! led by §H[Root.GetLeaderName]§! has reported that they've found a ruined complex of buildings.\nAs a result of scanning, we have discovered an entire city specialized in trade. After a short exploration §H[Root.GetLeaderName]§! has come to a conclusion that the planet used to be kind of a huge trade outlet incorporating different civilizations from the whole galaxy. At one of the guide terminals we've found some information. The planet was not owned by some civilization, but by a group of the galaxy's major corporations. The reason why it had been abbandoned remains unclear.\nIt is impossible to salvage any useful information or technology from this place, as a a good part of the usable equipment and technology was plundered long ago. We have however discovered a spacial storage container by virtue of our advanced scanner technology. Some dedicated areas destined for negotiation were also found. Although it is but a ruin, it could be restored given appropriate resources investments, and maybe even improved beyond its fallen apex. The benefits that we may receive are unfathomable as of now."
+ apsr.13011.button:1 "Interesting!"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.13013.title:0 "Detected: §M$apsr13_planet_modifier$§!"
+ apsr.13013.desc:0 "On one of the recently occupied planets, something peculiar has been found. Explorers have discovered an incredibly huge architectural complex. This planet seems to be something like a giant trade center that facilitated the exchange of goods, services and workforce of the galactic civilizations. It cannot properly be explained, but whoever gazes at this facility seems to trust that their commercial activities will succeed should they take place in it."
+ apsr.13013.button:1 "Great!"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.13015.title:0 "Detected: §M$apsr13_planet_modifier$§!"
+ apsr.13015.desc:0 "Our intelligence services, while checking for information about the planets of the other empires, has found something interesting!\nOn one of the planets an ancient trade complex can be found. This shows that the planet was in the past an important node of the galactic trade network, if not its very center. The facility inspires trust, confidence and reliability of its owner in all who visit it; this effect is yet to be explained.\n\n§GInformation:§!\n§YPlanet name:§! §W[event_target:apsr13_planet_target.GetName]§! \n§YPlanet class:§! §W[event_target:apsr13_planet_target.GetClassName]§! \n§YSolar system name:§! §W[event_target:apsr13_planet_target.solar_system.GetName]§! \n§YPlanet owner:§! §W[event_target:apsr13_planet_target.Owner.GetName]§!"
+ apsr.13015.button:1 "Interesting!"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr13_special:0 "$apsr13_planet_modifier$"
+ apsr13_special_desc:0 "$apsr13_planet_modifier_desc$"
+ 
+ APSR13_MESSAGE_SR_INFORMED_TITLE:0 "Information about a unique planet"
+ APSR13_MESSAGE_SR_INFORMED:0 "We received information about a special resource called §M$apsr13_planet_modifier$§!, which is located on the planet §Y$PLANET$§! under control of the §Y$COUNTRY$§!."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr13_anomaly:0 "$apsr1_anomaly$"
+ apsr13_anomaly_desc:0 "$apsr1_anomaly_desc$"
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.13601.title:0 "$apsr.13011.title$"
+ apsr.13601.desc:0 "$apsr.13011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr13_planet_trader_normal:0 "Brokers"
+ job_apsr13_trader_normal:0 "Broker"
+ job_apsr13_trader_normal_plural:0 "Brokers"
+ job_apsr13_trader_normal_desc:0 "A broker's prime responsibility is to bring sellers and buyers together and facilitate the negotiations between them, while also taking a cut of the profit."
+ mod_job_apsr13_trader_normal_add:0 "Broker"
+   
+ apsr13_planet_trader_hive:0 "Broker drones"
+ job_apsr13_trader_hive:0 "Broker drone"
+ job_apsr13_trader_hive_plural:0 "Broker drones"
+ job_apsr13_trader_hive_desc:0 "Although trade is not a common practice, or used at all within the Hivemind society, the Collective acknowledges the value of it, at least in relation to the other empires. The broker drone was thus created, a specialised worker whose purpose is to facilitate trade, negotiations and commerce between the buyers and sellers."
+ mod_job_apsr13_trader_hive_add:0 "Broker drone"
+   
+ apsr13_planet_trader_machine:0 "Broker drones"
+ job_apsr13_trader_machine:0 "Broker drone"
+ job_apsr13_trader_machine_plural:0 "Broker drones"
+ job_apsr13_trader_machine_desc:0 "While the Machine does not practice trade, it recognizes the importance of this practice as a means to exchange resources and improve relations between the galactic players. The Broker drone was specially designed as a means to facilitate trade and negotiations between the buyers and sellers."
+ mod_job_apsr13_trader_machine_add:0 "Broker drone"
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,178 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr6_planet_modifier:0 "Epistle"
+ apsr6_planet_modifier_desc:0 "This epistle lies in a super-secure bunker. It is written in multiple languages with many of its composing parts seemingly being transcribed in different time periods."
+ 
+ apsr6_deposit:0 "$apsr6_planet_modifier$"
+ apsr6_deposit_desc:0 "$apsr6_planet_modifier_desc$\n\n§M$apsr6_deposit_effect$§!" 
+ apsr6_deposit_effect:0 "Unique resource available: $apsr6_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr6_building_part1_text:0 "A camp serving as a forward base for our scientists to try and get into the ultra-secure bunker while also studying its architecture and defense mechanism."
+ 
+ apsr6_building_part2_text:0 "More resources, instruments and field laboratories have been brought in, expanding the size of the camp."
+ 
+ apsr6_building_part3_text:0 "Our scientist have managed to enter the bunker and successfully mapped the entirety of the complex. Now the search for the epistle can truly begin."
+ 
+ apsr6_building_part4_text:0 "We have finally managed to ascertain the purpose of this building, which seems to be the study of §YThe Epistle§!, in order to find ways to counter the threat that destroyed the ancient civilization."
+ 
+ apsr6_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr6_building_fake_predesc:0 "§MUnique building§!\n§RWe don't have the proper technologies to maximize the output of this building!§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr6_building_part1:0 "Scientists Stay"
+ apsr6_building_part1_desc:0 "$apsr6_building_predesc$\n$apsr6_building_part1_text$"
+ 
+ apsr6_building_part2:0 "Scientists Camp"
+ apsr6_building_part2_desc:0 "$apsr6_building_predesc$\n$apsr6_building_part2_text$"
+ 
+ apsr6_building_part3:0 "Scientists Base"
+ apsr6_building_part3_desc:0 "$apsr6_building_predesc$\n$apsr6_building_part3_text$"
+ 
+ apsr6_building_part4:0 "Academy for the Study of Epistles"
+ apsr6_building_part4_desc:0 "$apsr6_building_predesc$\n$apsr6_building_part4_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr6_building_part1:0 "Hacking"
+ tech_apsr6_building_part1_desc:0 "We found a super-protected bunker, in which, judging by the information we have uncovered, there is an §YEpistle§! - a seemingly important document of another civilization. Unfortunately the gates of this bunker are tightly closed and will require considerable effort to open."
+ TECH_APSR6_PART1_TITLE:0 "§HBuilding:§! $apsr6_building_part1$"
+ TECH_APSR6_PART1_DESC:0 "$apsr6_building_part1_desc$"
+ 
+ tech_apsr6_building_part2:0 "Ingress"
+ tech_apsr6_building_part2_desc:0 "We managed to gain access to the first room of the bunker but the rest of the bunker still thwart our attempts. Having developed the methodology for examining the insides means we can finally begin to stake out the insides." 
+ TECH_APSR6_PART2_TITLE:0 "§HBuilding:§! $apsr6_building_part2$"
+ TECH_APSR6_PART2_DESC:0 "$apsr6_building_part2_desc$"
+ 
+ tech_apsr6_building_part3:0 "Analysis"
+ tech_apsr6_building_part3_desc:0 "Without a serious and complex system used for analyzing the bunker complex, we cannot study it efficiently."
+ TECH_APSR6_PART3_TITLE:0 "§HBuilding:§! $apsr6_building_part3$"
+ TECH_APSR6_PART3_DESC:0 "$apsr6_building_part3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.6001.title:0 "$apsr6_building_part1$ completed"
+ apsr.6001.desc:0 "Our scientists settled near the super-protected bunker and have started their studies and attempts at gaining access to it. "
+ apsr.6001.ok-button:0 "Keep me posted"
+ 
+ apsr.6002.title:0 "$apsr6_building_part2$ completed"
+ apsr.6002.desc:0 "Behind the fortified enterance gate we found an antechamber with numerous locked doors awaiting us. The complexity of the defense mechanisms in place is astounding; the makers of this place belonged to a very advanced civilization. The search for new information continues." 
+ apsr.6002.ok-button:0 "Keep going"
+ 
+ apsr.6003.title:0 "$apsr6_building_part3$ completed"
+ apsr.6003.desc:0 "All that we examined during this time is about a dozen rooms of the underground complex. But this is enough to understand that something must have happened, for the bunker was abandoned. We need to advance deeper into the structure and find more clues about the events that transpired." 
+ apsr.6003.ok-button:0 "Look for clues"
+ 
+ apsr.6004.title:0 "$apsr6_building_part4$ completed"
+ apsr.6004.desc:0 "Having studied the Epistle in sufficient detail, our fears were confirmed. Indeed the civilization that created the Epistle fought against a superior enemy who came from outside our galaxy with the intent to destroy all intelligent life. Fortunately, the Epistle contains methods and weapons that can be used to deal with this unknown threat."
+ apsr.6004.ok-button:0 "We need to prepare"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.6011.title:0 "Detected: §M$apsr6_planet_modifier$§!"
+ apsr.6011.desc:0 "The scientific expedition led by §H[Root.GetLeaderName]§! has found something peculiar! \nOn the planet, there is a fortified bunker that according to the gathered information, houses an object of great importance." 
+ apsr.6011.button:1 "Fascinating"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.6013.title:0 "Detected: §M$apsr6_planet_modifier$§!"
+ apsr.6013.desc:0 "Something peculiar has been discovered on one of our new planets. \nThere is a fortified bunker that according to the gathered information, houses an object of great importance."
+ apsr.6013.button:1 "Fascinating"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.6015.title:0 "Detected: §M$apsr6_planet_modifier$§!"
+ apsr.6015.desc:0 "Our intelligence service, while checking information about the planets of other empires, has found something interesting!\nOn one of the planets there is a structure in which there is a shielded Epistle of unknown origin and destination.\n\n§GInformation:§!\n§YPlanet name:§! §W[event_target:apsr6_planet_target.GetName]§! \n§YPlanet class:§! §W[event_target:apsr6_planet_target.GetClassName]§! \n§YSolar system name:§! §W[event_target:apsr6_planet_target.solar_system.GetName]§! \n§YPlanet owner:§! §W[event_target:apsr6_planet_target.Owner.GetName]§!"
+ apsr.6015.button:1 "Interesting!"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr6_special:0 "$apsr6_planet_modifier$"
+ apsr6_special_desc:0 "$apsr6_planet_modifier_desc$"
+ 
+ APSR6_MESSAGE_SR_INFORMED_TITLE:0 "Information about an unique planet"
+ APSR6_MESSAGE_SR_INFORMED:0 "We received information about an artifact called §M$apsr6_planet_modifier$§!, which is located on the planet §Y$PLANET$§!, under control of the §Y$COUNTRY$§!."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr6_anomaly:0 "$apsr1_anomaly$"
+ apsr6_anomaly_desc:0 "$apsr1_anomaly_desc$"
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.6601.title:0 "$apsr.6011.title$"
+ apsr.6601.desc:0 "$apsr.6011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr6_planet_scientist_normal:0 "Xenolinguists"
+ job_apsr6_scientist_normal:0 "Xenolinguist"
+ job_apsr6_scientist_normal_plural:0 "Xenolinguists"
+ job_apsr6_scientist_normal_desc:0 "Specialist in the study and decoding of ancient civilization's languages." 
+ mod_job_apsr6_scientist_normal_add:0 "Xenolinguist"
+
+ apsr6_planet_scientist_hive:0 "Xenolinguists drones"
+ job_apsr6_scientist_hive:0 "Xenolinguist drone"
+ job_apsr6_scientist_hive_plural:0 "Xenolinguists drones"
+ job_apsr6_scientist_hive_desc:0 "Beings that specialize in the study and decoding of ancient civilization's languages." 
+ mod_job_apsr6_scientist_hive_add:0 "Xenolinguist drone"
+
+ apsr6_planet_scientist_machine:0 "Xenolinguists drones"
+ job_apsr6_scientist_machine:0 "Xenolinguist drone"
+ job_apsr6_scientist_machine_plural:0 "Xenolinguists drones"
+ job_apsr6_scientist_machine_desc:0 "Drones that specialize in the study and decoding of ancient civilization's languages."  
+ mod_job_apsr6_scientist_machine_add:0 "Xenolinguist drone"
+   
+   
+ apsr6_planet_teacher_normal:0 "Teachers"
+ job_apsr6_teacher_normal:0 "Teacher"
+ job_apsr6_teacher_normal_plural:0 "Teachers"
+ job_apsr6_teacher_normal_desc:0 "A specially trained scientist who studies the collected information."
+ mod_job_apsr6_teacher_normal_add:0 "Teacher"
+
+ apsr6_planet_teacher_hive:0 "Drones-Teachers"
+ job_apsr6_teacher_hive:0 "Drone-Teacher"
+ job_apsr6_teacher_hive_plural:0 "Drones-Teachers"
+ job_apsr6_teacher_hive_desc:0 "The part of the entity that studies the collected information."
+ mod_job_apsr6_teacher_hive_add:0 "Drone-Teacher"
+
+ apsr6_planet_teacher_machine:0 "Training drones"
+ job_apsr6_teacher_machine:0 "Training drone"
+ job_apsr6_teacher_machine_plural:0 "Training drones"
+ job_apsr6_teacher_machine_desc:0 "A drone specially designed to study collected information."
+ mod_job_apsr6_teacher_machine_add:0 "Training drone"
+ 
+ 
+ 
+ ### фикс
+   
+ mod_damage_vs_country_type_gray_goo_mult:0 "Damage to Gray Goo"

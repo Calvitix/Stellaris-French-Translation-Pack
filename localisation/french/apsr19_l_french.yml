@@ -1,0 +1,220 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr19_planet_modifier:0 "Food Planetary Complex"
+ apsr19_planet_modifier_desc:0 "This whole planet is a decrepit food facility belonging to an ancient civilization. It did not take to the passage of the ages well, but with an appropriate investment of time and resources, it can be restored."
+ 
+ apsr19_deposit:0 "$apsr19_planet_modifier$"
+ apsr19_deposit_desc:0 "$apsr19_planet_modifier_desc$\n\n§M$apsr19_deposit_effect$§!" 
+ apsr19_deposit_effect:0 "Unique resource available: $apsr19_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr19_building_part_b1_text:0 "A shadow of past greatness."
+ 
+ apsr19_building_part_b2_text:0 "Partially rebuilt control center of the local planetary complex."
+ 
+ apsr19_building_part_b3_text:0 "Control center of the Food Planetary Complex"
+ 
+ 
+ apsr19_building_part_m1_text:0 "A shadow of past greatness."
+ 
+ apsr19_building_part_m2_text:0 "Partially restored control center of the local planetary complex, where plants are converted into energy."
+ 
+ apsr19_building_part_m3_text:0 "Control center of the Food Planetary Complex, which we have modified for energy production."
+ 
+ 
+ apsr19_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr19_building_fake_predesc:0 "§MUnique building§!\n§RWe don't have the proper technologies to maximize the output of this building!§!\n§W--------------§!"
+ 
+ apsr19_building_part_conversion_text:0 "After our ascension, this building lost its sense. It's time to rebuild it!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr19_building_part_b1:0 "Control center of the Food Planetary Complex"
+ apsr19_building_part_b1_desc:0 "$apsr19_building_predesc$\n$apsr19_building_part_b1_text$"
+ 
+ apsr19_building_part_b2:0 "Control center of the Food Planetary Complex"
+ apsr19_building_part_b2_desc:0 "$apsr19_building_predesc$\n$apsr19_building_part_b2_text$"
+ 
+ apsr19_building_part_b3:0 "Control center of the Food Planetary Complex"
+ apsr19_building_part_b3_desc:0 "$apsr19_building_predesc$\n$apsr19_building_part_b3_text$"
+ 
+  
+ apsr19_building_part_m1:0 "Control center of the Food Planetary Complex"
+ apsr19_building_part_m1_desc:0 "$apsr19_building_predesc$\n$apsr19_building_part_m1_text$"
+ 
+ apsr19_building_part_m2:0 "Control center of the Food Planetary Complex"
+ apsr19_building_part_m2_desc:0 "$apsr19_building_predesc$\n$apsr19_building_part_m2_text$"
+ 
+ apsr19_building_part_m3:0 "Control center of the Food Planetary Complex"
+ apsr19_building_part_m3_desc:0 "$apsr19_building_predesc$\n$apsr19_building_part_m3_text$"
+ 
+ apsr19_building_part_mech_conversion:0 "§PChange the purpose of the building§!"
+ apsr19_building_part_mech_conversion_desc:0 "$apsr19_building_predesc$\n$apsr19_building_part_conversion_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr19_building_part_b1:0 "Restoring the Complex: Stage 1"
+ tech_apsr19_building_part_b1_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR19_PART1B_TITLE:0 "§HBuilding:§! $apsr19_building_part_b1$"
+ TECH_APSR19_PART1B_DESC:0 "$apsr19_building_part_b1_desc$"
+ 
+ tech_apsr19_building_part_b2:0 "Restoring the Complex: Stage 2"
+ tech_apsr19_building_part_b2_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR19_PART2B_TITLE:0 "§HBuilding:§! $apsr19_building_part_b2$"
+ TECH_APSR19_PART2B_DESC:0 "$apsr19_building_part_b2_desc$"
+ 
+ tech_apsr19_building_part_b3:0 "Restoring the Complex: Stage 3"
+ tech_apsr19_building_part_b3_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR19_PART3B_TITLE:0 "§HBuilding:§! $apsr19_building_part_b3$"
+ TECH_APSR19_PART3B_DESC:0 "$apsr19_building_part_b3_desc$"
+ 
+ 
+ tech_apsr19_building_part_m1:0 "Restoring the Complex: Stage 1"
+ tech_apsr19_building_part_m1_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR19_PART1M_TITLE:0 "§HBuilding:§! $apsr19_building_part_m1$"
+ TECH_APSR19_PART1M_DESC:0 "$apsr19_building_part_m1_desc$"
+ 
+ tech_apsr19_building_part_m2:0 "Restoring the Complex: Stage 2"
+ tech_apsr19_building_part_m2_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR19_PART2M_TITLE:0 "§HBuilding:§! $apsr19_building_part_m2$"
+ TECH_APSR19_PART2M_DESC:0 "$apsr19_building_part_m2_desc$"
+ 
+ tech_apsr19_building_part_m3:0 "Restoring the Complex: Stage 3"
+ tech_apsr19_building_part_m3_desc:0 "Artifacts of the Ancients can and must be used."
+ TECH_APSR19_PART3M_TITLE:0 "§HBuilding:§! $apsr19_building_part_m3$"
+ TECH_APSR19_PART3M_DESC:0 "$apsr19_building_part_m3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.19001.title:0 "$apsr19_building_part_b1$ completed"
+ apsr.19001.desc:0 "We have completed the §Y$apsr19_building_part_b1$§!, and partially restored the local planetary complex to work."
+ apsr.19001.ok-button:0 "Nice"
+ 
+ apsr.19002.title:0 "$apsr19_building_part_b2$ completed"
+ apsr.19002.desc:0 "We have rebuilt a significant portion of the Food Planetary Complex, and §Y$apsr19_building_part_b2$§! is the key to its work."
+ apsr.19002.ok-button:0 "Wonderful"
+ 
+ apsr.19003.title:0 "$apsr19_building_part_b3$ completed"
+ apsr.19003.desc:0 "We have completely restored §Y$apsr19_planet_modifier$§!, and now all its power belongs to us!"
+ apsr.19003.ok-button:0 "Great"
+ 
+ apsr.19004.title:0 "$apsr19_building_part_m1$ completed"
+ apsr.19004.desc:0 "We have completed the §Y$apsr19_building_part_m1$§!, and partially restored the local planetary complex to work."
+ apsr.19004.ok-button:0 "Great"
+ 
+ apsr.19005.title:0 "$apsr19_building_part_m2$ completed"
+ apsr.19005.desc:0 "We have rebuilt a significant portion of the Food Planetary Complex, and §Y$apsr19_building_part_m2$§! is the key to its work."
+ apsr.19005.ok-button:0 "Acknowledged"
+ 
+ apsr.19006.title:0 "$apsr19_building_part_m3$ completed"
+ apsr.19006.desc:0 "We have completely restored §Y$apsr19_planet_modifier$§!, and now all its power belongs to us!"
+ apsr.19006.ok-button:0 "Understood"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.19011.title:0 "Detected: §M$apsr19_planet_modifier$§!"
+ apsr.19011.desc:0 "A research team led by §H[Root.GetLeaderName]§! from the ship §H[Root.GetName]§! has discovered something peculiar! \nThis whole planet is a decrepit food facility belonging to an ancient civilization. It did not take to the passage of the ages well, but with an appropriate investment of time and resources, it can be restored."
+ apsr.19011.button:1 "We must get this artifact!"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.19013.title:0 "Detected: §M$apsr19_planet_modifier$§!"
+ apsr.19013.desc:0 "Something peculiar has been found on one of our new planets! \nThis whole planet is a decrepit food facility belonging to an ancient civilization. It did not take to the passage of the ages well, but with an appropriate investment of time and resources, it can be restored."
+ apsr.19013.button:1 "Great!"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.19015.title:0 "Detected: §M$apsr19_planet_modifier$§!"
+ apsr.19015.desc:0 "Our intelligence services, while checking for information about the planets of other empires, has found something interesting!\nOn one of the planets a decrepit food facility belonging to an ancient civilization can be found. It did not take to the passage of the ages well, but with an appropriate investment of time and resources, it can be restored.\n\n§GInformation:§!\n§YPlanet name:§! §W[event_target:apsr19_planet_target.GetName]§! \n§YPlanet class:§! §W[event_target:apsr19_planet_target.GetClassName]§! \n§YSolar system name:§! §W[event_target:apsr19_planet_target.solar_system.GetName]§! \n§YPlanet owner:§! §W[event_target:apsr19_planet_target.Owner.GetName]§!"
+ apsr.19015.button:1 "Interesting!"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr19_special:0 "$apsr19_planet_modifier$"
+ apsr19_special_desc:0 "$apsr19_planet_modifier_desc$"
+ 
+ APSR19_MESSAGE_SR_INFORMED_TITLE:0 "Information about a unique planet"
+ APSR19_MESSAGE_SR_INFORMED:0 "We received information about a special resource called §M$apsr19_planet_modifier$§!, which is located on the planet §Y$PLANET$§! under control of the §Y$COUNTRY$§!."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr19_anomaly:0 "Interesting data"
+ apsr19_anomaly_desc:0 "During the survey of [From.GetName]'s surface we aquired data that definitely needs further investigation."
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.19601.title:0 "$apsr.19011.title$"
+ apsr.19601.desc:0 "$apsr.19011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr19_planet_agronomist_normal:0 "Agronomists"
+ job_apsr19_agronomist_normal:0 "Agronomist"
+ job_apsr19_agronomist_normal_plural:0 "Agronomists"
+ job_apsr19_agronomist_normal_desc:0 "A specialist with comprehensive knowledge of farming and livestock rearing."
+ mod_job_apsr19_agronomist_normal_add:0 "Agronomist"
+ 
+ apsr19_planet_agronomist_hive:0 "Agronomist Drones"
+ job_apsr19_agronomist_hive:0 "Agronomist Drone"
+ job_apsr19_agronomist_hive_plural:0 "Agronomist Drones"
+ job_apsr19_agronomist_hive_desc:0 "A specialised drone whose purpose lays within farming and livestock rearing areas."
+ mod_job_apsr19_agronomist_hive_add:0 "Agronomist Drone"
+ 
+ 
+ 
+ apsr19_planet_power_engineer_machine:0 "Power Drones"
+ job_apsr19_power_engineer_machine:0 "Power Drone"
+ job_apsr19_power_engineer_machine_plural:0 "Power Drones"
+ job_apsr19_power_engineer_machine_desc:0 "This model has an advanced autonomous AI, the main task of which is to control the growth of plants and convert them into energy."
+ mod_job_apsr19_power_engineer_machine_add:0 "Power Drone"
+   
+ apsr19_planet_power_engineer_lithoid_normal:0 "Power Engineers"
+ job_apsr19_power_engineer_lithoid_normal:0 "Power Engineer"
+ job_apsr19_power_engineer_lithoid_normal_plural:0 "Power Engineers"
+ job_apsr19_power_engineer_lithoid_normal_desc:0 "The Power Engineers is responsible for the overall control of the growth of plants and their conversion into energy."
+ mod_job_apsr19_power_engineer_lithoid_normal_add:0 "Power Engineer"
+   
+ apsr19_planet_power_engineer_lithoid_hive:0 "Power Drones"
+ job_apsr19_power_engineer_lithoid_hive:0 "Power Drone"
+ job_apsr19_power_engineer_lithoid_hive_plural:0 "Power Drones"
+ job_apsr19_power_engineer_lithoid_hive_desc:0 "This unit the operation of the object, monitors the growth of plants and converts them into energy"
+ mod_job_apsr19_power_engineer_lithoid_hive_add:0 "Power Drone"
+   
+ apsr19_planet_power_engineer_robot_normal:0 "Power Engineers"
+ job_apsr19_power_engineer_robot_normal:0 "Power Engineer"
+ job_apsr19_power_engineer_robot_normal_plural:0 "Power Engineers"
+ job_apsr19_power_engineer_robot_normal_desc:0 "The Power Engineers is responsible for the overall control of the growth of plants and their conversion into energy."
+ mod_job_apsr19_power_engineer_robot_normal_add:0 "Power Engineer"
+ 
+ 
+ 
+ 
+ 
