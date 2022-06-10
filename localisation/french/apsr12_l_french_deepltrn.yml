@@ -1,0 +1,157 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr12_planet_modifier:0 "Anomalie de fréquence"
+ apsr12_planet_modifier_desc:0 "Cette zone accélère en quelque sorte tous les signaux et les ondes qui la traversent. Nos scientifiques prévoient de l'utiliser comme un moyen d'améliorer la logistique de notre empire."
+ 
+ apsr12_deposit:0 "$apsr12_planet_modifier$"
+ apsr12_deposit_desc:0 "$apsr12_planet_modifier_desc$\n\n§M$apsr12_deposit_effect$§!"
+ apsr12_deposit_effect:0 "Ressource unique disponible : $apsr12_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr12_building_part1_text:0 "Un centre de communication de pointe construit autour de l'anomalie de fréquence locale et l'utilisant pour assurer le mouvement instantané des données entre des points situés à des millions d'années-lumière les uns des autres."
+ 
+ apsr12_building_part2_text:0 "Le service de soutien logistique adjacent, la dernière nouveauté du centre de communication, améliore encore ses capacités déjà extraordinaires, en perfectionnant le réseau logistique en constante expansion de notre empire."
+ 
+ apsr12_building_part3_text:0 "Le siège du service logistique impérial est la dernière itération des améliorations apportées au centre de communication. La communication instantanée entre des points situés aux extrémités opposées de la galaxie n'a jamais été aussi facile."
+ 
+ apsr12_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr12_building_fake_predesc:0 "§MBâtiment unique§!\n§RNous n'avons pas les technologies appropriées pour maximiser le rendement de ce bâtiment !§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr12_building_part1:0 "Centre de communication"
+ apsr12_building_part1_desc:0 "$apsr12_building_predesc$\n$apsr12_building_part1_text$"
+ 
+ apsr12_building_part2:0 "Service de soutien logistique"
+ apsr12_building_part2_desc:0 "$apsr12_building_predesc$\n$apsr12_building_part2_text$"
+ 
+ apsr12_building_part3:0 "Siège du Service logistique impérial"
+ apsr12_building_part3_desc:0 "$apsr12_building_predesc$\n$apsr12_building_part3_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr12_building_part1:0 "Communication anormale"
+ tech_apsr12_building_part1_desc:0 "Nous avons identifié le centre de l'anomalie de fréquence. La zone est parfaite pour construire un centre de communication, une installation de pointe qui profitera des effets miraculeux de l'anomalie afin d'établir un réseau logistique de pointe. Il n'y aura plus de retard dans la communication, notre empire étant uni à un niveau plus élevé que jamais auparavant."
+ TECH_APSR12_PART1_TITLE:0 "§HBuilding :§! $apsr12_building_part1$"
+ TECH_APSR12_PART1_DESC:0 "$apsr12_building_part1_desc$"
+ 
+ tech_apsr12_building_part2:0 "Logistique spatiale"
+ tech_apsr12_building_part2_desc:0 "Le service de soutien logistique n'est que l'une des nombreuses améliorations qui seront apportées au centre de communication. Avec son aide, notre réseau logistique va s'étendre afin de pouvoir répondre aux demandes du réseau logistique en expansion."
+ TECH_APSR12_PART2_TITLE:0 "§HBuilding :§! $apsr12_building_part2$"
+ TECH_APSR12_PART2_DESC:0 "$apsr12_building_part2_desc$"
+ 
+ tech_apsr12_building_part3:0 "Superlogistique"
+ tech_apsr12_building_part3_desc:0 "Le siège du service logistique impérial est le dernier d'une longue série d'améliorations du centre de communication. Il tire pleinement parti de l'anomalie de fréquence locale afin d'amener notre réseau logistique à des niveaux d'optimisation, d'efficacité et d'efficience jamais atteints jusqu'à présent."
+ TECH_APSR12_PART3_TITLE:0 "§HBuilding :§! $apsr12_building_part3$"
+ TECH_APSR12_PART3_DESC:0 "$apsr12_building_part3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.12001.title:0 "$apsr12_building_part1$ terminé"
+ apsr.12001.desc:0 "L'installation est maintenant en place, l'alimentation électrique est stable et tous les équipements et le personnel sont prêts et comptabilisés."
+ apsr.12001.ok-button:0 "Bon"
+ 
+ apsr.12002.title:0 "$apsr12_building_part2$ terminé"
+ apsr.12002.desc:0 "Le service de soutien logistique, qui vient s'ajouter au centre de communication, est désormais opérationnel, ce qui améliore encore le rendement et l'efficacité de ce dernier."
+ apsr.12002.ok-button:0 "Superbe"
+ 
+ apsr.12003.title:0 "$apsr12_building_part3$ terminé"
+ apsr.12003.desc:0 "Le siège du service logistique impérial maximise l'efficacité de notre réseau logistique."
+ apsr.12003.ok-button:0 "Parfait"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.12011.title:0 "Détecté : §M$apsr12_planet_modifier$§!"
+ apsr.12011.desc:0 "Une équipe de recherche dirigée par §H[Root.GetLeaderName]§! du vaisseau §H[Root.GetName]§! a découvert une zone anormale qui semble accélérer toute onde, signal ou radiation qui la traverse à des vitesses supérieures à celle de la lumière."
+ apsr.12011.button:1 "Incroyable !"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.12013.title:0 "Détecté : §M$apsr12_planet_modifier$§!"
+ apsr.12013.desc:0 "Rapport de dossier : Incident 12887-A - opération de guérilla - L'incident a conduit à la découverte d'une zone anormale où tout signal qui passe est accéléré à des vitesses qui conduisent à la transmission instantanée de son contenu."
+ apsr.12013.button:1 "Super !"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.12015.title:0 "Détecté : §M$apsr12_planet_modifier$§!"
+ apsr.12015.desc:0 "Nos services de renseignements, en vérifiant les informations sur les planètes des autres empires, ont trouvé quelque chose d'intéressant !\nSur l'une des planètes il y a une anomalie où tout signal qui passe est accéléré à des vitesses qui conduisent à la transmission instantanée de son contenu.\n\n§GInformation :§!\n§YPlanet name :§! §W[event_target :apsr12_planet_target.GetName]§!\n§YPlanet class :§! §W[event_target :apsr12_planet_target.GetClassName]§!\n§YNom du système solaire :§! §W[event_target :apsr12_planet_target.solar_system.GetName]§!\n§YPropriétaire de la planète :§! §W[event_target :apsr12_planet_target.Owner.GetName]§!"
+ apsr.12015.button:1 "Intéressant !"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr12_special:0 "$apsr12_planet_modifier$"
+ apsr12_special_desc:0 "$apsr12_planet_modifier_desc$"
+ 
+ APSR12_MESSAGE_SR_INFORMED_TITLE:0 "Informations sur une planète unique"
+ APSR12_MESSAGE_SR_INFORMED:0 "Nous avons reçu des informations sur une ressource spéciale appelée §M$apsr12_planet_modifier$§!, qui se trouve sur la planète §Y$PLANET$§! sous le contrôle des §Y$COUNTRY$§!.."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr12_anomaly:0 "$apsr1_anomaly$"
+ apsr12_anomaly_desc:0 "$apsr1_anomaly_desc$"
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.12601.title:0 "$apsr.12011.title$"
+ apsr.12601.desc:0 "$apsr.12011.desc$"
+ 
+ 
+ 
+ ### новые должности
+ 
+ apsr12_planet_manager_normal:0 "Coordinateurs"
+ job_apsr12_manager_normal:0 "Coordinateur"
+ job_apsr12_manager_normal_plural:0 "Coordinateurs"
+ job_apsr12_manager_normal_desc:0 "La distance toujours plus grande entre les possessions de l'empire a toujours posé un problème logistique, car les informations prenaient de plus en plus de temps à voyager. Les coordinateurs aident à cet égard, en tirant parti de la zone anormale afin de supprimer complètement tout retard dans les communications interstellaires."
+ mod_job_apsr12_manager_normal_add:0 "Coordinateur"
+ 
+ apsr12_planet_manager_hive:0 "Coordinateur drones"
+ job_apsr12_manager_hive:0 "Bourdon coordinateur"
+ job_apsr12_manager_hive_plural:0 "Coordinateur drones"
+ job_apsr12_manager_hive_desc:0 "La distance toujours plus grande entre les exploitations de notre ruche a toujours présenté un problème de logistique, car les informations prenaient de plus en plus de temps à voyager. Les drones coordinateurs aident à cet égard, en tirant parti de la zone anormale afin de supprimer complètement tout retard dans les communications interstellaires."
+ mod_job_apsr12_manager_hive_add:0 "Bourdon coordinateur"
+ 
+ apsr12_planet_manager_machine:0 "Drones de coordination"
+ job_apsr12_manager_machine:0 "Bourdon de coordination"
+ job_apsr12_manager_machine_plural:0 "Drones de coordination"
+ job_apsr12_manager_machine_desc:0 "Ce modèle spécial de drones relaie les signaux de l'IA principale aux exécutants directs sans les retards qui seraient normalement attribués à la distance."
+ mod_job_apsr12_manager_machine_add:0 "Bourdon de coordination"
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

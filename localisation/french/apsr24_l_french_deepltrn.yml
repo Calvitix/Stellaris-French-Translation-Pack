@@ -1,0 +1,128 @@
+﻿l_french:
+ 
+
+ 
+ ### ресурс
+ 
+ apsr24_planet_modifier:0 "Talisman"
+ apsr24_planet_modifier_desc:0 "Talisman - le nom non officiel de cette planète, attribué par ceux qui l'ont découverte. La raison de ce nom est inconnue.\nCette planète présente deux caractéristiques uniques. Premièrement, toute la surface de la planète est exceptionnellement électrifiée, à tel point que l'énergie peut être directement extraite de la litosphère. Deuxièmement, d'étranges boîtes sont dispersées sur toute la planète, à l'intérieur desquelles diverses ressources apparaissent de temps en temps."
+ 
+ apsr24_deposit:0 "$apsr24_planet_modifier$"
+ apsr24_deposit_desc:0 "$apsr24_planet_modifier_desc$\n\n§M$apsr24_deposit_effect$§!"
+ apsr24_deposit_effect:0 "Ressource unique disponible : $apsr24_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr24_building_part1_text:0 "Une centrale électrique qui utilise la différence de potentiel d'un sol anormalement électrifié."
+ apsr24_building_part0_text:0 "Développez la centrale électrique en construisant des segments à de nouveaux endroits sur la planète. Avec le temps, le bâtiment va 'pomper' toute l'énergie dans un certain rayon, et la centrale devra être étendue à un nouvel emplacement."
+ apsr24_building_talisman_text:0 "Un complexe automatisé qui collecte et traite diverses ressources qui apparaissent dans les boîtes étranges.\n§MLes ressources résultantes changent chaque année !§!"
+ 
+ apsr24_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr24_building_fake_predesc:0 "§MBâtiment unique§!\n§RNous n'avons pas les technologies appropriées pour maximiser le rendement de ce bâtiment !§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr24_building_part1:0 "Centrale électrique"
+ apsr24_building_part1_desc:0 "$apsr24_building_predesc$\n$apsr24_building_part1_text$"
+  
+ apsr24_building_part0:0 "Extension de la centrale électrique"
+ apsr24_building_part0_desc:0 "$apsr24_building_predesc$\n$apsr24_building_part0_text$"
+  
+ apsr24_building_talisman:0 "'Talisman'"
+ apsr24_building_talisman_desc:0 "$apsr24_building_predesc$\n$apsr24_building_talisman_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr24_building_part1:0 "Utilisation de l'énergie de surface"
+ tech_apsr24_building_part1_desc:0 "L'énergie qui imprègne toute la surface de 'Talisman' ne doit pas être gaspillée."
+ TECH_APSR24_PART1_TITLE:0 "§HBuilding :§! $apsr24_building_part1$"
+ TECH_APSR24_PART1_DESC:0 "$apsr24_building_part1_desc$"
+ 
+ tech_apsr24_building_part2:0 "Potentiel du talisman"
+ tech_apsr24_building_part2_desc:0 "Le développement de nouvelles méthodes d'utilisation de la différence de potentiel dans les centrales électriques de la planète 'Talisman' permettra d'augmenter le gain énergétique de ces bâtiments."
+ TECH_APSR24_PART2_TITLE:0 "$tech_apsr24_building_part2$"
+ TECH_APSR24_PART2_DESC:0 "$tech_apsr24_building_part2_desc$"
+ 
+ tech_apsr24_building_talisman:0 "Le mystère du talisman"
+ tech_apsr24_building_talisman_desc:0 "Les boîtes étranges, dans lesquelles diverses ressources apparaissent de temps en temps, semblent suivre un modèle. En créant un algorithme qui peut identifier ce modèle, nous pouvons automatiser le processus de collecte des ressources.\n§MLes ressources résultantes changent chaque année !§!"
+ TECH_APSR24_TALISMAN_TITLE:0 "§HBuilding :§! $apsr24_building_talisman$"
+ TECH_APSR24_TALISMAN_DESC:0 "$apsr24_building_talisman_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.24001.title:0 "La centrale électrique est terminée"
+ apsr.24001.desc:0 "La planète 'Talisman', connue pour sa surface extrêmement électrifiée, nous fournit désormais son énergie. Une centrale électrique qui utilise la différence de potentiel de la surface de la planète coûte une petite quantité de minéraux, mais peu à peu la réserve d'énergie s'épuise et la centrale doit être déplacée vers un autre endroit."
+ apsr.24001.ok-button:0 "Excellent"
+ 
+ apsr.24002.title:0 "'Complexe 'Talisman"
+ apsr.24002.desc:0 "Le complexe 'Talisman' est une installation entièrement automatisée qui collecte les diverses ressources qui apparaissent occasionnellement dans les étranges boîtes disséminées sur la planète. Il est intéressant de noter que les ressources contenues dans ces boîtes sont toujours différentes et qu'il est impossible de deviner ce qu'elles contiendront la fois suivante."
+ apsr.24002.ok-button:0 "Commencez à collecter les ressources"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.24011.title:0 "Détecté : §M$apsr24_planet_modifier$§!"
+ apsr.24011.desc:0 "Une équipe de recherche dirigée par §H[Root.GetLeaderName]§! du vaisseau §H[Root.GetName]§! a découvert quelque chose de particulier !\nIl y a deux caractéristiques remarquables sur cette planète. Premièrement, toute la surface de la planète est inhabituellement électrifiée, à tel point que l'énergie peut être directement extraite de la litosphère. Deuxièmement, d'étranges boîtes sont disséminées sur toute la planète, à l'intérieur desquelles diverses ressources apparaissent de temps en temps."
+ apsr.24011.button:1 "Nous devons récupérer cette planète !"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.24013.title:0 "Détecté : §M$apsr24_planet_modifier$§!"
+ apsr.24013.desc:0 "L'une de nos nouvelles planètes est très inhabituelle !\nCette planète présente deux caractéristiques exceptionnelles. Premièrement, toute la surface de la planète est exceptionnellement électrifiée, à tel point que l'énergie peut être directement extraite de la litosphère. Deuxièmement, d'étranges boîtes sont disséminées sur toute la planète, à l'intérieur desquelles diverses ressources apparaissent de temps à autre."
+ apsr.24013.button:1 "Super !"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.24015.title:0 "Détecté : §M$apsr24_planet_modifier$§!"
+ apsr.24015.desc:0 "Notre service de renseignement, en vérifiant les informations sur les planètes d'autres empires, a trouvé quelque chose d'intéressant !\nSur une certaine planète, sont affichées deux caractéristiques exceptionnelles. Premièrement, toute la surface de la planète est exceptionnellement électrifiée, à tel point que l'énergie peut être directement extraite de la litosphère. Deuxièmement, d'étranges boîtes sont dispersées sur toute la planète, à l'intérieur desquelles apparaissent de temps à autre diverses ressources.\n\n§GInformation :§!\n§YPlanet name :§! §W[event_target :apsr24_planet_target.GetName]§!\n§YPlanet class :§! §W[event_target :apsr24_planet_target.GetClassName]§!\n§YNom du système solaire :§! §W[event_target :apsr24_planet_target.solar_system.GetName]§!\n§YPropriétaire de la planète :§! §W[event_target :apsr24_planet_target.Owner.GetName]§!"
+ apsr.24015.button:1 "Intéressant !"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr24_special:0 "$apsr24_planet_modifier$"
+ apsr24_special_desc:0 "$apsr24_planet_modifier_desc$"
+ 
+ APSR24_MESSAGE_SR_INFORMED_TITLE:0 "Informations sur une planète unique"
+ APSR24_MESSAGE_SR_INFORMED:0 "Nous avons reçu des informations sur une ressource spéciale appelée §M$apsr24_planet_modifier$§!, qui se trouve sur la planète §Y$PLANET$§! sous le contrôle des §Y$COUNTRY$§!.."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr24_anomaly:0 "$apsr1_anomaly$"
+ apsr24_anomaly_desc:0 "$apsr1_anomaly_desc$"
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.24601.title:0 "$apsr.24011.title$"
+ apsr.24601.desc:0 "$apsr.24011.desc$"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

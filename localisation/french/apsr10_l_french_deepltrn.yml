@@ -1,0 +1,147 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr10_planet_modifier:0 "Bobine de torsion"
+ apsr10_planet_modifier_desc:0 "Un phénomène anormal très particulier qui crée une turbulence spatiale, affectant les particules élémentaires qui l'entourent, et qui ne permet pas de trouver son chemin en soi."
+ 
+ apsr10_deposit:0 "$apsr10_planet_modifier$"
+ apsr10_deposit_desc:0 "$apsr10_planet_modifier_desc$\n\n§M$apsr10_deposit_effect$§!"
+ apsr10_deposit_effect:0 "Ressource unique disponible : $apsr10_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr10_building_part1_text:0 "Cette piscine crée une forme stable de mousse quantique, qui peut rester dans notre dimension grâce au pouvoir des bobines de torsion. Elle génère de l'énergie proportionnellement au niveau de remplissage de la piscine."
+ 
+ apsr10_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr10_building_fake_predesc:0 "§MBâtiment unique§!\n§RNous n'avons pas les technologies appropriées pour maximiser le rendement de ce bâtiment !§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr10_building_part1:0 "Pool énergétique"
+ apsr10_building_part1_desc:0 "$apsr10_building_predesc$\n$apsr10_building_part1_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr10_building_part1:0 "Matérialisation de l'énergie"
+ tech_apsr10_building_part1_desc:0 "Des bobines puissantes qui retiennent les particules d'énergie dans notre dimension, sans aucune perte."
+ TECH_APSR10_PART1_TITLE:0 "§HBuilding :§! $apsr10_building_part1$"
+ TECH_APSR10_PART1_DESC:0 "$apsr10_building_part1_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.10001.title:0 "$apsr10_building_part1$ terminé"
+ apsr.10001.desc:0 "Une percée a été réalisée aujourd'hui ! Une équipe de scientifiques et d'ingénieurs a mis au point le prototype d'un incroyable moteur qui peut résoudre tous nos problèmes d'énergie pour de nombreuses années à venir ! Certes, ce générateur aura besoin d'un peu d'énergie pour démarrer, mais son potentiel est illimité !"
+ apsr.10001.ok-button:0 "Nous devons en tirer le meilleur parti possible."
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.10011.title:0 "Détecté : §M$apsr10_planet_modifier$§!"
+ apsr.10011.desc:0 "Au début, rien ne se distinguait particulièrement sur ce morceau de roche. Cependant, lorsque nous avons commencé à analyser le champ énergétique de la planète, nous avons découvert qu'à certains endroits subsistait une certaine 'mousse quantique'. - une sorte d'énergie faite de quants et d'électrons gelés qui ne bougeaient pas, mais qui... bougent en même temps. Et le plus étrange dans tout ça, c'est la grande période de dégradation. Peut-être pouvons-nous l'exploiter pour nos intérêts   ?"
+ apsr.10011.button:1 "Nous devons contrôler cette planète !"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.10013.title:0 "Détecté : §M$apsr10_planet_modifier$§!"
+ apsr.10013.desc:0 "D'anciens documents font état de l'existence d'une anomalie subspatiale sur cette planète. Ses anciens propriétaires ont essayé de l'utiliser, mais sans succès. Peut-être que nous réussirons là où ils ont échoué."
+ apsr.10013.button:1 "Super !"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.10015.title:0 "Détecté : §M$apsr10_planet_modifier$§!"
+ apsr.10015.desc:0 "Nos services de renseignement, en vérifiant les informations sur les planètes des autres empires, ont trouvé quelque chose d'intéressant !\nSelon les données archivées, il y a une anomalie spatiale sur la planète. Ses précédents propriétaires avaient essayé de l'utiliser, mais sans succès. Nos prédictions convergent : cette anomalie porte un énorme potentiel commercial.\n\n§GInformation :§!\n§YPlanet name :§! §W[event_target :apsr10_planet_target.GetName]§!\n§YPlanet class :§! §W[event_target :apsr10_planet_target.GetClassName]§!\n§YNom du système solaire :§! §W[event_target :apsr10_planet_target.solar_system.GetName]§!\n§YPropriétaire de la planète :§! §W[event_target :apsr10_planet_target.Owner.GetName]§!"
+ apsr.10015.button:1 "Intéressant !"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr10_special:0 "$apsr10_planet_modifier$"
+ apsr10_special_desc:0 "$apsr10_planet_modifier_desc$"
+ 
+ APSR10_MESSAGE_SR_INFORMED_TITLE:0 "Informations sur une planète unique"
+ APSR10_MESSAGE_SR_INFORMED:0 "Nous avons reçu des informations sur une ressource spéciale appelée §M$apsr10_planet_modifier$§!, qui se trouve sur la planète §Y$PLANET$§! sous le contrôle des §Y$COUNTRY$§!.."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr10_anomaly:0 "$apsr1_anomaly$"
+ apsr10_anomaly_desc:0 "$apsr1_anomaly_desc$"
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.10601.title:0 "$apsr.10011.title$"
+ apsr.10601.desc:0 "$apsr.10011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr10_planet_power_engineer_normal:0 "Ingénieurs en électricité"
+ job_apsr10_power_engineer_normal:0 "Ingénieur en électricité"
+ job_apsr10_power_engineer_normal_plural:0 "Ingénieurs en électricité"
+ job_apsr10_power_engineer_normal_desc:0 "Les fonctions de l'ingénieur en électricité comprennent le contrôle global de la production d'énergie sur le site, l'optimisation des processus de production et de consommation, le suivi des pics de charge du réseau."
+ mod_job_apsr10_power_engineer_normal_add:0 "Ingénieur en électricité"
+   
+ apsr10_planet_power_engineer_hive:0 "Drones de puissance"
+ job_apsr10_power_engineer_hive:0 "Power Drone"
+ job_apsr10_power_engineer_hive_plural:0 "Drones de puissance"
+ job_apsr10_power_engineer_hive_desc:0 "Cet être contrôle le travail des techniciens ordinaires, assure un fonctionnement stable et ininterrompu de l'installation."
+ mod_job_apsr10_power_engineer_hive_add:0 "Power Drone"
+   
+ apsr10_planet_power_engineer_machine:0 "Drones de puissance"
+ job_apsr10_power_engineer_machine:0 "Power Drone"
+ job_apsr10_power_engineer_machine_plural:0 "Drones de puissance"
+ job_apsr10_power_engineer_machine_desc:0 "Ce modèle de drone dispose d'une IA autonome améliorée, dont la tâche principale est de surveiller le fonctionnement de l'installation, le travail des drones-techniciens ordinaires et l'optimisation du processus de production d'énergie."
+ mod_job_apsr10_power_engineer_machine_add:0 "Power Drone"
+ 
+   
+ apsr10_planet_technician_normal:0 "Des techniciens qualifiés"
+ job_apsr10_technician_normal:0 "Technicien qualifié"
+ job_apsr10_technician_normal_plural:0 "Des techniciens qualifiés"
+ job_apsr10_technician_normal_desc:0 "Seuls les techniciens les plus qualifiés sont aptes à travailler avec le champ de torsion."
+ mod_job_apsr10_technician_normal_add:0 "Technicien qualifié"
+   
+ apsr10_planet_technician_hive:0 "Bourdons de techniciens qualifiés"
+ job_apsr10_technician_hive:0 "Bourdon technicien qualifié"
+ job_apsr10_technician_hive_plural:0 "Bourdons de techniciens qualifiés"
+ job_apsr10_technician_hive_desc:0 "Des drones techniciens spécialement conçus biologiquement, qui peuvent travailler avec le champ de torsion."
+ mod_job_apsr10_technician_hive_add:0 "Bourdon technicien qualifié"
+   
+ apsr10_planet_technician_machine:0 "Drones techniciens v2. 0"
+ job_apsr10_technician_machine:0 "Technician drone v2. 0"
+ job_apsr10_technician_machine_plural:0 "Drones techniciens v2. 0"
+ job_apsr10_technician_machine_desc:0 "Un modèle de drone actualisé et coûteux en ressources, conçu pour travailler avec des substances à haute énergie."
+ mod_job_apsr10_technician_machine_add:0 "Technician drone v2. 0"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

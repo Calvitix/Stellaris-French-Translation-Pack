@@ -1,0 +1,156 @@
+﻿l_french:
+ 
+
+ 
+ ### ресурс
+ 
+ apsr20_planet_modifier:0 "Complexe planétaire récréatif"
+ apsr20_planet_modifier_desc:0 "Cette planète entière est un complexe récréatif décrépit d'une ancienne civilisation. Il n'a pas bien supporté le passage des âges, mais avec un investissement approprié de temps et de ressources, il peut être restauré."
+ 
+ apsr20_deposit:0 "$apsr20_planet_modifier$"
+ apsr20_deposit_desc:0 "$apsr20_planet_modifier_desc$\n\n§M$apsr20_deposit_effect$§!"
+ apsr20_deposit_effect:0 "Ressource unique disponible : $apsr20_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr20_building_part1_text:0 "Une ombre de la grandeur passée."
+ 
+ apsr20_building_part2_text:0 "Fraction du complexe planétaire récréatif restauré"
+ 
+ apsr20_building_part3_text:0 "Complexe planétaire récréatif partiellement restauré"
+ 
+ apsr20_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr20_building_fake_predesc:0 "§MBâtiment unique§!\n§RNous n'avons pas les technologies appropriées pour maximiser le rendement de ce bâtiment !§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr20_building_part1:0 "Complexe planétaire récréatif : naissant"
+ apsr20_building_part1_desc:0 "$apsr20_building_predesc$\n$apsr20_building_part1_text$"
+ 
+ apsr20_building_part2:0 "Complexe planétaire récréatif : section"
+ apsr20_building_part2_desc:0 "$apsr20_building_predesc$\n$apsr20_building_part2_text$"
+ 
+ apsr20_building_part3:0 "Complexe planétaire récréatif"
+ apsr20_building_part3_desc:0 "$apsr20_building_predesc$\n$apsr20_building_part3_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr20_building_part1:0 "Restaurer le complexe : étape 1"
+ tech_apsr20_building_part1_desc:0 "Les artefacts d'une civilisation révolue peuvent et doivent être utilisés."
+ TECH_APSR20_PART1_TITLE:0 "§HBuilding :§! $apsr20_building_part1$"
+ TECH_APSR20_PART1_DESC:0 "$apsr20_building_part1_desc$"
+ 
+ tech_apsr20_building_part2:0 "Restauration du complexe : étape 2"
+ tech_apsr20_building_part2_desc:0 "Les artefacts d'une civilisation révolue peuvent et doivent être utilisés."
+ TECH_APSR20_PART2_TITLE:0 "§HBuilding :§! $apsr20_building_part2$"
+ TECH_APSR20_PART2_DESC:0 "$apsr20_building_part2_desc$"
+ 
+ tech_apsr20_building_part3:0 "Restaurer le complexe : étape 3"
+ tech_apsr20_building_part3_desc:0 "Les artefacts d'une civilisation révolue peuvent et doivent être utilisés."
+ TECH_APSR20_PART3_TITLE:0 "§HBuilding :§! $apsr20_building_part3$"
+ TECH_APSR20_PART3_DESC:0 "$apsr20_building_part3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.20001.title:0 "$apsr20_building_part1$ terminé"
+ apsr.20001.desc:0 "Nous avons terminé le §Y$apsr20_building_part1$§!, et ce n'est que le début de la restauration de la grandeur passée du complexe planétaire."
+ apsr.20001.ok-button:0 "Parfait"
+ 
+ apsr.20002.title:0 "$apsr20_building_part2$ terminé"
+ apsr.20002.desc:0 "Nous avons terminé le §Y$apsr20_building_part2$§! ! C'est vraiment une grande avancée !"
+ apsr.20002.ok-button:0 "Parfait"
+ 
+ apsr.20003.title:0 "$apsr20_building_part3$ terminé"
+ apsr.20003.desc:0 "Nous avons restauré autant que nous le pouvions le §YComplexe Planétaire Récréatif§! et accédé aux sommets du développement culturel !"
+ apsr.20003.ok-button:0 "Parfait"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.20011.title:0 "Détecté : §M$apsr20_planet_modifier$§!"
+ apsr.20011.desc:0 "Une équipe de recherche dirigée par §H[Root.GetLeaderName]§! du vaisseau §H[Root.GetName]§! a trouvé quelque chose de particulier. Cette planète entière est un complexe récréatif décrépit d'une ancienne civilisation. Il n'a pas bien supporté le passage des âges, mais avec un investissement approprié de temps et de ressources, il peut être restauré."
+ apsr.20011.button:1 "Nous devons récupérer cet artefact !"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.20013.title:0 "Détecté : §M$apsr20_planet_modifier$§!"
+ apsr.20013.desc:0 "Sur une des planètes récemment occupées, quelque chose de particulier a été trouvé. {Cette planète entière est un complexe récréatif décrépit d'une ancienne civilisation. Il n'a pas bien supporté le passage des âges, mais avec un investissement approprié de temps et de ressources, il peut être restauré."
+ apsr.20013.button:1 "Super !"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.20015.title:0 "Détecté : §M$apsr20_planet_modifier$§!"
+ apsr.20015.desc:0 "Nos services de renseignements, en cherchant des informations sur les planètes des autres empires, ont trouvé quelque chose d'intéressant !\nSur l'une des planètes, on peut trouver un complexe récréatif décrépit d'une ancienne civilisation. Il n'a pas bien supporté le passage des âges, mais avec un investissement approprié de temps et de ressources, il peut être restauré.\n\n§GInformation :§!\n§YPlanet name :§! §W[event_target :apsr20_planet_target.GetName]§!\n§YPlanet class :§! §W[event_target :apsr20_planet_target.GetClassName]§!\n§YNom du système solaire :§! §W[event_target :apsr20_planet_target.solar_system.GetName]§!\n§YPropriétaire de la planète :§! §W[event_target :apsr20_planet_target.Owner.GetName]§!"
+ apsr.20015.button:1 "Intéressant !"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr20_special:0 "$apsr20_planet_modifier$"
+ apsr20_special_desc:0 "$apsr20_planet_modifier_desc$"
+ 
+ APSR20_MESSAGE_SR_INFORMED_TITLE:0 "Informations sur une planète unique"
+ APSR20_MESSAGE_SR_INFORMED:0 "Nous avons reçu des informations sur une ressource spéciale appelée §M$apsr20_planet_modifier$§!, qui se trouve sur la planète §Y$PLANET$§! sous le contrôle des §Y$COUNTRY$§!.."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr20_anomaly:0 "Données intéressantes"
+ apsr20_anomaly_desc:0 "Au cours de l'étude de la surface de [From.GetName], nous avons obtenu des données qui doivent absolument être approfondies."
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.20601.title:0 "$apsr.20011.title$"
+ apsr.20601.desc:0 "$apsr.20011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr20_planet_servant_normal:0 "Personnel de service"
+ job_apsr20_servant_normal:0 "Administrateur"
+ job_apsr20_servant_normal_plural:0 "Personnel de service"
+ job_apsr20_servant_normal_desc:0 "Les tâches du personnel de service comprennent, entre autres, l'administration des installations, la prestation de services et le divertissement."
+ mod_job_apsr20_servant_normal_add:0 "Administrateur"
+   
+ apsr20_planet_servant_hive:0 "Personnel de service"
+ job_apsr20_servant_hive:0 "Drone du personnel de service"
+ job_apsr20_servant_hive_plural:0 "Personnel de service"
+ job_apsr20_servant_hive_desc:0 "Des drones, possédant des talents d'organisation, capables d'interagir simultanément avec différents paradigmes culturels et sociaux."
+ mod_job_apsr20_servant_hive_add:0 "Drone du personnel de service"
+   
+ apsr20_planet_servant_machine:0 "Personnel de service"
+ job_apsr20_servant_machine:0 "Drone du personnel de service"
+ job_apsr20_servant_machine_plural:0 "Personnel de service"
+ job_apsr20_servant_machine_desc:0 "Des drones, possédant des talents d'organisation, capables d'interagir simultanément avec différents paradigmes culturels et sociaux."
+ mod_job_apsr20_servant_machine_add:0 "Drone du personnel de service"
+  
+ mod_job_apsr20_servant_normal_per_pop:2 "§G+1§! $job_apsr20_servant_normal$ pour chaque $VALUE$ pops."
+ mod_job_apsr20_servant_normal_per_pop_short:0 "\n$mod_job_apsr20_servant_normal_per_pop$"
+ mod_job_apsr20_servant_hive_per_pop:2 "§G+1§! $job_apsr20_servant_hive$ pour chaque $VALUE$ pops."
+ mod_job_apsr20_servant_hive_per_pop_short:0 "\n$mod_job_apsr20_servant_hive_per_pop$"
+ mod_job_apsr20_servant_machine_per_pop:2 "§G+1§! $job_apsr20_servant_machine$ pour chaque $VALUE$ pops."
+ mod_job_apsr20_servant_machine_per_pop_short:0 "\n$mod_job_apsr20_servant_machine_per_pop$"
+ 
+ 
+ 
+ 
+ 

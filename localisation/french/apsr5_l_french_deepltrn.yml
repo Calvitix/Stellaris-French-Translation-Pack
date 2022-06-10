@@ -1,0 +1,145 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr5_planet_modifier:0 "Mégalopole immortelle"
+ apsr5_planet_modifier_desc:0 "Une seule ville couvre toute la surface de cette planète, lacs et océans compris. La ville semble étrangement très bien conservée, presque comme si elle n'était pas affectée par le passage du temps."
+ 
+ apsr5_deposit:0 "$apsr5_planet_modifier$"
+ apsr5_deposit_desc:0 "$apsr5_planet_modifier_desc$\n\n§M$apsr5_deposit_effect$§!"
+ apsr5_deposit_effect:0 "Ressource unique disponible : $apsr5_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr5_building_part1_text:0 "Un petit centre de recherche conçu pour étudier l'architecture, la logique et l'art des anciens."
+ 
+ apsr5_building_part2_text:0 "Un centre de recherche amélioré, permettant de mieux étudier l'architecture, l'art et la logique de l'Antiquité."
+ 
+ apsr5_building_part3_text:0 "Un centre de recherche de pointe, maximisant les études sur l'architecture, l'art et la logique des Anciens."
+ 
+ apsr5_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr5_building_fake_predesc:0 "§MBâtiment unique§!\n§RNous n'avons pas les technologies appropriées pour maximiser le rendement de ce bâtiment !§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr5_building_part1:0 "Centre de traitement de l'information des Anciens"
+ apsr5_building_part1_desc:0 "$apsr5_building_predesc$\n$apsr5_building_part1_text$"
+ 
+ apsr5_building_part2:0 "Centre de traitement de l'information des Anciens"
+ apsr5_building_part2_desc:0 "$apsr5_building_predesc$\n$apsr5_building_part2_text$"
+ 
+ apsr5_building_part3:0 "Centre de traitement de l'information des Anciens"
+ apsr5_building_part3_desc:0 "$apsr5_building_predesc$\n$apsr5_building_part3_text$"
+ 
+ 
+ 
+ ### технологии  
+
+ tech_apsr5_building_part1:0 "Cipher of the Ancients I"
+ tech_apsr5_building_part1_desc:0 "L'emplacement des bâtiments, l'architecture, les éléments individuels, jusqu'à la composition et les caractéristiques physiques des matériaux utilisés sont un trésor d'informations sur la société des Anciens. Ces informations sont cependant protégées par un code qu'il faudra comprendre."
+ TECH_APSR5_PART1_TITLE:0 "§HBuilding :§! $apsr5_building_part1$"
+ TECH_APSR5_PART1_DESC:0 "$apsr5_building_part1_desc$"
+ 
+ tech_apsr5_building_part2:0 "Cipher of the Ancients II"
+ tech_apsr5_building_part2_desc:0 "L'emplacement des bâtiments, l'architecture, les éléments individuels, jusqu'à la composition et les caractéristiques physiques des matériaux utilisés sont un trésor d'informations sur la société des Anciens. Ces informations sont cependant protégées par un code qu'il faudra comprendre."
+ TECH_APSR5_PART2_TITLE:0 "§HBuilding :§! $apsr5_building_part2$"
+ TECH_APSR5_PART2_DESC:0 "$apsr5_building_part2_desc$"
+ 
+ tech_apsr5_building_part3:0 "Cipher of the Ancients III"
+ tech_apsr5_building_part3_desc:0 "L'emplacement des bâtiments, l'architecture, les éléments individuels, jusqu'à la composition et les caractéristiques physiques des matériaux utilisés sont un trésor d'informations sur la société des Anciens. Ces informations sont cependant protégées par un code qu'il faudra comprendre."
+ TECH_APSR5_PART3_TITLE:0 "§HBuilding :§! $apsr5_building_part3$"
+ TECH_APSR5_PART3_DESC:0 "$apsr5_building_part3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.5001.title:0 "$apsr5_building_part1$ terminé"
+ apsr.5001.desc:0 "Nous avons construit §Y$apsr5_building_part1$§!. Cela nous permettra d'élargir notre compréhension des Anciens. Nous pouvons enfin voir les signes des inscriptions anciennes dans les choses qui nous semblaient les plus communes. Nous devons faire tous les efforts possibles pour tout déchiffrer."
+ apsr.5001.ok-button:0 "Compris"
+ 
+ apsr.5002.title:0 "$apsr5_building_part2$ terminé"
+ apsr.5002.desc:0 "Nous avons amélioré §Y$apsr5_building_part2$§!, et cela approfondira notre compréhension des Anciens, et nous permettra enfin de comprendre la raison pour laquelle la §YMégalopole Immortelle§! est sur cette planète."
+ apsr.5002.ok-button:0 "Étonnant"
+ 
+ apsr.5003.title:0 "$apsr5_building_part3$ terminé"
+ apsr.5003.desc:0 "Nous avons amélioré §Y$apsr5_building_part3$§!, et nous avons finalement compris les plans des Anciens. Il s'avère que toute la §YMégalopole Immortelle§! est une incroyable expérience sociale pour les anciens habitants de cette planète. Les résultats peuvent nous être inconnus mais nous pourrions éventuellement trouver un autre moyen de profiter de sa présence."
+ apsr.5003.ok-button:0 "Parfait"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.5011.title:0 "Détecté : §M$apsr5_planet_modifier$§!"
+ apsr.5011.desc:0 "En effectuant une étude du système, notre équipe d'expédition du vaisseau §H[Root.GetName]§! a trouvé quelque chose d'intéressant. {Une seule ville couvre toute la surface de cette planète, lacs et océans compris. La ville semble étrangement très bien conservée, presque comme si elle n'avait pas été affectée par le passage du temps. Les anciens habitants semblent avoir atteint le début de l'ère spatiale mais certaines de leurs technologies semblent être plus développées que les nôtres. Ce nouvel aperçu va grandement aider notre compréhension de l'ingénierie."
+ apsr.5011.button:1 "Incroyable !"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.5013.title:0 "Détecté : §M$apsr5_planet_modifier$§!"
+ apsr.5013.desc:0 "Sur une de nos planètes nouvellement occupées, nous avons trouvé quelque chose d'intéressant ! {Une seule ville couvre toute la surface de cette planète, lacs et océans compris. La ville semble étrangement très bien conservée, presque comme si elle n'avait pas été affectée par le passage du temps. Les anciens habitants semblent avoir atteint le début de l'ère spatiale mais certaines de leurs technologies semblent être plus développées que les nôtres. Ce nouvel aperçu va grandement aider notre compréhension de l'ingénierie."
+
+ apsr.5013.button:1 "Super !"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.5015.title:0 "Détecté : §M$apsr5_planet_modifier$§!"
+ apsr.5015.desc:0 "Notre service de renseignement, en vérifiant les informations sur les planètes des autres empires, a trouvé quelque chose d'intéressant !\nSur l'une des planètes, une ville inhabitée est présente. Ce qui est plus intéressant cependant, c'est le fait que cette ville couvre la totalité de la planète. Le niveau de développement de l'industrie ' est proche du début de l'ère spatiale, mais les idées d'ingénierie utilisées dans la ville sont révolutionnaires même par rapport aux standards de notre civilisation.\n\n§GInformation :§!\n§YPlanet name :§! §W[event_target :apsr5_planet_target.GetName]§!\n§YPlanet class :§! §W[event_target :apsr5_planet_target.GetClassName]§!\n§YNom du système solaire :§! §W[event_target :apsr5_planet_target.solar_system.GetName]§!\n§YPropriétaire de la planète :§! §W[event_target :apsr5_planet_target.Owner.GetName]§!"
+ apsr.5015.button:1 "Intéressant !"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr5_special:0 "$apsr5_planet_modifier$"
+ apsr5_special_desc:0 "$apsr5_planet_modifier_desc$"
+ 
+ APSR5_MESSAGE_SR_INFORMED_TITLE:0 "Informations sur une planète unique"
+ APSR5_MESSAGE_SR_INFORMED:0 "Nous avons reçu des informations sur un artefact spécial, §M$apsr5_planet_modifier$§!, situé sur la planète §Y$PLANET$§! sous le contrôle des §Y$COUNTRY$§!.."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr5_anomaly:0 "$apsr1_anomaly$"
+ apsr5_anomaly_desc:0 "$apsr1_anomaly_desc$"
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.5601.title:0 "$apsr.5011.title$"
+ apsr.5601.desc:0 "$apsr.5011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr5_planet_manager_normal:0 "Les managers de la métropole éternelle"
+ job_apsr5_manager_normal:0 "Directeur de la métropole éternelle"
+ job_apsr5_manager_normal_plural:0 "Les managers de la métropole éternelle"
+ job_apsr5_manager_normal_desc:0 "Organisation et gestion des services publics."
+ mod_job_apsr5_manager_normal_add:0 "Directeur de la métropole éternelle"
+   
+ apsr5_planet_manager_hive:0 "Les drones gestionnaires de la métropole éternelle"
+ job_apsr5_manager_hive:0 "Bourdon gestionnaire de la métropole éternelle"
+ job_apsr5_manager_hive_plural:0 "Les drones gestionnaires de la métropole éternelle"
+ job_apsr5_manager_hive_desc:0 "Organisation et gestion des services publics."
+ mod_job_apsr5_manager_hive_add:0 "Bourdon gestionnaire de la métropole éternelle"
+   
+ apsr5_planet_manager_machine:0 "Les drones gestionnaires de la métropole éternelle"
+ job_apsr5_manager_machine:0 "Bourdon gestionnaire de la métropole éternelle"
+ job_apsr5_manager_machine_plural:0 "Les drones gestionnaires de la métropole éternelle"
+ job_apsr5_manager_machine_desc:0 "Organisation et gestion des services publics."
+ mod_job_apsr5_manager_machine_add:0 "Bourdon gestionnaire de la métropole éternelle"

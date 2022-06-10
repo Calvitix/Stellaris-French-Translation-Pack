@@ -1,0 +1,157 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr13_planet_modifier:0 "Marché de la galaxie"
+ apsr13_planet_modifier_desc:0 "Il y a longtemps, c'était le centre du réseau de commerce galactique."
+ 
+ apsr13_deposit:0 "$apsr13_planet_modifier$"
+ apsr13_deposit_desc:0 "$apsr13_planet_modifier_desc$\n\n§M$apsr13_deposit_effect$§!"
+ apsr13_deposit_effect:0 "Ressource unique disponible : $apsr13_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr13_building_part1_text:0 "Une installation tentaculaire, dotée d'un équipement de pointe et constituée d'un réseau complexe de bâtiments, de terminaux et de zones de stockage, tous utilisés pour faciliter le commerce."
+ 
+ apsr13_building_part2_text:0 "Une installation tentaculaire, dotée d'un équipement de pointe et constituée d'un réseau complexe de bâtiments, de terminaux et de zones de stockage, tous utilisés pour faciliter le commerce."
+ 
+ apsr13_building_part3_text:0 "Une installation tentaculaire, dotée d'un équipement de pointe et constituée d'un réseau complexe de bâtiments, de terminaux et de zones de stockage, tous utilisés pour faciliter le commerce."
+ 
+ apsr13_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr13_building_fake_predesc:0 "§MBâtiment unique§!\n§RNous n'avons pas les technologies appropriées pour maximiser le rendement de ce bâtiment !§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr13_building_part1:0 "Complexe commercial"
+ apsr13_building_part1_desc:0 "$apsr13_building_predesc$\n$apsr13_building_part1_text$"
+ 
+ apsr13_building_part2:0 "Marché galactique"
+ apsr13_building_part2_desc:0 "$apsr13_building_predesc$\n$apsr13_building_part2_text$"
+ 
+ apsr13_building_part3:0 "Centre de commerce galactique"
+ apsr13_building_part3_desc:0 "$apsr13_building_predesc$\n$apsr13_building_part3_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr13_building_part1:0 "Commerce galactique I"
+ tech_apsr13_building_part1_desc:0 "Reconstruire le §YGalaxy Market§! sera une entreprise difficile, mais nous disposons des ressources nécessaires pour la mener à bien."
+ TECH_APSR13_PART1_TITLE:0 "§HBuilding :§! $apsr13_building_part1$"
+ TECH_APSR13_PART1_DESC:0 "$apsr13_building_part1_desc$"
+ 
+ tech_apsr13_building_part2:0 "Commerce galactique II"
+ tech_apsr13_building_part2_desc:0 "Le §YMarché de la Galaxie§! peut augmenter nos revenus commerciaux et nos relations avec les autres joueurs sur la scène galactique."
+ TECH_APSR13_PART2_TITLE:0 "§HBuilding :§! $apsr13_building_part2$"
+ TECH_APSR13_PART2_DESC:0 "$apsr13_building_part2_desc$"
+ 
+ tech_apsr13_building_part3:0 "Commerce galactique III"
+ tech_apsr13_building_part3_desc:0 "Avec la reconstruction complète et l'amélioration du §YMarché de la Galaxie§!, nous allons enfin devenir le centre du commerce galactique !"
+ TECH_APSR13_PART3_TITLE:0 "§HBuilding :§! $apsr13_building_part3$"
+ TECH_APSR13_PART3_DESC:0 "$apsr13_building_part3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.13001.title:0 "$apsr13_building_part1$ construit"
+ apsr.13001.desc:0 "Enfin, nous avons partiellement terminé la reconstruction de notre Complexe Galactique. Aujourd'hui, les bâtiments, qui reposaient dans la poussière depuis des lustres, vont reprendre leur travail !"
+ apsr.13001.ok-button:0 "Excellent"
+ 
+ apsr.13002.title:0 "$apsr13_building_part2$ construit"
+ apsr.13002.desc:0 "Nous avons maintenant terminé la reconstruction de la plus grande partie de cet ancien complexe commercial. De nouveaux magasins et marchés ont été ouverts, et de nombreux commerçants d'autres pays ont immigré dans notre empire, et notre puissance commerciale s'est renforcée."
+ apsr.13002.ok-button:0 "Nous allons élever le niveau du commerce dans cette galaxie !"
+ 
+ apsr.13003.title:0 "$apsr13_building_part3$ construit"
+ apsr.13003.desc:0 "De nombreuses années se sont écoulées depuis que nous avons trouvé cet ancien complexe commercial, et maintenant il a finalement été rouvert. Maintenant, nous sommes célèbres parmi les commerçants d'autres pays et les sociétés commerciales étrangères se battent pour obtenir le moindre mètre de terre pour leurs magasins. Et, aussi, nous obtenons d'énormes profits des taxes ici."
+ apsr.13003.ok-button:0 "L'économie de notre galaxie est entre nos mains !"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.13011.title:0 "Détecté : §M$apsr13_planet_modifier$§!"
+ apsr.13011.desc:0 "Une équipe de recherche du vaisseau §H[Root.GetName]§! dirigée par §H[Root.GetLeaderName]§! a rapporté avoir trouvé un complexe de bâtiments en ruine.\nA la suite du balayage, nous avons découvert une ville entière spécialisée dans le commerce. Après une brève exploration, §H[Root.GetLeaderName]§! est arrivé à la conclusion que la planète était autrefois une sorte d'énorme point de commerce incorporant différentes civilisations de toute la galaxie. Nous avons trouvé des informations sur l'un des terminaux de guidage. La planète n'appartenait pas à une quelconque civilisation, mais à un groupe de grandes entreprises de la galaxie. La raison pour laquelle elle a été abandonnée n'est pas claire.\nIl est impossible de récupérer des informations ou des technologies utiles sur cette planète, car une grande partie de l'équipement et de la technologie utilisable a été pillée il y a longtemps. Nous avons cependant découvert un conteneur de stockage spatial grâce à notre technologie de scanner avancée. Quelques zones dédiées à la négociation ont également été trouvées. Bien qu'il ne s'agisse que d'une ruine, il pourrait être restauré en investissant les ressources appropriées, et peut-être même amélioré au-delà de son apogée. Les avantages que nous pourrions recevoir sont insondables pour le moment."
+ apsr.13011.button:1 "Intéressant !"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.13013.title:0 "Détecté : §M$apsr13_planet_modifier$§!"
+ apsr.13013.desc:0 "Sur l'une des planètes récemment occupées, quelque chose de particulier a été trouvé. Les explorateurs ont découvert un complexe architectural incroyablement vaste. Cette planète semble être une sorte de centre commercial géant qui facilitait l'échange de biens, de services et de main-d'uvre des civilisations galactiques. Cela ne peut pas être expliqué correctement, mais quiconque regarde cette installation semble croire que ses activités commerciales seront couronnées de succès si elles s'y déroulent."
+ apsr.13013.button:1 "Super !"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.13015.title:0 "Détecté : §M$apsr13_planet_modifier$§!"
+ apsr.13015.desc:0 "Nos services de renseignements, en cherchant des informations sur les planètes des autres empires, ont trouvé quelque chose d'intéressant !\nSur l'une des planètes, on peut trouver un ancien complexe commercial. Cela montre que la planète était dans le passé un nud important du réseau commercial galactique, si ce n'est son centre même. Le complexe inspire la confiance, la fiabilité de son propriétaire à tous ceux qui le visitent ; cet effet reste à expliquer.\n\n§GInformation :§!\n§YPlanet name :§! §W[event_target :apsr13_planet_target.GetName]§!\n§YPlanet class :§! §W[event_target :apsr13_planet_target.GetClassName]§!\n§YNom du système solaire :§! §W[event_target :apsr13_planet_target.solar_system.GetName]§!\n§YPropriétaire de la planète :§! §W[event_target :apsr13_planet_target.Owner.GetName]§!"
+ apsr.13015.button:1 "Intéressant !"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr13_special:0 "$apsr13_planet_modifier$"
+ apsr13_special_desc:0 "$apsr13_planet_modifier_desc$"
+ 
+ APSR13_MESSAGE_SR_INFORMED_TITLE:0 "Informations sur une planète unique"
+ APSR13_MESSAGE_SR_INFORMED:0 "Nous avons reçu des informations sur une ressource spéciale appelée §M$apsr13_planet_modifier$§!, qui se trouve sur la planète §Y$PLANET$§! sous le contrôle des §Y$COUNTRY$§!.."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr13_anomaly:0 "$apsr1_anomaly$"
+ apsr13_anomaly_desc:0 "$apsr1_anomaly_desc$"
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.13601.title:0 "$apsr.13011.title$"
+ apsr.13601.desc:0 "$apsr.13011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr13_planet_trader_normal:0 "Courtiers"
+ job_apsr13_trader_normal:0 "Courtier"
+ job_apsr13_trader_normal_plural:0 "Courtiers"
+ job_apsr13_trader_normal_desc:0 "La principale responsabilité d'un courtier est de mettre en contact les vendeurs et les acheteurs et de faciliter les négociations entre eux, tout en prenant une part des bénéfices."
+ mod_job_apsr13_trader_normal_add:0 "Courtier"
+   
+ apsr13_planet_trader_hive:0 "Broker drones"
+ job_apsr13_trader_hive:0 "Courtier drone"
+ job_apsr13_trader_hive_plural:0 "Broker drones"
+ job_apsr13_trader_hive_desc:0 "Bien que le commerce ne soit pas une pratique courante, ou utilisée du tout au sein de la société du Hivemind, le Collectif en reconnaît la valeur, du moins par rapport aux autres empires. Le drone courtier a donc été créé, un travailleur spécialisé dont le but est de faciliter les échanges, les négociations et le commerce entre les acheteurs et les vendeurs."
+ mod_job_apsr13_trader_hive_add:0 "Courtier drone"
+   
+ apsr13_planet_trader_machine:0 "Broker drones"
+ job_apsr13_trader_machine:0 "Courtier drone"
+ job_apsr13_trader_machine_plural:0 "Broker drones"
+ job_apsr13_trader_machine_desc:0 "Bien que la Machine ne pratique pas le commerce, elle reconnaît l'importance de cette pratique comme moyen d'échanger des ressources et d'améliorer les relations entre les acteurs galactiques. Le drone Courtier a été spécialement conçu pour faciliter le commerce et les négociations entre acheteurs et vendeurs."
+ mod_job_apsr13_trader_machine_add:0 "Courtier drone"
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

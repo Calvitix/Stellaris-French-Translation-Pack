@@ -1,0 +1,293 @@
+﻿l_french:
+ 
+
+ 
+ ### ресурс
+ 
+ apsr9_planet_modifier:0 "Eternium"
+ apsr9_planet_modifier_desc:0 "Un élément instable dont la masse varie de façon sauvage lorsqu'elle est influencée par des ondes électromagnétiques ; il a également la capacité particulière de générer et de modifier les champs de gravité. On pense qu'il s'agit d'un résidu de l'explosion qui a eu lieu lors de la création de l'Univers."
+ 
+ apsr9_deposit:0 "$apsr9_planet_modifier$"
+ apsr9_deposit_desc:0 "$apsr9_planet_modifier_desc$\n\n§M$apsr9_deposit_effect$§!"
+ apsr9_deposit_effect:0 "Ressource unique disponible : $apsr9_planet_modifier$"
+ 
+ apsr9_destroyed_planet_modifier:0 "Eternium"
+ apsr9_destroyed_planet_modifier_desc:0 "Un élément instable dont la masse varie énormément lorsqu'il est influencé par des ondes électromagnétiques ; il a également la capacité particulière de générer et de modifier les champs de gravité. Malheureusement, après une expérience scientifique infructueuse, une grande partie des réserves a été détruite en même temps que la planète."
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr9_building_part1_text:0 "En recherchant l'Eternium, nous progresserons dans notre compréhension des lois qui régissent l'univers."
+ 
+ apsr9_building_part2_text:0 "En approfondissant nos recherches sur l'Eternium, nous avons réussi à compiler un grand nombre de données impressionnantes."
+ 
+ apsr9_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+  
+ 
+ 
+ ### нормальные здания
+  
+ apsr9_building_part1:0 "Centre de recherche de White Mesa"
+ apsr9_building_part1_desc:0 "$apsr9_building_predesc$\n$apsr9_building_part1_text$"
+ 
+ apsr9_building_part2:0 "Centre de recherche de White Mesa"
+ apsr9_building_part2_desc:0 "$apsr9_building_predesc$\n$apsr9_building_part2_text$"
+  
+ 
+ 
+ ### фейк-здания
+  
+ apsr9_building_part_fake:0 "Installation de recherche de White Mesa en ruine"
+ apsr9_building_part_fake_desc:0 "§MRuines d'un bâtiment unique§!\n§W--------------§!\nNous avons accidentellement détruit le §YCentre de Recherche§ local pendant l'atterrissage !..."
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr9_building_part1:0 "Recherche Eternium"
+ tech_apsr9_building_part1_desc:0 "L'analyse de l'Eternium est une bonne occasion d'approfondir notre compréhension de l'Univers."
+ TECH_APSR9_PART1_TITLE:0 "§HBuilding :§! $apsr9_building_part1$"
+ TECH_APSR9_PART1_DESC:0 "$apsr9_building_part1_desc$"
+ 
+ tech_apsr9_upgrade_1:0 "Eternium : la première expérience"
+ tech_apsr9_upgrade_1_desc:0 "Nous avons terminé avec succès la première étape du projet de recherche Eternium."
+ TECH_APSR9_EXPERIMENT1_TITLE:0 "Première expérience réussie"
+ TECH_APSR9_EXPERIMENT1_DESC:0 "La première étape de la compréhension de l'univers"
+ 
+ tech_apsr9_upgrade_2:0 "Eternium : la deuxième expérience"
+ tech_apsr9_upgrade_2_desc:0 "Nous avons terminé avec succès la deuxième phase du projet de recherche Eternium."
+ TECH_APSR9_EXPERIMENT2_TITLE:0 "Deuxième expérience réussie"
+ TECH_APSR9_EXPERIMENT2_DESC:0 "Nous avons sérieusement progressé dans notre compréhension de l'univers."
+ 
+ tech_apsr9_upgrade_3:0 "Eternium : la troisième expérience"
+ tech_apsr9_upgrade_3_desc:0 "Nous avons terminé avec succès la troisième étape du projet de recherche Eternium."
+ TECH_APSR9_EXPERIMENT3_TITLE:0 "Troisième expérience réussie"
+ TECH_APSR9_EXPERIMENT3_DESC:0 "Nous sommes à un pas de connaître les secrets de l'univers."
+ 
+ tech_apsr9_building_part2:0 "Résultat de la recherche sur l'Eternium"
+ tech_apsr9_building_part2_desc:0 "Nous avons terminé notre plan de recherche de l'Eternium. Bien que nous ayons obtenu des résultats qui ont dépassé nos attentes. Cependant, il reste encore beaucoup à apprendre."
+ TECH_APSR9_PART2_TITLE:0 "§HBuilding :§! $apsr9_building_part2$"
+ TECH_APSR9_PART2_DESC:0 "$apsr9_building_part2_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ 
+ ## построен этап 1
+ 
+ apsr.9001.title:0 "Centre de recherche de White Mesa"
+ apsr.9001.desc:0 "Le §YCentre de recherche de White Mesa§! a finalement été remis en état de marche sur la planète §H[Root.GetName]§! ! {L'installation est autonome : logements, communications, stations de soutien, une centrale électrique, plusieurs stations de transformation et réacteurs, qui utilisent des technologies nucléaires, etc. Cette installation contient un nombre incroyable de laboratoires souterrains, de sites de test et d'agences administratives, dont la plupart contiennent des équipements de pointe. La direction de White Mesa demande des fonds pour des expériences plus avancées et plus précises."
+ apsr.9001.desc.ruined:0 "Le §YCentre de recherche de White Mesa§! a finalement été reconstruit sur la planète §H[Root.GetName]§! !\nMalheureusement, toutes les données concernant les expériences sur l'§MEternium§! ont été perdues. Toutes les expériences doivent être refaites à partir de zéro. La direction de §YWhite Mesa§! demande anciennement le financement des essais."
+ apsr.9001.desc.get.back:0 "Nous avons réussi à prendre le contrôle du centre de recherche de §YWhite Mesa§! sur la planète §H[Root.GetName]§! !\nMalheureusement, toutes les données concernant les expériences sur l'§MEternium§! ont été détruites. Toutes les expériences doivent être refaites à partir de zéro. La direction de §YWhite Mesa§! demande anciennement un financement."
+ apsr.9001.button.2:0 "Bien sûr, nous sommes intéressés par cette recherche"
+ apsr.9001.button.2.tooltip:1 "Nous augmenterons le financement de §R10§! £energy crédits d'énergie supplémentaires et de §R10§!£minerals minéraux mensuels, nécessaires à l'entretien du bâtiment, et §Y'White Mesa'§! obtiendra des emplois supplémentaires."
+ ### +500 phys and bonus
+ apsr.9001.button.1:0 "Je pense que nous pouvons épargner quelques ressources."
+ apsr.9001.button.1.tooltip:1 "Nous augmenterons le financement de §R5§! £energy crédits d'énergie supplémentaires et de §R5§!£minerals minéraux mensuels, nécessaires à l'entretien du bâtiment, et §Y'White Mesa'§! obtiendra des emplois supplémentaires."
+ ### +250 phys
+ apsr.9001.button.0:0 "Malheureusement, il n'y a rien que nous puissions faire."
+ apsr.9001.button.0.tooltip:1 "Il n'y a que des perdants à avoir"
+  
+ ### успешный эксперимент 1
+ 
+ apsr.9002.title:0 "Centre de recherche de White Mesa"
+ apsr.9002.desc.if0:0 "Nous avons reçu des nouvelles du §YCentre de Recherche de White Mesa§! sur la planète §H[Root.GetName]§! !\nMalgré le manque de financement, l'expérience a été menée à bien. Malheureusement, §Rrien de nouveau n'a été découvert§!.\nUn projet de recherche plus important est maintenant prévu avec l'utilisation de l'§MEternium§!, et la direction du §Y'White Mesa'§! demande avec insistance d'allouer des fonds pour que l'expérience réussisse."
+ apsr.9002.desc.if1:0 "Nous avons reçu des nouvelles du §YCentre de Recherche de White Mesa§! sur la planète §H[Root.GetName]§! !\nPendant l'expérience, §Нplusieurs découvertes ont été faites§!, mais elles sont finalement insignifiantes.\nUn projet de recherche plus important est maintenant prévu avec l'utilisation de l'§MEternium§!, et la direction du §Y'White Mesa'§! espère que nous allouerons plus de fonds afin que l'expérience réussisse."
+ apsr.9002.desc.if2:0 "Nous avons reçu des nouvelles du §YCentre de Recherche de White Mesa§! sur la planète §H[Root.GetName]§! !\nAvec l'utilisation de nos fonds investis dans l'expérience, §Gplusieurs découvertes significatives§! ont été faites qui pourraient faire progresser le niveau scientifique de notre empire.\nUn projet de recherche plus important est maintenant prévu avec l'utilisation de l'§MEternium§!, et la direction de la §Y'White Mesa'§! attend de nous que nous allouions les fonds nécessaires pour que l'expérience réussisse."
+ apsr.9002.desc.get.back:0 "$apsr.9001.desc.get.back$"
+ apsr.9002.button.5:0 "Poursuivre la recherche"
+ apsr.9002.button.5.tooltip:1 "Nous dépenserons §R25§! £energy crédits d'énergie supplémentaires et §R25§!£minerals minéraux pour l'entretien mensuel du bâtiment, et les §Y'White Mesa'§! auront des emplois supplémentaires."
+ ### +1000 phys and bonus
+ apsr.9002.button.3:0 "Contentez-vous de cela pour l'instant"
+ apsr.9002.button.3.tooltip:1 "Nous dépenserons §R10§! £energy crédits d'énergie supplémentaires et §R10§!£minerals minéraux pour l'entretien mensuel du bâtiment, et les §Y'White Mesa'§! auront des emplois supplémentaires."
+ ### +500 phys
+ apsr.9002.button.1:0 "Malheureusement, il n'y a rien que nous puissions faire"
+ apsr.9002.button.1.tooltip:1 "Il n'y a que des pertes à encourir. Mais est-ce que ça en vaut la peine   ?"
+ 
+ ### успешный эксперимент 2
+ 
+ apsr.9003.title:0 "Centre de recherche de White Mesa"
+ apsr.9003.desc.if1:0 "Nous avons reçu des nouvelles du §YCentre de Recherche de White Mesa§! sur la planète §H[Root.GetName]§! !\nMalgré le manque de financement, l'expérience a été menée avec succès. Malheureusement, §Raucune nouvelle découverte n'a été faite§!.\nDésormais, une expérience de plus grande envergure est prévue avec l'§MEternium§!, basée sur la déstabilisation de la structure interne du cristal. La direction du §Y'White Mesa'§! nous demande instamment de fournir des fonds pour assurer le succès de la recherche."
+ apsr.9003.desc.if3:0 "Nous avons reçu des nouvelles du §YCentre de Recherche de White Mesa§! sur la planète §H[Root.GetName]§! !\nPendant l'expérience, §Нplusieurs découvertes ont été faites§!, mais elles n'auront pas une grande influence sur le développement de notre science. {Une expérience de plus grande envergure est alors prévue avec l'§MEternium§!, basée sur la déstabilisation de la structure interne du cristal. La direction du §Y'White Mesa'§! nous demande instamment de fournir des fonds pour assurer le succès de la recherche."
+ apsr.9003.desc.if5:0 "Nous avons reçu des nouvelles du §YCentre de Recherche de White Mesa§! sur la planète §H[Root.GetName]§! !\nAvec l'utilisation de nos fonds investis dans l'expérience, §Gplusieurs découvertes significatives§! ont été faites qui pourraient faire avancer notre développement scientifique.\nUne expérience de plus grande envergure était maintenant prévue avec l'§MEternium§!, basée sur la déstabilisation de la structure interne du cristal. La direction du §Y'White Mesa'§! nous demande instamment de fournir des fonds pour assurer le succès de la recherche."
+ apsr.9003.desc.get.back:0 "$apsr.9001.desc.get.back$"
+ apsr.9003.button.8:0 "Vous pouvez compter sur nous"
+ apsr.9003.button.8.tooltip:1 "Nous dépenserons §R50§! £energy crédits énergétiques supplémentaires et §R50§!£minerals minéraux pour l'entretien mensuel du bâtiment, et les §Y'White Mesa'§! obtiendront des emplois supplémentaires."
+ ### +1500 phys and bonus
+ apsr.9003.button.5:0 "Nous pouvons vous financer partiellement"
+ apsr.9003.button.5.tooltip:1 "Nous dépenserons §R20§! £energy crédits d'énergie supplémentaires et §R20§!£minerals minéraux pour l'entretien mensuel du bâtiment, et les §Y'White Mesa'§! auront des emplois supplémentaires."
+ ### +750 phys
+ apsr.9003.button.2:0 "Malheureusement, il n'y a rien que nous puissions faire"
+ apsr.9003.button.2.tooltip:1 "Qui sait, ce qui pourrait arriver..."
+ 
+ ### успешный эксперимент 3
+ 
+ apsr.9004.title:0 "Centre de recherche de White Mesa"
+ apsr.9004.desc.if2:0 "Nous avons reçu des nouvelles du §YCentre de Recherche de White Mesa§! sur la planète §H[Root.GetName]§! !\nMalgré le manque de financement, l'expérience a été menée à bien. Malheureusement, §Rrien de nouveau n'a été découvert§!.\nLa direction de §YWhite Mesa§! affirme avoir pu obtenir un échantillon particulièrement propre du cristal §MEternium§! sous le numéro 'GG-3883'. Malgré l'instabilité accrue du cristal, les chercheurs de §YWhite Mesa§! sont sûrs de leur succès. Nous devons seulement allouer les fonds nécessaires."
+ apsr.9004.desc.if5:0 "Nous avons reçu des nouvelles du §YCentre de recherche de White Mesa§! sur la planète §H[Root.GetName]§! !\nPendant l'expérience, §Нplusieurs découvertes ont été faites§!, mais elles n'auront pas une grande influence sur le développement de notre science.\nLa direction du §YWhite Mesa§! affirme avoir pu obtenir un échantillon particulièrement propre du cristal d'§MEternium§! sous le numéro 'GG-3883'. Malgré l'instabilité accrue du cristal, les chercheurs de §YWhite Mesa§! sont sûrs de leur succès. Nous devons seulement allouer les fonds nécessaires."
+ apsr.9004.desc.if8:0 "Nous avons reçu des nouvelles du §YCentre de Recherche de White Mesa§! sur la planète §H[Root.GetName]§! !\nAvec l'utilisation de nos fonds investis dans l'expérience, §Gplusieurs découvertes significatives§! ont été faites qui pourraient faire avancer notre développement scientifique.\nLa direction du §YWhite Mesa§! affirme avoir pu obtenir un échantillon particulièrement propre du cristal d'§MEternium§! sous le numéro 'GG-3883'. Malgré l'instabilité accrue du cristal, les chercheurs de §YWhite Mesa§! sont sûrs de leur succès. Nous devons seulement allouer les fonds nécessaires."
+ apsr.9004.desc.get.back:0 "$apsr.9001.desc.get.back$"
+ apsr.9004.button.11:0 "Nous financerons entièrement les expérimentations"
+ apsr.9004.button.11.tooltip:1 "Nous dépenserons §R100§! £energy crédits d'énergie supplémentaires et §R100§!£minerals minéraux pour l'entretien mensuel du bâtiment, et les §Y'White Mesa'§! auront des emplois supplémentaires."
+ ### +2000 phys and bonus
+ apsr.9004.button.7:0 "N'en attendez pas trop"
+ apsr.9004.button.7.tooltip:1 "Nous dépenserons §R40§! £energy crédits d'énergie supplémentaires et §R40§!£minerals minéraux pour l'entretien mensuel du bâtiment, et les §Y'White Mesa'§! auront des emplois supplémentaires."
+ ### +1000 phys
+ apsr.9004.button.3:0 "Malheureusement, il n'y a rien que nous puissions faire"
+ apsr.9004.button.3.tooltip:1 "Devrions-nous même autoriser nos scientifiques à jouer avec de la matière instable   ?"
+
+ ### успешный эксперимент 4
+ 
+ apsr.9005.title:0 "Centre de recherche de White Mesa"
+ apsr.9005.desc.if3:0 "Nous avons reçu des nouvelles du §YCentre de Recherche de White Mesa§! sur la §H[Root.GetName]§! planète !\nMalgré le manque de financement, l'expérience a été menée à bien. Au moment de sa réalisation, les scientifiques §Ront presque perdu le contrôle§! de la réaction déstabilisante du cristal, mais ils ont pu prendre des mesures, empêchant ainsi le pire scénario de se produire.\nUn certain §HG. Freeman§!, membre de l'équipe de scientifiques affectés à cette expérience s'est distingué en parvenant à prendre le contrôle de la situation à l'aide d'un simple pied de biche, l'utilisant pour stopper le dysfonctionnement du spectromètre anti-masse.\n§Y$apsr9_building_part1$§! il est désormais possible d'améliorer de façon exponentielle nos recherches en physique."
+ apsr.9005.desc.if7:0 "Nous avons reçu des nouvelles du §YCentre de Recherche de White Mesa§! sur la §H[Root.GetName]§! planète !\nMalgré le manque de financement, l'expérience a été menée à bien. Au moment de sa réalisation, les scientifiques §Ront presque perdu le contrôle§! de la réaction déstabilisante du cristal, mais ils ont pu prendre des mesures, empêchant ainsi le pire scénario de se produire.\nUn certain §HG. Freeman§!, membre de l'équipe de scientifiques affectés à cette expérience s'est distingué en parvenant à prendre le contrôle de la situation à l'aide d'un simple pied de biche, l'utilisant pour stopper le dysfonctionnement du spectromètre anti-masse.\n§Y$apsr9_building_part1$§! il est désormais possible d'améliorer de façon exponentielle nos recherches en physique."
+ apsr.9005.desc.if11:0 "Nous avons reçu des nouvelles du §YCentre de Recherche de White Mesa§! sur la §H[Root.GetName]§! planète !\nAvec l'utilisation de nos fonds investis dans la conduite, l'expérience a été achevée avec succès. Au moment de sa réalisation, les scientifiques ont §Rpresque perdu le contrôle§! de la réaction déstabilisante du cristal, mais ils ont pu prendre des mesures, empêchant ainsi le pire scénario de se produire.\nUn certain §HG. Freeman§!, membre de l'équipe de scientifiques affectés à cette expérience s'est distingué en parvenant à prendre le contrôle de la situation à l'aide d'un simple pied de biche, l'utilisant pour stopper le dysfonctionnement du spectromètre anti-masse.\n§Y$apsr9_building_part1$§! il est désormais possible d'améliorer de façon exponentielle nos recherches en physique."
+ apsr.9005.finalbutton:0 "Excellent résultat"
+ apsr.9005.finalbutton.tooltip:1 "Vous pouvez maintenant mettre à niveau le centre de recherche de White Mesa. Vous §Gconserverez§! tous les bonus des expériences précédentes."
+
+ ### улучшено до этапа 2
+ 
+ apsr.9009.title:0 "Centre de recherche de White Mesa"
+ apsr.9009.desc:0 "Nous avons réussi à améliorer §Y$apsr9_building_part1$§! sur la planète §H[Root.GetName]§! !\nMaintenant, les meilleurs physiciens de tout notre empire y mènent leurs études. Cela nous donne une source de connaissances vraiment inépuisable !"
+ apsr.9009.ok-button:0 "Excellent"
+ 
+ 
+ 
+ ## Взрыв планеты (НЕУДАЧНЫЙ ЭКСПЕРИМЕНТ)
+ 
+ apsr.9301.title:0 "Eternium cascade"
+ apsr.9301.desc:0 "[Au cours de l'expérience avec l'Eternium, une erreur a été commise, entraînant une désintégration en cascade de la substance. En quelques instants, la réaction a atteint son intensité maximale ; une réaction en chaîne a enflammé tous les dépôts de la planète.\nMalheureusement, cela a conduit à la destruction complète de la colonie et de la planète entière. Après la réaction, l'Eternium a été synthétisé à nouveau, et maintenant il est possible d'y accéder directement depuis l'espace.\nMais maintenant l'Eternium a perdu la plupart de ses propriétés, et les bénéfices de l'étude sont très faibles..."
+ apsr.9301.ok-button:1 "Un échec total"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.9011.title:0 "Détecté : §M$apsr9_planet_modifier$§!"
+ apsr.9011.desc:0 "Une équipe de recherche du vaisseau scientifique §H[Root.GetName]§! a découvert quelque chose d'intéressant ! {Sur cette petite planète, il y a des dépôts d'un minéral instable qui semble avoir la capacité de changer sa masse et de déformer ou créer des champs de gravité sous l'influence d'ondes électromagnétiques multi-fréquences. On pense qu'il s'agit d'un résidu de l'explosion qui a eu lieu lors de la création de l'Univers."
+ apsr.9011.button:1 "Nous devons récupérer cet artefact !"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.9013.title:0 "Détecté : §M$apsr9_planet_modifier$§!"
+ apsr.9013.desc:0 "Quelque chose de particulier a été découvert sur une de nos nouvelles planètes. {Des dépôts d'un minéral instable existent sur cette planète. Il semble avoir la capacité de changer sa masse et de déformer ou de créer des champs de gravité sous l'influence d'ondes électromagnétiques multi-fréquences. On pense qu'il s'agit d'un résidu de l'explosion qui a eu lieu lors de la création de l'Univers."
+ apsr.9013.desc.ruined:0 "Une chose singulière a été découverte dans notre empire. {Sur l'une des planètes, il y a des dépôts d'un minéral instable qui peut changer sa masse et déformer ou créer des champs de gravité sous l'influence d'ondes électromagnétiques multi-fréquences. On pense qu'il s'agit d'un résidu de l'explosion qui a eu lieu lors de la création de l'Univers. Une installation construite pour étudier le minéral semble avoir existé ici, mais nous l'avons accidentellement détruite..."
+ apsr.9013.button:1 "Excellent !"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.9015.title:0 "Détecté : §M$apsr9_planet_modifier$§!"
+ apsr.9015.desc:0 "Nos services de renseignements, en vérifiant les informations sur les planètes des autres empires, ont trouvé quelque chose d'intéressant !\nSur l'une des planètes, il y a un dépôt d'un minéral instable, qui, lorsqu'il est exposé à des ondes EM de différentes fréquences, est capable de changer sa masse, ainsi que de créer et de déformer les champs de gravité. Il s'agit vraisemblablement de résidus de la matière comprimée du Big Bang.\n\n§GInformation :§!\n§YPlanet name :§! §W[event_target :apsr9_planet_target.GetName]§!\n§YPlanet class :§! §W[event_target :apsr9_planet_target.GetClassName]§!\n§YNom du système solaire :§! §W[event_target :apsr9_planet_target.solar_system.GetName]§!\n§YPropriétaire de la planète :§! §W[event_target :apsr9_planet_target.Owner.GetName]§!"
+ apsr.9015.button:1 "Intéressant !"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr9_special:0 "$apsr9_planet_modifier$"
+ apsr9_special_desc:0 "$apsr9_planet_modifier_desc$"
+ 
+ APSR9_MESSAGE_SR_INFORMED_TITLE:0 "Informations sur une planète unique"
+ APSR9_MESSAGE_SR_INFORMED:0 "Nous avons reçu des informations sur une ressource spéciale appelée §M$apsr9_planet_modifier$§!, qui se trouve sur la planète §Y$PLANET$§! sous le contrôle des §Y$COUNTRY$§!.."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr9_anomaly:0 "Données intéressantes"
+ apsr9_anomaly_desc:0 "Au cours de la recherche de la surface de la planète [From.GetName], nous avons obtenu des données qui doivent absolument être approfondies."
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.9601.title:0 "$apsr.9011.title$"
+ apsr.9601.desc:0 "$apsr.9011.desc$"
+ 
+ 
+ 
+ ### модификатор изучения
+ 
+ apsr9_experiment1_goodsponsor:0 "Financement des installations de recherche"
+ apsr9_experiment1_goodsponsor_desc:0 "Nous finançons actuellement des expériences avec le stock local d'Eternium."
+ apsr9_experiment2_goodsponsor:0 "$apsr9_experiment1_goodsponsor$"
+ apsr9_experiment2_goodsponsor_desc:0 "$apsr9_experiment1_goodsponsor_desc$"
+ apsr9_experiment3_goodsponsor:0 "$apsr9_experiment1_goodsponsor$"
+ apsr9_experiment3_goodsponsor_desc:0 "$apsr9_experiment1_goodsponsor_desc$"
+ apsr9_experiment4_goodsponsor:0 "$apsr9_experiment1_goodsponsor$"
+ apsr9_experiment4_goodsponsor_desc:0 "$apsr9_experiment1_goodsponsor_desc$"
+ apsr9_experiment1_badsponsor:0 "$apsr9_experiment1_goodsponsor$"
+ apsr9_experiment1_badsponsor_desc:0 "$apsr9_experiment1_goodsponsor_desc$"
+ apsr9_experiment2_badsponsor:0 "$apsr9_experiment1_goodsponsor$"
+ apsr9_experiment2_badsponsor_desc:0 "$apsr9_experiment1_goodsponsor_desc$"
+ apsr9_experiment3_badsponsor:0 "$apsr9_experiment1_goodsponsor$"
+ apsr9_experiment3_badsponsor_desc:0 "$apsr9_experiment1_goodsponsor_desc$"
+ apsr9_experiment4_badsponsor:0 "$apsr9_experiment1_goodsponsor$"
+ apsr9_experiment4_badsponsor_desc:0 "$apsr9_experiment1_goodsponsor_desc$"
+ 
+ 
+ 
+ ### новые должности
+  
+ apsr9_planet_scientist_normal:0 "Scientifiques de l'installation de recherche de White Mesa"
+ job_apsr9_scientist_normal:0 "Scientifique de l'installation de recherche de White Mesa"
+ job_apsr9_scientist_normal_plural:0 "Scientifiques de l'installation de recherche de White Mesa"
+ job_apsr9_scientist_normal_desc:0 "Tous les employés du complexe de recherche 'Belaya Mesa' possèdent les plus hautes qualifications et sont engagés à la fois dans la maintenance du complexe lui-même et dans les activités de recherche."
+ mod_job_apsr9_scientist_normal_add:0 "Scientifique de l'installation de recherche de White Mesa"
+   
+ apsr9_planet_scientist_hive:0 "Les drones du centre de recherche de White Mesa"
+ job_apsr9_scientist_hive:0 "Drone de l'installation de recherche de White Mesa"
+ job_apsr9_scientist_hive_plural:0 "Les drones du centre de recherche de White Mesa"
+ job_apsr9_scientist_hive_desc:0 "Tous les drones biologiques qui habitent les complexes, sont spécialisés dans l'entretien du complexe et la recherche."
+ mod_job_apsr9_scientist_hive_add:0 "Drone de l'installation de recherche de White Mesa"
+   
+ apsr9_planet_scientist_machine:0 "Les drones du centre de recherche de White Mesa"
+ job_apsr9_scientist_machine:0 "Drone de l'installation de recherche de White Mesa"
+ job_apsr9_scientist_machine_plural:0 "Les drones du centre de recherche de White Mesa"
+ job_apsr9_scientist_machine_desc:0 "Des drones spécialisés créés pour les activités de recherche tout en soutenant les performances du complexe."
+ mod_job_apsr9_scientist_machine_add:0 "Drone de l'installation de recherche de White Mesa"
+  
+  
+ apsr9_planet_head_scientist_normal:0 "Les scientifiques en chef du centre de recherche de White Mesa."
+ job_apsr9_head_scientist_normal:0 "Scientifique en chef du centre de recherche de White Mesa."
+ job_apsr9_head_scientist_normal_plural:0 "Scientifiques en chef du centre de recherche de White Mesa"
+ job_apsr9_head_scientist_normal_desc:0 "Les principaux scientifiques du complexe de recherche 'White Mesa' se consacrent entièrement à la recherche."
+ mod_job_apsr9_head_scientist_normal_add:0 "Scientifique en chef du centre de recherche de White Mesa."
+   
+ apsr9_planet_head_scientist_hive:0 "Les drones scientifiques du centre de recherche de White Mesa"
+ job_apsr9_head_scientist_hive:0 "Bourdon scientifique de l'installation de recherche de White Mesa"
+ job_apsr9_head_scientist_hive_plural:0 "Les drones scientifiques du centre de recherche de White Mesa"
+ job_apsr9_head_scientist_hive_desc:0 "Les drones scientifiques se concentrent sur la recherche et sont exemptés de toute autre activité."
+ mod_job_apsr9_head_scientist_hive_add:0 "Bourdon scientifique de l'installation de recherche de White Mesa"
+   
+ apsr9_planet_head_scientist_machine:0 "Les drones scientifiques du centre de recherche de White Mesa"
+ job_apsr9_head_scientist_machine:0 "Bourdon scientifique de l'installation de recherche de White Mesa"
+ job_apsr9_head_scientist_machine_plural:0 "Les drones scientifiques du centre de recherche de White Mesa"
+ job_apsr9_head_scientist_machine_desc:0 "Des drones spécialement conçus pour expérimenter l'Eternium."
+ mod_job_apsr9_head_scientist_machine_add:0 "Bourdon scientifique de l'installation de recherche de White Mesa"
+  
+  
+ apsr9_planet_gordon_freeman_normal:0 "Gordon Freeman"
+ job_apsr9_gordon_freeman_normal:0 "Gordon Freeman"
+ job_apsr9_gordon_freeman_normal_plural:0 "Gordon Freeman"
+ job_apsr9_gordon_freeman_normal_desc:0 "L'ingénieur-physicien, grâce à qui la dernière expérience avec l'Eternium, qui a failli se terminer par une cascade catastrophique, a été un succès."
+ mod_job_apsr9_gordon_freeman_normal_add:0 "Gordon Freeman"
+ 
+   
+ apsr9_planet_ethermium_hive:0 "Drone Ethernium"
+ job_apsr9_ethermium_hive:0 "Drone Ethernium"
+ job_apsr9_ethermium_hive_plural:0 "Drone Ethernium"
+ job_apsr9_ethermium_hive_desc:0 "Une unité d'esprit spéciale conçue pour travailler avec l'éthernium."
+ mod_job_apsr9_ethermium_hive_add:0 "Drone Ethernium"
+   
+ apsr9_planet_ethermium_machine:0 "Drone Ethernium"
+ job_apsr9_ethermium_machine:0 "Drone Ethernium"
+ job_apsr9_ethermium_machine_plural:0 "Drone Ethernium"
+ job_apsr9_ethermium_machine_desc:0 "Une unité spéciale conçue pour travailler avec l'Ethernium."
+ mod_job_apsr9_ethermium_machine_add:0 "Drone Ethernium"

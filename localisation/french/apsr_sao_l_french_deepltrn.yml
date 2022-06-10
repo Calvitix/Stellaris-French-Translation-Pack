@@ -1,0 +1,274 @@
+﻿l_french:
+
+######################
+### SAO FAN EVENTS ###
+######################
+
+
+
+ ### STORY
+ 
+ #launcher
+ apsr_sao.2.title:0 "'Projet 'Aincrad"
+ apsr_sao.2.desc:0 "[Après le récent blindage de la planète §H[From.GetName]§!, le scientifique principal [event_target :apsr_sao_societyleader.GetName] a proposé une expérience d'une ampleur sans précédent, qui englobera la planète entière.\nSelon le résumé du projet, nous devrons développer une technologie avancée de réalité augmentée, grâce à laquelle tous les habitants de la planète seront forcés de vivre dans un monde semi-simulé. Outre la volonté de survivre, les joueurs seront également motivés par notre promesse de supprimer, à l'issue du dernier niveau du jeu, le bouclier qui sépare leur planète du reste de la galaxie, et d'accorder une liberté totale aux habitants de la planète. Enfin, pour ceux qui survivront, du moins."
+ apsr_sao.2.button_1:0 "Préparez le lancement du projet 'Aincrad'."
+ apsr_sao.2.button_1.tooltip:0 "Commence la chaîne d'événements §M du projet 'Aincrad'§!."
+ apsr_sao.2.button_2:0 "Non, c'est une idée stupide."
+ apsr_sao.2.button_2.tooltip:0 "Le projet ' Aincrad ' ne sera jamais lancé"
+ 
+ #on research all 5 techs
+ apsr_sao.3.title:0 "$apsr_sao.2.title$"
+ apsr_sao.3.desc:0 "$RULER$, nous avons terminé avec succès nos préparatifs pour le lancement du projet 'Aincrad'. La prochaine fois que notre colosse protégera une planète habitée, le projet sera activé. Tous les habitants seront entraînés dans un jeu cruel et dangereux, où leur vie et leur avenir seront en jeu."
+ apsr_sao.3.button_1:0 "Dur, mais nécessaire, au nom de la science"
+ apsr_sao.3.button_1.tooltip:0 "Le projet 'Aincrad' sera lancé sur la prochaine planète de blindage."
+ apsr_sao.3.button_2:0 "Cela déplaira à beaucoup, mais le projet sera néanmoins lancé."
+ apsr_sao.3.button_2.tooltip:0 "$apsr_sao.3.button_1.tooltip$\n§RNos citoyens seront mécontents§!"
+ apsr_sao.3.button_3:0 "Assez. Arrêtez ce projet"
+ apsr_sao.3.button_3.tooltip:0 "§RNos scientifiques n'apprécieront pas qu'on leur fasse perdre leur temps§!."
+ 
+ # wrong planet owner
+ apsr_sao.92.title:0 "$apsr_sao.2.title$"
+ apsr_sao.92.desc:0 "Bien que nous ayons blindé la planète §H[From.GetName]§!, le projet 'Aincrad' ne peut être lancé, car une espèce à conscience gestaltiste n'est pas un sujet approprié pour cette expérience. Nous devrions trouver une autre planète."
+ apsr_sao.92.button:0 "Accusé de réception"
+ apsr_sao.92.button.tooltip:0 "Pour lancer le projet 'Aincrad', nous avons besoin d'une planète qui n'est pas habitée par un esprit de ruche ou par des robots."
+ 
+ # wrong planer type
+ apsr_sao.93.title:0 "$apsr_sao.2.title$"
+ apsr_sao.93.desc:0 "Malgré le fait que nous ayons criblé la planète §H[From.GetName]§!, le lancement du projet 'Aincrad' est impossible, car ce type de planète ne peut assurer la stabilité du travail de l'équipe de recherche.\nNous devons trouver une autre planète."
+ apsr_sao.93.button:0 "Clair"
+ apsr_sao.93.button.tooltip:0 "Pour démarrer le projet 'Aincrad', nous avons besoin d'une planète de type standard. Les planètes de types spéciaux et modifiés qui ne font pas partie de la galaxie de base ne peuvent pas être utilisées comme étape pour le projet.\n\n§MNote - seuls les types de planètes standard conviennent, comme les mondes continentaux, désertiques, idéaux et autres. Les types de planètes qui sont ajoutés par des modifications ne fonctionneront pas.§!"
+ 
+ #second pacifier shot
+ apsr_sao.4.title:0 "$apsr_sao.2.title$"
+ apsr_sao.4.desc:0 "Après le succès du blindage de la planète §H[From.GetName]§!, le projet 'Aincrad' est enfin opérationnel. Le travail pour connecter les consciences des sujets de test à notre technologie de réalité artificielle de pointe a déjà commencé. Dans quelques jours, tous les citoyens auront été entraînés dans ce jeu de vie et de mort."
+ apsr_sao.4.button:0 "Le jeu est en marche"
+ apsr_sao.4.button.tooltip:0 "Le projet 'Aincrad' a été lancé"
+ 
+ # integration complete
+ apsr_sao.5.title:0 "$apsr_sao.2.title$"
+ apsr_sao.5.desc:0 "[Nous avons été informés que les efforts d'intégration de l'AR ont été achevés sur la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nTout est prêt pour le début de l'expérience."
+ apsr_sao.5.button:0 "Commencez par"
+ apsr_sao.5.button.tooltip:0 "La route a été longue jusqu'à ce moment."
+ 
+ # choose show planet story or no
+ apsr_sao.6.title:0 "$apsr_sao.2.title$"
+ apsr_sao.6.desc:0 "Le projet 'Aincrad' $RULER$, est pleinement opérationnel sur la planète §H[event_target :apsr_sao_planetname.GetName]§!. Les notes des joueurs sur les événements survenus juste après le lancement du jeu peuvent vous intéresser."
+ apsr_sao.6.button_1:0 "Montrez-moi"
+ apsr_sao.6.button_1.tooltip:0 "Description des événements vus par les habitants"
+ apsr_sao.6.button_2:0 "Je ne suis pas intéressé, tenez-moi informé des événements clés uniquement."
+ apsr_sao.6.button_2.tooltip:0 "De nouvelles informations seront fournies tous les 1 à 2 ans"
+ 
+ # planet story - part 1
+ apsr_sao.7.title:0 "Journal des événements"
+ apsr_sao.7.desc:0 "C'était une belle journée sur la planète §H[event_target :apsr_sao_planetname.GetName]§!. Les rayons de lumière du soleil couchant §Y[event_target :apsr_sao_planetname.GetName]§! illuminaient cette ville à moitié détruite. La plupart des gens avaient déjà accepté leur destin - d'être isolé du reste de la galaxie. Et bien que beaucoup ne pouvaient pas vivre comme ça, le reste était prêt à continuer."
+ apsr_sao.7.button:0 "Suivant"
+ apsr_sao.7.button.tooltip:0 "Journal des événements de la planète §H[event_target :apsr_sao_planetname.GetName]§!"
+ 
+ # planet story - part 2
+ apsr_sao.8.title:0 "$apsr_sao.7.title$"
+ apsr_sao.8.desc:0 "Mais à peine le dernier §Y[event_target :apsr_sao_planetname.GetStarName]§! rayon de lumière avait-il éclairé la ville que le bouclier autour de la planète se mit à scintiller, et à travers lui s'étendit un champ d'hexagones, inscrit avec un texte incompréhensible.\nLa panique éclata sur la surface de la planète, désormais teintée de rouge. Certains ont essayé de se cacher, d'autres ont prié, d'autres encore se sont simplement mis à genoux, attendant l'inévitable."
+ apsr_sao.8.button:0 "$apsr_sao.7.button$"
+ apsr_sao.8.button.tooltip:0 "$apsr_sao.7.button.tooltip$"
+ 
+ # planet story - part 3
+ apsr_sao.9.title:0 "$apsr_sao.7.title$"
+ apsr_sao.9.desc:0 "Des hexagones commença à s'écouler un épais liquide rouge, rappelant le sang de certaines espèces. Le flux de liquide s'est intensifié, mais pas une seule goutte n'est tombée sur le sol. Elles restaient suspendues dans l'air, se rassemblant progressivement en un seul point."
+ apsr_sao.9.button:0 "$apsr_sao.7.button$"
+ apsr_sao.9.button.tooltip:0 "$apsr_sao.7.button.tooltip$"
+ 
+ # planet story - part 4
+ apsr_sao.10.title:0 "$apsr_sao.7.title$"
+ apsr_sao.10.desc:0 "Puis le liquide a pris la forme d'une sorte d'être, jusqu'ici inconnu.'Peuple de §H[event_target :apsr_sao_planetname.GetName]§! ' - Vous avez sûrement remarqué que votre planète a été entourée d'un champ de force impénétrable, que vous ne pouvez espérer quitter. Mais que diriez-vous si je vous disais qu'en fait, il n'y a aucun champ autour de votre planète, que tout ce que vous voyez et ressentez est une tromperie - le produit d'une simulation de réalité augmentée   ? Que tout ceci n'est qu'un jeu   ? Que diriez-vous alors   ? '"
+ apsr_sao.10.button:0 "$apsr_sao.7.button$"
+ apsr_sao.10.button.tooltip:0 "$apsr_sao.7.button.tooltip$"
+ 
+ # planet story - part 5
+ apsr_sao.11.title:0 "$apsr_sao.7.title$"
+ apsr_sao.11.desc:0 "'Mais malgré le fait que rien autour de vous n'est tout à fait réel, quitter ce jeu est presque impossible. La seule façon d'en sortir est d'arriver à la fin du jeu et de vaincre le boss final. Vous pourrez alors retourner dans le monde réel. Mais un dernier point important : si vous mourez dans ce jeu, vous mourrez aussi dans le monde réel. Bonne chance ! '\nAprès ces mots, l'être s'est désintégré en courants de liquide rouge foncé, qui se sont retirés dans la mer d'hexagones du bouclier de la planète. Puis, les hexagones eux-mêmes ont disparu, laissant derrière eux un ciel clair et étoilé."
+ apsr_sao.11.button:0 "$apsr_sao.7.button$"
+ apsr_sao.11.button.tooltip:0 "$apsr_sao.7.button.tooltip$"
+ 
+ # planet story - part 6
+ apsr_sao.12.title:0 "$apsr_sao.7.title$"
+ apsr_sao.12.desc:0 "Après la disparition de l'inconnu, la panique qui avait cessé à son apparition s'est à nouveau déclenchée, avec une force renouvelée. Les habitants malchanceux du jeu n'étaient pas simplement effrayés - ils étaient horrifiés. Le fait que leur vie ne soit plus qu'un mensonge a choqué même les plus stoïques d'entre eux. On ne sait pas ce qui nous attend dans le futur. C'est ici que se termine le disque."
+ apsr_sao.12.button:0 "Plutôt intéressant."
+ apsr_sao.12.button.tooltip:0 "Maintenant, le destin de §H[event_target :apsr_sao_planetname.GetName]§! est entre les mains de son peuple."
+ 
+ # 1 year from begin
+ apsr_sao.13.title:0 "$apsr_sao.2.title$"
+ apsr_sao.13.desc:0 "Au cours de l'année écoulée depuis le début de l'expérience, la population de la planète a diminué de 20%. Les causes de décès vont de la rencontre avec des monstres créés par le jeu au suicide et même au meurtre.\nMaintenant, sur la planète §H[event_target :apsr_sao_planetname.GetName]§!, tout est plus ou moins rentré dans l'ordre, et les joueurs involontaires ont commencé à jouer au jeu, dans l'espoir d'arriver à la fin."
+ apsr_sao.13.button:0 "Tenez-moi au courant"
+ 
+ # 2-3 years from begin (5-7)
+ apsr_sao.14.title:0 "$apsr_sao.2.title$"
+ apsr_sao.14.desc:0 "[Des nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nLes joueurs ont atteint le niveau [Root.apsr_sao_level_count] sur un total de 100. Progresser aussi rapidement a un coût : le nombre de morts pourrait encore augmenter."
+ apsr_sao.14.button:0 "Voyons de quoi ils sont faits."
+ 
+ # 3-5 years from begin (8-12)
+ apsr_sao.15.title:0 "$apsr_sao.2.title$"
+ apsr_sao.15.desc:0 "$RULER$, plus de nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nLe niveau [Root.apsr_sao_level_count] a été dégagé. Les habitants de la planète s'unissent en groupes et organisent des opérations conjointes afin de minimiser les risques et les pertes. Pour l'instant, leur niveau d'organisation est plutôt faible, mais il y a un certain potentiel.\nNous pouvons nous attendre à une accélération de leur taux d'élimination des niveaux et à une réduction des pertes."
+ apsr_sao.15.button:0 "Intéressant"
+ 
+ # 4-7 years from begin (13-22)
+ apsr_sao.16.title:0 "$apsr_sao.2.title$"
+ apsr_sao.16.desc:0 "Les efforts d'organisation des habitants de la planète §H[event_target :apsr_sao_planetname.GetName]§! ont porté leurs fruits. Il y a quelques instants, ils ont réussi à passer le niveau [Root.apsr_sao_level_count]. Si tout continue selon cette trajectoire, il semble qu'ils pourraient bien arriver à la fin du jeu dans les prochaines décennies."
+ apsr_sao.16.button:0 "Bravo"
+ 
+ # 5-9 years from begin (18-32)
+ apsr_sao.17.title:0 "$apsr_sao.2.title$"
+ apsr_sao.17.desc:0 "[Nous avons reçu des nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!. Les joueurs continuent de progresser dans le nettoyage du jeu. Ils ont déjà passé le niveau [Root.apsr_sao_level_count]. Mais juste depuis le lancement de l'expérience, la population adulte de la planète a diminué de 40%. Si les choses continuent à ce rythme, les habitants de la planète §H[event_target :apsr_sao_planetname.GetName]§! auront probablement de sérieux problèmes."
+ apsr_sao.17.button:0 "Continuer à observer"
+ 
+ # 6-11 years from begin (23-39)
+ apsr_sao.18.title:0 "$apsr_sao.2.title$"
+ apsr_sao.18.desc:0 "$RULER$, mauvaise nouvelle. Le scientifique principal [event_target :apsr_sao_societyleader.GetName] a décidé d'entrer dans le jeu. Quand nous l'avons appris, il était déjà trop tard. Son vaisseau a réussi à créer une petite brèche dans le bouclier planétaire et à pénétrer à l'intérieur. De plus, il s'est déguisé et nous ne pouvons pas le trouver.\nDans d'autres nouvelles, les habitants de la planète §H[event_target :apsr_sao_planetname.GetName]§! ont passé le niveau [Root.apsr_sao_level_count]."
+ apsr_sao.18.button:0 "Gardez un il sur la situation"
+ 
+ # 7-13 years from begin (27-45)
+ apsr_sao.19.title:0 "$apsr_sao.2.title$"
+ apsr_sao.19.desc:0 "Sur la planète §H[event_target :apsr_sao_planetname.GetName]§! l'expérience continue. La vitesse de progression dans le jeu diminue progressivement. Cela pourrait être dû à la diminution du nombre de participants, que ce soit à cause de la mort ou de la peur de la mort. A ce stade, le niveau [Root.apsr_sao_level_count] a été franchi."
+ apsr_sao.19.button:0 "Continuer à observer"
+ 
+ # 8-15 years from begin (31-51)
+ apsr_sao.20.title:0 "$apsr_sao.2.title$"
+ apsr_sao.20.desc:0 "$RULER$, nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nDepuis le début de l'expérience, suffisamment de temps s'est écoulé pour que, même si la population adulte de la planète a été réduite de moitié, la génération suivante soit venue la remplacer. Peut-être que lorsque le jeu sera terminé, la nouvelle génération aura entièrement remplacé l'ancienne. Le niveau [Root.apsr_sao_level_count] a été franchi."
+ apsr_sao.20.button:0 "Intéressant"
+ 
+ # 9-17 years from begin (34-57)
+ apsr_sao.21.title:0 "$apsr_sao.2.title$"
+ apsr_sao.21.desc:0 "$RULER$, plus de nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nLa vitesse de progression dans le jeu continue de baisser. De plus en plus de jeunes arrivent pour remplacer l'ancienne génération, mais malgré l'afflux de forces pour la bataille, l'organisation se dégrade de plus en plus. Dans le même temps, une nouvelle guilde est apparue sur la planète, 'Les chevaliers du serment de sang', qui utilisent leurs années d'expérience pour planifier des raids. Avec leur aide, le niveau [Root.apsr_sao_level_count] a été franchi avec succès."
+ apsr_sao.21.button:0 "Accordons une attention particulière à cette guilde"
+ 
+ # 10-19 years from begin (39-64)
+ apsr_sao.22.title:0 "$apsr_sao.2.title$"
+ apsr_sao.22.desc:0 "[Nous avons des nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\n'Les Chevaliers du Serment de Sang' ont réussi à prendre en charge un grand nombre de supports ces derniers temps, grâce à leur approche unique de l'organisation des raids, qui a entraîné un faible taux de mortalité, et aussi grâce à leur commandant charismatique, un leader né. Il est possible que cette tournure des événements accélère l'achèvement du jeu, puisqu'ils ont déjà réussi à passer le niveau [Root.apsr_sao_level_count]."
+ apsr_sao.22.button:0 "Recueillir plus d'informations"
+ 
+ # 11-21 years from begin (45-71)
+ apsr_sao.23.title:0 "$apsr_sao.2.title$"
+ apsr_sao.23.desc:0 "[Nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\n'Les Chevaliers du Serment de Sang' continuent à nettoyer les niveaux, ramenant le nombre de victimes à presque zéro. Le niveau [Root.apsr_sao_level_count] a déjà été nettoyé ! Nos scientifiques craignent que nous n'ayons pas suffisamment équilibré la difficulté des niveaux. Dans tous les cas, il n'est pas recommandé de changer quoi que ce soit à ce stade, afin d'éviter les incohérences et la désynchronisation des données."
+ apsr_sao.23.button:0 "Voyons ce qui se passe ensuite"
+ 
+ # 12-23 years from begin (52-81)
+ apsr_sao.24.title:0 "$apsr_sao.2.title$"
+ apsr_sao.24.desc:0 "$RULER$, nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\n'Les Chevaliers du Serment de Sang' ont complètement absorbé tous les autres groupes et alliances, et sont devenus la seule organisation sur la planète travaillant pour finir le jeu. La vitesse de progression est étonnante - il y a quelques jours, le niveau [Root.apsr_sao_level_count] a été franchi. Le chef de la guilde continue de mener personnellement les efforts de nettoyage des niveaux et tente par tous les moyens de convaincre les gens de continuer le combat."
+ apsr_sao.24.button:0 "L'expérience touche à sa fin"
+ 
+ # 13-25 years from begin (57-88)
+ apsr_sao.25.title:0 "$apsr_sao.2.title$"
+ apsr_sao.25.desc:0 "$RULER$, Encore des nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nLa progression dans le jeu a quelque peu diminué - le niveau [Root.apsr_sao_level_count] vient tout juste d'être franchi. Malgré le charisme du chef des 'Chevaliers du serment de sang', les gens se lassent des combats, de la peur de la mort, et veulent simplement vivre en paix. Nos spécialistes prédisent l'effondrement inévitable de la guilde. Si seulement le jeu pouvait être terminé avant que ce moment arrive."
+ apsr_sao.25.button:0 "Continuer à observer"
+ 
+ # 14-27 years from begin (62-95)
+ apsr_sao.26.title:0 "$apsr_sao.2.title$"
+ apsr_sao.26.desc:0 "$RULER$, nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nLes gens quittent 'Les Chevaliers du Serment de Sang'. Pendant ce temps, la jeune génération refuse de risquer sa vie pour terminer une sorte de jeu mystérieux, car elle ne croit plus être dans une simulation. Ils croient que leur vie et le monde qui les entoure, le seul dont ils se souviennent, est la réalité. Nos scientifiques étudient déjà ce phénomène.\nMalgré ces problèmes, les 'Chevaliers du serment de sang' continuent de progresser dans le jeu. Leur position actuelle est le niveau [Root.apsr_sao_level_count]."
+ apsr_sao.26.button:0 "Comportement étrange"
+ 
+ # 15-29 years from begin (67-102)
+ apsr_sao.27.title:0 "$apsr_sao.2.title$"
+ apsr_sao.27.desc:0 "$RULER$, nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nLe nombre de joueurs participant au nettoyage du jeu diminue rapidement. Les 'Chevaliers du serment de sang' commencent clairement à perdre du terrain. Et bien que leur influence soit encore considérable, l'effondrement imminent de l'organisation et une chute brutale de la vitesse de franchissement des niveaux sont évidents pour tous. Néanmoins, il y a quelques jours, le niveau [Root.apsr_sao_level_count] a été franchi. On ne sait pas, cependant, si la guilde aura suffisamment de force pour aller jusqu'au bout."
+ apsr_sao.27.button:0 "La fin est proche"
+ 
+ # 16-31 years from begin (72-109)
+ apsr_sao.28.title:0 "$apsr_sao.2.title$"
+ apsr_sao.28.desc:0 "[Les chevaliers du serment de sang continuent leur lente progression dans le jeu. Malgré leurs problèmes, ils ont réussi à atteindre le meilleur niveau [Root.apsr_sao_level_count]. Mais il est clair que la guilde est déjà poussée à ses limites. Nous nous attendons à ce qu'elle s'effondre d'ici 2 ou 3 ans, car de nombreux combattants qualifiés sont déjà partis, et l'enrôlement de jeunes guerriers est extrêmement faible."
+ apsr_sao.28.button:0 "Ils étaient la meilleure chance de gagner pour tout le monde..."
+ 
+ # 17-33 years from begin (74-113)
+ apsr_sao.29.title:0 "$apsr_sao.2.title$"
+ apsr_sao.29.desc:0 "$RULER$, nouvelles urgentes de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nNous avons retrouvé notre scientifique qui avait disparu il y a des années ! Plus précisément, il a été retrouvé par l'un des citoyens de la planète §H[event_target :apsr_sao_planetname.GetName]§!. Il s'avère que le scientifique, grâce à ses connaissances sur le projet 'Aincrad', a pu gravir rapidement les échelons du jeu et devenir l'un de ses acteurs les plus influents. Même vous, $RULER$, avez sûrement entendu parler de lui. Il n'était autre que le chef des 'Chevaliers du serment de sang' ! C'est grâce à sa connaissance du jeu qu'ils ont pu progresser si rapidement à travers les niveaux avec si peu de pertes. Malheureusement, après l'avoir identifié, les joueurs ont été convaincus qu'il s'agissait du boss final et l'ont tué. L'absence de toute réaction de la part du jeu les a découragés de toute envie de continuer à essayer. Il semble que le niveau [Root.apsr_sao_level_count] ne sera pas franchi après tout..."
+ apsr_sao.29.button:0 "Est-ce vraiment la fin   ?"
+ 
+ # 18-35 years from begin (76-117)
+ apsr_sao.30.title:0 "$apsr_sao.2.title$"
+ apsr_sao.30.desc:0 "$RULER$, nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\n'Les Chevaliers du Serment de Sang' se sont totalement effondrés. Les combattants restants, du moins ceux qui pensent qu'il est encore nécessaire de se battre, continuent de franchir des niveaux, mais avec une efficacité très réduite. Néanmoins, le niveau [Root.apsr_sao_level_count] a été franchi. Mais leur force suffira-t-elle à achever ce qui reste   ?"
+ apsr_sao.30.button:0 "Il semble que leur force s'épuise"
+ 
+ # 19-37 years from begin (77-120)
+ apsr_sao.31.title:0 "$apsr_sao.2.title$"
+ apsr_sao.31.desc:0 "$RULER$, plus de nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nCertains petits groupes, formés après la dissolution des 'Chevaliers du serment de sang', tentent encore de terminer la partie. Mais leur efficacité diminue chaque jour et avec chaque victime. Plus personne ne veut risquer sa vie. Les renforts de nouveaux combattants n'arrivent plus, bien au contraire - les guerriers expérimentés abandonnent le combat et vont vivre leurs jours en paix et tranquillement. Le niveau [Root.apsr_sao_level_count] est l'un des derniers que l'équipe de combattants restants peut espérer surmonter."
+ apsr_sao.31.button:0 "Les dernières miettes d'espoir"
+ 
+ # 20-39 years from begin (78-122)
+ apsr_sao.32.title:0 "$apsr_sao.2.title$"
+ apsr_sao.32.desc:0 "$RULER$, nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nMalgré de nombreuses pertes et difficultés, les chasseurs restants - très lentement, mais avec beaucoup d'obstination - continuent à franchir les niveaux. Le niveau [Root.apsr_sao_level_count] a été achevé au prix de grands efforts et de pertes considérables. Il est peu probable qu'ils tiennent encore longtemps..."
+ apsr_sao.32.button:0 "Apparemment, leur force n'a pas suffi"
+ 
+ # 21-41 years from begin (79-124) this is end (peoples or game)
+ apsr_sao.33.title:0 "$apsr_sao.2.title$"
+ apsr_sao.33.desc:0 "$RULER$, nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nLes derniers combattants ont déposé leurs armes après le nettoyage du niveau [Root.apsr_sao_level_count]. Personne d'autre ne tentera de terminer le jeu. Il n'y a plus personne avec la volonté d'essayer. Les habitants de la planète continuent à vivre dans leur monde de réalité augmentée comme s'il était réel, et pas simplement notre fabrication.\nLes scientifiques ne considèrent plus la planète comme digne de notre attention, et le projet 'Aincrad', même s'il n'a pas été mené à son terme, s'est néanmoins avéré être un effort scientifique valable."
+ apsr_sao.33.button:0 "Même ainsi, ce n'était pas en vain"
+  
+ # final
+ apsr_sao.final.title:0 "$apsr_sao.2.title$"
+ apsr_sao.final.desc:0 "$RULER$, nouvelles de la planète §H[event_target :apsr_sao_planetname.GetName]§!.\nLe dernier niveau a enfin été franchi ! La population de la planète célèbre et exulte de sa victoire. Conformément au protocole de l'expérience, les dispositifs de RA se sont immédiatement éteints, entraînant la disparition des monstres et de tout signe du jeu dans la vie des gens. Maintenant, c'est à nous de décider - allons-nous retirer le bouclier de la planète ou la laisser telle quelle   ?"
+ apsr_sao.final.button_1:0 "Nous sommes liés par nos promesses"
+ apsr_sao.final.button_1.tooltip:0 "Peut-être qu'ils ont oublié qui les a mis là..."
+ apsr_sao.final.button_2:0 "Retirer le bouclier   ? Bien sûr que non !"
+ apsr_sao.final.button_2.tooltip:0 "La planète §H[event_target :apsr_sao_planetname.GetName]§! sera à jamais isolée du reste de l'univers."
+ apsr_sao.final.button_3:0 "Des formes de vie pitoyables. Laissez-les souffrir davantage"
+ apsr_sao.final.button_3.tooltip:0 "$apsr_sao.final.button_2.tooltip$"
+ 
+ # if planet is open
+ apsr_sao.34.title:0 "$apsr_sao.2.title$"
+ apsr_sao.34.desc:0 "Le projet de suppression du bouclier de la planète §H[event_target :apsr_sao_planetname.GetName]§! est terminé, et la population est désormais libre de quitter la surface et de voyager vers d'autres étoiles. Leur joie n'a pas de limite, et qui plus est, ils nous considèrent comme leurs libérateurs et souhaitent faire partie de notre empire. Aux questions prudentes sur qui les a coupés de l'univers en premier lieu, ils ne peuvent donner aucune réponse, disant qu'ils ne se souviennent pas.\nEspérons qu'ils ne s'en souviennent jamais."
+ apsr_sao.34.button:0 "Nous les accueillons avec plaisir"
+ apsr_sao.34.button.tooltip:0 "$apsr_sao.2.title$ terminé avec succès"
+ 
+ 
+ 
+ ### TECHNOLOGY
+ 
+ tech_apsr_sao_1:0 "Technologie de projection d'images"
+ tech_apsr_sao_1_desc:0 "§R$apsr_sao.2.title$§!\nNous devons d'abord développer un moyen de délivrer nos messages à la population de la planète."
+ tech_apsr_sao_2:0 "Technologie de réalité augmentée"
+ tech_apsr_sao_2_desc:0 "§R$apsr_sao.2.title$§!\nTechnologie de base pour notre prochaine expérience."
+ tech_apsr_sao_3:0 "Consciousnes Interference Tech"
+ tech_apsr_sao_3_desc:0 "§R$apsr_sao.2.title$§!\nPersonne n'acceptera volontairement une telle expérience. Nous les connecterons de force."
+ tech_apsr_sao_4:0 "Développement de la stratégie de mise en uvre"
+ tech_apsr_sao_4_desc:0 "§R$apsr_sao.2.title$§!\nLes technologies requises ont été développées, et nous devons maintenant élaborer un mécanisme et une stratégie pour les déployer."
+ tech_apsr_sao_5:0 "Lancement du projet 'Aincrad"
+ tech_apsr_sao_5_desc:0 "§R$apsr_sao.2.title$§!\nPréparations finales avant le lancement du projet."
+ TECH_UNLOCK_APSR_SAO_TITLE:0 "§R$apsr_sao.2.title$§!"
+ TECH_UNLOCK_APSR_SAO_DESC:0 "§R$apsr_sao.2.title$§!\nUne expérience des plus cruelles, qui va se dérouler sur une planète entière."
+
+ 
+ 
+ ### PLANET MODIFIER
+ 
+ apsr_sao_project:0 "Projet 'Aincrad'"
+ apsr_sao_project_desc:0 "Une expérience exceptionnellement cruelle est menée sur cette planète."
+ 
+ 
+ 
+ ### EMPIRE MODOFIERS
+ 
+ apsr_sao_event3_xenophile:0 "Mécontentement à l'égard du projet 'Aincrad'."
+ apsr_sao_event3_xenophile_desc:0 "Notre population exprime son mécontentement face à une expérience inutilement cruelle. Vous allez l'arrêter, n'est-ce pas   ?"
+ apsr_sao_event3_endproject:0 "Grève des scientifiques"
+ apsr_sao_event3_endproject_desc:0 "Des années perdues pour préparer le lancement du projet 'Aincrad'... Est-ce que tout cela n'a servi à rien   ? !"
+ apsr_sao_project_bad_complete:0 "Projet 'Aincrad'"
+ apsr_sao_project_bad_complete_desc:0 "Le projet 'Aincrad' n'est pas encore terminé, mais nous apprenons néanmoins quelque chose de nos observations."
+ apsr_sao_project_good_complete:0 "Projet 'Aincrad'"
+ apsr_sao_project_good_complete_desc:0 "Le projet 'Aincrad' a été un succès total !"
+ 
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr_sao_open_shield:0 "Retrait de l'écran"
+ apsr_sao_open_shield_DESC:0 "La population de la planète a passé avec succès notre épreuve, et nous allons maintenant retirer le bouclier de leur planète."
+ 
+ 
+ 
+ ### OPINION MODIFIER
+ 
+ apsr_sao_freedom:0 "Bouclier enlevé"
+ 
+ 
+ 
+ ### ORIGIN
+  
+ apsr_sao_survival:0 "Survivants en isolement"
+ apsr_sao_survival_desc:0 "Cet empire a longtemps été sur une planète complètement isolée de la galaxie extérieure par un bouclier énergétique. De plus, pour leur survie, ils devaient passer par un jeu de survie féroce, où la liberté était le prix de la victoire. Cela a conduit au fait que l'organisation des hostilités et la régulation de l'utilisation des ressources dans cet empire ont été portées à l'état le plus efficace."
+ 

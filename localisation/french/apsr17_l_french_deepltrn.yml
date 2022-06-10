@@ -1,0 +1,149 @@
+﻿l_french:
+
+
+ 
+ ### ресурс
+ 
+ apsr17_planet_modifier:0 "Complexe énergétique planétaire"
+ apsr17_planet_modifier_desc:0 "Cette planète entière est une centrale électrique décrépite appartenant à une ancienne civilisation. Elle n'a pas bien supporté le passage des âges, mais avec un investissement approprié en temps et en ressources, elle peut être restaurée."
+ 
+ apsr17_deposit:0 "$apsr17_planet_modifier$"
+ apsr17_deposit_desc:0 "$apsr17_planet_modifier_desc$\n\n§M$apsr17_deposit_effect$§!"
+ apsr17_deposit_effect:0 "Ressource unique disponible : $apsr17_planet_modifier$"
+ 
+ 
+ 
+ ### описания зданий
+ 
+ apsr17_building_part1_text:0 "Une ombre de la grandeur passée."
+ 
+ apsr17_building_part2_text:0 "Centre de contrôle partiellement reconstruit du complexe planétaire local."
+ 
+ apsr17_building_part3_text:0 "Centre de contrôle du complexe planétaire énergétique."
+ 
+ apsr17_building_predesc:0 "§MUnique building§!\n§W--------------§!"
+ 
+ apsr17_building_fake_predesc:0 "§MBâtiment unique§!\n§RNous n'avons pas les technologies appropriées pour maximiser le rendement de ce bâtiment !§!\n§W--------------§!"
+ 
+ 
+ 
+ ### нормальные здания
+  
+ apsr17_building_part1:0 "Centre de contrôle du complexe planétaire énergétique."
+ apsr17_building_part1_desc:0 "$apsr17_building_predesc$\n$apsr17_building_part1_text$"
+ 
+ apsr17_building_part2:0 "Centre de contrôle du complexe planétaire énergétique."
+ apsr17_building_part2_desc:0 "$apsr17_building_predesc$\n$apsr17_building_part2_text$"
+ 
+ apsr17_building_part3:0 "Centre de contrôle du complexe planétaire énergétique."
+ apsr17_building_part3_desc:0 "$apsr17_building_predesc$\n$apsr17_building_part3_text$"
+ 
+ 
+ 
+ ### технологии
+ 
+ tech_apsr17_building_part1:0 "Restaurer le complexe : étape 1"
+ tech_apsr17_building_part1_desc:0 "Les artefacts d'une civilisation révolue peuvent et doivent être utilisés."
+ TECH_APSR17_PART1_TITLE:0 "§HBuilding :§! $apsr17_building_part1$"
+ TECH_APSR17_PART1_DESC:0 "$apsr17_building_part1_desc$"
+ 
+ tech_apsr17_building_part2:0 "Restauration du complexe : étape 2"
+ tech_apsr17_building_part2_desc:0 "Les artefacts d'une civilisation révolue peuvent et doivent être utilisés."
+ TECH_APSR17_PART2_TITLE:0 "§HBuilding :§! $apsr17_building_part2$"
+ TECH_APSR17_PART2_DESC:0 "$apsr17_building_part2_desc$"
+ 
+ tech_apsr17_building_part3:0 "Restaurer le complexe : étape 3"
+ tech_apsr17_building_part3_desc:0 "Les artefacts d'une civilisation révolue peuvent et doivent être utilisés."
+ TECH_APSR17_PART3_TITLE:0 "§HBuilding :§! $apsr17_building_part3$"
+ TECH_APSR17_PART3_DESC:0 "$apsr17_building_part3_desc$"
+ 
+ 
+ 
+ ### сообщения при постройке зданий
+ 
+ apsr.17001.title:0 "$apsr17_building_part1$ terminé"
+ apsr.17001.desc:0 "Nous avons construit §Y$apsr17_building_part1$§!, et partiellement remis en état de marche le complexe planétaire local."
+ apsr.17001.ok-button:0 "Parfait"
+ 
+ apsr.17002.title:0 "$apsr17_building_part2$ terminé"
+ apsr.17002.desc:0 "Nous avons reconstruit une partie importante du complexe énergétique planétaire, et §Y$apsr17_building_part2$§! est la clé de son fonctionnement."
+ apsr.17002.ok-button:0 "Parfait"
+ 
+ apsr.17003.title:0 "$apsr17_building_part3$ terminé"
+ apsr.17003.desc:0 "Nous avons complètement restauré §Y$apsr17_planet_modifier$§!, et maintenant toute sa puissance nous appartient !"
+ apsr.17003.ok-button:0 "Parfait"
+ 
+ 
+ 
+ ### сообщение при исследовании планеты с ресурсом
+ 
+ apsr.17011.title:0 "Détecté : §M$apsr17_planet_modifier$§!"
+ apsr.17011.desc:0 "Une équipe de recherche dirigée par §H[Root.GetLeaderName]§! du vaisseau scientifique [Root.GetName]§! a trouvé quelque chose de merveilleux !\nCette planète entière est une centrale électrique décrépite appartenant à une ancienne civilisation. Elle n'a pas bien supporté le passage des âges, mais avec un investissement approprié de temps et de ressources, elle peut être restaurée."
+ apsr.17011.button:1 "Nous devons récupérer cet artefact !"
+ 
+ 
+ 
+ ### сообщение при получении планеты с ресурсом
+ 
+ apsr.17013.title:0 "Détecté : §M$apsr17_planet_modifier$§!"
+ apsr.17013.desc:0 "Sur l'un de nos nouveaux mondes, quelque chose de particulier a été découvert. {La planète entière est une centrale électrique décrépite appartenant à une ancienne civilisation. Elle n'a pas bien supporté le passage des âges, mais avec un investissement approprié de temps et de ressources, elle peut être restaurée."
+ apsr.17013.button:1 "Super !"
+ 
+ 
+ 
+ ### сообщение при получении информации от разведки (проверка раз в 5 лет)
+ 
+ apsr.17015.title:0 "Détecté : §M$apsr17_planet_modifier$§!"
+ apsr.17015.desc:0 "Notre service de renseignement, en vérifiant les informations sur les planètes des autres empires, a trouvé quelque chose d'intéressant !\nSur l'une des planètes se trouve une centrale électrique décrépite appartenant à une ancienne civilisation. Elle n'a pas bien supporté le passage des âges, mais avec un investissement approprié de temps et de ressources, elle peut être restaurée.\n\n§GInformation :§!\n§YPlanet name :§! §W[event_target :apsr17_planet_target.GetName]§!\n§YPlanet class :§! §W[event_target :apsr17_planet_target.GetClassName]§!\n§YNom du système solaire :§! §W[event_target :apsr17_planet_target.solar_system.GetName]§!\n§YPropriétaire de la planète :§! §W[event_target :apsr17_planet_target.Owner.GetName]§!"
+ apsr.17015.button:1 "Intéressant !"
+
+ 
+ 
+ ### SPECIAL PROJECT
+ 
+ apsr17_special:0 "$apsr17_planet_modifier$"
+ apsr17_special_desc:0 "$apsr17_planet_modifier_desc$"
+ 
+ APSR17_MESSAGE_SR_INFORMED_TITLE:0 "Informations sur une planète unique"
+ APSR17_MESSAGE_SR_INFORMED:0 "Nous avons reçu des informations sur une ressource spéciale appelée §M$apsr17_planet_modifier$§!, qui se trouve sur la planète §Y$PLANET$§! sous le contrôle des §Y$COUNTRY$§!.."
+ 
+ 
+ 
+ ### Аномалия
+ 
+ apsr17_anomaly:0 "Données intéressantes"
+ apsr17_anomaly_desc:0 "Au cours de l'étude de la surface de [From.GetName], nous avons obtenu des données qui doivent absolument être approfondies."
+
+ 
+ 
+ ### сообщение при изучении аномалии
+ 
+ apsr.17601.title:0 "$apsr.17011.title$"
+ apsr.17601.desc:0 "$apsr.17011.desc$"
+ 
+ 
+ 
+ ### новые должности
+   
+ apsr17_planet_power_engineer_normal:0 "Ingénieurs en électricité"
+ job_apsr17_power_engineer_normal:0 "Ingénieur en électricité"
+ job_apsr17_power_engineer_normal_plural:0 "Ingénieurs en électricité"
+ job_apsr17_power_engineer_normal_desc:0 "Les fonctions de l'ingénieur en électricité comprennent le contrôle global de la production d'énergie sur le site, l'optimisation des processus de production et de consommation, le suivi des pics de charge du réseau, etc."
+ mod_job_apsr17_power_engineer_normal_add:0 "Ingénieur en électricité"
+   
+ apsr17_planet_power_engineer_hive:0 "Drones de puissance"
+ job_apsr17_power_engineer_hive:0 "Power Drone"
+ job_apsr17_power_engineer_hive_plural:0 "Drones de puissance"
+ job_apsr17_power_engineer_hive_desc:0 "Cet être contrôle le travail des techniciens ordinaires et assure le fonctionnement stable et ininterrompu de l'installation."
+ mod_job_apsr17_power_engineer_hive_add:0 "Power Drone"
+   
+ apsr17_planet_power_engineer_machine:0 "Drones de puissance"
+ job_apsr17_power_engineer_machine:0 "Power Drone"
+ job_apsr17_power_engineer_machine_plural:0 "Drones de puissance"
+ job_apsr17_power_engineer_machine_desc:0 "Ce modèle de drone dispose d'une IA autonome améliorée, dont la tâche principale est de surveiller le fonctionnement de l'installation, le travail des drones-techniciens ordinaires et l'optimisation des processus de production d'énergie."
+ mod_job_apsr17_power_engineer_machine_add:0 "Power Drone"
+ 
+ 
+ 
+ 
+ 
