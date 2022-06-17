@@ -714,14 +714,15 @@
  veru_contract_fail: "Prohibited by Contract"
  veru_tree_of_life_fail: "Due to this subject relying on their §YTree of Life§!, their capital cannot be relocated."
 
- subject_verdevolved_effect: "$SUBJECT_verdevolved$"
- subject_verfoederatus_effect: "$SUBJECT_verfoederatus$"
- subject_verdisciple_effect: "$SUBJECT_verdisciple$"
- subject_verjrpartner_effect: "$SUBJECT_verjrpartner$"
- subject_verpuppet_effect: "$SUBJECT_verpuppet$"
- subject_verdisciple_effect: "$SUBJECT_verdisciple$"
- subject_verdevotee_effect: "$SUBJECT_verdevotee$"
- subject_verworshipper_effect: "$SUBJECT_verworshipper$"
+ subject_verdevolved_effect: "$preset_verdevolved$"
+ subject_verfoederatus_effect: "$preset_verfoederatus$"
+ subject_verdisciple_effect: "$preset_verdisciple$"
+ subject_verjrpartner_effect: "$preset_verjrpartner$"
+ subject_verpuppet_effect: "$preset_verpuppet$"
+ subject_verdisciple_effect: "$preset_verdisciple$"
+ subject_verdevotee_effect: "$preset_verdevotee$"
+ subject_verworshipper_effect: "$preset_verworshipper$"
+ subject_auto_state_effect: "$preset_auto_state$"
 
  subject_ver_effects: "Special Effects"
  subject_ver_hidden_resources: "Special Resources"
@@ -733,6 +734,8 @@
 
  ver_blood_tax_subject: "Tribute: §Y10%§! £pops£ §HPops§! every 15-20 years\nSpecial Effect: §R-1000§! Opinion towards Overlord"
  ver_blood_tax_overlord: "§Y10%§! of subject's £pops£ §HPops§! every 15-20 years"
+
+ autostate_extra_overlord: "Monthly: £influence£ §R-0.25§"
 
  ver_extra_subject: "$MODIFIER$\n$RESOURCES$"
 
@@ -797,8 +800,9 @@
  not_allowed_for_verarmsdealer: "$TRIGGER_FAIL$Not allowed for §Y$preset_verarmsdealer$s§."
  not_allowed_for_versubcontractor: "$TRIGGER_FAIL$Not allowed for §Y$preset_versubcontractor$s§."
  not_allowed_for_megacorp: "$TRIGGER_FAIL$Not allowed for §YMegacorps§!."
+ not_allowed_for_auto_state: "$TRIGGER_FAIL$Not allowed for §YAutonomous States§!."
 
-  ##### Subject types #####
+# Subject Buffer Zone War
   SUBJECT_verappendage: "Annexe"
   SUBJECT_DESC_verappendage: "Les états-vassaux de type 'annexes' paient §Y25%§! de leur nourriture mensuelle en tribut à leur suzerain et peuvent être intégrés. Ce type de sujet peut s'étendre pacifiquement ou par la guerre. Leur suzerain viendra à leur protection en cas d'agression, mais les appellera également dans leurs propres guerres.\n\nPeut s'étendre : £trigger_yes£\nPeut démarrer une guerre : £trigger_yes£\nEst protégé : £trigger_yes£\nRejoint les guerres du suzerain : £trigger_yes£\nPeut être intégrée : £trigger_yes£\nTribut : §Y25%§! £food£ §Hnourriture§!"
   ver.100.autonomous: "Ils ont notre protection inconditionnelle."
@@ -1405,3 +1409,5 @@
  veru_autonomous_state.tooltip:0 "'§Y[event_target:demanding_subject.GetName]§!' deviendra un §YÉtat autonome§! au sein de notre nation. Ils nous paieront §Y15% de toutes leurs ressources§!. En tant qu'État, il sera en mesure de s'étendre et de déclarer la guerre. Il ne sera pas tenu de nous aider dans nos guerres, et sera également responsable de sa propre défense. Cela nous coûtera 0,2 d'£influence£ §HInfluence§! par mois. §RNous ne serons jamais en mesure de les intégrer.§!"
 
 
+ NAME_vassal_War: "[This.MainAttacker.GetAdj] Independence War"
+ NAME_veru_buffer_war: "War for the fealty of the [event_target:chosen_border_subject.GetName]"

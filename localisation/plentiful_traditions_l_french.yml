@@ -128,16 +128,18 @@ tradition_plentiful_cybernetics_hive:0 "Masse"
 tradition_plentiful_cybernetics_hive_desc:0 "Grâce à la masse, nous atteignons une puissance infinie!"
 
 tr_plentiful_cybernetics_adopt:0 "Traditions Cybernétiques"
-tr_plentiful_cybernetics_adopt_desc:0 "§Y$mod_category_computing_research_speed_mult$§! augmentée de §G+20%§!."
+#tr_plentiful_cybernetics_adopt_desc:0 "$tradition_plentiful_cybernetics_desc$\n\n$tr_plentiful_cybernetics_adopt_effect$\n\n$tr_plentiful_cybernetics_finish_effect$"
+#tr_plentiful_cybernetics_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$mod_category_computing_research_speed_mult$§! increased by §G+20%§!."
 
 tr_plentiful_cybernetics_hive_adopt:0 "Traditions des Masses"
-tr_plentiful_cybernetics_hive_adopt_desc:0 "§Y$mod_category_computing_research_speed_mult$§! augmenté de §G+20%§!."
+#tr_plentiful_cybernetics_hive_adopt_desc:0 "$tradition_plentiful_cybernetics_hive_desc$\n\n$tr_plentiful_cybernetics_hive_adopt_effect$\n\n$tr_plentiful_cybernetics_hive_finish_effect$"
+#tr_plentiful_cybernetics_hive_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$mod_category_computing_research_speed_mult$§! increased by §G+20%§!."
 
 tr_plentiful_cybernetics_finish:0 "Traditions Cybernétiques terminées"
-tr_plentiful_cybernetics_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\nAdopter toutes les $tr_plentiful_cybernetics_adopt$ augmentent les §Ypoints de Modifications de robots/machine§! de §G+1§!, et  §Y$mod_planet_jobs_robotic_produces_mult$§! de §G+10%§!.\n\n§HPermet les plans avancés§! qui permet à nos robots et nos machines de changer leurs composants par des foreuses surchargées, des batteries de secours et des processeurs sous-exploités.\n\n"
+#tr_plentiful_cybernetics_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_plentiful_cybernetics_adopt$ increases our §YRobot/Machine Modification Points§! by §G+1§!, §Y$mod_planet_jobs_robotic_produces_mult$§! increased by §G+10%§!.\n\n§HUnlocks Advanced Blueprints:§! Our robots and machines can now exchange parts for supercharged drills, backup batteries and underclocked processors."
 
 tr_plentiful_cybernetics_hive_finish:0 "Traditions des Masses terminées"
-tr_plentiful_cybernetics_hive_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\nAdopte $tr_plentiful_cybernetics_hive_adopt$ et augmente notre  §Y$mod_BIOLOGICAL_species_trait_points_add$§! de §G+1§!.\n\n"
+#tr_plentiful_cybernetics_hive_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting $tr_plentiful_cybernetics_hive_adopt$ and increases our §Y$mod_BIOLOGICAL_species_trait_points_add$§! by §G+1§!.\n\n"
 
 tr_plentiful_cybernetics_1:0 "Schémas standards"
 tr_plentiful_cybernetics_1_desc:0 "§HPermet le bâtiment§! £building  §G$building_plentiful_traditions_cybernetics_facility$§! qui offre à la planète un rendement important en £engineering  §Yrecherche en ingéniérie§!\n\nRequiert la technologie £physics£ §M$tech_basic_science_lab_3$§!. \nRequiert la technologie £engineering£ §M$tech_mine_volatile_motes$§!."
@@ -256,7 +258,8 @@ trait_plentiful_traditions_robot_blockchain_enthusiasts_desc:0 "§WLe micrologic
 tradition_plentiful_biogenesis:0 "Biogenèse"
 tradition_plentiful_biogenesis_desc:0 "§WTout organisme vivant peut être modifié pour le mieux, nous devons viser la perfection à tout prix.§!"
 tr_plentiful_biogenesis_adopt:0 "Traditions Biogénétiques"
-tr_plentiful_biogenesis_adopt_desc:0 "§Y$mod_category_biology_research_speed_mult$§! augmentée de §G+20%§!."
+#tr_plentiful_biogenesis_adopt_desc:0 "$tradition_plentiful_biogenesis_desc$\n\n$tr_plentiful_biogenesis_adopt_effect$\n\n$tr_plentiful_biogenesis_finish_effect$"
+#tr_plentiful_biogenesis_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$mod_category_biology_research_speed_mult$§! increased by §G+20%§!."
 
 tr_plentiful_biogenesis_finish:0 "Traditions Biogénétiques terminées"
 tr_plentiful_biogenesis_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\nAdopter toutes les $tr_plentiful_biogenesis_adopt$ augmentera nos §Y$species_trait_points_add$§! de §G+3§! et diminue le §Y$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$§! de §G-20%§!.\n\n"
@@ -282,8 +285,8 @@ tr_plentiful_biogenesis_5_desc:0 "Rendement de £society  §Yrecherche sociétal
 tr_plentiful_biogenesis_5_delayed:0 "§LPermet à nos citoyens de prendre des bains génétiques rafraîchissants pour atteindre la perfection.§!"
 
 # Swaped Biogenesis
-tr_plentiful_biogenesis_finish:0 "Traditions Biogénétiques terminées"
-tr_plentiful_biogenesis_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopter toutes les $tr_plentiful_biogenesis_adopt$ augmentera §Y$mod_BIOLOGICAL_species_trait_points_add$§! de §G+1§!, §Y$mod_ROBOT_species_trait_points_add$§! de §G+3§!, §Y$mod_MACHINE_species_trait_points_add$§! de §G+3§! et diminue le §Y$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$§! de §G-20%§!.\n De plus, §Y$MOD_PLANET_HOUSING_ADD$§! et Emplois de §HFermiers§! est augmenté de §G+1§! dans les $district_farming$.\n"
+#tr_plentiful_biogenesis_machine_finish:0 "Biogenesis Traditions Finished"
+#tr_plentiful_biogenesis_machine_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopt $tr_plentiful_biogenesis_adopt$ and increased §Y$mod_BIOLOGICAL_species_trait_points_add$§! by §G+1§!, §Y$mod_ROBOT_species_trait_points_add$§! by §G+3§!, §Y$mod_MACHINE_species_trait_points_add$§! by §G+3§! and reduced §Y$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$§! by §G-20%§!.\n\n"
 
 tr_plentiful_biogenesis_machine_1:0 "Convergence évolutive"
 tr_plentiful_biogenesis_machine_1_desc:0 "§Y$mod_planet_pop_assemblers_alloys_upkeep_mult$§! diminué de §G-15%§!, §Y$MOD_PLANET_POP_ASSEMBLY_ADD$§! des £job_replicator£ augmenté de §G+25%§!, et §Y$mod_job_organic_battery_energy_produces_add$§! augmenté de §G+2§!."
@@ -337,11 +340,11 @@ tr_plentiful_faith_1_desc:0 "§Y$MOD_COUNTRY_SENSOR_RANGE_MULT$§! et §Y$MOD_SH
 tr_plentiful_faith_1_delayed:0 "§LLe contrôle psychique permet la puissance psychique.§!"
  
 tr_plentiful_faith_2:0 "Avènement"
-tr_plentiful_faith_2_desc:0 "§Y$MOD_COUNTRY_EDICT_CAP_ADD$§! augmentée de §G+1§!."
+tr_plentiful_faith_2_desc:0 "£unity §Y$MOD_COUNTRY_EDICT_FUND_ADD$§! augmenté de §G+50§!."
 tr_plentiful_faith_2_delayed:0 "§LAu-delà de nos frontières, notre éveil n'est que le début.§!"
  
 tr_plentiful_faith_3:0 "Absolution"
-tr_plentiful_faith_3_desc:0 "§Y$mod_edicts_cost_mult$§! diminué de §G-15%§!."
+tr_plentiful_faith_3_desc:0 "£unity §Y$mod_edicts_cost_mult$§! et §Y$mod_edicts_upkeep_mult$§! diminué de §G-15%§!."
 tr_plentiful_faith_3_delayed:0 "§LL'absolution divine ne peut être atteinte qu'en mettant tout en oeuvre pour contribuer au bien-être commun... qui passe par la parole de nos dirigeants.§!"
  
 tr_plentiful_faith_4:0 "Contribution"
@@ -379,10 +382,11 @@ modifier_plentiful_traditions_piety_desc:1 "Les £pops  Pops sont devenues souda
 tradition_plentiful_order:0 "Ordre"
 tradition_plentiful_order_desc:0 "§WSans ordre, il n'y a que le chaos.§!"
 tr_plentiful_order_adopt:0 "Traditions d'Ordre"
-tr_plentiful_order_adopt_desc:0 "Le §YTemps d'apparition du PRL d'urgence§! diminue de §G-25%§! et la §Y$MOD_SHIP_SPEED_MULT$§! augmente de §G+10%§!."
+#tr_plentiful_order_adopt_desc:0 "$tradition_plentiful_order_desc$\n\n$tr_plentiful_order_adopt_effect$\n\n$tr_plentiful_order_finish_effect$"
+#tr_plentiful_order_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§YEmergency FTL Cooldown§! decreased by §G-25%§! and §Y$MOD_SHIP_SPEED_MULT$§! increased by §G+10%§!."
 
 tr_plentiful_order_finish:0 "Traditions d'§YOrdre§! terminées"
-tr_plentiful_order_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\nAdopter toutes les $tr_plentiful_order_adopt$ va diminuer le §Y$mod_megastructures_cost_mult$§! de §G-15%§! et augmenter le §Y$MOD_COUNTRY_GOVERNMENT_CIVIC_POINTS_ADD$§! de §G+1§!.\nAugmente également le §Y$MOD_COUNTRY_OCCUPATION_ARMIES_ADD$§! de 5.\n\n"
+#tr_plentiful_order_finish_desc:1 "Adopting all $tr_plentiful_order_adopt$ decreases our §Y$mod_megastructures_cost_mult$§! by §G-15%§! and increases our §Y$MOD_COUNTRY_GOVERNMENT_CIVIC_POINTS_ADD$§! by §G+1§!.\nIncreases the §Y$MOD_COUNTRY_OCCUPATION_ARMIES_ADD$§! by 5.\n\n"
  
 tr_plentiful_order_1:0 "Bastion"
 tr_plentiful_order_1_desc:0 "§Y$MOD_SHIP_SHIELD_HP_MULT$§! augmentés de §G+15%§!, §Y$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$§! diminué de §G-5%§! et §Y$MOD_COUNTRY_STARBASE_CAPACITY_ADD$§! augmenté de §G1§!"
@@ -445,10 +449,11 @@ modifier_plentiful_traditions_sabotage_desc:0 "Nous avons été sabotés par aut
 tradition_plentiful_malice:0 "Malveillance"
 tradition_plentiful_malice_desc:0 "§W« La peur... la cité en est envahie. Soulageons-les de leur angoisse. Envoyez les prisonniers ! »\n\n- un chef de guerre d'une époque lointaine.§!"
 tr_plentiful_malice_adopt:0 "Traditions de Malveillance"
+#tr_plentiful_malice_adopt_desc:0 "$tradition_plentiful_malice_desc$\n\n$tr_plentiful_malice_adopt_effect$\n\n$tr_plentiful_malice_finish_effect$"
 tr_plentiful_malice_adopt_desc:0 "§Y$MOD_COUNTRY_INSULT_EFFICIENCY$§! augmentée de §G+50%§!. Les §YEsclaves§! de l'empire voient leur £happiness  §Y$MOD_POP_HAPPINESS$§! augmenté de §G+5%§! et le coût de leurs §Y$CONSUMER_GOODS$§! diminué de §G-20%§!."
 
 tr_plentiful_malice_finish:0 "Traditions de '§YMalveillance§!' terminées"
-tr_plentiful_malice_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\nAdopter toutes les $tr_plentiful_malice_adopt$ §Hpermet le décret§! §GNoir dessein§! qui augmente les §Y$mod_damage_vs_country_type_fallen_empire_mult$§! et les §Y$mod_damage_vs_country_type_awakened_fallen_empire_mult$§! de §G+15%§!.\n\n§HDéverrouille le module Spatioport:§! $sm_orbital_refinery_station$, un module de spatioport qui ajoute aux planètes et rassemble la production d'£alloys §YAlliages§!.\n\n"
+tr_plentiful_malice_finish_desc:1 "§Hpermet le décret§! §GNoir dessein§! qui augmente les §Y$mod_damage_vs_country_type_fallen_empire_mult$§! et les §Y$mod_damage_vs_country_type_awakened_fallen_empire_mult$§! de §G+15%§!.\n\n§HDéverrouille le module Spatioport:§! $sm_orbital_refinery_station$, un module de spatioport qui ajoute aux planètes et rassemble la production d'£alloys §YAlliages§!.\n\n"
  
 tr_plentiful_malice_1:0 "Désespoir"
 tr_plentiful_malice_1_desc:0 "§Y$mod_pop_cat_slave_happiness$§! augmenté de §G20%§!."
@@ -494,19 +499,19 @@ advanced_slave_army:0 "Armée d'esclaves (avancée)"
 advanced_slave_army_plural:0 "Armées d'esclaves (avancées)"
 advanced_slave_army_desc:0 "Les soldats esclaves servent leurs maîtres sur le champ de bataille. Ces troupes sont formées depuis le §Y$building_plentiful_traditions_advanced_slave_processing$§!."
 
-stormtrooper_army:0 "Shock Troop"
-stormtrooper_army_plural:0 "Shock Troops"
-stormtrooper_army_desc:0 "This strike force knows neither fear nor defeat and will win or perish for the Reich."
-trooper_limit_tooltip:0 "Only people with exceptional skills are allowed to fight with the shock troops, which means that we can only use a limited number of these armies at the same time."
+stormtrooper_army:0 "Troupe de choc"
+stormtrooper_army_plural:0 "Troupes de choc"
+stormtrooper_army_desc:0 "Cette force d'attaque ne connaît ni la peur ni la défaite et gagnera ou périra pour le Reich."
+trooper_limit_tooltip:0 "Seules les personnes possédant des compétences exceptionnelles sont autorisées à combattre avec les troupes de choc, ce qui signifie que nous ne pouvons utiliser qu'un nombre limité de ces armées en même temps."
 
-cylon_army:0 "Cylon Attack Squad"
-cylon_army_plural:0 "Cylon Attack Squads"
-cylon_army_desc:0 "The Cylons (Cybernetic Lifeform Node) are a warrior race used as shock troops by machine empires."
+cylon_army:0 "Escadron d'attaque Cylon"
+cylon_army_plural:0 "Escadrons d'attaque Cylon"
+cylon_army_desc:0 "Les Cylons (Cybernetic Lifeform Node) sont une race de guerriers utilisés comme troupes de choc par les empires de machines."
 
-tank_army:0 "Armoured warfare"
-tank_army_plural:0 "Armoured warfares"
-tank_army_desc:0 "An army that can strike quickly and surround the enemy in giant pincer movements consists almost entirely of mechanised troops, ideally main battle tanks combined with infantry fighting vehicles and fast auxiliaries."
-tank_army_troop_limit_tooltip:0 "Only people with exceptional skills are allowed to fight in the armoured force, which means that we can only use a limited number of these armies at the same time."
+tank_army:0 "Guerrier blindé"
+tank_army_plural:0 "Guerriers blindés"
+tank_army_desc:0 "Une armée capable de frapper rapidement et d'encercler l'ennemi dans des mouvements en tenaille géants est presque entièrement composée de troupes mécanisées, idéalement des chars de combat principaux combinés à des véhicules de combat d'infanterie et des auxiliaires rapides."
+tank_army_troop_limit_tooltip:0 "Seules les personnes ayant des compétences exceptionnelles sont autorisées à combattre dans la force blindée, ce qui signifie que nous ne pouvons utiliser qu'un nombre limité de ces armées en même temps."
 
 plentiful_traditions_malice_activate:0 "§HMalveillance:§! Complexe d'Esclaves activé"
 plentiful_traditions_malice_activate_desc:1 "Les esclaves de cette planète sont adaptés à leur objectif (sous-espèce). Les traits existants seront ajoutés ou supprimés selon les nouvelles exigences."
@@ -558,6 +563,8 @@ building_plentiful_traditions_trading_terminal:0 "Centre de négoce"
 building_plentiful_traditions_trading_terminal_desc:0 "Le centre de négoce de l'empire est un centre d'échange intergalactique, offrant une amélioration du commerce pour toutes les personnes concernées.\n\nAutorise l'utilisation du décret §YCorne d'abondance§! sur la planète où ce bâtiment est construit."
 building_plentiful_traditions_trading_depot:0 "Dépôt d'échange"
 building_plentiful_traditions_trading_depot_desc:0 "Le dépôt d'échange d'un empire permet de pratiquer un commerce intragalactique d'une manière plus efficiente."
+building_plentiful_traditions_advanced_trading_terminal:0 "Centre de négoce avancé"
+building_plentiful_traditions_advanced_trading_terminal_desc:0 "Le Centre de négoce avancé d'un empire est au centre du commerce intergalactique, fournissant une grande quantité de commerce pour toutes les personnes impliquées.\n\nAutorise l'utilisation du décret §YCorne d'abondance§! pour cette planète."
 
 # Aspiration edicts
 triggered_opinion_tr_plentiful_aspiration_3:0 "Aspiration charismatique"
@@ -596,7 +603,7 @@ tr_plentiful_affinity_finish:0 "Traditions de '§YBienfaisance§!' terminées"
 tr_plentiful_affinity_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\nAdopter toutes les $tr_plentiful_affinity_adopt$ augmente la §Y$mod_planet_jobs_produces_mult$§! de §G+0.8%§! pour chaque espèce (au-delà de §Y2§!) que nous avons sur nos planètes. Cela peut s'additionner §Y10§! fois jusqu'à un total de §G+8%§!.\nDe plus, §Y$MOD_PLANET_HOUSING_ADD$§! et §HArtisans (ou fondeurs si Ruche)§! est augmenté de §G+1§! pour les  $district_arcology_civilian_industry$ et $district_industrial$.\n"
  
 tr_plentiful_affinity_1:0 "Acceptation"
-tr_plentiful_affinity_1_desc:0 "Le §Y$MOD_TRADITION_COST_EMPIRE_SIZE_MULT$§! est réduit de §G-10%§! et £influence  l'§Y$MOD_COUNTRY_FACTION_INFLUENCE_ADD$§! est augmentée de §G+1§!."
+tr_plentiful_affinity_1_desc:0 "Le §Y$MOD_TRADITION_COST_EMPIRE_SIZE_MULT$§! est réduit de §G-10%§! et £influence  l'§Y$mod_country_resource_max_influence_add$§! est augmentée de §G+250§!."
 tr_plentiful_affinity_1_delayed:0 "§LNous sommes tous et toutes égaux, en droits et en devoir. Ceux qui ne nous ressemblent pas n'en sont pas moins des êtres sensibles qui méritent notre respect et notre compassion.§!"
 
 tr_plentiful_affinity_2:0 "Société empathique"
@@ -696,17 +703,18 @@ tradition_plentiful_mutagenesis:0 "Mutagenèse"
 tradition_plentiful_mutagenesis_desc:0 "§WNous faisons peu de cas des autres dans notre recherche perpétuelle de nouveaux matériaux génétiques.§!"
 #Other living organisms are nothing but building blocks towards the perfection of our collective.
 tr_plentiful_mutagenesis_adopt:0 "Traditions de Mutagenèse"
-tr_plentiful_mutagenesis_adopt_desc:0 "§Y$MOD_POP_GROWTH_SPEED$§! augmentée de §G+20%§!."
+#tr_plentiful_mutagenesis_adopt_desc:0 "$tradition_plentiful_mutagenesis_desc$\n\n$tr_plentiful_mutagenesis_adopt_effect$\n\n$tr_plentiful_mutagenesis_finish_effect$"
+#tr_plentiful_mutagenesis_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_POP_GROWTH_SPEED$§! increased by §G+20%§!."
 
 tr_plentiful_mutagenesis_finish:0 "Traditions de '§YMutagenèse§!' terminées"
-tr_plentiful_mutagenesis_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\nAdopter toutes les $tr_plentiful_mutagenesis_adopt$ va permettre la génération de £food §Ynourriture§! lors de la purge de £pop  Pops xénos. Le §Y$MOD_TRADITION_COST_EMPIRE_SIZE_MULT$§! dû au nombre de colonies est diminué de §G-15%§!.\n\n"
+tr_plentiful_mutagenesis_finish_desc:0 "Augmente la génération de £food §Ynourriture§! lors de la purge de £pop  Pops xénos. Le §Y$MOD_TRADITION_COST_EMPIRE_SIZE_MULT$§! dû au nombre de colonies est diminué de §G-15%§!.\n\n"
 
 tr_plentiful_mutagenesis_1:0 "Résistance climatologique"
 tr_plentiful_mutagenesis_1_desc:0 "§Y$MOD_POP_ENVIRONMENT_TOLERANCE$§! augmentée de §G+10%§!."
 tr_plentiful_mutagenesis_1_delayed:0 "§LLes autres mondes sont parfois hostiles mais les mutations peuvent aider nos citoyens à mieux y vivre.§!"
 
 tr_plentiful_mutagenesis_2:0 "Fortifications"
-tr_plentiful_mutagenesis_2_desc:0 "§Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§! réduit de §G-25%§! et §Y$MOD_COUNTRY_ADMIN_CAP_ADD$§! augmentés de §G+10§!."
+tr_plentiful_mutagenesis_2_desc:0 "§Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§! réduit de §G-25%§! et §Y$MOD_EMPIRE_SIZE_COLONIES_MULT$§! diminué de §G-10§!."
 tr_plentiful_mutagenesis_2_delayed:0 "§LNos fortifications nous protègent contre les menaces à venir.§!"
 
 tr_plentiful_mutagenesis_3:0 "Croissance mutagène"
@@ -723,12 +731,15 @@ tr_plentiful_mutagenesis_5_delayed:0 "§LL'industrialisation de la nourriture po
 
 # Mutagenesis Swapped
 tr_plentiful_mutagenesis_adopt_machine:0 "Mutagénèse"
-tr_plentiful_mutagenesis_adopt_machine_desc:0 "$tradition_plentiful_mutagenesis_desc$\n\n$tr_plentiful_mutagenesis_adopt_machine_effect$\n\n$tr_plentiful_mutagenesis_finish_effect$"
-tr_plentiful_mutagenesis_adopt_machine_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§HPermet le bâtiment§!\n£building  $building_plentiful_traditions_clone_vats$, un bâtiment unique qui augmente la §Y$MOD_POP_GROWTH_SPEED$§! des £planet_pop_organics£ de §G+50%§! sur la planète."
+#tr_plentiful_mutagenesis_adopt_machine_desc:0 "$tradition_plentiful_mutagenesis_desc$\n\n$tr_plentiful_mutagenesis_adopt_machine_effect$\n\n$tr_plentiful_mutagenesis_finish_effect$"
+tr_plentiful_mutagenesis_adopt_machine_desc:0 "§HPermet le bâtiment§!\n£building  $building_plentiful_traditions_clone_vats$, un bâtiment unique qui augmente la §Y$MOD_POP_GROWTH_SPEED$§! des £planet_pop_organics£ de §G+50%§! sur la planète."
 
 # Mutagenesis buildings
 building_plentiful_traditions_pillar_of_affliction:0 "Pilier d'affliction"
 building_plentiful_traditions_pillar_of_affliction_desc:0 "Un pilier qui semble vivant et qui est en mutation continuelle en absorbant les matériaux génétiques proches. Sa structure est de plus en plus grande à mesure que l'empire prend de l'ampleur..."
+building_plentiful_traditions_advanced_pillar_of_affliction:0 "Pilier d'affliction avancé"
+building_plentiful_traditions_advanced_pillar_of_affliction_desc:0 "Une construction en forme de pilier apparemment vivant qui semble muter lentement en absorbant des matériaux génétiques proches, ajoutant plus de largeur et de hauteur à sa structure robuste, à mesure que l'empire grandit."
+
 
 building_plentiful_traditions_clone_vats:0 "centre de Clonage"
 building_plentiful_traditions_clone_vats_desc:0 "Dans un monde mécanique parfait, il peut parfois être agréable d'avoir quelques créatures organiques autour de vous, que ce soit en tant qu'animaux de compagnie, fournisseurs d'énergie ou concitoyens assimilés."
@@ -750,7 +761,7 @@ tr_plentiful_industry_1_desc:0 "§Y$mod_station_gatherers_cost_mult$§! diminué
 tr_plentiful_industry_1_delayed:0 "§LNos ingénieurs géoponiques et nos physiciens ont conçu des schémas de construction novateurs pour que nos structures agricoles soient plus optimisées.§!"
 
 tr_plentiful_industry_2:0 "Baie de chargement multi-fonctionnelle"
-tr_plentiful_industry_2_desc:0 "§Y$mod_ship_colonizer_cost_mult$§! diminué de §G-20%§!."
+tr_plentiful_industry_2_desc:0 "§Y$MOD_EMPIRE_SIZE_COLONIES_MULT$§! diminué de §G-15%§!."
 tr_plentiful_industry_2_delayed:0 "§LLa production industrielle des vaisseaux de colonisation pourrait les amener à ne pas disposer des derniers fonctionnalités mais ce n'est pas pour cela qu'ils sont construits.§!"
 
 tr_plentiful_industry_3:0 "Systèmes de navigation cristallins"
@@ -768,6 +779,9 @@ tr_plentiful_industry_5_delayed:0 "§LLa clé de voûte du transport est la ques
 # Industry buildings
 building_plentiful_traditions_purification_facility:0 "Complexe de raffinage"
 building_plentiful_traditions_purification_facility_desc:0 "Le complexe de raffinage augmente la production de minéraux sur la planète grâce à des systèmes d'extraction minérale de pointe qui optimisent les rendements industriels."
+building_plentiful_traditions_advanced_purification_facility:0 "Complexe de raffinage avancée"
+building_plentiful_traditions_advanced_purification_facility_desc:0 "Les Complexe de raffinage avancés augmentent la production globale de minéraux d'une planète."
+
 
 sm_orbital_fracking_cannon:0 "Canon orbital d'extraction"
 
@@ -981,6 +995,7 @@ tr_plentiful_assault_5_delayed:0 "« §LKlotzen, nicht Kleckern! »\n\n- Heinz G
 tradition_plentiful_transformation:0 "Transformation"
 tradition_plentiful_transformation_desc:0 "§WLa stagnation mène à la régression, si nous voulons survivre nous devons nous adapter.§!"
 tr_plentiful_transformation_adopt:0 "Traditions de Transformation"
+#tr_plentiful_transformation_adopt_desc:0 "$tradition_plentiful_transformation_desc$\n\n$tr_plentiful_transformation_adopt_effect$\n\n$tr_plentiful_transformation_finish_effect$"
 tr_plentiful_transformation_adopt_desc:0 "§Y$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$§! réduit de §G-5%§!. Nous avons accès à la technologie §G$tech_climate_restoration$§!. Avec la tradition de la transformation, nous recevons un processus supplémentaire avec §G$tech_terrestrial_sculpting$§!"
 
 tr_plentiful_transformation_finish:0 "Traditions de '§YTransformation§!' terminées"
@@ -1059,10 +1074,11 @@ edict_plentiful_traditions_transformation_on_desc:1 "Ce décret empêche les dé
 tradition_plentiful_endure:0 "Endurance"
 tradition_plentiful_endure_desc:0 "§WTant que nous tenons suffisamment longtemps, nous vivrons.§!"
 tr_plentiful_endure_adopt:0 "Traditions d'Endurance"
-tr_plentiful_endure_adopt_desc:0 "§Y$MOD_POP_ENVIRONMENT_TOLERANCE$§! augmentée de §G+5%§!."
+#tr_plentiful_endure_adopt_desc:0 "$tradition_plentiful_endure_desc$\n\n$tr_plentiful_endure_adopt_effect$\n\n$tr_plentiful_endure_finish_effect$"
+#tr_plentiful_endure_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_POP_ENVIRONMENT_TOLERANCE$§! increases by §G+5%§!."
 
 tr_plentiful_endure_finish:0 "Traditions d'§YEndurance§! terminées"
-tr_plentiful_endure_finish_effect:0 "§E$TRADITIONS_FINISH$ :§!\n§Y$mod_pc_nuked_habitability$§! augmentée de §G+10%§!.\n\n"
+#tr_plentiful_endure_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n§Y$mod_pc_nuked_habitability$§! increases by §G+10%§!.\n\n"
 
 tr_plentiful_endure_1:0 "Cohésion"
 tr_plentiful_endure_1_desc:0 "L'§Y$mod_country_unity_produces_mult$§! est augmentée de §G+5%§!"
@@ -1089,6 +1105,47 @@ sm_orbital_fertilizer_array:0 "Réserve et diffuseur de fertilisants"
 tech_plentiful_traditions_orbital_fertilizer_array:0 "Réserve et diffuseur de fertilisants"
 tech_plentiful_traditions_orbital_fertilizer_array_desc:0 "Le bombardement constant avec un rayonnement spécial nous permet de tirer le meilleur parti de ce que nous avons à disposition lors de la production de nourriture dans ce système."
 
+#####################
+# Dedication
+#####################
+
+tradition_plentiful_dedication:0 "Dedication"
+tradition_plentiful_dedication_desc:0 "Wir sind geboren zum Führen. Wir greifen nach den Sternen und leiten die anderen Völker in eine glohreiche Zukunft."
+tr_plentiful_dedication_adopt:0 "Dedication Traditions"
+
+tr_plentiful_dedication_finish:0 "Dedication Traditions finished"
+
+tr_plentiful_dedication_1:0 "Confidence-building measures"
+#tr_plentiful_dedication_1_desc:0 "Unsere §Y$mod_country_resource_max_energy_add$§! erhöht sich um §G5000§!."
+tr_plentiful_dedication_1_delayed:1 "Other cultures are trusting us more and more. Maybe it's also because of our bolter pointed at them..."
+
+tr_plentiful_dedication_2:0 "Common goals"
+#tr_plentiful_dedication_2_desc:0 "Zugriff auf Entscheidungen zum Umwandeln von £energy §YEnergie§!, £minerals §YMineralien§! und £food §YNahrung§!."
+tr_plentiful_dedication_2_delayed:1 "Empires have always been built and sustained on blood, sweat and tears."
+
+tr_plentiful_dedication_3:0 "Technology fever"
+#tr_plentiful_dedication_3_desc:0 "Während ein Planet terraformt wird, gibt es keine negativen Auswirkungen auf die §GZufriedenheit§!."
+tr_plentiful_dedication_3_delayed:1 "Our subjects are not able to do proper research. We support them in doing so."
+
+tr_plentiful_dedication_4:0 "Support abroad"
+tr_plentiful_dedication_4_desc:0 "§YOverloard-Buildings§! increased by §G+1§!."
+tr_plentiful_dedication_4_delayed:1 "Our subjects sometimes need a firm hand or other support."
+
+tr_plentiful_dedication_5:0 "Support for the homeland"
+#tr_plentiful_dedication_5_desc:1 "Wir können nun zerstörte Welt wiederherstellen (neue Terraforming-Option für §Y$pc_shattered$§!, §Y$pc_molten$§!, §Y$pc_broken$§!, §Y$pc_barren$§!, §Y$pc_toxic$§!, §Y$pc_barren_cold$§!, §Y$pc_frozen$§!)."
+tr_plentiful_dedication_5_delayed:1 "Our subjects serve us by supplying resources."
+
+subject_holdings_limit_0_plentiful_traditions:0 "1"
+subject_holdings_limit_0_plentiful_traditions_desc:1 "The Overlord can have 1 Holding in total across the Subject's planets."
+subject_holdings_limit_1_plentiful_traditions:0 "2"
+subject_holdings_limit_1_plentiful_traditions_desc:1 "The Overlord can have 2 Holdings in total across the Subject's planets."
+subject_holdings_limit_2_plentiful_traditions:0 "3"
+subject_holdings_limit_2_plentiful_traditions_desc:1 "The Overlord can have 3 Holdings in total across the Subject's planets."
+subject_holdings_limit_3_plentiful_traditions:0 "4"
+subject_holdings_limit_3_plentiful_traditions_desc:1 "The Overlord can have 4 Holdings in total across the Subject's planets."
+subject_holdings_limit_4_plentiful_traditions:0 "5"
+subject_holdings_limit_4_plentiful_traditions_desc:1 "The Overlord can have 5 Holdings in total across the Subject's planets."
+
 
 
 ################################################################
@@ -1097,7 +1154,7 @@ tech_plentiful_traditions_orbital_fertilizer_array_desc:0 "Le bombardement const
 
 ap_plentiful_traditions_favored_equilibrium:0 "Équilibre favorisé"
 ap_plentiful_traditions_favored_equilibrium_desc:0 "§WGrâce à l'unité de notre peuple, notre grand empire peut atteindre le véritable équilibre que nous avons toujours espéré.§!"
-ap_plentiful_traditions_avicennian_motion:0 "Mouvement Avicennisme"
+ap_plentiful_traditions_avicennian_motion:0 "Mouvement Avicenne"
 ap_plentiful_traditions_avicennian_motion_desc:0 "§WLe mouvement d'un projectile dans le vide ne s'arrête pas sans forces externes - Ibn Sina§!"
 ap_plentiful_traditions_ghazalian_revelations:0 "Révélations d'Algazel"
 ap_plentiful_traditions_ghazalian_revelations_desc:0 "§WLe savoir sans action est une perte de temps et l'action sans le savoir est une absurdité.§!"
@@ -1206,9 +1263,9 @@ ap_plentiful_traditions_immigration_power_desc:0 "Nous sommes un symbole d'attra
 ap_plentiful_traditions_fire_to_each_side:0 "Feu à volonté!"
 ap_plentiful_traditions_fire_to_each_side_desc:0 "Que m'importe les jongleurs et les putes, si je peux avoir de grosses armes d'épaule, avec lesquelles les pirates et autres canailles peuvent être envoyés dans les terrains de chasse éternels ?"
 ap_plentiful_traditions_trade_empire:0 "Empire marchand"
-ap_plentiful_traditions_trade_empire_desc:0 "L'argent est le pouvoir, la richesse ne peut jamais être suffisante et l'argent ne pue pas."
+ap_plentiful_traditions_trade_empire_desc:0 "L'argent c'est le pouvoir, la richesse n'est jamais suffisante, et l'argent ne pue pas. Nous sommes maintenant en mesure d'améliorer notre §Y$building_plentiful_traditions_trading_terminal$§!."
 ap_plentiful_traditions_food_is_life:0 "La nourriture c'est la vie"
-ap_plentiful_traditions_food_is_life_desc:0 "Nous ne sommes rien sans nourriture, nous devons tenir les gens à distance."
+ap_plentiful_traditions_food_is_life_desc:0 "Nous ne sommes rien sans nourriture, nous devons tenir les gens à distance. Nous sommes maintenant en mesure d'améliorer notre §Y$building_plentiful_traditions_pillar_of_affliction$§!."
 ap_plentiful_traditions_food_is_life_lithoids:0 "La nourriture c'est la vie"
 ap_plentiful_traditions_food_is_life_lithoids_desc:0 "Nous ne sommes rien sans nourriture, nous devons tenir les gens à distance."
 ap_plentiful_traditions_food_is_life_machines:0 "La nourriture c'est la vie"
@@ -1246,7 +1303,7 @@ ap_plentiful_traditions_slave_housing:0 "Logement d'esclaves"
 ap_plentiful_traditions_slave_housing_desc:0 "En optimisant l'utilisation de l'espace, nous pouvons désormais réduire le §Y$MOD_POP_HOUSING_USAGE_MULT$§! pour les esclaves de §G-25%§!."
 tooltip_plentiful_traditions_slave_housing:1 "$ap_plentiful_traditions_slave_housing_desc$"
 ap_plentiful_traditions_industrial_mining_excavation:0 "Exploitation minière excessive"
-ap_plentiful_traditions_industrial_mining_excavation_desc:0 "Nous pillons nos planètes d'une manière si gigantesque que nous serons en mesure de détruire le marché des minéraux à l'avenir."
+ap_plentiful_traditions_industrial_mining_excavation_desc:0 "Nous pillons nos planètes d'une manière si gigantesque que nous serons en mesure de détruire le marché des minéraux à l'avenir. Nous pouvons maintenant améliorer nos §Y$building_plentiful_traditions_advanced_purification_facility$§!."
 tooltip_plentiful_traditions_industrial_mining_excavation:1 "$p_plentiful_traditions_industrial_mining_excavation_desc$"
 ap_plentiful_traditions_transformation:0 "Transformations idéales"
 ap_plentiful_traditions_transformation_desc:0 "Avec la soumission absolue de la nature aux habitants de nos planètes, nous sommes maintenant en mesure d'ouvrir plus de districts."
@@ -1271,11 +1328,11 @@ tooltip_plentiful_traditions_mutagenesis_universalis:0 "Une nouvelle décision p
 allow_decision_plentiful_traditions_mutagenesis_transformation:0 "§HNouvelle décision:§! Mutagénèse Universelle"
 describe_decision_plentiful_traditions_mutagenesis_transformation:0 "§EIl s'agit d'une décision qui permet d'échanger une partie de notre population non primaire contre des population de notre espèce, idéalement seulement lorsqu'elles meurent.§!"
 ap_plentiful_traditions_stormtroopers:0 "Troupes de Choc"
-ap_plentiful_traditions_stormtroopers_desc:0 "Shock troops or assault troops are formations created to lead an attack. They are often better trained and equipped than other infantry, and expected to take heavy casualties even in successful operations. "Shock troop" is a calque, a loose translation of the German word Stoßtrupp. Military units that contain assault troops are typically organized for mobility with the intention that they will penetrate enemy defences and attack into the enemy's vulnerable rear areas. Any specialized, elite unit formed to fight an engagement via overwhelming assault (usually) would be considered shock troops, as opposed to "special forces" or commando-style units (intended mostly for covert operations). Both types of units could fight behind enemy lines, by surprise if required, however."
-tooltip_plentiful_traditions_stormtroopers:0 "We can now build a limited number of shock troops (or Cylons for machine empires) and armoured troops on our homeworld."
+ap_plentiful_traditions_stormtroopers_desc:0 "Les troupes de choc ou d'assaut sont des formations créées pour mener une attaque. Elles sont souvent mieux entraînées et équipées que le reste de l'infanterie, et on s'attend à ce qu'elles subissent de lourdes pertes, même lors d'opérations réussies. \nLa troupe de choc est un calque, une traduction libre du mot allemand Stoßtrupp. Les unités militaires qui contiennent des troupes d'assaut sont typiquement organisées pour la mobilité avec l'intention de pénétrer les défenses ennemies et d'attaquer les zones arrière vulnérables de l'ennemi. Toute unité spécialisée, d'élite, formée pour combattre un engagement par un assaut écrasant (généralement) serait considérée comme des troupes d'assaut, par opposition aux 'forces spéciales' ou aux unités de type commando (destinées principalement aux opérations secrètes). Les deux types d'unités peuvent cependant combattre derrière les lignes ennemies, par surprise si nécessaire."
+tooltip_plentiful_traditions_stormtroopers:0 "Nous pouvons désormais construire un nombre limité de troupes de choc (ou de Cylons pour les empires de machines) et de troupes blindées sur notre planète d'origine."
 ap_plentiful_traditions_vast_slave_procreation:0 "Initiative de propagation"
-ap_plentiful_traditions_vast_slave_procreation_desc:0 "By combining $building_slave_processing$/$building_plentiful_traditions_advanced_slave_processing$ and $building_clone_vats$, the best synergies can be extracted from our slaves. Either they serve as basic material for the production of further slaves, or they serve in the cloning of higher-quality races."
-tooltip_plentiful_traditions_vast_slave_procreation:0 "The construction and maintenance costs of £building£ §Y$building_clone_vats$§! are reduced on planets where £building£ §Y$building_slave_processing$§!/§Y$building_plentiful_traditions_advanced_slave_processing$§! already exist. In addition, the existence of both buildings increases the §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!"
+ap_plentiful_traditions_vast_slave_procreation_desc:0 "En combinant $building_slave_processing$/$building_plentiful_traditions_advanced_slave_processing$ et $building_clone_vats$,, les meilleures synergies peuvent être extraites de nos esclaves. Soit ils servent de matériau de base pour la production d'autres esclaves, soit ils servent au clonage de races de qualité supérieure."
+tooltip_plentiful_traditions_vast_slave_procreation:0 "Les coûts de construction et d'entretien de £building£ §Y$building_clone_vats$§! sont réduits sur les planètes où £building£ §Y$building_slave_processing$§! /§Y$building_plentiful_traditions_advanced_slave_processing$§! existent déjà. De plus, l'existence de ces deux bâtiments augmente les §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$§!"
 
 
 ################################################################
@@ -1420,12 +1477,12 @@ decision_plentiful_perks_feeding_desc:1 "Sur cette planète, les filateurs cocon
 decision_plentiful_perks_coocon_extraction:0 "§HNouvelle Décisiong : §! Nouvelles soeurs"
 decision_plentiful_perks_coocon_extraction_desc:1 "Maintenant, nous pouvons enfin nous consacrer à l'objectif que nous avions toujours en tête: assimiler la vie biologique inférieure à la nôtre."
 
-modifier_mutagenesis_transformation:0 "Mutagenesis Universalis"
-modifier_mutagenesis_transformation_desc:1 "This is a decision that can exchange part of our non-primary population for our people, ideally only when they die."
+modifier_mutagenesis_transformation:0 "Mutagenèse Universelle"
+modifier_mutagenesis_transformation_desc:1 "Il s'agit d'une décision qui permet d'échanger une partie de notre population non primaire contre notre peuple, idéalement seulement lorsqu'il meurt."
 plentiful_traditions_mutagenesis_transformation:0 "§HMutagenesis Universalis§!"
-plentiful_traditions_mutagenesis_transformation_desc:1 "This is a decision that can exchange part of our non-primary population for our people, ideally only when they die."
+plentiful_traditions_mutagenesis_transformation_desc:1 "Il s'agit d'une décision qui permet d'échanger une partie de notre population non primaire contre notre peuple, idéalement seulement lorsqu'il meurt."
 end_plentiful_traditions_mutagenesis_transformation:0 "§HMutagenesis Universalis end.§!"
-end_plentiful_traditions_mutagenesis_transformation_desc:1 "The repopulation campaign will end (for the time being)."
+end_plentiful_traditions_mutagenesis_transformation_desc:1 "La campagne de repeuplement prendra fin (pour l'instant)."
 
 
 ################################################################
@@ -1936,17 +1993,17 @@ mod_planet_districts_alloys_produces_mult:0 "production de £alloys£Alliages (D
 
 mod_planet_structures_physics_research_produces_mult:0 "Physique (Bâtiments & Districts)"
 
-FROM_STARBASE_MODULE:0 "Des modules de Base stellaire"
-FROM_STARBASE_MODULES:0 "Des modules de Base stellaire"
+FROM_STARBASE_MODULE:0 "du module de Base stellaire"
+FROM_STARBASE_MODULES:0 "des modules de Base stellaire"
 
 d_plentiful_traditions_planet_minerals5:0 "Champs de minéraux Exorbitants"
-d_plentiful_traditions_planet_minerals5_desc:0 "Nous avons découvert exorbitant £minerals §Ychamps de minéraux§!."
+d_plentiful_traditions_planet_minerals5_desc:0 "Nous avons découvert d'exorbitants £minerals §Ychamps de minéraux§!."
 d_plentiful_traditions_planet_minerals4:0 "Immense champs de minéraux"
 d_plentiful_traditions_planet_minerals4_desc:0 "Nous avons découvert des immenses £minerals §Ychamps de minéraux§!."
 d_plentiful_traditions_planet_minerals3:0 "Grand champs de minéraux"
-d_plentiful_traditions_planet_minerals3_desc:0 "Nous avons découvert large £minerals §Ychamps de minéraux§!."
+d_plentiful_traditions_planet_minerals3_desc:0 "Nous avons découvert de large £minerals §Ychamps de minéraux§!."
 d_plentiful_traditions_planet_minerals2:0 "Intermédiaire champs de minéraux"
-d_plentiful_traditions_planet_minerals2_desc:0 "Nous avons découvert interesting £minerals §Ychamps de minéraux§!."
+d_plentiful_traditions_planet_minerals2_desc:0 "Nous avons découvert des £minerals §Ychamps de minéraux§! intéressants."
 d_plentiful_traditions_planet_minerals1:0 "Petit champs de minéraux"
 d_plentiful_traditions_planet_minerals1_desc:0 "Nous avons découvert small £minerals §Ychamps de minéraux§!."
 
@@ -1962,15 +2019,15 @@ d_plentiful_traditions_planet_energy1:0 "Petites sources d'énergie"
 d_plentiful_traditions_planet_energy1_desc:0 "Nous avons découvert small £energy §YSources d'énergie§!."
 
 d_plentiful_traditions_planet_food5:0 "Fournisseurs de nourriture exorbitants"
-d_plentiful_traditions_planet_food5_desc:0 "Nous avons des nouveaux exorbitant §YZones d'élevage§! pour la £food §YNourriture§!."
+d_plentiful_traditions_planet_food5_desc:0 "Nous avons des nouvelles §YZones d'élevage§! exorbitantes pour la £food §YNourriture§!."
 d_plentiful_traditions_planet_food4:0 "D'immenses fournisseurs d'aliments"
-d_plentiful_traditions_planet_food4_desc:0 "Nous avons des nouveaux huge §YZones d'élevage§! pour la £food §YNourriture§!."
+d_plentiful_traditions_planet_food4_desc:0 "Nous avons des nouvelles §YZones d'élevage§! immenses pour la £food §YNourriture§!."
 d_plentiful_traditions_planet_food3:0 "Grands fournisseurs alimentaires"
-d_plentiful_traditions_planet_food3_desc:0 "Nous avons des nouveaux §YZones d'élevage§! pour la £food §YNourriture§!."
-d_plentiful_traditions_planet_food2:0 "Intermédiaire Nahrungslieferanten"
-d_plentiful_traditions_planet_food2_desc:0 "Nous avons des nouveaux interesting §YZones d'élevage§! pour la £food §YNourriture§!."
-d_plentiful_traditions_planet_food1:0 "Petit Nahrungslieferanten"
-d_plentiful_traditions_planet_food1_desc:0 "Nous avons des nouveaux small §YZones d'élevage§! pour la £food §YNourriture§!."
+d_plentiful_traditions_planet_food3_desc:0 "Nous avons des nouvelles §YZones d'élevage§! importantes pour la £food §YNourriture§!."
+d_plentiful_traditions_planet_food2:0 "Fournisseurs alimentaires Intermédiaires"
+d_plentiful_traditions_planet_food2_desc:0 "Nous avons des nouvelles §YZones d'élevage§! interessantes pour la £food §YNourriture§!."
+d_plentiful_traditions_planet_food1:0 "Petits Fournisseurs alimentaires"
+d_plentiful_traditions_planet_food1_desc:0 "Nous avons des nouvelles petites §YZones d'élevage§! pour la £food §YNourriture§!."
 
 d_plentiful_traditions_planet_unity5:0 "Monuments d'unité Exorbitants"
 d_plentiful_traditions_planet_unity5_desc:0 "Nous avons découvert des £unity §YMonuments d'unité§! exorbitants."

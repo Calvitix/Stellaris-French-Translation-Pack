@@ -1,5 +1,12 @@
 ﻿l_french:
 
+#multiplan_primitives_name:0 "Civilization of [This.Capital.GetName]"
+
+format.multiplanetary_primitive.1:0 "<primitive_names> [This.GetSpeciesAdj] de [This.Capital.GetName]"
+format_prefix.multiplanetary_primitive.1:0 "<primitive_names> [This.Capital.GetName]"
+
+primitive_admiral:0 "Amiral"
+
 mzilli_multiplan_events.1.name:0 "Civilisation multiplanétaire"
 mzilli_multiplan_events.1.desc:0 "En entrant dans le système §Y[From.System.GetName]§!, il était clair pour les membres de ' §Y[Root.GetName]§!' qu'ils n'étaient pas seuls. Des centaines de signatures artificielles sont visibles sur les capteurs : des vaisseaux spatiaux militaires et civils semblables aux nôtres, mais dépourvus de capacité PRL. Il y a également trois mondes habités dans le système, tous fortement peuplés par des espèces des [multiplan_species.GetClassPlural].\n\n[Root.Leader.GetName] suppose que ces espèces ont évolué sur la lune [multiplan_species.home_planet.GetClassAdj] de [multiplan_species.home_planet.orbit.GetName], et ont progressivement colonisés et terraformés le reste de leur système au cours des siècles plutôt que de développer la technologie de l'hyperpropulsion et de s'étendre vers l'extérieur. Les trois mondes ne sont pas politiquement unifiés, et semblent plutôt engagés dans une guerre froide pour les ressources et le territoire.\n\nMalgré la présence dominante des aliens dans le système, [Root.Leader.GetName] pense que les vaisseaux [Root.Owner.GetAdj] peuvent toujours opérer dans le système sans être détectés, grâce à notre technologie furtive plus avancée. Revendiquer le système en construisant une base stellaire, cependant, ne passera probablement pas inaperçu..."
 
@@ -92,13 +99,18 @@ mzilli_multiplan_events.22.a:0 "Quels sont vos termes ?"
 mzilli_multiplan_events.23.desc.a:0 "Votre retrait complet du système §Y[multiplan_species.home_planet.System.GetName]§!, pour commencer. Aucun vaisseau ou station spatiale [Root.GetAdj] d'aucune sorte ne sera autorisé à l'intérieur des frontières [multiplan_species.GetAdj].\n\nEt nous voulons votre technologie §BHyperpropulseurs§!. Considérez-la comme un moyen de dissuasion contre toute nouvelle agression [Root.GetAdj]."
 mzilli_multiplan_events.23.desc.b:0 "Vous venez encore mendier la paix, [Root.GetSpeciesName] ?? Vos vaillants vaisseaux spatiaux se font embourber par nos flottes ? Nos conditions sont inchangées. Aucun [Root.GetAdj] vaisseau ou station spatiale d'aucune sorte ne sera autorisé à l'intérieur des frontières [multiplan_species.GetAdj]. Et nous voulons votre §Btechnologie Hyperpropulseurs§!. Considérez-la comme un moyen de dissuasion contre toute nouvelle agression."
 mzilli_multiplan_events.23.a:0 "[Root.Capital.GetName] accepte vos conditions."
-mzilli_multiplan_events.23.a.tooltip:0 "La guerre se termine. Les [multiplan_species.GetNamePlural] gagnent la technologie de Hyperpopulseurs et deviennent une nation interstellaire. Nous avons une §Ytrêve de dix ans avec les [multiplan_species.GetNamePlural]. Les [multiplan_species.GetNamePlural] nous ferment leurs frontières."
+mzilli_multiplan_events.23.a.tooltip:0 "La guerre se termine. Les [multiplan_species.GetNamePlural] gagnent la technologie de Hyperpopulseurs et deviennent une nation interstellaire. Nous avons une §Ytrêve de dix ans avec les [multiplan_species.GetNamePlural]."
 mzilli_multiplan_events.23.b:0 "Absolument pas !"
 mzilli_multiplan_events.23.b.tooltip:0 "La guerre continue."
 decision_mzilli_peace_with_multiplan:0 "Demander la paix avec les Primitifs Multiplanétaires"
 decision_mzilli_peace_with_multiplan_desc:0 "Tenter de négocier la fin de notre guerre avec la civilisation interplanétaire [multiplan_species.GetAdj]."
-mzilli_multiplan_events.25.name:0 "Le [FROM.GetName]"
 
+#triumvirate_empire_name:0 "Triumvirat de [capital_scope.solar_system.GetName]"
+format.multiplanetary_primitive.2:0 "<multiplanetary_primitives> de [This.Capital.System.GetName]"
+format_prefix.multiplanetary_primitive.2:0 "[This.Capital.System.GetName] <multiplanetary_primitives>"
+UnitedPlanets:0 "Planètes unies"
+
+mzilli_multiplan_events.25.name:0 "Le [FROM.GetName]"
 mzilli_multiplan_events.25.desc:0 "Avec la signature de notre traité de paix, tous les actifs [Root.GetAdj] du système [FROM.capital_scope.System.GetName] ont été rappelés, et les [FROM.GetSpeciesNamePlural] règnent à nouveau sans contestation dans leur espace.\n\nIls ont déjà formé un nouveau gouvernement interstellaire, le §Y[FROM.GetName]§!, pour présenter un front uni à la galaxie. Basés sur [FROM.Capital.GetName], leurs physiciens et ingénieurs ont déjà commencé à construire la première génération de vaisseaux [FROM.GetSpeciesAdj].\n\nIl semble que nous verrons davantage de [FROM.GetSpeciesNamePlural] dans le futur. Espérons que la galaxie soit prête pour eux."
 mzilli_multiplan_events.25.a:0 "Bonne chance, [FROM.GetSpeciesNamePlural]..."
 mzilli_multiplan_events.25.b:0 "Un bref répit. Ce n'est pas fini."
