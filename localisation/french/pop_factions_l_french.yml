@@ -405,7 +405,7 @@
  TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY:0 "$XENOIST_BENEVOLENT_SUBJUGATION_POLICY$"
  TOTALITARIAN_NO_BENEVOLENT_SUBJUGATION_POLICY:0 "$TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY$"
  TOTALITARIAN_BENEVOLENT_SUBJUGATION_POLICY_DESC:0 "Selon la faction [Root.GetName], pour éviter à nos dépendances de devenir indolentes et complaisantes, elles doivent être guidées d'une [Root.Owner.Species.GetHandName] ferme. Il sera donc mécontent si nous leur accordons de trop grandes libertés."
- TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY:0 "$TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY$"
+ TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY:0 "Politique de soumission oppressive"
  TOTALITARIAN_ADOPT_OPPRESSIVE_SUBJUGATION_POLICY:0 "$TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY$"
  TOTALITARIAN_OPPRESSIVE_SUBJUGATION_POLICY_DESC:0 "La faction [Root.GetName] sera satisfaite si nous surveillons de près nos dépendances. Tout comme nos propres [Root.Owner.Species.GetSpawnNamePlural], elles doivent être guidées et éduquées afin de comprendre toutes les vertus de la discipline."
 
@@ -715,14 +715,14 @@
  
  ### New Events
  factions.1.title:0 "Formation d'une faction"
- factions.1.desc:0 "Une nouvelle faction a récemment suscité une certaine adhésion sur la scène politique des [Root.Owner.GetAdj]. Elle s'est elle-même baptisée «[Root.GetName]» et, guidée par son fondateur, notre [Root.Leader.GetTitle] [Root.Leader.GetName], ses membres n'ont cessé de faire pression pour que diverses questions leur tenant à coeur soient réglées.\n\nIl est probable que nous verrons apparaître d'autres factions à l'avenir, à mesure que la population va se multiplier et ses éthiques se disperser dans différentes directions. Une faction mécontente risque de nous causer des ennuis, mais toutes celles qui approuveront les actions du gouvernement pourront s'avérer fort utiles..."
- factions.1.desc.start:0 "Une nouvelle faction a récemment suscité une certaine adhésion sur la scène politique des [Root.Owner.GetAdj]. Dirigée par notre §H[Root.Leader.GetTitle] [Root.Leader.GetName]§!, elle s'est elle-même donné le nom de §H[Root.GetName]§!. "
+ factions.1.desc:0 "Une nouvelle faction a récemment suscité une certaine adhésion sur la scène politique des habitants de notre [Root.Owner.GetAdj]. Elle s'est elle-même baptisée «[Root.GetName]» et, guidée par son fondateur, notre [Root.Leader.GetTitle] [Root.Leader.GetName], ses membres n'ont cessé de faire pression pour que diverses questions leur tenant à coeur soient réglées.\n\nIl est probable que nous verrons apparaître d'autres factions à l'avenir, à mesure que la population va se multiplier et ses éthiques se disperser dans différentes directions. Une faction mécontente risque de nous causer des ennuis, mais toutes celles qui approuveront les actions du gouvernement pourront s'avérer fort utiles..."
+ factions.1.desc.start:0 "Une nouvelle faction a récemment suscité une certaine adhésion sur la scène politique des des habitants de notre [Root.Owner.GetAdj]. Dirigée par notre §H[Root.Leader.GetTitle] [Root.Leader.GetName]§!, elle s'est elle-même donné le nom de §H[Root.GetName]§!. "
  factions.1.desc.firstfinisher:0 "Une faction mécontente risque de nous causer des ennuis, mais toutes celles qui approuveront les actions du gouvernement pourront s'avérer fort utiles..."
  factions.1.desc.imperialist:0 "Ses membres veulent nous pousser à affirmer notre domination militaire sur le reste de la galaxie.\n\n"
- factions.1.desc.isolationist:0 "Ses membres militent pour la fermeture des frontières et le refus de toute ingérance dans les affaires de la galaxie.\n\n"
+ factions.1.desc.isolationist:0 "Ses membres militent pour la fermeture des frontières et le refus de toute ingérence dans les affaires de la galaxie.\n\n"
  factions.1.desc.progressive:0 "Ses membres oeuvrent pour qu'égalité et justice soient accordées à tous les habitants de l'empire.\n\n"
  factions.1.desc.prosperity:1 "Ses membres militent pour que l'empire accorde la priorité à la croissance et la stabilité par des moyens pacifiques."
- factions.1.desc.supremacist:0 "Ses membres cherchent à affirmer la primauté de l'espèce [Root.Owner.GetAdj], quite à limiter pour cela les droits des aliens.\n\n"
+ factions.1.desc.supremacist:0 "Ses membres cherchent à affirmer la primauté de l'espèce [Root.Owner.GetAdj], quitte à limiter pour cela les droits des aliens.\n\n"
  factions.1.desc.technologist:0 "Ses membres défendent avec tous les moyens à leur disposition la mise en valeur des sciences.\n\n"
  factions.1.desc.totalitarian:0 "Ses membres défendent avec ardeur une centralisation poussée à l'extrême du pouvoir politique et militaire.\n\n"
  factions.1.desc.traditionalist:0 "Ses membres sont animés par des valeurs spiritualistes et conservatrices.\n\n"
@@ -764,8 +764,8 @@
  faction.15.a.tooltip:0 "[roving_gangs_planet] :\n§Y1 pop§! §Rmeurt§!."
 
  faction.50.title:0 "Évacuation interstellaire"
- faction.50.desc:0 "Il semble que les éléments les plus radicalisés au sein de la population servile se sont réunis pour... En fait, pour faire sortir des esclaves de l'espace de [Root.Owner.GetName].\n\nNous ne savons pas encore comment un crime aussi grave a pu être commis, mais il est certain que ces esclaves sont désormais libres, quelque part à l'extérieur des frontières [Root.Owner.GetAdj]."
- faction.50.desc.colle:0 "Une faction malavisée a cru bien faire sur [Root.Owner.GetName] en les arrachant à leurs tâches et les faisant passer hors des frontières [Root.Owner.GetAdj].\n\nAvec le temps cette blessure sera oubliée, et nous espérons que ces éléments perdus retrouveront leur chemin jusqu'à [Root.Owner.GetName] et leur véritable but dans la vie."
+ faction.50.desc:0 "Il semble que les éléments les plus radicalisés au sein de la population servile se sont réunis pour... En fait, pour faire sortir des esclaves de l'espace de [Root.Owner.GetName].\n\nNous ne savons pas encore comment un crime aussi grave a pu être commis, mais il est certain que ces esclaves sont désormais libres, quelque part à l'extérieur des frontières de [Root.Owner.GetAdj]."
+ faction.50.desc.colle:0 "Une faction malavisée a cru bien faire sur [Root.Owner.GetName] en les arrachant à leurs tâches et les faisant passer hors des frontières de [Root.Owner.GetAdj].\n\nAvec le temps cette blessure sera oubliée, et nous espérons que ces éléments perdus retrouveront leur chemin jusqu'à [Root.Owner.GetName] et leur véritable but dans la vie."
  faction.50.a:0 "Tout cela est fort regrettable"
  faction.50.1.tooltip:0 "[Root.Owner.GetName]:\n§R-1§! pop asservie"
  faction.50.3.tooltip:0 "[Root.Owner.GetName]:\n§R-3§! pops asservies"

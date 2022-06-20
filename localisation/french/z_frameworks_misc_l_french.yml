@@ -1,23 +1,27 @@
 ﻿l_french:
 
+#_[核心内容]
+#_[开局设置文本]
 #_[星辰大海的渴望]
 #_[全局_misc]
 #_[极限作弊]
 #_[战争类型]
 #_[巨建拆解]
 #_[自我拆解]
+#_[tgt_目标定位器]
+#_[misc_船/舰船行为]
 
 
 ###_[test]  ##############################################################################################
- z_fw_dec_test_free_jobs: "§G无尽群星§!测试：free jobs"
+ z_fw_dec_test_free_jobs: "§G无尽群星§!测试: free jobs"
  z_fw_dec_test_free_jobs_desc: "当前剩余[This.z_fw_var_plnt_free_jobs]"
 
 
 
 
 ###_[缺失文本]  #########################################################################################
- mod_shipsize_constructor_build_speed_mult: "Constructor Build Speed"
- mod_shipsize_science_build_speed_mult: "Scientist Ship Build Speed"
+ #mod_shipsize_constructor_build_speed_mult: "Constructor Build Speed"
+ #mod_shipsize_science_build_speed_mult: "Scientist Ship Build Speed"
  mod_damage_vs_country_type_default_mult: "Damage Against Default Empires"
  mod_damage_vs_country_type_default_ev_mult: "Damage Against Empty Vagrant"
  mod_damage_vs_country_type_ascended_empire_mult: "Damage Against Ascended Empires"
@@ -26,9 +30,10 @@
  
 
 
-###_[main]  ##############################################################################################
+
+###_[核心内容]  ##############################################################################################
 #_names
- NAME_z_fw_npc_1: "§GInfinite Stellaris§!"
+ NAME_z_fw_npc_1: "§GKasako's Core§!"
  NAME_z_fw_misc_autostation_fleet: "§GAutomatic Station§! Constructor"
  NAME_z_fw_autostation_ship: "Fully Automatic Constructor"
 
@@ -47,22 +52,25 @@
  
 #_traits
 #_traits_leader
- z_fw_trait_leader_test_ancrel:0 "Endless Blessing-Archaeology"
- z_fw_trait_leader_test_ancrel_desc:0 "It is knowledgeable!"
+ z_fw_trait_leader_test_ancrel:0 "Endless Blessings - Archaeology"
+ z_fw_trait_leader_test_ancrel_desc:0 "It's all about being knowledgeable!"
+
  
 #_modifiers
+ z_fw_mod_cntr_ai_default:0 "§G因为我是AI§!"
+ z_fw_mod_cntr_ai_default:0 "所以我：\n不需要舰队维护费！"
  z_fw_temp_function:0 "§BFunctional Modifier§!"
  z_fw_temp_function_desc:0 "A modifier for a temporary function."
- z_fw_mod_cntr_default:0 "§GInfinite Stellaris:§! Default Buff"
+ z_fw_mod_cntr_default:0 "§GKasako's§! Default Buff"
  z_fw_mod_cntr_default_desc:0 "Shipbreaker/"
 
 #_mian event chain SP用Root EC用This,EC等同country本身
- z_chain_main_title: "§GInfinite Collection: Core System§!"
- z_chain_main_desc: "Detailed variables for Infinite Collection.\n\n§G$z_desire_for_star_var$§! left §G[This.z_desire_for_star_var]§!"
+ z_chain_main_title: "§GKasako's Collection: Core System§!"
+ z_chain_main_desc: "Detailed variables for Kasako's Collection.\n\n§G$z_desire_for_star_var$§! left §G[This.z_desire_for_star_var]§!"
  
 #_megastructures
- z_fw_mega_test:0 "测试建筑"
- z_fw_mega_test_DESC:0 "测试!"
+ z_fw_mega_test:0 "Test Building"
+ z_fw_mega_test_DESC:0 "Test!"
  z_fw_mega_test_MEGASTRUCTURE_DETAILS:0 "X"
 
 
@@ -72,20 +80,22 @@
 
 
 
-###_Eager for stars
+
+###_[开局设置文本]
 #_evts
  z_fw_start_setting_0:0 "Start Setting: War and Economy"
- z_fw_start_setting_0_desc:0 "You have activated the Infinite Stellaris framework and decided to use the new contents that comes with the framework. \nHere you will pre-set the core contents of Infinite Stellaris and its sub-mods. Please move the cursor to each option to stay, and carefully read the introduction shows afterwards. If you want to change the setting, click the option directly, and it will switch to another option. \nNote: use the §Bslider on the right§!.\nAll settings related to war, economy, crisiss and technology."
+ z_fw_start_setting_0_desc:0 "You have activated the Kasako's Core and decided to use the new contents that comes with the framework. \nHere you will pre-set the core contents of Kasako's Core and its sub-mods. Please move the cursor to each option to stay, and carefully read the introduction shows afterwards. If you want to change the setting, click the option directly, and it will switch to another option. \nNote: use the §Bslider on the right§!.\nAll settings related to war, economy, crisiss and technology."
  z_fw_start_setting_1:0 "Start Setting: Perforamance and Utility"
- z_fw_start_setting_1_desc:0 "You have activated the Infinite Stellaris framework and decided to use the new contents that comes with the framework. \nHere you will pre-set the core contents of Infinite Stellaris and its sub-mods. Please move the cursor to each option to stay, and carefully read the introduction shows afterwards. If you want to change the setting, click the option directly, and it will switch to another option. \nNote: use the §Bslider on the right§!.\nAll settings related to optimization and special utilities."
+ z_fw_start_setting_1_desc:0 "You have activated the Kasako's Core and decided to use the new contents that comes with the framework. \nHere you will pre-set the core contents of Kasako's Core and its sub-mods. Please move the cursor to each option to stay, and carefully read the introduction shows afterwards. If you want to change the setting, click the option directly, and it will switch to another option. \nNote: use the §Bslider on the right§!.\nAll settings related to optimization and special utilities."
  z_fw_start_setting_2:0 "Start Setting: Extra Content"
- z_fw_start_setting_2_desc:0 "You have activated the Infinite Stellaris framework and decided to use the new contents that comes with the framework. \nHere you will pre-set the core contents of Infinite Stellaris and its sub-mods. Please move the cursor to each option to stay, and carefully read the introduction shows afterwards. If you want to change the setting, click the option directly, and it will switch to another option. \nNote: use the §Bslider on the right§!.\nEaster eggs, independent content, etc. Most settings in this category cannot be changed in the game."
+ z_fw_start_setting_2_desc:0 "You have activated the Kasako's Core and decided to use the new contents that comes with the framework. \nHere you will pre-set the core contents of Kasako's Core and its sub-mods. Please move the cursor to each option to stay, and carefully read the introduction shows afterwards. If you want to change the setting, click the option directly, and it will switch to another option. \nNote: use the §Bslider on the right§!.\nEaster eggs, independent content, etc. Most settings in this category cannot be changed in the game."
  z_fw_start_setting_done:0 "Start Setting Completed"
- z_fw_tips_start_setting_done:0 "After finishing the settings, click ESC to exit this menu and initialize. You can also open the settings panel at any time in the game to adjust the settings."
+ z_fw_tips_start_setting_done:0 "After finishing the settings, click £escape£ to exit this menu and initialize. You can also open the settings panel at any time in the game to adjust the settings."
  z_fw_start_setting_next:0 "Next Setting Category"
+ z_fw_start_setting_prev:0 "Previous Setting Category"
  
- z_fw_start_title:0 "Welcome to §GIfinite Stellaris§!"
- z_fw_start_desc:0 "§GInfinite Stellaris§! Committed to building a complete new game system, improving performance efficiency, new game content, and providing basic compatibility with some major mods. \n\nCurrently this framework comes with §Y Modmenu/ basic compatibility patch/ planet population limit/ new war types/ new map mode/a dvanced weapon technology linkage system/ dynamic difficulty system/ automatic engineering ship/ sentinel array switch/ advanced cheating System/ new relics and events, etc.§!, click LOGO in the settings panel to enable the frame settings to turn off or turn on these functions. \n\nYour support is the driving force for me to move forward. Please like and favorite, this is the greatest inspiration to the author. \n\nPlease place the cursor on the option button of each deployment setting for a detailed introduction."
+ z_fw_start_title:0 "Welcome to §GKasako's Core§!"
+ z_fw_start_desc:0 "§GKasako's mod series§! Committed to building a complete new game system, improving performance efficiency, new game content, and providing basic compatibility with some major mods. \n\nCurrently this framework comes with §YModmenu/ basic compatibility patch/ planet population limit/ new war types/ new map mode/a dvanced weapon technology linkage system/ dynamic difficulty system/ automatic engineering ship/ sentinel array switch/ advanced cheating System/ new relics and events, etc.§!, click LOGO in the settings panel to enable the frame settings to turn off or turn on these functions. \n\nYour support is the driving force for me to move forward. Please like and favorite, this is the greatest inspiration to the author. \n\nPlease place the cursor on the option button of each deployment setting for a detailed introduction."
  
  z_fw1_misc.1.a1: "Desire for stars §GOn§!"
  z_fw1_misc.1.a1.tooltip: "This species is eager to expand territory, you will obtain $z_fw_r_monument$. Will make the game difficult and adapt to the mod environment with high-intensity enemies. Desire points §G+6§! and capital planet get initial pop growth buff.\n\nDesire points can be used to trigger planet decision $z_fw_dec_desire_for_stars$ or start a Great Crusade by toggling $z_fw_r_monument$."
@@ -95,11 +105,11 @@
  z_fw1_misc.1.b1.tooltip: "You will get a certain amount of resource subsidy. §RAttention, this is cheating!§! You don't need this buff if you are using some advanced start."
  z_fw1_misc.1.b2: "Plan Ahead §HOff§!"
  z_fw1_misc.1.b2.tooltip: "There will be no resource subsidies in game start."
- z_fw1_misc.1.c1: "Infinite Stellaris Easter Egg Relics §GEnabled§!"
- z_fw1_misc.1.c1.tooltip: "Refresh the easter egg relics of Infinite Stellaris among the galaxy near a random player empire, surprise! Currently includes $z_fw_r_head_of_karyl$, $z_lctr_r_adv_sensor$. \nNote: If you install §BInfinite Stellaris: Advanced Locator mod standalone version§!, $z_lctr_r_adv_sensor$ must be spawned."
- z_fw_tips_easter_relic: "Infinite Stellaris Easter Egg Relics"
+ z_fw1_misc.1.c1: "Kasako's Easter Egg Relics §GEnabled§!"
+ z_fw1_misc.1.c1.tooltip: "Refresh the easter egg relics of Kasako's Core among the galaxy near a random player empire, surprise! Currently includes $z_fw_r_head_of_karyl$, $z_lctr_r_adv_sensor$. \nNote: If you install §BKasako's MOD: Advanced Locator mod standalone version§!, $z_lctr_r_adv_sensor$ must be spawned."
+ z_fw_tips_easter_relic: "Kasako's Easter Egg Relics"
  z_fw_tips_easter_relic_desc: "§BStrange Head§!: A strange head that can be used to drop an incredible skunk on a certain planet. They will infect and assimilate all creatures on the planet, and then spread like a plague until the entire country or the entire galaxy is completely infection. Note that it can be triggered by either AI or players."
- z_fw1_misc.1.c2: "Infinite Stellaris Easter Egg Relics §HDisabled§!"
+ z_fw1_misc.1.c2: "Kasako's Easter Egg Relics §HDisabled§!"
  z_fw1_misc.1.c2.tooltip: "No new original relics."
  z_fw1_misc.1.d3: "$z_modmenu.133.e1$"
  z_fw1_misc.1.d3.tooltip: "$z_modmenu.133.e1.tooltip$"
@@ -115,12 +125,12 @@
  z_fw1_misc.1.d2.tooltip: "$z_modmenu.133.d10.tooltip$"
  z_fw1_misc.1.d2a: "$z_modmenu.133.d10a$"
  z_fw1_misc.1.d2a.tooltip: "$z_modmenu.133.d10a.tooltip$"
- z_fw1_misc.1_pr_on: "Production Revolution: §GStandard Mode§!(Now)"
+ z_fw1_misc.1_pr_on: "Production Revolution: §GStandard Mode§!"
  z_fw1_misc.1_pr_on.tooltip: "In standard mode, all empires have already completed §BThe First Production Revolution§! from the beginning."
- z_fw1_misc.1_pr_off: "Production Revolution: §HHistorical Mode§!(Now)"
- z_fw1_misc.1_pr_off.tooltip: "In historical mode, you can start §BThe First Production Revolution§! from mod setting panel after finishing all technologies listed below:\n $tech_mining_2$/$tech_mineral_purification_2$/$tech_alloys_2$/$tech_luxuries_2$/$tech_power_plant_3$/$tech_power_hub_2$/$tech_self_aware_logic$/$tech_volatile_motes$/$tech_exotic_gases$/$tech_rare_crystals$"
- z_fw1_misc.1_pr_adv_ap_on: "Production Revolution: Advanced Ascesion §GEnabled§! (Now/Default)"
- z_fw1_misc.1_pr_adv_ap_off: "Production Revolution: Advanced Ascesion §HDisabled§! (Now)"
+ z_fw1_misc.1_pr_off: "Production Revolution: §HHistorical Mode§!"
+ z_fw1_misc.1_pr_off.tooltip: "In historical mode, you can start §BThe First Production Revolution§! from mod setting panel after finishing all technologies listed below:\n $tech_mining_2$/$tech_mineral_purification_2$/$tech_alloys_2$/$tech_luxuries_2$/$tech_power_plant_3$/$tech_power_hub_2$/$tech_self_aware_logic$/$tech_volatile_motes$/$tech_exotic_gases$/$tech_rare_crystals$."
+ z_fw1_misc.1_pr_adv_ap_on: "Production Revolution: Advanced Ascesion §GEnabled§!"
+ z_fw1_misc.1_pr_adv_ap_off: "Production Revolution: Advanced Ascesion §HDisabled§!"
  z_fw1_misc.1_pr_adv_ap.tooltip: "Enabled by default. When requirements met (Technology level reached T4), the 2nd Ascesion will be allowed, and then the 3rd. With these ascesions, the output efficiency will be greatly exceed compared with vanilla economy, suitable for multi-mods game. \n\n§YNote: This option can only be used at the beginning of the game. Once selected, it cannot be changed during the game.§!"
  z_fw_tips_start_pf2_dpr_off: "00 Performance Plus: Dynamic Pop Restriction §HDisabled§!"
  z_fw_tips_start_pf2_dpr_off_desc: "$z_performance_misc.11.i0.tooltip$"
@@ -130,17 +140,18 @@
  z_fw1_misc.1.c.tooltip: "And so we begins"
  z_fw_start_uncomplete: "Start Setting not Completed"
  z_fw_tips_start_uncomplete: "Press the §G$z_fw_start_setting_done$§! button down below first"
-#_[evt13]
+
+
+#_[星辰大海的渴望]
  z_fw_desire_point_add_war_title:0 "Winner of war: Desire point §G+1.§!"
  z_fw_desire_point_add_war_desc:0 "No one can stop us, no one! Winning a war initiated by us, the whole empire is excited."
-
 #_tooltips
  z_fw_desire_point_required:0 "Lack of desire points."
- z_fw_r_monument_activited:0 "Monument of Infinite Stellaris is activated."
- z_fw_r_monument_effect:0 "Activite Monument of Infinite Stellaris, desire points -3, Great Crusade Buff added, and no one will know wars better than you!"
+ z_fw_r_monument_activited:0 "Monument of Infinite is activated."
+ z_fw_r_monument_effect:0 "Activite Monument of Infinite, desire points §G-3§!, Great Crusade Buff added, and no one will know wars better than you!"
 #_relic
- z_fw_r_monument:0 "§GMonument of Infinite Stars§!"
- z_fw_r_monument_desc:0 "I see, I conquer. When our great civilization stepped into the stars, they made this monument with exquisite craftsmanship. It carries our great civilization's desire for the space, and also heralds our glory in the future. Toggling it will consume Desire points, use $z_fw_dec_desire_for_stars$ also will.  Winning a war initiated by us or completing certain special events can §Ygain§! Desire points.\n§BOur journey is a sea of stars.§!\n\nDesire points left §G[root.z_fw_desire_point_var]§!"
+ z_fw_r_monument:0 "§GMonument of Infinite§!"
+ z_fw_r_monument_desc:0 "I see, I conquer. When our great civilization stepped into the stars, they made this monument with exquisite craftsmanship. It carries our great civilization's desire for the space, and also heralds our glory in the future. Toggling it will consume Desire points, use $z_fw_dec_desire_for_stars$ also will.  Winning a war initiated by us or completing certain special events can §Ygain§! Desire points.\n§BOur journey is a sea of stars.§!\n\nDesire points left §G[root.z_fw_desire_point_var]§!."
  z_fw_r_monument_effect:0 "Activite it will consume desire points by §G3§!. Depending on the game period, different Great Crusade buff will be obtained. Do everything you can to defeat your enemies within 10 years!"
 #_决策
  z_fw_dec_desire_for_stars:0 "§GEager for stars§!: Fast growth"
@@ -148,7 +159,7 @@
  z_fw_dec_desire_for_stars_effect:0 "Add $z_fw_mod_desire_growth_normal$ to a planet in a certain poriod, increasing pops growth rate, comsuming Desire points by §G1§!.\n\nDesire points left §G[Root.Owner.z_fw_desire_point_var]§!"
 #_modifier
  z_fw_mod_desire_growth_normal:0 "§GEager for stars§!"
- z_fw_mod_desire_growth_normal_desc:0 "The future is expected! Our goal is the sea of stars！"
+ z_fw_mod_desire_growth_normal_desc:0 "The future is expected! Our goal is the sea of stars!"
  z_fw_mod_desire_growth_hive:0 "§GEager for stars§!"
  z_fw_mod_desire_growth_hive_desc:0 "We are one, we are all! Swarm, omnipotent!"
  z_fw_mod_desire_assembly_machine:0 "§GEager for stars§!"
@@ -170,10 +181,10 @@
 
 
 
-###_[全局]    ##############################################################################################
+###_[全局_misc]    ##############################################################################################
 
 #_资源补助
- z_fw_mod_cntr_res_stock_50000:0 "§GStockpile Increased!"
+ z_fw_mod_cntr_res_stock_50000:0 "§GStockpile Increased§!"
  z_fw_mod_cntr_res_stock_50000_desc:0 "Wait, why our warehouse can hold that much!"
  z_fw_mod_cntr_res_stock_500000:0 "$z_fw_mod_cntr_res_stock_50000$"
  z_fw_mod_cntr_res_stock_500000_desc:0 "$z_fw_mod_cntr_res_stock_50000_desc$"
@@ -183,15 +194,15 @@
 ###_地图模式    战争/舰队
  #_[战争]
  z_map_mode_war:0 "§GWar Action§! map mode"
- z_map_mode_war_desc:0 "§Bblue§! is ally, §Rred§! is enemy, and §Yyellow§! is a country that closed border to us. \n\nNote: You can only check it from your own perspective."
+ z_map_mode_war_desc:0 "§BBlue§! - ally\n§Rred§! - enemy\n§YYellow§! is a country that closed border to us. \n\nNote: You can only check it from your own perspective."
  z_map_mode_war_enemy:0 "Enemy"
  z_map_mode_war_ally:0 "Ally"
  z_map_mode_war_border_locked:0 "Border Locker"
- z_map_mode_war_potential_enermy:0 "Potential Enemy (rival or those who has claim on our territory)"
- z_map_mode_war_none:0 "Not involved in our current war"
+ z_map_mode_war_potential_enermy:0 "Potential/Enemy (rival or those who has claim on our territory)"
+ z_map_mode_war_none:0 "Not involved in our current war."
  #_[舰队]
  z_map_mode_fleet:0 "§GFleet Power§! map mode"
- z_map_mode_fleet_desc:0 "The weaker, the §Bbluer§!. The stronger, the §Rreder§!."
+ z_map_mode_fleet_desc:0 "§BBluer§! - The weaker. §RReder§! - the stronger."
  z_map_mode_fleet_negligible:0 "§Y[This.GetName]§! almost has no decent naval power."
  z_map_mode_fleet_pathetic:0 "§Y[This.GetName]§!'s naval power is not worth mentioning."
  z_map_mode_fleet_inferior:0 "§Y[This.GetName]§!'s naval power is slightly weak."
@@ -217,7 +228,7 @@
  z_map_mode_fleet_lv17:0 "§Y[This.GetName]§! have at least the fleet power of [250m]."
  
  z_map_mode_science:0 "§GTechnology Power§! map mode"
- z_map_mode_science_desc:0 "The more advantage in technology over us, the §Rreder§!. The weaker technology power compared with us, the §Bbluer§!."
+ z_map_mode_science_desc:0 "§BBluer§! - Technology is weaker than ours\n§RReder§! - technology is more advanced than ours."
  z_map_mode_science_more_4:0 "§Y[This.GetName]§! >>>> §G[From.GetName]§!"
  z_map_mode_science_more_3:0 "§Y[This.GetName]§! >>> §G[From.GetName]§!"
  z_map_mode_science_more_2:0 "§Y[This.GetName]§! >> §G[From.GetName]§!"
@@ -229,8 +240,8 @@
  z_map_mode_science_less_4:0 "§Y[This.GetName]§! <<<< §G[From.GetName]§!"
  
  z_map_mode_relic:0 "§GRelic Holder§! map mode"
- z_map_mode_relic_desc:0 "The more relic held, the §Rreder§!. When anything special is held, shows §GGreen§!. When any infinite stone is held, shows §Bblue§!."
- z_map_mode_relic_infinite:0 "§Y[This.GetName]§! holds at least one infinite stone."
+ z_map_mode_relic_desc:0 "§RReder§! - the redder, the more relics.\n§GGreen§! - When anything special is held.\n§BBlue§! When any Kasako's stone is held."
+ z_map_mode_relic_infinite:0 "§Y[This.GetName]§! holds at least one Kasako's stone."
  z_map_mode_relic_4:0 "§Y[This.GetName]§! holds something special"
  z_map_mode_relic_3:0 "§Y[This.GetName]§! holds many relics."
  z_map_mode_relic_2:0 "§Y[This.GetName]§! holds 2 relics."
@@ -238,7 +249,7 @@
  z_map_mode_relic_none:0 "§Y[This.GetName]§! holds no relic."
  
  z_map_mode_zenith:0 "§GFallen Empire§! map mode"
- z_map_mode_zenith_desc:0 "Awakened fallen empires show §Rred§!, fallen empires show §Yyellow§!, ZOFE ascended empires show §Bblue§!, ZOFE lost empires show §Ecyan§!, normal empires show §Wwhite§!."
+ z_map_mode_zenith_desc:0 "§RRed§! - awakened fallen empires.\n§YYellow§! - fallen empires.\n§BBlue§! - ZOFE ascended empires.\n§ECyan§! - ZOFE lost empires.\n§WWhite§! - normal empires."
  z_map_mode_zenith_awakened:0 "§Y[This.GetName]§! is an awakended empire."
  z_map_mode_zenith_fallen:0 "§Y[This.GetName]§! is a fallen empire."
  z_map_mode_zenith_ascended:0 "§Y[This.GetName]§! is an ascended empire."
@@ -246,21 +257,21 @@
  z_map_mode_zenith_default:0 "§Y[This.GetName]§! is a normal empire."
 
  z_map_mode_rivals:0 "§GRival§! map mode"
- z_map_mode_rivals_desc:0 "Rivals to each other shows §Yyellow§!, rival to them shows §Bblue§!, rival to us shows §Rred§!."
+ z_map_mode_rivals_desc:0 "§YYellow§! - compete with each other.\n§BBlue§! - considers us his rival.\n§Rred§! - our competitor."
  z_map_mode_rivals_both:0 "§Y[This.GetName]§! and §G[From.GetName]§! are rivals to each other."
- z_map_mode_rivals_ours:0 "§Y[This.GetName]§! is §G[From.GetName]§!'s rival unidirectionally."
+ z_map_mode_rivals_ours:0 "§Y[This.GetName]§! is §G[From.GetName]§!'s considers us his rival."
  z_map_mode_rivals_their:0 "§Y[This.GetName]§! declared §G[From.GetName]§! as a rival unidirectionally."
  z_map_mode_rivals_none:0 "§Y[This.GetName]§!"
 
  z_map_mode_borders:0 "§GBorder Relationship§! map mode"
- z_map_mode_borders_desc:0 "Border closed from each other shows §Yyellow§!, boder closed by us shows §Bblue§!, border closed from us shows §Rred§!, no closed border shows §Ggreen§!."
+ z_map_mode_borders_desc:0 "§YYellow§! - border closed from each other.\n§BBlue§! - border closed by us.\n§RRed§! - border closed from us.\n§GGreen§! - open border."
  z_map_mode_borders_both:0 "§Y[This.GetName]§! and §G[From.GetName]§! have closed border from each other."
  z_map_mode_borders_ours:0 "§Y[This.GetName]§! has been prohibited from entering border by §G[From.GetName]§!."
  z_map_mode_borders_their:0 "§Y[This.GetName]§! closed its border from §G[From.GetName]§!."
- z_map_mode_borders_none:0 "§Y[This.GetName]§! and §G[From.GetName]§! have no closed border."
+ z_map_mode_borders_none:0 "§Y[This.GetName]§! and §G[From.GetName]§! open border."
 
  z_map_mode_claims:0 "§GClaim§! map mode"
- z_map_mode_claims_desc:0 "Having claim on each other's territory shows §Yyellow§!, having been claimed by us shows §Bblue§!, having claim on our territory shows §Rred§!."
+ z_map_mode_claims_desc:0 "§YYellow§! - having claim on each other's territory.\n§BBlue§! - having been claimed by us.\n§RRed§! - having claim on our territory."
  z_map_mode_claims_both:0 "§Y[This.GetName]§! and §G[From.GetName]§! have claim on each other's territory."
  z_map_mode_claims_ours:0 "§Y[This.GetName]§!'s territory has been claimed by §G[From.GetName]§!."
  z_map_mode_claims_their:0 "§Y[This.GetName]§! has claimed §G[From.GetName]§!'s territory."
@@ -275,9 +286,9 @@
  
 ###_[战争类型]    ##########################################################################################
 #_去军事化
- casus_belli_z_fw_cb_demilitarize: "Military Threat"
- war_goal_z_fw_wg_demilitarize: "Demilitarization"
- war_goal_z_fw_wg_demilitarize_desc: "Launch a war to weaken the enemy's war potential and force them to give up military expansion."
+ casus_belli_FW_cb_demilitarize: "Military Threat"
+ war_goal_FW_wg_demilitarize: "Demilitarization"
+ war_goal_FW_wg_demilitarize_desc: "Launch a war to weaken the enemy's war potential and force them to give up military expansion."
  z_fw_demilitarize_accept: "§Y[From.GetName]§! has been demilitarized, its §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! will be reduced in §Y15§! years, its influence income decreased, pacifism prevailed and cannot start a war.\n§Y[Root.GetName]§! has gained §G+100§! £influence£\n"
 #_modifier
  z_fw_demilitarized: "Demilitarization"
@@ -290,8 +301,8 @@
  z_fw_mod_popf_wg_dm_approval_desc: "Pacifism prevails"
  
 #_圣遗物争夺战
- casus_belli_z_fw_cb_plunder_relic:0 "Seize a relic"
- casus_belli_z_fw_cb_plunder_relic_all:0 "Seize all relic"
+ casus_belli_FW_cb_plunder_relic:0 "Seize a relic"
+ casus_belli_FW_cb_plunder_relic_all:0 "Seize all relic"
  war_goal_z_fw_plunder_one_relic:0 "Seize a relic"
  war_goal_z_fw_plunder_one_relic_desc:0 "Use this war target to seize the relic owned by the enemy. If they have multiple different treasures, they will only randomly select one of them and send it to our capital."
  war_goal_z_fw_plunder_all_relics:0 "Seize all relic"
@@ -318,25 +329,26 @@
  z_fw_opinion_wg_relic_all_others:0 "Relic Rider"
 
 #_打开边境
- casus_belli_z_fw_cb_border:0 "Border closed"
- war_goal_z_fw_wg_open_border: "Open border"
- war_goal_z_fw_wg_open_border_desc: "Start a war to open the borders of hostile civilization and obtain 20 years of right of passage."
+ casus_belli_FW_cb_border:0 "Border closed"
+ war_goal_FW_wg_open_border: "Open border"
+ war_goal_FW_wg_open_border_desc: "Start a war to open the borders of hostile civilization and obtain 20 years of right of passage."
  z_fw_open_border_tooltip:0 "§Y[From.GetName]§! has been defeated, they put down their arrogance and agreed to open the border to us within §Y20§! years.\n§Y[Root.GetName]§! has gained §G+100§! £influence£\n"
- war_goal_z_fw_wg_open_border_long: "Open port"
- war_goal_z_fw_wg_open_border_long_desc: "Start a war to open the borders of hostile civilizations, gain 40 years of right of way and end the competition."
+ war_goal_FW_wg_open_border_long: "Open port"
+ war_goal_FW_wg_open_border_long_desc: "Start a war to open the borders of hostile civilizations, gain 40 years of right of way and end the competition."
  z_fw_open_border_long_tooltip:0 "§Y[From.GetName]§! has been completely defeated, they had to put down their arrogance and agreed to open the border to us within §Y40§!. At the same time, we also ended the state of rivals with them, but obviously they did not agree with this result and would strike back one day in the future.\n§Y[Root.GetName]§! has gained §G+150§! £influence£\n"
 #_态度
  z_fw_opinion_wg_open_boder_long:0 "Be rampant in our territory"
  
 #_抢夺小伞
- casus_belli_z_fw_cb_r_hok_kogasa:0 "Own $NAME_z_fw_ldr_skunk_kogasa$"
- war_goal_z_fw_wg_r_hok_kogasa: "Seize $NAME_z_fw_ldr_skunk_kogasa$"
- war_goal_z_fw_wg_r_hok_kogasa_desc: "Kogasa... at least an experience version of the Kogasa is in their hands, and we want to take her back."
- z_fw_wg_r_hok_kogasa_tooltip:0 "§Y[From.GetName]§! has been defeated and lost $NAME_z_fw_ldr_skunk_kogasa$.\n§Y[Root.GetName]§! get $NAME_z_fw_ldr_skunk_kogasa$\n"
+ casus_belli_FW_cb_r_hok_kogasa:0 "Own $NAME_z_fw_ldr_skunk_kogasa$"
+ war_goal_FW_wg_r_hok_kogasa: "Seize $NAME_z_fw_ldr_skunk_kogasa$"
+ war_goal_FW_wg_r_hok_kogasa_desc: "Kogasa... at least an experience version of the Kogasa is in their hands, and we want to take her back."
+ FW_wg_r_hok_kogasa_tooltip:0 "§Y[From.GetName]§! has been defeated and lost $NAME_z_fw_ldr_skunk_kogasa$.\n§Y[Root.GetName]§! get $NAME_z_fw_ldr_skunk_kogasa$\n"
  z_fw1_relic_koh.313.name:0 "We get $NAME_z_fw_ldr_skunk_kogasa$"
- z_fw1_relic_koh.313.desc:0 "$NAME_z_fw_ldr_skunk_kogasa$ is a powerful leader, she can play many roles. Obviously, putting her in the hands of other lower civilizations is a waste. Now she belongs to us, this is the glory bestowed by Infinite Stellaris! I will always love $NAME_z_fw_ldr_skunk_kogasa$!!"
+ z_fw1_relic_koh.313.desc:0 "$NAME_z_fw_ldr_skunk_kogasa$ is a powerful leader, she can play many roles. Obviously, putting her in the hands of other lower civilizations is a waste. Now she belongs to us, this is the glory bestowed by Kasako's Core! I will always love $NAME_z_fw_ldr_skunk_kogasa$!!"
  z_fw1_relic_koh.314.name:0 "We lose $NAME_z_fw_ldr_skunk_kogasa$"
  z_fw1_relic_koh.314.desc:0 "Although I will always love $NAME_z_fw_ldr_skunk_kogasa$!, but I have lost her!!! Damn it, this is a shame, my experience version Kogasa is gone. She was here just now, damned damned damned!!! One day I will take her back, $NAME_z_fw_ldr_skunk_kogasa$ can only belong to us!!!"
+
 
 
 
@@ -356,10 +368,9 @@
 
 
 
+###_[极限作弊]    cht_璀璨星图/cht_永恒星炬/cht_闪电之球 ########################################################################################
 
-###_[极限作弊]    ############################################################################################
-
-###_璀璨星图
+###_[cht_璀璨星图]
 #_evts
  z_fw_r_cht_co_choice_power.name:0 "§GBright Star Map§!: Fire Mode"
  z_fw_r_cht_co_choice_power.desc:0 "Feel the wrath of God, we must choose a way to detonate this star. Immediately, everything will be silent. Order will return to this galaxy with the bright light of the sun extinguishing."
@@ -390,13 +401,13 @@
  z_fw_target_marker_cht_co_2_placement:0 "Must be set on special celestial bodies, such as black holes, neutron stars, etc."
 #_megastructures
  z_fw_mega_r_cht_co_tgt_marker_1:0 "Star Core Detonator Target Marker"
- z_fw_mega_r_cht_co_tgt_marker_1_DESC:0 "It has nothing to do with you if we want to destroy you. We have witnessed the ashes of too many civilizations. No matter how brilliant the culture and achievements are, they are only the dust of history in front of the Infinite Stellaris."
+ z_fw_mega_r_cht_co_tgt_marker_1_DESC:0 "It has nothing to do with you if we want to destroy you. We have witnessed the ashes of too many civilizations. No matter how brilliant the culture and achievements are, they are only the dust of history in front of the Kasako's Core."
  z_fw_mega_r_cht_co_tgt_marker_1_MEGASTRUCTURE_DETAILS:0 "Mark a normal star and detonate its core, everything will be destroyed."
  z_fw_mega_r_cht_co_tgt_marker_2:0 "Gravity Impact Target Marker"
  z_fw_mega_r_cht_co_tgt_marker_2_DESC:0 "$z_fw_mega_r_cht_co_tgt_marker_1_desc$"
  z_fw_mega_r_cht_co_tgt_marker_2_MEGASTRUCTURE_DETAILS:0  "Mark a special celestial body and trigger gravity burst, everything will be destroyed."
 #_relic
- z_fw_r_celestial_orrey:0 "§GInfinite Stellaris§!: Bright Star Map"
+ z_fw_r_celestial_orrey:0 "§GKasako's§! Bright Star Map"
  z_fw_r_celestial_orrey_desc:0 "Mysterious equipment from the ancient civilization of the Gray Snow Mountain, it shows a huge star map network covering the whole galaxy. Click on one of the highlights, and a star will explode and become a blackhole.\n§BWow, shinny bright spot everywhere.§!"
  z_fw_r_celestial_orrey_effect:0 "If $NAME_z_fw_tgt_r_cht_co_ship$ does not exist, turning it on will open the full map view and all borders (connected countries) within one year, and get a $NAME_z_fw_tgt_r_cht_co_ship$. \n Jump $NAME_z_fw_tgt_r_cht_co_ship$ to the specified system and choose the way to destroy the system."
 #_决策
@@ -405,18 +416,18 @@
  z_fw_dec_detonate_star_effect:0 "This star will be forced to execute a supernova explosion, destroying everything in the system. Depending on the mass of the star, it could collapse into a black hole, a neutron star or a white dwarf in a few months. Anyway, everything will be destroyed."
  
 
-###_永恒星炬
+###_[cht_永恒星炬]
 #_tooltips
- z_fw_r_cheat_quantum_beacon_effect:0 "Turning on the Eternal Star Torch will give the fleet Infinite asylum within 10 years, the chance of disengage, the aerospace speed and jump drive efficiency are greatly improved, and the borders of all countries will be opened. Full sensor range for 10 years as well."
+ z_fw_r_cheat_quantum_beacon_effect:0 "Turning on the Eternal Star Torch will give the fleet Kasako's asylum within 10 years, the chance of disengage, the aerospace speed and jump drive efficiency are greatly improved, and the borders of all countries will be opened. Full sensor range for 10 years as well."
  z_fw_r_cheat_quantum_beacon_activited:0 "Eternal Star Torch has been §Gactivated§!"
 #_relic
- z_fw_r_cheat_quantum_beacon:0 "§GInfinite Stellaris§!: Eternal Star Torch"
- z_fw_r_cheat_quantum_beacon_desc:0 "The glory of the Infini7e will always shine upon the galaxy, providing shelter for those tortured souls, so that they will not be lost in the turbulence of the shround. ——Alpha plane, lord of Infinite Stellaris"
+ z_fw_r_cheat_quantum_beacon:0 "§GKasako's§! Eternal Star Torch"
+ z_fw_r_cheat_quantum_beacon_desc:0 "The glory of the Infini7e will always shine upon the galaxy, providing shelter for those tortured souls, so that they will not be lost in the turbulence of the shround. --Alpha plane, lord of Kasako's Core"
  
 
 ###_维度解构剑
 #_evts
- z_fw1_misc.321.name:0 "How will you use this $z_fw_r_cheat_hyper_blade$？"
+ z_fw1_misc.321.name:0 "How will you use this $z_fw_r_cheat_hyper_blade$?"
  z_fw1_misc.321.desc:0 "You can activate or deactivate this artifact, and activating it will allow you to use the construction ship to locate coordinates and reshape the hyperspace structure. Of course, you can also destroy all hyperspace channels directly in a second."
  z_fw_evt_r_cheat_hyper_blade_on:0 "$z_fw_r_cheat_hyper_blade$ Activated"
  z_fw_evt_r_cheat_hyper_blade_on_desc:0 "Activate the Dimensional Deconstruction Blade allows you to create a hyperspace channel between two isolated systems or cut off an existing hyperspace channel between two interconnected systems. \nUse construction ships to build start and end beacons, which will position the two systems and change the hyperspace structure between them. §!"
@@ -437,8 +448,8 @@
  z_fw_tips_r_hyper_blade_effect:0 "Turning on the Dimensional Deconstruction Blade allows you to create a hyperspace channel between two isolated system or cut off an existing hyperspace channel between two interconnected systems. \nUse construction ships to build start and end beacons, which will position the two system and change the hyperspace structure between them. \n§YNote: Only one player can activate it at the same time.§!"
  z_fw_tips_r_hyper_blade_activated:0 "$z_fw_r_cheat_hyper_blade$ §Gactivated§!! If you are the player who activates it, please use the construction ship to locate the start and end points of the dark energy hyperspace channel shaping slash."
 #_relic
- z_fw_r_cheat_hyper_blade:0 "§GInfinite Stellairs§!: Dimensional Deconstruction Blade"
- z_fw_r_cheat_hyper_blade_desc:0 "The emerald light flashed across the ancient sword. This ancient artifact was full of power that could change the structure of the universe. The inscription on the sword is engraved with a row of large characters in ancient fonts: §BDark energy, omnipotent!§!\nIn addition, a line of instructions is engraved with inconspicuous small print below: §BThere must be an elder, holding swords in both hands. Shouting: §GGlory to Infinite Stellaris§!, and then vigorously slashed a bright §GDark Energy Hyperspace Channel Shaping Slash§! to the target system!§!\nOh my god... this is too exaggerated!"
+ z_fw_r_cheat_hyper_blade:0 "§GKasako's Stellairs§!: Dimensional Deconstruction Blade"
+ z_fw_r_cheat_hyper_blade_desc:0 "The emerald light flashed across the ancient sword. This ancient artifact was full of power that could change the structure of the universe. The inscription on the sword is engraved with a row of large characters in ancient fonts: §BDark energy, omnipotent!§!\nIn addition, a line of instructions is engraved with inconspicuous small print below: §BThere must be an elder, holding swords in both hands. Shouting: §GGlory to Kasako's Core§!, and then vigorously slashed a bright §GDark Energy Hyperspace Channel Shaping Slash§! to the target system!§!\nOh my god... this is too exaggerated!"
 #_megastructures
  #_截断者
  z_fw_mega_r_cht_hyper_tgt_marker_0:0 "Dark Energy Hyperspace Channel Shaping Slash §RBeacon of Block§!"
@@ -449,14 +460,14 @@
  z_fw_mega_r_cht_hyper_tgt_marker_1_DESC:0 "With one single slash, the sky will be broken. \nAn old man swung a blade at this system, fabulously linke two system tens of thousands of light-years away from each other, that had never been in contact, or miraculously separating the two worlds close at hand. Ah, dark energy, you are really omnipotent. Ah, Infini7e, you are the savior of the galaxy!"
  z_fw_mega_r_cht_hyper_tgt_marker_1_MEGASTRUCTURE_DETAILS:0 "This system will serve as the starting point for changing the structure of hyperspace."
  #_终点
- z_fw_mega_r_cht_hyper_tgt_marker_2:0 "Dark Energy Hyperspace Channel Shaping Slash §HBeacon of Ending§!"
+ z_fw_mega_r_cht_hyper_tgt_marker_2:0 "Dark Energy Hyperspace Channel Shaping Slash §RBeacon of Ending§!"
  z_fw_mega_r_cht_hyper_tgt_marker_2_DESC:0 "With one single slash, the sky will be broken. \nAn old man swung a blade at this system, fabulously linke two system tens of thousands of light-years away from each other, that had never been in contact, or miraculously separating the two worlds close at hand. Ah, dark energy, you are really omnipotent. Ah, Infini7e, you are the savior of the galaxy!"
  z_fw_mega_r_cht_hyper_tgt_marker_2_MEGASTRUCTURE_DETAILS:0 "This system will serve as the ending point for changing the structure of hyperspace."
  
 
 ###_物质湮灭剑
 #_evts
- z_fw1_misc.331.name:0 "How will you use this $z_fw_r_cheat_mega_sword$？"
+ z_fw1_misc.331.name:0 "How will you use this $z_fw_r_cheat_mega_sword$?"
  z_fw1_misc.331.desc:0 "You can activate or deactivate this relic. Activating it will allow you to use a construction ship to locate a system and clear the designated megastructure in it. Of course, you can also destroy all megastructures of the entire Galaxy directly. Note, you are not allowed to destroy a Star Gate or a L Star Gate, destroying them will seriously affect the balance and change the game structure."
  z_fw_evt_r_cheat_mega_sword_off:0 "$z_fw_r_cheat_mega_sword$ §GDisabled§!"
  z_fw_evt_r_cheat_mega_sword_off_desc:0 "You are no longer allowed to build a $z_fw_mega_r_cht_mega_tgt_marker$.§!"
@@ -484,9 +495,8 @@
 #_tooltips
  z_fw_tips_r_cht_mega_sword_effect:0 "Activating Material Obliteration Sword allows you to demolish any megastructures in a specified system.\nUse a construction ship to build the detection beacon, which will enable you to open the system megastructure checking panel, and then select the megastructure you want to destroy according to the marker above them.\n§YNote: Only one detection beacon is allowed to exist in the galaxy at the one time.§!"
 #_relic
- z_fw_r_cheat_mega_sword:0 "§GInfintie Stellaris§!: Material Obliteration Sword"
- z_fw_r_cheat_mega_sword_desc:0 "The emerald light flashed across the ancient sword. This ancient artifact was full of power that could change the structure of the universe. The inscription on the sword is engraved with a row of large characters in ancient fonts: §BDark energy, omnipotent!§!\nn addition, a line of instructions is engraved with inconspicuous small print below: §BThere
-  must be an elder, holding swords in both hands. Shouting: §GGlory to Infinite Stellaris§!, and then vigorously slashed a bright §GDark Energy Megastructure Obliteration Slash§! to the target megastructure!§!\nOh my god... this is too exaggerated!"
+ z_fw_r_cheat_mega_sword:0 "§GKasako's§! Material Obliteration Sword"
+ z_fw_r_cheat_mega_sword_desc:0 "The emerald light flashed across the ancient sword. This ancient artifact was full of power that could change the structure of the universe. The inscription on the sword is engraved with a row of large characters in ancient fonts: §BDark energy, omnipotent!§!\nn addition, a line of instructions is engraved with inconspicuous small print below: §BThere must be an elder, holding swords in both hands. Shouting: §GGlory to Kasako's Core§!, and then vigorously slashed a bright §GDark Energy Megastructure Obliteration Slash§! to the target megastructure!§!\nOh my god... this is too exaggerated!"
  
 #_megastructures
  #_巨建毁灭者
@@ -498,7 +508,7 @@
 ###_真`狂怒
 #_evts
  z_fw_evt_r_cht_fury:0 "How will you use this $z_fw_r_cheat_fury$?"
- z_fw_evt_r_cht_fury_desc:0 "Activate this artifact, choose the intensity you need, and let your enemies feel your fury.Rage rage against the dying of light!"
+ z_fw_evt_r_cht_fury_desc:0 "Activate this artifact, choose the intensity you need, and let your enemies feel your fury. Rage rage against the dying of light!"
  z_fw_evt_r_cht_fury_buff_1:0 "Fury LV1: Fevor, meisanguis!"
  z_fw_evt_r_cht_fury_buff_2:0 "Fury LV2: Search and Destroy!"
  z_fw_evt_r_cht_fury_buff_3:0 "Fury LV3: WIPE THEM ALL!"
@@ -508,7 +518,7 @@
  z_fw_evt_r_cht_fury_buff_clean:0 "Restore Calm"
  z_fw_evt_r_cht_fury_buff_clean_desc:0 "No more fury anymore."
 #_relic
- z_fw_r_cheat_fury:0 "§GInfinite Stellaris§!: Fury"
+ z_fw_r_cheat_fury:0 "§GKasako's§! Fury"
  z_fw_r_cheat_fury_desc:0 "This mysterious symbol radiate manic and disturbing energy, driving all creatures close to it crazy. The blood-red ancient runes are covered with densely packed small characters, faintly visible: §BDark energy, omnipotent! §!\nIn addition, there is a row of small, not very conspicuous words flashing below: §RHere is the record of the glorious past of the powerful mind from other planes. Only furious, practice justice. They once punched through Origin Empire ships' shield in extreme anger, smashed the armor of United Fleets with rage, extinguished the surging solar storm by one furious shout, and put on lovely girls' dress to celebrate this feast...§!\nOh my god, too frightening!!!"
  z_fw_tips_r_cht_fury_effect:0 "You can have Fury Bouns. There are 5 levels in total. Powerful cheating will ruin the game experience. Please make your decision carefully."
 #_modifiers
@@ -525,7 +535,7 @@
 
 
 ###_[cht_闪电之球]
- z_fw_r_cht_emp:0 "§GInfinite§!: Lightning Orb"
+ z_fw_r_cht_emp:0 "§GKasako's§! Lightning Orb"
  z_fw_r_cht_emp_desc:0 "Lightning orb, dark energy magic orb, when used, there is a certain chance to trigger purification, instantly destroying the Void Summon...Sorry for taking the wrong script. \nThe strange instrument full of technological sense, entangled by the crackling electric arc, so that no one dared to observe it closely. Different from other Cangxue Mountain creations, there is an industrial cyberpunk style everywhere. The following line of small characters can be seen faintly: §B Dark energy, omnipotent! §! In addition, there is an instruction for use: §Y When it is dropped to the target location, it will generate a strong electromagnetic pulse, which can directly destroy all artificial products. In addition, due to energy coupling, it has a magical killing effect on non-real world creations.§!"
  z_fw_r_cht_emp_effect:0 "If $NAME_z_fw_tgt_r_cht_emp_ship$ does not exist, turning it on will open all borders (connected countries) within one year and get a $NAME_z_fw_tgt_r_cht_emp_ship$. \n Jumping $NAME_z_fw_tgt_r_cht_emp_ship$ to the specified galaxy will generate a magnetic storm covering the entire galaxy, which will destroy all ships in the galaxy that can produce wreckage, and leave the wreckage for research."
 
@@ -538,7 +548,7 @@
 
 ###_[巨建拆解]    ########################################################################################
 #_decision
- z_fw_dec_mega_dismantle: "§GInfintie Stellaris§!: Megastructure Dismantle"
+ z_fw_dec_mega_dismantle: "§GKasako's§! Megastructure Dismantle"
  z_fw_dec_mega_dismantle_desc: ""
  z_fw_tips_dec_mega_dismantle: "Dismantle a megastructure and recover the alloy."
  z_fw_tips_mega_dismentle_ongoing: "Only one player is allowed to use this function at one time."
@@ -571,11 +581,11 @@
  z_fw_evt_mega_dismantle_plnt_ongoing_desc:0 "We cannot dismantle the second habitat until the current habitat dismantling work is completed."
  
  
-#_[自我拆解]
+###_[自我拆解]
 #_evts
  z_fw1_misc.flt_self_dismantle:0 "§GSelf-dismantling§! \nDestroy this fleet as a target and recover the reversible technology on it. \nNote that not all ships’ equipment is recyclable."
- z_fw1_misc.flt_self_dismantle_no:0 "§GSelf-dismantling§! \nCurrently unavailable, please enable it in the settings panel."
- z_fw1_misc.flt_self_dismantle_no:0 "Self-dismantling: currently unavailable, please enable it in the settings panel."
+ z_fw1_misc.flt_self_dismantle_no:0 "Currently disabled, please enable it in the settings panel."
+ z_fw1_misc.flt_self_dismantle_enigmatic:0 "Not compatible with $ap_enigmatic_engineering$."
  z_fw1_misc.140.title:0 "Do you really want to destroy this fleet for reverse analysis?"
  z_fw1_misc.140.desc:0 "If you decide to dismantle this fleet, please prepare the military fleet for violent dismantling. Dismantling the target fleet shall be dismantled and the defense system becomes extremely fragile, but please do not attack repeatedly, which will trigger its automatic defense mechanism."
  z_fw1_misc.140.a:0 "That's right, prepare the military fleet!"
@@ -585,3 +595,24 @@
  z_fw_mod_cntr_self_dismantle_desc:0 "Quickly, destroy it!"
  mod_damage_vs_country_type_z_fw_npc_temp_neutral_self_dismantle_mult:0 "Increase damage to targets to be dismantled"
 
+
+
+
+###_[tgt_目标定位器] ########################################################################################
+ z_fw_shpsz_target_0:0 "Target locator"
+ Z_FW_CMPT_DRIVE_MISC_0:0 "Hyperspace positioning device"
+ Z_FW_CMPT_DRIVE_MISC_0_DESC:0 "The product of dark energy technology, which instantly marks the location of a galaxy through tachyon signals."
+ 
+ 
+#_[misc_船]
+ z_fw_shpsz_constructor:0 "Dynamic target ships"
+ Z_FW_SHPSEC_CONSTRUCTION_SECTION:0 "Core"
+ NAME_z_fw_autostation_ship_moving:0 "Dynamic target ship"
+ Z_FW_CMPT_COMP_MISC_FLEE:0 "Test with escape tactics"
+ Z_FW_CMPT_COMP_MISC_FLEE_DESC:0 "Scurrying around."
+ 
+ 
+###_[舰船行为]
+ z_fw_shpbh_test_flee:0 "Test behavior (escape)"
+ Z_FW_SHPBH_TEST_FLEE:0 "Scurrying around."
+ 

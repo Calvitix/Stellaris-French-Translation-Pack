@@ -1,139 +1,488 @@
 ﻿l_french:
-###_测试
- z_modmenu.11.name: "§GEndless Stars : Test§!"
- z_modmenu.11.desc: "Ce n'est pas quelque chose que vous devriez toucher !"
- z_modmenu_test_1: "Chômage rafraîchi-chômage"
- z_modmenu_test_2: "Actualisation de la classification des chômeurs"
- z_modmenu_test_3: "Espèces rafraîchies sans emploi"
- z_modmenu_test_4: "Actualisation de la population sans emploi - factions de test obligatoires"
- z_modmenu_test_5: "Rafraîchissement-rafraîchissement sans emploi"
- z_modmenu_test_6: "Test de création d'objet"
+
+#_[测试]
+#_[欢迎致辞/框架模式选择]
+#_[公告/作者/guide]
+#_[设置面板开启/面板_tooltips]
+#_[功能edict]
+
+#TO TRANSLATE
+
+
+###_[测试]
+ z_modmenu.11.name: "§G无尽群星§!: 测试"
+ z_modmenu.11.desc: "这不是你该触碰的东西!"
+ z_modmenu_test_1: "失业人口刷新-失业"
+ z_modmenu_test_2: "失业人口刷新-分类"
+ z_modmenu_test_3: "失业人口刷新-物种"
+ z_modmenu_test_4: "失业人口刷新-强制检测派系"
+ z_modmenu_test_5: "失业人口刷新-刷新"
+ z_modmenu_test_6: "测试物体-创建-首都"
  z_modmenu_test_7: "获取测试relic"
- z_modmenu_test_8: "10级科学家"
+ z_modmenu_test_8: "10级科考古学家"
+ z_modmenu_test_9: "在母星系恒星基地创建战斗测试靶机"
+ z_modmenu_test_10: "在母星系恒星基地创建超级测试靶机"
+ z_modmenu_test_10_flee: "在母星系恒星基地创建动态超级测试靶机"
+ z_modmenu_test_11: "event_target"
+ z_modmenu_test_species_kayrl_dominantion: "主物种设置/当前主物种为[root.species.GetName]"
+ z_test_cntr_var_pass: "传递参数[root.z_fw_core_battle_dd_execute_var]"
+ z_modmenu.trgr_to_var: "trigger导出变量"
+ z_modmenu.mod_to_var: "modifier导出变量"
+
+ z_modmenu_test_enemy_1: "母星-创建敌对测试舰队-肃正协议"
+ z_modmenu.modifier_var: "modifier变量"
+ z_modmenu.modifier_var_desc: "[root.test_var_from_mod]"
+ z_modmenu.test_1: "时序测试"
+ z_modmenu.test_1_desc: "导出trigger[root.test_var_cntr_from_trgr]\n基数[root.z_mm_var_cntr_timing_base]\n加数[root.z_mm_var_cntr_timing_add]\n\n 射程原始[root.test_var_ship_weapon_range_mult_ori]\n 射程缩减[root.test_var_ship_weapon_range_mult_cur]\n 移速原始[root.test_var_ship_speed_mult_ori]\n 移速缩减[root.test_var_ship_speed_mult_cur]\n 伤害原始[root.test_var_ship_weapon_damage_ori]\n 伤害缩减[root.test_var_ship_weapon_damage_cur]\n 爆炸原始[root.test_var_weapon_type_explosive_weapon_damage_mult_ori]\n 爆炸缩减[root.test_var_weapon_type_explosive_weapon_damage_mult_cur]\n 动能原始[root.test_var_weapon_type_kinetic_weapon_damage_mult_ori]\n 动能缩减[root.test_var_weapon_type_kinetic_weapon_damage_mult_cur]\n 能量原始[root.test_var_weapon_type_energy_weapon_damage_mult_ori]\n 能量缩减[root.test_var_weapon_type_energy_weapon_damage_mult_cur]\n 飞机原始[root.test_var_weapon_type_strike_craft_weapon_damage_mult_ori]\n 飞机缩减[root.test_var_weapon_type_strike_craft_weapon_damage_mult_cur]\n 船体原始[root.test_var_ship_hull_mult_ori]\n 船体缩减[root.test_var_ship_hull_mult_cur]\n 装甲原始[root.test_var_ship_armor_mult_ori]\n 装甲缩减[root.test_var_ship_armor_mult_cur]\n 护盾原始[root.test_var_ship_shield_mult_ori]\n 护盾缩减[root.test_var_ship_shield_mult_cur]\n 示例[root.xxx]\n"
 
 
 
+
+###_[欢迎致辞]
+ z_mm_tips_misc_welcome: "Welcome to Kasako's Core!\nMod Production Revolution 3.0 Done."
+ z_ic_tips_main:0 "Welcome to Kasako's MOD!"
+ z_ic_tips_subtitle:0 ""
+ 
+ z_mm_tips_intro_welcome: "Welcome to Kasako's Core!"
+ z_mm_tips_intro_rate: "If this mod helps, please rate it."
+ z_mm_tips_intro_wip: ""
+ z_mm_tips_intro_chat:0 ""
+
+
+
+
+###_[公告]
+ z_mm_notice_1:0 "§YAnnouncement:§!"
+
+###_[作者]
+ z_modmenu.141.name: "§GKasako's§! Author Information"
+ z_author_ali: ""
+ z_author_we: ""
+ z_mm_misc_alipay: "§YMaking mod is not easy, please support the author.\nSearch my mods in Steam Workshop to get the newest mod upgrade, £energy£§HRate, Favorite, Subscribe and Award§! to give the me more development motivation.\nThanks!!!§!"
+ z_modmenu.141.desc: "Hello everyone, and this is Infini7e, author of Kasako's Core series.\nThe Kasako's Core series is committed to providing high-quality art materials, efficient new game mechanism, convenient UI setting panels, and powerful late game optimization to bring you a better gaming experience. \nThe ultimate goal of Kasako's Core is to unify various elements and other high-quality mods and establish a brand new game system --- the Kasako's Core Collections."
+ z_mm_misc_qq: ""
+ z_mm_misc_sc_donator: ""
+
+###_[guide]
+ z_mm_evt_guide_name: "§GKasako's§! §YGuide to mod setting panel§!"
+ z_mm_tips_guide_fw_setting: "Framework setting/user guide/author information, etc."
+ z_mm_tips_guide_annoucement: "Some recent development plans will be announced to everyone here."
+ z_mm_tips_guide_fw_misc: "Commonly used Kasako's series MOD function shortcut keys."
+ z_mm_tips_guide_sub: "The setting panel of other Kasako's MODs based on this framework."
+ z_mm_tips_guide_csp: "Shortcut panel for common functions from other MODs."
+ gui_z_mm_tips_guide_sp: "By default, it can be used as a MOD billboard. Click the icon to open the main setting panel of the corresponding MOD. \n\nWhen you open Kasako's series MODs or other MOD with customization support, this will become its setting panel area. \n\nIf you encounter slow and lag problems in the late game, you can try §BBetter performance and utilities§!. \nIf you are struggling with endless micro-manipulation and overpopulation, or you are dissatisfied with the vanilla rough population restriction method, you can try §BProduction Revolution§!. \nIf you need a better galaxy and better UI, please enter §Bmy workshop page§! and browse my work, you can always find what you want. "
+
+ z_mm_tips_framework_contents: "§YKasako's MOD Framework provides data, mechanism and UI support for all the sub modules of the series. At the same time, it comes with a large number of new game contents including Easter egg relics, Enemy Adaptation system, Planet population capacity, New map mode, New war mode, Technology linkage system, Automatic Station construction, Universal compatibility and Supreme cheating system. If you don’t need these new features, you can just disable the framework by clicking the big LOGO. Even if the framework is disabled, it still provides all basic support for sub-modules and 3rd-party mods. \nSome compatible mods such as Strategic resources, Habitat types and Modifier fix have been integrated, and they have been customized for this mod.§!"
+
+
+
+
+
+###_IS panel-start
+ z_mm_tip_intro_welcome: "Choose the mode, start the game!"
+ z_mm_tip_intro_welcome_debug: "Please note that §GInfintie Stellaris§! start setting is forced to stop when planet or fleet interface is open, which means the settings cannot continue. Please close all additional interfaces like fleet or planet interface until you have finished all start settings. If you force this to continue, something wrong may happen in mod parameter."
+ 
+ z_modmenu_start_mode_choose: "§GKasako's Core§! Mode Selector"
+ z_mm_tips_framework_modmenu: "\n\nThis mode will not activate §BKasako's MOD Framework§!, and this mod will be a pure setting panel for the supported mods. All other new contents of §BKasako's MOD Framework§! will be disabled except for the new map modes. If you want to reactivate these new functions during the game, please click on LOGO in the settings panel to open §BFramework Settings§!, and activate the framework.\n\nIf you choose this mode, please carefully review the options in the upcoming start game settings window."
+ z_mm_tip_intro_menu_mode_on: "§HModmenu Panel Mode§! Selected $z_mm_tips_framework_modmenu$"
+ z_mm_tip_intro_menu_mode_off: "Select §HModmenu Panel Mode§! $z_mm_tips_framework_modmenu$"
+ 
+ z_mm_tips_framework_full: "\n\nThis mode will activate §BKasako's MOD Framework§! and new features will be enabled. If you want to deactivate the framework during the game, click on LOGO in the settings panel to open §BFramework Settings§! and deactivate the framework. \n\nThe new features from the framework are:\nNew Map Modes/ New War Types/ New Relics and Story/ Automatic Constructor (Build Obital Stations)/ Sentinel Array Switcher/ Kasako's Enemy Adaptation System/ Weapon Technology Linkage System/ Advanced Cheating System, etc. In the future, there will be new features added continuously."
+ z_mm_tip_intro_fw_mode_on: "§GInfintie Stellaris Framework Mode§! Selected $z_mm_tips_framework_full$"
+ z_mm_tip_intro_fw_mode_off: "Select §GInfintie Stellaris Framework Mode§! $z_mm_tips_framework_full$"
+ z_mm_tip_intro_fw_mode_ic: "§GInfintie Stellaris Collection Mode§! $z_mm_tips_framework_full$"
+ 
+ z_mm_tip_intro_confirm: "Selection Completed, start the game!"
 
 ###_IS panel
- z_modmenu_button: "§GInfinite Stellaris : Menu Mod§!"
- z_modmenu_button_white: "Menu : §BMod IS§!"
- z_modmenu.1.name: "Menu de personnalisation : Infinite Stellaris MOD"
- z_modmenu.2.name: "Sous Mods d'Infinite Stellaris"
- z_modmenu.3.name: "Mods pris en charge par Infinite Stellaris"
- z_modmenu.1.desc: "Réglage détaillé pour tous les sous-modules IC."
- z_modmenu_exit: "§RAnnuler§!"
- z_modmenu_start_title: "§HMenu de personnalisation Stellaris infini§! Initialisé"
- z_modmenu_start_title_desc: "§YLe savez-vous ?§! Vous pouvez accéder à ce menu mod en utilisant un décret, ou en utilisant le bouton tout en bas de la barre de navigation de gauche.\n\nDans ce menu de personnalisation, vous pouvez définir les paramètres clés de tous les sous-mods IC comme §G!! 00 Performance, !! 00 Performance Plus, 00 Protecteurs de l'Empire, 00 Technology Leaps§!, etc.§! Certaines fonctions sont initialement désactivées, vous devez les activer manuellement. Faites un bon usage de ce menu, et votre expérience de jeu en sera meilleure. une partie des éléments du mod §BInfinite Collection§! ont été intégrés à présent dans ce Mod Menu."
- z_modmenu.12.a: "Excellent !"
- z_modmenu.12.a1: "Excellent, gloire au §YInfinite Stellaris§! !"
- z_modmenu.12.a3: "Excellent, gloire au §YInfinite Stellaris§! !"
- z_modmenu.12.a3.tooltip: "Démarrez le jeu avec de nouveaux bâtiments, de nouveaux types de guerre et commencez l'aide au jeu depuis les frameworks Infinite Stellaris."
- z_modmenu.12.a2: "Excellent, mais je veux seulement le panneau §YModmenu§!."
- z_modmenu.12.a2.tooltip: "Démarrez le jeu sans nouveau contenu à partir des frameworks Infinite Stellaris."
- z_modmenu.12.a4: "Excellent, mais je ne veux que le panneau §YModmenu§! et ne touchez jamais à aucun élément du framework."
- z_modmenu.12.a4.tooltip: "Démarrez le jeu sans nouveau contenu des frameworks Infinite Stellaris, et désactivez également les paramètres des frameworks dans le jeu.\nSi vous ne pouvez vraiment pas contrôler vos mains pour toucher un paramètre de framework ou utiliser une fonction de triche, c'est votre choix !"
+ z_modmenu_button: "§GKasako's Core: Mod Menu§!"
+ z_modmenu_button_white: "IS Mod Menu Panel"
+ z_fw_version: "§BKasako's MOD Setting Panel§! v3.02"
+ z_modmenu.2.name: "Independent MOD function buttons:"
+ z_modmenu.3.name: "Supported Mod Config Panel:"
+ z_modmenu.1.desc: "Detailed setting for all IC sub mods."
+ z_modmenu_exit: "§RCancel§!"
+ z_modmenu_return: "Return"
+ z_modmenu_return_desc: "Return to §GKasako's Core Modmenu Panel§!"
+ z_modmenu_empty: ""
+
+ z_modmenu_start_title: "§GKasako's Core Modmenu Panel§! Initialized"
+ z_modmenu_start_title_desc: "§YDo you know?§!, you can access the modmenu panel by toggling the shortcut button in the bottom of left navigation bar. Or you can access it through an edict.\n\nIn Kasako's Core modmenu panel, you can access all Infintie Stellaris sub modules and some supported mods. There are also some key function buttons included in the modmenu panel. Make proper use of this modmenu, and your game experience will be better.\n\n§GKasako's Core§! core frameworks is the fundation of §BInfinite Collection§! now part of it has been integrated in this modmenu panel. But most function of the frameworks is initially disabled unless you are using Infintie Collection or enable them by toggling the big logo button."
+ z_modmenu.12.a1: "Glory to §YKasako's MOD§!!"
+ z_modmenu.12.a3: "$z_modmenu.12.a1$"
+ z_modmenu.12.a3.tooltip: "Start the game with new buildings, war types and start game assistance from Infintie Stellaris frameworks."
+ z_modmenu.12.a2: "Excellent, but I only want the §YModmenu Panel§!."
+ z_modmenu.12.a2.tooltip: "Start the game without new content from Kasako's Cores."
+ z_modmenu.12.a4: "Excellent, but I only want the §YModmenu Panel§! and never touch any frameworks setting."
+ z_modmenu.12.a4.tooltip: "Start the game without new content from Kasako's Cores, and also disable frameworks settings in the game.\nIf you really cannot control your hands to touch any frameworks setting or use any cheating fucntion, this is you choice!"
  
 ###_tooltips
- z_mm_tips_mid_game_passed: "Période de la partie '§Ymid-game§!' est passée"
- z_mm_tips_wip: "Cette fonctionnalité est §YEn cours de développement§!"
- z_mm_tips_framework_disabled: "Vous avez choisi de désactiver complètement le paramétrage des frameworks, il n'y a aucun regret.\n\nBien sûr, si vous deviez le regretter, demandez à l'auteur de récupérer le code de la console."
- z_mm_tips_sub_mod_not_activited: "Ce sous-module n'est pas correctement installé et ne peut pas être activé."
- z_mm_tips_sub_modmenu_on: "Les fenêtres de sous-modules multiples activées ne sont pas autorisées."
- z_mm_pf_manual_job_checking: "Vérification manuelle des 'jobs' en cours."
- z_mm_pf_manual_job_check_button: "$edict_z_performance_manual_edt$\n$edict_z_performance_manual_edt_desc$"
- z_mm_pf2_ai_species_merging: "Fusion des espèces d'IA en cours."
- z_mm_pf2_merge_ai_species_button: "$z_performance_misc.11.f1$\n$z_performance_misc.11.f1.tooltip$"
+ z_mm_tips_mid_game_passed: "§YMid-Game Stage§! has passed"
+ z_mm_tips_wip: "This feature is §Yunder development§!"
+ z_mm_tips_esc_to_unlock: "The setting panel is locked for now, press the £escape£ keyboard button to exit the submenu and unlock the panel."
+ z_mm_tips_mp_not_host: "Only §HHost§! can use this setting under §HMultiplayer Mode§!."
+ z_mm_tips_framework_off: "§GKasako's Core§! is not activated"
+ z_mm_tips_framework_disabled: "You have chosen to completely disabled the frameworks setting, there is no regret.\n\nOf course, if you have to regret it, ask the author to get the console code."
+
+ z_mm_tips_pr_installed: "§BProduction Revolution§! detected, and this fuction is disabled."
+ z_mm_tips_rts_installed: "§BReworked Tactical System§! detected, config disabled."
+ z_mm_tips_sub_no_pf_pr: "§GPop Manager§! not activated or you have not completed §Bthe First Production Revolution§! from §GProduction Revolution MOD§!."
+ z_mm_tips_sub_no_pf: "§GPop Manager§! not activated."
+ z_mm_tips_sub_no_pf2: "§GBetter performance & Utilities§! not activated."
+ z_mm_tips_sub_no_sts: "§GPerformance Statistics§! not activated."
+ z_mm_tips_sub_no_cm: "§GCrisis Master§! not activated."
+ z_mm_tips_sub_no_pr: "§GProduction Revolution§! not activated."
+ z_mm_tips_sub_no_rts: "§GReworked Tactical System§! not activated."
+ z_mm_tips_mp_not_host: "§HMultiplayer mode§!, §HHost only§! can adjust these settings."
+ z_mm_tips_sub_modmenu_on: "Multiple submodule windows toggled is not allowed."
 
 
 
 
-###_other
- tech_z_dummy: "§RIt ce n'est pas quelque chose que vous devriez voir ! §!"
 
-###_无尽整合主事件链
- z_chain_main_title: "§GInfinite Collection : Core System§!"
- z_chain_main_desc: "Variables détaillées pour Infinite Collection.\n\n§G $z_desire_for_star_var$§! gauche §G [This.z_desire_for_star_var]§!"
-
-
-
-###_功能edit  ############################################################################################
+###_[功能edict]  ############################################################################################
 #_z modmenu开启设置
- edict_z_modmenu_edt: "Options du mod §BInfinite Stellaris§!"
- edict_z_modmenu_edt_desc: "Ouvrez le menu de configuration Infinite Collection. Réglage détaillé pour tous les sous-modules IC."
+ edict_z_modmenu_edt: "§GKasako's§! Customization Menu"
+ edict_z_modmenu_edt_desc: "Open Kasako's Collection Customization Menu. Detailed setting for all IC sub mods."
 #_初始化modmenu
- edict_z_modmenu_initialization_edt: "§BInfinite Stellaris§! : initialisation du modmenu"
- edict_z_modmenu_initialization_edt_desc: "Si vous avez installé le menu du mod Infinite Stellaris, mais qu'il n'y a pas de bouton de raccourci dans la barre de gauche ou l'édit pour ouvrir le menu, veuillez utiliser cet édit pour initialiser le mod."
+ edict_z_modmenu_initialization_edt: "§GKasako's§! modmenu initialization"
+ edict_z_modmenu_initialization_edt_desc: "If you have installed the Kasako's Core mod menu, but there is no shortcut button in the leftbar or edict to open the menu, please use this edict to initialize the mod."
 #_修复modmenu 按钮
- edict_z_modmenu_restoration_edt: "§BInfinite Stellaris§! : Restauration des boutons du modmenu"
- edict_z_modmenu_restoration_edt_desc: "Si votre bouton de raccourci modmenu est grisé, veuillez utiliser cette commande pour le corriger."
+ edict_z_modmenu_restoration_edt: "§GKasako's§! modmenu button restoration"
+ edict_z_modmenu_restoration_edt_desc: "If your modmenu shortcut button is grayed out, please use this command to fix it."
  
  
  
  
 ###_mod未安装提示 ############################################################################################
- z_modmenu_no_mod: "§LCe mod n'est pas activé§!"
- z_modmenu_no_mod_desc: "Cela peut être dû à une mauvaise installation."
- z_modmenu_pity: "OH NOOOOOOOO ..."
+ z_modmenu_no_mod: "§RThis mod is not activited§!"
+ z_modmenu_no_mod_desc: "It may be because of improper installation."
+ z_modmenu_pity: "OH NOOOOOOOO..."
  
  
  
  
-###_按钮  ############################################################################################
+###_FRAMEWORK FUNCTION  ############################################################################################
+
+
+
+
+###_MAIN BUTTONS
+#_battle variables
+ z_mm_fw_loc_core_dd_fp_lv_0: "0"
+ z_mm_fw_loc_core_dd_fp_lv: "[event_target:z_fw_tgt_global_event.z_fw_core_battle_dd_var]"
+ z_mm_fw_button_battle_fp_adpt_on_desc: "$z_modmenu.133.d10$\n\n$z_modmenu.133.d10.tooltip$\n\nEnemy Adaptation §GLV[root.z_fw_loc_cntr_core_dd_fp_lv]§!"
+ z_mm_fw_button_battle_fp_adpt_periodic_desc: "$z_modmenu.133.d10a$\n\n$z_modmenu.133.d10a.tooltip$\n\nEnemy Adaptation §GLV[root.z_fw_loc_cntr_core_dd_fp_lv]§!"
+ z_mm_fw_button_battle_fp_adpt_off_desc: "$z_modmenu.133.d9$\n\n$z_modmenu.133.d9.tooltip$\n\nEnemy Adaptation §GLV[root.z_fw_loc_cntr_core_dd_fp_lv]§!"
+ z_mm_fw_button_battle_dd_fp_up_desc: "Enemy Adaptation: Synchronized Competition - Express Adjustment Button\nYou can set the number of levels changed by each click in the war settings (the blue cross sword button above)."
+ z_mm_fw_button_battle_dd_fp_down_desc: "$z_mm_fw_button_battle_dd_fp_up_desc$"
+ z_mm_fw_tips_dd_fp_fail_desc: "Currently unavailable, you need to enable §GKasako's Core Battle Settings (the Blue Crossing Sword Button Above) - Enemy Adaptation: Synchronized Competition§!."
+#_z_mm_btn_fw
+ z_mm_tips_fw_btn_misc_author:0 "§GKasako's§! Author Information"
+ z_mm_tips_fw_btn_misc_guide:0 "§GKasako's§! User's Guide\n\n§YMods Setting Panel user guide§! and §YIntroduction to Kasako's Core Function§!, move the mouse to the corresponding position to get detailed introductions of a certain funciton."
+ 
 #_evts z modmenu
- z_mm_desc_framework:0 "§YInfinite Stellaris§! : Menu de personnalisation du framework"
- z_modmenu.13.name:0 "$z_mm_desc_framework$"
- z_modmenu.13.desc:0 "Il s'agit du menu de personnalisation du contenu original d'Infinite Stellaris Core Framework, et vous pouvez basculer sur certaines fonctions de base, y compris le système de difficulté adaptative, le menu de triche, etc."
- z_modmenu.13.a1:0 "Mode de triche §HEnabled§!"
- z_modmenu.13.a1.tooltip:0 "Le mode de triche vous permet de détruire n'importe quel système avec le Celestial Orrery et donne aux amiraux des traits spéciaux."
- z_modmenu.13.a2:0 "Mode de triche §GDésactivé§!"
+ z_mm_desc_framework:0 "$z_modmenu.13.name$\n\n$z_modmenu.13.desc$"
+ z_modmenu.13.name:0 "§GKasako's§! Framework Config"
+ z_modmenu.13.desc:0 "This is the customization menu of the original contents of the Kasako's Core Core Framework, and you can toggle on some core functions including adaptive difficulty system, cheat menu, etc."
+ z_modmenu.13.cheat_allowed:0 "Multiplayer Cheating Mode §HAllowed§!"
+ z_modmenu.13.cheat_disallowed:0 "Multiplayer Cheating Mode §GDisallowed§!"
+ z_mm_tips_cheat_disallowed_mp:0 "The host does not allow cheating in multiplayer mode"
+ 
+ z_modmenu.13.a1:0 "Cheating Mode §HEnabled§!"
+ z_modmenu.13.a1.tooltip:0 "The cheating mode allows the use of many powerful cheating relic, cures the skunk plague, and earns desire points."
+ z_modmenu.13.a2:0 "Cheating Mode §GDisabled§!"
  z_modmenu.13.a2.tooltip:0 "$z_modmenu.13.a1.tooltip$"
+ z_mm_tips_cheating_disabled:0 "Cheating mode is not enabled."
+ 
+ z_fw_evts_tech_overwhelm_on:0 "Technology Overhelm §HEnabled§!"
+ z_fw_tips_tech_overwhelm_on:0 "If the owner of the spacecraft you destroyed is far more technological than yours, you will not be able to interpret their wreckage and reverse the technology."
+ z_fw_evts_tech_overwhelm_off:0 "Technology Overhelm §GDisabled§!"
+ z_fw_tips_tech_overwhelm_off:0 "Vanilla setting, the technological strength gap will not affect wreckage reversing."
  z_modmenu.13.b1:0 "Acquire §H$z_fw_r_monument$§!"
- z_modmenu.13.b1.tooltip:0 "Vous n'avez pas $z_fw_r_monument$ maintenant, mais vous pouvez l'obtenir directement via cette commande."
- z_modmenu.13.b2:0 "Tricher : $z_fw_desire_point_var$ §G+3§!"
- z_modmenu.13.b3:0 "Tricher : $z_fw_desire_point_var$ §G+30§!"
- z_modmenu.13.c1:0 "Infinite Collection Framework §Enabled§!"
- z_modmenu.13.c1.tooltip:0 "Le contenu original d'Infintie Stellaris, si vous utilisez Infintie Collection, il sera automatiquement changé, ajoutant de nouveaux bâtiments, de nouveaux objectifs de guerre, une aide au démarrage du jeu et le désir des étoiles, etc."
- z_modmenu.13.c2:0 "Infinite Collection Framework §RDisabled§!"
- z_modmenu.13.c2.tooltip:0 "$Zamzd.13.13.1$"
- z_modmenu.13.c3:0 "Obtenez les technologies initiales"
- z_modmenu.13.c3.tooltip:0 "Dans le système Infinite Stellaris, certaines technologies non initiales seront définies comme technologies initiales, telles que l'exploration automatique."
- z_modmenu.13.c4:0 "Refresh Infinite Stellaris Original Relics"
- z_modmenu.13.c4.tooltip:0 "The original relics of the Infinite Stellaris will be initialized and separated among the galaxy, this function can only be used once."
+ z_modmenu.13.b1.tooltip:0 "You don't have $z_fw_r_monument$ now, but you can get it directly through this command."
+ 
+ z_modmenu.cheat_hok_cure:0 "Cheating: Cure the skunk plague"
+ z_modmenu.cheat_hok_cure.tooltip:0 "Get a $z_fw_r_cheat_cure_hok_base$, with which you can completely remove all skunk viruses in the galaxy. The infected skunks will return to their original species, and there will be no virus residues hidden on any planet."
+ z_fw_r_cheat_cure_hok_base:0 "Skunk Plague Treatment Injector"
+ z_fw_r_cheat_cure_hok:0 "§GKasako's§! $z_fw_r_cheat_cure_hok_base$"
+ z_fw_r_cheat_cure_hok_desc:0 "Our universe is sick, terrifying plague has swept the entire galaxy, and all living creatures are being corrupted. Their bodies were alienated, their spirits were distorted, and they became a group of indescribable... cute skunk girls. \nWhat the hell is this? This is obviously a blessing from heaven, god, Litte Kogasa, the Lord of Kasako's Dark Energy, let me become a cute skunk girl and be (this is madness)... cough cough, be purified by the sacred dark energy flame! \nEverything will be restored to its original state, because §BDark energy, Omnipotent!!!§!. \nGod bless! \nBlessed by Nurgle! \nAmen!"
+ z_fw_tips_r_cheat_cure_hok:0 "Completely remove all skunk viruses in the galaxy, the infected skunks will return to their original species, and there will be no virus residues hidden on any planet."
+ 
+ z_modmenu.13.b2:0 "Cheating: $z_fw_desire_point_var$ §G+3§!"
+ z_modmenu.13.b3:0 "Cheating: $z_fw_desire_point_var$ §G+30§!"
+ z_modmenu.13.c1:0 "Infintie Stellaris Frameworks §GEnabled§!"
+ z_modmenu.13.c1.tooltip:0 "The original content of Infintie Stellaris, if you use Infintie Collection, it will be automatically switched, adding new buildings, new war goals, start game assistance and the Desire of Stars, etc."
+ z_modmenu.13.c2:0 "Infintie Stellaris Frameworks §HDisabled§!"
+ z_modmenu.13.c2.tooltip:0 "$z_modmenu.13.c1.tooltip$"
+ z_modmenu.13.c3:0 "Get initial technologies"
+ z_modmenu.13.c3.tooltip:0 "$z_fw_tech_core_start_boost_desc$"
+ z_modmenu.13.c4:0 "Refresh Kasako's Easter Egg Relics"
+ z_modmenu.13.c4.tooltip:0 "The original relics of the Kasako's Core will be initialized and separated among the galaxy, this function can only be used once."
+ z_fw_evt_r_koh_plague_enabled:0 "Spontaneous Infection of Headhunter skunks §GEnabled§!"
+ z_fw_evt_r_koh_plague_disabled:0 "Spontaneous Infection of Headhunter skunks §HDisabled§!"
+ z_fw_tips_r_koh_plague_infection:0 "This will determine whether the headhunter is contagious in the non-delivery state. If it is prohibited, only one wave of infection will be performed after delivery by construction ships, otherwise it will continue to try to infect and assimilate other non-skunk species. Note: It should be set as default, and turning it off will break some of its functions."
+ z_modmenu.13.c5:0 "Planet Capacity Settings"
+ z_modmenu.13.c5.tooltip:0 "Activate the planetary population capacity setting, if you have §BPerformance Plus§! Or §GDistricts Revolution§! activated, this setting will be enabled by default."
+ z_modmenu.13.c6:0 "§GInfintie Stellaris§!: Battle settings"
+ z_modmenu.13.c6.tooltip:0 "Activate the Kasako's Core battle details settings."
+ 
+ z_fw_misc.tips_res_stock1:0 "Additional Resource Stockpile Bonus: §GNone§!"
+ z_fw_misc.tips_res_stock2:0 "Additional Resource Stockpile Bonus: §Y50000§!"
+ z_fw_misc.tips_res_stock3:0 "Additional Resource Stockpile Bonus: §Y500000§!"
+ z_fw_misc.tips_res_stock4:0 "Additional Resource Stockpile Bonus: §Y5000000§!"
+ z_fw_misc.tips_res_stock:0 "Added additional resource stock modifier for all empires. Note: This will change the balance of the game, use it with caution."
+ 
+ z_modmenu.132.name:0 "$z_modmenu.13.c5$"
+ z_modmenu.132.desc:0 "Add population capacity to all planets, and each colony planet will limit its maximum population according to factors such as the size of the planet and the characteristics of the owner. If you have installed §BPerformance Plus§! Or §GDistricts Revolution§!, this setting will be enabled by default."
+ z_modmenu.132.h1: "Planet population capacity §GActivated§!"
+ z_modmenu.132.h1.tooltip: "Using IC optimization setting, activate Planet population capacity. Total population of a planet will be restricted by planet size and planet class.\n\n§YAttention: If you have subscribed Carrying Capacity MOD, this function will be automatically disabled. Activited Planet population capacity will make some differences in game machenics, for there will be no unrestricted population growth any more.§!"
+ z_modmenu.132.h2: "Planet population capacity §HDeactivated§!"
+ z_modmenu.132.h2.tooltip: "Using vanilla game default, deactivate Planet population capacity. If possible, the population of a planet will continue increasing.\n\n§YAttention: unrestricted population growth cause serious lag in the late game, for there are too many pops will be checked everyday.§!"
+ z_modmenu.132.j1: "Extra planet pops capacity §HNone§!"
+ z_modmenu.132.j1.tooltip: "No additional population capacity."
+ z_modmenu.132.j2: "Extra planet pops capacity §G30§!"
+ z_modmenu.132.j2.tooltip: "All planets get additonal population capacity."
+ z_modmenu.132.j3: "Extra planet pops capacity §G60§!"
+ z_modmenu.132.j3.tooltip: "$z_modmenu.132.j2.tooltip$"
+ z_modmenu.132.j4: "Extra planet pops capacity §G90§!"
+ z_modmenu.132.j4.tooltip: "$z_modmenu.132.j2.tooltip$"
+ z_modmenu.132.j5: "Extra planet pops capacity §G120§!"
+ z_modmenu.132.j5.tooltip: "$z_modmenu.132.j2.tooltip$"
+ 
+ z_fw_tips_btn_battle_setting:0 "$z_modmenu.13.c6$\n\n$z_modmenu.133.desc$"
+ z_modmenu.133.name:0 "$z_modmenu.13.c6$"
+ z_modmenu.133.desc:0 "Set the expanded contents of all the war changes from Kasako's Core, Such as §BNew War Type/Enermy Adaptation/Attribute Restrict§! etc, note that most setting changes take effect one month later. \n§BEnermy Adaptation§! allows the enemy to adapt to your evolutionary rhythm and maintain a certain degree of challenge. \n§BAttribute Restrict§! can clear OP modifiers and prevent overflow to a certain extent. If you any mods of the Reworked Tactical System, this function will be included in its settings panel. "
+ z_fw_desc_battle_dd_fp_lv_0:0 "Enemy Adaptation §HN/A§!"
+ z_fw_desc_battle_dd_fp_lv:0 "Enemy Adaptation §GLV[root.z_fw_loc_cntr_core_dd_fp_lv]§!"
+ z_modmenu.133.war1:0 "New War Type §HDisabled§!"
+ z_modmenu.133.war2:0 "New War Type §GEnabled§!"
+ z_modmenu.133.war.tooltip:0 "This will determine whether the new war goals and casus belli offered by Kasako's Core are allowed to be used."
+ z_modmenu.133.a1: "Immersive Space Battle: Maneuver §HDisabled§!"
+ z_modmenu.133.a1.tooltip: "Disable battle speed adjustment, the ship's combat movement speed is same to its cruise speed."
+ z_modmenu.133.a2: "Immersive Space Battle: Maneuver §GEnabled§!"
+ z_modmenu.133.a2.tooltip: "Enable battle speed adjustment, the ship's movement speed is halved after entering combat to make it differ from cruise speed."
+ z_modmenu.133.b1: "Ship Component Technologies Linkage §HDisabled§!"
+ z_modmenu.133.b1.tooltip: "No technologies linkage.\n\n§YNote: If you don’t know what this feature means, please enable technology linkage."
+ z_modmenu.133.b2: "Ship Component Technologies Linkage §GEnabled§!"
+ z_modmenu.133.b2.tooltip: "After unlocking some ship component technologies, it will automatically unlock component technology of the same type and the same tier level if you have unlocked the necessary prerequisites of the that technology. For example, when you acquire ACOT's alpha laser weapon, the advanced laser weapon of ESC3.0 will be automatically added.\n\n§YCurrently support ESC3.0 and ACOT."
+ 
+ z_modmenu.133.c1: "Overflow Cleaner §HDisabled§!"
+ z_modmenu.133.c1.tooltip: "Do not clean up data overflow units."
+ z_modmenu.133.c2: "Overflow Cleaner §GEnabled§!"
+ z_modmenu.133.c2.tooltip: "Automatically clean up data overflow units."
+ 
+ z_modmenu.133.e1: "Enemy Adaptation: Phased Enhancement §HDisabled§!"
+ z_modmenu.133.e1.tooltip: "No Phased Enhancement.\n\n§YNote: In moded game, the difficulty of the game may be too low.§!"
+ z_modmenu.133.e2: "Enemy Adaptation: Phased Enhancement §GEnabled§!"
+ z_modmenu.133.e2.tooltip: "According to the game time and AI type, all AIs are strengthened and given economic assistance. The later the game period, the more powerful they will become. Suitable for most moded game, suggest to enable."
+ 
+ z_modmenu.133.f1: "Enemy Adaptation: Purge the Weak §HDisabled§!"
+ z_modmenu.133.f1.tooltip: "No weak AI purger.\n\n§YNote: It will reduce the difficulty and cause weak countries to be extremely easy to be destroyed.§!"
+ z_modmenu.133.f2: "Enemy Adaptation: Purge the Weak §GEnabled§!"
+ z_modmenu.133.f2.tooltip: "Fallen empires and common empires will receive a minimum fleet standard. If their navy amount are lower than this standard, they will be considered the weak and have their shipbuilding capabilities enhanced so that they can maintain a minimum navy as much as possible for self-defense. \nThe closer the number of navies is to 0, the higher the enhancement. With the passing of game time, this minimum standard will also increase to a certain extent."
+ 
+ z_fw_tips_core_battle_dd_fp_off: "Enemy Adaptation: Synchronized Competition §Rnot activited§!"
+ z_modmenu.133.d1: "Enemy Adaptation: Synchronized Competition §HDisabled§!"
+ z_modmenu.133.d1.tooltip: "No Synchronized Competition.\n\n§YNote: Does not take effect for the new faction added to the MOD.§!"
+ z_modmenu.133.d2: "Enemy Adaptation: Synchronized Competition §GEnabled§!"
+ z_modmenu.133.d2.tooltip: "Activate synchronous competition, all non-player forces will get the player’s various fleet enhancement modifier according to a certain percentage, which is 75% by default.\n\n§YNote: Does not take effect for the new faction added to the MOD.§!"
+ 
+ z_modmenu.133.d9: "Enemy Adaptation: Fleet Power Automation §HDisabled§!"
+ z_modmenu.133.d9.tooltip: "AI Synchronized Competition will not be automatically upgraded, but you can manually upgrade it."
+ z_modmenu.133.d10: "Enemy Adaptation: Synchronized Competition Automation §GAdaptive§!"
+ z_modmenu.133.d10.tooltip: "The AI Synchronized Competition will be automatically upgraded according to the player's strength to maintain its combat effectiveness."
+ z_modmenu.133.d10a: "Enemy Adaptation: Synchronized Competition Automation §GPeriodic§!"
+ z_modmenu.133.d10a.tooltip: "he AI Synchronized Competition will be automatically upgraded according to the Automation Difficulty setting every year to maintain the challenge."
+
+ z_modmenu.133.automation.tooltip: "Set the Enemy Adaptation: Synchronized Competition Automation Difficulty Level. It works on the adaptive and periodic method at the same time.\n\nNote: CD will be refreshed automatically after setting.\n§HWhen using adaptive method, the higher the difficulty level, the higher the trigger frequency.§!"
+ z_modmenu.133.d11: "Enemy Adaptation: Synchronized Competition Automation Difficulty §RCrazy§!"
+ z_modmenu.133.d11.tooltip: "$z_modmenu.133.automation.tooltip$\n§GUnder this difficult setting, Periodic Method reaching the highest level in 125 years.§!"
+ z_modmenu.133.d12: "Enemy Adaptation: Synchronized Competition Automation Difficulty §HHard§!"
+ z_modmenu.133.d12.tooltip: "$z_modmenu.133.automation.tooltip$\n§GUnder this difficult setting, Periodic Method reaching the highest level in 250 years.§!"
+ z_modmenu.133.d13: "Enemy Adaptation: Synchronized Competition Automation Difficulty §BStandard§!"
+ z_modmenu.133.d13.tooltip: "Kasako's Core Default. $z_modmenu.133.automation.tooltip$\n§GUnder this difficult setting, Periodic Method reaching the highest level in 500 years.§!"
+ z_modmenu.133.d14: "Enemy Adaptation: Synchronized Competition Automation Difficulty §GEasy§!"
+ z_modmenu.133.d14.tooltip: "$z_modmenu.133.automation.tooltip$\n§GUnder this difficult setting, Periodic Method reaching the highest level in 1250 years.§!"
+ 
+ z_modmenu.133.fp_show: "Synchronized competition level setting §GExpanded§!/Current Level §B[event_target:z_fw_tgt_global_event.z_fw_core_battle_dd_var]§!"
+ z_modmenu.133.fp_hide: "Synchronized competition level setting §HCollapses§!/Current Level §B[event_target:z_fw_tgt_global_event.z_fw_core_battle_dd_var]§!"
+ z_modmenu.133.fp_setting_show: "Whether to expand the synchronous competition level setting, after expanding it, you can manually increase or decrease the synchronous competition level."
+ z_modmenu.133.d3: "Enemy Adaptation Synchronized Competition Level §G+1§!"
+ z_modmenu.133.d4: "Enemy Adaptation Synchronized Competition Level §G+10§!"
+ z_modmenu.133.d5: "Enemy Adaptation Synchronized Competition Level §G+50§!"
+ z_modmenu.133.d5a: "Enemy Adaptation Synchronized Competition Level §G+250§!"
+ z_modmenu.133.d6: "Enemy Adaptation Synchronized Competition Level §G-1§!"
+ z_modmenu.133.d7: "Enemy Adaptation Synchronized Competition Level §G-10§!"
+ z_modmenu.133.d8: "Enemy Adaptation Synchronized Competition Level §G-50§!"
+ z_modmenu.133.d8a: "Enemy Adaptation Synchronized Competition Level §G-250§!"
+ 
+ z_modmenu.133.g.tooltip: "Set the number of level to be changed each time the "+" "-" Fleet Battle Power Bonus express adjustment button is toggled. You can see the two buttons on the main setting panel."
+ z_modmenu.133.g1: "Enemy Adaptation: Synchronized Competition - Express Adjustment Levels §G1§!"
+ z_modmenu.133.g2: "Enemy Adaptation: Synchronized Competition - Express Adjustment Levels §G5§!"
+ z_modmenu.133.g3: "Enemy Adaptation: Synchronized Competition - Express Adjustment Levels §G10§!"
+ z_modmenu.133.g4: "Enemy Adaptation: Synchronized Competition - Express Adjustment Levels §G50§!"
+
+# DCSC NEW
+ z_modmenu.133.DDSC_switch_common: "同步竞争：当前参数 §Y基础比例§!=§G[event_target:z_fw_tgt_global_event.DDSC_var_set_mult_glbl_perc]%§!"
+ z_modmenu.133.DDSC_switch_fallen: "同步竞争：当前参数 §H堕落帝国权重§!=§G[event_target:z_fw_tgt_global_event.DDSC_var_set_weight_fallen]§!"
+ z_modmenu.133.DDSC_switch_threat: "同步竞争：当前参数 §H中期威胁权重§!=§G[event_target:z_fw_tgt_global_event.DDSC_var_set_weight_threat]§!"
+ z_modmenu.133.DDSC_switch_crisis: "同步竞争：当前参数 §H终局天灾权重§!=§G[event_target:z_fw_tgt_global_event.DDSC_var_set_weight_crisis]§!"
+ z_modmenu.133.DDSC_switch_monster: "同步竞争：当前参数 §H普通野怪权重§!=§G[event_target:z_fw_tgt_global_event.DDSC_var_set_weight_monster]§!"
+ z_modmenu.133.DDSC_switch_lev: "同步竞争：当前参数 §H利维坦权重§!=§G[event_target:z_fw_tgt_global_event.DDSC_var_set_weight_lev]§!"
+ z_modmenu.133.DDSC_switch: "选择一个参数进行设置。\n§Y基础比例§!决定了你拥有的各项修正会以怎样的百分比同步到AI帝国上，这个比例越高，AI的舰队强度越高。你可以通过手动调整改变它，也可以通过自适应系统去自动调整它。\n§H阵营权重§!决定了一些特殊阵营的修正同步比例。特殊阵营的修正同步比例=§Y基础比例§!×§H阵营权重§!。"
+ z_mm_tips_DDSC_on: "需要激活 §H同步竞争§!"
+ 
+ z_modmenu.133.DDSC_var_add_001: "同步竞争:参数调整 §G+0.01§!"
+ z_modmenu.133.DDSC_var_add_01: "同步竞争:参数调整 §G+0.1§!"
+ z_modmenu.133.DDSC_var_add_1: "同步竞争:参数调整 §G+1§!"
+ z_modmenu.133.DDSC_var_add_10: "同步竞争:参数调整 §G+10§!"
+ z_modmenu.133.DDSC_var_add_100: "同步竞争:参数调整 §G+100§!"
+ z_modmenu.133.DDSC_var_minus_001: "同步竞争:参数调整 §H-0.01§!"
+ z_modmenu.133.DDSC_var_minus_01: "同步竞争:参数调整 §H-0.1§!"
+ z_modmenu.133.DDSC_var_minus_1: "同步竞争:参数调整 §H-1§!"
+ z_modmenu.133.DDSC_var_minus_10: "同步竞争:参数调整 §H-10§!"
+ z_modmenu.133.DDSC_var_minus_100: "同步竞争:参数调整 §H-100§!"
+ 
+ z_modmenu.133.DDSC_default: "难度适应：同步竞争 §B恢复默认§!"
+ 
+ z_modmenu.133.DDSC_var_common: "§YBasic ratio§!: [event_target:z_fw_tgt_global_event.DDSC_var_set_mult_glbl_perc]%"
+ z_modmenu.133.DDSC_var_faction: "§HFaction§!:\nFallen=[event_target:z_fw_tgt_global_event.DDSC_var_set_weight_fallen]\nThreat=[event_target:z_fw_tgt_global_event.DDSC_var_set_weight_threat]/Crisis=[event_target:z_fw_tgt_global_event.DDSC_var_set_weight_crisis]/Monsters=[event_target:z_fw_tgt_global_event.DDSC_var_set_weight_monster]/Levithan=[event_target:z_fw_tgt_global_event.DDSC_var_set_weight_lev]"
+
+
+
+
 #_evts z modmenu misc
  z_modmenu.130.name:0 "Supreme relics obtained"
- z_modmenu.130.desc:0 "$z_fw_r_celestial_orrey$ and $z_fw_r_cheat_quantum_beacon$ obtained."
- z_modmenu.131.name:0 "Le tricheur apparaît"
- z_modmenu.131.desc:0 "Il est honteux que [event_target:z_fw_tgt_country_last_cheater.GetName] vient de basculer la fonction de triche de §GInfinite Stellaris§!, et nous savons tous que c'est un jeu multijoueur !"
+ z_modmenu.130.desc:0 "$z_fw_r_celestial_orrey$, $z_fw_r_cheat_quantum_beacon$, $z_fw_r_cheat_hyper_blade$, $z_fw_r_cheat_mega_sword$, $z_fw_r_cheat_fury$ and $z_fw_r_cht_emp$ obtained."
+ z_modmenu.not_host:0 "You are not the HOST"
+ z_modmenu.not_host.desc:0 "Only HOST of this game is allowed to use this option."
+ z_modmenu.131.name:0 "Cheater appears"
+ z_modmenu.131.desc:0 "It's shameful that [event_target:z_fw_tgt_country_last_cheater.GetName] has just toggled the cheating function of §GKasako's Core§!, and we all know this is multiplay game!"
+ z_modmenu.cheat_allowed:0 "Cheat Allowed"
+ z_modmenu.cheat_allowed.desc:0 "The host has unlocked the cheating mode, click the LOGO to open the framework settings and view the cheating options."
  
  
  
  
-#_IS misc function
- z_mm_autostation_desc: "§BStations Automatiques§!:\n\nParamètres possibles : §YSeuil de minéraux : 100 / 600 / Désactivé§!. Si ce n'est pas §YDésactivé§!, un vaisseau de construction sera construit automatiquement dans un système qui vous appartient, et construira les stations nécessaires, dès que les conditions sont requises." 
+###_TOP BUTTONS
+ z_mm_autostation_desc: "§BAutomatic Mining/Research Station§!:\n\nSet the basic conditions of mineral stockpile that allow the automatic construction of the space station, or switch off the automatic station function. A fully-automated construction ship will be created in any system inside your border to build orbital station there if your minerals stockpile is above lower limit condition."
+ z_mm_tips_autostation_desc: "§YEmpire Energy Income§! §G>5§!"
  z_mm_full_sensor_desc: "§BFull Sensor Switcher§!: \n\nYou can choose to turn on or off the full sensor function. Of course, it will only take effect if you have the condition like §YSentinel Array§!, or it make no sense.\n\nNote: The full sensor view will cause severe frame loss in the Galaxy map mode because the system has too many UI objects to calculate." 
+ FW_cpntTEM_spy_orb_1: "$spy_orb_1$"
+ FW_cpntTEM_spy_orb_1_DESC: "$spy_orb_1_DESC$"
+ FW_cpntTEM_spy_orb_2: "$spy_orb_2$"
+ FW_cpntTEM_spy_orb_2_DESC: "$spy_orb_2_DESC$"
+ FW_cpntTEM_spy_orb_3: "$spy_orb_3$"
+ FW_cpntTEM_spy_orb_3_DESC: "$spy_orb_3_DESC$"
+ #AAR网道
+ FW_tips_AAR_webway_off: "$colossus$ Webway Activation §HDisabled§!\n\nChoose to disable or enable the ability to activate §YWebway Node§! via strategic starships such as $colossus$. \nIf off, popup window for webway activation will no longer show when a ship like $colossus$ entering the orbit of central star."
+ FW_tips_AAR_webway_on: "$colossus$ Webway Activation §GEnabled§!\n\nChoose to disable or enable the ability to activate §YWebway Node§! via strategic starships such as $colossus$. \nIf off, popup window for webway activation will no longer show when a ship like $colossus$ entering the orbit of central star."
+ FW_failtips_AAR_not_activited: "MOD §BReworked Advanced Ascension§! not activated."
+ FW_failtips_AAR_no_AP_webway: "You don't have ascension perk §BWebway Runner§! from MOD §BReworked Advanced Ascension§!."
+ #PF迁移
+ z_mm_pf_manual_job_check_button: "Perform a manual population migration for all countries, transporting the unemployed to the world where there are vacant jobs. Each planet can move up to 25 people, and the planet's population migration setting will affect the result. \nNote that this is a global behavior and may be stuck for a while.\n\nPerform §BProduction Revolution§! Checking to all empires\n§BProduction Parameters§! will be counted, and §HPops/ Manpower Transfer§! will be carried out."
+ z_mm_pf_manual_job_own_button: "Perform a manual population migration for all countries, transporting the unemployed to the world where there are vacant jobs. Each planet can move up to 25 people, and the planet's population migration setting will affect the result.\n\nPerform §BProduction Revolution§! Checking\n§BProduction Parameters§! will be counted, and §HPops/ Manpower Transfer§! will be carried out."
+ z_mm_pf_manual_job_checking: "Manually job check ongoing.\nEmpire manual migration consumes §G25§!£energy£§Y$energy$§! per pop, and the migration command will not be executed when §Y$energy$§! is insufficient."
+ z_mm_pf2_merge_ai_species_button: "$z_performance_misc.11.f1$\n$z_performance_misc.11.f1.tooltip$"
+ z_mm_pf2_merge_own_species_button: "$z_performance_misc.11.f2$\n$z_performance_misc.11.f2.tooltip$"
+ z_mm_pf2_merge_robotic_species_button: "$z_performance_misc.11.f4$\n$z_performance_misc.11.f4.tooltip$"
+ z_mm_pf2_ai_species_merging: "Merging AI species ongoing."
+ z_mm_pf2_merge_ai_flt_button: "$z_performance_misc.11.f5$\n$z_performance_misc.11.f5.tooltip$"
+
+
+
+
+
+
+
+###_SUB MODULES
+ z_mm_performance_desc: "§GInfintie Stellaris§!: Performance\nA mod which optimizes the job checking system to improve late game performance. Sub mod of Kasako's Core Project."
+ z_mm_pf2_desc: "§GBetter Performance§!\nA mod that optimizes the game in all aspects, improves the speed of the later game, and provides a variety of convenient functions."
+ z_mm_statistic_desc: "§GInfintie Stellaris§!: Performance Statistics\nA mod for game data statistics, which provides reference for optimization and debugging. Sub mod of Kasako's Core Project."
+ z_mm_cm_desc: "§GInfintie Stellaris§!: Crisis Master\nA powerful crisis manager and crisis expansion mod which make crisis and the War in Haven more challenging and interesting. Sub mod of Kasako's Core Project."
+ z_mm_lctr_desc: "§GKasako's§! Advanced Locator\nA powerful positioning system that can display systems containing specific targets on Galaxy map as points of interest. This will make it easy for you to find some special systems. Please follow the instructions after opening the sub-module menu."
+ z_mm_rts_desc: "§GReworked Tactical System§!\nFocus on battle and warfare, including §YSystem Scale/ Better Attribute/ Weapon Balance/ Battle FX/ Components and Technologies/ Dynamic Galaxy Situation§! etc. The main goal is to increase the depth of the war between interstellar empires."
+ z_mm_pr_desc: "§GKasako's§! Production Revolution\nThe population system and methods system have been reworked to greatly reduce the number of pops. The unemployed pops will be transfered into planetary manpower. The higher the planetary manpower, the higher the output bonus. \nAt the same time, new structures and production ascensions give you new economic choices, and the simplification of pop management, manpower structures and planetary social structure will free your hands while adding more mental entertainment to you."
  
-#_IS sub modules
- z_mm_performance_desc: "§GInfintie Stellaris§! : Performance\nUn mod qui optimise le système de vérification des tâches pour améliorer les performances en fin de partie. Sous-mod du projet Infinite Stellaris."
- z_mm_pf2_desc: "§GInfintie Stellaris§! : Performance Plus\nUn mod qui optimise le jeu sous tous ses aspects pour améliorer les performances en fin de partie. Sous-mod du projet Infinite Stellaris."
- z_mm_statistic_desc: "§GInfintie Stellaris§! : Statistiques de performances\nUn mod pour les statistiques de données de jeu, qui fournit une référence pour l'optimisation et le débogage. Sous-mod du projet Infinite Stellaris."
- z_mm_cm_desc: "§GInfintie Stellaris§! : Crisis Master\nUn puissant gestionnaire de crise et un mod d'expansion de crise qui rendent la crise et la guerre de Haven plus difficiles et intéressantes. Sous-mod du projet Infinite Stellaris."
 #_misc mods
- z_misc_modmenu_button:0 "§GInfinite Stellaris§! : Menu de personnalisation pris en charge"
- z_misc_modmenu_button.tooltip:0 "§HOuvre§! Menu de personnalisation des modules pris en charge"
+ z_misc_modmenu_button:0 "§GKasako's§! Supported Customization Menu"
+ z_misc_modmenu_button.tooltip:0 "§HOpen§! Supported Mod Customization Menu"
  z_misc_modmenu.1.name:0 "$z_misc_modmenu_button$"
- z_misc_modmenu.1.desc:0 "Ce n'est que lorsque les mods pris en charge sont activés que ces boutons de personnalisation apparaissent."
- z_misc_modmenu_desc:0 "$z_misc_modmenu_button$\n$ z_misc_modmenu.1.desc $"
+ z_misc_modmenu.1.desc:0 "Only when supported mods are activited, those customization button will appear."
+ z_misc_modmenu_desc:0 "$z_misc_modmenu_button$\n$z_misc_modmenu.1.desc$"
 
-#_standalone shortcut buttons
- z_mm_sm_dduc_desc: "§BDynamic Difficulty - Ultimate Customization§!\nCe mod vous permet d'ajuster la force de tous les ennemis dans le jeu, y compris les ressources et la puissance de combat, vous donnant plus de défis."
- z_mm_sm_mem_desc: "§BMore Events Mod (MEM)§!\nCe mod ajoute de nouvelles anomalies et événements à votre jeu, en se concentrant sur l'épicage du jeu après que l'exploration ait ralenti."
- z_mm_sm_esc_desc: "§BExtra Ship Components (ESC)§!\nCe mod vise à fournir une arborescence technologique étendue et étendue, ajoutant des armes, des boucliers et des armures avancées."
- z_mm_sm_rls_desc: "§BSystème de niveau de règle (RLS)§!\nRLS permet à chaque règle d'avoir son propre système de niveau ! Faites jouer le rôle de règle comme un jeu de rôle."
- z_mm_sm_acot_desc: "§BAncient Cache of Technologies§!\nCe mod présente une grande variété de nouvelles technologies basées sur l'énigmatique matière noire / énergies sombres. Des armes de Vaisseau, aux bâtiments, aux armées ou aux décisions planétaires."
- z_mm_sm_cmn_desc: "§BCrisis Manager Unofficial§!\nCe mod vous permet de définir les détails de toutes les crises d'origine, y compris la crise de fin de partie, la menace à moyen terme et la fin du cercle. §RRemarque : conflit avec le Crisis Master, choisissez l'un ou l'autre.§!"
- z_mm_sm_tgu_desc: "§BL'Université Galactique§!\nCe mode vous permet d'embaucher des leaders basés sur leurs traits en dépensant suffisamment de crédits d'énergie."
+
+
+
+###_SUPPORT MODS
+ z_mm_sp_ig_desc: "§BZer0's Infinity Stones: Redux§! Setting Menu\nAdd Kasako's war and related events, and you can use it after opening the Kasako's war setting menu once through the edict."
+ z_mm_sp_ig_cht_desc: "§BZer0's Infinity Stones: Redux§! Gautlet Cheat Menu\nThe Kasako's Gautlet cheat menu can only be open after enabling the cheating function in §BInfinite Stones Redux Setting Menu§!."
+ z_mm_tips_isr_cheat_on: "Enable Cheat Menu first"
+ z_mm_sp_eac_dpl_desc: "§BAt War: Defense Platform Longevity§! Setting Menu"
+ z_mm_sp_tcf_desc: "§BTerraforming Candidate Finder§! Setting Menu"
+ z_mm_sp_mods_had_ab_desc: "§BAutoBuild (only space stations)§! Setting Menu. Another mod that automatically builds space station, which has overlapping functions with the §GAutomatic Construction Ship§! from the Kasako's Core, so choose one to use."
+ z_mm_sp_mods_had_bts_desc: "§BBoard That Ship!§! Debug Button. Restore all disabled ships."
+ 
+ z_mm_sm_dduc_desc: "§BEnemy Adaptation - Ultimate Customization§!\nThis mod allows you to adjust the strength of all enemies in the game, including resources and combat power, giving you more challenges."
+ z_mm_sm_mem_desc: "§BMore Events Mod§!\nThis mod adds new anomalies and events to your game, focusing on spicing up the game after exploration has slowed down."
+ z_mm_sm_esc_desc: "§BExtra Ship Components§!\nThis mod aims to provide an extended and expanded technology tree, adding advanced weapons, shields and armor."
+ z_mm_sm_rls_desc: "§BRuler Level System§!\nRLS let every Ruler has their own level system! Make ruler role playing like a rpg game."
+ z_mm_sm_acot_desc: "§BAncient Cache of Technologies§!\nThis mod introduces a large varieties of new technologies based on the enigmatic dark matter/dark energies. From ship weapons, to buildings, to armies or planetary decisions."
+ z_mm_sp_sofe_desc: "§BSin of the Fallen Empires§! Settings"
+ 
+ z_mm_sm_cmn_desc: "§BCrisis Manager Unofficial§!\nThis mod allows you to set the details of all original crisis, including the endgame crisis, mid-term threat, and end of the circle. §RNote: conflict with the Crisis Master, choose one or another.§!"
+ z_mm_sp_mods_cmdt_desc: "§BA Deadly Tempest§! Settings\nThis mod add a lot of new stuff to Gray Tempest. §RNote: conflict with the Crisis Master, choose one or another.§!"
+ z_mm_sm_tgu_desc: "§BThe Galactic University§!\nThis mod allows you to hire leaders with certain characteristics for energy credits."
  z_mm_sm_ftm_desc: "§BFleet Transfer Mod§!\nThis mod has 4 functions: fleet transfer, fleet market, fleet lease, fleet auction. Allows you to have more ways to manage your fleet and establish a multinational arms supply mechanism."
+ z_mm_sp_hfe_desc: "§BHuman Fallen Empires§! Setting Menu\nThis gorgeous mod pharaoh aims to add new content and game features, search it on steam for details."
+ z_mm_sp_giga_desc: "§BGigastructural Engineering & More§! Settings"
+
+ z_mm_sp_ev_desc: "§BThe Empty Vagrant§! Setting Menu\nA mod that tries to simulate a fleet civilization without planets, search it on steam for details."
+ z_mm_sp_kuat_desc: "§BSTAR WARS:EXECUTOR AND KUAT§! Setting Menu\nThis MOD adds Super Star Destroyer Enforcer class and powerful turbo laser weapons. At the same time, the producer of the executors-Quart Power Dock Company will also generally exist on the map as a fallen empire in the game, with a large number of playable events and extremely challenging. Search STAR WARS:EXECUTOR AND KUAT on steam workshop for details."
+ z_mm_sp_wsg_desc: "§BWarship Girls R And MIST Species§! Crisis Setting\nAllows you to reset the difficult of crisis, but please use it with caution."
+ z_mm_sp_wsg_leader_desc: "§BWarship Girls R And MIST Species: Communicate with Paper Girls§!\nAvailable after getting the Shimakaze, allowing you to communicate with various paper girls."
+ z_mm_tips_sp_wsg_shimakaze: "Available after getting the Shimakaze."
+
+ z_mm_sp_uap_desc: "§BUnique Ascension Perks§! Setting\nAdd some new interesting unique ascensions."
+ z_mm_sp_iisc_desc: "§BInterstellar Incorporated: Space Corp§! Setting\nCreate a living space and economy."
+ z_mm_sp_complex_potv_desc: "§BPantheons of the Void§! Religious Tree\nIn this mod you will be able to chose your religious system in the empire creation screen, this selection will determine what your empire supports as faith. Faith or Religious systems go from Atheism to Animatism."
+ z_mm_sp_bcm_desc: "§BBetterCheats§! Setting Menu\nYou will have a variety of new cheating options, covering almost any resource type and game category."
+ z_mm_sp_ace_desc: "§BAggressive Crisis Engine§! \nA collaborative Stellaris mod with new crisis AI and a great amount of crisis improvements."
+ z_mm_sp_NSC_desc: "§BNSC§! \nAdd new ship types."
 
 
 
+
+###_CSP SUPPORT mods
+ z_mm_tips_csp_requirement: "The unlock conditions are not met, please find information from the original MOD."
+ z_mm_tips_csp_title: "Custom Supported Buttons"
+ z_mm_csp_common:0 "\n\n§BCustom supported mod§!, the framework provides special support for this type of mods. There will be independent custom setting menus and basic compatibility support so that it can coexist harmoniously with other custom supported mods."
+ z_mm_csp_ev_desc: "§BEmpty Vagrant§!\nThis mod provides a brand-new gameplay system to build a nomadic space empire without any planetary colony, and also a brand-new rebellion system and a terrifying monster crisis is waiting for you.$z_mm_csp_common$"
+ 
+ z_mm_tips_csp_misc_fleet_dismantle_on: "Fleet Destruction: §GEnabled§!"
+ z_mm_tips_csp_misc_fleet_dismantle_off: "Fleet Destruction: §HDisabled§!"
+ z_mm_tips_csp_misc_fleet_dismantle: "Fleet Destruction: After enabling it, select any fleet and order it to move to orbit of capital planet (to use moving command and right click on the capital planet), select "set as the target fleet" in the pop-up event.  \nIf you have installed §BDark Blue UI Overhaul§!, after selecting the fleet, a self-dismantle button will be added to the fleet panel. \nAfter the setting is completed, the fleet will become a neutral target and add fragile buffs. Using any of your own fleets to destroy this fleet will generate ship wreckage and allow reverse engineering on it."
+ 
+ z_mm_tips_csp_misc_edt_show: "Setting Edicts of Supported Mods §GShown§!"
+ z_mm_tips_csp_misc_edt_hide: "Setting Edicts of Supported Mods §HHidden§!\n\nSettings menu edicts form some mods are hidden to keep the list clean."
+#_[z_mui主按钮隐藏]
+ z_mm_tips_csp_misc_mui_button_show: "Dark Blue UI main bottom button: §GShown§!"
+ z_mm_tips_csp_misc_mui_button_hide: "Dark Blue UI main bottom button: §HHidden§!"
+ z_mm_tips_csp_misc_mui_button: "Show or hide the big button of the Kasako's Core mod setting panel in the middle bottom of main UI, in case some people don't like it."
+ 
+ z_mm_tips_csp_stability_mod_non:0 "Need §B1st Liberation Manual:The Empire in fallen§! to be activated, search it in steam if you need it."
+ z_mm_tips_csp_ftm_non:0 "Need §BFleet Transfer Mod§! to be activated, search it in steam if you need it."
+ z_mm_tips_csp_ag_non:0 "Need §BAncient Empire§! to be activated, search it in steam if you need it."
+ z_mm_tips_csp_ftm_transfer:0 "§BFTM§! Fleet Transfer"
+ z_mm_tips_csp_ftm_sell:0 "§BFTM§! Fleet Market"
+ z_mm_tips_csp_ftm_rent:0 "§BFTM§! Fleet Rent"
+ z_mm_tips_csp_ftm_auction:0 "§BFTM§! Fleet Auction"
+
+
+
+
+### 通用指南
+ MM_btn_Guide: "§YUser Guide§!"
+ MM_tips_BTN_Guide: "Move the cursor over the guide button to display guide details."
 
