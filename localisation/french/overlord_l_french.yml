@@ -7,7 +7,7 @@
  origin_progenitor_hive:0 "Conscience progénitrice"
  origin_progenitor_hive_desc:1 "Son évolution a donné à cette conscience collective un avantage sous la forme de personnalités semi-indépendantes. Ces « progénitures » accroissent grandement l'efficacité de la conscience, mais un contrôle constant est indispensable."
  START_SCREEN_PROGENITOR_HIVE:1 "Au départ était la Progénitrice.\n\nLa vie sur [GetHomeWorldName] était rude et difficile, et pourtant elle est parvenue à étendre toujours davantage son territoire, à tel point qu'il lui est bientôt devenu impossible de gouverner des possessions aussi vastes. Aussi a-t-elle créé la première progéniture. Mais, au cours du temps, il lui est apparu que ses progénitures ne pouvaient tout faire seules. À leur tour, elles ont donc produit des drones subalternes, afin de les aider à dominer notre monde.\n\nMaintenant que nous nous apprêtons à tenter pour la première fois d'assurer notre emprise sur l'ensemble du système de [capital_scope.System.GetName], la Progénitrice s'est isolée dans un nid bien spécifique : avec le contrôle plus grand et plus performant que cela lui permet, nous sommes prêts désormais à propager son influence à toutes les étoiles de la galaxie. Car la Progénitrice a été, la Progénitrice est, et la Progénitrice sera. La [GetName] y veillera."
- origin_tooltip_progenitor_hive_effects:3 "- Emploie des §Hpersonnalités§! spécifiques, les §Yprogénitures§!, qui gagnent de l'expérience de manière passive ;\n- remplace les £building£§Hbassins de croissance§! par des £building£§Hnids progénitaires§!, permettant une puissante armée défensive et une productivité accrue pour les £pop_cat_simple_drone£drones subalternes ;\n- permet la construction de £building£§Hnids progénitaires§! sur les mondes des dépendances ;\n- peut accorder l'indépendance à des §Hsecteurs§! comme §Hdépendances§! ;\n- permet la construction de §Hvaisseaux progénitaires§!, améliorant l'efficacité des vaisseaux à proximité, les flottes en étant dépourvues subissant :"
+ origin_tooltip_progenitor_hive_effects:3 "- Emploie des §Hpersonnalités§! spécifiques, les §Yprogénitures§!, qui gagnent de l'expérience de manière passive ;\n- remplace les £building£§Ybassins de croissance§! par des £building£§Ynids progénitaires§!, permettant une puissante armée défensive et une productivité accrue pour les £pop_cat_simple_drone£drones subalternes ;\n- permet la construction de £building£§Ynids progénitaires§! sur les mondes des dépendances ;\n- si elles n'ont pas la doctrine §H$civic_hive_devouring_swarm$§!, peut accorder l'indépendance à des §Hsecteurs§! comme §Hdépendances§! ;\n- permet la construction de §Hvaisseaux progénitaires§!, améliorant l'efficacité des vaisseaux à proximité, les flottes en étant dépourvues subissant :"
  #Progenitor deposits, armies and decisions
  progenitor_defense:0 "Progénitrice de la Conscience"
  progenitor_defense_plural:0 "$progenitor_defense$"
@@ -120,15 +120,15 @@
  sm_offspring_outlook_desc:0 "Un module de base stellaire permettant à une progéniture de contrôler et commander les batailles en cours dans le système.\n"
  STARBASE_OFFSPRING_OUTLOOK:0 "$sm_offspring_outlook$"
 
- mod_shipsize_offspring_corvette_build_speed_mult: "Vit. de constr. des corvettes progénitaires "
- mod_shipsize_offspring_destroyer_build_speed_mult: "Vit. de constr. des destroyers progénitaires "
- mod_shipsize_offspring_cruiser_build_speed_mult: "Vit. de constr. des croiseurs progénitaires "
- mod_shipsize_offspring_battleship_build_speed_mult: "Vit. de constr. des cuirassés progénitaires "
+ mod_shipsize_offspring_corvette_build_speed_mult:0 "Vit. de constr. des corvettes progénitaires "
+ mod_shipsize_offspring_destroyer_build_speed_mult:0 "Vit. de constr. des destroyers progénitaires "
+ mod_shipsize_offspring_cruiser_build_speed_mult:0 "Vit. de constr. des croiseurs progénitaires "
+ mod_shipsize_offspring_battleship_build_speed_mult:0 "Vit. de constr. des cuirassés progénitaires "
 
- mod_shipsize_offspring_corvette_hull_add: "Points de coque des corvettes progénitaires "
- mod_shipsize_offspring_destroyer_hull_add: "Points de coque des destroyers progénitaires "
- mod_shipsize_offspring_cruiser_hull_add: "Points de coque des croiseurs progénitaires "
- mod_shipsize_offspring_battleship_hull_add: "Points de coque des cuirassés progénitaires "
+ mod_shipsize_offspring_corvette_hull_add:0 "Points de coque des corvettes progénitaires "
+ mod_shipsize_offspring_destroyer_hull_add:0 "Points de coque des destroyers progénitaires "
+ mod_shipsize_offspring_cruiser_hull_add:0 "Points de coque des croiseurs progénitaires "
+ mod_shipsize_offspring_battleship_hull_add:0 "Points de coque des cuirassés progénitaires "
 
  ##########################
  # Subterranean origin
@@ -136,25 +136,16 @@
 
  origin_subterranean:0 "Souterraine"
  origin_subterranean_desc:0 "Que ce soit pour éviter les prédateurs ou disposer d'un accès plus aisé aux ressources, cette espèce a su évoluer pour vivre sous la surface de son monde natal, donnant naissance à une société plus polyvalente au niveau environnemental."
- origin_tooltip_subterranean_effects:1 "- Lance la partie avec le trait §Y$trait_cave_dweller$§! ;\n- l'espèce construit des cités souterraines, accroissant le coût des £building£bâtiments et £district£districts de §R10%§!, et ralentissant leur vitesse de construction de §R10%§! ;\n- les dommages causés aux colonies par les bombardements orbitaux sont réduits de §G75%§! ;\n- les £district£§Hdistricts miniers§! :\n   - ne sont plus limités,\n   - ajoutent §G2§! £housing£§Ylogements§!,\n   - ajoutent §G1§! £building£§Yemplacement constructible§! par palier §Y3§!."
+ origin_tooltip_subterranean_effects:2 "- Lance la partie avec le trait §Y$trait_cave_dweller$§! ;\n- les £district£§Hdistricts miniers§! :\n   - ne sont plus limités,\n   - ajoutent §G2§! £housing£§Ylogements§!,\n   - ajoutent §G1§! £building£§Yemplacement constructible§! par palier de §Y3§! ;\n- l'espèce construit des cités souterraines, conférant :"
  trait_cave_dweller:0 "Habitants des cavernes"
  trait_cave_dweller_desc:0 "§LCette espèce prospère sous la surface de tous les mondes qu'elle colonise, mais se développe moins rapidement.§!"
- trait_cave_dweller_tooltip: "$MOD_BIO_POP_GROWTH_SPEED$: §R-20%§!"
+ trait_cave_dweller_tooltip:0 "$MOD_BIO_POP_GROWTH_SPEED$: §R-20%§!"
 
  START_SCREEN_SUBTERRANEAN:1 "Si toutes les autres créatures sur [GetHomeWorldName] passent leurs nuits dans les étendues sauvages, les prédécesseurs des [GetSpeciesNamePlural] ont bien vite appris tous les avantages qu'il y avait à vivre dans des refuges souterrains, à l'abri de la lumière trop violente et des intempéries.\n\n$START_SCREEN_SUBTERRANEAN_END$"
  START_SCREEN_SUBTERRANEAN_PLANT:1 "Sur [GetHomeWorldName], les formes de vie ont pris des chemins radicalement différents. Au contraire de toutes celles avec lesquelles nous nous partageons ce monde, qui tirent leur énergie de la lumière stellaire, les [GetSpeciesNamePlural] tirent leurs nutriments des profondeurs du sol, comme le faisaient déjà leurs ancêtres.\n\n$START_SCREEN_SUBTERRANEAN_END$"
  START_SCREEN_SUBTERRANEAN_LITHOID:0 "Nous sommes nés des profondeurs les plus lointaines de [GetHomeWorldName]. Éloignés de la lumière violente de notre étoile, le chemin qu'a suivi l'espèce [GetSpeciesName] a divergé de celui de nos cousins immobiles, qui sont restés comme des sentinelles au-dessus et tout autour de nous. Contrairement à eux, nous avons acquis la capacité à nous déplacer, à penser, et avons pu donner naissance à une civilisation.\n\n$START_SCREEN_SUBTERRANEAN_END$"
  START_SCREEN_SUBTERRANEAN_END:1 "Un accès aisé aux minéraux a rapidement permis à nos prédécesseurs de s'industrialiser, d'unifier notre espèce et de faire progresser notre civilisation dans les cavernes. De nombreuses tentatives ont été faites de retourner vers la surface, mais chaque fois cela s'est terminé de façon brutale et impitoyable. Aussi sommes-nous restés enfouis au plus profond du sol, établissant notre domination depuis les fondements mêmes de notre monde.\n\nEt maintenant, avec la découverte de l'hyperpropulseur, nous pouvons lancer notre expérience la plus hardie jusqu'à présent : atteindre les étoiles. Ainsi, tout comme nos aïeux avant nous, nous pourrons continuer de bâtir nos foyers dans l'obscurité."
  SUBTERRANEAN:0 "souterraine"
-
- d_subterranean_mines:0 "Mines souterraines"
- d_subterranean_mines_desc:0 "Cette civilisation s'est développée sous la surface de son monde, ce qui lui a offert un accès privilégié à ses minéraux."
-
- subterranean_nation_modifier:0 "Civilisation souterraine"
- subterranean_nation_modifier_desc:0 ""
-
- leader_trait_subterranean_archaeology:0 "Expertise souterraine"
- leader_trait_subterranean_archaeology_desc:0 "Cette personnalité est parfaitement accoutumée aux excavations souterraines."
 
  ##########################
  # Teachers of the Shroud #
@@ -248,6 +239,11 @@
  # Wars
  NAME_Imperial_War:0 "Guerre civile impériale"
 
+ # Megastructure
+ gateway_derelict:0 "Portail délabré"
+ gateway_derelict_DESC:0 "$gateway_final_DESC$"
+ gateway_derelict_MEGASTRUCTURE_DETAILS:0 "$gateway_final_MEGASTRUCTURE_DETAILS$"
+
  # Events
  origin.5703.desc:0 "Toutes nos salutations, chers [Root.GetSpeciesNamePlural] !\n\nMaintenant que vous avez choisi de prendre part à notre... alliance, nous devions vous contacter. Nous sommes heureux que vous ayez fait le choix de la sagesse, plutôt que de nous contraindre à recourir à des moyens plus coercitifs."
  origin.5703.a:0 "Vous ne nous avez guère laissé le choix..."
@@ -294,10 +290,12 @@
  origin.5725.a:0 "Si le coeur est pourri, le reste suivra bientôt..."
 
  origin.5735.title:0 "Implosion de la [previous_overlord.GetName]"
- origin.5735.desc:0 "Nul n'a plus les moyens désormais de maintenir cet édifice qu'était la §Y[previous_overlord.GetName]§!, et l'empire est désormais divisé entre plusieurs entités issues de son démembrement, chacune prétendant détenir le droit de gouverner les autres, toutes prêtes à se déchirer pour imposer leur pouvoir.\n\nMais, maintenant dépourvus de la puissance ou de la légitimité qui était jadis les leur, le contrôle des [previous_overlord.GetSpeciesNamePlural] sur leurs anciens vassaux est réduit à néant. À ces derniers de décider maintenant ce qu'ils feront de leur avenir. Et, peut-être, de leur indépendance retrouvée..."
+ origin.5735.desc:1 "Nul n'a plus les moyens désormais de maintenir cet édifice qu'était '§Y[previous_overlord.GetName]§!', et l'empire est désormais divisé entre plusieurs entités issues de son démembrement, chacune prétendant détenir le droit de gouverner les autres, toutes prêtes à se déchirer pour imposer leur pouvoir.\n\nMais, maintenant dépourvus de la puissance ou de la légitimité qui étaient jadis les leurs, le contrôle des [previous_overlord.GetSpeciesNamePlural] sur leurs anciens vassaux est réduit à néant. À ces derniers de décider maintenant ce qu'ils feront de leur indépendance retrouvée..."
  origin.5735.a:0 "Ainsi retrouvons-nous la liberté !"
  origin.5735.b:0 "Le pouvoir doit bien revenir à quelqu'un..."
- origin.5735.b.tt:0 "Alloue pour §Y30 ans§! le casus belli §Y$casus_belli_cb_subjugation$§! à l'encontre de la §Y[previous_overlord.GetName]§! et de toutes ses anciennes dépendances."
+ origin.5735.b.tt:0 "Alloue pour §Y30 ans§! le casus belli §Y$casus_belli_cb_subjugation$§! à l'encontre de la §Y[previous_overlord.GetName]§! et de tous ses anciens vassaux."
+ origin.5735.c:0 "Qu'importe, nous resterons fidèles au trône"
+ origin.5735.c.tt:0 "'§Y[Root.GetName]§!' va demeurer une dépendance fidèle de '§Y[previous_overlord.GetName]§!'."
 
  # AI Vassals looking for new overlord events
  origin.5745.title:0 "Protection des sciences"
@@ -525,6 +523,8 @@
  opinion_imperial_vassal_ai_opinion:0 "Dépendance récente "
  opinion_imperial_vassal_new_overlord:0 "Protection suzeraine "
  opinion_imperial_vassal_refused_overlordship:0 "Suzeraineté refusée "
+ opinion_imperial_vassal_grateful_response_overlord_opinion:0 "Reconnaissance "
+ opinion_imperial_vassal_harsh_response_overlord_opinion:0 "Déception "
 
  ####################
  # Assorted Tooltips
@@ -593,3 +593,11 @@
  NAME_Hesperis_adj:0 "hespérisienne"
  NAME_Arktos:0 "Arctos"
  NAME_Arktos_adj:0 "arctosienne"
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ d_subterranean_mines:0 "Mines souterraines"
+ d_subterranean_mines_desc:0 "Cette civilisation s'est développée sous la surface de son monde, ce qui lui a offert un accès privilégié à ses minéraux."
+ subterranean_nation_modifier:0 "Civilisation souterraine"
+ subterranean_nation_modifier_desc:0 ""
+ leader_trait_subterranean_archaeology:0 "Expertise souterraine"
+ leader_trait_subterranean_archaeology_desc:0 "Cette personnalité est parfaitement accoutumée aux excavations souterraines."
+

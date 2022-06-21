@@ -43,6 +43,7 @@
  enclave.2.tooltip.dd:0 "Le nombre maximal d'enclaves de Mercenaires le permet."
  enclave.2.tooltip.e:1 "Une lune ou un astéroïde doit se trouver dans le système."
  enclave.2.tooltip.ee:1 "Le système n'a ni lune, ni astéroïde."
+ enclave.2.tooltip.f:0 "Cette flotte doit être en notre possession."
  enclave.2.a.tooltip:0 "Une enclave de Mercenaires va être fondée."
  enclave.23.desc:0 "Merci de nous avoir fondés !"
  enclave.25:0 "Enclave mercenaire détruite"
@@ -125,7 +126,7 @@
  enclave.280.c.desc:0 "Nous sommes toujours ravis de recevoir nos bienfaiteurs. Soyez assurés que les prochains dividendes devraient vous parvenir d'ici peu.\n\nÀ ce propos, que pensez-vous des services que nous proposerons bientôt pour la protection des personnalités de très grande notoriété ? Nous sommes persuadés que nos clients civils vont adorer se les offrir !"
  enclave.280.b:1 "Nous voulons que vous §Yrappeliez§! votre flotte"
  enclave.280.c:0 "Nous souhaitons partager nos §Ytechnologies§! avec vous"
- enclave.280.c.timeout: "L'enclave est encore en train de rattraper nos technologies. Nous pourrons procéder à un nouveau partage technologique après le §Y[event_target:mercenary_enclave_country.updating_databanks_timer]§!."
+ enclave.280.c.timeout:0 "L'enclave est encore en train de rattraper nos technologies. Nous pourrons procéder à un nouveau partage technologique après le §Y[mercenary_enclave_country.updating_databanks_timer]§!."
  enclave.285.desc:1 "Vous le comprenez certainement, rappeler une flotte sous contrat est une question complexe, même si nous nous arrangeons bien évidemment pour laisser place à une telle possibilité dans tous nos contrats habituels. Il va donc falloir au moins six mois pour mettre la flotte à votre disposition. Et, euh... une compensation généreuse permettrait d'éviter de trop fâcher nos clients actuels.\n\nTout ceci n'est pas dans l'intérêt de notre organisation, mais puisque vous êtes nos mécènes, nous allons nous arranger pour que cela soit fait sans trop d'esclandres."
  enclave.285.tooltip:0 "Cela va déplaire aux Mercenaires."
  enclave.290.name:1 "Arrivée de la flotte réquisitionnée"
@@ -212,6 +213,7 @@
  enclave.2025.c:0 "Nous allons devoir intervenir, semble-t-il..."
  enclave.2040.desc:0 "Vous souhaitez partager vos technologies avec nous ? Nous sommes véritablement honorés de votre confiance ! De fait, si notre département Recherche & Développement fait tout pour nous maintenir à la pointe des avancées techniques, nous ne pouvons mobiliser autant de ressources que vous. Quoi qu'il en soit, soyez assurés que tout savoir que vous accepterez de partager avec nous sera usé à bon escient pour développer nos activités de la manière la plus éthique qui soit."
  enclave.2040.a.tt:0 "Nous allons partager nos §Ytechnologies§! avec cette enclave. Cela ne peut être fait qu'une fois tous les §Y10 ans§!."
+ merc_enclave_grants_ships:0 "'§Y[mercenary_enclave_country.GetName]§!' va aussi nous donner une §Gpetite flotte militaire§!."
 
 
 
@@ -879,4 +881,5 @@
 
  shroud_beacon_active_tooltip:0 "La [Root.GetName] dispose d'un §YFlambeau du Suaire§! en activité."
 
- shroudwalker_teacher_explanation:0 "Donne accès à la décision planétaire §Y$decision_shroudwalker_teacher$§!."
+ shroudwalker_teacher_explanation:1 "\nDonne accès à la §Ydécision planétaire§! §H$decision_shroudwalker_teacher$§! :\n$MOD_PLANET_AMENITIES_MULT$: §G+5%§!\n$mod_planet_jobs_unity_produces_mult$: §G+10%§!\n$mod_planet_telepaths_unity_produces_add$: §G+3§!"
+

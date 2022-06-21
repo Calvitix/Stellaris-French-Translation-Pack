@@ -33,6 +33,10 @@
  OUTLINER_SITUATION_OUTCOME_TIME:0 "D'après l'évolution mensuelle actuelle ($CHANGE$), une issue à cette situation devrait survenir d'ici $MONTHS|Y$ mois." # [LocEditor:ForFutureBatchExport]
  CLICK_TO_OPEN_SITUATION_LOG:0 "§GCliquer pour ouvrir le journal des situations.§!"
  SITUATION_STAGE_NO_EFFECTS:0 "Cette phase n'a aucune conséquence."
+ SITUATION_TARGET_TOOLTIP:0 "Cette situation concerne essentiellement $TARGET_TYPE$ '$TARGET|Y$'."
+ SITUATION_TARGET_TOOLTIP_NO_TARGET:0 "Les conséquences de cette situation sont ressenties dans tout l'espace de l'empire."
+ SITUATION_START_HEADER:0 "Valeur initiale"
+ SITUATION_START_TOOLTIP:0 "La situation commence avec une avancée de $VALUE|Y0$."
 
  situation_unknown_outcome_approach:0 "Nous ne savons pas précisément quelle sera l'issue de notre approche actuelle de la situation."
  situation_monthly_change_tooltip_no_control:0 "Nous ne pouvons rien faire concernant l'avancée de cette §Ysituation§!."
@@ -54,11 +58,11 @@
  approach_default:2 "Ne rien faire"
  approach_encourage:1 "Encouragements"
  approach_discourage:1 "Dissuasion"
- stage_1:0 "Phase I" # [LocEditor:ForFutureBatchExport]
- stage_2:0 "Phase II" # [LocEditor:ForFutureBatchExport]
- stage_3:0 "Phase III" # [LocEditor:ForFutureBatchExport]
- stage_4:0 "Phase IV" # [LocEditor:ForFutureBatchExport]
- stage_5:0 "Phase V" # [LocEditor:ForFutureBatchExport]
+ stage_1:1 "Phase I"
+ stage_2:1 "Phase II"
+ stage_3:1 "Phase III"
+ stage_4:1 "Phase IV"
+ stage_5:1 "Phase V"
  stage_2_alt:0 "$stage_2$"
  stage_3_alt:0 "$stage_3$"
  string_current_approach:0 "Approche actuelle"
@@ -159,7 +163,7 @@
  situation.190.desc:0 "Nous venons de perdre le contrôle de §Y[From.From.GetName]§!. Toute la [From.From.GetPlanetMoon] est désormais recouverte par la §HNeige Vivante§!. Déjà, des changements catastrophiques se produisent pour tous ses écosystèmes. Les [This.GetResearchers] ont d'ores et déjà prévenu que, si nous n'en retrouvons pas le contrôle très vite, nous ne disposerons plus d'aucun moyen de la rendre habitable."
  situation.190.tooltip:0 "§RNous devons reprendre cette [From.From.GetPlanetMoon] avant qu'il ne soit trop tard !§!"
  situation.195.name:0 "Neiges sans fin"
- situation.195.desc:0 "La Neige Vivante est parvenue à assurer son contrôle sur §Y[Root.GetName]§! de manière durable, et la [Root.GetPlanetMoon] est désormais beaucoup plus froide. Ses conditions atmosphériques ont été chamboulées de manière radicale, et à un rythme de plus en plus rapide. Désormais, ce monde ne peut plus être considéré comme habitable, et il paraît difficile de savoir si nous pourrons même un jour le restaurer dans son état antérieur... Les [Root.Owner.GetResearchers] assurent toutefois que bien des enseignements pourront être tirés de l'observation du comportement de la Neige prenant peu à peu conscience de son existence, ainsi que des réactions chimiques uniques qui ont permis un tel changement sur [Root.GetName]." # [LocEditor:ForFutureBatchExport]
+ situation.195.desc:1 "La §HNeige Vivante§! est parvenue à assurer son contrôle sur §Y[Root.GetName]§! de manière durable, et la [Root.GetPlanetMoon] est désormais beaucoup plus froide. Ses conditions atmosphériques ont été chamboulées de manière radicale, et à un rythme de plus en plus rapide. Désormais, ce monde ne peut plus être considéré comme habitable, et il paraît difficile de savoir si nous pourrons même un jour le restaurer dans son état antérieur... Les [saved_owner.GetResearchers] assurent toutefois que bien des enseignements pourront être tirés de l'observation du comportement de la Neige prenant peu à peu conscience de son existence, ainsi que des réactions chimiques uniques qui ont permis un tel changement sur [Root.GetName]."
  situation.195.A:0 "Glaglagla..."
 
  ### Geomagnetic Storm
@@ -185,7 +189,7 @@
  radiation_damage_high:0 "§Rd0Mmm49e5 r4di5 4 5ci0n5 : eéèêë1eéèêëveéèêë555§!"
 
  # Deposit
- d_machine_care_home:0 "Centre interface humain-machine"
+ d_machine_care_home:1 "Centre d'interface organiques/machines"
  d_machine_care_home_desc:0 "Un centre spécialisé où les drones défaillants sont affectés à des assistants biologiques."
 
  # Jobs
@@ -203,8 +207,8 @@
  radiation_hardened_components_desc:0 "Les mesures de protection des composants mécaniques face aux dommages causés par les radiations cosmiques ont été renforcées."
  software_damage:0 "Dommages logiciels"
  software_damage_desc:0 "Notre Conscience a été endommagée par les radiations. Des réparations sont en cours."
- machine_care_museum:0 "Musée de l'interface humains-machines"
- machine_care_museum_desc:0 "Un centre spécialisé où les assistants biologiques peuvent éprouver le plaisir d'exercer des tâches sans aucune importance mais leur donnant l'illusion d'être utiles."
+ machine_care_museum:1 "Musée des interfaces organiques/machines"
+ machine_care_museum_desc:1 "Un centre spécialisé où les biotrophées peuvent éprouver le plaisir d'exercer des tâches sans aucune importance mais leur donnant l'illusion d'être utiles."
 
 
  ## Events
@@ -382,8 +386,8 @@
  situation_gravity_well_desc:1 "La §Y[From.target.GetName]§! a quitté son orbite stable et chute dans le trou noir du système. Cet incident offre une opportunité inédite de collecter de la £sr_dark_matter£§Hmatière noire§! et de nombreuses informations dans le domaine de la £physics£§Hphysique§!, mais si rien n'est fait pour contrer l'attraction gravitationnelle la station sera très vite perdue."
  situation_gravity_well_monthly_change_tooltip:0 "L'avancée de cette §Ysituation§! dépend à la fois de l'§Yapproche§! choisie et de la §Yphase§! en cours. À mesure que la §Y[Target.GetName]§! se rapprochera du trou noir, il deviendra de plus en plus difficile de lui échapper."
 
- situation_gravity_well_finish_tooltip:0 "La §Y[Target.GetName]§! va échapper au trou noir." # [LocEditor:ForFutureBatchExport]
- situation_gravity_well_fail_tooltip:0 "La §Y[Target.GetName]§! va tomber dans le trou noir, et nous perdrons le contrôle de l'ensemble du système." # [LocEditor:ForFutureBatchExport]
+ situation_gravity_well_finish_tooltip:1 "'§Y[Target.GetName]§!' va tomber dans le trou noir, et nous perdrons le contrôle de l'ensemble du système."
+ situation_gravity_well_fail_tooltip:1 "'§Y[Target.GetName]§!' va échapper au trou noir."
 
  # Severity
  gravity_well_low:0 "Limite statique"
@@ -524,8 +528,8 @@
  deficit_approach_invest_in_crystal_producers:0 "Investissements dans la production de cristaux"
  deficit_approach_invest_in_gas_producers:0 "Soutien aux producteurs gaziers"
  deficit_approach_cut_science_investment:0 "Investissements scientifiques réduits"
- deficit_approach_cut_investment:0 "Investissements minéraux réduits"
- deficit_approach_cut_maintenance:0 "Réduc. de la maintenance des habitats" # [LocEditor:ForFutureBatchExport]
+ deficit_approach_cut_investment:1 "Réduction des invest."
+ deficit_approach_cut_maintenance:1 "Réduc. de la maintenance des habitats"
  deficit_approach_invest_in_alloys_production:0 "Soutien aux [Root.Owner.GetAlloyProducerPlural_lower]"
  deficit_approach_invest_in_farmers:0 "Investissements chez les [Root.Owner.GetFarmerPlural_lower]"
  deficit_first:0 "Légères pénuries"
@@ -618,9 +622,9 @@
  deficit.170.desc:1 "[Root.Owner.GetFinancialAdvisorAgencyCap] s'inquiète à propos des pénuries d'alliages toujours plus criantes dans l'espace de la [Root.Owner.GetName]. L'incapacité à répondre à toutes les demandes risque de créer de véritables tensions dans le secteur industriel."
  deficit.170.desc.machine:1 "Avertissement sur le budget : dépenses d'alliages supérieures aux approvisionnements depuis plusieurs mois consécutifs. Toute incapacité à y répondre va mettre ensemble du secteur industriel sous tension."
  deficit.170.A:1 "Recyclons les robots de §Y[robots_planet.GetName]§!"
- deficit.170.A.tooltip:1 "Le recyclage des §Y[robots_planet.half_population]§! £pop£pops de robots sur §Y[robots_planet.GetName]§! va fournir §Y[robots_planet.total_alloys_gained]§!£alloys£"
+ deficit.170.A.tooltip:2 "Le recyclage des §Y[robots_planet.recycled_robots]§! £pop£pops de robots sur §Y[robots_planet.GetName]§! va fournir §Y[robots_planet.total_alloys_gained]§!£alloys£"
  deficit.170.B:1 "Réponse : recyclage des robots de §Y[robots_planet.GetName]§!"
- deficit.170.B.tooltip:1 "Le recyclage de la moitié des §Y[robots_planet.half_population]§! £pop£pops de drones de §Y[robots_planet.GetName]§! va fournir §Y[robots_planet.total_alloys_gained]§!£alloys£"
+ deficit.170.B.tooltip:2 "Le recyclage de la moitié des §Y[robots_planet.recycled_robots]§! £pop£pops de drones de §Y[robots_planet.GetName]§! va fournir §Y[robots_planet.total_alloys_gained]§!£alloys£"
 
  deficit.175.desc:1 "Nous n'avons pas pu répondre aux pénuries d'alliages, et avons été contraints de déclarer la banqueroute et de choisir le défaut de paiement. [Root.Owner.GetFinancialAdvisorAgencyCap] a commencé à élaborer un nouveau plan d'économie pour limiter les dépenses et empêcher qu'une situation semblable puisse se reproduire."
 
@@ -698,7 +702,7 @@
  situation.1000.desc.large:0 "Le grand jour a fini par arriver. De très nombreux [Root.Owner.GetSensoryWorkers] étaient en place, prêts à relever le moindre détail qui pourrait être tiré [This.GetTrophyName_DuDela_FR]. Et, aussitôt l'étude lancée, pendant un court instant, l'ensemble de la Conscience s'est concentré sur §Y[Target.GetName]§! pour tirer toutes les leçons de cette anomalie qui nous préoccupait tant.\n\nNotre fascination était d'ailleurs si grande que plusieurs drones se trouvant dans des situations précaires ont été abîmés du fait de la distraction momentanée, certains n'étant même plus récupérables.\n\nUne fois l'étude initiale achevée, il a été décidé de transférer les données dans un centre spécialisé sur [Target.GetName], où les [Root.Owner.GetSensoryWorkers] pourront continuer leurs tâches. L'anomalie y a été déposée de manière respectueuse, et mérite bien qu'une part de la Conscience soit consacrée à continuer de l'observer."
  situation.1000.a:0 "Cela s'est révélé assez décevant..."
  situation.1000.b:0 "Tout doit être fait pour préserver cet objet"
- situation.1000.c:0 "Nous avons appris davantage sur nous que sur cet objet" # [LocEditor:ForFutureBatchExport]
+ situation.1000.c:1 "Dans [This.GetTrophyName_LeLa_FR], nous nous sommes trouvés"
  situation.1005.name:0 "[This.GetLeviathanParadeName]"
  situation.1005.desc.small:0 "C'est sous un temps nuageux que la population s'est assemblée sur §Y[Target.GetName]§!. La procession exhibant la preuve de la destruction [This.GetLeviathanTargetName_DuDela_FR] a longuement défilé devant les spectateurs venus satisfaire leur curiosité. L'événement a été retransmis dans toute la [This.Owner.GetName], même si le succès n'a pas été celui auquel nous nous attendions après avoir pris possession [This.GetTrophyName_DuDela_FR].\n\nMalgré tout, une fois la tournée d'exhibition à travers [This.GetPlanetHabitat] achevée, le trophée a été placé dans un monument réservé à son exposition, non loin du capitole, afin d'inspirer les générations futures."
  situation.1005.desc.standard:0 "C'est par un temps magnifique que la foule s'est rassemblée sur §Y[Target.GetName]§!, aujourd'hui, pour admirer la procession exhibant la preuve de la destruction [This.GetLeviathanTargetName_DuDela_FR]§!. L'événement a été retransmis dans toute la [This.Owner.GetName], captivant des milliards de spectateurs. Les [This.Owner.GetSpeciesNamePlural] semblent avoir d'ores et déjà fait [This.GetTrophyName_DuDela_FR] un symbole de leur culture, artistes et créateurs s'en inspirant déjà pour leurs oeuvres.\n\nPuis, comme prévu, une fois la tournée d'exhibition à travers [This.GetPlanetHabitat] achevée, le trophée a été placé dans un monument réservé à son exposition, non loin du capitole, afin d'inspirer les générations futures."
@@ -793,7 +797,7 @@
  situation.1110.b:0 "Il faut tout décontaminer en urgence, même la glande à venin !"
  situation.1110.b.tooltip:0 "[Root.Owner.GetParadeStudy_LaL_Cap_FR] est annulée afin de décontaminer §Y[Target.GetName]§! au plus vite."
  situation.1115.name:0 "Décontamination de [Target.GetName]"
- situation.1115.desc:0 "Après des mois d'efforts, le réseau d'approvisionnement en [Root.Owner.GetWaterCoolantLower] de §Y[Target.GetName]§! a enfin pu être décontaminé. Cette crise n'aura pas été vaine, toutefois, puisque nous avons beaucoup appris lors du processus sur l'interaction entre [Root.Owner.GetWaterCoolantLower] et les éléments xénobiologiques, et pouvons désormais lancer [Root.Owner.GetParadeStudy_LaL_FR]. Les [Root.Owner.GetScientistPlural] semblent persuadés de pouvoir tirer profit de ces découvertes pour améliorer les conditions de vie sur [Target.GetPlanetHabitat] aussitôt [Root.Owner.GetParadeStudy_LaL_FR] terminée."
+ situation.1115.desc:1 "Après des mois d'efforts, le réseau d'approvisionnement en [Root.Owner.GetWaterCoolantLower] de §Y[Target.GetName]§! a enfin pu être décontaminé. Cette crise n'aura pas été vaine, toutefois, puisque nous avons beaucoup appris lors du processus sur l'interaction entre [Root.Owner.GetWaterCoolantLower] et les éléments xénobiologiques, et pouvons désormais lancer [Root.Owner.GetParadeStudy_LaL_FR]. Les [Root.Owner.GetScientistPlural] semblent persuadés de pouvoir tirer profit de ces découvertes pour améliorer les conditions de vie sur [Target.GetPlanetHabitat] aussitôt [Root.Owner.GetParadeStudy_LaL_FR] terminée."
 
  situation.1120.name:0 "Dernière lueur"
  situation.1120.desc:1 "Les sondes d'observation disposées sur le site ayant vu la chute finale du dévoreur stellaire ont montré que des morceaux de sa carcasse ont commencé à se réunir au sein de l'étoile. L'énergie semble avoir accru l'activité stellaire, mais les calculs indiquent que le retrait de sa §Hpoche ovarienne§! empêche la restauration complète du système de §Y[dead_stellarite.solar_system.GetName]§! à son lustre passé. Si le vaisseau de transport faisait demi-tour maintenant, nous pourrions malgré tout peut-être rallumer cette étoile..."
@@ -979,7 +983,7 @@
 
  #Casus Belli
 
- casus_belli_cb_revenge_for_eaten_star:0 "Étoile dévorée"
+ casus_belli_cb_revenge_for_eaten_star:1 "Étoile dévorée"
  war_goal_wg_revenge_for_eaten_star:0 "$casus_belli_cb_revenge_for_eaten_star$"
  war_goal_wg_revenge_for_eaten_star_desc:0 "La guerre est déclarée pour conquérir ceux qui ont dévoré notre étoile."
  casus_belli_cb_end_threat_revenge_for_eaten_star:0 "Étoile dévorée"

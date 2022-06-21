@@ -3,7 +3,7 @@
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
  #
- # Update check for 3.4.2 : 14.05.2022
+ # Update check for 3.4.4 : 21.06.2022
  ####################################
 
 
@@ -376,6 +376,7 @@ l_french:
  TOOLTIP_SYSTEM_HAS_HOSTILE_FTL_MAGNET:0 "Contient un ou plusieurs inhibiteurs PRL"
  TOOLTIP_FLEET_ICON_HAS_FTL_MAGNET:1 "Les flottes hostiles ne peuvent quitter le système par aucune autre hyperligne que celle par laquelle elles sont entrées."
  FLEET_UPGRADE_COST_TOOLTIP:1 "L'amélioration de $SHIPS|Y$ vaisseaux va coûter $COST|Y$"
+ FLEET_UPGRADE_NO_COST_TOOLTIP:0 "L'amélioration de $SHIPS|Y$ vaisseaux ne va rien coûter."
  STATION_UPGRADE_COST_TOOLTIP:1 "L'amélioration de la station va coûter $COST|Y$"
  PLATFORMS_UPGRADE_COST_TOOLTIP:0 "$PLATFORMS|Y$ plateformes vont être améliorées pour un coût de $COST|Y$"
  PLATFORMS_NONE_TO_UPGRADE:0 "Cette base stellaire n'a aucune plateforme défensive."
@@ -884,6 +885,7 @@ l_french:
  faction_approval_average:0 "Approbation mitigée de la faction"
  faction_approval_high:0 "Approbation forte de la faction"
  faction_approval_very_high:0 "Approbation très forte de la faction"
+ HOLD_TO_OVERRIDE_LOAD:0 "§GMaintenir Ctrl pour forcer le chargement de cette sauvegarde.§!"
  CLOUD_SAVE:0 "§HSauvegarde cloud§!"
  CLOUD_SAVE_DISABLED_DESC:0 "§RLe stockage sur le cloud est indisponible actuellement !§!"
  SAVE_TO_CLOUD:0 "Sauvegarder sur le cloud"
@@ -926,7 +928,7 @@ l_french:
  FLEETS:0 "Flottes"
  ACHIEVEMENTS:0 "§HSuccès§!\nAfficher vos succès Stellaris"
  HOMEPAGE:0 "§HSite Internet§!\nVisiter le site officiel de Stellaris"
- FORUM:0 "§HForums§!\nAccéder au forum Paradox de Stellaris"
+ FORUM:1 "§HForum§!\nAccéder au forum Stellaris de Paradox"
  FACEBOOK:0 "§HFacebook§!\nOuvre la page officielle de Stellaris sur Facebook"
  TWITTER:0 "§HTwitter§!\nSuivre StellarisGame sur Twitter"
  CLOSE_TITLE:0 "§HFermer§!"
@@ -1155,8 +1157,8 @@ l_french:
  ALLIANCE_LEADER_DESC:0 "Cet empire dirige une grande alliance interstellaire."
  ALLIANCE_MEMBER:0 "Membre de '$ALLIANCE$'"
  ALLIANCE_MEMBER_DESC:0 "Cet empire stellaire est membre d'une grande alliance interstellaire."
- REBELS_UNDER:0 "Rebelles de '$COUNTRY$'"
- REBELS_UNDER_DESC:0 "Il s'agit d'une faction en lutte contre un empire stellaire pour arracher son indépendance. Si ces rebelles l'emportent, ils deviendront un empire de plein droit."
+ REBELS_UNDER:1 "S'est révoltée contre '$COUNTRY$'"
+ REBELS_UNDER_DESC:1 "Était à l'origine une révolte contre un autre empire stellaire dont il a réussi à se libérer." #appended to other descs e.g. ALLIANCE_MEMBER_DESC, INDEPENDENT_DESC with a line break
  PRIMITIVE:0 "§HPrimitifs ($AGE|Y$)§!"
  PRIMITIVE_NAMED:0 "§H$COUNTRY$ ($AGE|Y$)§!"
  MERGE:0 "Fusionner"
@@ -1463,6 +1465,8 @@ l_french:
  CRISIS_TYPE_CONTINGENCY:0 "Contingence"
  CRISIS_TYPE_LABEL:0 "Type de crise"
  CRISIS_TYPE_LABEL_TOOLTIP:0 "§H$CRISIS_TYPE_LABEL$§!\nContrôle quel type de crise peut survenir en fin de partie si elles ne sont pas désactivées par le paramètre §H$FE_CRISES$§!."
+ LGATE_LABEL:0 "Portails-L"
+ LGATE_LABEL_TOOLTIP:0 "Contrôle si les mystérieux portails-L existent (nécessite §YDistant Stars§!)."
  AGGRESSIVENESS_NORMAL:0 "Normale"
  AGGRESSIVENESS_HIGH:0 "Haute"
  AGGRESSIVENESS_LOW:0 "Faible"
@@ -2048,6 +2052,7 @@ l_french:
  neutral_faction_admiral:0 "Capitaine de la flotte"
  pirate_admiral:1 "Cap'taine"
  swarm_admiral:0 "Modèle de Gestalt"
+ enclave_mercenary_admiral:0 "Capitaine mercenaire"
 
  LEADER_IDLING_IN:1 "§GDisponible§!"
  LEADER_MOVING_TO:0 "Arrivera à $LOCATION|H$ dans $DAYS|Y$ jours"
@@ -4332,6 +4337,7 @@ l_french:
  sm_transit_hub:0 "Carrefour de transit"
  sm_transit_hub_desc:0 "Une infrastructure dédiée aux vaisseaux non militaires, permettant de disposer d'un réseau de transit fluide et utile pour les usages civils.\n"
  sm_transit_hub_desc_modifier:0 "Les pops de §Ytravailleurs§! et de §Ydrones§! de ce système vont, si elles ne sont pas soumises à des contrôles migratoires, §Ymigrer§! automatiquement vers d'autres mondes ayant d'une habitabilité convenable, des emplois et des logements disponibles, et se trouvant dans des systèmes dotés d'un §Ycarrefour de transit§!.\n\n"
+ sm_transit_hub_migrate_effect_desc:0 "Permet la §Yréimplantation autonome§! des £pop_cat_slave£§Yesclaves§! inemployés et §Yrobots non conscients§! du système vers d'autres colonies."
  sm_command_center:0 "Centre de commandement"
  sm_command_center_desc:1 "Tous les systèmes de défense sont coordonnés depuis ce vaste complexe, enfoui profondément sous la coque de la base stellaire. Les ressources cartographiques et projections 3D tracent tout le trafic spatial transitant par le système en temps réel.\n"
  sm_defense_grid:0 "Supercalculateur de défense coordonnée"
@@ -5087,7 +5093,7 @@ l_french:
  SPECIAL_PROJECT_STATUS_FAILED:0 "échec"
  SPECIAL_PROJECT_STATUS_TIMED_OUT:0 "interrompu"
  SITUATION_LOG_NAVIGATE_TO:0 "Voir"
- SITUATION_LOG_NAVIGATE_TO_DESC:0 "§GCliquer pour voir la localisation de ce projet.§!"
+ SITUATION_LOG_NAVIGATE_TO_DESC:1 "§GCliquer pour voir la localisation de cette entrée.§!"
  SITUATION_LOG_COST_VALUE:0 "Coût : $VALUE|0$"
  SITUATION_LOG_SITUATION_APPROACH_HEADER:0 "Approche"
  TRACK:0 "Marquer sur la carte"
@@ -5101,8 +5107,8 @@ l_french:
  CLICK_TO_OPEN:0 "§GCliquer pour voir dans le journal de bord.§!"
  VICTORIES:0 "Victoire"
  ANOMALIES:0 "Anomalies"
- TRACK_ALL_SITUATIONS_TRACK:0 "Cliquer pour répertorier automatiquement toutes les §Ysituations§!."
- TRACK_ALL_SITUATIONS_UNTRACK:0 "Cliquer pour cesser de répertorier automatiquement toutes les §Ysituations§!."
+ TRACK_ALL_SITUATIONS_TRACK:1 "Cliquer pour répertorier automatiquement toutes les entrées du §Yjournal des situations§!."
+ TRACK_ALL_SITUATIONS_UNTRACK:1 "Cliquer pour cesser de répertorier automatiquement toutes les entrées du §Yjournal des situations§!."
 
  ####################################
  # Empire View
@@ -6652,6 +6658,7 @@ l_french:
  FEDERATION_LAW_SUPPORT:0 "Soutient le développement de la fédération"
  ALLIANCE_ACCEPTANCE_FACTOR:0 "Déjà membre d'une alliance"
  FEDERATION_ACCEPTANCE_FACTOR:0 "Membre d'une fédération"
+ OVERLORD_ACCEPTANCE_FACTOR:0 "Est suzerain(e)"
  AGREEMENT_PRESET_ACCEPTANCE_FACTOR:0 "N'aime pas cette forme de dépendance"
  ALLIANCE_ACCEPTANCE_SWARM_THREAT:0 "Menace d'essaim"
  ALLIANCE_ACCEPTANCE_THREAT:0 "Menace d'un autre empire"
@@ -6864,11 +6871,11 @@ l_french:
  NOT_ENOUGH_UNITY:0 "§RUnité insuffisante§!"
  ABSTAIN:0 "S'abstenir"
  ABSTAIN_DESC:0 "Vous pouvez choisir de vous abstenir, mais n'importe lequel des candidats en lice pourra être élu dirigeant de façon aléatoire."
- ELECT_DESC:2 "Vous pouvez vous assurer que le candidat choisi deviendra le prochain dirigeant, au prix de $COST|H$£unity£"
+ ELECT_DESC:3 "Vous pouvez vous assurer que le candidat choisi deviendra le prochain dirigeant, au prix de $COST|H$"
  NOT_IN_ELECTION:0 "§RIl n'est possible de soutenir des candidats qu'en période électorale.§!"
  SELECT_LEADER:0 "Cliquer sur un candidat pour le sélectionner."
  ELECTIONS_ON_RULER_DEATH:0 "Élections uniquement à la mort du dirigeant."
- EMERGENCY_ELECTION_TOOLTIP:1 "§HÉlections anticipées§!\nDépenser $COST|Y0$£unity£ pour procéder immédiatement aux élections."
+ EMERGENCY_ELECTION_TOOLTIP:2 "§HÉlections anticipées§!\nDépenser $COST|Y0$ pour procéder immédiatement aux élections."
  EMERGENCY_ELECTION_BAD_GOVERNMENT_TYPE:0 "Notre régime politique ne connaît pas d'élections anticipées"
  EMERGENCY_ELECTION_CANT_AFFORD:0 "Nous ne pouvons pas nous le permettre !"
  ELECTION_ALREADY_ONGOING:0 "Des élections sont déjà en cours !"
@@ -7640,6 +7647,7 @@ l_french:
  requires_recipient_not_pompous_borders:0 "$TRIGGER_FAIL$ §RCet empire est mû par un §Ychauvinisme prétentieux§!. Lui dire de se tenir éloigné de notre espace susciterait la plus grande hilarité de sa part.§!"
  terraform_fail_no_presapient_protection_or_no_presapients:0 "$TRIGGER_FAIL$ §RNotre politique à l'égard des §Ypréconscients§! ne nous permet pas de terraformer les mondes où se trouvent de telles populations.§!"
  requires_actor_not_feudal_society:0 "$TRIGGER_FAIL$§REn tant que §Y$civic_feudal_realm$§!, révoquer les titres de noblesse (destituer les dirigeants) n'est pas autorisé.§!"
+ requires_fleet_control:0 "$TRIGGER_FAIL$ §RPour en congédier l'amiral, nous devons contrôler la flotte.§!"
 
  ####################################
  # Basic Resources
@@ -7887,7 +7895,7 @@ l_french:
  tooltip_organic_and_artificial_assembly_warning:0 "§RNota : l'assemblage des £pops£pops organiques et mécaniques est mutuellement exclusif et ne peut être cumulé.§!"
  building_slave_processing:0 "Complexe de formation d'esclaves"
  building_slave_processing_desc:1 "Cet immense et imposant complexe est utilisé pour former au travail forcé et anéantir toute trace de libre arbitre."
- building_slave_processing_migrate_effect_desc:0 "Les £pop_cat_slave£§Yesclaves§! inemployés sur ce monde sont soumis à une §Yréimplantation autonome§! vers d'autres colonies."
+ building_slave_processing_migrate_effect_desc:1 "Permet la §Yréimplantation autonome§! des £pop_cat_slave£§Yesclaves§! inemployés et des §Yrobots non conscients§! de ce monde vers d'autres colonies."
  building_slave_processing_slave_army_effect_desc:0 "Permet le recrutement d'§Yarmées d'esclaves§!.\n\n"
  building_robotics_assembly_plant:0 "Usine d'assemblage de robots"
  building_robotics_assembly_plant_desc:0 "La création d'armées robotiques nécessite une usine d'assemblage robotique.\nAjoute §Y1§! pop de §H$ROBOT_POP_SPECIES_1$§! par an\nEntretien de la pop : §Y1§!£energy£"
@@ -8752,8 +8760,8 @@ l_french:
  civic_tooltip_syncretic_evolution_effects:5 "- Lance la partie avec §Y12§! £pop£pops d'une autre espèce, très docile."
  civic_tooltip_fanatic_purifiers_effects:14 "Interdit d'entretenir la moindre §Yrelation diplomatique§! avec les autres empires.\nInterdit d'accéder au §YMarché galactique§!.\nOffre le casus belli §YPurification§! contre les autres espèces.\nLes £pops£§Yxénopops§! sont systématiquement purgées, ce qui suscite de l'£unity£§Yunité§!.\nAutorise le protocole de bombardement §Y$bombardment_armageddon$§!.\n"
  civic_tooltip_devouring_swarm_effects:11 "Interdit la moindre §Yrelation diplomatique§! avec d'autres empires.\nInterdit l'accès au §YMarché galactique§!.\nOffre le casus belli §YFaim§! contre tous les autres empires.\nLes £pop£§Yxénopops§! sont systématiquement dévorées, ce qui suscite de la £society£§Yrecherche sociétale§!."
- civic_tooltip_devouring_swarm_lithoid_effects:1 "Interdit la moindre §Yrelation diplomatique§! avec d'autres empires.\nInterdit l'accès au §YMarché galactique§!.\nInterdit de §Yterraformer§! les mondes.\nOffre le casus belli §YFaim§! contre tous les autres empires.\nOffre la décision planétaire §Y$decision_lithoid_swarm_consume_world$§!.\nLes £pop£§Yxénopops§! sont systématiquement dévorées, ce qui suscite de la £society£§Yrecherche sociétale§!.\n\nDonne accès à la possession £building£§Y$holding_organic_sanctuary$§!."
- civic_tooltip_machine_servitor_effects:9 "Lance la partie avec §Y5§! £pop£pops organiques ayant la citoyenneté £job_bio_trophy£§Y$citizenship_organic_trophy$§! et les conditions de vie §Y$living_standard_organic_trophy$§!.\nPermet de construire des £building£§Ysanctuaires organiques§!, faisant susciter de l'£unity£§Yunité§! aux £job_bio_trophy£biotrophées au lieu de construire les bâtiments habituels des empires mécaniques tels que les £building£§Ysites simulationnels§!."
+ civic_tooltip_devouring_swarm_lithoid_effects:2 "Interdit la moindre §Yrelation diplomatique§! avec d'autres empires.\nInterdit l'accès au §YMarché galactique§!.\nInterdit de §Yterraformer§! les mondes.\nOffre le casus belli §YFaim§! contre tous les autres empires.\nOffre la décision planétaire §Y$decision_lithoid_swarm_consume_world$§!\nLes £pop£§Yxénopops§! sont systématiquement dévorées, ce qui suscite de la £society£§Yrecherche sociétale§!.\n"
+ civic_tooltip_machine_servitor_effects:11 "Lance la partie avec §Y5§! £pop£pops organiques ayant la citoyenneté £job_bio_trophy£§Y$citizenship_organic_trophy$§! et les conditions de vie §Y$living_standard_organic_trophy$§!.\nPermet de construire des £building£§Ysanctuaires organiques§!, faisant susciter de l'£unity£§Yunité§! aux £job_bio_trophy£biotrophées au lieu de construire les bâtiments habituels des empires mécaniques tels que les £building£§Ysites simulationnels§!.\n\nDonne accès à la possession £building£§Y$holding_organic_sanctuary$§!."
  civic_tooltip_machine_terminator_effects:13 "Le monde-capitale est un §Ymonde mort§!.\nInterdit la moindre §Yrelation diplomatique§! avec les espèces organiques.\nInterdit d'accéder au §YMarché galactique§!.\nOffre le casus belli §Y$casus_belli_cb_purification$§! contre les espèces organiques.\nLes £pop£pops organiques sont systématiquement purgées, ce qui suscite de l'£unity£§Yunité§!.\nAutorise le protocole de bombardement §Y$bombardment_armageddon$§!."
  civic_tooltip_machine_assimilator_effects:6 "Lance la partie avec §Y10§! £pop£pops de cyborgs et la capacité d'§Yassimiler§! les organiques en tant que cyborgs.\nAssimiler une £pop£pop organique génère une petite quantité d'£unity£§Yunité§! et de £society£§Yrecherche sociétale§!.\nAvec le temps, les £pop£pops organiques non assimilées sont automatiquement §Ypurgées§!.\nOffre le casus belli §Y$war_goal_wg_assimilation$§! à l'encontre de tous les autres empires.\n£opinion£§YOpinion§! dégradée de la plupart des autres empires."
  civic_tooltip_post_apocalyptic_effects:4 "- Le monde-capitale est un §Hmonde mort§!.\n- Gagne le trait §H$trait_survivor$§!, qui permet :\n   $mod_pc_nuked_habitability$: §G+70%§!\n   $MOD_LEADER_AGE$: §G+10§! ans."
@@ -10329,7 +10337,7 @@ l_french:
  resettlement_allowed_desc:1 "Les pops peuvent être réimplantées par la force d'une planète à une autre."
  PLANET_AUTO_RESETTLEMENT_CHANCE:0 "Les £unemployment£pops libres inemployées de ce monde ont chaque mois §Y$VALUE|0$%§! de chances de migrer spontanément vers d'autres colonies de l'empire disposant d'£job£emplois, de £housing£logements et d'une habitabilité convenable."
  AUTO_MIGRATE_MIGRATION_CONTROLS:0 "§RLe contrôle des migrations pour cette espèce est autorisé.§!\n"
- AUTO_MIGRATE_SLAVE_PROCESSING:0 "§RLes esclaves et robots non conscients ne peuvent migrer que si un £building£§YComplexe de formation d'esclaves§! est présent.§!\n"
+ AUTO_MIGRATE_SLAVE_PROCESSING:1 "§RLa §Yréimplantation autonome§! vers d'autres colonies n'est permise pour les £pop_cat_slave£§Yesclaves§! et les §Yrobots non conscients§! que s'il y a un §Ycarrefour de transit§! dans le système ou £building£§Ycomplexe de formation d'esclaves§! sur le monde.§!\n"
  AUTO_MIGRATE_ASSIMILATED:0 "§RLes pops en cours d'assimilation ne peuvent pas migrer de manière autonome.§!"
  PLANET_AUTO_RESETTLEMENT_NO_ELIGIBLE_POPS:0 "Ces £pop£pops ne peuvent migrer de manière autonome :"
  PLANET_AUTO_RESETTLEMENT_NO_VALID_DESTINATION:0 "$PLANET_AUTO_RESETTLEMENT_NO_ELIGIBLE_POPS$\n§RIl n'y a aucune destination éligible.§!"
@@ -10349,6 +10357,9 @@ l_french:
  planet_automation_clear_blockers:0 "£blocker£Déblaiement de bloqueurs"
  planet_automation_permanent_employment_center:0 "Emplois posthumes"
  planet_automation_psi_corps_building:0 "$building_psi_corps$"
+ planet_automation_biotrophy_management:0 "£pop_cat_bio_trophy£Biotrophées"
+ planet_automation_worm:0 "Alignement oméga"
+ planet_automation_upgrade_buildings:0 "£upgrade£Amélioration des bâtiments"
 
  planet_automation_amenities_desc:0 "Automatise la gestion des £amenities£services sur ce monde, à la fois en termes de priorité des £job£emplois et de construction de nouveaux £building£bâtiments offrant des emplois produisant des services."
  planet_automation_designation_construction_desc:0 "Automatise la gestion de la construction de £building£bâtiments et de £district£districts répondant à la désignation planétaire."
@@ -10360,6 +10371,9 @@ l_french:
  planet_automation_clear_blockers_desc:0 "Automatise le déblaiement des £blocker£bloqueurs lorsqu'ils empêchent la construction d'un £district£district."
  planet_automation_permanent_employment_center_desc:0 "Automatise la construction d'£building£§HOffices des Emplois Posthumes§! sur les mondes ayant pour priorité la production de ressources brutes."
  planet_automation_psi_corps_building_desc:0 "Permet la construction de £building£§Hcorps psis§! sur tous les mondes."
+ planet_automation_biotrophy_management_desc:0 "Permet la construction de £building£§Hsanctuaires organiques§!."
+ planet_automation_worm_desc:0 "Permet la construction de l'£building£§HAlignement oméga§!."
+ planet_automation_upgrade_buildings_desc:0 "Automatise l'amélioration des £building£bâtiments. L'amélioration a alors la priorité sur la construction."
 
  planet_automation_shift_click:0 "§HShift + clic§! pour faire ou non de cela le paramètre par défaut pour toute nouvelle colonie (actuellement $TOGGLED|H$)."
  planet_automation_ctrl_click:0 "§HCtrl + clic§! pour faire ou non de cela le paramètre appliqué sur tous les mondes."
@@ -11549,8 +11563,9 @@ l_french:
  wg_independence_accept:1 "'§Y[Root.GetName]§!' gagne son indépendance de '§Y[From.GetName]§!'.\n'§Y[From.GetName]§!' renonce à toute revendication sur les systèmes de '§Y[Root.GetName]§!'."
  wg_independence_status_quo:1 "'§Y[Root.GetName]§!' gagne son indépendance de '§Y[From.GetName]§!'."
  wg_assert_overlordship_accept:1 "'§Y[From.GetName]§!' reste une dépendance de '§Y[Root.GetName]§!'."
- wg_force_ideology_accept:1 "'§Y[From.GetName]§!' est contrainte d'adopter les éthiques et le régime politique de '§Y[Root.GetName]§!'."
- wg_force_ideology_accept_2:0 "[From.GetLeLaLDirCap] §Y[From.GetRulerTitle] [From.GetRulerName]§! est contraint[From.GetXEDir] d'abdiquer."
+ wg_force_ideology_accept:1 "'§Y[This.GetName]§!' est contrainte d'adopter les éthiques et le régime politique de '§Y[Root.GetName]§!'."
+ wg_force_ideology_accept_2:0 "[This.GetLeLaLDirCap] §Y[This.GetRulerTitle] [This.GetRulerName]§! est contraint[From.GetXEDir] d'abdiquer."
+ wg_force_ideology_accept_subject: "\n$wg_force_ideology_accept$\n$wg_force_ideology_accept_2$\n"
  wg_force_ideology_accept_3:0 "'§Y[From.GetName]§!' est contrainte de quitter la fédération."
  wg_humiliation_fe_accept:2 "'§Y[From.GetName]§!' est humiliée, réduisant le §Y$country_base_influence_produces_mult$§! et le bonheur de ses pops pendant §Y10§! ans.\n$wg_revoke_claims_accept$"
  wg_humiliation_accept:1 "'§Y[From.GetName]§!' est humiliée, réduisant le §Y$country_base_influence_produces_mult$§! et le bonheur de ses pops pendant §Y10§! ans.\n'§Y[Root.GetName]§!' gagne §G100§!£influence£ "
@@ -11907,7 +11922,7 @@ l_french:
  EXPLORE_BYPASS_INACTIVE:0 "Ce $BYPASS$ n'a pas été activé."
  TRIGGER_TEST:0 "$CONDITION$ $TEXT$"
 
- PATCHNOTES:5 "§HCliquer§! pour consulter les notes du patch 3.3 sur le forum Stellaris de Paradox."
+ PATCHNOTES:6 "§HCliquer§! pour consulter les notes du patch 3.4 sur le forum Stellaris de Paradox."
 
  sys_unsurveyed:0 "Système non reconnu"
  sys_unclaimed:0 "Système non revendiqué"
@@ -11959,10 +11974,10 @@ l_french:
  sm_offworld_trading_company_machine_intelligence:0 "$sm_offworld_trading_company_gestalt$"
  sm_offworld_trading_company_desc_machine_intelligence:0 "$sm_offworld_trading_company_gestalt_desc$"
 
- TRACK_1:0 "Auto-répertorier les projets"
- TRACK_1_UNTRACK:0 "Cliquer pour cesser de répertorier automatiquement les nouveaux §Yprojets spéciaux§! qui peuvent être menés à bien."
- TRACK_1_TRACK:0 "Cliquer pour commencer à répertorier automatiquement les nouveaux §Yprojets spéciaux§! qui peuvent être menés à bien."
- INFLUENCE_GAIN_FROM_FACTION:0 "$VALUE$£influence£"
+ TRACK_1:1 "Répertorier automatiquement les entrées du journal"
+ TRACK_1_UNTRACK:0 "Cliquer pour cesser de répertorier automatiquement les nouveaux §Y$TAB_PROJECTS$§! qui peuvent être menés à bien."
+ TRACK_1_TRACK:0 "Cliquer pour commencer à répertorier automatiquement les nouveaux §Y$TAB_PROJECTS$§! qui peuvent être menés à bien."
+ INFLUENCE_GAIN_FROM_FACTION:0 "£influence£ $VALUE$"
  CTRL_CLICK_TO_OBSERVE:0 "§G£ctrl£ et clic gauche pour observer cet empire.§!"
  CLICK_TO_OBSERVE:0 "§GCliquer pour observer cet empire.§!"
  RIGHT_CLICK_TO_ZOOM:0 "§GClic droit pour zoomer sur le monde capital.§!"

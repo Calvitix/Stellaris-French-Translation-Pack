@@ -3,7 +3,7 @@
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
  #
- # Update check 3.4.2 : 14.05.2022
+ # Update check 3.4.4 : 21.06.2022
  # exemple de modifs : points de coque --> coque
  ####################################
 
@@ -318,6 +318,11 @@
  MOD_SHIP_REPAIR_HULL_MULT:0 "Vit. de réparation des coques des vaisseaux à quai "
  MOD_SHIP_REPAIR_ARMOR_MULT:0 "Vit. de réparation des blindages des vaisseaux à quai "
 
+ MOD_OWNED_SHIP_SPEED_MULT:0 "$MOD_SHIP_SPEED_MULT$"
+ MOD_OWNED_SHIP_EVASION_MULT:0 "$MOD_SHIP_EVASION_MULT$"
+ MOD_OWNED_SHIP_FIRE_RATE_MULT:0 "$MOD_SHIP_FIRE_RATE_MULT$"
+ MOD_OWNED_SHIP_ACCURACY_MULT:0 "$MOD_SHIP_ACCURACY_MULT$"
+
  #Army
  MOD_ARMY_DISENGAGE_CHANCE_MULT:0 "Chances de désengagement des armées "
  MOD_ARMY_UPKEEP_MULT:0 "Entretien des armées "
@@ -363,7 +368,7 @@
  MOD_PIRACY_SUPPRESSION_MULT:0 "Répression de la piraterie"
  MOD_MAX_TRADE_PIRACY_ADD:0 "Piraterie"
  MOD_MAX_TRADE_PIRACY_MULT:0 "Piraterie"
- MOD_PLANET_CRIME_ADD:0 "£crime£Criminalité "
+ MOD_PLANET_CRIME_ADD:1 "£crime£[Owner.GetCrimeDeviancy] "
  MOD_PLANET_CRIME_MULT:0 "$MOD_PLANET_CRIME_ADD$"
  MOD_PLANET_CRIME_NO_HAPPINESS_ADD:0 "£crime£Déviance"
  MOD_PLANET_CRIME_NO_HAPPINESS_MULT:0 "$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$"
@@ -433,6 +438,7 @@
  mod_planet_district_mining_uncapped_build_speed_mult:0 "$mod_planet_district_mining_build_speed_mult$"
  mod_planet_district_farming_uncapped_build_speed_mult:0 "$mod_planet_district_farming_build_speed_mult$"
  mod_planet_district_generator_uncapped_build_speed_mult:0 "$mod_planet_district_generator_build_speed_mult$"
+ mod_planet_building_hydroponics_farm_build_speed_mult:0 "Vit. de constr. des £building£fermes hydroponiques "
  mod_planet_building_foundry_1_build_speed_mult:0 "Vitesse de construction des fonderies "
  mod_planet_building_factory_1_build_speed_mult:0 "Vitesse de construction des usines "
  mod_planet_building_research_lab_1_build_speed_mult:0 "Vitesse de construction des laboratoires de recherche "

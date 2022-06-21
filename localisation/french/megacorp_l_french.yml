@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack  Adaptation by Calvitix)
- # Update check for 3.4.2 : 14.05.2022
+ # Update check for 3.4.4 : 21.06.2022
  ####################################
 
  SECTOR_ADD_ALREADY_ASSIGNED:0 "§RLe système de $SYSTEM|Y$ relève déjà d'un secteur.§!"
@@ -76,7 +76,7 @@
  NO_BRANCH_OFFICE_VALUE_FORMAT:0 "$VALUE|1Y$"
  IS_CRIMINAL_SYNDICATE:0 "Est un syndicat criminel"
  IS_NOT_CRIMINAL_SYNDICATE:0 "N'est PAS un syndicat criminel"
- BRANCH_OFFICE_ALREADY_EXISTS:0 "$BRANCH_OFFICE_NOT_REGULAR_EMPIRE$"
+ BRANCH_OFFICE_ALREADY_EXISTS:1 "£trigger_no£ §RUne autre mégacorporation y a déjà établi une succursale.§!"
  ESTABLISH_BRANCH_OFFICE_TITLE:0 "Établir une succursale"
  ESTABLISH_BRANCH_OFFICE_DESC:1 "Établir une nouvelle §Ysuccursale§! sur $PLANET|Y$ va coûter §Y$COST$§! et devrait générer un revenu mensuel de §Y$VALUE|1$§!£energy£ d'après la £trade_value£§Yvaleur commerciale§! actuelle de ce monde. Cela aura en revanche une incidence sur l'§Yextension de l'empire§!."
  ESTABLISH_BRANCH_OFFICE_RANGE_MULT:0 "Distance : $VALUE|R%$"
@@ -428,7 +428,7 @@
  BUILDING_SLOT_LOCKED:0 "Emplacement de construction verrouillé"
  BUILDING_SLOT_LOCKED_DESC:2 "Ces emplacements deviennent disponibles en construisant des £district£$CITY_DISTRICT|Y$ ou en améliorant le bâtiment £building£$CAPITAL_BUILDING|Y$."
  BUILDING_SLOT_LOCKED_HABITAT_DESC:1 "Ces emplacements deviennent disponibles en améliorant le bâtiment £building£$CAPITAL_BUILDING|Y$ ou en adoptant l'atout de l'ascension §Y$ap_voidborn$§!."
- BUILDING_SLOT_LOCKED_BRANCH_OFFICE_DESC:2 "Les emplacements des succursales deviennent disponibles soit par l'amélioration du bâtiment £building£$CAPITAL_BUILDING|Y$ de ce monde, soit si l'empire possédant ce monde a adopté la tradition §Y$tr_mercantile_insider_trading$§!."
+ BUILDING_SLOT_LOCKED_BRANCH_OFFICE_DESC:3 "Les emplacements des bâtiments de succursales deviennent constructibles par l'amélioration du £building£$CAPITAL_BUILDING|Y$ de ce monde."
  BUILDING_CAPPED_IN_EMPIRE_WITH_NUM:0 "Plafond pour l'empire : §Y$NUM$/$MAX$§!"
  BUILDING_CAPPED_IN_EMPIRE:0 "Plafond pour l'empire : §Y$MAX$§!"
  BUILDING_CAPPED_ON_PLANET_WITH_NUM:0 "Limite par monde : §Y$NUM$/$MAX$§!"
@@ -872,6 +872,7 @@
 
  job_brain_drone:0 "Drones cérébraux"
  job_brain_drone_plural:0 "Drones cérébraux"
+ job_brain_drone_icon:0 "£job_brain_drone£"
  job_brain_drone_desc:1 "Scientifiques, chercheurs et inventeurs, les drones cérébraux sont responsables de tout ce qui a trait au développement technologique."
  job_brain_drone_effect_desc:1 "Les £job_brain_drone£drones cérébraux transforment les £minerals£§Yminerais§! en recherche £physics£§Yphysique§!, £society£§Ysociétale§! et en £engineering£§Yingénierie§!"
  mod_job_brain_drone_add:0 "Emploi de £job_brain_drone£drones cérébraux "
@@ -880,6 +881,7 @@
 
  job_calculator:0 "Calculateurs"
  job_calculator_plural:0 "Calculateurs"
+ job_calculator_icon:0 "£job_calculator£"
  job_calculator_desc:1 "Jonglant en permanence avec les équations, les probabilités et testant sans cesse de nouvelles fonctions, les calculateurs sont chargés du développement technologique de l'intelligence mécanique."
  job_calculator_effect_desc:2 "Les £job_calculator£calculateurs transforment l'£energy£§Yénergie§! en recherche £physics£§Yphysique§!, £society£§Ysociétale§! et en £engineering£§Yingénierie§!"
  mod_job_calculator_add:0 "Emplois de £job_calculator£calculateurs "
@@ -947,7 +949,7 @@
  job_colonist:0 "Colons"
  job_colonist_plural:0 "Colons"
  job_colonist_desc:1 "L'établissement d'un nouveau monde n'est jamais une entreprise aisée."
- job_colonist_effect_desc:0 "Les £job_colonist£colons produisent une petite quantité de £food£§Ynourriture§! et de £mod_planet_amenities_add£§Yservices§!"
+ job_colonist_effect_desc:0 "Les £job_colonist£colons produisent une petite quantité de $r_food_lower$ (ou de $r_minerals_lower$) et de £mod_planet_amenities_add£§Yservices§!"
  mod_job_colonist_add:0 "Emplois de £job_colonist£colons "
  mod_job_colonist_per_pop:0 "§G+1§! emploi de £job_colonist£colon par palier de $VALUE$ pops"
  mod_job_colonist_per_pop_short:0 "\n§G+1§! £mod_job_colonist_add£ pour $VALUE$£pop£"
@@ -1044,7 +1046,7 @@
  job_telepath:0 "Télépathes"
  job_telepath_plural:0 "Télépathes"
  job_telepath_desc:0 "Une unité de membres du psicorps, dotés de véritables dons psioniques pour lutter contre la criminalité."
- job_telepath_effect_desc:0 "Les £job_telepath£ télépathes suscitent de l'£unity£§Yunité§! et réduisent la £crime£§Ycriminalité§!"
+ job_telepath_effect_desc:0 "Les £job_telepath£ télépathes suscitent de l'£unity£§Yunité§!, réduisent la £crime£§Ycriminalité§! et améliorent de manière générale la productivité sur le monde."
  mod_job_telepath_add:0 "Emplois de £job_telepath£télépathes "
  mod_job_telepath_per_pop:0 "§G+1§! emploi de £job_telepath£télépathe par palier de $VALUE$ pops"
  mod_job_telepath_per_pop_short:0 "\n§G+1§! £mod_job_telepath_add£ pour $VALUE$£pop£"
@@ -1108,6 +1110,7 @@
 
  job_researcher:0 "Chercheurs"
  job_researcher_plural:0 "Chercheurs"
+ job_researcher_icon:0 "£job_researcher£"
  job_researcher_desc:0 "Le plus grand mystère de l'univers est encore qu'il puisse être compris."
  job_researcher_effect_desc:1 "Les £job_researcher£chercheurs transforment les £consumer_goods£§Ybiens de consommation§! en £physics £society £engineering£§Yrecherche§!"
  mod_job_researcher_add:0 "Emplois de £job_researcher£chercheurs "
@@ -1698,6 +1701,7 @@
  mod_planet_administrators_unity_produces_add:0 "$mod_planet_bureaucrats_unity_produces_mult$"
  mod_planet_administrators_upkeep_mult:1 "Entretien des [GetAdministratorPluralWithIcon] "
  mod_planet_priests_unity_produces_add:0 "£unity£Unité suscitée par les £job_priest£prêtres "
+ mod_planet_managers_unity_produces_add:0 "£unity£Unité suscitée par les £job_manager£cadres "
  mod_planet_merchants_unity_produces_add:0 "£unity£Unité suscitée par les £job_merchant£marchands "
  mod_planet_enforcers_unity_produces_add:0 "£unity£Unité suscitée par les £job_enforcer£agents de sécurité "
  mod_planet_telepaths_unity_produces_add:0 "£unity£Unité suscitée par les £job_telepath£télépathes "
@@ -2962,6 +2966,9 @@
  col_habitat_refinery_desc:0 "Cette arcologie spatiale artificielle est consacrée à la production de ressources stratégiques."
  col_habitat_mining:0 "Station minière"
  col_habitat_mining_desc:0 "Cette arcologie spatiale artificielle est consacrée à la collecte de minéraux."
+ col_habitat_farming:0 "Station hydroponique"
+ col_habitat_farming_desc:0 "Cette arcologie spatiale artificielle est consacrée à la récolte de denrées."
+ col_habitat_farming_custom:0 "Pour les £district£§Ydistricts d'habitation§! : §R-2§! £housing£logements mais §G+1§! emploi de £job_farmer£fermier."
  col_habitat_energy:0 "Station génératrice"
  col_habitat_energy_desc:0 "Cette arcologie spatiale artificielle est consacrée à la génération d'énergie."
  col_ring_mix:0 "Anneau-monde"
@@ -3893,6 +3900,9 @@
  wg_expel_corp_effects:1 "Toutes les succursales de '§Y[From.GetName]§!' dans l'espace de '§Y[Root.GetName]§!' sont fermées.\n'§Y[Root.GetName]§!' reçoit §Y1000§!£energy£ pour chaque succursale fermée."
  wg_seize_branch_office_effects:0 "'§Y[Root.GetName]§!' prend le contrôle de la succursale planétaire.\n"
 
+ wg_expel_corp_subject_status_quo_effects:0 "Toutes les succursales de '§Y[From.GetName]§!' dans l'espace de '§Y[Root.GetName]§!' et de ses §Ydépendances§! ferment.\n'§Y[From.GetName]§!' reçoit §Y1000§!£energy£ pour chacune."
+ wg_expel_corp_subject_effects:0 "Toutes les succursales de '§Y[From.GetName]§!' dans l'espace de '§Y[Root.GetName]§!' et de ses §Ydépendances§! ferment.\n'§Y[Root.GetName]§!' reçoit §Y1000§!£energy£ pour chacune."
+
  market_founding_chain_title:0 "Fondation du Marché galactique"
  market_founding_chain_desc:0 "L'établissement d'un forum commercial intergalactique est proche, et quiconque aura le contrôle de la station où seront centralisés les échanges en tirera de grands bénéfices.\n\nSi nous voulons lancer l'un de nos mondes dans la course pour qu'il ait le privilège d'accueillir la Station du Marché galactique, nous avons quelques années pour utiliser les §Hdécisions§! relatives à ce sujet."
 
@@ -4342,12 +4352,14 @@
  vo_slick_corp:0 "Corporation mielleuse"
  vo_the_worker:0 "Le salarié"
 
- HAS_NOT_OVERLORD:0 "N'a PAS '$OVERLORD$' comme suzeraine"
- HAS_OVERLORD:0 "A '$OVERLORD$' comme suzeraine"
- HAS_NOT_ANY_OVERLORD:0 "N'a PAS de suzeraine"
+ HAS_SUBJECT:0 "A '$SUBJECT|Y$' comme dépendance"
+ HAS_NOT_SUBJECT:0 "N'a PAS '$SUBJECT|Y$' comme dépendance"
+ HAS_NOT_OVERLORD:0 "N'a PAS '$OVERLORD$' comme suzerain"
+ HAS_OVERLORD:0 "A '$OVERLORD$' comme suzerain"
+ HAS_NOT_ANY_OVERLORD:0 "N'a PAS de suzerain"
 
- HAS_NOT_RIVAL:0 "PAS rivale de la $RIVAL$"
- HAS_RIVAL:0 "Rivale de la $RIVAL$"
+ HAS_NOT_RIVAL:0 "PAS rivale de '$RIVAL$'"
+ HAS_RIVAL:0 "Rivale de '$RIVAL$'"
  diplomacy:0 "Diplomatie"
 
  getbrainname_machine:0 "Intelligence centrale"
@@ -4470,3 +4482,4 @@
 
  DIPLO_ACTION_ALREADY_REPLIED:0 "'$COUNTRY|Y$' a déjà répondu à $ACTION|Y$."
  overlord_subsidy:0 "Subsides du suzerain"
+ OVERLORD_SUBSIDY_UNABLE_TO_PAY_RESEARCH:0 "'$OVERLORD|Y$' est incapable de payer les subsides en recherche à '$SUBJECT|Y$' car sa production est insuffisante."
