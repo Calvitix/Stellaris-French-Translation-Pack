@@ -53,7 +53,7 @@
  TECH_APSR7_CORDON_DESC:0 "$apsr7_building_cordon_desc$"
  
  tech_apsr7_tank:0 "L'exploration de la zone anomale"
- tech_apsr7_tank_desc:0 "Pour atteindre le cur même de la zone, nous devons trouver le moyen de la traverser et de nous protéger des influences extérieures."
+ tech_apsr7_tank_desc:0 "Pour atteindre le coeur même de la zone, nous devons trouver le moyen de la traverser et de nous protéger des influences extérieures."
  TECH_APSR7_TANK_TITLE:0 "§HProjet spécial :§! $apsr_defendship_army$"
  TECH_APSR7_TANK_DESC:0 "$apsr_defendship_army_desc$"
  
@@ -68,7 +68,7 @@
  TECH_APSR7_PART2_DESC:0 "$apsr7_building_part2_desc$"
  
  tech_apsr7_building_part3:0 "L'utilisation du pouvoir du pendule"
- tech_apsr7_building_part3_desc:0 "Le pendule est situé au cur de la zone anormale et il produit une énorme quantité d'énergie. Il peut être utilisé pour l'amélioration de notre Empire !"
+ tech_apsr7_building_part3_desc:0 "Le pendule est situé au coeur de la zone anormale et il produit une énorme quantité d'énergie. Il peut être utilisé pour l'amélioration de notre Empire !"
  TECH_APSR7_PART3_TITLE:0 "§HBuilding :§! $apsr7_building_part3$"
  TECH_APSR7_PART3_DESC:0 "$apsr7_building_part3_desc$"
  
@@ -77,7 +77,7 @@
  ### сообщения при постройке зданий
  
  apsr.7000.title:0 "$apsr7_building_cordon$ est terminé"
- apsr.7000.desc:0 "Le §Y$Cordon$§! autour de la zone anomalos est terminé, et à partir de maintenant les espèces mutantes ne perturberont plus nos colonies. {Maintenant nous pouvons nous concentrer sur l'exploration de la zone et préparer une expédition vers son centre."
+ apsr.7000.desc:0 "Le §Y$Cordon$§! autour de la zone anomalos est terminé, et à partir de maintenant les espèces mutantes ne perturberont plus nos colonies. \nMaintenant nous pouvons nous concentrer sur l'exploration de la zone et préparer une expédition vers son centre."
  apsr.7000.ok-button:0 "Commencez à préparer l'expédition"
  apsr.7000.button.effect:1 "Modèle de conception de réservoir avancé disponible"
  
@@ -106,7 +106,7 @@
  ### сообщение при получении планеты с ресурсом
  
  apsr.7013.title:0 "Détecté : §M$apsr7_planet_modifier$§!"
- apsr.7013.desc:0 "Sur l'une des planètes occupées, quelque chose de particulier a été découvert. {Sur la planète, il y a une zone anormale où les lois de la réalité elles-mêmes semblent se plier. Au fur et à mesure que l'on se rapproche du centre de la zone, l'équipement commence à mal fonctionner, et §H[Root.GetLeaderName]§! a proposé que nous organisions une expédition spéciale afin d'atteindre le coeur de cette zone."
+ apsr.7013.desc:0 "Sur l'une des planètes occupées, quelque chose de particulier a été découvert. \nSur la planète, il y a une zone anormale où les lois de la réalité elles-mêmes semblent se plier. Au fur et à mesure que l'on se rapproche du centre de la zone, l'équipement commence à mal fonctionner, et §H[Root.GetLeaderName]§! a proposé que nous organisions une expédition spéciale afin d'atteindre le coeur de cette zone."
  apsr.7013.button:1 "Superbe"
  
  
@@ -114,7 +114,7 @@
  ### сообщение при получении информации от разведки (проверка раз в 5 лет)
  
  apsr.7015.title:0 "Détecté : §M$apsr7_planet_modifier$§!"
- apsr.7015.desc:0 "Nos services de renseignements, en vérifiant les informations sur les planètes des autres empires, ont trouvé quelque chose d'intéressant !\nSur l'une des planètes, il y a une zone anormale où les lois de la réalité elles-mêmes semblent se plier. Au fur et à mesure que l'on se rapproche du centre de la zone, les équipements commencent à mal fonctionner. Nos principaux scientifiques ont proposé d'organiser une expédition spéciale afin d'atteindre le cur de cette zone. '\n\n§GInformation :§!\n§YPlanet name :§! §W[event_target :apsr7_planet_target.GetName]§!\n§YPlanet class :§! §W[event_target :apsr7_planet_target.GetClassName]§!\n§YNom du système solaire :§! §W[event_target :apsr7_planet_target.solar_system.GetName]§!\n§YPropriétaire de la planète :§! §W[event_target :apsr7_planet_target.Owner.GetName]§!"
+ apsr.7015.desc:0 "Nos services de renseignements, en vérifiant les informations sur les planètes des autres empires, ont trouvé quelque chose d'intéressant !\nSur l'une des planètes, il y a une zone anormale où les lois de la réalité elles-mêmes semblent se plier. Au fur et à mesure que l'on se rapproche du centre de la zone, les équipements commencent à mal fonctionner. Nos principaux scientifiques ont proposé d'organiser une expédition spéciale afin d'atteindre le coeur de cette zone. '\n\n§GInformation :§!\n§YPlanet name :§! §W[event_target :apsr7_planet_target.GetName]§!\n§YPlanet class :§! §W[event_target :apsr7_planet_target.GetClassName]§!\n§YNom du système solaire :§! §W[event_target :apsr7_planet_target.solar_system.GetName]§!\n§YPropriétaire de la planète :§! §W[event_target :apsr7_planet_target.Owner.GetName]§!"
  apsr.7015.button:1 "Intéressant !"
  
  
@@ -154,7 +154,7 @@
  # конец экcпедиции - доступ к техе на здание 1 уровня
  
  apsr.7215.title:0 "Le pendule"
- apsr.7215.desc:0 "L'expédition a été un succès total ! Malgré quelques trébuchements, l'équipage du vaisseau de haute sécurité a réussi à atteindre le centre de la zone. Un moteur temporel semble s'y trouver. Il a été construit il y a longtemps et a accumulé l'énergie du flux temporel pendant des décennies. Et quand il était rempli de l'énergie temporelle débordante, il la crachait dans l'environnement. {D'après les documents trouvés à proximité, le temps est considéré comme un processus physique. Les scientifiques de la civilisation qui a créé le pendule ont développé une théorie selon laquelle le temps peut être utilisé comme un processus physique lié à l'énergie. Cette théorie est basée sur la considération du temps comme un processus matériel qui produit un certain type d'énergie. Plus tard, les caractéristiques numériques déterminant la libération de l'énergie du temps ont été définies - d'abord théoriquement, puis pratiquement. On l'appelait 'mécanique du temps physique', ou 'mécanique du temps'.\nMalheureusement, ou heureusement, seul un tel dispositif a été créé et peut exister en même temps."
+ apsr.7215.desc:0 "L'expédition a été un succès total ! Malgré quelques trébuchements, l'équipage du vaisseau de haute sécurité a réussi à atteindre le centre de la zone. Un moteur temporel semble s'y trouver. Il a été construit il y a longtemps et a accumulé l'énergie du flux temporel pendant des décennies. Et quand il était rempli de l'énergie temporelle débordante, il la crachait dans l'environnement. \nD'après les documents trouvés à proximité, le temps est considéré comme un processus physique. Les scientifiques de la civilisation qui a créé le pendule ont développé une théorie selon laquelle le temps peut être utilisé comme un processus physique lié à l'énergie. Cette théorie est basée sur la considération du temps comme un processus matériel qui produit un certain type d'énergie. Plus tard, les caractéristiques numériques déterminant la libération de l'énergie du temps ont été définies - d'abord théoriquement, puis pratiquement. On l'appelait 'mécanique du temps physique', ou 'mécanique du temps'.\nMalheureusement, ou heureusement, seul un tel dispositif a été créé et peut exister en même temps."
  apsr.7215.button:1 "Intéressant"
  apsr.7215.button.effect:1 ""
  
@@ -206,7 +206,7 @@
  # нападение
 
  apsr.7241.title:0 "Une attaque de mutants. Une horde"
- apsr.7241.desc:0 "Nous avons reçu un message de la planète où se trouve §Y$apsr7_planet_modifier$§!. {Un groupe de mutants est encore venu de la zone anormale ! Nous avons rejoint la bataille comme prévu. Mais le manque de fortifications spéciales limite beaucoup nos capacités de contre-attaque."
+ apsr.7241.desc:0 "Nous avons reçu un message de la planète où se trouve §Y$apsr7_planet_modifier$§!. \nUn groupe de mutants est encore venu de la zone anormale ! Nous avons rejoint la bataille comme prévu. Mais le manque de fortifications spéciales limite beaucoup nos capacités de contre-attaque."
  apsr.7241.button:1 "Maintenez la défense !"
 
  ## поражение
@@ -236,7 +236,7 @@
  ## поражение
 
  apsr.7252.title:0 "Attaque de mutants. Vaincre"
- apsr.7252.desc:0 "Les mutants ont traversé nos armées, et maintenant la planète est un enfer. Une quantité incroyable d'entre eux a balayé la planète, détruisant tout sur son passage. Après que toutes les créatures vivantes de la planète soient mortes, un brouillard anormalement bleuté s'est répandu depuis le cur de la zone et a recouvert toute la planète. Quelques heures plus tard, il s'est dispersé, et maintenant il ne reste plus que des ruines sur la planète... et la maudite zone anormale..."
+ apsr.7252.desc:0 "Les mutants ont traversé nos armées, et maintenant la planète est un enfer. Une quantité incroyable d'entre eux a balayé la planète, détruisant tout sur son passage. Après que toutes les créatures vivantes de la planète soient mortes, un brouillard anormalement bleuté s'est répandu depuis le coeur de la zone et a recouvert toute la planète. Quelques heures plus tard, il s'est dispersé, et maintenant il ne reste plus que des ruines sur la planète... et la maudite zone anormale..."
  apsr.7252.button:1 "C'est un échec complet..."
  apsr.7252.button.tooltip:1 "Toutes les colonies de la planète sont détruites.\nNous avons perdu la colonie"
  
@@ -267,7 +267,7 @@
  APSR7_MESSAGE_SR_INFORMED:0 "Nous avons reçu des informations sur une ressource spéciale appelée §M$apsr7_planet_modifier$§!, qui se trouve sur la planète §Y$PLANET$§! sous le contrôle des §Y$COUNTRY$§!.."
  
  apsr7_tankconstruct_special:0 "Créer un véhicule blindé super fortifié"
- apsr7_tankconstruct_special_DESC:0 "Les plans de notre vechilce blindé spécialement conçu sont maintenant terminés. Il ne reste plus qu'à le mettre en uvre."
+ apsr7_tankconstruct_special_DESC:0 "Les plans de notre vechilce blindé spécialement conçu sont maintenant terminés. Il ne reste plus qu'à le mettre en oeuvre."
  
  apsr7_expedition_special:0 "Expédition au centre de la zone anomale"
  apsr7_expedition_special_DESC:0 "Le véhicule blindé est terminé, et maintenant nous sommes prêts à envoyer l'expédition au centre de la zone anormale. Il est temps d'apprendre le secret de cet endroit !"
@@ -291,7 +291,7 @@
  ### текст спецтанка
  
  apsr_defendship_army:0 "Projet de véhicule blindé fortifié"
- apsr_defendship_army_desc:0 "Ce n'est pas un char d'assaut - c'est un véritable chef-d'uvre ! Il a été développé en utilisant les technologies les plus avancées.\n§MIl nous permet d'organiser une expédition au coeur de la zone anomale§!"
+ apsr_defendship_army_desc:0 "Ce n'est pas un char d'assaut - c'est un véritable chef-d'oeuvre ! Il a été développé en utilisant les technologies les plus avancées.\n§MIl nous permet d'organiser une expédition au coeur de la zone anomale§!"
   
  
  
