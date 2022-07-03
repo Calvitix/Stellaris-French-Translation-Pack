@@ -494,7 +494,7 @@
   giga_menu.2.refresh.tooltip:99 "Ici, vous pouvez vérifier vos paramètres actifs."
 
   giga_menu.1.name:99 ""
-  giga_menu.1.desc:99 "v 3.23.3"
+  giga_menu.1.desc:99 "v 3.24.0"
 
   giga_menu_1:99 "Capacité en mégastructures : §H1§!"
   giga_menu_2:99 "Capacité en mégastructures : §Y2§!"
@@ -1268,7 +1268,7 @@
   INVESTIGATE_RED_TOXIC_DESC:99 "Des scanners à haute intensité qui utilisent des rayons X pour pénétrer l'atmosphère de §H[from.GetName]§!, sont en cours de préparation pour scanner la surface.\n\nNos scientifiques espèrent pouvoir révéler l'origine du brouillard rouge. Ils supposent qu'elle n'a peut-être pas été créée par des causes naturelles."
 
   ehof_anomaly.10007.name:99 "Paradis empoisonné"
-  ehof_anomaly.10007.desc:99 "Notre tentative de scanner la surface de §H[from.from.GetName]§! à l'aide de rayons X a été un succès.\n\nNos systèmes ont créé un modèle d'une superficie de 82844 kilomètres carrés de la surface, qui a été scannée avec nos scanners à haute intensité.\n\nLe Le modèle révèle la présence d'entités arborescentes, réparties sur de vastes zones dans des entités à haute densité et apparemment artificielles qui semblent être des bâtiments.\n\nLes forêts et les villes sont situées à la surface des planètes, ou du moins leurs vestiges.\n\nUne civilisation existait autrefois sur cette planète toxique, et au moins une vie végétale faisait autrefois partie de l'ancien écosystème planétaire.\n\nL'architecture et la taille des bâtiments indiquent que la civilisation était probablement suffisamment avancé pour le développement et l'utilisation de technologies. Le fait de savoir si la civilisation elle-même est responsable du brouillard rouge est inconnue.\n\nMalheureusement, une exploration à la surface sera nécessaire, pour en savoir plus sur ce qui est arrivé à la planète. Seuls les enregistrements de la civilisation éteinte et peut-être des échantillons de la surface et de l'environnement peuvent nous en dire plus sur le brouillard rouge et son origine."
+  ehof_anomaly.10007.desc:99 "Notre tentative de scanner la surface de §H[from.from.GetName]§! à l'aide de rayons X a été un succès.\n\nNos systèmes ont créé un modèle d'une superficie de 82844 kilomètres carrés de la surface, qui a été scannée avec nos scanners à haute intensité.\n\nLe modèle révèle la présence d'entités arborescentes, réparties sur de vastes zones dans des entités à haute densité et apparemment artificielles qui semblent être des bâtiments.\n\nLes forêts et les villes sont situées à la surface des planètes, ou du moins leurs vestiges.\n\nUne civilisation existait autrefois sur cette planète toxique, et au moins une vie végétale faisait autrefois partie de l'ancien écosystème planétaire.\n\nL'architecture et la taille des bâtiments indiquent que la civilisation était probablement suffisamment avancé pour le développement et l'utilisation de technologies. Le fait de savoir si la civilisation elle-même est responsable du brouillard rouge est inconnue.\n\nMalheureusement, une exploration à la surface sera nécessaire, pour en savoir plus sur ce qui est arrivé à la planète. Seuls les enregistrements de la civilisation éteinte et peut-être des échantillons de la surface et de l'environnement peuvent nous en dire plus sur le brouillard rouge et son origine."
   ehof_anomaly.10007.a:99 "Préparer une équipe d'exploration."
   ehof_anomaly.10007.b:99 "Ça ne vaut pas le coup. Quitter la planète."
 
@@ -1848,6 +1848,8 @@
 
   r_arcane_manipulator_1:99 "§BManipulateur de failles arcaniques§!"
   r_arcane_manipulator_1_desc:99 "Semblant être en phase avec la réalité elle-même, la construction d'un autre monde possède la capacité de stabiliser et de manipuler les vortex de toute sorte, y compris de $ehof_wormhole$ virtuels.\n\nCependant, le dispositif est encore un mystère pour nous et toutes ses capacités n'ont pas encore été révélées."
+  giga_relic_no_active:99 "Cette relique n'a pas d'effet  actif."
+
 
   ehof_megastructure.0056_name:99 "L' I.D.H.E."
   ehof_megastructure.0056_desc:99 "Après avoir exploré la structure endommagée du trou noir, nous avons déterminé que la construction était à l'origine utilisée pour une forme unique de voyage interstellaire.\nLes données récupérées à l'intérieur de cette soi-disant 'Installation de Décalage de l'Horizon des Événements', ou 'I.D.H.E.', révèlent qu'il s'agit d'un ancien générateur et stabilisateur de vortex.\n\nPendant que nous étions à l'intérieur et autour de la mégastructure, nous avons collecté un grand nombre de technologies avancées, de connaissances et, plus important encore, un artefact obscur dont l'objectif et l'origine sont inconnus et qui a été installé à un endroit bien en vue de l'installation.\n\nNos scientifiques sont certains que nous devrions l'étudier davantage."
@@ -2465,15 +2467,17 @@
   #######################
   # Quasi-Negative Mass #
   #######################
+  #ehof_energy_converter
   # Name
   ehof_sr_negative_mass:99 "Masse quasi-négative"
   ehof_qnm:99 "£ehof_sr_negative_mass£§H$ehof_sr_negative_mass$§!"
   mod_station_gatherers_ehof_sr_negative_mass_produces_mult:99 "£ehof_sr_negative_mass£ de $mod_station_researchers_produces_mult$"
   mod_country_ehof_sr_negative_mass_produces_mult:99 "£ehof_sr_negative_mass£ mensuelle"
+
+  mod_planet_energy_converter_produces_mult:99 "Production des £job_ehof_energy_converter£ $job_ehof_energy_converter_plural$"
   mod_planet_energy_converter_drones_produces_mult:99 "Production des £job_ehof_energy_converter_drone£ $job_ehof_energy_converter_drone_plural$"
-  mod_planet_energy_converters_produces_mult:99 "Production des £job_ehof_energy_converter£ [giga_ehof_energy_converter_name]"
   planet_energy_converter:99 "Emplois de convertisseurs d'énergie"
-  planet_energy_converter_drones:99 "Emplois de convertisseurs d'énergie"
+  planet_energy_converter_drones:99 "Emplois de drones convertisseurs d'énergie"
 
   # Description
   ehof_sr_negative_mass_desc:99 "§EUne forme de matière extrêmement exotique qui défie les lois connues de la physique en possédant une masse quasi-négative.\n\nÀ l'origine théorisée, et considérée comme impossible à exister, ces propriétés uniques créent une courbure gravitationnelle négative, anti-gravité pour ainsi dire, quia un potentiel technologique illimité.§!"
@@ -2511,9 +2515,11 @@
   ehof_sm:99 "£ehof_sr_sentient_metal£§H$ehof_sr_sentient_metal$§!"
   mod_station_gatherers_ehof_sr_sentient_metal_produces_mult:99 "£ehof_sr_sentient_metal£ de $mod_station_researchers_produces_mult$"
   mod_country_ehof_sr_sentient_metal_produces_mult:99 "£ehof_sr_sentient_metal£ mensuel"
-  mod_planet_cultivators_produces_mult:99 "prod des £job_ehof_cultivator£ [giga_ehof_cultivator_name]"
+  mod_planet_cultivators_produces_mult:99 "prod. des £job_ehof_cultivator£ $job_ehof_cultivator_plural$"
+  mod_planet_cultivation_drones_produces_mult:99 "prod. des £job_ehof_cultivation_drone£ $job_ehof_cultivation_drone_plural$"  
   planet_cultivators:99 "Emplois de cultivateur"
-
+  planet_cultivation_drones:99 "Emplois de  Drone cultivateur"
+  
   # Description
   ehof_sr_sentient_metal_desc:99 "§E$ehof_sm$\nUne substance artificielle extrêmement avancée, le $ehof_sr_sentient_metal$ est capable de s'auto-répliquer lorsqu'il est appliqué sur des §H£alloys£ alliages§!, en utilisant de l'§H£energy£ énergie§! comme catalyseur.§!"
 
@@ -4541,7 +4547,7 @@
   job_giga_virtual_livestock_effect_desc_materialist:99 "\n§ESujets de test :§! L'accès illimité aux sujets de test permet à nos §Y$ethic_materialist$§! scientifiques d'expérimenter librement. $job_giga_virtual_livestock_effect_research$"
   
   job_giga_virtual_livestock_effect_desc_elitist:99 "\n§EHiérarchie :§! S'assurer que les plus faibles d'entre nous sont à leur place légitime plaît à notre §Y$ethic_elitist$§! population. $job_giga_virtual_livestock_effect_unity$"
-  job_giga_virtual_livestock_effect_desc_pluralist:99 "\n§EÉtude sociétale :§! L'observation de cette structure sociétale unique est utile à nos §Y$ethic_pluralist$§! chercheurs."
+  job_giga_virtual_livestock_effect_desc_pluralist:99 "\n§ELe plus grand bien :§! S'assurer que notre bétail sert efficacement la société en général plaît à notre §Y$ethic_pluralist$§! population. $job_giga_virtual_livestock_effect_output$"
   job_giga_virtual_livestock_effect_desc_ecocentrist:99 "\n§EAgriculture efficace :§! Maintenir un environnement à croissance contrôlée pour minimiser les déchets plaît à notre §Y$ethic_ecocentrist$§! gouvernement. $job_giga_virtual_livestock_effect_output$"
   job_giga_virtual_livestock_effect_desc_anthropocentric:99 "\n§ERécolte d'énergie :§! Maximiser l'efficacité opérationnelle des systèmes du secteur plaît à notre §Y$ethic_anthropocentric$§! gouvernement. $job_giga_virtual_livestock_effect_energy$"
   job_giga_virtual_livestock_effect_desc_competitive:99 "\n§ECoupes de choix :§! Des conditions de culture parfaites ne produisent que le meilleur produit. Nos §Y$ethic_competitive$§! marchés sont revigorés. $job_giga_virtual_livestock_effect_trade$"
@@ -7695,7 +7701,7 @@
   war_system_0:99 "Site d'un $name_war_system$"
   war_system_0_DESC:99 "Le site de construction d'un futur $name_war_system$, probablement le vaisseau le plus grand et le plus puissant jamais construit dans cette galaxie."
    war_system_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_gigastructure$ - $giga_list_category_celestial_warship$\nConvertit une §YÉtoile§!, §Y5 Lunes de combat§! et §Y4 Vaisseaux-planètes béhémoths§! en un §YVaisseau-Système§!\n$giga_list_removes_system_planets$\n§LUn gigantesque système stellaire armé, possédant d'énormes quantités d'armements." #megalistentry SYSTEMCRAFT
-  war_system_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - S'il est vaincu, le §YVaisseau-Système§! éclatera et se séparera les éléments qui le constituent, à savoir §Y4 Lunes de combat§! et §Y5 Vaisseaux-planètes béhémoths§!.\n§RWARNING! ÉVITEZ DE METTRE DES COMPOSANTS DE RÉGÉNÉRATION DE COQUE SUR LE VAISSEAU SYSTÈME CAR CELA RISQUE DE PROVOQUER UN DÉBORDEMENT ET DE SUPPRIMER LE VAISSEAU!§!"
+  war_system_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - S'il est vaincu, le §YVaisseau-Système§! éclatera et se séparera les éléments qui le constituent, à savoir §Y5 Lunes de combat§! et §Y4 Vaisseaux-planètes béhémoths§!.\n§RWARNING! ÉVITEZ DE METTRE DES COMPOSANTS DE RÉGÉNÉRATION DE COQUE SUR LE VAISSEAU SYSTÈME CAR CELA RISQUE DE PROVOQUER UN DÉBORDEMENT ET DE SUPPRIMER LE VAISSEAU!§!"
   
   war_system_1:99 "Compresseur solaire du Vaisseau-système"
   war_system_1_DESC:99 "Deux gravitocompresseurs massifs réduisent l'étoile centrale du système et récupèrent son énergie afin d'alimenter les armes puissantes du futur Vaisseau-système."
@@ -9965,6 +9971,19 @@
 	bombardment_katzen:99 "Félidéen"
 	bombardment_katzen_desc:99 "Sur la base des méthodes de l'espèce éteinte des Félidés, le Bombardement '$bombardment_katzen$' déclenche la puissance conjointe de d'armes nucléaires, à antimatière et biologiques sur la surface de la planète.\n- Dégâts §Papocalyptique§! aux §Yarmées§!\n- Dégâts §Papocalyptique§! aux §Yplanètse§!\n- Dégâts §PApocalyptique§! aux §YPops§!\n- bombardera des planètes non défendues\n- Va réduire les planètes en des mondes désertiques irradiés\n- A une forte chance de générer des dépôts de ressources rares sur les mondes dévastés\n- Va §Rréduire§! l'opinion des empires étrangers avec lesquels nous ne sommes pas alliés, s'il est utilisé sur un Empire qui n'a pas le trait génocidal\n- §RCette position de bombardement peut, et va complètement ruiner les planètes sur lesquelles il est utilisé."
 
+  bombardment_house_cat_katzen:99 "$bombardment_katzen$"
+  bombardment_house_cat_katzen_desc:99 "$bombardment_katzen_desc$"
+  
+  bombardment_mary_sue_katzen:99 "$bombardment_katzen$"
+  bombardment_mary_sue_katzen_desc:99 "$bombardment_katzen_desc$"
+  
+  bombardment_mary_sue_slam_dance_katzen:99 "$bombardment_katzen$"
+  bombardment_mary_sue_slam_dance_katzen_desc:99 "$bombardment_katzen_desc$"
+  
+  bombardment_mary_sue_Q_katzen:99 "$bombardment_katzen$"
+  bombardment_mary_sue_Q_katzen_desc:99 "$bombardment_katzen_desc$"
+  
+
 	katzen_bombing:99 "§HDéverrouille la position de bombardement :§! $bombardment_katzen$"
 	katzen_bombing_desc:99 "Une position de bombardement qui utilise une vaste gamme d'explosifs différents afin de maximiser les dégâts infligés à la planète cible et a de fortes chances de créer des dépôts de ressources rares."
 
@@ -10908,9 +10927,9 @@
 
 	giga_katzenartig_enabled_default:99 "£menu_o£Impérium Félidéen (§GDéfaut§!)\nL'Impérium Félidéen a une probabilité de §Y~40%§! d'apparaître."
 	giga_katzenartig_enabled_always:99 "Impérium Félidéen (§EGaranti§!)\nL'Impérium Félidéen apparaîtra §Gtoujours§!  après le milieu de la partie, à condition que leur lune ne soit pas détruite."
-	giga_katzenartig_enabled_deathwish:99 "Impérium Félidéen (§RChevauchée du Kaiser§!)\nL'Impérium Félidéen apparaîtra §Gtoujours§!  après le milieu de la partie, et sera §RVraiment§! plus puissant, recevant les améliorations suivantes :\n§Y+200% de dégâts d'armes\n+200% de PV de bouclier\n+200% de PV de blindage\n+200% de PV de coque\n+200% de dégâts d'armée\n+200% de santé de l'armée\n+100% de vitesse de construction des mégastructures\n+50% de cadence de tir\n+50% de vitesse du vaisseau§!\n\n§RExtrêmement difficile.§!"
+	giga_katzenartig_enabled_deathwish:99 "Impérium Félidéen (§RChevauchée du Kaiser§!)\nL'Impérium Félidéen apparaîtra §Gtoujours§!  après le milieu de la partie, et sera §RVraiment§! plus puissant, recevant les améliorations suivantes :\n§Y+200% de dégâts d'armes\n+200% de PV de bouclier\n+200% de PV de blindage\n+200% de PV de coque\n+200% de dégâts d'armée\n+200% de santé de l'armée\n+100% de vitesse de construction des mégastructures\n+50% de cadence de tir\n+50% de vitesse du vaisseau§!\n§YLa Recherche des Félidés sera plus rapide§!\n\n§RExtrêmement difficile.§!"
 
-	giga_katzenartig_enabled_stellarite:99 "Impérium Félidéen (§YLe Kaiser Stellarite§!)\nL'Impérium Félidéen apparaîtra §Gtoujours§!  après le milieu de la partie, et sera §RMonstrueusement§! plus puissant, recevant les améliorations suivantes :\n§Y+1200% de dégâts des armes\n+1200% de PV de bouclier\n+1200% de PV d'armure\n+1200% de PV de coque\n+800% de dégâts d'armée\n+800% de santé de l'armée\n+200% de vitesse de construction des mégastructures\n+300% de cadence de tir\n+200% de vitesse du vaisseau§!\n\n§RLE KAISER DÉCLARE LA GUERRE A LA GALAXIE TOUTE ENTIERE 10 ANS APRÈS SON APPARITION§!\n§RCHALLENGE IMPOSSIBLE.\nCECI N'EST PAS ÉQUILIBRÉ.\nÀ UTILISER AVEC DES MODS PUISSANTS !§!"
+	giga_katzenartig_enabled_stellarite:99 "Impérium Félidéen (§YLe Kaiser Stellarite§!)\nL'Impérium Félidéen apparaîtra §Gtoujours§!  après le milieu de la partie, et sera §RMonstrueusement§! plus puissant, recevant les améliorations suivantes :\n§Y+1200% de dégâts des armes\n+1200% de PV de bouclier\n+1200% de PV d'armure\n+1200% de PV de coque\n+800% de dégâts d'armée\n+800% de santé de l'armée\n+200% de vitesse de construction des mégastructures\n+300% de cadence de tir\n+200% de vitesse du vaisseau§!\n§YLa Recherche des Félidés sera plus rapide§!\n\n§RLE KAISER DÉCLARE LA GUERRE A LA GALAXIE TOUTE ENTIERE 10 ANS APRÈS SON APPARITION§!\n§RCHALLENGE IMPOSSIBLE.\nCECI N'EST PAS ÉQUILIBRÉ.\nÀ UTILISER AVEC DES MODS PUISSANTS !§!"
 
 	initial_flusion_buff:99 "Buff Initial pour §HFlusion§!"
 	initial_flusion_buff_desc:99 "Le Kaiser est OP, il faut le nerf..."
@@ -11370,11 +11389,11 @@
 
 	#War Forge
 	katzen_forge_0:99 "Site d'une forge de guerre des Félidés"
-	katzen_forge_0_DESC:99 "Le site de construction d'une forge de guerre des Félidés, une grande construction orbitale qui récolte les ressources d'un grand astéroïde et les transforme en vaisseaux de guerre."
+	katzen_forge_0_DESC:99 "Le site de construction d'une forge de guerre des Félidés, une grande construction orbitale qui récolte les ressources de l'étoile locale et les transforme en vaisseaux de guerre."
   katzen_forge_0_MEGASTRUCTURE_DETAILS:99 "$katzen_forge_0_DESC$"
 
 	katzen_forge_1:99 "Forge de Guerre des félidés"
-	katzen_forge_1_DESC:99 "Une grande construction orbitale construite près d'un astéroïde, récupérant les ressources dudit astéroïde afin d'assembler des vaisseaux de guerre Félidés."
+	katzen_forge_1_DESC:99 "Une grande construction orbitale construite près d'une colonie félidéenne, récupérant les ressources présentes dans le système afin d'assembler des vaisseaux de guerre Félidés."
 
 	giga_katzen.031.name:99 "Forge de Guerre des félidés démolie !"
 	giga_katzen.031.desc:99 "Nos flottes rapportent que, suite à la capture du système §Y[war_forge_destroyed_system.GetName]§!, la forge de guerre des Félidés a été auto-détruite, pour empêcher la capture.\n\nNous avons réussi à récupérer certaines ressources de l'épave, et les Félidés ne pourront plus utiliser ce système pour renforcer leurs armadas."
@@ -11391,7 +11410,7 @@
 	katzen_ships_lost:99 "§GVaisseaux félidéens détruits§!"
 
 	katzenartig_chain_1:99 "Flusion, et expansion des Félidés"
-	katzenartig_chain_1_desc:99 "Le gouvernement des Félidés est fortement centralisé autour de §HFlusion§!, la capitale des Félidés. Saisir ou détruire §HFlusion§! signifierait sans aucun doute la fin et l'effondrement complet de l'Impérium.\nAfin d'étendre leur flotte, les Félidés construisent des §YForges de Guerres§! autour des astéroïdes dans leur espace, ce qui créera périodiquement plus de vaisseaux et appauvrira lentement l'astéroïde. Elles s'«§Yauto-détruiront§!» si leur système est capturé.\nLes planètes des Félidés projetteront également des §YChamps de brouillage des moteurs de saut§! sur leurs propres système ainsi qu'aux systèmes voisins, empêchant les sauts tactiques dans ces zones. Capturer la planète désactivera le champ."
+	katzenartig_chain_1_desc:99 "Le gouvernement des Félidés est fortement centralisé autour de §HFlusion§!, la capitale des Félidés. Saisir ou détruire §HFlusion§! signifierait sans aucun doute la fin et l'effondrement complet de l'Impérium.\nAfin d'étendre leur flotte, les Félidés construisent des §YForges de Guerres§! autour de leurs planètes dans leur espace, ce qui créera périodiquement plus de vaisseaux. Elles s'«§Yauto-détruiront§!» si leur système est capturé.\nLes planètes des Félidés projetteront également des §YChamps de brouillage des moteurs de saut§! sur leurs propres système ainsi qu'aux systèmes voisins, empêchant les sauts tactiques dans ces zones. Capturer la planète désactivera le champ."
 
 	paluush_defender_acot:99 "Armées de Peluchiens"
 	paluush_defender_acot_desc:99 "Défenseur équipé psioniquement, formé au plus haut niveau."
@@ -11572,7 +11591,7 @@
   initial_flusion_buff_improbable:99 "Kaiser Improbable"
   initial_flusion_buff_improbable_desc:99 "Le Kaiser le veut."
 
-	giga_katzenartig_enabled_improbable:99 "£menu_katzen_i£Impérium Félidéen (§YLe Kaiser infiniment improbable§!)\nL'Impérium Félidéen apparaîtra §Gtoujours§!  après le milieu de la partie, et sera §RInfiniement§! plus puissant, recevant les améliorations suivantes :\n§Y+6000% de dégâts des armes\n+6000% de PV de bouclier\n+6000% de PV d'armure\n+6000% de PV de coque\n+4000% de dégâts d'armée\n+4000% de santé et moral de l'armée\n+500% de vitesse de construction des mégastructures\n+800% de cadence de tir\n+800% de vitesse du vaisseau\n+30 d'Evasion de base\n+150% d'évasion\n+1000% de dégâts des bombardements orbitaux§!\n\n§RLE KAISER DÉCLARE LA GUERRE A LA GALAXIE TOUTE ENTIERE 10 ANS APRÈS SON APPARITION§!\n§RCHALLENGE IMPOSSIBLE.\nCECI N'EST ABSOLUMENT PAS ÉQUILIBRÉ.\nÀ UTILISER AVEC DES MODS EXTRÊMEMENT PUISSANTS !§!"
+	giga_katzenartig_enabled_improbable:99 "£menu_katzen_i£Impérium Félidéen (§YLe Kaiser infiniment improbable§!)\nL'Impérium Félidéen apparaîtra §Gtoujours§!  après le milieu de la partie, et sera §RInfiniement§! plus puissant, recevant les améliorations suivantes :\n§Y+6000% de dégâts des armes\n+6000% de PV de bouclier\n+6000% de PV d'armure\n+6000% de PV de coque\n+4000% de dégâts d'armée\n+4000% de santé et moral de l'armée\n+500% de vitesse de construction des mégastructures\n+800% de cadence de tir\n+800% de vitesse du vaisseau\n+30 d'Evasion de base\n+150% d'évasion\n+1000% de dégâts des bombardements orbitaux§!\n§YLa Recherche des Félidés sera plus rapide§!\n\n§RLE KAISER DÉCLARE LA GUERRE A LA GALAXIE TOUTE ENTIERE 10 ANS APRÈS SON APPARITION§!\n§RCHALLENGE IMPOSSIBLE.\nCECI N'EST ABSOLUMENT PAS ÉQUILIBRÉ.\nÀ UTILISER AVEC DES MODS EXTRÊMEMENT PUISSANTS !§!"
 
   improbable_kaiser:99 "L'Improbable Kaiser Infini"
   improbable_kaiser_desc:99 "Parce que le Kaiser le veut."
@@ -14652,6 +14671,9 @@
   BLOKKAT_EVICTOR:99 "Noyau"
 
   blokkat_stripminers_admiral:99 "Superviseur"
+  blokkat_stripminers_general:99 "Envahisseur"
+  blokkat_stripminers_governor:99 "Administrateur"
+  blokkat_stripminers_scientist:99 "Chercheur"
 
   blokkat_harvester_charging_up_mothership:99 "Chabloc-Moissonneur principal en charge"
   blokkat_harvester_charging_up_mothership_DESC:99 "Le Chabloc-Moissonneur principal se prépare à récolter l'énergie constitutive de ce système stellaire.."
@@ -15056,13 +15078,13 @@
   species_trait_blokkat:99 "Chabloc"
   species_trait_blokkat_desc:99 "Les Chablocs sont des créatures intelligentes et développées."
 
-	giga_blokkats_easy:99 "Chablocs (§BBlocchatons§!)\nLes Chablocs sont §Bquelque peu affaiblis§!.\n\nIls recevront les effets suivants :\n§Y-33% Dégâts des armes\n-33% Coque/Blindage/Bouclier des vaisseaux\n-33% Vitesse des vaisseaux\n-33% Dégâts/Santé/Moral des armées§!\n\nLe §YChabloc-Moissonneur principal§! ne pourra pas être reconstruite, et a un total de coque de §Y400M§!\nIls auront §Y0.70x§! de §YBloc-récolteurs§!\nActiver le §YDéstabilisateur Hyperdimensionnel§! coûtera §Y400k§! £energy£\nLa Vitesse de recherche sur les Chablocs est §Y25%§! plus rapide\n\n§HEquilibré en utilisant le mod §YGigastructural Ingénierie & Plus§! uniquement."
+	giga_blokkats_easy:99 "Chablocs (§BBlocchatons§!)\nLes Chablocs sont §Bquelque peu affaiblis§!.\n\nIls recevront les effets suivants :\n§Y-33% Dégâts des armes\n-33% Coque/Blindage/Bouclier des vaisseaux\n-33% Vitesse des vaisseaux\n-33% Dégâts/Santé/Moral des armées§!\n\nLe §YChabloc-Moissonneur principal§! ne pourra pas être reconstruite, et a un total de coque de §Y400M§!\nIls auront §Y0.70x§! de §YBloc-récolteurs§!\nActiver le §YDéstabilisateur Hyperdimensionnel§! coûtera §Y400k§! £energy£\nLa Vitesse de recherche sur les Chablocs est §Y25%§! plus rapide\n\nLes §YBlokk-Protokoles§! vont coûter §Y25 million d’énergie§! et la §GVolonté Chabloc§! commencera à §Y20%§!\n\n§HEquilibré en utilisant le mod §YGigastructural Ingénierie & Plus§! uniquement."
 
-  giga_blokkats_normal:99 "Chablocs (§GChablocs§!)\nLes Chablocs auront la puissance par défaut.\n\nLe §YChabloc-Moissonneur principal§! pourra être reconstruit §Y1 fois§!, et a un total de coque de §Y800M§! HP\nActiver le §YDéstabilisateur Hyperdimensionnel§! coûtera §Y600k§! £energy£\n\n§HEquilibré en utilisant les mods comme §YNew Ship Classes§! ou §YExtra Ship Components§!.§!"
+  giga_blokkats_normal:99 "Chablocs (§GChablocs§!)\nLes Chablocs auront la puissance par défaut.\n\nLe §YChabloc-Moissonneur principal§! pourra être reconstruit §Y1 fois§!, et a un total de coque de §Y800M§! HP\nActiver le §YDéstabilisateur Hyperdimensionnel§! coûtera §Y600k§! £energy£\n\nLes §YBlokk-Protokoles§! vont coûter §Y50 million d’énergie§! et la §GVolonté Chabloc§! commencera à §Y0%§!\n\n§HEquilibré en utilisant les mods comme §YNew Ship Classes§! ou §YExtra Ship Components§!.§!"
 
-	giga_blokkats_bismuth:99 "Les Chablocs (§RChablocs Bismuth§!)\nLes Chablocs sont §Rsignificativement plus puissants§!.\n\nIls recevront les effets suivants :\n§Y+200% Dégâts des armes\n+200% Cadence de tir des vaisseaux\n+200% Coque/Blindage/Bouclier des vaisseaux\n+50% Vitesse des vaisseaux\n+50% Vitesse de construction des Mégastructures\n+200% Dégâts/Santé/Moral des armées§!\n\nLe §YChabloc-Moissonneur principal§! peut être reconstruit §Y4 fois§!, et a un total de coque de §Y2 billion§!\nIl peut y avoir §Y2x§! plus de §YBloc-récolteurs§!\nActiver le §YDéstabilisateur Hyperdimensionnel§! coûtera §Y1.5M§! £energy£\n\nLeurs flottes d'escorte et d'éclaireurs seront 2,5 fois plus importantes.\nLa Vitesse de recherche sur les Chablocs est §Y75%§! plus lente\n\nLe §YChabloc-Moissonneur principal§! sera escorté par §Y2§! §RBloc-Terminators§!, et une flotte importante de vaisseaux Chablocs atteignant un billion de coque, et pourra être reconstruit §Yune fois§!.\n\n§HEquilibré en utilisant les mods très puissant comme §YAncient Caches of Technologies§!.§!"
+	giga_blokkats_bismuth:99 "Les Chablocs (§RChablocs Bismuth§!)\nLes Chablocs sont §Rsignificativement plus puissants§!.\n\nIls recevront les effets suivants :\n§Y+200% Dégâts des armes\n+200% Cadence de tir des vaisseaux\n+200% Coque/Blindage/Bouclier des vaisseaux\n+50% Vitesse des vaisseaux\n+50% Vitesse de construction des Mégastructures\n+200% Dégâts/Santé/Moral des armées§!\n\nLe §YChabloc-Moissonneur principal§! peut être reconstruit §Y4 fois§!, et a un total de coque de §Y2 billion§!\nIl peut y avoir §Y2x§! plus de §YBloc-récolteurs§!\nActiver le §YDéstabilisateur Hyperdimensionnel§! coûtera §Y1.5M§! £energy£\n\nLeurs flottes d'escorte et d'éclaireurs seront 2,5 fois plus importantes.\nLa Vitesse de recherche sur les Chablocs est §Y75%§! plus lente\n\nLe §YChabloc-Moissonneur principal§! sera escorté par §Y2§! §RBloc-Terminators§!, et une flotte importante de vaisseaux Chablocs atteignant un billion de coque, et pourra être reconstruit §Yune fois§!.\n\nLes §YBlokk-Protokoles§! vont coûter §Y250 million d’énergie§! et la §GVolonté Chabloc§! commencera à §Y-50%§!\n\n§HEquilibré en utilisant les mods très puissant comme §YAncient Caches of Technologies§!.§!"
 
-	giga_blokkats_endtech:99 "Les Chablocs (§MChablocs Endtekk§!)\nLes Chablocs seront §MVRAIMENT TRES PUISSANTS§! et enverront des vaisseaux de guerre appropriés pour surveiller leurs opérations minières.\n\nIls recevront les effets suivants :\n§Y+1000% Dégâts des armes\n+1000% Cadence de tir des vaisseaux\n+2000% Coque/Blindage/Bouclier des vaisseaux\n+90% Vitesse des vaisseaux\n+250% Vitesse de construction des Mégastructures\n+1000% Dégâts/Santé/Moral des armées§!\n\nLe §YChabloc-Moissonneur principal§! peut être reconstruit §Y20 fois§!, et a un total de coque de §Y8 billion§! HP\nIls auront §Y3x§! plus de §YBloc-récolteurs§!\nActiver le §YDéstabilisateur Hyperdimensionnel§! coûtera §Y4M§! £energy£\nLeurs flottes d'escorte et d'éclaireurs seront 6 fois plus importantes.\nLa Vitesse de recherche sur les Chablocs est §Y250%§! plus lente\n\nLe §YChabloc-Moissonneur principal§! sera escorté par §Y5§! §RBloc-Terminators§!.\nLes §YBloc-récolteurs§! seront escortés par §Y2§! §RBloc-Terminators§!.\nLes §YFlottes d'exploration§! auront également un §Yunique§! §RBloc-Terminator§! chacune.\nLes §RBloc-Terminators§! auront un total de coque de §Y2.5 billion§! et peuvent être reconstruit §Y4 fois§!.\n\nLes §RBloc-Terminators§! §Rdétruiront§! instantanément toutes les colonies des systèmes dans lesquels ils entreront. Ne les laissez pas atteindre vos planètes!\n\n§HÉQUILIBRÉ POUR UNE UTILISATION AVEC BEAUCOUP DE MODS PUISSANTS!"
+	giga_blokkats_endtech:99 "Les Chablocs (§MChablocs Endtekk§!)\nLes Chablocs seront §MVRAIMENT TRES PUISSANTS§! et enverront des vaisseaux de guerre appropriés pour surveiller leurs opérations minières.\n\nIls recevront les effets suivants :\n§Y+1000% Dégâts des armes\n+1000% Cadence de tir des vaisseaux\n+2000% Coque/Blindage/Bouclier des vaisseaux\n+90% Vitesse des vaisseaux\n+250% Vitesse de construction des Mégastructures\n+1000% Dégâts/Santé/Moral des armées§!\n\nLe §YChabloc-Moissonneur principal§! peut être reconstruit §Y20 fois§!, et a un total de coque de §Y8 billion§! HP\nIls auront §Y3x§! plus de §YBloc-récolteurs§!\nActiver le §YDéstabilisateur Hyperdimensionnel§! coûtera §Y4M§! £energy£\nLeurs flottes d'escorte et d'éclaireurs seront 6 fois plus importantes.\nLa Vitesse de recherche sur les Chablocs est §Y250%§! plus lente\n\nLe §YChabloc-Moissonneur principal§! sera escorté par §Y5§! §RBloc-Terminators§!.\nLes §YBloc-récolteurs§! seront escortés par §Y2§! §RBloc-Terminators§!.\nLes §YFlottes d'exploration§! auront également un §Yunique§! §RBloc-Terminator§! chacune.\nLes §RBloc-Terminators§! auront un total de coque de §Y2.5 billion§! et peuvent être reconstruit §Y4 fois§!.\n\nLes §RBloc-Terminators§! §Rdétruiront§! instantanément toutes les colonies des systèmes dans lesquels ils entreront. Ne les laissez pas atteindre vos planètes!\n\nLes §YBlokk-Protokoles§! vont coûter §Y1000 million d’énergie§! et la §GVolonté Chabloc§! commencera à §Y-100%§!\n\n§HÉQUILIBRÉ POUR UNE UTILISATION AVEC BEAUCOUP DE MODS PUISSANTS!"
 
   
   giga_blokkat.3236.name:99 "Nexus de détention de Chablocs terminé !"
@@ -15101,13 +15123,16 @@
   giga_blokkat.3233.b:99 "A la réflexion, peut-être plus tard."
 
   REPROGRAM_COOPERATIVE_BLOKKAT:99 "Reprogrammer un Chabloc §GCoopératif§!"
-  REPROGRAM_COOPERATIVE_BLOKKAT_DESC:99 "Une très délicate altération de la conscience d'un Chabloc captif par le biais d'une "chirurgie hyperdimensionnelle" transformera la créature avancée en un leader volontaire et loyal pour notre empire."
-
-  REPROGRAM_DISPLEASED_BLOKKAT:99 "Reprogrammer un Chabloc §Rmécontent§!"
-  REPROGRAM_DISPLEASED_BLOKKAT_DESC:99 "Une très délicate altération de la conscience d'un Chabloc captif par le biais d'une "chirurgie hyperdimensionnelle" transformera la créature avancée en un leader volontaire et loyal pour notre empire."
+  REPROGRAM_COOPERATIVE_BLOKKAT_DESC:99 "Une très délicate altération de la conscience d'un Chabloc captif par le biais d'une 'chirurgie hyperdimensionnelle' transformera la créature avancée en un leader volontaire et loyal pour notre empire."
 
   REPROGRAM_INDIFFERENT_BLOKKAT:99 "Reprogrammer un Chabloc §LIndifférent§!"
-  REPROGRAM_INDIFFERENT_BLOKKAT_DESC:99 "Une très délicate altération de la conscience d'un Chabloc captif par le biais d'une "chirurgie hyperdimensionnelle" transformera la créature avancée en un leader volontaire et loyal pour notre empire."
+  REPROGRAM_INDIFFERENT_BLOKKAT_DESC:99 "Une très délicate altération de la conscience d'un Chabloc captif par le biais d'une 'chirurgie hyperdimensionnelle' transformera la créature avancée en un leader volontaire et loyal pour notre empire."
+
+  REPROGRAM_DISPLEASED_BLOKKAT:99 "Reprogrammer un Chabloc §Rmécontent§!"
+  REPROGRAM_DISPLEASED_BLOKKAT_DESC:99 "Une très délicate altération de la conscience d'un Chabloc captif par le biais d'une 'chirurgie hyperdimensionnelle' transformera la créature avancée en un leader volontaire et loyal pour notre empire."
+
+  REPROGRAM_CATASTROPHIC_BLOKKAT:99 "Reprogrammer un Chabloc §LCatastrophé§!"
+  REPROGRAM_CATASTROPHIC_BLOKKAT_DESC:99 "Une très délicate altération de la conscience d'un Chabloc captif par le biais d'une 'chirurgie hyperdimensionnelle' transformera la créature avancée en un leader volontaire et loyal pour notre empire. Espérons-le..."
 
   must_have_conducted_3_experiments_on_blokkat:99 "Nous devons avoir obtenu au moins §Y3§! $blokkat_knowledge$ du §YNexus de détention des Chablocs§! en menant des expériences sur des Chablocs captifs."
   
@@ -15204,8 +15229,8 @@
   giga_blokkat.3223.a.tooltip:99 "§Y[blokkat_prison_breacher.GetName]§! a §Rouvert une brèche§! et est en train de §Rrécolter des planètes§! afin de §Rcréer plus de Chablocs§!.\n\nLe §YNexus de détention de Chablocs§! dans §Y[blokkat_prison_with_breach.solar_system.GetName]§! est §Rdétruit§! !\n\nNous gagnons §Y2§! §RInquiétude Chabloc§!."
 
 
-  giga_blokkat_individual:99 "Chabloc errant"
-  giga_blokkat_individual_plural:99 "Chablocs errants"
+  giga_blokkat_individual:99 "Chabloc solitaire"
+  giga_blokkat_individual_plural:99 "Chablocs solitaires"
 
   BLOKKAT_INDIVIDUAL:99 "Noyau"
 
@@ -15248,6 +15273,9 @@
   giga_blokkat.3210.reprogram.angry:99 "Tentative de reprogrammation §Y[blokkat_prisoner_being_viewed.GetName]§! | §Y45§! $blokkat_knowledge$"
   blokkat_requires_45_knowledge_and_project:99 "Nous avons besoin d'au moins §Y45§! $blokkat_knowledge$ en raison du comportement §Y[blokkat_prisoner_being_viewed.GetName]§! de ce §Rmécontent§! et nous devons avoir terminé le §BProjet de recherche Chabloc§! approprié."
 
+  giga_blokkat.3210.reprogram.catastrophic:99 "Tentative de reprogrammation §Y[blokkat_prisoner_being_viewed.GetName]§! | §Y55§! $blokkat_knowledge$"
+  blokkat_requires_55_knowledge_and_project:99 "Nous avons besoin d'au moins §Y55§! $blokkat_knowledge$ en raison du comportement §PCATASTROPHIC§! §Y[blokkat_prisoner_being_viewed.GetName]§! et nous devons avoir terminé le §BProjet de recherche Chabloc§! approprié." 
+
   giga_blokkat.3210.reprogram.cooperative:99 "Tentative de reprogrammation §Y[blokkat_prisoner_being_viewed.GetName]§! | §Y35§! $blokkat_knowledge$"
   blokkat_requires_35_knowledge_and_project:99 "Nous avons besoin d'au moins §Y35§! $blokkat_knowledge$ en raison du comportement §Y[blokkat_prisoner_being_viewed.GetName]§! de ce §Gcoopératif§! et nous devons avoir terminé le §BProjet de recherche Chabloc§! approprié."
 
@@ -15268,6 +15296,7 @@
   giga_blokkat.3210.desc:99 "§YNom§! : [blokkat_prisoner_being_viewed.GetName]\n\n§YAge§! : [blokkat_prisoner_being_viewed.blokkat_age_value]\n\n§YKey Interests§! : [blokkat_prisoner_being_viewed.blokkat_prisoner_leader_type]\n\n§YPersonality§! : [blokkat_prisoner_being_viewed.blokkat_prisoner_personality]\n\n§YBehavior§! : [blokkat_prisoner_being_viewed.blokkat_prisoner_behavior]"
   giga_blokkat.3210.bye:99 "§BSortir du Nexus de détention de Chablocs§!"
 
+  prison_blokkat_is_catastrophic:99 "§PCATASTROPHIQUE§! - §PLe Nexus de confinement subit constamment des dommages catastrophiques dus aux mouvements intenses et aux attaques fréquentes.§!\n§RAugmente l'entretien du Nexus de confinement de§! §Y150§! £alloys£."
   prison_blokkat_is_angry:99 "§RMécontent§! - [blokkat_prisoner_being_viewed.GetName] n'est pas heureux d'être contenu et cela se voit. Il tente fréquemment et violemment de s'échapper de sa cellule de confinement et rend difficile son étude.\n§RAugmente la maintenance du Nexus de confinement de§! §Y500§! £energy£."
   prison_blokkat_is_indifferent:99 "Indifférent§LIndifférent§! - [blokkat_prisoner_being_viewed.GetName] se soucie très peu de sa situation actuelle. La durée de vie extrême des Chablocs signifie que le temps passé en confinement est probablement insignifiant par rapport au reste de leur existence."
   prison_blokkat_is_cooperative:99 "§GCoopératif§! - [blokkat_prisoner_being_viewed.GetName] est étonnamment coopératif et tente rarement de s'échapper, allant même jusqu'à nous donner des données sur lui et l'espèce Chabloc.\n§GAugmente le Nexus de confinement Génération de recherche de §Y250§! dans toutes les catégories."
@@ -15280,11 +15309,18 @@
 
   prison_blokkat_is_speed_freak:0 "§GMonstre de vitesse§! - Ce Chabloc fait preuve d'une obsession particulière pour le concept de vitesse et pour aller aussi vite que possible. Il n'aime pas être forcé de rester immobile dans notre Nexus de confinement, et cela se voit.\n§RAugmente la maintenance du Nexus de confinement de§! §Y400§! £energy£"
   prison_blokkat_is_primitive_enthusiast:0 "§YPassionné de primitifs§! - [blokkat_prisoner_being_viewed.GetName] semble avoir un intérêt étrange pour les civilisations soi-disant 'primitives' comme la nôtre et est plus que désireux de faire des 'expériences' sur elles pour en apprendre davantage, parfois de manière atrocement tordue."
+  prison_blokkat_is_catgirl:99 "§MAgréable§! - [blokkat_prisoner_being_viewed.GetName] se comporte d'une manière qui serait considérée comme agréable par des êtres tels que nous. Ils essaient apparemment d'attirer l'attention et de susciter un sentiment d'affection chez les observateurs en agissant de la manière la plus 'mignonne' qu'un esprit puisse concevoir.\n§GAugmente la sortie du Nexus de confinement de§! §Y200§! £unity£"
+  prison_blokkat_is_omnitae:99 "§GChercheur de beauté§! - [blokkat_prisoner_being_viewed.GetName] étudie spécifiquement la biologie et l'esthétique des spécimens de nombreuses espèces, en particulier les spécimens 'masculins'. Ils trouvent une grande adoration à cultiver la beauté des individus et des concepts qu'ils trouvent attrayants.\n§GAugmente la sortie du Nexus de confinement de§! §Y200§! £unity£"
+  prison_blokkat_is_blokkazoi_personality:99 "§RERREUR§! - §PCe Chabloc se déplace constamment, ignore toute tentative de communication, et inonde constamment nos capteurs de données inutiles.§!\n§RAugmente la maintenance du Nexus de confinement de§! §Y100§! £unity£"
+
 
   prison_blokkat_is_governor:99 "§SConstruction d'une nation§! - Ce Chabloc particulier semble très intrigué par les subtilités du développement d'une civilisation planétaire semblable à la nôtre."
   prison_blokkat_is_scientist:99 "§BRecherche scientifique§! - [blokkat_prisoner_being_viewed.GetName] est manifestement très intéressé par tout ce qui concerne l'avancement de la base scientifique de Chabloc."
   prison_blokkat_is_admiral:99 "§PGuerre intergalactique§! - Il est probable que ce Chabloc ait pris part à un ou plusieurs conflits intergalactiques opposant les Chablocs à une puissante civilisation qui se trouvait sur leur chemin."
   prison_blokkat_is_general:99 "§GLogistique planétaire§!- Bien que ce ne soit pas quelque chose que les Chablocs font habituellement eux-mêmes, [blokkat_prisoner_being_viewed.GetName] est fasciné par les stratégies et les tactiques employées par les civilisations prétendument 'primitives' lorsqu'elles s'engagent dans une guerre terrestre entre elles."
+  prison_blokkat_is_blokkazoi_interests:99 "§RDANGER§! - §PCe Chabloc est complètement imprévisible et semble inséparable de son arme, une sorte d'appareil ésotérique 'poignardant'§!."
+
+
 
   individual_blokkat:99 "Chabloc solitaire"
   individual_blokkat_desc:99 "Un Chabloc individuel qui explore un monde étranger."
@@ -15489,7 +15525,7 @@
   giga_blokkat.1023.a:99 "Malédictions ! | §Y[ROOT.blokkat_pop_inquietude]§! §RInquiétude Chabloc§!"
   giga_blokkat.1023.b:99 "Dépensez §Y[ROOT.blokkat_pop_influence_cost]§! £influence£ pour atténuer l'impact. | §Y[ROOT.blokkat_pop_inquietude_halved]§! §RInquiétude Chabloc§!"
   blokkat_not_enough_influence:99 "Influence insuffisante."
-
+  giga_blokkat.1023.willingness.desc:99 "The §YBlokkats§! have reached and subsequently obliterated our colony of §Y[ROOT.GetName]§!, causing the unfortunate demise of §Y[ROOT.blokkat_planet_pop_count]§! pops in mere moments.\n\nIf we do not contain its impact on our civilization, this grave act will generate §Y[ROOT.blokkat_pop_inquietude]§! §RBlokkat Inquietude§! and lower §HGovernment Willingness§! and §MPopulation Willingness§! by §R[ROOT.blokkat_pop_inquietude]%§! within our empire. Alternatively, we can attempt to compensate for the world's destruction with subsides and propaganda to halve the inquietude impact, but it would cost approximately §Y[ROOT.blokkat_pop_influence_cost]§! £influence£ to do so."
   #Contact
 
   giga_blokkat.5010.name:99 "Les Chablocs"
@@ -15763,7 +15799,7 @@
   giga_contact_blokkats_tooltip:99 "§HMoniteur §Ydes connaissances sur les Chablocs§!...§!"
 
   giga_blokkat.3000.name:99 "§GActions de recherche sur les Chablocs§!"
-  giga_blokkat.3000.desc.a:99 "Les §YDépouilleurs Chabloc§! sont une menace existentielle pour la galaxie entière. Si nous voulons les combattre, nous devons accumuler autant de §GConnaissances Chabloc§! que possible.\n\nCes connaissances peuvent être acquises grâce à §Ydes recherches répétables spécifiques§!, §Ydes tâches diverses§! et §Ydes projets spéciaux§! dès que nous en avons l'occasion.\n\nNotre objectif principal est d'accumuler suffisamment de §GConnaissances Chabloc§! afin de concevoir le §YDéstabilisateur Hyperdimensionnel§!, une §YGigastructure§! théoriquement capable de faire tomber le bouclier du §YChabloc-Moissonneur principal§!. Il serait sage d'investir dans des installations de recherche sans tarder."
+  giga_blokkat.3000.desc.a:99 "[ROOT.blokkat_bureau_text]"
 
   blokkat_knowledge:99 "§GConnaissances Chabloc§!"
   blokkat_knowledge_one:99 "§GConnaissance Chabloc§!"
@@ -15859,7 +15895,7 @@
   blokkat_knowledge_name:99 "§GConnaissance Chabloc§!"
   blokkat_knowledge_name_plural:99 "§GConnaissances Chabloc§!"
 
-  blokkat_knowledge_desc:99 "La '§GConnaissance Chabloc§!' est la somme de nos connaissances combinées concernant les Chablocs et leur technologie. Rassembler autant de connaissances que possible est crucial si nous voulons riposter contre le §YChabloc-Moissonneur principal§! et son bouclier."
+  blokkat_knowledge_desc:99 "La '§GConnaissance Chabloc§!' est la somme de nos connaissances combinées concernant les Chablocs et leur technologie. Rassembler autant de connaissances que possible est crucial si nous voulons gérer les Chablocs, d'une manière ou de l'autre."
 
   blokkat_scrap_name:99 "§MDébris Chablocs§!"
   blokkat_scrap_desc:99 "Les §MDébris Chablocs§! regroupent les divers morceaux d'épaves des Chablocs récupérés, contenant leur technologie. Ils peuvent être utilisés pour apporter des améliorations §Htemporaires et intenses§! ou §Hmodérées mais permanentes§! §Yde recherche§! et §Yde dégâts§! aux Chablocs. Certains §BProjets de Recherche Chabloc§! peuvent utiliser ces §Mdébris§! pour réaliser la §Yrétro-ingénierie§! de leurs composants."
@@ -17621,7 +17657,7 @@
   giga_tyaur_disabled:99 "£menu_disabled£Elysium abandonné - §RDÉSACTIVÉ§!\nUn Elysium orbital abandonné gardé par une puissante flotte et contenant un surprenant secret, ne va §RPAS§! apparaître."
 
 
-  giga_square_enabled:99 "£menu_enabled£Le carré mythique - §GACTIVÉ§!\nLe Monde-Carré mythique qui défie les lois de la physique, où se trouve §YGaryx§!, has a §Y30%§! chance of spawning."
+  giga_square_enabled:99 "£menu_enabled£Le carré mythique - §GACTIVÉ§!\nLe Monde-Carré mythique qui défie les lois de la physique, où se trouve §YGaryx§!, a §Y30%§! de prob. d'apparaître."
   
   giga_square_guaranteed:99 "£menu_enabled£Le carré mythique - §BGARANTI§!\nLe Monde-Carré mythique qui défie les lois de la physique, où se trouve §YGaryx§!, §GVA§! apparaître."
   
@@ -17637,7 +17673,7 @@
 
   giga_gatzo_enabled:99 "£menu_enabled£Gatzo - §GACTIVÉ§!\nLe système de §YGatzo§!, les mondes de §YPeluchia§! et §YFélidrin§! §GVONT§! apparaître.\n§YContrairement à ce que le nom pourrait laisser croire, L'Impérium Félidéen ne provient pas de Félidrin!§!\n§GPeluchia joue un rôle important dans la crise des Chablocs.§!"
   
-  giga_gatzo_nopaluushia:99 "£menu_enabled£Gatzo - §YPAS DE PELUCHES§!\nLe système de §YGatzo§!, les mondes de §YPeluchia§! et §YFélidrin§! §GVONT§! apparaître.\nCependant, §YPeluchia§! sera retiré du jeu et deviendra un monde du Suaire.\nContrairement à ce que le nom pourrait laisser croire, L'§YImpérium Félidéen§! ne provient pas Félidrin!\n§RNon recommandé si vous voulez découvrir l'histoire complète du mod.§!\n§RRendra la crise des Chablocs beaucoup plus difficile.§!"
+  giga_gatzo_nopaluushia:99 "£menu_enabled£Gatzo - §YPAS DE PELUCHES§!\nLe système de §YGatzo§!, les mondes de §YPeluchia§! et §YFélidrin§! §GVONT§! apparaître.\nCependant, §YPeluchia§! sera retiré du jeu et deviendra un monde du Suaire.\nContrairement à ce que le nom pourrait laisser croire, L'§YImpérium Félidéen§! ne provient pas de Félidrin!\n§RNon recommandé si vous voulez découvrir l'histoire complète du mod.§!\n§RRendra la crise des Chablocs beaucoup plus difficile.§!"
   
   giga_gatzo_disabled:99 "£menu_disabled£Gatzo- §RDÉSACTIVÉ§!\nLe système de §YGatzo§!, les mondes de §YPeluchia§! et §YFélidrin§! ne vont §RPAS§! apparaître.\n§RNon recommandé si vous voulez découvrir l'histoire complète du mod.§!\n§RRendra la crise des Chablocs beaucoup plus difficile.§!"
 
@@ -18207,7 +18243,7 @@
   katzen_easy:99 "Kaiser à l'essai"
   katzen_easy_desc:99 "Ce n'est pas facile de conquérir la galaxie."
 
-	giga_katzenartig_enabled_easy:99 "£menu_enabled£Impérium Félidéen (§GKaiser à l'essai§! )\nL'Impérium militariste des Félidés pourrait apparaître après le milieu du jeu (mais n'obtiendra §RPAS§! la lune au début du jeu), et sera §Gmoins§! puissant que la normale, recevant les affaiblissements suivants :\n§Y-30% de dégâts d'armes\n-40% de PV de bouclier\n-40% de PV de blindage\n-40% de PV de coque\n-40% de dégâts des armées\n-40% de santé des armées\n-20% de cadence de tir\n-20% de vitesse des vaisseaux§!."
+	giga_katzenartig_enabled_easy:99 "£menu_enabled£Impérium Félidéen (§GKaiser à l'essai§! )\nL'Impérium militariste des Félidés pourrait apparaître après le milieu du jeu (mais n'obtiendra §RPAS§! la lune au début du jeu), et sera §Gmoins§! puissant que la normale, recevant les affaiblissements suivants :\n§Y-30% de dégâts d'armes\n-40% de PV de bouclier\n-40% de PV de blindage\n-40% de PV de coque\n-40% de dégâts des armées\n-40% de santé des armées\n-20% de cadence de tir\n-20% de vitesse des vaisseaux§!.\n§YLes Recherches des Félidés ne sera pas mise à l'échelle, et n'aura aucun bonus.§!"
 
   giga_katzen.122.name:99 "Les Mondes Siegfried explosent !"
   giga_katzen.122.desc:99 "En réponse à l'effondrement de l'§YImpérium Félidéen§!, les Félidés loyaux qui occupent tous les §YMondes Siegfried§! restants ont, dans un ultime acte de défi, déclenché l'explosion complète de la surface des mondes, transformant toutes les planètes restantes en déserts irradiés."
@@ -18592,7 +18628,7 @@
 	katzenartig_chain_3_desc:99 "Les §PRessources félidéennes §! représentent un amalgame des §YAlliages§!, §YMinéraux§! et §YBiens de consommation§! employés par les Félidés. Elles sont nécessaires pour construire de nouveaux vaisseaux et alimenter leurs §YForges de guerre§!.\n\nLes taux de conversion entre les ressources régulières mensuelles et les §PRessources félidéennes§! mensuelles sont les suivantes :\n§Y10§! £alloys£ = §Y1§! §PRessources félidéennes§!\n§Y15§! £consumer_goods£ = §Y1§! §PRessources félidéennes§!\n§Y20§! £minerals£ = §Y1§! §PRessource félidéenne§!\n§Y5§! £rare_crystals£/£volatile_motes£/£exotic_gases£ = §Y1§! §PRessource félidéenne§!\n\n§GRevenus§! actuels : §Y[flusion_primitives_country.kaiser_resource_income]§! §PRessources félidéennes §!\n§RDépenses§! actuelles : §Y[flusion_primitives_country.kaiser_resource_spending]§! §PRessources félidéennes §!\n\n§HBalance§! actuelle  : §Y[flusion_primitives_country.kaiser_resource_balance]§! §PRessources félidéennes §!\n§BStockpile§! actuels  : §Y[flusion_primitives_country.kaiser_resource_stockpile]§! §PRessources félidéennes§!"
   
 	katzenartig_chain_4:99 "Efforts de recherche des Félidés"
-	katzenartig_chain_4_desc:99 "La §BProduction en recherche des Félidés§! représente les progrès technologiques que les Félidés réalisent chaque mois pour atteindre leur prochain niveau technologique.\n\n§GNiveau de Tech. des Félidés§! représente le degré d'avancement des Félidés, chaque niveau augmentant la §YCoque§!, §YArmure§! & §YBoucliers§! §YHP§! de §Y5%§!, §YCadence de Tir§! et §YDégâts d'Armes§! de §Y2. 5%§!, §YDégâts de l'armée§! et §YSanté de l'armée§! de §Y5%§! et §YVitesse de construction de la mégastructure§! de §Y2, 5%§!.\n\n§BRecherche félidéenne§! mensuelle actuelle : §Y[flusion_primitives_country.kaiser_tech_income]§!\nProgression vers le prochain §GNiveau technologique des Félidés§! : §Y[flusion_primitives_country.kaiser_tech_stockpile]§! /§Y[flusion_primitives_country.kaiser_tech_to_next_level]§!\n\n§GNiveau de Tech. des Félidés§! actuel : §Y[flusion_primitives_country.kaiser_tech_level]§!\nExtra §HShip Hull§! /§HArmor§! /§HShields§! : §Y[flusion_primitives_country.kaiser_tech_ship_hp_buff]%§!\nPlus de §HDégâts des armes§! & §HCadence de tir§! : §Y[flusion_primitives_country.kaiser_tech_damage_buff]%§!\nExtra §HDégâts d'Armée§! & §HSanté d'Armée§! : §Y[flusion_primitives_country.kaiser_tech_army_buff]%§!\nExtra §HVitesse de construction des Mégastructures§! : §Y[flusion_primitives_country.kaiser_tech_mega_speed_buff]%§!"
+	katzenartig_chain_4_desc:99 "La §BProduction en recherche des Félidés§! représente les progrès technologiques que les Félidés réalisent chaque mois pour atteindre leur prochain niveau technologique.\n\n§GNiveau de Tech. des Félidés§! représente le degré d'avancement des Félidés, chaque niveau augmentant la §YCoque§!, §YArmure§! & §YBoucliers§! §YHP§! de §Y[flusion_primitives_country.cdk_kaiser_other_buff_desc]%§!, §YCadence de Tir§! et §YDégâts d'Armes§! de §Y[flusion_primitives_country.cdk_kaiser_weapon_buff_desc]%§!, §YDégâts de l'armée§! et §YSanté de l'armée§! de §Y[flusion_primitives_country.cdk_kaiser_other_buff_desc]%§! et §YVitesse de construction de la mégastructure§! de §Y[flusion_primitives_country.cdk_kaiser_other_buff_desc]%§!.\n\n§BRecherche félidéenne§! mensuelle actuelle : §Y[flusion_primitives_country.kaiser_tech_income]§!\nProgression vers le prochain §GNiveau technologique des Félidés§! : §Y[flusion_primitives_country.kaiser_tech_stockpile]§! /§Y[flusion_primitives_country.kaiser_tech_to_next_level]§!\n\n§GNiveau de Tech. des Félidés§! actuel : §Y[flusion_primitives_country.kaiser_tech_level]§!\nExtra §HShip Hull§! /§HArmor§! /§HShields§! : §Y[flusion_primitives_country.kaiser_tech_ship_hp_buff]%§!\nPlus de §HDégâts des armes§! & §HCadence de tir§! : §Y[flusion_primitives_country.kaiser_tech_damage_buff]%§!\nExtra §HDégâts d'Armée§! & §HSanté d'Armée§! : §Y[flusion_primitives_country.kaiser_tech_army_buff]%§!\nExtra §HVitesse de construction des Mégastructures§! : §Y[flusion_primitives_country.kaiser_tech_mega_speed_buff]%§!"
   
   
   katzen_economy_modifier:99 "Mécanique de l'économie des Félidés"

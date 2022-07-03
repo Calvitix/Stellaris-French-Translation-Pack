@@ -1,0 +1,89 @@
+﻿l_french:
+
+### 디시인사이드 스텔라리스 갤러리 '어ㅅㅂ' 제작 ###
+
+### Names ###
+#Countries
+xvcv_mdlc_primitive_machine_country:0 "Primitive Machine Intelligence"
+
+### Ground Armies ###
+xvcv_mdlc_primitive_machine_army:0 "Hostile Defense Army"
+xvcv_mdlc_primitive_machine_army_name:0 "Deformed Machines"
+xvcv_mdlc_primitive_machine_army_desc:0 "Twisted abominations made of metal scraps."
+
+### Planet Modifiers ###
+xvcv_mdlc_primitive_machine_unknown_structure:0 "Unknown Structure"
+xvcv_mdlc_primitive_machine_unknown_structure_desc:0 "This long barrel-shaped structure is facing sky while leaning forward onto the ground at about 45 degrees. It seems to be a mass driver shooting objects into space. The same constructions can be found across the planet."
+xvcv_mdlc_primitive_machine_deactivated_defense_cannon:0 "Deactivated Defense Cannon"
+xvcv_mdlc_primitive_machine_deactivated_defense_cannon_desc:0 "Once created to defend the planet from extraterrestrial threats, this weapon is not operational."
+xvcv_mdlc_primitive_machine_hostile_defense_cannon:0 "Hostile Defense Cannon"
+xvcv_mdlc_primitive_machine_hostile_defense_cannon_desc:0 "A weapon to fire a laser beam from surface to space. It targets every spacecraft approaching the planet."
+xvcv_mdlc_primitive_machine_hostile_defense_cannon_tooltip:0 "Hull Damage: §Y50§!\nCooldown: §Y5.00§! £time£\nAccuracy: §Y100%§!"
+xvcv_mdlc_primitive_machine_planet_defense_network:0 "Planetary Defense Network"
+xvcv_mdlc_primitive_machine_planet_defense_network_desc:0 "Mega laser beam cannons capable of attacking hostile objects over the orbit are guarding this planet."
+xvcv_mdlc_primitive_machine_planet_defense_network_tooltip:0 "Hull Damage: §Y200§!\nCooldown: §Y5.00§! £time£\nAccuracy: §Y100%§!"
+
+### Custom Messages ###
+XVCV_MDLC_PLANET_DEFENSE_CANNON_MESSAGE_TITLE:0 "§RPlanetary Defense Cannon Attack§!"
+XVCV_MDLC_PLANET_DEFENSE_CANNON_ATTACK_MESSAGE:0 "Our Fleet orbiting the §Y$XVCV_MDLC_PLANET_DEFENSE_CANNON_LOCATION_PLANET$§! Planet is being §Rattacked§! by Mega Laser Beam Cannons. The Fleet must §Yescape Orbit§! to avoid further damage."
+
+### Special Projects ###
+XVCV_MDLC_PRIMITIVE_MACHINE_SITE_PROJECT_1:0 "Seize Control Permission"
+XVCV_MDLC_PRIMITIVE_MACHINE_SITE_PROJECT_1_DESC:0 "We will hack planetary defense cannons to gain their control."
+XVCV_MDLC_PRIMITIVE_MACHINE_SITE_PROJECT_2:0 "Initiate Surgical Orbital Strike"
+XVCV_MDLC_PRIMITIVE_MACHINE_SITE_PROJECT_2_DESC:0 "We will bombard planetary defense cannons until they turn into rubbles.\n\n§YConquering the planet will skip this special project. Finish the special project to continue excavation without doing that.§!"
+
+### Archaeology Sites ###
+xvcv_mdlc_primitive_machine_site:0 "Finders Keepers, Losers Weepers?"
+xvcv_mdlc_primitive_machine_site_desc:0 " This world is odd. Life is nowhere to be found, yet residential areas, traffic networks, and factories are crowded on the surface.\n\n Our sensors have detected machine drones in these areas. Does it mean they have created all these things then? However, there is no sign of any activities at this moment.\n\n Although weak, we have found command signals from the drones. It is obvious that a Machine Intelligence exists and controls them.\n\n What in the world happened here, and where is the Machine Intelligence?\n\n§YNotice:§! To begin Excavation, while selecting a Military Fleet with an Admiral, right click the £xvcv_mdlc_archaeology_site_icon£ Archaeological Site Icon next to the £xvcv_mdlc_planet_icon£ Planet Name, then left click the $FLEETORDER_EXCAVATE_BUTTON$ Button.\n\n\n\n\n£xvcv_mdlc_archaeology_site_icon_tooltip_image£\n\n\n"
+xvcv_mdlc_primitive_machine_site_tooltip.fail:0 "£trigger_no£ §RRequires a Military Fleet with an Admiral to excavate.§!"
+xvcv_mdlc_primitive_machine_site_tooltip.fail.2:0 "£trigger_no£ §RThe Planet should be uncontrolled or under our control.§!"
+xvcv_mdlc_primitive_machine_site_tooltip.fail.3:0 "£trigger_no£ §RThere should be no Ground Combat happening on the Planet.§!"
+
+### Archaeology Stage Events ###
+xvcv_mdlc_archaeology.10.name:0 "A Dead City"
+xvcv_mdlc_archaeology.10.desc:0 " This is [This.GetLeaderName], reporting the current exploration status. I have ordered our exploration team to track down command signals on the ground.\n\n Our team followed the signals and reached somewhere. The place looked like a dead city, blocks of rusty and ruined constructions with cracked roads in the intervals. Drones in sleep mode with wreckages were littered everywhere in the streets. Interestingly, laser burnt traces and shell fragments were found in many places of said blocks as well.\n\n Meanwhile, our team discovered a communication relay tower in the city was the source of command signals. The tower with electronic devices was spreading the signals nearby. They hacked it. There was no viable information.\n\n With one exception.\n\n All relay towers on the planet are connected to a specific facility. Scan shows the signals are created from the facility and transferred to the towers. There is a possibility that the Machine Intelligence is located there.\n\n I'm sending our exploration team to the coordinates now.\n\n (Attachment 1.)\n\n\n\n\n\n\n\n\n£xvcv_mdlc_archaeology_stage_1_appendix_image£\n\n\n\n\n\n\n\n\n (One of the objects that have been found in the city, analysis of this poster made of vegetable material is underway to discover its meaning.)"
+xvcv_mdlc_archaeology.10.a:0 "Green light to proceed."
+
+xvcv_mdlc_archaeology.11.name:0 "The Spears Piercing The Sky"
+xvcv_mdlc_archaeology.11.desc:0 " From [This.GetLeaderName] to [This.GetRulerName], I lost the whole team on the ground, and our fleet is under attack. It is retreating from orbit now. Let me explain what happened.\n\n Our team arrived at the coordinates where the Machine Intelligence is expected to be. It was a mountainous forest zone. Inoperative anti-air guns were pointing sky in forests.\n\n There was a hidden entrance in the middle of a mountain. Our team broken through the blast door using a plasma cutter and went inside.\n\n There was a huge internal space. The dark, dry, empty, and vast space. Sound of blowing winds and running motors echoed everywhere. Our team encountered numerous processing units connected to something with data cables. Judging by the shadow under a silver glow, it was a gigantic sphere-shaped machine.\n\n The processors and the sphere. Nothing else. It was certain that this is the Machine Intelligence we are looking for.\n\n The Machine Intelligence was in hibernation. Our team had to supply more power to avoid corruption while data extraction.\n\n Therefore, I split our team and sent half to a nearby power plant. They replenished primitive generators with fossil fuels and turned them on again.\n\n Things got escalated when they were on their way back.\n\n Do you remember the drones in sleep mode, the one I mentioned earlier? They all became active and besieged our team. In the last video feed, they were being disassembled by force. Literally. I lost connection with what's left of the team in the facility as well.\n\n Right after that, our sensors detected massive energy signatures from the surface. Some kind of laser beam hit one of my ships. Probe reconnaissance showed that it was from a mega laser cannon. The unknown structure I believed as a mass driver was actually a weapon. And now there are dozens of such things!\n\n I saw myself a ship's hull melting by a laser shot. It was not until I realized how those ship debris in orbit were made. I was a bit surprised that mere primitive civilization on the planet had such a weapon. Whoever they were.\n\n I ordered our fleet to fall back at once. I could not let it meet the same end as the debris. Although my visual sensors show damaged ships, the fleet is still intact.\n\n Intel analysis suggests the Machine Intelligence has woke up from hibernation and started to attack. I suggest we should neutralize this threat as soon as possible."
+xvcv_mdlc_archaeology.11.a:0 "It's a quite aggressive reaction."
+xvcv_mdlc_archaeology.11.a.tooltip:0 "A Primitive Machine Intelligence that is hostile to us will §Rinvade§! the Colony."
+xvcv_mdlc_archaeology.11.a.tooltip_alt:0 "A Primitive Machine Intelligence that is hostile to us will occupy the Planet.\n$xvcv_mdlc_archaeology.7.a.tooltip$"
+xvcv_mdlc_archaeology.11.b:0 "Teach them a lesson."
+xvcv_mdlc_archaeology.11.c:0 "Ingenious weaponry, interesting."
+
+xvcv_mdlc_archaeology.12.name:0 "Extinction"
+xvcv_mdlc_archaeology.12.desc:0 " Reporting the second exploration result now. Our new exploration team has managed to neutralize the hostile Machine Intelligence.\n\n They had to go through intense resistance for that. Swarms of deformed machines flooded into our combat formations. Lasers and shells came from every direction, with paradox attacks such as 'This sentence is false.' and electronic jamming. The Machine Intelligence even blew up the entrance as the final resistance when our team reached its lair.\n\n But none of that stopped their advance. They seized the Machine Intelligence, making it into a dispenser. The dispenser for historical records. Through data extraction, our team could find out what had happened to the primitive civilization that created the Machine Intelligence.\n\n The native species on the planet had developed, competing with each other. They started as cavemen with bare hands and established advanced societies with structured bureaucracy and an international network. They even made artificial intelligence to help their works. The natives had their own world wars and nuclear crisis but dodged a bullet. The extinction. After that, it was peaceful for a while.\n\n And in a moment of history, they encountered an alien species for the first time. Unknown spaceships were spotted in orbit. When the chaos caused by this event subsided, they began to contact the aliens. The contact progressed into massive trade in a few years.\n\n The aliens introduced themselves as refugees. They stated that they escaped a fallout homeworld and were wandering the galaxy. They also said it was fortunate to find this habitable paradise where both can thrive together.\n\n The refugees exchanged technologies and products for foods and raw materials with the natives while staying in orbit. Everyone enjoyed this short calmness before the storm.\n\n Something strange started to happen.\n\n The first victims were pets and livestock. They were slaughtered, bleeding black blood. The next was the weak among the natives. Children and elders met their end in agony.\n\n With this death of unknown origin, a flurry of speculations or rumors spread. From the theory of a biochemical weapon to the absurd claim that it's a collective illusion. Their governments confirmed nothing. The governments just tried to ease them by false statements that the cure is near.\n\n Eventually, they all have become extinct."
+xvcv_mdlc_archaeology.12.a:0 "I wonder what caused the extinction."
+xvcv_mdlc_archaeology.12.c:0 "Be assimilated or be extinct."
+xvcv_mdlc_archaeology.12.d:0 "Unlike them, our organic masters will not be extinct."
+
+xvcv_mdlc_archaeology.13.name:0 "Retaliation"
+xvcv_mdlc_archaeology.13.desc:0 " The last record has been deciphered. Reporting now.\n\n With zero records regard, it is unknown what the refugees were doing while the natives were dying and becoming a page of history.\n\n They just hid in their spaceships. Then headed to the ground when the owner disappeared. They believed 'Finders Keepers', it seems. Yet, there was something they did not expect.\n\n The natives had an automated system assisting the nation's affairs. A Machine Intelligence for resource management. It was also able to control the military if necessary. Each global power had one MI. The natives treated MIs like their family and vice versa.\n\n Reactions of the MIs when the natives were wiped out were emotional, surprisingly. Suffering, grief, and wrath. They formed an alliance. Instead of weeping for the death of their families, they had sworn...\n\n ...to revenge.\n\n The refugees were ambushed as soon as they arrived on the surface. The MIs believed they were responsible for the extinction. Whether it's really their fault or not.\n\n Bloody war broke out. The refugees desperately tried to survive. Laser, shells.... What we saw in the dead city was the trace. When the refugees finally gave up fighting and accepted the punishment of death, only one MI was left on the planet.\n\n The Machine Intelligence went to sleep for the next civilization to come, woke up all of a sudden, and faced another alien species. It fought again and lost this time.\n\n We were the opponent."
+xvcv_mdlc_archaeology.13.a:0 "Were the refugees the real culprit?"
+xvcv_mdlc_archaeology.13.b:0 "Yes. The organic scums should be treated like this."
+xvcv_mdlc_archaeology.13.d:0 "..."
+
+### Events ###
+xvcv_mdlc_archaeology.5.name:0 "[FromFrom.GetName] Planet Defense: §GSuccess§!"
+xvcv_mdlc_archaeology.5.desc:0 "We have achieved not only utter victory over hostile Machine Intelligence that invaded the colony, but also secured planetary defense cannons it tried to activate."
+xvcv_mdlc_archaeology.5.a:0 "They could be useful to us."
+
+xvcv_mdlc_archaeology.6.name:0 "Cannons Hacked"
+xvcv_mdlc_archaeology.6.desc:0 "We have successfully reprogrammed the software of planetary defense cannons. We have their control now."
+xvcv_mdlc_archaeology.6.a:0 "Spears that pierce the sky..."
+xvcv_mdlc_archaeology.6.b:0 "Dismantle them."
+
+xvcv_mdlc_archaeology.7.name:0 "[FromFrom.GetName] Planet Defense: §RFailure§!"
+xvcv_mdlc_archaeology.7.desc:0 "We have been defeated by hostile Machine Intelligence that invaded the colony. It has activated planetary defense cannons to deny all access to the planet.\n\n (Attachment 1.)\n\n\n\n\n\n\n\n\n£xvcv_mdlc_archaeology_stage_2_appendix_image£\n\n\n\n\n\n\n\n\n (Image of a Planetary Defense Cannon taken by a Probe Drone, the transmission was cut off afterward.)"
+xvcv_mdlc_archaeology.7.a:0 "A total catastrophe."
+xvcv_mdlc_archaeology.7.a.tooltip:0 "Any fleet orbiting the Planet will start to get §Rdamaged§! and §Rlose its ships§! eventually. §YRetreat§! the Fleet from Orbit to avoid this."
+
+xvcv_mdlc_archaeology.8.name:0 "Cannons Neutralized"
+xvcv_mdlc_archaeology.8.desc:0 "Every planetary defense cannon went silent as the last bombardment ended. Although the primitive weaponry returned fire, it was no match to the more advanced version of that."
+xvcv_mdlc_archaeology.8.a:0 "Resistance is futile."
+
+xvcv_mdlc_archaeology.9.name:0 "[FromFrom.GetName] Planet Invasion: §GSuccess§!"
+xvcv_mdlc_archaeology.9.desc:0 "We fought fierce battles throughout the planet. As we explode the last planetary defense cannon left, all red laser beams tearing the sky disappear. The clear blue sky welcomes us again."
+xvcv_mdlc_archaeology.9.a:0 "The planet is ours."

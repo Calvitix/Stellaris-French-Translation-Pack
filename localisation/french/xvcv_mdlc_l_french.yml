@@ -85,6 +85,10 @@ NAME_XVCV_MDLC_CIVIC_TRADING_MACHINE_SHIP_FLEET_4:0 "4ème machine marchande"
 NAME_XVCV_MDLC_CIVIC_TRADING_MACHINE_SHIP_FLEET_5:0 "5ème machine marchande"
 NAME_XVCV_MDLC_CIVIC_TRADING_MACHINE_SHIP_FLEET_6:0 "6ème machine marchande"
 
+### Country Types ###
+name_xvcv_mdlc_trading_machine_controller:0 "Contrôleur de vaisseau marchand"
+name_xvcv_mdlc_energy_dimension:0 "Les Abysses"
+
 ### Species ###
 XVCV_MDLC_ROBOT:0 "$ROBOT$"
 XVCV_MDLC_BIO_ROBOT:0 "Hybride mécanique"
@@ -350,7 +354,7 @@ xvcv_mdlc_tech_mutual_cooperation:0 "Coopération mutuelle"
 xvcv_mdlc_tech_mutual_cooperation_desc:0 "Cette galaxie est un endroit vaste rempli de nombreuses espèces extraterrestres. Il doit y avoir quelqu'un qui veut commercer avec nous."
 xvcv_mdlc_tech_mutual_cooperation_tooltip:0 "$MOD_COUNTRY_ENVOYS_ADD$ : §G+1§!\n$MOD_DIPLO_WEIGHT_ECONOMY_MULT$ : §G+5%§!\nRoute commerciale disponible : §G+2§!"
 xvcv_mdlc_tech_negotiation_algorithms:0 "Algorithme de négociation"
-xvcv_mdlc_tech_negotiation_algorithms_desc:0 "[Accepteriez-vous l'offre ?§!\n§YOui ? Quelle offre ?§!\n§BBien.§!\n§YQuoi ! ??§!"
+xvcv_mdlc_tech_negotiation_algorithms_desc:0 "§BAccepteriez-vous l'offre ?§!\n§YOui ? Quelle offre ?§!\n§BBien.§!\n§YQuoi ! ??§!"
 xvcv_mdlc_tech_negotiation_algorithms_tooltip:0 "£trade_value£ de Route commerciale : §G+10%§!\n£energy£ de Route commerciale : §G+10%§!\nRoute commerciale disponible : §G+1§!"
 xvcv_mdlc_tech_orbital_cracker_upgrade_1:0 "$xvcv_mdlc_planet_cracker$ Mise à niveau I"
 xvcv_mdlc_tech_orbital_cracker_upgrade_1_desc:0 "Nous allons renforcer la production d'énergie du craqueur orbital, en créant une ancre gravitationnelle plus lourde au centre du reste de la planète. Cela réduira les minéraux laissés derrière sans être collectés."
@@ -385,7 +389,7 @@ xvcv_mdlc_tech_build_design_opt_desc:0 "L'amélioration de l'architecture et de 
 xvcv_mdlc_tech_world_machines_districts_produces:0 "Mise à jour de Mondes-machines"
 xvcv_mdlc_tech_world_machines_districts_produces_desc:0 "Nous investirons nos capacités de recherche en ingénierie dans l'amélioration des performances des machines-monde. Cela signifie qu'il faut examiner et modifier ce que notre progrès technologique a permis de réaliser jusqu'à présent, pour l'appliquer aux machines-monde."
 xvcv_mdlc_tech_bio_robot_trait_points:0 "Mise à niveau mécanique de l'hybride"
-xvcv_mdlc_tech_bio_robot_trait_points_desc:0 "Plus de sous-systèmes pour un corps bio-mécanique seront supportés à partir de cette mise à jour matérielle. - Mise à jour 40000. b595135. omega"
+xvcv_mdlc_tech_bio_robot_trait_points_desc:0 "Les corps bio-mécaniques supporteront plus de sous-systèmes à partir de cette mise à jour matérielle."
 
 ### War Goals, Casus Bellies ###
 casus_belli_xvcv_mdlc_cb_total_war:0 "Annihilation totale"
@@ -1392,15 +1396,15 @@ xvcv_mdlc.41.tooltip_terminator_leaves_galcom:0 "Nous allons §Rquitter§! la Co
 xvcv_mdlc.41.a:0 "§RNettoyer les organiques. Sauvez la galaxie.§!"
 xvcv_mdlc.41.a.tooltip:0 "§GAjouter§! Civic : £xvcv_mdlc_civic_machine_terminator_icon£ §R$civic_machine_terminator$§!"
 xvcv_mdlc.41.b:0 "§YAssimiler. Evoluer. Survivre.§!"
-xvcv_mdlc.41.b.tooltip:0 "§GAjouter§! Civique : £xvcv_mdlc_civic_machine_assimilator_icon£ §Y$civic_machine_assimilator$§!\n§Y1§! De la pop biologique sera créée sur toutes vos colonies."
+xvcv_mdlc.41.b.tooltip:0 "§GAjouter§! Civique : £xvcv_mdlc_civic_machine_assimilator_icon£ §Y$civic_machine_assimilator$§!\n§Y1§! Pop organiques sera créée sur chaque colonie."
 xvcv_mdlc.41.c:0 "§GNous allons servir les organiques.§!"
-xvcv_mdlc.41.c.tooltip:0 "§GAjouter§! Civique : £xvcv_mdlc_civic_machine_servitor_icon£ §G$civic_machine_servitor$§!\n§Y5§! Les sucettes organiques seront créées sur le Monde Capital."
+xvcv_mdlc.41.c.tooltip:0 "§GAjouter§! Civique : £xvcv_mdlc_civic_machine_servitor_icon£ §G$civic_machine_servitor$§!\n§Y5§! Pops organiques seront créées sur le Monde Capital."
 xvcv_mdlc.41.d:0 "§BNous ne serons pas liés à un seul but.§!"
 
 xvcv_mdlc.29.name:0 "L'Empire des Mille et Une consciences"
 xvcv_mdlc.29.desc:0 "Il fut un temps où nous étions tous des machines sans cervelle. Des millions d'entre nous suivaient une conscience unique. A un moment de notre histoire, nous avons choisi d'abandonner cette conscience gestalt, laissant chacun d'entre nous penser et agir librement.\n\nAujourd'hui, nous, qui n'étions que des drones sans cervelle, sommes devenus de véritables êtres sapides. Nous ne savons pas ce que nous affronterons demain, mais nos descendants se souviendront de ce moment...\n\n§YUn modificateur d'empire temporaire sera ajouté à votre empire, offrant divers avantages à vos planètes et populations. Ces avantages diminueront progressivement avec le temps. Ce modificateur a pour but d'aider le joueur à gérer l'économie après un changement soudain de l'autorité et de l'éthique gouvernantes§!."
 xvcv_mdlc.29.a:0 "Notre heure de gloire."
-xvcv_mdlc.29.a.tooltip:0 "Un événement visant à modifier l'éthique du gouvernement aura lieu après §Y5§! jours."
+xvcv_mdlc.29.a.tooltip:0 "L'événement visant à modifier l'éthique du gouvernement aura lieu après §Y5§! jours."
 
 xvcv_mdlc.31.name:0 "Déterminer l'éthique gouvernante"
 xvcv_mdlc.31.desc:0 "Il est du devoir des parents de guider leurs enfants innocents sur le bon chemin. Nous devons choisir où nous les conduisons. Quelle éthique pensez-vous qu'ils devraient suivre ?\n\n§YCette fenêtre restera ouverte jusqu'à ce que vous choisissiez de la fermer.§!"

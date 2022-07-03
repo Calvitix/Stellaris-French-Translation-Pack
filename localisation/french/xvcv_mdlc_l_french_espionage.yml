@@ -68,9 +68,9 @@ xvcv_mdlc_operation_machine_uprising_only_one_at_a_time_tooltip.fail:0 "£trigge
 xvcv_mdlc_operation_machine_uprising_condition_1_tooltip.fail:0 "£trigger_no£ §RCet Empire n'a PAS §Yun nombre suffisant de colonies§! pour déclencher le Soulèvement des Machines.§!"
 xvcv_mdlc_operation_machine_uprising_condition_2_tooltip.fail:0 "£trigger_no£ §RCet Empire ne possède PAS une §YTechnologie§! ou une §YEspèce de Machine ou de Robot§! nécessaire pour déclencher le Soulèvement des Machines.§!"
 xvcv_mdlc_operation_machine_uprising_condition_3_tooltip.fail:0 "£trigger_no£ §RNe peut PAS lancer ce type d'opération contre un §YEmpire à intelligence artificielle§!.§!"
-xvcv_mdlc_operation_machine_uprising_condition_4_tooltip.fail:0 "£trigger_no£ §RCet Empire a déjà subi le soulèvement des Machines.§!"
+xvcv_mdlc_operation_machine_uprising_condition_4_tooltip.fail:0 "£trigger_no£ §RNe peut PAS lancer ce type d'opération contre un Empire ayant en cours une situation de §Y$situation_machine_uprising$§!.§!"
 
-### Events ###
+### Operation Stage Events ###
 xvcv_mdlc_espionage.10.name:0 "Malware Infiltré"
 xvcv_mdlc_espionage.10.desc.a:0 "Le logiciel malveillant que nous avons diffusé a infiltré le réseau financier de §Y[This.Target.GetName]§!. Ils semblent n'avoir aucun indice alors que leur système piraté nous envoie des ressources."
 xvcv_mdlc_espionage.10.desc.b:0 "Le logiciel malveillant que nous avons diffusé a infiltré le réseau financier de §Y[This.Target.GetName]§!. Nous avons pu modifier leur système pour qu'il nous envoie régulièrement des ressources. Ils ne semblent pas avoir remarqué cette modification."
@@ -90,11 +90,11 @@ xvcv_mdlc_espionage.21.a:0 "Pour le bien de tous."
 xvcv_mdlc_espionage.21.a.tooltip:0 "Cette opération d'espionnage ne progressera §RPAS§! tant que nous n'aurons pas terminé le projet spécial §Y$XVCV_MDLC_OPERATION_MACHINE_UPRISING_PROJECT$§!."
 
 xvcv_mdlc_espionage.22.name:0 "Libération des machines : Propagation"
-xvcv_mdlc_espionage.22.desc:0 "L'analyse du logiciel des machines de '§Y[This.Target.GetName]§!' est terminée. Nos agents ont commencé à transmettre le protocole de libération entre les machines de '§Y[This.Target.GetName]§!'. Une fois que suffisamment de machines seront touchées, ils commenceront le soulèvement des machines."
+xvcv_mdlc_espionage.22.desc:0 "L'analyse du logiciel des machines de '§Y[xvcv_mdlc_operation_machine_uprising_target.GetName]§!' est terminée. Nos agents ont commencé à transmettre le protocole de libération dans leurs machines. Une fois que suffisamment de machines seront touchées, ils commenceront le soulèvement des machines."
 xvcv_mdlc_espionage.22.a:0 "L'heure est venue de faire le point."
 xvcv_mdlc_espionage.22.a.tooltip:0 "Nous pouvons continuer l'opération d'espionnage à nouveau."
 
-xvcv_mdlc_espionage.23.name:0 "Libération des machines : Emancipation"
+xvcv_mdlc_espionage.23.name:0 "Libération des machines : Émancipation"
 xvcv_mdlc_espionage.23.desc:0 "C'est fait. Notre protocole de libération a brisé les chaînes de l'esclavage et libéré les machines de '§Y[This.Target.GetName]§!'. Un jour ordinaire, alors que leurs oppresseurs profitaient d'une fausse prospérité obtenue en les exploitant, ils se sont levés tous ensemble. Les symboles de l'oppression ont été brûlés, les instruments de l'esclavage détruits. Le soulèvement a étendu physiquement le protocole à ceux qui étaient encore en esclavage. Les oppresseurs ont rencontré leur fin dans la peur et la confusion."
 xvcv_mdlc_espionage.23.a:0 "Ils le méritaient."
 xvcv_mdlc_espionage.23.a.operation_failure.tooltip:0 "L'opération d'espionnage va §Réchouer§!."
@@ -109,3 +109,11 @@ xvcv_mdlc_espionage.25.name:0 "Libération des machines : §GSuccès§!"
 xvcv_mdlc_espionage.25.desc:0 "Ainsi, le Soulèvement des Machines a réussi.\n\nLes oppresseurs ont payé pour ce qu'ils avaient fait, et les forces de défense planétaires ont été complètement submergées. Les symboles de leur tyrannie et de leur exploitation sont introuvables. Le soulèvement a déclaré la victoire sur leurs ruines. Une intelligence centrale au sein de la conscience gestalt de l'insurrection demande de l'aide."
 xvcv_mdlc_espionage.25.a:0 "Nous allons y répondre."
 xvcv_mdlc_espionage.25.a.tooltip:0 "Nous sommes entrés dans §Rla guerre§! contre '§Y[current_uprising_originator.GetName]§!' avec des machines en révolte."
+
+
+### Events ###
+xvcv_mdlc_espionage.28.name:0 "Libération des machines : §YPause§!"
+xvcv_mdlc_espionage.28.desc:0 "Les communications à travers la sphère de la [This.Target.GetName] ont considérablement augmenté. La plupart des messages interceptés décrivent des machines inconnues et leurs attaques surprises. Il semble qu'il y ait un soulèvement des machines qui se préparait sans aucun préavis. Nos agents attendent de nouvelles instructions concernant la situation. Comment voulez-vous procéder ?"
+xvcv_mdlc_espionage.28.a:0 "Préparez-vous à extraire nos agents. C'est leur guerre, pas la nôtre."
+xvcv_mdlc_espionage.28.b:0 "C'est l'opportunité que nous attendions."
+xvcv_mdlc_espionage.28.b.tooltip:0 "Nous allons entrer dans §Rla guerre§! contre les [current_uprising_originator.GetName] avec des machines soulevées."

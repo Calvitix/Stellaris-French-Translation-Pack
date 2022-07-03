@@ -64,6 +64,7 @@
   pc_giga_empty_space_asteroid_adj:99 "vide"
   
   # outpost country type subtitle
+  NAME_frameworld_outpost_country:99 "Avant-poste planétaire"
   country_frameworld_outpost:99 "Expédition $pc_giga_frameworld$"
   country_frameworld_outpost_desc:99 "Une expédition d'exploration envoyée par un organisme hautement centralisé $auth_machine_intelligence$."
   
@@ -273,7 +274,7 @@
   district_giga_frameworld_refinery_motes:99 "$district_giga_frameworld_refinery$ $building_chemical_plant$"
   district_giga_frameworld_refinery_motes_plural:99 "$district_giga_frameworld_refinery_plural$"
   district_giga_frameworld_refinery_motes_desc:99 "[Owner.GetFrameworldRefineryTooltip] qui produit des $volatile_motes$."
-  
+
   # sentient metal
   district_giga_frameworld_sentient_metal:99 "District $building_ehof_sm_forge_1$"
   district_giga_frameworld_sentient_metal_plural:99 "Districts $building_ehof_sm_forge_1$"
@@ -353,7 +354,7 @@
   
   d_frameworld_structure_expansion:99 "Superstructure étendue"
   d_frameworld_structure_expansion_desc:99 "Une station particulièrement grande parmi l'essaim qui constitue l'essentiel de la structure secondaire $pc_giga_frameworld$."
-  
+
   d_frameworld_structure_expansion_tooltip:99 "$d_frameworld_structure_expansion$"
   mod_giga_frameworld_structure_expansion_count:99 "Modules Fabriqués"
   
@@ -418,7 +419,7 @@
   
   d_frameworld_maginot_max_guns:99 "Capacité en $district_giga_frameworld_maginot_planetary_cannons$"
   d_frameworld_maginot_max_guns_desc:99 "Notre capacité à maintenir une infrastructure défensive avancée est limitée."
-  
+
   d_frameworld_expanded_maintenance_protocol:99 "$frameworld_expanded_maintenance_protocol$"
   d_frameworld_expanded_maintenance_protocol_desc:99 "§WPour les détails, se référer à la modification planétaire du même nom.§!\n\n$frameworld_expanded_maintenance_protocol_desc$"
   
@@ -664,9 +665,12 @@
   
   frameworld_defensive_station:99 "Station de défense"
   frameworld_defensive_station_plural:99 "Stations de défense"
-  
+
+  # defensive station fleet name
+  frameworld_defensive_station:99 "Prémiètre Défensif"
+    
   frameworld_defensive_station_section_1:99 "Base"
-  frameworld_defensive_station_section_2:99 "Starhold"
+  frameworld_defensive_station_section_2:99 "Redoute"
   frameworld_defensive_station_section_3:99 "Forteresse"
   frameworld_defensive_station_section_4:99 "Citadelle"
   frameworld_defensive_station_section_5:99 "Doctrine Maginot"
@@ -928,7 +932,7 @@
   #####################
   ### Fake Tooltips ###
   #####################
-  
+
 
   # size up effect
   frameworld_size_fake_tooltip:0 "Taille du §Y$pc_giga_frameworld$§!: §G+1§!"
