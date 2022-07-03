@@ -1,0 +1,210 @@
+﻿l_french:
+# l_spanish:
+# l_german:
+# l_french:
+# l_polish:
+# l_russian:
+# l_braz_por:
+# l_simp_chinese:
+# l_korean:
+# l_japanese:
+ 
+
+ #######################################
+ #### Steal Relic
+ #######################################
+ operation_gpm_steal_relic:1 "Voler une relique"
+ operation_gpm_steal_relic_desc:1 "Tentez un casse audacieux afin de voler une mystérieuse et puissante relique de cet empire."
+ operation_gpm_steal_relic_on_success:1 "§ESi vous réussissez :§!\nSaisissez la mystérieuse et puissante relique de cet empire. Cela peut avoir des conséquences inattendues.."
+ gpm_target_has_no_relics_operation:1 "$TRIGGER_FAIL$ §RCet empire n'a pas de reliques à voler§!"
+ gpm_target_not_enough_intel:1 "$TRIGGER_FAIL$ §RNous avons besoin de plus d'informations sur cet empire§!"
+ gpm_operation_not_neighbours:1 "§R$TRIGGER_FAIL$ Cet empire n'est pas limitrophe de notre empire. C'est trop dangereux d'essayer.§!"
+ gpm_operation_is_subject:1 "§R$TRIGGER_FAIL$ Cet empire est notre sujet, il serait impoli de le voler.§!"
+ gpm_operation_is_overlord:1 "§R$TRIGGER_FAIL$ Cet empire est notre suzerain, ce serait trop dangereux.§!"
+ 
+ #######################################
+ #### Steal Relic Events
+ #######################################
+ # The Crew 
+ gpm_operation.1.name:1 "L'équipage"
+ gpm_operation.1.desc:1 "Nous avons réussi à trouver la bonne équipe pour ce travail. Un groupe hétéroclite d'inadaptés loués est prêt à commencer son mouvement à travers l'empire de §H[from.GetName]§!. Avec les bons outils, des déguisements et un peu de chance, ils ne devraient avoir aucun problème à se mettre en position pour le plus grand casse que cette galaxie ait jamais connu."
+ gpm_operation.1.a:1 "Un bel équipage !"
+ 
+ # The Setup 
+ gpm_operation.2.name:1 "La mise en place"
+ gpm_operation.2.desc:1 "L'équipage a pris diverses positions tactiques dans l'empire de §H[from.GetName]§!. D'un nettoyeur d'holo-lentilles à un artiste engagé et son client. Une fausse invitation d'un officiel pour voir l'Ancienne Relique en personne a été 'délivrée' et tout est prêt à commencer. Tout ce que nous pouvons faire maintenant, c'est attendre d'avoir des nouvelles d'eux après le casse."
+ gpm_operation.2.a:1 "Mission possible, continuez !"
+ 
+ # The Heist 
+ gpm_operation.3.name:1 "Le hold-up"
+ gpm_operation.3.desc:1 "Par nos canaux obscurs, nous avons confirmé que l'équipage a l'Ancienne Relique ! Diverses pièces du plan sont maintenant en mouvement pour sortir tout le monde de là avant que le chaos ne s'installe. Nous avons déjà entendu des rapports sur la restriction des voyages spatiaux dans le système capital de l'Empire §H[from.GetName]§!. Heureusement, notre équipage a ses propres moyens d'évasion."
+ gpm_operation.3.a:1 "C'est la partie la plus difficile"
+
+  # The Getaway
+ gpm_operation.4.name:1 "La sortie"
+ gpm_operation.4.desc:1 "Maintenant, la partie la plus difficile : s'échapper !"
+ gpm_operation.4_NORELICS.desc:1 "Nous avons reçu des rapports indiquant que l'empire §H[from.GetName]§! n'a pas de reliques ! Quelqu'un nous a devancé et les a volé aveuglément ! Nos agents font une sortie hâtive et furtive."
+ gpm_operation.4.a:1 "Exécuté à la perfection !"
+
+ gpm_operation_getaway_gpm_r_time_displacerTT:1 "\n§RRelique volée :§! §Y$gpm_r_time_displacer$§!\n\n"
+ gpm_operation_getaway_r_dragon_trophyTT:1 "\n§RRelique volée :§! §Y$r_dragon_trophy$§!\n\n"
+ gpm_operation_getaway_r_khans_throneTT:1 "\n§RRelique volée :§! §Y$r_khans_throne$§!\n\n"
+ gpm_operation_getaway_r_worm_scalesTT:1 "\n§RRelique volée :§! §Y$r_worm_scales$§!\n\n"
+ gpm_operation_getaway_r_rubricatorTT:1 "\n§RRelique volée :§! §Y$r_rubricator$§!\n\n"
+ gpm_operation_getaway_r_galaxyTT:1 "\n§RRelique volée :§! §Y$r_galaxy$§!\n\n"
+ gpm_operation_getaway_r_omnicodexTT:1 "\n§RRelique volée :§! §Y$r_omnicodex$§!\n\n"
+ gpm_operation_getaway_r_surveyorTT:1 "\n§RRelique volée :§! §Y$r_surveyor$§!\n\n"
+ gpm_operation_getaway_r_galatronTT:1 "\n§RRelique volée :§! §Y$r_galatron$§!\n\n"
+ gpm_operation_getaway_r_ancient_swordTT:1 "\n§RRelique volée :§! §Y$r_ancient_sword$§!\n\n"
+ gpm_operation_getaway_r_severed_headTT:1 "\n§RRelique volée :§! §Y$r_severed_head$§!\n\n"
+ gpm_operation_getaway_r_prethoryn_queenTT:1 "\n§RRelique volée :§! §Y$r_prethoryn_queen$§!\n\n"
+ gpm_operation_getaway_r_unbidden_warlockTT:1 "\n§RRelique volée :§! §Y$r_unbidden_warlock$§!\n\n"
+ gpm_operation_getaway_r_contingency_coreTT:1 "\n§RRelique volée :§! §Y$r_contingency_core$§!\n\n"
+ gpm_operation_getaway_r_zro_crystalTT:1 "\n§RRelique volée :§! §Y$r_zro_crystal$§!\n\n"
+ gpm_operation_getaway_r_the_last_baolTT:1 "\n§RRelique volée :§! §Y$r_the_last_baol$§!\n\n"
+ gpm_operation_getaway_r_the_defragmentorTT:1 "\n§RRelique volée :§! §Y$r_the_defragmentor$§!\n\n"
+ gpm_operation_getaway_r_reality_perforatorTT:1 "\n§RRelique volée :§! §Y$r_reality_perforator$§!\n\n"
+ gpm_operation_getaway_r_pox_sampleTT:1 "\n§RRelique volée :§! §Y$r_pox_sample$§!\n\n"
+ gpm_operation_getaway_r_cryo_coreTT:1 "\n§RRelique volée :§! §Y$r_cryo_core$§!\n\n"
+ gpm_operation_getaway_r_war_forgeTT:1 "\n§RRelique volée :§! §Y$r_war_forge$§!\n\n"
+ gpm_operation_getaway_gpm_r_ai_architectTT:1 "\n§RRelique volée :§! §Y$gpm_r_ai_architect$§!\n\n"
+ gpm_operation_getaway_gpm_r_banner_of_the_fallenTT:1 "\n§RRelique volée :§! §Y$gpm_r_banner_of_the_fallen$§!\n\n"
+ gpm_operation_getaway_gpm_r_cloaking_deviceTT:1 "\n§RRelique volée :§! §Y$gpm_r_cloaking_device$§!\n\n"
+ gpm_operation_getaway_gpm_r_codex_administratumTT:1 "\n§RRelique volée :§! §Y$gpm_r_codex_administratum$§!\n\n"
+ gpm_operation_getaway_gpm_r_datacubeTT:1 "\n§RRelique volée :§! §Y$gpm_r_datacube$§!\n\n"
+ gpm_operation_getaway_gpm_r_earthquake_engineTT:1 "\n§RRelique volée :§! §Y$gpm_r_earthquake_engine$§!\n\n"
+ gpm_operation_getaway_gpm_r_encrypted_sctTT:1 "\n§RRelique volée :§! §Y$gpm_r_encrypted_sct$§!\n\n"
+ gpm_operation_getaway_gpm_r_encyclopedia_galacticaTT:1 "\n§RRelique volée :§! §Y$gpm_r_encyclopedia_galactica$§!\n\n"
+ gpm_operation_getaway_gpm_r_enigmatic_advisorTT:1 "\n§RRelique volée :§! §Y$gpm_r_enigmatic_advisor$§!\n\n"
+ gpm_operation_getaway_gpm_r_experimental_weaponTT:1 "\n§RRelique volée :§! §Y$gpm_r_experimental_weapon$§!\n\n"
+ gpm_operation_getaway_gpm_r_fallout_emergency_replicatorTT:1 "\n§RRelique volée :§! §Y$gpm_r_fallout_emergency_replicator$§!\n\n"
+ gpm_operation_getaway_gpm_r_gravity_engineTT:1 "\n§RRelique volée :§! §Y$gpm_r_gravity_engine$§!\n\n"
+ gpm_operation_getaway_gpm_r_manufactorium_shipTT:1 "\n§RRelique volée :§! §Y$gpm_r_manufactorium_ship$§!\n\n"
+ gpm_operation_getaway_gpm_r_mysterious_shield_generatorTT:1 "\n§RRelique volée :§! §Y$gpm_r_mysterious_shield_generator$§!\n\n"
+ gpm_operation_getaway_gpm_r_positronic_microchipTT:1 "\n§RRelique volée :§! §Y$gpm_r_positronic_microchip$§!\n\n"
+ gpm_operation_getaway_gpm_r_power_coreTT:1 "\n§RRelique volée :§! §Y$gpm_r_power_core$§!\n\n"
+ gpm_operation_getaway_gpm_r_q_storage_compressorTT:1 "\n§RRelique volée :§! §Y$gpm_r_q_storage_compressor$§!\n\n"
+ gpm_operation_getaway_gpm_r_quantum_sphereTT:1 "\n§RRelique volée :§! §Y$gpm_r_quantum_sphere$§!\n\n"
+ gpm_operation_getaway_gpm_r_self_assembly_hubTT:1 "\n§RRelique volée :§! §Y$gpm_r_self_assembly_hub$§!\n\n"
+ gpm_operation_getaway_gpm_r_self_repairing_obeliskTT:1 "\n§RRelique volée :§! §Y$gpm_r_self_repairing_obelisk$§!\n\n"
+ gpm_operation_getaway_gpm_r_sentinel_queenTT:1 "\n§RRelique volée :§! §Y$gpm_r_sentinel_queen$§!\n\n"
+ gpm_operation_getaway_gpm_r_soul_gemTT:1 "\n§RRelique volée :§! §Y$gpm_r_soul_gem$§!\n\n"
+ gpm_operation_getaway_gpm_r_venerable_dreadnaughtTT:1 "\n§RRelique volée :§! §Y$gpm_r_venerable_dreadnaught$§!\n\n"
+ gpm_operation_getaway_gpm_r_zero_energy_generatorTT:1 "\n§RRelique volée :§! §Y$gpm_r_zero_energy_generator$§!\n\n"
+ gpm_operation_getaway_gpm_r_alien_eggsTT:1 "\n§RRelique volée :§! §Y$gpm_r_alien_eggs$§!\n\n"
+ gpm_operation_getaway_gpm_r_machine_world_coreTT:1 "\n§RRelique volée :§! §Y$gpm_r_machine_world_core$§!\n\n"
+ 
+ # The Getaway (good)
+ gpm_operation.5.name:1 "L'escapade"
+ gpm_operation.5.desc:1 "L'évasion s'est déroulée exactement comme prévu ! L'équipage a rencontré plusieurs vaisseaux médicaux quelque part près de la frontière des §H[fromfrom.owner.GetName]§! et de nos propres frontières sous prétexte d'opérations médicales neutres. Ils sont sortis sans préavis ! Les pigeons ne sauront jamais qui c'était."
+ gpm_operation.5.a:1 "Exécuté à la perfection !"
+ 
+ # The Getaway (enraged)
+ gpm_operation.6.name:1 "L'escapade"
+ gpm_operation.6.desc:1 "L'équipage a réquisitionné un vaisseau militaire près de la frontière de l'Empire §H[fromfrom.owner.GetName]§! et a sauté de là dans notre espace. L'Ancienne Relique est à nous ! L'évasion ne s'est pas déroulée exactement comme prévu, un seul poste d'écoute a réussi à suivre la signature de leur moteur et l'équipage a été rapidement suivi par toute une flotte de frégates d'interception rapides. Il a fallu un plan astucieux de l'équipage pour les secouer juste assez longtemps pour se transférer sur l'une de nos propres frégates et se téléporter hors de là. L'empire de §H[fromfrom.owner.GetName]§! sait que c'était nous et nous pouvons nous attendre à des représailles..."
+ gpm_operation.6.a:1 "Mettez nos flottes en état d'alerte !"
+ 
+ # The Getaway (allies)
+ gpm_operation.7.name:1 "L'escapade"
+ gpm_operation.7.desc:1 "L'équipage a réquisitionné un vaisseau militaire près de la frontière de l'Empire §H[fromfrom.owner.GetName]§! et a sauté de là dans notre espace. L'évasion ne s'est pas déroulée exactement comme prévu, plusieurs postes d'écoute ont réussi à repérer la signature de leur moteur et l'équipage a été rapidement suivi par une flotte entière de frégates d'interception rapides. Il a fallu un plan astucieux de l'équipage pour les secouer juste assez longtemps et rejoindre une de nos propres frégates et sortir de là en vitesse de croisière. La §YRelique des Anciens§! est à nous ! La galaxie entière sait maintenant ce que nous avons accompli, cependant. Nous pouvons nous attendre à une certaine forme de représailles de la part des §H[fromfrom.owner.GetName]§! et de leurs alliés..."
+ gpm_operation.7.a:1 "Nous pouvons gérer les retombées."
+
+ gpm_operation.8.name:1 "Relic Operations : Faux renseignements"
+ gpm_operation.8.desc:1 "Pendant nos préparatifs pour voler la relique de l'empire §H[fromfrom.GetName]§!, un agent de renseignement a découvert une vérité surprenante. Ils n'ont pas de relique ! Soit ils n'en ont jamais eu, soit ils ont perdu la relique !"
+
+ # The Getaway Target Empire Notification Event
+ gpm_operation.80.name:1 "Urgence de priorité 0 : Relique volée !"
+ gpm_operation.80.a:1 "C'est impardonnable."
+    # The Getaway (good)
+ gpm_operation.80.desc:1 "Quelqu'un a §RVOLÉ§! notre §YRelique§! ! Ils ont été minutieux et n'ont laissé aucune preuve ou indice... Nous devrions demander à nos envoyés et à nos agents de renseignement d'être attentifs à toute discussion concernant une relique récemment obtenue dans d'autres empires."
+    # The Getaway (enraged)
+ gpm_operation.81.desc:1 "L'empire §R[from.owner.GetName]§! a §RVOLÉ§! notre §YRelique§! ! Nos premiers rapports suggèrent qu'ils ont planifié cela depuis un moment. Ils connaissaient toutes nos mesures de sécurité et les itinéraires des patrouilles militaires. Par incompétence, ils ont réussi à se faire détecter par notre réseau de capteurs frontaliers. Il n'y a aucun doute, l'empire §R[from.owner.GetName]§! est derrière tout ça."
+    # The Getaway (allies)
+ gpm_operation.82.desc:1 "L'empire §R[from.owner.GetName]§! a §RVOLÉ§! notre §YRelique§! ! Nos premiers rapports suggèrent qu'ils ont planifié cela depuis un moment. Ils connaissaient toutes nos mesures de sécurité et les itinéraires des patrouilles militaires. Par incompétence, ils ont réussi à se faire détecter par notre réseau de capteurs frontaliers. Nos alliés nous ont informés qu'ils ont également suivi la fuite du vassal. Il n'y a aucun doute, l'empire §R[from.owner.GetName]§! est derrière tout ça."
+ 
+ 
+ #######################################
+ #### Steal Minor Artifacts
+ #######################################
+ 
+ operation_gpm_steal_minor_artifacts:1 "Raid d'artefacts mineurs"
+ operation_gpm_steal_minor_artifacts_desc:1 "Faites un raid sur l'empire ciblé et prenez tous les artefacts mineurs que vous pouvez trouver (WIP)."
+ operation_gpm_steal_minor_artifacts_on_success:1 "§EEn cas de succès :§!\nSteal un nombre d'artefacts mineurs £minor_artifacts£."
+ 
+ #######################################
+ #### Steal Minor Artifacts Events
+ #######################################
+
+ 
+ #######################################
+ #### Gather Relic Information Events
+ #######################################
+
+ gpm_operation.10.name:1 "Rapport sur les reliques"
+ gpm_operation.10.desc:1 "Des renseignements viennent d'arriver sur le mystérieux artefact que l'empire §H[fromfrom.GetName]§! a trouvé !"
+
+ gpm_operation.11.name:1 "Rapport sur les reliques : Détails"
+ gpm_operation.11.desc:1 "L'Empire §H[fromfrom.GetName]§! a apparemment trouvé un artefact très puissant et rare. Ils ont commencé à l'appeler une §Y'Relique des anciens'§!. Cette puissante relique semble avoir une sorte d'effet sur leur empire. Cela pourrait même être une arme ! Nous devons considérer nos options."
+ 
+ 
+ gpm_gather_information_gpm_r_time_displacer_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_time_displacer$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_time_displacer$§! casus belli."
+ gpm_gather_information_r_dragon_trophy_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_dragon_trophy$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_dragon_trophy$§! casus belli."
+ gpm_gather_information_r_khans_throne_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_khans_throne$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_khans_throne$§! casus belli."
+ gpm_gather_information_r_worm_scales_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_worm_scales$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_worm_scales$§! casus belli."
+ gpm_gather_information_r_rubricator_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_rubricator$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_rubricator$§! casus belli."
+ gpm_gather_information_r_galaxy_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_galaxy$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_galaxy$§! casus belli."
+ gpm_gather_information_r_omnicodex_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_omnicodex$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_omnicodex$§! casus belli."
+ gpm_gather_information_r_surveyor_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_surveyor$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_surveyor$§! casus belli."
+ gpm_gather_information_r_galatron_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_galatron$§!.\n\nDébloque le §Y$casus_belli_cb_galatron$§! casus belli."
+ gpm_gather_information_r_ancient_sword_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_ancient_sword$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_ancient_sword$§! casus belli."
+ gpm_gather_information_r_severed_head_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_severed_head$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_severed_head$§! casus belli."
+ gpm_gather_information_r_prethoryn_queen_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_prethoryn_queen$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_prethoryn_queen$§! casus belli."
+ gpm_gather_information_r_unbidden_warlock_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_unbidden_warlock$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_unbidden_warlock$§! casus belli."
+ gpm_gather_information_r_contingency_core_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_contingency_core$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_contingency_core$§! casus belli."
+ gpm_gather_information_r_zro_crystal_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_zro_crystal$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_zro_crystal$§! casus belli."
+ gpm_gather_information_r_the_last_baol_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_the_last_baol$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_the_last_baol$§! casus belli."
+ gpm_gather_information_r_the_defragmentor_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_the_defragmentor$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_the_defragmentor$§! casus belli."
+ gpm_gather_information_r_reality_perforator_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_reality_perforator$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_reality_perforator$§! casus belli."
+ gpm_gather_information_r_pox_sample_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_pox_sample$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_pox_sample$§! casus belli."
+ gpm_gather_information_r_cryo_core_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_cryo_core$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_cryo_core$§! casus belli."
+ gpm_gather_information_r_war_forge_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$r_war_forge$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_war_forge$§! casus belli."
+ gpm_gather_information_gpm_r_ai_architect_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_ai_architect$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_ai_architect$§! casus belli."
+ gpm_gather_information_gpm_r_banner_of_the_fallen_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_banner_of_the_fallen$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_banner_of_the_fallen$§! casus belli."
+ gpm_gather_information_gpm_r_cloaking_device_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_cloaking_device$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_cloaking_device$§! casus belli."
+ gpm_gather_information_gpm_r_codex_administratum_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_codex_administratum$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_codex_administratum$§! casus belli."
+ gpm_gather_information_gpm_r_datacube_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_datacube$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_datacube$§! casus belli."
+ gpm_gather_information_gpm_r_earthquake_engine_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_earthquake_engine$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_earthquake_engine$§! casus belli."
+ gpm_gather_information_gpm_r_encrypted_sct_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_encrypted_sct$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_encrypted_sct$§! casus belli."
+ gpm_gather_information_gpm_r_encyclopedia_galactica_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_encyclopedia_galactica$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_encyclopedia_galactica$§! casus belli."
+ gpm_gather_information_gpm_r_enigmatic_advisor_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_enigmatic_advisor$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_enigmatic_advisor$§! casus belli."
+ gpm_gather_information_gpm_r_experimental_weapon_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_experimental_weapon$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_experimental_weapon$§! casus belli."
+ gpm_gather_information_gpm_r_fallout_emergency_replicator_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_fallout_emergency_replicator$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_fallout_emergency_replicator$§! casus belli."
+ gpm_gather_information_gpm_r_gravity_engine_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_gravity_engine$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_gravity_engine$§! casus belli."
+ gpm_gather_information_gpm_r_manufactorium_ship_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_manufactorium_ship$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_manufactorium_ship$§! casus belli."
+ gpm_gather_information_gpm_r_mysterious_shield_generator_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_mysterious_shield_generator$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_mysterious_shield_generator$§! casus belli."
+ gpm_gather_information_gpm_r_positronic_microchip_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_positronic_microchip$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_positronic_microchip$§! casus belli."
+ gpm_gather_information_gpm_r_power_core_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_power_core$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_power_core$§! casus belli."
+ gpm_gather_information_gpm_r_q_storage_compressor_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_q_storage_compressor$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_q_storage_compressor$§! casus belli."
+ gpm_gather_information_gpm_r_quantum_sphere_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_quantum_sphere$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_quantum_sphere$§! casus belli."
+ gpm_gather_information_gpm_r_self_assembly_hub_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_self_assembly_hub$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_self_assembly_hub$§! casus belli."
+ gpm_gather_information_gpm_r_self_repairing_obelisk_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_self_repairing_obelisk$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_self_repairing_obelisk$§! casus belli."
+ gpm_gather_information_gpm_r_sentinel_queen_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_sentinel_queen$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_sentinel_queen$§! casus belli."
+ gpm_gather_information_gpm_r_soul_gem_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_soul_gem$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_soul_gem$§! casus belli."
+ gpm_gather_information_gpm_r_venerable_dreadnaught_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_venerable_dreadnaught$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_venerable_dreadnaught$§! casus belli."
+ gpm_gather_information_gpm_r_zero_energy_generator_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_zero_energy_generator$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_zero_energy_generator$§! casus belli."
+ gpm_gather_information_gpm_r_alien_eggs_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_alien_eggs$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_alien_eggs$§! casus belli."
+ gpm_gather_information_gpm_r_machine_world_core_relicTT:1 "Nous avons appris que l'empire §Y[fromfrom.GetName]§! est actuellement en possession d'une mystérieuse relique appelée le §Y$gpm_r_machine_world_core$§!.\n\nDébloque le §Y$casus_belli_cb_gpm_r_machine_world_core$§! casus belli."
+
+ gpm_gather_information_NO_RELIC:1 "Il s'avère que l'Empire §Y[fromfrom.GetName]§! n'est en possession d'aucune relique. Nos renseignements étaient erronés !\nUne certaine influence a été retrouvée."
+ 
+ #######################################
+ #### Sabotage Planet
+ #######################################
+ 
+ operation_gpm_sabotage_planet:1 "Planète Sabotage"
+ operation_gpm_sabotage_planet_desc:1 "Sabotez une planète en modifiant ses propriétés géologiques ou biosphériques ou en l'infestant de formes de vie hostiles. (WIP)"
+ operation_gpm_sabotage_planet_on_success:1 "§EEn cas de succès :§!\nAppliquer un modificateur de mauvaise planète à une planète ciblée ou aléatoire appartenant à l'empire ciblé(WIP)"
+ 
+ #######################################
+ #### Sabotage Planet Events
+ #######################################

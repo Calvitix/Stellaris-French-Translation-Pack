@@ -1,51 +1,51 @@
 ﻿l_french:
-  complexplague.0.nodisturb:0 "We don't care."
+  complexplague.0.nodisturb:0 "On s'en fiche."
   # first complexplague
-  complexplague.950.name: "The Nyblax Plague"
-  complexplague.950.desc: "Scientists from §Y[latest_contained.GetName]§! have been able to contain the plague, even though they are far from the cure, this marks their begining of the counter attack against the §YNyblax Plague§!!"
-  complexplague.950.a: "Interesting"
+  complexplague.950.name: "La peste Nyblax"
+  complexplague.950.desc: "Les scientifiques de §Y[latest_contained.GetName]§! ont réussi à contenir le fléau, même s'ils sont loin d'avoir trouvé le remède, ce qui marque le début de la contre-attaque contre la §YPeste Nyblax§! !"
+  complexplague.950.a: "Intéressant"
   # complexplague cured for the first time
-  complexplague.951.name: "The Nyblax Plague"
-  complexplague.951.desc: "Scientists from §Y[latest_cured.GetName]§! have been able to find a cure for the plague! Citizens all across the galaxy rejoice and feel somewhat relieved.\n\nThe cure was immediately sent to the §YCollectors§! where they distributed it among their population and prepared it for mass production.\n\nAs promised, the §YCollectos§! gave the §Y[latest_cured.GetName]§! empire the §YNyblax Eye§! relic.\n\nThe cure can now be bought from them at a reasonable price!"
-  complexplague.951.a: "Acknowledged"	
-  
-  # complexplague cured for the first time
-  complexplague.952.name: "The Nyblax Plague"
-  complexplague.952.desc: "Scientists from [latest_cured.GetName] have been able to find a cure for the plague! The Collectors already had the cure, so the [latest_cured.GetName] did not get any relics.\n\nTheir citizens have been cured and immunized against the plague, though."
-  complexplague.952.a: "Good"	
-  
+  complexplague.951.name: "La peste Nyblax"
+  complexplague.951.desc: "Les scientifiques de §Y[latest_cured.GetName]§! ont réussi à trouver un remède à la peste ! Les citoyens de toute la galaxie se réjouissent et se sentent quelque peu soulagés.\n\nLe remède a été immédiatement envoyé aux §YCollecteurs§! où ils l'ont distribué parmi leur population et préparé pour la production de masse.\n\nComme promis, les §YCollectionneurs§! ont donné à l'empire §Y[latest_cured.GetName]§! la relique de l'§YOeil de Nyblax§!.\n\nLe remède peut maintenant être acheté à un prix raisonnable !"
+  complexplague.951.a: "Bien reçu"
   
   # complexplague cured for the first time
-  complexplague.953.name: "The Nyblax Plague"
-  complexplague.953.desc: "The product was just as expected. It immediately cured all of our citizens and prevented future spreads among our population!"
-  complexplague.953.a: "At last!"	
+  complexplague.952.name: "La peste Nyblax"
+  complexplague.952.desc: "Les scientifiques de [latest_cured.GetName] ont réussi à trouver un remède à la peste ! Les Collecteurs avaient déjà le remède, donc les [latest_cured.GetName] n'ont pas reçu de reliques.\n\nLeurs citoyens ont été guéris et immunisés contre la peste, cependant."
+  complexplague.952.a: "Bien"
   
-  pop_plague_1: "The Nyblax Plague Stage 1"
-  pop_plague_2: "The Nyblax Plague Stage 2"
-  pop_plague_3: "The Nyblax Plague Stage 3"
-  pop_plague_4: "The Nyblax Plague Stage 4"
-  pop_plague_5: "The Nyblax Plague Terminal Stage"
-  pop_plague_1_desc: "A virus that affects both, organic and mechanical beings has infected part of the planets population" 
+  
+  # complexplague cured for the first time
+  complexplague.953.name: "La peste Nyblax"
+  complexplague.953.desc: "Le produit était exactement comme prévu. Il a immédiatement guéri tous nos citoyens et a empêché de futures propagations parmi notre population !"
+  complexplague.953.a: "Enfin !"
+  
+  pop_plague_1: "La peste Nyblax Stade 1"
+  pop_plague_2: "La peste Nyblax Stade 2"
+  pop_plague_3: "La peste Nyblax Stade 3"
+  pop_plague_4: "La peste Nyblax Stade 4"
+  pop_plague_5: "La peste Nyblax stade Terminal"
+  pop_plague_1_desc: "Un virus qui affecte les êtres organiques et mécaniques a infecté une partie de la population de la planète."
   pop_plague_2_desc: "$pop_plague_1_desc$" 
   pop_plague_3_desc: "$pop_plague_1_desc$" 
   pop_plague_4_desc: "$pop_plague_1_desc$" 
-  pop_plague_5_desc: "The Plague has spread across all the planet, our specialists predict a pop will die between one and two months if left untreated."  
+  pop_plague_5_desc: "La peste s'est répandue sur toute la planète, nos spécialistes prévoient qu'une population mourra entre un et deux mois si elle n'est pas traitée."
         
         
- r_nyblax_eye:0 "The Nyblax Eye"
- r_nyblax_eye_desc:0 "Probably not the Eye of the creature itself, but The Collectors gave it its name due to their fascination with the spacebourne entity and the items ability to provide a window to spy upon the whole galaxy."
- r_nyblax_eye_triumph_cooldown:0 "\n$relic_activation_cooldown$: £time£ §Y720§!"
+ r_nyblax_eye:0 "L'oeil de Nyblax"
+ r_nyblax_eye_desc:0 "Ce n'est probablement pas l'Oeil de la créature elle-même, mais les Collectionneurs lui ont donné son nom en raison de leur fascination pour l'entité spatiale et la capacité de l'objet à fournir une fenêtre pour espionner toute la galaxie."
+ r_nyblax_eye_triumph_cooldown:0 "\n$relic_activation_cooldown$ : £time£ §Y720§!"
 
 
  ## planet decisions
- planet_under_quarentine: "Under Quarentine"
- planet_under_quarentine_desc: "Most local functions of government are suspended, and the planet is placed under direct medical control in an attempt to contain the plague."
- decision_planet_start_quarentine: "Set Quarentine Zones"
- decision_planet_start_quarentine_effects_short:0 "Increases Society Output and prevents further contagion of §YThe Nyblax Plague§!.\n\nReduces £job£ §RJob Resource Production§! and £mod_pop_growth_speed£ §RPop Growth§!."
- decision_planet_start_quarentine_desc: "Most local functions of government are suspended, and the planet is placed under direct medical control in an attempt to contain the plague."
- decision_planet_stop_quarentine: "Dismantle Quarentine Zones"
- decision_planet_stop_quarentine_effects_short:0 "End the ongoing medical control of the planet and restores normal activity in the planet.\n\n§YThe Nyblax Plague§! might spread if its not properly contained via §YSpecial Project§!."
- decision_planet_stop_quarentine_desc: "Quarentine comes to an end."
+ planet_under_quarentine: "Sous Quarantaine"
+ planet_under_quarentine_desc: "La plupart des fonctions gouvernementales locales sont suspendues et la planète est placée sous contrôle médical direct afin de tenter de contenir la peste."
+ decision_planet_start_quarentine: "Définir les zones de quarantaine"
+ decision_planet_start_quarentine_effects_short:0 "Augmente la production de la société et empêche la contagion de §Yla peste Nyblax§!.\n\nRéduit £job£ §Rla production de ressources des emplois§! et £mod_pop_growth_speed£ §Rla croissance de la population§!."
+ decision_planet_start_quarentine_desc: "La plupart des fonctions gouvernementales locales sont suspendues et la planète est placée sous contrôle médical direct afin de tenter de contenir la peste."
+ decision_planet_stop_quarentine: "Démanteler les zones de quarantaine"
+ decision_planet_stop_quarentine_effects_short:0 "Met fin au contrôle médical de la planète et rétablit une activité normale sur la planète.\n\n§YLa peste Nyblax§! pourrait se propager si elle n'est pas correctement contenue via le §YProjet spécial§!."
+ decision_planet_stop_quarentine_desc: "La quarantaine touche à sa fin."
  
- PLAGUE_CURE_PROJECT:0 "The Nyblax Plague Cure"
- PLAGUE_CURE_PROJECT_DESC:0 "The Collectors have accidentaly unleashed a plague that is spreading accross the galaxy. They requested our help in finding a cure against it!\n\nThe first empire to find the cure will get the Nyblax Eye relic from them.\n\nIn the mean time, our scientists suggest §Yisolating our systems§!. This includes closing borders, breaking migration treatis, leaving any kind of alliance or research agreement. By doing so we will be able to decelerate the incomming plague spread from our neighbours and allies.\nThey also suggested implementing the §YQuarantine Planetary Decision§! on each planet to avoid further contagion."
+ PLAGUE_CURE_PROJECT:0 "Le remède contre la peste de Nyblax"
+ PLAGUE_CURE_PROJECT_DESC:0 "Les Collecteurs ont accidentellement déclenché un fléau qui se répand dans la galaxie. Ils ont demandé notre aide pour trouver un remède contre cette maladie !\n\nLe premier empire à trouver le remède recevra la relique de l'oeil de Nyblax.\n\nEn attendant, nos scientifiques suggèrent §Yd'isoler nos systèmes§!. Cela inclut la fermeture des frontières, la rupture des traités de migration, le retrait de toute forme d'alliance ou d'accord de recherche. Ils ont également suggéré d'appliquer la §Ydécision de mise en quarantaine planétaire§! sur chaque planète pour éviter toute contagion supplémentaire."
