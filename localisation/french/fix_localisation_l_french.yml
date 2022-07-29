@@ -3,7 +3,7 @@
  fix_ai_actions.1.name:0 "Personnalisation du Mod d'optimisation des performances"
  fix_ai_actions.1.desc:0 "Désactiver ou laisser autoriser les 'Fix' de l'I.A. qui l'optimisent ou l'empêchent d'effectuer certaines actions. Les caractéristiques énumérées ci-dessous sont activées par défaut (recommandé), option(s) de sélection(s) pour désactiver ces 'Fix' pour l'AI. Pour des Performances Max, Cliquez : Démarrer la partie\n\nRemarque : Les paramètres peuvent être réinitialisés et modifiés à nouveau via l'éditeur. De plus, le «Certains corrections AI sur les joueurs» sont désactivés par défaut dans ce cas et doivent être activés si vous le souhaitez."
 
- fix_ai_actions.1.a:0 "§RDésactiver§! le Fix : Construction des passerelles par l'I.A."
+ fix_ai_actions.1.a:0 "§RDésactiver§! le Fix : Construction des Hyper-relais par l'I.A."
  fix_ai_actions.1.b:0 "§RDésactiver§! le Fix : Xéno-Compatibilité pour l'I.A."
  fix_ai_actions.1.c:0 "§RDésactiver§! le Fix : limiter les habitats pour l'I.A."
  fix_ai_actions.1.d:0 "§RDésactiver§! le Fix : Pops sans emploi pour l'I.A."
@@ -13,9 +13,9 @@
  fix_ai_actions.1.h:0 "§GActiver§! certaines corrections AI sur les joueurs"
  fix_ai_actions.1.i:0 "§GDémarrer la partie§!"
 
- fix_ai_actions_event.3.custom_tooltip.a:0 "Interdit à l'IA de construire des passerelles après qu'une passerelle soit construite.\n\nAméliore les performances si activé (non grisé)."
+ fix_ai_actions_event.3.custom_tooltip.a:0 "Interdit à l'IA de construire massivement des Hyper-relais.\n\nAméliore les performances si activé (non grisé)."
  fix_ai_actions_event.3.custom_tooltip.b:0 "Interdit à l'IA d'obtenir l'atout d'ascension de Xéno-compatibilité, pour éviter le spam des espèces hybrides.\n\nAméliore les performances si activé (non grisé)."
- fix_ai_actions_event.3.custom_tooltip.c:0 "Interdit à l'IA la construction et du spamming d'Habitats, après avoir atteint un max de 5 habitats construits.\n\nAméliore les performances si activé (non grisé)."
+ fix_ai_actions_event.3.custom_tooltip.c:0 "Interdit à l'IA la construction et du spamming d'Habitats, limitant à un habitat tous les 30 ans.\n\nAméliore les performances si activé (non grisé)."
  fix_ai_actions_event.3.custom_tooltip.d:0 "Rempli et déplace de manière rapide les Pops sur les différentes planètes, compensant les sans-emploi et les Emplois vacants.\n\nAméliore les performances si activé (non grisé)."
  fix_ai_actions_event.3.custom_tooltip.e:0 "Arrête le Spam des corvettes et des destroyers, en mettant un max sur les corvettes à 60 et des destroyers à 30 par flotte. Une fois que l'AI atteint ce Max, 2 corvettes sont remplacées par un destroyer et 2 destroyers sont remplacés par un croiseur. Cela devrait fabriquer des flottes AI avec moins de corvettes, et plus forte (le ratio 2 pour 1 est un bon compromis sur le plan économique). Cela ne se produit que lorsque cela est possible, c'est-à-dire lorsque l'AI dispose de la technologie des destroyers et des croiseurs pour des raisons d'équilibre.\n\nAméliore les performances si activé (non grisé)."
  fix_ai_actions_event.3.custom_tooltip.f:0 "Réduit la charge de travail liée à la mise à jour des modificateurs en diminuant leur fréquence de mise à jour à une fois par mois.\n\nAméliore les performances si activé (non grisé)"
@@ -28,6 +28,8 @@
  micro_marketing:0 "Correction du micro-management de l'I.A."
  micro_marketing_desc:0 ""
 
+ planet_pop_conversion_count:0 "Conversion du poids des Pops pour l'I.A."
+ planet_pop_conversion_count_desc:0 "Ce modificateurs limite le développement des Pops IA, en diminuant leur développement, mais en compensant leur entretien et production"
  planet_pop_conversion_count_1:0 "Conversion du compte des Pops I.A."
  planet_pop_conversion_count_1_desc:0 ""
  planet_pop_conversion_count_2:0 "Conversion du compte des Pops I.A."
