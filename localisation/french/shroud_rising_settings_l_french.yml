@@ -7,52 +7,52 @@
  # ROOT = PLANET SCOPE
  # FROM = SHIP SCOPE
 # [Root.GetStarName][Root.Owner.GetSpeciesAdj] [Root.Owner.GetSpeciesNamePlural][Root.GetRulerTitle][from.System.GetName]
-# anomaly.211.c:0 "The safety of the [
+# anomaly.211.c:0 "La sécurité de la"
  # anomaly.75.name:0 "Rock Brain"
- # anomaly.75.desc:0 "A scan of the particularly massive asteroid [From.GetName] yields fascinating results. The rock's core is shot through with a network of conductive crystals carrying a weak electric charge. The crew on the [Root.GetName] recognize this matrix as a primitive neural lattice and believe the celestial body to be thinking in some capacity, if not fully sapient. They seek permission to excavate the core and transport it to the nearest orbital station for closer study."
- # anomaly.75.a:0 "Make it so."
- # anomaly.75.b:0 "Make do with what you can study from the surface."
- # anomaly.75.b.tooltip:1 "Adds the §YRock Brain§! modifier to [From.GetName]:\n£physics£ §G+8§!"
- # anomaly.75.c:0 "It is not so unlike us. Let us talk."
- # anomaly.75.c.tooltip:0 "Order [Root.GetName] to attach surface probes to [From.GetName] and decode its alleged neural activity"
- # IS_LITHOID_EMPIRE_ICON_TIP:0 "This option is available due to §H[This.Owner.GetName]§! being a §YLithoid§! empire" # not a real trigger tooltip, used with icon = {}
- # uplift.7215.b.tooltip:1 "The [From.From.From.GetName] gain the §YAuthoritarian§! Ethic."
- # uplift.7215.c:0 "Self-realization comes only through independence."
- # uplift.7215.c.tooltip:1 "The [From.From.From.GetName] gain the §YEgalitarian§! Ethic."
+ # anomaly.75.desc:0 "Un scan de l'astéroïde particulièrement massif de [From.GetName] donne des résultats fascinants. Le noyau de la roche est traversé par un réseau de cristaux conducteurs portant une faible charge électrique. L'équipage du [Root.GetName] reconnaît cette matrice comme un réseau neuronal primitif et pense que le corps céleste a une certaine capacité de réflexion, même s'il n'est pas totalement sapide. Ils demandent la permission de déterrer le noyau et de le transporter vers la station orbitale la plus proche pour une étude plus approfondie."
+ # anomaly.75.a:0 "Faites-le."
+ # anomaly.75.b:0 "Contentez-vous de ce que vous pouvez étudier de la surface."
+ # anomaly.75.b.tooltip:1 "Ajoute le modificateur §YRock Brain§! à [From.GetName] :\n£physics£ §G+8§!."
+ # anomaly.75.c:0 "Ce n'est pas si différent de nous. Laissez-nous parler."
+ # anomaly.75.c.tooltip:0 "Ordonnez à [Root.GetName] d'attacher des sondes de surface à [From.GetName] et de décoder sa prétendue activité neuronale."
+ # IS_LITHOID_EMPIRE_ICON_TIP:0 "Cette option est disponible car §H[This.Owner.GetName]§! est un empire §YLithoid§! '. # pas une vraie info-bulle de déclenchement, utilisée avec l'icône = {}"
+ # uplift.7215.b.tooltip:1 "Le [From.From.From.GetName] gagne l'éthique §Yautoritaire§!."
+ # uplift.7215.c:0 "La réalisation de soi ne passe que par l'indépendance."
+ # uplift.7215.c.tooltip:1 "Le [From.From.From.GetName] gagne l'éthique §Yégalitaire§!."
  
  ##################################
  # GAME START
  ##################################
  
- shroud_rising_trigger.2.name:0 "Shroud Rising Settings"
- shroud_rising_trigger.2.desc:0 "Choose the likelihood of the §MEye of Terror§! crisis chain occuring. The choices represent a overall chance at game start of triggering the crisis once the requirements have been fulfilled.\n\n§RYou will not be able to change this after the game starts.§!\n\nTo spawn, the crisis requires at least one non-robotic/non-gestalt Fallen Empire or an AI empire with psionic main species."
+ shroud_rising_trigger.2.name:0 "Paramètres du mod 'Ascension du Suaire'"
+ shroud_rising_trigger.2.desc:0 "Choisissez la probabilité que la chaîne de crise de l'§MOeil de la Terreur§! se produise. Les choix représentent une chance globale au début de la partie de déclencher la crise une fois que les conditions ont été remplies.\n\n§RVous ne pourrez pas changer ceci après le début de la partie.§!\n\nPour se déclencher, la crise nécessite au moins un empire déchu non-robotique/non-gestalt ou un empire IA avec des espèces principales psioniques."
  shroud_rising_trigger.2.a:0 "100%"
- shroud_rising_trigger.2.a.tooltip:0 "There will be a 100% chance the Eye of Terror crisis chain will occur."
+ shroud_rising_trigger.2.a.tooltip:0 "Il y aura 100% de chances que la chaîne de crise de l'Oeil de la Terreur se produise."
  shroud_rising_trigger.2.b:0 "75%"
- shroud_rising_trigger.2.b.tooltip:0 "There will be a 75% chance the Eye of Terror crisis chain will occur."
+ shroud_rising_trigger.2.b.tooltip:0 "Il y a 75 % de chances que la chaîne de crise de l'Oeil de la Terreur se produise."
  shroud_rising_trigger.2.c:0 "50%"
- shroud_rising_trigger.2.c.tooltip:0 "There will be a 50% chance the Eye of Terror crisis chain will occur."
+ shroud_rising_trigger.2.c.tooltip:0 "Il y a 50% de chances que la chaîne de crise de l'Oeil de la Terreur se produise."
  shroud_rising_trigger.2.d:0 "25%"
- shroud_rising_trigger.2.d.tooltip:0 "There will be a 25% chance the Eye of Terror crisis chain will occur."
+ shroud_rising_trigger.2.d.tooltip:0 "Il y a 25% de chances que la chaîne de crise de l'Oeil de la Terreur se produise."
  shroud_rising_trigger.2.e:0 "5%"
- shroud_rising_trigger.2.e.tooltip:0 "There will be a 5% chance the Eye of Terror crisis chain will occur."
- shroud_rising_trigger.2.f:0 "§LDisabled§!"
- shroud_rising_trigger.2.f.tooltip:0 "The crisis will be disabled from spawning naturally, but you can always trigger it manually if you wish.\n\nCheck the mod page for more specific instructions."
+ shroud_rising_trigger.2.e.tooltip:0 "Il y a 5 % de chances que la chaîne de crise de l'Oeil de la Terreur se produise."
+ shroud_rising_trigger.2.f:0 "§LDésactivé§!"
+ shroud_rising_trigger.2.f.tooltip:0 "La crise ne pourra pas se produire naturellement, mais vous pourrez toujours la déclencher manuellement si vous le souhaitez.\n\nVérifiez la page du mod pour des instructions plus spécifiques."
  
  
  ##################################
  # MAIN MENU
  ##################################
  
- edict_shroud_rising_settings:0 "[MOD MENU] Shroud Rising Settings"
- edict_shroud_rising_settings_desc:0 "Open the current settings for Shroud Rising."
+ edict_shroud_rising_settings:0 "[MOD MENU] Paramètres de l'Ascension du Suaire"
+ edict_shroud_rising_settings_desc:0 "Ouvrez les paramètres actuels du mod d'Ascension du Suaire."
  
- shroud_rising_settings.1.name:0 "Shroud Rising Settings"
- shroud_rising_settings.1.desc:0 "Select an option below to adjust your Shroud Rising experience.\n\nThese settings can be opened at any point during your playthrough through the edict menu."
- shroud_rising_settings.1.a:0 "Difficulty Settings"
- shroud_rising_settings.1.a.tooltip:0 "Adjust the difficulty settings of the mod."
- shroud_rising_settings.1.b:0 "Exit."
- shroud_rising_settings.1.b.tooltip:0 "Close the menu."
+ shroud_rising_settings.1.name:0 "Paramètres d'Ascension du Suaire"
+ shroud_rising_settings.1.desc:0 "Sélectionnez une option ci-dessous pour ajuster votre expérience de d'Ascension du Suaire.\n\nCes paramètres peuvent être ouverts à n'importe quel moment de votre partie via le menu décret."
+ shroud_rising_settings.1.a:0 "Paramètres de difficulté"
+ shroud_rising_settings.1.a.tooltip:0 "Ajustez les paramètres de difficulté du mod."
+ shroud_rising_settings.1.b:0 "Quitter"
+ shroud_rising_settings.1.b.tooltip:0 "Fermez le menu."
  
 
  
@@ -60,28 +60,28 @@
  # DIFFICULTY
  ##################################
  
- shroud_rising_settings.2.name:0 "Shroud Rising Settings"
- shroud_rising_settings.2.1.desc:0 "Select the overall strength £military_power£ of the Shroud Rising Crisis, this will affect enemy spawns that emerge from Rifts, The Eye of Terror and other related events.\n\nThis setting can be changed at any time throughout your playthrough and is independent of the vanilla crisis difficulty strength.\n\nCurrent selection: §LDefault§!"
- shroud_rising_settings.2.2.desc:0 "Select the overall strength £military_power£ of the Shroud Rising Crisis, this will affect enemy spawns that emerge from Rifts, The Eye of Terror and other related events.\n\nThis setting can be changed at any time throughout your playthrough and is independent of the vanilla crisis difficulty strength.\n\nCurrent selection: §P2x§!"
- shroud_rising_settings.2.3.desc:0 "Select the overall strength £military_power£ of the Shroud Rising Crisis, this will affect enemy spawns that emerge from Rifts, The Eye of Terror and other related events.\n\nThis setting can be changed at any time throughout your playthrough and is independent of the vanilla crisis difficulty strength.\n\nCurrent selection: §P3x§!"
- shroud_rising_settings.2.4.desc:0 "Select the overall strength £military_power£ of the Shroud Rising Crisis, this will affect enemy spawns that emerge from Rifts, The Eye of Terror and other related events.\n\nThis setting can be changed at any time throughout your playthrough and is independent of the vanilla crisis difficulty strength.\n\nCurrent selection: §P4x§!"
- shroud_rising_settings.2.5.desc:0 "Select the overall strength £military_power£ of the Shroud Rising Crisis, this will affect enemy spawns that emerge from Rifts, The Eye of Terror and other related events.\n\nThis setting can be changed at any time throughout your playthrough and is independent of the vanilla crisis difficulty strength.\n\nCurrent selection: §P5x§!"
- shroud_rising_settings.2.10.desc:0 "Select the overall strength £military_power£ of the Shroud Rising Crisis, this will affect enemy spawns that emerge from Rifts, The Eye of Terror and other related events.\n\nThis setting can be changed at any time throughout your playthrough and is independent of the vanilla crisis difficulty strength.\n\nCurrent selection: §P10x§!"
- shroud_rising_settings.2.25.desc:0 "Select the overall strength £military_power£ of the Shroud Rising Crisis, this will affect enemy spawns that emerge from Rifts, The Eye of Terror and other related events.\n\nThis setting can be changed at any time throughout your playthrough and is independent of the vanilla crisis difficulty strength.\n\nCurrent selection: §P25x§!\n\n'§TMay the force be with you.'"
+ shroud_rising_settings.2.name:0 "Paramètres d'Ascension du Suaire"
+ shroud_rising_settings.2.1.desc:0 "Sélectionnez la force globale £military_power£ de la crise du Suaire, ce qui affectera les fractions d'ennemis qui émergent des Failles, de l'Oeil de la Terreur et d'autres événements connexes.\n\nCe paramètre peut être modifié à tout moment au cours de votre partie et est indépendant de la force de la difficulté de la crise vanilla.\n\nSélection actuelle : §LDéfaut§!"
+ shroud_rising_settings.2.2.desc:0 "Sélectionnez la force globale £military_power£ de la crise du Suaire, ce qui affectera les frayeurs qui émergent des Failles, de l'Oeil de la Terreur et d'autres événements connexes.\n\nCe paramètre peut être modifié à tout moment au cours de votre partie et est indépendant de la force de la difficulté de la crise vanilla.\n\nSélection actuelle : §P2x§!"
+ shroud_rising_settings.2.3.desc:0 "Sélectionnez la force globale £military_power£ de la crise du Suaire, ce qui affectera les frayeurs qui émergent des Failles, de l'Oeil de la Terreur et d'autres événements connexes.\n\nCe paramètre peut être modifié à tout moment au cours de votre partie et est indépendant de la force de la difficulté de la crise vanilla.\n\nSélection actuelle : §P3x§!"
+ shroud_rising_settings.2.4.desc:0 "Sélectionnez la force globale £military_power£ de la crise du Suaire, ce qui affectera les frayeurs qui émergent des Failles, de l'Oeil de la Terreur et d'autres événements connexes.\n\nCe paramètre peut être modifié à tout moment au cours de votre partie et est indépendant de la force de la difficulté de la crise vanilla.\n\nSélection actuelle : §P4x§!"
+ shroud_rising_settings.2.5.desc:0 "Sélectionnez la force globale £military_power£ de la crise du Suaire, ce qui affectera les frayeurs qui émergent des Failles, de l'Oeil de la Terreur et d'autres événements connexes.\n\nCe paramètre peut être modifié à tout moment au cours de votre partie et est indépendant de la force de la difficulté de la crise vanilla.\n\nSélection actuelle : §P5x§!"
+ shroud_rising_settings.2.10.desc:0 "Sélectionnez la force globale £military_power£ de la crise du Suaire, ce qui affectera les fractions d'ennemis qui émergent des Failles, de l'Oeil de la Terreur et d'autres événements connexes.\n\nCe paramètre peut être modifié à tout moment au cours de votre partie et est indépendant de la force de la difficulté de la crise vanilla.\n\nSélection actuelle : §P10x§!"
+ shroud_rising_settings.2.25.desc:0 "Sélectionnez la force globale £military_power£ de la crise du Suaire, ce qui affectera les fractions d'ennemis qui émergent des Failles, de l'Oeil de la Terreur et d'autres événements connexes.\n\nCe paramètre peut être modifié à tout moment au cours de votre partie et est indépendant de la force de la difficulté de la crise vanilla.\n\nSélection actuelle : §P25x§!\n\n'§TQue la force soit avec vous."
  shroud_rising_settings.2.a:0 "§P25x§!"
  shroud_rising_settings.2.b:0 "§P10x§!"
  shroud_rising_settings.2.c:0 "§P5x§!"
  shroud_rising_settings.2.d:0 "§P4x§!"
  shroud_rising_settings.2.e:0 "§P3x§!"
  shroud_rising_settings.2.f:0 "§P2x§!"
- shroud_rising_settings.2.g:0 "§LDefault§!"
- shroud_rising_settings.2.h:0 "Return to Main Menu"
- shroud_rising_settings.2.i:0 "Exit"
+ shroud_rising_settings.2.g:0 "§LDéfaut§!"
+ shroud_rising_settings.2.h:0 "Retour au menu principal"
+ shroud_rising_settings.2.i:0 "Quitter"
  
  
- sr_difficulty_2: "Strength x2"
- sr_difficulty_3: "Strength x3"
- sr_difficulty_4: "Strength x4"
- sr_difficulty_5:0 "Strength x5"
- sr_difficulty_10: "Strength x10"
- sr_difficulty_25:0 "Strength x25"
+ sr_difficulty_2: "Puissance x2"
+ sr_difficulty_3: "Puissance x3"
+ sr_difficulty_4: "Puissance x4"
+ sr_difficulty_5:0 "Puissance x5"
+ sr_difficulty_10: "Puissance x10"
+ sr_difficulty_25:0 "Puissance x25"
