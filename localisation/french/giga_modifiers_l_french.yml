@@ -21,6 +21,8 @@
 	mod_giga_system_habitat_amenities_add:0 "Services des habitats du système"
 	mod_giga_system_habitat_amenities_no_happiness_add:0 "Services des habitats du système"  
 	
+    mod_planet_buildings_hab_capital_alloys_upkeep_mult:99 "Entretien en £alloys£ $alloys$ des £building£ bâtiments capitoles de l'habitat"
+	
   ############################################################################################################
   # ECONOMIC CATEGORIES
   
@@ -34,48 +36,72 @@
   #######################################################################################################
   # JOBS
   
-  mod_country_base_consumer_goods_produces_add:99 "£consumer_goods£ $consumer_goods$ mensuel"
+  mod_country_base_consumer_goods_produces_add:99 "Prod. de £consumer_goods£ $consumer_goods$ mensuel"
   
   mod_planet_artisans_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_artisan£ [GetArtisanPlural]"
   
   mod_planet_culture_workers_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des $job_culture_worker_plural$"
-  mod_planet_culture_workers_society_research_produces_add:99 "£society_research£ $society_research$ des £job_culture_worker£ $job_culture_worker_plural$"
-  mod_planet_culture_workers_unity_produces_add:99 "£unity£ $unity$ des £job_culture_worker£ $job_culture_worker_plural$"
+  mod_planet_culture_workers_consumer_goods_upkeep_add:99 "Entretien en £consumer_goods£ $consumer_goods$ des $job_culture_worker_plural$"
+  mod_planet_culture_workers_society_research_produces_add:99 "Prod. de £society_research£ $society_research$ des £job_culture_worker£ $job_culture_worker_plural$"
+  mod_planet_culture_workers_unity_produces_add:99 "Prod. de £unity£ $unity$ des £job_culture_worker£ $job_culture_worker_plural$"
   
   mod_planet_administrators_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_bureaucrat£ Administrateurs"
-  mod_planet_administrators_unity_produces_add:99 "£unity£ $unity$ des £job_bureaucrat£ Administrateurs"
+  mod_planet_administrators_consumer_goods_upkeep_add:99 "Entretien en £consumer_goods£ $consumer_goods$ des £job_bureaucrat£ Administrateurs"  
+  mod_planet_administrators_unity_produces_add:99 "Prod. de £unity£ $unity$ des £job_bureaucrat£ Administrateurs"
   
   mod_planet_bureaucrats_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_bureaucrat£ $job_bureaucrat_plural$"
-  mod_planet_bureaucrats_unity_produces_add:99 "£unity£ $unity$ des £job_bureaucrat£ $job_bureaucrat_plural$"
+  mod_planet_bureaucrats_unity_produces_add:99 "Prod. de £unity£ $unity$ des £job_bureaucrat£ $job_bureaucrat_plural$"
   
   mod_planet_priests_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_priest£ $job_priest_plural$"
-  mod_planet_priests_society_research_produces_add:99 "£society_research£ $society_research$ des £job_priest£ $job_priest_plural$"
+  mod_planet_priests_consumer_goods_upkeep_add:99 "Entretien en £consumer_goods£ $consumer_goods$ des £job_priest£ $job_priest_plural$"
+  mod_planet_priests_society_research_produces_add:99 "Prod. de £society_research£ $society_research$ des £job_priest£ $job_priest_plural$"
   
   mod_planet_managers_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_manager£ $job_manager_plural$"
-  mod_planet_managers_society_research_produces_add:99 "£society_research£ $society_research$ des £job_manager£ $job_manager_plural$"
-  mod_planet_managers_unity_produces_add:99 "£unity£ $unity$ des £job_manager£ $job_manager_plural$"
+  mod_planet_managers_consumer_goods_upkeep_add:99 "Entretien en £consumer_goods£ $consumer_goods$ des £job_manager£ $job_manager_plural$"
+  mod_planet_managers_society_research_produces_add:99 "Prod. de £society_research£ $society_research$ des £job_manager£ $job_manager_plural$"
+  mod_planet_managers_unity_produces_add:99 "Prod. de £unity£ $unity$ des £job_manager£ $job_manager_plural$"
   
-  mod_planet_bio_trophies_unity_produces_add:99 "£unity£ $unity$ des £job_bio_trophy£ $job_bio_trophy_plural$"
+  mod_planet_bio_trophies_unity_produces_add:99 "Prod. de £unity£ $unity$ des £job_bio_trophy£ $job_bio_trophy_plural$"
   mod_planet_bio_trophies_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_bio_trophy£ $job_bio_trophy_plural$"
   mod_planet_bio_trophies_consumer_goods_upkeep_add:0 "Entretien en £consumer_goods£ $consumer_goods$ des £job_bio_trophy£ $job_bio_trophy_plural$"
   
-  mod_planet_refiners_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £planet_refiners£ $planet_refiners$"
-  mod_planet_refiners_minerals_upkeep_add:99 "Entretien en £minerals£ $minerals$ des £planet_refiners£ $planet_refiners$"
-  mod_planet_refiners_volatile_motes_produces_add:99 "£volatile_motes£ $volatile_motes$ des £planet_refiners£ $planet_refiners$"
-  mod_planet_refiners_exotic_gases_produces_add:99 "£exotic_gases£ $exotic_gases$ des £planet_refiners£ $planet_refiners$"
-  mod_planet_refiners_rare_crystals_produces_add:99 "£rare_crystals£ $rare_crystals$ des £planet_refiners£ $planet_refiners$"
+  mod_planet_refiners_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_gas_refiner£ $planet_refiners$"
+  mod_planet_refiners_minerals_upkeep_add:99 "Entretien en £minerals£ $minerals$ des £job_gas_refiner£ $planet_refiners$"
+  mod_planet_refiners_volatile_motes_produces_add:99 "Prod. de £volatile_motes£ $volatile_motes$ des £job_gas_refiner£ $planet_refiners$"
+  mod_planet_refiners_exotic_gases_produces_add:99 "Prod. de £exotic_gases£ $exotic_gases$ des £job_gas_refiner£ $planet_refiners$"
+  mod_planet_refiners_rare_crystals_produces_add:99 "Prod. de £rare_crystals£ $rare_crystals$ des £job_gas_refiner£ $planet_refiners$"
+  
+  mod_planet_chemists_minerals_upkeep_add:99 "Entretien en £minerals£ $minerals$ des £job_chemist£ $planet_chemists$"
+  mod_planet_chemists_volatile_motes_produces_add:99 "Prod. de £volatile_motes£ $volatile_motes$ des £job_chemist£ $planet_chemists$"
+  
+  mod_planet_translucers_minerals_upkeep_add:99 "Entretien en £minerals£ $minerals$ des £job_translucer£ $planet_translucers$"
+  mod_planet_translucers_rare_crystals_produces_add:99 "Prod. de £rare_crystals£ $rare_crystals$ des £job_translucer£ $planet_translucers$"
   
   mod_planet_metallurgists_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_foundry£ [GetAlloyProducerPlural]"
   
   mod_planet_miners_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_miner£ $job_miner_plural$"
   
   mod_planet_researchers_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_researcher£ [GetResearcherPlural]"
-  mod_planet_researchers_sr_iodizium_upkeep_add:99 "£sr_iodizium£ $sr_iodizium$ Upkeep of £job_researcher£ [GetResearcherPlural]"
+  mod_planet_researchers_sr_iodizium_upkeep_add:99 "Entretien en £sr_iodizium£ $sr_iodizium$ des £job_researcher£ [GetResearcherPlural]"
   
   mod_planet_pop_assemblers_alloys_upkeep_add:99 "Entretien en £alloys£ $alloys$ des £job_replicator£ $job_replicator_plural$"
   
   mod_planet_technician_minerals_upkeep_add:99 "Entretien en £minerals£ $minerals$ des £job_technician£ [GetTechnicianPlural]"
   mod_planet_technician_sr_iodizium_upkeep_add:99 "Entretien en £sr_iodizium£ $sr_iodizium$ des £job_technician£ [GetTechnicianPlural]"
+  
+  mod_planet_politicians_consumer_goods_upkeep_add:99 "Entretien en £consumer_goods£ $consumer_goods$ des £job_politician£ $job_politician_plural$"
+  mod_planet_politicians_unity_produces_add:99 "Prod. de £unity£ $unity$ des £job_politician£ $job_politician_plural$"
+  
+  mod_planet_nobles_consumer_goods_upkeep_add:99 "Entretien en £consumer_goods£ $consumer_goods$ des £job_noble£ $job_noble_plural$"
+  mod_planet_nobles_unity_produces_add:99 "Prod. de £unity£ $unity$ des £job_noble£ $job_noble_plural$"
+  
+  mod_planet_executives_consumer_goods_upkeep_add:99 "Entretien en £consumer_goods£ $consumer_goods$ des £job_executive£ $job_executive_plural$"
+  mod_planet_executives_unity_produces_add:99 "Prod. de £unity£ $unity$ des £job_executive£ $job_executive_plural$"
+  
+  mod_planet_merchants_consumer_goods_upkeep_add:99 "Entretien en £consumer_goods£ $consumer_goods$ des £job_merchant£ $job_merchant_plural$"
+  
+  mod_planet_doctors_consumer_goods_upkeep_add:99 "Entretien en £consumer_goods£ $consumer_goods$ des £job_healthcare£ $planet_doctors$"
+    
   
   mod_planet_livestock_minerals_produces_mult:99 "£minerals£ $minerals$ des £job_livestock£ $job_livestock_plural$"
   
@@ -83,6 +109,13 @@
   
   mod_planet_giga_virtual_trainers_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des [giga_virtual_training_job_icon] [giga_virtual_training_job_plural]"
   
+  mod_planet_cultivators_ehof_sr_sentient_metal_produces_add:99 "Prod. de £ehof_sr_sentient_metal£ $ehof_sr_sentient_metal$ des £job_ehof_cultivator£ $planet_cultivators$"
+  mod_planet_cultivators_alloys_upkeep_add:99 "Entretien en £alloys£ $alloys$ des £job_ehof_cultivator£ $job_ehof_cultivator_plural$"
+  mod_planet_cultivators_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_ehof_cultivator£ $job_ehof_cultivator_plural$"
+  
+  mod_planet_energy_converters_ehof_sr_negative_mass_produces_add:99 "Prod. de £ehof_sr_negative_mass£ $ehof_sr_negative_mass$ des £job_ehof_energy_converter£ $job_ehof_energy_converter_plural$"
+  mod_planet_energy_converters_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_ehof_energy_converter£ $job_ehof_energy_converter_plural$"
+    
   mod_job_scrap_miner_per_pop:0 "§G+1§! emploi de $job_scrap_miner$ par palier de $VALUE$ Pops"
   mod_job_scrap_miner_per_pop_short:0 "\n§G+1§! £mod_job_scrap_miner_add£ pour $VALUE$ £pop£"
 

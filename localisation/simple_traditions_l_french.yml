@@ -1,6 +1,6 @@
 ﻿l_french:
 
-simple_tradition_version:0 "Traditions simples V1.4.1"
+simple_tradition_version:0 "Simple Traditions v1.7.0"
 ######################################
 #   TRADITIONS
 ######################################
@@ -469,6 +469,120 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
 
 
 ######################################
+#   Leadership
+######################################
+
+# Basic
+  tradition_leadership:0 "Leadership"
+  tradition_leadership_desc:0 "Une nation n'est aussi bonne que ce que ses dirigeants lui permettent d'être."
+
+  tradition_leadership_machine:0 "$tradition_statecraft$"
+  tradition_leadership_machine_desc:0 "Une nation n'est aussi bonne que ce que ses dirigeants lui permettent d'être."
+
+  tradition_leadership_hive_mind:0 "$tradition_statecraft$"
+  tradition_leadership_hive_mind_desc:0 "Une nation n'est aussi bonne que ce que ses dirigeants lui permettent d'être."
+
+# Adopt
+  tr_leadership_adopt:0 "Traditions de leadership"
+  tr_leadership_adopt_desc:0 "§HDébloque le bâtiment :§! §Y$simple_traditions_galactic_university$§!\nL' §Y$simple_traditions_galactic_university$§! fournit §G1§! emploi de £job_bureaucrat£ §Y$job_bureaucrat$§!, §G1§! emploi de £job_head_researcher£ §Y$job_head_researcher$§! et §G2§! emplois de £job_culture_worker£ §Y$job_culture_worker$§!.\nCe bâtiment est un prérequis pour le décret §Y$edict_simple_traditions_knowledge_download$§!."
+  
+    tr_leadership_adopt_megacorp_desc:0 "§HDébloque le bâtiment :§! §Y$simple_traditions_galactic_university_megacorp$§!\nL'§Y$simple_traditions_galactic_university$§! fournit §G1§! emploi de £job_executive£ §Y$job_executive$§!, §G1§! emploi de £job_head_researcher£ §Y$job_head_researcher$§! et §G2§! emplois de £job_manager£ §Y$job_manager$§!.\nCe bâtiment est un prérequis pour le décret §Y$edict_simple_traditions_knowledge_download$§!."
+  
+    tr_leadership_adopt_hive_desc:0 "§HDébloque le bâtiment :§! §Y$simple_traditions_galactic_university_hive$§!\nL'§Y$simple_traditions_galactic_university$§! fournit §G2§! emplois de £job_synapse_drone£ §Y$job_synapse_drone$§!, §G2§! emplois de £job_brain_drone£ §Y$job_brain_drone$§! et §G2§! emplois de £job_maintenance_drone£ §Y$job_maintenance_drone$§!.\nCe bâtiment est un prérequis pour le décret §Y$edict_simple_traditions_knowledge_download$§!."
+  
+    tr_leadership_adopt_machine_desc:0 "§HDébloque le bâtiment :§! §Y$simple_traditions_galactic_university_machine$§!\nL'§Y$simple_traditions_galactic_university$§! fournit §G1§! emploi de £job_coordinator£ §Y$job_coordinator$§!, §G2§! emplois de £job_calculator£ §Y$job_calculator$§! et §G2§! emplois de £job_evaluator£ §Y$job_evaluator$§!.\nCe bâtiment est un prérequis pour le décret §Y$edict_simple_traditions_knowledge_download$§!."
+
+# Finisher
+  tr_leadership_finish:0 "Traditions de leadership Terminé"
+  tr_leadership_finish_desc:0 "Toutes les personnalités acquièrent la caractéristique §Y$leader_trait_simple_traditions_university_admiral$§!, tant que vous avez le bâtiment §Y$simple_traditions_galactic_university$§! sur votre capitale.\nNb. d'atouts d'Ascension débloqués : §G+1§!"
+
+  tr_leadership_finish_machine:0 "$tr_leadership_finish$"
+  tr_leadership_finish_machine_desc:0 "Toutes les personnalités acquièrent la caractéristique §Y$leader_trait_simple_traditions_university_admiral_gestalt$§!, tant que vous avez le bâtiment §Y$simple_traditions_galactic_university_machine$§! sur votre capitale.\nNb. d'atouts d'Ascension débloqués : §G+1§!"
+
+  tr_leadership_finish_hive:0 "$tr_leadership_finish$"
+  tr_leadership_finish_hive_desc:0 "Toutes les personnalités obtiennent la caractéristique §Y$leader_trait_simple_traditions_university_admiral_gestalt$§!, tant que vous avez le bâtiment §Y$simple_traditions_galactic_university_hive$§! sur votre capitale.\nNb. d'atouts d'Ascension débloqués : §G+1§!"
+
+# internships
+  tr_leadership_internships:0 "Stages"
+  tr_leadership_internships_delayed:0 "Nous proposons à nos jeunes des stages à des postes de direction, afin de les préparer à l'avenir."
+
+  tr_leadership_internships_machine:0 "Traitement parallèle"
+  tr_leadership_internships_machine_delayed:0 "Nos dirigeants ont une meilleure capacité à traiter plusieurs choses à la fois."
+
+# knowledge download
+  tr_leadership_knowledge_download:0 "Téléchargement des connaissances"
+  tr_leadership_knowledge_download_delayed:0 "En téléchargeant toutes les expériences de nos dirigeants et en les rendant accessibles aux nouveaux, nous améliorons considérablement leurs capacités au fil du temps."
+  tr_leadership_knowledge_download_desc:0 "§HDébloque le décret :§! $edict_simple_traditions_knowledge_download$"
+
+# life extension
+  tr_leadership_life_extension:0 "Extension de vie"
+  tr_leadership_life_extension_delayed:0 "Les bons dirigeants sont difficiles à trouver, nous devons nous assurer qu'ils peuvent faire autant de bien que possible."
+
+  tr_leadership_life_extension_machine:0 "Pièces de haute qualité"
+  tr_leadership_life_extension_machine_delayed:0 "Nos robots leaders auront la priorité pour les pièces et la production de haute qualité."
+
+# extended schooling
+  tr_leadership_extended_schooling:0 "Scolarité prolongée"
+  tr_leadership_extended_schooling_delayed:0 "Nous marquerons les élèves exceptionnels pour la suite de leur scolarité et les ferons accéder rapidement à des postes de direction."
+
+  tr_leadership_extended_schooling_machine:0 "Banques de données étendues"
+  tr_leadership_extended_schooling_machine_delayed:0 "Nous améliorons l'accès de nos dirigeants à des solutions de stockage à grande échelle pour une capacité accrue à répondre à de nouvelles situations."
+
+# rulers cabinet
+  tr_leadership_rulers_cabinet:0 "Cabinet de dirigeant"
+  tr_leadership_rulers_cabinet_delayed:0 "Il est important pour notre dirigeant d'être entouré des esprits les plus brillants de notre empire."
+
+  tr_leadership_rulers_cabinet_machine:0 "Bots Assistants"
+  tr_leadership_rulers_cabinet_machine_delayed:0 "Nous gardons des robots spécialisés près de nos dirigeants, afin qu'ils puissent réagir immédiatement aux situations en développement."
+
+
+
+######################################
+#   BUILDINGS
+######################################
+# Buildings
+  simple_traditions_galactic_university:0 "Université Galactique"
+  simple_traditions_galactic_university_desc:0 "Le meilleur et le plus cher des établissements scolaires de la galaxie."
+  simple_traditions_galactic_university_megacorp:0 "Académie Galactique"
+  simple_traditions_galactic_university_megacorp_desc:0 "Le meilleur et le plus cher des établissements scolaires de la galaxie."
+  simple_traditions_galactic_university_hive:0 "Centre d'entraînement galactique"
+  simple_traditions_galactic_university_hive_desc:0 "Le meilleur et le plus cher des établissements scolaires de la galaxie."
+  simple_traditions_galactic_university_machine:0 "Centre de simulation galactique"
+  simple_traditions_galactic_university_machine_desc:0 "Le meilleur et le plus cher des établissements scolaires de la galaxie."
+
+######################################
+#   TRAITS
+######################################
+# Traits
+  leader_trait_simple_traditions_university_admiral:0 "Diplômé galactique"
+  leader_trait_simple_traditions_university_admiral_desc:0 "Ce leader a été formé dans le meilleur établissement d'enseignement de la galaxie."
+  leader_trait_simple_traditions_university_admiral_gestalt:0 "Drone semi-indépendant"
+  leader_trait_simple_traditions_university_admiral_gestalt_desc:0 "Ce drone est semi-indépendant, ce qui lui permet de prendre des décisions avant de consulter la conscience gestaltiste."
+
+  leader_trait_simple_traditions_university_general:0 "$leader_trait_simple_traditions_university_admiral$"
+  leader_trait_simple_traditions_university_general_desc:0 "$leader_trait_simple_traditions_university_admiral_desc$"
+  leader_trait_simple_traditions_university_general_gestalt:0 "$leader_trait_simple_traditions_university_admiral_gestalt$"
+  leader_trait_simple_traditions_university_general_gestalt_desc:0 "$leader_trait_simple_traditions_university_admiral_gestalt_desc$"
+
+  leader_trait_simple_traditions_university_scientist:0 "$leader_trait_simple_traditions_university_admiral$"
+  leader_trait_simple_traditions_university_scientist_desc:0 "$leader_trait_simple_traditions_university_admiral_desc$"
+  leader_trait_simple_traditions_university_scientist_gestalt:0 "$leader_trait_simple_traditions_university_admiral_gestalt$"
+  leader_trait_simple_traditions_university_scientist_gestalt_desc:0 "$leader_trait_simple_traditions_university_admiral_gestalt_desc$"
+
+  leader_trait_simple_traditions_university_governor:0 "$leader_trait_simple_traditions_university_admiral$"
+  leader_trait_simple_traditions_university_governor_desc:0 "$leader_trait_simple_traditions_university_admiral_desc$"
+  leader_trait_simple_traditions_university_governor_gestalt:0 "$leader_trait_simple_traditions_university_admiral_gestalt$"
+  leader_trait_simple_traditions_university_governor_gestalt_desc:0 "$leader_trait_simple_traditions_university_admiral_gestalt_desc$"
+
+######################################
+#   EDICTS
+######################################
+# Edicts
+  edict_simple_traditions_knowledge_download:0 "Partage des connaissances des leaders"
+  edict_simple_traditions_knowledge_download_desc:0 "Ce décret permettra à nos dirigeants d'accumuler de l'expérience plus rapidement, en partageant les connaissances via des implants cérébraux."
+  edict_simple_traditions_knowledge_download_tooltip:0 "Entretien des chefs : §R+100%§!\nToutes les personnalités gagnent 5 d'expérience chaque mois, ce qui est augmenté par le gain d'expérience du chef."
+
+######################################
 #   DECISIONS
 ######################################
 # Decisions
@@ -527,6 +641,7 @@ simple_tradition_version:0 "Traditions simples V1.4.1"
   simple_tradition_kinetic_buff:0 "Favorise des armes cinétiques"
   simple_tradition_energy_buff:0 "Favorise les armes énergétiques"
   simple_tradition_missile_buff:0 "Favorise des armes explosives"
+  simple_tradition_missile_buff_effects:0 "Dégât des armes explosives : §G+10%§!\nvitesse des armes explosives : §G+50%§!"
   simple_tradition_shield_buff:0 "Amplification du bouclier"
   simple_tradition_armor_buff:0 "Lattice structurelle compacte"
   simple_tradition_hull_buff:0 "Intégrité structurelle renforcée"
