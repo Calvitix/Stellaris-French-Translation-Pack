@@ -2,7 +2,7 @@
  
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : v3.4.2 13.05.2022
+ # Update check : v3.5 23.09.2022
  ####################################
 
  
@@ -157,7 +157,7 @@
  ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_RANGE:1 "$MIN|0Y$ à $MAX|0Y$ ($CHANCE|%0Y$ de chances) : §Y+$CLUES|0$§! indices."
  ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_GREATER_THAN_EQ:0 "Au moins $MIN|0Y$ ($CHANCE|%0Y$ de chances) : chapitre terminé."
  ARCHAEOLOGICAL_SITE_ON_ROLL_FAILED_LESS_THAN_EQ:0 "$MAX|0Y$ ou moins ($CHANCE|%0Y$ de chances) : §Y+$CLUES|0$§! indices."
- archaeology_roll_header:1 "§H$ARCHAEOLOGICAL_SITE_BREAKTHROUGH$§!\nChances de déboucher sur un succès au cours des fouilles du site.\n\nÀ la fin de chaque phase, un dé est lancé (§Y1§! à §Y10§!). Le résultat de ce lancer est ajouté à l'§Yavantage de compétence§! et aux §Yindices§!, et la §Ydifficulté§! est retranchée.\n\nLe résultat avant le lancer du dé est de $SCORE|0Y$.\n\n§ESelon le total :§!"
+ archaeology_roll_header:2 "§H$ARCHAEOLOGICAL_SITE_BREAKTHROUGH$§!\nChances de déboucher sur un succès au cours des fouilles du site.\n\nÀ la fin de chaque phase, un dé est lancé (§Y1§! à §Y10§!). Le résultat de ce lancer est ajouté à l'§Yavantage de compétence§! et aux §Yindices§!, et la §Ydifficulté§! est retranchée.\n\nLe résultat avant le lancer du dé est de $SCORE|0Y$.\n\n§ESelon le total :§!"
 
  alert_activate_relic_title:0 "Utilisation possible d'une relique"
  alert_activate_relic_instant:0 "Il est désormais possible d'utiliser l'une de nos reliques."
@@ -527,12 +527,18 @@
  relic_triumph_cooldown_short:0 "\n$relic_activation_cooldown$ : §Y1800§!£time£"
  relic_triumph_cooldown_veryshort:1 "\n$relic_activation_cooldown$ : §Y900§!£time£"
  requires_relic_no_cooldown:0 "$TRIGGER_FAIL$ §RImpossible d'activer une autre relique tant que le modificateur §Y$relic_activation_cooldown$§! a cours.§!"
- relic_queen_spawn:0 "Donne naissance à une petite flotte préthoryne."
+ relic_queen_spawn:1 "Donne naissance à une flotte préthoryne d'une certaine importance."
  relic_rubricator_active:0 "Crée §Y30§! £minor_artifacts£artefacts mineurs."
  relic_galaxy_active:0 "Gain de §Y50%§! sur la recherche d'une technologie aléatoire."
- relic_zro_crystal_passive:0 "Le temps d'attente avant de §Ypénétrer dans le Suaire§! est réduit de §G50%§!."
+ relic_zro_crystal_passive:1 "Le temps d'attente avant de §Ypénétrer dans le Suaire§! est réduit de §G50%§!.\n\nDonne accès au décret §Y$edict_zro_crystal$§!, permettant d'accélérer le gain d'expérience des personnalités et d'accroître leur longévité."
+ edict_zro_crystal:0 "Additifs zro"
+ edict_zro_crystal_desc:0 "Les propriétés du zro sont bien mystérieuses. Mais, donné à nos personnalités, il semble leur conférer de légères capacités précognitives, leur permettant d'apprendre plus vite et d'éviter des dangers qui auraient pu causer leur fin de manière prématurée."
+ edict_zro_crystal_machine:0 "$edict_zro_crystal$"
+ edict_zro_crystal_machine_desc:0 "Les propriétés du zro sont bien mystérieuses. Mais, soupoudré sur les cartes-mères de nos personnalités, il semble leur conférer de légères capacités précognitives, leur permettant d'apprendre plus vite et d'éviter des dangers qui auraient pu causer une défaillance critique de manière prématurée."
+ edict_zro_crystal_machine_effect:0 "Les personnalités mécaniques ont §Y50%§! de risques en moins de subir des défaillances et accidents."
  relic_zro_crystal_active:0 "Permet de contacter l'esprit de §Y$relic_zro_entity_name$§! pour lui demander conseil en divers domaines."
  relic_zro_entity_name:0 "Ja'Baxti"
+ relic_omicodex_opinon:0 "Opinion de tous les §Yempires non robotiques§! : §G+25§!"
  relic_omnicodex_active:1 "Fait §Yapparaître des pops§! d'une espèce disparue sur l'un de nos mondes."
  relic_orb_active:0 "[Root.GetLeLaLDirCap]§Y[Root.GetRulerTitle] [Root.GetRulerName]§! gagne §Y500§! en expérience."
  relic_galatron_active:0 "Le Galatron crache des ressources de façon totalement aléatoire."
@@ -543,6 +549,7 @@
  r_dragon_trophy_desc:0 "Un trophée commémorant notre victoire sur cet abominable dragon d'éther. S'il n'était pas aussi imposant, il serait parfait accroché à un mur."
  r_khans_throne:0 "Le trône du Khan"
  r_khans_throne_desc:0 "Ce siège imposant est en fait rien moins que le trône depuis lequel le Grand Khan régnait sur la Horde. Il a été retrouvé dans l'épave de son vaisseau amiral après sa destruction."
+ khans_throne_passive_effect:0 "Permet de disposer de dépendances de type §Ysatrapie§!."
  r_worm_scales:0 "Les écailles du Ver"
  r_worm_scales_desc:0 "Translucides et encore tièdes au toucher, ces écailles émettent un fredonnement grave qui ne peut s'expliquer par la science."
  r_rubricator:0 "Le Rubricateur"
@@ -558,15 +565,17 @@
  r_galaxy:0 "La galaxie miniaturisée"
  r_galaxy_desc:0 "Cette galaxie miniaturisée a été construite par une civilisation que l'on ne connaît que sous le nom de «Parti belligérant C», qui en a fait usage pour échapper au confinement de son monde capitale.\n\nLa galaxie est contenue au sein d'un champ de force impénétrable, dans un sarcophage, mais les activités de ses habitants peuvent en partie être observées."
  r_prethoryn_queen:0 "La Reine-mère préthoryne"
- r_prethoryn_queen_desc:0 "Cette reine-mère préthoryne capturée a été pacifiée grâce à des transmetteurs neuraux. Elle peut être utilisée pour donner naissance à une petite flotte préthoryne."
+ r_prethoryn_queen_desc:1 "Cette reine mère préthoryne capturée a été pacifiée grâce à des transmetteurs neuraux. Elle peut être utilisée pour donner naissance à une flotte préthoryne de taille conséquente."
  r_unbidden_warlock:0 "Le sorcier extradimensionnel"
  r_unbidden_warlock_desc:0 "Les énergies psioniques de cet extradimensionnel capturé maintenaient le portail entre notre domaine et le leur, avant qu'il soit détruit.\n\nMaintenant que nous la retenons captive, cette créature a été contrainte d'utiliser sa puissance pour accroître la vitesse subluminique de nos vaisseaux et la portée de nos propulseurs de bonds."
  r_contingency_core:0 "Le processeur central de la Contingence"
  r_contingency_core_desc:0 "Ce processeur central de la Contingence, parfaitement isolé, a été récupéré dans l'épave de son dernier monde mécanique. Il peut grandement accélérer les processus de construction et d'assemblage des robots et des mégastructures."
+ relic_contingecy_core:0 "Permet de construire §G1§! mégastructure supplémentaire de chaque type."
  r_zro_crystal:2 "Archive psionique"
  r_zro_crystal_desc:1 "Une archive psionique de cristal de zro, contenant l'«âme» de §Y$relic_zro_entity_name$§!. De temps à autre, cette entité peut être consultée pour obtenir ses conseils."
  r_severed_head:0 "La tête de Zarqlan"
  r_severed_head_desc:0 "Extrait des «Symboles de la vénération», 102e édition :\n\n«ZARQLAN (za-ar-klane)\nPersonnage célèbre appartenant à une espèce indéterminée, vénéré comme un prophète du Divin par au moins sept religions distinctes dans la galaxie lors du Quatrième Interrègne (32e cycle de Kavabh). Sa fin est inconnue, mais toute référence à lui dans les archives cesse après le 38e cycle. Son historicité est sujette à débats depuis au moins le début du 41e cycle, et il est souvent depuis lors considéré comme un mythe ou une fable.»"
+ r_severed_head_passive:0 "Permet de coloniser les §Ymondes sacrés§!."
  r_ancient_sword:0 "La Lame de la Chasseresse"
  r_ancient_sword_desc:1 "Une arme ancienne et parfaitement préservée, forgée dans un matériau inconnu. Elle renferme un pouvoir psionique à peine contenu, qui lui imprime des vibrations à peine discernables."
  r_reality_perforator:0 "Le perforateur de réalité vultaum"
@@ -575,6 +584,8 @@
  r_pox_sample_desc:0 "Un échantillon de cette redoutable peste javorienne qui a exterminé l'espèce irassienne. Si elle est inoffensive pour la plupart des autres formes de vie, le virus qui cause cette maladie dispose de nombreuses propriétés génétiques uniques, dont certaines qui peuvent en fait prolonger la vie de la plupart des organiques.\n\nCe virus pourrait aussi être utilisé pour créer une nouvelle souche de peste javorienne, capable d'infecter les non-Irassiens. S'il ne serait alors pas aussi virulent ou mortel que la maladie originelle l'a été pour  les Irassiens, il constituerait malgré tout une arme biologique extrêmement efficace."
  r_cryo_core:0 "Le cryonoyau yuht"
  r_cryo_core_desc:0 "Les Yuht n'ayant jamais découvert l'existence de l'hyperespace, c'est grâce à leur très longue espérance de vie et aux techniques de cryogénisation qu'ils pouvaient voyager parmi les étoiles. Ce prototype de cryonoyau a été créé par les scientifiques yuht peu avant que leur empire ne s'effondre face aux Jabbardîni.\n\nLe cryochamp généré par ce noyau dépasse très largement notre niveau technologique actuel."
+ r_cryo_core_effect:0 "Les nouvelles colonies sont fondées avec §Y1§! £pop£pop supplémentaire."
+
  r_war_forge:0 "La forge militaire de la Cybrex"
  r_war_forge_desc:1 "Cette forge militaire, relativement petite et mobile, est la dernière de la sorte dans l'univers. Il s'agit d'une relique remontant à l'époque où la Cybrex combattait l'ensemble de la galaxie, avant qu'elle revienne sur cette attitude à la suite de son «Ajustement».\n\nLa capacité de la forge à produire des vaisseaux de combat a été désactivée de manière définitive par la Cybrex, mais sa capacité lui a été conservée de convertir des quantités énormes de minéraux en alliages."
 
@@ -604,7 +615,7 @@
  unbidden_ritual:0 "Rituel du Spontané"
  contingency_calculation:0 "Calculs de la Contingence"
  contingency_calculation_desc:0 "$r_contingency_core_desc$"
- relic_zro_crystal_knowledge:0 "[Root.GetLeLaLDirCap]§Y[Root.GetRulerTitle] [Root.GetRulerName]§! gagne §Y500§! en expérience."
+ relic_zro_crystal_knowledge:1 "[Root.GetLeLaLDirCap]§Y[Root.GetRulerTitle] [Root.GetRulerName]§! gagne §Y1§! niveau de compétence."
  relic_zro_crystal_martial:0 "Tutelle militaire"
  relic_zro_crystal_state:0 "Tutelle politique"
  cybrex_war_forge:0 "$r_war_forge$"
@@ -620,6 +631,7 @@
  reality_perforator_4:0 "$r_reality_perforator$"
  reality_perforator_4_desc:0 "$reality_perforator_1_desc$"
  ancient_sword:0 "$r_ancient_sword$"
+ severed_head_modifier:0 "$r_severed_head$"
  oracle_software_integration:0 "Noyau Oracle"
  oracle_software_integration_desc:0 "L'Oracle voit tout."
  oracle_administration:0 "L'Oracle"
@@ -884,3 +896,6 @@
  building_scrap_processing_hub_desc:0 "Des centres colossaux où les minéraux remontés de la structure de l'anneau-monde brisé sont reçus et transportés jusqu'à des installations de purification."
 
  mod_planet_miners_alloys_produces_add:0 "Prod. d'£alloys£alliages des £job_miner£[GetMinerPlural_lower] "
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ edict_zro_crystal_desc_machine:0 "Les propriétés du zro sont bien mystérieuses. Mais, soupoudré sur les cartes-mères de nos personnalités, il semble leur conférer de légères capacités précognitives, leur permettant d'apprendre plus vite et d'éviter des dangers qui auraient pu causer une défaillance critique de manière prématurée."

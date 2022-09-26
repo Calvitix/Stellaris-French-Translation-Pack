@@ -3,6 +3,11 @@
  # Plantoids Species Pack
  ########################
 
+#
+# Original File, Overwritten by FrenchTranslationPack
+# Calvitix 3.5.0 Check OK, 23.09.2022
+#
+
  civic_idyllic_bloom:0 "Fleuraison idyllique"
  civic_idyllic_bloom_desc:0 "Cette société a toujours consacré beaucoup de temps à préserver et améliorer son environnement, visant à rien moins que construire un véritable paradis pour ses membres."
  civic_hive_idyllic_bloom:0 "$civic_idyllic_bloom$"
@@ -59,6 +64,7 @@
 
  thankful_for_gaia:0 "Magnifique monde Gaïa"
  thankful_for_gaia_desc:0 "Notre suzeraine a terraformé l'un de nos mondes en un monde Gaïa. C'est là un présent magnifique, dont nous lui serons éternellement reconnaissants !"
+
 ### Traits by Byron Aytoun
 
  trait_plantoid_phototrophic:0 "Phototrophe"
@@ -70,10 +76,16 @@
  TRAIT_PLANTOID_RADIOTROPHIC_EFFECT:0 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\nLes pops vivant sur les §Ymondes morts§! n'ont aucun entretien en £energy£§Yénergie§!.\nDéveloppement des £pop£pops sur les §Ymondes morts§! : §G+10%§!\nHabitabilité des §Ymondes morts§! : §G+10%§!"
  trait_harvested_radiotrophic:0 "$trait_plantoid_radiotrophic$"
  trait_harvested_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ trait_lithoid_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_lithoid_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
+ TRAIT_LITHOID_RADIOTROPHIC_EFFECT:0 "Remplace §Y50%§! de l'entretien de base en £minerals£§Yminéraux§! par un entretien en £energy£§Yénergie§!.\nLes £pop£pops vivant sur les §Ymondes morts§! n'ont aucun coût d'entretien en £energy£§Yénergie§!.\nVit. de développement des £pop£pops sur les §Ymondes morts§! : §G+10%§!\n$mod_pc_nuked_habitability$: §G+10%§!"
 
  trait_plantoid_budding:0 "Bourgeonnement"
  trait_plantoid_budding_desc:0 "§LOutre la fertilisation plus commune par les graines ou les spores, cette espèce est capable de se reproduire par bourgeonnement.§!"
- TRAIT_PLANTOID_BUDDING_EFFECT:0 "Pour chaque £pop£pop ayant au moins le statut d'£pop_cat_slave£esclaves : £mod_pop_growth_speed£$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$: +0.02"
+ trait_lithoid_budding:0 "Cristallisation"
+ trait_lithoid_budding_desc:0 "§LOutre les méthodes de reproduction plus habituelles, cette espèce est capable de générer des copies autoréplicantes d'elle-même par cristallisation.§!"
+ TRAIT_PLANTOID_BUDDING_EFFECT:1 "Pour chaque £pop£pop ayant au moins le statut d'£pop_cat_slave£esclaves : £mod_pop_growth_speed£$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$: +0.02\n\nCela s'ajoute aux autres sources d'assemblage mensuel des pops organiques, telles que les £building£§Hcuves à clones§! ou les £job_spawning_drone£§Hdrones de reproduction§!."
+ TRAIT_LITHOID_BUDDING_EFFECT:0 "$TRAIT_PLANTOID_BUDDING_EFFECT$\n\nLe trait §H$trait_lithoid$§! modifie les effets de celui-ci."
 
 ### Catalytic Processing by Byron Aytoun
 

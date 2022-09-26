@@ -24,6 +24,7 @@
 
  requires_neutron_star_or_pulsar:0 "$TRIGGER_FAIL$ Ne peut être construite qu'autour d'une étoile à neutrons ou d'un pulsar."
  requires_no_existing_quantum_catapult:0 "$TRIGGER_FAIL$ Impossible de construire plus d'une catapulte quantique."
+ requires_no_existing_quantum_catapul_two:0 "$TRIGGER_FAIL$ Impossible de construire plus de deux catapultes quantiques."
 
  quantum_catapult_0_MEGASTRUCTURE_DETAILS:1 "Un dispositif canalisant les forces d'une étoile à neutrons ou d'un pulsar afin de déformer la trame de l'espace et faire bondir des flottes à très longue distance."
  quantum_catapult_0_CONSTRUCTION_INFO_DELAYED:1 "Les premières versions de la catapulte quantique peuvent envoyer les flottes dans des systèmes §Hautres§! que la destination visée. Le §Ypérimètre de dispersion§! pourra être réduit grâce aux améliorations successives."
@@ -31,7 +32,7 @@
  quantum_catapult_0:0 "Site de catapulte quantique"
  quantum_catapult_0_DESC:1 "Dans ce dépôt de ressources sont rassemblés tous les matériaux et le personnel indispensables pour construire le premier lot des vastes lentilles de focalisation pour la catapulte quantique."
  quantum_catapult_1:0 "Catapulte quantique"
- quantum_catapult_1_DESC:1 "Il a été prouvé par calculs que quelques lentilles de torsion seulement, disposée en des points précis autour de l'étoile, peuvent canaliser une énergie suffisante pour permettre des trajectoires semi-volatiles à travers l'espace interstellaire."
+ quantum_catapult_1_DESC:1 "Il a été prouvé par calculs que quelques lentilles de torsion seulement, disposées en des points précis autour de l'étoile, peuvent canaliser une énergie suffisante pour permettre des trajectoires semi-volatiles à travers l'espace interstellaire."
  quantum_catapult_2:0 "$quantum_catapult_1$"
  quantum_catapult_2_DESC:1 "Des dispositifs de lentilles de torsion jumelés sont placés l'un en face de l'autre afin d'améliorer la canalisation des flux stellaires et en faire un moyen de transport."
  quantum_catapult_3:0 "$quantum_catapult_1$"
@@ -55,6 +56,7 @@
  FLEET_ORDER_QUANTUM_CATAPULT_NOT_SAME_SYSTEM:0 "§RLes flottes sélectionnées ne se trouvent pas dans le même système.§!"
  FLEET_ORDER_NEEDS_GALAXY_MODE:0 "§RNe peut être lancée qu'à partir du mode de carte galactique.§!"
  requires_technology_hyper_relays:0 "$TRIGGER_FAIL$ Nécessite la technologie £physics£§Y$tech_hyper_relays$§!."
+ requires_hyperlane:0 "$TRIGGER_FAIL$ §RCe système ne dispose d'aucune hyperligne.§!"
  QUANTUM_CATAPULT_COUNTRY_CANNOT_USE:0 "$TRIGGER_FAIL$ La §Y[From.GetName]§! nous a interdit l'accès à sa catapulte quantique."
  # Slingshot to the Stars Origin version
  quantum_catapult_ruined_slingshot:0 "$quantum_catapult_ruined$"
@@ -153,7 +155,7 @@
  sm_ring_bureaucracy_hub_desc:1 "En garantissant aux bureaucrates un accès quasi instantané à toute la paperasse administrative qui règle le cours de leurs vies, l'efficacité et le progrès sont définitivement assurés."
  sm_ring_synapse_hub:0 "Relais synaptiques"
  sm_ring_synapse_hub_desc:0 "Des portions modifiées de l'anneau orbital permettent d'améliorer la transmission des signaux synaptiques, améliorant de ce fait le contrôle sur les drones à la surface du monde."
- sm_ring_synapse_hub_effect:0 "Prod. des £job_synapse_drone£drones synaptiques : §G+1§!£amenities£service"
+ sm_ring_synapse_hub_effect:1 "Prod. des £job_synapse_drone£drones synaptiques : §G+1§!£unity£"
  sm_ring_maintenance_hub:0 "Lanceurs de capsules de maintenance"
  sm_ring_maintenance_hub_desc:0 "Des capsules préconditionnées comprenant les matériaux de maintenance et les drones indispensables à leur distribution peuvent être larguées depuis l'orbite, quasi immédiatement, partout où elles sont nécessaires."
  sm_ring_maintenance_hub_effect:0 "Prod. des £job_maintenance_drone£drones de maintenance : §G+1§!£amenities£service"
@@ -174,7 +176,7 @@
 
  # Quantum Catapult Restored
  over.25.name:0 "$quantum_catapult_3$ remise en état"
- over.25.a.desc:0 "$over.25.desc$ Ces travaux ont permis de développer notre compréhension de cette technologie, et les essais menés jusqu'à présent semblent montrer qu'elle peut être utilisée désormais de manière sûre."
+ over.25.a.desc:0 "$over.25.desc$ Ces travaux ont permis de développer notre compréhension de cette technologie, et les essais menés jusqu'à présent semblent montrer qu'elle peut désormais être utilisée de manière sûre."
  over.25.desc:0 "La catapulte quantique en ruine du système de §Y[quantum_catapult_system.GetName]§! est désormais en état de fonctionner, et va dorénavant permettre aux flottes de la [Root.GetName] de bondir à travers les étoiles."
 # over.25.a:0 "$EXCELLENT$" #Pointed at an inexistant string. Replaced with EXCELLENT
 

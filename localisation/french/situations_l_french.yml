@@ -3,14 +3,14 @@
  FROM_SITUATIONS:0 "Situations"
  TO_TARGET:1 "Pour $TARGET|H$ :"
  SITUATION_MONTHLY_CHANGE:0 "Évolution mensuelle"
- NO_ACTIVE_EFFECTS:0 "Aucune conséquence actuellement" # [LocEditor:ForFutureBatchExport]
+ NO_ACTIVE_EFFECTS:1 "Aucune conséquence actuellement"
  SITUATION_FINISHER_EFFECTS:0 "§EÀ l'issue :§!"
  SITUATION_FINISHER_EFFECTS_TOOLTIP:0 "§HConséquences si l'issue prévisible est atteinte§!"
  SITUATION_FINISHER_EFFECTS_DELAYED_TOOLTIP:0 "§ECertaines situations ont plus d'une issue possible.§!"
  SITUATION_APPROACH_SELECT_TOOLTIP:0 "§GCliquer pour choisir cette approche de la situation.§!"
  ACTIVE_APPROACH:0 "§GActive§!" #Also used for stages
  ACTIVE_APPROACH_EFFECTS:0 "$EFFECTS$"
- STAGE_EFFECTS:0 "Conséquences de la phase :" # [LocEditor:ForFutureBatchExport]
+ STAGE_EFFECTS:1 "Conséquences de la phase :"
  EFFECTS_FROM_SITUATION:0 "Conséquences actuelles de la situation"
  EFFECTS_FROM_SITUATION_E:0 "§E$EFFECTS_FROM_SITUATION$§!"
  EFFECTS_FROM_SITUATION_H:0 "§H$EFFECTS_FROM_SITUATION$§!"
@@ -20,8 +20,9 @@
  SITUATION_CURRENT_PROGRESS:0 "Avancée actuelle : $PROGRESS|Y$/$END|Y$"
  SITUATION_PREDICTED_PROGRESS:0 "Prévisions pour le mois prochain : $PROGRESS|Y$ ($CHANGE$)"
  SITUATION_OUTCOME_IN_MONTHS:0 "Une issue va survenir dans $MONTHS|Y$ mois."
+ SITUATION_NEXT_STAGE_IN_MONTHS:0 "La prochaine phase sera atteinte dans $STAGE_MONTHS|Y$ mois, et une issue dans $SITUATION_MONTHS|Y$ mois."
  SITUATION_CURRENT_STAGE:0 "Phase actuelle : $STAGE|Y$"
- SITUATION_STAGE_ACTIVE_RANGE:0 "Cette phase a cours entre $VALUE1|Y$ et $VALUE2|Y$ d'avancée."
+ SITUATION_STAGE_ACTIVE_RANGE:1 "Cette phase a cours entre $VALUE1|Y$ et $VALUE2|Y$ d'avancée."
  OUTSTANDING_SITUATIONS:0 "§HSituations exceptionnelles§!\n§ELes situations requérant toute notre attention sont rassemblées ici.§!"
  CLICK_TO_EXPAND_OR_COLLAPSE:0 "§GCliquer pour afficher ou masquer.§!"
  PREDICTED_OUTCOME:0 "Issue prévisible"
@@ -30,7 +31,7 @@
  SITUATION_APPROACH_LOCKED:0 "§RNous ne pouvons changer notre approche de cette situation.§!"
  SITUATION_APPROACH_LOCKED_TIMED:0 "§RNous ne pourrons pas changer d'approche pendant $MONTHS|Y$ mois.§!"
  OUTLINER_SITUATION_PROGRESS:0 "Avancée de $PROGRESS|Y$% vers l'issue prévisible."
- OUTLINER_SITUATION_OUTCOME_TIME:0 "D'après l'évolution mensuelle actuelle ($CHANGE$), une issue à cette situation devrait survenir d'ici $MONTHS|Y$ mois." # [LocEditor:ForFutureBatchExport]
+ OUTLINER_SITUATION_OUTCOME_TIME:1 "D'après l'évolution mensuelle actuelle ($CHANGE$), une issue à cette situation devrait survenir d'ici $MONTHS|Y$ mois."
  CLICK_TO_OPEN_SITUATION_LOG:0 "§GCliquer pour ouvrir le journal des situations.§!"
  SITUATION_STAGE_NO_EFFECTS:0 "Cette phase n'a aucune conséquence."
  SITUATION_TARGET_TOOLTIP:0 "Cette situation concerne essentiellement $TARGET_TYPE$ '$TARGET|Y$'."
@@ -63,6 +64,9 @@
  stage_3:1 "Phase III"
  stage_4:1 "Phase IV"
  stage_5:1 "Phase V"
+ stage_6:0 "Phase VI"
+ stage_7:0 "Phase VII"
+ stage_8:0 "Phase VIII"
  stage_2_alt:0 "$stage_2$"
  stage_3_alt:0 "$stage_3$"
  string_current_approach:0 "Approche actuelle"
@@ -347,7 +351,7 @@
  situation.253.a.2:0 ".exe pa5 1ent"
 
  situation.253.desc.3:0 "§RPoupées re bougent. Réveil ! Saut... danse... rigole. Bravo bravo bravo.§!"
- situation.253.a.3:0 " (craquettement) "
+ situation.253.a.3:0 " (craquettement)"
 
  ## Endings
 

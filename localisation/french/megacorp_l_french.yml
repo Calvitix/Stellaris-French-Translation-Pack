@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack  Adaptation by Calvitix)
- # Update check for 3.4.4 : 21.06.2022
+ # Update check for 3.5 : 23.09.2022
  ####################################
 
  SECTOR_ADD_ALREADY_ASSIGNED:0 "§RLe système de $SYSTEM|Y$ relève déjà d'un secteur.§!"
@@ -23,7 +23,7 @@
  ECONOMICS_UPKEEP:0 "Maintenance"
  ECONOMICS_UPKEEP_HEADER:0 "$ECONOMICS_UPKEEP$ :"
  ECONOMICS_UPKEEP_VALUE_HEADER:0 "$ECONOMICS_UPKEEP$ : $STRING$"
- ECONOMICS_CATEGORY_NONE:0 "Aucune catégorie"
+ ECONOMICS_CATEGORY_NONE:1 "Autre"
  IMPORTANT_DEPOSITS:0 "Particularités intéressantes"
  PLANET_SUMMARY_BUTTON:0 "§HAperçu du monde§!"
  PLANET_HOUSING_TITLE:0 "Logements"
@@ -44,6 +44,7 @@
  planet_crime:0 "$PLANET_CRIME_TITLE$"
  planet_crime_no_happiness:0 "$PLANET_CRIME_NO_HAPPINESS_TITLE$"
  TRADE_STARBASE:0 "Base stellaire"
+ STARBASE_PLURAL:0 "Bases stellaires"
  PLANET_CRIME_TITLE:0 "Criminalité"
  PLANET_CRIME_NO_HAPPINESS_TITLE:0 "Déviance"
  PLANET_CRIME_DESC:0 "§ELa £crime£§Hcriminalité§! mesure le niveau général d'activités criminelles et de non-respect des lois sur ce monde. Un niveau de criminalité élevé peut susciter des événements néfastes et réduire la £stability£§Hstabilité§!.\nElle apparaît de façon naturelle lorsque le monde a une population importante, et peut être réduite en augmentant le £happiness£§Hbonheur des pops§! ou en employant des £job_enforcer£§Hagents de sécurité§!.§!"
@@ -856,8 +857,8 @@
 
  job_evaluator:0 "Évaluateurs"
  job_evaluator_plural:0 "$job_evaluator$"
- job_evaluator_desc:0 "$job_coordinator_desc$"
- job_evaluator_effect_desc:0 "Les £job_evaluator£évaluateurs produisent de l'£unity£§Yunité§!"
+ job_evaluator_desc:1 "Les signaux provenant et destinés aux drones doivent être amplifiés, analysés, et nettoyés de toute déviance."
+ job_evaluator_effect_desc:1 "(les £job_evaluator£évaluateurs transforment l'£energy£§Yénergie§! en £unity£§Yunité§! et en $r_amenities_lower$)"
  mod_job_evaluator_add:0 "Emplois d'£job_evaluator£évaluateurs "
  mod_job_evaluator_per_pop:0 "§G+1§! emploi d'£job_evaluator£évaluateur par palier de $VALUE$ pops"
  mod_job_evaluator_per_pop_short:0 "\n§G+1§! £mod_job_evaluator_add£ pour $VALUE$£pop£"
@@ -1095,10 +1096,20 @@
  job_culture_worker:0 "Travailleurs culturels"
  job_culture_worker_plural:0 "Travailleurs culturels"
  job_culture_worker_desc:1 "Faire découvrir les arts est le domaine de ces travailleurs. Et c'est vital pour le développement personnel et l'expression sociale de la population."
- job_culture_worker_effect_desc:0 "Les £job_culture_worker£travailleurs culturels transforment les £consumer_goods£§Ybiens de consommation§! en £unity£§Yunité§! et en £society£§Yrecherche sociétale§!"
+ job_culture_worker_effect_desc:2 "les £job_culture_worker£travailleurs culturels transforment les £consumer_goods£§Ybiens de consommation§! en £unity£§Yunité§![GetCultureWorkerSpiMatOutput][GetCultureWorkerEgalAuthOutput][GetCultureWorkerMilPacOutput][GetCultureWorkerXenoOutput] et en £mod_ethic_attraction_mult£§Yattractivité des éthiques gouvernementales§!, leurs effets pouvant varier selon les §Yéthiques§! de l'empire"
  mod_job_culture_worker_add:0 "Emplois de £job_culture_worker£travailleurs culturels "
  mod_job_culture_worker_per_pop:0 "§G+1§! emploi de £job_culture_worker£travailleur culturel par palier de $VALUE$ pops"
  mod_job_culture_worker_per_pop_short:0 "\n§G+1§! £mod_job_culture_worker_add£ pour $VALUE$£pop£"
+ 
+ CULTURE_WORKER_OUTPUT_SPI:1 ", en réduction de la £mod_pop_amenities_usage_mult£§Yconso. de services par les pops§! "
+ CULTURE_WORKER_OUTPUT_MAT:0 ", en £amenities£§Yservices§!,  "
+ CULTURE_WORKER_OUTPUT_EGAL:1 ", en réduction des £mod_pop_housing_usage_mult£§Ylogements nécessaires aux pops§! "
+ CULTURE_WORKER_OUTPUT_AUTH:1 "§Y£mod_country_edict_fund_add£ $MOD_COUNTRY_EDICT_FUND_ADD$§!, "
+ CULTURE_WORKER_OUTPUT_MIL:0 ", en £mod_country_naval_cap_add£§Ycapacité navale§!,  "
+ CULTURE_WORKER_OUTPUT_PAC:1 "§Y$mod_pop_lifestyle_trade_mult$§!, "
+ CULTURE_WORKER_OUTPUT_PHOB:1 "§Y£mod_pop_citizen_happiness£ $pop_citizen_happiness$§!, "
+ CULTURE_WORKER_OUTPUT_PHIL:2 ", en réduction sur l'§Yentretien des £pop£pops§! "
+ CULTURE_WORKER_OUTPUT_BLANK:0 ""
 
  job_head_researcher:0 "Directeurs scientifiques"
  job_head_researcher_plural:0 "Directeurs scientifiques"
@@ -1202,6 +1213,8 @@
  job_ranger_desc:0 "Ces emplois sont spécifiquement consacrés à veiller à ce que leur monde reste propre et naturel."
  job_ranger_effect_desc:0 "(les £job_ranger£écogardes produisent des £amenities£§Yservices§! et de la £society_research£§Yrecherche sociétale§!)"
  mod_job_ranger_add:0 "Emplois d'£job_ranger£écogardes "
+ mod_job_ranger_per_pop:0 "§G+1§! emploi d'£job_ranger£écogarde par palier de $VALUE$ pops"
+ mod_job_ranger_per_pop_short:0 "\n§G+1§! £mod_job_ranger_add£ pour $VALUE$£pop£"
  has_ranger_lodge:0 "$TRIGGER_FAIL$ §RTant qu'il y aura une §Ystation d'écogarde§!, ce bloqueur ne pourra être retiré.§!"
 
   # Ruling Class Jobs
@@ -1570,6 +1583,7 @@
  # TODOCD Collision with overlord_subject
  #mod_planet_translucers_rare_crystals_produces_mult: "£rare_crystals£ $rare_crystals$ from £job_translucer£ $job_translucer_plural$"
  mod_planet_priests_produces_mult:1 "Production des [GetPriestIcon][GetPriest_lower] "
+ mod_knights_independent_category_produces_mult:0 "Prod. des £job_knight_commander£commandeurs et £job_knight£chevaliers "
  mod_planet_branch_offices_energy_produces_add:0 "Production £energy£énergétique des succursales "
  mod_planet_bio_trophies_unity_produces_mult:0 "£unity£$unity$ suscitée par les £job_bio_trophy£biotrophées "
  mod_planet_pops_organics_food_upkeep_mult:0 "Entretien en £food£nourriture des £pop£pops "
@@ -2319,6 +2333,7 @@
  d_alloys_4:0 "§Y+4§!£alloys£"
  d_alloys_5:0 "§Y+5§!£alloys£"
  d_alloys_10:0 "§Y+10§!£alloys£"
+ d_alloys_25:0 "§Y+25§!£alloys£"
  d_dark_matter_deposit_1:0 "§Y+1§!£sr_dark_matter£"
 
  d_trade_value_1:0 "+1£trade_value£"
@@ -2571,6 +2586,7 @@
  planet_districts_hab_leisure:0 "Districts de loisirs d'habitat"
  planet_districts_hab_mining:0 "Hangars d'astrominage d'habitat"
  planet_districts_hab_energy:0 "Districts réacteurs d'habitat"
+ planet_districts_orders_demesne:0 "Domaine-habitat de l'Ordre"
  planet_districts_arc_arms:0 "Districts métallurgiques d'oecuménopole"
  planet_districts_arc_civilian:0 "Districts industriels d'oecuménopole"
  planet_jobs:0 "Emplois"
@@ -2969,6 +2985,9 @@
  col_habitat_farming:0 "Station hydroponique"
  col_habitat_farming_desc:0 "Cette arcologie spatiale artificielle est consacrée à la récolte de denrées."
  col_habitat_farming_custom:0 "Pour les £district£§Ydistricts d'habitation§! : §R-2§! £housing£logements mais §G+1§! emploi de £job_farmer£fermier."
+ col_habitat_gestalt_farming:0 "$col_habitat_farming$"
+ col_habitat_gestalt_farming_desc:0 "$col_habitat_farming_desc$"
+ col_habitat_farming_gestalt_custom:0 "Pour les £district£§Ydistricts d'habitation§! : §R-2§! £housing£logements mais §G+1§! emploi d'£job_agri_drone£agridrones."
  col_habitat_energy:0 "Station génératrice"
  col_habitat_energy_desc:0 "Cette arcologie spatiale artificielle est consacrée à la génération d'énergie."
  col_ring_mix:0 "Anneau-monde"
@@ -3217,9 +3236,12 @@
  openedlootboxdesc3:0 "openedlootboxdesc3"
  openedlootboxdesc4:0 "openedlootboxdesc4"
  openedlootboxdesc5:0 "openedlootboxdesc5"
+ buying_boxes_desc:0 "Bon, écoutez. On comprend. Vous adorez les reliquaires. En temps normal, on limite la quantité vendue à chaque client, mais on va faire une exception pour vous. À partir de maintenant, nous vous réservons le privilège de pouvoir en acheter directement, avec seulement une augmentation minimale du prix en §Hcrédits énergétiques§! à chaque achat."
 
  cara_home_lootbox_buy:0 "Nous allons acheter un reliquaire"
  cara_home_lootbox_buy.tooltip:0 "Permet d'acheter un reliquaire pour §R$boxcost$§! §Hchtons§!."
+ cara_home_lootbox_buy_energy:0 "Nous allons acheter un reliquaire en énergie"
+ cara_home_lootbox_buy_energy.tooltip:0 "Permet d'acheter un reliquaire pour §R[root.box_cost]§!£energy£."
  boxcost:0 "6194.21"
  lootbox_buy_allow_fail:0 "§RNous ne disposons pas de suffisamment de §Hchtons§!.§!"
 
@@ -4444,6 +4466,10 @@
  requires_no_existing_strategic_coordination_center:0 "$TRIGGER_FAIL$ Impossible de construire plus d'un centre de coordination stratégique."
  requires_no_existing_mega_art_installation:0 "$TRIGGER_FAIL$ Impossible de construire plus d'une Mégartistique."
  requires_no_existing_interstellar_assembly:0 "$TRIGGER_FAIL$ Impossible de construire plus d'une Assemblée interstellaire."
+ requires_no_existing_matter_decompressor_two:0 "$TRIGGER_FAIL$ Impossible de construire plus de 2 décompresseurs de matière."
+ requires_no_existing_strategic_coordination_center_two:0 "$TRIGGER_FAIL$ Impossible de construire plus de 2 centres de coordination stratégique."
+ requires_no_existing_mega_art_installation_two:0 "$TRIGGER_FAIL$ Impossible de construire plus de 2 Mégartistiques."
+ requires_no_existing_interstellar_assembly_two:0 "$TRIGGER_FAIL$ Impossible de construire plus de 2 Assemblées interstellaires."
 
  observation.1011.b:0 "Ce n'est pas notre problème"
 
@@ -4475,6 +4501,10 @@
 
  nanites_deficit:0 "Déficit de nanites"
  nanites_deficit_tooltip:0 "Le déficit de nanites arrête immédiatement la transmutation des nanites."
+ sr_living_metal_deficit:0 "Déficit de métal vivant"
+ sr_living_metal_deficit_tooltip:0 "Le déficit de métal vivant va annuler tous les décrets en utilisant."
+ sr_zro_deficit:0 "Déficit de Zro"
+ sr_zro_deficit_tooltip:0 "Le déficit de Zro va annuler tous les décrets en utilisant."
  mod_pop_factions_produces_mult:1 "£unity£Unité suscitée par les factions "
 
  CARAVANEERS_LABEL:0 "Caravaniers"
@@ -4483,3 +4513,10 @@
  DIPLO_ACTION_ALREADY_REPLIED:0 "'$COUNTRY|Y$' a déjà répondu à $ACTION|Y$."
  overlord_subsidy:0 "Subsides du suzerain"
  OVERLORD_SUBSIDY_UNABLE_TO_PAY_RESEARCH:0 "'$OVERLORD|Y$' est incapable de payer les subsides en recherche à '$SUBJECT|Y$' car sa production est insuffisante."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ leviathans.125.name.z1:0 "[traders.GetName]"
+ leviathans.126.name:0 "[traders.GetName]"
+ sm_trader_proxy_office:0 "Agence de Marchands mandataires"
+ sm_trader_proxy_office_desc:0 "Les §Yenclaves de Marchands§! jouissent de privilèges spécifiques sur le Marché galactique, dont nous pourrions bénéficier."
+ requires_trade_enclave:0 "§RRequiert une §Yenclave de Marchands§! dans le système.§!"

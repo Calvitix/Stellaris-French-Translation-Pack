@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.4.4 : 21.06.2022
+ # Update check for 3.5.0 : 23.09.2022
  ####################################
 
  ####################################
@@ -578,6 +578,12 @@
  HAS_NOT_TRUCE_TRIGGER:0 "'$COUNTRY|Y$' n'a pas de trêve avec '$TARGET|Y$'"
  HAS_TRUCE_TRIGGER:0 "'$COUNTRY|Y$' a une trêve avec '$TARGET|Y$'"
  SET_LEADER_AGE_EFFECT:0 "Changer l'âge pour $AGE|Y$"
+ SET_LEADER_IMMORTAL_EFFECT:0 "Devient immortel"
+ SET_LEADER_MORTAL_EFFECT:0 "Devient mortel"
+ IS_IMMORTAL_TRIGGER:0 "Est immortel"
+ IS_NOT_IMMORTAL_TRIGGER:0 "Est mortel"
+ IS_JOB_OF_CATEGORY:0 "L'emploi de $JOB|Y$ relève de la catégorie $CAT|Y$."
+ IS_NOT_JOB_OF_CATEGORY:0 "L'emploi de $JOB|Y$ ne relève PAS de la catégorie $CAT|Y$."
  HAS_ACCESS_MILITARY:0 "A un accès militaire"
  HAS_NOT_ACCESS_MILITARY:0 "N'a PAS d'accès militaire"
  HAS_ACCESS_CIVILIAN:0 "A un accès civil"
@@ -586,6 +592,8 @@
  HAS_NOT_ACCESS_CONSTRUCTION:1 "'$COUNTRY|Y$' n'a PAS le droit d'accéder au système de $SYSTEM$"
  HAS_FLEET_ORDER:0 "La flotte a reçu l'ordre de $ORDER$"
  HAS_NOT_FLEET_ORDER:0 "La flotte n'a PAS reçu l'ordre de $ORDER$"
+ MEGASTRUCTURE_BUILT_ON_PLANET:0 "La mégastructure $SCOPE_NAME|Y$ est construite sur un monde."
+ MEGASTRUCTURE_NOT_BUILT_ON_PLANET:0 "La mégastructure $SCOPE_NAME|Y$ n'est PAS construite sur un monde."
  POP_FACTION_MILITANCY_NOT_TRIGGER:0 "Le militantisme n'est PAS $COMPARE$ $VAL0|0Y%$"
  POP_FACTION_MILITANCY_TRIGGER:0 "Le militantisme est $COMPARE$ $VAL0|0Y$%"
  POP_FACTION_SUPPORT_NOT_TRIGGER:0 "Le soutien n'est PAS $COMPARE$ $VAL0|0Y%$"
@@ -770,6 +778,8 @@
  NUM_REPEATABLE_TECHS_NOT_TRIGGER:0 "Nombre de technologies répétables découvertes PAS $COMPARATOR$ $NUM|Y$"
  NUM_TECHS_OF_TIER_TRIGGER:0 "Nombre de technologies de niveau $TIER|Y$ découvertes $COMPARATOR$ à $NUM|Y$"
  NUM_TECHS_OF_TIER_NOT_TRIGGER:0 "Nombre de technologies de niveau $TIER|Y$ découvertes PAS $COMPARATOR$ à $NUM|Y$"
+ NUM_SHIPS_IN_DEBRIS_TRIGGER:0 "Nombre de vaisseaux de classe $SIZE|Y$ dans les débris $COMPARATOR$ à $NUM|Y$"
+ NUM_SHIPS_NOT_IN_DEBRIS_TRIGGER:0 "Nombre de vaisseaux de classe $SIZE|Y$ dans les débris PAS $COMPARATOR$ à $NUM|Y$"
  CAN_RESEARCH_TIER_TRIGGER:0 "Peut rechercher des technologies de niveau $TIER|Y$"
  CANNOT_RESEARCH_TIER_TRIGGER:0 "Ne peut PAS rechercher des technologies de niveau $TIER|Y$"
  SECTOR_CONTROLLED_TRIGGER:0 "Est contrôlée par un secteur"
@@ -818,6 +828,8 @@
  IS_ANGRY_TO_TOOLTIP:0 "A une attitude furieuse envers '$TARGET|Y$'."
  IS_NOT_HOSTILE_TO_TOOLTIP:0 "N'a PAS une attitude hostile envers '$TARGET|Y$'."
  IS_HOSTILE_TO_TOOLTIP:0 "A une attitude hostile envers '$TARGET|Y$'."
+ IS_HOSTILE_TRIGGER:0 "Est hostile envers '$COUNTRY|Y$'."
+ IS_HOSTILE_NOT_TRIGGER:0 "N'est PAS hostile envers '$COUNTRY|Y$'."
  IS_NOT_DOMINEERING_TO_TOOLTIP:0 "N'a PAS une attitude dominatrice à l'égard de '$TARGET|Y$'."
  IS_DOMINEERING_TO_TOOLTIP:0 "A une attitude dominatrice à l'égard de '$TARGET|Y$'."
  IS_NOT_NEUTRAL_TO:0 "N'a PAS une attitude neutre envers '$TARGET|Y$'."
@@ -903,6 +915,12 @@
  USED_NAVAL_CAPACITY_PERCENT_NOT_TRIGGER:0 "La taille totale de la flotte ne représente PAS $COMPARATOR$ $NUM|Y%0$ de la capacité navale."
  USED_NAVAL_CAPACITY_INTEGER_TRIGGER:0 "La taille totale de la flotte est $COMPARATOR$ $NUM|Y$."
  USED_NAVAL_CAPACITY_INTEGER_NOT_TRIGGER:0 "La taille totale de la flotte n'est PAS $COMPARATOR$ $NUM|Y$."
+ STARBASE_CAPACITY_TRIGGER:0 "Capacité en bases stellaires $COMPARATOR$e à $NUM|Y$."
+ STARBASE_CAPACITY_NOT_TRIGGER:0 "Capacité en bases stellaires PAS $COMPARATOR$e à $NUM|Y$."
+ USED_STARBASE_CAPACITY_PERCENT_TRIGGER:0 "Capacité en bases stellaires utilisée $COMPARATOR$e à $NUM|Y%0$ du total."
+ USED_STARBASE_CAPACITY_PERCENT_NOT_TRIGGER:0 "Capacité en bases stellaires utilisée PAS $COMPARATOR$e $NUM|Y%0$ du total."
+ USED_STARBASE_CAPACITY_INTEGER_TRIGGER:0 "Capacité en bases stellaires utilisée $COMPARATOR$e à $NUM|Y$."
+ USED_STARBASE_CAPACITY_INTEGER_NOT_TRIGGER:0 "Capacité en bases stellaires utilisée PAS $COMPARATOR$e à $NUM|Y$."
  planet:0 "Planète"
  HAS_SPACEPORT:0 "A un spatioport"
  HAS_NOT_SPACEPORT:0 "N'a PAS de spatioport"
@@ -944,6 +962,8 @@
  IS_NOT_MEGASTRUCTURE_TYPE_TOOLTIP:0 "N'est PAS du type $TYPE|H$"
  IS_NOT_UPGRADING_TOOLTIP:0 "N'est PAS en train d'améliorer"
  IS_UPGRADING_TOOLTIP:0 "Est en train d'améliorer"
+ CAN_BE_UPGRADED_TOOLTIP:0 "Peut être amélioré"
+ CANNOT_BE_UPGRADED_TOOLTIP:0 "Ne peut pas être amélioré"
  TRIGGER_RELATIVE_FLEET_POWER:1 "La puissance des flottes de la §Y$COUNTRY$§! est $VALUE$ $COMPARE$e à celle de la §Y$WHO$§!"
  TRIGGER_RELATIVE_ECONOMY:1 "La puissance économique de la §Y$COUNTRY$§! est $VALUE$ $COMPARE$e à celle de la §Y$WHO$§!"
  TRIGGER_RELATIVE_TECHNOLOGY:1 "Le niveau technologique de la §Y$COUNTRY$§! est $VALUE$ $COMPARE$ à celui de la §Y$WHO$§!"
@@ -1358,8 +1378,8 @@
  count_member_all_trigger:0 "$IS_ALL_NOT$ membres de la fédération remplissent ces conditions"
  count_relation_trigger:1 "Nombre de relations$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$."
  count_relation_all_trigger:0 "$IS_ALL_NOT$ relations remplissent ces conditions"
- any_bordering_country_trigger:0 "N'importe quel empire limitrophe"
- effect_random_bordering_country:0 "Un empire limitrophe au hasard"
+ any_country_neighbor_to_system_trigger:0 "N'importe quel empire limitrophe"
+ effect_random_country_neighbor_to_system:0 "Un empire limitrophe au hasard"
  any_relation_trigger:0 "N'importe quelle relation de l'empire"
  effect_every_relation:0 "Chaque relation de l'empire"
  effect_random_relation:0 "Une relation de l'empire au hasard"
@@ -1439,6 +1459,12 @@
  effect_every_owned_starbase:0 "Toutes les bases stellaires possédées"
  count_owned_starbase_trigger:1 "Nombre de bases stellaires possédées$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$."
  count_owned_starbase_all_trigger:0 "$IS_ALL_NOT$ bases stellaires possédées remplissent ces conditions"
+
+ any_owned_nonprimary_starbase_trigger:0 "N'importe quel anneau orbital possédé"
+ effect_random_owned_nonprimary_starbase:0 "Un anneau orbital possédé aléatoire"
+ effect_every_owned_nonprimary_starbase:0 "Tous les anneaux orbitaux possédés"
+ count_owned_nonprimary_starbase_trigger:0 "Nombre d'anneaux orbitaux possédés$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
+ count_owned_nonprimary_starbase_all_trigger:0 "$IS_ALL_NOT$ anneaux orbitaux possédés remplissent ces conditions"
 
  TRIGGER_IS_VALID_PLANET_KILLER_TARGET:0 "Peut cibler $TARGET|Y$ avec son armement tueur de mondes"
  TRIGGER_NOT_IS_VALID_PLANET_KILLER_TARGET:0 "Ne peut PAS cibler $TARGET|Y$ avec son armement tueur de mondes"
@@ -1659,6 +1685,9 @@
 
  HAS_AVAILABLE_JOB:0 "Des emplois de $JOB|Y$ sont non pourvus sur $PLANET|Y$."
  HAS_AVAILABLE_JOB_NOT:0 "Pas d'emplois de $JOB|Y$ non pourvus sur $PLANET|Y$."
+
+ HAS_FORBIDDEN_JOB:0 "$PLANET|Y$ a n'importe quel emploi de $JOB|Y$ dépriorisé. "
+ HAS_FORBIDDEN_JOB_NOT:0 "$PLANET|Y$ n'a AUCUN emploi de $JOB|Y$ dépriorisé disponible."
 
  any_federation_trigger:0 "N'importe quelle fédération"
  effect_random_federation:0 "Une fédération aléatoire"
@@ -1885,6 +1914,8 @@
 
  IS_SCOPE_TYPE:0 "Est un $SCOPETYPE$"
  IS_NOT_SCOPE_TYPE:0 "N'est PAS un $SCOPETYPE$"
+
+ MULTIPLY_CRISIS_STRENGTH:0 "Puissance des crises de fin de partie multipliée par $MULT|Y$"
 
  SET_MALE_RULER_TITLE_EFFECT:0 "Titre des dirigeants : $NAME$"
  SET_FEMALE_RULER_TITLE_EFFECT:0 "Titre des dirigeantes : $NAME$"

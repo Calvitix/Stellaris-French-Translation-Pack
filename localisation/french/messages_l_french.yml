@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.4.4 : 21.06.2022
- # Translation check : 15.05.2022
+ # Update check for 3.5 : 23.09.2022
+ # Translation check : 23.09.2022
  ####################################
 
  ####################################
@@ -36,6 +36,8 @@
  MESSAGE_SYSTEM_SURVEYED_TITLE:0 "Système reconnu"
  AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE:0 "Ordre de la flotte annulé"
  MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED:1 "Notre $FLEET|H$ a mis fin à sa mission de reconnaissance automatique car soit elle ne peut atteindre, soit elle ne peut trouver aucun autre système n'ayant pas encore été reconnu."
+ AUTO_EXPLORE_FALLBACK_MESSAGE_TYPE_TITLE:0 "Retour en phase d'exploration"
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_FALLBACK:0 "Notre $FLEET|H$ ne peut atteindre aucun système non reconnu mais va relancer l'exploration afin d'en découvrir de nouveaux."
  FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE:0 "$AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE$"
  MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE:0 "Notre $FLEET|H$ n'a pas pu construire la $STATION|H$ du système de $SYSTEM|H$. Les ressources ont été remises en réserve."
  MESSAGE_BYPASS_EXPLORED:0 "Trou de ver exploré"
@@ -227,6 +229,8 @@
  ACTION_INSULT_NOTIFICATION:2 "'§H[From.GetName]§!' a insulté '§H[Root.GetName]§!'.\n\nUn conflit pourrait bien éclater..."
  ACTION_INTEGRATE_SUBJECT_NOTIFICATION:2 "'§H[From.GetName]§!' a commencé à intégrer '§H[Root.GetName]§!'.\n\nLes derniers vestiges de l'indépendance [Root.GetAdj] auront bientôt disparu à tout jamais."
  ACTION_CANCEL_SUBJECT_INTEGRATION_NOTIFICATION:2 "'§H[From.GetName]§!' a cessé d'intégrer '§H[Root.GetName]§!'.\n\nOn dirait bien que les [Root.GetSpeciesNamePlural] causent plus de problèmes qu'autre chose."
+ MESSAGE_TYPE_RELICS_GAINED_INTEGRATION_TITLE:0 "Reliques gagnées par l'intégration"
+ MESSAGE_RELICS_GAINED_INTEGRATION:0 "Grâce à l'intégration de '§H[From.GetName]§!', toutes les reliques qu'elle possédait sont désormais nôtres."
  ACTION_FORM_DEFENSIVE_PACT_NOTIFICATION:1 "'§H[From.GetName]§!' a conclu un pacte défensif avec '§H[Root.GetName]§!'.\n\nElles se défendront désormais l'une l'autre contre tout ennemi."
  ACTION_BREAK_DEFENSIVE_PACT_NOTIFICATION:1 "'§H[From.GetName]§!' a rompu le pacte défensif avec '§H[Root.GetName]§!'.\n\nElle semble persuadée de mieux s'en sortir par elle-même."
  ACTION_FORM_NON_AGGRESSION_PACT_NOTIFICATION:1 "'§H[From.GetName]§!' a conclu un pacte de non-agression avec '§H[Root.GetName]§!'.\n\nNous verrons bien combien de temps durera la paix."
@@ -369,6 +373,13 @@
  MESSAGE_DEBRIS_ANALYZED_FINISH_BONUS:1 "Recherche en £$AREA_KEY$£ §Y$AREA$§! : §G+$VAL|0$§! points"
  MESSAGE_DEBRIS_ANALYZED_FINISH_TECH_PROGRESS:1 "$TECH|Y$ : avancée de §G+$VAL|%0$§!"
  MESSAGE_DEBRIS_ANALYZED_FINISH_MESSAGE_TYPE_TITLE:0 "Débris analysés"
+
+ MESSAGE_DEBRIS_SCAVENGED_FINISH:0 "Les débris du système de $SYSTEM|Y$ ont été ramassés."
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_RESOURCE:0 "£$RESOURCE_KEY$£§Y$NAME$§! : §G+$VAL$§!"
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_MESSAGE_TYPE_TITLE:0 "Débris ramassés"
+
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH:0 "Les débris du système de $SYSTEM|Y$ ont été ramassés et analysés."
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH_MESSAGE_TYPE_TITLE:0 "Débris ramassés et analysés"
 
  ####################################
  # Anomaly

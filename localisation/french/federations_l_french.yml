@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Copie of Original Stellaris File
- # Update check : 3.4.2 14.05.2022
- # Translation check OK : 14.05.2022
+ # Update check : 3.5 23.09.2022
+ # Translation check OK : 23.09.2022
  ####################################
 
  IS_YOU:1 "C'est nous." 
@@ -55,9 +55,10 @@
  federation_acceptance_no_psionic:0 "N'a pas le trait psionique"
  ORIGIN:0 "Origine"
  EMPIRE_ORIGIN:0 "$ORIGIN$"
- TOOLTIP_SETUP_ORIGIN:0 "Choisissez une origine à votre empire."
+ TOOLTIP_SETUP_ORIGIN:1 "§H$ORIGIN$§!\nChoisissez une origine à votre empire."
  GAMESETUP_COUNTRY_INVALID_ORIGIN:0 "Vous devez choisir une origine avant de pouvoir poursuivre."
  ORIGIN_INITIALIZER_RESTRICTION:0 "Impossible à modifier à cause de l'origine choisie."
+
  origin_default:0 "Unification durable"
  origin_default_desc:1 "Grâce à ses triomphes et malgré ses querelles internes, cette société a atteint l'ambition première de toute jeune civilisation : un monde natal unifié, permettant de tracer la route vers les étoiles."
  origin_tooltip_default_effects:1 "- Lance la partie avec §Y4§! £pop£pops et §Y2§! £district£districts supplémentaires."
@@ -122,7 +123,7 @@
  d_machine_minerals_desc:0 "Le minerai raffiné extrait de tout un système stellaire est rassemblé ici en piles, sur une région faisant la taille d'un continent."
  d_organic_slurry:0 "Boue organique"
  d_organic_slurry_desc:0 "Un océan de boue organique, vestige de l'ancienne biomasse de ce monde une fois le processus de traitement achevé."
- d_resource_consolidation_1:0 "Réplicateurs défaillants"
+ d_resource_consolidation_1:1 "£blocker£Réplicateurs défaillants"
  d_resource_consolidation_1_desc:0 "Les réplicateurs bâtis sur ce monde mécanique sont défaillants et produisent sans relâche des piles et des piles de $MACHINE_hand_plural$."
 
  juggernaut:0 "Mastodonte"
@@ -1034,7 +1035,7 @@
  resolution_ecology_environmental_control_board:0 "Comité de contrôle environnemental"
  in_breach_of_resolution_ecology_environmental_control_board:0 "Enfreint le Comité de contrôle environnemental"
  resolution_ecology_environmental_control_board_desc:0 "L'industrie est incapable de se réguler par elle-même. Un Comité de contrôle environnemental, ayant juridiction à l'échelle de la galaxie, doit agir pour contrôler l'industrie et le développement et réprimer les abus environnementaux."
- resolution_ecology_environmental_control_board_tooltip:1 "Convertir les mondes en §Yoecuménopoles§! ou les §Yterraformer§! pour en faire autre chose que des §Ymondes Gaïa§! est §Rprohibé§!."
+ resolution_ecology_environmental_control_board_tooltip:2 "Convertir les mondes en §Yoecuménopoles§! ou les §Yterraformer§! pour en faire autre chose que des §Ymondes Gaïa§! est §Rprohibé§!.\nPour les §Yempires écologistes§! : §G+2§!£unity£ par £blocker£bloqueur naturel"
  resolution_ecology_paradise_initiative_tooltip:0 "Pour les §Yempires écologistes§! : §G+3§!£unity£ par £blocker£bloqueur naturel"
 
  resolution_ecology_paradise_initiative:0 "Initiative Paradis"
@@ -1073,7 +1074,7 @@
 
  resolution_galacticstudies_advanced_xenostudies:0 "Xéno-études avancées"
  resolution_galacticstudies_advanced_xenostudies_desc:1 "Il y a beaucoup à apprendre de toutes les cultures présentes dans l'univers. Nous devrions donc ajouter des instruments de collecte de données supplémentaires à toutes les bases stellaires tout en travaillant de façon plus étroite avec les enclaves."
- resolution_galacticstudies_advanced_xenostudies_tooltip:1 "Les postes d'observation fournissent de la £society£§Hrecherche sociétale§! lors des missions d'§Yobservation§! et d'§Yinfiltration§! des civilisations primitives.\n\nAccroît l'efficacité du §YCollège des arts§!, du §YLaboratoire d'idées des Conservateurs§!, de l'§YAgence de Marchands mandataires§!, de l'§YAtelier de réparation§! et de la §YGarnison mercenaire§! des bases stellaires.\n\nLes politiques de §Yproscription de l'intelligence artificielle§! et d'§Yétude passive des indigènes§! sont §Rprohibées§!."
+ resolution_galacticstudies_advanced_xenostudies_tooltip:2 "Les postes d'observation fournissent de la £society£§Hrecherche sociétale§! lors des missions d'§Yobservation§! et d'§Yinfiltration§! des civilisations primitives.\n\nAccroît l'efficacité du §YCollège des arts§!, du §YLaboratoire d'idées des Conservateurs§!, de l'§YAtelier de réparation§! et de la §YGarnison mercenaire§! des bases stellaires.\n\nLes politiques de §Yproscription de l'intelligence artificielle§! et d'§Yétude passive des indigènes§! sont §Rprohibées§!."
 
  resolution_galacticstudies_ethical_guideline_refactoring:0 "Reformulation du cadre éthique"
  resolution_galacticstudies_ethical_guideline_refactoring_desc:0 "Posséder les capacités de faire progresser les sciences oblige à des impératifs moraux, débarrassés de tout concept éthique dépassé qui pourrait nous freiner. Nous faisons ce que nous avons à faire, parce que nous le pouvons."
@@ -1868,6 +1869,9 @@
 
  col_bureau_machine:0 "$col_bureau$"
  col_bureau_machine_desc:0 "$col_bureau_desc$"
+
+ col_trophy_machine:0 "Monde sanctuaire"
+ col_trophy_machine_desc:0 "Un monde entièrement dédié à la protection et au soin de la vie organique."
 
  col_habitat_bureau:1 "Station unificatrice"
  col_habitat_bureau_desc:1 "Un habitat entièrement dédié à l'unification de l'empire."

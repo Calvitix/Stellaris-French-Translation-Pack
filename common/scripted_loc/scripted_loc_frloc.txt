@@ -1,7 +1,14 @@
-############################################œ
+# Original File
+#
+# Calvitix Check 3.5  22.09.2022
+#
+# Merge with ???
+#
+#
+##########################################################œ
 ###	SCRIPTED LOCALIZATION FOR FRENCH	###
-###	Scripted by Pierre du Plessis	 ###
-############################################
+###  Scripted by Pierre du Plessis and Nicolas Fouqué  ###
+##########################################################
 #This complements Nicolas Fouqué's scripted locs and lets you get the genders correct for all leaders, not just the country's rulers
 
 ##To apply, use [event_target.GetLeLaLead] or [scope.Leader.GetLeLaLead]
@@ -11,11 +18,11 @@ defined_text = {
 	name = GetLeLaLead
 	text = {
 		trigger = { loc_leader_masc = yes }
-		localization_key = FRLOC_le
+		localization_key = FRLOC_le_x
 	}
 	text = {
 		trigger = { loc_leader_fem = yes }
-		localization_key = FRLOC_la
+		localization_key = FRLOC_la_x
 	}
 }
 
@@ -24,11 +31,11 @@ defined_text = {
 	name = GetLeLaLeadCap
 	text = {
 		trigger = { loc_leader_masc = yes }
-		localization_key = FRLOC_Le
+		localization_key = FRLOC_Le_x
 	}
 	text = {
 		trigger = { loc_leader_fem = yes }
-		localization_key = FRLOC_La
+		localization_key = FRLOC_La_x
 	}
 }
 
@@ -38,11 +45,11 @@ defined_text = {
 	name = GetDuDelaLead
 	text = {
 		trigger = { loc_leader_masc = yes }
-		localization_key = FRLOC_du
+		localization_key = FRLOC_du_x
 	}
 	text = {
 		trigger = { loc_leader_fem = yes }
-		localization_key = FRLOC_dela
+		localization_key = FRLOC_dela_x
 	}
 }
 
@@ -51,11 +58,11 @@ defined_text = {
 	name = GetDuDelaLeadCap
 	text = {
 		trigger = { loc_leader_masc = yes }
-		localization_key = FRLOC_Du
+		localization_key = FRLOC_Du_x
 	}
 	text = {
 		trigger = { loc_leader_fem = yes }
-		localization_key = FRLOC_Dela
+		localization_key = FRLOC_Dela_x
 	}
 }
 
@@ -67,11 +74,11 @@ defined_text = {
 	name = GetAuAlaLead
 	text = {
 		trigger = { loc_leader_masc = yes }
-		localization_key = FRLOC_au
+		localization_key = FRLOC_au_x
 	}
 	text = {
 		trigger = { loc_leader_fem = yes }
-		localization_key = FRLOC_ala
+		localization_key = FRLOC_ala_x
 	}
 }
 #Ex.: "[To] the senator." => "[Au] sénateur / [À la] sénatrice." (upper case / majuscule)
@@ -79,11 +86,63 @@ defined_text = {
 	name = GetAuAlaLeadCap
 	text = {
 		trigger = { loc_leader_masc = yes }
-		localization_key = FRLOC_Au
+		localization_key = FRLOC_Au_x
 	}
 	text = {
 		trigger = { loc_leader_fem = yes }
-		localization_key = FRLOC_Ala
+		localization_key = FRLOC_Ala_x
+	}
+}
+
+
+#Ex.: "Quant à [lui/elle]"
+defined_text = {
+	name = GetLuiElleLead
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_lui
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_elle
+	}
+}
+#Ex.: "[Lui/Elle] est"
+defined_text = {
+	name = GetLuiElleLeadCap
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_Lui
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_Elle
+	}
+}
+
+
+#Ex.: "[que lui/qu'elle] le fasse"
+defined_text = {
+	name = GetQueluiQuelleLead
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_quelui
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_quelle
+	}
+}
+#Ex.: "[Que lui/Qu'elle] le fasse"
+defined_text = {
+	name = GetQueluiQuelleLeadCap
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_Quelui
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_Quelle
 	}
 }
 
@@ -133,7 +192,7 @@ defined_text = {
 
 
 
-#Ex.: "May the teacher stay a [master/mistress] of his/her students." => "Puisse l'enseignant rester le maître[x] de ses étudiants. / Puisse l'enseignante rester la maître[sse] de ses étudiants."
+#Ex.: "May the teacher stay a [master/mistress] of his/her students." => "Puisse l'enseignant rester le maître[ø] de ses étudiants. / Puisse l'enseignante rester la maître[sse] de ses étudiants."
 defined_text = {
 	name = GetXSseLead
 	text = {
@@ -157,6 +216,48 @@ defined_text = {
 	text = {
 		trigger = { loc_leader_fem = yes }
 		localization_key = FRLOC_rice
+	}
+}
+
+
+#Ex.: "Le Command[eur]" / La Command[eresse]."
+defined_text = {
+	name = GetEurEresseLead
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_eur
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_eresse
+	}
+}
+
+
+#Ex.: "port[eur] / port[euse]"
+defined_text = {
+	name = GetEurEuseLead
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_eur
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_euse
+	}
+}
+
+
+#Ex.: "compagn[on] / compagn[e]"
+defined_text = {
+	name = GetOnELead
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_on
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_e
 	}
 }
 
@@ -203,20 +304,47 @@ defined_text = {
 }
 
 
-#Ex.: "vendeu[r] / vendeu[se]"
+#Ex.: "s[on] / s[a]"
 defined_text = {
-	name = GetRSeLead
+	name = GetOnALead
 	text = {
 		trigger = { loc_leader_masc = yes }
-		localization_key = FRLOC_r
+		localization_key = FRLOC_on
 	}
 	text = {
 		trigger = { loc_leader_fem = yes }
-		localization_key = FRLOC_se
+		localization_key = FRLOC_a
 	}
 }
 
-#Ex.: "cet / cet[te]"
+
+#Ex.: "séri[eux] / séri[euse]"
+defined_text = {
+	name = GetEuxEuseLead
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_eux
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_euse
+	}
+}
+
+##Ex.: "vendeu[r] / vendeu[se]"
+#defined_text = {
+#	name = GetRSeLead
+#	text = {
+#		trigger = { loc_leader_masc = yes }
+#		localization_key = FRLOC_r
+#	}
+#	text = {
+#		trigger = { loc_leader_fem = yes }
+#		localization_key = FRLOC_se
+#	}
+#}
+
+#Ex.: "cet[ø] / cet[te]"
 defined_text = {
 	name = GetXTeLead
 	text = {
@@ -255,15 +383,148 @@ defined_text = {
 	}
 }
 
-#Ex.: "intellectuel / intellectuel[le]"
+
+##Ex.: "intellectuel / intellectuel[le]"
+#defined_text = {
+#	name = GetXLeLead
+#	text = {
+#		trigger = { loc_leader_masc = yes }
+#		localization_key = FRLOC_XX
+#	}
+#	text = {
+#		trigger = { loc_leader_fem = yes }
+#		localization_key = FRLOC_le
+#	}
+#}
+
+
+#Ex.: "b[eau] / b[elle]"
 defined_text = {
-	name = GetXLeLead
+	name = GetEauElleLead
 	text = {
 		trigger = { loc_leader_masc = yes }
-		localization_key = FRLOC_XX
+		localization_key = FRLOC_eau
 	}
 	text = {
 		trigger = { loc_leader_fem = yes }
-		localization_key = FRLOC_le
+		localization_key = FRLOC_elle
+	}
+}
+
+
+#Ex.: "cheval[ier] / cheval[eresse]"
+defined_text = {
+	name = GetIerEresseLead
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_ier
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_eresse
+	}
+}
+
+
+#Ex.: "le [sire] jehan / la [dame] Gertrude"
+defined_text = {
+	name = GetSireDameLead
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_sire
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_dame
+	}
+}
+#Ex.: "[Sire] Jehan / [Dame] Ursule"
+defined_text = {
+	name = GetSireDameLeadCap
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_Sire
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_Dame
+	}
+}
+
+
+#Ex.: "[sire] / [ma dame]"
+defined_text = {
+	name = GetSireMadameLead
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_sire
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_ma_dame
+	}
+}
+#Ex.: "[Sire] / [Ma dame]"
+defined_text = {
+	name = GetSireMadameLeadCap
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_Sire
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_Ma_dame
+	}
+}
+
+
+#Ex.: "[s'il] / [si elle]"
+defined_text = {
+	name = GetSilSielleLead
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_sil
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_sielle
+	}
+}
+#Ex.: "[S'il] / [Si elle]"
+defined_text = {
+	name = GetSilSielleLeadCap
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_Sil
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_Sielle
+	}
+}
+
+
+#Ex.: "[celui]-ci / [celle]-ci"
+defined_text = {
+	name = GetCeluiCelleLead
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_celui
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_celle
+	}
+}
+#Ex.: "[Celui]-ci / [Celle]-ci"
+defined_text = {
+	name = GetCeluiCelleLeadCap
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_Celui
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_Celle
 	}
 }

@@ -1,7 +1,7 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.4.2 Check OK, 13/05/2022
+# Calvitix 3.5 Check OK, 23/09/2022
 #
 
  vo_aquatics_voice:0 "Aquatique"
@@ -172,10 +172,18 @@
  terraforming:0 "Terraformation"
  terraforming_ocean:0 "Terraformation en monde océanique"
  has_terraforming_candidate:0 "§YUne ou des terraformations sont possibles dans le système.§!"
+ has_frozen_terraforming_candidate:0 "§YLa terraformation d'au moins un monde glacé est possible dans ce système.§!"
+ has_toxic_terraforming_candidate:0 "§YLa terraformation d'au moins un monde toxique est possible dans ce système.§!"
 
  aquatics.1.name:0 "Évolution aquatique"
  aquatics.1.desc:0 "Les [Root.GetSpeciesNamePlural] sont issus des océans, et ont su évoluer pour s'adapter de manière idéale à la vie dans les profondeurs abyssales. Et, au moment même où nous nous apprêtons à prendre la route des étoiles, nous n'avons pas renoncé à nos eaux primordiales : cette eau est et sera toujours notre foyer.\n\nNotre évolution est désormais achevée. Jamais plus nous ne nous adapterons à la vie dans un autre environnement, mais au contraire refaçonnerons nos mondes pour qu'ils répondent à nos besoins. Et alors que nous sommes à l'aube d'une ère nouvelle, nous savons que rien ne nous séparera jamais de nos chers océans."
  aquatic.1.A:0 "Cela sera un foyer à nul autre pareil"
+
+ aquatics.5.name:0 "Terraformation envisageable d'un monde glacé"
+ aquatics.5.desc.intro:0 "Les enquêtes détaillées menées sur §Y[From.GetName]§! ont révélé qu'elle dispose d'une couche de glace suffisamment épaisse pour en faire un agréable monde océanique. Il suffirait pour cela de la rendre plus chaude et de la doter d'une atmosphère respirable."
+ aquatics.5.desc.1:0 "$aquatics.5.desc.intro$\n\nTerraformer la [From.GetPlanetMoon] est en théorie possible, mais nous ne maîtrisons pas encore la technologie qui permettrait de mener à bien cette entreprise monumentale en un temps qui ne dépasse pas l'entendement."
+ aquatics.5.desc.2:0 "$aquatics.5.desc.intro$\n\nLe coût énergétique nécessaire serait colossal, mais nous disposons de la technologie pour progressivement terraformer cette [From.GetPlanetMoon] afin que la vie puisse de nouveau s'y maintenir."
+ FROZEN_TERRAFORMING_CANDIDATE_EFFECT:0 "§Y[From.GetName]§! pourra être terraformée dès que nous aurons adopté l'atout de l'ascension §H$ap_hydrocentric$§! et que la technologie £society£§H$tech_climate_restoration$§! aura été découverte."
 
  sm_ice_mining_station:0 "Station de minage de glace"
  sm_ice_mining_station_desc:0 "Ce système constitue une source abondante de glace inexploitée. En y établissant une station de collecte, cette glace pourra être mise à profit en créant des mondes habitables pour notre espèce.\n\n$ice_mining_details$\n"

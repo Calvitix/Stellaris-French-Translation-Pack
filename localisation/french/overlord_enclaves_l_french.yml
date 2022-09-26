@@ -63,11 +63,12 @@
  enclave.205.desc.hostile:0 "Ah, les brutes sont de retour...\n\nComprenez-vous maintenant la futilité de vos actions insensées ? Pour une somme réduite, un simple geste de bonne volonté, nous autres de la [mercenary_enclave_country.GetName] sommes prêts à mettre de côté nos désaccords actuels. Vous devez l'admettre : mieux vaut chercher ensemble à coopérer pour nous assurer d'un avenir lucratif."
  enclave.205.desc.unfriendly:0 "Non, nous n'avons rien à vous proposer. Partez !"
  enclave.205.a:1 "Nous voulons §Ysolder une flotte§!"
- enclave.205.tooltip.a:0 "Un autre empire loue déjà notre flotte."
+ enclave.205.tooltip.a:0 "'§Y[current_client.GetName]§!' loue déjà notre flotte."
  enclave.205.tooltip.b:0 "Aucune flotte n'est disponible pour être louée."
  enclave.205.b:1 "À propos de §Yla flotte que nous soldons§! actuellement..."
  enclave.205.c:1 "Nous voulons établir des §Ygarnisons mercenaires§!"
  enclave.205.d:1 "Nous voulons vous aider à §Ydévelopper votre flotte§!"
+ enclave.205.d.timeout:0 "L'enclave est en train de recruter de nouveaux équipages et officiers. Elle ne pourra fournir davantage d'efforts logistiques avant le §Y[mercenary_enclave_country.upgraded_station_timer]§!."
  enclave.205.e:1 "Nous cherchons des §Yinformations tactiques§! contre nos ennemis"
  enclave.205.f:1 "Nous voudrions solder des §Ytroupes au sol§!"
  enclave.205.g:1 "Quelles §Ysolutions logistiques§! proposez-vous ?"
@@ -139,6 +140,10 @@
  enclave.2035.name:0 "Fin des prestations d'appui logistique"
  enclave.2035.desc:1 "Très chers clients,\n\nLa durée prévue par notre contrat pour la prestation d'appui logistique arrive à son terme. Selon les termes du contrat, si nous ne recevons pas d'instructions contraires à la prolongation du contrat souscrit, il sera considéré comme reconduit par accord tacite et les frais liés à la prestation seront prélevés automatiquement.\n\nEn vous assurant de notre volonté de poursuivre ensemble nos relations fructueuses."
  enclave.2035.a:0 "Nous n'avons plus besoin de ces services dans l'immédiat"
+ enclave.2060.name:0 "Fin du contrat de la flotte"
+ enclave.2060.desc:0 "Le contrat pour solder la flotte de la §H[mercenary_enclave_country.GetName]§! est arrivé à terme et sa flotte s'apprête à quitter notre service. Devons-nous la contacter pour le renouveler ?"
+ enclave.2060.a:0 "Non, pas cette fois"
+ enclave.2060.b:0 "Oui, ouvrons un canal"
 
  #Modifiers
  mercenary_fleet_size_upgrade_1:0 "Flotte mercenaire de taille I "
@@ -192,6 +197,8 @@
  salvager_overdrive_desc:0 "L'empire tire profit des efforts faits par les équipes des Récupérateurs, qui permettent d'accélérer la construction dans les bases stellaires et les colonies."
  salvager_insight:0 "Conseils des Récupérateurs"
  salvager_insight_desc:0 "Les scientifiques de l'empire tirent profit de l'expertise pratique des Récupérateurs, ce qui permet des avancées rapides en ingénierie."
+ salvage_overseer:0 "Expert du démontage"
+ salvage_overseer_desc:0 "Un démonteur expert d'une enclave des Récupérateurs aide l'empire à tirer le meilleur parti des vestiges récoltés sur les champs de bataille."
 
  #Situations
  mercenary_dividends:0 "Dividendes des Mercenaires"
@@ -222,6 +229,8 @@
  enclave.305.a.desc:0 "Ravis de vous rencontrer ! Au nom de la [salvager_enclave_country.GetName], je vous souhaite la bienvenue dans notre modeste atelier interstellaire.\n\nDites-moi... Je reconnaîtrais ces fixations de quille absolument partout, elles sont magnifiques. Nous autres, on a l'habitude de se tenir au courant sur tout ce qui vole dans la galaxie, et d'en apprendre autant que possible sur les habitudes locales. Mais où en est-ce qu'on en était ?\n\nAh oui : soyez les bienvenus ! On peut vous aider à remettre un vaisseau en état ? À moins qu'il s'agisse de récupérer quelque chose ?"
  enclave.305.b.desc:0 "Bonjour, bonjour ! Au nom de la [salvager_enclave_country.GetName], soyez les bienvenus dans notre atelier de récupération. Coques, propulseurs, plans, pièces détachées, c'est ici qu'on stocke tout.\n\nEt je plaisante pas. Vous seriez surpris de voir tout ce qu'on retrouve dans les vieux vaisseaux. Tenez, hier encore, j'ai mis la [salvager_enclave_country.Species.GetHandName] sur toute une coquerie, complète, et dorée à l'or fin s'il vous plaît. Absolument magnifique !\n\nBref. On peut vous aider à remettre un vaisseau en état ? À moins qu'il s'agisse de récupérer quelque chose ?"
  enclave.305.c.desc:0 "Salutations ! Au nom de la [salvager_enclave_country.GetName], bienvenue dans notre entrepôt et nos ateliers. Des armées d'ingénieurs passionnés sont prêtes à réparer, reconstruire, rééquiper et démonter tout ce qui a le moindre boulon. Vous vous apercevrez très vite que notre passion pour les échanges est infinie.\n\nMais au fait : vous avez peut-être des vaisseaux à remettre en état ? Ou des choses à récupérer ?"
+ enclave.305.desc.scavenger_first:0 "Bienvenue ! C'est pas tous les jours qu'on a l'occasion de rencontrer des récupérateurs comme nous dans la galaxie.\n\nBon, vous connaissez le principe, hein : on rassemble des pièces d'occasion que personne veut, et on les ramène à la vie. Si y a la moindre chose sur laquelle vous arrivez pas à mettre la [Root.GetSpeciesHandName] dessus, vous pouvez être sûrs qu'on l'aura.\n\nBref : est-ce qu'on peut faire quelque chose pour vos travaux de récupération et de sauvetage ?"
+ enclave.305.desc.scavenger_followup:0 "Salutations à nouveau ! Ça vous ennuie pas trop de gouverner un empire ? Sinon, vous pourriez toujours vous reconvertir dans la récupération comme nous. C'est bien moins stressant, et vous avez tout l'air d'avoir un vrai talent pour ça."
  enclave.305.n.desc:0 "Salutation à nouveau ! De notre côté, nous sommes assez occupés. Comment se porte votre empire ? Comme vous pouvez voir, ici, c'est pas le travail qui manque. Le premier vaisseau de colonisation désaffecté qui nous tombe entre les [salvager_enclave_country.Species.GetHandNamePlural] est bien vite démonté..."
  enclave.305.o.desc:0 "Bonjour ! À votre service.\n\nTiens, c'est de curieuses fixations que vous avez pour vos plaques de blindage. Et vous en êtes contents ? Ça marche bien ?"
  enclave.305.p.desc:0 "Tiens, des revenants ! Puisque vous êtes là, regardez donc ces signatures de propulseur. Elles sont pas belles ? Si on peut vous rendre service pour l'entretien de vos vaisseaux... Faut dire qu'ils ont l'air d'en avoir besoin.\n\nOn peut peut-être vous aider pour ça ?"
@@ -234,6 +243,7 @@
  enclave.305.d:0 "Pouvez-vous aider nos chantiers de §Yconstruction§! ?"
  enclave.305.e:0 "On aimerait que vous récupériez quelques §Ydébris§!"
  enclave.305.f:1 "Pourriez-vous nous aider pour nos recherches en §Yingénierie§! ?"
+ enclave.305.g:0 "Nous souhaiterons recruter un §Yexpert en récupération§!"
 
  enclave.310.desc:0 "Mais bien sûr ! On va vous en débarrasser avec grand plaisir.\n\nD'après nos scans, vous avez des vaisseaux à portée. Et voilà nos estimations. Ça sera fait le temps de le dire !\n\n$enclave.310.instructions$"
  enclave.310.organic.desc:0 "Oh oui, c'est tout à fait faisable ! Ce qu'on vous propose, c'est... Mais, par les étoiles, qu'est-ce que c'est que ça ? Vous appelez ça un vaisseau ? Je veux dire, on peut toujours... Mais, sapristi, c'est vraiment moche. Excusez-moi, mais vous devriez bien réfléchir ! On peut vous débarrasser de « vaisseaux » vivants aussi, notez bien, mais je dois vous prévenir, §Hle nettoyage est à vos frais§!.\n\nD'après nos scans, vous avez des vaisseaux à portée. Et voilà nos estimations.\n\n$enclave.310.instructions$"
@@ -274,6 +284,8 @@
  enclave.335.desc:0 "Pas de souci ! Nos mécaniciens ont totalement remis à plat leur organisation, ils seront ravis de vous aider à augmenter votre productivité pendant un temps.\n\nVotre atelier de réparation va bosser comme jamais, et on récupérera toutes les pièces intéressantes pour les projets de §Ytoutes vos bases stellaires§!. On a même une petite chose ou deux qui pourraient vous aider à produire vos vaisseaux, au cas où ça vous dit.\n\nPar contre, faut que vous en ayez bien conscience : travailler comme ça, c'est jamais facile. On peut pas le faire en permanence."
  enclave.335.a:0 "$enclave.310.a$"
 
+ enclave.336.desc:0 "Salutations encore ! J'ai le plaisir de vous annoncer qu'on est prêts à passer à la vitesse supérieure, et que les ateliers de réparation vont être encore plus rentables maintenant.\n\nVous en dites quoi ? Ça vous tente pas d'accélérer la construction navale dans §Ytoutes vos bases§! en même temps ?"
+
  enclave.340.a.desc:0 "Alors là, vous touchez une corde sensible. Vous savez pas à quel point ça nous attriste toujours, penser que des vaisseaux ont été détruits pendant une bataille. Mais bon, c'est pas facile la vie, et encore plus dans le vide de l'espace...\n\nCeci dit, oui, on peut vous faire ça. Aucun problème.\n\n$enclave.340.main.desc$"
  enclave.340.b.desc:0 "Quelle misère ! Encore des vaisseaux perdus dans le vide de l'espace... Vous pouvez pas savoir ce que ça nous fait quand on apprend que des batailles ont eu lieu... Mais oui, évidemment, on va tout faire pour que quelque chose de positif sorte de cette tragédie.\n\n$enclave.340.main.desc$"
  enclave.340.main.desc:0 "Si vous nous accordez le §Ydroit de bris§! et qu'on a les §Ycoordonnées§! des champs de débris, on vous renverra évidemment tout ce qu'on aura trouvé sur place."
@@ -287,6 +299,13 @@
 
  enclave.345.desc:1 "Mais oui, bien sûr ! Les [salvager_enclave_country.Species.GetHandNamePlural] vides ça aide toujours à être curieux, et c'est encore plus vrai pour nous ! Pour nos §Ymeilleurs clients§!, on est toujours prêts à tout faire pour donner nos conseils, et aider à mener des recherches. À une condition quand même : que nos dépenses soient couvertes.\n\nEn fait, on apprécierait beaucoup une donation de votre part, pour nous aider à consolider notre modeste base stellaire. On sait bien, les vieilles coques de vaisseaux ça peut être réutilisé pour beaucoup de choses. Mais pour les parois et les cloisons, vaut toujours mieux avoir du neuf."
  enclave.345.a:0 "$enclave.310.a$"
+
+ enclave.346.desc:0 "Salut à vous ! Nos années de collaboration ont vite passé. De la façon dont je vois les choses, quelques-uns de nos ingénieurs ont appris quelques petits trucs de votre part, et vice-versa.\n\nMais le contrat arrive à son terme, et on aurait bien besoin de ces apprentis... À moins, évidemment, que vous soyez prêts à nous compenser un peu plus longtemps ?"
+
+ enclave.350.desc:0 "Vous êtes parmi nos §Ymeilleurs clients§!, alors on peut bien vous faire ça. On va vous envoyer quelqu'un pour diriger vos travaux de démontage, pour une petite commission. De toute façon, ça fera du bien de faire autre chose que récupérer des épaves qui viennent de brûler."
+ enclave.350.desc.not_available:0 "On fait ça pour nos §Ymeilleurs clients§! seulement : on leur loue les services d'un expert qui peut améliorer leurs travaux de démontage, contre une petite commission. Malheureusement, aucun n'est disponible pour l'instant. Ils sont très demandés ces derniers temps, et j'ai grand-peur que certains autres clients aient la priorité."
+ enclave.350.a:0 "$enclave.310.a$"
+ enclave.352.desc:0 "Salut ! Cet expert en récupération qu'on vous avait envoyé est rentré, puisque son contrat était terminé. Mais on peut vous envoyer un remplaçant, si vous avez toujours besoin."
 
  enclave.360.name:0 "Arrivée des matériaux"
  enclave.360.intro:0 "Des cargos de la §Y[salvager_enclave_country.GetName]§! viennent d'arriver, chargés des matériaux de la flotte démantelée."
@@ -303,7 +322,7 @@
  enclave.365.tt:0 "La mission de récupération a rapporté :"
  enclave.365.d:0 "Profitons-en pour leur indiquer ces autres débris..."
 
- enclave.375:0 "Enclave de Récupérateurs détruite"
+ enclave.375.name:0 "Enclave de Récupérateurs détruite"
  enclave.375.desc:0 "L'offensive dans le système de §Y[salvager_system.GetName]§! a été un magnifique succès. La [From.GetName] est détruite, et les quelques survivants se trouvent dispersés. Maintenant que leur station est en ruine, les misérables services qu'ils rendaient jusqu'à présent n'ont plus cours. La galaxie se remettra aisément de cette perte."
  enclave.380.desc:0 "Nous venons de l'apprendre : l'enclave de la [From.GetName], dans le système de §Y[salvager_system.GetName]§!, a été détruite par les forces de la [salvager_destroyer.GetName]. L'offensive a été courte, et la station des Récupérateurs est réduite à l'état d'épave flottant dans l'espace. Les quelques survivants se trouvent dispersés, et il semble que la galaxie devra désormais se passer des services qu'ils avaient à offrir."
 
@@ -357,7 +376,7 @@
  shroud_beacon_info:1 "Permet de construire un §HFlambeau du Suaire§! sur l'une de nos bases stellaires. Une §Hpercée du Suaire§! sera alors ouverte, permettant de passer de gagner le système de §Y[shroudwalker_enclave_system.GetName]§! et d'en revenir. Mais une seule percée peut être ouverte, aussi vaut-il mieux choisir son emplacement avec la plus grande attention."
  enclave.425.desc:1 "Nous avons un adage dans la [shroudwalker_enclave_country.GetName] : « les chemins du Suaire sont étranges et tortueux ». Puisse ce Flambeau vous aider à trouver votre route."
 
- enclave.435:0 "Enclave de Pérégrins détruite"
+ enclave.435.name:0 "Enclave de Pérégrins détruite"
  enclave.435.desc:0 "Victoire dans le système de §Y[shroudwalker_system.GetName]§! ! Nos forces l'ont aisément emporté sur ces prétendus mystiques de la [From.GetName]. Aucun de leurs grands discours sur le savoir et la puissance, ni leur dévotion insensée envers le Suaire, ne les auront rendus assez clairvoyants pour contrecarrer nos attaques.\n\nDe fait, les défenses mécaniques de leur station ont même été assez aisément franchies. Et, une fois les troupes entrées, elles ont trouvé l'enclave déserte, à l'exception d'un acolyte plongé dans ses méditations dans une chambre isolée. Nul n'a la moindre idée du lieu où se trouvent les autres, mais quoi qu'il en soit la galaxie est enfin débarrassée de leurs dogmes insensés."
  enclave.440.desc:0 "Nous venons de l'apprendre : l'enclave de la [From.GetName], dans le système de §Y[shroudwalker_system.GetName]§!, a été détruite, et les forces de la [shroudwalker_destroyer.GetName] ont réduit la station des Pérégrins à l'état d'épave.\n\nIl est troublant de songer que ces mystiques n'ont pu voir par avance leur propre ruine. À moins que ces événements ne soient qu'une partie d'un dessein plus vaste ? Qui peut, qui pourra le dire désormais ? Car sans leur savoir, l'avenir paraît désormais voilé de mystère."
 
@@ -799,6 +818,42 @@
  enclave.6010.a.desc:0 "Les changements mentaux subtils éprouvés par le commandant du [Root.GetName] sont désormais bien visibles : un mois après son passage par la percée, son style de commandement a nettement changé, tout comme sa personnalité."
  enclave.6010.b.desc:0 "Les changements mentaux subis par le commandant du [Root.GetName] sont désormais ressentis par toute la Conscience : un mois après son passage par la percée, ses dispositions ont nettement évolué, tout comme s'il disposait d'une personnalité."
  enclave.6010.c.desc:0 "Les changements neuraux subis par le drone de commandement du [Root.GetName] sont désormais tout à fait perceptibles : un mois après son passage par la percée, sa matrice de personnalité a été transformée de manière subtile, comme s'il disposait d'une véritable individualité."
+ shroud_touched_intro:0 "Voyager dans le Suaire n'est jamais anodin,"
+ #Non Gestalt Traits
+ leader_trait_admiral_mind_wipe_01:0 "Amiral touché par le Suaire"
+ leader_trait_admiral_mind_wipe_01_desc:0 "$shroud_touched_intro$ et l'esprit de cet amiral bouillonne désormais d'idées nouvelles pour améliorer les performances des vaisseaux."
+ leader_trait_admiral_mind_wipe_02:0 "$leader_trait_admiral_mind_wipe_01$"
+ leader_trait_admiral_mind_wipe_02_desc:0 "$shroud_touched_intro$ et l'esprit de cet amiral bouillonne désormais d'idées nouvelles pour améliorer les systèmes d'armement des vaisseaux."
+ leader_trait_scientist_mind_wipe_01:0 "Scientifique touché par le Suaire"
+ leader_trait_scientist_mind_wipe_01_desc:0 "$shroud_touched_intro$ et l'esprit de ce scientifique bouillonne désormais d'idées nouvelles pour rendre la recherche plus efficace."
+ leader_trait_scientist_mind_wipe_02:0 "$leader_trait_scientist_mind_wipe_01$"
+ leader_trait_scientist_mind_wipe_02_desc:0 "$shroud_touched_intro$ et l'esprit de ce scientifique bouillonne désormais d'idées nouvelles pour rendre les recherches archéologiques plus efficaces."
+ leader_trait_general_mind_wipe_01:0 "Général touché par le Suaire"
+ leader_trait_general_mind_wipe_01_desc:0 "$shroud_touched_intro$ et l'esprit de ce général bouillonne désormais d'idées nouvelles pour accroître la puissance des armées."
+ leader_trait_general_mind_wipe_02:0 "$leader_trait_general_mind_wipe_01$"
+ leader_trait_general_mind_wipe_02_desc:0 "$shroud_touched_intro$ et l'esprit de ce général bouillonne désormais d'idées nouvelles pour accroître l'efficacité des armées."
+ leader_trait_ruler_mind_wipe_01:0 "Dirigeant touché par le Suaire"
+ leader_trait_ruler_mind_wipe_01_desc:0 "$shroud_touched_intro$ et l'esprit de ce dirigeant bouillonne désormais d'idées nouvelles pour améliorer les travaux de construction."
+ leader_trait_ruler_mind_wipe_02:0 "$leader_trait_ruler_mind_wipe_01$"
+ leader_trait_ruler_mind_wipe_02_desc:0 "$shroud_touched_intro$ et l'esprit de ce dirigeant bouillonne désormais d'idées nouvelles pour améliorer les performances militaires."
+
+ #Gestalt Traits
+ gestalt_trait_admiral_mind_wipe_01:0 "Drone de la flotte touché par le Suaire"
+ gestalt_trait_admiral_mind_wipe_01_desc:0 "$shroud_touched_intro$ et ce drone est désormais capable d'améliorer les performances des vaisseaux."
+ gestalt_trait_admiral_mind_wipe_02:0 "$gestalt_trait_admiral_mind_wipe_01$"
+ gestalt_trait_admiral_mind_wipe_02_desc:0 "$shroud_touched_intro$ et ce drone est désormais capable d'améliorer les systèmes d'armement des vaisseaux."
+ gestalt_trait_scientist_mind_wipe_01:0 "Drone de recherche touché par le Suaire"
+ gestalt_trait_scientist_mind_wipe_01_desc:0 "$shroud_touched_intro$ et ce drone est désormais capable de mener des recherches technologiques avancées."
+ gestalt_trait_scientist_mind_wipe_02:0 "$gestalt_trait_scientist_mind_wipe_01$"
+ gestalt_trait_scientist_mind_wipe_02_desc:0 "$shroud_touched_intro$ et ce drone est désormais capable de mener des recherches archéologiques avancées."
+ gestalt_trait_general_mind_wipe_01:0 "Drone d'assaut touché par le Suaire"
+ gestalt_trait_general_mind_wipe_01_desc:0 "$shroud_touched_intro$ et le lien de ce drone avec les armées a été renforcé."
+ gestalt_trait_general_mind_wipe_02:0 "$gestalt_trait_general_mind_wipe_01$"
+ gestalt_trait_general_mind_wipe_02_desc:0 "$shroud_touched_intro$ et le lien de ce drone avec les armées a été amélioré."
+ gestalt_trait_ruler_mind_wipe_01:0 "Drone de commandement touché par le Suaire"
+ gestalt_trait_ruler_mind_wipe_01_desc:0 "$shroud_touched_intro$ et ce drone est désormais capable d'améliorer les techniques de construction."
+ gestalt_trait_ruler_mind_wipe_02:0 "$gestalt_trait_ruler_mind_wipe_01$"
+ gestalt_trait_ruler_mind_wipe_02_desc:0 "$shroud_touched_intro$ et ce drone est désormais capable d'améliorer les performances militaires."
 
  enclave.6015.name:0 "L'ombre revient"
  enclave.6015.desc:0 "Maintenant que le Flambeau a été détruit, nous avons perdu l'accès à la percée du Suaire. Nos flottes ne pourront plus emprunter le réseau tant que le Flambeau n'aura pas été remplacé."
@@ -867,7 +922,7 @@
  enclave.7100.desc:0 "Maîtriser le Suaire est un périple de dix mille vies, et même nos maîtres les plus talentueux ne peuvent prétendre appréhender qu'une part de la totalité de ses mystères. Néanmoins, leur sagesse est incalculable. Si vous le souhaitez, nous vous en enverrons un pour vous guider."
  enclave.7100.a:0 "Nous souhaitons apprendre"
 
- enclave.7105.desc:0 "Savoir qu'il y a toujours davantage à apprendre, voilà la sagesse véritable. Un maître vous sera prochainement envoyé. Apprenez autant que vous le pourrez, et assurément vous en serez récompensés."
+ enclave.7105.desc:1 "Savoir qu'il y a toujours davantage à savoir, voilà le savoir véritable. Un maître vous sera prochainement envoyé. Apprenez autant que vous le pourrez, et assurément vous en serez récompensés."
 
  decision_shroudwalker_teacher:0 "Maître des Pérégrins"
  decision_shroudwalker_teacher_desc:0 "Un maître de la [shroudwalker_enclave_country.GetName] peut s'installer sur ce monde pour y assurer des enseignements sur le Suaire."
@@ -883,3 +938,7 @@
 
  shroudwalker_teacher_explanation:1 "\nDonne accès à la §Ydécision planétaire§! §H$decision_shroudwalker_teacher$§! :\n$MOD_PLANET_AMENITIES_MULT$: §G+5%§!\n$mod_planet_jobs_unity_produces_mult$: §G+10%§!\n$mod_planet_telepaths_unity_produces_add$: §G+3§!"
 
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ enclave.375:0 "Enclave de Récupérateurs détruite"
+ enclave.435:0 "Enclave de Pérégrins détruite"

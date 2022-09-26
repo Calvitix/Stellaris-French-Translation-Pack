@@ -1,3 +1,6 @@
+
+#### WARNING : Ecrasé par FrenchTranslationPack.
+
 ############################################œ
 ###   SCRIPTED LOCALIZATION FOR FRENCH   ###
 ###      Scripted by Nicolas Fouqué      ###
@@ -822,6 +825,61 @@ defined_text = {
 			}
 		}
 		localization_key = FRLOC_Elle
+	}
+}
+
+
+
+#Ex.: "... [let him]/[let her] do so (= King/Queen Someone XIV)" => « ... [que lui]/[qu'elle] le fasse. (= le roi Machin XIV / la reine Machine XIV) » (lower case / minuscule)
+defined_text = {
+	name = GetQueluiQuelleDir
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_masc_cons = yes
+				frloc_rulers_strange_angloalien_masc_cons = yes
+				frloc_rulers_masc_vow = yes
+				frloc_rulers_strange_angloalien_masc_vow = yes
+			}
+		}
+		localization_key = FRLOC_quelui
+	}
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_fem_cons = yes
+				frloc_rulers_strange_angloalien_fem_cons = yes
+				frloc_rulers_fem_vow = yes
+				frloc_rulers_strange_angloalien_fem_vow = yes
+			}
+		}
+		localization_key = FRLOC_quelle
+	}
+}
+#Ex.: "[Let him]/[Let her] do so... (= King/Queen Someone XIV)" => « [Que lui]/[Qu'elle] fasse ainsi (= le roi Machin XIV / la reine Machine XIV) » (upper case / majuscule)
+defined_text = {
+	name = GetQueluiQuelleDirCap
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_masc_cons = yes
+				frloc_rulers_strange_angloalien_masc_cons = yes
+				frloc_rulers_masc_vow = yes
+				frloc_rulers_strange_angloalien_masc_vow = yes
+			}
+		}
+		localization_key = FRLOC_Quelui
+	}
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_fem_cons = yes
+				frloc_rulers_strange_angloalien_fem_cons = yes
+				frloc_rulers_fem_vow = yes
+				frloc_rulers_strange_angloalien_fem_vow = yes
+			}
+		}
+		localization_key = FRLOC_Quelle
 	}
 }
 

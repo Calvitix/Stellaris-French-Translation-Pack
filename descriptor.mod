@@ -3,6 +3,6 @@ tags={
 	"Translation"
 	"Fixes"
 }
-name="French Translation Pack [3.4+]"
-supported_version="3.4.*"
+name="French Translation Pack [3.5+]"
+supported_version="3.5.*"
 remote_file_id="2457286454"

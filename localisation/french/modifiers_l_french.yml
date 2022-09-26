@@ -3,7 +3,7 @@
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
  #
- # Update check 3.4.4 : 21.06.2022
+ # Update check 3.5.0 : 23.09.2022
  # exemple de modifs : points de coque --> coque
  ####################################
 
@@ -71,7 +71,7 @@
  MOD_COUNTRY_RESETTLEMENT_COST_MULT:1 "Coût de réimplantation"
  MOD_POP_CONSUMER_GOODS_MULT:0 "Coût des biens de consommation"
  MOD_POP_CONSUMER_GOODS_ADD:0 "Usage des biens de consommation"
- MOD_POP_DEFENSE_ARMIES_ADD:0 "Armées de défense planétaire"
+ MOD_POP_DEFENSE_ARMIES_ADD:1 "£defense_army£Armées de défense planétaire par £pop£pop "
  MOD_POP_HOUSING_USAGE_MULT:0 "£housing£Logements nécessaires aux £pop£pops "
  MOD_POP_HOUSING_USAGE_ADD:0 "$MOD_POP_HOUSING_USAGE_MULT$"
  MOD_POP_HOUSING_USAGE_BASE:0 "$MOD_POP_HOUSING_USAGE_MULT$"
@@ -108,6 +108,8 @@
  MOD_COUNTRY_SUBJECT_INTEGRATION_SPEED_ADD:0 "Rapidité d'intégration des dépendances"
  MOD_COUNTRY_INTEGRATION_COOLDOWN_MULT:0 "Intervalle entre les intégrations des dépendances"
  MOD_COUNTRY_VASSAL_NAVAL_CAPACITY_CONTRIBUTION_MULT:0 "Contribution des vassaux à la capacité navale"
+ MOD_COUNTRY_NAVAL_CAPACITY_CONTRIBUTION_FROM_SUBJECTS_MULT:0 "Contrib. en £navy_size£cap. navale des dépendances "
+ MOD_COUNTRY_NAVAL_CAPACITY_CONTRIBUTION_TO_OVERLORD_MULT:0 "Contrib. en £navy_size£cap. navale pour le suzerain "
  MOD_COUNTRY_SUBJECT_TRIBUTE_MULT:0 "Versements des dépendances"
  MOD_COUNTRY_SUBJECT_TECHNOLOGY_SHARING_MULT:0 "Partage technologique"
  MOD_COUNTRY_EXPANSION_DISTANCE_MULT:0 "Distance d'expansion"
@@ -126,7 +128,8 @@
  MOD_FIRST_CONTACT_SPEED_MULT:0 "Vit. de découverte des premiers contacts "
  MOD_FIRST_CONTACT_CLUES_ADD:0 "Compét. pour les premiers contacts "
  MOD_FIRST_CONTACT_DEFENSE_ADD:0 "Difficulté des premiers contacts "
- MOD_COUNTER_INTEL_GAIN_SPEED:0 "Détermine la vitesse à laquelle les autres empires acquièrent des renseignements sur nous."
+ MOD_COUNTER_INTEL_GAIN_SPEED:1 "Vit. d'acquisition de renseignements des autres empires sur nous"
+ MOD_COUNTRY_SCAVENGE_DEBRIS_MULT:0 "Ressources tirées des débris ramassés "
  MOD_ADD_BASE_COUNTRY_INTEL:0 "Niveau de renseignement de base "
 
  #Pop
@@ -408,7 +411,8 @@
  mod_planet_buildings_upkeep_mult:0 "Maintenance des bâtiments "
  mod_planet_buildings_energy_upkeep_mult:0 "Maintenance £energy£ des £building£bâtiments "
  mod_planet_districts_cost_mult:0 "Coût des £district£districts "
- mod_planet_districts_upkeep_mult:0 "Maintenance des districts "
+ mod_planet_districts_upkeep_mult:0 "Maintenance des districts"
+ mod_planet_districts_energy_upkeep_mult:0 "Maintenance £energy£ des £district£districts "
  mod_planet_districts_cities_upkeep_mult:0 "Maintenance des districts urbains "
  mod_planet_districts_mines_cost_mult:0 "Coût des districts miniers "
  mod_planet_districts_farms_cost_mult:0 "Coût des districts agricoles "
@@ -560,6 +564,7 @@
  rare_crystals_deficit:0 "Pénurie de cristaux rares"
  exotic_gases_deficit:0 "Pénurie de £exotic_gases£gaz exotiques "
  unity_deficit:0 "Manque d'£unity£unité "
+ dark_matter_deficit:0 "Pénurie de £sr_dark_matter£matière noire "
 
  ####################################
  # Resource Modifiers
@@ -756,6 +761,7 @@
  mod_weapon_type_strike_craft_weapon_damage_mult:0 "Dégâts causés par les appareils de combat"
  mod_weapon_type_strike_craft_weapon_fire_rate_mult:0 "Cadence de tir des appareils de combat"
  mod_weapon_type_strike_craft_speed_mult:0 "Vitesse des appareils de combat"
+ mod_weapon_swarm_weapon_fire_rate_mult:0 "Vit. d'attaque des armes de l'essaim préthoryn "
 
  #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
  #vultaum_asteroid_category_research_fail_risk_mult: "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
@@ -1115,6 +1121,7 @@
  opinion_defensive_pact:0 "Pacte défensif"
  opinion_broke_alliance:0 "A rompu l'alliance"
  opinion_broke_defensive_pact:0 "A rompu le pacte défensif"
+ opinion_broke_research_agreement:0 "Convention de recherche rompue "
  opinion_broke_non_aggression_pact:0 "A rompu le pacte de non-agression"
  opinion_broke_commercial_pact:0 "A rompu le pacte commercial"
  opinion_broke_migration_pact:0 "A rompu le traité migratoire"
@@ -1219,6 +1226,7 @@
  triggered_authoritarian_opinion_barbaric_despoilers:0 "$civic_barbaric_despoilers$"
  triggered_pacifist_opinion_barbaric_despoilers:0 "$civic_barbaric_despoilers$"
  triggered_fe_opinion_barbaric_despoilers:0 "$civic_barbaric_despoilers$"
+ triggered_opinion_relic_omnicodex:0 "$r_omnicodex$"
 
  ####################################
  # Planet Modifiers
@@ -1390,6 +1398,12 @@
  terraforming_candidate:0 "Terraformation envisageable"
  terraforming_candidate_desc:0 "Bien que désolé et dépourvu de la moindre forme de vie, ce monde dispose d'eau à l'état glacé et a peut-être abrité une vie luxuriante autrefois. Avec la technologie appropriée, il serait possible de le terraformer pour en faire un monde habitable."
  terraforming_candidate_tooltip:0 "Une fois la technologie £society£§Y$tech_climate_restoration$§! découverte, nous pourrons terraformer ce monde pour le rendre habitable."
+ frozen_terraforming_candidate:0 "Terraformation envisageable d'un monde glacé"
+ frozen_terraforming_candidate_desc:0 "Bien que glacées au point de ne pouvoir abriter la moindre forme de vie, les eaux gelées de [Root.GetName] devraient pouvoir permettre de terraformer la [Root.GetPlanetMoon] pour la rendre habitable si nous disposons des méthodes appropriées."
+ frozen_terraforming_candidate_tooltip:0 "Une fois l'atout de l'ascension §Y$ap_hydrocentric$§! adopté et la technologie £society£§Y$tech_climate_restoration$§! découverte, nous pourrons terraformer ce monde pour le rendre habitable."
+ toxic_terraforming_candidate:0 "Terraformation envisageable d'un monde toxique"
+ toxic_terraforming_candidate_desc:0 "Si les gaz nocifs l'empêchent d'abriter la moindre forme de vie, en transformant les composés toxiques de l'atmosphère de [Root.GetName] en éléments moins dangereux elle pourrait devenir habitable, et même être colonisée."
+ toxic_terraforming_candidate_tooltip:0 "Une fois l'atout de l'ascension §Y$ap_detox$§! adopté, nous pourrons terraformer ce monde pour le rendre habitable."
  ultra_rich:1 "Minéraux de qualité exceptionnelle"
  ultra_rich_desc:1 "La qualité exceptionnelle des minéraux présents dans la croûte de cette planète offre des opportunités minières proprement stupéfiantes."
  mineral_poor:1 "Minéraux de piètre qualité"

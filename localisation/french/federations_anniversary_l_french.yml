@@ -1,7 +1,7 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Update check 3.4.2 : 14.05.2022
+# Update check 3.5.0 : 23.09.2022
 #
 
  envoy:0 "$default_envoy$"
@@ -134,8 +134,8 @@
  PREY:0 "PROIE !"
  Reset_counters:0 "Réinitialisation"
 
- NUM_HOUSING_TRIGGER:0 "Logements sur le monde ($VALUE1|0Y$) $COMPARE$s à $VALUE2|0Y$."
- NUM_HOUSING_NOT_TRIGGER:0 "Logements sur le monde ($VALUE1|0Y$) PAS $COMPARE$s à $VALUE2|0Y$."
+ NUM_HOUSING_TRIGGER:1 "Logements sur le monde ($VALUE1|0Y$) $COMPARE$s à $VALUE2|0Y$."
+ NUM_HOUSING_NOT_TRIGGER:1 "Logements sur le monde ($VALUE1|0Y$) PAS $COMPARE$s à $VALUE2|0Y$."
  HAS_SECTOR_FOCUS:0 "A la priorité de secteur $SECTOR_FOCUS$."
  HAS_NOT_SECTOR_FOCUS:0 "N'a PAS la priorité de secteur $SECTOR_FOCUS$."
  IS_SECTOR_CAPITAL:0 "Est le secteur capitale"
@@ -143,6 +143,9 @@
  SET_SECTOR_CAPITAL_EFFECT:0 "Fait du monde la capitale du secteur."
  SET_SECTOR_FOCUS_EFFECT:0 "Fait passer la priorité du secteur à $SECTOR_FOCUS$."
  SET_COLONY_DESIGNATION_EFFECT:0 "Fait passer au type de colonie $COLONY_DESIGNATION$."
+
+ NUM_DEPOSITS_TRIGGER:0 "Le monde a $COMPARE$ $VALUE2|0Y$ gisements ($VALUE1|0Y$)"
+ NUM_DEPOSITS_NOT_TRIGGER:0 "Le monde n'a PAS $COMPARE$ $VALUE2|0Y$ gisements ($VALUE1|0Y$)"
 
  effect_random_owned_ship:0 "Un vaisseau possédé aléatoire"
  effect_every_owned_ship:0 "Tous les vaisseaux possédés"
@@ -555,6 +558,86 @@
  27_HOSTILE_GREETING:0 "Vos attaques sauvages contre les tiyanki sont impardonnables. Un jour, vous devrez payer."
  25_NEUTRAL_GREETING:0 "N'allez surtout pas penser que vos meurtres de tiyanki sans défense sont passés inaperçus..."
  25_FRIENDLY_GREETING:0 "Les tiyanki n'ont absolument jamais été une menace. Qu'est-ce qui a bien pu vous pousser à les attaquer ainsi ?"
+
+
+ ### Tiyanki Space Graveyard System by Giada Zavarise ###
+
+ ## Event chain
+ tiyanki_graveyard_chain_title:0 "Charnier tiyanki"
+ tiyanki_graveyard_chain_desc:0 "Un monde a été découvert dans le système de §H[tiyanki_graveyard_system.GetName]§!, entièrement couvert de cadavres de tiyanki. Afin d'étudier ce cimetière inhabituel, ses gardiens doivent d'abord être éliminés."
+
+ ## Special project
+ TIYANKI_LURE:0 "Leurre à tiyanki"
+ TIYANKI_LURE_DESC:0 "Les tiyanki se nourrissent de gaz. En construisant une station conçue pour en diffuser, nous pourrions écarter ceux qui gardent le charnier du système de §H[tiyanki_graveyard_system.GetName]§! et ainsi y accéder."
+ gas_diffuser:0 "Leurre à tiyanki"
+ gas_diffuser_desc:0 "Cette station diffuse des nuages de gaz nourrissants, attirant les gardiens tiyanki loin du charnier."
+
+ ## Point of Interest
+ tiyanki_graveyard_poi_title:0 "Gardiens du charnier tiyanki à éliminer"
+ tiyanki_graveyard_poi_desc:0 "Pour accéder à leur charnier, les tiyanki du système de §H[tiyanki_graveyard_system.GetName]§! doivent être éliminés."
+
+ ## Events
+
+ # Surveyed Tiyanki Graveyard System - What to do now?
+ galactic_features.387.name:0 "Charnier"
+ galactic_features.387.desc:0 "Le comportement des tiyanki résidant dans le système de §Y[tiyanki_graveyard_system.GetName]§! ne correspond en rien aux schémas connus pour leur espèce. Habituellement nomades, ces troupeaux restent autour d'un monde entièrement couvert de carcasses de leur espèce.\n\nToute tentative pour étudier ce charnier est interdite par le réseau de tentacules que les animaux ont disposé tout autour de ce monde. La seule solution pour en savoir davantage exige donc de déplacer les gardiens du charnier ou de les éliminer."
+ galactic_features.387.a:0 "Les tiyanki sont faciles à éliminer"
+ galactic_features.387.b:0 "Écartons-les sans leur faire de mal"
+
+ # Tiyanki Graveyard - Destroyed Gravekeepers
+ galactic_features.388.name:0 "Nécropole profanée"
+ galactic_features.388.desc:0 "Maintenant que les tiyanki positionnés autour de §Y[From.Planet.GetName]§! ont été éliminés, les [Root.Owner.GetScientistPlural] peuvent approcher en toute sécurité du charnier afin d'y conduire leurs recherches." # [LocEditor:ForFutureBatchExport]
+
+ # Tiyanki Graveyard - Lured Gravekeepers
+ galactic_features.389.name:0 "Leurrés"
+ galactic_features.389.desc:0 "La construction du leurre pour les tiyanki du système de §Y[tiyanki_graveyard_system.GetName]§! est achevée. Attirés par les gaz libérés par le diffuseur, les gardiens du charnier ont quitté leurs postes, permettant aux [Root.Owner.GetScientistPlural] de se glisser à travers les tentacules pour approcher le sol sans se faire remarquer."
+
+ # Survey - no communication with the Tiyanki
+ galactic_features.384.name:0 "Gardiens mystérieux"
+ galactic_features.384.desc:0 "Un grand nombre de §H[tiyanki_no_contact.GetName]§! sont rassemblés autour d'un monde couvert de carcasses d'une forme de vie alien.\n\nN'ayant aucune information sur ces entités, nous en sommes réduits à spéculer sur leur comportement."
+ galactic_features.384.tooltip:0 "Un premier contact est établi avec les §H[tiyanki_no_contact.GetName]§! pour en apprendre davantage sur eux."
+
+ ## Anomaly
+ TIYANKI_ASTEROID_CAT:0 "Astéroïdes vivants"
+ TIYANKI_ASTEROID_CAT_DESC:0 "Des échantillons de roche prélevés dans la ceinture d'astéroïdes du système de [From.System.GetName] contiennent, de façon surprenante, une grande quantité de tissus biologiques."
+
+ # Anomaly result
+ anomaly.7100.name:0 "Tombe ouverte"
+ anomaly.7100.desc:0 "Ce que les [Root.Owner.GetScientistPlural] avaient au départ pris pour des astéroïdes s'est avéré être des corps de tiyanki gelés et déformés, réduits à l'état de lambeaux après être restés durant des décennies en orbite. L'ensemble de la ceinture d'astéroïde est en fait un charnier, composé de cadavres laissés là. Certains de ceux qui ont été prélevés sur place ne sont décédés que tout récemment, tandis que d'autres, au contraire, sont là depuis des milliers d'années avant la fondation de la [Root.Owner.GetName]."
+ anomaly.7100.alt.desc:0 "Ce que les [Root.Owner.GetScientistPlural] avaient au départ pris pour des astéroïdes s'est avéré être des corps d'animaux gelés et déformés, correspondant sensiblement par leur forme aux aliens qui ont été aperçus rôdant dans le système. L'ensemble de la ceinture d'astéroïde est en fait un charnier, composé de cadavres laissés là. Certains de ceux qui ont été prélevés sur place ne sont décédés que tout récemment, tandis que d'autres, au contraire, sont là depuis des milliers d'années avant la fondation de la [Root.Owner.GetName]."
+
+ ## Archeological site
+ site_tiyanki_graveyard:0 "Charnier des tiyanki"
+ site_tiyanki_graveyard_intro:0 "La surface de §Y[From.Planet.GetName]§! est entièrement couverte de reste de cadavres de tiyanki. Les capteurs ne détectent absolument aucun signe de vie, et pourtant les corps continuent de se tortiller et s'agiter, comme s'ils étaient animés par quelque force invisible..."
+
+ ancrel.14100.name:0 "Boulettes de viande"
+ ancrel.14100.desc:0 "Il est difficile de déterminer si §Y[From.Planet.GetName]§! est même une [From.Planet.GetPlanetMoon] : les sondages préliminaires n'ont révélé que des strates, empilées sur d'autres strates, de tissus biologiques. Selon les estimations, il faudrait pas moins de 2 435 463 cadavres de tiyanki pour produire un corps céleste d'une masse équivalente, la marge d'erreur étant de 5,3%. Même en supposant que ces corps sont entassés sur un globe rocheux, le nombre de spécimens nécessaire serait encore extrêmement important.\n\nQuelqu'un, quelque chose fait-il venir ces animaux ici pour qu'ils y meurent, où sont-ils attirés ici naturellement pour y vivre leurs ultimes heures ?"
+ ancrel.14100.necro.desc:0 "$ancrel.14100.desc$ Et une autre question, plus cruciale encore, se pose. Pourquoi les nécromanciens sont-ils incapables de ranimer ces êtres ? Pourquoi cette chair morte les rejette-t-elle, comme si elle était déjà contrôlée par une autre entité ?"
+
+ ancrel.14200.name:0 "Trois parts morts"
+ ancrel.14200.desc:0 "La vitalité inhabituelle des cadavres de tiyanki couvrant la surface de §Y[From.Planet.GetName]§! paraît être liée à leurs capacités régénératives : même s'ils sont techniquement morts, les corps continuent de se réassembler. Le système de [From.Planet.System.GetName] est inhabituellement riche en substances nutritives que l'on trouve le plus souvent dans les géantes gazeuses où paissent ces créatures. Peut-être donc cela explique-t-il leur comportement particulier.\n\nCette découverte, malgré tout, n'explique en rien pourquoi les corps semblent se mouvoir comme s'ils étaient animés par une seule âme, et étendent leurs tentacules pour attraper les nouvelles carcasses tombant sur la [From.Planet.GetPlanetMoon].\n\nEspérons que d'autres fouilles permettront de livrer davantage d'informations sur ce lieu. Ou cette chose... Aucun consensus ne s'est encore établi chez les [From.Owner.GetScientistPlural] concernant la nomenclature exacte de cela."
+
+ ancrel.14300.name:0 "Dédale de chairs"
+ ancrel.14300.desc:0 "Les excavations ont permis de mettre au jour un réseau de tunnels s'étendant sous la surface de §Y[From.Planet.GetName]§!. Les analyses chimiques ont confirmé que les murs étaient entièrement composés de tissus biologiques tiyanki comprimés, dont la chair est encore tiède et à peine décomposée malgré qu'elle soit à peu près aussi âgée que la [From.Planet.Owner.GetName]. Tout laisse donc penser que les cadavres ont été comme fusionnés, reformés et modifiés pour donner naissance à ce lieu... Pour quoi faire ?"
+
+ ancrel.14400.name:0 "Tunnels hantés"
+ ancrel.14400.desc:0 "Après avoir dressé la carte du gigantesque réseau de tunnels de §Y[From.Planet.GetName]§!, les [Root.Owner.GetScientistPlural] ont réalisé que l'ensemble ressemblait à la structure vasculaire des tiyanki. À une différence notable : c'est à l'échelle d'un monde.\n\nLes murs palpitants dégagent une douce tiédeur, la température s'accroissant progressivement à mesure que l'expédition approche du noyau de la [From.Planet.GetPlanetMoon], là où les capteurs ont relevé un faible signal de vie."
+ ancrel.14400.matriarch.desc:0 "Après avoir dressé la carte du gigantesque réseau de tunnels de §Y[From.Planet.GetName]§!, les [Root.Owner.GetScientistPlural] ont réalisé que l'ensemble ressemblait à la structure vasculaire des tiyanki, mais à une échelle comparable à celle de la matriarche que nous avons trouvée errant parmi les étoiles.\n\nLes murs palpitants dégagent une douce tiédeur, la température s'accroissant progressivement à mesure que l'expédition approche du noyau de la [From.Planet.GetPlanetMoon], là où les capteurs ont relevé un faible signal de vie."
+
+ ancrel.14510.name:0 "Cerveau mère"
+ ancrel.14510.desc:0 "Dans une vaste chambre souterraine de §Y[From.From.Planet.GetPlanetMoon]§!, un tiyanki est dressé, debout, sa tête en forme de cloche se balançant légèrement, ses tentacules maigres s'étendant sur le sol jusqu'aux parois. Il ressemble à une sorte d'unité de commandement, contrôlant et dirigeant la croissance de ce charnier de la taille d'une [From.From.Planet.GetPlanetMoon].\n\nLes [From.From.Planet.Owner.GetScientistPlural] sont incapables de déterminer quelle sorte de créature naîtra de cette oeuvre sinistre, ou lorsqu'elle s'éveillera, mais une chose est certaine : ce sera beaucoup, beaucoup plus grand et terrible qu'un tiyanki ordinaire..."
+ ancrel.14510.matriarch.desc:0 "Dans une vaste chambre souterraine de §Y[From.From.Planet.GetPlanetMoon]§!, un tiyanki est dressé, debout, sa tête en forme de cloche se balançant légèrement, ses tentacules maigres s'étendant sur le sol jusqu'aux parois. Il ressemble à une sorte d'unité de commandement, contrôlant et dirigeant la croissance de ce charnier de la taille d'une [From.From.Planet.GetPlanetMoon].\n\nLes [From.From.Planet.Owner.GetScientistPlural] ne savent pas quand s'achèvera le processus, mais pensent qu'une fois la créature éveillée elle sera beaucoup, beaucoup plus grande et terrible qu'un tiyanki ordinaire. Assurément, elle méritera bien être qualifiée de §Hmatriarche tiyanki§!."
+
+ ancrel.14510.a:0 "Disséquons cette créature"
+ ancrel.14510.b:0 "Surveillons-la sans lui faire de mal"
+ ancrel.14510.c:0 "Elle est sacrée, laissons-la grandir en paix"
+ ancrel.14510.d:0 "Ce spécimen intéressera beaucoup les Conservateurs"
+
+ ancrel.14520.name:0 "$ancrel.14510.name$"
+ ancrel.14520.desc:0 "Dans une vaste chambre souterraine de §Y[From.From.Planet.GetPlanetMoon]§!, un tiyanki est dressé, debout, sa tête en forme de cloche se balançant légèrement, ses tentacules maigres s'étendant sur le sol jusqu'aux parois. Il ressemble à une sorte d'unité de commandement, contrôlant et dirigeant la croissance de ce charnier de la taille d'une [From.From.Planet.GetPlanetMoon]. Mais la créature est morte désormais, détruite par les équipements miniers utilisés pour accéder à ce lieu. Les cadavres les plus proches de la chambre centrale sont déjà pâles et très immobiles. Très bientôt, ce lieu connaîtra une seconde mort."
+
+ ancrel.14910.name:0 "Environnement contaminé"
+ ancrel.14910.desc:1 "Un membre de l'expédition sur §Y[From.Planet.GetName]§! a disparu lors de l'exploration du réseau de tunnels. L'équipe envoyée à sa recherche a tenté durant des jours de le localiser, avant de le retrouver en partie bloqué dans un mur, enserré par des tentacules.\n\nLe libérer a exigé des efforts et un temps considérables, car il n'était pas simplement lié : le mur tentait bel et bien de fusionner avec lui au niveau moléculaire, pour en faire une partie de sa propre surface.\n\nIl est désormais dans un état stable, mais refuse la moindre sortie hors du vaisseau scientifique. Et, même là, il continue de surveiller les murs avec la plus grande méfiance, comme s'il craignait une nouvelle attaque."
 
  ### Amoebas by Pierre du Plessis ###
 

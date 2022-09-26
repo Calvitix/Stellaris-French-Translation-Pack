@@ -1,6 +1,6 @@
 ﻿l_french:
 
-#Calvitix 3.4.2 : 14/05/2022
+#Calvitix 3.5.0 : 23/09/2022
 
  ########################
  # Necroids Species Pack
@@ -9,7 +9,7 @@
  ### Necrophage Origin by Pierre du Plessis
 
  origin_necrophage:0 "Nécrophage"
- origin_necrophage_desc:0 "Cette civilisation a évolué en tant que parasite, se nourrissant d'autres formes de vie conscientes pour se développer. Son entrée sur la scène galactique lui permet de considérer les autres espèces soit comme des apprentis sur le point d'être amenées dans son giron, soit comme une source d'alimentation pour son propre développement."
+ origin_necrophage_desc:1 "Cette civilisation a évolué en tant que parasite, contrainte de se nourrir d'autres formes de vie conscientes pour survivre. Avec son entrée sur la scène galactique, elle considère que toute autre espèce est destinée soit à être soumise, soit à être dévorée. Pour les nécrophages, telle est la simple vérité des choses."
  civic_tooltip_necrophage_effects:1 "- Peut convertir les £pops£pops d'autres espèces en pops de l'§Hespèce primaire§!.\n- Seules les pops nécrophages peuvent fournir des §Hpersonnalités§! ou occuper des §Hemplois de £pop_cat_ruler£gouvernants§!.\n- Commence la partie avec un certain nombre de £pops£pops d'une espèce secondaire adaptée.\n- Les mondes habitables garantis sont les §Hcivilisations primitives§!."
  civic_necrophage_secondary_species:0 "Espèce adaptée"
  trait_necrophage:0 "Nécrophage"
@@ -236,11 +236,12 @@
  job_death_chronicler:0 "Chroniqueur de la Mort"
  job_death_chronicler_plural:0 "Chroniqueurs de la Mort"
  job_death_chronicler_desc:0 "Le chaos est le domaine d'étude de ces lettrés, qui observent et rapportent la Mort et ses effets dans toutes les expressions qu'elle peut prendre."
- job_death_chronicler_effect_desc:1 "Les £job_death_chronicler£chroniqueurs de la Mort transforment les £consumer_goods£§Ybiens de consommation§! en £unity£§Yunité§!, en recherche £society£§Ysociétale§! et en £stability£§Ystabilité§!"
+ job_death_chronicler_effect_desc:2 "les £job_death_chronicler£chroniqueurs de la Mort transforment les £consumer_goods£§Ybiens de consommation§! en £unity£§Yunité§![GetCultureWorkerSpiMatOutput][GetCultureWorkerEgalAuthOutput][GetCultureWorkerMilPacOutput][GetCultureWorkerXenoOutput] et en £stability£§Ystabilité§!, les effets pouvant varier selon les éthiques de l'empire"
+ job_death_chronicler_simple_effect_desc:0 "les £job_death_chronicler£chroniqueurs de la Mort transforment les £consumer_goods£§Ybiens de consommation§! en £unity£§Yunité§! et en £stability£§Ystabilité§! et héritent des modificateurs liés aux §Yéthiques§! des £job_culture_worker£§Ytravailleurs culturels§!"
  job_chronicle_drone:0 "Drone chroniqueur"
  job_chronicle_drone_plural:0 "Drones chroniqueurs"
  job_chronicle_drone_desc:0 "Ces drones spécialisés consacrent toutes leurs pensées au chaos, étudiant la fin ultime comme contrepoids à la perpétuation de propre existence."
- job_chronicle_drone_effect_desc:2 "Les £job_chronicle_drone£drones chroniqueurs transforment l'£energy£§Yénergie§! et les £minerals£§Yminéraux§! en £unity£§Yunité§!, en recherche £society£§Ysociétale§! et en £stability£§Ystabilité§!"
+ job_chronicle_drone_effect_desc:3 "les £job_chronicle_drone£drones chroniqueurs transforment l'£energy£§Yénergie§! et les £minerals£§Yminéraux§! en £unity£§Yunité§!, en £stability£§Ystabilité§! et en $r_amenities_lower$"
  mod_job_death_chronicler_add:0 "Emplois de £job_death_chronicler£chroniqueurs de la Mort "
  mod_job_death_chronicler_per_pop:0 "§G+1§! emploi de £job_death_chronicler£chroniqueurs de la mort par palier de $VALUE$ pops"
  mod_job_death_chronicler_per_pop_short:0 "\n§G+1§! £mod_job_death_chronicler_add£ pour $VALUE$£pop£"
@@ -252,7 +253,7 @@
  ### Permanent Employment by Victor Haeggman
  civic_permanent_employment:0 "Emploi perpétuel"
  civic_permanent_employment_desc:0 "Cette mégacorporation veille à ce que jamais aucun de ses employés soit inoccupé. Jamais. Lorsque son temps est révolu, il est réaffecté à des tâches plus simples, afin de continuer à pourvoir aux besoins de sa famille et de rembourser ses dettes."
- civic_tooltip_permanent_employment_effects:1 "Permet de construire des £building£§YOffices des Emplois Posthumes§!.\n$job_reassigner_effect_desc$\n\nDonne accès à la possession £building£§Y$holding_reemployment_center$§!.\nLes léviathans organiques vaincus peuvent parfois être ressuscités."
+ civic_tooltip_permanent_employment_effects:3 "Permet de construire des £building£§YOffices des Emplois Posthumes§!.\n$job_reassigner_effect_desc$\n\nDonne accès à la possession £building£§Y$holding_reemployment_center$§!.\n\nLes léviathans organiques vaincus peuvent parfois être ressuscités."
  job_reassigner:0 "$job_reassigner_plural$"
  job_reassigner_desc:0 "Les réaffecteurs sont chargés de veiller à ce que, pour chaque citoyen de la mégacorporation décédé, ses restes continuent de travailler jusqu'à ce que son contrat ait été rempli."
  job_reassigner_plural:0 "Réaffecteurs"

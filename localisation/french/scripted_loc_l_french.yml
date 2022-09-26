@@ -1,7 +1,8 @@
 ﻿l_french:
 
+#
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.4.4. Check OK, 21/06/2022
+# Calvitix 3.5.0 Check OK, 23.09.2022
 #
 
  # GetEdibleSpeciesName Test
@@ -95,6 +96,15 @@
 
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ FRLOC_eur:0 "eur"
+ FRLOC_rice:0 "rice"
+ FRLOC_r:0 "r"
+ FRLOC_se:0 "se"
+ FRLOC_te:0 "te"
+ FRLOC_tte:0 "tte"
+ FRLOC_ne:0 "ne"
+ FRLOC_delui:0 "de lui"
+ FRLOC_delle:0 "d'elle"
  submantle_sub_FR_ms:0 "souterrain"
  submantle_mantle_FR_ms:0 "infra-mantellique"
  submantle_sub_FR_mp:0 "souterrains"
@@ -375,10 +385,35 @@
 ########################################################
  frloc.1.name:0 "Sommaire"
  frloc.1.desc:0 "Choisir les variables à tester."
- frloc.1.a:0 "Dirigeants"
- frloc.1.b:0 "Ça suffira comme ça, merci"
-
- frloc.10.name:0 "Les dirigeants"
+ frloc.1.a:0 "Le dirigeant et l'Empire"
+ frloc.1.b:0 "Les personnalités"
+ frloc.10.name:0 "$frloc.1.a$"
  frloc.10.desc:0 "§WDIRIGEANT§!\nRuler.GetName = [Root.Ruler.GetName]\nRuler.GetRegnalName = [Root.Ruler.GetRegnalName]\nRoot.GetLeLaLDir§R_§!GetRulerTitle = [Root.GetLeLaLDir][Root.GetRulerTitle]\n\n§WEMPIRE§!\nRoot.GetName = la [Root.GetName]\nRoot.GetAdj = [Root.GetAdj]\nRoot.GetAdjective = [Root.GetAdjective]\n\n§WCAPITALE§!\nRoot.Capital.GetName = [Root.Capital.GetName]\ncapital_scope.GetName = [capital_scope.GetName]\nRoot.Capital.GetAdj = [Root.Capital.GetAdj]\n\n§WSYSTÈME-CAPITALE§!\nRoot.Capital.System.GetName = [Root.Capital.System.GetName]\nRoot.Capital.System.GetAdj = [Root.Capital.System.GetAdj]\n\n§WESPÈCES§!\nRoot.Species.GetName = [Root.Species.GetName]\nRoot.GetSpeciesName = [Root.GetSpeciesName]\n\nRoot.Species.GetNamePlural = [Root.Species.GetNamePlural]\nRoot.GetSpeciesNamePlural = [Root.GetSpeciesNamePlural]\n\nRoot.Species.GetAdj = [Root.Species.GetAdj]\nRoot.GetSpeciesAdj = [Root.GetSpeciesAdj]"
  frloc.10.a:0 "Retour au sommaire"
  frloc.10.b:0 "Ça suffira comme ça, merci"
+ FRLOC_a:0 "a"
+ FRLOC_celle:0 "celle"
+ FRLOC_Celle:0 "Celle"
+ FRLOC_celui:0 "celui"
+ FRLOC_Celui:0 "Celui"
+ FRLOC_dame:0 "dame"
+ FRLOC_Dame:0 "Dame"
+ FRLOC_eau:0 "eau"
+ FRLOC_eresse:0 "eresse"
+ FRLOC_euse:0 "euse"
+ FRLOC_eux:0 "eux"
+ FRLOC_ier:0 "ier"
+ FRLOC_ma_dame:0 "ma dame"
+ FRLOC_Ma_dame:0 "Ma dame"
+ FRLOC_on:0 "on"
+ FRLOC_quelle:0 "qu'elle"
+ FRLOC_Quelle:0 "Qu'elle"
+ FRLOC_quelui:0 "que lui"
+ FRLOC_Quelui:0 "Que lui"
+ FRLOC_sire:0 "sire"
+ FRLOC_Sire:0 "Sire"
+ frloc.1.c:0 "Ça suffira comme ça, merci"
+ frloc.20.name:0 "$frloc.1.b$"
+ frloc.20.desc:0 "Root.Leader.GetName = §H[Root.Leader.GetName]§!\n\n[Root.Leader.GetLeLaLeadCap] cheval[Root.Leader.GetIerEresseLead] [Root.Leader.GetName] est grand[Root.Leader.GetXELead], [Root.Leader.GetSheHe] est très grand[Root.Leader.GetXELead] et b[Root.Leader.GetEauElleLead].\n\nL'écuy[Root.Leader.GetErEreLead] [Root.Leader.GetDuDelaLead] cheval[Root.Leader.GetIerEresseLead] est petit[Root.Leader.GetXELead].\n[Root.Leader.GetCeluiCelleLeadCap]-ci dit [Root.Leader.GetAuAlaLead] cheval[Root.Leader.GetIerEresseLead] s[Root.Leader.GetOnALead] maître[Root.Leader.GetXSseLead] : « Diantre, [Root.Leader.GetSireMadameLead], que tu es grand[Root.Leader.GetXELead] ! »\n[Root.Leader.GetLuiElleLeadCap] rit jaune, se demandant [Root.Leader.GetSilSielleLead] est si b[Root.Leader.GetEauElleLead] que grand[Root.Leader.GetXELead].\n\n[Root.Leader.GetFirstName] est l'actu[Root.Leader.GetElElleLead] [Root.Leader.GetSireDameLead] de [Root.Owner.Capital.GetName].\n[Root.Leader.GetSheHeCap] en est [Root.Leader.GetLeLaLead] rect[Root.Leader.GetEurRiceLead] et [Root.Leader.GetLeLaLead] command[Root.Leader.GetEurEresseLead], port[Root.Leader.GetEurEuseLead] de toute autorité.\n\nSes compagn[Root.Leader.GetOnELead]s l'apprécient fort, car de ce[Root.Leader.GetXTteLead] [Root.Leader.GetHeroHeroineLead] valeur[Root.Leader.GetEuxEuseLead], de cet[Root.Leader.GetXTeLead] amiral[Root.Leader.GetXELead] si bon[Root.Leader.GetXNeLead], tous dépendent [Root.Leader.GetDeluiDelleLead] grandement."
+ frloc.20.a:0 "$frloc.10.a$"
+ frloc.20.b:0 "$frloc.10.b$"
