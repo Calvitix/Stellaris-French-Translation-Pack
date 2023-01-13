@@ -34,7 +34,7 @@ federation_name_parts_list = {
 federation_name_parts_list = {
 	key = "default_federation_names_2_1"
 	parts = {
-		default_federation_names_2_1_Coalitionof = 1
+		default_federation_names_2_1_Coalition_of = 1
 		default_federation_names_2_1_Leagueof = 1
 		default_federation_names_2_1_Allianceof = 1
 		default_federation_names_2_1_Unionof = 1
@@ -70,8 +70,9 @@ federation_name_format = {
 			has_federation_type = default_federation
 		}
 	}
-	lookups = "<default_federation_names_1_1> <default_federation_names_1_2>"
-	format = fr_format.federation.1 # <default_federation_names_1_1> <default_federation_names_1_2>
+	format = "{1_2{<default_federation_names_1_1> <default_federation_names_1_2>}}"
+#	lookups = "<default_federation_names_1_1> <default_federation_names_1_2>"
+#	format = fr_format.federation.1 # <default_federation_names_1_1> <default_federation_names_1_2>
 }
 
 federation_name_format = {
@@ -82,8 +83,9 @@ federation_name_format = {
 			has_federation_type = default_federation
 		}
 	}
-	lookups = "<default_federation_names_2_1> <default_federation_names_2_2>"
-	format = fr_format.federation.2 # <default_federation_names_2_1> <default_federation_names_2_2>
+	format = "{1_2{<default_federation_names_2_1> <default_federation_names_2_2>}}"
+#	lookups = "<default_federation_names_2_1> <default_federation_names_2_2>"
+#	format = fr_format.federation.2 # <default_federation_names_2_1> <default_federation_names_2_2>
 }
 
 # Trade League
@@ -149,8 +151,9 @@ federation_name_format = {
 			has_federation_type = trade_federation
 		}
 	}
-	lookups = "<trade_federation_names_1_1> <trade_federation_names_1_2> <trade_federation_names_1_3>"
-	format = fr_format.federation.3 # <trade_federation_names_1_1> <trade_federation_names_1_2> <trade_federation_names_1_3>
+	format = "{123{<trade_federation_names_1_3> <trade_federation_names_1_2> <trade_federation_names_1_1>}}"
+#	lookups = "<trade_federation_names_1_1> <trade_federation_names_1_2> <trade_federation_names_1_3>"
+#	format = fr_format.federation.3 # <trade_federation_names_1_1> <trade_federation_names_1_2> <trade_federation_names_1_3>
 }
 
 
@@ -213,8 +216,9 @@ federation_name_format = {
 			has_federation_type = research_federation
 		}
 	}
-	lookups = "<research_federation_names_1_1> <research_federation_names_1_2> <research_federation_names_1_3>"
-	format = fr_format.federation.4 # <research_federation_names_1_1> <research_federation_names_1_2> <research_federation_names_1_3>
+	format = "{123{<research_federation_names_1_3> <research_federation_names_1_2> <research_federation_names_1_1>}}"
+#	lookups = "<research_federation_names_1_1> <research_federation_names_1_2> <research_federation_names_1_3>"
+#	format = fr_format.federation.4 # <research_federation_names_1_1> <research_federation_names_1_2> <research_federation_names_1_3>
 }
 
 
@@ -259,8 +263,9 @@ federation_name_format = {
 			has_federation_type = military_federation
 		}
 	}
-	lookups = "<military_federation_names_1_1> <military_federation_names_1_2>"
-	format = fr_format.federation.5 # <military_federation_names_1_1> <military_federation_names_1_2>
+	format = "{1_2{<military_federation_names_1_2> <military_federation_names_1_1>}}"
+#	lookups = "<military_federation_names_1_1> <military_federation_names_1_2>"
+#	format = fr_format.federation.5 # <military_federation_names_1_1> <military_federation_names_1_2>
 }
 
 # Hegemony
@@ -323,8 +328,9 @@ federation_name_format = {
 			has_federation_type = hegemony_federation
 		}
 	}
-	lookups = "[This.Leader.GetSpeciesName] <hegemony_federation_names_1_1>"
-	format = fr_format.federation.6 # [This.Leader.GetSpeciesName] <hegemony_federation_names_1_1>
+	format = "{1_2{<hegemony_federation_names_1_1> [This.Leader.GetSpeciesName]}}"
+#	lookups = "[This.Leader.GetSpeciesName] <hegemony_federation_names_1_1>"
+#	format = fr_format.federation.6 # [This.Leader.GetSpeciesName] <hegemony_federation_names_1_1>
 }
 
 federation_name_format = {
@@ -335,6 +341,58 @@ federation_name_format = {
 			has_federation_type = hegemony_federation
 		}
 	}
-	lookups = "<hegemony_federation_names_2_1> [This.Leader.GetSpeciesName] <hegemony_federation_names_2_2>"
-	format = fr_format.federation.7 # <hegemony_federation_names_2_1> [This.Leader.GetSpeciesName] <hegemony_federation_names_2_2>
+	format = "{123{<hegemony_federation_names_2_1> <hegemony_federation_names_2_2> [This.Leader.GetSpeciesName]}}"
+#	lookups = "<hegemony_federation_names_2_1> [This.Leader.GetSpeciesName] <hegemony_federation_names_2_2>"
+#	format = fr_format.federation.7 # <hegemony_federation_names_2_1> [This.Leader.GetSpeciesName] <hegemony_federation_names_2_2>
 }
+
+# Spiritualist Covenant
+
+federation_name_parts_list = {
+	key = "spiritualist_federation_names_1_1"
+	parts = {
+		spiritualist_federation_names_1_1_Holy = 2
+		spiritualist_federation_names_1_1_Sacred = 2
+		spiritualist_federation_names_1_1_Harmonious = 2
+		spiritualist_federation_names_1_1_Consecrated = 1
+		spiritualist_federation_names_1_1_Hallowed = 1
+		spiritualist_federation_names_1_1_Sanctified = 1
+		spiritualist_federation_names_1_1_Sacrosanct = 1
+		spiritualist_federation_names_1_1_Divine = 1
+		spiritualist_federation_names_1_1_Blessed = 2
+		spiritualist_federation_names_1_1_Seraphic = 1
+		spiritualist_federation_names_1_1_Elysian = 1
+		spiritualist_federation_names_1_1_Empyreal = 1
+	}
+}
+
+federation_name_parts_list = {
+	key = "spiritualist_federation_names_1_2"
+	parts = {
+		spiritualist_federation_names_1_2_Accord = 1
+		spiritualist_federation_names_1_2_Covenant = 2
+		spiritualist_federation_names_1_2_Communion = 1
+		spiritualist_federation_names_1_2_Society = 1
+		spiritualist_federation_names_1_2_Commonwealth = 1
+		spiritualist_federation_names_1_2_Alliance = 1
+		spiritualist_federation_names_1_2_Coalition = 1
+		spiritualist_federation_names_1_2_Compact = 1
+		spiritualist_federation_names_1_2_Concord = 1
+		spiritualist_federation_names_1_2_Entente = 1
+		spiritualist_federation_names_1_2_Partnership = 1
+	}
+}
+
+federation_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			has_federation_type = spiritualist_federation
+		}
+	}
+	format = "{1_2{<spiritualist_federation_names_1_2> <spiritualist_federation_names_1_1>}}"
+#	lookups = "<spiritualist_federation_names_1_1> <spiritualist_federation_names_1_2>"
+#	format = fr_format.federation.8 # <spiritualist_federation_names_1_1> <spiritualist_federation_names_1_2>
+}
+
