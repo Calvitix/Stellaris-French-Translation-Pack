@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.5.3 : 12.10.2022
+ # Update check for 3.6.0 : 30.11.2022
  ####################################
 
  ####################################
@@ -888,8 +888,10 @@
  OFF_WAR_EXHAUSTION_SUM_AT_LEAST:0 "La lassitude de guerre totale des attaquants ($VAL0|2Y$) est $COMPARE$e à $VAL1|2Y$"
  DEF_WAR_EXHAUSTION_SUM_LESS_THAN:0 "La lassitude de guerre totale des défenseurs ($VAL0|2Y$) est $COMPARE$e à $VAL1|2Y$"
  DEF_WAR_EXHAUSTION_SUM_AT_LEAST:0 "La lassitude de guerre totale des défenseurs ($VAL0|2Y$) est $COMPARE$e à $VAL1|2Y$"
- GALAXY_PERCENTAGE_LESS_THAN:1 "Pourcentage de la galaxie ($VAL0|2Y$) PAS $COMPARE$ à $VAL1|2Y$"
- GALAXY_PERCENTAGE_AT_LEAST:1 "Pourcentage de la galaxie ($VAL0|2Y$) $COMPARE$ à $VAL1|2Y$"
+ GALAXY_PERCENTAGE_LESS_THAN:2 "Pourcentage de la galaxie ($VAL0|2Y$) PAS $COMPARE$ à $VAL1|2Y$"
+ GALAXY_PERCENTAGE_AT_LEAST:2 "Pourcentage de la galaxie ($VAL0|2Y$) $COMPARE$ à $VAL1|2Y$"
+ ADDITIONAL_CRISIS_STRENGTH_NOT_TRIGGER:0 "Gravité supplémentaire des crises ($VAL0|2Y$) PAS $COMPARE$e à $VAL1|2Y$"
+ ADDITIONAL_CRISIS_STRENGTH_TRIGGER:0 "Gravité supplémentaire des crises ($VAL0|2Y$) $COMPARE$e à $VAL1|2Y$"
  SPECIES_PLANET_SLAVE_PERCENTAGE_LESS_THAN:0 "Pourcentage des esclaves de l'espèce $SPECIES$ sur la planète inférieur à $COMPARE$ $VAL1|2Y$"
  SPECIES_PLANET_SLAVE_PERCENTAGE_AT_LEAST:0 "Pourcentage des esclaves de l'espèce $SPECIES$ sur la planète au moins $COMPARE$ $VAL1|2Y$"
  HAS_SPACEPORT_MODULE:0 "Le spatioport dispose de l'amélioration du module $MODULE|Y$.\n"
@@ -976,20 +978,22 @@
  NOR_TRIGGER_STARTS:0 "Aucune de ces conditions ne doit être remplie "
  NAND_TRIGGER_STARTS:0 "Au moins une de ces conditions ne doit être remplie"
 
- HAS_FORMER_CITIZENSHIP_TYPE:0 "Les anciens droits étaient $SPECIES_RIGHT|Y$"
- HAS_NOT_FORMER_CITIZENSHIP_TYPE:0 "Les anciens droits n'étaient PAS $SPECIES_RIGHT|Y$"
- HAS_FORMER_LIVING_STANDARD_TYPE:0 "Les anciennes conditions de vie étaient $SPECIES_RIGHT|Y$"
- HAS_NOT_FORMER_LIVING_STANDARD_TYPE:0 "Les anciennes conditions de vie n'étaient PAS $SPECIES_RIGHT|Y$"
- HAS_FORMER_MILITARY_SERVICE_TYPE:0 "L'ancien service militaire était $SPECIES_RIGHT|Y$"
- HAS_NOT_FORMER_MILITARY_SERVICE_TYPE:0 "L'ancien service militaire n'était PAS $SPECIES_RIGHT|Y$"
- HAS_FORMER_POPULATION_CONTROL_TYPE:0 "L'ancien contrôle de la population était $SPECIES_RIGHT|Y$"
- HAS_NOT_FORMER_POPULATION_CONTROL_TYPE:0 "L'ancien contrôle de la population n'était PAS $SPECIES_RIGHT|Y$"
- HAS_FORMER_MIGRATION_CONTROL_TYPE:0 "L'ancien contrôle des migrations était $SPECIES_RIGHT|Y$"
- HAS_NOT_FORMER_MIGRATION_CONTROL_TYPE:0 "L'ancien contrôle des migrations n'était PAS $SPECIES_RIGHT|Y$"
- HAS_FORMER_SLAVERY_TYPE:0 "L'ancien esclavage était $SPECIES_RIGHT|Y$"
- HAS_NOT_FORMER_SLAVERY_TYPE:0 "L'ancien esclavage n'était PAS $SPECIES_RIGHT|Y$"
- HAS_FORMER_PURGE_TYPE:0 "L'ancienne forme de purge était $SPECIES_RIGHT|Y$"
- HAS_NOT_FORMER_PURGE_TYPE:0 "L'ancienne forme de purge n'était PAS $SPECIES_RIGHT|Y$"
+ HAS_FORMER_SPECIES_RIGHT_CITIZENSHIP_TYPE:0 "Les anciens droits étaient $SPECIES_RIGHT|Y$"
+ HAS_NOT_FORMER_SPECIES_RIGHT_CITIZENSHIP_TYPE:0 "Les anciens droits n'étaient PAS $SPECIES_RIGHT|Y$"
+ HAS_FORMER_SPECIES_RIGHT_LIVING_STANDARDS_TYPE:0 "Les anciennes conditions de vie étaient $SPECIES_RIGHT|Y$"
+ HAS_NOT_FORMER_SPECIES_RIGHT_LIVING_STANDARD_TYPE:0 "Les anciennes conditions de vie n'étaient PAS $SPECIES_RIGHT|Y$"
+ HAS_FORMER_SPECIES_RIGHT_MILITARY_SERVICE_TYPE:0 "L'ancien service militaire était $SPECIES_RIGHT|Y$"
+ HAS_NOT_FORMER_SPECIES_RIGHT_MILITARY_SERVICE_TYPE:0 "L'ancien service militaire n'était PAS $SPECIES_RIGHT|Y$"
+ HAS_FORMER_SPECIES_RIGHT_POPULATION_CONTROLS_TYPE:0 "L'ancien contrôle de la population était $SPECIES_RIGHT|Y$"
+ HAS_NOT_FORMER_SPECIES_RIGHT_POPULATION_CONTROLS_TYPE:0 "L'ancien contrôle de la population n'était PAS $SPECIES_RIGHT|Y$"
+ HAS_FORMER_SPECIES_RIGHT_MIGRATION_CONTROLS_TYPE:0 "L'ancien contrôle des migrations était $SPECIES_RIGHT|Y$"
+ HAS_NOT_FORMER_SPECIES_RIGHT_MIGRATION_CONTROLS_TYPE:0 "L'ancien contrôle des migrations n'était PAS $SPECIES_RIGHT|Y$"
+ HAS_FORMER_SPECIES_RIGHT_COLONIZATION_CONTROL_TYPE:0 "L'ancien contrôle de la colonisation était $SPECIES_RIGHT|Y$"
+ HAS_NOT_FORMER_SPECIES_RIGHT_COLONIZATION_CONTROL_TYPE:0 "L'ancien contrôle de la colonisation n'était PAS $SPECIES_RIGHT|Y$"
+ HAS_FORMER_SPECIES_RIGHT_SLAVERY_TYPE_TYPE:0 "L'ancien esclavage était $SPECIES_RIGHT|Y$"
+ HAS_NOT_FORMER_SPECIES_RIGHT_SLAVERY_TYPE_TYPE:0 "L'ancien esclavage n'était PAS $SPECIES_RIGHT|Y$"
+ HAS_FORMER_SPECIES_RIGHT_PURGE_TYPE:0 "L'ancienne forme de purge était $SPECIES_RIGHT|Y$"
+ HAS_NOT_FORMER_SPECIES_RIGHT_PURGE_TYPE:0 "L'ancienne forme de purge n'était PAS $SPECIES_RIGHT|Y$"
 
  CAN_LIVE_ON_PLANET:0 "Peut vivre sur $PLANET|Y$"
  CAN_NOT_LIVE_ON_PLANET:0 "Ne peut pas vivre sur $PLANET|Y$"
@@ -1534,7 +1538,7 @@
  HAS_FEDERATION_PERK:0 "La fédération '$FEDERATION|Y$' bénéficie de l'atout $PERK|Y$"
  HAS_NOT_FEDERATION_PERK:0 "La fédération '$FEDERATION|Y$' ne bénéficie PAS de l'atout $PERK|Y$"
 
- SET_FEDERATION_TYPE:0 "La fédération '$FEDERATION|Y$' adopte le type $TYPE|Y$."
+ SET_FEDERATION_TYPE:0 "La fédération '$FEDERATION|Y$' devient une $TYPE|Y$."
  HAS_FEDERATION_TYPE:0 "La fédération '$FEDERATION|Y$' est de type $TYPE|Y$"
  HAS_NOT_FEDERATION_TYPE:0 "La fédération '$FEDERATION|Y$' n'est PAS de type $TYPE|Y$"
 
@@ -1717,6 +1721,7 @@
 
  any_enslaved_species_trigger:0 "N'importe quelle espèce ayant des pops asservies :"
  any_owned_species_trigger:0 "N'importe quelle espèce possédée :"
+ count_enslaved_species_trigger:0 "Nombre d'espèces ayant des pops asservies$CONDITIONS$ $IS_NOT$ $COMPARATOR$ à $NUM|Y$"
  any_fleet_in_system_trigger:0 "N'importe quelle flotte dans le système :"
  any_owned_fleet_trigger:0 "N'importe quelle flotte possédée :"
  any_fleet_in_orbit_trigger:0 "N'importe quelle flotte en orbite :"
@@ -1840,6 +1845,8 @@
 
  GALAXY_SIZE_IS:0 "Taille de la galaxie : $SIZE|Y$"
  GALAXY_SIZE_IS_NOT:0 "Taille de la galaxie : PAS $SIZE|Y$"
+ GALAXY_SHAPE_IS:0 "Forme de la galaxie : $SHAPE|Y$"
+ GALAXY_SHAPE_IS_NOT:0 "Forme de la galaxie : PAS $SHAPE|Y$"
  HAS_HAPPINESS_TRIGGER:0 "A du bonheur"
  HAS_NOT_HAPPINESS_TRIGGER:0 "N'a PAS de bonheur"
  IS_IN_BREACH_OF_TRIGGER:0 "Enfreint la loi galactique $RESOLUTION$"
@@ -1881,6 +1888,8 @@
  HAS_PLANETARY_ASCENSION_TIER:0 "Niveau d'ascension du monde $COMPARATOR$ à $TIER|Y$"
  HAS_NOT_PLANETARY_ASCENSION_TIER:0 "Niveau d'ascension du monde PAS $COMPARATOR$ à $TIER|Y$"
  SET_PLANETARY_ASCENSION_TIER:0 "Niveau d'ascension du monde fixé à $TIER|Y$"
+ NUM_PLANETARY_ASCENSION_TIERS:0 "Niveau total d'ascension planétaire $COMPARATOR$ à $TIER|Y$"
+ NUM_PLANETARY_ASCENSION_TIERS_NOT:0 "Niveau total d'ascension planétaire PAS $COMPARATOR$ à $TIER|Y$"
 
  HAS_DEFENSIVE_ARMY_STRENGTH:0 "Puissance de la garnison $COMPARATOR$e à $VALUE|Y$"
  HAS_NOT_DEFENSIVE_ARMY_STRENGTH:0 "Puissance de la garnison PAS $COMPARATOR$e à $VALUE|Y$"

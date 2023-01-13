@@ -1,5 +1,12 @@
 ﻿l_french:
  
+acot_phanon_event_chain: "The Phanon Corps"
+acot_phanon_event_chain_title: "The Phanon Corps"
+acot_phanon_event_chain_desc: "This mysterious faction called The Phanon Corps presents itself as an enigmatic paramilitary company. We know very little of them, save for their formidable armada. Our instincts tell us that whatever it is they have in mind for our galaxy, it won't be a good one. Confrontation seems inevitable.\n\n§RNOTE: Most of the Phanon Corps Event Chain doesn't do anything at the moment due to time constraints as PDX launches their new patch at very awesome time, so you can ignore this part, along with many descriptions thay may sound off for now."
+phanon_ship_destroyed: "Phanon Fragments Acquired"
+phi_tech_level_stage: "Phi Tech Level Stage"
+phanon_vault_stage: "Phanon Vault Stage"
+phanon_tech_level_stage: "Phi Tech Level Stage"
  
 acot_pmc.0.title: "Contact non identifié détecté !"
 acot_pmc.0.desc: "[root.GetName] a détecté une grande installation appartenant à une faction inconnue dans l'espace de [from.GetName]. Les flottes et les bases stellaires inconnues semblent être neutres, leurs armes sont toutes dirigées vers nos vaisseaux mais ne sont pas alimentées. Les vaisseaux qu'ils utilisent semblent avoir des conceptions extrêmement avancées que nous ne pouvons pas identifier. Mais le spectacle le plus choquant est que l'étoile de ce système semble avoir été piégée dans un vaisseau spatial de taille titanesque. Celui qui contrôle ce système doit posséder des technologies extrêmement anciennes et puissantes."
@@ -26,6 +33,10 @@ acot_pmc.1.purifier.insult.response: "Oh mon dieu, tant d'hostilité.\n\nNéanmo
 acot_pmc.1.swarm.insult.response: "Oh mon dieu, tant d'hostilité.\n\nNéanmoins, le Corps ignorera cette insulte injustifiée, et offrira nos expertises aux plus offrants."
 acot_pmc.1.exterminator.insult.response: "Oh mon dieu, tant d'hostilité.\n\nNéanmoins, le Corps ignorera cette insulte injustifiée, et offrira nos expertises aux plus offrants."
  
+acot_pmc.100.title: "The Phanon Corps"
+acot_pmc.100.desc: "And with that, our first contact with this mysterious Phanon Crops has concluded. The Corps are unlike any other enclaves or mercenary contractors we have seen previously. Their technologies, fleet powers and economic strengths are simply way too staggering to be a mere small indie companies like the rest. Despite their politeness, it is clear that they intend to both impress and intimidate us.\n\nAlthough we have no cause for concern that they'll become a threat to our expansion at the moment, we cannot shake the uncanny feeling that there's more to them than it seems. We best be cautious and prepare for a possible future conflict against the Corps." 
+acot_pmc.100.a: "They cannot be trusted any further than a space snail can be thrown."
+acot_pmc.100.b: "Their services may prove useful in the meantime though."
  
  
 acot_pmc.2.desc.a: "Phanon Corps à votre service."
@@ -60,12 +71,24 @@ acot_pmc.2.e.explain: "Vous pouvez en savoir plus sur le Corps ici, ou même pay
 acot_pmc.2.border: "Pouvez-vous ouvrir vos frontières ?"
 acot_pmc.2.border.response: "Hmm, nous pensions l'avoir déjà fait. Vous devez être un nouvel empire qui n'a pas été filtré par notre message de bienvenue automatique ou quelque chose comme ça.\n\nFait, vous avez maintenant accès à nos frontières."
  
- 
 acot_pmc.2.end: "Nous en reparlerons plus tard."
 acot_pmc.2.end.genocide: "Terminer les communications"
- 
-########################## Commission SERVICE MENU #############
 
+acot_pmc.201.a.desc: "§R...BURN..§!"
+acot_pmc.201.a: "This galaxy rejects you."
+acot_pmc.201.a.response: "§R...WE SHALL SEE...§!"
+acot_pmc.201.b: "We didn't do anything though."
+acot_pmc.201.b.response: "§R...YOU ARE GUILTY OF BEING IGNORANCE...§!"
+ 
+
+acot_pmc.202.a.desc: "§R...NO! HOW CAN THIS BE!?...WE WILL NOT...I CANNOT..ARGHHGHH...§!\n\n<radio static>\n\nWe can no longer detect any activity coming from the Phanon Agent, it seems this is their last stand. SOme fail-safe mechanisms, or perhaps a kind of punishment, may have been in place to provent their capture."
+acot_pmc.202.a: "It is inevitable."
+
+acot_pmc.203.a.desc: "<radio static>....bzzzztz....§R...prep...§!...bzzzzzttz...§R...asion for...§!...bbzzztzt...§R...must be eclai..§!...."
+acot_pmc.203.b.desc: "<radio static>....bzzzztz....§R...egent failed to cont...§!...bzzzzzttz...§R...ermination is in eff...§!...bbzzztzt...§R...No more excuses, the nex...§!...."
+acot_pmc.203.a: "Terminate Communication"
+
+########################## Commission SERVICE MENU #############
 
 acot_pmc.3.name: "Service de la Commission du Corps des Phanons"
 acot_pmc.3.desc.a: "Acquitté, transfert du canal au service de la Commission maintenant. Veuillez préciser votre demande ?"
@@ -171,7 +194,6 @@ acot_pmc.32.c.explain.medium: "Le paquet comprend §Y4§! unités d'assaut lourd
 acot_pmc.32.c.explain.large: "Le paquet comprend §Y8§! unités d'assaut lourdes. # 19200"
 acot_pmc.32.c.response: "Accusé de réception. Unités lourdes prêtes."
 
-
 acot_pmc.32.a.machine: "Nous avons besoin d'une force d'armées de chasseurs-tueurs."
 acot_pmc.32.a.machine.explain.small: "Le paquet comprend §Y10§! Armées de Chasseurs-Tueurs. ' # 4800"
 acot_pmc.32.a.machine.explain.medium: "Le paquet comprend §Y20§! Armées de chasseurs-tueurs. ' # 9600"
@@ -259,21 +281,33 @@ acot_pmc.2.end.panada.response: "WRYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY ! Yarou... 
  
 ###########################
  
+acot_pmc.9.desc: "Your fleets have made an unprovoked assault against the Corps. The Corps will now excercise aggressive response to protect our assets. Please be advised that any further services will now be charged with extra fee. Have a good day."
+acot_pmc.9.a: "That was an accident!"
+acot_pmc.9.a.response: "Logic dictates otherwise."
+acot_pmc.9.b: "All your base are belong to us."
+acot_pmc.9.b.response: "Aggression duly noted." 
 
-acot_pmc.10.desc: "Vos flottes ont lancé un assaut non provoqué contre le Corps. Conformément à l'accord précédent, des représailles hostiles seront maintenant appliquées. Veuillez vous tenir prêt...\n\n§R... VOUS SERAIENT SORTIS POUR CETTE TRANSGRESSION...§!"
-acot_pmc.10.a: "C'était un accident !"
-acot_pmc.10.a.response: "§R... POINTLESS... REPENT... AMEND§!"
-acot_pmc.10.b: "Cela a été une longue période à venir !"
-acot_pmc.10.b.response: "§R... PREPARE...§!"
+acot_pmc.900.title: "Act On Aggression"
+acot_pmc.900.desc: "Be it by design or not, our aggression against the Phanon Corps has resulted in a hostile response. We are now officially at war with this mysterious organization. We believe that understanding the Corp's technological capabilities will be crucial to any ongoing battle. Unfortunately, most of their components break down and self-destruct upon destruction of the ship, so we will not be able to directly analyze any of their ship's debris.\n\nHowever, we believe that if we can destroy enough of their ships, our researchers may yet be able to form a pattern and develop countermeasures around their encrypted systems, allowing us to develop new components using a combination of our own technologies and theirs." 
+acot_pmc.900.a: "We will prevail."
+acot_pmc.900.b: "They cannot stop us."
 
-acot_pmc.201.a.desc: "§R... SE REPENTIR... COMPENSER... S'EXCUSER...§!"
-acot_pmc.201.a: "Il n'y aura pas de compensation. Nous nous battons."
-acot_pmc.201.a.response: "§R... PUIS SE BATTRE... OU MOURIR...§!"
  
+acot_pmc.10.desc: "Unthinkable! That my defenses could be breached...But this is not over!\n\n§RENGAGE RED ALERT PROTOCOL! SOON YOUR GALAXY WILL BURN!§!"
+acot_pmc.10.a: "What's this now?"
+acot_pmc.10.a.response: "§RMY MISTAKE MUST BE CORRECTED. PHANON WILL REIGN SUPREME§!"
+acot_pmc.10.b: "Do your worst, corpo bastards!"
+acot_pmc.10.b.response: "§RI CANNOT FAIL. PHANON MUST REIGN SUPREME§!" 
 
-acot_pmc.202.a.desc: "<radio static>.... bzzzztz.... §R... prep...§!... bzzzzzttz... §R... asion for...§!... bbzzztzt... §R... must be eclai..§!...."
-acot_pmc.202.b.desc: "<radio static>.... bzzzztz.... §R... egent n'a pas réussi à cont...§!... bzzzzzttz... §R... ermination est en eff...§!... bbzzztzt... §R... Plus d'excuses, le prochain...§!...."
-acot_pmc.202.a: "Terminer la communication"
+acot_pmc.1000.title: "The Big Push"
+acot_pmc.1000.desc: "We have taken over the Corp's Droppoint System. The Corps appear to have cancel any reinforcements and are on full retreat, their Star Traveller gone, leaving only the star behind. For the moment, it seems the battle is ours. Yet we cannot shake the feeling that this is far from over. Judging by the Corp's representative's reaction, they have dropped all facades of politeness and professionalism, and their true malicious intents are revealed.\n\nThe Droppoint will not be secure so long as the Corps still hold control over their enigmatic Dimensional Mirror, which seems to be responsible for sending in new reinforcements. We believe that the key to disable it lies in the Vault." 
+acot_pmc.1000.a: "Proceed with Caution."
+acot_pmc.1000.b: "They had it coming. Soon we finish them off once and for all."
+
+acot_pmc.1001.title: "Playing With Fire"
+acot_pmc.1001.desc: "Something big has just occured. Apparently the Phanon Corp's Droppoint has been overran by another empire! The Corps are on full retreat and their Star Traveller have disappeared. For the moment, the Corps have ceased all communications and services with everyone. It remains unknown what will happen next." 
+acot_pmc.1001.a: "This can't be good."
+acot_pmc.1001.b: "Someone's asking for trouble."
 
 ###############################################
 

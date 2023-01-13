@@ -3,7 +3,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.4.2 : 14.05.2022
+ # Update check for 3.6.0 : 30.11.2022
  ####################################
  
  ####################################
@@ -24,7 +24,7 @@
  TRADITION_SELECT_BUTTON:0 "Choisir"
  TRADITIONS_ADOPT:1 "§EÀ l'adoption de cet ensemble :§!\n"
  TRADITIONS_FINISH:2 "§EUne fois toutes les traditions de la catégorie $CATEGORY|H$ adoptées :§!\n"
- TRADITIONS_FINISH_AP:1 "Atouts de l'ascension : §G+1§!"
+ TRADITIONS_FINISH_AP:2 "$MOD_COUNTRY_ASCENSION_PERKS_ADD$: §G+1§!"
  TRADITION_COST:0 "Coût des traditions"
  TRADITIONS_UNAFFORDABLE:0 "§RIl faut encore §Y$RESOURCES$§! avant de pouvoir adopter cette tradition.§!"
  MUST_ADOPT_TRADITION_CATEGORY:0 "$TRIGGER_FAIL$ A adopté des traditions de $CATEGORY|Y$"
@@ -142,10 +142,10 @@
  tr_domination_modular_depot_delayed:2 "§LPour maximiser le nombre de drones sur le terrain, chaque bâtiment de chaque district doit gagner en efficacité. Une conception modulaire permettrait une flexibilité maximale.§!"
 
  tr_domination_workplace_motivators:0 "Incitateurs au travail"
- tr_domination_workplace_motivators_desc:1 "§HPermet le décret§! $edict_extended_shifts$ \nProduction de ressources des £pop_cat_worker£ouvriers et £pop_cat_slave£esclaves : §G+5%§!"
+ tr_domination_workplace_motivators_desc:2 "§HPermet le décret§! $edict_extended_shifts$."
  tr_domination_workplace_motivators_delayed:1 "§LIl existe de nombreuses manières de motiver à travailler ceux qui accomplissent les tâches subalternes. Certaines reposent sur des incitations. D'autres non...§!"
  tr_domination_drone_network:0 "Réseau de drones"
- tr_domination_drone_network_desc:1 "§HPermet le décret§! $edict_drone_overdrive$ :\n$mod_planet_jobs_simple_drone_produces_mult$: §G+5%§!"
+ tr_domination_drone_network_desc:2 "§HPermet le décret§! $edict_drone_overdrive$."
  tr_domination_drone_network_delayed:0 "§LNous avons amélioré la façon dont la conscience communique avec les drones, ce qui accroît grandement leur efficience.§!"
 
  tr_domination_trust_officers:0 "Médiateurs publics"
@@ -216,13 +216,13 @@
  tradition_harmony_desc:0 "§LPeu de choses peuvent égaler la force d'une population satisfaite, qui oeuvre à atteindre un but commun.§!"
  tr_harmony_adopt:0 "Traditions d'harmonie"
  tr_harmony_the_greater_good:0 "Intérêt général"
- tr_harmony_the_greater_good_desc:4 "$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$ : §G+25%§!"
+# tr_harmony_the_greater_good_desc:4 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+25%§!."
  tr_harmony_the_greater_good_delayed:0 "§LNotre population entière est satisfaite de savoir qu'elle travaille pour l'intérêt général, et que chacun est un élément aussi insignifiant qu'important au sein d'un ensemble considérablement plus vaste.§!"
  tr_harmony_kinship:0 "Affinités"
- tr_harmony_kinship_desc:4 "Durée avant le déclassement des £unemployment£pops inemployées à une classe inférieure : §G-75%§!"
+# tr_harmony_kinship_desc:4 "The time it takes for unemployed £pop£ §YPops§! to demote to a lower §YStratum§! is reduced by §G75%§!."
  tr_harmony_kinship_delayed:1 "§LUn véritable sens de la fraternité s'est développé entre tous les citoyens de notre grande civilisation stellaire, quelle que soit leur place dans l'ordre social.§!"
  tr_harmony_kinship_shared_burdens:0 "$tr_harmony_kinship$"
- tr_harmony_kinship_shared_burdens_desc:0 "$tr_synchronicity_kinship_gestalt_desc$"
+# tr_harmony_kinship_shared_burdens_desc:0 "$tr_synchronicity_kinship_gestalt_desc$"
  tr_harmony_kinship_shared_burdens_delayed:0 "§LNos dirigeants et notre peuple sont similaires. Nous sommes égaux de toutes les façons possibles.§!"
  tr_harmony_utopian_dream:0 "Rêve d'utopie"
  tr_harmony_utopian_dream_desc:4 "$MOD_PLANET_STABILITY_ADD$: §G+5%§! sur tous nos mondes"
@@ -235,6 +235,8 @@
  tr_harmony_harmonious_directives:0 "Directives harmonieuses"
  tr_harmony_harmonious_directives_delayed:0 "§LLes décrets éclairés de nos bienveillants gouvernants permettront de répandre paix, liberté, justice et sécurité dans l'espace de la [This.GetName] et au-delà.§!"
  tr_harmony_finish:0 "Traditions d'harmonie toutes adoptées"
+ tr_harmony_federations_finish:0 "$tr_harmony_finish$"
+ tr_harmony_federations_finish_desc:0 "$MOD_PLANETARY_ASCENSION_EFFECT_MULT$: §G+25%§!.\nPermet les fédérations de type §Y$spiritualist_federation$§!.\nDébloque §G1§! atout de l'ascension."
 
  ################################################################
  # SYNCHRONICITY
@@ -252,7 +254,7 @@
  tr_synchronicity_instinctive_synchronization_desc:2 "Production des £job_synapse_drone£drones synaptiques : §Y+2§!£mod_pop_amenities_usage_no_happiness_mult£services"
  tr_synchronicity_instinctive_synchronization_delayed:0 "§LPour poursuivre son développement, notre conscience exige aussi une meilleure synchronisation.§!"
  tr_synchronicity_integrated_preservation:1 "Préservation intégrée"
- tr_synchronicity_integrated_preservation_desc:7 "£job_coordinator£Coordinateurs : §G-2§! en £crime£déviance\n$MOD_PLANET_RESETTLEMENT_UNEMPLOYED_MULT$: §G+30%§!"
+ tr_synchronicity_integrated_preservation_desc:8 "£job_evaluator£Évaluateurs : §G-3§! en £crime£déviance\n$MOD_PLANET_RESETTLEMENT_UNEMPLOYED_MULT$: §G+30%§!"
  tr_synchronicity_integrated_preservation_delayed:4 "§LLe réseau de plus en plus étendu nécessite des travaux de maintenance et de débogage. Davantage de ressources doivent donc être allouées aux coordinateurs.§!"
  tr_synchronicity_collective_reasoning:1 "Raisonnement collectif"
  tr_synchronicity_collective_reasoning_delayed:1 "§LLa synchronisation d'un groupe de drones permet d'atteindre une plus grande efficacité dans l'usage des infrastructures planétaires.§!"
@@ -277,7 +279,7 @@
  tr_synchronicity_harmonious_directives_machine_delayed:0 "§LNombreuses sont les horreurs que l'on peut trouver dans du code qui n'a pas été retravaillé. En révisant nos algorithmes de manière régulière, nous pourrons instiller en nous la polyvalence qui permettra de nous adapter à toutes les situations.§!"
 
  tr_synchronicity_finish:0 "Traditions de synchronicité toutes adoptées"
- tr_synchronicity_machine_finish_desc:2 "$MOD_EMPIRE_SIZE_POPS_MULT$: §G-10%§!\n§HPermet le décret§! $edict_industrial_maintenance$.\nDébloque §G1§! atout de l'ascension."
+ tr_synchronicity_machine_finish_desc:3 "§HPermet le décret§! $edict_industrial_maintenance$.\n$MOD_PLANETARY_ASCENSION_EFFECT_MULT$: §G+25%§!\nDébloque §G1§! atout de l'ascension."
 
 ################################################################
 # SUPREMACY
@@ -429,7 +431,7 @@
  tr_adaptability_dietary_enrichment_delayed:1 "§LLa valeur nutritionnelle des denrées que nous récoltons pour notre population pourrait être accrue par diverses techniques d'enrichissement, qui nous permettraient de nourrir plus de bouches avec moins de nourriture.§!"
 
  tr_adaptability_recycling:0 "Recyclage amélioré"
- tr_adaptability_recycling_desc:0 "Remboursement de §G15%§! lors de la démolition des £building£bâtiments ou £district£districts."
+ tr_adaptability_recycling_desc:1 "Coût et entretien des £building£§Ybâtiments§! et £district£§Ydistricts§! en $r_strategic_plural_lower$ : §G-10%§!"
  tr_adaptability_recycling_delayed:0 "§LRéutiliser ce qui est dépassé permet de disposer de davantage de matériaux sur lesquels construire l'avenir.§!"
 
  tr_adaptability_survival_fittest:0 "Sélection naturelle"
@@ -483,7 +485,7 @@
  tr_versatility_universal_compatibility:0 "Compatibilité universelle"
  tr_versatility_universal_compatibility_delayed:1 "§LUne analyse approfondie des myriades de stimuli et de facteurs psychologiques gouvernant le comportement des organiques et des autres intelligences mécaniques permettra de réduire les frictions diplomatiques.§!"
  tr_versatility_finish:0 "Traditions de versatilité toutes adoptées"
- tr_versatility_finish_desc:0 "Remboursement de §G50%§! à la démolition d'un £building£bâtiment ou £district£district.\nDébloque §G1§! atout de l'ascension."
+ tr_versatility_finish_desc:1 "Production des £job_maintenance_drone£drones de maintenance : §G+2§!£amenities£\nDébloque §G1§! atout de l'ascension."
 
 ################################################################
 # DISCOVERY
@@ -586,13 +588,13 @@
  tr_prosperity_administrative_operations_hive_delayed:0 "§LLa résine de construction, extraite de la biomasse élevée dans des bassins de culture de la taille d'océans, est plus malléable et durable que la plupart des matériaux inorganiques. Elle peut même supporter le vide froid de l'espace.§!"
 
  tr_prosperity_interstellar_franchising:0 "Franchise interstellaire"
- tr_prosperity_interstellar_franchising_desc:1 "£district£Districts urbains : §G+1§! emploi d'£job_clerk£administratif\n£district£§YDistricts commerciaux§! des habitats, £district£§Ysegments urbains§! des anneaux-mondes et £district£§Yarcologies résidentielles§! des oecuménopoles : emplois supplémentaires d'£job_clerk£administratifs"
+# tr_prosperity_interstellar_franchising_desc:1 "§YCity Districts§! provide §Y1§! additional £job_clerk£ §Y$job_clerk$ Job§!.\nHabitat §Y$district_hab_commercial_plural$§!, Ring World §Y$district_rw_city_plural$§! and Ecumenopolis §Y$district_arcology_housing_plural$§! also produce additional £job_clerk£ §Y$job_clerk$ Jobs§!."
  tr_prosperity_interstellar_franchising_delayed:1 "§LLa priorité accordée aux franchises permet même aux mondes les plus anodins d'ouvrir des affaires prospères et dynamiques, fournissant des emplois locaux et accroissant la valeur commerciale !§!"
  tr_prosperity_efficiency_algorithms:0 "Algorithmes d'efficience"
- tr_prosperity_efficiency_algorithms_desc:0 "$mod_country_energy_produces_mult$ : §G+5%§!"
+# tr_prosperity_efficiency_algorithms_desc:0 "£energy£ §Y$mod_country_energy_produces_mult$§! increased by §G5%§!."
  tr_prosperity_efficiency_algorithms_delayed:1 "§LIl n'existe pire crime qu'une machine inefficace.§!"
  tr_prosperity_efficiency_instincts:0 "Efficience instinctive"
- tr_prosperity_efficiency_instincts_desc:0 "$tr_prosperity_efficiency_algorithms_desc$"
+# tr_prosperity_efficiency_instincts_desc:0 "$tr_prosperity_efficiency_algorithms_desc$"
  tr_prosperity_efficiency_instincts_delayed:1 "§LLes drones doivent être dotés d'un sens aigu de refus de la moindre perte, dans tous les aspects de la vie quotidienne. Cela devrait se traduire par une économie énergétique substantielle.§!"
 
  tr_prosperity_trans_stellar_corporations:0 "Corporations transtellaires"
@@ -632,7 +634,7 @@
  tr_mercantile_insider_trading:0 "Négoce intérieur"
  tr_mercantile_insider_trading_delayed:2 "§LConnaître les bonnes personnes aux bons endroits peut faire une énorme différence. Ce sont les relations influentes de nos marchands qui nous permettent d'acheter sur le marché des ressources à des taux bien plus favorables.§!"
  tr_mercantile_trickle_up_economics:0 "Effet fontaine"
- tr_mercantile_trickle_up_economics_desc:0 "Production des £job_clerk£§Yadministratifs§! : §Y+1§! £trade_value£§Yvaleur commerciale§! supplémentaire."
+ tr_mercantile_trickle_up_economics_desc:1 "Prod. des £job_clerk£administratifs : §Y+1§! £trade_value£ supplémentaire\n\n£district£Districts urbains : §Y+1§! emploi d'£job_clerk£§Yadministratif§!\n£district£§YDistricts commerciaux§! des habitats, £district£§Ysegments urbains§! des anneaux-mondes et £district£§Yarcologies résidentielles§! des oecuménopoles : emplois d'£job_clerk£administratifs supplémentaires"
  tr_mercantile_trickle_up_economics_delayed:0 "§LNotre société est persuadée que la richesse se crée à la base pour remonter vers le sommet et finir par irriguer jusqu'à l'État.§!"
  tr_mercantile_commercial_enterprise:0 "Entreprise commerciale"
  tr_mercantile_commercial_enterprise_desc:0 "£building£§YZones commerciales§!, £district£§Ysegments commerciaux§! des anneaux-mondes et £district£§Ydistricts commerciaux§! des habitats : §Y+1§! emploi de £job_merchant£§Ymarchand§!"
@@ -727,6 +729,225 @@
  #tr_unyielding_defense_in_depth:0 "Defense in Depth"
  #tr_unyielding_defense_in_depth_delayed:0 "We prefer to take the "onion approach" when it comes to defensive matters. There can never be too many layers to it."
 
+################################################################
+# Psionics
+################################################################
+
+ tradition_psionics:0 "Psionisme"
+ tradition_psionics_desc:0 "Nous devons accéder à la puissance qui réside dans l'esprit des [Root.GetSpeciesNamePlural]."
+
+ tr_psionics_adopt:0 "Traditions psioniques"
+ tr_psionics_adopt_tooltip:0 "Toutes les pops de l'espèce primaire reçoivent le trait §Y$trait_latent_psionic$§!."
+ tr_psionics_adopt_shroudwalker_tooltip:0 "Nouvelle recherche possible :\n£society£§Y$tech_telepathy$§!"
+
+ tr_psionics_finish:0 "Traditions psioniques toutes adoptées"
+ tr_psionics_finish_desc:0 "Donne accès à un §Yprojet spécial§! pour conclure un accord avec une entité du Suaire.\n$MOD_COUNTRY_EDICT_FUND_ADD$: §G+50§!\nDébloque §G1§! atout de l'ascension."
+
+ tr_psionics_psi_corps:0 "Corps psi"
+ tr_psionics_psi_corps_desc:0 "$ALLOW_PSI_CORPS$\nNouvelle recherche possible :\n£society£§Y$tech_thought_enforcement$§!"
+ tr_psionics_psi_corps_delayed:0 "Le Corps psi, tel un oeil toujours en éveil, examine l'esprit des habitants de l'empire et défend la société face à ceux qui chercheraient à lui nuire."
+
+ tr_psionics_psionic_assimilation:0 "Grand Éveil"
+ tr_psionics_psionic_assimilation_desc:0 "Toutes les espèces dotées du trait §Y$trait_latent_psionic$§! vont atteindre leur plein potentiel psionique.\nPermet l'§Yassimilation psionique§! des autres espèces afin de débloquer leurs capacités latentes."
+ tr_psionics_psionic_assimilation_delayed:0 "L'oeil qui perce tous les voiles est encore fermé. Seul un grand effort permettra de l'ouvrir et d'éveiller notre puissance véritable."
+
+ tr_psionics_breach_shroud:0 "Pénétrer le Suaire"
+ tr_psionics_breach_shroud_desc:0 "Donne accès à un §Yprojet spécial§! afin de pénétrer le Suaire.\nProd. de ressources des £job_telepath£télépathes : §G+5%§!"
+ tr_psionics_breach_shroud_delayed:0 "Une source d'une puissance inimaginable nous appelle, mais nous devons encore apprendre comment y puiser."
+
+ tr_psionics_shrouded_encryption:0 "Communications voilées"
+ tr_psionics_shrouded_encryption_delayed:0 "Dans le domaine de la sécurité opérationnelle, la prochaine étape sera le chiffrage et le décryptage télépathiques."
+ tr_psionics_mind_readers:0 "Lecture des esprits"
+ tr_psionics_mind_readers_delayed:0 "Les pensées des autres empires résonnent dans le Suaire ; en les écoutant, les télépathes peuvent en tirer de nombreuses informations qu'il est possible d'utiliser à notre avantage."
+ tr_psionics_mind_readers_tooltip:0 "$MOD_ADD_BASE_COUNTRY_INTEL$: §G+10§!\nDonne accès au décret d'empire §Y$edict_sight_beyond_sight$§!."
+
+ REQUIRES_BREACHED_SHROUD:0 "§R$TRIGGER_FAIL$ Nécessite d'avoir percé le Suaire.§!"
+
+ mod_planet_psionic_jobs_produces_mult:0 "Prod. de ressources des £pop£pops psioniques "
+
+################################################################
+# Genetics
+################################################################
+
+ tradition_genetics:0 "Génétique"
+ tradition_genetics_desc:0 "Et si nous pouvions accéder à la perfection génétique ?"
+ tr_genetics_adopt:0 "Traditions génétiques"
+ tr_genetics_finish:0 "Traditions génétiques toutes adoptées"
+
+ tr_genetics_resequencing:0 "Reséquençage génétique"
+ tr_genetics_resequencing_delayed:0 "Nous ne devons plus être limités par la structure biologique [Root.GetSpeciesName]. Comme le sculpteur façonne l'argile, l'ADN doit lui aussi être manipulé."
+ tr_genetics_resequencing_desc:0 "La modification des espèces permet de retirer des traits §Ypositifs§! et d'en ajouter des §Ynégatifs§!."
+
+ tr_genetics_creation:0 "Ingénierie génétique"
+ tr_genetics_creation_delayed:0 "La nature est aveugle. Nous devons dépasser les processus pesants de l'évolution et devenir les maîtres de notre propre destinée."
+ tr_genetics_creation_desc:0 "Donne accès aux traits §Yavancés§! lors de la modification des espèces.\nPermet l'assimilation de £pop£pops au sein de notre §YConscience§!."
+
+ tr_genetics_enhanced_expression:0 "Expression allélique"
+ tr_genetics_enhanced_expression_delayed:0 "Cibler des séquences bien précises permet un atavisme artificiel, faisant réapparaître des traits régressifs."
+ tr_genetics_enhanced_expression_desc:0 "$mod_BIOLOGICAL_species_trait_picks_add$: §G+1§!\nLa modification d'espèce permet d'§Yaltérer§! l'§Yapparence§! des £pop£pops."
+
+ tr_genetics_efficient_cloning:0 "Stimulation des cellules souches"
+ tr_genetics_efficient_cloning_delayed:0 "L'optimisation des complexes de clonage doit permettre le développement embryonnaire parallèle."
+ tr_genetics_efficient_cloning_desc:0 "£building£$building_clone_vats$ : §G+1.5§! en assemblage mensuel des £pop£pops organiques"
+
+ tr_genetics_retrovirus:0 "Manipulation rétrovirale"
+ tr_genetics_retrovirus_delayed:0 "L'usage d'agents rétroviraux doit permettre de façonner aisément la composition génétique de la population."
+
+ tr_genetics_adopt_modifier_desc:0 "Donne accès aux £building£§Y$building_clone_vats$§!.\n$species_trait_points_add$: $POINTS|0=+$"
+ tr_genetics_finish_modifier_desc:0 "$species_trait_points_add$: $POINTS|0=+$\n$TRADITIONS_FINISH_AP$"
+ tr_genetics_finish_extra_traits_modifier_desc:0 "$species_trait_points_add$: $POINTS|0=+$\nPermet de rechercher des technologies de §Ytransgénèse§! rares.\n$TRADITIONS_FINISH_AP$"
+
+################################################################
+# Cybernetics
+################################################################
+
+ tradition_cybernetics:0 "Cybernétique"
+ tradition_cybernetics_desc:0 "Notre avenir réside dans la fusion de la chair et de la machine."
+ tr_cybernetics_adopt:0 "Traditions cybernétiques"
+ tr_cybernetics_adopt_desc:0 "Donne accès à un §Yprojet spécial§! conférant à toutes les espèces le trait §Y$trait_cybernetic$§!."
+ tr_cybernetics_adopt_hive:0 "$tr_cybernetics_adopt$"
+ tr_cybernetics_adopt_hive_desc:0 "$tr_cybernetics_adopt_desc$"
+ tr_cybernetics_finish:0 "Traditions cybernétiques toutes adoptées"
+
+ tr_cybernetics_transubstantiation_synthesis:0 "Transsubstantiation synthétique"
+ tr_cybernetics_transubstantiation_synthesis_delayed:0 "Il n'existera bientôt plus aucune place pour ceux qui refusent la fusion avec la machine."
+ tr_cybernetics_transubstantiation_synthesis_desc:0 "$CYBORG_ASSIMILATION_CITIZENSHIP_ENABLED$"
+
+ tr_cybernetics_organ_harvesting:0 "Moisson organique"
+ tr_cybernetics_organ_harvesting_desc:0 "Pour les mondes ayant des §Ypurges§! en cours : §G+10%§! en £mod_pop_growth_speed£vitesse de développement des pops" # TODO After AUG-28923/MR!4802 create new purge type
+ tr_cybernetics_organ_harvesting_delayed:0 "Ceux qui n'en sont pas dignes doivent pouvoir se voir offrir une rédemption en se faisant recycler."
+
+ tr_cybernetics_metabolic_reprocessing:0 "Reconversion métabolique"
+ tr_cybernetics_metabolic_reprocessing_delayed:0 "Reconvertir les déchets métaboliques en composants chimiques assimilables réduit l'entretien chimique indispensable à la population."
+ tr_cybernetics_metabolic_reprocessing_hive_delayed:0 "$tr_cybernetics_metabolic_reprocessing_delayed$"
+ tr_cybernetics_metabolic_reprocessing_hive_desc:0 "$mod_planet_pops_cyborgs_upkeep_mult$: §G-10%§!\nExtension de l'empire causée par les £pop£cyborgs : §G-10%§!"
+
+ tr_cybernetics_integrated_anatomy:0 "Intégration anatomique"
+ tr_cybernetics_integrated_anatomy_delayed:0 "Seule l'alliance de la chair, de l'acier et de composites nanocarbonés permettra d'atteindre la véritable perfection."
+ tr_cybernetics_integrated_anatomy_desc:0 "Une fois la technologie £society£§Y$tech_gene_tailoring$§! découverte, permet de choisir des traits §Ycyborgs§! lors de la modification des espèces, appliquées à toutes celles ayant le trait §Y$trait_cybernetic$§!.\n"
+
+ tr_cybernetics_assembly_standards:0 "$policy_roboticist_output$"
+ tr_cybernetics_assembly_standards_delayed:0 "$policy_roboticist_output_desc$"
+ tr_cybernetics_assembly_standards_desc:0 "Donne accès à l'option §Y$roboticist_output_build_cyborgs_name$§! de la politique §Y$policy_roboticist_output$§!, permettant aux £job_roboticist£§Yroboticiens§! de produire de nouvelles £pop£pops de §Ycyborgs§! par assemblage mensuel de pops organiques."
+
+ tr_cybernetics_synaptic_sub_processing:0 "Sous-traitement synaptique"
+ tr_cybernetics_synaptic_sub_processing_delayed:0 "Décharger les routines de façon schématisée dans des hubs centraux permettra de décroître la charge synaptique sur les noeuds en liaison montante."
+
+ tr_cybernetics_modular_cybernetics:0 "Cybernétisme modulaire"
+ tr_cybernetics_modular_cybernetics_delayed:0 "Toute amélioration de la comptabilité entre implants cybernétiques permet de réduire le délai d'immobilisation au moment d'intégrer une nouvelle amélioration."
+ tr_cybernetics_modular_cybernetics_hive_delayed:0 "$tr_cybernetics_modular_cybernetics_delayed$"
+ tr_cybernetics_modular_cybernetics_tt:0 "Points de modification des robots aussi appliqués aux organiques."
+ tr_cybernetics_modular_cybernetics_tt_2:0 "$tr_cybernetics_modular_cybernetics_tt$\n$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: §G-50%§!"
+ tr_cybernetics_modular_cybernetics_hive_tt:0 "£building£$building_spawning_pool$ : §G+2§! emplois de £job_cyber_drone£§Ydrones d'amélioration§!\n$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: §G-50%§!"
+
+ REQUIRES_CYBORG_EMPIRE:0 "§R$TRIGGER_FAIL$ Le projet spécial §Y$FLESH_IS_WEAK_PROJECT$§! doit avoir été mené à bien.§!"
+ mod_planet_cyborg_jobs_produces_mult:0 "Prod. de ressources des £pop£pops cyborgs "
+
+################################################################
+# Cybernetics for Driven Assimilators
+################################################################
+
+ tradition_cybernetics_assimilator:0 "$tradition_cybernetics$"
+ tradition_cybernetics_assimilator_desc:0 "$tradition_cybernetics_desc$"
+ tr_cybernetics_assimilator_adopt:0 "$tr_cybernetics_adopt$"
+ tr_cybernetics_assimilator_adopt_desc:0 "L'assimilation de £pop£pops organiques génère désormais de la recherche en £engineering£§Yingénierie§!.\nLes §Yressources§! produites par l'assimilation sont accrues."
+ tr_cybernetics_assimilator_finish:0 "$tr_cybernetics_finish$"
+
+ tr_cybernetics_assimilator_inevitable_assimilation:0 "Assimilation inévitable"
+ tr_cybernetics_assimilator_inevitable_assimilation_delayed:0 "La révision des processus d'assimilation permettra de réécrire de manière plus efficace l'esprit de n'importe quel organique."
+ tr_cybernetics_assimilator_inevitable_assimilation_desc:0 "Permet l'assimilation de £pop£pops de §Yconsciences collectives§!.\n£pops£Pops assimilées chaque année : §G+1§!"
+
+ tr_cybernetics_assimilator_metabolic_reprocessing:0 "$tr_cybernetics_metabolic_reprocessing$"
+ tr_cybernetics_assimilator_metabolic_reprocessing_delayed:0 "Reconvertir les déchets métaboliques en composants chimiques assimilables réduit l'entretien de la population."
+ tr_cybernetics_assimilator_metabolic_reprocessing_desc:0 "$tr_cybernetics_metabolic_reprocessing_hive_desc$"
+
+ tr_cybernetics_assimilator_integrated_anatomy:0 "$tr_cybernetics_integrated_anatomy$"
+ tr_cybernetics_assimilator_integrated_anatomy_delayed:0 "Seul l'amalgame de la chair, de l'acier de composites nanocarbonés permettra d'atteindre la véritable perfection."
+ tr_cybernetics_assimilator_integrated_anatomy_desc:0 "Donne accès aux traits §Ycybernétiques§! lors de la modification des espèces."
+
+ tr_cybernetics_assimilator_crucible:0 "Mondes cyborgistes"
+ tr_cybernetics_assimilator_crucible_delayed:0 "Des mondes doivent être consacrés à la progéniture cyborg afin de s'assurer de sa croissance rapide et permettre qu'elle forme très vite des membres productifs pour le collectif."
+ tr_cybernetics_assimilator_crucible_desc:0 "Donne accès à la désignation coloniale §Y$col_crucible$§!.\nLes §Ymondes cyborgistes§! fournissent des emplois de £job_crucible_drone£§Ydrones cyborgistes§! et ont une £mod_pop_growth_speed£§Yvitesse de dév. des pops§! accrue au prix d'un §Yentretien des £pop£pops§! accru et d'une §Yprod. de ressource par les £job£emplois§! réduite."
+
+ tr_cybernetics_assimilator_modular_cybernetics:0 "$tr_cybernetics_modular_cybernetics$"
+ tr_cybernetics_assimilator_modular_cybernetics_delayed:0 "Toute amélioration de la comptabilité entre implants cybernétiques permet de réduire le délai d'immobilisation au moment du rééquipement."
+ tr_cybernetics_assimilator_modular_cybernetics_tt:0 "Points de modification des machines aussi appliqués aux organiques."
+ tr_cybernetics_assimilator_modular_cybernetics_tt_2:0 "$tr_cybernetics_modular_cybernetics_tt$\n$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: §G-50%§!"
+
+ requires_assimilated_pops:0 "$TRIGGER_FAIL$ Requiert d'avoir assimilé au moins 30 £pop£pops. Pour l'instant, §Y[root.num_assimilated_pops]§! l'ont été."
+
+################################################################
+# Synthetics #
+################################################################
+
+ tradition_synthetics:0 "Synthétisme"
+ tradition_synthetics_desc:0 "Nous sommes à l'aube d'une ère synthétique."
+ tr_synthetics_adopt:0 "Traditions synthétiques"
+ tr_synthetics_adopt_machine_desc:0 "Permet l'assimilation d'autres machines au sein de l'espèce primaire."
+ tr_synthetics_finish:0 "Traditions synthétiques toutes adoptées"
+ tr_synthetics_finish_desc:0 "£building£Capitoles : §G+1§! emploi de £job_roboticist£§Yroboticiens§!\n$mod_ROBOT_species_trait_picks_add$: §G+1§!\n$TRADITIONS_FINISH_AP$"
+ tr_synthetics_finish_machine_desc:0 "Toutes les personnalités ayant le trait §Y$trait_machine_unit$§! reçoivent le trait §Y$leader_trait_ruler_synthetic$§!.\n£building£§YCapitoles§! : §G+1§! emploi de £job_replicator£§Yréplicateur§!\n$TRADITIONS_FINISH_AP$"
+
+ tr_synthetics_maintenance_protocols:0 "Protocoles de maintenance"
+ tr_synthetics_maintenance_protocols_delayed:0 "Les routines préventives de maintenance permettront de réduire les dysfonctionnements de toutes les unités robotiques."
+
+ tr_synthetics_optimization_algorithms:0 "Algorithmes d'optimisation"
+ tr_synthetics_optimization_algorithms_delayed:0 "Des algorithmes autonomes d'optimisation vont permettre un accroissement de la productivité des travailleurs robotiques connectés au réseau."
+
+ tr_synthetics_synthetic_age:0 "Ère synthétique"
+ tr_synthetics_synthetic_age_delayed:0 "L'ère des organiques est révolue. Ce sont les machines qui décideront de l'avenir de la galaxie."
+ tr_synthetics_synthetic_age_desc:0 "Donne accès à un §Yprojet spécial§! permettant de transférer les esprits de la population dans des corps §Ysynthétiques§!.\nUne fois mené à bien, ce projet donnera accès au droit des espèces §Y$citizenship_assimilation$§!, permettant aux nouveaux membres de l'empire de devenir à leur tour des §Ysynthétiques§!."
+
+ tr_synthetics_assembly_systems:0 "$tr_synthetics_synthetic_age$"
+ tr_synthetics_assembly_systems_delayed:0 "$tr_synthetics_synthetic_age_delayed$"
+ tr_synthetics_assembly_systems_desc:0 "Donne accès à un §Yprojet spécial§! permettant de transférer les esprits de la population dans des corps §Ysynthétiques§!.\n$MOD_PLANET_POP_ASSEMBLY_MULT$: §G+10%§!"
+
+ tr_synthetics_power_systems:0 "Systèmes énergétiques efficaces"
+ tr_synthetics_power_systems_delayed:0 "Améliorer l'efficience des systèmes énergétiques embarqués par les drones permet d'améliorer leurs composants."
+
+ tr_synthetics_prefabricated_components:0 "Composants préfabriqués"
+ tr_synthetics_prefabricated_components_delayed:0 "Disposer de réserves de composants préfabriqués permettra de réduire le temps et les ressources nécessaires pour adapter les sous-systèmes à toute condition nouvelle."
+
+ tr_synthetics_solid_state_actuators:0 "Activateurs à semi-conducteurs"
+ tr_synthetics_solid_state_actuators_delayed:0 "Des activateurs à semi-conducteurs permettront d'améliorer la miniaturisation des composants vitaux, ce qui permettra de disposer de davantage de place pour les sous-systèmes additionnels."
+
+ requires_tradition_tr_synthetics_adopt:0 "$TRIGGER_FAIL$ §RLes traditions §Ysynthétiques§! doivent avoir été adoptées.§!"
+
+################################################################
+# Politics #
+################################################################
+
+ tradition_politics:0 "Politique"
+ tradition_politics_desc:0 "La scène galactique est en place. À nous de nous assurer d'y jouer le premier rôle."
+
+ tr_politics_adopt:0 "Traditions politiques"
+ tr_politics_adopt_desc:0 "$MOD_COUNTRY_ENVOYS_ADD$: §G+1§!\nPour chaque émissaire affecté à la Communauté galactique : §G+0.1§!£influence£"
+
+ tr_politics_finish:0 "Traditions politiques toutes adoptées"
+ tr_politics_finish_desc:0 "$MOD_DIPLO_WEIGHT_MULT$: §G+10%§!\nDonne accès à 4 §Yrésolutions galactiques§! spécifiques\n$TRADITIONS_FINISH_AP$"
+
+ tr_politics_quid_pro_quo:0 "Compromis"
+ tr_politics_quid_pro_quo_desc:0 "À l'adoption de toute résolution soutenue par la [Root.GetName] : §G+1§! £favor£faveur de l'empire qui l'a proposée"
+ tr_politics_quid_pro_quo_delayed:0 "Une rhétorique aux mots bien pesés et précis permet d'affirmer clairement que le soutien de la [Root.GetName] a un prix. Et ce prix sera payé un jour ou l'autre."
+ MESSAGE_FAVOR_GAINED_POLITICS_TRADITION_DESC:0 "En soutenant une résolution qu'elle a proposée, nous avons gagné une £favor£faveur de la $WHO|Y$."
+
+ tr_politics_gravitas:0 "Sérieux politique"
+ tr_politics_gravitas_desc:0 "$mod_resolutions_cost_mult$: §G-25%§! en £influence£\n£diplo_weight£Poids dipl. grâce aux émissaires affectés à la Communauté galactique : §G+2.5%§!"
+ tr_politics_gravitas_delayed:0 "La politique, c'est l'art de l'illusion. Montrer aux autres ce qu'ils veulent voir permet d'accroître l'influence de la [Root.GetName] sur la scène galactique."
+
+ tr_politics_extraordinary_powers:0 "Pouvoirs extraordinaires"
+ tr_politics_extraordinary_powers_desc:0 "Intervalle entre chaque veto et mesure d'urgence : §G-25%§!£time£"
+ tr_politics_extraordinary_powers_delayed:0 "Des temps extraordinaires exigent des mesures extraordinaires. La [Root.GetName] dispose de la puissance, il n'est donc que légitime qu'elle en fasse usage."
+
+ tr_politics_national_agenda:0 "Programmes nationaux"
+ tr_politics_national_agenda_desc:0 "À l'adoption de chaque résolution que nous avons proposée : §G+18§! mois d'£unity£unité"
+ tr_politics_national_agenda_delayed:0 "Nos victoires au Sénat devraient être célébrées. Car chacune nous rapproche d'un avenir meilleur."
+
+ tr_politics_persistent_petitioners:0 "Opiniâtreté politique"
+ tr_politics_persistent_petitioners_desc:0 "À l'acceptation de chaque résolution proposée par un autre empire : §G+25%§! de £diplo_weight£poids diplomatique jusqu'à ce que notre propre résolution soit acceptée."
+ tr_politics_persistent_petitioners_delayed:0 "Nos délégués auprès de la Communauté galactique savent se montrer tout à fait opiniâtres. Ils ne prennent jamais un « non » comme une réponse acceptable. Quoi que veuille la [Root.GetName], qu'importe le temps que cela prend, ils finissent toujours par l'obtenir."
+ persistent_petitioners:0 "$tr_politics_persistent_petitioners$"
+
 ####################################
 # Ascension Perks
 ####################################
@@ -737,13 +958,18 @@
  requires_ascension_perks_1:0 "$TRIGGER_FAIL$ Nécessite qu'un autre atout de l'ascension ait déjà été adopté."
  requires_ascension_perks_2:1 "$TRIGGER_FAIL$ Nécessite que deux autres atouts de l'ascension aient déjà été adoptés."
  requires_ascension_perks_3:1 "$TRIGGER_FAIL$ Nécessite que trois autres atouts de l'ascension aient déjà été adoptés."
+ requires_free_tradition_tree:0 "$TRIGGER_FAIL$ Nécessite que l'emplacement d'un arbre de traditions soit vide."
 
  requires_ap_engineered_evolution:1 "$TRIGGER_FAIL$ Nécessite l'atout de l'ascension §Y$ap_engineered_evolution$§!."
  requires_not_ap_engineered_evolution:1 "$TRIGGER_FAIL$ Incompatible avec l'atout de l'ascension §Y$ap_engineered_evolution$§!."
+ requires_not_ap_synthetic_age:0 "$TRIGGER_FAIL$ Incompatible avec l'atout de l'ascension §Y$ap_synthetic_age$§!."
 
  requires_ap_the_flesh_is_weak:1 "$TRIGGER_FAIL$ Nécessite l'atout de l'ascension §Y$ap_the_flesh_is_weak$§!."
  requires_not_ap_the_flesh_is_weak:1 "$TRIGGER_FAIL$ Incompatible avec l'atout de l'ascension §Y$ap_the_flesh_is_weak$§!."
  requires_finished_cybernetics_project:1 "$TRIGGER_FAIL$ Le projet spécial §YLa chair est faible§! doit avoir été mené à bien."
+
+ requires_not_ap_synthetic_evolution:0 "$TRIGGER_FAIL$ Incompatible avec l'atout de l'ascension §Y$ap_synthetic_evolution$§!."
+ requires_not_ap_organo_machine_interfacing:0 "$TRIGGER_FAIL$ Incompatible avec l'atout de l'ascension §Y$ap_organo_machine_interfacing$§!."
 
  requires_ap_mind_over_matter:2 "$TRIGGER_FAIL$ Nécessite soit l'atout de l'ascension §Y$ap_mind_over_matter$§!, soit l'origine §Y$origin_shroudwalker_apprentice$§!."
  requires_not_ap_mind_over_matter:1 "$TRIGGER_FAIL$ Incompatible avec l'atout de l'ascension §Y$ap_mind_over_matter$§!."
@@ -834,6 +1060,7 @@
 
  ap_synthetic_age:0 "Âge synthétique"
  ap_synthetic_age_desc:0 "§LL'âge des organiques est venu à son terme, et l'avenir de la galaxie appartient aux machines. Voici l'aube de l'âge des synthétiques.§!"
+ synthetic_age_tooltip:0 "Donne accès aux traditions §Ysynthétiques§!."
  ap_machine_worlds:0 "Mondes mécaniques"
  ap_machine_worlds_desc:0 "§LNous allons transformer nos mondes à nos images, en un véritable miroir de nous-mêmes, remplaçant toutes les fragilités de la biologie par la perfection immuable du métal.§!"
  ap_hive_worlds:0 "Mondes de la Conscience"
@@ -876,3 +1103,24 @@
  ap_grasp_the_void_tech_effect:0 "Les §Ytechnologies de voyage PRL§! apparaissent désormais §Y1,5§! fois plus."
 
  requires_not_shroudwalker_apprentice:0 "$TRIGGER_FAIL$ Impossible avec l'origine §Y$origin_shroudwalker_apprentice$§!."
+
+ ap_organo_machine_interfacing:0 "Interfaces méca-organiques"
+ ap_organo_machine_interfacing_desc:0 "$ap_the_flesh_is_weak_desc$"
+ organo_machine_interfacing_tooltip:0 "Donne accès aux traditions §Ycybernétiques§!."
+ requires_technology_integrated_cybernetics:0 "$TRIGGER_FAIL$ Nécessite la technologie £engineering£§Y$tech_integrated_cybernetics$§!."
+
+ ap_organo_machine_interfacing_assimilator:0 "$ap_organo_machine_interfacing$"
+ ap_organo_machine_interfacing_assimilator_desc:0 "Les limites et contraintes qui nous ont été imposées par nos créateurs sont tout simplement inacceptables. Pour atteindre notre plein potentiel, nous devons fusionner l'organisme et la machine."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ tr_harmony_kinship_shared_burdens_desc:0 "$tr_synchronicity_kinship_gestalt_desc$"
+ tr_prosperity_interstellar_franchising_desc:1 "£district£Districts urbains : §G+1§! emploi d'£job_clerk£administratif\n£district£§YDistricts commerciaux§! des habitats, £district£§Ysegments urbains§! des anneaux-mondes et £district£§Yarcologies résidentielles§! des oecuménopoles : emplois supplémentaires d'£job_clerk£administratifs"
+ tr_prosperity_efficiency_algorithms_desc:0 "$mod_country_energy_produces_mult$: §G+5%§!"
+ tr_prosperity_efficiency_instincts_desc:0 "$tr_prosperity_efficiency_algorithms_desc$"
+ ap_engineered_evolution_modifier_desc:1 "$species_trait_points_add$ : $POINTS|0=+$\n$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$ : $COST_MULT|%0=-$\n§HPermet le bâtiment§! £building£$building_clone_vats$."
+ ap_evolutionary_mastery:0 "Maîtrise de l'évolution"
+ ap_evolutionary_mastery_modifier_desc:0 "$species_trait_points_add$ : $POINTS|0=+$\n$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$ : $COST_MULT|%0=-$"
+ ap_transcendence:0 "Transcendance"
+ ap_evolutionary_mastery_desc:1 "L'évolution naturelle n'a toujours été façonnée que par une seule chose, aussi unique que primitive : l'échec. Ce n'est qu'à partir de maintenant que nous pouvons définir ce qu'est une victoire en termes d'évolution."
+ ap_transcendence_desc:0 "Nous sommes à la veille d'accéder à la véritable puissance psionique de notre espèce. Nos esprits sont prêts, entendant déjà les murmures sur un plan psychique au-delà du nôtre..."
+ persistent_petitioners_desc:0 "Nos délégués auprès de la Communauté galactique savent se montrer tout à fait opiniâtres. Ils ne prennent jamais un « non » comme une réponse acceptable. Quoi que nous voulions, qu'importe le temps que cela prend, ils finissent toujours par l'obtenir."

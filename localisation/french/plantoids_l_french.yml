@@ -5,7 +5,7 @@
 
 #
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.5.0 Check OK, 23.09.2022
+# Calvitix 3.6.0 Check OK, 30.11.2022
 #
 
  civic_idyllic_bloom:0 "Fleuraison idyllique"
@@ -73,12 +73,12 @@
 
  trait_plantoid_radiotrophic:0 "Radiotrophe"
  trait_plantoid_radiotrophic_desc:0 "§LCette espèce s'alimente autant par la nourriture que par les radiations à basse énergie, ce qui lui permet de vivre jusque sur les mondes les plus inhospitaliers.§!"
- TRAIT_PLANTOID_RADIOTROPHIC_EFFECT:0 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\nLes pops vivant sur les §Ymondes morts§! n'ont aucun entretien en £energy£§Yénergie§!.\nDéveloppement des £pop£pops sur les §Ymondes morts§! : §G+10%§!\nHabitabilité des §Ymondes morts§! : §G+10%§!"
+ TRAIT_PLANTOID_RADIOTROPHIC_EFFECT:1 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\n(Ce coût en £energy£§Yénergie§! disparaît pour les £pop£pops vivant sur les §Ymondes morts§!.)\nDéveloppement des £pop£pops sur les §Ymondes morts§! : §G+10%§!\nHabitabilité des §Ymondes morts§! : §G+10%§!"
  trait_harvested_radiotrophic:0 "$trait_plantoid_radiotrophic$"
  trait_harvested_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
  trait_lithoid_radiotrophic:0 "$trait_plantoid_radiotrophic$"
  trait_lithoid_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
- TRAIT_LITHOID_RADIOTROPHIC_EFFECT:0 "Remplace §Y50%§! de l'entretien de base en £minerals£§Yminéraux§! par un entretien en £energy£§Yénergie§!.\nLes £pop£pops vivant sur les §Ymondes morts§! n'ont aucun coût d'entretien en £energy£§Yénergie§!.\nVit. de développement des £pop£pops sur les §Ymondes morts§! : §G+10%§!\n$mod_pc_nuked_habitability$: §G+10%§!"
+ TRAIT_LITHOID_RADIOTROPHIC_EFFECT:1 "Remplace §Y50%§! de l'entretien de base en £minerals£§Yminéraux§! par un entretien en £energy£§Yénergie§!.\n(Ce coût en £energy£§Yénergie§! disparaît pour les £pop£pops vivant sur les §Ymondes morts§!.)\nVit. de développement des £pop£pops sur les §Ymondes morts§! : §G+10%§!\n$mod_pc_nuked_habitability$: §G+10%§!"
 
  trait_plantoid_budding:0 "Bourgeonnement"
  trait_plantoid_budding_desc:0 "§LOutre la fertilisation plus commune par les graines ou les spores, cette espèce est capable de se reproduire par bourgeonnement.§!"
@@ -86,6 +86,17 @@
  trait_lithoid_budding_desc:0 "§LOutre les méthodes de reproduction plus habituelles, cette espèce est capable de générer des copies autoréplicantes d'elle-même par cristallisation.§!"
  TRAIT_PLANTOID_BUDDING_EFFECT:1 "Pour chaque £pop£pop ayant au moins le statut d'£pop_cat_slave£esclaves : £mod_pop_growth_speed£$MOD_PLANET_POP_ASSEMBLY_ORGANIC_ADD$: +0.02\n\nCela s'ajoute aux autres sources d'assemblage mensuel des pops organiques, telles que les £building£§Hcuves à clones§! ou les £job_spawning_drone£§Hdrones de reproduction§!."
  TRAIT_LITHOID_BUDDING_EFFECT:0 "$TRAIT_PLANTOID_BUDDING_EFFECT$\n\nLe trait §H$trait_lithoid$§! modifie les effets de celui-ci."
+
+ trait_advanced_phototrophic:0 "$trait_plantoid_phototrophic$"
+ trait_advanced_phototrophic_desc:0 "§LGrâce aux avancées en ingénierie génétique, cette espèce s'alimente désormais en partie par les rayonnements stellaires.§!"
+ TRAIT_ADVANCED_PHOTOTROPHIC_EFFECT:0 "Remplace §Y50%§! de l'entretien en £food£§Ynourriture§! ou £minerals£§Yminéraux§! par de l'entretien en £energy£§Yénergie§!."
+
+ trait_advanced_radiotrophic:0 "$trait_plantoid_radiotrophic$"
+ trait_advanced_radiotrophic_desc:0 "§LGrâce aux avancées en ingénierie génétique, cette espèce s'alimente désormais en partie par les radiations à basse énergie, ce qui lui permet de vivre jusque sur les mondes les plus inhospitaliers.§!"
+ TRAIT_ADVANCED_RADIOTROPHIC_EFFECT:0 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\n(Ce coût en £energy£§Yénergie§! disparaît pour les £pop£pops vivant sur les §Ymondes morts§!.)"
+ 
+ trait_advanced_budding:0 "$trait_plantoid_budding$"
+ trait_advanced_budding_desc:0 "§LOutre des méthodes plus conventionnelles, les changements apportés à son ADN permettent à cette espèce de se reproduire par bourgeonnement.§!"
 
 ### Catalytic Processing by Byron Aytoun
 

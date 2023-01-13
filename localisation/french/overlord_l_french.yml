@@ -125,18 +125,23 @@
  mod_shipsize_offspring_cruiser_build_speed_mult:0 "Vit. de constr. des croiseurs progénitaires "
  mod_shipsize_offspring_battleship_build_speed_mult:0 "Vit. de constr. des cuirassés progénitaires "
 
- mod_shipsize_offspring_corvette_hull_add:0 "Points de coque des corvettes progénitaires "
- mod_shipsize_offspring_destroyer_hull_add:0 "Points de coque des destroyers progénitaires "
- mod_shipsize_offspring_cruiser_hull_add:0 "Points de coque des croiseurs progénitaires "
- mod_shipsize_offspring_battleship_hull_add:0 "Points de coque des cuirassés progénitaires "
+ mod_shipsize_offspring_corvette_hull_add:0 "Coque des corvettes progénitaires "
+ mod_shipsize_offspring_destroyer_hull_add:0 "Coque des destroyers progénitaires "
+ mod_shipsize_offspring_cruiser_hull_add:0 "Coque des croiseurs progénitaires "
+ mod_shipsize_offspring_battleship_hull_add:0 "Coque des cuirassés progénitaires "
+
+ mod_shipsize_offspring_corvette_hull_mult:0 "Coque des corvettes progénitaires "
+ mod_shipsize_offspring_destroyer_hull_mult:0 "Coque des destroyers progénitaires "
+ mod_shipsize_offspring_cruiser_hull_mult:0 "Coque des croiseurs progénitaires "
+ mod_shipsize_offspring_battleship_hull_mult:0 "Coque des cuirassés progénitaires "
 
  ##########################
  # Subterranean origin
  ##########################
 
  origin_subterranean:0 "Souterraine"
- origin_subterranean_desc:0 "Que ce soit pour éviter les prédateurs ou disposer d'un accès plus aisé aux ressources, cette espèce a su évoluer pour vivre sous la surface de son monde natal, donnant naissance à une société plus polyvalente au niveau environnemental."
- origin_tooltip_subterranean_effects:2 "- Lance la partie avec le trait §Y$trait_cave_dweller$§! ;\n- les £district£§Hdistricts miniers§! :\n   - ne sont plus limités,\n   - ajoutent §G2§! £housing£§Ylogements§!,\n   - ajoutent §G1§! £building£§Yemplacement constructible§! par palier de §Y3§! ;\n- l'espèce construit des cités souterraines, conférant :"
+ origin_subterranean_desc:1 "Les raisons de la migration sont perdues au-delà de toute mémoire. Peut-être était-ce pour échapper aux prédateurs, ou par désir d'acquérir des ressources ? Quoi qu'il en soit, cette espèce a su évoluer pour vivre sous la surface de son monde natal, donnant naissance à une société plus polyvalente au niveau environnemental."
+ origin_tooltip_subterranean_effects:3 "- Lance la partie avec le trait §H$trait_cave_dweller$§! ;\n- les £district£§Hdistricts miniers§! :\n   - ne sont plus limités,\n   - ajoutent §G2§! £housing£§Hlogements§!,\n   - ajoutent §G1§! £building£§Hemplacement constructible§! par palier de 3 ;\n- l'espèce construit des cités souterraines, conférant :"
  trait_cave_dweller:0 "Habitants des cavernes"
  trait_cave_dweller_desc:0 "§LCette espèce prospère sous la surface de tous les mondes qu'elle colonise, mais se développe moins rapidement.§!"
  trait_cave_dweller_tooltip:0 "$MOD_BIO_POP_GROWTH_SPEED$: §R-20%§!"
@@ -155,7 +160,7 @@
  origin_shroudwalker_apprentice_desc:1 "Longtemps avant qu'elle ne fasse son apparition sur la scène galactique, cette civilisation était guidée et façonnée par une assemblée de Pérégrins du Suaire."
  START_SCREEN_SHROUDWALKER_APPRENTICE:1 "Les mythes se rapportant à nos aïeux parlent des Maîtres, des êtres d'un grand savoir et d'une grande puissance qui contribuèrent à façonner la civilisation [GetSpeciesName] naissante. Par l'intermédiaire de nos rêves, ils s'adressèrent de loin à nous, partageant leur connaissance du Suaire et de ses enseignements.\n\nOr, les Maîtres nous ont de nouveau contactés. Semant dans nos rêves des visions fantasmagoriques, ils nous ont fourni la clef du voyage interstellaire. En quelques années seulement, la [GetName] a pu construire des vaisseaux capables de traverser le néant.\n\nMais jusqu'où est-il possible d'aller désormais ? Les Maîtres ont fait à plusieurs reprises référence à « une percée dans le Suaire », un trou de ver naturel qui se trouverait à la bordure de leur système natal, qui nous offre un chemin direct pour les rejoindre. Puissent-ils continuer de nous conférer leur sagesse tandis que nous nous aventurons pour la première fois sur la scène galactique."
  START_SCREEN_SHROUDWALKER_APPRENTICE_CORPORATE:0 "Les fondateurs de notre Église ont beaucoup écrit sur les Maîtres, des êtres d'un grand savoir et d'une grande puissance qui contribuèrent à façonner les premiers écrits sacrés des [GetSpeciesNamePlural]. Par l'intermédiaire de nos rêves, ils s'adressèrent de loin à nous, partageant leur connaissance du Suaire sacré.\n\nOr, les Maîtres nous ont de nouveau contactés. Semant dans nos rêves des visions fantasmagoriques, ils nous ont fourni la clef du voyage interstellaire. En quelques années seulement, la [GetName] a pu construire des vaisseaux capables de propager la sainte vérité à travers les étoiles.\n\nMais notre ambition ne doit pas s'arrêter là. Les Maîtres ont fait à plusieurs reprises référence à « une percée dans le Suaire », un trou de ver naturel qui se trouverait à la bordure de leur système natal. Si nous pouvons faire apparaître ce passage sacré, nous disposerons d'une voie d'accès directe à nos Maîtres. Puissent-ils continuer de nous conférer leur sagesse tandis que nous nous aventurons pour la première fois sur la scène galactique."
- origin_tooltip_shroudwalker_apprentice_effects:1 "- Reçoit le trait §H$trait_latent_psionic$§! ;\n- dispose de la capacité de construire un §HFlambeau du Suaire§! sur une base stellaire ;\n- lance la partie en étant en contact avec une §Henclave de Pérégrins du Suaire§!."
+ origin_tooltip_shroudwalker_apprentice_effects:2 "§R- ATTENTION ! Bloque toute ascension à l'exception du chemin §Hpsionique§! ;§!\n- reçoit le trait §H$trait_latent_psionic$§! ;\n- dispose de la capacité de construire un §HFlambeau du Suaire§! sur une base stellaire ;\n- lance la partie en étant en contact avec une §Henclave de Pérégrins du Suaire§!."
 
  origin.5605.name:0 "Disciples fidèles"
  origin.5605.generic.desc:1 "Disciples, des générations durant nous vous avons instruits, parsemant dans vos rêves notre savoir sur le Suaire et ses mystères. Maintenant que vous avez atteint les étoiles, votre apprentissage véritable approche. Le chemin qui vous attend ne sera pas aisé. Pour l'éclairer, nous vous permettons de connaître le Flambeau du Suaire, un dispositif d'une grande puissance. Une fois construit sur l'une de vos bases stellaires, il fera apparaître une percée dans le Suaire. Choisissez avec grand soin son emplacement, car vous ne pourrez ouvrir d'autres passages semblables.\n\nDans les périodes de besoin et d'incertitude, appelez-nous. Nous veillerons dans vos rêves. Et dans le plan matériel, nous attendrons votre arrivée."
@@ -179,7 +184,7 @@
  ################################
 
  origin_star_slingshot:0 "Fronde stellaire"
- origin_star_slingshot_desc:0 "Les cieux surplombant cette civilisation ont été illuminés par les étoiles filantes, avant que survienne une longue période d'obscurité. Depuis lors, elle aspire à atteindre le ciel pour y trouver des réponses, en commençant par s'intéresser à ce qui s'est avéré être une catapulte quantique abandonnée."
+ origin_star_slingshot_desc:1 "Les cieux surplombant cette civilisation étaient autrefois illuminés par les étoiles filantes, avant que survienne une longue période d'obscurité. Parties à la recherche de réponses, les premières explorations ont révélé la présence d'une catapulte quantique depuis abandonnée."
  START_SCREEN_STAR_SLINGSHOT:0 "Aussi loin que remonte la mémoire des [GetSpeciesNamePlural], nous avons pu voir de temps à autre les cieux être illuminés par d'innombrables étoiles filantes. Jusqu'à il y a peu, nos scientifiques étaient incapables d'expliquer ce phénomène. Mais nous avons commencé à explorer la galaxie, et avons désormais tous les outils à notre disposition pour trouver la source de ces perturbations célestes. Il s'agit d'une structure antique, que les ingénieurs nomment une « catapulte quantique ».\n\n$START_SCREEN_STAR_SLINGSHOT_SECOND_PART$"
  START_SCREEN_STAR_SLINGSHOT_GESTALT:0 "Aussi loin que remonte la mémoire de la Conscience [GetSpeciesName], nous avons pu voir de temps à autre les cieux être illuminés d'innombrables étoiles filantes, sans comprendre pourtant quelle pouvait être la cause de ce phénomène mystérieux. Mais à mesure que nous nous sommes libérés de l'entrave qu'est [GetHomeWorldName], nous avons acquis les outils indispensables pour trouver la source de ces lumières : une catapulte quantique.\n\n$START_SCREEN_STAR_SLINGSHOT_SECOND_PART$"
  START_SCREEN_STAR_SLINGSHOT_SECOND_PART:0 "Si elle est désaffectée, en partie en ruine, et abandonnée, nous sommes persuadés qu'elle pourrait être restaurée. Et si elle fonctionne bien comme nous l'imaginons, elle pourrait être le portail qui nous permettra d'atteindre le reste de la galaxie."
@@ -219,7 +224,7 @@
  # Imperial Vassal Origin #
  ##########################
  origin_imperial_vassal:0 "Fief impérial"
- origin_imperial_vassal_desc:0 "Nos premiers pas au-delà de notre planète natale ont été douloureux. Nous avons été assujettis, soumis aux caprices d'une puissance galactique alien. Mais nos regards se portent désormais vers un avenir, aussi lointain soit-il, dans lequel nous ne devrons plus vivre sous le joug d'un autre empire."
+ origin_imperial_vassal_desc:1 "Nos premiers pas au-delà de notre planète natale ont été douloureux. Nous avons été soudainement et brutalement assujettis, soumis aux caprices d'une puissance galactique alien. Mais nos regards se portent désormais vers un avenir dans lequel nous n'aurons plus à vivre sous le joug d'un autre empire."
  START_SCREEN_IMPERIAL_VASSAL:0 "Alors même que nous nous apprêtions à sortir de notre système natal pour la première fois, nous sommes entrés en contact avec un empire alien qui exigea des [GetSpeciesNamePlural] la soumission. Si c'est un souvenir douloureux pour nous, nous avons beaucoup appris depuis que nous nous sommes soumis, la relation avec notre puissance suzeraine s'avérant plus bénéfique que nous aurions pu l'espérer.\n\nDe fait, la [GetName] n'est pas la seule à devoir se soumettre, et nous avons ainsi pu rencontrer des diplomates et ambassadeurs de plusieurs autres dépendances. Et si nous ne sommes pas toujours pleinement en accord avec certains d'entre eux, ils devraient pour l'heure être des alliés utiles.\n\nEt si nous aspirons à être un jour capables de décider par nous-mêmes de notre avenir, nous nous contenterons pour l'instant de rester loyaux, afin de tirer les plus grands avantages de la situation qui nous a été imposée."
  origin_tooltip_imperial_vassal_effects:0 "- Lance la partie comme vassale d'un §Hempire I.A. avancé§! ;\n- a la possibilité de devenir une §Hdépendance spécialisée§! au lancement."
 

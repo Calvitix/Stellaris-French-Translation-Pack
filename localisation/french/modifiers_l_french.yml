@@ -3,7 +3,7 @@
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
  #
- # Update check 3.5.0 : 23.09.2022
+ # Update check 3.6.0 : 30.11.2022
  # exemple de modifs : points de coque --> coque
  ####################################
 
@@ -12,11 +12,13 @@
  ####################################
 
  #Federation
+ MOD_FEDERATION_EXPERIENCE_ADD:0 "Expérience fédérale mensuelle "
  MOD_FEDERATION_COHESION_ADD:0 "Cohésion mensuelle "
  MOD_FEDERATION_COHESION_ETHICS_PENALTY_MULT:0 "Pénalité en cohésion pour question éthique "
  MOD_FEDERATION_FLEET_COUNTRIBUTION_FACTOR:0 "Contribution à la flotte "
  MOD_FEDERATION_JOIN_MALUS_MULT:0 "Perte de cohésion pour entrée dans la fédération "
  MOD_FEDERATION_LEAVE_MALUS_MULT:0 "Perte de cohésion pour départ de la fédération "
+ MOD_FEDERATION_ENVOY_COHESION_EFFECT_MULT:0 "Cohésion fédérale grâce aux émissaires "
 
  #Country
  MOD_BLANK_MODIFIER:0 "Modificateur vide"
@@ -254,8 +256,10 @@
  MOD_SHIP_ARMOR_MULT:1 "Blindage "
  MOD_SHIP_SHIELD_DAMAGE_MULT:0 "Dégâts infligés aux boucliers "
  MOD_SHIP_SHIELD_PENETRATION_MULT:0 "Pénétration des boucliers "
+ MOD_SHIP_SHIELD_HARDENING_ADD:0 "Boucliers renforcés "
  MOD_SHIP_ARMOR_DAMAGE_MULT:0 "Dégâts infligés au blindage "
  MOD_SHIP_ARMOR_PENETRATION_MULT:0 "Pénétration du blindage "
+ MOD_SHIP_ARMOR_HARDENING_ADD:0 "Blindage renforcé "
  MOD_SHIP_BASE_SPEED_MULT:0 "Vitesse de base des vaisseaux "
  MOD_SHIP_SPEED_MULT:0 "Vitesse "
  MOD_SHIP_LANDING_TIME_MULT:0 "Délai d'atterrissage "
@@ -296,6 +300,7 @@
  MOD_SHIP_COMBAT_SPEED_MULT:2 "Vitesse de combat "
  MOD_SHIP_DISENGAGE_CHANCE_MULT:0 "Chances de pouvoir se désengager "
  MOD_SHIP_DISENGAGE_CHANCE_REDUCTION:0 "Réduction des chances de désengagement "
+ MOD_SHIP_DISENGAGE_OPPORTUNITIES_ADD:0 "Opportunités de désengagement "
  MOD_SHIP_EVASION_MULT:0 "Évitement "
  MOD_SHIP_EVASION_ADD:1 "Chances d'évitement "
  MOD_SHIP_ACCURACY_MULT:0 "Précision "
@@ -405,6 +410,8 @@
  MOD_PLANET_BORDER_MULT:0 "Extension des frontières autour des planètes "
  MOD_COUNTRY_BORDER_FRICTION_MULT:0 "Frictions frontalières "
  MOD_PLANET_BUILDING_BUILD_SPEED_MULT:1 "Vitesse de construction planétaire "
+ MOD_PLANETARY_ASCENSION_EFFECT_MULT:0 "Effets de l'ascension planétaire "
+ MOD_PLANETARY_ASCENSION_COST_MULT:0 "Coût de l'ascension planétaire "
  mod_planet_structures_cost_mult:0 "Coût des £building£bâtiments et £district£districts "
  mod_planet_structures_upkeep_mult:0 "Maintenance des bâtiments et districts "
  mod_planet_buildings_cost_mult:0 "Coût des £building£bâtiments "
@@ -655,6 +662,7 @@
  # Dynamic Modifiers
  ####################################
 
+ mod_resolution_category_divinity_vote_strength_mult:0 "Vote en faveur des résolutions liées à la sacralité de la vie "
  mod_pop_ethic_pacifist_attraction_mult:1 "Attractivité de l'éthique pacifiste "
  mod_pop_ethic_militarist_attraction_mult:1 "Attractivité de l'éthique militariste "
  mod_pop_ethic_materialist_attraction_mult:1 "Attractivité de l'éthique matérialiste "
@@ -687,6 +695,7 @@
  mod_shipsize_cruiser_build_speed_mult:0 "Vitesse de construction des croiseurs "
  mod_shipsize_battleship_build_speed_mult:0 "Vitesse de construction des cuirassés "
  mod_shipsize_colonizer_build_speed_mult:0 "Vitesse de construction des vaisseaux coloniaux "
+ mod_shipsize_frigate_build_speed_mult:0 "Vitesse de construction des frégates "
 
  mod_ship_corvette_cost_mult:0 "Coût des corvettes "
  mod_ship_destroyer_cost_mult:0 "Coût des destroyers "
@@ -703,10 +712,14 @@
  mod_ship_terraform_station_cost_mult:0 "Coût des stations de terraformation "
  mod_ship_wormhole_station_cost_mult:0 "Coût des stations trou de ver "
  mod_ship_observation_station_cost_mult:0 "Coût des stations d'observation "
+ mod_ship_frigate_cost_mult:0 "Coût des frégates "
 
  mod_shipsize_corvette_upkeep_mult:0 "Entretien des corvettes"
  mod_shipsize_corvette_hull_mult:0 "Coque des corvettes"
  mod_shipsize_corvette_hull_add:0 "$mod_shipsize_corvette_hull_mult$"
+
+ mod_shipsize_frigate_hull_add:0 "Coque des frégates"
+ mod_shipsize_frigate_hull_mult:0 "$mod_shipsize_frigate_hull_add$"
 
  mod_shipsize_destroyer_upkeep_mult:0 "Entretien des destroyers"
  mod_shipsize_destroyer_hull_mult:0 "Coque des destroyers"
@@ -739,7 +752,7 @@
  mod_shipsize_observation_station_upkeep_mult:0 "Entretien des stations d'observation"
 
  mod_ship_military_station_small_cost_mult:0 "Coût de construction des plateformes de défense"
- mod_shipsize_military_station_small_upkeep_mult:0 "Entretien des plateformes de défense"
+ mod_ship_military_station_small_upkeep_mult:1 "Entretien des plateformes de défense"
  mod_shipsize_military_station_small_hull_mult:0 "Coque des plateformes de défense"
  mod_shipsize_military_station_small_hull_add:0 "$mod_shipsize_military_station_small_hull_mult$"
  mod_shipsize_military_station_small_build_speed_mult:0 "Vitesse de construction des plateformes de défense"
@@ -762,6 +775,10 @@
  mod_weapon_type_strike_craft_weapon_fire_rate_mult:0 "Cadence de tir des appareils de combat"
  mod_weapon_type_strike_craft_speed_mult:0 "Vitesse des appareils de combat"
  mod_weapon_swarm_weapon_fire_rate_mult:0 "Vit. d'attaque des armes de l'essaim préthoryn "
+ mod_weapon_type_space_fauna_weapon_damage_mult:0 "Dégâts causés par la faune spatiale "
+ mod_weapon_type_space_fauna_weapon_fire_rate_mult:0 "Cadence des attaques de la faune spatiale "
+
+ mod_shroud_delve_cooldown:0 "Attente entre les visites du Suaire "
 
  #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
  #vultaum_asteroid_category_research_fail_risk_mult: "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
@@ -1553,11 +1570,11 @@
  mod_BIOLOGICAL_species_trait_points_add:0 "$species_trait_points_add$"
  mod_pc_machine_habitability:0 "Habitabilité des mondes mécaniques"
  mod_pc_hive_habitability:0 "Habitabilité des mondes de la Conscience"
- MOD_POSTFIX_PERCENT:0 "§G%§!"
+ MOD_POSTFIX_PERCENT:1 "%"
 
  SPECIES_TRAIT_PICKS:0 "Choix de traits d'espèce"
  mod_BIOLOGICAL_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ organique "
- mod_MECHANICAL_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ mécanique "
+ mod_ROBOT_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ mécanique "
  mod_MACHINE_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ artificielle "
  mod_HUM_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ humanoïde "
  mod_MAM_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ mammalienne "
@@ -1572,6 +1589,9 @@
 
  MOD_COUNTRY_SENSOR_RANGE_ADD:0 "Portée des capteurs de l'empire"
  MOD_SHIP_SENSOR_RANGE_ADD:0 "Portée des capteurs "
+
+ MOD_GOVERNMENT_ELECTION_YEARS_ADD:0 "Durée des mandats électifs "
+ MOD_GOVERNMENT_ELECTION_YEARS_MULT:0 "$MOD_GOVERNMENT_ELECTION_YEARS_ADD$"
 
  MOD_COUNTRY_IMMIGRATION_PULL_ADD:0 "Incitations à immigrer dans l'empire"
  MOD_COUNTRY_IMMIGRATION_PULL_MULT:0 "$MOD_COUNTRY_IMMIGRATION_PULL_ADD$"
@@ -1613,3 +1633,6 @@
  MOD_CATAPULT_RANGE_MULT:0 "Portée de la catapulte quantique "
  mod_quantum_catapult_megastructure_bypass_windup_mult:0 "Temps de rechargement de la catapulte quantique "
 
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ mod_MECHANICAL_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ mécanique"

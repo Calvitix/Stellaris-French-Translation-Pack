@@ -1,7 +1,7 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.5 Check OK, 23/09/2022
+# Calvitix 3.6 Check OK, 30/11/2022
 #
 
  vo_aquatics_voice:0 "Aquatique"
@@ -9,7 +9,7 @@
  trait_aquatic:0 "Aquatique"
  trait_aquatic_desc:0 "§LCette espèce est parfaitement adaptée à la vie au plus profond des océans. Mais, sur la terre ferme, ses membres sont comme un poisson sorti de l'eau...§!\n"
  trait_aquatic_tooltip:2 "Sur les mondes §Yocéaniques§! et les §Yhabitats inondés§! :\n  £housing£Logements nécessaires : §G-10%§!\n Prod. de £food£nourriture, £energy£énergie et £minerals£minéraux : §G+10%§!\nSur les mondes §Ynon humides§! :\n  £housing£Logements nécessaires : §R+30%§!\n  Habitabilité : §R-20%§!\n\nL'atout de l'ascension §H$ap_hydrocentric$§! renforce les effets de ce trait."
- trait_aquatic_remove_evolutionary_mastery:0 "§RNécessite l'atout de l'ascension §Y$ap_evolutionary_mastery$§! pour être retiré.§!"
+ trait_aquatic_remove_evolutionary_mastery:1 "§RNécessite la tradition §Y$tr_genetics_resequencing$§! pour être retiré.§!"
  trait_aquatic_remove_hydrocentric:0 "§RLe trait §Y$trait_aquatic$§! ne peut être retiré après avoir choisi l'atout de l'ascension §Y$ap_hydrocentric$§!.§!"
 
  leader_trait_aquatic_admiral:0 "Aquatique"
@@ -33,15 +33,17 @@
  aquatics.105.desc.origin_machine:0 "$aquatics.105.desc.origin_start$\n\nAlors que nos processeurs se recalibrent pour prendre en compte les conséquences de notre action, il est surprenant de constater la quantité de mises à jour que nous devons maintenant implémenter. Le dragon, toujours présent, avait un impact considérable dans notre programmation, obligeant à des milliards de sauvegardes de sécurité pour palier l'imprévisibilité de ses actes, et il faudra du temps pour résoudre tout cela. Mais, d'un autre côté, cette menace formidable est désormais annihilée, aussi pouvons-nous regarder vers l'avenir où nous pourrons tout faire, où aucun obstacle ne nous paraîtra insurmontable pour atteindre nos ambitions."
  aquatics.105.desc.others:0 "Nous avons tué le dragon protégeant le système de [dragon_system.GetName] ! Le combat a été rude, mais il ne pouvait rien face à la puissance de nos flottes. Désormais, les habitants de [dragon_planet.GetName] combattront leurs ennemis sur un pied d'égalité, ne pouvant plus se reposer sur la certitude que nul ne pourra franchir leur dragon.\n\nSon cadavre est une véritable mine d'informations pour les [This.GetScientistPlural], et ils espèrent pouvoir trouver un moyen de reproduire de manière synthétique les écailles si résistantes de la créature."
  aquatics.105.A:0 "Voyons quels secrets recèlent ses restes"
+ aquatics.105.A.tooltip:0 "Le trait §Y$trait_drake_scaled$§! sera accessible avec la technologie £society£§Y$tech_leviathan_transgenesis$§!."
 
  aquatics.110.name:0 "Mort du dragon céleste"
  aquatics.110.desc:0 "Les flottes de la [From.GetName] ont tué le dragon céleste ! Et la conséquence la plus immédiate en est que §Y[dragon_planet.GetName]§! est désormais vulnérable à ses attaques..."
  aquatics.110.A:0 "Misère !"
  aquatics.115.name:0 "Dragon céleste ranimé"
- aquatics.115.desc:0 "Fidèles à leurs promesses, les nécromanciens ont ramené le dragon céleste du système de [dragon_system.GetName] à la vie. S'il paraît quelque peu étrange ainsi (mais à quoi s'attendre d'autre avec une telle créature ramenée de la mort ?) il attend désormais nos ordres."
+ aquatics.115.desc.regular:0 "Fidèles à leurs promesses, les nécromanciens ont ramené le dragon céleste du système de §Y[dragon_system.GetName]§! à la vie. S'il paraît quelque peu étrange ainsi (mais à quoi s'attendre d'autre avec une telle créature ramenée de la mort ?) il attend désormais nos ordres."
+ aquatics.115.desc.hive:0 "Contrôler le §Hdragon céleste§! a toujours fait partie de nos projets, et des drones ont été spécifiquement évolués pour y parvenir. Si le processus d'infestation a requis une certaine adaptation, nous sommes désormais le dragon céleste, tout comme il est nous. Maintenant que ses connaissances et son expérience ont intégré notre Conscience, nous sommes prêts à faire face à n'importe lequel de ses congénères."
  aquatics.115.A:0 "Nos ennemis apprendront à craindre son souffle !"
  REANIMATE_ORIGIN_DRAGON:0 "Ranimer le dragon céleste"
- REANIMATE_ORIGIN_DRAGON_DESC:0 "Si le dragon du système de [dragon_system.GetName] est mort, les nécromanciens nous assurent que cela ne devrait bientôt plus être le cas. Selon eux, il devrait être possible de très vite pouvoir le remettre en état, tout en le conservant dans l'obéissance la plus absolue."
+ REANIMATE_ORIGIN_DRAGON_DESC:1 "Si le dragon du système de [dragon_system.GetName] est mort, les [From.Owner.GetNecromancersLower] nous assurent que cela ne devrait bientôt plus être le cas. Selon eux, il devrait être possible de très vite pouvoir le ranimer, tout en le conservant dans l'obéissance la plus absolue."
  slew_origin_dragon:0 "Tueurs du dragon éternel"
  slew_origin_dragon_desc:0 "Depuis des temps immémoriaux, un dragon errait dans notre système natal. Mais nous l'avons tué. Nous sommes libérés de cette menace, et plus rien ne se mettra en travers de notre route pour nous empêcher d'atteindre nos buts."
 
@@ -221,7 +223,7 @@
  # Ocean Paradise Origin
  origin_ocean_paradise:0 "Paradis océanique"
  origin_ocean_paradise_desc:0 "Depuis son apparition, cette civilisation a joui de la paix au sein d'un environnement généreux, sans ennemis naturels. Cela lui a assuré une croissance et une opulence sans limites."
- origin_ocean_paradise_effects:0 "- Le monde natal est un §Hmonde océanique§! d'une taille de §Y30§!£planetsize£ riche de dépôts de £food£§Hnourriture§! et offrant des avantages liés au £happiness£§Hbonheur§!, à la §Hvitesse de développement des £pop£pops§! et à leur §Hproduction§!.\n- Les mondes habitables garantis sont tous des §Hmondes gelés§!."
+ origin_ocean_paradise_effects:1 "- Le monde natal est un §Hmonde océanique§! d'une taille de §Y30§!£planetsize£ riche de dépôts de £food£§Hnourriture§! et offrant des avantages liés au £happiness£§Hbonheur§!, à la §Hvitesse de développement des £pop£pops§! et à leur §Hproduction§! ;\n- les mondes habitables garantis sont tous des §Hmondes gelés§!."
 
  START_SCREEN_OCEAN_PARADISE:0 "Une maxime de [GetHomeWorldName] dit : « Heureux ceux qui ont la sagesse d'accepter ». L'abondance de la vie nous entoure, si l'on apprend à l'apprécier. Dans de telles eaux, les [GetSpeciesNamePlural] ont longtemps prospéré.\n\nMais les anciens se sont faits les défenseurs de la stagnation. Ils prennent nos instincts de survie pour de l'impatience. Pourtant, si nous ne cherchons pas le changement, c'est le changement qui nous trouvera, et nous y serons alors confrontés sans y être préparés. Nous ne pouvons être seuls dans cet univers si immense. Si nous voulons conserver notre foyer, certains [GetSpeciesNamePlural] doivent se résoudre à le quitter.\n\nLes plongées jusqu'au plus profond des abysses se sont avérées extrêmement profitables. Des épaves venues d'autres mondes, récupérées au prix des plus grands dangers, ont permis une suite interrompue d'avancées technologiques. Et, maintenant, nous sommes prêts à voyager au-delà de nos océans liquides, pour explorer, voir, apprendre et protéger depuis la mer des étoiles."
  START_SCREEN_OCEAN_PARADISE_HIVE:0 "Une maxime de [GetHomeWorldName] dit : « Heureux qui a la sagesse d'accepter ». L'abondance de la vie nous entoure, si l'on apprend à l'apprécier. Dans de telles eaux, les [GetSpeciesNamePlural] ont longtemps prospéré.\n\nMalheureusement, la stagnation nous menace. Pourtant, si nous ne cherchons pas le changement, c'est le changement qui nous trouvera, et nous y serons alors confrontés sans y être préparés. Nous ne pouvons être seuls dans cet univers si immense. Si nous voulons conserver notre foyer, certains d'entre nous doivent se résoudre à le quitter.\n\nLes plongées jusqu'au plus profond des abysses se sont avérées extrêmement profitables. Des épaves venues d'autres mondes, récupérées au prix des plus grands dangers, ont permis une suite interrompue d'avancées technologiques. Et, maintenant, nous sommes prêts à voyager au-delà de nos océans liquides, pour explorer, voir, apprendre et protéger depuis la mer des étoiles."
@@ -239,7 +241,7 @@
  civic_anglers_desc:0 "Toujours très adroite à tirer le plus grand parti des bienfaits de la nature, cette société s'assure de toujours disposer d'un apport stable en nourriture et de ressources économiques."
  civic_corporate_anglers:0 "$civic_anglers$"
  civic_corporate_anglers_desc:0 "$civic_anglers_desc$"
- civic_tooltip_anglers_effects:2 "Sur les mondes §Hocéaniques§!, le nombre de £district£§Hdistricts agricoles§! n'est pas limité.\nSur les mondes §Yhumides§!, les £job_farmer£§Yfermiers§! sont remplacés par des £job_angler£§Ypêcheurs§! et des £job_pearl_diver£§Ypêcheurs de perles§!.\nLes §Ypêcheurs§! produisent §Y8§! de £food£§Ynourriture§! et §Y2§! de £trade_value£§Yvaleur commerciale§!, et les §Ypêcheurs de perles§! produisent §Y3§! de £consumer_goods£§Ybiens de consommation§! et §Y3§! de £trade_value£§Yvaleur commerciale§!.\nConfère le trait §H$trait_aquatic$§!."
+ civic_tooltip_anglers_effects:3 "Sur les mondes §Hocéaniques§!, le nombre de £district£§Hdistricts agricoles§! n'est pas limité.\nSur les mondes §Yhumides§!, les £job_farmer£§Yfermiers§! sont remplacés par des £job_angler£§Ypêcheurs§! et des £job_pearl_diver£§Ypêcheurs de perles§!.\nLes §Ypêcheurs§! produisent §Y8§! de £food£§Ynourriture§! et §Y2§! de £trade_value£§Yvaleur commerciale§!, et les §Ypêcheurs de perles§! produisent §Y6§! de £consumer_goods£§Ybiens de consommation§! et §Y2§! de £trade_value£§Yvaleur commerciale§!.\nConfère le trait §H$trait_aquatic$§!."
  job_aqu_angler_effect_desc:1 "(les £job_angler£pêcheurs produisent de la £food£§Ynourriture§! et de la £trade_value£§Yvaleur commerciale§!)"
  job_angler:0 "$job_angler_plural$"
  job_angler_plural:0 "Pêcheurs"
@@ -251,5 +253,8 @@
  job_pearl_diver_plural:0 "Pêcheurs de perles"
  job_pearl_diver_desc:0 "Plus attachés à la culture et à la récolte qu'à la plongée, ces spécialistes ramènent des profondeurs de véritables trésors."
  mod_job_pearl_diver_add:0 "Emplois de £job_pearl_diver£pêcheurs de perles "
- job_pearl_diver_effect_desc:0 "(les £job_pearl_diver£pêcheurs de perles produisent des £consumer_goods£§Ybiens de consommation§! et de la £trade_value£§Yvaleur commerciale§!)"
+ job_pearl_diver_effect_desc:1 "les £job_pearl_diver£pêcheurs de perles transforment la $r_food_lower$ et les $r_minerals_lower$ en $r_consumer_goods_lower$ et en $r_trade_value_lower$"
  civic_tooltip_not_anglers:0 "N'a PAS le civisme §Y$civic_anglers$§!"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ aquatics.115.desc:0 "Fidèles à leurs promesses, les nécromanciens ont ramené le dragon céleste du système de [dragon_system.GetName] à la vie. S'il paraît quelque peu étrange ainsi (mais à quoi s'attendre d'autre avec une telle créature ramenée de la mort ?) il attend désormais nos ordres."

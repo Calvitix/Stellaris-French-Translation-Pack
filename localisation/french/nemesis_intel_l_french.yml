@@ -1,7 +1,7 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.5.0 Check OK, 23.09.2022
+# Calvitix 3.6.0 Check OK, 30.11.2022
 #
 
  FIRST_CONTACT:0 "Premier contact avec les $NAME|Y$"
@@ -611,6 +611,7 @@
  first_contact.365.B.tooltip:0 "Il est impossible de prévoir comment les §Y[This.ContactCountry.GetName]§! vont réagir à notre réponse.\n"
  first_contact.365.C:0 "Nous devons préparer la guerre !"
  first_contact.365.C.pacifist:0 "Nous devons nous préparer à l'inévitable..."
+ first_contact.365.C.tooltip:0 "Nous ne ferons rien d'hostile, mais devrions nous tenir prêts en cas d'attaque."
  first_contact.370.name:0 "Réponse des [This.ContactCountry.GetName]"
  first_contact.370.desc1:0 "Notre réponse semble avoir décontenancé les §H[This.ContactCountry.GetName]§!. Aussitôt qu'ils l'ont reçue, ils se sont soudainement tus, et nous avons entendu peu de choses depuis. Nous en sommes réduits à émettre des hypothèses sur ce que cela peut signifier.\n\nEn attendant la suite des événements, les [This.Owner.GetLinguists] sont à l'oeuvre pour traduire le peu que nous savons de leur langage. Avec un peu de chance, une fois qu'ils auront suffisamment progressé, nous pourrons tirer un sens de tout cela."
  first_contact.370.desc2:0 "Les §H[This.ContactCountry.GetName]§! ont répondu à notre défi en augmentant encore, de manière significative, l'intensité de leurs transmissions. Leurs bruits sont désormais trop puissants pour les [This.Owner.GetSpeciesEarNamePlural] des [This.Owner.GetSpeciesNamePlural], mais en baissant énormément le volume les [This.Owner.GetLinguists] peuvent malgré tout rassembler un nombre considérable de données, dont ils sont persuadés qu'elles permettront de traduire cette langue. En supposant, évidemment, que derrière ces bruits se cache véritablement une langue."
@@ -737,6 +738,53 @@
  first_contact.440.desc:0 "Nos efforts ont fini par payer, et nous pouvons maintenant comprendre les signaux lumineux envoyés par les [This.ContactCountry.GetName] afin de communiquer avec eux, au moins de manière rudimentaire. Les [This.ContactCountry.GetSpeciesNamePlural], comme ils s'appellent eux-mêmes, n'ont jamais développé de langue parlée, et utilisent en lieu et place leurs fameuses lumières. Et s'ils possèdent bien une langue écrite, elle est considérée comme bien moins élégante et efficace que leur langage visuel. Leurs cerveaux semblent parfaitement adaptés pour comprendre très rapidement la signification de messages même extrêmement complexes, aussi préfèrent-ils enregistrer cette forme de communication plus que toute autre."
  first_contact.440.A:0 "Voyons donc ce qu'ils ont à nous montrer"
 
+ first_contact.450.name:0 "Poésie"
+ first_contact.450.desc:0 "La lecture des signaux des §H[This.ContactCountry.GetName]§! a suscité une grande excitation chez les [Root.Owner.GetLinguists] : même si pas une seule syllabe ne leur est intelligible, les phonèmes sont indéniablement versifiés, et curieusement apaisants. S'il n'y a encore aucun moyen de le prouver, il semble qu'il s'agisse d'une forme de poésie. Les [Root.Owner.GetLinguists] se proposent donc de répondre de la même manière."
+ first_contact.450.A:0 "Envoyons-leur un chant de guerre !"
+ first_contact.450.A.tooltip:0 "§LIls seront de fiers camarades,\nCeux qui partiront avec nous\nFaisant feu bâbord, tribord,\n$ttt$$ttt$Dans la tornade\n$ttt$$ttt$Des canonnades !\nEn vainqueurs au spatioport\nRentreront ceux qui naviguent à bord.§!" #made up
+ first_contact.450.B:0 "Envoyons de beaux poèmes sur l'exploration"
+ first_contact.450.B.tooltip:0 "§LLa Science à son tour s'avance et nous appelle.\nCe ne sont entre nous que veilles et labeurs.\nEh bien ! Tous nos efforts à sa torche immortelle\n$ttt$$ttt$N'ont arraché que les lueurs.\n\nSans doute elle a rendu nos ombres moins funèbres\nUn peu de jour s'est fait où ses rayons portaient ;\nMais son pouvoir ne va qu'à chasser des ténèbres\n$ttt$$ttt$Les fantômes qui les hantaient.§!"
+ first_contact.450.C:0 "Surprenons-les avec un poème sur l'amour"
+ first_contact.450.C.tooltip:0 "§LComment vanter l'azur ? Ah ! puis-je\nChanter encor les vastes cieux,\nMoi qui chancelle du vertige\nDe voir, dans le bleu de tes yeux,\nLe profond espace !§!"
+ first_contact.450.D:0 "Envoyons-leur du portnawak rimé"
+ first_contact.450.D.tooltip:0 "§L$ttt$« Ô toi, trou noir,\n$ttt$ou tôt ou tard,\nbrûlant ta fière maman\nbrillant au firmament,\n$ttt$d'étoile est né »\n$ttt$détaille l'Aîné.§!"
+ first_contact.450.E:0 "On n'a pas le temps de jouer"
+ first_contact.455.name:0 "Offense"
+ first_contact.455.desc:0 "Plusieurs heures après que nous leur avons envoyé ce chant de guerre, les transmissions des §H[This.ContactCountry.GetName]§! se sont interrompues. Leur vaisseau s'est placé hors de portée de nos armements. Nous pouvons en déduire qu'ils ont compris l'essentiel de notre message, et ne semblent guère s'en réjouir."
+ first_contact.460.name:0 "Échange de chants guerriers"
+ first_contact.460.desc:0 "Quelques minutes après que nous avons transmis ce chant de guerre, les signaux des §H[This.ContactCountry.GetName]§! ont changé. Toujours aussi rythmés, ils ne sont plus apaisants, mais plutôt cadencés et tonitruants. Comme un chant de guerre, là encore. Mais aucun geste hostile de la part de ces xénos, qui paraissent plus ravis qu'offensés par notre poésie.\n\nNous avons donc envoyé plusieurs variations du premier chant, et en retour recevons de nombreux exemplaires de leur propre poésie."
+ first_contact.460.A:0 "Pas à dire, cette espèce est tout à fait sympa !"
+ first_contact.462.name:0 "Mise en pratique des chants de guerre"
+ first_contact.462.desc:0 "Il semble que les §H[This.ContactCountry.GetName]§! se sont sentis offensés par notre chant de guerre. Leur réponse a été quasi instantanée. Et violente. Ils ont commencé à tirer, et nos équipages ont eu la chance d'en réchapper sans blessés. Il semble qu'une guerre est d'ores et déjà déclarée..."
+ first_contact.465.name:0 "Échange de poèmes"
+ first_contact.465.desc:0 "La réponse à notre poème a été enthousiaste : le flot de messages se poursuit sans discontinuer, nous permettant de compiler toute une bibliothèque de compositions poétiques des §H[This.ContactCountry.GetName]§!. Si nous n'avons pas encore compris le sens de leurs mots, ces aliens se sont avérés remarquablement doués pour saisir le ton et l'ambiance de nos propres poèmes, ce qui facilitera sans doute grandement la tâche des [Root.Owner.GetLinguists] pour interpréter tout cela."
+ first_contact.465.A:0 "C'est tout à fait plaisant"
+ first_contact.470.name:0 "Badinages"
+ first_contact.470.desc:0 "Après plusieurs longues minutes de silence, les transmissions des §H[This.ContactCountry.GetName]§! ont repris. Même si elles sont toujours aussi incompréhensibles, elles sonnaient cette fois différemment : une mélodie, que les [Root.Owner.GetLinguists] décrivent comme enjouée, tout en étant presque timide. Étonnamment, il semblerait que ces aliens flirtent avec nous !"
+ first_contact.470.A:0 "C'est embarrassant..."
+ first_contact.470.B:0 "Leur réponse est raisonnablement appropriée"
+ first_contact.472.desc:0 "Quelques minutes d'attente, devenues des heures, et toujours pas de réponse des §H[This.ContactCountry.GetName]§!. Même s'ils n'ont sans doute pas compris le sens exact de ce poème que nous leur avons envoyé, il est possible qu'ils aient été déconcertés par les émotions qui s'y expriment et préfèrent nous approcher désormais de manière bien plus circonspecte."
+ first_contact.474.name:0 "Sonorités aléatoires"
+ first_contact.474.desc:0 "Les §H[This.ContactCountry.GetName]§! nous ont répondu de la même façon : les chants rythmés sont devenus des sonorités aléatoires, semblables à nos propres mots incohérents. Désespérés, les [Root.Owner.GetLinguists] décrivent leurs tentatives pour déchiffrer ces sons comme « entièrement vaines », notamment parce qu'il est désormais impossible de détecter la moindre structure linguistique."
+ first_contact.474.A:0 "Cela va retarder les choses..."
+ first_contact.475.name:0 "Fin des affrontements"
+ first_contact.475.desc:0 "À mesure que nous apprenons à nous connaître, les hostilités avec les [This.ContactCountry.GetName], ou plutôt la §H[This.ContactCountry.GetRealName]§!, ont cessé. En dépit de ses agressions, elle semble nous considérer comme des « guerriers honorables », avec qui elle apprécierait d'échanger à nouveau. Il est difficile de dire, malgré tout, si cela indique le commencement d'une amitié nouvelle, ou le prélude à une guerre. Mais au moins aurons-nous pu réviser nos chants de guerre !"
+ first_contact.475.A:0 "En tout cas, tout cela est bizarre..."
+ first_contact.480.name:0 "Poésie bien interprétée"
+ first_contact.480.desc:0 "Nos efforts ont payé. Les [Root.Owner.GetLinguists] ont pu interpréter les transmissions envoyées par les [This.ContactCountry.GetName], dont nous savons désormais qu'ils sont la §H[This.ContactCountry.GetRealName]§!. D'après le style de leurs compositions, ses habitants confèrent une très grande importance à la poésie. En participant à cet échange lyrique, nous n'avons pas seulement suscité leur admiration, mais aussi appris une quantité de choses considérable sur eux."
+ first_contact.485.name:0 "Énigme décodée"
+ first_contact.485.desc:0 "Au terme d'un processus de premier contact long et ardu, les [Root.Owner.GetLinguists] peuvent désormais affirmer que les [This.ContactCountry.GetName] sont en fait la §H[This.ContactCountry.GetRealName]§!. Celle-ci nous a d'ailleurs félicités d'avoir pu résoudre ses énigmes linguistiques, même si elle paraît quelque peu surprise que cela ait pu nous prendre tant de temps. Mais, au moins, les [Root.Owner.GetLinguists] de la [Root.Owner.GetName] ont ainsi pu élaborer de nouvelles méthodes de reconnaissance de schémas linguistiques, qui devraient nous être fort utiles à l'avenir."
+ first_contact.485.A:0 "Ouf..."
+ first_contact.490.name:0 "Compliments traduits"
+ first_contact.490.desc:0 "Nos efforts ont fini par payer, et nous pouvons désormais interpréter les transmissions des [This.ContactCountry.GetName], dont les [Root.Owner.GetLinguists] peuvent désormais affirmer qu'il s'agit en fait de la §H[This.ContactCountry.GetRealName]§! :\n\n« Ah, l'art si raffiné de la politesse ! Il est tout à fait plaisant de rencontrer une autre espèce qui apprécie les belles paroles, notamment lorsqu'elle est aussi talentueuse et adorable que vous, chers [Root.Owner.GetSpeciesNamePlural]. Vous produisez des [Root.Owner.GetRandomSpeciesSound] tout à fait affriolants. »\n\nLe dernier message continue dans cette veine quelque temps. Nul ne sait si nous devons en être flattés ou nous méfier davantage, mais il semble en tout cas que cette relation a commencé pour le mieux." #the funnier versions of GetSpeciesOrganName are 100% intended
+ first_contact.490.A:0 "Ces gens sont en tout cas charmants"
+
+ first_contact.500.name:0 "Hostilités au premier contact"
+ first_contact.500.desc:0 "Il semblerait que notre réponse était tout à fait inappropriée. Les §H[contact_country.GetName]§! ont répliqué de manière rapide et particulièrement hostile, en commençant aussitôt à tirer sur nos vaisseaux. Visiblement, nous sommes d'ores et déjà en guerre contre ces [contact_country.GetName]..."
+ first_contact.500.A:0 "Tout le monde à son poste !"
+ first_contact.500.A.tooltip:0 "Les §Y[contact_country.GetName]§! sont désormais hostiles à notre égard."
+ first_contact.505.desc:0 "Il est difficile de dire ce qui a déraillé ou pourquoi, mais les §Y[contact_country.GetName]§! nous ont soudainement attaqués. Visiblement, nous sommes d'ores et déjà en guerre contre eux..."
+
  #Random events
  first_contact.5000.name:1 "Signal clair"
  first_contact.5000.desc:2 "Les capteurs ont détecté un signal répétitif, particulièrement clair, émanant des §H[This.ContactCountry.GetName]§!. Il semble pouvoir garantir aux [This.Owner.GetLinguists] une quantité de matière suffisante pour déchiffrer leur langage. Ils sont donc persuadés que cette trouvaille fortuite leur permettra d'enregistrer très vite de réels progrès."
@@ -790,6 +838,25 @@
  first_contact.5055.A:0 "Poursuivons ainsi !"
  first_contact.5065.name:0 "Détection de signaux clairs"
  first_contact.5065.desc:1 "Il a été ardu de rassembler suffisamment d'informations sur les §H[This.ContactCountry.GetName]§! pour permettre aux [This.Owner.GetLinguists] d'avoir suffisamment de matière à partir de laquelle travailler ; mais une avancée cruciale vient d'être faite. Nous avons capté un long échange entre plusieurs de leurs vaisseaux. Cela peut s'expliquer, peut-être, par le fait qu'ils ont baissé la garde un instant, à moins que leur technologie ne soit pas si avancée que nous le pensions et qu'ils pensaient ce canal sûr..."
+ first_contact.5070.name:0 "Linguistique colorée"
+ first_contact.5070.desc:0 "Les [This.Owner.GetLinguists] ont fait de réels progrès dans le déchiffrement de la langue des §H[This.ContactCountry.GetName]§!. Ils utilisent un alphabet constitué de presque 17 millions de caractères différents, qui à leur tour correspondent tous à une couleur du spectre rouge-vert-bleu. Même si cela est évidemment fort complexe, les [Root.Owner.GetLinguists] semblent persuadés de pouvoir déchiffrer cette langue. Il leur faut juste un peu de temps."
+ first_contact.5070.A:0 "Ils ont carte blanche"
+ first_contact.5071.name:0 "Déchiffrage de la langue colorée"
+ first_contact.5071.desc:0 "En usant d'un système numéral hexadécimal de position, les mathématiciens et [This.Owner.GetLinguists] sont sur le point de percer le codage de la langue colorée employée par les §H[This.ContactCountry.GetName]§!. Des diplomates élaborent déjà les protocoles de premier contact.\n\nL'étude de cette langue a montré que la culture des §H[This.ContactCountry.GetName]§! est très riche et raffinée. Les risques de malentendus sont ainsi très élevés. Nous devons donc décider maintenant si nous devons en appeler à leur sens de la logique ou à leurs émotions."
+ first_contact.5071.desc.gestalt:0 "En usant d'un système numéral hexadécimal de position, la Conscience est sur le point de percer le codage de la langue colorée employée par les §H[This.ContactCountry.GetName]§!. Les protocoles de premier contact sont déjà en cours d'élaboration.\n\nNous pouvons d'ores et déjà choisir quelle voie suivre : soit en appeler à leurs émotions avec un salut faisant sens culturellement, ou tenter un protocole certes plus complexe, mais sans doute aussi plus efficace."
+ first_contact.5071.A:0 "La diplomatie repose sur la culture, envoyons une chanson"
+ first_contact.5071.A.tooltip:0 "Nous allons tenter de créer un lien émotionnel avec les §Y[This.ContactCountry.GetName]§!."
+ first_contact.5071.B:0 "Surtout pas d'émotions, la logique avant tout"
+ first_contact.5072.name:0 "Lien émotionnel"
+ first_contact.5072.desc:0 "Les efforts faits pour entrer en relation de manière émotionnelle avec les §H[This.ContactCountry.GetName]§! ont porté leurs fruits.\n\nNos [This.Owner.GetLinguists] ont pu apporter la preuve de leur compréhension de leur culture, et leurs salutations ont été très chaudement reçues. Un véritable succès !"
+ first_contact.5072.desc.gestalt:0 "En jouant sur leurs émotions, nous avons pu établir des relations amicales avec les §H[This.ContactCountry.GetName]§!.\n\nNos [This.Owner.GetLinguists] ont pu apporter la preuve de leur compréhension de leur culture, et leurs salutations ont été très chaudement reçues. Un véritable succès !"
+ first_contact.5073.name:0 "Catastrophe diplomatique"
+ first_contact.5073.desc:0 "Les efforts faits pour entrer en relation de manière émotionnelle avec les §H[This.ContactCountry.GetName]§! ont débouché sur une véritable catastrophe diplomatique.\n\nLes [This.Owner.GetLinguists] n'ont visiblement pas compris grand-chose de leur culture, et ils se sont montrés profondément outragés..."
+ first_contact.5073.desc.gestalt:0 "Les efforts faits pour entrer en relation de manière émotionnelle avec les §H[This.ContactCountry.GetName]§! ont débouché sur une véritable catastrophe diplomatique.\n\nLa Conscience n'a visiblement pas compris grand-chose de leur culture, et ils se sont montrés profondément outragés..."
+ first_contact.5075.name:0 "Parasites linguistiques"
+ first_contact.5075.desc:0 "La langue des §H[This.ContactCountry.GetName]§! est composée de millions de mots semblant parfaitement redondants, qui sont visiblement autant de vestiges du substrat linguistique de civilisations plus anciennes. Lorsqu'ils sont traduits, ces mots superflus ne semblent avoir absolument aucune fonction autre qu'ajouter une certaine saveur linguistique, ou n'avoir que des implications contextuelles tout à fait mineures.\n\nHeureusement, les [This.Owner.GetLinguists] sont parvenus à isoler tous les aspects obsolètes de la langue, et ils ont pu commencer à compiler un lexique abrégé qui devrait être fort utile pour communiquer de manière efficace avec ces aliens."
+
+
 
  #First Contact Stage Summaries
  fcsum_base_contact_set_summary:0 "Nous avons rencontré des aliens inconnus dans le système de §H[This.System.GetName]§!."
@@ -812,6 +879,7 @@
  fcsum_apparent_hostility_end_silent_bad:0 "$fcsum_monstrous_noises_silent_end_bad$"
  fcsum_hummers_1:0 "Nous avons découvert que les §H[This.ContactCountry.GetName]§! communiquent en utilisant des sons inaudibles pour les [This.Owner.GetSpeciesEarNamePlural] des [This.Owner.GetSpeciesEarNamePlural]."
  fcsum_octopodes_1:0 "Nous avons découvert que les §H[This.ContactCountry.GetName]§! utilisent un langage lumineux plutôt que des modes de communication oraux ou écrits."
+ fcsum_poetry_1:0 "Nous avons reçu des §H[This.ContactCountry.GetName]§! ce qui semble bien être de la poésie."
  fcsum_hacking_best:0 "Les tentatives pour pirater les §H[This.ContactCountry.GetName]§! ont été un §Gréel succès§!."
  fcsum_hacking_decent:0 "Les tentatives pour pirater les §H[This.ContactCountry.GetName]§! ont été un §Gsuccès§!, mais nous avons été détectés."
  fcsum_hacking_fail:0 "Les tentatives pour pirater les §H[This.ContactCountry.GetName]§! ont été un véritable §Réchec§!."
@@ -841,6 +909,8 @@
  fcsum_void_clouds_1:0 "$fcsum_critters_1$"
  fcsum_void_clouds_2:0 "Les §H[This.ContactCountry.GetName]§! ont été identifiés comme une forme de nuages de débris spatiaux, hostiles et probablement semi-conscients."
  fcsum_nomads_1:0 "$fcsum_caravaneers_1$"
+ fcsum_colorful_linguistics_1:0 "Le système d'écriture des §H[This.ContactCountry.GetName]§! a été déchiffré. Il est... complexe."
+ fcsum_colorful_linguistics_2:0 "Nous avons une décision à prendre, qui aura d'importantes conséquences diplomatiques."
 
  #Misc
  first_contact.1060.name:0 "Protocoles de premier contact"
@@ -871,6 +941,9 @@
  opinion_first_contact_respect_earned:0 "Respect gagné "
  opinion_first_contact_rivalry_earned:0 "Adversaires "
  opinion_first_contact_cowardly:0 "Lâches "
+ opinion_first_contact_poetic_warrior:0 "Poètes guerriers "
+ opinion_first_contact_admirer_of_poetry:0 "Amateurs de poésie "
+ opinion_first_contact_poetic_flatterer:0 "Poètes enjôleurs "
  opinion_friendly_first_comms_greeting:0 "Premières salutations amicales "
  opinion_hostile_first_comms_greeting:0 "Premières salutations hostiles "
  preventive_war_economy:0 "Économie de guerre préventive"
@@ -891,6 +964,8 @@
  repulsive_aliens_uncondemned_desc:0 "Notre incapacité à nous opposer à ce qui est perçu comme une menace alien inquiétante suscite de nombreuses oppositions au sein de la population."
  first_contact_challenge_not_returned:0 "Défi non relevé"
  first_contact_challenge_not_returned_desc:0 "Notre résolution inébranlable à procéder aux premiers contacts de manière rationnelle et scientifique contribue considérablement aux avancées du Département des explorations. Malgré tout, certains se montrent inquiets que, en nous refusant à prévenir les conflits contre des civilisations apparemment hostiles, cela s'avère dangereux pour nous."
+ first_contact_defeated_dadaism:0 "Non-sens déchiffré"
+ first_contact_defeated_dadaism_desc:0 "Un premier contact particulièrement mémorable nous a contraints à travailler des réponses parfaitement absurdes. Mais nous en avons maintenant la preuve : nos linguistes peuvent relever tous les défis."
  first_contact_war_preparations:0 "Préparatifs de guerre"
  first_contact_war_preparations_desc:0 "La rencontre avec une civilisation apparemment hostile a déclenché des préparatifs pour une guerre de grande ampleur."
  first_contact_warlike_warriors_recognised:0 "Prouesses guerrières reconnues"
@@ -1071,3 +1146,6 @@
  SET_STAR_CLASS_EFFECT:0 "La classe stellaire passe à $STAR_CLASS$."
  DESTROY_AND_SPAWN_DEBRIS_EFFECT:0 "La flotte '$DESTROYED|Y$' est détruite, faisant apparaître pour '$COUNTRY|Y$' un projet spécial pour étudier ses débris."
  SET_HOSTILE_EFFECT:0 "'$TARGET|Y$' devient §Rhostile§!."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ first_contact.472.name:0 "Timidité"

@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : 3.5    23.09.2022
+ # Update check : 3.6    30.11.2022
  ####################################
  
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_CRACKER:0 "Prépare la destruction de $PLANET|Y$"
@@ -40,9 +40,11 @@
  requires_purge_allowed:0 "$TRIGGER_FAIL$ §RNécessite la politique §Y$purge_allowed_name$§!, car les pops dépourvues du trait §Y$trait_aquatic$§! vont être tuées.§!"
  will_purge_non_aquatic_pops:0 "§RLes pops dépourvues du trait §Y$trait_aquatic$§! vont être tuées.§!"
  is_not_hostile_cracker:0 "La cible appartient à un §Hempire§! hostile"
+ cannot_crack_pre_ftl_planet_ownership:0 "La cible pré-PRL se trouve dans un espace §Hhostile§! ou §Hpossédé§!."
+ cannot_crack_pre_ftl_planet_interference:0 "Notre politique sur les §Hinterférences avec les indigènes§! l'interdit."
  is_not_owned_or_claimed:0 "La cible est un espace non revendiqué."
  is_uninhabited_within_borders:0 "La cible est inhabitée et se trouve dans l'espace de '§Y[From.Owner.GetName]§!'."
- not_barren_molten_frozen_toxic_test_fire:2 "La cible est un §Ymonde habitable§!, un §Y$pc_barren$§!, un §Y$pc_molten$§!, un §Y$pc_frozen$§! ou un §Y$pc_toxic$§!, valide pour un essai de tir."
+ not_barren_molten_frozen_toxic_test_fire:3 "La cible doit être :\n$tt$- un monde §Hhabitable inhabité§! ;\n$tt$- un monde §Hstérile§! ;\n$tt$- un monde en §Hfusion§! ;\n$tt$- un monde §Hgelé§! ;\n$tt$- un monde §Htoxique§!."
  not_owned_test_fire:0 "La cible est une §Ycolonie possédée§!, valide pour un essai de tir."
  primitives_not_in_borders:0 "§R$TRIGGER_FAIL$ Les primitifs visés ne se trouvent pas au sein de notre espace.§!"
  primitives_not_full_interference:0 "$TRIGGER_FAIL$ §RNécessite la politique d'interférence avec les indigènes §Y$interference_full$§!.§!"
@@ -285,7 +287,7 @@
  leviathans.300.g:0 "Nous aimerions vous aider à fonder un Collège des Arts"
  leviathans.340.name:0 "Collège des Arts"
  leviathans.340.desc:1 "Merveilleux ! Nous étions sur le point de vous suggérer la même idée ! Si vous établissez cette institution sur une base stellaire dans un système que vous partagez avec nous, nous enverrons certains de nos meilleurs artistes pour vous servir d'enseignants."
- leviathans.340.tooltip:0 "Nous pouvons maintenant lancer la construction du §Y$sm_art_college$§! sur la base stellaire du système de §Y[artist_system.GetName]§!.§!"
+ leviathans.340.tooltip:0 "Nous pouvons maintenant lancer la construction du §Y$sm_art_college$§! sur la base stellaire du système de §Y[artist_system.GetName]§!."
  leviathans.300.g.opinion:0 "Nécessite que les §YArtistes§! aient :\nOpinion : +50£opinion£"
 
  FLEET_MANAGER_VIEW:0 "Gestion des flottes"

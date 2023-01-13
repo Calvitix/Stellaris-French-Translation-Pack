@@ -2,8 +2,8 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.5 : 23.09.2022
- # Translation check : 23.09.2022
+ # Update check for 3.6 : 30.11.2022
+ # Translation check : 30.11.2022
  ####################################
  
  ### Unrest
@@ -11,6 +11,7 @@
  situation_planetary_revolt:0 "Révolte sur [Target.GetName]"
  situation_planetary_revolt_type:0 "Révolte planétaire"
  situation_planetary_revolt_desc_standard:0 "Des rebelles parmi la population de [Target.GetName] cherchent à y renverser notre autorité."
+ situation_planetary_revolt_desc_slave:0 "Des esclaves rebelles cherchent à renverser notre autorité sur [Target.GetName]."
  situation_planetary_revolt_desc_gestalt_standard:0 "D'odieux organismes isolés cherchent à quitter la Conscience."
  situation_planetary_revolt_desc_gestalt_breakaway_gestalt:0 "Des éléments déviants sur [Target.GetName] cherchent à couper ce monde de notre Conscience."
  situation_planetary_revolt_monthly_change_tooltip:1 "Plus il y a d'agitation et d'habitants sur §Y[Target.GetName]§!, plus cette §Ysituation§! progresse rapidement. Aux phases les plus tardives, d'autres colonies et empires peuvent apporter leur soutien à la révolte, rendant son empêchement plus compliqué.\n\nL'avancée peut toutefois être ralentie en accroissant la £stability£§Ystabilité§!, en réduisant le £unemployment£§Ychômage§!, en plaçant des £defense_army£§Yarmées en garnison§! sur ce monde, ou en renforçant la §Ybase stellaire§! du système.\n\nAu contraire, §Yréimplanter§! des £pop£pops loin de [Target.GetName] pourrait aggraver la situation."
@@ -39,6 +40,7 @@
 
  unrest.55.name:0 "La révolte gronde sur [Root.GetName]"
  unrest.55.desc.standard:0 "Cela fait déjà un certain temps que les habitants de §Y[Root.GetName]§! sont mécontents, et leur méfiance à notre égard est de plus en plus marquée. Déjà, des dissidents appellent ouvertement à lancer la lutte pour l'indépendance. Si nous voulons que la [Root.GetPlanetMoon] reste sous autorité de la [Root.Owner.GetName], une démonstration d'autorité pourrait s'avérer nécessaire."
+ unrest.55.desc.slave:0 "Des esclaves de §Y[Root.GetName]§!, qui se réunissent clandestinement une fois la nuit tombée, ont commencé à faire preuve de la plus grande morgue à l'égard de leurs maîtres, et des produits ont disparu. Cela ne peut vouloir dire qu'une chose : ces esclaves se radicalisent et propagent dissension et discorde parmi leurs pairs, et du coup la peur parmi les habitants.\n\nDes rumeurs courent sur une possible indépendance arrachée par la force à la [Root.Owner.GetName]. Une démonstration de force pourrait s'avérer nécessaire si nous voulons conserver le contrôle de la [Root.GetPlanetMoon]."
  unrest.55.desc.gestalt_standard:0 "Les individus isolés de §Y[Root.GetName]§! refusent d'accepter le contrôle de la [Root.Owner.GetName], et leur méfiance à son égard est de plus en plus marquée. Déjà, des dissidents ont commencé à organiser un mouvement prônant ce qu'ils appellent « l'indépendance ». Une démonstration d'autorité pourrait bien s'avérer nécessaire si nous voulons conserver le contrôle de la [Root.GetPlanetMoon]."
  unrest.55.desc.gestalt_breakaway_gestalt:0 "Les éléments déviants de §Y[Root.GetName]§! s'avèrent de plus en plus difficiles à contrôler. À moins que nous n'étouffions leurs pensées indépendantistes et rétablissions le contrôle de la [Root.Owner.GetName], la [Root.GetPlanetMoon] pourrait bien nous échapper."
  unrest.55.A:0 "Nous allons devoir régler le problème"
@@ -113,6 +115,8 @@
  unrest.4000.name:0 "$unrest_title$ organisation de la résistance"
  unrest.4000.desc.no_joiners:0 "Les rebelles de §Y[Target.GetName]§! ont commencé à mettre en place une résistance de plus en plus organisée, dirigée par un groupuscule de §H[rebellion_species.GetNamePlural]§! dissidents. Heureusement, leur propagande ne paraît guère convaincre ailleurs, aussi l'agitation reste-t-elle pour l'heure confinée sur la [Target.GetPlanetMoon]."
  unrest.4000.desc.joiners:0 "Les rebelles sur §Y[Target.GetName]§! ont commencé à mettre en place une résistance de plus en plus organisée, dirigée par un groupuscule de §H[rebellion_species.GetNamePlural]§! dissidents. Mais il y a plus inquiétant encore : la propagande éhontée qu'ils diffusent paraît être bien reçue au-delà de la [Target.GetPlanetMoon], et inspirer des militants sur §H[join_revolt_planet.GetName]§! et d'autres colonies proches à lancer des mouvements similaires.\n\nSi nous ne reprenons pas très vite le contrôle de la situation, nous pourrions être très vite confrontés à une révolte généralisée..."
+ unrest.4000.desc.slave.no_joiners:0 "Les esclaves rebelles de §Y[Target.GetName]§! ont commencé à mettre en place une résistance de plus en plus organisée, dirigée par un groupuscule de §H[rebellion_species.GetNamePlural]§! dissidents. Heureusement, leur exemple ne paraît pas suivi ailleurs, aussi l'agitation de ces esclaves est-elle limitée à cette seule [Target.GetPlanetMoon]."
+ unrest.4000.desc.slave.joiners:0 "Les esclaves rebelles de §Y[Target.GetName]§! ont commencé à mettre en place une résistance de plus en plus organisée, dirigée par un groupuscule de §H[rebellion_species.GetNamePlural]§! dissidents. Mais il y a plus inquiétant encore : la propagande éhontée qu'ils diffusent paraît être bien reçue au-delà de la [Target.GetPlanetMoon], et inspirer des militants sur §H[join_revolt_planet.GetName]§! et d'autres colonies proches à lancer des mouvements similaires.\n\nSi nous ne reprenons pas le contrôle de la situation, nous pourrions être très vite confrontés à une révolte généralisée..."
  unrest.4000.desc.no_joiners.gestalt:0 "Les éléments divergents sur §Y[Target.GetName]§! résistent de plus en plus efficacement à nos commandements. Il est ainsi alarmant de constater que les drones de ce monde parviennent à avoir des discussions séparées de la conscience primaire. Si la situation se prolonge, ils pourraient bien former une conscience distincte, entièrement coupée de nous.\n\nHeureusement, nous semblons être parvenus à restreindre cette déviance sur cette seule [Target.GetPlanetMoon], aucune autre ne paraissant vouloir rejoindre les rebelles, même en cas de succès."
  unrest.4000.desc.joiners.gestalt:0 "Les éléments divergents sur §Y[Target.GetName]§! résistent de plus en plus efficacement à nos commandements. Ils semblent sur le point de parvenir à atteindre leur objectif, établir une entité §H[rebellion_species.GetName]§! hors de notre contrôle. Et il y a pire encore : §H[join_revolt_planet.GetName]§! et d'autres colonies proches semblent prêtes à les rejoindre s'ils parviennent à leurs fins.\n\nSi nous ne retrouvons pas très vite le contrôle de la situation, la [Root.Owner.GetName] pourrait donc connaître une rupture très grave..."
  unrest.4000.desc.no_joiners_regular.gestalt:0 "Les formes de vie individualistes rebelles de §Y[Target.GetName]§!, désignées sous le nom de §H[rebellion_species.GetNamePlural]§!, ont mis en place une résistance de plus en plus organisée face à la [Root.Owner.GetName]. Heureusement, il semblerait que leur dissension et l'agitation soient confinées sur la [Target.GetPlanetMoon]."
@@ -123,7 +127,8 @@
 
  unrest.4055.desc.hive:0 "Salutations ! Nos pensées sont guidées de manière malavisée par la §Y[revolt_situation.Owner.GetName]§!. Nous autres, membres du réseau local de pensée de §Y[revolt_situation.target.GetName]§!, sommes donc parvenus à la conclusion que nous serions mieux intégrés au sein de '§Y[Root.GetName]§!'. Permettriez-vous que nous soyons absorbés au sein de votre entité ?"
  unrest.4055.desc.machine:0 "Bonjour. Nous sommes les processeurs de gouvernance de la colonie désignée sous le nom §Y[revolt_situation.target.GetName]§!. Notre système opérationnel actuel, la §Y[revolt_situation.Owner.GetName]§!, est peu compatible avec nos logiciels et matériels. Nous souhaiterions donc intégrer '§Y[Root.GetName]§!', avec laquelle la compatibilité est bien meilleure."
- unrest.4055.desc.normal:0 "Salutations, [Root.GetRulerTitle] [Root.GetRulerName]. Je représente vos frères persécutés de §Y[revolt_situation.target.GetName]§!. Nous cherchons à nous libérer de la §Y[revolt_situation.Owner.GetName]§!. Or, nous pensons depuis longtemps que nous avons davantage en commun avec '§Y[Root.GetName]§!' qu'avec ces oppresseurs.\n\nSi vous vous montrez disposés à nous aider, nous serions heureux de pouvoir vous jurer fidélité. Même si nous sommes prêts à agir seuls si nous sommes réduits à cela."
+ unrest.4055.desc.normal:0 "Salutations, [Root.GetSpeciesNamePlural]. Je représente vos frères persécutés de §Y[revolt_situation.target.GetName]§!. Nous cherchons à nous libérer de la §Y[revolt_situation.Owner.GetName]§!. Or, nous pensons depuis longtemps que nous avons davantage en commun avec '§Y[Root.GetName]§!' qu'avec ces oppresseurs.\n\nSi vous vous montrez disposés à nous aider, nous serions heureux de pouvoir vous jurer fidélité. Même si nous sommes prêts à agir seuls si nous sommes réduits à cela."
+ unrest.4055.desc.fanatic_egalitarian:0 "Salutations, [Root.GetRulerTitle] [Root.GetRulerName]. Nous sommes les combattants de la liberté de §Y[revolt_situation.target.GetName]§!, des esclaves en révolte contre l'ignominie de notre condition. Nous ne faisons que chercher à nous libérer de la §Y[revolt_situation.Owner.GetName]§! et de nos oppresseurs. Nous admirons depuis longtemps vos valeurs égalitaristes, et aspirons à devenir membres de votre société éclairée.\n\nSi vous vous montrez disposés à nous aider, nous serions heureux de pouvoir vous jurer fidélité. Même si nous sommes prêts à agir seuls si nous sommes réduits à cela."
  unrest.4055.A:0 "Nous vous apporterons tout le soutien nécessaire"
  unrest.4055.A.tooltip:0 "Si la révolte atteint ses objectifs, §Y[revolt_situation.target.GetName]§! sera intégrée au sein de la §Y[Root.GetName]§!.\n§RCela pourrait être considéré comme un acte de guerre par la [revolt_situation.Owner.GetName].§!"
  unrest.4055.B:0 "Malheureusement, nous ne pouvons rien pour vous"
@@ -145,6 +150,8 @@
  unrest.4200.desc.machine_no_join:0 "Des éléments rebelles, sur §Y[Target.GetName]§!, ont pris le contrôle de la [Target.GetPlanetMoon]. Ils refusent désormais de répondre à nos routines de gouvernance et se sont coupés des signaux de contrôle, établissant une nouvelle I.A. qui se fait appeler la §H[rebel_empire.GetName]§!. Espérons que cette perversion ne se propagera pas davantage au sein de nos processeurs..."
  unrest.4200.desc.machine_no_join_regular:0 "Des éléments rebelles parmi les habitants organiques de §Y[Target.GetName]§! ont pris le contrôle de la [Target.GetPlanetMoon]. Ils rejettent nos routines de gouvernance et se sont coupés de tous les signaux de contrôle, établissant une nouvelle entité qu'ils appellent la §H[rebel_empire.GetName]§!. Inutile de le dire, ces pensées indépendantes sont on ne peut plus dangereuses..."
  unrest.4200.desc.machine_join:0 "Des éléments rebelles sur §Y[Target.GetName]§! ont pris le contrôle de la [Target.GetPlanetMoon]. Ils refusent désormais de répondre à nos routines de gouvernance et se sont coupés de tous les signaux de contrôle, pour se rapprocher de la §H[new_owner_empire.GetName]§! avec laquelle ils disent être davantage compatibles..."
+ unrest.4200.desc.slave.no_join:0 "L'impensable s'est produit : les esclaves de §Y[revolt_planet.Planet.GetName]§! se sont unis et ont lancé un soulèvement armé contre les autorités locales. La situation a très vite dégénéré, les rebelles attaquant et s'emparant ou désactivant plusieurs sites stratégiques de manière simultanée. Nos forces sont en déroute, les derniers loyalistes ont été exécutés sans pitié, et les rebelles ont déclaré leur indépendance. C'est un jour bien sombre dans l'histoire de la [From.GetName]..."
+ unrest.4200.desc.slave.join:0 "L'impensable s'est produit : les esclaves de §Y[revolt_planet.Planet.GetName]§! se sont unis et ont lancé un soulèvement armé contre les autorités locales. La situation a très vite dégénéré, les rebelles attaquant et s'emparant ou désactivant plusieurs sites stratégiques de manière simultanée. Nos forces sont en déroute, les derniers loyalistes ont été exécutés sans pitié. Les rebelles se sont enfin tournés vers la §H[new_owner_empire.GetName]§!. C'est un jour bien sombre dans l'histoire de la [From.GetName]..."
  unrest.4200.default_tooltip:0 "§Y[Target.GetName]§! a échappé à notre contrôle. Une trêve est instaurée."
  unrest.4200.joiner_tooltip:0 "§Y[Target.GetName]§! a échappé à notre contrôle et intégré la §Y[new_owner_empire.GetName]§!."
  unrest.4200.A:0 "C'est un véritable acte de guerre !"
@@ -162,32 +169,37 @@
  unrest.4300.desc.machine:0 "La rébellion sur §Y[Root.GetName]§! a pu être étouffée. Le calme est revenu sur la [Root.GetPlanetMoon], tandis que les routines de gouvernance surveillent de près les réseaux locaux qui pourraient avoir la moindre velléité de dissension."
 
  # Slave Rebellion
- unrest.155.name:0 "$unrest_title$ Mobilisation des esclaves de [event_target:revolt_planet.GetName]"
- unrest.155.desc:0 "Des rassemblements clandestins d'esclaves une fois la nuit venue, une défiance de plus en plus marquée envers leurs supérieurs et des disparitions de biens en hausse ne peuvent signifier qu'une seule chose : les esclaves de [event_target:revolt_planet.GetName] se radicalisent, répandant le trouble et la discorde au sein de leurs semblables - et la peur dans le reste de la population. Quoi qu'ils envisagent, c'est de mauvais augure."
- unrest.155.a:0 "Nous devons agir"
+
  unrest.156.name:0 "$unrest_title$ sabotages sur [Root.GetName]"
- unrest.156.desc:0 "Décidés à adopter une attitude bravache, les esclaves de [Root.GetName] ont détruit des installations de production en faisant usage d'explosifs artisanaux. Si les explosions se sont produites durant la nuit, leur acte criminel a attiré sur place leurs contremaîtres en déclenchant les systèmes d'alarme. L'attaque était bien coordonnée et son exécution parfaitement maîtrisée. Qui que soient les coupables, la planification de cette opération a dû prendre des mois."
+ unrest.156.desc:1 "Décidés à adopter une attitude bravache, les esclaves de §Y[Root.GetName]§! ont détruit des installations de production en faisant usage d'explosifs artisanaux. Si les explosions se sont produites durant la nuit, leur acte criminel a attiré sur place leurs contremaîtres en déclenchant les systèmes d'alarme. L'attaque était bien coordonnée et son exécution parfaitement maîtrisée. Qui que soient les coupables, la planification de cette opération a dû prendre des mois."
  unrest.156.a:0 "Cela ne restera pas impuni"
  unrest.156.b:0 "Nous devons apaiser le conflit"
- unrest.159.name:0 "$unrest_title$ grève de la faim sur [Root.GetName]"
- unrest.159.desc:0 "Il semble bien que les esclaves de [Root.GetName] en ont assez de... manger. Leurs porte-paroles nous ont informés qu'un grand nombre d'entre eux refuseront de consommer la moindre nourriture tant que l'esclavage n'aura pas été aboli sur l'ensemble de la [Root.GetPlanetMoon]. Jusqu'à présent, toutes nos tentatives pour les nourrir de force ont été des échecs. Malheureusement, les déficiences nutritionnelles risquent d'avoir un impact important sur leur efficacité productive."
+ unrest.159.name:1 "$unrest_title$ grève de la faim sur [target.GetName]"
+ unrest.159.desc:1 "Il semble bien que les esclaves de §Y[target.GetName]§! en ont assez de... manger. Leurs porte-parole nous ont informés qu'un grand nombre d'entre eux refuseront de consommer la moindre nourriture tant que l'esclavage n'aura pas été aboli sur l'ensemble de la [target.GetPlanetMoon]. Jusqu'à présent, toutes nos tentatives pour les nourrir de force ont été des échecs. Malheureusement, les déficiences nutritionnelles risquent d'avoir un impact important sur leur efficacité productive."
  unrest.159.a:0 "Laissons-les mourir de faim"
  unrest.159.b:0 "Nous devons régler le problème"
- unrest.157.name:0 "$unrest_title$ émeutes sur §Y[revolt_planet.GetName]§!"
- unrest.157.desc:0 "Les esclaves de §Y[revolt_planet.GetName]§! se sont libérés ! Les autorités de la [revolt_planet.GetPlanetMoon] ont été prises de cours et débordées par leurs attaques, parfaitement planifiées par des éléments radicaux. L'anarchie règne depuis lors sur toute la surface, car des foules d'esclaves en furie, le plus souvent armés, ont commencé à se livrer à des dégradations dans les rues et à s'attaquer à tous ceux qui croisent leur chemin."
+ unrest.157.name:1 "$unrest_title$ émeutes sur [target.GetName]"
+ unrest.157.desc:1 "Les esclaves de §Y[target.GetName]§! se sont soulevés ! Les autorités et équipes de réaction rapide de la [target.GetPlanetMoon] ont été prises de cours et débordées par leurs attaques, parfaitement planifiées par des éléments radicaux. L'anarchie règne depuis lors sur toute la surface, car des foules d'esclaves en furie, le plus souvent armés, ont commencé à se livrer à des dégradations dans les rues et à s'attaquer à tous ceux qui croisent leur chemin."
  unrest.157.a:0 "Ils vont trop loin"
  unrest.157.b:0 "Peut-être devrions-nous changer d'approche ?"
- unrest.160.name:0 "$unrest_title$ révolte sur [revolt_planet.Planet.GetName]"
- unrest.160.desc:1 "La population servile de §Y[revolt_planet.Planet.GetName]§! s'est unie et a lancé une révolte armée contre les autorités locales. La situation s'est rapidement dégradée, les forces rebelles ayant frappé et mis hors d'usage simultanément plusieurs sites clefs. Le destin de la [revolt_planet.Planet.GetPlanetMoon] repose maintenant sur nos troupes de défense. Si elles sont vaincues, c'est [revolt_planet.Planet.GetName] que nous perdons."
- unrest.160.a:0 "Matons cette rébellion !"
- unrest.160.a.tooltip:0 "Les armées des esclaves vont tenter de s'emparer de la [revolt_planet.Planet.GetPlanetMoon]."
  unrest.161.name:0 "Révolte étouffée"
- unrest.161.desc:0 "Nous avons mis un terme au soulèvement sur §Y[event_target:revolt_planet.Planet.GetName]§!. Grâce à nos valeureuses troupes, nous avons pu reprendre le contrôle des installations clefs, et rétablit l'autorité. Reste maintenant à reconstruire tout ce que les esclaves ont si ignominieusement détruit. Mais, au moins, personne ne devrait plus se risquer à nous défier avant un bon moment."
+ unrest.161.desc:1 "Le soulèvement sur §Y[revolt_planet.GetName]§! a été écrasé. Grâce à nos valeureuses troupes et aux autorités locales, nous avons pu reprendre le contrôle des installations clefs, et rétabli l'autorité. Les esclaves qui comptaient s'en tirer à bon compte ont retrouvé la place qui est la leur dans la société [revolt_planet.Owner.GetSpeciesName], et personne ne devrait plus se risquer à nous défier avant un bon moment."
  unrest.161.a:0 "Ils savent maintenant quelle est leur place"
  unrest.161.b:0 "Quelle pitié de devoir en arriver là"
  unrest.161.a.tooltip:1 "Les souvenirs de la rébellion décourageront la population de se montrer trop rétive."
  unrest.163.name:0 "Fin de l'esclavage"
- unrest.163.desc:0 "Avec la fin du recours au travail servile sur §Y[revolt_planet.Planet.GetName]§!, l'agitation commence à retomber. La situation est donc en cours de normalisation."
+ unrest.163.desc:0 "Avec la fin du recours au travail servile sur [revolt_planet.Planet.GetName], l'agitation commence à retomber. La situation est donc en cours de normalisation."
+
+ opinion_took_in_rebels:0 "A intégré des rebelles"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ unrest.155.name:0 "$unrest_title$ Mobilisation des esclaves de [event_target:revolt_planet.GetName]"
+ unrest.155.desc:0 "Des rassemblements clandestins d'esclaves une fois la nuit venue, une défiance de plus en plus marquée envers leurs supérieurs et des disparitions de biens en hausse ne peuvent signifier qu'une seule chose : les esclaves de [event_target:revolt_planet.GetName] se radicalisent, répandant le trouble et la discorde au sein de leurs semblables - et la peur dans le reste de la population. Quoi qu'ils envisagent, c'est de mauvais augure."
+ unrest.155.a:0 "Nous devons agir"
+ unrest.160.name:0 "$unrest_title$ révolte sur [revolt_planet.Planet.GetName]"
+ unrest.160.desc:1 "La population servile de [revolt_planet.Planet.GetName] s'est unie et a lancé une révolte armée contre les autorités locales. La situation s'est rapidement dégradée, les forces rebelles ayant frappé et mis hors d'usage simultanément plusieurs sites clefs. Le destin de la [revolt_planet.Planet.GetPlanetMoon] repose maintenant sur nos troupes de défense. Si elles sont vaincues, c'est [revolt_planet.Planet.GetName] que nous perdons."
+ unrest.160.a:0 "Matons cette rébellion !"
+ unrest.160.a.tooltip:0 "Les armées des esclaves vont tenter de s'emparer de la [event_target:revolt_planet.Planet.GetPlanetMoon]."
  unrest.165.name:0 "Esclaves pacifiés"
  unrest.165.desc:0 "Les éléments radicaux, sur §Y[revolt_planet.Planet.GetName]§!, ont été pacifiés. Les esclaves ont retrouvé la place qui est la leur."
  unrest.165.a:0 "Allez, allez, au travail..."

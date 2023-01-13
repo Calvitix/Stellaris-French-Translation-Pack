@@ -22,6 +22,8 @@
 	mod_giga_system_habitat_amenities_no_happiness_add:0 "Services des habitats du système"  
 
     mod_planet_buildings_hab_capital_alloys_upkeep_mult:99 "Entretien en £alloys£ $alloys$ des £building£ bâtiments capitoles de l'habitat"
+  
+  mod_giga_planet_unemployment_coverage:99 "Emplois pour les chômeurs"
 	
   ############################################################################################################
   # ECONOMIC CATEGORIES
@@ -32,6 +34,8 @@
   planet_giga_virtual_trainers:99 "Emplois de Formateurs Virtuels"
   planet_giga_virtual_training_job_icon:99 "£job_giga_virtual_training_coordinator£"
   planet_giga_virtual_training_job_icon_gestalt:99 "£job_evaluator£"
+  planet_giga_dark_matter_weavers:0 "Emplois de tisseurs de matière noire"
+  
   
   #######################################################################################################
   # JOBS
@@ -44,8 +48,13 @@
   mod_planet_culture_workers_consumer_goods_upkeep_add:99 "Entretien en £consumer_goods£ $consumer_goods$ des $job_culture_worker_plural$"
   mod_planet_culture_workers_society_research_produces_add:99 "Prod. de £society_research£ $society_research$ des £job_culture_worker£ $job_culture_worker_plural$"
   mod_planet_culture_workers_unity_produces_add:99 "Prod. de £unity£ $unity$ des £job_culture_worker£ $job_culture_worker_plural$"
-  
+
+  mod_planet_evaluators_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_evaluator£ $job_evaluator_plural$"
+  mod_planet_evaluators_food_upkeep_add:99 "Entretien en £food£ $food$ des £job_evaluator£ $job_evaluator_plural$"
+  mod_planet_evaluators_unity_produces_add:99 "production d'£unity£ $unity$ des £job_evaluator£ $job_evaluator_plural$"
+
   mod_planet_administrators_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_bureaucrat£ Administrateurs"
+  mod_planet_administrators_food_upkeep_add:99 "Entretien en £food£ $food$ des £job_bureaucrat£ Administrateurs"
   mod_planet_administrators_consumer_goods_upkeep_add:99 "Entretien en £consumer_goods£ $consumer_goods$ des £job_bureaucrat£ Administrateurs"  
   mod_planet_administrators_unity_produces_add:99 "Prod. de £unity£ $unity$ des £job_bureaucrat£ Administrateurs"
   
@@ -83,6 +92,7 @@
   
   mod_planet_researchers_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_researcher£ [GetResearcherPlural]"
   mod_planet_researchers_sr_iodizium_upkeep_add:99 "Entretien en £sr_iodizium£ $sr_iodizium$ des £job_researcher£ [GetResearcherPlural]"
+  mod_planet_researchers_minerals_upkeep_add:99 "Entretien en £minerals£ $minerals$ des £job_researcher£ [GetResearcherPlural]"
   
   mod_planet_pop_assemblers_alloys_upkeep_add:99 "Entretien en £alloys£ $alloys$ des £job_replicator£ $job_replicator_plural$"
   
@@ -116,17 +126,24 @@
   mod_planet_energy_converters_ehof_sr_negative_mass_produces_add:99 "Prod. de £ehof_sr_negative_mass£ $ehof_sr_negative_mass$ des £job_ehof_energy_converter£ $job_ehof_energy_converter_plural$"
   mod_planet_energy_converters_energy_upkeep_add:99 "Entretien en £energy£ $energy$ des £job_ehof_energy_converter£ $job_ehof_energy_converter_plural$"
     
-  mod_job_scrap_miner_per_pop:0 "§G+1§! emploi de $job_scrap_miner$ par palier de $VALUE$ Pops"
-  mod_job_scrap_miner_per_pop_short:0 "\n§G+1§! £mod_job_scrap_miner_add£ pour $VALUE$ £pop£"
+  mod_job_scrap_miner_per_pop:99 "§G+1§! emploi de $job_scrap_miner$ par palier de $VALUE$ Pops"
+  mod_job_scrap_miner_per_pop_short:99 "\n§G+1§! £mod_job_scrap_miner_add£ pour $VALUE$ £pop£"
+  mod_job_scrap_miner_drone_per_pop:99 "§G+1§! emploi de $job_scrap_miner_drone$ par palier de $VALUE$ Pops"
+  mod_job_scrap_miner_drone_per_pop_short:99 "\n§G+1§! £mod_job_scrap_miner_drone_add£ pour $VALUE$ £pop£"
 
     mod_job_angler_per_pop:0 "§G+1§! emploi de $job_angler$ par palier de $VALUE$ Pops"
 	mod_job_angler_per_pop_short:0 "\n§G+1§! £mod_job_angler_add£ pour $VALUE$ £pop£"
     mod_job_pearl_diver_per_pop:0 "§G+1§! emploi de $job_pearl_diver$ par palier de $VALUE$ Pops"
 	mod_job_pearl_diver_per_pop_short:0 "\n§G+1§! £mod_job_pearl_diver_add£ pour $VALUE$ £pop£"
 
-  job_artisan_icon:0 "£job_artisan£"
-  job_artificer_icon:0 "£job_artificer£"
-  
+  job_artisan_icon:99 "£job_artisan£"
+  job_artificer_icon:99 "£job_artificer£"
+
+   mod_planet_giga_dark_matter_weavers_sr_dark_matter_produces_add:0 "£sr_dark_matter£ $sr_dark_matter$ des £job_giga_dark_matter_weaver£ $job_giga_dark_matter_weaver_plural$"
+    mod_planet_giga_dark_matter_weavers_sr_dark_matter_produces_mult:0 "$mod_planet_giga_dark_matter_weavers_sr_dark_matter_produces_add$"
+    mod_planet_giga_dark_matter_weavers_acot_sr_dark_energy_produces_add:0 "£acot_sr_dark_energy£ $acot_sr_dark_energy$ des £job_giga_dark_matter_weaver£ $job_giga_dark_matter_weaver_plural$"
+
+     
   #######################################################################################################
   # POPS
   

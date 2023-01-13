@@ -1,6 +1,6 @@
 ﻿l_french:
 
-#Calvitix 3.5.0 : 23/09/2022
+#Calvitix 3.6.0 : 30/11/2022
 
  ########################
  # Necroids Species Pack
@@ -10,7 +10,7 @@
 
  origin_necrophage:0 "Nécrophage"
  origin_necrophage_desc:1 "Cette civilisation a évolué en tant que parasite, contrainte de se nourrir d'autres formes de vie conscientes pour survivre. Avec son entrée sur la scène galactique, elle considère que toute autre espèce est destinée soit à être soumise, soit à être dévorée. Pour les nécrophages, telle est la simple vérité des choses."
- civic_tooltip_necrophage_effects:1 "- Peut convertir les £pops£pops d'autres espèces en pops de l'§Hespèce primaire§!.\n- Seules les pops nécrophages peuvent fournir des §Hpersonnalités§! ou occuper des §Hemplois de £pop_cat_ruler£gouvernants§!.\n- Commence la partie avec un certain nombre de £pops£pops d'une espèce secondaire adaptée.\n- Les mondes habitables garantis sont les §Hcivilisations primitives§!."
+ civic_tooltip_necrophage_effects:2 "- Peut convertir les £pops£pops d'autres espèces en pops de l'§Hespèce primaire§! ;\n- seules les £pop£pops nécrophages peuvent fournir des §Hpersonnalités§! ou occuper des §Hemplois de £pop_cat_ruler£gouvernants§! ;\n- lance la partie avec un certain nombre de £pops£pops d'une espèce secondaire adaptée ;\n- les mondes habitables garantis sont des §Hcivilisations primitives§!."
  civic_necrophage_secondary_species:0 "Espèce adaptée"
  trait_necrophage:0 "Nécrophage"
  trait_necrophage_desc:1 "§LCette espèce, dont les membres sont quasi immortels, se multiplie en consommant les pops d'autres espèces.§!"
@@ -195,13 +195,17 @@
  mod_job_necromancer_per_pop:0 "§G+1§! emploi de £job_necromancer£nécromancien par palier de $VALUE$ pops"
  mod_job_necromancer_per_pop_short:0 "\n§G+1§! £mod_job_necromancer_add£ pour $VALUE$£pop£"
 
- galactic_features.385.reanimated:0 "Envoyons les nécromanciens"
+ galactic_features.385.reanimated:1 "Envoyons les [Root.Owner.GetNecromancersLower]"
  distar.218.name:0 "Le grand réveil"
- distar.218.desc:0 "Au terme d'un long rituel, la §Hmatriarche tiyanki§! est revenue de l'au-delà. Elle servira désormais notre cause."
- distar.5016.desc:0 "Les nécromanciens ont ramené le corps dans l'oeuf dont il était sorti, avant de faire éclore à nouveau l'§Hêtre du vide§! afin qu'il serve notre cause."
+ distar.218.desc.regular:0 "Au terme d'un long rituel, la §Hmatriarche tiyanki§! est revenue de l'au-delà. Elle servira désormais notre cause."
+ distar.218.desc.hive:0 "Faire revenir la §Hmatriarche tiyanki§! s'est avéré particulièrement ardu. Si nous avons acquis de l'expérience pour mieux contrôler ses rejetons plus petits, les capacités régénératives de la matriarche n'ont cessé de retarder le travail de nos drones cordyceptiques. Mais la Conscience a fini par l'emporter. Aucun tissu mort ne peut s'adapter si vite que nous.\n\nNous pouvons maintenant mouvoir ce flagelle titanesque !"
+ distar.5016.desc.regular:0 "Les nécromanciens ont ramené le corps dans l'oeuf dont il était sorti, avant de faire éclore à nouveau l'§Hêtre du vide§! afin qu'il serve notre cause."
+ distar.5016.desc.hive:0 "Faire revenir à la vie l'§Hêtre du vide§! dans son oeuf pour qu'il puisse éclore à nouveau s'est avéré particulièrement efficace. En faisant usage de la matière primordiale qui se trouvait dans la coquille, les nécrodrones ont pu reconstituer le corps afin qu'il nous serve.\n\nLa Conscience peut désormais battre des ailes !"
  it_hungers:0 "Il va falloir lui donner à manger"
- leviathans.675.desc:0 "Au prix d'un long labeur, les nécromanciens ont ranimé l'énergie du §Ydragon d'éther§!. Le résultat est aussi étrange que perturbant, mais tant que son souffle brûlant fonctionne toujours nous pouvons considérer cela comme un succès."
- ancrel.4026.desc:0 "Il a repris son envol ! §YÉclat§!, ce dragon si avide, est revenu pour surveiller le système de [from.solar_system.GetName]. Mais, cette fois, il y surveillera le Rubricateur pour nous."
+ leviathans.675.desc.regular:0 "Au prix d'un long labeur, les nécromanciens ont ranimé l'énergie du §Yver d'éther§!. Le résultat est aussi étrange que perturbant, mais tant que son souffle brûlant fonctionne toujours nous pouvons considérer cela comme un succès."
+ leviathans.675.desc.hive:0 "La biologie du §Yver d'éther§! semblait au départ incompréhensible. Au lieu de prendre le contrôle de son système nerveux central pour le maîtriser à partir de là, la Conscience a donc dû remplacer l'un de ses nerfs par un drone l'imitant parfaitement.\n\nMais enfin nous pouvons le faire rugir !"
+ ancrel.4026.desc.regular:0 "Il a repris son envol ! §YÉclat§!, ce dragon si avide, est revenu pour surveiller le système de [From.solar_system.GetName]. Mais, cette fois, il y surveillera le Rubricateur pour nous."
+ ancrel.4026.desc.hive:0 "Autrefois si avide et solitaire, §YÉclat§! est maintenant tout à fait calme. La Conscience a pris le contrôle de son corps inerte, l'a débarrassé de sa personnalité et de ses fonctions de langage. Maintenant que ces systèmes superflus ont été retirés, son souffle brûlant nous appartient !"
  distar.340.desc:0 "La nouvelle de la mort de [Root.Fleet.GetName] s'est aussitôt répandue à travers toute notre '§Y[Root.Owner.GetName]§!'. L'amibe était depuis longtemps un compagnon. Mais les nécromanciens ont été inhabituellement occupés depuis cette triste nouvelle, et viennent de proposer une solution à notre empire en deuil. Ils refusent d'expliquer par quels moyens, mais affirment pouvoir faire revenir [Root.Fleet.GetName]."
  distar.340.desc.science:0 "La nouvelle de la mort de [Root.Fleet.GetName] s'est aussitôt répandue à travers toute notre '§Y[Root.Owner.GetName]§!', même si nul n'a été plus affecté que l'officier scientifique [amoeba_finding_scientist.GetName]. C'est [amoeba_finding_scientist.GetHerHim] qui l'avait trouvée en premier, comprenant aussitôt qu'il s'agissait d'un jeune spécimen sans défense, et [amoeba_finding_scientist.GetSheHe] avait dès lors gentiment veillé sur la créature, jusqu'à ce qu'elle atteigne sa pleine maturité.\n\nDésormais, sans la compagnie silencieuse de [Root.Fleet.GetName], l'officier [amoeba_finding_scientist.GetName] risque de ne plus jamais être [amoeba_finding_scientist.GetHerHis]-même."
  distar.340.a:0 "Réveille-toi, [Root.Fleet.GetName] !"
@@ -210,15 +214,15 @@
  distar.59.desc.science:0 "§Y[reanimated_amoeba.Fleet.GetName]§! est en vie ! En tout cas, l'amibe bouge. Nous ne savons pas trop comment les nécromanciens ont procédé, mais grâce aux profondeurs de leur désespoir et à la folie de leur science, notre compagnon vole de nouveau parmi nous."
 
  REANIMATE_TIYANKI_MATRIARCH:0 "Faire revenir la matriarche tiyanki"
- REANIMATE_TIYANKI_MATRIARCH_DESC:0 "Les nécromanciens ont élaboré un plan audacieux pour ramener la §Ymatriarche tiyanki§! à la vie afin qu'elle nous serve et combatte au côté de nos flottes."
+ REANIMATE_TIYANKI_MATRIARCH_DESC:1 "Les [From.Owner.GetNecromancersLower] ont élaboré un plan audacieux pour ramener la §Ymatriarche tiyanki§! à la vie afin qu'elle nous serve et combatte au côté de nos flottes."
  REANIMATE_VOIDSPAWN:0 "Faire revenir l'être du vide"
- REANIMATE_VOIDSPAWN_DESC:0 "Les nécromanciens nous assurent que, en recourant à des méthodes qu'il vaut mieux taire, ils sont capables de faire revenir à la vie l'§Yêtre du vide§! afin qu'il nous serve et puisse combattre au côté de nos flottes."
+ REANIMATE_VOIDSPAWN_DESC:1 "Les [From.Owner.GetNecromancersLower] nous assurent que, en recourant à des méthodes qu'il vaut mieux taire, ils sont capables de faire revenir à la vie l'§Yêtre du vide§! afin qu'il nous serve et puisse combattre au côté de nos flottes."
  REANIMATE_ROCK_BRAIN:0 "Ramener le cerveau rocheux à la vie"
  REANIMATE_ROCK_BRAIN_DESC:0 "Quoi que cette créature ancienne ait pu penser, l'univers continue d'exister en dehors de son agrégat maintenant inanimé. En recourant à plusieurs techniques interdites et à des sciences novatrices, les nécromanciens sont persuadés de pouvoir prouver que le solipsisme de cette créature disparue est un mensonge."
  REANIMATE_GUARDIAN_DRAGON:0 "Rallumer le dragon d'éther éteint"
- REANIMATE_GUARDIAN_DRAGON_DESC:0 "Les nécromanciens pensent pouvoir rallumer l'étincelle dans le §Ydragon d'éther§! grâce à des procédés rituels, en rassemblant du plasma de l'étoile locale, en attachant des moteurs expérimentaux au cadavre, et par diverses autres méthodes."
+ REANIMATE_GUARDIAN_DRAGON_DESC:1 "En mêlant rituels et sciences, les [From.Owner.GetNecromancersLower] pensent pouvoir rallumer l'étincelle dans le §Yver d'éther§! : en rassemblant du plasma de l'étoile locale, en attachant des moteurs cordyceptiques au cadavre, et par diverses autres méthodes."
  REANIMATE_SHARD_DRAGON:0 "Restaurer Éclat"
- REANIMATE_SHARD_DRAGON_DESC:0 "§YÉclat§!, la terreur des rats, conservateur du Rubricateur, désormais réduit à l'état de cadavre sans vie, orbite autour de l'étoile locale. Les nécromanciens ont proposé que, le dragon ayant conservé le Rubricateur de son vivant, il serve maintenant dans la mort les nouveaux maîtres de la relique."
+ REANIMATE_SHARD_DRAGON_DESC:1 "§YÉclat§!, la terreur des rats, conservateur du Rubricateur, désormais réduit à l'état de cadavre sans vie, orbite autour de l'étoile locale. Les [From.Owner.GetNecromancersLower] ont proposé que, le dragon ayant conservé le Rubricateur de son vivant, il serve maintenant dans la mort les nouveaux maîtres de la relique."
  REANIMATE_LOST_AMOEBA:0 "Faire revenir l'amibe perdue"
  REANIMATE_LOST_AMOEBA_DESC:0 "Nous ne savons pas trop comment ils comptent procéder, mais les nécromanciens ont pour projet de faire revenir notre chère amibe."
  REANIMATE_LOST_AMOEBA_DESC_SCIENCE:0 "Nous ne savons pas trop comment ils comptent procéder, mais sous la direction de [amoeba_finding_scientist.GetName], les nécromanciens ont pour projet de faire revenir notre chère amibe."
@@ -276,6 +280,24 @@
 
  zombie_contract_manipulation:0 "Contrats des zombies traficotés"
  zombie_contract_manipulation_desc:0 "Il a été procédé à quelques « arrangements » avec les contrats des travailleurs zombies pour qu'il leur soit impossible de rembourser l'intégralité de leurs dettes."
+
+ ### Cordypectic Drones by Victor Haeggman
+ civic_hive_cordyceptic_drones:0 "Drones cordyceptiques"
+ civic_hive_cordyceptic_drones_desc:0 "Des drones hautement spécialisés, capables d'infecter des hôtes simples et de leur faire répondre à des commandes rudimentaires afin d'en faire l'élément défensif essentiel de la défense stellaire de la Conscience."
+ civic_tooltip_cordyceptic_drones:0 "- Lance la partie avec §G3§! §Hamibes réanimées§!.\n- La faune spatiale organique vaincue est automatiquement réanimée.\n- Les léviathans organiques vaincus peuvent parfois être réanimés.\n"
+
+ MESSAGE_REANIMATION_COMPLETE_TITLE:0 "Réanimation achevée"
+ MESSAGE_REANIMATION_COMPLETE_TIYANKI_DESC:0 "Un nouvel ensemble de tiyanki a été réanimé dans le système de $SYSTEM|Y$. Les travaux ont déjà été lancés pour la prochaine livraison."
+ MESSAGE_REANIMATION_AMOEBA_TIYANKI_DESC:0 "Un nouvel ensemble d'amibes a été réanimé dans le système de $SYSTEM|Y$. Les travaux ont déjà été lancés pour la prochaine livraison."
+
+ necroids.310.name:0 "Antivirus"
+ necroids.310.desc:0 "Les Préthoryns ont tenté de pénétrer §Hen nous§! !\n\nL'envahisseur extragalactique a immédiatement pris le contrôle de nos nécrodrones, avant que l'autre essaim commence à collecter les autres drones se trouvant dans les parages. L'ensemble des capsules d'infiltration a dû être détruit pour préserver la sécurité de la [Root.GetName]."
+ necroids.310.a:0 "Il faut les exterminer au plus vite !"
+
+ sm_cordyceptic_reanimation_facility:0 "Complexe de réanimation cordyceptique"
+ sm_cordyceptic_reanimation_facility_desc:0 "§LEn temps normal, il faut trouver des spécimens morts récemment pour lancer les opérations de réanimation. Mais avec un complexe de reproduction il est possible de les infiltrer bien plus tôt afin de disposer de davantage d'hôtes.§!\n"
+ requires_tiyanki_spawning_system:0 "§RNe peut être construit que dans les systèmes de §Y$NAME_Tiyana_Vek$§!, de §Y$NAME_Tiyun_Ort$§! et de §Y$NAME_Amor_Alveo$§!.§!"
+ sm_cordyceptic_reanimation_facility_desc_modifier:0 "Permet de produire une §Yflotte réanimée§! tous les §G5 ans§! dans les systèmes regorgeant de vie biologique."
  ### Miscellaneous
 
  vo_necroid_voice:0 "Nécroïde"
@@ -303,3 +325,55 @@
  IS_AMBIENT_OBJECT_TYPE:0 "Est un objet d'ambiance $TYPE$"
  IS_NOT_AMBIENT_OBJECT_TYPE:0 "N'est PAS un objet d'ambiance $TYPE$"
  CHANGE_COLONY_FOUNDATION_DATE:0 "Date de première colonisation modifiée de $VALUE$ jours."
+ getnecromancers_regular_upper:0 "Nécromanciens"
+ getnecromancers_hive_upper:0 "Nécrodrones"
+ getnecromancers_machine_upper:0 "Réaffecteurs"
+ getnecromancers_regular_lower:0 "nécromanciens"
+ getnecromancers_hive_lower:0 "nécrodrones"
+ getnecromancers_machine_lower:0 "réaffecteurs"
+
+# Reanimated Ships
+
+ reanimated_space_dragon_red:0 "$space_dragon_red$"
+ reanimated_space_dragon_red_plural:0 "$space_dragon_red_plural$"
+ reanimated_space_dragon_blue:0 "$space_dragon_blue$"
+ reanimated_space_dragon_blue_plural:0 "$space_dragon_blue_plural$"
+ reanimated_space_dragon_origin:0 "$space_dragon_origin$"
+ reanimated_space_dragon_origin_plural:0 "$space_dragon_origin_plural$"
+ reanimated_leviathan_01_elder_tiyanki:0 "$leviathan_01_elder_tiyanki$"
+ reanimated_leviathan_01_elder_tiyanki_plural:0 "$leviathan_01_elder_tiyanki_plural$"
+ reanimated_leviathan_01_voidspawn:0 "$leviathan_01_voidspawn$"
+ reanimated_leviathan_01_voidspawn_plural:0 "$leviathan_01_voidspawn_plural$"
+ reanimated_space_amoeba:0 "$space_amoeba$"
+ reanimated_space_amoeba_plural:0 "$space_amoeba_plural$"
+ reanimated_space_amoeba_mother:0 "$space_amoeba_mother$"
+ reanimated_space_amoeba_mother_plural:0 "$space_amoeba_mother_plural$"
+ reanimated_space_whale_1:0 "$space_whale_1$"
+ reanimated_space_whale_1_plural:0 "$space_whale_1_plural$"
+ reanimated_space_whale_2:0 "$space_whale_2$"
+ reanimated_space_whale_2_plural:0 "$space_whale_2_plural$"
+ reanimated_space_whale_3:0 "$space_whale_3$"
+ reanimated_space_whale_3_plural:0 "$space_whale_3_plural$"
+ reanimated_space_whale_4:0 "$space_whale_4$"
+ reanimated_space_whale_4_plural:0 "$space_whale_4_plural$"
+ reanimated_space_amoeba_centenarian:0 "$space_amoeba_centenarian$"
+ reanimated_space_amoeba_centenarian_plural:0 "$space_amoeba_centenarian_plural$"
+ NAME_Reanimated_Grand_Dragon:0 "$NAME_Grand_Dragon$ réanimé"
+ NAME_Reanimated_Shard_Dragon:0 "$NAME_Shard_Dragon$ réanimé"
+ NAME_Reanimated_Sky_Dragon:0 "$NAME_Sky_Dragon$ réanimé"
+ NAME_Reanimated_Voidspawn:0 "$NAME_Voidspawn$ réanimé"
+ NAME_Reanimated_Progenitor:0 "$NAME_Progenitor$ réanimée"
+ NAME_Reanimated_Tiyanki_Cow:0 "$NAME_Tiyanki_Cow$ réanimée"
+ NAME_Reanimated_Tiyanki_Bull:0 "$NAME_Tiyanki_Bull$ réanimé"
+ NAME_Reanimated_Tiyanki_Hatchling:0 "$NAME_Tiyanki_Hatchling$ réanimée"
+ NAME_Reanimated_Tiyanki_Calf:0 "$NAME_Tiyanki_Calf$ réanimé"
+ NAME_Reanimated_Adopted_Amoeba_Centenarian:0 ""
+ NAME_Reanimated_Great_Space_Organism:0 "Amibe spatiale réanimée"
+ NAME_Reanimated_Small_Space_Organism:0 "Petite amibe réanimée"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ distar.218.desc:0 "Au terme d'un long rituel, la §Hmatriarche tiyanki§! est revenue de l'au-delà. Elle servira désormais notre cause."
+ distar.5016.desc:0 "Les nécromanciens ont ramené le corps dans l'oeuf dont il était sorti, avant de faire éclore à nouveau l'§Hêtre du vide§! afin qu'il serve notre cause."
+ leviathans.675.desc:0 "Au prix d'un long labeur, les nécromanciens ont ranimé l'énergie du §Yver d'éther§!. Le résultat est aussi étrange que perturbant, mais tant que son souffle brûlant fonctionne toujours nous pouvons considérer cela comme un succès."
+ ancrel.4026.desc:0 "Il a repris son envol ! §YÉclat§!, ce dragon si avide, est revenu pour surveiller le système de [from.solar_system.GetName]. Mais, cette fois, il y surveillera le Rubricateur pour nous."
+ NAME_Reanimated_Elderly_Tiyanki:0 "Matriarche tiyanki réanimée"

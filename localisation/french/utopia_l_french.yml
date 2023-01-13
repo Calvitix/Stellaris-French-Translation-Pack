@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.5.0 : 23.09.2022
+ # Update check for 3.6.0 : 30.11.2022
  ####################################
  
 
@@ -71,7 +71,7 @@ l_french:
  allow_hive_worlds:0 "§HPermet la terraformation en§! monde de la Conscience"
  describe_hive_worlds:1 "Les §Ymondes de la Conscience§! sont une classe planétaire spéciale, inhabitable pour les pops extérieures à la Conscience, mais dont le nombre de £district£§Ydistricts générateurs§!, §Yminiers§! et §Yagricoles§! n'est pas limité par les particularités planétaires et dont les §Ydistricts de la conscience§! sont plus efficaces. Les £pop£§Ypops§! vivant sur de tels mondes voient leur §Yproduction de ressources§! accrue de §G+10%§!."
 
- ALLOW_PSI_CORPS:0 "Le bâtiment §H$building_psi_corps$§! peut désormais disponible."
+ ALLOW_PSI_CORPS:1 "Donne accès au £building£§H$building_psi_corps$§!."
  ALLOW_PSI_ARMIES:0 "Des §H$psionic_army_plural$§! peuvent désormais être recrutées."
 
  dyson_sphere_0_MEGASTRUCTURE_DETAILS:1 "Une §Y$dyson_sphere_5$§! enveloppe entièrement une étoile, ce qui lui permet de convertir toute la production solaire directement en £energy£ crédits énergétiques."
@@ -174,6 +174,51 @@ l_french:
  trait_cybernetic_desc:0 "§LCette espèce a tant et si bien adopté la pratique du cybernétisme que ses membres peuvent être considérés comme des cyborgs. Ils remplacent très couramment leurs membres et organes avec des versions mécaniques plus performantes.§!\n"
  trait_latent_psionic:0 "Psionique en latence"
  trait_latent_psionic_desc:0 "§LCette espèce dispose de capacités psioniques latentes, en sommeil chez la plupart de ses membres. Même s'ils sont rares, ces pouvoirs se manifestent chez certaines des personnalités qui en sont issues.§!\n"
+
+# TODO CD - write appropriate loc
+ trait_cyborg_power_drills:0 "$trait_robot_power_drills$"
+ trait_cyborg_power_drills_desc:0 "§LDonnez à un cyborg une batterie de perceuse, et il commencera à voir des gisements de minéraux partout.§!\n"
+ trait_cyborg_harvesters:0 "$trait_robot_harvesters$"
+ trait_cyborg_harvesters_desc:0 "§LUne suite d'utilitaires, depuis des solutions de diagnostic nutritionnel et des équilibrages sur site jusqu'à des microsuivis tige à tige, permet aux travailleurs cybernétiques d'améliorer la productivité des récoltes.§!\n"
+ trait_cyborg_superconductive:0 "$trait_robot_superconductive$"
+ trait_cyborg_superconductive_desc:0 "$trait_robot_superconductive_desc$"
+ trait_cyborg_efficient_processors:0 "$trait_robot_efficient_processors$"
+ trait_cyborg_efficient_processors_desc:0 "$trait_robot_efficient_processors_desc$"
+ trait_cyborg_logic_engines:0 "Processeurs logiques"
+ trait_cyborg_logic_engines_desc:0 "§LS'affranchir avec aisance des frontières de plus en plus complexes des sciences exige de nouveaux processeurs parallèles, indispensables pour accroître la capacité des cerveaux organiques.§!"
+ trait_cyborg_loyalty_circuits:0 "$trait_robot_loyalty_circuits$"
+ trait_cyborg_loyalty_circuits_desc:0 "§LLa loyauté est une notion distinctement organique. Il est bien plus efficace de s'appuyer sur une obéissance programmée.§!\n"
+ trait_cyborg_double_jointed:0 "$trait_robot_double_jointed$"
+ trait_cyborg_double_jointed_desc:0 "$trait_robot_double_jointed_desc$"
+ trait_cyborg_bulky:0 "$trait_robot_bulky$"
+ trait_cyborg_bulky_desc:0 "$trait_robot_bulky_desc$"
+ trait_cyborg_enhanced_memory:0 "$trait_robot_enhanced_memory$"
+ trait_cyborg_enhanced_memory_desc:0 "$trait_robot_enhanced_memory_desc$"
+ trait_cyborg_durable:0 "$trait_robot_durable$"
+ trait_cyborg_durable_desc:0 "$trait_robot_durable_desc$"
+ trait_cyborg_high_maintenance:0 "$trait_robot_high_maintenance$"
+ trait_cyborg_high_maintenance_desc:0 "$trait_robot_high_maintenance_desc$"
+ trait_cyborg_learning_algorithms:0 "$trait_robot_learning_algorithms$"
+ trait_cyborg_learning_algorithms_desc:0 "$trait_robot_learning_algorithms_desc$"
+ trait_cyborg_neural_limiters:0 "Limiteurs neuraux"
+ trait_cyborg_neural_limiters_desc:0 "§LEn limitant les capacités cognitives des travailleurs, il est possible de les encourager à se concentrer quasi exclusivement sur les tâches les plus basiques.§!\n"
+ trait_cyborg_mass_produced:0 "$trait_robot_mass_produced$"
+ trait_cyborg_mass_produced_desc:0 "$trait_robot_mass_produced_desc$"
+ trait_cyborg_custom_made:0 "$trait_robot_custom_made$"
+ trait_cyborg_custom_made_desc:0 "$trait_robot_custom_made_desc$"
+ trait_cyborg_recycled:0 "$trait_robot_recycled$"
+ trait_cyborg_recycled_desc:0 "$trait_robot_recycled_desc$"
+ trait_cyborg_streamlined_protocols:0 "$trait_robot_streamlined_protocols$"
+ trait_cyborg_streamlined_protocols_desc:0 "$trait_robot_streamlined_protocols_desc$"
+ trait_cyborg_high_bandwidth:0 "$trait_robot_high_bandwidth$"
+ trait_cyborg_high_bandwidth_desc:0 "$trait_robot_high_bandwidth_desc$"
+ trait_cyborg_trading_algorithms:0 "$trait_robot_trading_algorithms$"
+ trait_cyborg_trading_algorithms_desc:0 "$trait_robot_trading_algorithms_desc$"
+ trait_cyborg_power_intensive:0 "Batteries faibles"
+ trait_cyborg_power_intensive_desc:0 "§LCes unités cybernétiques nécessitent d'être rechargées fréquemment par une source d'énergie extérieure.§!"
+ TRAIT_POWER_INTENSIVE_EFFECT:0 "Entretien en £energy£ : §R+1§!"
+ CYBORG_ENERGY_UPKEEP_EFFECT:0 "Entretien en £energy£ : §R+$@cyborg_energy_upkeep$§!"
+
  trait_psionic:0 "Psionique"
  trait_psionic_desc:0 "§LTous les membres de cette espèce disposent de puissantes capacités psioniques. Ils communiquent communément entre eux par télépathie.§!\n"
  trait_self_modified:0 "Automodifiée"

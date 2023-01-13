@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack  Adaptation by Calvitix)
- # Update check for 3.5 : 23.09.2022
+ # Update check for 3.6 : 30.11.2022
  ####################################
 
  SECTOR_ADD_ALREADY_ASSIGNED:0 "§RLe système de $SYSTEM|Y$ relève déjà d'un secteur.§!"
@@ -167,6 +167,7 @@
  CANNOT_CHANGE_BUILDING_PRIO_COUNTRY:0 "§RCe bâtiment appartient à un autre empire.§!"
  CANNOT_CHANGE_BUILDING_PRIO_TOP:1 "§RDéjà prioritaire.§!"
  CANNOT_CHANGE_BUILDING_PRIO_BOTTOM:1 "§RDéjà à la priorité la plus basse.§!"
+ CANNOT_CHANGE_BUILDING_PRIO_NOT_OURS:0 "§RNous n'avons aucun contrôle sur cette file d'attente.§!"
 
  CLICK_TO_SET_FORCED_GROWTH:0 "§GCliquer pour sélectionner une espèce prioritaire pour ce monde.§!"
  NO_SPECIES_FOR_GROWTH:0 "§RIl n'y a sur ce monde aucune espèce qui peut se développer.§!"
@@ -177,6 +178,7 @@
 
  CLICK_TO_SET_FORCED_DECLINE:0 "§GCliquer pour déclarer une espèce indésirable sur ce monde.§!"
  NO_SPECIES_FOR_DECLINE:0 "§RIl n'y a sur ce monde aucune espèce qui peut être contrainte à décliner.§!"
+ CURRENTLY_DECLINING_SPECIES_TAKES_PRECEDENCE:0 "§RLes espèces en déclin ne peuvent vivre sur ce monde, aussi doivent-elles être purgées en priorité.§!"
  FORCE_DECLINE_NEEDS_POP_CONTROLS:0 "§RIl est impossible de déclarer une espèce indésirable si le contrôle de la population est prohibé.§!"
  FORCED_DECLINE_ALREADY_PURGING:0 "§RIl est impossible de déclarer une espèce indésirable si des purges ont lieu sur ce monde.§!"
 
@@ -831,6 +833,14 @@
  mod_job_spawning_drone_per_pop:0 "§G+1§! emploi de £job_spawning_drone£drone de reproduction par palier de $VALUE$ pops"
  mod_job_spawning_drone_per_pop_short:0 "\n§G+1§! £mod_job_spawning_drone_add£ pour $VALUE$£pop£"
 
+ job_cyber_drone:0 "$job_cyber_drone_plural$"
+ job_cyber_drone_plural:0 "Drones d'amélioration"
+ job_cyber_drone_desc:0 "La croissance des drones a été optimisée par l'introduction d'améliorations cybernétiques au cours de la formation organique."
+ job_cyber_drone_effect_desc:0 "(les £job_cyber_drone£drones d'amélioration transforment les £alloys£§Yalliages§! en £mod_planet_pop_assembly_mult£§Yassemblage mensuel des £pop£pops organiques§!)"
+ mod_job_cyber_drone_add:0 "Emplois de £job_cyber_drone£drones d'amélioration "
+ mod_job_cyber_drone_per_pop:0 "§G+1§! emploi de £job_cyber_drone£drone d'amélioration par palier de $VALUE$ pops"
+ mod_job_cyber_drone_per_pop_short:0 "\n§G+1§! £mod_job_cyber_drone_add£ pour $VALUE$£pop£"
+
  job_replicator:0 "Réplicateurs"
  job_replicator_plural:0 "Réplicateurs"
  job_replicator_desc:1 "Une machine construisant une machine qui construit une machine qui construit..."
@@ -838,6 +848,14 @@
  mod_job_replicator_add:0 "Emplois de £job_replicator£réplicateurs "
  mod_job_replicator_per_pop:0 "§G+1§! emploi de £job_replicator£réplicateur par palier de $VALUE$ pops"
  mod_job_replicator_per_pop_short:0 "\n§G+1§! £mod_job_replicator_add£ pour $VALUE$£pop£"
+
+ job_crucible_drone:0 "$job_crucible_drone_plural$"
+ job_crucible_drone_plural:0 "Drones cyborgistes"
+ job_crucible_drone_desc:0 "Spécialisés dans le soin à la progéniture cyborg, ces drones veillent à ce que leurs charges se développent en membres productifs du collectif."
+ job_crucible_drone_effect_desc:0 "(les £job_crucible_drone£drones cyborgistes transforment les $r_alloys_lower$ et la $r_food_lower$ (ou les $r_minerals_lower$) en £mod_planet_amenities_add£§Yservices§! et en £mod_pop_growth_speed£§Yvitesse de développement des £pop£pops§!)"
+ mod_job_crucible_drone_add:0 "Emplois de £job_crucible_drone£drones cyborgistes "
+ mod_job_crucible_drone_per_pop:0 "§G+1§! emploi de £job_crucible_drone£drone cyborgiste par palier de $VALUE$ pops"
+ mod_job_crucible_drone_per_pop_short:0 "\n§G+1§! £mod_job_crucible_drone_add£ pour $VALUE$£pop£"
 
  job_synapse_drone:0 "Drones synaptiques"
  job_synapse_drone_plural:0 "Drones synaptiques"
@@ -1188,6 +1206,7 @@
  job_roboticist_plural:0 "Roboticiens"
  job_roboticist_desc:1 "Ces techniciens construisent des robots qui construisent des robots qui construisent notre civilisation."
  job_roboticist_effect_desc:1 "Les £job_roboticist£roboticiens transforment les £alloys£§Yalliages§! en de nouvelles £pop£pops de §Yrobots§!"
+ job_roboticist_cyborg_effect_desc:0 "(les £job_roboticist£roboticiens transforment les £alloys£§Yalliages§! en de nouvelles £pop£pops de §Ycyborgs§!)"
  mod_job_roboticist_add:0 "Emplois de £job_roboticist£roboticiens "
  mod_job_roboticist_per_pop:0 "§G+1§! emploi de £job_roboticist£roboticien par palier de $VALUE$ pops"
  mod_job_roboticist_per_pop_short:0 "\n§G+1§! £mod_job_roboticist_add£ pour $VALUE$£pop£"
@@ -1263,7 +1282,7 @@
  job_artificer_plural:0 "Maîtres-artisans"
  job_artificer_icon:0 "£job_artificer£"
  job_artificer_desc:0 "Des travailleurs adroits et créatifs, qui confectionnent diverses sortes de produits, aussi bien quotidiens que de luxe, tous de la plus grande qualité."
- job_artificer_effect_desc:1 "Les £job_artificer£maîtres-artisans transforment les £minerals£§Yminéraux§! en £consumer_goods£§Ybiens de consommation§!, en recherche sur l'£engineering£§Yingénierie§! et en £mod_trade_value_add£§Yvaleur commerciale§!"
+ job_artificer_effect_desc:2 "les £job_artificer£maîtres-artisans transforment les £minerals£§Yminéraux§! en £consumer_goods£§Ybiens de consommation§! et en £mod_trade_value_add£§Yvaleur commerciale§!"
  mod_job_artificer_add:0 "Emplois de £job_artisan£maîtres-artisans"
  mod_job_artificer_per_pop:0 "§G+1§! emploi de £job_artisan£maître-artisan par palier de $VALUE$ pops"
  mod_job_artificer_per_pop_short:0 "\n§G+1§! £mod_job_artificer_add£ pour $VALUE$£pop£"
@@ -1572,6 +1591,7 @@
  mod_unemployment_resources_unity_produces_add:0 "£unity£Unité suscitée par les £unemployment£pops inemployées "
 
  mod_planet_livestock_food_produces_add:0 "£food£Nourriture tirée du £job_livestock£§Ycheptel§! "
+ mod_planet_livestock_minerals_produces_add:0 "£minerals£Minéraux tirés des £job_livestock£cheptels "
  mod_planet_metallurgists_produces_mult:1 "Production des £job_foundry£[GetAlloyProducer_lower] "
  mod_planet_artisans_produces_mult:1 "Production des £job_artisan£[GetArtisan_lower] "
  mod_planet_technician_produces_mult:1 "Production des £job_technician£[GetTechnician_lower] "
@@ -1592,6 +1612,9 @@
  mod_planet_pops_organics_consumer_goods_upkeep_mult:0 "Entretien en £consumer_goods£biens de consommation des £pop£pops "
  mod_planet_pops_organics_upkeep_mult:0 "Entretien des £pop£pops organiques "
  mod_planet_pops_robotics_upkeep_mult:0 "Maintenance des £pop£pops robotiques "
+ mod_planet_pops_cyborgs_upkeep_mult:0 "Entretien des £pop£pops cyborgs "
+ mod_planet_pops_lithoid_unity_upkeep_add:0 "Entretien en £unity£ des £pop£pops lithoïdes "
+ mod_planet_pops_biological_unity_upkeep_add:0 "Entretien en £unity£ des £pop£pops biologiques "
  mod_planet_pop_assemblers_upkeep_mult:0 "Coût d'assemblage des £pop£pops robotiques "
  mod_planet_jobs_slave_produces_mult:1 "Production de ressources des £pop_cat_slave£esclaves "
  mod_planet_jobs_worker_produces_mult:3 "Production de ressources des £pop_cat_worker£[GetWorker_lower] "
@@ -1603,6 +1626,7 @@
  mod_planet_jobs_complex_drone_produces_mult:0 "Production de ressources des £pop_cat_complex_drone£drones complexes "
  mod_planet_jobs_complex_and_simple_drone_produces_mult:0 "Production des drones "
  mod_planet_jobs_robotic_produces_mult:0 "Production de ressources des £pop£robots "
+ mod_planet_jobs_organics_produces_mult:0 "Prod. de ress. des £pop£pops non robotiques "
  mod_planet_jobs_consumer_goods_produces_mult:0 "Production de £consumer_goods£biens de conso. des £job£emplois "
  mod_planet_jobs_alloys_produces_mult:0 "Production d'£alloys£alliages des £job£emplois "
  mod_country_produces_mult:0 "Ressources mensuelles "
@@ -1807,6 +1831,12 @@
  edict_crystal_focus_desc:0 "En améliorant l'accès des vaisseaux aux cristaux rares, nous pouvons améliorer la capacité destructrice de leurs armes énergétiques."
  edict_nanite_actuators:0 "Nanoactivateurs"
  edict_nanite_actuators_desc:0 "$sr_distar_nanoactuator_desc$"
+ edict_sight_beyond_sight:0 "Vue par-delà la vue"
+ edict_sight_beyond_sight_desc:0 "Des microdoses de zro permettent aux navigateurs de sentir les objets au-delà de la portée des scanners."
+ edict_zro_catalysis_utopia:0 "Catalyse du zro"
+ edict_zro_catalysis_utopia_desc:0 "L'une des nombreuses propriétés mystérieuses du zro est le fait qu'il accroît de manière notable les capacités psioniques de ceux qui l'ingèrent."
+ edict_zro_catalysis_non_utopia:0 "$edict_zro_catalysis_utopia$"
+ edict_zro_catalysis_non_utopia_desc:0 "Les chercheurs ont trouvé des manières de synthétiser le zro afin de produire des substances améliorant les performances de ceux qui les ingèrent, sans aucune contre-indication pour eux."
 
  rare_edicts:0 "Décrets rares"
  ship_edicts:0 "Décrets sur les vaisseaux"
@@ -1883,6 +1913,8 @@
  building_spawning_pool_desc:1 "Veillés par des spécialistes scientifiques attentionnés, ces bassins simulent notre reproduction à un rythme bien plus rapide."
  building_robot_assembly_plant:0 "Centre d'assemblage robotique"
  building_robot_assembly_plant_desc:0 "Des usines de haute technologie où des roboticiens assemblent les derniers modèles de robots."
+ building_robot_assembly_complex:0 "Complexe d'assemblage robotique"
+ building_robot_assembly_complex_desc:0 "Un complexe avancé où des roboticiens hautement qualifiés montent les derniers modèles de robots."
  building_machine_assembly_plant:0 "Centrale d'assemblage de machines"
  building_machine_assembly_plant_desc:1 "Une centrale d'assemblage à la chaîne où sont construites les nouvelles unités."
  building_machine_assembly_complex:0 "Complexe d'assemblage mécanique"
@@ -2335,6 +2367,11 @@
  d_alloys_10:0 "§Y+10§!£alloys£"
  d_alloys_25:0 "§Y+25§!£alloys£"
  d_dark_matter_deposit_1:0 "§Y+1§!£sr_dark_matter£"
+ d_dark_matter_deposit_2:0 "§Y+2§!£sr_dark_matter£"
+ d_dark_matter_deposit_3:0 "§Y+3§!£sr_dark_matter£"
+ d_dark_matter_deposit_10:0 "§Y+10§!£sr_dark_matter£"
+ d_nanites_deposit:0 "§Y+1§!£nanites£"
+ d_guardian_dragon_hoard:0 "$NAME_Dragons_Hoard$"
 
  d_trade_value_1:0 "+1£trade_value£"
  d_trade_value_2:0 "+2£trade_value£"
@@ -2418,6 +2455,18 @@
  decision_abolish_resort_colony:0 "Renoncer à la villégiature"
  decision_abolish_resort_colony_desc:1 "Ce monde ne sera plus considéré comme un lieu de villégiature particulier, et toutes les restrictions sur les constructions à sa surface seront levées."
  resort_colony_empire_effects:0 "Autres colonies de l'empire :\n   $MOD_PLANET_AMENITIES_MULT$: §G+15%§!\n   $MOD_PLANET_IMMIGRATION_PULL_MULT$: §G+15%§!"
+
+ decision_crucible_colony:0 "Créer un monde cyborgiste"
+ decision_crucible_colony_desc:0 "Ce monde doit offrir l'environnement parfait pour que la progéniture de nos drones cyborgs puisse se développer afin de devenir au plus vite des composants productifs du collectif."
+ decision_crucible_colony_effects_short:0 "Désactive la construction de certains £building£§Ybâtiments§! sur ce monde.\n\nAccélère la £mod_pop_growth_speed£§Yvitesse de dév. des pops§! au prix d'un §Yentretien des £pop£pops§! accru et d'une §Yprod. de ressources par les £job£emplois§! réduite."
+ decision_abolish_crucible_colony:0 "Renoncer au monde cyborgiste"
+ decision_abolish_crucible_colony_desc:0 "Nous pourrions faire d'autres usages de ce monde."
+ decision_crucible_colony_only_one:0 "£trigger_no£ La §Y[Root.Owner.GetName]§! ne peut disposer que d'un seul §Ymonde cyborgiste§!."
+
+ crucible_colony:0 "$col_crucible$"
+ crucible_colony_desc:0 "[Root.GetName] est consacrée à la croissance de drones cyborgs, assurant que cette progéniture devienne très vite productive au sein du collectif."
+
+ crucible_colony_effects:0 "Quelques emplois de £job_replicator£§Yréplicateurs§! sont remplacés par des £job_crucible_drone£§Ydrones cyborgistes§! dans les £building£§Ycapitoles§!."
 
  decision_slave_colony:0 "Créer un monde servile"
  decision_slave_colony_desc:0 "Ce monde est entièrement prévu pour maximiser la croissance de sa population servile grâce à tout un panel de programmes d'incitations à la reproduction."
@@ -2563,6 +2612,12 @@
  megastructures:0 "Mégastructures"
  megastructures_habitat:0 "Habitats"
  ships:0 "Vaisseaux"
+ ship_corvette:0 "Corvettes"
+ ship_destroyer:0 "Destroyers"
+ ship_cruiser:0 "Croiseurs"
+ ship_battleship:0 "Cuirassés"
+ ship_military_station_small:0 "Plateformes défensives"
+ ship_science:0 "Vaisseaux scientifiques"
  stations:0 "Stations"
  station_gatherers:0 "Stations minières"
  station_researchers:0 "Stations de recherche"
@@ -2994,6 +3049,8 @@
  col_ring_mix_desc:0 "Cet anneau-monde est proprement gigantesque, permettant à ses vastes sections de se consacrer à diverses productions."
  col_default_machine:0 "Colonie"
  col_default_machine_desc:0 "Une nouvelle colonie de l'empire, spécifiquement conçue pour une efficacité permanente, maximale et sans à-coups."
+ col_crucible:0 "Monde cyborgiste"
+ col_crucible_desc:0 "Un monde consacré à la croissance de drones cyborgs, assurant que la progéniture devienne très vite productive au sein du collectif."
 
  COLONY_AUTOMATIC_DESIGNATION:0 "Désign. Auto"
  PLANET_ASCENSION_TIER:0 "§YNiveau d'Ascension $TIER$§!"
@@ -3185,7 +3242,7 @@
  cara_home_slots:0 "Jouer aux §Hmachines à sous§!"
  cara_home_lootbox:1 "Ouvrir un §Hreliquaire§!"
  too_many_lootboxes:0 "§RNous avons déjà ouvert le nombre maximal de §Hreliquaires§! autorisé par la [caravaneer_home_country.GetName].§!"
- too_recently_lootboxed:0 "§RLa [caravaneer_home_country.GetName] a besoin d'un peu plus de temps pour préparer un nouveau §Hreliquaire§!.§!"
+ too_recently_lootboxed:1 "§RLa [caravaneer_home_country.GetName] ne peut pas préparer de nouveau §Hreliquaire§! avant le §Y[Root.lootboxed_recently]§!.§!"
  5_lootboxes_remaining:1 "Achats de §Hreliquaires§! encore autorisés : §Y5§!"
  4_lootboxes_remaining:1 "Achats de §Hreliquaires§! encore autorisés : §Y4§!"
  3_lootboxes_remaining:1 "Achats de §Hreliquaires§! encore autorisés : §Y3§!"
@@ -3784,7 +3841,7 @@
  requires_trade_enclave:0 "§RRequiert une §Yenclave de Marchands§! dans le système.§!"
 
  decision_market_nomination:0 "Proposer comme marché galactique"
- decision_market_nomination_effects:0 "Applique à ce monde un modificateur de §Ycompétitivité pour devenir le prochain Marché galactique§!, dépendant des conditions locales. Plus le taux de potentialité sera élevé, plus il est vraisemblable que ce monde héberge le prochain §HMarché galactique§!."
+ decision_market_nomination_effects:1 "Applique à ce monde un modificateur de §Ycompétitivité pour devenir le prochain Marché galactique§!, dépendant des conditions locales. Plus le taux de potentialité sera élevé, plus il est vraisemblable que ce monde héberge le prochain §HMarché galactique§!.\n\nPour qu'il soit choisi, mieux vaut présenter un monde produisant une £trade_value£§Yvaleur commerciale§! élevée."
  decision_market_nomination_effects_short:0 "Présente ce monde comme candidat pour centraliser le §HMarché galactique§!."
  decision_market_nomination_desc:0 "Être au coeur du commerce galactique est aussi prestigieux que profitable. Le marché est certes volatile, mais avec suffisamment d'incitations nous pourrions bien attirer les géants du commerce pour qu'ils s'établissent sur ce monde."
  decision_revoke_market_nomination:0 "Renoncer à la candidature au marché"
@@ -4393,7 +4450,8 @@
  MEGACORPSE_ORIGINS_DESC:0 "Après l'incroyable destruction survenue sur §Y[Root.GetName]§!, une question se pose : qui, ou qu'est-ce que MegaCorpse ?"
 
  RESETTLE_NOT_OWNER:0 "Nous devons posséder ce monde pour y réimplanter des pops."
- RESETTLE_LIST_ENTRY:0 "$PLANET$ / $TYPE$ / $HABIT$ / $JOBS$ / $HOUSING$£housing£"
+ RESETTLE_LIST_ENTRY_NAME:0 "$PLANET|E$\n$TYPE$"
+ RESETTLE_LIST_ENTRY_DETAILS:0 "$TYPE$ / $HABIT$ / $JOBS$ / £housing£$HOUSING$"
  RESETTLE_LIST_JOBS:0 "£job£$JOBS$"
  RESETTLE_LIST_UNEMPLOYMENT:0 "£unemployment£$JOBS$"
  RESETTLE_SPECIES_HABITABILITY:0 "$SPECIES$ : $HABIT$"
@@ -4498,6 +4556,7 @@
  AVAILABLE_JOBS:0 "£job£Emplois disponibles : $COUNT|Y$"
 
  mod_country_cost_mult:0 "Tous les coûts"
+ mod_resolutions_cost_mult:0 "Coût des propositions et veto des résolutions galactiques " #Mainly proposal, but it will also impact vetos
 
  nanites_deficit:0 "Déficit de nanites"
  nanites_deficit_tooltip:0 "Le déficit de nanites arrête immédiatement la transmutation des nanites."
@@ -4515,8 +4574,13 @@
  OVERLORD_SUBSIDY_UNABLE_TO_PAY_RESEARCH:0 "'$OVERLORD|Y$' est incapable de payer les subsides en recherche à '$SUBJECT|Y$' car sa production est insuffisante."
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ RESETTLE_LIST_ENTRY:0 "$PLANET$ / $TYPE$ / $HABIT$ / $JOBS$ / $HOUSING$£housing£"
  leviathans.125.name.z1:0 "[traders.GetName]"
  leviathans.126.name:0 "[traders.GetName]"
- sm_trader_proxy_office:0 "Agence de Marchands mandataires"
- sm_trader_proxy_office_desc:0 "Les §Yenclaves de Marchands§! jouissent de privilèges spécifiques sur le Marché galactique, dont nous pourrions bénéficier."
- requires_trade_enclave:0 "§RRequiert une §Yenclave de Marchands§! dans le système.§!"
+ NAME_Caravaneer_Home_adj:0 "caravanséraillenne"
+ NAME_Caravaneer_Fleet1_country_adj:0 "vengralienne"
+ NAME_Caravaneer_Fleet1_species_adj:0 "vengrale"
+ NAME_Caravaneer_Fleet2_adj:0 "numistique"
+ NAME_Caravaneer_Fleet3_adj:0 "extorsion"
+ NAME_Caravaneer_Fleet3_species_adj:0 "extorsion"
+ NAME_Caravaneer_Fleet3_robot_adj:0 "robautomate Extorsion"

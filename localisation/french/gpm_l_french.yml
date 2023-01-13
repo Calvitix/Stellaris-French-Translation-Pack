@@ -55,6 +55,7 @@
  GPM_MAP_MODE_HAS_RELIC_10:1 "a 10 §YReliques anciennes§!"
  GPM_MAP_MODE_HAS_RELIC_11:1 "a beaucoup de §YReliques anciennes!§!"
  GPM_MAP_MODE_HAS_UNKNOWN_RELICS:1 "Cet empire possède un nombre inconnu de §YReliques§!.\nDemande plus d'§Hinformations§!."
+ 
  GPM_MAP_MODE_SAME_EMPIRE_NOT_HAS_RELIC:1 "Nous avons no §YReliques anciennes§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC:1 "Nous avons une §YRelique ancienne§!"
  GPM_MAP_MODE_SAME_EMPIRE_HAS_RELIC_2:1 "Nous avons 2 §YReliques anciennes§!"
@@ -732,6 +733,8 @@
  mod_planet_district_gpm_precursor_power_plant_build_speed_mult:1 "Vitesse de construction des $district_gpm_precursor_power_plant$"
  mod_ROBOT_species_trait_picks_add:1 "Robot $SPECIES_TRAIT_PICKS$"
  mod_job_criminal_per_pop:1 "§G+1§! emploi de $job_criminal$ par palier de $VALUE$ Pops"
+ mod_shipsize_science_influence_upkeep_add:0 "Entretien en influence des vaisseaux scientifiques"
+
  
  #######################################
  #### Opinions
@@ -756,7 +759,7 @@
  gpm_scientific_curiosity:0 "Plusieurs Équipes, couverture complète"
  gpm_scientific_curiosity_desc:0 "Plusieurs équipes à l'extérieur sont envoyées depuis nos vaisseaux scientifiques pour cartographier et étudier la surface de chaque monde que nous rencontrons.\n\nL'§Yexpérience§! §Ereçue par les enquêtes d'anomalies augmentent de §!§Y100%§!,§Eet probabilité de gagner §! §Yune§!  §Erécompense supplémentaire§! provenant de l'enquête§!\n\n"
  gpm_to_boldly_go:0 "Expédition rapide : aller au plus pressé"
- gpm_to_boldly_go_desc:0 "Les vaisseaux scientifiques n'enverront qu'une seule équipe à l'extérieur lorsqu'ils sonderont les différents objets stellaires."
+ gpm_to_boldly_go_desc:0 "Les vaisseaux scientifiques n'enverront qu'une seule équipe à l'extérieur lorsqu'ils sonderont les différents objets stellaires.\n\n"
  gpm_long_range_scans:0 "Cartographie orbitale uniquement"
  gpm_long_range_scans_desc:0 "Aucune équipe extérieure n'est envoyée lorsque nos vaisseaux scientifiques reconnaissent la galaxie. Une analyse rapide de chaque monde que nous rencontrons suffirat pour obtenir toutes les informations dont nous avons besoin.\n\n§RPas de découvertes d'anomalies§!\n\n"
  
@@ -872,11 +875,18 @@
  gpm_start_menu.1.old_galaxy_age:0 "§YAge de la Galaxie : §! Vieux"
  gpm_start_menu.1.old_galaxy_ageTT:0 "§HCliquer pour modif.§! à travers les paramètres qui déterminent l'âge de la galaxie. Cela détermine les chances d'apparition des modificateurs de planète. Une vieille galaxie aura plus de ruines et de signes de civilisations précédentes.\n----- §HGalaxy Age : §! : -----\n§L Jeune§!\n§L Normal (par défaut) §!\n§W Ancien§G (actuellement sélectionné) §!\n\n§HEffets :§!\nModificateurs de Planète Précurseur : §R-30%§! de chances d'apparition\nModificateurs de planètes normales non naturelles : §R-30%§! de chances d'apparition\nModificateurs de planètes naturelles normales : §G+30§! chances d'apparition"
  
- gpm_start_menu.1.default_scaling:0 "§YEchelle :§! On"
- gpm_start_menu.1.default_scalingTT:0 "§HCliquer pour modif.§! à travers les paramètres qui déterminent si la mise à l'échelle est active. §HMise à l'échelle§! §GON§!"
-
  gpm_start_menu.1.scaling_off:0 "§YEchelle :§! Off"
- gpm_start_menu.1.scaling_offTT:0 "§HCliquer pour modif.§! à travers les paramètres qui déterminent si la mise à l'échelle est active. §HMise à l'échelle§! §ROFF§!"
+ gpm_start_menu.1.scaling_offTT:0 "§HCliquer pour modif.§! à travers les paramètres qui déterminent comment la mise à l'échelle est active. \n-----§HEchelle :§!:-----\n§L Taille de planète§!\n§W Aléatoire§!\n§L Aléatoire+§!\n§L Off§! §G(actuellement sélectionné)§!"
+ 
+ gpm_start_menu.1.default_scaling:0 "§YEchelle :§! Taille de planète"
+ gpm_start_menu.1.default_scalingTT:0 "§HCliquer pour modif.§! à travers les paramètres qui déterminent comment la mise à l'échelle est active.\n-----§HEchelle :§!:-----\n§W Taille de planète§! §G(actuellement sélectionné)§!\n§L Aléatoire§!\n§L Aléatoire+§!\n§L Off§!"
+ 
+ gpm_start_menu.1.scaling_random:0 "§YEchelle :§! Aléatoire"
+ gpm_start_menu.1.scaling_randomTT:0 "§HCliquer pour modif.§! à travers les paramètres qui déterminent comment la mise à l'échelle est active.\n-----§HEchelle :§!:-----\n§L Taille de planète§!\n§W Aléatoire§! §G(actuellement sélectionné)§!\n§L Aléatoire+§!\n§L Off§!"
+
+ gpm_start_menu.1.scaling_randomplus:0 "§YEchelle :§! Aléatoire+"
+ gpm_start_menu.1.scaling_randomplusTT:0 "§HCliquer pour modif.§! à travers les paramètres qui déterminent comment la mise à l'échelle est active.\n-----§HEchelle :§!:-----\n§L Taille de planète§!\n§L Aléatoire§!\n§W Aléatoire+§! §G(actuellement sélectionné)§!\n§L Off§!\n\n§LLes valeurs max des modificateurs de planètes voient leur §Tmaximum§! augmenté de 50%\n<<<§RAttention§!: Pas du tout équilibré!>>>§!" 
+ 
  
  # various options
  gpm_start_menu.1.options:0 "£options_icon  §YOptions§! £options_icon"
@@ -917,6 +927,11 @@
  gpm_start_menu.2.disable_mp_fun:1 "£options_icon  §RDésactive l'augmentation des 'Bonus' des précurseurs§!"
  gpm_start_menu.2.disable_mp_funTT:1 "§HCliquez sur ce bouton pour réinitialiser les chances d'apparition des sites de fouilles précurseurs et réinitialiser leurs récompenses spéciales, à leurs valeurs par défaut"
  
+ gpm_start_menu.2.enabled_mini_structures:0 "£options_icon  §GActive les Mini Mégastructures§!"
+ gpm_start_menu.2.enable_mini_structuresTT:0 "§HCliquez sur ce bouton pour activer l'apparition de Mini Mégastructures§!\nLes mini-mégastructures apparaîtront de façon aléatoire dans la galaxie."
+ gpm_start_menu.2.disable_mini_structures:0 "£options_icon  §RDésactive les Mini Mégastructures§!"
+ gpm_start_menu.2.disable_mini_structuresTT:0 "§HCliquez sur ce bouton pour interdire l'apparition de Mini Mégastructures§!\nLes mini-mégastructures n'apparaîtront §Rnot§!  dans la galaxie."
+  
  #######################################
  #### Techologies
  #######################################
@@ -1162,7 +1177,7 @@
  tech_gpm_artificial_water_discovery_2:0 "Refroidisseur Nanite"
  tech_gpm_artificial_water_discovery_2_desc:0 "Le liquide de refroidissement à base de nanites est capable de se maintenir au froid, si froid qu'il peut rester à jamais à des températures inférieures à zéro. Pour ce faire, il transfère activement la chaleur de son environnement et la conserve dans des cellules thermiques hyper efficaces."
  
- tech_gpm_android_pleasure_palace_discovery:0 "Droïdes du marché noir"
+ tech_gpm_android_pleasure_palace_discovery:0 "Droïdes de plaisir"
  tech_gpm_android_pleasure_palace_discovery_desc:0 "Bien qu'ils ne soient pas officiellement pris en charge, les droïdes de plaisir sont tellement répandus qu'ils sont impossibles à interdire à ce stade. Un marché noir florissant a eu pour résultat qu'il y en a un dans presque chaque foyer, bien que personne n'admette en posséder."
  
  tech_gpm_android_pleasure_palace_discovery_2:0 "Serveurs Droïdes"
@@ -1290,7 +1305,7 @@
  TRAIT_GPM_FORGOTTEN_SPECIES_EFFECT:0 ""
  
  trait_gpm_mega_adaptive:0 "Survivants"
- trait_gpm_mega_adaptive_desc:0 "§LCette espèce est née dans un monde-mord, où la sélection naturelle assure que seuls les plus forts survivent.§!"
+ trait_gpm_mega_adaptive_desc:0 "§LCette espèce est née dans un monde-mort, où la sélection naturelle assure que seuls les plus forts survivent.§!"
  TRAIT_GPM_MEGA_ADAPTIVE_EFFECT:0 ""
  
  trait_gpm_high_status:0 "Débuts Respectueux"

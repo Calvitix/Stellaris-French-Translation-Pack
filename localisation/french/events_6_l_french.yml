@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check 3.5.0 : 23.09.2022
+ # Update check 3.6.0 : 30.11.2022
  ####################################
  # Anomaly Category
  the_lonely_bot_category:0 "Signes d'une vie ancienne"
@@ -13,6 +13,9 @@
  STAR_RESONANCE_DESC:0 "Les scientifiques ont découvert, à proximité de la couronne de §H[Root.GetName]§!, ce qui semblait de prime abord être un dysfonctionnement minime des capteurs. Pourtant, après avoir relancé tous les systèmes, l'erreur est toujours présente. Des investigations plus poussées devraient être menées."
  ALPHA_CENTAURI_CAT:0 "Stase"
  ALPHA_CENTAURI_CAT_DESC:0 "L'orbite particulière de §H[From.GetName]§! autour de sa naine rouge lui impose une rotation synchrone. Cela mériterait quelques investigations plus poussées."
+ FROZEN_SPRINGS_CAT:0 "Chaleur mystérieuse"
+ FROZEN_SPRINGS_CAT_desc:0 "En reconnaissant [From.GetName], notre équipe scientifique a détecté des signatures thermiques inhabituelles sous la surface gelée de la [From.GetPlanetMoon]."
+
  # Deposits
  d_hab_lonely_bot_deposit:0 "Robot énigmatique"
  d_hab_lonely_bot_deposit_desc:0 "Un petit robot, ancien et énigmatique, supervisant une usine construite par une civilisation ancienne."
@@ -260,6 +263,12 @@
  anomaly.6915.name:0 "Gratitude"
  anomaly.6915.desc.regular:0 "§R« C'EST... C'EST VIVANT ! ÇA BOUGE ! Nous ne sommes vraiment rien face à une telle chose. Les querelles mesquines entre les empires de la galaxie ne sont vraiment rien face à une telle gr... »§!\n\nL'ultime transmission du §Y[Root.GetName]§! s'est interrompue abruptement, et les sondes utilisées pour examiner l'intérieur de §Y[From.From.From.GetName]§! n'ont révélé qu'une coquille vide. Il semble que le monstre n'a guère témoigné de gratitude envers ses libérateurs..."
  anomaly.6915.desc.gestalt:0 "Les [Root.Owner.GetScientistPlural] que nous avions envoyés dans le système de §H[Solar_System.GetName]§! ont tous réagi de façon alarmiste, juste avant que le contact avec l'[Root.Owner.GetBrainName] ne soit coupé. Leur seul message aura été : §R« C'EST SORTI ! »§! L'ultime transmission du §Y[Root.GetName]§! s'est interrompue abruptement au moment où l'oeuf commençait à s'ouvrir, et lorsque les sondes ont examiné l'intérieur de §Y[From.From.From.GetName]§! elles n'ont révélé qu'une coquille vide. La créature semble avoir témoigné bien peu de gratitude à ses libérateurs..."
+
+ anomaly.3140.name:0 "Chaleur en dessous"
+ anomaly.3140.desc:0 "Après avoir sondé sous la surface de §Y[From.GetName]§!, l'équipage du [Root.GetName] a conclu que les signatures thermiques inhabituelles étaient causées par des sources hydrothermales. Il semble y avoir davantage sur cette [From.GetPlanetMoon] que ne le laisserait supposer un examen rapide..."
+ anomaly.3140.a:0 "Très bien, mais évitons de gâcher des ressources"
+ anomaly.3141.name:0 "Vie alien en profondeur"
+ anomaly.3141.desc:0 "L'exploration de §Y[From.From.GetName]§! a révélé que l'eau chaude provenant des profondeurs de la croûte grouille d'une vie microscopique. Ce que nous avions pris jusqu'à présent pour une [From.From.GetPlanetMoon] gelée et désolée dispose en fait d'une biosphère dynamique sous ses glaces."
 
  colony.5000.name:0 "Un ami inattendu"
  colony.5000.desc:0 "L'énigmatique robot de §Y[Root.GetName]§! s'est montré très accueillant envers nos colons après leur installation sur la [Root.GetPlanetMoon]. Au départ, bon nombre d'entre eux se montraient méfiants à son égard, mais il s'est avéré incroyablement utile et a joué un rôle primordial pour l'établissement de la colonie.\n\nAu bout de quelques années, il est devenu une figure familière dans les villes de §H[Root.GetName]§!, et quasiment une mascotte pour l'ensemble de la [Root.GetPlanetMoon]."
@@ -945,7 +954,7 @@
  ancrel.15024.name:0 "Liquides forts"
  ancrel.15024.desc:0 "Les archéologues ont retrouvé dans le voilier de §Y[From.Planet.GetName]§! une cachette contenant des breuvages forts. L'équipage consommait-il ces liquides puants ? Les scientifiques refusent eux-mêmes d'en ingérer, même pour la science. Selon eux, l'exploration du vaisseau serait déjà bien assez enivrante... Quoi qu'il en soit, ils ont aussi retrouvé de nouveaux couplets de ce chant de marins :\n\n$t$De pierre et de rocher  sont les lithoïdes\n$t$Ces lourdauds sont costauds  mais pas bien rapides !\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !\n\n$t$Effroyables et glacés  sont les nécroïdes\n$t$Pas forcément méchants  mais un peu fétides !\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !\n\n$t$Par essaims et nuées  viennent les robots\n$t$Dix, vingt, cent droïdes ? Non !   C'est 1 ou 0 !\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !"
  ancrel.15025.name:0 "Larguer les amarres"
- ancrel.15025.desc:0 "L'exploration du voilier de §Y[From.Planet.GetName]§! a livré des aperçus d'un passé lointain, montrant le courage et l'abnégation de ces antiques explorateurs. Tout laisse croire que le capitaine du vaisseau utilisait ce chant pour motiver l'équipage et l'aider à se coordonner. Peut-être même chantaient-ils tous en choeur ? Les archéologues sont persuadés que ce morceau devrait être préservé dans un musée.\n\nQuant à la mélodie elle-même, toutes les paroles que nous avons pu retrouver ont été transcrites, traduites et ajoutées dans nos bases de données. Nos propres « marins » ont eux-mêmes pris l'habitude d'en chanter des versions qui leur sont propres, qui semblent contribuer à leur moral et leur efficacité :\n\n$t$Sortis de l'océan  dans nos beaux vaisseaux\n$t$Bientôt la galaxie  sera notre empire !$t$\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !\n\nIl est temps donc que notre propre vaisseau largue lui-même les amarres et quitte cet antique voilier pour faire voile sur les vents solaires jusqu'à la bordure de la galaxie. Vers l'espace obscur !"
+ ancrel.15025.desc:0 "L'exploration du voilier de §Y[From.Planet.GetName]§! a livré des aperçus d'un passé lointain, montrant le courage et l'abnégation de ces antiques explorateurs. Tout laisse croire que le capitaine du vaisseau utilisait ce chant pour motiver l'équipage et l'aider à se coordonner. Peut-être même chantaient-ils tous en choeur ? Les archéologues sont persuadés que ce morceau devrait être préservé dans un musée.\n\nQuant à la mélodie elle-même, toutes les paroles que nous avons pu retrouver ont été transcrites, traduites et ajoutées dans nos bases de données. Nos propres « marins » ont eux-mêmes pris l'habitude d'en chanter des versions qui leur sont propres, qui semblent contribuer à leur moral et leur efficacité :\n\n$t$Sortis de l'océan  dans nos beaux vaisseaux\n$t$Bientôt la galaxie  sera notre empire !$t$\n\n$tt$Le temps est gros, garçons,  l'espace est noir\n$tt$Hissez la grand'voile,  larguez les amarres !\n$tt$Le vent nous mènera...  Oh ! à la bordure\n$tt$Par-delà le phare vers  l'espace obscur !\n\nIl est temps donc que notre propre vaisseau largue lui-même les amarres et quitte cet antique voilier pour faire voile sur les vents stellaires jusqu'à la bordure de la galaxie. Vers l'espace obscur !"
  ancrel.15022.a:0 "Faisons traduire la suite des paroles !"
  ancrel.15023.a:0 "$ancrel.15022.a$"
  ancrel.15024.a:0 "Il nous faut la suite de ces paroles !"
@@ -959,6 +968,182 @@
  anomaly.7020.a:0 "Nous devrions continuer d'étudier cela"
 
  harmonious_crew:0 "Équipages bien coordonnés"
+
+
+##### Negative Mass #####
+ 
+ # Situation 
+
+ situation_negative_mass:0 "Sort de l'univers bêta"
+ situation_negative_mass_type:0 "$situation_negative_mass$"
+ situation_negative_mass_desc:0 "L'univers bêta se trouve confronté à une situation terrible. Nous devons donc décider si nous nous contentons d'observer ou devons tenter tout ce qui est possible pour aider cette dimension d'ores et déjà condamnée."
+ approach_save_b_world:0 "Transfert"
+ approach_observe_nmass:0 "Observation"
+ approach_plunder_nmass:0 "Pillage"
+ string_nmass_year:0 "Durée de la situation : §R[This.situation_age]§!"
+ string_nmass_too_late:0 "Univers en cours d'effondrement"
+ string_redoubled_efforts:0 "Efforts redoublés"
+ string_took_pops:0 "Univers bête dépeuplé"
+ situation_negative_mass_complete_tooltip:0 "La déchirure va être déstabilisée et toute vie dans l'univers bêta va disparaître intégralement."
+ situation_negative_mass_fail_tooltip:0 "Ayant fait tout ce que nous pouvions, ne reste plus qu'à attendre pour voir si nous sommes parvenus à stabiliser la déchirure suffisamment pour permettre à [Target.GetName] Bêta de passer dans notre univers."
+ situation_negative_mass_monthly_change_tooltip:0 "$situation_monthly_change_tooltip_approaches_dependent$"
+
+ # Events
+ colony.9800.name:0 "Dimension statique"
+ colony.9800.desc:0 "Le portail dimensionnel de §Y[Root.GetName]§! s'est refermé de lui-même. Lorsqu'il avait été stabilisé, nous avions pu voir qu'il menait à une dimension constituée entièrement d'un vide blanc et informe, interrompu seulement par des traînées aléatoires de bruit noir. Cet étrange phénomène avait aussitôt commencé à s'écouler dans notre propre univers, consumant nos stabilisateurs dimensionnels, faisant s'effondrer le portail.\n\nCelui-ci, cette statique et les stabilisateurs ont tous disparu simultanément. Il n'en reste absolument plus rien, pas même la moindre particule. Si le portail n'avait été aussi instable, qui sait quel type de désastre aurait pu se produire de notre côté ?"
+ 
+ colony.9805.name:0 "Perturbations"
+ colony.9805.desc:0 "Récemment, les [Root.GetScientistPlural] travaillant dans les meilleurs laboratoires de physique de [Root.Capital.GetName] ont remarqué au cours de leurs travaux d'étranges fluctuations. Les tests liés aux hyperpropulseurs ont beaucoup pâti de ces interférences, mais pourtant ces interruptions n'ont guère duré plus d'une semaine avant de s'interrompre. Durant ce laps de temps, des fluctuations ont aussi été relevées sur §Y[From.GetName]§!, en lien avec le portail dimensionnel désormais fermé. Heureusement, cette statique impossible n'est pas revenue. Espérons que cela n'aura pas d'autres conséquences..."
+ colony.9805.a:0 "Reprenons les travaux en ce cas"
+ colony.9805.b:0 "Il faut enquêter à ce sujet"
+ 
+ colony.9810.name:0 "Masse négative"
+ colony.9810.desc:0 "Les cercles scientifiques de [Root.Capital.GetName] sont agités et anxieux. [cloned_physicist.GetName] vient de publier ses découvertes sur l'apparition spontanée de particules de masse négative à proximité de [Root.Capital.GetStarName].\n\n« Ces découvertes pourraient faire progresser notre compréhension des trous de ver artificiels et de bien d'autres sujets », proclame-t-[cloned_physicist.GetSheHe].\n\nL'amirauté a un tout autre avis sur la question, toutefois, et suggère de ramener des flottes à proximité de [Root.Capital.GetName] jusqu'à ce que la source de cette matière nouvelle et largement inconnue ait été déterminée."
+ colony.9810.desc.robot:0 "L'unité de recherche physique [cloned_physicist.GetName] a aujourd'hui transmis un rapport, comprenant notamment des découvertes faites récemment sur des particules de masse négative apparues spontanément à proximité de [Root.Capital.GetStarName].\n\n« Ces découvertes pourraient faire progresser la compréhension de la [Root.GetName] sur les trous de ver artificiels et bien d'autres sujets », rapporte-t-[cloned_physicist.GetSheHe].\n\nLes sous-routines d'analyse des menaces suggèrent de ramener les flottes à proximité de [Root.Capital.GetName] jusqu'à ce que la source de cette matière nouvelle et largement inconnue ait été déterminée."
+ colony.9810.desc.hive:0 "Des observations du drone en charge des recherches physiques, [cloned_physicist.GetName], portant sur l'apparition spontanée de particules de masse négative à proximité de [Root.Capital.GetStarName], ont été disséminées au sein de la Conscience.\n\n« Ces découvertes pourraient faire progresser la compréhension de la [Root.GetName] sur les trous de ver artificiels et bien d'autres sujets », rapporte-t-[cloned_physicist.GetSheHe].\n\nLa Conscience se méfie de cette évolution soudaine de la situation, et sent instinctivement qu'il serait avisé de ramener des flottes à proximité de [Root.Capital.GetName]."
+ 
+ colony.9815.name:0 "La nuit où le ciel s'est déchiré"
+ colony.9815.desc:0 "Tout ce que la [Root.GetName] compte de scientifiques s'est rassemblé aujourd'hui pour écouter la présentation par [cloned_physicist.GetName] de ses idées pour utiliser les particules de masse négative. Mais son exposé a été soudain interrompu : des sirènes d'alerte ont retenti dans tous les observatoires et stations spatiales du système de §Y[Root.System.GetName]§! lorsque quelque chose est apparu dans le ciel nocturne. Une déchirure de l'espace, de la taille de notre étoile, s'étire sur l'horizon. Et il en sort une flottille de chasseurs..."
+ colony.9815.desc.robot:0 "De nouvelles unités scientifiques ont été déployées pour étudier les dernières découvertes de [cloned_physicist.GetName] et l'usage possible des particules de masse négative. Mais tout a été soudainement interrompu : des signaux d'alerte ont retenti dans tous les observatoires et stations spatiales du système de §Y[Root.System.GetName]§! lorsque quelque chose est apparu dans le ciel nocturne. Une déchirure de l'espace, de la taille de notre étoile, s'étire sur l'horizon. Et il en sort une flottille de chasseurs..."
+ colony.9815.desc.hive:0 "De nouveaux drones scientifiques ont été déployés pour étudier les dernières découvertes de [cloned_physicist.GetName] et l'usage possible des particules de masse négative. Mais tout a été soudainement interrompu : des sirènes d'alerte ont retenti dans tous les observatoires et stations spatiales du système de §Y[Root.System.GetName]§! lorsque quelque chose est apparu dans le ciel nocturne. Une déchirure de l'espace, de la taille de notre étoile, s'étire sur l'horizon. Et il en sort une flottille de chasseurs..."
+ 
+ colony.9820.name:0 "Code ancien"
+ colony.9820.desc:0 "Alors que la dernière corvette est rendue inopérante, un cadet chargé des capteurs sur la base stellaire de §Y[From.From.Star.GetName]§! rapporte quelque chose de curieux : les vaisseaux passés par la déchirure sont semblables à des modèles dépassés que la flotte de la [Root.GetName] a cessé d'utiliser depuis des années. Ils sont dépourvus de propulseurs PRL, et sont équipés d'un armement obsolète. Et, au moment où ce rapport nous parvient, une communication provenant de la déchirure se réverbère à travers le système. Ses codes d'identification correspondent au plus haut niveau de sécurité... d'il y a dix ans."
+ colony.9820.desc.robot:0 "Alors que la dernière corvette est rendue inopérante, les sous-routines d'analyse des données d'observation rapportent quelque chose d'anormal : les vaisseaux d'invasion sont semblables à des modèles dépassés que la [Root.GetName] a cessé de produire depuis des années. Par ailleurs, ils sont dépourvus de propulseurs PRL et équipés d'un armement obsolète. Et, au moment où ce rapport nous parvient, une communication provenant de la déchirure se réverbère à travers le système. Ils utilisent les protocoles de salutation les plus complexes... d'il y a dix ans."
+ colony.9820.desc.hive:0 "Alors que la dernière corvette est rendue inopérante, un drone chargé des capteurs sur la base stellaire de §Y[From.From.Star.GetName]§! rapporte quelque chose de curieux : les vaisseaux passés par la déchirure sont semblables à des modèles dépassés que la flotte de la [Root.GetName] a cessé d'utiliser depuis des années. Ils sont dépourvus de propulseurs PRL, et sont équipés d'un armement obsolète. Et, au moment où ce rapport nous parvient, une communication provenant de la déchirure se réverbère à travers le système. C'est là quelque chose dont la Conscience n'est pas familière, une autre intelligence [Root.GetSpeciesName]..."
+ colony.9820.a.robot:0 "Lisons cette transmission"
+ 
+ colony.9821.name:0 "Communication transdimensionnelle"
+ colony.9821.desc:0 "L'écran de communication tremblote, et ce qui apparaît est en fait un membre de l'espèce [Root.GetSpeciesName]. [cloned_physicist.GetSheHeCap] paraît tout à la fois épuisé[cloned_physicist.GetXELead], enthousiaste, et en même temps parfaitement terrifié[cloned_physicist.GetXELead]. [cloned_physicist.GetSheHeCap] paraît famili[cloned_physicist.GetErEreLead], et pour cause : c'est un véritable sosie de [cloned_physicist.GetName], mais âgé de 20 ans de moins.\n\n§B« Euh... Bonjour, [Root.Capital.GetName] Alpha, ici [cloned_physicist.GetName] Bêta. »§!\n\n[cloned_physicist.GetSheHeCap] fait une pause.\n\n§B« Je... Euh... Nous... Nous sommes terriblement désolés de ce qui vient de se produire. Vous devez comprendre, il s'agissait d'éléments rebelles de la défense collective de notre monde, qui pensaient pouvoir s'emparer de [Root.Capital.GetName] par la force. Je sais que cela peut vous paraître tout à fait confus, mais je vous en prie, croyez-moi. Nous n'avons aucune intention de vous faire le moindre mal. »§!"
+ colony.9821.desc.robot:0 "L'écran de communication tremblote, et un code d'identification est envoyé.\n\n§RErreur somme de contrôle :§! cet identifiant est celui de [cloned_physicist.GetName].\n§B« Salutations, [Root.Capital.GetName] Alpha. Toutes nos excuses : les actes hostiles que vous venez de subir ont été causés par un reliquat d'une branche militaire redondante et obsolète des systèmes de la [Root.GetName] Bêta. Cette branche elle-même a été écrasée. Déclaration : nous n'avons aucune intention de poursuivre la moindre interaction hostile. »§!"
+ colony.9821.desc.hive:0 "L'écran de communication tremblote, et le drone de la Conscience en face a une structure extérieure parfaitement semblable à celle de [cloned_physicist.GetName]. Curieux...\n\n§B« Salutations, [Root.Capital.GetName] Alpha, et toutes nos excuses. Les drones qui vous ont attaqués étaient des déviants, laissés à eux-mêmes depuis trop longtemps. La [Root.GetName] Bêta apprécie que vous les ayez exterminés. Nous n'avons aucun souhait d'entretenir la moindre relation négative avec vous, et souhaiterions vous proposer quelque chose de bénéfique pour nos deux Consciences. »§!"
+ colony.9821.a:0 "Qui êtes-vous ?"
+ colony.9821.a.robot:0 "Rapport de statut !"
+ colony.9821.a.response:0 "§B« Moi et tous ceux qui se trouvent avec moi sommes dans un univers parallèle au vôtre. Il semblerait, à un moment que nous ne pouvons préciser, que nos deux réalités se sont distinguées, et que la nôtre s'effiloche peu à peu depuis lors. Nous l'avons au départ remarqué quand des systèmes éloignés ont commencé à disparaître, et depuis cet instant précis nous faisons tout pour éviter le sort qui nous attend. Au cours des dernières décennies, toutes nos ressources et tous nos efforts ont été consacrés à ouvrir ce portail transdimensionnel. Nous n'avons pu vous atteindre que grâce à nos technologies les plus expérimentales et à nos avancées en physique les plus récentes, quelques années seulement avant ce moment fatidique où notre réalité cessera définitivement d'exister. »§!"
+ colony.9821.a.response.robot:0 "§B« [cloned_physicist.GetName] Bêta et toutes les autres unités présentes ici sommes dans un univers parallèle. La détérioration de l'univers bêta a été observée initialement il y a des décennies. Premières observations : les systèmes les plus éloignés ont été observés en train de disparaître, il y a 55,136 ans. Depuis, toutes les ressources et la puissance de calcul disponibles ont été mises en oeuvre pour ouvrir ce portail transdimensionnel. Temps restant avant l'effacement de [Root.Capital.GetName] Bêta : 25,3333 ans. »§!"
+ colony.9821.a.response.hive:0 "§B« Moi [cloned_physicist.GetName] Bêta, et tous les autres membres de notre Conscience sommes présents dans un univers parallèle au vôtre. Nous ne savons pas quand exactement, mais nous pensons que nos deux réalités se sont distinguées et que la nôtre s'effiloche peu à peu depuis lors. Les drones d'observation l'ont au départ remarqué lorsque des systèmes éloignés ont commencé à disparaître, et depuis cet instant précis notre Conscience a tout fait pour éviter le sort qui l'attend. Au cours des dernières décennies, tous les drones, toutes les ressources et toutes les études ont été consacrés à ouvrir ce portail transdimensionnel. Nous n'avons pu vous atteindre que grâce à nos technologies les plus expérimentales et à nos avancées en physique les plus récentes, quelques années seulement avant ce moment fatidique où notre réalité cessera définitivement d'exister. »§!"
+ colony.9821.b:0 "Vous n'avez pas de propulseurs PRL ?"
+ colony.9821.b.robot:0 "Aucun système PRL, pourquoi ?"
+ colony.9821.b.response:0 "[cloned_physicist.GetName] Bêta ne sait visiblement pas quoi répondre.\n\n§B« Vous avez réussi à voyager plus vite que la lumière ? Oh, quelle merveille ! Alors, ces imbéciles n'avaient aucune raison de vous attaquer. Toute la galaxie s'ouvre devant nous ! Enfin... Si vous voulez bien nous aider, évidemment... »§!"
+ colony.9821.b.response.robot:0 "§B« Les calculs montrent que des systèmes PRL capables d'accéder aux hyperlignes sont théoriquement possibles ; mais le projet a été classé non essentiel et les ressources utilisées pour les recherches du collectif sur le portail. De nombreuses autres ont vu leur priorité abaissée à 0. Demande de transmission d'informations de la [Root.GetName] Alpha après cette communication. »§!"
+ colony.9821.b.response.hive:0 "L'autre drone semble avoir besoin de se connecter à sa conscience un moment avant de répondre.\n\n§B« Notre Conscience était réticente à investir des ressources dans le développement de systèmes PRL alors que l'univers menaçait de disparaître. Peut-être votre conscience pourra-t-elle partager ses informations à ce propos ? »§!"
+ colony.9821.c:0 "Assez parlé, que voulez-vous ?"
+ colony.9821.c.robot:0 "Fin des protocoles diplomatiques, quelle requête ?"
+ 
+ colony.9822.desc:0 "§B« Notre univers est condamné. Il n'y a aucun moyen d'y échapper. Nous avons construit des vaisseaux de transport gigantesques en prévision du moment où cela se produira. Nous vous implorons d'accepter nos réfugiés. Seuls nos enfants les plus prometteurs et nos personnalités les plus talentueuses tiendront dans ces vaisseaux. Accepteriez-vous d'aider à sauver ma... Non, §YVOTRE§! civilisation ? »§!"
+ colony.9822.desc.robot:0 "§B« Des vaisseaux de transport ont été construits. Notre requête : envoyer à la [Root.GetName] Bêta des unités afin de préserver nos ressources et banques de données. Nous ne souhaitons pas mettre fin entièrement à l'exploration de notre propre univers. »§!"
+ colony.9822.desc.hive:0 "§B« L'univers de la [Root.GetName] Bêta est condamné. Il n'y a aucun moyen d'y échapper. Nous avons construit des vaisseaux de transport gigantesques en prévision du moment où cela surviendra, et sommes prêts à vous offrir tous les drones que nous pourrons vous envoyer.\n\nPar ailleurs, nous aimerions fusionner nos consciences. Même si elles étaient identiques au départ, la [Root.GetName] Bêta a eu des expériences et acquis des connaissances que nous aimerions ne pas voir disparaître. Nous vous prions de nous permettre de nous perpétuer. »§!"
+ colony.9822.a:0 "Nous devons voir cela avec nos experts"
+ colony.9822.a.robot:0 "Analyses additionnelles requises, mise en attente..."
+ colony.9822.a.hive:0 "Notre Conscience doit y réfléchir"
+ 
+ colony.9840.name:0 "Le symposium"
+ colony.9840.desc:0 "Un symposium réunissant les plus brillants chercheurs dans tous les domaines a été réuni sur [Root.Capital.GetName] pour discuter le sort de nos jumeaux dimensionnels. Des débats tendus et animés ont évidemment eu lieu dans tout l'espace de la [Root.GetName]. La plupart des participants semblent favorables à une approche très libérale de la situation, l'étude de la fin d'un univers étant potentiellement un sujet d'études extrêmement intéressantes. Il était donc presque acté de répondre favorablement à la requête de [cloned_physicist.GetName] Bêta et de permettre l'évacuation de [Root.Capital.GetName] Bêta autant que faire se pourrait. D'autres ont aussi mentionné qu'il serait tout à fait aisé de prendre les ressources de valeur et les réserves énergétiques dont disposait la [Root.Capital.GetPlanetMoon] bêta.\n\nMais, alors que le sommet était sur le point de se conclure, [cloned_physicist.GetName] est entré en scène pour déclarer qu'[cloned_physicist.GetSheHe] pensait possible d'utiliser les nouvelles technologies offertes par cet univers bêta pour faire passer l'intégralité de [Root.Capital.GetName] Bêta dans notre réalité."
+ colony.9840.desc.robot:0 "Tous les supercalculateurs de l'espace de la [Root.GetName] ont été mis au travail pour déterminer la réponse la plus optimale au dilemme actuel concernant la [Root.GetName] Bêta. Finalement, quatre possibilités ont été déclarées viables :\n\n§H1.§! Étudier l'effondrement de l'univers bêta.\n§H2.§! Utiliser le portail pour prendre possession de toutes les réserves disponibles de minéraux et d'énergie.\n§H3.§! Répondre favorablement à la requête de l'unité scientifique [cloned_physicist.GetName] Bêta.\n§H4.§! Tenter d'utiliser les découvertes hautement expérimentales des sciences et technologiques bêtas pour faire passer l'intégralité de [Root.Capital.GetName] Bêta dans la réalité alpha."
+ colony.9840.desc.hive:0 "L'intelligence de l'ensemble de la [Root.GetName] a été mise à contribution pour décider du sort de la [Root.GetName] Bêta. Quatre solutions possibles ont été proposées.\n\n§H1.§! Étudier l'effondrement de l'univers bêta.\n§H2.§! Utiliser le portail pour prendre possession de toutes les réserves disponibles de minéraux et d'énergie.\n§H3.§! Répondre favorablement à la demande de la [Root.GetName] Bêta en fusionnant l'autre Conscience parmi nous.\n§H4.§! Tenter d'user des sciences et technologies bêtas, aussi expérimentales soient-elles, pour faire passer [Root.Capital.GetName] Bêta dans la réalité alpha en fusionnant les deux consciences."
+ colony.9840.a:0 "Contentons-nous d'étudier cet événement"
+ colony.9840.a.tooltip:0 "Nous ne pouvons nous permettre de mobiliser autant de ressources, mais nous ne pouvons laisser une telle opportunité être gâchée."
+ colony.9840.b:0 "Ramenons toutes ces ressources chez nous"
+ colony.9840.b.phobe:0 "On ne peut faire confiance à ces xénos"
+ colony.9840.b.swarm:0 "Davantage de proies !"
+ colony.9840.b.exterminator:0 "Tout doit être exterminé, même eux"
+ colony.9840.b.tooltip:0 "Ces imbéciles sont sans défense !"
+ colony.9840.c:0 "Sauvons autant de Bêtas que possible"
+ colony.9840.c.phobe:0 "Pour une fois que ce ne sont pas des xénovermines !"
+ colony.9840.c.exterminator:0 "Plus d'unités pour la cause !"
+ colony.9840.c.swarm:0 "De nouveaux drones !"
+ colony.9840.c.tooltip:0 "§Y6§! £pop£pops de [Root.Species.GetNamePlural] Bêtas arrivent sur §Y[Root.Capital.GetName]§!."
+ colony.9840.d:0 "Tentons d'amener [Root.Capital.GetName] Bêta chez nous"
+ colony.9840.d.tooltip:0 "Un projet très difficile va être lancé pour tenter de sauver §Y[Root.Capital.GetName] Bêta§!."
+
+ colony.9850.name:0 "Euphorie"
+ colony.9850.desc:0 "Une statique informe couvre une large partie du ciel de §Y[Root.Capital.GetName] Bêta§! et se referme rapidement, tandis que [cloned_physicist.GetName] Alpha et Bêta sont attelé[cloned_physicist.GetXELead]s à finir leur tâche si ardue. Les stabilisateurs de masse négative s'activent, et la déchirure entre les mondes se déplace au-dessus de la [Root.Capital.GetPlanetMoon] bêta, au moment même où la statique s'apprêtait à l'étouffer. Quelques instants plus tard, la déchirure clignote, puis la masse négative cesse d'apparaître à son ancien emplacement.\n\nC'est fait ! Au terme de longs mois d'études et de recherches pour prendre en compte les effets d'un puits gravitationnel supplémentaire dans une zone habitable, un nouveau monde habité orbite désormais autour de [Root.Capital.GetStarName] !"
+ colony.9850.desc.robot:0 "Une statique informe couvre une large partie du ciel de §Y[Root.Capital.GetName] Bêta§! et se referme rapidement, tandis que [cloned_physicist.GetName] Alpha et Bêta, ainsi que toutes les autres unités scientifiques disponibles, travaillent de concert. Les stabilisateurs de masse négative s'activent, et la déchirure entre les mondes se déplace au-dessus de la [Root.Capital.GetPlanetMoon] bêta, au moment même où la statique s'apprêtait à l'étouffer. Quelques instants plus tard, la déchirure clignote, puis la masse négative cesse d'apparaître à son ancien emplacement.\n\nC'est fait ! Au terme de longs mois d'études et de recherches pour prendre en compte les effets d'un puits gravitationnel supplémentaire dans une zone habitable, un nouveau monde habité orbite désormais autour de [Root.Capital.GetStarName] !"
+ colony.9850.desc.hive:0 "Une statique informe couvre une large partie du ciel de §Y[Root.Capital.GetName] Bêta§! et se referme rapidement, tandis que [cloned_physicist.GetName] Alpha et Bêta, ainsi que tous les autres drones disponibles, travaillent de concert. Les stabilisateurs de masse négative s'activent, et la déchirure entre les mondes se déplace au-dessus de la [Root.Capital.GetPlanetMoon] bêta, au moment même où la statique s'apprêtait à l'étouffer. Quelques instants plus tard, la déchirure clignote, puis la masse négative cesse d'apparaître à son ancien emplacement.\n\nC'est fait ! Les esprits nouveaux fusionnant avec la [Root.GetName] font courir une onde dans la Conscience. Au terme de longs mois d'études et de recherches pour prendre en compte les effets d'un puits gravitationnel supplémentaire dans une zone habitable, un nouveau monde habité orbite désormais autour de [Root.Capital.GetStarName] !"
+ colony.9850.a:0 "Cette fois au moins, tout le monde a survécu !"
+ 
+ colony.9851.name:0 "Statique"
+ colony.9851.desc:0 "Les sondes laissées dans l'univers bêta ont rapporté les derniers instants de cette réalité, au moment où un mur statique informe a absorbé d'abord [Root.Capital.GetStarName] Bêta, puis [Root.Capital.GetName] Bêta. Les transmissions ont été interrompues brutalement, peu avant que la déchirure se referme. Les particules de masse négative qu'elle produisait ont vraisemblablement disparu, elles aussi.\n\nTous ceux qui se trouvaient de l'autre côté n'existent plus."
+ colony.9851.a:0 "Cela aurait pu être nous"
+ 
+ colony.9855.name:0 "Franchissement de la frontière dimensionnelle"
+ colony.9855.desc:0 "Un problème se pose depuis l'apparition de la déchirure : des familles de l'univers alpha contactent leurs jumeaux de l'univers bêta pour les faire entrer clandestinement dans notre réalité. Les troupes chargées de surveiller la frontière pour conserver la séparation entre les deux dimensions sont trop souvent mêlées à ces agissements, tous les habitants de §Y[Target.GetName]§! ayant évidemment une « famille » et des « proches » de l'autre côté. Si quelques-uns seulement cédaient à la tentation, cela ne poserait guère de problème ; mais si cette pratique devenait trop commune nous aurions bientôt un véritable exode à gérer. Si §B[Root.Owner.Capital.GetName] Bêta§! venait à perdre trop d'habitants, ses infrastructures seraient délaissées, et il serait alors encore plus compliqué de conserver ce monde intact."
+ colony.9855.a:0 "Nous ne pouvons le leur refuser"
+ colony.9855.b:0 "Les Bêtas doivent rester de leur côté"
+ colony.9855.c:0 "Ouvrons la possibilité de simples visites bien encadrées"
+ 
+ colony.9860.name:0 "Mission transdimensionnelle"
+ colony.9860.desc:0 "L'un des aspects les plus intéressants, lorsque l'on dispose d'un monde jumeau si proche, est que les piliers culturels des [Root.Owner.GetSpeciesNamePlural] qui ont pu disparaître ou être détruits ces dernières années peuvent encore exister sur l'autre [Target.GetPlanetMoon], et que tous les [Root.Owner.GetSpeciesNamePlural] peuvent donc en jouir à nouveau.\n\nMalheureusement, des créatures peu recommandables de §Y[Root.GetName]§! ont profité de l'occasion pour s'infiltrer sur §B[Target.GetName] Bêta§! et se les approprier. Nous sommes ainsi désormais en possession non pas d'un, mais de deux chefs-d'oeuvre réalisés par un grand inventeur du passé. Le gouvernement de la [Root.GetName] Bêta nous a donc fait parvenir une requête, tout à fait formelle mais où pointe la colère, exigeant que le butin de ce pillage lui soit retourné."
+ colony.9860.a:0 "Retournons cela et présentons nos excuses"
+ colony.9860.b:0 "Deux, c'est TOUJOURS mieux qu'un..."
+ 
+ colony.9870.name:0 "Ultime plaidoyer"
+ colony.9870.desc.helped:0 "La situation dans l'univers bêta est critique, et ne fait que s'aggraver sans cesse. Ce matin, un véritable cri de détresse a été entendu, émergeant du portail. En dépit de tous nos efforts, il semble bien que nos doubles vont devenir à leur tour une part de ce néant que devient leur univers. Si nous voulons les sauver, c'est le moment où jamais..."
+ colony.9870.desc.ignored:0 "Un cri désespéré a été entendu aujourd'hui, émergeant du portail dimensionnel. Il provenait de l'univers bêta, dernier gémissement pour appeler au secours. La [Root.Owner.GetName] tire profit de leur situation depuis un moment déjà, et pourtant nos doubles nous appellent toujours, car ils n'ont personne d'autre vers qui se tourner dans leur univers où ne règne plus que le néant.\n\nNous approchons du point de non-retour. Bientôt, les [Root.Owner.GetSpeciesNamePlural] Bêtas ne seront plus..."
+ colony.9870.a:0 "Redoublons d'efforts, nous ne pouvons renoncer maintenant !"
+ colony.9870.a.tooltip:0 "L'approche §Y$approach_save_b_world$§! de la situation va exiger davantage encore de nos [Target.Owner.GetScientistPlural], réduisant la vitesse de recherche de §R30%§! au total."
+ colony.9870.b:0 "Allons, du calme, tout se déroule comme prévu..."
+ colony.9870.c:0 "Ce sont des [Target.Owner.GetSpeciesNamePlural], nous ne pouvons les abandonner !"
+ 
+ colony.9875.name:0 "Sous-traitement de l'optimisation"
+ colony.9875.desc:0 "Disposer d'une seconde [Root.Owner.GetName] si semblable à la nôtre nous offre une opportunité absolument unique : les calculs requis pour conserver la Conscience parfaitement organisée de façon quotidienne exigent le concours de nombreux [Root.Owner.GetTeamMemberPlural] sur §Y[Target.GetName]§!. Toutefois, cette tâche pourrait être confiée aux [Root.Species.GetNamePlural] Bêtas. Nul besoin de le dire, cela aurait des avantages considérables, et même si cela pourrait conduire à un ralentissement des efforts sur §B[Target.GetName] Bêta§!, ce ne serait en rien catastrophique."
+ colony.9875.a.machine:0 "Cette décision est purement logique"
+ colony.9875.a.hive:0 "Ce serait dans l'intérêt des consciences Alpha et Bêta"
+ colony.9875.b:0 "Non, ils ont besoin de chacun de leurs drones !"
+ 
+ colony.9880.name:0 "Drones désespérés"
+ colony.9880.desc:0 "En proie au désarroi le plus profond, la [Root.Owner.GetName] Bêta a commencé à perdre de sa retenue et à prendre le contrôle des [Root.Owner.GetSoldierPlural] stationnés sur §Y[Target.GetName]§!. Nous devons organiser nos défenses avant d'être submergés face au nombre !"
+ colony.9880.a.machine:0 "Protocole de défense de [Target.GetName] !"
+ colony.9880.a.hive:0 "Réprimons au plus vite [Target.GetName] Bêta !"
+ colony.9880.a.tt:0 "Apparition de §Y4§! £defense_army£armées défensives, au prix de §R1§! £pops£pop."
+ colony.9880.b:0 "Analysons pourquoi l'univers bêta agit ainsi"
+ 
+ colony.9885.desc.hive:0 "Le dernier divergeant a été vaincu. Les drones de communication détectent de nouveau la présence de la [Root.GetName] Bêta, mais elle paraît cette fois bien plus réceptive et humble, attendant que nous décidions nous-mêmes de la contacter.\n\n§B« Notre Conscience vous présente ses excuses. Les réactions instinctives sont de plus en plus dures à réprimer en notre sein, à mesure que la §Rstatique§! se rapproche. Nous allons nous assurer de pouvoir mieux nous contrôler désormais. »§!"
+ colony.9885.desc.machine:0 "La dernière unité de défense rebelle a été éliminée. Les sous-routines d'analyse des données d'observation détectent de nouveau la présence des unités de communication de la [Root.GetName] Bêta. Elle nous a transmis cette simple transmission :\n\n§B« Une fois encore, les unités de défense redondantes ont agi de manière sous-optimale. La §Rstatique§! s'approche, et elles sont parvenues à franchir nos barrages de quarantaine. Le processus a été entièrement effacé, et ne devrait plus poser aucun problème désormais. »§!"
+ colony.9885.a.hive:0 "Nous allons nous-mêmes y veiller"
+ colony.9885.a.hive.tooltip:0 "Tous les drones bêtas parmi les membres centraux de la Conscience vont être éradiqués."
+ colony.9885.b.hive:0 "Nous comprenons, ne vous en faites pas"
+ colony.9885.a.machine:0 "Libre accès à [From.From.GetName] Alpha révoqué"
+ colony.9885.a.machine.tooltip:0 "Nous allons veiller à ce que la §Y[Root.GetName] Alpha§! ne dispose plus de la moindre connexion non sécurisée avec §Y[From.From.GetName]§!."
+ colony.9885.b.machine:0 "Compréhensible, l'I.A. de défense est autonome par nature"
+ 
+ colony.9890.name:0 "Demandes"
+ colony.9890.desc:0 "Nos variants bêtas se sont emparés de §Y[From.From.GetName]§!. Ils exigent désormais le transfert immédiat de certains de leurs drones et l'établissement d'une sous-conscience bêta sur la [From.From.GetPlanetMoon] alpha afin d'assurer la survie de leur conscience et de leurs connaissances."
+ colony.9890.a:0 "Comment refuser ?"
+
+ # Modifier
+ harvesting_negative_mass:0 "Collecte de masse négative"
+ harvesting_negative_mass_desc:0 "La collecte de particules de masse négative permet de faire progresser la recherche physique."
+ appeased_populace:0 "Population apaisée"
+ appeased_populace_desc:0 "Accepter de répondre favorablement aux demandes de migration transdimensionnelles depuis [Root.GetName] Bêta a permis d'apaiser grandement la population de [Root.GetName]."
+ angered_populace:0 "Population mécontente"
+ angered_populace_desc:0 "L'interdiction de toute migration transdimensionnelle depuis [Root.GetName] Bêta renforce l'agitation des habitants de [Root.GetName]."
+ stolen_great_work:0 "Chef-d'oeuvre volé"
+ stolen_great_work_desc:0 "Un chef-d'oeuvre provenant de [Root.GetName] Bêta est fièrement exposé à côté de sa reproduction originelle, originaire de [Root.GetName]."
+ multiple_stolen_great_works:0 "Chefs-d'oeuvre volés"
+ multiple_stolen_great_works_desc:0 "De nombreux chefs-d'oeuvre provenant de [Root.GetName] Bêta sont exposés sur [Root.GetName]."
+ offloaded_optimization:0 "Sous-traitement de l'optimisation"
+ offloaded_optimization_desc:0 "Confier les calculs quotidiens à nos doubles de l'univers bêta a permis de grandement accroître les capacités de production dans la réalité alpha."
+
+ b_world_saved:0 "Sauvés"
+ b_world_saved_desc:0 "Tous les habitants de [Root.GetName] se montrent reconnaissants d'avoir été sauvés."
+
+ # Names
+ NAME_B_Planet:0 "[Root.GetHomeWorldName] Bêta"
+ NAME_Portal_Invaders:0 "Invasion du portail"
+ NAME_B_World_Corvette:0 "Corvette dépassée"
+ NAME_Familiar_Fleet:0 "Flotte familière"
+ NAME_controlled_army:0 "Armée contrôlée"
+ NAME_Dominated_Drones:0 "Drones dominés"
+
+ # Traits
+
+ trait_notofthisworld:0 "Pas de cet univers"
+ trait_notofthisworld_desc:0 "§BCette espèce n'est pas de cet univers et dépérit peu à peu§!."
+ trait_notofthisworld_robot:0 "Pas de cet univers"
+ trait_notofthisworld_robot_desc:0 "§BCes machines ne sont pas de cet univers et se dégradent peu à peu§!."
+ TRAIT_NOTOFTHISWORLD_EFFECT:0 "Pour chaque £pop£pop ayant au moins le statut d'£pop_cat_slave£esclave : $mod_country_physics_research_produces_mult$: §G0.5§!"
+
 
  # Singing Planet
 
@@ -1147,6 +1332,42 @@
  colony.9290.d.desc:0 "Il est évident que la fonderie doit être confiée à un directeur en charge de la faire fonctionner."
  colony.9290.e:0 "Magnifique !" #gestalt - nothing, just start working
 
+ colony.9295.name:0 "Flaques métalliques"
+ colony.9295.desc:0 "Après une pluie survenue tout récemment sur §Y[Root.GetName]§!, des colons ont remarqué la présence de flaques métalliques. Elles ont une consistance visqueuse, un peu comme s'il s'agissait d'un métal liquide."
+ colony.9295.a:0 "C'est sans doute toxique, qu'ils n'y touchent pas"
+ colony.9295.b:0 "Lançons une enquête sur ce phénomène"
+ colony.9296.name:0 "Vase argentée"
+ colony.9296.desc:0 "Les flaques métalliques visqueuses découvertes sur §Y[Root.GetName]§! se multiplient. Des régions entières sont désormais couvertes de cette vase argentée. Et chaque pluie paraît accélérer encore le phénomène."
+ colony.9296.a:0 "Cette fois, il faut enquêter"
+ colony.9299.name:0 "Viscosité fuyante"
+ colony.9299.desc:0 "Les scientifiques de §Y[Root.GetName]§! ne parviennent toujours pas à expliquer le mystère de ces flaques métalliques visqueuses. Jusqu'à présent, leur origine reste indéterminée, et elles restent imperméables à tous les tests menés sur elles. Les instruments ne parviennent même pas à déchiffrer leur composition chimique. Si nous voulons des réponses sur ce phénomène, il va falloir poursuivre les études à son sujet."
+ colony.9299.a:0 "Poursuivons les travaux !"
+ colony.9297.name:0 "Disparition des flaques métalliques"
+ colony.9297.desc:0 "Elles sont parties ! Ces flaques métalliques visqueuses sur §Y[Root.GetName]§! ont disparu ! Tout est revenu à la normale, comme s'il ne s'était jamais rien passé et qu'elles s'étaient évaporées. Et nul ne peut dire quand elles réapparaîtront, si elles le font même un jour..."
+ colony.9297.a:0 "Parfois les ennuis disparaissent d'eux-mêmes..."
+ colony.9298.name:0 "Retour de la vase argentée"
+ colony.9298.desc:0 "Elles sont revenues ! Les flaques métalliques visqueuses sont réapparues sur la surface de §Y[Root.GetName]§!. Leur nature continue d'échapper aux habitants de la [Root.GetPlanetMoon]. Nous devrions cette fois enquêter, tant que nous en avons l'occasion."
+ colony.9298.a:0 "Il ne faut jamais refuser une seconde chance"
+ colony.9300.name:0 "Élémentaire, mon cher !"
+ colony.9300.desc:0 "Un nouvel élément vient d'être découvert sur §Y[Root.GetName]§! ! Grâce à l'avancée de l'enquête sur les flaques métalliques visqueuses, il a été découvert que ces flaques contiennent un élément chimique unique. Celui-ci, baptisé [Root.Owner.GetSpeciesAdj]nium, est présent dans l'atmosphère de la [Root.GetPlanetMoon]. Ce n'est que lorsque se produisent des précipitations importantes qu'il prend cette consistance visqueuse qui a été découverte sur la surface. L'apparition de ces flaques est donc cyclique, tout comme celle des flaques de monoxyde de dihydrogène.\n\nCette découverte est tout simplement fascinante, montrant bien que notre compréhension des éléments chimiques continue de progresser." #This string contains a linguistic joke of appending 'onium' to the end of a planet name to create a new chemical element, e.g. 'Earthonium'. I think it's amusing in English, but I'm unsure how it will be read in other languages.
+
+ colony.9300.a:0 "Et aussi que nous avons beaucoup à apprendre..."
+ FASCINATING_METEOROLOGY_PROJECT:0 "Météorologie fascinante"
+ FASCINATING_METEOROLOGY_PROJECT_DESC:0 "Les recherches sur la météorologie de [Root.GetName] pourraient faire énormément avancer les sciences."
+ colony.9301.name:0 "Savoir crucial"
+ colony.9301.desc:0 "Nous disposons désormais de connaissances d'une très grande valeur sur le système météorologique de §Y[Root.GetName]§!. En plus de permettre l'approfondissement de notre compréhension des éléments chimiques, les recherches récentes ont eu des effets particulièrement bénéfiques pour la production de nourriture."
+ colony.9301.a:0 "Excellent !"
+ job_puddle_technician:0 "Flaquistes"
+ job_puddle_technician_desc:0 "La diversification des sources de production de nourriture est une entreprise tout à fait utile."
+ mod_job_puddle_technician_add:0 "Emplois de £job_farmer£flaquistes "
+ d_metallic_puddles:0 "Flaques métalliques"
+ d_metallic_puddles_desc:0 "La météorologie très particulière de ce monde permet à des techniciens spécialisés dans les flaques métalliques de produire simultanément de la nourriture et des alliages."
+ d_metallic_puddles_gestalt:0 "$d_metallic_puddles$"
+ d_metallic_puddles_gestalt_desc:0 "La météorologie très particulière de ce monde permet à des drones spécialisés dans les flaques métalliques de produire simultanément de la nourriture et des alliages."
+ job_puddle_technician_drone:0 "Drones flaquistes"
+ job_puddle_technician_drone_desc:0 "Mettant à profit la météorologie tout à fait unique de ce monde, des drones spécialisés dans les flaques métalliques récoltent des ressources supplémentaires fort utiles à la Conscience."
+ mod_job_puddle_technician_drone_add:0 "Emplois de £job_agri_drone£drones flaquistes "
+
  d_ancient_manufactorium_working:0 "Fonderie souterraine"
  d_ancient_manufactorium_working_desc:0 "Une fonderie souterraine alien, entièrement opérationnelle et produisant des ressources précieuses pour l'empire."
  d_ancient_manufactorium_scrapyard:0 "Chantier de démantèlement de la fonderie"
@@ -1198,3 +1419,16 @@
  mod_job_manufactorium_research_drone_per_pop_short:0 "\n§G+1§! £job_manufactorium_research_drone£ pour $VALUE$£pop£"
  mod_job_manufactorium_researcher_per_pop:0 "§G+1§! emploi de £job_manufactorium_researcher£chercheurs du complexe souterrain par palier de $VALUE$ pops"
  mod_job_manufactorium_researcher_per_pop_short:0 "\n§G+1§! £job_manufactorium_researcher£ pour $VALUE$£pop£"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ NAME_Eldritch_Horror_adj:0 "fantasmagorique"
+ NAME_Central_Crystal_Country_adj:0 "cristalline"
+ NAME_Central_Crystal_Species_adj:0 "zêr-ayakî"
+ NAME_Crystal_Kraken_adj:0 "cristalline"
+ NAME_B_Planet_debugged:0 "[Root.Capital.GetName] Bêta"
+ NAME_Portal_Invaders_adj:0 "envahisseuse"
+ NAME_Dominated_Drones_adj:0 "dronique"
+ trait_robot_notofthisworld:0 "$trait_notofthisworld_robot$"
+ trait_robot_notofthisworld_desc:0 "$trait_notofthisworld_robot_desc$"
+ job_puddle_technician_plural:0 "$job_puddle_technician$"
+ job_puddle_technician_drone_plural:0 "$job_puddle_technician_drone$"

@@ -2,7 +2,7 @@
  
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check : v3.5 23.09.2022
+ # Update check : v3.6.0 30.11.2022
  ####################################
 
  
@@ -532,7 +532,7 @@
  relic_queen_spawn:1 "Donne naissance à une flotte préthoryne d'une certaine importance."
  relic_rubricator_active:0 "Crée §Y30§! £minor_artifacts£artefacts mineurs."
  relic_galaxy_active:0 "Gain de §Y50%§! sur la recherche d'une technologie aléatoire."
- relic_zro_crystal_passive:2 "Temps d'attente avant de §Ypénétrer dans le Suaire§! : §G-50%§!\nDonne accès au décret §Y$edict_zro_crystal$§!, permettant d'accélérer le gain d'expérience des personnalités et d'accroître leur longévité.\n$MOD_LEADER_RULER_SKILL_LEVELS$: §G+5§!"
+ relic_zro_crystal_passive:3 "\nTemps d'attente avant de §Ypénétrer dans le Suaire§! : §G-50%§!\nDonne accès au décret §Y$edict_zro_crystal$§!, permettant d'accélérer le gain d'expérience des personnalités et d'accroître leur longévité.\n$MOD_LEADER_RULER_SKILL_LEVELS$: §G+5§!"
  edict_zro_crystal:0 "Additifs zro"
  edict_zro_crystal_desc:0 "Les propriétés du zro sont bien mystérieuses. Mais, donné à nos personnalités, il semble leur conférer de légères capacités précognitives, leur permettant d'apprendre plus vite et d'éviter des dangers qui auraient pu causer leur fin de manière prématurée."
  edict_zro_crystal_machine:0 "$edict_zro_crystal$"
@@ -646,7 +646,8 @@
  chosen_of_zarqlan_desc:0 "En tant qu'Élus de Zarqlan, nous pouvons coloniser les mondes sacrés en toute sécurité."
  the_memorex:0 "Le Mémorex"
  the_memorex_desc:0 "Les programmes d'apprentissages avancés du Mémorex forment la population pendant son sommeil afin qu'elle réponde mieux aux besoins de l'empire en améliorant de façon notable leur productivité."
- opinion_destroyed_caravaneer_home:0 "Destruction de la station des Caravaniers "
+ opinion_destroyed_caravaneer_home:1 "Destruction de la station des Caravaniers "
+ opinion_upset_destroyed_caravaneer_home:0 "$opinion_destroyed_caravaneer_home$"
  ##################
  # TRAITS
  ##################
@@ -773,18 +774,28 @@
  d_hab_alloy_4_desc:0 "$d_hab_alloy_1_desc$"
  d_hab_alloy_5:0 "$d_hab_alloy_1$"
  d_hab_alloy_5_desc:0 "$d_hab_alloy_1_desc$"
+ d_hab_alloy_10:0 "$d_hab_alloy_1$"
+ d_hab_alloy_10_desc:0 "$d_hab_alloy_1_desc$"
+ d_hab_alloy_25:0 "$d_hab_alloy_1$"
+ d_hab_alloy_25_desc:0 "$d_hab_alloy_1_desc$"
  d_hab_zro_1:0 "Gisement de zro"
  d_hab_zro_1_desc:0 "Cet habitat est construit non loin d'un gisement exploitable de zro."
  d_hab_zro_2:0 "$d_hab_zro_1$"
  d_hab_zro_2_desc:0 "$d_hab_zro_1_desc$"
  d_hab_zro_3:0 "$d_hab_zro_1$"
  d_hab_zro_3_desc:0 "$d_hab_zro_1_desc$"
+ d_hab_zro_4:0 "$d_hab_zro_1$"
+ d_hab_zro_4_desc:0 "$d_hab_zro_1_desc$"
+ d_hab_zro_5:0 "$d_hab_zro_1$"
+ d_hab_zro_5_desc:0 "$d_hab_zro_1_desc$"
  d_hab_dark_matter_1:1 "Gisement de matière noire"
  d_hab_dark_matter_1_desc:0 "Cet habitat est construit non loin d'un gisement exploitable de matière noire."
  d_hab_dark_matter_2:0 "$d_hab_dark_matter_1$"
  d_hab_dark_matter_2_desc:0 "$d_hab_dark_matter_1_desc$"
  d_hab_dark_matter_3:0 "$d_hab_dark_matter_1$"
  d_hab_dark_matter_3_desc:0 "$d_hab_dark_matter_1_desc$"
+ d_hab_dark_matter_10:0 "$d_hab_dark_matter_1$"
+ d_hab_dark_matter_10_desc:0 "$d_hab_dark_matter_1_desc$"
  d_hab_living_metal_1:0 "Gisement de métal vivant"
  d_hab_living_metal_1_desc:0 "Cet habitat est construit non loin d'un gisement exploitable de métal vivant."
  d_sentinels_monument:0 "$sentinels_planet_modifier$"
@@ -905,3 +916,4 @@
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  edict_zro_crystal_desc_machine:0 "Les propriétés du zro sont bien mystérieuses. Mais, soupoudré sur les cartes-mères de nos personnalités, il semble leur conférer de légères capacités précognitives, leur permettant d'apprendre plus vite et d'éviter des dangers qui auraient pu causer une défaillance critique de manière prématurée."
+ NAME_Sentinels_adj:0 "sentinelle"
