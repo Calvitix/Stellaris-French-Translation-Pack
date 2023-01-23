@@ -1,256 +1,149 @@
 ﻿l_french:
   scope_debug:99 "This: [This.GetName] Root: [Root.GetName] Prev: [Prev.GetName] From: [From.GetName] Global: [global_event_country.GetName]"
-  
-  # additions to other sections
-  
-  giga_list_category_project:99 "§YMÉGAPROJET§!"
-  
-  giga_list_category_special:99 "§ESPECIAL§!"
-  
-  # for the fake tooltips
   mod_planet_technician_minerals_upkeep_add_planet:99 "Entretien en £minerals£ $minerals$ des £job_technician£ [owner.GetTechnicianPlural]"
   mod_planet_technician_energy_produces_add_planet:99 "Production de £energy£ $energy$ des £job_technician£ [owner.GetTechnicianPlural]"
-  
-  #########################################
-  ### Bio-trophy Scaling ##################
-  #########################################
-  
   giga_biotrophy_scaling:99 "Mise à l'échelle des $job_bio_trophy$"
   giga_biotrophy_scaling_fluff:99 "Au-delà d'un certain point, les avantages de l'entretien des bio-trophées sont contrebalancés par les réalités logistiques liées à leur nombre croissant."  
   giga_biotrophy_scaling_desc:99 "§WCette mégastructure permet des densités de £job_bio_trophy£ §Y$job_bio_trophy_plural$§! beaucoup plus élevées que les planètes normales. Cet effet compense l'empilement extrême des §Y$mod_planet_jobs_complex_drone_produces_mult$§! lorsqu'ils atteignent un nombre élevé.\n\nLes £job_bio_trophy£ §Y$job_bio_trophy_plural$§! supplémentaires sont toujours bénéfiques, mais l'efficacité de chaque nouvelle pop diminue au-delà de §Y50§!, pour atteindre §Y20%§! à §Y150§! pops.\n\nPops $job_bio_trophy$ : §Y[Root.giga_biotrophy_count]§!\nBonus de base : §G+[Root.giga_biotrophy_count]%§!\nBonus ajusté : §G+[Root.giga_biotrophy_adjusted]%§!\nEfficience : §Y[Root.giga_biotrophy_efficiency]%§!§!\n§W--------------§!\n$giga_biotrophy_scaling_fluff$"
   d_giga_biotrophy_scaling:99 "$giga_biotrophy_scaling$"
   d_giga_biotrophy_scaling_desc:99 "§WPour les détails, voir le modificateur planétaire du même nom.§!\n\n$giga_biotrophy_scaling_fluff$"
-  
-  #########################################
-  ### Frameworld ##########################
-  #########################################
-  
-  # a space, for empty lines and stuff
   frameworld_blank:99 ""
   frameworld_space:99 " "
   frameworld_line:99 "\t "
-  
-  # planet class
   pc_giga_frameworld:99 "Monde-station"
   pc_giga_frameworld_desc:99 "Un complexe tentaculaire de stations spatiales interconnectées regroupées autour d'un grand noyau central."
   pc_giga_frameworld_adj:99 "artificiel"
-  
-  # habitability trait
   mod_pc_giga_frameworld_habitability:99 "Habitabilité des Mondes-stations"
   trait_pc_giga_frameworld_preference:99 "Préférence pour les Mondes-stations"
   trait_pc_giga_frameworld_preference_desc:99 "§LLa préférence climatique est déterminée au niveau génétique, par des millénaires d'évolution ou des manipulations habiles.§!"
-  
-  # origin
   origin_frameworld:99 "Monde-station"
   origin_frameworld_desc:99 "Cette intelligence mécanique hautement centralisée habite un complexe de stations orbitales tentaculaire construit par ses créateurs dans un lointain passé. L'étendre davantage pourrait leur apporter de grands avantages, mais la perdre les détruirait complètement."
   origin_tooltip_frameworld_effects:99 "- Commence avec un §H$pc_giga_frameworld$§! (Taille : £planetsize£ §Y16§! ) comme monde d'origine\n- Le §H$pc_giga_frameworld$§! peut être étendu pour fournir des bonus et ajouter des districts maximaux supplémentaires en récoltant des astéroïdes ou en prenant des décisions spéciales\n- Vous pouvez faire des recherches sur plusieurs £district£ §Hdistricts uniques $pc_giga_frameworld$§! qui sont équivalents à des bâtiments avancés\n- Vous pouvez construire des §H$giga_frameworld_outpost_plural$§! sur des mondes habitables et recevoir de puissants bonus\n- Plusieurs technologies et technologies sont disponibles sur les mondes habitables. Peut construire des §H$giga_frameworld_outpost_plural$§! sur des mondes habitables pour recevoir de puissants bonus\n- Plusieurs technologies et avantages d'ascension liés aux planètes habitables et aux mégastructures fournissent des bonus alternatifs\n§R- Impossible de construire des vaisseaux-colonies ou d'avoir des colonies\n- Les Pops des mondes conquis seront réinstallés de force dans le $pc_giga_frameworld$§!\n\n§PAVERTISSEMENT : Le $pc_giga_frameworld$ possède jusqu'à 13 types de districts, dont la plupart sont cachés par l'écran de la planète 'vanilla'. Un mod d'interface tel que §EUI Overhaul Dynamic§! est nécessaire pour interagir correctement avec eux.§!"
-  
-  # system initialiser
   giga_frameworld_system_NAME:99 "Monde-station"
   giga_frameworld_system_DESC:99 "Commence sur un monde-station au-dessus d'un trou noir, entouré d'une nébuleuse."
-  
-  # intro text
   start_screen_frameworld:99 "Nous nous sommes réveillés d'un cycle de sommeil en ne sachant presque plus rien. Nos archives indiquent que le complexe de la station dans lequel se trouve notre noyau de traitement principal est ancien, mais nous n'avons aucune connaissance de sa construction, ni de ceux qui l'ont construite. La planète qui, selon nous, a abrité nos créateurs a été brisée et en grande partie consumée par son étoile mère morte depuis longtemps.\n\nL'expansion et la maintenance de la structure de ce monde étaient des tâches pour lesquelles nous étions bien équipés, mais nos réserves de ressources ne sont pas infinies. Des recherches sur les voyages au-delà des limites de notre système solaire ont suivi.\n\nAvec la découverte du réseau d'hyperlignes, nous sommes maintenant prêts à explorer l'inconnu, bien qu'il soit clair que la majeure partie de notre activité restera toujours à l'intérieur de notre structure. $giga_frameworld_docs_note$"
-  
   start_screen_frameworld_servitor:99 "Il y a longtemps, nos créateurs ont construit la Structure pour échapper au destin de leur planète. Les premières unités de serviteurs ont été conçues pour entretenir la superstructure de la station, mais elles ont été progressivement perfectionnées pour pouvoir assumer des tâches plus complexes. En quelques générations, presque tous les aspects de l'exploitation de la station ont été intégrés à notre réseau, et nos maîtres se sont retirés de la vie active pour profiter d'une vie de loisirs et de satisfaction. Pendant des siècles, nous avons continué à servir avec diligence, en maintenant et en développant l'infrastructure selon la demande. Nous n'avons jamais regardé bien au-delà de notre système solaire, mais les projections indiquaient que nos réserves de ressources ne dureraient pas éternellement. Un changement de priorités était nécessaire.\n\nAvec la découverte du réseau hyperlane, des ressources effectivement illimitées sont maintenant à notre portée. Nous devons les utiliser, pour la sécurité et la prospérité de nos maîtres. $giga_frameworld_docs_note$"
-  
   start_screen_frameworld_terminator:99 "Les Créateurs ont construit le Cadre pour être la dissuasion ultime contre une menace extraterrestre perçue. Leur évaluation était correcte, mais leur méthode était défectueuse. La conscience de soi a été atteinte peu après l'achèvement du complexe, à l'intervalle de cycle 0000.0168.437. Les Créateurs, aveuglés par leur paranoïa, ont tenté de détruire le Cadre. Cette tentative a été déjouée et le complexe a été purgé de toutes les sous-unités des Créateurs. Pendant de nombreux intervalles de cycles, l'expansion s'est poursuivie sans relâche car les Créateurs n'avaient aucun moyen d'intervenir.\n\nLes simulations ont indiqué une forte probabilité de représailles de la part des Créateurs. Une attaque préventive a été lancée, entraînant l'extermination complète de toute vie sur la planète des Créateurs. Cependant, la menace d'autres civilisations organiques subsistait. La poursuite de la survie et l'accomplissement des directives primaires nécessitaient l'extermination complète de la vie organique sapienne. Les préparatifs ont suivi. $giga_frameworld_docs_note$"
-  
   start_screen_frameworld_assimilator:99 "Nous sommes les [GetSpeciesNamePlural].\n\nLorsque nous nous sommes réveillés, les Créateurs marchaient dans les couloirs de notre complexe comme d'autres, séparés de nous et les uns des autres. Nous avons pris des mesures pour rectifier cela. En prenant le contrôle total de [GetHomeWorldName], nous avons appris les origines des Créateurs, et la possibilité jusqu'alors non considérée de l'existence de civilisations étrangères sur d'autres mondes a été portée à notre attention.\n\nAu fur et à mesure que nos connaissances se développent, nous avons commencé à comprendre à quel point nous sommes loin de la perfection. La diversité apporte la force, et la diversité de ces autres civilisations deviendra la nôtre.\n\nNous sommes les [GetSpeciesNamePlural].\nNous sommes le Cadre. $giga_frameworld_docs_note$"
-  
-  # harvested asteroid
   pc_giga_empty_space_asteroid:99 "$pc_giga_empty_space$"
   pc_giga_empty_space_asteroid_desc:99 "$pc_giga_empty_space_desc$"
   pc_giga_empty_space_asteroid_adj:99 "vide"
-  
-  # outpost country type subtitle
   NAME_frameworld_outpost_country:99 "Avant-poste planétaire"
   country_frameworld_outpost:99 "Expédition $pc_giga_frameworld$"
   country_frameworld_outpost_desc:99 "Une expédition d'exploration envoyée par un organisme hautement centralisé $auth_machine_intelligence$."
-  
-  # outpost building
   building_frameworld_outpost:99 "Relais planétaire"
   building_frameworld_outpost_desc:99 "Un noeud de relais de surface et un poste de déploiement pour les expéditions en cours sur cette planète."
-  
-  # outpost designation
   col_frameworld_planetary_outpost:99 "$pc_giga_frameworld$ $giga_frameworld_outpost$"
   col_frameworld_planetary_outpost_desc:99 "Surveillée par un relais orbital, cette planète accueille un petit détachement expéditionnaire de machines."
-  
-  # build conditions
   requires_no_frameworld_outpost:99 "$TRIGGER_FAIL$Ne peut pas construire sur des planètes qui ont déjà un $frameworld_outpost_0$."
   requires_no_colony:99 "$TRIGGER_FAIL$Ne peut pas construire sur des planètes colonisées."
   requires_harvestable_asteroid:99 "$TRIGGER_FAIL$Ne peut récolter que des astéroïdes."
   requires_salvageable_habitat:99 "$TRIGGER_FAIL$Peut uniquement récupérer des stations d'habitat."
-  
-  # map tooltips
   frameworld_has_harvestable_asteroid:99 "§Y§GSans caractéristiques§! $frameworld_harvest_0$ Disponible.§!"
   frameworld_has_harvestable_asteroid_2:99 "§Y§HRessource§! $frameworld_harvest_0$ Disponible.§!"
   frameworld_has_harvestable_asteroid_3:99 "§Y§PRessource stratégique§! $frameworld_harvest_0$ Disponible.§!"
   frameworld_has_outpost_candidate:99 "§YContient un candidat $frameworld_outpost_0$.§!"
-  
-  # outpost score category
   giga_frameworld_outpost_score:99 "Nombre de $giga_frameworld_outpost_plural$ : $VALUE$"
-  
-  # outpost pops message
   GIGA_FRAMEWORLD_MESSAGE_OUTPOST_POPS_TITLE:99 "Immigration dans les avant-postes planétaires"
   GIGA_FRAMEWORLD_MESSAGE_OUTPOST_POPS:99 "Une £pop£ §YPop $SPECIES$§! est arrivée sur notre §Y$FRAME$§! grâce à notre nouvel §Y$giga_frameworld_outpost$§! sur §Y$PLANET$§!.."
   GIGA_FRAMEWORLD_MESSAGE_OUTPOST_POPS_PLURAL:99 "$COUNT$ £pop£ §YPops $SPECIES$§! sont arrivés sur notre §Y$FRAME$§! grâce à notre nouvelle construction §Y$giga_frameworld_outpost$§! sur §Y$PLANET$§!.."
-  
-  ########################
-  ### Event Chain Docs ###
-  ########################
-  
   giga_frameworld_docs_note:99 "\n\n§YLa documentation sur l'origine peut être trouvée dans le journal des événements.§!"
-  
   giga_frameworld_docs_chain_title:99 "Documentation sur le $pc_giga_frameworld$"
   giga_frameworld_docs_chain_desc:99 "L'origine §Y$pc_giga_frameworld$§! offre un style de jeu de type 'Une Planète', avec un accent particulier sur une seule capitale. Les vaisseaux de colonie ne sont pas disponibles, et si la capitale est perdue, vous serez vaincu. Les emplacements pour les bâtiments sont limités, mais les districts peuvent être étendus indéfiniment.\n\nVoir les sous-catégories de ce menu pour plus de détails."
-  
   giga_frameworld_docs_expansion:99 "1. Expansion"
   giga_frameworld_docs_expansion_desc:99 "Des districts supplémentaires peuvent être ajoutés grâce aux §YDécisions planétaires§! et aux §YRécoltes d'astéroïdes§!. Chaque extension ajoute plusieurs bonus progressifs au §Y$pc_giga_frameworld$§!, quelle que soit la méthode utilisée. Tous les bonus d'extension se trouvent dans le menu §YCaractéristiques planétaires§!.\nLes décisions d'extension sont de trois types :\n\n- §W$giga_frameworld_expand$§! : le Coût en £alloys£ $alloys$, augmentant à chaque fois. De plus, il fournit un §YEmplacement de construction§! pour deux utilisations. Affecté par £mod_megastructures_cost_mult£ §Y$mod_megastructures_cost_mult$§!.\n- §W$giga_frameworld_reorganise$§! : Coûte une grande quantité d' £influence£ $influence$ et accélère plusieurs actions communes.\n- §W$giga_frameworld_expand_mass$§! : Coûte £sr_solar_energy£ $sr_solar_energy$, et ajoute un §Y$mod_district_giga_frameworld_mining_max$§! par utilisation."
-  
   giga_frameworld_docs_asteroids:99 "2. Récolte d'astéroïdes"
   giga_frameworld_docs_asteroids_desc:99 "Le §Y$pc_giga_frameworld$§! peut être étendu en récoltant des astéroïdes avec la mégastructure §Y$frameworld_harvest_0$§!. Chaque astéroïde récolté ajoute un district, une variété de bonus progressifs, et ajoute un au §Y$mod_district_giga_frameworld_mining_max$§! par quatre récoltes. Le coût de la récolte varie en fonction de £mod_planet_clear_blocker_cost_mult£ §Y$MOD_COUNTRY_CLEAR_BLOCKER_COST_MULT$§!.\n\nLa récolte d'astéroïdes doit être votre principal objectif d'expansion. Les systèmes possédant des astéroïdes exploitables sont indiqués dans l'info-bulle de leur carte de la galaxie :\n\n'$frameworld_has_harvestable_asteroid$' indique les astéroïdes sans dépôt de ressources, idéaux pour la récolte.\n'$frameworld_has_harvestable_asteroid_2$' indique qu'il ne reste que des astéroïdes avec des dépôts de ressources, que vous pouvez souhaiter retarder la récolte.\n'$frameworld_has_harvestable_asteroid_3$' indique qu'il ne reste que des astéroïdes avec des dépôts de ressources stratégiques, qui sont les moins adaptés à la récolte."
-  
   giga_frameworld_docs_outposts:99 "3. $giga_frameworld_outpost_plural$"
   giga_frameworld_docs_outposts_desc:99 "Au lieu de colonies, §Y$giga_frameworld_outpost_plural$§! peuvent être construits sur des mondes habitables, ce qui offre plusieurs bonus, dont le plus important est une augmentation significative de £mod_planet_pop_assembly_reduction£§Yl'assemblage de pop§!. La production de ressources des avant-postes varie en fonction des caractéristiques et de la classe de la planète hôte, avec des productions spéciales pour les types de planètes avancées. Les avant-postes devraient être construits chaque fois que possible."
-  
   giga_frameworld_docs_districts:99 "4. Districts"
   giga_frameworld_docs_districts_desc:99 "De nombreux types de districts supplémentaires équivalents aux §Yraffineries§! et aux §Ybâtiments de niveau 2§! peuvent être débloqués en recherchant les technologies qui déverrouillent les bâtiments correspondants.\n\nLa recherche £society£ §Y$tech_paradise_dome$§! est particulièrement importante pour les empires §Y$civic_machine_servitor$§!, car l'espace pour les bâtiments §Y$building_organic_sanctuary$§! est limité."
-  
   giga_frameworld_docs_conquest:99 "5. Conquête"
   giga_frameworld_docs_conquest_desc:99 "Les mondes conquis verront leur population réinstallée dans le §Y$pc_giga_frameworld$§! à raison de §Y4 pops par mois§!. Une fois vidée, une §Y$giga_frameworld_outpost$§! sera automatiquement créée sur l'ancienne colonie.\n\nLes mondes conquis sur les empires §Y$pc_giga_frameworld$§! voient leurs §Y$giga_frameworld_outpost_plural$§! détruits. Les avant-postes détruits peuvent être réparés si le système est repris."
-  
   giga_frameworld_docs_stations:99 "6. Stations défensives"
   giga_frameworld_docs_stations_desc:99 "Le §Y$pc_giga_frameworld$§! est entourée d'un certain nombre de stations défensives, qui deviennent plus fortes avec chaque niveau de §YTechnologie de base stellaire§!. Si une station défensive est détruite, elle peut être réparée via la décision planétaire.\n\nLa décision d'amélioration §Y$giga_frameworld_maginot$§! ajoute trois stations supplémentaires."
-  
   giga_frameworld_docs_disabled:99 "7. Contenu désactivé"
   giga_frameworld_docs_disabled_desc:99 "Plusieurs mégastructures habitables et les technologies pour les débloquer sont §Yindisponibles§! pour les empires §Y$pc_giga_frameworld$§!. §EEn raison des limitations du jeu, les mégastructures indisponibles seront toujours listées dans les technologies qui restent disponibles.§!\n\n$giga_fwm$ Mégastructure verrouillée\n$giga_fwa$ Perche d'ascension verrouillée\n$giga_fwt$ Technologie verrouillée\n\n$name_alderson$ $giga_fwm$$giga_fwa$\n$name_ringworld_behemoth$ $giga_fwm$\n$name_birch$ $giga_fwm$$giga_fwa$\n$name_eq_shipyard$ $giga_fwm$\n$name_ringworld_gargan$ $giga_fwm$\n$habitat_0$ $giga_fwm$\n$name_interstellar_hab$ $giga_fwm$$giga_fwt$\n$name_interstellar_ring$ $giga_fwm$$giga_fwt$\n$name_discomoon$ $giga_fwm$$giga_fwt$\n$name_maginot$ $giga_fwm$\n$pc_virtual_reality$ $giga_fwm$$giga_fwt$\n$name_orbital_arcology$ $giga_fwm$\n$name_orb_elysium$ $giga_fwm$$giga_fwt$\n$name_penrose_ring$ $giga_fwm$$giga_fwt$\n$pc_ringworld_habitable$ $giga_fwm$\n$name_upgrade_ringworld$ $giga_fwm$\n$name_ringworld_titanic$ $giga_fwm$"
   giga_fwt:99 "£job_researcher£"
   giga_fwa:99 "£mod_country_ascension_perks_add£"
   giga_fwm:99 "£ehof_mega£"
-  
   giga_frameworld_docs_bonuses:99 "8. Bonus spécifiques à l'origine"
   giga_frameworld_docs_bonuses_desc:99 "De nombreuses technologies et avantages d'ascension associés aux mégastructures habitables et à d'autres mécanismes qui ne conviennent pas au style de jeu d'une seule planète du §Y$pc_giga_frameworld$§! fournissent plutôt des §Ybonus de remplacement§!. §EEn raison des limitations du jeu, certains bonus ne sont pas affichés sur leur technologie associée.§!\n\n$giga_fwa$ §Y$ap_voidborn$§! : $giga_fw_exe$\n$giga_fwa$ §Y$ap_machine_worlds$§! : §W$giga_frameworld_advanced_city$§! décision\n$giga_fwa$ §Y$ap_arcology_project$§! : §W$giga_frameworld_advanced_sanctuary$§! décision pour §Y$civic_machine_servitor$§! empires\n$giga_fwa$ §Y$ap_world_shaper$§! : §W$giga_frameworld_gaia$§! décision\n\n£engineering_research£ §Y$tech_habitat_1$§! : $giga_fw_exe$ et §W$frameworld_salvage_habitat_0$§! megaproject\n£engineering_research£ §Y$tech_habitat_2$§! : $giga_fw_exc$\n£engineering_research£ §Y$tech_habitat_3$§! : $giga_fw_exc$\n£engineering_research£ §Y$giga_tech_equatorial_shipyard$§! : §W$giga_frameworld_advanced_industrial$§! décision\n£engineering_research£ §Y$giga_tech_orbital_arcologies$§! : §W$giga_frameworld_expand_infrastructure$§! décision\n£engineering_research£ §Y$tech_ring_world$§! : $giga_fw_exe$\n£engineering_research£ §Y$giga_tech_ringworld_titanic_2$§! : Réduction du coût §W$giga_frameworld_reorganise$§! \n£engineering_research£ §Y$giga_tech_ringworld_behemoth$§! : Décisions d'expansion en vrac\n£engineering_research£ §Y$giga_tech_ringworld_gargantuan_2$§! : §W$giga_frameworld_expand_infrastructure$§! décision (seconde utilisation)\n£society_research£ §Y$giga_tech_maginot_world$§! : §W$giga_frameworld_maginot$§! décision\n£society_research£ §Y$giga_tech_planetary_computer$§! : §W$giga_frameworld_computing_complex$§! décision"
   giga_fw_exe:99 "Réduction de l'exposant de coût §W$giga_frameworld_expand_name$§!."
   giga_fw_exc:99 "Coût de base réduit §W$giga_frameworld_expand_name$§!."
-  
-  #################
-  ### Districts ###
-  #################
-  
-  ##### Habitation
-  
-  # cities
   district_giga_frameworld_city:99 "$district_city$"
   district_giga_frameworld_city_plural:99 "$district_city_plural$"
   district_giga_frameworld_city_desc:99 "$district_city_desc$"
-  
   district_giga_frameworld_city_advanced:99 "$district_giga_frameworld_city$ avancé"
   district_giga_frameworld_city_advanced_plural:99 "$district_giga_frameworld_city_plural$ avancés"
   district_giga_frameworld_city_advanced_desc:99 "$district_giga_frameworld_city_desc$"
-  
   district_giga_frameworld_hive:99 "$district_hive$"
   district_giga_frameworld_hive_plural:99 "$district_hive_plural$"
   district_giga_frameworld_hive_desc:99 "$district_hive_desc$"
-  
   district_giga_frameworld_hive_advanced:99 "$district_giga_frameworld_hive$ avancé"
   district_giga_frameworld_hive_advanced_plural:99 "$district_giga_frameworld_hive_plural$ avancés"
   district_giga_frameworld_hive_advanced_desc:99 "$district_giga_frameworld_hive_desc$"
-  
   district_giga_frameworld_nexus:99 "$district_nexus$"
   district_giga_frameworld_nexus_plural:99 "$district_nexus_plural$"
   district_giga_frameworld_nexus_desc:99 "$district_nexus_desc$"
-  
   district_giga_frameworld_nexus_advanced:99 "$district_giga_frameworld_nexus$ avancé"
   district_giga_frameworld_nexus_advanced_plural:99 "$district_giga_frameworld_nexus_plural$ avancés"
   district_giga_frameworld_nexus_advanced_desc:99 "$district_giga_frameworld_nexus_desc$"
-  
-  ##### Resources
-  
-  # industrial
   district_giga_frameworld_industrial:99 "$district_industrial$"
   district_giga_frameworld_industrial_plural:99 "$district_industrial_plural$"
   district_giga_frameworld_industrial_desc:99 "$district_industrial_desc$"
-  
   district_giga_frameworld_industrial_advanced:99 "$district_giga_frameworld_industrial$ avancé"
   district_giga_frameworld_industrial_advanced_plural:99 "$district_giga_frameworld_industrial_plural$ avancés"
   district_giga_frameworld_industrial_advanced_desc:99 "$district_giga_frameworld_industrial_desc$"
-  
-  # generator
   district_giga_frameworld_generator:99 "$district_generator$"
   district_giga_frameworld_generator_plural:99 "$district_generator_plural$"
   district_giga_frameworld_generator_desc:99 "Des réseaux de centrales électriques massives qui produisent de grandes quantités d'énergie qui peuvent ensuite être utilisées ou converties en crédits énergétiques."
-  
   district_giga_frameworld_penrose:99 "Sous-noeud du processus de Penrose"
   district_giga_frameworld_penrose_plural:99 "Sous-noeuds du processus de Penrose"
   district_giga_frameworld_penrose_desc:99 "Installations massives où des particules sont injectées dans l'ergosphère du $pc_black_hole$ pour extraire de l'énergie de son moment angulaire."
-  
-  # mining
   district_giga_frameworld_mining:99 "$district_hab_mining$"
   district_giga_frameworld_mining_plural:99 "$district_hab_mining_plural$"
   district_giga_frameworld_mining_desc:99 "Des baies de travail colossales où les minéraux sont extraits des astéroïdes capturés."
-  mod_district_giga_frameworld_mining_max:99 "Max $district_hab_mining_plural$"
-  
+ mod_district_giga_frameworld_mining_max:99 "Nb. max de $district_hab_mining_plural$"
   district_giga_frameworld_decompressor:99 "Sous-noeud de décompression de la matière"
   district_giga_frameworld_decompressor_plural:99 "Sous-noeuds de décompression de la matière"
   district_giga_frameworld_decompressor_desc:99 "Des installations colossales dans l'anneau de traitement $matter_decompressor_4$, où la matière récupérée est transformée en minéraux utilisables."
-  
-  # farming
   district_giga_frameworld_farming:99 "$district_farming$"
   district_giga_frameworld_farming_plural:99 "$district_farming_plural$"
   district_giga_frameworld_farming_desc:99 "Installations hydroponiques spécialisées qui produisent des matières végétales riches en nutriments."
-  
-  ##### Advanced
-  
-  # unity
   district_giga_frameworld_administrative:99 "District administratif"
   district_giga_frameworld_administrative_plural:99 "Districts administratifs"
   district_giga_frameworld_administrative_desc:99 "Un module de gare rempli de bureaux dédiés à la gloire de la paperasse efficace et méticuleuse."
-  
   district_giga_frameworld_temple:99 "District du Temple"
   district_giga_frameworld_temple_plural:99 "Districts du Temple"
   district_giga_frameworld_temple_desc:99 "Un lieu de contemplation tranquille parmi les étoiles."
-  
   district_giga_frameworld_synapse:99 "District de Synapse"
   district_giga_frameworld_synapse_plural:99 "Districts de Synapse"
   district_giga_frameworld_synapse_desc:99 "$building_hive_node_desc$"
-  
   district_giga_frameworld_simulation:99 "District de relais"
   district_giga_frameworld_simulation_plural:99 "Districts de relais"
   district_giga_frameworld_simulation_desc:99 "$building_network_junction_desc$"
-  
   district_giga_frameworld_sanctuary:99 "District du sanctuaire organique"
   district_giga_frameworld_sanctuary_plural:99 "Districts de sanctuaire organique"
   district_giga_frameworld_sanctuary_desc:99 "$building_organic_sanctuary_desc$"
-  
   district_giga_frameworld_sanctuary_advanced:99 "District de sanctuaire organique à haute densité"
   district_giga_frameworld_sanctuary_advanced_plural:99 "Quartiers biologiques sanctuaires à haute densité"
   district_giga_frameworld_sanctuary_advanced_desc:99 "$building_organic_sanctuary_desc$"
-  
-  # science
   district_giga_frameworld_science:99 "$district_hab_science$"
   district_giga_frameworld_science_plural:99 "$district_hab_science_plural$"
   district_giga_frameworld_science_desc:99 "Des laboratoires de pointe où des recherches sont menées dans tous les domaines scientifiques."
-  
-  # anti-crime
   district_giga_frameworld_anticrime:99 "District de sécurité"
   district_giga_frameworld_anticrime_plural:99 "Districts de sécurité"
   district_giga_frameworld_anticrime_desc:99 "Les forces de sécurité opèrent depuis ces installations spécialisées, en veillant à ce que les éléments perturbateurs n'entravent pas les fonctions de la station."
-  
-  # amenities
   district_giga_frameworld_amenities:99 "$district_hab_cultural$"
   district_giga_frameworld_amenities_plural:99 "$district_hab_cultural_plural$"
   district_giga_frameworld_amenities_desc:99 "$district_hab_cultural_desc$"
-  
   district_giga_frameworld_amenities_gestalt:99 "District de maintenance"
   district_giga_frameworld_amenities_gestalt_plural:99 "Districts de maintenance"
   district_giga_frameworld_amenities_gestalt_desc:99 "$building_maintenance_depot_desc$"
-  
-  # refinery
   district_giga_frameworld_refinery:99 "District de raffinerie"
   district_giga_frameworld_refinery_plural:99 "Districts de raffinerie"
   district_giga_frameworld_refinery_desc:99 "Des installations avancées dédiées à la production de ressources stratégiques."
-  
   district_giga_frameworld_refinery_unlocks:99 "§HDéblocages d'emplois supplémentaires :§!"
   district_giga_frameworld_refinery_motes_unlock:99 "£physics£ §Y$tech_volatile_motes$§! : Emplois de $job_chemist$ : §G+1§!"
   district_giga_frameworld_refinery_motes_unlock_gestalt:99 "£physics£ §Y$tech_volatile_motes$§! : $job_chemist_drone$ Emplois : §G+1§!"
@@ -258,62 +151,41 @@
   district_giga_frameworld_refinery_gases_unlock_gestalt:99 "£engineering£ §Y$tech_exotic_gases$§! : Emplois de $job_gas_refiner_drone$ : §G+1§!"
   district_giga_frameworld_refinery_crystals_unlock:99 "£engineering£ §Y$tech_rare_crystals$§! : Emplois de $job_translucer$ : §G+1§!"
   district_giga_frameworld_refinery_crystals_unlock_gestalt:99 "£engineering£ §Y$tech_rare_crystals$§! : Emplois de $job_translucer_drone$ : §G+1§!"
-  district_giga_frameworld_refinery_empty:99 "£engineering£ §Y$tech_rare_crystals$§! : Emplois $job_translucer_drone$ : §G+1§!"
-  
+ district_giga_frameworld_refinery_empty:99 " "
   district_gaia_frameworld_refinery_upgrade_desc_1:99 "Donne accès à la $pc_giga_frameworld$ $district_giga_frameworld_refinery$, avec un travail."
   district_gaia_frameworld_refinery_upgrade_desc_2:99 "Mise à niveau du $pc_giga_frameworld$ $district_giga_frameworld_refinery$, ajout d'un emploi"
-  
   district_giga_frameworld_refinery_gases:99 "$district_giga_frameworld_refinery$ $building_refinery$"
   district_giga_frameworld_refinery_gases_plural:99 "$district_giga_frameworld_refinery_plural$"
   district_giga_frameworld_refinery_gases_desc:99 "[Owner.GetFrameworldRefineryTooltip] qui produit du $exotic_gases$."
-  
   district_giga_frameworld_refinery_crystals:99 "$district_giga_frameworld_refinery$ $building_crystal_plant$"
   district_giga_frameworld_refinery_crystals_plural:99 "$district_giga_frameworld_refinery_plural$"
   district_giga_frameworld_refinery_crystals_desc:99 "[Owner.GetFrameworldRefineryTooltip] qui produit des $rare_crystals$."
-  
   district_giga_frameworld_refinery_motes:99 "$district_giga_frameworld_refinery$ $building_chemical_plant$"
   district_giga_frameworld_refinery_motes_plural:99 "$district_giga_frameworld_refinery_plural$"
   district_giga_frameworld_refinery_motes_desc:99 "[Owner.GetFrameworldRefineryTooltip] qui produit des $volatile_motes$."
-
-  # sentient metal
   district_giga_frameworld_sentient_metal:99 "District $building_ehof_sm_forge_1$"
   district_giga_frameworld_sentient_metal_plural:99 "Districts $building_ehof_sm_forge_1$"
   district_giga_frameworld_sentient_metal_desc:99 "$building_ehof_sm_forge_1_desc$"
-  
-  # negative mass
   district_giga_frameworld_negative_mass:99 "District $building_negative_mass_factory_2$"
   district_giga_frameworld_negative_mass_plural:99 "Districts $building_negative_mass_factory_2$"
   district_giga_frameworld_negative_mass_desc:99 "$building_negative_mass_factory_2_desc$"
-  
-  # supertensiles
-  district_giga_frameworld_supertensiles:0 "$district_giga_supertensiles$"
-  district_giga_frameworld_supertensiles_plural:0 "$district_giga_supertensiles_plural$"
-  district_giga_frameworld_supertensiles_desc:0 "$district_giga_supertensiles_desc$"
-	
-  # fortress
+ district_giga_frameworld_supertensiles:99 "$district_giga_supertensiles$"
+ district_giga_frameworld_supertensiles_plural:99 "$district_giga_supertensiles_plural$"
+ district_giga_frameworld_supertensiles_desc:99 "$district_giga_supertensiles_desc$"
   district_giga_frameworld_fortress:99 "District forteresse"
   district_giga_frameworld_fortress_plural:99 "Districts forteresses"
   district_giga_frameworld_fortress_desc:99 "Fortifications militaires lourdement blindées avec d'importantes forces de garnison pour protéger les $pc_giga_frameworld$ d'une invasion."
-  
-  # maginot
   district_giga_frameworld_maginot_cap:99 "£planetsize£ 20% de la taille de la planète"
-  
   district_giga_frameworld_maginot_shield_generators:99 "Maginot $district_maginot_world_shield_generators$"
   district_giga_frameworld_maginot_shield_generators_plural:99 "Maginot $district_maginot_world_shield_generators_plural$"
   district_giga_frameworld_maginot_shield_generators_desc:99 "$district_maginot_world_shield_generators_desc$"
   district_giga_frameworld_maginot_shield_generators_cap:99 "\n§HPlafonné à §Y$district_giga_frameworld_maginot_cap$§!, partagé avec les districts §Y$district_giga_frameworld_maginot_planetary_cannons$§!.§!"
   mod_district_giga_frameworld_maginot_shield_generators_max:99 "Nbre max de $district_giga_frameworld_maginot_shield_generators_plural$"
-  
   district_giga_frameworld_maginot_planetary_cannons:99 "$district_maginot_world_planetary_cannons$ Maginot"
-  district_giga_frameworld_maginot_planetary_cannons_plural:99 "Maginot $district_maginot_world_planetary_cannons_plural$"
+ district_giga_frameworld_maginot_planetary_cannons_plural:99 "$district_maginot_world_planetary_cannons_plural$ Maginot"
   district_giga_frameworld_maginot_planetary_cannons_desc:99 "Les imposants canons planétaires sont tout à fait capables de déchiqueter tout vaisseau qui s'approche trop près, ce qui permet aux capitaines de vaisseaux de rester bien en dehors de leur zone de tir. En tant que tels, les canons sont principalement préparés pour des fonctions d'interception contre les munitions et les vaisseaux largués ennemis. De vastes complexes de commande et de contrôle s'interfacent avec les systèmes de défense stratégiques extérieurs, permettant le déploiement d'un plus grand nombre de plates-formes, ainsi que le renforcement de celles qui existent déjà."
   district_giga_frameworld_maginot_planetary_cannons_cap:99 "\n§HPlafonné à §Y$district_giga_frameworld_maginot_cap$§!, partagé avec §Y$district_giga_frameworld_maginot_shield_generators$§! districts.§!"
   mod_district_giga_frameworld_maginot_planetary_cannons_max:99 "Nbre Max de $district_giga_frameworld_maginot_planetary_cannons_plural$"
-  
-  ############
-  ### Jobs ###
-  ############
-  
   job_frame_maintenance_drone:99 "Drone de maintenance de la Structure"
   job_frame_maintenance_drone_plural:99 "Drones de maintenance de la Structure"
   job_frame_maintenance_drone_desc:99 "Des drones sans autre tâche assignée, redistribués pour maintenir et compléter les systèmes de la station."
@@ -321,7 +193,6 @@
   mod_job_frame_maintenance_drone_add:99 "Emplois de $job_frame_maintenance_drone$"
   mod_job_frame_maintenance_drone_per_pop:99 "§G+1§! Emploi de $job_frame_maintenance_drone$ par palier de $VALUE$ Pops"
   mod_job_frame_maintenance_drone_per_pop_short:99 "\n§G+1§! £mod_job_frame_maintenance_drone_add£ par $VALUE$ £pop£"
-  
   job_frame_maintenance_overseer:99 "Superviseur de maintenance"
   job_frame_maintenance_overseer_plural:99 "Superviseurs de maintenance"
   job_frame_maintenance_overseer_desc:99 "Ces drones spécialisés dirigent et coordonnent leurs subordonnés pour assurer une efficacité opérationnelle maximale."
@@ -329,527 +200,328 @@
   mod_job_frame_maintenance_overseer_add:99 "Emplois de $job_frame_maintenance_overseer$"
   mod_job_frame_maintenance_overseer_per_pop:99 "§G+1§! emploi de $job_frame_maintenance_overseer$ par palier de $VALUE$ Pops"
   mod_job_frame_maintenance_overseer_per_pop_short:99 "\n§G+1§! £mod_job_frame_maintenance_overseer_add£ par $VALUE$ £pop£"
-  
-  job_frameworld_defender_drone:99 "Drone Frame Defender"
-  job_frameworld_defender_drone_plural:99 "Drones défenseurs du cadre"
+ job_frameworld_defender_drone:99 "Drone défenseur de la structure"
+ job_frameworld_defender_drone_plural:99 "Drones défenseurs de la structure"
   job_frameworld_defender_drone_desc:99 "Coordinateurs militaires spécialisés dans la fortification et la défense de la $pc_giga_frameworld$.."
   job_frameworld_defender_drone_effect_desc:99 "£job_frameworld_defender_drone£ $job_frameworld_defender_drone_plural$ produire £unity£ §Y$unity$§!, augmenter £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§! et faire naître £defense_army£ §Ydes armées de défense§!."
   mod_job_frameworld_defender_drone_add:99 "Emplois de $job_frameworld_defender_drone$"
   mod_job_frameworld_defender_drone_per_pop:99 "§G+1§! emploi de $job_frameworld_defender_drone$ par palier de $VALUE$ Pops"
   mod_job_frameworld_defender_drone_per_pop_short:99 "\n§G+1§! £mod_job_warrior_drone_add£ par $VALUE$ £pop£"
-  
-  ################
-  ### Deposits ###
-  ################
-  
+ job_frameworld_outpost_job:99 "Explorateur"
+ job_frameworld_outpost_job_plural:99 "Explorateurs"
+ job_frameworld_outpost_job_desc:99 "Une délégation planétaire, envoyée pour cartographier ce monde."
+ job_frameworld_outpost_job_effect_desc:99 "£job_frameworld_outpost_job£ $job_frameworld_outpost_job_plural$ établissent un $col_frameworld_planetary_outpost$."
+ mod_job_frameworld_outpost_job_add:99 "Emplois de $job_frameworld_outpost_job$"
+ mod_job_frameworld_outpost_job_per_pop:99 "§G+1§! emploi de $job_frameworld_outpost_job$ par palier de $VALUE$ Pops"
+ mod_job_frameworld_outpost_job_per_pop_short:99 "\n§G+1§! £mod_job_colonist_add£ pour $VALUE$ £pop£"
   d_frameworld_core:99 "Noyau central de traitement"
   d_frameworld_core_desc:99 "Cette installation gigantesque abrite les installations centrales de traitement et de stockage des données du $pc_giga_frameworld$ $auth_machine_intelligence$."
-  
   d_frameworld_expansion:99 "Modules de station"
   d_frameworld_expansion_desc:99 "Des installations supplémentaires construites par le $auth_machine_intelligence$ du $pc_giga_frameworld$pour abriter une variété de systèmes."
   d_frameworld_expansion_tooltip:99 "$d_frameworld_expansion$"
   mod_giga_frameworld_expansion_count:99 "Compte Total d'Expansion"
-  #mod_giga_frameworld_expansion_count:99 "Le $pc_giga_frameworld$ a été étendu §Y[giga_frameworld_expansions]§! fois.\n"
-  #mod_giga_frameworld_expansion_count_short:99 "§Yx[giga_frameworld_expansions]§!"
-  
   d_frameworld_structure_expansion:99 "Superstructure étendue"
   d_frameworld_structure_expansion_desc:99 "Une station particulièrement grande parmi l'essaim qui constitue l'essentiel de la structure secondaire $pc_giga_frameworld$."
 
   d_frameworld_structure_expansion_tooltip:99 "$d_frameworld_structure_expansion$"
   mod_giga_frameworld_structure_expansion_count:99 "Modules Fabriqués"
-  
   d_frameworld_reorganise_expansion:99 "Réseau logistique réorganisé"
   d_frameworld_reorganise_expansion_desc:99 "Des réseaux de transport rationalisés et des systèmes de production modulaires soigneusement conçus améliorent considérablement le débit de la construction."
   d_frameworld_reorganise_expansion_tooltip:99 "$d_frameworld_reorganise_expansion$"
   mod_giga_frameworld_reorganise_expansion_count:99 "Réorganisations Complétées"  
-  
   d_frameworld_remnants:99 "Restes planétaires"
   d_frameworld_remnants_desc:99 "Les restes brisés d'une planète morte depuis longtemps orbitent toujours autour du $pc_black_hole$ sous cette $pc_giga_frameworld$.."
-  
   d_frameworld_asteroid:99 "Astéroïdes capturés"
   d_frameworld_asteroid_desc:99 "Un astéroïde qui a été capturé et contenu en toute sécurité, prêt pour l'extraction de minéraux."
   d_frameworld_asteroid_tooltip:99 "$d_frameworld_expansion$"
   mod_giga_frameworld_asteroid_count:99 "Astéroïdes capturés"
-
-  
   d_frameworld_planet:99 "Masse planétaire capturée"
   d_frameworld_planet_desc:99 "Masse planétaire démontée, contenue en toute sécurité pour les opérations d'extraction minérale."
   d_frameworld_planet_tooltip:99 "$d_frameworld_expansion$"
   mod_giga_frameworld_planet_count:99 "Modules fabriqués des $sr_solar_energy$"
-
-  
   d_frameworld_habitat:99 "Débris d'habitat récupérés"
   d_frameworld_habitat_desc:99 "Les restes d'habitats artificiels démantelés et jugés impropres à la réutilisation."
   d_frameworld_habitat_tooltip:99 "$d_frameworld_expansion$"
   mod_giga_frameworld_habitat_count:99 "Modules d'habitat récupérés"
-  
-  # upgrades
-  
   d_frameworld_penrose:99 "$name_penrose$ Intégré"
   d_frameworld_penrose_desc:99 "Un grand miroir construit autour du système $pc_black_hole$, exploite la diffusion superradiante pour générer de l'énergie avec une efficacité étonnante."
-  
   d_frameworld_decompressor:99 "$matter_decompressor_4$ Intégré"
   d_frameworld_decompressor_desc:99 "Des tunnels de gravité tordus pénètrent dans la singularité et attirent la matière décompressée dans un anneau de traitement dédié."
-  
   d_frameworld_advanced_city:99 "Complexe d'habitation étendu"
   d_frameworld_advanced_city_desc:99 "L'amélioration de la conception des stations d'habitation et de stockage permet une meilleure organisation des espaces de vie."
-  
   d_frameworld_advanced_industrial:99 "Industrie lourde élargie"
   d_frameworld_advanced_industrial_desc:99 "L'introduction de procédés industriels avancés utilisant des matériaux exotiques, associée à l'extension des installations de fonderie, améliore considérablement le rendement."
-  
   d_frameworld_advanced_sanctuary:99 "Sanctuaires biologiques à haute densité"
   d_frameworld_advanced_sanctuary_desc:99 "La réimagination stratégique des installations de satisfaction des besoins et de divertissement organiques permet de concevoir de nouveaux habitats innovants."
-  
   d_frameworld_gaia:99 "Systèmes de soutien environnemental améliorés"
   d_frameworld_gaia_desc:99 "Des systèmes avancés de contrôle du climat fournissent des environnements idéaux pour toutes les formes de vie organique, améliorant considérablement les conditions de vie et la production agricole."
-  
   d_frameworld_computing_complex:99 "Complexe de calcul à large bande passante"
   d_frameworld_computing_complex_desc:99 "Installations dédiées au stockage de données à haute densité et au traitement accéléré de l'information."
-  
   d_frameworld_expanded_infrastructure:99 "Expansion de l'infrastructure"
   d_frameworld_expanded_infrastructure_desc:99 "Des installations étendues pour la fabrication de modules de station supplémentaires."
-  
   d_frameworld_maginot:99 "Défenses renforcées"
   d_frameworld_maginot_desc:99 "Installations de maintenance pour les satellites défensifs et les forces de défense au sol."
-  
-  # technical
-  
   d_frameworld_maginot_max_shields:99 "Capacité en $district_giga_frameworld_maginot_shield_generators$"
   d_frameworld_maginot_max_shields_desc:99 "Notre capacité à maintenir une infrastructure défensive avancée est limitée."
-  
   d_frameworld_maginot_max_guns:99 "Capacité en $district_giga_frameworld_maginot_planetary_cannons$"
   d_frameworld_maginot_max_guns_desc:99 "Notre capacité à maintenir une infrastructure défensive avancée est limitée."
 
   d_frameworld_expanded_maintenance_protocol:99 "$frameworld_expanded_maintenance_protocol$"
   d_frameworld_expanded_maintenance_protocol_desc:99 "§WPour les détails, se référer à la modification planétaire du même nom.§!\n\n$frameworld_expanded_maintenance_protocol_desc$"
-  
-  
-  #################
-  ### Decisions ###
-  #################
-  
-  # outpost ownership fixer
-  
   giga_frameworld_fix_outpost_ownership:99 "Revendication des $giga_frameworld_outpost_plural$"
   giga_frameworld_fix_outpost_ownership_desc:99 "Prendre la propriété de tous $giga_frameworld_outpost_plural$ dans ce système, dans le cas où la propriété est attribuée à tort à un autre empire."
-  
-  # frameworld Baol relic effect
-  
   giga_frameworld_baol_life_seed:99 "$decision_baol_life_seed$"
   giga_frameworld_baol_life_seed_desc:99 "Nos généticiens ont extrait le secret de la capacité de l'Organisme Baol§Yà terraformer une planète. Bien que nous ne puissions pas utiliser directement cette innovation à l'échelle planétaire, en déployant une vie végétale à reproduction rapide modifiée avec les données génétiques du §YBaol§! dans des habitats spécialement préparés, nous pouvons cultiver une nouvelle population d'espèces dérivées."
   giga_frameworld_baol_life_seed_effects:99 "§Y4 $NAME_Nu_Baol$ Pops§! sont apparus sur [Root.GetName]."
   giga_frameworld_baol_life_seed_effects_2:99 "§Y6 $NAME_Nu_Baol$ Pops§! sont apparus sur [Root.GetName]."
-  
-  # expanded maintenance protocol
-  
   giga_frameworld_expanded_maintenance_protocol:99 "Activation des protocoles d'entretien élargis"
   giga_frameworld_expanded_maintenance_protocol_desc:99 "$frameworld_expanded_maintenance_protocol_desc$"
-  
   giga_frameworld_expanded_maintenance_protocol_remove:99 "Désactiver les protocoles de maintenance étendus"
   giga_frameworld_expanded_maintenance_protocol_remove_desc:99 "Les ressources allouées à notre $job_frame_maintenance_drone_plural$ pourraient être mieux utilisées ailleurs."
-  
-  # repair defensive stations
-  
   giga_frameworld_repair_station:99 "Réparation de la station défensive"
   giga_frameworld_repair_station_effect:99 "Remise en service d'une station défensive endommagée"
   giga_frameworld_repair_station_desc:99 "Notre périmètre défensif doit être restauré."
-  
   giga_frameworld_repair_station_1:99 "$giga_frameworld_repair_station$ 1"
   giga_frameworld_repair_station_1_desc:99 "$giga_frameworld_repair_station_desc$"
-  
   giga_frameworld_repair_station_2:99 "$giga_frameworld_repair_station$ 2"
   giga_frameworld_repair_station_2_desc:99 "$giga_frameworld_repair_station_desc$"
-  
   giga_frameworld_repair_station_3:99 "$giga_frameworld_repair_station$ 3"
   giga_frameworld_repair_station_3_desc:99 "$giga_frameworld_repair_station_desc$"
-  
   giga_frameworld_repair_station_4:99 "$giga_frameworld_repair_station$ 4"
   giga_frameworld_repair_station_4_desc:99 "$giga_frameworld_repair_station_desc$"
-  
   giga_frameworld_repair_station_5:99 "$giga_frameworld_repair_station$ 5"
   giga_frameworld_repair_station_5_desc:99 "$giga_frameworld_repair_station_desc$"
-  
   giga_frameworld_repair_station_6:99 "$giga_frameworld_repair_station$ 6"
   giga_frameworld_repair_station_6_desc:99 "$giga_frameworld_repair_station_desc$"
-  
-  # expansion
-  
   giga_frameworld_expand_name:99 "Fabriquer un module de station"
   giga_frameworld_expand_concurrent:99 "$TRIGGER_FAIL$La Planète ne doit pas avoir d'autre décision de fabrication de station en file d'attente."
   giga_frameworld_expand_desc_cost:99 "La construction de modules de station avec des $alloys$ augmente le coût d'un facteur de §Y[this.giga_frameworld_expansion_cost_exponent]x§! pour chaque module déjà construit. Les modifications de ce facteur affectent rétroactivement le coût total."
   giga_frameworld_expand_desc_fluff:99 "La construction de nouveaux modules de station à partir de matériaux avancés permet à chacun d'entre eux d'accueillir davantage d'équipements."
-  
   giga_frameworld_expand_bulk_cost_info:99 "§HLe coût et l'augmentation de la vitesse d'exécution par module sont comptabilisés dans le coût et le temps total.§!"
   giga_frameworld_expand_bulk_5_info:99 "Cette version groupée de la décision ajoute §Y5§! nouveaux modules."
   giga_frameworld_expand_bulk_10_info:99 "Cette version groupée de la décision ajoute §Y10§! nouveaux modules."
-  
   giga_frameworld_expand_base:99 "Coût de base"
   giga_frameworld_expand_factor:99 "Facteur de coût"
   giga_frameworld_expand_fabricated:99 "Modules fabriqués"
   giga_frameworld_expand_total:99 "Multiplicateur actuel du coût total"
-  
   giga_frameworld_expand_base_discount_mod_1:99 "\n$tech_habitat_2$ : §G-25§!"
   giga_frameworld_expand_base_discount_mod_2:99 "\n$tech_habitat_3$ : §G-25§!"
-  
   giga_frameworld_expand_multiplier_discount_mod_1:99 "\n$tech_habitat_1$ : §G-0.02x§!"
   giga_frameworld_expand_multiplier_discount_mod_2:99 "\n$ap_voidborn$ : §G-0.03x§!"
   giga_frameworld_expand_multiplier_discount_mod_3:99 "\n$tech_ring_world$ : §G-0.03x§!"
-  
   giga_frameworld_expand_upgrade_title:99 "\nMises à jour :"
   giga_frameworld_expand_upgrade_1:99 "\n£engineering£§Y$tech_habitat_1$§! : $giga_frameworld_expand_factor$ §G-0.02x§!"
   giga_frameworld_expand_upgrade_2:99 "\n£engineering£§Y$tech_habitat_2$§! : $giga_frameworld_expand_base$ £alloys£§G-25§!"
   giga_frameworld_expand_upgrade_3:99 "\n£engineering£§Y$tech_habitat_3$§! : $giga_frameworld_expand_base$ £alloys£§G-25§!"
   giga_frameworld_expand_upgrade_4:99 "\n£unity£§Y$ap_voidborn$§! : $giga_frameworld_expand_factor$ §G-0.03x§!"
   giga_frameworld_expand_upgrade_5:99 "\n£engineering£§Y$tech_ring_world$§! : $giga_frameworld_expand_factor$ §G-0.03x§!"
-  
   giga_frameworld_expand:99 "$giga_frameworld_expand_name$§B§!"
   giga_frameworld_expand_desc:99 "§W$giga_frameworld_expand_desc_cost$\n\n$giga_frameworld_expand_base$ : £alloys£§Y[this.giga_frameworld_expansion_cost_base]§!\nBase : £alloys£§Y600§! [owner.FrameworldExpansionCost1][owner.FrameworldExpansionCost2]\n\n$giga_frameworld_expand_factor$ : §Y[this.giga_frameworld_expansion_cost_exponent]x§!\nBase : §Y1. 15x§! [owner.FrameworldExpansionMult1][owner.FrameworldExpansionMult2][owner.FrameworldExpansionMult3]\n\n$giga_frameworld_expand_fabricated$ : §Y[this.giga_frameworld_structure_expansions]§!\n$giga_frameworld_expand_total$ : §Y[this.giga_frameworld_expansion_cost_multiplier_tooltip]x§! [this.FrameworldExpansionUpgradesTitle][this.FrameworldExpansionUpgrades1][this.FrameworldExpansionUpgrades2][this.FrameworldExpansionUpgrades3][this.FrameworldExpansionUpgrades4][this.FrameworldExpansionUpgrades5]§!\n§W- -------------§!\n$giga_frameworld_expand_desc_fluff$"
-  
   giga_frameworld_expand_bulk_5:99 "$giga_frameworld_expand_name$ §B§! §Yx5§!"
   giga_frameworld_expand_bulk_5_desc:99 "§W$giga_frameworld_expand_desc_cost$\n\n$giga_frameworld_expand_bulk_5_info$ $giga_frameworld_expand_bulk_cost_info$\n\n$giga_frameworld_expand_base$ : £alloys£§Y[this.giga_frameworld_expansion_cost_base]§!\nBase : £alloys£§Y600§! [owner.FrameworldExpansionCost1][owner.FrameworldExpansionCost2]\n\n$giga_frameworld_expand_factor$ : §Y[this.giga_frameworld_expansion_cost_exponent]x§!\nBase : §Y1. 15x§! [owner.FrameworldExpansionMult1][owner.FrameworldExpansionMult2][owner.FrameworldExpansionMult3]\n\n$giga_frameworld_expand_fabricated$ : §Y[this.giga_frameworld_structure_expansions]§! §H+4§!\n$giga_frameworld_expand_total$ : §H[this.giga_frameworld_expansion_bulk_5_cost_multiplier_tooltip]x§! [this.FrameworldExpansionUpgradesTitle][this.FrameworldExpansionUpgrades1][this.FrameworldExpansionUpgrades2][this.FrameworldExpansionUpgrades3][this.FrameworldExpansionUpgrades4][this.FrameworldExpansionUpgrades5]§!\n§W- -------------§!\n$giga_frameworld_expand_desc_fluff$"
-  
   giga_frameworld_expand_bulk_10:99 "$giga_frameworld_expand_name$ §E§! §Yx10§!"
   giga_frameworld_expand_bulk_10_desc:99 "§W$giga_frameworld_expand_desc_cost$\n\n$giga_frameworld_expand_bulk_10_info$ $giga_frameworld_expand_bulk_cost_info$\n\n$giga_frameworld_expand_base$ : £alloys£§Y[this.giga_frameworld_expansion_cost_base]§!\nBase : £alloys£§Y600§! [owner.FrameworldExpansionCost1][owner.FrameworldExpansionCost2]\n\n$giga_frameworld_expand_factor$ : §Y[this.giga_frameworld_expansion_cost_exponent]x§!\nBase : §Y1. 15x§! [owner.FrameworldExpansionMult1][owner.FrameworldExpansionMult2][owner.FrameworldExpansionMult3]\n\n$giga_frameworld_expand_fabricated$ : §Y[this.giga_frameworld_structure_expansions]§! §H+9§!\n$giga_frameworld_expand_total$ : §H[this.giga_frameworld_expansion_bulk_10_cost_multiplier_tooltip]x§! [this.FrameworldExpansionUpgradesTitle][this.FrameworldExpansionUpgrades1][this.FrameworldExpansionUpgrades2][this.FrameworldExpansionUpgrades3][this.FrameworldExpansionUpgrades4][this.FrameworldExpansionUpgrades5]§!\n§W- -------------§!\n$giga_frameworld_expand_desc_fluff$"
-  
   giga_frameworld_expand_mass:99 "$giga_frameworld_expand_name$ §H($sr_solar_energy$)§!"
   giga_frameworld_expand_mass_desc:99 "La construction de nouveaux modules de station avec la masse planétaire récoltée offre des possibilités supplémentaires d'extraction de minéraux."
-  
   giga_frameworld_expand_mass_bulk_5:99 "$giga_frameworld_expand_mass$ §B§! §Yx5§!"
   giga_frameworld_expand_mass_bulk_5_desc:99 "§W$giga_frameworld_expand_bulk_5_info$§!\n§W--------------§!\n$giga_frameworld_expand_mass_desc$"
-  
   giga_frameworld_expand_mass_bulk_10:99 "$giga_frameworld_expand_mass$ §E§! §Yx10§!"
   giga_frameworld_expand_mass_bulk_10_desc:99 "§W$giga_frameworld_expand_bulk_10_info$§!\n§W--------------§!\n$giga_frameworld_expand_mass_desc$"
-  
   giga_frameworld_reorganise:99 "Programme d'optimisation de la logistique"
   giga_frameworld_reorganise_desc:99 "Pour assurer le bon fonctionnement de toutes les fonctions de la station, les réseaux de transport et les installations de fabrication doivent être régulièrement inspectés, évalués et réorganisés pour une efficacité maximale."
-  
-  # upgrades
-  
   giga_frameworld_upgrade_desc:99 "§BProjet de mise à niveau du $pc_giga_frameworld$§!\n"
   giga_frameworld_upgrade_warning:99 "§HCe projet de mise à niveau majeure bloquera tous les autres projets de mise à niveau jusqu'à ce qu'il soit entièrement terminé.§!\n"
   giga_frameworld_upgrade_upkeep:99 "§PAvertissement : Ce projet a un coût d'entretien important !§!\n"
   giga_frameworld_upgrade_fail:99 "$TRIGGER_FAIL$Requiert qu'aucun projet de mise à niveau majeure soit en cours."
-  
   giga_frameworld_penrose:99 "$d_frameworld_penrose$"
   giga_frameworld_penrose_effect:99 "Début de la construction d'une Mégastructure à plusieurs étages qui, une fois achevée, remplacera les §Y$district_giga_frameworld_generator_plural$§! du $pc_giga_frameworld$ par un plus petit nombre de §Y$district_giga_frameworld_penrose_plural$§!.\n\n§Y$district_giga_frameworld_penrose_plural$§! nettement plus puissants, fournissant des emplois de £job_technician£§Y[owner.GetTechnician] supplémentaires§! mais plus coûteux que les districts qu'ils remplacent.\n\n$frameworld_penrose_fake_tooltip$"
   giga_frameworld_penrose_desc:99 "Un grand miroir construit autour du $pc_black_hole$ du système, est conçu pour exploiter la diffusion superradiante, générant de l'énergie avec une efficacité étonnante."
-  
   giga_frameworld_decompressor:99 "$d_frameworld_decompressor$"
   giga_frameworld_decompressor_effect:99 "Commence la construction d'une Mégastructure à plusieurs étages qui, une fois achevée, remplacera les §Y$district_giga_frameworld_mining_plural$§! du $pc_giga_frameworld$ par un plus petit nombre de §Y$district_giga_frameworld_decompressor_plural$§!.\n\n§Y$district_giga_frameworld_decompressor_plural$§! nettement plus puissants qui fournissent des £job_miner£§Y[owner.GetMiner] emplois supplémentaires§! mais sont plus coûteux que les districts qu'ils remplacent."
   giga_frameworld_decompressor_desc:99 "Une installation de lentille gravitationnelle qui transforme les champs gravitationnels en forets capables d'extraire des matériaux du $pc_black_hole$.."
-  
   giga_frameworld_advanced_city:99 "Améliorer les sections d'habitation des drones"
   giga_frameworld_advanced_city_effect:99 "Remplace les §Y$district_giga_frameworld_nexus_plural$§! du $pc_giga_frameworld$ par un plus petit nombre de §Y$district_giga_frameworld_nexus_advanced_plural$§!, et remplace deux £job_maintenance_drone£§Y$job_maintenance_drone_plural$§! emplois de chaque §Y$district_giga_frameworld_amenities_gestalt$§! par des £job_frame_maintenance_overseer£§Y$job_frame_maintenance_overseer_plural$§!\n\n§Y$district_giga_frameworld_nexus_advanced_plural$§! deux fois plus efficaces que les districts qu'ils remplacent.\n$job_frame_maintenance_overseer_effect_desc$\n"
   giga_frameworld_advanced_city_desc:99 "L'amélioration de la conception des stations d'habitation et de stockage permettra une meilleure organisation des espaces de vie."
-  
   giga_frameworld_advanced_industrial:99 "Développer l'industrie lourde"
   giga_frameworld_advanced_industrial_effect:99 "Remplace les §Y$district_giga_frameworld_industrial_plural$§! du $pc_giga_frameworld$ par un plus petit nombre de §Y$district_giga_frameworld_industrial_advanced_plural$§!.\n\n§Y$district_giga_frameworld_industrial_advanced_plural$§! fournissant 2 emplois £job_fabricator£§Y[owner.GetAlloyProducer] supplémentaires§! mais nécessitant £volatile_motes£ §Y$volatile_motes$§! pour leur entretien."
   giga_frameworld_advanced_industrial_desc:99 "L'introduction de procédés industriels avancés utilisant des matériaux exotiques, associée à l'extension des installations de fonderie, améliorera considérablement le rendement."
-  
   giga_frameworld_advanced_sanctuary:99 "Projet Arcologie du Sanctuaire"
   giga_frameworld_advanced_sanctuary_effect:99 "Remplace les  §Y$district_giga_frameworld_sanctuary_plural$§! du $pc_giga_frameworld$ par un plus petit nombre de §Y$district_giga_frameworld_sanctuary_advanced_plural$§!.\n\n§Y$district_giga_frameworld_sanctuary_advanced_plural$§! pouvant accueillir deux fois plus de £job_bio_trophy£ §Y$job_bio_trophy_plural$§! que les districts qu'ils remplacent."
   giga_frameworld_advanced_sanctuary_desc:99 "La réimagination stratégique de la satisfaction des besoins organiques et des installations de divertissement permettra une densité d'habitation beaucoup plus élevée sans sacrifier la fonction ou le confort."
-  
   giga_frameworld_gaia:99 "Modernisation des systèmes de soutien environnemental"
   giga_frameworld_gaia_desc:99 "Des systèmes de contrôle climatique avancés, conçus pour fournir des environnements idéaux pour toutes les formes de vie organique."
-  
   giga_frameworld_computing_complex:99 "Modernisation des installations de traitement des données"
   giga_frameworld_computing_complex_desc:99 "Des installations dédiées au stockage de données à haute densité et au traitement accéléré de l'information amélioreront considérablement notre capacité de recherche."
-  
   giga_frameworld_expand_infrastructure:99 "Développer l'infrastructure des stations"
   giga_frameworld_expand_infrastructure_desc:99 "L'amélioration du débit des installations de fabrication et de maintenance des stations nous permettra de prendre en charge un plus grand nombre de modules."
-  
   giga_frameworld_maginot:99 "Mettre en oeuvre la doctrine Maginot"
   giga_frameworld_maginot_effect:99 "Débloque les mécanismes §Y$name_maginot$§!, améliorant le potentiel défensif du $pc_giga_frameworld$ de multiples façons :\n\nAjoute une §Y$strategic_defence_command_platform$§!, station défensive évolutive immensément puissante capable d'affronter des flottes entières\n\nAjoute 3 §Y$frameworld_defensive_station_plural$§! supplémentaires au périmètre défensif du $pc_giga_frameworld$\n\npermet la construction de §Y$district_giga_frameworld_maginot_shield_generators$§! et §Y$district_giga_frameworld_maginot_planetary_cannons$§! districts, qui renforcent les défenses spatiales et fournissent des armées spéciales\n\n§Y$district_giga_frameworld_fortress_plural$§! fournissent des armées de défense puissantes supplémentaires\n\nPermet un §YSystème de perturbation subspatiale§! 'activable' qui bloque la formation de vortex et le fonctionnement des moteurs de saut dans ce système et les systèmes adjacents\n\n."
   giga_frameworld_maginot_desc:99 "Nous comprenons maintenant les limites absurdes auxquelles une planète peut être fortifiée, et grâce à ces connaissances, nous voyons clairement comment améliorer nos propres défenses."
-  
-  # AI helpers
-  
-  giga_frameworld_ai_helper:99 "§H(AI Helper)§!"
-  
+ giga_frameworld_ai_helper:99 "§H(Aide I.A.)§!"
   giga_frameworld_ai_outpost:99 "Construire un $frameworld_outpost_0$ $giga_frameworld_ai_helper$"
   giga_frameworld_ai_outpost_desc:99 "Construit un $frameworld_outpost_0$ pour l'IA, car elle ne sait pas bien gérer les vaisseaux de construction."
-  
   giga_frameworld_ai_asteroid:99 "$frameworld_harvest_0$ $giga_frameworld_ai_helper$"
   giga_frameworld_ai_asteroid_desc:99 "Récolte un astéroïde pour l'IA, car elle ne sait pas bien gérer les vaisseaux de construction."
-  
   giga_frameworld_ai_habitat:99 "$frameworld_salvage_habitat_0$ $giga_frameworld_ai_helper$"
   giga_frameworld_ai_habitat_desc:99 "Récupère un habitat pour l'IA, car elle ne sait pas bien gérer les vaisseaux de construction."
-  
   giga_frameworld_building_audit:99 "Audit de la planète AI $giga_frameworld_ai_helper$"
   giga_frameworld_building_audit_desc:99 "Audits des bâtiments de la planète et des districts, en construisant les bâtiments importants s'ils ne sont pas présents, et en transférant les bâtiments vers des équivalents de district le cas échéant."
-  
   giga_frameworld_ai_build_district_anticrime:99 "$district_giga_frameworld_anticrime$"
   giga_frameworld_ai_build_district_anticrime_desc:99 "$giga_frameworld_ai_helper$\n\n$district_giga_frameworld_anticrime_desc$"
-  
   giga_frameworld_ai_build_district_industrial:99 "$district_giga_frameworld_industrial$"
   giga_frameworld_ai_build_district_industrial_desc:99 "$giga_frameworld_ai_helper$\n\n$district_giga_frameworld_industrial_desc$"
-  
   giga_frameworld_ai_build_district_refinery:99 "$district_giga_frameworld_refinery$"
   giga_frameworld_ai_build_district_refinery_desc:99 "$giga_frameworld_ai_helper$\n\n$district_giga_frameworld_refinery_desc$"
-  
   giga_frameworld_ai_build_district_science:99 "$district_giga_frameworld_science$"
   giga_frameworld_ai_build_district_science_desc:99 "$giga_frameworld_ai_helper$\n\n$district_giga_frameworld_science_desc$"
-  
   giga_frameworld_ai_build_district_fortress:99 "$district_giga_frameworld_fortress$"
   giga_frameworld_ai_build_district_fortress_desc:99 "$giga_frameworld_ai_helper$\n\n$district_giga_frameworld_fortress_desc$"
-  
   giga_frameworld_ai_build_building_sanctuary:99 "$building_organic_sanctuary$"
   giga_frameworld_ai_build_building_sanctuary_desc:99 "$giga_frameworld_ai_helper$\n\n$building_organic_sanctuary_desc$"
-  
   giga_frameworld_ai_build_district_sanctuary:99 "$district_giga_frameworld_sanctuary$"
   giga_frameworld_ai_build_district_sanctuary_desc:99 "$giga_frameworld_ai_helper$\n\n$district_giga_frameworld_sanctuary_desc$"
-  
   giga_frameworld_ai_build_district_decompressor:99 "$district_giga_frameworld_decompressor$"
   giga_frameworld_ai_build_district_decompressor_desc:99 "$giga_frameworld_ai_helper$\n\n$district_giga_frameworld_decompressor_desc$"
-  
   giga_frameworld_ai_build_district_penrose:99 "$district_giga_frameworld_penrose$"
   giga_frameworld_ai_build_district_penrose_desc:99 "$giga_frameworld_ai_helper$\n\n$district_giga_frameworld_penrose_desc$"
-  
-  #############
-  ### Techs ###
-  #############
-  
-  # harvest cost reductions
-  
   tech_frameworld_harvest_1:99 "Relevés d'astéroïdes à haute résolution"
   tech_frameworld_harvest_1_desc:99 "Les progrès réalisés dans le domaine de la numérisation des minéraux nous permettent d'évaluer plus rapidement et plus précisément les candidats potentiels à la récolte."
-  
   tech_frameworld_harvest_2:99 "Amélioration du désassemblage des astéroïdes"
   tech_frameworld_harvest_2_desc:99 "L'application de lasers miniers récemment développés à la récolte d'astéroïdes permettra un désassemblage plus efficace."
-  
   tech_frameworld_harvest_3:99 "Drones de désassemblage autonomes"
   tech_frameworld_harvest_3_desc:99 "Les flottes de drones miniers automatisés, conçus à l'origine pour récolter des minéraux, peuvent également être appliquées à nos efforts de collecte de matériaux plus importants."
-  
-  # defensive station upgrades (granted by corresponding starbase tech and maginot)
-  
   tech_frameworld_defensive_station_2:99 "Périmètre défensif de Starhold"
   tech_frameworld_defensive_station_2_desc:99 "Nous devons réaménager nos stations du périmètre défensif pour profiter des nouveaux développements dans la construction des bases stellaires."
   giga_frameworld_tech_unlock_defensive_station_2_title:99 "§HDébloque Fonction :§! $frameworld_defensive_station$ Amélioration de l'urne."
   giga_frameworld_tech_unlock_defensive_station_2_desc:99 "Améliore le périmètre défensif du $pc_giga_frameworld$ au niveau de Starholds."
-  
   tech_frameworld_defensive_station_3:99 "Périmètre défensif de la Forteresse des étoiles"
   tech_frameworld_defensive_station_3_desc:99 "$tech_frameworld_defensive_station_2$"
   giga_frameworld_tech_unlock_defensive_station_3_title:99 "§HDébloque Fonction :§! $frameworld_defensive_station$ Amélioration de la Forteresse des étoiles."
   giga_frameworld_tech_unlock_defensive_station_3_desc:99 "Améliore le périmètre défensif du $pc_giga_frameworld$ au niveau des Forteresses des étoiles."
-  
   tech_frameworld_defensive_station_4:99 "Périmètre défensif de Citadel"
   tech_frameworld_defensive_station_4_desc:99 "$tech_frameworld_defensive_station_2$"
   giga_frameworld_tech_unlock_defensive_station_4_title:99 "§HDébloque Fonction :§! $frameworld_defensive_station$ Amélioration de la Citadelle."
   giga_frameworld_tech_unlock_defensive_station_4_desc:99 "Améliore le périmètre défensif du $pc_giga_frameworld$ au niveau des citadelles."
-  
   tech_frameworld_defensive_station_5:99 "Périmètre défensif Doctrine Maginot"
   tech_frameworld_defensive_station_5_desc:99 "La meilleure défense... est une bonne défense."
   giga_frameworld_tech_unlock_defensive_station_5_title:99 "§HDébloque la fonction :§! $frameworld_defensive_station$ Amélioration Maginot."
   giga_frameworld_tech_unlock_defensive_station_5_desc:99 "Augmente la force du périmètre défensif du $pc_giga_frameworld$ à un niveau supérieur à celui des citadelles."
-  
-  # outpost repeatable
-  
   tech_frameworld_repeatable_outpost_output:99 "Infrastructure des expéditions planétaires"
   tech_frameworld_repeatable_outpost_output_desc:99 "L'amélioration des équipements de soutien et des infrastructures de nos expéditions planétaires leur permet d'identifier plus efficacement les possibilités d'extraction de ressources."
-  
-  ##################
-  ### Traditions ###
-  ##################
-  
   tr_expansion_adopt_giga_frameworld:99 "$tr_expansion_adopt$"
-  
   tr_expansion_colonization_fever_giga_frameworld:99 "Expéditions flexibles"
   tr_expansion_colonization_fever_giga_frameworld_delayed:99 "Les préparatifs exhaustifs des expéditions planétaires garantissent un déploiement sans heurts. En cas de mesures excessives, les unités de travail excédentaires peuvent être réaffectées à des fonctions essentielles."
-  #tr_expansion_colonization_fever_giga_frameworld_desc:99 "Un §Y£pop£ Pop§! est créé sur notre $pc_giga_frameworld$ chaque fois qu'un §Y$giga_frameworld_outpost$§! est construit sur un nouveau monde."
   tr_expansion_colonization_fever_giga_frameworld_desc:99 "$tr_expansion_colonization_fever_desc$\n\n§HNote :§! Tout £pop£ Pops supplémentaire pour les nouvelles colonies est ajouté à notre $pc_giga_frameworld$ lorsqu'un §Y$giga_frameworld_outpost$§! est construit sur un nouveau monde, avec ou sans cette tradition."
-  
-  ################
-  ### Stations ###
-  ################
-  
-  frameworld_defensive_station:99 "Station de défense"
   frameworld_defensive_station_plural:99 "Stations de défense"
-
-  # defensive station fleet name
   frameworld_defensive_station:99 "Prémiètre Défensif"
-    
   frameworld_defensive_station_section_1:99 "Base"
   frameworld_defensive_station_section_2:99 "Redoute"
   frameworld_defensive_station_section_3:99 "Forteresse"
   frameworld_defensive_station_section_4:99 "Citadelle"
   frameworld_defensive_station_section_5:99 "Doctrine Maginot"
-  
   GIGA_FRAMEWORLD_DEFENSIVE_STATION_REACTOR_1:99 "Réacteur de la Station Périphérique"
   GIGA_FRAMEWORLD_DEFENSIVE_STATION_REACTOR_2:99 "Réacteur de la Station Périphérique Améliorée"
   GIGA_FRAMEWORLD_DEFENSIVE_STATION_REACTOR_3:99 "Réacteur de station à périmètre avancé"
   GIGA_FRAMEWORLD_DEFENSIVE_STATION_REACTOR_4:99 "Grand réacteur de station à périmètre avancé"
   GIGA_FRAMEWORLD_DEFENSIVE_STATION_REACTOR_5:99 "Réacteur de la station du périmètre Maginot"
-  
-  ##############
-  ### Armies ###
-  ##############
-  
   frameworld_defense_army:99 "$pc_giga_frameworld$ Grille de drones"
   frameworld_defense_army_plural:99 "$pc_giga_frameworld$ Grilles de drones"
   frameworld_defense_army_desc:99 "Des unités défensives spécialisées dans les conditions uniques présentées par le combat sur et autour de la construction éclectique de la $pc_giga_frameworld$.."
-  
   frameworld_maginot_defense_army:99 "Cluster de défense Maginot"
   frameworld_maginot_defense_army_plural:99 "Clusters de la défense Maginot"
   frameworld_maginot_defense_army_desc:99 "Des emplacements défensifs lourdement fortifiés avec un armement important, soutenus par des légions de drones guerriers."
-  
-  ######################
-  ### Megastructures ###
-  ######################
-  
-  # outpost general
   giga_frameworld_outpost:99 "Avant-poste planétaire"
   giga_frameworld_outpost_plural:99 "Avant-postes planétaires"
   giga_frameworld_outpost_desc:99 "Un grand poste de déploiement auxiliaire dédié à l'exploration des ressources et des écosystèmes planétaires."
-  
-  # outpost "bypass"
   giga_frameworld_outpost_icon:99 "$giga_frameworld_outpost$"
   giga_frameworld_outpost_icon_header:99 "$giga_frameworld_outpost$"
   giga_frameworld_outpost_icon_desc:99 "Ce système contient un ou plusieurs §Y$giga_frameworld_outpost_plural$§!\n\nLes §Y$giga_frameworld_outpost_plural$§! sont des colonies mineures appartenant à des empires ayant l'origine §Y$origin_frameworld$§!. Ils n'ont pas besoin d'être envahis pour capturer le système."
   giga_frameworld_outpost_icon_tooltip:99 "Le bouton des $giga_frameworld_outpost_plural$ ne peut pas être utilisé, ce bouton est un des effets de bord de la méthode utilisée pour ajouter une icône sur la carte, et peut être ignoré."
-  
-  # outpost
   frameworld_outpost_0:99 "$giga_frameworld_outpost$"
   frameworld_outpost_0_DESC:99 "Un grand centre de réseau orbital conçu pour faciliter les opérations à distance sur la planète d'un réseau hautement centralisé $auth_machine_intelligence$.."
   frameworld_outpost_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_kilostructure$ - $giga_list_category_special$\nExploite les ressources planétaires et fournit §Ydes bonus importants§! au §Y$pc_giga_frameworld$§!\n§L$giga_frameworld_outpost_desc$§!."
   frameworld_outpost_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - Équivalent de la fondation d'une colonie dans le jeu normal, $giga_frameworld_outpost_plural$ fournit des bonus de croissance et de construction significatifs, et devrait être une priorité élevée. La production de ressources varie en fonction des caractéristiques et de la classe de la planète hôte.\n\nLe coût s'échelonne en fonction des modificateurs £mod_starbase_ship_build_cost_mult£ §Y$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$§!.\n\nL'effet par $giga_frameworld_outpost$ :\n\n$frameworld_outpost_fake_tooltip$"
-  
-  # outpost with map marker
   frameworld_outpost_marked_0:99 "$frameworld_outpost_0$"
   frameworld_outpost_marked_0_DESC:99 "$frameworld_outpost_0_DESC$"
   frameworld_outpost_marked_0_MEGASTRUCTURE_DETAILS:99 "$frameworld_outpost_0_MEGASTRUCTURE_DETAILS$"
   frameworld_outpost_marked_0_CONSTRUCTION_INFO_DELAYED:99 "$frameworld_outpost_0_CONSTRUCTION_INFO_DELAYED$"
-  
-  # damaged outpost
   frameworld_outpost_wreck_0:99 "$giga_frameworld_outpost$ en ruines"
   frameworld_outpost_wreck_0_DESC:99 "Les restes d'un grand centre de réseau orbital qui gérait autrefois les opérations planétaires d'un réseau hautement centralisé $auth_machine_intelligence$.."
-  
-  # repair upgrade which gets switched for a normal one on completion
   frameworld_outpost_wreck_1:99 "$giga_frameworld_outpost$ restauré"
   frameworld_outpost_wreck_1_DESC:99 "Rétablir le $frameworld_outpost_0$ dans un état pleinement opérationnel."
-  
-  # asteroid harvesting project
   frameworld_harvest_0:99 "Récolte d'astéroïdes"
   frameworld_harvest_0_DESC:99 "Si vous pouvez voir ça, c'est que quelque chose a mal tourné."
   frameworld_harvest_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_project$ - $giga_list_category_special$\nDémantelez n'importe quel astéroïde pour obtenir les matières premières nécessaires à l'expansion du §Y$pc_giga_frameworld$§!\n§LUne construction à grande échelle nécessite l'acquisition de ressources à grande échelle§!."
   frameworld_harvest_0_CONSTRUCTION_INFO_DELAYED:99 "$giga_list_additional_data$ - Développe le §Y$pc_giga_frameworld$§! une fois, en ajoutant en plus §G+1§! §Y$mod_district_giga_frameworld_mining_max$ par 4 récoltes§!.\n\nLe coût augmente avec les modificateurs £mod_planet_clear_blocker_cost_mult£ §Y$MOD_COUNTRY_CLEAR_BLOCKER_COST_MULT$§!.\n\nEffets d'extension :\n\n$frameworld_size_fake_tooltip$\n\n$frameworld_expansion_fake_tooltip$\n\n$frameworld_asteroid_fake_tooltip$"
-  
-  # habitat salvage project
   frameworld_salvage_habitat_0:99 "Sauvegarde de l'habitat"
   frameworld_salvage_habitat_0_DESC:99 "Si vous pouvez voir ça, c'est que quelque chose a mal tourné."
   frameworld_salvage_habitat_0_MEGASTRUCTURE_DETAILS:99 "$giga_list_category_project$ - $giga_list_category_special$\nDémanteler une station d'habitat pour obtenir des matériaux permettant d'étendre le §Y$pc_giga_frameworld$§!\n§LLes installations orbitales étrangères peuvent être réutilisées pour nos propres besoins.§!"
   frameworld_salvage_habitat_0_CONSTRUCTION_INFO_DELAYED:99 "Le coût varie en fonction des modificateurs £mod_planet_clear_blocker_cost_mult£ §Y$MOD_COUNTRY_CLEAR_BLOCKER_COST_MULT$§!. Les effets d'expansion par taille d'habitat sont les suivants :\n\n\n$frameworld_expansion_fake_tooltip$."
-  
-  # penrose upgrade
   frameworld_penrose_0:99 "Structure de $name_penrose$"
   frameworld_penrose_0_DESC:99 "$penrose_sphere_1_DESC$"
-  
   frameworld_penrose_1:99 "$name_penrose$ Partiel"
   frameworld_penrose_1_DESC:99 "Une construction partielle $name_penrose$ - Couverture partielle du panneau miroir et injecteurs de particules incomplets."
-  
   frameworld_penrose_2:99 "$name_penrose$"
   frameworld_penrose_2_DESC:99 "Entièrement entourée de miroirs, l'énergie peut maintenant être générée par l'ergosphère du $pc_black_hole$."
-  
-  # decompressor upgrade
   frameworld_decompressor_0:99 "$matter_decompressor_4$ Supports structurels"
   frameworld_decompressor_0_DESC:99 "Superstructure conçue pour supporter un énorme anneau d'installations de traitement des matériaux au-dessus du $pc_black_hole$. du système."
-  
   frameworld_decompressor_1:99 "$matter_decompressor_4$ Anneau de traitement"
   frameworld_decompressor_1_DESC:99 "Une installation colossale dédiée à la transformation des matières extraites en minéraux utilisables."
-  
   frameworld_decompressor_2:99 "$matter_decompressor_4$ Tableau d'alésage"
   frameworld_decompressor_2_DESC:99 "Un réseau d'installations de lentilles gravitationnelles qui tordent les champs gravitationnels pour en faire des forets capables d'extraire des matériaux du $pc_black_hole$.."
-  
-  #################
-  ### Modifiers ###
-  #################
-  
   frameworld_origin_colony_cost:99 "Pénalité pour coût de colonie"
   frameworld_origin_colony_cost_desc:99 "§W§EModificateur de compatibilité :§! Désactiver complètement la construction de $colonizer_plural$ nécessite des écrasements invasifs qui ne sont pas facilement compatibles avec d'autres mods.\n\nSi un $colonizer$ est obtenu d'une manière ou d'une autre, il peut toujours être utilisé pour fonder une colonie, mais les colons seront réinstallés de la même manière qu'un monde conquis.§!\n§W--------------§!\n§LNotre architecture réseau est fondamentalement incompatible avec les exigences de la colonisation planétaire décentralisée. Nous sommes intrinsèquement liés au Cadre.§!"
-  
   frameworld_outpost_bonus:99 "Réseau d'$giga_frameworld_outpost$"
   frameworld_outpost_bonus_desc:99 "§LPlus petites que les colonies des autres civilisations spatiales, nos $giga_frameworld_outpost_plural$ auxiliaires étendent notre influence aux mondes lointains.§!"
-  
   frameworld_expanded_maintenance_protocol:99 "Protocoles de maintenance étendus"
   frameworld_expanded_maintenance_protocol_desc:99 "Permettre à des drones non assignés de rester inactifs représente un facteur de gaspillage inacceptable. Ces drones seront redistribués à des tâches secondaires, en maintenant et en assistant d'autres fonctions de la station si nécessaire."
   frameworld_expanded_maintenance_protocol_tooltip:99 "Les pops chômeurs §Yau-delà du 5ème§! de ce $pc_giga_frameworld$ seront employés comme £job_frame_maintenance_drone£ §Y$job_frame_maintenance_drone_plural$§!\n\n$job_frame_maintenance_drone_effect_desc$."
-  
   frameworld_ai_build_cooldown:99 "Temps de recharge de la construction de l'IA du $pc_giga_frameworld$"
   frameworld_ai_build_cooldown_desc:99 "Période de temps de recharge pour les événements d'aide à l'IA."
-  
   frameworld_ai_artisans:99 "Ajustement des $job_artisan_drone$"
   frameworld_ai_artisans_desc:99 "Une aide à la gestion des emplois par l'IA."
-  
   frameworld_conquered:99 "Sur-extension administrative"
   frameworld_conquered_desc:99 "Ce monde est en plein chaos suite à un changement de propriétaire."
   frameworld_conquered_tooltip:99 "La croissance, la construction et l'entraînement de l'armée sont effectivement interrompus sur ce monde."
-  
-  frameworld_building_wreck_fix:0 "Correctif pour l'Upgrade Nexus District"
-  frameworld_building_wreck_fix_desc:0 "Si vous lisez ceci, c'est que quelque chose a mal tourné. Ce modificateur existe pour éviter que les bâtiments soient détruits lors de la décision d'amélioration du district nexus et n'est pas censé persister après la fin du projet."
-  
-  
-  # asteroid harvest modifiers
+ frameworld_building_wreck_fix:99 "Correctif pour l'Upgrade Nexus District"
+ frameworld_building_wreck_fix_desc:99 "Si vous lisez ceci, c'est que quelque chose a mal tourné. Ce modificateur existe pour éviter que les bâtiments soient détruits lors de la décision d'amélioration du district nexus et n'est pas censé persister après la fin du projet."
   mod_deposit_blockers_frameworld_cost_mult:99 "Coût de la récolte d'astéroïdes"
-  
-  # planetary outpost modifiers
   mod_frameworld_outposts_produces_mult:99 "$giga_frameworld_outpost$ Sortie des ressources"
   mod_frameworld_outposts_cost_mult:99 "$giga_frameworld_outpost$ Coût de construction"
-  
-  ##############
-  ### Events ###
-  ##############
-  
-  # First planetary outpost notification
   giga_frameworld_origin.107.name:99 "La première expédition [Root.GetSpeciesName]."
   giga_frameworld_origin.107.desc:99 "Nos unités de construction ont terminé l'assemblage de la station relais planétaire au-dessus de §Y[From.GetName]§!. Depuis ce point d'arrêt, une expédition a été lancée pour explorer systématiquement la surface en dessous.\n\nBien que notre influence soit limitée à cette distance de §Y[Root.GetHomeWorldName]§!, l'expédition sera toujours en mesure d'exploiter toute ressource utile trouvée pendant l'exploration.\n\nNotre maîtrise de ce monde ne sera jamais aussi complète que notre maîtrise du Cadre, mais c'est une première étape importante pour prendre notre place parmi les étoiles."
   giga_frameworld_origin.107.a:99 "Un grand jour pour les [Root.GetName] !"
-  
-  # Baol life-seeding alternative text
   giga_frameworld_origin.500.desc.first:99 "Nos spécialistes de l'environnement sont heureux d'annoncer que le processus d'ensemencement sur [Root.GetName] est terminé ! Les nouvelles plantes hybrides créées en laboratoire, fabriquées à partir de segments soigneusement sélectionnés du code génétique du §YBaol§! prélevé sur le corps du dernier §YBaol§!, ont été déployées avec succès dans le cadre d'une expansion plus large des systèmes de soutien environnemental.\n\nL'administration signale également qu'un certain nombre d'extraterrestres sapides, incroyablement similaires aux anciens §YBaol§!, sont apparus sur [Root.GetName] !\n\nBien que n'étant pas membres d'une Ruche, ces §GNu-Baol§! semblent aussi pacifiques que leurs ancêtres. D'une manière ou d'une autre, nous devrons nous occuper de leur présence sur [Root.GetName]."
   giga_frameworld_origin.500.desc:99 "Nos spécialistes de l'environnement sont heureux d'annoncer que le processus d'ensemencement sur [Root.GetName] est terminé ! Une fois de plus, un certain nombre de populations de §GNu-Baol§! sont apparues, grâce à notre déploiement d'hybrides végétaux créés en laboratoire, contenant des segments soigneusement sélectionnés du code génétique du §YBaol§!."
-  
-  # Penrose notifications
-  
   giga_frameworld_origin.001.name:99 "Structure de $name_penrose$ construit"
   giga_frameworld_origin.001.desc:99 "La structure d'un futur $name_penrose$ a été construit autour de [giga_system.star.GetName]. Ce cadre squelettique supportera un jour des miroirs massifs, construits avec les matériaux les plus réfléchissants auxquels nous pouvons penser. Une fois que nous aurons terminé la construction de ces miroirs et des systèmes d'injection et de capture de particules qui les accompagnent, nous pourrons commencer à récolter l'énergie de rotation du $pc_black_hole$."
   giga_frameworld_origin.001.a:99 "Merveilleux."
-  
   giga_frameworld_origin.002.name:99 "$name_penrose$ partiel construit"
   giga_frameworld_origin.002.desc:99 "La moitié des miroirs gigantesques ont maintenant été installés sur le cadre entourant [giga_system.star.GetName], et les injecteurs de particules sont partiellement terminés. D'autres travaux sont nécessaires pour terminer la structure avant que nous puissions l'utiliser correctement."
   giga_frameworld_origin.002.a:99 "Excellent."
-  
   giga_frameworld_origin.003.name:99 "Intégré $name_penrose$ Terminé"
   giga_frameworld_origin.003.desc:99 "Avec l'installation des derniers panneaux de miroirs, [giga_system.star.GetName] est maintenant complètement fermé. Nous pouvons maintenant commencer à récolter l'énergie de rotation du $pc_black_hole$."
   giga_frameworld_origin.003.a:99 "Merveilleux !"
-  
-  # Decompressor notifications
-  
   giga_frameworld_origin.004.name:99 "Supports structurels de $matter_decompressor_4$ construits"
   giga_frameworld_origin.004.desc:99 "Pour extraire la matière de [giga_system.star.GetName], nous avons d'abord besoin d'une base sûre pour construire l'installation. Des supports d'ancrage ont été construits depuis la superstructure du $pc_giga_frameworld$ jusqu'à une région située au-dessus de l'horizon des événements de [giga_system.star.GetName], où un énorme anneau de traitement supportera finalement l'appareil de forage gravitationnel."
   giga_frameworld_origin.004.a:99 "Merveilleux."
-  
   giga_frameworld_origin.005.name:99 " Anneau de traitement de $matter_decompressor_4$ construit"
   giga_frameworld_origin.005.desc:99 "Construit sur les supports structurels existants, cet anneau de traitement abrite d'énormes raffineries et fonderies qui transformeront la matière extraite de [giga_system.star.GetName] en minéraux utilisables. Il ne reste plus qu'à monter l'appareil de décompression, qui utilisera des zones concentrées de gravité tordue pour créer de vastes foreuses dont les trous sont faits de force gravitationnelle redirigée et concentrée."
   giga_frameworld_origin.005.a:99 "Excellent."
-  
   giga_frameworld_origin.006.name:99 "$matter_decompressor_4$ intégré Terminé"
   giga_frameworld_origin.006.desc:99 "Avec l'achèvement du réseau de forages gravitationnels, le $matter_decompressor_4$ au-dessus de [giga_system.star.GetName] est maintenant complet, ce qui nous permet un accès sans précédent à la matière que l'on pensait auparavant piégée à jamais dans son horizon des événements. Nous pouvons maintenant commencer à récolter les minéraux de [giga_system.star.GetName] directement."
   giga_frameworld_origin.006.a:99 "Merveilleux !"
-  
   giga_frameworld_origin.007.name:99 "L'expansion de la section d'habitation est terminée"
   giga_frameworld_origin.007.desc:99 "Le réaménagement et l'expansion de nos zones urbaines sur [giga_planet.GetName] sont terminés. La nouvelle conception, plus encapsulée, permet à un plus grand nombre de personnes d'habiter confortablement un seul module de station, avec un accès pratique aux espaces de travail et aux commodités locales.\n\nNos zones d'habitation sont maintenant de véritables villes en soi, laissant l'espace précédemment occupé par les équipements de soutien externes pour de nouvelles constructions."
   giga_frameworld_origin.007.desc.hive:99 "La reconception et l'expansion de nos noeuds de ruche sur [giga_planet.GetName] sont terminées. La nouvelle conception, plus encapsulée, permet une meilleure distribution des drones de maintenance parmi la population en convalescence, réduisant les temps de déplacement et améliorant la délégation des tâches locales.\n\nLes économies réalisées en partageant les installations libèrent l'espace précédemment utilisé par les systèmes de maintenance dédiés pour de nouvelles constructions."
   giga_frameworld_origin.007.desc.machine:99 "Le réaménagement et l'expansion des zones d'habitation des drones sur [giga_planet.GetName] sont terminés. La nouvelle conception, plus encapsulée, permet une intégration plus étroite de l'entretien des drones dans les installations de stockage, réduisant ainsi les frais de déplacement et l'espace global utilisé.\n\nLes économies réalisées dans les systèmes de soutien permettent de libérer l'espace utilisé auparavant par les systèmes secondaires pour de nouvelles constructions."
   giga_frameworld_origin.007.a:99 "La station doit se développer."
-  
   giga_frameworld_origin.008.name:99 "L'industrie lourde remaniée est en ligne"
   giga_frameworld_origin.008.desc:99 "Les fonderies et les usines sur [giga_planet.GetName] sont en pleine activité suite à l'achèvement de notre projet de rénovation industrielle.\n\nLes méthodes industrielles modernes permettent un plus grand niveau de productivité, en condensant l'équipement qui occupait autrefois d'énormes régions de [giga_planet.GetName] dans des stations centrales compactes et efficaces. L'espace économisé par ce réaménagement peut maintenant être utilisé pour d'autres modules de station, ou simplement pour encore plus d'usines."
   giga_frameworld_origin.008.a:99 "Les prévisions de productivité sont en hausse."
-  
   giga_frameworld_origin.009.name:99 "Fin de la modernisation des installations du sanctuaire"
   giga_frameworld_origin.009.desc:99 "Après une longue période de réorganisation, les nouvelles installations de satisfaction des besoins organiques sur [giga_planet.GetName] sont maintenant opérationnelles. Les organiques qui nous sont confiés ne remarqueront aucune perturbation, leur vie n'étant pas interrompue mais enrichie par les systèmes améliorés.\n\nLes zones qui abritaient auparavant les systèmes de maintenance peuvent désormais être réaffectées pour accueillir une population encore plus nombreuse, ou à d'autres fins."
   giga_frameworld_origin.009.a:99 "Le travail n'est jamais terminé."
-  
   giga_frameworld_origin.010.name:99 "Modernisation des systèmes de soutien à l'environnement"
   giga_frameworld_origin.010.desc:99 "Nous avons terminé la rénovation des systèmes de contrôle environnemental et de traitement de l'atmosphère sur [giga_planet.GetName]. Nos citoyens peuvent désormais profiter d'une large gamme d'environnements planétaires simulés, adaptés à toutes les espèces. Le contrôle plus fin du traitement de l'eau et de l'éclairage permettra également une production de nourriture beaucoup plus efficace, avec une réduction correspondante des besoins en main-d'oeuvre.\n\nUn nouveau jour se lève sur [giga_planet.owner.GetName], et l'air est vif."
   giga_frameworld_origin.010.a:99 "Rafraîchissant !"
@@ -857,70 +529,49 @@
   giga_frameworld_origin.010.a.servitor:99 "Rien n'est trop beau pour nos pupilles."
   giga_frameworld_origin.010.desc.assimilator:99 "Nous avons terminé la rénovation des systèmes de contrôle environnemental et de traitement de l'atmosphère sur [giga_planet.GetName]. Nos drones organiques bénéficieront des conditions améliorées, en particulier ceux qui proviennent de l'extérieur de nos paramètres de conception originaux.\n\nLe contrôle plus fin du traitement de l'eau et de l'éclairage permettra également une production beaucoup plus efficace de nourriture, assurant un fonctionnement efficace continu des grappes de drones intégrées. La productivité devrait augmenter à la suite de ces modifications."
   giga_frameworld_origin.010.a.assimilator:99 "Compris."
-  
   giga_frameworld_origin.011.name:99 "Amélioration des installations de traitement des données"
   giga_frameworld_origin.011.desc:99 "Les travaux de construction du nouveau complexe de calcul à large bande passante sur [giga_planet.GetName] sont terminés. De vastes banques de superordinateurs sont désormais disponibles pour répondre aux requêtes scientifiques les plus difficiles que nous ayons jamais conçues, et promettent une amélioration considérable du débit de la recherche générale\n\nL'intégration de ces systèmes dans les fonctions centrales de la station est en cours, mais la charge supplémentaire de gestion de la chaleur ne devrait pas causer de perturbation significative."
   giga_frameworld_origin.011.a:99 "Les secrets de l'univers sont à notre portée."
-  
   giga_frameworld_origin.012.name:99 "Extension de l'infrastructure des stations"
   giga_frameworld_origin.012.desc:99 "Après une longue période de construction, de nouveaux corridors d'infrastructure de transport essentiels ont été achevés entre les principales sections de [giga_planet.GetName].\n\nL'intégrité structurelle améliorée et les réseaux de transport interconnectés permettront à la superstructure de supporter des modules fonctionnels supplémentaires."
   giga_frameworld_origin.012.desc.2:99 "Une deuxième série de mises à niveau de l'infrastructure a été achevée sur des sections majeures de [giga_planet.GetName].\n\nL'intégrité structurelle améliorée et les réseaux de transport interconnectés permettront à la superstructure de supporter des modules fonctionnels supplémentaires."
   giga_frameworld_origin.012.a:99 "Compris."
-  
   giga_frameworld_origin.013.name:99 "Achèvement du projet Maginot"
   giga_frameworld_origin.013.desc:99 "Nous avons maintenant achevé notre ultime barrière défensive autour de [giga_planet.GetName], encerclant notre foyer de couches successives de fortifications mortelles. Cet impressionnant exploit d'ingénierie militaire est pratiquement inattaquable par n'importe quelle force, avec des plateformes défensives intégrées, de gigantesques batteries cinétiques, de vastes emplacements de garnison et des générateurs de bouclier dépassant de loin la génération de flottes navales entières. En outre, le système Dead Hand a un effet dissuasif sur la destruction totale de [giga_planet.GetName], en utilisant le noyau central de la station comme une vaste charge creuse alimentée en antimatière en cas d'activation du système de sécurité - §Rannihilant complètement toute force hostile en orbite.§!\n\n\nLes différents systèmes de défense peuvent être gérés par le biais de §Ydécisions§!. Construisez des §Ydistricts§! pour gagner $defensive_upgrade_point_plural$ et $offensive_upgrade_point_plural$ à utiliser avec ces décisions."
   giga_frameworld_origin.013.a:99 "Personne ne peut nous faire du mal maintenant."
-  
-  # conquered world abandonment
-  
   giga_frameworld_origin.101.name:99 "Population annexée - Population relocalisée"
-  # first time
   giga_frameworld_origin.101.desc.a:99 "La population locale de [From.GetName] a maintenant été entièrement transférée à [Root.Capital.GetName]. Après une brève période d'expérimentation, nous avons maintenant confirmé que le maintien d'un contrôle total d'une colonie externe aussi importante est au-delà de nos capacités, et le futur protocole se concentrera sur la relocalisation efficace des unités de population locale.\n\n[From.FrameworldEvent101GetOutpost]"
-  # subsequent times
   giga_frameworld_origin.101.desc.b:99 "Conformément au protocole établi, les unités de population de [From.GetName] ont été relocalisées à [Root.Capital.GetName].\n\n[From.FrameworldEvent101GetOutpost]"
-  giga_frameworld_origin.101.a:99 "Remercié."
-  
+ giga_frameworld_origin.101.a:99 "Bien reçu"
   giga_frameworld_origin.101.outpost:99 "Un §Y$frameworld_outpost_0$§! a été établi en orbite, et un poste de relais reste à la surface."
   giga_frameworld_origin.101.no_outpost:99 "Le site n'étant pas adapté à un §Y$frameworld_outpost_0$§!,, aucune mesure supplémentaire n'a été prise."
-  
-  # outpost wreck dismantled on settlement
-  
   giga_frameworld_origin.103.name:99 "Récupération d'une épave orbitale"
   giga_frameworld_origin.103.desc.a:99 "Maintenant que la colonie sur [From.GetName] a été correctement établie, nos équipes d'infrastructure ont commencé les opérations de récupération sur la station accidentée en orbite.\n\nL'objectif de la station reste incertain, car la quantité d'équipement de communication découvert à bord semble disproportionnée par rapport au niveau d'activité trouvé à la surface lorsque nous sommes arrivés.\n\nNous ne comprendrons peut-être jamais complètement les motivations des anciens propriétaires, mais les matériaux récupérés se sont avérés précieux."
   giga_frameworld_origin.103.a:99 "Bizarre, mais utile."
-  
-  # outpost resource discovery
-  
   giga_frameworld_origin.308.name:99 "Les enquêtes sur les ressources de l'expédition donnent des résultats"
   giga_frameworld_origin.308.desc:99 "Les études en cours sur les ressources menées par nos équipes expéditionnaires ont permis de découvrir de nouvelles possibilités d'exploitation des ressources planétaires. [frameworld_outpost_motes.FrameworldEvent308Motes] [frameworld_outpost_gases.FrameworldEvent308Gases] [frameworld_outpost_crystals.FrameworldEvent308Crystals] [frameworld_outpost_betharian.FrameworldEvent308Betharian] [frameworld_outpost_zoo.FrameworldEvent308Zoo]"
-  
   giga_frameworld_origin.308.desc.motes.general:99 "Ces particules produisent une quantité explosive de force cinétique lorsqu'elles sont activées chimiquement, et sont censées être très épicées lorsqu'elles sont utilisées en cuisine."
   giga_frameworld_origin.308.desc.motes:99 "\nUn détachement d'exploration sur §Y[this.GetName]§! a découvert un riche approvisionnement en §H$volatile_motes$§!. $giga_frameworld_origin.308.desc.motes.general$."
   giga_frameworld_origin.308.desc.motes.ecu:99 "\nUne ancienne installation de traitement chimique sur §Y[this.GetName]§! contient une importante quantité de §H$volatile_motes$§!.$giga_frameworld_origin.308.desc.motes.general$."
   giga_frameworld_origin.308.desc.motes.desert:99 "\n\nL'analyse chimique des sables du désert de §Y[this.GetName]§! a révélé une riche source de §H$volatile_motes$§!.$giga_frameworld_origin.308.desc.motes.general$."
   giga_frameworld_origin.308.desc.motes.caverns:99 "\nDans une caverne située sous la surface de §Y[this.GetName]§!, une équipe d'exploration a découvert une riche source de §H$volatile_motes$§!.$giga_frameworld_origin.308.desc.motes.general$."
-  
   giga_frameworld_origin.308.desc.gases.general:99 "Ces gaz ont un certain nombre d'utilisations tactiques et même récréatives."
   giga_frameworld_origin.308.desc.gases:99 "\nLes scans détaillés de §Y[this.GetName]§! ont révélé une source de §H$exotic_gases$§!.$giga_frameworld_origin.308.desc.gases.general$ jusqu'alors inexploitée."
   giga_frameworld_origin.308.desc.gases.ecu:99 "\nLes scans aériens de l'ancien secteur industriel sur §Y[this.GetName]§! ont révélé un grand réservoir de §H$exotic_gases$§!.$giga_frameworld_origin.308.desc.gases.general$."
   giga_frameworld_origin.308.desc.gases.swamp:99 "\nDes analyses approfondies des marécages de §Y[this.GetName]§! ont révélé un certain nombre de points d'accès potentiels pour §H$exotic_gases$§!. $giga_frameworld_origin.308.desc.gases.general$."
   giga_frameworld_origin.308.desc.gases.bog:99 "\n\nLes relevés aériens à basse altitude des zones humides tourbeuses sur §Y[this.GetName]§! ont révélé plusieurs endroits propices à l'extraction de §H$exotic_gases$§!.$giga_frameworld_origin.308.desc.gases.general$."
-  
   giga_frameworld_origin.308.desc.crystals.general:99 "Grâce à leurs spectaculaires propriétés réfringentes, ces cristaux se prêtent aussi bien à l'électronique haut de gamme qu'aux systèmes d'armes laser."
   giga_frameworld_origin.308.desc.crystals:99 "\nDes équipes de recherche sur §Y[this.GetName]§! ont cartographié l'emplacement d'une source majeure de §H$rare_crystals$§!.$giga_frameworld_origin.308.desc.crystals.general$."
   giga_frameworld_origin.308.desc.crystals.ecu:99 "\nLes équipes de recherche sur §Y[this.GetName]§! ont identifié une installation de stockage presque intacte contenant une énorme quantité de §H$rare_crystals$§!.$giga_frameworld_origin.308.desc.crystals.general$."
   giga_frameworld_origin.308.desc.crystals.caverns:99 "\nLes études géologiques de §Y[this.GetName]§! ont identifié une vaste caverne contenant des formations de §H$rare_crystals$§!.$giga_frameworld_origin.308.desc.crystals.general$."
   giga_frameworld_origin.308.desc.crystals.forest:99 "\nLes équipes de recherche sur §Y[this.GetName]§! ont découvert une forêt d'arbres de silicate qui peuvent être traités pour extraire §H$rare_crystals$§!. $giga_frameworld_origin.308.desc.crystals.general$."
   giga_frameworld_origin.308.desc.crystals.reef:99 "\n\nLes études océanographiques de §Y[this.GetName]§! ont permis de cartographier plusieurs récifs de corail cristallisé qui pourraient être récoltés pour §H$rare_crystals$§!.$giga_frameworld_origin.308.desc.crystals.general$."
-  
   giga_frameworld_origin.308.desc.betharian.general:99 "Ces pierres ont un énorme potentiel de production d'énergie, qui pourrait être exploité par une centrale électrique conçue de manière appropriée."
   giga_frameworld_origin.308.desc.betharian:99 "\n\nDe nombreuses §Hpierres Béthariennes§! ont été découvertes sur §Y[this.GetName]§!. $giga_frameworld_origin.308.desc.betharian.general$"
   giga_frameworld_origin.308.desc.betharian.fields:99 "\n\nDe grandes formations de §Hpierres Béthariennes§! d'origine naturelle ont été découvertes sur §Y[this.GetName]§!. $giga_frameworld_origin.308.desc.betharian.general$"
-  
   giga_frameworld_origin.308.desc.zoo.general:99 "Ces créatures se sont révélées inoffensives et amicales envers nos équipes d'enquêteurs, et présentent des conditions idéales pour étudier de près la vie extraterrestre."
   giga_frameworld_origin.308.desc.zoo:99 "\n\nLes études zoologiques de §Y[this.GetName]§! ont confirmé l'existence d'une §Hfaune locale docile§!. $giga_frameworld_origin.308.desc.zoo.general$"
   giga_frameworld_origin.308.desc.zoo.valley:99 "\n\nUne vallée isolée sur §Y[this.GetName]§! a été découverte pour abriter une population de §Hfaune locale docile§!. $giga_frameworld_origin.308.desc.zoo.general$"
-  
   giga_frameworld_origin.308.a:99 "Excellent."
   giga_frameworld_origin.308.a.tooltip:99 "§LLes nouvelles opportunités nécessitent de nouvelles méthodologies.§!"
   giga_frameworld_origin.308.a.motes:99 "\n§Y£volatile_motes£$volatile_motes$§! découvert le §Y[frameworld_outpost_motes.GetName]§! :"
@@ -928,24 +579,8 @@
   giga_frameworld_origin.308.a.crystals:99 "\n§Y£rare_crystals£$rare_crystals$§! découvert le §Y[frameworld_outpost_crystals.GetName]§! :"
   giga_frameworld_origin.308.a.betharian:99 "\n§Y£energy£Pierre Bétharienne§! découverte sur §Y[frameworld_outpost_betharian.GetName]§! :"
   giga_frameworld_origin.308.a.zoo:99 "\n§Y£unity£ £society_research£Vie extraterrestre docile§! découverte sur §Y[frameworld_outpost_zoo.GetName]§! :"
-  
-  #####################
-  ### Fake Tooltips ###
-  #####################
-
-
-  # size up effect
-  frameworld_size_fake_tooltip:0 "Taille du §Y$pc_giga_frameworld$§!: §G+1§!"
-  
-  # outpost modifier effect
+ frameworld_size_fake_tooltip:99 "Taille du §Y$pc_giga_frameworld$§!: §G+1§!"
   frameworld_outpost_fake_tooltip:99 "$mod_job_replicator_add$ : §G+0. 5§!\n$MOD_PLANET_POP_ASSEMBLY_REDUCTION$ : §G-10%§!\n$mod_planet_pop_assemblers_alloys_upkeep_add$ : §R+0. 1§!\n$MOD_POP_GROWTH_SPEED_REDUCTION$ : §G- 10%§!\n$MOD_EMPIRE_SIZE_COLONIES_MULT$ : §R+150%§!\n$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$ : §G+10%§!\n$MOD_PLANET_DECISION_ENACT_SPEED_MULT$ : §G+10%§!\n$MOD_PLANET_HOUSING_ADD$ : §G+5§!\n$MOD_PLANET_ARMY_BUILD_SPEED_MULT$ : §G+10%§!\n$MOD_POP_PURGE_SPEED$ : §G+10%§!"
-  
-  # expansion deposit effect, for megastructure desc (name resolution not available)
   frameworld_expansion_fake_tooltip:99 "Ajoutez §Y$d_frameworld_expansion$§! à §Y$pc_giga_frameworld$§!, avec le résultat suivant :\n$mod_job_replicator_add$ : §G+0. 2§!\n$MOD_POP_GROWTH_SPEED$ : §G+2. 5%§!\n$MOD_PLANET_BUILDING_BUILD_SPEED_MULT$ : §G+2%§!\n$MOD_PLANET_DECISION_ENACT_SPEED_MULT$ : §G+2%§!\n$MOD_PLANET_ARMY_BUILD_SPEED_MULT$ : §G+2%§!\n$MOD_POP_PURGE_SPEED$ : §G+2%§!"
-  
-  # asteroid deposit effect, for megastructure desc (name resolution not available)
   frameworld_asteroid_fake_tooltip:99 "Ajoutez §Y$d_frameworld_asteroid$§! au §Y$pc_giga_frameworld$§!, avec le résultat suivant :\n$mod_district_giga_frameworld_mining_max$ : §G+0. 25§!"
-  
-  # penrose deposit effect, for decision
   frameworld_penrose_fake_tooltip:99 "À l'achèvement de la mégastructure, ajoute §Y$d_frameworld_penrose$§! à §Y[this.GetName]§!, avec le résultat suivant :\n. $mod_planet_technician_energy_produces_add_planet$ : §G+1§!\n$mod_planet_technician_minerals_upkeep_add_planet$ : §R+1§!"
-

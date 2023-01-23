@@ -1,0 +1,775 @@
+defined_text = { #œ
+	name = GetGalEmpireName
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 1
+				}
+			}
+		}
+		localization_key = 1st_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 2
+				}
+			}
+		}
+		localization_key = 2nd_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 3
+				}
+			}
+		}
+		localization_key = 3rd_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 4
+				}
+			}
+		}
+		localization_key = 4th_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 5
+				}
+			}
+		}
+		localization_key = 5th_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 6
+				}
+			}
+		}
+		localization_key = 6th_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 7
+				}
+			}
+		}
+		localization_key = 7th_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 8
+				}
+			}
+		}
+		localization_key = 8th_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 9
+				}
+			}
+		}
+		localization_key = 9th_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 10
+				}
+			}
+		}
+		localization_key = 10th_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 11
+				}
+			}
+		}
+		localization_key = 11th_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 12
+				}
+			}
+		}
+		localization_key = 12th_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 13
+				}
+			}
+		}
+		localization_key = 13th_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value = 14
+				}
+			}
+		}
+		localization_key = 14th_empire
+	}
+	text = {
+		trigger = {
+			any_country = {
+				is_country_type = global_event
+				check_variable = {
+					which = galactic_empires
+					value >= 15
+				}
+			}
+		}
+		localization_key = 15th_empire
+	}
+}
+
+# Galactic Community or Galactic Imperium
+defined_text = {
+	name = GetGalCommunityOrGalImperium
+	text = {
+		trigger = { has_galactic_emperor = no }
+		localization_key = GALACTIC_COMMUNITY
+	}
+	text = {
+		trigger = { has_galactic_emperor = yes }
+		localization_key = GALACTIC_EMPIRE
+	}
+}
+
+# Community or Imperium (without Galactic)
+defined_text = {
+	name = GetCommunityOrImperium
+	text = {
+		trigger = { has_galactic_emperor = no }
+		localization_key = gal_community
+	}
+	text = {
+		trigger = { has_galactic_emperor = yes }
+		localization_key = gal_imperium
+	}
+}
+
+# Galactic Council or Imperial Council
+defined_text = {
+	name = GetGalCouncilOrImpCouncil
+	text = {
+		trigger = { has_galactic_emperor = no }
+		localization_key = GALACTIC_COUNCIL
+	}
+	text = {
+		trigger = { has_galactic_emperor = yes }
+		localization_key = IMPERIAL_COUNCIL
+	}
+}
+
+#Starbase scope (uses event target)
+defined_text = {
+	name = GetSabotagedStarbaseTitle
+	#Starbase modules
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = anchorage_sabotaged }
+		}
+		localization_key = sabotaged_anchorage
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = gun_battery_sabotaged }
+		}
+		localization_key = sabotaged_gun_battery
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = hangar_bay_sabotaged }
+		}
+		localization_key = sabotaged_hangar_bay
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = missile_battery_sabotaged }
+		}
+		localization_key = sabotaged_missile_battery
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = solar_panel_network_sabotaged }
+		}
+		localization_key = sabotaged_solar_panel_network
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = trading_hub_sabotaged }
+		}
+		localization_key = sabotaged_trading_hub
+	}
+	#Starbase buildings
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = art_college_sabotaged }
+		}
+		localization_key = sabotaged_art_college
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = black_hole_observatory_sabotaged }
+		}
+		localization_key = sabotaged_black_hole_observatory
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = command_center_sabotaged }
+		}
+		localization_key = sabotaged_command_center
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = communications_jammer_sabotaged }
+		}
+		localization_key = sabotaged_communications_jammer
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = crew_quarters_sabotaged }
+		}
+		localization_key = sabotaged_crew_quarters
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = curator_think_tank_sabotaged }
+		}
+		localization_key = sabotaged_curator_think_tank
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = deep_space_black_site_sabotaged }
+		}
+		localization_key = sabotaged_deep_space_black_site
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = disruption_field_sabotaged }
+		}
+		localization_key = sabotaged_disruption_field
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = fleet_academy_sabotaged }
+		}
+		localization_key = sabotaged_fleet_academy
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = hydroponics_bay_sabotaged }
+		}
+		localization_key = sabotaged_hydroponics_bay
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = ice_mining_station_sabotaged }
+		}
+		localization_key = sabotaged_ice_mining_station
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = listening_post_sabotaged }
+		}
+		localization_key = sabotaged_listening_post
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = mercenary_garrison_sabotaged }
+		}
+		localization_key = sabotaged_mercenary_garrison
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = naval_logistics_office_sabotaged }
+		}
+		localization_key = sabotaged_naval_logistics_office
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = nebula_refinery_sabotaged }
+		}
+		localization_key = sabotaged_nebula_refinery
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = offspring_outlook_sabotaged }
+		}
+		localization_key = sabotaged_offspring_outlook
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = offworld_trading_company_sabotaged }
+		}
+		localization_key = sabotaged_offworld_trading_company
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = resource_silo_sabotaged }
+		}
+		localization_key = sabotaged_resource_silo
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = salvager_workshop_sabotaged }
+		}
+		localization_key = sabotaged_salvager_workshop
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = target_uplink_computer_sabotaged }
+		}
+		localization_key = sabotaged_target_uplink_computer
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = trader_proxy_office_sabotaged }
+		}
+		localization_key = sabotaged_trader_proxy_office
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = transit_hub_sabotaged }
+		}
+		localization_key = sabotaged_transit_hub
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = warp_fluctuator_sabotaged }
+		}
+		localization_key = sabotaged_warp_fluctuator
+	}
+	#Orbital Ring modules
+	text = { # Correction de bug - manquant
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = orbital_ring_shipyard_sabotaged }
+		}
+		localization_key = sabotaged_orbital_ring_shipyard
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = orbital_ring_anchorage_sabotaged }
+		}
+		localization_key = sabotaged_orbital_ring_anchorage
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = orbital_ring_gun_battery_sabotaged } # Correction de bug
+		}
+		localization_key = sabotaged_orbital_ring_gun_battery
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = orbital_ring_habitation_sabotaged } # Correction de bug
+		}
+		localization_key = sabotaged_orbital_ring_habitation
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = orbital_ring_hangar_bay_sabotaged } # Correction de bug
+		}
+		localization_key = sabotaged_orbital_ring_hangar_bay
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = orbital_ring_missile_battery_sabotaged } # Correction de bug
+		}
+		localization_key = sabotaged_orbital_ring_missile_battery
+	}
+	# text = {
+	# 	trigger = {
+	# 		event_target:sabotaged_starbase_owner = { has_country_flag = orbital_ring_solar_panel_network_sabotaged } # Correction de bug
+	# 	}
+	# 	localization_key = sabotaged_orbital_ring_solar_panel_network
+	# }
+	#Orbital Ring buildings
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = ring_alloys_hub_sabotaged }
+		}
+		localization_key = sabotaged_ring_alloys_hub
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = ring_bureaucracy_hub_sabotaged }
+		}
+		localization_key = sabotaged_ring_bureaucracy_hub
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = ring_consumer_goods_hub_sabotaged }
+		}
+		localization_key = sabotaged_ring_consumer_goods_hub
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = ring_energy_hub_sabotaged }
+		}
+		localization_key = sabotaged_ring_energy_hub
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = ring_food_hub_sabotaged }
+		}
+		localization_key = sabotaged_ring_food_hub
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = ring_maintenance_hub_sabotaged }
+		}
+		localization_key = sabotaged_ring_maintenance_hub
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = ring_minerals_hub_sabotaged }
+		}
+		localization_key = sabotaged_ring_minerals_hub
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = ring_synapse_hub_sabotaged }
+		}
+		localization_key = sabotaged_ring_synapse_hub
+	}
+	text = {
+		trigger = {
+			event_target:sabotaged_starbase_owner = { has_country_flag = ring_trade_hub_sabotaged }
+		}
+		localization_key = sabotaged_ring_trade_hub
+	}
+	default = SABOTAGED_STARBASE #Fallback
+}
+
+#Country scope. Get an opposing group of lobbyists in the Galcom
+defined_text = {
+	name = GetOppositionGalcomLobbyists
+	text = {
+		trigger = {
+			is_xenophile = yes
+		}
+		weight = {
+			weight = 1
+			modifier = {
+				factor = 2
+				has_ethic = ethic_fanatic_xenophile
+			}
+		}
+		localization_key = galcom_movement_xenophobe
+	}
+	text = {
+		trigger = {
+			is_xenophobe = yes
+		}
+		weight = {
+			weight = 1
+			modifier = {
+				factor = 2
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+		localization_key = galcom_movement_xenophile
+	}
+	text = {
+		trigger = {
+			is_pacifist = yes
+		}
+		weight = {
+			weight = 1
+			modifier = {
+				factor = 2
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+		localization_key = galcom_movement_militarist
+	}
+	text = {
+		trigger = {
+			is_militarist = yes
+		}
+		weight = {
+			weight = 1
+			modifier = {
+				factor = 2
+				has_ethic = ethic_fanatic_militarist
+			}
+		}
+		localization_key = galcom_movement_pacifist
+	}
+	text = {
+		trigger = {
+			is_authoritarian = yes
+		}
+		weight = {
+			weight = 1
+			modifier = {
+				factor = 2
+				has_ethic = ethic_fanatic_authoritarian
+			}
+		}
+		localization_key = galcom_movement_egalitarian
+	}
+	text = {
+		trigger = {
+			is_egalitarian = yes
+		}
+		weight = {
+			weight = 1
+			modifier = {
+				factor = 2
+				has_ethic = ethic_fanatic_egalitarian
+			}
+		}
+		localization_key = galcom_movement_authoritarian
+	}
+	text = {
+		trigger = {
+			is_materialist = yes
+		}
+		weight = {
+			weight = 1
+			modifier = {
+				factor = 2
+				has_ethic = ethic_fanatic_materialist
+			}
+		}
+		localization_key = galcom_movement_spiritualist
+	}
+	text = {
+		trigger = {
+			is_spiritualist = yes
+		}
+		weight = {
+			weight = 1
+			modifier = {
+				factor = 2
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+		localization_key = galcom_movement_materialist
+	}
+}
+
+#Specifically envoy scope. Print location country or federation name, "Galactic Community"
+defined_text = {
+	name = GetEnvoyLocation
+	text = {
+		trigger = {
+			exists = envoy_location_country
+			envoy_location_country = {
+				is_scope_type = country
+			}
+		}
+		localization_key = STRING_envoy_location_name
+	}
+	text = {
+		trigger = {
+			has_envoy_task = {
+				task = galactic_community
+			}
+		}
+		localization_key = STRING_galcom
+	}
+	text = {
+		trigger = {
+			has_envoy_task = {
+				task = federation
+			}
+		}
+		localization_key = STRING_federation_name
+	}
+	#Add more versions if needed.
+}
+
+#Country scope | from = operation
+defined_text = {
+	name = GetOperativeRoleIndefiniteArticle
+	text = {
+		trigger = {
+			from = { has_espionage_operation_flag = operative_courier }
+		}
+		localization_key = operative_a_courier
+	}
+	text = {
+		trigger = {
+			from = { has_espionage_operation_flag = operative_facilitator }
+		}
+		localization_key = operative_a_facilitator
+	}
+	text = {
+		trigger = {
+			from = { has_espionage_operation_flag = operative_fixer }
+		}
+		localization_key = operative_a_fixer
+	}
+	text = {
+		trigger = {
+			from = { has_espionage_operation_flag = operative_informant }
+		}
+		localization_key = operative_a_informant
+	}
+	text = {
+		trigger = {
+			from = { has_espionage_operation_flag = operative_warehouse }
+		}
+		localization_key = operative_a_warehouse
+	}
+}
+defined_text = {
+	name = GetOperativeRole
+	text = {
+		trigger = {
+			from = { has_espionage_operation_flag = operative_courier }
+		}
+		localization_key = operative_courier
+	}
+	text = {
+		trigger = {
+			from = { has_espionage_operation_flag = operative_facilitator }
+		}
+		localization_key = operative_facilitator
+	}
+	text = {
+		trigger = {
+			from = { has_espionage_operation_flag = operative_fixer }
+		}
+		localization_key = operative_fixer
+	}
+	text = {
+		trigger = {
+			from = { has_espionage_operation_flag = operative_informant }
+		}
+		localization_key = operative_informant
+	}
+	text = {
+		trigger = {
+			from = { has_espionage_operation_flag = operative_warehouse }
+		}
+		localization_key = operative_warehouse
+	}
+}
+
+# If the ambassador is actually a spymaster, this will substitute the title in a subtle way
+defined_text = {
+	name = GetAmbassadorOrNot
+	text = {
+		trigger = {
+			NOT = {
+				has_envoy_task = {
+					task = spy_network
+				}
+			}
+		}
+		localization_key = STRING_ambassador
+	}
+	text = {
+		trigger = {
+			has_envoy_task = {
+				task = spy_network
+			}
+		}
+		localization_key = STRING_fake_ambassador
+	}
+}
+
+defined_text = {
+	name = GetAmbassadorOrNotCap
+	text = {
+		trigger = {
+			NOT = {
+				has_envoy_task = {
+					task = spy_network
+				}
+			}
+		}
+		localization_key = STRING_ambassador_CAP
+	}
+	text = {
+		trigger = {
+			has_envoy_task = {
+				task = spy_network
+			}
+		}
+		localization_key = STRING_fake_ambassador_CAP
+	}
+}
+
+# operatives / operative drones
+defined_text = {
+	name = GetOperativesLowerPlural
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_regular_empire = yes
+		}
+		localization_key = operative_plural_lower
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_gestalt = yes
+		}
+		localization_key = operative_drone_plural_lower
+	}
+	default = operative_plural_lower
+}
