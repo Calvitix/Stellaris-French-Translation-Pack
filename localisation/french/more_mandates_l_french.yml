@@ -1,238 +1,165 @@
 ﻿l_french:
-
-####################################
-#	COMMON STRINGS
-####################################
-
-mandate_unity_reward:2 "§Y10§! mois d'£unity£ Unité"
-mandate_influence_reward_t1:0 "£influence §Gfaible (40 - 100) §!"
-mandate_influence_reward_t2:0 "£influence §Gmoyenne (80 - 175) §!"
-mandate_influence_reward_t3:0 "£influence §Gélevée (125 - 250) §!"
-mandate_influence_reward_t4:0 "£influence §GTrès élevé (150 - 300) §!"
-mandate_influence_reward_t5:0 "£influence §GTrès importante (250 - 500) §!"
-mandate_happiness_reward_t1:0 "§G+15%§! de bonheur pour §Y2 ans§!"
-
-####################################
-#	MANDATES
-####################################
-
-MANDATE_mandate_colonize_planet:0 "Expansion interstellaire"
-MANDATE_mandate_colonize_planet_DESC:1 "Développez notre '§Y[Root.Owner.GetName]§!' en colonisant une nouvelle planète ou en construisant de nouveaux avant-postes.\n\nRécompense :\n$mandat_unity_reward$"
-MANDATE_mandate_explore_system:0 "Exploration interstellaire"
-MANDATE_mandate_explore_system_DESC:1 "Explorez de nouveaux systèmes pour trouver des ressources et des mondes colonisables, et pour élargir nos connaissances sur la galaxie.\n\nRécompense :\n$mandat_unity_reward$"
-MANDATE_mandate_uplift:0 "Espèces illuminées"
-MANDATE_mandate_uplift_DESC:1 "Élever une espèce pré-sapiente ou pré-PRL vivant à nos frontières et la faire entrer au sein de '§Y[Root.Owner.GetName]§!'.\n\nRécompense :\n$mandat_unity_reward$"
-MANDATE_mandate_ai_outlaw:0 "Prohibition des Robots"
-MANDATE_mandate_ai_outlaw_DESC:1 "Atténuez la menace des robots artificiellement intelligents pour notre '§Y[Root.Owner.GetName]§!' en interdisant l'IA et les travailleurs robotiques de votre empire.\n\nRécompense :\n$mandat_unity_reward$"
-MANDATE_mandate_ai_allow:0 "Légalisation des I.A."
-MANDATE_mandate_ai_allow_DESC:1 "Légaliser l'utilisation de l'intelligence artificielle et des travailleurs robotiques dans notre '§Y[Root.Owner.GetName]§!'.\n\nRécompense :\n$mandat_unity_reward$"
-MANDATE_mandate_ai_emancipation:0 "Emancipation des I.A."
-MANDATE_mandate_ai_emancipation_DESC:1 "Accordez à l'intelligence artificielle dans '§Y[Root.Owner.GetName]§!' reconnaissance légale de la personnalité.\n\nRécompense :\n$mandat_unity_reward$"
-MANDATE_mandate_army_recruitment:0 "Recruteur de l'armée"
-MANDATE_mandate_army_recruitment_DESC:1 "Assurer la sécurité des [Root.Owner.GetAdj], avec des armées recrutées et la construction de forteresses sur nos mondes.\n\nRécompenses :\n$mandat_unity_reward$"
-MANDATE_mandate_alliance:0 "Alliance Xéno"
-MANDATE_mandate_alliance_DESC:1 "Protégez les habitants de notre '§Y[Root.Owner.GetName]§!' en obtenant des alliés interstellaires.\n\nRécompense de fin de mandat :\n$mandat_unity_reward$"
-MANDATE_mandate_isolation:0 "Isolation Xéno"
-MANDATE_mandate_isolation_DESC:0 "Supprimez l'influence xéno subversive de notre '§Y[Root.Owner.GetName]§!' en coupant les liens diplomatiques avec les étrangers.\n\nRécompense de fin de mandat :\n$mandat_unity_reward$"
-MANDATE_mandate_allow_war:0 "Diplomatie agressive"
-MANDATE_mandate_allow_war_DESC:0 "Assurez la gloire durable de notre '§Y[Root.Owner.GetName]§!' en autorisant les guerres d'agression.\n\nRécompense :\n$mandat_unity_reward$"
-MANDATE_mandate_no_war:0 "Position défensive"
-MANDATE_mandate_no_war_DESC:0 "Assurer la stabilité de notre '§Y[Root.Owner.GetName]§!' en établissant une politique formelle de non-agression.\n\nRécompense :\n$mandat_unity_reward$"
-MANDATE_mandate_warmonger:0 "Belliciste"
-MANDATE_mandate_warmonger_DESC:0 "Assurez la gloire durable de notre '§Y[Root.Owner.GetName]§!' en déclarant une guerre d'agression.\n\nRécompense de fin de mandat :\n$mandat_unity_reward$"
-MANDATE_mandate_rival:0 "Rivalité"
-MANDATE_mandate_rival_DESC:0 "Donnez à [Root.Owner.GetName] un ennemi commun en déclarant un rival.\n\nRécompense à la fin du mandat :\n$mandat_unity_reward$"
-MANDATE_mandate_migration:0 "Migration ouverte"
-MANDATE_mandate_migration_DESC:0 "Gagner des relations plus étroites avec une race extraterrestre en signant un nouveau traité de migration. \n\nRécompense de fin de mandat : \n$mandat_unity_reward$"
-MANDATE_mandate_tech_sharing:0 "Science sans frontières"
-MANDATE_mandate_tech_sharing_DESC:0 "Assurez-vous que la technologie de notre '§Y[Root.Owner.GetName]§!' n'est pas à la traîne en signant des accords de recherche avec un empire extraterrestre.\n\nRécompense de fin de mandat :\n$mandat_unity_reward$"
-MANDATE_mandate_individual_freedom:0 "Liberté individuelle"
-MANDATE_mandate_individual_freedom_DESC:0 "Interdire l'utilisation des contrôles de population et de migration dans [Root.Owner.GetName].\n\nRécompense de fin de mandat :\n$mandat_unity_reward$"
-MANDATE_mandate_no_xeno_citizens:0 "Dispensaire étranger"
-MANDATE_mandate_no_xeno_citizens_DESC:0 "Assurer la suprématie des [Root.Owner.GetName] en retirant la citoyenneté à toutes les populations non [Root.Owner.GetAdj].\n\nRécompense de fin de mandat :\n$mandat_unity_reward$"
-MANDATE_mandate_no_crime:0 "Combattre la Criminalité"
-MANDATE_mandate_no_crime_DESC:0 "Assurer la sécurité des citoyens de notre '§Y[Root.Owner.GetName]§!' en veillant à ce qu'aucune planète n'ait plus de 15% de criminalité.\n\nRécompense de fin de mandat :\n$mandat_unity_reward$"
-
-####################################
-#	MANDATE CHAINS
-####################################
-
-world_purged:0 "Pops purgées"
-
-mandate_colonize_planet_chain_title:0 "Mandat d'Expansion"
-mandate_colonize_planet_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à la §Ycolonisation d'une nouvelle planète§! ou de §Yconstruction de nouveaux avant-postes§!. \n\nRécompense : \n$mandat_unity_reward$"
-planet_colonized:0 "Planète colonisée"
-outposts_built:0 "Avant-postes construits"
-
-mandate_explore_system_chain_title:0 "Mandat d'Exploration"
-mandate_explore_system_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme d'§Yexploration de nouveaux systèmes§.\n\nRécompense :\n$mandat_unity_reward$"
-systems_explored:0 "Systèmes explorés"
-
-mandate_uplift_chain_title:0 "Mandat d'élévation des espèces"
-mandate_uplift_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme d'§Yélévation d'une espèce pré-sapiente ou pré-PRL§! vivant à l'intérieur de nos frontières.\n\nRécompense :\n$mandat_unity_reward$"
-species_uplifted:0 "Espèce élevée"
-
-mandate_ai_outlaw_chain_title:0 "Mandat d'interdiction des robots"
-mandate_ai_outlaw_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à la §Yrestriction de l'Intelligence artificielle et robotique§!.\n\nRécompense :\n$mandat_unity_reward$"
-
-mandate_ai_allow_chain_title:0 "Mandat de Légalisation des I.A."
-mandate_ai_allow_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à la §Ylégalisation de l'intelligence artificielle et de la robotique§!.\n\nRécompense :\n$mandat_unity_reward$"
-
-mandate_ai_emancipation_chain_title:0 "Mandat d'émancipation des I.A."
-mandate_ai_emancipation_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme d'§Yaccès pour l'intelligence artificielle au statut de personnalité juridique§!.\n\nRécompense :\n$mandat_unity_reward$"
-
-mandate_army_recruitment_chain_title:0 "Mandat de recrutement de l'armée"
-mandate_army_recruitment_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme se basant sur le §Yrecrutement d'armées§! et la §Yconstruction de forteresses§!\n\nRécompense :\n$mandat_unity_reward$"
-armies_recruited:0 "Armées recrutées"
-
-mandate_alliance_chain_title:0 "Mandat de l'Alliance Xeno"
-mandate_alliance_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Yformer un pacte défensif§! ou §YRejoindre une fédération§!.\n\nRécompense :\n$mandat_unity_reward$"
-alliances_forged:0 "Alliances forgées"
-
-mandate_isolation_chain_title:0 "Xeno Isolation Mandate"
-mandate_isolation_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Yquitter ou se désengager§! de §Yfédérations§!, §Ypactes défensifs§! et §Ytraités de migration§!, ainsi que la §Bfermeture de nos frontières aux réfugiés§!.\n\nRécompense de fin de mandat :\n$mandat_unity_reward$"
-
-mandate_allow_war_chain_title:0 "Mandat de diplomatie agressive"
-mandate_allow_war_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Yautoriser les guerres offensives§!.\n\nRécompense :\n$mandat_unity_reward$"
-
-mandate_no_war_chain_title:0 "Mandat de position défensive"
-mandate_no_war_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Yinterdire les guerres offensives§!.\n\nRécompense :\n$mandat_unity_reward$"
-
-mandate_warmonger_chain_title:0 "Mandat de belliciste"
-mandate_warmonger_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Yprovoquer une guerre d'agression§!.\n\nRécompense de fin de mandat :\n$mandat_unity_reward$"
-wars_started:0 "Les guerres ont commencé"
-
-mandate_rival_chain_title:0 "Mandat de rivalité"
-mandate_rival_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur une vague de zèle nationaliste et / ou de xénophobie, et devrait annoncer un empire comme notre rival§!.\n\nRécompense de fin de mandat :\n$mandat_unity_reward$"
-rivals_made:0 "Déclarations de rivaux"
-
-mandate_migration_chain_title:0 "Mandat de migration ouverte"
-mandate_migration_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à la §Ysignature d'un nouveau traité de migration§!.\n\nRécompense à la fin du mandat : \n$mandat_unity_reward$"
-
-mandate_tech_sharing_chain_title:0 "Mandat de Science sans frontières"
-mandate_tech_sharing_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à la §Ysignature d'un nouvel accord de recherche§!.\n\nRécompense de fin de mandat : \n$mandat_unity_reward$"
-
-mandate_individual_freedom_chain_title:0 "Mandat de liberté individuelle"
-mandate_individual_freedom_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Y interdire l'utilisation de la population§!, et les §Ycontrôles. et la migration forcée§!, et garantissant qu'§Yaucune population soit sous un contrôle de migration§!.\n\nRécompense à la fin de durée :\n$mandat_unity_reward$"
-
-mandate_no_xeno_citizens_chain_title:0 "Dispensaire étranger"
-mandate_no_xeno_citizens_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant au §Yrenoncement de la citoyenneté pour tous les xenos§!.\n\nRécompense à la fin du mandat :\n$mandat_unity_reward$"
-
-mandate_no_crime_chain_title:0 "Lutte contre la criminalité"
-mandate_no_crime_chain_desc:1 "[This.GetRulerTitle] §Y[This.GetRulerName]§! a été élu sur un programme d'§Yéradication des activités criminelles sur nos mondes§!.\n\nRécompense de fin de mandat :\n$mandat_unity_reward$"
-
-
-####################################
-#	MANDATE EVENTS
-####################################
-
-# Xenopurger
-moremandate.42.title:0 "Réalisation du mandat de purgeur de Xénos"
-moremandate.42.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, au moins cinq pops non [Root.GetAdj] ont été purgés."
-
-# Emancipator 1
-moremandate.50.title:0 "Réalisation du grand mandat d'émancipateur"
-moremandate.50.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, l'§YEsclavage§! est désormais illégal dans notre '§Y[Root.GetName]§!'."
-
-# AI Policy
-moremandate.47.title:0 "Réalisation du mandat de Prohibitaion des I.A."
-moremandate.47.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, l'intelligence artificielle et la robotique ont été interdites."
-moremandate.48.title:0 "Mandat de légalisation de l'IA rempli"
-moremandate.48.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, l'intelligence artificielle et la robotique ont été légalisées."
-moremandate.49.title:0 "Mandat d'émancipation de l'IA rempli"
-moremandate.49.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, l'intelligence artificielle a reçu la reconnaissance juridique de sa 'personnalité'."
-
-# War Policy
-moremandate.51.title:0 "Exécution du mandat de diplomatie agressive"
-moremandate.51.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons autorisé des guerres agressives."
-moremandate.52.title:0 "Exécution du mandat de position défensive"
-moremandate.52.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons interdit les guerres d'agression."
-
-# Colonize Planet
-moremandate.62.title:0 "Mandat d'expansion rempli"
-moremandate.62.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons élargi nos frontières."
-
-# Exploration
-moremandate.72.title:0 "Mandat d'exploration rempli"
-moremandate.72.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons exploré de nouveaux systèmes stellaires."
-
-# Uplifted Pre-Sapient Species
-moremandate.82.title:0 "Exécution du mandat d'élévation"
-moremandate.82.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons élevé une espèce pré-sapiente."
-moremandate.83.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons élevé une civilisation pré-PRL."
-
-# Army Recruiter
-moremandate.91.title:0 "Exécution du mandat de recrutement de l'armée"
-moremandate.91.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons recruté des forces supplémentaires pour servir dans nos armées."
-
-# Alliance
-moremandate.102.title:0 "Le mandat d'alliance xéno est rempli"
-moremandate.102.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons établi une alliance avec un empire extraterrestre."
-
-# Isolation
-moremandate.103.title:0 "Le mandat d'isolation xéno est rempli"
-moremandate.103.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons rompu tous les liens diplomatiques importants avec les étrangers."
-
-# Warmonger
-moremandate.104.title:0 "Exécution du mandat de belliciste"
-moremandate.104.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons déclaré une guerre offensive."
-
-# Rivalry
-moremandate.105.title:0 "Exécution du mandat de rivalité"
-moremandate.105.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons déclaré une nation étrangère comme notre rival."
-
-# Migration
-moremandate.106.title:0 "Mandat de migration ouverte rempli"
-moremandate.106.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons signé un nouveau traité de migration."
-
-# Tech Sharing
-moremandate.107.title:0 "Le mandat de Science sans frontières est rempli"
-moremandate.107.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons signé un nouvel accord de recherche."
-
-# Individual Freedom
-moremandate.108.title:0 "Exécution du mandat de liberté individuelle"
-moremandate.108.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons interdit la pratique des contrôles de population et de migration."
-
-moremandate.109.title:0 "Exécution du mandat de privation de droits des xénos"
-moremandate.109.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons supprimé la citoyenneté de toutes les populations non [Root.GetAdj]."
-
-# Crime
-moremandate.110.title:0 "Accomplissement du mandat sur la criminalité"
-moremandate.110.desc:0 "Conformément au mandat de notre [Root.GetRulerTitle] §Y[Root.GetRulerName]§!, nous avons réduit la criminalité de nos mondes."
-
-####################################
-#	Modifiers
-####################################
-
-mandate_orbital_research_mod:0 "Mandat rempli"
-mandate_orbital_mining_mod:0 "$mandate_orbital_research_mod$"
-mandate_districts_mod:0 "$mandate_orbital_research_mod$"
-mandate_energy_mod:0 "$mandate_orbital_research_mod$"
-mandate_minerals_mod:0 "$mandate_orbital_research_mod$"
-mandate_food_mod:0 "$mandate_orbital_research_mod$"
-mandate_alloys_mod:0 "$mandate_orbital_research_mod$"
-mandate_consumer_mod:0 "$mandate_orbital_research_mod$"
-mandate_shipwright_mod:0 "$mandate_orbital_research_mod$"
-mandate_no_ai_mod:0 "$mandate_orbital_research_mod$"
-mandate_yes_ai_mod:0 "$mandate_orbital_research_mod$"
-mandate_free_ai_mod:0 "$mandate_orbital_research_mod$"
-mandate_free_ai_pop_mod:0 "Free AI"
-mandate_influence_war_mod:0 "$mandate_orbital_research_mod$"
-mandate_influence_peace_mod:0 "$mandate_orbital_research_mod$"
-mandate_expansion_mod:0 "$mandate_orbital_research_mod$"
-mandate_exploration_mod:0 "$mandate_orbital_research_mod$"
-mandate_army_mod:0 "$mandate_orbital_research_mod$"
-mandate_ally_mod:0 "$mandate_orbital_research_mod$"
-mandate_influence_xenophobe_mod:0 "$mandate_orbital_research_mod$"
-mandate_migration_mod:0 "$mandate_orbital_research_mod$"
-mandate_tech_sharing_mod:0 "$mandate_orbital_research_mod$"
-mandate_free_growth_mod:0 "$mandate_orbital_research_mod$"
-mandate_no_crime_mod:0 "$mandate_orbital_research_mod$"
-mandate_uplift_mod:0 "$mandate_orbital_research_mod$"
-mandate_warmonger_mod:0 "$mandate_orbital_research_mod$"
-mandate_no_xeno_mod:0 "$mandate_orbital_research_mod$"
-mandate_emancipation_mod:0 "$mandate_orbital_research_mod$"
-
-####################################
-#	Traits
-####################################
+ mandate_influence_reward_t1:0 "£influence §GFaible (40 - 100)§!"
+ mandate_influence_reward_t2:0 "£influence §GMoyenne (80 - 175)§!"
+ mandate_influence_reward_t3:0 "£influence §GHaute (125 - 250)§!"
+ mandate_influence_reward_t4:0 "£influence §GTrès élevé (150 - 300)§!"
+ mandate_influence_reward_t5:0 "£influence §GTrès élevé (250 - 500)§!"
+ mandate_happiness_reward_t1:0 "§G+15%§! de bonheur pendant §Y2 ans§!."
+ MANDATE_mandate_colonize_planet:0 "L'expansion interstellaire"
+ MANDATE_mandate_colonize_planet_DESC:1 "Développez la [Root.Owner.GetName] en colonisant une nouvelle planète ou en construisant de nouveaux avant-postes.\n\nReward :\n$mandate_unity_reward$"
+ MANDATE_mandate_hyper_relay:0 "L'autoroute interstellaire"
+ MANDATE_mandate_hyper_relay_DESC:1 "Développez l'infrastructure [Root.Owner.GetAdj] en construisant des Hyper-Relais supplémentaires.\n\nRécompense :\n$mandate_unity_reward$"
+ MANDATE_mandate_explore_system:0 "Exploration interstellaire"
+ MANDATE_mandate_explore_system_DESC:1 "Explorer de nouveaux systèmes pour trouver des ressources et des mondes colonisables, et pour étendre notre connaissance de la galaxie.\n\nRécompense :\n$mandate_unity_reward$"
+ MANDATE_mandate_uplift:0 "Espèce de soulèvement"
+ MANDATE_mandate_uplift_DESC:1 "Améliorez une espèce pré-sapie ou pré-FTL vivant dans nos frontières et faites-la entrer dans le [Root.Owner.GetName].\n\nRécompense :\n$mandate_unity_reward$."
+ MANDATE_mandate_ai_outlaw:0 "Interdiction des robots"
+ MANDATE_mandate_ai_outlaw_DESC:1 "Atténuez la menace que représentent les robots intelligents pour l'humanité [Root.Owner.GetName] en interdisant l'IA et les travailleurs robotisés dans votre empire.\n\nRécompense :\n$mandate_unity_reward$"
+ MANDATE_mandate_ai_allow:0 "Légalisation de l'IA"
+ MANDATE_mandate_ai_allow_DESC:1 "Légaliser l'utilisation de l'intelligence artificielle et des travailleurs robotisés dans les [Root.Owner.GetName].\n\nRécompense :\n$mandate_unity_reward$"
+ MANDATE_mandate_ai_emancipation:0 "Émancipation de l'AI"
+ MANDATE_mandate_ai_emancipation_DESC:1 "Accordez à l'intelligence artificielle dans le [Root.Owner.GetName] la reconnaissance légale du statut de personne. \n\nRécompense : \n$mandate_unity_reward$"
+ MANDATE_mandate_army_recruitment:0 "Recruteur de l'armée"
+ MANDATE_mandate_army_recruitment_DESC:1 "Assurer la sécurité des [Root.Owner.GetSpeciesAdj] en recrutant des armées et en construisant des forteresses sur nos mondes.\n\nRécompenses :\n$mandate_unity_reward$"
+ MANDATE_mandate_alliance:0 "Alliance Xeno"
+ MANDATE_mandate_alliance_DESC:1 "Protéger le peuple de [Root.Owner.GetName] en obtenant des alliés interstellaires.\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ MANDATE_mandate_isolation:0 "Isolation des Xénos"
+ MANDATE_mandate_isolation_DESC:0 "Retirer l'influence xéno subversive de la [Root.Owner.GetName] en coupant les liens diplomatiques avec les aliens.\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ MANDATE_mandate_allow_war:0 "Diplomatie agressive"
+ MANDATE_mandate_allow_war_DESC:0 "Assurer la gloire durable de la [Root.Owner.GetName] en autorisant des guerres agressives.\n\nRécompense :\n$mandate_unity_reward$"
+ MANDATE_mandate_no_war:0 "Position défensive"
+ MANDATE_mandate_no_war_DESC:0 "Assurer la stabilité de la [Root.Owner.GetName] en établissant une politique formelle de non-agression.\n\nRécompense :\n$mandate_unity_reward$"
+ MANDATE_mandate_warmonger:0 "Belliciste"
+ MANDATE_mandate_warmonger_DESC:0 "Assurer la gloire durable de la [Root.Owner.GetName] en déclarant une guerre agressive.\n\nRécompense à la fin du terme :\n$mandate_unity_reward$"
+ MANDATE_mandate_rival:0 "Rivalité"
+ MANDATE_mandate_rival_DESC:0 "Donnez aux [Root.Owner.GetName] un ennemi commun en déclarant un rival.\n\nRécompense à la fin du terme :\n$mandate_unity_reward$"
+ MANDATE_mandate_migration:0 "Migration ouverte"
+ MANDATE_mandate_migration_DESC:0 "Gagner des relations plus étroites avec une race extraterrestre en signant un nouveau traité de migration.\n\nRécompense à la fin du terme :\n$mandate_unity_reward$"
+ MANDATE_mandate_tech_sharing:0 "Science sans frontières"
+ MANDATE_mandate_tech_sharing_DESC:0 "Assurez-vous que la technologie de la [Root.Owner.GetName] n'est pas à la traîne en signant des accords de recherche avec un empire extraterrestre.\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ MANDATE_mandate_individual_freedom:0 "Liberté individuelle"
+ MANDATE_mandate_individual_freedom_DESC:0 "Interdire l'utilisation des contrôles de population et de migration dans les [Root.Owner.GetName].\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ MANDATE_mandate_no_xeno_citizens:0 "Privation de droits des Xénos"
+ MANDATE_mandate_no_xeno_citizens_DESC:0 "Assurer la suprématie de la [Root.Owner.GetName] en retirant la citoyenneté à toutes les populations non [Root.Owner.GetSpeciesAdj].\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ MANDATE_mandate_no_crime:0 "La lutte contre la criminalité"
+ MANDATE_mandate_no_crime_DESC:0 "Assurez la sécurité des citoyens de [Root.Owner.GetName] en veillant à ce qu'aucune planète n'ait plus de 15% de criminalité.\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ world_purged:0 "Pops Purgés"
+ mandate_colonize_planet_chain_title:0 "Mandat d'expansion"
+ mandate_colonize_planet_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme de §Ycolonisation d'une nouvelle planète§! ou de §Yconstruction de nouveaux avant-postes§!.\n\nRécompense :\n$mandate_unity_reward$"
+ planet_colonized:0 "Planète Colonisée"
+ outposts_built:0 "Construction d'avant-postes"
+ mandate_hyper_relay_chain_title:0 "Mandat de l'autoroute interstellaire"
+ mandate_hyper_relay_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme de §Yconstruction d'Hyper-Relais supplémentaires§!.\n\nRécompense :\n$mandate_unity_reward$"
+ relays_built:0 "Relais construits"
+ mandate_explore_system_chain_title:0 "Mandat d'exploration"
+ mandate_explore_system_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur une plateforme d'§Yexploration de nouveaux systèmes §.\n\nRécompense :\n$mandate_unity_reward$"
+ systems_explored:0 "Systèmes explorés"
+ mandate_uplift_chain_title:0 "Mandat sur les espèces d'élévation"
+ mandate_uplift_chain_desc:2 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Yélever une espèce pré-sapient ou pré-FTL§! vivant à l'intérieur de nos frontières.\n\nRécompense :\n$mandate_unity_reward$"
+ species_uplifted:0 "Espèces Uplifted"
+ mandate_ai_outlaw_chain_title:0 "Mandat d'interdiction des robots"
+ mandate_ai_outlaw_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Ymettre hors la loi l'intelligence artificielle et la robotique§!.\n\nRécompense :\n$mandate_unity_reward$"
+ mandate_ai_allow_chain_title:0 "Mandat de légalisation de l'IA"
+ mandate_ai_allow_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Ylégaliser l'intelligence artificielle et la robotique§!.\n\nRécompense :\n$mandate_unity_reward$"
+ mandate_ai_emancipation_chain_title:0 "Mandat d'émancipation de l'IA"
+ mandate_ai_emancipation_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Yaccorder à l'intelligence artificielle le statut de personne morale§!.\n\nRécompense :\n$mandate_unity_reward$"
+ mandate_army_recruitment_chain_title:0 "Mandat de recrutement de l'armée"
+ mandate_army_recruitment_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme de §Yrecrutement d'armées et de construction de forteresses et d'enceintes défensives.§!\n\nRécompense :\n$mandate_unity_reward$"
+ armies_recruited:0 "Armées recrutées"
+ mandate_alliance_chain_title:0 "Mandat de l'Alliance Xeno"
+ mandate_alliance_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur une plate-forme de §Yformer un pacte défensif§! ou §Yrejoindre une fédération§!.\n\nRécompense :\n$mandate_unity_reward$"
+ alliances_forged:0 "Alliances forgées"
+ mandate_isolation_chain_title:0 "Mandat d'isolement des Xénos"
+ mandate_isolation_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme de §Ydépart et de fédérations, de pactes de défense et de traités de migration§! et de §Ybarrage de nos frontières aux réfugiés§!.\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ mandate_allow_war_chain_title:0 "Mandat de diplomatie agressive"
+ mandate_allow_war_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme d'§Yautorisation de guerres offensives§!.\n\nRécompense :\n$mandate_unity_reward$"
+ mandate_no_war_chain_title:0 "Mandat pour la posture défensive"
+ mandate_no_war_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme d'§Yinterdiction des guerres offensives§!.\n\nRécompense :\n$mandate_unity_reward$"
+ mandate_warmonger_chain_title:0 "Mandat belliciste"
+ mandate_warmonger_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Ydéclencher une guerre agressive§!.\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ wars_started:0 "Les guerres ont commencé"
+ mandate_rival_chain_title:0 "Mandat de rivalité"
+ mandate_rival_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur une vague de zèle nationaliste et/ou de xénophobie, et devrait §Ydéclarer un empire comme notre rival§!.\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ rivals_made:0 "Rivals déclarés"
+ mandate_migration_chain_title:0 "Mandat de migration ouvert"
+ mandate_migration_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Ysigner un nouveau traité sur les migrations§!.\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ mandate_tech_sharing_chain_title:0 "Mandat de Science sans frontières"
+ mandate_tech_sharing_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme de §Ysignature d'un nouvel accord de recherche§!.\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ mandate_individual_freedom_chain_title:0 "Mandat de liberté individuelle"
+ mandate_individual_freedom_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur la base d'un programme visant à §Yinterdire le recours au contrôle de la population et à la réinstallation forcée§!, et à garantir qu'§Yaucune population ne soit soumise à un contrôle migratoire§!.\n\nRécompense de fin de mandat :\n$mandate_unity_reward$"
+ mandate_no_xeno_citizens_chain_title:0 "Privation de droits des Xénos"
+ mandate_no_xeno_citizens_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Yretirer la citoyenneté à tous les xenos§!.\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ mandate_no_crime_chain_title:0 "La lutte contre la criminalité"
+ mandate_no_crime_chain_desc:1 "[This.GetRulerTitle] [This.GetRulerName] a été élu sur un programme visant à §Yéradiquer les activités criminelles sur nos mondes§!.\n\nRécompense à la fin du mandat :\n$mandate_unity_reward$"
+ moremandate.42.title:0 "Le mandat des xénopurgers rempli"
+ moremandate.42.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], au moins cinq pops non-[Root.GetSpeciesAdj] ont été éliminés."
+ moremandate.50.title:0 "Le mandat du Grand Emancipateur rempli"
+ moremandate.50.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], §Yl'esclavage§! est désormais illégal dans les [Root.GetName]."
+ moremandate.47.title:0 "Le mandat d'interdiction de l'IA est rempli"
+ moremandate.47.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], l'intelligence artificielle et la robotique ont été interdites."
+ moremandate.48.title:0 "Le mandat de légalisation de l'IA est rempli"
+ moremandate.48.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], l'intelligence artificielle et la robotique ont été légalisées."
+ moremandate.49.title:0 "Le mandat d'émancipation de l'AI est rempli"
+ moremandate.49.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], l'intelligence artificielle a obtenu la reconnaissance légale du statut de personne."
+ moremandate.51.title:0 "Le mandat de diplomatie agressive est rempli"
+ moremandate.51.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons autorisé des guerres agressives."
+ moremandate.52.title:0 "Mandat de la posture défensive rempli"
+ moremandate.52.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons interdit les guerres agressives."
+ moremandate.62.title:0 "Mandat d'expansion rempli"
+ moremandate.62.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons étendu nos frontières."
+ moremandate.66.title:0 "Le mandat de l'autoroute interstellaire rempli"
+ moremandate.66.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons construit des Hyper-Relais supplémentaires."
+ moremandate.72.title:0 "Mandat d'exploration rempli"
+ moremandate.72.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons exploré de nouveaux systèmes stellaires."
+ moremandate.82.title:0 "Le mandat d'Uplift a été rempli"
+ moremandate.82.desc:0 "Selon le mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons élevé une espèce pré-sapiente."
+ moremandate.83.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons élevé une civilisation pré-FTL."
+ moremandate.91.title:0 "Le mandat de recrutement de l'armée est rempli"
+ moremandate.91.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons recruté des forces supplémentaires pour servir dans nos armées."
+ moremandate.102.title:0 "Le mandat de l'Alliance Xeno est rempli"
+ moremandate.102.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons conclu une alliance avec un empire étranger."
+ moremandate.103.title:0 "Le mandat d'isolation des Xénos est rempli"
+ moremandate.103.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons coupé tout lien diplomatique significatif avec les aliens."
+ moremandate.104.title:0 "Le mandat des bellicistes est rempli"
+ moremandate.104.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons déclaré une guerre offensive."
+ moremandate.105.title:0 "Le mandat de la rivalité rempli"
+ moremandate.105.desc:0 "Selon le mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons déclaré une nation étrangère comme notre rivale."
+ moremandate.106.title:0 "Le mandat de migration ouverte est rempli"
+ moremandate.106.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons signé un nouveau traité de migration."
+ moremandate.107.title:0 "Le mandat de Science sans frontières est rempli"
+ moremandate.107.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons signé un nouvel accord de recherche."
+ moremandate.108.title:0 "Le mandat de la liberté individuelle rempli"
+ moremandate.108.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons interdit la pratique des contrôles de population et de migration."
+ moremandate.109.title:0 "Le mandat de privation des droits des Xénos est rempli."
+ moremandate.109.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons retiré la citoyenneté à toutes les populations non [Root.GetSpeciesAdj]."
+ moremandate.110.title:0 "Le mandat de la lutte contre la criminalité est rempli"
+ moremandate.110.desc:0 "Conformément au mandat de [Root.GetRulerTitle] [Root.GetRulerName], nous avons éradiqué le crime de nos mondes."
+ mandate_orbital_research_mod:0 "Mandat rempli"
+ mandate_orbital_mining_mod:0 "$mandate_orbital_research_mod$"
+ mandate_districts_mod:0 "$mandate_orbital_research_mod$"
+ mandate_energy_mod:0 "$mandate_orbital_research_mod$"
+ mandate_minerals_mod:0 "$mandate_orbital_research_mod$"
+ mandate_food_mod:0 "$mandate_orbital_research_mod$"
+ mandate_alloys_mod:0 "$mandate_orbital_research_mod$"
+ mandate_consumer_mod:0 "$mandate_orbital_research_mod$"
+ mandate_shipwright_mod:0 "$mandate_orbital_research_mod$"
+ mandate_no_ai_mod:0 "$mandate_orbital_research_mod$"
+ mandate_yes_ai_mod:0 "$mandate_orbital_research_mod$"
+ mandate_free_ai_mod:0 "$mandate_orbital_research_mod$"
+ mandate_free_ai_pop_mod:0 "Free AI"
+ mandate_influence_war_mod:0 "$mandate_orbital_research_mod$"
+ mandate_influence_peace_mod:0 "$mandate_orbital_research_mod$"
+ mandate_expansion_mod:0 "$mandate_orbital_research_mod$"
+ mandate_highway_mod:0 "$mandate_orbital_research_mod$"
+ mandate_exploration_mod:0 "$mandate_orbital_research_mod$"
+ mandate_army_mod:0 "$mandate_orbital_research_mod$"
+ mandate_ally_mod:0 "$mandate_orbital_research_mod$"
+ mandate_influence_xenophobe_mod:0 "$mandate_orbital_research_mod$"
+ mandate_migration_mod:0 "$mandate_orbital_research_mod$"
+ mandate_tech_sharing_mod:0 "$mandate_orbital_research_mod$"
+ mandate_free_growth_mod:0 "$mandate_orbital_research_mod$"
+ mandate_no_crime_mod:0 "$mandate_orbital_research_mod$"
+ mandate_uplift_mod:0 "$mandate_orbital_research_mod$"
+ mandate_warmonger_mod:0 "$mandate_orbital_research_mod$"
+ mandate_no_xeno_mod:0 "$mandate_orbital_research_mod$"
+ mandate_emancipation_mod:0 "$mandate_orbital_research_mod$"
