@@ -3,7 +3,7 @@
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
  #
- # Update check 3.6.0 : 30.11.2022
+ # Update check 3.8.3 : 18.06.2023
  # exemple de modifs : points de coque --> coque
  ####################################
 
@@ -27,6 +27,7 @@
  MOD_COUNTRY_PIRACY_RISK_MULT:0 "Risque de piraterie"
  MOD_COUNTRY_FORTIFICATION_STRENGTH:0 "Solidité des fortifications"
  MOD_COUNTRY_BORDER_MULT:0 "Étendue des frontières"
+ MOD_COUNTRY_ENERGY_GAIN_ADD:0 "£energy£Énergie mensuelle "
  MOD_COUNTRY_INFLUENCE_GAIN_ADD:0 "£influence£Influence mensuelle "
  MOD_COUNTRY_INFLUENCE_GAIN_MULT:0 "Influence mensuelle"
  MOD_COUNTRY_DEFENSIVE_WAR_INFLUENCE_GAIN_ADD:0 "Influence mensuelle (guerre défensive)"
@@ -50,17 +51,19 @@
  MOD_COUNTRY_EDICT_FUND_MULT:0 "$MOD_COUNTRY_EDICT_FUND_ADD$"
  mod_edicts_upkeep_mult:0 "Maintien des décrets "
  MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED:0 "Vitesse de recherche "
- MOD_COUNTRY_PHYSICS_TECH_RESEARCH_SPEED:0 "Vitesse de recherche en £physics£physique "
- MOD_COUNTRY_SOCIETY_TECH_RESEARCH_SPEED:0 "Vitesse de recherche £society£sociétale "
- MOD_COUNTRY_ENGINEERING_TECH_RESEARCH_SPEED:0 "Vitesse de recherche en £engineering£ingénierie "
+ MOD_COUNTRY_PHYSICS_TECH_RESEARCH_SPEED:1 "Vitesse de recherche en £physics£physique "
+ MOD_COUNTRY_SOCIETY_TECH_RESEARCH_SPEED:1 "Vitesse de recherche £society£sociétale "
+ MOD_COUNTRY_ENGINEERING_TECH_RESEARCH_SPEED:1 "Vitesse de recherche en £engineering£ingénierie "
  MOD_COUNTRY_MINING_STATION_COST_MULT:0 "Coût des stations minières"
  MOD_COUNTRY_RESEARCH_STATION_COST_MULT:0 "Coût des stations de recherche"
  MOD_COUNTRY_SHIP_UPGRADE_COST_MULT:0 "Coût d'amélioration des vaisseaux"
  MOD_COUNTRY_LEADER_POOL_SIZE:0 "Importance du vivier de personnalités "
+ MOD_COUNTRY_EXTERNAL_LEADER_POOL_SIZE:0 "Importance du vivier des personnalités extérieures "
  MOD_COUNTRY_CORE_SECTOR_SYSTEM_CAP:0 "Systèmes du secteur principal"
  MOD_COUNTRY_SECTOR_CAP_ADD:0 "Limite de secteur"
  mod_country_base_energy_produces_mult:0 "Production énergétique de l'empire"
  mod_country_base_minerals_produces_mult:0 "Production minérale de l'empire"
+ MOD_ASSIST_RESEARCH_MULT:1 "Efficacité de l'assistance à la recherche "
  MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD:0 "Recherches possibles "
  MOD_COUNTRY_PREVIOUS_DEALS:0 "Précédents accords"
  MOD_COUNTRY_INSULT_EFFICIENCY:0 "Efficacité des insultes"
@@ -74,6 +77,7 @@
  MOD_POP_CONSUMER_GOODS_MULT:0 "Coût des biens de consommation"
  MOD_POP_CONSUMER_GOODS_ADD:0 "Usage des biens de consommation"
  MOD_POP_DEFENSE_ARMIES_ADD:1 "£defense_army£Armées de défense planétaire par £pop£pop "
+ MOD_DEFENSE_ARMIES_ADD:0 "£defense_army£Armées de défense planétaire "
  MOD_POP_HOUSING_USAGE_MULT:0 "£housing£Logements nécessaires aux £pop£pops "
  MOD_POP_HOUSING_USAGE_ADD:0 "$MOD_POP_HOUSING_USAGE_MULT$"
  MOD_POP_HOUSING_USAGE_BASE:0 "$MOD_POP_HOUSING_USAGE_MULT$"
@@ -102,6 +106,7 @@
  MOD_COUNTRY_SUBJECT_INFLUENCE_GAIN_MULT:0 "Influence tirée des dépendances"
  MOD_COUNTRY_SUBJECT_ACCEPTANCE_ADD:0 "Acceptation de la soumission"
  MOD_MONTHLY_LOYALTY_GAIN:0 "Évolution mensuelle de la £loyalty£loyauté "
+ MOD_MONTHLY_LOYALTY_GAIN_FROM_SUBJECTS:0 "£loyalty£Loyauté mensuelle des dépendances "
  MOD_COUNTRY_FACTION_INFLUENCE_MULT:0 "Influence tirée des factions"
  MOD_COUNTRY_FACTION_INFLUENCE_ADD:0 "Influence maximale tirée des factions"
  MOD_COUNTRY_CLEAR_BLOCKER_COST_MULT:0 "Coût de déblaiement des bloqueurs"
@@ -125,12 +130,15 @@
  MOD_COUNTRY_EDICT_CAP_ADD:0 "$EDICT_CAPACITY_TITLE$ "
  MOD_COUNTRY_EDICT_CAP_MULT:0 "$EDICT_CAPACITY_TITLE$ "
  MOD_EMPIRE_SIZE_MULT:0 "$empire_size_mods$ "
+ MOD_EMPIRE_SIZE_ADD:0 "$empire_size_mods$"
  MOD_COUNTRY_COMMUNITY_GDF_NAVAL_CAPACITY_ADD:0 "£navy_size£Cap. navale de la flotte commune "
  MOD_COUNTRY_COMMUNITY_GDF_NAVAL_CAPACITY_ADD_DESC:0 "Détermine la capacité navale de la Force de défense galactique et de la Flotte impériale."
  MOD_FIRST_CONTACT_SPEED_MULT:0 "Vit. de découverte des premiers contacts "
  MOD_FIRST_CONTACT_CLUES_ADD:0 "Compét. pour les premiers contacts "
  MOD_FIRST_CONTACT_DEFENSE_ADD:0 "Difficulté des premiers contacts "
+ MOD_INTEL_GAIN_SPEED:0 "Vit. de gain d'informations sur les autres empires "
  MOD_COUNTER_INTEL_GAIN_SPEED:1 "Vit. d'acquisition de renseignements des autres empires sur nous"
+ MOD_INTEL_RECONNAISSANCE_LEVEL_ADD:0 "Niv. d'informations grâce à la reco. cland. "
  MOD_COUNTRY_SCAVENGE_DEBRIS_MULT:0 "Ressources tirées des débris ramassés "
  MOD_ADD_BASE_COUNTRY_INTEL:0 "Niveau de renseignement de base "
 
@@ -325,6 +333,8 @@
  MOD_SHIP_NAVAL_CAP_USAGE_MULT:0 "$MOD_SHIP_NAVAL_CAP_USAGE_ADD$"
  MOD_SHIP_REPAIR_HULL_MULT:0 "Vit. de réparation des coques des vaisseaux à quai "
  MOD_SHIP_REPAIR_ARMOR_MULT:0 "Vit. de réparation des blindages des vaisseaux à quai "
+ MOD_SHIP_CLOAKING_STRENGTH_ADD:0 "Efficacité de l'occultation "
+ MOD_SHIP_CLOAKING_DETECTION_ADD:0 "Détection de l'occultation "
 
  MOD_OWNED_SHIP_SPEED_MULT:0 "$MOD_SHIP_SPEED_MULT$"
  MOD_OWNED_SHIP_EVASION_MULT:0 "$MOD_SHIP_EVASION_MULT$"
@@ -385,6 +395,8 @@
  MOD_PLANET_STABILITY_MULT:0 "$MOD_PLANET_STABILITY_ADD$"
  MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE:1 "Dégâts causés par les bomb. orbitaux "
  MOD_SHIP_ORBITAL_BOMBARDMENT_MULT:0 "$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$"
+ MOD_SHIP_ORBITAL_BOMBARDMENT_ARMY_DAMAGE_MULT:0 "Dégâts causés aux £army_ship£armées par les bomb. orbitaux "
+ MOD_SHIP_ORBITAL_BOMBARDMENT_POP_DAMAGE_MULT:0 "Dégâts causés aux £pop£pops par les bomb. orbitaux "
  MOD_PLANET_ADD_SPACEPORT:0 "Emplacement de construction orbital supplémentaire"
  MOD_PLANET_SENSOR_RANGE_ADD:0 "Portée des capteurs planétaires "
  MOD_PLANET_SENSOR_RANGE_MULT:0 "Portée des capteurs planétaires "
@@ -437,9 +449,9 @@
  mod_planet_buildings_factories_cost_mult:0 "Coût des usines "
  mod_planet_buildings_refineries_cost_mult:0 "Coût des raffineries "
  mod_planet_buildings_strongholds_cost_mult:0 "Coût des forteresses "
- mod_planet_metallurgists_upkeep_mult:0 "Entretien des métallurgistes "
- mod_planet_artisans_upkeep_mult:0 "Entretien des artisans "
- mod_planet_researchers_upkeep_mult:0 "Entretien des £job_researcher£chercheurs"
+ mod_planet_metallurgists_upkeep_mult:1 "Entretien des £job_foundry£[GetAlloyProducerPlural_lower] "
+ mod_planet_artisans_upkeep_mult:1 "Entretien des £job_artisan£[GetArtisanPlural_lower] "
+ mod_planet_researchers_upkeep_mult:1 "Entretien des £job_researcher£[GetResearcherPlural_lower] "
  mod_planet_refiners_upkeep_mult:0 "Entretien des raffineurs "
  mod_planet_chemists_upkeep_mult:0 "Entretien des chimistes "
  mod_planet_translucers_upkeep_mult:0 "Entretien des transluceurs "
@@ -486,8 +498,8 @@
  MOD_SHIP_EMERGENCY_FTL_MIN_DAYS_MULT:0 "$MOD_SHIP_EMERGENCY_FTL_MIN_DAYS_ADD$"
  MOD_COUNTRY_FEDERATION_NAVAL_CAP_CONTRIBUTION_MULT:0 "Contribution à la capacité navale fédérale"
 
- MOD_COUNTRY_COMMAND_LIMIT_ADD:0 "Limite de commandement des flottes "
- MOD_COUNTRY_COMMAND_LIMIT_MULT:0 "$MOD_COUNTRY_COMMAND_LIMIT_ADD$"
+ MOD_COMMAND_LIMIT_ADD:0 "Limite de commandement des flottes "
+ MOD_COMMAND_LIMIT_MULT:0 "$MOD_COMMAND_LIMIT_ADD$"
  MOD_COUNTRY_NAVAL_COVERAGE_ADD:0 "$navy_coverage$ "
  MOD_COUNTRY_NAVAL_COVERAGE_MULT:0 "$navy_coverage$ "
 
@@ -505,6 +517,10 @@
  MOD_LEADER_SCIENTIST_COST:0 "Coût de recrutement des scientifiques "
  MOD_LEADER_GOVERNOR_COST:0 "Coût de recrutement des gouverneurs "
  MOD_LEADER_SPECIES_EXP_GAIN:0 "Gain d'expérience des personnalités "
+ MOD_LEADER_COUNCILOR_EXP_GAIN:0 "Gain d'expérience des conseillers "
+ MOD_COUNTRY_LEADER_CAP_ADD:0 "Plafond des personnalités "
+ skill_governor_homeplanet:0 "Gouverne son monde natal"
+ governing_homeplanet_effect:0 "§EEffets de la gouvernance du monde natal :§!"
 
  #Component
  MOD_COMPONENT_RANGE_MULT:0 "Portée des composants"
@@ -585,6 +601,7 @@
  mod_country_max_resource_food_add:0 "Réserves max. de la £food£nourriture "
  mod_country_max_resource_energy_add:0 "Réserves max. en £energy£énergie "
  mod_country_max_influence_add:0 "Influence maximale"
+ mod_country_resource_max_minor_artifacts_add:0 "Capacité en £minor_artifacts£artefacts mineurs "
  mod_country_base_energy_produces_add:2 "£energy£Crédits énergétiques mensuels "
  mod_country_base_minerals_produces_add:2 "£minerals£Minéraux mensuels "
  mod_country_base_food_produces_add:1 "£food£Nourriture mensuelle "
@@ -608,6 +625,7 @@
  mod_country_base_influence_produces_add:0 "Influence mensuelle "
  mod_planet_resource_influence_add:0 "Influence suscitée par la planète"
  mod_country_base_influence_produces_mult:0 "Gain d'influence de l'empire"
+ mod_rivalries_influence_produces_mult:0 "Gain d'£influence£influence par les rivalités "
  mod_country_resource_physics_research_mult:0 "Recherches en physique"
  mod_country_resource_society_research_mult:0 "Recherches sociétales"
  mod_country_resource_engineering_research_mult:0 "Recherches en ingénierie"
@@ -653,6 +671,8 @@
  mod_country_tech_influence_produces_add:0 "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
  mod_country_tech_unity_produces_add:0 "$mod_country_base_unity_produces_mult$"
  mod_country_traditions_influence_produces_add:0 "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
+ mod_country_councilor_energy_produces_add:0 "$MOD_COUNTRY_ENERGY_GAIN_ADD$"
+ mod_country_councilor_influence_produces_add:0 "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
  mod_country_ruler_influence_produces_add:0 "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
  mod_country_ethic_influence_produces_add:0 "$MOD_COUNTRY_INFLUENCE_GAIN_ADD$"
  mod_country_power_projection_influence_produces_add:1 "£influence£Influence max. tirée de la proj. des forces "
@@ -765,20 +785,44 @@
  mod_shipclass_starbase_damage_mult:0 "Dégâts causés par les bases stellaires"
  mod_shipclass_starbase_build_cost_mult:0 "Coût de construction des bases stellaires"
 
- mod_weapon_type_explosive_weapon_damage_mult:0 "Dégâts causés par les armes explosives"
- mod_weapon_type_explosive_weapon_fire_rate_mult:0 "Cadence de tir des armes explosives"
- mod_weapon_type_kinetic_weapon_damage_mult:0 "Dégâts causés par les armes cinétiques"
- mod_weapon_type_kinetic_weapon_fire_rate_mult:0 "Cadence de tir des armes cinétiques"
- mod_weapon_type_energy_weapon_damage_mult:0 "Dégâts causés par les armes énergétiques"
- mod_weapon_type_energy_weapon_fire_rate_mult:0 "Cadence de tir des armes énergétiques"
+ mod_shipclass_colonizer_build_cost_mult:0 "Coût de constr. des vaisseaux coloniaux "
+
+ mod_weapon_type_explosive_weapon_damage_mult:0 "Dégâts causés par les armes explosives "
+ mod_weapon_type_explosive_weapon_fire_rate_mult:1 "Cadence de tir des armes explosives "
+ mod_weapon_type_kinetic_weapon_damage_mult:0 "Dégâts causés par les armes cinétiques "
+ mod_weapon_type_kinetic_weapon_fire_rate_mult:1 "Cadence de tir des armes cinétiques "
+ mod_weapon_type_energy_weapon_damage_mult:0 "Dégâts causés par les armes énergétiques "
+ mod_weapon_type_energy_weapon_fire_rate_mult:1 "Cadence de tir des armes énergétiques "
  mod_weapon_type_strike_craft_weapon_damage_mult:0 "Dégâts causés par les appareils de combat"
- mod_weapon_type_strike_craft_weapon_fire_rate_mult:0 "Cadence de tir des appareils de combat"
+ mod_weapon_type_strike_craft_weapon_fire_rate_mult:1 "Cadence de tir des appareils de combat "
  mod_weapon_type_strike_craft_speed_mult:0 "Vitesse des appareils de combat"
- mod_weapon_swarm_weapon_fire_rate_mult:0 "Vit. d'attaque des armes de l'essaim préthoryn "
+ mod_weapon_swarm_weapon_fire_rate_mult:1 "Cadence de tir des armes préthorynes "
  mod_weapon_type_space_fauna_weapon_damage_mult:0 "Dégâts causés par la faune spatiale "
- mod_weapon_type_space_fauna_weapon_fire_rate_mult:0 "Cadence des attaques de la faune spatiale "
+ mod_weapon_type_space_fauna_weapon_fire_rate_mult:1 "Cadence de tir de la faune spatiale "
+ mod_weapon_archaeotech_weapon_damage_mult:0 "Dégâts causés par les armes archéotechnologiques "
+ mod_weapon_archaeotech_weapon_fire_rate_mult:1 "Cad. de tir des armes archéotechnologiques "
 
  mod_shroud_delve_cooldown:0 "Attente entre les visites du Suaire "
+
+ s_slot:0 "Petit emplacement de composant"
+ m_slot:0 "Emplacement de composant moyen"
+ l_slot:0 "Grand emplacement de composant"
+ x_slot:0 "Très grand emplacement de composant"
+ t_slot:0 "Emplacement de composant titanesque"
+ g_slot:0 "Emplacement de composant pour torpilles"
+
+ mod_s_slot_weapon_damage_mult:0 "Dommages des petits empl. de composant "
+ mod_s_slot_weapon_fire_rate_mult:1 "Cad. de tir des petits empl. de composants "
+ mod_m_slot_weapon_damage_mult:0 "Dommages des empl. de composant moyens "
+ mod_m_slot_weapon_fire_rate_mult:1 "Cad. de tir des empl. de composant moyens "
+ mod_l_slot_weapon_damage_mult:0 "Dommages des grands empl. de composant "
+ mod_l_slot_weapon_fire_rate_mult:1 "Cad. de tir des grands empl. de composants "
+ mod_x_slot_weapon_damage_mult:0 "Dommages des très grands empl. de composants "
+ mod_x_slot_weapon_fire_rate_mult:1 "Cad. de tir des très grands empl. de composants "
+ mod_t_slot_weapon_damage_mult:0 "Dommages des empl. de composants titanesques "
+ mod_t_slot_weapon_fire_rate_mult:1 "Cad. de tir des empl. de composants titanesques "
+ mod_g_slot_weapon_damage_mult:0 "Dommages des empl. de composants pour torpilles "
+ mod_g_slot_weapon_fire_rate_mult:1 "Cad. de tir des empl. de composants pour torpilles "
 
  #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
  #vultaum_asteroid_category_research_fail_risk_mult: "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
@@ -844,21 +888,21 @@
  cybrex_uninhabitable_category_research_speed_add:0 "$cybrex_uninhabitable_category_research_speed_mult$"
  cybrex_habitable_category_research_speed_add:0 "$cybrex_habitable_category_research_speed_mult$"
 
- mod_category_materials_research_speed_mult:0 "Vitesse de recherche (matériaux) "
- mod_category_propulsion_research_speed_mult:0 "Vitesse de recherche (propulsion) "
- mod_category_voidcraft_research_speed_mult:0 "Vitesse de recherche (maîtrise du vide spatial) "
- mod_category_robotics_research_speed_mult:0 "Vitesse de recherche (robotique) "
- mod_category_industry_research_speed_mult:0 "Vitesse de recherche (industrie) "
- mod_category_field_manipulation_research_speed_mult:0 "Vitesse de recherche (manipulation de champs) "
- mod_category_particles_research_speed_mult:0 "Vitesse de recherche (particules) "
- mod_category_computing_research_speed_mult:0 "Vitesse de recherche (informatique) "
- mod_category_metaphysics_research_speed_mult:0 "Vitesse de recherche (métaphysique) "
- mod_category_statecraft_research_speed_mult:0 "Vitesse de recherche (habileté politique) "
- mod_category_genetics_research_speed_mult:0 "Vitesse de recherche (génétique) "
- mod_category_military_theory_research_speed_mult:0 "Vitesse de recherche (théorie militaire) "
- mod_category_biology_research_speed_mult:0 "Vitesse de recherche (biologie) "
- mod_category_new_worlds_research_speed_mult:0 "Vitesse de recherche (nouveaux mondes) "
- mod_category_psionics_research_speed_mult:0 "Vitesse de recherche (psionisme) "
+ mod_category_materials_research_speed_mult:1 "Vit. de recherche en £engineering£§Ymatériaux§! "
+ mod_category_propulsion_research_speed_mult:1 "Vit. de recherche en £engineering£§Ypropulsion§! "
+ mod_category_voidcraft_research_speed_mult:1 "Vit. de recherche en £engineering£§Ymaîtrise du vide§! "
+ mod_category_robotics_research_speed_mult:1 "Vit. de recherche §Yrobotique§! "
+ mod_category_industry_research_speed_mult:1 "Vit. de recherche en £engineering£§Yindustrie§! "
+ mod_category_field_manipulation_research_speed_mult:1 "Vit. de recherche en £physics£§Ymanipulation de champs§! "
+ mod_category_particles_research_speed_mult:1 "Vit. de recherche en £physics£§Yparticules§! "
+ mod_category_computing_research_speed_mult:1 "Vit. de recherche en £physics£§Yinformatique§! "
+ mod_category_metaphysics_research_speed_mult:1 "Vit. de recherche en §Ymétaphysique§! "
+ mod_category_statecraft_research_speed_mult:1 "Vit. de recherche en £society£§Yart politique§! "
+ mod_category_genetics_research_speed_mult:1 "Vit. de recherche en £society£§Ygénétique§! "
+ mod_category_military_theory_research_speed_mult:1 "Vit. de recherche en £society£§Ythéorie militaire§! "
+ mod_category_biology_research_speed_mult:1 "Vit. de recherche en £society£§Ybiologie§! "
+ mod_category_new_worlds_research_speed_mult:1 "Vit. de recherche en £society£§Ynouveaux mondes§! "
+ mod_category_psionics_research_speed_mult:1 "Vit. de recherche en §Mpsionisme§! "
 
  hydroponics_farm_build_cost_mult:0 "Coût des £building£fermes hydroponiques "
  hydroponics_farm_construction_speed_mult:0 "Vit. de constr. des £building£fermes hydroponiques "
@@ -883,6 +927,14 @@
 
  assist_research:0 "Assistance de recherche"
  assist_research_desc:1 "Les laboratoires de recherche planétaires sont assistés par un vaisseau scientifique en orbite."
+
+ assist_cloaking_detection:0 "Assistance à la détection de l'occultation"
+ assist_cloaking_detection_desc:0 "Un vaisseau scientifique assiste la détection de l'occultation de cette base stellaire."
+ 
+ active_reconnaissance_speed:0 "Reconnaissance clandestine"
+ active_reconnaissance_speed_desc:0 "Grâce à la reconnaissance clandestine menée par un vaisseau scientifique occulté, le gain d'informations est accéléré."
+ active_reconnaissance_level:0 "Reconnaissance clandestine"
+ active_reconnaissance_level_desc:0 "Gain sur le niveau de renseignement grâce à la reconnaissance clandestine menée par un vaisseau scientifique occulté."
 
  previous_deal_broken:0 "Accords commerciaux rompus"
  previous_deal_ended:0 "Accords commerciaux remplis"
@@ -931,6 +983,7 @@
  ship_max_damaged_effect:0 "Pénalités de dégâts"
  station_self_repair:0 "Autoréparation"
  jump_drive_cooldown:1 "Rechargement entre deux bonds"
+ cloaking_cooldown:0 "Intervalle entre chaque occultation"
 
  ####################################
  # Pop Modifiers
@@ -1184,7 +1237,7 @@
  opinion_subject_relation:0 "Relation de dépendance"
  opinion_subject:0 "Même suzerain"
  opinion_is_subject:0 "Dépendance"
- opinion_subject_protection:0 "Demande de protection acceptée"
+ opinion_subject_protection:1 "Demande de protection acceptée "
  opinion_forced_subjectized:0 "Soumission imposée"
  opinion_subject_broke_free:0 "S'est libéré de son suzerain"
 
@@ -1209,7 +1262,7 @@
  opinion_broke_away:0 "Région dissidente"
  opinion_broke_away_from:0 "Anciens oppresseurs"
 
- opinion_primitive_violation:0 "Primitifs annexés"
+ opinion_primitive_violation:1 "Pré-PRL annexés "
 
  opinion_fallen_empire_gift:0 "A fait un don"
  opinion_put_in_their_place:0 "Mettre à leur place"
@@ -1231,6 +1284,9 @@
  opinion_ceded_starbase:0 "Frontières respectées"
  opinion_not_ceded_starbase:0 "Frontières non respectées"
 
+ opinion_respect_independence:0 "Indépendance reconnue "
+ opinion_disrespect_independence:0 "Indépendance non reconnue "
+
  triggered_opinion_tr_versatility_universal_compatibility:0 "$tr_versatility_universal_compatibility$"
  triggered_opinion_tr_domination_star_lords:0 "$tr_domination_star_lords$"
  triggered_opinion_ap_defender_of_the_galaxy:0 "$ap_defender_of_the_galaxy$"
@@ -1244,6 +1300,8 @@
  triggered_pacifist_opinion_barbaric_despoilers:0 "$civic_barbaric_despoilers$"
  triggered_fe_opinion_barbaric_despoilers:0 "$civic_barbaric_despoilers$"
  triggered_opinion_relic_omnicodex:0 "$r_omnicodex$"
+ triggered_opinion_crusader_spirit:0 "$civic_crusader_spirit$"
+ triggered_opinion_crusader_spirit_pos:0 "$civic_crusader_spirit$"
 
  ####################################
  # Planet Modifiers
@@ -1460,8 +1518,8 @@
  spaceport_level_5:0 ""
  spaceport_level_6:0 ""
 
- stone_age_civilization:0 "Primitifs de l'Âge de pierre"
- stone_age_civilization_desc:2 "Ce monde a produit une protocivilisation primitive de l'Âge de pierre."
+ stone_age_civilization:1 "Pré-PRL de l'âge de pierre"
+ stone_age_civilization_desc:3 "Ce monde a vu naître une protocivilisation de l'âge de pierre."
  dead_creatures:0 "Cadavres de créatures spatiales"
  dead_creatures_desc:0 "Cette géante gazeuse servait jadis de cimetière à une espèce de créatures spatiales. Les nombreux corps qui flottent encore sur son orbite feraient d'excellents sujets de recherche."
  starship_graveyard:0 "Cimetière de vaisseaux spatiaux"
@@ -1633,6 +1691,16 @@
  MOD_CATAPULT_RANGE_MULT:0 "Portée de la catapulte quantique "
  mod_quantum_catapult_megastructure_bypass_windup_mult:0 "Temps de rechargement de la catapulte quantique "
 
+ mod_country_society_research_cost_mult:0 "Maintenance en recherche £society£ "
+ mod_country_consumer_goods_cost_mult:0 "Maintenance en £consumer_goods£ "
+
+ contact_with_MSI_01:1 "Passé tourmenté "
+ contact_with_MSI_02:1 "$contact_with_MSI_01$"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ triggered_opinion_crusader_spirit_machine_empires:0 "$civic_crusader_spirit$"
+ MOD_COUNTRY_COMMAND_LIMIT_ADD:0 "Limite de commandement des flottes"
+ MOD_COUNTRY_COMMAND_LIMIT_MULT:0 "$MOD_COUNTRY_COMMAND_LIMIT_ADD$"
  mod_MECHANICAL_species_trait_picks_add:0 "$SPECIES_TRAIT_PICKS$ mécanique"
+ active_reconnaissance:0 "Reconnaissance clandestine"
+ active_reconnaissance_desc:0 "Grâce à la reconnaissance clandestine menée par un vaisseau scientifique occulté, le gain d'informations est accéléré."

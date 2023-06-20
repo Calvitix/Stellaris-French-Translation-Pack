@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check 3.6.0 : 30.11.2022
+ # Update check 3.8.4 : 15.06.2023
  # Translation check : 30.11.2022
  ####################################
  FANTASTIC:0 "Formidable"
@@ -37,7 +37,7 @@
  AST_ILLICIT_DARK_DESC:0 "L'astéroïde §Y[Root.GetName]§! crache régulièrement dans le vide spatial un mélange aussi éclectique qu'inquiétant de particules et de radiations."
  TOX_PURPLE_RAIN_CAT:0 "Poison pigmenté"
  TOX_PURPLE_RAIN_DESC:0 "La biosphère toxique de §Y[Root.GetName]§! confère à cette [Root.GetPlanetMoon] des couleurs très particulières."
- FROZ_BASE_CAT:0 "Étendues glacées"
+ FROZ_BASE_CAT:0 "Déchets glacés"
  FROZ_BASE_DESC:0 "Les capteurs ont détecté une activité inattendue à un emplacement précis de la surface gelée de §Y[Root.GetName]§!."
  FROZ_BASE2_CAT:0 "Plaines gelées"
  FROZ_BASE2_DESC:0 "Les capteurs ont détecté une activité inattendue à un emplacement précis de la surface polaire de §Y[Root.GetName]§!."
@@ -178,7 +178,7 @@
  anomaly.106.a.phobe:0 "Soyez direct, envoyez la plaque dans leur soleil."
  anomaly.106.a.phile:0 "Vous avez lancé un appel dans le vide spatial et nous sommes venus."
  anomaly.110.name:0 "Les voix du passé"
- anomaly.110.desc:0 "Lors de l'exploration d'une forteresse abandonnée à la surface de §Y[From.GetName]§! - très probablement le fief d'une race primitive depuis longtemps disparue - un disque en or a été découvert sur un piédestal, recouvert d'une épaisse couche de poussière.\n\nMais, alors qu'il était destiné à finir classé comme un artefact alien ayant peut-être une signification xénoreligieuse, un ordinateur de l'archivage l'a rapidement identifié comme étant le disque en or jadis embarqué à bord de la sonde Voyager."
+ anomaly.110.desc:1 "Lors de l'exploration d'une forteresse abandonnée à la surface de §Y[From.GetName]§!, très probablement le fief d'une race pré-PRL depuis longtemps disparue, un disque en or a été découvert sur un piédestal, recouvert d'une épaisse couche de poussière.\n\nMais, alors qu'il était destiné à finir classé comme un artefact alien ayant peut-être une signification xénoreligieuse, un ordinateur de l'archivage l'a rapidement identifié comme étant le disque en or jadis embarqué à bord de la sonde Voyager."
  anomaly.110.a:0 "Écoutons-le, immédiatement !"
  anomaly.115.name:0 "Cellules de cellules"
  anomaly.115.desc:0 "L'astéroïde §H[From.GetName]§! est partiellement creux. À l'intérieur de ses cavités est dissimulée une structure alvéolaire dense, faite d'un alliage inconnu, qui abrite des échantillons de matériel génétique alien. Selon toute vraisemblance, il s'agit des archives génétiques d'une civilisation ancienne, aujourd'hui disparue. Bien que l'ADN soit très dégradé, il devrait malgré tout nous apprendre beaucoup de choses."
@@ -199,7 +199,7 @@
  anomaly.135.name:0 "Parc d'attractions abandonné"
  anomaly.135.desc:0 "Les structures découvertes sur §Y[From.GetName]§! ne sont pas aussi anciennes que nous l'avions pensé. Il s'agit apparemment d'une sorte de terrain de jeux ou de parc d'attractions. Selon l'officier scientifique §Y[Root.GetLeaderName]§!, nous aurions beaucoup à apprendre de ces engins extrêmement complexes. Reste à savoir ce qu'ils représentaient pour leurs bâtisseurs aliens : peut-être des capteurs de pointe ou bien une gigantesque installation artistique...\n\nEn tout cas, pour nous autres [Root.Owner.GetSpeciesNamePlural], cela a tout du lieu où l'on emmène sa progéniture pour qu'elle se divertisse."
  anomaly.140.name:0 "Autel familier"
- anomaly.140.desc:0 "La plus grande partie de l'astéroïde §Y[From.GetName]§! a été ciselée au laser, avec une grande précision, pour en faire ce qui semble être un petit temple ou un grand sanctuaire d'inspiration [Root.Owner.GetAdj] évidente.\n\nUn sanctuaire dédié à l'Indicible, cette grande divinité destructrice des cultes anciens des [Root.Owner.GetSpeciesNamePlural].\n\nLe plus dérangeant, pour dire le moins, est que ce temple dérivait déjà dans le vide spatial bien avant que nous ne soyons capables de voyager dans l'espace.\n\nPour être honnête, c'est même terrifiant.\n\nNaturellement, l'officier scientifique §Y[Root.GetLeaderName]§! nous pousse à lancer la recherche d'autres objets stellaires qui présenteraient les mêmes caractéristiques que ce temple spatial. Il a enregistré dans le journal de bord toute une liste de candidats potentiels dans les systèmes voisins."
+ anomaly.140.desc:1 "La plus grande partie de l'astéroïde §Y[From.GetName]§! a été ciselée au laser, avec une grande précision, pour en faire ce qui semble être un petit temple d'inspiration [Root.Owner.GetSpeciesName] évidente : un sanctuaire dédié à l'§HIndicible§!, cette grande divinité destructrice des cultes anciens sur [Root.Owner.GetHomeWorldName].\n\nLe plus dérangeant, pour dire le moins, est que ce temple dérivait déjà dans le vide de l'espace bien avant que nous ne soyons capables de parcourir les étoiles. Cela perturbe évidemment un grand nombre de chercheurs.\n\nEn dépit du trouble causé par cette découverte, l'officier scientifique [Root.GetLeaderName] a suggéré de lancer la recherche d'autres objets stellaires qui présenteraient les mêmes caractéristiques que ce temple spatial. [Root.Leader.GetSheHeCap] a déjà préparé toute une liste de candidats potentiels dans les systèmes voisins."
  anomaly.140.a:0 "Il vaudrait peut-être mieux s'en abstenir"
  anomaly.140.a.tooltip:0 "Cela va laisser les divinités endormies reposer en paix."
  anomaly.140.b:0 "Lançons les recherches"
@@ -666,7 +666,7 @@
  country.1000.desc:0 "§Y[wanderlust_scientist.GetName]§!, qui dirige le département physique de '§Y[Root.GetName]§!', a disparu, ainsi qu'un prototype de vaisseau scientifique expérimental financé par des fonds privés.\n\nL'incident a bien évidemment suscité un véritable scandale au sein de la communauté scientifique sur §Y[Root.Capital.GetName]§!."
  country.1000.a:0 "C'est effectivement étrange..."
  country.1001.name:0 "$country.1000.name$ : justifications"
- country.1001.desc:0 "On ignore encore où a disparu §Y[wanderlust_scientist.GetName]§!, anciennement responsable du département physique. Quelques informations ont toutefois pu être glanées sur ce prototype de vaisseau scientifique et sur ses recherches privées. Bien que certains aspects semblent un peu trop fantasques pour être véridiques, '§Y[Root.GetName]§!' aurait tout intérêt à retrouver rapidement cette personne.\n\nLe Journal de bord a été mis à jour."
+ country.1001.desc:0 "On ignore encore où a disparu §Y[wanderlust_scientist.GetName]§!, notre ancien[wanderlust_scientist.GetXNeLead] responsable du département physique. Quelques informations ont toutefois pu être glanées sur ce prototype de vaisseau scientifique et sur ses recherches privées. Bien que certains aspects semblent un peu trop fantasques pour être véridiques, '§Y[Root.GetName]§!' aurait tout intérêt à [wanderlust_scientist.GetLeLaLead] retrouver au plus vite.\n\nLe §Hjournal de bord§! a été mis à jour."
  country.1001.a:0 "Très bien"
  country.1001.a.tooltip:0 "Cela va lancer la chaîne d'événement §Y$country.1000.name$§!."
  country.1003.name:0 "$country.1000.name$ : rien"
@@ -718,40 +718,40 @@
  country.1042.name:0 "Pirates Sunblaster"
  country.1042.desc:0 "Cet imbécile a besoin d'une bonne leçon.\n\nSkitskur'r ! Aux armes !"
  country.1042.a:0 "Les forces des [Root.GetSpeciesNamePlural] vont vous écraser."
- country.1044.name:0 "Responsable du département de physique"
+ country.1044.name:1 "$country.1010.name$"
  country.1044.desc:0 "Comme ils communiquaient sur un canal ouvert, j'ai entendu quelques bribes de conversation.\n\nJe crois que la transaction s'est bien passée."
- country.1045.name:0 "Responsable du département de physique"
+ country.1045.name:1 "$country.1010.name$" # diplo w/ scientist, situation resolved
  country.1045.desc:0 "Vous n'avez fait qu'une bouchée de ces pirates, [Root.GetRulerTitle].\nEn tant que scientifique, je déteste la violence... Mais je dois admettre que dans le cas présent, elle était nécessaire. Je crois que ces pirates ne m'auraient pas épargné."
  country.1045.a:0 "Effectivement. Bon, je vous écoute."
  country.1045.a.response:0 "Oui, bien sûr, [Root.GetRulerTitle].\nEh bien... Sans rentrer dans les détails, sachez que rien n'est réel. Ou plutôt, rien de ce que nous croyons réel ne l'est vraiment. Ni vous ni moi ne sommes réels, [Root.GetRulerTitle], pas plus que les lois de la nature, que nous considérons pourtant comme immuables. L'univers n'est qu'un reflet, un hologramme, un prisme qui déforme la réalité.\n\nVous comprenez ? Or, il y a forcément une brèche qui laisse entrer la lumière. C'est ce que j'appelle la Fenêtre."
  country.1045.b:0 "Vous devez immédiatement rentrer à §Y[Root.Capital.GetName]§!."
- country.1046.name:0 "Responsable du département de physique"
+ country.1046.name:1 "$country.1010.name$" # diplo, immediate followup, gain phys
  country.1046.desc:0 "Je ne rentrerai pas, [Root.GetRulerTitle].\nVous savez, j'ai eu le temps de réfléchir, et je pense que je ne suis pas près de rentrer.\n\nJ'ai pris la liberté de télécharger une partie de mes recherches dans les bases de données de §Y[Root.Capital.GetName]§!. J'espère qu'elles seront utiles au peuple [Root.Species.GetName]. Mais je conserve les données relatives à la Fenêtre. Je ne suis pas sûr d'être prêt ; mais à mon avis, personne d'autre ne l'est.\nBon, je dois vous laisser."
  country.1046.a:0 "Attendez..."
  country.1047.name:0 "Soif de nouveaux horizons : les stores"
- country.1047.desc:0 "Le physicien a dit vrai. Ses travaux vont faire progresser les sciences de notre '§Y[Root.GetName]§!'.\n\nIl s'est encore volatilisé, mais cette fois nous avons réussi à suivre sa trace avant qu'il quitte le système.\n\nS'il se dirige vers cette Fenêtre, nous aussi.\nPour en savoir plus, consultez le Journal de bord."
+ country.1047.desc:1 "[wanderlust_scientist.GetName] a dit vrai, comme l'ont prouvé les vérifications faites sur ses travaux. Ceux-ci ont fait faire un pas en avant à la communauté scientifique [Root.GetAdj]. Un petit pas, certes, mais un pas important...\n\nQuant à [wanderlust_scientist.GetLuiElleLead], [wanderlust_scientist.GetSheHe] s'est encore volatilisé[wanderlust_scientist.GetXELead]. Mais, cette fois, sa piste commence dans le système où nous l'avons retrouvé[wanderlust_scientist.GetXELead].\n\n[wanderlust_scientist.GetSilSielleLeadCap] se dirige vers cette Fenêtre, nous l'y retrouverons. Tout a été consigné dans le §HJournal de bord§!."
  country.1050.name:0 "Soif de nouveaux horizons : la Fenêtre s'ouvre"
  country.1050.desc:0 "Pour la première fois, le prototype de vaisseau scientifique est bien visible sur les écrans. En dehors du fait qu'il se trouve sur une orbite dangereusement proche de l'étoile du système, rien ne le distingue d'un vaisseau ordinaire.\n\nMais une simple analyse optique révèle le secret de ce vaisseau. Sa coque de conception standard a été grossièrement modifiée ; elle est maintenant recouverte de filaments métalliques qui semblent agir comme des électroaimants à tension alternative et étroitement contrôlée. La proximité d'une étoile peut légèrement déformer les émissions stellaires du vaisseau qui s'enroulent alors autour de lui pour former une sorte de camouflage.\n\nBien que conceptuellement intéressante, cette technique présente néanmoins des inconvénients sur le plan pratique puisque l'exposition prolongée aux rayonnements solaires a totalement neutralisé le système."
- country.1051.name:0 "Responsable du département de physique"
+ country.1051.name:1 "$country.1010.name$" # start of final diplo w/ scientist
  country.1051.desc:0 "Mes salutations, [Root.GetRulerTitle].\n\nJe me doutais bien que vous alliez suivre ma trace.\n\nEt je ne me suis pas trompé."
- country.1051.a:0 "Où en êtes-vous ?"
+ country.1051.a:1 "Où en êtes-vous, [wanderlust_scientist.GetName] ?"
  country.1051.a.response:0 "Je crois que j'ai trouvé la Fenêtre. En tout cas, une fenêtre. Il y en a peut-être d'autres. Nos doubles réels se trouvent-ils de l'autre côté ? Y a-t-il quelque chose ? Je dois vous avouer que je n'en ai pas la moindre idée. Je sais que mes connaissances n'intéressent personne. Mais il serait totalement irresponsable que je m'arrête là."
  country.1051.b:0 "Qu'allez-vous faire ?"
  country.1051.b.response:0 "Je vais essayer de franchir la Fenêtre pour accéder à la réalité. La lumière du réel ne s'infiltre pas seulement ici, évidemment. L'univers tout entier peut être comparé à un vaste panneau de verre, dont nous sommes d'infimes déformations et imperfections qui doivent la vie à la lumière émise de l'autre côté.\n\nC'est la Fenêtre, car je crois qu'elle s'ouvre."
  country.1051.c:0 "Vos actes sont insensés et dangereux."
- country.1052.name:0 "Responsable du département de physique"
+ country.1052.name:1 "$country.1010.name$" # second phase
  country.1052.desc:0 "Je regrette sincèrement de vous avoir causé tous ces ennuis, [Root.GetRulerTitle]. Mais je ne dois rien au §Y[Root.GetName]§! car je me suis déjà acquitté de mon dû. Vous m'avez suivi de votre propre chef, et je vous remercie de m'avoir aidé, mais mes intentions ont toujours été très claires."
  country.1052.a:0 "Rentrez et nous oublierons tout cela."
  country.1052.b:0 "Vous serez jugé."
- country.1053.name:0 "Responsable du département de physique"
+ country.1053.name:1 "$country.1010.name$"
  country.1053.desc:0 "La Fenêtre s'ouvre, [Root.GetRulerTitle].\n\nAu revoir."
- country.1053.a:0 "Attendez !"
+ country.1053.a:1 "[wanderlust_scientist.GetName], attendez !"
  country.1055.name:0 "Soif de nouveaux horizons : la Fenêtre se referme"
  country.1055.desc:0 "Le vaisseau scientifique est vide.\n\nToutes les combinaisons destinées aux sorties extravéhiculaires sont à leur place, et les journaux du vaisseau indiquent que le sas n'a jamais été ouvert.\n\nLe vaisseau est toujours en orbite autour de l'étoile, mais il est maintenant sous contrôle [Root.Owner.GetAdj]."
  country.1055.a:0 "Voilà une fin bien déroutante."
  country.1055.a.tooltip:0 "Le vaisseau scientifique a été récupéré et ses fonctions de base sont toujours opérationnelles.\n"
  country.1061.name:0 "Soif de nouveaux horizons : pirates éliminés"
- country.1061.desc:0 "Les pirates Sunblaster qui menaçaient le physicien ont été éliminés, mais pas par nous.\n\nLe physicien essaie d'entrer en contact avec nous."
+ country.1061.desc:1 "Les pirates Crèvétoiles qui menaçaient [wanderlust_scientist.GetName] ont été éliminés, mais pas par nous.\n\nEt [wanderlust_scientist.GetSheHe] essaie d'entrer en contact avec nous..."
 
  ### Mass Extinction Starting Event Chain
 
@@ -830,26 +830,26 @@
 
  story.5.name:0 "Rapport de contact : vestiges"
  story.5.desc:1 "Notre '§Y[Root.GetName]§!' est en pleine effervescence depuis qu'ont été trouvés ces vestiges aliens.\n\nCes traces sont une preuve irréfutable qu'une vie alien intelligente et réfléchie a existé à un moment donné. Les [Root.GetSpeciesNamePlural] sont peut-être seuls aujourd'hui, mais ils ne sont pas les premiers à l'avoir été."
- story.5.desc.phobe:1 "L'administration de §Y[Root.Capital.GetName]§! a reçu avec fébrilité les rapports sur les vestiges aliens qui viennent d'être retrouvés.\n\nLes traces en question sont désormais largement considérées comme la preuve irréfutable que des forces inconnues étaient par le passé actives dans la galaxie, même si des membres de l'élite intellectuelle [Root.GetAdj] rejettent toujours cette idée et préfèrent y voir les traces «d'étranges formations géologiques» ou «le résultat d'un phénomène naturel curieux»."
+ story.5.desc.phobe:1 "L'administration de §Y[Root.Capital.GetName]§! a reçu avec fébrilité les rapports sur les vestiges aliens qui viennent d'être retrouvés.\n\nLes traces en question sont désormais largement considérées comme la preuve irréfutable que des forces inconnues étaient par le passé actives dans la galaxie, même si des membres de l'élite intellectuelle [Root.GetSpeciesName] rejettent toujours cette idée et préfèrent y voir les traces «d'étranges formations géologiques» ou «le résultat d'un phénomène naturel curieux»."
  story.5.desc.phile:1 "Les xénologistes de partout au sein de notre '§Y[Root.GetName]§!' se bousculent pour publier leurs conclusions sur la découverte des vestiges d'une civilisation alien.\n\nLa fièvre qui s'est emparée de la communauté scientifique est telle que cela a en partie ralenti les projets en cours dans les autres champs de la recherche."
  story.5.desc.followup:1 "«Les formes de vie intelligentes nous narguent par leur absence» titre un réseau d'information populaire de §Y[Root.Capital.GetName]§!. Les [Root.GetSpeciesNamePlural] semblent beaucoup s'amuser du fait qu'il est désormais de notoriété publique que nous avons trouvé la preuve irréfutable de formes de vies inférieures, mais que nous n'avons toujours pas découvert d'êtres aussi intelligents que nous.\n\nEt les rapports au sujet des traces observées ne font qu'ajouter une pointe d'ironie à la situation..."
  story.5.desc.gesta:0 "L'existence des premières traces matérielles d'une forme de vie alien intelligente sur un autre monde a été confirmée."
 
- story.6.name:0 "Contact : civilisation primitive"
- story.6.desc:1 "Notre '§Y[Root.GetName]§!' est en pleine effervescence depuis que nos vaisseaux ont découvert une civilisation alien primitive.\n\nLes aliens de [primitive_planet.GetName] ne sont certes pas capables de voyager dans l'espace, mais leur intelligence est évidente et quantifiable, et leur société présente toutes les caractéristiques d'une culture modérément avancée."
- story.6.desc.phobe:1 "Les nouvelles de la découverte d'une espèce primitive montrant des signes d'une intelligence rudimentaire - la prétendue «civilisation de [primitive_planet.GetName]», n'ont pas été très bien accueillies sur §Y[Root.Capital.GetName]§!.\n\nUn profond sentiment de malaise imprègne le débat public. Une minorité bruyante préconise d'user de tous les moyens nécessaires pour imposer l'hégémonie [Root.GetAdj] sur la planète alien, tandis que la plupart des [Root.GetSpeciesNamePlural] semblent préférer éviter tout contact avec ces êtres, voire ignorer leur existence."
- story.6.desc.phile:0 "Les rapports de nos flottes relatifs à l'observation de cette civilisation primitive ont été accueillis avec des cris de joie par les membres de l'élite universitaire [Root.GetAdj].\n\nLa preuve est faite, désormais, que les premiers pas des [Root.GetSpeciesNamePlural] dans l'immensité de l'espace n'ont pas été vains. Ces êtres ne sont peut-être pas nos égaux - pas encore - et il se peut même que nous ne voyions pas de notre vivant les premières relations avec eux, mais leur simple existence constitue une lueur d'espoir dans une galaxie qui semblait jusqu'à présent entièrement dénuée de vie."
+ story.6.name:1 "Contact : civilisation pré-PRL"
+ story.6.desc:2 "Notre '§Y[Root.GetName]§!' est en pleine effervescence depuis que nos vaisseaux ont découvert une civilisation alien pré-PRL.\n\nLes habitants de §Y[primitive_planet.GetName]§! ne sont certes pas capables de voyager dans l'espace, mais leur intelligence est évidente et quantifiable, et leur société présente toutes les caractéristiques d'une culture modérément avancée."
+ story.6.desc.phobe:2 "Les nouvelles de la découverte d'une espèce pré-PRL montrant des signes d'une intelligence rudimentaire, la prétendue « civilisation de §Y[primitive_planet.GetName]§! », n'ont pas été très bien accueillies sur [Root.Capital.GetName].\n\nUn profond sentiment de malaise imprègne le débat public. Une minorité bruyante préconise d'user de tous les moyens nécessaires pour imposer l'hégémonie [Root.GetSpeciesName] sur cette [primitive_planet.GetPlanetMoon], tandis que la plupart des [Root.GetSpeciesNamePlural] semblent préférer éviter tout contact avec ces êtres, voire ignorer leur existence."
+ story.6.desc.phile:1 "Les rapports de nos flottes relatifs à l'observation de cette civilisation pré-PRL sur §Y[primitive_planet.GetName]§! ont été accueillis avec des cris de joie par les membres de l'élite universitaire [Root.GetSpeciesName].\n\nLa preuve est faite, désormais, que les premiers pas des [Root.GetSpeciesNamePlural] dans l'immensité de l'espace n'ont pas été vains. Ces êtres ne sont peut-être pas nos égaux, pas encore, et il se peut même que nous ne voyions pas de notre vivant les premières relations avec eux, mais leur simple existence constitue une lueur d'espoir dans une galaxie qui semblait jusqu'à présent entièrement dénuée de vie."
  story.6.desc.followup5:1 "La communauté scientifique de §Y[Root.Capital.GetName]§! est en pleine effervescence depuis qu'une forme de vie alien intelligente a été découverte.\n\nLes aliens de [primitive_planet.GetName] ne sont certes pas capables de voyager dans l'espace, mais leur intelligence est évidente et quantifiable, et leur société présente toutes les caractéristiques d'une culture modérément avancée. D'éminents xénologistes pensent qu'il s'agit là d'une occasion unique d'étudier une société qui n'est peut-être pas si différente de celles dont nous avons précédemment découvert les vestiges."
- story.6.desc.followup4:0 "Après toutes les découvertes relatives à des espèces préconscientes, les chercheurs de '§Y[Root.GetName]§!' ont accueilli avec enthousiasme les rapports sur l'existence d'une culture primitive.\n\nPour ce que l'on en sait, les [Root.GetSpeciesNamePlural] sont les premiers à s'être élancés vers les étoiles ; mais il est fascinant de constater qu'il existe des cultures qui n'ont sur nous que quelques millénaires, voire quelques siècles de retard."
- story.6.desc.followup123:1 "Venant chapeauter les précédentes découvertes de formes de vie inférieures, le rapport faisant état de formes des formes de vie aliens primitives de [primitive_planet.GetName] découvertes par nos flottes a ravivé l'intérêt de la communauté scientifique de §Y[Root.Capital.GetName]§! pour les sciences xénologiques, jusqu'à présent considérées comme un domaine purement théorique."
- story.6.desc.gesta:0 "L'existence d'une culture alien primitive a été confirmée. Elle vient tout juste de développer le voyage PRL, en dépit du handicap sévère que représentent ses individualités fragmentées."
+ story.6.desc.followup4:1 "Après toutes les découvertes relatives à des espèces préconscientes, les chercheurs de '§Y[Root.GetName]§!' ont accueilli avec enthousiasme les rapports sur l'existence d'une culture pré-PRL sur §Y[primitive_planet.GetName]§!.\n\nPour ce que l'on en sait, les [Root.GetSpeciesNamePlural] sont les premiers à s'être élancés vers les étoiles ; mais il est fascinant de constater qu'il existe des cultures qui n'ont sur nous que quelques millénaires, voire quelques siècles, de retard."
+ story.6.desc.followup123:2 "Venant chapeauter les précédentes découvertes de formes de vie inférieures, le rapport faisant état de formes de vie aliens pré-PRL sur §Y[primitive_planet.GetName]§!, tout récemment découvertes, a ravivé l'intérêt de la communauté scientifique de §H[Root.Capital.GetName]§! pour les sciences xénologiques, jusqu'à présent considérées comme un domaine purement théorique."
+ story.6.desc.gesta:1 "L'existence d'une culture alien pré-PRL sur §Y[primitive_planet.GetName]§! a été confirmée. Elle vient tout juste de développer le voyage spatial, en dépit du handicap évident que représentent ses individualités fragmentées."
 
  story.7.name:0 "Rapport de contact alien"
  story.7.desc:0 "Il n'aura pas fallu longtemps à notre '§Y[Root.GetName]§!' pour rencontrer une forme de vie alien intelligente.\n\nLe rapport envoyé à la capitale [Root.GetAdj] ne livre guère d'informations sur l'aspect de ces forces étranges, et mentionne à peine qu'il a été impossible d'entrer en communication avec elles."
  story.7.desc.phobe:0 "Depuis que des vaisseaux non identifiés ont été repérés dans le vide de l'espace, §Y[Root.Capital.GetName]§! est en pleine agitation.\n\nTant que nous ignorons leurs intentions, mieux vaut nous préparer au pire."
  story.7.desc.phile:0 "'§Y[Root.GetName]§!' a enfin rencontré d'autres voyageurs spatiaux.\n\nMême si leurs intentions sont encore inconnues, et peut-être même hostiles, l'ambiance qui règne sur §Y[Root.Capital.GetName]§! depuis que nous avons reçu ce rapport est clairement à l'euphorie."
- story.7.desc.followup6:0 "Nous avons rencontré une forme de vie intelligente capable de voyager dans l'espace.\n\nLe contraste avec les primitifs préalablement observés par '§Y[Root.GetName]§!' est saisissant, mais nous ne savons rien encore des êtres qui pilotent ces vaisseaux, ni des raisons qui les poussent à naviguer dans l'espace."
- story.7.desc.followup12345:0 "[Root.Capital.GetName] vient d'apprendre que des vaisseaux aliens parcouraient l'espace. Cela met donc un terme à une première partie de l'histoire de '§Y[Root.GetName]§!', qui s'était prise à rêver de constituer un empire stellaire."
+ story.7.desc.followup6:1 "Nous avons rencontré une forme de vie intelligente capable de voyager dans l'espace.\n\nLe contraste avec les pré-PRL préalablement observés par '§Y[Root.GetName]§!' est saisissant, mais nous ne savons rien encore des êtres qui pilotent ces vaisseaux, ni des raisons qui les poussent à naviguer dans l'espace."
+ story.7.desc.followup12345:1 "[Root.Capital.GetName] vient d'apprendre que des vaisseaux aliens parcouraient l'espace. Cela met donc un terme à une première partie de l'histoire de '§Y[Root.GetName]§!', qui s'était prise à rêver de constituer un empire stellaire."
  story.7.desc.mach.followup12345:0 "Nous avons observé le passage de vaisseaux aliens capables de voler dans l'espace. Si aucune communication n'a encore été établie, il est confirmé que les [Root.GetSpeciesNamePlural] ne sont pas le seul empire de la galaxie capable de parcourir les étoiles."
  story.7.desc.gesta:0 "Nous avons rencontré une vie alien avancée. Le contact semble inévitable."
 
@@ -1059,6 +1059,7 @@
  story.501.desc.gesta:0 "Ces formes de vie spatiales que nous appelons «§Ytiyanki§!» sont des créatures paisibles. Capables d'accéder à une dimension inférieure du sous-espace, elles voguent d'un système à l'autre avec une aisance remarquable.\n\nElles broutent ces gaz que l'on trouve communément dans les couches supérieures de nombreuses géantes gazeuses. Il est pourtant peu probable, c'est le moins que l'on puisse dire, qu'il s'agisse là de leur seule source de nourriture, même si l'absorption de toute autre forme de nutriments n'a pas encore pu être observée.\n\nElles n'attaquent pas sans être provoquées, aussi peuvent-elles sans crainte être ignorées."
  story.501.a.spiri:0 "Ce sont de vénérables créatures"
  story.501.a.mater:0 "De toute façon, les abattre ne rapporterait rien"
+ story.501.a.exploratobot:0 "Créature spatiale docile indexée"
 
  galactic_features.361.name:0 "Progéniture effluviale"
  galactic_features.361.desc:0 "Après la destruction de notre flotte dans le système de §Y[From.From.From.GetStarName]§!, les nuages spatiaux sur place semblent avoir rassemblé suffisamment de matériaux tirés des débris pour lancer ce que l'on pourrait qualifier en quelque sorte de mitose à grande échelle - une reproduction asexuée.\n\nLe [From.From.From.GetStarName] compte désormais un nuage spatial de plus."
@@ -1074,58 +1075,79 @@
  # Uplifting Events
  ####################################
 
- uplift.6000.name:0 "Espèce ophidienne"
- uplift.6000.desc:0 "D'après l'équipage du §Y[Root.GetName]§!, l'espèce dominante de §H[From.GetName]§! est une race de serpents relativement grands qui a atteint le sommet de la chaîne alimentaire grâce à sa grande intelligence, même si celle-ci reste animale.\n\nL'officier scientifique §Y[Root.GetLeaderName]§! a constaté de nombreuses similitudes entre l'état actuel de cette espèce et les dernières étapes de l'évolution des [Root.Owner.Species.GetName], avant que nous accédions à la conscience.\n\nAvec la technologie appropriée, nous pourrions peut-être provoluer ces créatures inférieures pour en faire des êtres intelligents."
- uplift.6000.a:0 "Nous avons toutes les connaissances pour"
+# Pre-Sapients Found
+ uplift.6000.name.1:0 "Découverte d'une espèce provoluable"
+ uplift.6000.name.2:0 "Découverte d'une espèce préintelligente"
+
+ uplift.6000.continental.desc:0 "Des créatures véritablement fascinantes parcourent les plaines et les côtes de §Y[From.GetName]§!. L'équipage du [Root.GetName] a d'ailleurs rapporté qu'une espèce [presapient_species.GetSpeciesClass] y utilise des outils, de façon certes très limitée, mais dispose assurément de toutes les qualités requises pour atteindre un jour la conscience.\n\n[Root.GetLeaderName] insiste d'ailleurs sur le fait que découvrir une vie alien semblable est une opportunité très rare. Selon [Root.Leader.GetLuiElleLead], si nous choisissions de provoluer cette espèce, elle pourrait s'avérer très utile."
+
+ uplift.6000.ocean.desc:0 "Selon l'équipage du [Root.GetName], une espèce [presapient_species.GetSpeciesClass] native de §Y[From.GetName]§! a non seulement commencé à dominer les immenses océans de la [From.GetPlanetMoon], mais aussi les petites parcelles de terre dispersées à sa surface.\n\n[Root.GetLeaderName] propose donc de surveiller leur évolution, et si possible de les aider à suivre le chemin qui les mènera à une véritable conscience."
+
+ uplift.6000.tropical.desc:0 "Les canopées denses de §Y[From.GetName]§! cachent ce que [Root.GetLeaderName], qui commande le [Root.GetName], qualifie de « proto-civilisation ».\n\nL'espèce [presapient_species.GetSpeciesClass] qui a constitué cette société embryonnaire est encore loin d'avoir suivi tout le chemin de l'évolution, mais l'ordre social qu'elle a mis en place semble être permis par le développement d'un langage intelligible et d'une pensée abstraite.\n\n[Root.Leader.GetSheHeCap] suggère donc de faire de ces êtres des sujets d'expérimentation des technologies développées pour permettre une évolution accélérée."
+
+ uplift.6000.arid.desc:0 "Une espèce [presapient_species.GetSpeciesClass] de §Y[From.GetName]§! paraît démontrer une intelligence inhabituelle. Dans les paysages desséchés et rocheux de la [From.GetPlanetMoon], ces créatures ont su évoluer de manière à dominer leur environnement. Les expériences faites par [Root.GetLeaderName] et l'équipage du [Root.GetName] montrent que, à condition de faire usage des technologies voulues, leur évolution pourrait être accélérée."
+
+ uplift.6000.desert.desc:0 "Au milieu des étendues sableuses de §Y[From.GetName]§!, une curieuse forme de vie [presapient_species.GetSpeciesClass] semble posséder toutes les caractéristiques associées à l'évolution vers une capacité de raisonnement.\n\nSi son développement semble avoir stagné depuis quelques millénaires, [Root.GetLeaderName] pense qu'il serait néanmoins possible d'user la technologie pour lui permettre de reprendre son développement."
+
+ uplift.6000.savannah.desc:0 "Dans les vastes plaines de §Y[From.GetName]§!, de gracieuses créatures ont été observées, qui recourent à des formes rudimentaires de communication, coopèrent les unes avec les autres pour trouver de la nourriture et éviter les prédateurs qui rôdent sur la [From.GetPlanetMoon]. [Root.GetLeaderName] et l'équipage du [Root.GetName] semblent donc persuadés que ces créatures [presapient_species.GetSpeciesClass]s pourraient être parfaitement adaptées aux technologies développées pour accélérer l'évolution."
+
+ uplift.6000.tundra.desc:0 "Les environnements les plus rudes sont réputés pour provoquer des phénomènes d'adaptation et ainsi faciliter l'évolution. La biosphère froide de §Y[From.GetName]§! semble le confirmer.\n\n[Root.GetLeaderName] s'est notamment pris[Root.Leader.GetXELead] d'intérêt pour une créature [presapient_species.GetSpeciesClass] qui se déplace sans bruit dans les étendues glaciales de la [From.GetPlanetMoon] : selon [Root.Leader.GetLuiElleLead], une aide minime pourrait lui permettre d'atteindre assez aisément la pleine conscience."
+
+ uplift.6000.arctic.desc:0 "Si le climat perpétuellement gelé de §Y[From.GetName]§! est loin d'être hospitalier, la [From.GetPlanetMoon] n'est pas dépourvue de vie pour autant.\n\nDes créatures [presapient_species.GetSpeciesClass]s ont ainsi su évoluer pour faire face à cet environnement, et [Root.GetLeaderName] paraît persuadé[Root.Leader.GetXELead] qu'au moins une de ces espèces pourrait atteindre la conscience si quelques stimuli externes étaient introduits..."
+
+ uplift.6000.alpine.desc:0 "Les immenses chaînes montagneuses qui s'étendent sur la surface de §Y[From.GetName]§! se sont avérées être un environnement particulièrement fertile pour les formes de vie uniques de la [From.GetPlanetMoon].\n\nUne espèce [presapient_species.GetSpeciesClass], en particulier, s'est parfaitement adaptée aux altitudes les plus extrêmes, et a même élaboré une forme de communication basique, quoique assez gutturale. Avec quelques stimuli, ces créatures pourraient visiblement atteindre la pleine conscience."
+
+ uplift.6000.nuked.desc:0 "Si §Y[From.GetName]§! est irradiée de façon très importante, au moins une forme de vie avancée paraît y prospérer. [Root.GetLeaderName] a ainsi rapporté que cette créature [presapient_species.GetSpeciesClass] a démontré des capacités de prise de décision collectives impressionnantes, et que des stimuli extérieurs pourraient lui permettre de poursuivre aisément son évolution."
+
+ uplift.6000.gaia.desc:0 "§Y[From.GetName]§! constitue un environnement quasi parfait pour que la vie s'y développe et évolue. L'abondance des ressources naturelles constitue un cadre fertile pour la faune et la flore locales. Et, au sein de ce véritable paradis, [Root.GetLeaderName] a découvert qu'une espèce [presapient_species.GetSpeciesClass] intelligente a élaboré une proto-société. Elle pourrait donc être appelée à évoluer de façon très rapide."
+
+ uplift.6000.relic.desc:0 "Dans les tours en ruine et les rues abandonnées de §Y[From.GetName]§! erre une forme de vie préconsciente tout à fait intrigante. [Root.GetLeaderName] paraît persuadé[Root.Leader.GetXELead] que cette créature [presapient_species.GetSpeciesClass], petite et intelligente, était autrefois élevée comme animal de compagnie. Après la disparition de ses possesseurs, elle aurait alors évolué de manière rapide, et serait désormais sur le point d'atteindre la pleine conscience si des facteurs externes convenables étaient introduits."
+
+ uplift.6000.fallback.desc:0 "Selon l'équipage du [Root.GetName], une espèce [presapient_species.GetSpeciesClass] originaire de §Y[From.GetName]§! est parvenue à dominer l'environnement de la [From.GetPlanetMoon].\n\n[Root.GetLeaderName] recommande donc de suivre de près son développement, et si possible de la provoluer afin qu'elle puisse atteindre la pleine conscience."
+
+ uplift.6000.a:0 "Oui, nous avons les connaissances pour"
  uplift.6000.b:0 "Nous devrions garder ça à l'esprit"
- uplift.6001.name:0 "Serpentoïdes provolués"
- uplift.6001.desc:0 "On a réussi !\n\nLes §H[From.GetName]§! originaires de [This.GetName] ont été provolués au rang de citoyens de [This.Owner.GetName]."
- uplift.6020.name:0 "Découverte d'une espèce provoluable"
- uplift.6020.desc:0 "L'espèce dominante de §H[From.GetName]§! présente une intelligence hors du commun. L'officier scientifique §Y[Root.GetLeaderName]§! du §Y[Root.GetName]§! pense qu'avec la technologie appropriée, l'évolution de ces créatures pourrait être accélérée."
- uplift.6021.name:0 "Provolution réussie"
- uplift.6021.desc:0 "On a réussi !\n\nLes §H[From.GetName]§! originaires de [This.GetName] ont été provolués au rang de citoyens de la [This.Owner.GetName]."
- uplift.6011.a:0 "'[This.Owner.GetName]' souhaite la bienvenue"
- uplift.6010.name:0 "Élévation au-dessus des eaux"
- uplift.6010.desc:0 "Selon l'équipage du §Y[Root.GetName]§!, actuellement en orbite autour de §H[From.GetName]§!, une espèce locale commence à dominer les petites régions continentales de la planète ainsi que ses vastes océans.\n\nL'officier scientifique §Y[Root.GetLeaderName]§! nous propose de surveiller de près son développement, voire de l'aider, si cela s'avère possible."
- uplift.6011.name:0 "Provolution réussie"
- uplift.6011.desc:0 "Les efforts que nous avons déployés pour accélérer l'évolution des §H[From.GetName]§! ont été couronnés de succès. Des programmes éducatifs ont été mis en place pour les spécimens (aujourd'hui devenus des individus) nés après la provolution, et les aînés se révèlent particulièrement réceptifs au conditionnement psychogénétique."
- uplift.6030.name:0 "Terra firma"
- uplift.6030.desc:0 "Des formes de vie fascinantes peuplent les plaines et les côtes de §H[From.GetName]§!. D'après l'équipage du §Y[Root.GetName]§!, ces créatures qui utilisent des outils rudimentaires pourraient peut-être devenir des êtres doués de raison.\n\nL'officier scientifique §Y[Root.GetLeaderName]§! souligne que peu de formes de vie aliens atteignent ce stade de l'évolution, aussi pourrait-il être intéressant de provoluer ces créatures pour les placer à notre service."
- uplift.6031.name:0 "Provolution réussie"
- uplift.6031.desc:0 "L'espèce dominante de §Y[Root.GetName]§!, les §H[From.GetName]§!, a fait l'objet d'une provolution. Peu de modifications génétiques ont été nécessaires pour débloquer leur potentiel inhérent et améliorer leurs capacités cognitives et leur dextérité manuelle. De petits implants cybernétiques compensent le retard des anciennes générations."
- uplift.6040.name:0 "Bienvenue dans la jungle"
- uplift.6040.desc:0 "La végétation tropicale dense de §H[From.GetName]§! dissimule ce que l'officier scientifique §Y[Root.GetLeaderName]§! du §Y[Root.GetName]§! appelle une «protocivilisation».\n\nL'évolution des êtres qui la composent n'a pas encore atteint un stade suffisant pour qu'ils puissent même être qualifiés de primitifs, mais leur ordre social semble reposer sur un début de langage intelligible et une pensée abstraite balbutiante.\n\n§Y[Root.GetLeaderName]§! pense que ces créatures feraient de parfaits cobayes pour tester les technologies visant à accélérer l'évolution."
- uplift.6041.name:0 "Provolution réussie"
- uplift.6041.desc:0 "Les §H[From.GetName]§! ont été provolués pour rejoindre les rangs des citoyens productifs de '§Y[Root.Owner.GetName]§!' et des colons de la planète tropicale §Y[Root.GetName]§!."
- uplift.6050.name:0 "Désert glacé"
- uplift.6050.desc:0 "Certaines espèces peuvent prospérer dans les milieux les plus hostiles, tels la biosphère glaciale de §H[From.GetName]§!.\n\nL'officier scientifique §Y[Root.GetLeaderName]§! s'intéresse tout particulièrement à certaines créatures qui rampent à la surface de cette planète et qui, avec un petit peu d'aide, pourraient accéder à la raison."
- uplift.6051.name:0 "Provolution réussie"
- uplift.6051.desc:0 "L'espèce §H[From.GetName]§! est désormais douée de conscience, et assez intelligente qui plus est.\n\nLa [Root.Owner.GetName] a pris le contrôle de l'espèce et de sa planète natale, §Y[Root.GetName]§!."
- uplift.6060.name:0 "Une espèce de froid et de glace"
- uplift.6060.desc:0 "Le climat glacial de §H[From.GetName]§! n'est pas particulièrement propice au développement d'une forme de vie intelligente - ou de la vie tout court.\n\nPourtant, par le jeu de l'évolution, certaines espèces sont parvenues à s'adapter à ce milieu et à y résister, et l'officier scientifique §Y[Root.GetLeaderName]§! aimerait voir jusqu'où ces êtres pourraient aller si quelques facteurs extérieurs étaient introduits dans l'équation..."
- uplift.6061.name:0 "Provolution réussie"
- uplift.6061.desc:0 "Avec l'aide des [Root.Owner.Species.GetName], l'espèce §H[From.GetName]§!, originaire des plaines glacées de §Y[Root.GetName]§!, a accédé à l'intelligence.\n\nSes membres ont intégré la colonie établie sur §Y[Root.GetName]§!, sa planète natale, en tant que citoyens productifs de la société [Root.Owner.GetAdjective]."
- uplift.6070.name:0 "Sables mouvants"
- uplift.6070.desc:0 "Les créatures qui peuplent les dunes de sable de §H[From.GetName]§! présentent de nombreuses caractéristiques qui devraient leur permettre de développer leurs facultés mentales, voire de devenir des êtres doués de raison.\n\nLe développement de ces espèces semble stagner depuis plusieurs milliers d'années, mais avec les technologies appropriées, nous pourrions peut-être accélérer cette évolution."
- uplift.6071.name:0 "Provolution réussie"
- uplift.6071.desc:0 "Les §H[From.GetName]§! sont désormais la preuve vivante de la domination scientifique et technologique de [Root.Owner.GetName]."
- uplift.6080.name:0 "Découverte d'une espèce préconsciente"
- uplift.6080.desc:0 "Selon l'équipage du §Y[Root.GetName]§!, actuellement en orbite de §Y[From.GetName]§!, une espèce locale a commencé à dominer ce monde.\n\nL'officier scientifique §Y[Root.GetLeaderName]§! envisage de surveiller de près son développement, et pourquoi pas même s'impliquer dans le processus."
- uplift.6081.name:0 "Provolution réussie"
- uplift.6081.desc:0 "Les §H[From.GetName]§! sont désormais la preuve vivante de la domination scientifique et technologique de [Root.Owner.GetName]."
- uplift.6090.name:0 "Rampants en surface"
- uplift.6090.desc:0 "Bien que la planète §H[From.GetName]§! soit totalement irradiée, au moins une forme de vie avancée s'y est développée. Peut-être est-ce sa nature d'arthropode qui parle, mais l'officier scientifique §Y[Root.GetLeaderName]§! indique que ces créatures présentent une intelligence collective impressionnante, et indique qu'une stimulation extérieure pourrait leur permettre d'atteindre des sommets en termes d'évolution."
- uplift.6091.name:0 "Provolution réussie"
- uplift.6091.desc:0 "L'élévation des modestes §H[From.GetName]§! leur a permis de rejoindre le [Root.Owner.GetName]."
+
+# Pre-Sapients Uplifted
+ uplift.6010.name:1 "Provolution réussie"
+
+ uplift.6010.continental.desc:0 "L'espèce [From.GetName], dominante sur §Y[Root.GetName]§!, a fait l'objet d'une provolution. Peu de modifications génétiques ont été nécessaires pour débloquer son potentiel inhérent et améliorer ses capacités cognitives et sa dextérité manuelle, tandis que les membres des générations précédentes vont être équipés de petits implants cybernétiques."
+
+ uplift.6010.ocean.desc:0 "Sur §Y[Root.GetName]§!, les efforts déployés pour accélérer l'évolution de l'espèce [From.GetName] ont été couronnés de succès. Des programmes éducatifs ont été mis en place pour les spécimens (ou plutôt des individus, désormais) nés après la provolution, et les plus âgés se révèlent particulièrement réceptifs au conditionnement psychogénétique."
+
+ uplift.6010.tropical.desc:0 "Les [From.GetName] ont été provolués pour rejoindre les rangs des citoyens productifs de la [Root.Owner.GetName] et des colons de la planète tropicale [Root.GetName]."
+
+ uplift.6010.arid.desc:0 "C'est une franche réussite !\n\nL'espèce [From.GetName] de §Y[Root.GetName]§! a été provoluée, et ses membres peuvent désormais devenir des habitants à part entière de la [Root.Owner.GetName]."
+
+ uplift.6010.desert.desc:0 "Les [From.GetName] sont désormais la preuve vivante de la domination scientifique et technologique de [Root.Owner.GetName]."
+
+ uplift.6010.savannah.desc:0 "Les efforts faits sur §Y[Root.GetName]§! pour provoluer l'espèce [From.GetName] ont porté leurs fruits : grâce à quelques modifications somme toute mineures apportées à son code génétique, ses capacités cognitives ont pu être augmentées de façon importante."
+
+ uplift.6010.tundra.desc:0 "L'espèce [From.GetName] est désormais douée de conscience, et qui plus est assez intelligente. La [Root.Owner.GetName] a donc étendu sa protection sur elle et sur sa [Root.GetPlanetMoon] natale, §Y[Root.GetName]§!."
+
+ uplift.6010.arctic.desc:0 "Avec l'aide des [Root.Owner.GetSpeciesName], les [From.GetName] issus des plaines glacées de [Root.GetName] sont devenus des êtres doués de raison.\n\nIls ont rejoint notre colonie de [Root.GetName], leur planète natale, en tant que membres productifs de la société [Root.Owner.GetName]."
+
+ uplift.6010.alpine.desc:0 "Les modifications génétiques faites à l'espèce [From.GetName] lui ont permis d'accéder à la pleine conscience. Ses membres peuvent désormais contempler les étoiles depuis les montagnes de §Y[Root.GetName]§! en ayant véritablement conscience d'eux-mêmes."
+
+ uplift.6010.nuked.desc:0 "Depuis ses humbles origines, la modeste espèce [From.GetName] de §Y[Root.GetName]§! a désormais été provoluée, et ses membres peuvent désormais intégrer la [Root.Owner.GetName]."
+
+ uplift.6010.gaia.desc:0 "Grâce aux efforts accomplis par la [Root.Owner.GetName], l'espèce [From.GetName] a été provoluée. Quelle merveille pour elle de pouvoir enfin prendre conscience que son monde, §Y[Root.GetName]§!, est un véritable paradis !"
+
+ uplift.6010.relic.desc:0 "Sur tout son monde jonché de ruines, l'espèce [From.GetName], de §Y[Root.GetName]§!, s'est éveillée de sa longue léthargie. Les efforts faits pour la provoluer ont été un véritable succès."
+
+ uplift.6010.fallback.desc:0 "Désormais provoluée, ayant accédé à la pleine conscience, l'espèce [From.GetName] de §Y[Root.GetName]§! sera dorénavant une preuve vivante de la supériorité scientifique et technologique de la [Root.Owner.GetName]."
+
+ uplift.6010.a:1 "La [This.Owner.GetName] leur souhaite la bienvenue"
+ uplift.6010.tt:0 "Pour la §Y[This.Owner.GetName]§! : §Y+50§!£influence£"
 
  ####################################
  # Followup Events
  ####################################
 
  uplift.7000.name:0 "Suites de la provolution"
- uplift.7000.desc:0 "Cela fait quelque temps déjà que l'espèce [From.From.From.GetName] est parmi nous, et tout semble se passer pour le mieux sur §Y[From.GetName]§!."
+ uplift.7000.desc:0 "Cela fait déjà plusieurs jours que les [From.From.From.GetName] sont parmi nous.\n\nEt tout va pour le mieux sur la planète [From.GetName]."
  uplift.7010.name:0 "Des débuts difficiles"
- uplift.7010.desc:0 "L'intégration de l'espèce [From.From.From.GetName] que nous avons provoluée se passe mieux que ce à quoi nous nous attendions, mais moins facilement que nous l'avions espéré.\n\nEn dépit des efforts déployés pour adoucir leur caractère, ses membres ont parfois encore du mal à s'adapter au mode de vie de '§Y[From.Owner.GetName]§!'."
+ uplift.7010.desc:0 "L'intégration des [From.From.From.GetName] que nous avons provolués se passe relativement bien, même si nous espérions mieux.\n\nEn dépit des efforts que nous avons déployés pour adoucir leur caractère, les [From.From.From.GetName] ont encore parfois du mal à s'adapter au mode de vie de la [From.Owner.GetName]."
 
  ####################################
  # Ethics Events
@@ -1953,3 +1975,44 @@
  nomad.10.desc.comms:0 "$nomad.10.desc.general$\n\nVous n'êtes pas les premiers à revendiquer les vastes espaces que nous traversons. Vous n'êtes pas les premiers, et sûrement pas les derniers.\n\nNous avons été en contact avec certains d'entre eux récemment, et nous sommes prêts à §Ypartager nos communications§! avec vous."
  nomad.12.desc:0 "Salutations, [Root.GetRulerTitle] [Root.GetAdj]. Nous en avons rencontré d'autres qui, comme vous, cherchaient désespérément à dominer les cailloux glacés qui flottent à travers l'espace.\n\nNous pensons que vous avez peut-être des points communs et sommes prêts à §Ypartager nos communications§! avec vous."
  nomad.12.a:0 "Protocoles reçus."
+ anomaly.169.b.tooltip:0 "§YRÉFORMEZ LE GOUVERNEMENT§! sur-le-champ pour adopter le §YMANDAT DIVIN§!."
+ uplift.6000.name:0 "Espèce ophidienne"
+ uplift.6000.desc:0 "D'après l'équipage du [Root.GetName], l'espèce dominante de [From.GetName] est une race de serpents relativement grands qui a atteint le sommet de la chaîne alimentaire grâce à sa grande intelligence, même si celle-ci reste animale.\n\nL'officier scientifique [Root.GetLeaderName] a constaté de nombreuses similitudes entre l'état actuel de cette espèce et les dernières étapes de l'évolution des [Root.Owner.GetSpeciesName], avant que nous devenions des êtres doués de raison.\n\nAvec la technologie appropriée, nous pourrions peut-être provoluer ces créatures inférieures pour en faire des êtres intelligents."
+ uplift.6001.name:0 "Serpentoïdes provolués"
+ uplift.6001.desc:0 "On a réussi !\n\nLes [From.GetName] originaires de [This.GetName] ont été provolués au rang de citoyens de [This.Owner.GetName]."
+ uplift.6020.name:0 "Découverte d'une espèce provoluable"
+ uplift.6020.desc:0 "L'espèce dominante de [From.GetName] présente une intelligence hors du commun. L'officier scientifique [Root.GetLeaderName] du [Root.GetName] pense qu'avec la technologie appropriée, l'évolution de ces créatures pourrait être accélérée."
+ uplift.6021.name:0 "Provolution réussie"
+ uplift.6021.desc:0 "On a réussi !\n\nLes [From.GetName] originaires de [This.GetName] ont été provolués au rang de citoyens de la [This.Owner.GetName]."
+ uplift.6011.a:0 "La [This.Owner.GetName] leur souhaite la bienvenue"
+ uplift.6010.desc:0 "Selon l'équipage du [Root.GetName], actuellement en orbite autour de [From.GetName], une espèce locale commence à dominer les petites régions continentales de la planète ainsi que ses vastes océans.\n\nL'officier scientifique [Root.GetLeaderName] nous propose de surveiller de près son développement, voire de l'aider, si cela s'avère possible."
+ uplift.6011.name:0 "Provolution réussie"
+ uplift.6011.desc:0 "Les efforts que nous avons déployés pour accélérer l'évolution des [From.GetName] ont été couronnés de succès. Des programmes éducatifs ont été mis en place pour les spécimens (aujourd'hui devenus des individus) nés après la provolution, et les aînés se révèlent particulièrement réceptifs au conditionnement psychogénétique."
+ uplift.6030.name:0 "Terra firma"
+ uplift.6030.desc:0 "Des formes de vie fascinantes peuplent les plaines et les côtes de [From.GetName]. D'après l'équipage du [Root.GetName], ces créatures qui utilisent des outils rudimentaires pourraient peut-être devenir des êtres doués de raison.\n\nL'officier scientifique [Root.GetLeaderName] souligne que peu de formes de vie aliens atteignent ce stade de l'évolution ; il pourrait donc être intéressant de provoluer ces créatures pour en faire nos sujets."
+ uplift.6031.name:0 "Provolution réussie"
+ uplift.6031.desc:0 "L'espèce dominante de [Root.GetName], les [From.GetName], a fait l'objet d'une provolution. Peu de modifications génétiques ont été nécessaires pour débloquer leur potentiel inhérent et améliorer leurs capacités cognitives et leur dextérité manuelle. De petits implants cybernétiques compensent le retard des anciennes générations."
+ uplift.6040.name:0 "Bienvenue dans la jungle"
+ uplift.6040.desc:0 "La végétation tropicale dense de [From.GetName] dissimule ce que l'officier scientifique [Root.GetLeaderName] du [Root.GetName] appelle une « protocivilisation ».\n\nL'évolution des êtres qui composent cette protocivilisation n'a pas encore atteint un stade suffisant pour qu'ils soient qualifiés de primitifs, mais leur ordre social semble reposer sur un début de langage intelligible et de pensée abstraite.\n\nL'officier scientifique [Root.GetLeaderName] pense que ces créatures feraient de bons cobayes pour tester les technologies d'accélération de l'évolution."
+ uplift.6041.name:0 "Provolution réussie"
+ uplift.6041.desc:0 "Les [From.GetName] ont été provolués pour rejoindre les rangs des citoyens productifs de la [Root.Owner.GetName] et des colons de la planète tropicale [Root.GetName]."
+ uplift.6050.name:0 "Désert glacé"
+ uplift.6050.desc:0 "Certaines espèces prospèrent en milieux hostiles, comme la biosphère glaciale de [From.GetName].\n\nL'officier scientifique [Root.GetLeaderName] s'intéresse tout particulièrement à certaines créatures de cette planète qui, avec un petit coup de pouce, pourraient devenir des êtres doués de raison."
+ uplift.6051.name:0 "Provolution réussie"
+ uplift.6051.desc:0 "Les [From.GetName] sont désormais doués de raison et leur intelligence est très étonnante.\n\nCette espèce et sa planète natale, [Root.GetName], sont désormais sous le contrôle du [Root.Owner.GetName]."
+ uplift.6060.name:0 "Espèce adaptée à un climat glacial"
+ uplift.6060.desc:0 "Le climat glacial de [From.GetName] n'est pas particulièrement propice au développement d'une forme de vie intelligente, ni même d'aucune autre forme de vie.\n\nPourtant, au fil de leur évolution, certaines espèces se sont adaptées à ce milieu. L'officier scientifique [Root.GetLeaderName] aimerait voir jusqu'où ces êtres pourraient aller avec un petit coup de pouce extérieur..."
+ uplift.6061.name:0 "Provolution réussie"
+ uplift.6061.desc:0 "Avec l'aide des [Root.Owner.GetSpeciesName], les [From.GetName] issus des plaines glacées de [Root.GetName] sont devenus des êtres doués de raison.\n\nIls ont rejoint notre colonie de [Root.GetName], leur planète natale, en tant que membres productifs de la société [Root.Owner.GetName]."
+ uplift.6070.name:0 "Sables mouvants"
+ uplift.6070.desc:0 "Les créatures qui peuplent les dunes de sable de [From.GetName] présentent de nombreuses caractéristiques qui devraient leur permettre de développer leurs facultés mentales, voire de devenir des êtres doués de raison.\n\nLe développement de ces espèces semble stagner depuis plusieurs milliers d'années, mais avec les technologies appropriées, nous pourrions peut-être accélérer cette évolution."
+ uplift.6071.name:0 "Provolution réussie"
+ uplift.6071.desc:0 "Les [From.GetName] sont désormais la preuve vivante de la domination scientifique et technologique de [Root.Owner.GetName]."
+ uplift.6080.name:0 "Découverte d'une espèce préintelligente"
+ uplift.6080.desc:0 "Selon l'équipage du [Root.GetName], actuellement en orbite autour de [From.GetName], une espèce locale commence à dominer la planète.\n\nL'officier scientifique [Root.GetLeaderName] nous propose de surveiller de près son développement, voire de l'aider, si cela s'avère possible."
+ uplift.6081.name:0 "Provolution réussie"
+ uplift.6081.desc:0 "Les [From.GetName] sont désormais la preuve vivante de la domination scientifique et technologique de [Root.Owner.GetName]."
+ uplift.6090.name:0 "Rampants en surface"
+ uplift.6090.desc:0 "Bien que la planète [From.GetName] soit totalement irradiée, au moins une forme de vie avancée s'y est développée. Peut-être est-ce sa nature d'arthropode qui parle, mais l'officier scientifique [Root.GetLeaderName] indique que ces créatures présentent une intelligence collective impressionnante, et indique qu'une stimulation extérieure pourrait leur permettre d'atteindre des sommets en termes d'évolution."
+ uplift.6091.name:0 "Provolution réussie"
+ uplift.6091.desc:0 "L'élévation des modestes [From.GetName] leur a permis de rejoindre le [Root.Owner.GetName]."

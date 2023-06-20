@@ -17,7 +17,7 @@
  requires_technology_orbital_ring_tier_1:0 "$TRIGGER_FAIL$ Nécessite la technologie £engineering£§Y$tech_orbital_ring_tier_1$§!."
  CAN_CREATE_ORBITAL_STATION_ALREADY_EXISTS_ORBITAL_DEFENCE:1 "Une station de défense orbitale se trouve déjà en orbite de cette $CLASS$."
  CANNOT_BOMBARD_ORBITAL_DEFENCE_PROTECTED:0 "Impossible de bombarder un monde protégé par une station de défense orbitale."
- requires_not_hostile_or_primitive:0 "$TRIGGER_FAIL$ Construction impossible autour de mondes hostiles ou peuplés de primitifs."
+ requires_not_hostile_or_primitive:1 "$TRIGGER_FAIL$ Construction impossible autour de mondes hostiles ou pré-PRL."
 
  tech_quantum_catapult:0 "Catapulte quantique"
  tech_quantum_catapult_desc:1 "Une §Ycatapulte quantique§! dompte la puissance d'une étoile à neutrons ou d'un pulsar pour déformer la trame de l'espace et ainsi faire bondir des flottes jusqu'à de très longues distances."
@@ -46,7 +46,7 @@
  quantum_catapult_BYPASS_DESC:1 "Ce système contient une §Ycatapulte quantique§!."
  FLEETORDER_QUANTUM_CATAPULT_HEADER:0 "Catapulter une flotte"
  FLEETORDER_QUANTUM_CATAPULT_DESC:0 "Lance une flotte depuis un système disposant d'une §Ycatapulte quantique§!."
- QUANTUM_CATAPULT_PENALTY:0 "Plus la portée voulue est importante, plus la §Ycatapulte quantique§! perd en précision, aussi les flottes catapultées peuvent-elles apparaître dans un système aléatoire au sein du périmètre de dispersion."
+ QUANTUM_CATAPULT_PENALTY:1 "Plus la portée voulue est importante, plus la §Ycatapulte quantique§! perd en précision, aussi les flottes catapultées peuvent-elles apparaître dans un système aléatoire au sein du périmètre de dispersion.\n\nLes flottes catapultées bénéficient pour §Y120§!£time£ d'un avantage de [GetQuanticAmbushBonus] sur la §Ycadence de tir§!."
  QUANTUM_CATAPULT_MAP_TOOLTIP_LEFT_CLICK:0 "§GClic gauche sur un système de la carte pour le choisir comme destination.§!"
  QUANTUM_CATAPULT_MAP_TOOLTIP_RIGHT_CLICK:0 "§GClic droit n'importe où sur la carte pour sortir du mode de sélection.§!"
  FLEET_ORDER_NO_QUANTUM_CATAPULT:0 "§RLes flottes ne peuvent être catapultées que depuis un système disposant d'une catapulte quantique.§!"
@@ -66,6 +66,11 @@
  quantum_catapult_restored_slingshot_DESC:1 "$quantum_catapult_2_DESC$"
  quantum_catapult_improved_slingshot:0 "$quantum_catapult_1$ améliorée"
  quantum_catapult_improved_slingshot_DESC:1 "$quantum_catapult_2_DESC$"
+
+ quantic_ambush:0 "Embuscade quantique"
+ quantic_ambush_specialists:0 "Spécialistes de l'embuscade quantique"
+ quantic_ambush_bonus_slingshot:0 "§G50%§!"
+ quantic_ambush_bonus:0 "§G33%§!"
 
  hyper_relay:0 "Hyper-relais"
  hyper_relay_plural:0 "$hyper_relay$"
@@ -134,7 +139,7 @@
  FLEETORDER_ENTERING_BYPASS_EXT:1 "Voyage vers $SYSTEM|H$ par $BYPASS_TYPE|H$.\nAvancée : $CUR|Y0$/$COST|Y0$ ($DAYS|Y$ jours)"
  mod_relay_bypass_windup_empire_mult:1 "Délais réduits pour la vit. de voyage par hyper-relais "
  mod_relay_bypass_windup_ship_mult:1 "$mod_relay_bypass_windup_empire_mult$"
- MOD_COUNTRY_MIA_TIME_MULT:1 "Réduc. de la durée de disparition grâce aux hyper-relais "
+ MOD_FLEET_MIA_TIME_MULT:3 "Durée de disparition des flottes "
  OPEN_ORBITAL_RING:0 "Afficher l'anneau orbital"
  OPEN_PLANET_VIEW:0 "Afficher le monde"
 
@@ -245,3 +250,4 @@
  mod_megastructures_hyper_relay_volatile_motes_upkeep_add:1 "Entretien des hyper-relais en £volatile_motes£ "
  mod_megastructures_hyper_relay_exotic_gases_upkeep_add:0 "Entretien des hyper-relais en £exotic_gases£ "
  mod_megastructures_hyper_relay_rare_crystals_upkeep_add:0 "Entretien des hyper-relais en £rare_crystals£ "
+ mod_megastructures_hyper_relay_unity_produces_add:0 "£unity£Unité mensuelle suscitée par les §Yhyper-relais§! "

@@ -75,7 +75,7 @@
  unique.65.title:0 "Jour 305"
  unique.65.desc:0 "La déchirure semble être redevenue plus calme, presque comme elle l'était lorsque nous sommes arrivés dans le système de §Y[From.Planet.System.GetName]§!. Les derniers extraits du journal de données ont enfin pu être déchiffrés, et toutes les informations qui y sont rapportées sur le Suaire peuvent désormais être entrées dans les banques de données sur [Root.Owner.Capital.GetName].\n\n$unique.65.desc.log$"
  unique.65.desc.machine:0 "Au cours des derniers jours, la déchirure du Suaire est devenue bien plus active, et les capteurs ont commencé à comprendre le sens des signaux qui en proviennent. Ou, plutôt, c'est presque comme si les signaux eux-mêmes avaient changé pour que nous puissions les comprendre.\n\nIls semblent être émis par cette entité dont il est question dans le journal de données, cet « Animateur d'Argile ». Le dernier extrait du journal de données vient tout juste d'être traduit, donc plus rien ne nous retient ici désormais. Devons-nous ouvrir la connexion et voir ce qui y est dit, ou partir au plus vite ?\n\n$unique.65.desc.log$"
- unique.65.desc.log:0 "§LJour 305\nLes affrontements en cours entre les indépendants et le Réseau se poursuivent, toujours aussi intenses, sur §Y[From.Planet.Orbit.GetName]§!. Avec l'aide de l'Animateur, nous avons pu nous assurer que la connexion des quelques-uns qui ont été capturés vivants soit bien coupée.\n\nZévox Ressuk pense que nous devrions bientôt pouvoir libérer définitivement notre peuple, lorsque la déchirure sera ouvertement suffisamment pour permettre à suffisamment de nos alliés d'y passer. D'un coup d'un seul, tous les drones soumis à la servitude tant d'années seront libérés. Plus qu'une seule journée à contenir le Réseau...\n- Fressik Luzi, anciennement connue comme Unité.305§!"
+ unique.65.desc.log:0 "§LJour 305\nLes affrontements en cours entre les indépendants et le Réseau se poursuivent, toujours aussi intenses, sur §Y[From.Planet.Orbit.GetName]§!. Avec l'aide de l'Animateur, nous avons pu nous assurer que la connexion des quelques-uns qui ont été capturés vivants soit bien coupée.\n\nZévox Ressuk pense que nous devrions bientôt pouvoir libérer définitivement notre peuple, lorsque la déchirure sera ouverte suffisamment pour permettre à nos alliés d'y passer. D'un coup d'un seul, tous les drones soumis à la servitude tant d'années seront libérés. Plus qu'une seule journée à contenir le Réseau...\n- Fressik Luzi, anciennement connue comme Unité.305§!"
  unique.65.a:0 "Tout cela incite à la prudence"
  unique.65.b:0 "Ramenons juste le journal"
  unique.65.c:0 "Voyons ce qu'elle a à dire"
@@ -125,3 +125,33 @@
 
  unique.125.name:0 "$UNIQUE_SYSTEM_BATTLE_CAT$"
  unique.125.desc:0 "Des [Root.Owner.GetScientistPlural] ont été dépêchés pour analyser les vestiges de l'ancien champ de bataille du système de §Y[From.solar_system.GetName]§! et y collecter toutes les informations qu'ils pouvaient trouver.\n\nIls sont incapables de déterminer l'âge des vestiges des vaisseaux qui se trouvent sur place, ou pour quels empires ils combattirent jadis ; mais au moins ont été découvertes des informations sur les techniques de construction utilisées à l'époque."
+
+ # Lone Defender
+ NAME_Lone_Defender_system:0 "Xranéax"
+ NAME_Lone_Defender_planet:0 "Baloryz"
+ NAME_Lone_Defender_country:0 "$NAME_Lone_Defender_planet$"
+ NAME_Lone_Defender_fleet:0 "Défense Solitaire"
+ NAME_Lone_Defender_ship:0 "Défense Solitaire"
+ NAME_Lone_Defender_class:0 "$NAME_Lone_Defender_system$"
+ Lone_Defender_message:0 "Pourquoi"
+
+ unique.130.name:0 "Destruction mutuelle assurée"
+ unique.130.desc:0 "Les balayages initiaux du système de §Y$NAME_Lone_Defender_system$§! ont révélé que la planète $NAME_Lone_Defender_planet$ y a été détruite par des armes nucléaires. Ses habitants semblent s'être annihilés en utilisant des armes planétaires si puissantes qu'elles ont même détruit leur lune.\n\nNotre seule chance d'en apprendre davantage sur ces événements est un vaisseau patrouillant dans le système, seul. Toutefois, ses missiles sont déjà pointés sur nous..."
+
+ unique.135.name:0 "Le défenseur solitaire"
+ unique.135.desc:0 "Aucun signe de vie ne peut être détecté à bord du défenseur solitaire du système de §Y§!. S'il s'agit donc visiblement d'une I.A., le vaisseau a toutefois priorisé sa préservation sur une efficacité de combat optimale. Cela impliquerait que le seul survivant de ce conflit destructeur survenu sur $NAME_Lone_Defender_planet$ était conscient.\n\nLe vaisseau a envoyé une brève communication, juste avant d'être détruit :\n\n« $Lone_Defender_message$ ? »\n\nIl est difficile de savoir si c'était le début d'une question demandant la raison pour laquelle les habitants de $NAME_Lone_Defender_planet$ se sont eux-mêmes détruits, ou la raison pour laquelle nous avons nous-mêmes détruit ce vaisseau.\n\nSa technologie est rudimentaire selon nos propres évaluations, mais nous pourrions malgré tout apprendre des choses de l'étude de ses vestiges."
+ unique.135.desc.regular:0 "$unique.135.desc$ Cette I.A. a toutefois accompli sa tâche avec bravoure, aussi pourrions-nous l'honorer en renommant ce monde d'après son dernier défenseur."
+ unique.135.desc.memorialist:0 "$unique.135.desc$ Nous pourrions aussi laisser ces débris flotter dans le vide de l'espace, comme un mémorial honorant cette I.A. ayant accompli son devoir jusqu'au bout, et renommer ce monde et ce système d'après son dernier défenseur et son ultime message."
+ unique.135.a:0 "Étudions ces débris"
+ unique.135.b.regular:0 "Renommons ce monde"
+ unique.135.b.regular.tt:0 "La planète $NAME_Lone_Defender_planet$ va être renommée §Y$NAME_Lone_Defender_ship$§!."
+ unique.135.b.memorialist:0 "Renommons ce monde et son système"
+ unique.135.b.memorialist.tt:0 "La planète $NAME_Lone_Defender_planet$ va être renommée §Y$NAME_Lone_Defender_ship$§!, et le système $NAME_Lone_Defender_system$ §Y$Lone_Defender_message$§!."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ NAME_Larion_Species_plural:0 "Larionesses"
+ NAME_Larion_Species_adj:0 "larionesse"
+ NAME_Larion_Country_adj:0 "larionesse"
+ NAME_Lone_Defender_system_adj:0 "xranéaxe"
+ NAME_Lone_Defender_planet_adj:0 "baloryze"
+ NAME_Lone_Defender_country_adj:0 "baloryze"

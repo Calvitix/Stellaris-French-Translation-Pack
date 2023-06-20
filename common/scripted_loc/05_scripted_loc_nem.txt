@@ -221,6 +221,32 @@ defined_text = {
 	}
 }
 
+# GDF or Imperial Armada
+defined_text = {
+	name = GetDefenseForceOrArmada
+	text = {
+		trigger = { has_galactic_emperor = no }
+		localization_key = DEFENSE_FORCE
+	}
+	text = {
+		trigger = { has_galactic_emperor = yes }
+		localization_key = IMPERIAL_ARMADA
+	}
+}
+
+# GDF or Imperial Armada
+defined_text = {
+	name = GetGDFOrArmada
+	text = {
+		trigger = { has_galactic_emperor = no }
+		localization_key = GDF
+	}
+	text = {
+		trigger = { has_galactic_emperor = yes }
+		localization_key = IMPERIAL_ARMADA
+	}
+}
+
 #Starbase scope (uses event target)
 defined_text = {
 	name = GetSabotagedStarbaseTitle

@@ -3,7 +3,7 @@
  # Diplomacy text
  ####################################
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.5.0 Check OK, 23/09/2022
+# Calvitix 3.8.4 Check OK, 15/06/2023
 #
  
  01_FALLEN_MACHINE_EMPIRE_ANGRY_GREETING:0 "Note d'information : protocoles de châtiment activés. Déploiement imminent des moyens militaires dans l'espace de '§Y[From.GetName]§!'."
@@ -2429,3 +2429,43 @@
  MI_REJECT_BREAK_SECRET_FEALTY:0 "Négatif. L'analyse de risque montre que malgré votre méfiance, votre valeur est trop importante pour que le collectif y renonce."
  HM_REJECT_BREAK_SECRET_FEALTY:0 "'§Y[Root.GetName]§!' ne peut accepter une telle chose. Cela ne ferait que susciter la discorde."
  FP_REJECT_BREAK_SECRET_FEALTY:0 "Sales [From.GetSpeciesNamePluralInsult], ne croyez surtout pas que nous vous laisserons ainsi échapper à vos obligations."
+ 
+ PRE_FTL_UNAWARE_GREETING_01:1 "..."
+ PRE_FTL_UNAWARE_GREETING_02:0 "..."
+ PRE_FTL_PARTAWARE_GREETING_HIVE_01:0 "..."
+ PRE_FTL_PARTAWARE_GREETING_HIVE_02:0 "..."
+ PRE_FTL_PARTAWARE_GREETING_01:0 "..."
+
+ PRE_FTL_FRIENDLY_GREETING_01:0 "Que pouvons-nous faire pour nos amis des étoiles ?"
+ PRE_FTL_SPIRITUALIST_GREETING_01:0 "Nous vous saluons, ambassadeurs célestes !"
+ 
+ 01_SELECT_REVEAL_PRESENCE:1 "..."
+ 01_PROPOSE_REVEAL_PRESENCE:1 "Il est temps pour les [Root.GetSpeciesNamePlural] d'apprendre qu'ils ne sont pas seuls dans la galaxie."
+ 01_ACCEPT_REVEAL_PRESENCE:0 "Nous ne sommes pas seuls !"
+ 
+ 01_SELECT_SOCIETAL_ENLIGHTENMENT:0 "Voudriez-vous nous apprendre vos usages ?"
+ 01_PROPOSE_SOCIETAL_ENLIGHTENMENT:1 "Nous allons enseigner à la [Root.GetName] notre vision sur l'univers."
+ 01_ACCEPT_SOCIETAL_ENLIGHTENMENT:1 "Nous apprendrons de vous tout ce que nous pourrons."
+ 
+ 01_SELECT_STOP_SOCIETAL_ENLIGHTENMENT:0 "Pourquoi arrêter maintenant ? Nous avons encore tant à apprendre !"
+ 01_PROPOSE_STOP_SOCIETAL_ENLIGHTENMENT:1 "Nous ne souhaitons plus illuminer socialement la [Root.GetName]."
+ 01_ACCEPT_STOP_SOCIETAL_ENLIGHTENMENT:1 "Nous ne pouvons que le déplorer."
+ 
+ 01_SELECT_OPEN_TECHNOLOGICAL_ENLIGHTENMENT:1 "Vos éclairages technologiques seraient une aide précieuse pour nous."
+ 01_PROPOSE_OPEN_TECHNOLOGICAL_ENLIGHTENMENT:1 "Nous allons partager notre technologie avec la [Root.GetName]."
+ 01_ACCEPT_OPEN_TECHNOLOGICAL_ENLIGHTENMENT:1 "Nous acceptons avec plaisir votre technologie."
+  
+ 01_SELECT_STOP_OPEN_TECHNOLOGICAL_ENLIGHTENMENT:1 "Pourquoi donc souhaitez-vous étouffer notre développement technologique ?"
+ 01_PROPOSE_STOP_OPEN_TECHNOLOGICAL_ENLIGHTENMENT:1 "Nous ne pensons plus que cet échange d'idées avec la [Root.GetName] est dans notre intérêt."
+ 01_ACCEPT_STOP_OPEN_TECHNOLOGICAL_ENLIGHTENMENT:1 "Vous reprenez donc ce présent que vous nous aviez fait... Nous en prenons bonne note..."
+ 
+ 01_SELECT_PRE_FTL_TRADE:0 "$01_FORM_COMMERCIAL_PACT_SELECT$"
+ 01_PROPOSE_PRE_FTL_TRADE:0 "$01_FORM_COMMERCIAL_PACT_PROPOSE$"
+ 01_ACCEPT_PRE_FTL_TRADE:0 "$01_FORM_COMMERCIAL_PACT_ACCEPT$"
+ 
+ 01_SELECT_STOP_PRE_FTL_TRADE:0 "$01_BREAK_COMMERCIAL_PACT_SELECT$"
+ 01_PROPOSE_STOP_PRE_FTL_TRADE:0 "$01_BREAK_COMMERCIAL_PACT_PROPOSE$"
+ 01_ACCEPT_STOP_PRE_FTL_TRADE:0 "$01_BREAK_COMMERCIAL_PACT_ACCEPT$"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ 01_SElECT_STOP_SOCIETAL_ENLIGHTENMENT:0 "Pourquoi arrêter maintenant ? Nous avons encore tant à apprendre !"

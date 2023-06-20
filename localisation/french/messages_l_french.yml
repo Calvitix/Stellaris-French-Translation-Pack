@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.5 : 23.09.2022
+ # Update check for 3.8.4 : 18.06.2023
  # Translation check : 23.09.2022
  ####################################
 
@@ -26,20 +26,20 @@
  ####################################
  # Fleet Orders
  ####################################
- MESSAGE_FLEET_ORDER_FINISH_BUILD_ORBITAL_STATION:0 "Le vaisseau §H$FLEET$§! a terminé la construction d'une $SHIPCLASS|Y$ en orbite de $PLANET|Y$."
- MESSAGE_FLEET_ORDER_ANOMALY:0 "Le vaisseau scientifique §H$FLEET$§! a découvert une §Hanomalie§! sur $PLANET|Y$."
- MESSAGE_FLEET_ORDER_FINISH_BUILD_SPACE_STATION:0 "Le vaisseau §H$FLEET$§! a terminé la construction d'une $SHIPCLASS|Y$ dans le système de $STAR|Y$."
- MESSAGE_FLEET_ORDER_ANALYZE_FAIL:0 "Le vaisseau §H$FLEET$§! n'a pas réussi à analyser la traînée PRL."
- MESSAGE_FLEET_ORDER_ANALYZE_FINISH:0 "Le vaisseau §H$FLEET$§! a analysé la traînée PRL."
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_ORBITAL_STATION:0 "Le vaisseau §Y$FLEET$§! a terminé la construction d'une $SHIPCLASS|Y$ en orbite de $PLANET|Y$."
+ MESSAGE_FLEET_ORDER_ANOMALY:0 "Le vaisseau scientifique §Y$FLEET$§! a découvert une §Hanomalie§! sur $PLANET|Y$."
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_SPACE_STATION:0 "Le vaisseau §Y$FLEET$§! a terminé la construction d'une $SHIPCLASS|Y$ dans le système de $STAR|Y$."
+ MESSAGE_FLEET_ORDER_ANALYZE_FAIL:0 "Le vaisseau §Y$FLEET$§! n'a pas réussi à analyser la traînée PRL."
+ MESSAGE_FLEET_ORDER_ANALYZE_FINISH:0 "Le vaisseau §Y$FLEET$§! a analysé la traînée PRL."
  MESSAGE_FLEET_SYSTEM_FULLY_SURVEYED:0 "Le système de $SYSTEM|Y$ a été entièrement reconnu."
  MESSAGE_FLEET_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "Mission de la flotte achevée"
  MESSAGE_SYSTEM_SURVEYED_TITLE:0 "Système reconnu"
  AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE:0 "Ordre de la flotte annulé"
- MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED:1 "Notre $FLEET|H$ a mis fin à sa mission de reconnaissance automatique car soit elle ne peut atteindre, soit elle ne peut trouver aucun autre système n'ayant pas encore été reconnu."
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED:3 "Notre $FLEET|H$ a mis fin à ses missions scientifiques autonomes car aucune nouvelle ne peut être trouvée ou menée à bien."
  AUTO_EXPLORE_FALLBACK_MESSAGE_TYPE_TITLE:0 "Retour en phase d'exploration"
  MESSAGE_FLEET_ORDER_AUTO_EXPLORE_FALLBACK:0 "Notre $FLEET|H$ ne peut atteindre aucun système non reconnu mais va relancer l'exploration afin d'en découvrir de nouveaux."
  FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE:0 "$AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE$"
- MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE:0 "Notre $FLEET|H$ n'a pas pu construire la $STATION|H$ du système de $SYSTEM|H$. Les ressources ont été remises en réserve."
+ MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE:0 "Notre $FLEET|Y$ n'a pas pu construire la $STATION|H$ du système de $SYSTEM|Y$. Les ressources ont été remises en réserve."
  MESSAGE_BYPASS_EXPLORED:0 "Trou de ver exploré"
  BYPASS_EXPLORED_MESSAGE:0 "Le trou de ver du système de $SYSTEM1|Y$ a été entièrement exploré. Il est en relation directe avec le système de $SYSTEM2|Y$."
  MESSAGE_ESN_ARRIVED_TITLE:0 "Expérimentation de navigation subspatiale"
@@ -207,6 +207,12 @@
  MESSAGE_BREAK_SUPPORT_TITLE:0 "Fin du soutien à l'indépendance"
  MESSAGE_OPEN_BORDERS_TITLE:0 "Ouverture des frontières"
  MESSAGE_CLOSE_BORDERS_TITLE:0 "Fermeture des frontières"
+ MESSAGE_FORM_SOCIETAL_ENLIGHTENMENT_PACT_TITLE:0 "Proposition d'illumination sociétale"
+ MESSAGE_BREAK_SOCIETAL_ENLIGHTENMENT_PACT_TITLE:0 "Illumination sociétale terminée"
+ MESSAGE_FORM_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE:0 "Proposition d'illumination technologique"
+ MESSAGE_BREAK_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE:0 "Illumination technologique terminée"
+ MESSAGE_FORM_PRE_FTL_TRADE_PACT_TITLE:0 "Proposition d'accord commercial"
+ MESSAGE_BREAK_PRE_FTL_TRADE_PACT_TITLE:0 "Accord commercial rompu"
 
  ACTION_MAKE_RIVAL_NOTIFICATION:1 "'§H[From.GetName]§!' considère désormais '§H[Root.GetName]§!' comme une §H$RIVAL$§!.\n\nCela va grandement contribuer à dégrader leurs relations diplomatiques."
  ACTION_END_RIVALRY_NOTIFICATION:2 "'§H[From.GetName]§!' a mis un terme à sa $RIVALRY$ avec '§H[Root.GetName]§!'.\n\nCes deux empires ont fait un grand pas vers la réconciliation."
@@ -326,15 +332,16 @@
  ####################################
  # Leaders
  ####################################
- FLEET_LEADER_DEATH:0 "Notre $CLASS|Y$ $LEADER|Y$ est mort lors de la destruction du $SHIP|Y$."
- ARMY_LEADER_DEATH:0 "Notre $CLASS|Y$ $LEADER|Y$ en commandant notre $ARMY|Y$."
- PLANET_LEADER_DEATH:0 "Notre $CLASS|Y$ $LEADER|Y$ est mort sur $PLANET|Y$."
- COUNTRY_LEADER_DEATH:0 "Notre $CLASS|Y$ $LEADER|Y$ est mort !"
- HEIR_DEATH:0 "Notre §Y$HEIR$§!, $HEIRNAME|Y$, est mort !"
+ FLEET_LEADER_DEATH:1 "Notre $CLASS|H$ $LEADER|Y$ est mort lors de la destruction du $SHIP|Y$."
+ ARMY_LEADER_DEATH:1 "Notre $CLASS|H$ $LEADER|Y$ en commandant notre $ARMY|Y$."
+ PLANET_LEADER_DEATH:1 "Notre $CLASS|H$ $LEADER|Y$ est mort sur $PLANET|Y$."
+ COUNTRY_LEADER_DEATH:1 "Notre $CLASS|H$ $LEADER|Y$ est mort !"
+ HEIR_DEATH:1 "Notre §H$HEIR$§!, $HEIRNAME|Y$, est mort !"
  RULER_ELECTED:0 "Un nouveau dirigeant a été élu ! Notre $TITLE$ $LEADER|Y$ va gouverner jusqu'aux prochaines élections, qui auront lieu le $TIME|Y$."
  RULER_ELECTED_UNTIL_DEATH:1 "Notre $TITLE$ $LEADER|Y$ a été choisi pour gouverner et régnera jusqu'à sa mort."
  RULER_ELECTED_HEIR:1 "En conformité avec l'ordre de succession, notre $TITLE$ $LEADER|Y$ régnera désormais."
  MESSAGE_LEADER_DEATH_TITLE:0 "Leader décédé"
+ MESSAGE_LEADER_RETIRED_TITLE:0 "Retrait d'une personnalité"
  MESSAGE_RULER_ELECTED_TITLE:0 "Dirigeant élu"
  MESSAGE_RULER_ELECTED_UNTIL_DEATH_TITLE:0 "Dirigeant élu"
  MESSAGE_RULER_ELECTED_HEIR_TITLE:0 "Succession"
@@ -343,10 +350,11 @@
  MESSAGE_OLIGARCHIC_ELECTION_DESC:0 "Des négociations pour désigner notre nouveau $TITLE$ ont commencé.\nUne décision sera rendue le $DATE|Y$."
  ELECTION_CLICK_FOR_MORE_INFO:0 "Cliquer pour obtenir plus d'informations"
  LEADER_DEATH_AGE:0 "Notre $CLASS|Y$ $LEADER|Y$ est mort subitement à l'âge de $AGE|Y$ ans."
+ LEADER_RETIRED_DESC:0 "Notre $CLASS|Y$ $LEADER|Y$ s'est retiré à l'âge de $AGE|Y$ ans."
  TOOLTIP_KILL_LEADER:0 "Notre $CLASS|Y$ $LEADER|Y$ §Rest mort§!"
  MESSAGE_LEADER_EXPERIENCE_TITLE:0 "Une personnalité a gagné en expérience"
  LEADER_EXPERIENCE_NOTIFICATION_DESC:0 "Notre §T$CLASS|Y$ $LEADER|Y$ a acquis de l'expérience au combat\n\n$STATS$§!"
- MESSAGE_LEADER_LEVEL_UP_TITLE:0 "Une personnalité a gagné un niveau"
+ MESSAGE_LEADER_LEVEL_UP_TITLE:1 "Une personnalité s'est améliorée"
  LEADER_LEVEL_UP_DESC:0 "Notre $CLASS|Y$ $LEADER|Y$ est passé au niveau supérieur\n\nCompétence : $LEVEL|Y$\n"
  LEADER_LEVEL_UP_NEXT_LEVEL_DESC:0 "Notre $CLASS|Y$ $LEADER|Y$ est passé au niveau supérieur\n\nCompétence actuelle : $LEVEL|Y$\nExpérience nécessaire pour atteindre le niveau suivant : $EXP|Y0$"
 
@@ -359,6 +367,9 @@
  LEADER_GENERAL_FRIENDLY_LOST_EXPERIENCE:0 "§TForces alliées perdues : $VAL|0H$ d'expérience§!"
  MESSAGE_NEW_HEIR_TITLE:0 "§HNouvel héritier§!"
  NEW_HEIR_TEXT:0 "Notre nouvel héritier est §Y$HEIR$§!, qui montera sur le trône à la mort de notre dirigeant."
+ MESSAGE_LEADER_POOL_REFRESHED_MESSAGE_TYPE_TITLE:0 "Renouvellement du vivier des personnalités"
+ LEADER_POOL_REFRESHED_TITLE:0 "Le vivier des personnalités de l'empire a été renouvelé. De nouvelles personnalités peuvent donc être recrutées."
+ LEADER_POOL_REFRESHED_INSTRUCTION:0 "Cliquer pour ouvrir l'interface des personnalités."
 
  ####################################
  # Technology
@@ -456,12 +467,12 @@
  # Invasion
  ####################################
  MESSAGE_INVASION_TITLE:0 "Invasion terminée"
- MESSAGE_INVASION_ATTACKER_WIN:0 "Nous sommes parvenus à envahir $PLANET|H$."
+ MESSAGE_INVASION_ATTACKER_WIN:1 "Nous sommes parvenus à envahir $PLANET|Y$."
  MESSAGE_INVASION_ATTACKER_LOSE:0 "Nous ne sommes pas parvenues à envahir $PLANET|H$."
- MESSAGE_INVASION_DEFENDER_WIN:0 "Nous sommes parvenus à repousser l'invasion de $PLANET|H$."
- MESSAGE_INVASION_DEFENDER_LOSE:0 "Nous ne sommes pas parvenus à repousser l'invasion de $PLANET|H$."
+ MESSAGE_INVASION_DEFENDER_WIN:1 "Nous sommes parvenus à repousser l'invasion de $PLANET|Y$."
+ MESSAGE_INVASION_DEFENDER_LOSE:1 "Nous ne sommes pas parvenus à repousser l'invasion de $PLANET|Y$."
  MESSAGE_RETREAT_CASUALTIES_TITLE:0 "Armées perdues lors de la retraite"
- RETREAT_CASUALTIES_DESC:0 "Nous avons perdu $NUM|Y$ de nos $TOTAL|Y$ armées pendant qu'elles se retiraient de $PLANET|H$\n$LOST$"
+ RETREAT_CASUALTIES_DESC:1 "Nous avons perdu $NUM|Y$ de nos $TOTAL|Y$ armées pendant qu'elles se retiraient de $PLANET|Y$\n$LOST$"
  MESSAGE_LOST_ARMY:0 "$NUMBER$e $NAME|R$"
 
 
@@ -500,9 +511,9 @@
 #####################################
 
  MESSAGE_MEGASTRUCTURE_BUILT_TITLE:0 "Mégastructure construite"
- MESSAGE_MEGASTRUCTURE_BUILT:3 "Construction de la mégastructure de type $MEGASTRUCTURE|H$ dans le système de $SYSTEM|H$ terminée."
+ MESSAGE_MEGASTRUCTURE_BUILT:4 "Construction de la mégastructure de type $MEGASTRUCTURE|H$ dans le système de $SYSTEM|Y$ terminée."
  MESSAGE_MEGASTRUCTURE_UPGRADED_TITLE:0 "Mégastructure améliorée"
- MESSAGE_MEGASTRUCTURE_UPGRADED:2 "Amélioration de la mégastructure de type $MEGASTRUCTURE|H$ du système de $SYSTEM|H$ terminée."
+ MESSAGE_MEGASTRUCTURE_UPGRADED:3 "Amélioration de la mégastructure de type $MEGASTRUCTURE|H$ du système de $SYSTEM|Y$ terminée."
  MESSAGE_ALIEN_MEGASTRUCTURE_BUILT_TITLE:0 "Mégastructure alien construite"
  MESSAGE_ALIEN_MEGASTRUCTURE_BUILT:0 "'$COUNTRY|H$' a terminé la construction d'une mégastructure de type $MEGASTRUCTURE|H$ dans le système de $SYSTEM|H$."
 
@@ -523,7 +534,7 @@
 # Claims
 #####################################
  MESSAGE_NEW_CLAIM_ON_SYSTEM_TITLE:1 "Revendication alien"
- MESSAGE_NEW_CLAIM_ON_SYSTEM:1 "Même s'il nous appartient de plein droit, '$COUNTRY|H$' ose revendiquer le système de $SYSTEM|H$ !"
+ MESSAGE_NEW_CLAIM_ON_SYSTEM:1 "Même s'il nous appartient de plein droit, '$COUNTRY|H$' ose revendiquer le système de $SYSTEM|Y$ !"
 
 #####################################
 # Star Destroyed

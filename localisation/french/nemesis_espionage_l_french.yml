@@ -1,16 +1,16 @@
 ﻿l_french:
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.4.2. Check OK, 14/05/2022
+# Calvitix 3.7.0. Check OK, 14/03/2023
 #
  SPY_NETWORK:1 "$spy_network$"
  SPY_NETWORK_NAME:0 "$spy_network$"
  SPYNETWORK_ASSETS:0 "Sources"
  OPERATIONS:0 "Opérations"
  build_spy_network_TITLE:0 "Établir un réseau d'espionnage"
- build_spy_network_DESC:1 "Affecte un émissaire pour qu'il établisse un réseau d'espionnage au sein de cet empire."
+ build_spy_network_DESC:2 "Affecterait un émissaire pour qu'il établisse un réseau d'espionnage au sein de cette civilisation."
  spy_network:1 "Réseau d'espionnage"
  spy_network_plural:0 "Réseaux d'espionnage"
- spy_network_desc:2 "Affecter un émissaire pour qu'il établisse un réseau d'espionnage et y accroisse notre §Hniveau d'infiltration§!.\n\nNous ne pourrons pas réaffecter cet émissaire avant §Y360§!£time£"
+ spy_network_desc:3 "Affecter un émissaire pour qu'il établisse un réseau d'espionnage va accroître le §Hniveau d'infiltration§!, fournissant des informations et permettant de mener des opérations d'espionnage.\n\nNous ne pourrons toutefois pas réaffecter cet émissaire avant §Y360§!£time£"
  ENVOY_spy_network:1 "Établit un §Hréseau d'espionnage§! au sein de '$LOCATION|H$'."
  ESPIONAGE_OPERATION_NOT_OWNER:1 "Ne possède pas le réseau d'espionnage"
  ACTIVE_FILTER:0 "Active"
@@ -106,6 +106,8 @@
  op_cat_sabotage_desc:0 "Opérations agressives visant directement des cibles militaires, commerciales ou civiles."
  op_cat_subterfuge:0 "Subterfuge"
  op_cat_subterfuge_desc:0 "Actions en sous-main visant à faire évoluer l'opinion, voler ou contraindre."
+ op_cat_infiltration:0 "Infiltration"
+ op_cat_infiltration_desc:0 "Opérations clandestines pour influencer subtilement, et de l'intérieur, toute une société."
 
  op_cat_government:0 "Gouvernement"
  op_cat_diplomacy:0 "Diplomatie"
@@ -167,7 +169,7 @@
 
  MOD_ESPIONAGE_OPERATION_DIFFICULTY_ADD:0 "Difficulté de l'opération"
  MOD_ESPIONAGE_OPERATION_DIFFICULTY_MULT:0 "$MOD_ESPIONAGE_OPERATION_DIFFICULTY_ADD$"
- MOD_ESPIONAGE_HOSTILE_OPERATION_DIFFICULTY_ADD:0 "Difficulté des opérations hostiles "
+ MOD_ESPIONAGE_HOSTILE_OPERATION_DIFFICULTY_ADD:1 "Défense face aux opérations hostiles "
  MOD_ESPIONAGE_HOSTILE_OPERATION_DIFFICULTY_MULT:0 "$MOD_ESPIONAGE_HOSTILE_OPERATION_DIFFICULTY_ADD$"
  MOD_ESPIONAGE_OPERATION_COST_ADD:0 "Coût de l'opération"
  MOD_ESPIONAGE_OPERATION_COST_MULT:0 "$MOD_ESPIONAGE_OPERATION_COST_ADD$"
@@ -206,6 +208,7 @@
  mod_op_cat_sabotage_difficulty_add:1 "Diffic. des opér. de sabotage "
  mod_op_cat_manipulation_difficulty_add:1 "Diffic. des opér. de manipulation "
  mod_op_cat_provocation_difficulty_add:1 "Diffic. des opér. de provocation "
+ mod_op_cat_infiltration_difficulty_add:0 "Diffic. des opér. d'infiltration "
 
  mod_op_cat_government_difficulty_add:1 "Diffic. des opér. gouvernementales "
  mod_op_cat_diplomacy_difficulty_add:1 "Diffic. des opér. diplomatiques "
@@ -213,23 +216,25 @@
  mod_op_cat_technology_difficulty_add:1 "Diffic. des opér. technologiques "
  mod_op_cat_military_difficulty_add:1 "Diffic. des opér. militaires "
 
- mod_hostile_op_cat_subterfuge_difficulty_add:0 "Diffic. des opér. de subterfuge hostiles "
- mod_hostile_op_cat_sabotage_difficulty_add:0 "Diffic. des opér. de sabotage hostiles "
- mod_hostile_op_cat_manipulation_difficulty_add:0 "Diffic. des opér. de manipulation hostiles "
- mod_hostile_op_cat_provocation_difficulty_add:0 "Diffic. des opér. de provocation hostiles "
+ mod_hostile_op_cat_infiltration_difficulty_add:0 "Défense face aux opér. d'infiltration hostiles "
+ mod_hostile_op_cat_subterfuge_difficulty_add:1 "Défense face aux opér. de subterfuge hostiles "
+ mod_hostile_op_cat_sabotage_difficulty_add:1 "Défense face aux opér. de sabotage hostiles "
+ mod_hostile_op_cat_manipulation_difficulty_add:1 "Défense face aux opér. de manipulation hostiles "
+ mod_hostile_op_cat_provocation_difficulty_add:1 "Défense face aux opér. de provocation hostiles "
 
- mod_hostile_op_cat_government_difficulty_add:0 "Diffic. des opér. gouvernementales hostiles "
- mod_hostile_op_cat_diplomacy_difficulty_add:0 "Diffic. des opér. diplomatiques hostiles "
- mod_hostile_op_cat_economy_difficulty_add:0 "Diffic. des opér. économiques hostiles "
- mod_hostile_op_cat_technology_difficulty_add:0 "Diffic. des opér. technologiques hostiles "
- mod_hostile_op_cat_military_difficulty_add:0 "Diffic. des opér. militaires hostiles "
+ mod_hostile_op_cat_government_difficulty_add:1 "Défense face aux opér. gouvernementales hostiles "
+ mod_hostile_op_cat_diplomacy_difficulty_add:1 "Défense face aux opér. diplomatiques hostiles "
+ mod_hostile_op_cat_economy_difficulty_add:1 "Défense face aux opér. économiques hostiles "
+ mod_hostile_op_cat_technology_difficulty_add:1 "Défense face aux opér. technologiques hostiles "
+ mod_hostile_op_cat_military_difficulty_add:1 "Défense face aux opér. militaires hostiles "
 
- mod_hostile_operation_sabotage_starbase_difficulty_add:0 "Diffic. des opér. hostiles de sabotage de bases stellaires "
+ mod_hostile_operation_sabotage_starbase_difficulty_add:1 "Défense face aux opér. hostiles de sabotage de base stellaire "
 
  mod_op_cat_subterfuge_skill_add:1 "Comp. pour les opérations de subterfuge "
  mod_op_cat_sabotage_skill_add:1 "Comp. pour les opérations de sabotage "
  mod_op_cat_manipulation_skill_add:1 "Comp. pour les opérations de manipulation "
  mod_op_cat_provocation_skill_add:1 "Comp. pour les opérations de provocation "
+ mod_op_cat_infiltration_skill_add:0 "Comp. pour les opérations d'infiltration "
 
  mod_op_cat_government_skill_add:1 "Comp. pour les opérations gouvernementales "
  mod_op_cat_diplomacy_skill_add:1 "Comp. pour les opérations diplomatiques "
@@ -292,7 +297,7 @@
  edict_tracking_implants_desc:0 "Des implants hypodermiques obligatoires permettent d'enregistrer les déplacements et les agissements de la population, améliorant grandement la sécurité intérieure au sein de l'empire. Quiconque est loyal envers le gouvernement n'a rien à lui cacher."
  edict_thought_enforcement:0 "$tech_thought_enforcement$"
  edict_thought_enforcement_desc:0 "Les télépathes chargés du contrôle de la population pour y déceler les pensées incorrectes pourront procéder à des corrections lorsque cela sera nécessaire."
- edict_thought_enforcement_effect:0 "$MOD_INTEL_ENCRYPTION_ADD$ : §G+1§!\n£happiness£Bonheur : §R-10%§!\n$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$ : §G+25%§!\nEmplois de £job_telepath£télépathes : §G-5§! en £crime£crime"
+ edict_thought_enforcement_effect:1 "$MOD_INTEL_ENCRYPTION_ADD$: §G+1§!\n£happiness£Bonheur : §R-10%§!\n$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$: §G+25%§!\nEmplois de £job_telepath£télépathes : §G-30§! en £crime£criminalité"
 
  edict_synaptic_reinforcement:0 "Renforcement synaptique"
  edict_synaptic_reinforcement_desc:0 "Renforce la fonction centrale des noeuds synaptiques pour les colonies, améliorant leur capacité à veiller sur l'ensemble des drones se trouvant à proximité."

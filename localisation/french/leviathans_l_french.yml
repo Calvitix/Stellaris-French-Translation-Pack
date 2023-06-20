@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check for 3.5.3 : 11.10.2022
+ # Update check for 3.8.4 : 18.06.2023
  ####################################
 
 
@@ -291,7 +291,7 @@
 
  leviathans.295.desc:0 "Oh, des visiteurs ! Quelle joie ! Mmm, pardonnez mes manières. Je pense que des présentations seraient appropriées. Nous sommes la Troupe des Artistes.\n\nNos membres ont dédié leur vie à la découverte des arts, de la musique, de la culture et de toutes ces choses qui permettent de rendre l'existence supportable aux êtres conscients. Si vous souhaitez découvrir nos créations merveilleuses, n'hésitez pas à nous contacter !"
  leviathans.300.name:0 "La Troupe des Artistes"
- leviathans.300.desc:2 "Salutations, [Root.GetRulerName]. Au nom de la Troupe des Artistes, je vous souhaite la bienvenue.\n\nQue pouvons-nous pour vous ? Peut-être produire quelque oeuvre d'art dont vous aimeriez jouir ? À moins que vous ne souhaitiez parrainer notre enclave dans la création de beautés éthérées ?"
+ leviathans.300.desc:3 "Salutations à vous ! Moi [artist_enclave_country.GetRulerName], [artist_enclave_country.GetRulerTitle] de la [artist_enclave_country.GetName], vous souhaite une belle journée créative !\n\nQue pouvons-nous pour vous ? Peut-être produire quelque oeuvre d'art dont vous aimeriez jouir ? À moins que vous ne souhaitiez parrainer notre enclave dans la création de beautés éthérées ?" #'do you for' phrasing is intentional, humorous
  leviathans.300a.desc:0 "Moui ? Oh, veuillez m'excuser. Parfois, ma muse est tout simplement trop... entêtante. Puis-je faire quelque chose pour vous ?"
  leviathans.300b.desc:0 "Vous êtes-vous déjà interrogés sur la majesté écrasante de tout ceci ? Nous sommes ici, vous l'êtes aussi. Combien de chances y avait-il que cela se produise ? Je sens l'inspiration me saisir pour une petite ritournelle..."
  leviathans.300c.desc:0 "Oui ? Bonjour ? Oh, c'est vous ! Pardonnez-moi, j'étais en train de travailler sur une strophe particulièrement ardue... Comment puis-je vous aider ?"
@@ -415,7 +415,9 @@
  leviathans.500.d:1 "Pourrions-nous recruter l'un de vos §Yscientifiques§! ?"
  leviathans.500.d.alreadyrecruited:0 "Nous avons déjà recruté un scientifique des Conservateurs."
  leviathans.500.d.opinion:0 "Requiert que les §YConservateurs§! aient :\n£opinion£ Opinion : +50"
- leviathans.500.e:0 "Au revoir"
+ leviathans.500.e:0 "Pouvez-vous partager les principes fondamentaux du savoir ?"
+ leviathans.500.e.alreadyshared:0 "Les Conservateurs ont déjà partagé avec nous les principes fondamentaux du savoir."
+ leviathans.500.e.opinion:0 "$leviathans.500.d.opinion$"
  leviathans.500.h:1 "Que pouvez-vous nous dire sur §Yvos autres clients§! ?"
  leviathans.500.i:0 "Que savez-vous des §Yportes-L§! ?"
  leviathans.500.i.tooltip.noclue:2 "Il faut une dizaine d'années à la [curator_enclave_country.GetName] pour identifier chaque nouveau §Ydétail sur les portes-L§!."
@@ -511,6 +513,12 @@
  leviathans.590.a:0 "Évidemment, nous ferons un geste"
  leviathans.590.a.reply:0 "Excellent. Vous disposerez donc désormais d'un accès total à l'un des plus grands esprits de notre époque !"
  leviathans.590.tt_scientist:0 "Nous ne pouvons recruter qu'§Yun§! seul scientifique des §YConservateurs§! à la fois."
+
+ leviathans.598.name:0 "Partage des principes"
+ leviathans.598.desc:0 "Nous sommes prêts à diffuser au sein de la [Root.GetName] les principes fondamentaux du savoir. Mais c'est là un processus sérieux, et qui n'est possible que pour une conscience partagée.\n\nEt, même pour nous, cela n'a rien de simple. Le coût n'est donc pas négligeable. Mais de toutes les richesses, le savoir est bien sûr le plus précieux."
+ leviathans.598.a:0 "$leviathans.590.a$"
+ leviathans.598.a.reply:0 "C'est un investissement tout à fait sensé."
+ leviathans.598.tt_principles:0 "Les Conservateurs ont déjà partagé leurs principes fondamentaux avec la §Y[Root.GetName]§!."
 
  leviathans.599.name:0 "Achat de renseignements"
  leviathans.599.desc:0 "Vous comptez parmi nos clients de confiance, aussi pouvons-nous vous divulguer certaines informations sur certaines autres que... nous préférons ne pas favoriser. Ce que vous ferez de ces informations ne regarde bien évidemment que vous.\n\nSur qui voulez-vous en savoir davantage ?"
@@ -656,6 +664,7 @@
  leviathans.999.a:0 "Qu'est-ce qui a bien pu causer cela ?"
  leviathans.1000.name:0 "Dévoreur stellaire"
  leviathans.1000.desc:0 "Émergeant depuis les tréfonds de l'étoile de §Y[stellarite_system.GetName]§!, un être gigantesque apparaît, plus grand qu'une lune de taille habituelle. Son corps irradie de chaleur, de la même onde que l'énergie produite par l'étoile du système...\n\nC'est en train de la §Ydévorer§! !\n\nLa créature se nourrit de taches solaires, dévore des éruptions solaires. Et nous avons interrompu son repas... La bête exsude des vagues lumineuses, pulsant à une fréquence effrénée, comme s'il s'agissait d'un rugissement luminescent..."
+ leviathans.1001.desc.stellarite_system:0 "Émergeant depuis les tréfonds de §Y[Root.GetStarName]§!, un être gigantesque apparaît, plus grand qu'une lune de taille habituelle. Son corps irradie de chaleur, de la même onde que l'énergie produite par l'étoile elle-même...\n\nC'est en train de la §Hdévorer§! !\n\nLa créature se nourrit de taches stellaires, dévore des éruptions stellaires, et... nous avons interrompu son repas ! La bête exsude des vagues lumineuses, pulsant à une fréquence effrénée, comme s'il s'agissait d'un rugissement luminescent..."
  leviathans.1001.desc:0 "Alors que le §Y[Root.GetName]§! entrait dans le système de §Y[Root.GetStarName]§!, il a rencontré quelque chose de monstrueux : un être gigantesque, irradiant de la lumière comme une étoile miniature. Les instruments de bord ont d'abord indiqué qu'il s'agissait d'une étoile binaire.\n\nMais la bête a commencé à exsuder des vagues lumineuses, pulsant à une fréquence effrénée, comme s'il s'agissait d'un rugissement luminescent..."
  leviathans.1016.desc:2 "Le dévoreur stellaire a été vaincu. Ses restes se sont ramassés sur eux-mêmes et évaporés, ne laissant derrière que sa poche ovarienne et son système digestif empli de matière stellaire.\n\nPlusieurs scientifiques nous pressent d'examiner ces restes, tandis que d'autres proposent plutôt de récupérer la poche ovarienne. Peut-être l'étude de ce système digestif permettra-t-elle d'acquérir de grandes connaissances, à moins que celle des oeufs ne soit plus porteuse d'applications utiles ?"
  leviathans.1016.desc.gesta:1 "Le dévoreur stellaire a été vaincu. Ses restes se sont ramassés sur eux-mêmes et évaporés, ne laissant derrière que sa poche ovarienne et son système digestif empli de matière stellaire.\n\nPeut-être l'étude de ce système digestif permettra-t-elle d'acquérir de grandes connaissances, à moins qu'il ne soit préférable d'étudier plus en profondeur les oeufs ?"
@@ -913,6 +922,7 @@
  BIO_DRIVE:0 "Biopropulsion"
  BIO_PROPULSION:0 "Biopropulsion"
  BIO_SENSORS:0 "Biocapteurs"
+ BIO_DETECTOR:0 "Biodétecteurs"
  GUARDIAN_DRIVE:0 "$BIO_DRIVE$"
  GUARDIAN_PROPULSION:0 "$BIO_PROPULSION$"
  GUARDIAN_SENSORS:0 "$BIO_SENSORS$"

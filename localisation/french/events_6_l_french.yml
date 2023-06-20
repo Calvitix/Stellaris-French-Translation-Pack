@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File (Adaptation by Calvitix)
- # Update check 3.6.0 : 30.11.2022
+ # Update check 3.8.4 : 17.06.2023
  ####################################
  # Anomaly Category
  the_lonely_bot_category:0 "Signes d'une vie ancienne"
@@ -624,8 +624,8 @@
  terra.50.b:0 "Nous avons d'autres projets pour ce monde"
  terra.55.name:0 "Perfection organisationnelle"
  terra.55.desc:0 "Surpasser la nature n'est pas quelque chose de nouveau pour la Conscience. Ainsi, au cours du processus de terraformation de §Y[From.GetName]§!, la moindre colline a été prise en considération, le moindre fragment de vie animale placé de manière stratégique. La [From.GetPlanetMoon] est donc désormais un véritable paradis logistique, organisé de manière parfaite pour les [Root.GetUnitDronePlural]."
- terra.60.name:0 "Primitifs déterrés"
- terra.60.desc:0 "Lors des procédures d'enrichissement du sol et d'ajout d'une atmosphère sur §Y[From.GetName]§!, les [Root.GetTerraformerPlural] ont fait une découverte inattendue : sous la surface de la [From.GetPlanetMoon] se trouve une civilisation d'alien souterrains. Sans doute n'avait-elle pas été repérée par les capteurs jusqu'à présent du fait de la haute densité des minéraux de la croûte.\n\nCes primitifs ne semblent pas conscients que la surface a changé, ce qui nous permet de faire ce que nous voulons d'eux."
+ terra.60.name:1 "Pré-PRL déterrés"
+ terra.60.desc:1 "Lors des procédures d'enrichissement du sol et d'ajout d'une atmosphère sur §Y[From.GetName]§!, les [Root.GetTerraformerPlural] ont fait une découverte inattendue : sous la surface de la [From.GetPlanetMoon] se trouve une civilisation d'aliens souterrains. Sans doute n'avait-elle pas été repérée par les capteurs jusqu'à présent du fait de la haute densité des minéraux de la croûte.\n\nCes pré-PRL ne semblent pas conscients que la surface a changé, ce qui nous permet de faire ce que nous voulons d'eux."
  terra.60.a:0 "Voilà qui est commode"
  terra.60.b:0 "Ces xénovermines se cachent décidément partout..."
  terra.60.c:0 "Ces primitifs ne le sont donc pas tant que cela"
@@ -1140,8 +1140,8 @@
 
  trait_notofthisworld:0 "Pas de cet univers"
  trait_notofthisworld_desc:0 "§BCette espèce n'est pas de cet univers et dépérit peu à peu§!."
- trait_notofthisworld_robot:0 "Pas de cet univers"
- trait_notofthisworld_robot_desc:0 "§BCes machines ne sont pas de cet univers et se dégradent peu à peu§!."
+ trait_robot_notofthisworld:0 "Pas de cet univers"
+ trait_robot_notofthisworld_desc:0 "§BCes machines ne sont pas de cet univers et se dégradent peu à peu§!."
  TRAIT_NOTOFTHISWORLD_EFFECT:0 "Pour chaque £pop£pop ayant au moins le statut d'£pop_cat_slave£esclave : $mod_country_physics_research_produces_mult$: §G0.5§!"
 
 
@@ -1270,7 +1270,7 @@
  colony.9245.a:0 "Au travail, donc !"
 
  colony.9250.name:0 "Au coeur de la fonderie" #starting the project
- colony.9250.desc:0 "Le coeur de la fonderie de §Y[Root.GetName]§! se trouve dans une salle occupée par une machine pleine de tuyaux, de courroies de transmission, et de ce qui semble être des postes de travail. Les premiers repérages et une reconnaissance rapide ont cependant révélé que des moteurs, des systèmes de maintenance et plusieurs mécanismes manquent. Il semble aussi que l'exploration du complexe pourrait avoir des conséquences sur le fonctionnement interne de la machinerie. Nous pouvons tenter de la réparer, même si cela prendra du temps, ou au contraire la démonter pour réutiliser tous ces matériaux."
+ colony.9250.desc:1 "Le coeur de la fonderie de §Y[Root.GetName]§! se trouve dans une salle occupée par un labyrinthe de tuyaux, de courroies de transmission, et ce qui semble être des postes de travail. Les premiers repérages et une reconnaissance rapide ont cependant révélé que des moteurs, des systèmes de maintenance et plusieurs mécanismes manquent.\n\nIl semble aussi que l'exploration du complexe pourrait avoir des conséquences sur le fonctionnement de la fonderie. Nous pouvons donc tenter de la réparer, même si cela prendra du temps, ou au contraire la démonter pour réutiliser tous ces matériaux."
  colony.9250.a:0 "Réparons-la" #casual
  colony.9250.a.desc:0 "La machinerie va être branchée sur le réseau énergétique mondial pour être réparée."
  colony.9250.b:0 "Réparons-la pour l'étudier" #technocracy + 1 engineering output
@@ -1358,6 +1358,7 @@
  colony.9301.desc:0 "Nous disposons désormais de connaissances d'une très grande valeur sur le système météorologique de §Y[Root.GetName]§!. En plus de permettre l'approfondissement de notre compréhension des éléments chimiques, les recherches récentes ont eu des effets particulièrement bénéfiques pour la production de nourriture."
  colony.9301.a:0 "Excellent !"
  job_puddle_technician:0 "Flaquistes"
+ job_puddle_technician_plural:0 "$job_puddle_technician$"
  job_puddle_technician_desc:0 "La diversification des sources de production de nourriture est une entreprise tout à fait utile."
  mod_job_puddle_technician_add:0 "Emplois de £job_farmer£flaquistes "
  d_metallic_puddles:0 "Flaques métalliques"
@@ -1365,6 +1366,7 @@
  d_metallic_puddles_gestalt:0 "$d_metallic_puddles$"
  d_metallic_puddles_gestalt_desc:0 "La météorologie très particulière de ce monde permet à des drones spécialisés dans les flaques métalliques de produire simultanément de la nourriture et des alliages."
  job_puddle_technician_drone:0 "Drones flaquistes"
+ job_puddle_technician_drone_plural:0 "$job_puddle_technician_drone$"
  job_puddle_technician_drone_desc:0 "Mettant à profit la météorologie tout à fait unique de ce monde, des drones spécialisés dans les flaques métalliques récoltent des ressources supplémentaires fort utiles à la Conscience."
  mod_job_puddle_technician_drone_add:0 "Emplois de £job_agri_drone£drones flaquistes "
 
@@ -1420,6 +1422,66 @@
  mod_job_manufactorium_researcher_per_pop:0 "§G+1§! emploi de £job_manufactorium_researcher£chercheurs du complexe souterrain par palier de $VALUE$ pops"
  mod_job_manufactorium_researcher_per_pop_short:0 "\n§G+1§! £job_manufactorium_researcher£ pour $VALUE$£pop£"
 
+# Intemporal Orb
+ INTEMPORAL_ORB_CAT:0 "Le globe"
+ INTEMPORAL_ORB_CAT_DESC:0 "Une incroyable source d'énergie concentrée, ayant la forme d'un globe, a été découverte sur [Root.GetName]. Une enquête devrait être menée à ce propos."
+
+## Event: Concentrated Energy
+ anomaly.7105.name:0 "Énergie concentrée"
+ anomaly.7105.desc:0 "Nous en avons maintenant la confirmation : la source de ces pics énergétiques très puissants repérés sur §Y[From.GetName]§! est bien un petit globe bleu. Les [Root.Owner.GetScientistPlural] ont rapporté avoir aussi relevé des tachyons à la polarité inversée.\n\nDes symboles sont gravés dans le sol, tout autour de l'objet, peut-être laissés là par une civilisation plus ancienne. Il est difficile, toutefois, de savoir s'il s'agit d'instructions, ou d'une mise en garde.\n\nL'ensemble de l'inscription est loin d'être traduit, mais plusieurs symboles semblent liés à la mesure du temps et au positionnement relatif d'objets célestes dans le système de [Root.solar_system.GetName]."
+ anomaly.7105.a.standard:0 "Nous devons étudier cela de plus près"
+ anomaly.7105.a.devouring:0 "Mangeons ce globe !"
+ anomaly.7105.b:0 "C'est trop dangereux, laissons cela !"
+
+## Event: Local Time Reversal
+ anomaly.7110.name:0 "Renversement local du temps"
+ anomaly.7110.desc:0 "Ce globe d'énergie bleu détecté sur §Y[From.From.GetName]§! a disparu. Les balayages du site n'ont livré aucune trace de l'étrange sphère. Et il y a encore plus surprenant : même les gravures sur le sol se sont volatilisées, comme si elles n'avaient jamais existé.\n\nÉtant donné la signature tachyonique inhabituelle détectée sur place, les [Root.Owner.GetScientistPlural] ont émis l'hypothèse que la boule et l'inscription ont remonté le cours du temps..."
+
+## Event: Timeless
+ anomaly.7115.name:0 "Le temps s'écoule comme une rivière"
+### Regular empires are non-gestalt empires with a non-robot scientist
+ anomaly.7115.desc.regular:0 "Alors qu'[Root.Leader.GetSheHe] travaillait sur le site de §Y[From.From.GetName]§!, [Root.GetLeaderName] a involontairement effleuré le globe bleu. [Root.Leader.GetSheHeCap] a alors eu une vision du temps comme si celui-ci était une rivière, s'écoulant depuis un passé infiniment lointain, vers un avenir tout aussi infiniment éloigné. L'énergie issue du globe décrivait toutefois comme un arc, quittant le cours temporel pour être absorbée par son propre corps.\n\nSi ce contact a été mesuré précisément par les autres [Root.Owner.GetScientistPlural] comme ayant duré moins d'une seconde, [Root.GetLeaderName] est quant à [Root.Leader.GetLuiElleLead] persuadé[Root.Leader.GetXELead] que l'incident a duré plus d'une heure.\n\nEt, une fois sa vision terminée, [Root.Leader.GetSheHe] était certain[Root.Leader.GetXELead] que le temps ne l'affecterait plus désormais. Ayant maintenant une vie infinie à vivre, [Root.Leader.GetSheHe] veut donc en faire bon usage et partir explorer toute la galaxie par [Root.Leader.GetLuiElleLead]-même."
+### Scientist is already immortal
+ anomaly.7115.desc.immortal:0 "Alors qu'[intemporal_leader.GetSheHe] travaillait sur le site de §Y[From.From.GetName]§!, [intemporal_leader.GetLeLaLead] jeune [intemporal_leader.GetName] a involontairement effleuré le globe bleu.\n\n[intemporal_leader.GetSheHeCap] a alors eu une vision du temps comme si celui-ci était une rivière, s'écoulant depuis un passé infiniment lointain, vers un avenir tout aussi infiniment éloigné. L'énergie issue du globe décrivait toutefois comme un arc, quittant le cours temporel pour être absorbée par son propre corps.\n\nSi ce contact a été mesuré précisément par les autres [Root.Owner.GetScientistPlural] comme ayant duré moins d'une seconde, [intemporal_leader.GetName] est quant à [intemporal_leader.GetLuiElleLead] persuadé[intemporal_leader.GetXELead] que l'incident a duré plus d'une heure.\n\nEt, une fois sa vision terminée, [intemporal_leader.GetSheHe] était certain[intemporal_leader.GetXELead] que le temps ne l'affecterait plus désormais. Ayant maintenant une vie infinie à vivre, [intemporal_leader.GetSheHe] veut donc en faire bon usage et partir explorer toute la galaxie par [intemporal_leader.GetLuiElleLead]-même."
+### Empire is a gestalt consciousness (hive or machine intelligence)
+ anomaly.7115.desc.hive:0 "Alors qu'[Root.Leader.GetSheHe] travaillait sur le site de §Y[From.From.GetName]§!, [Root.GetLeaderName] a involontairement effleuré le globe bleu. [Root.Leader.GetSheHeCap] a alors eu une vision du temps comme si celui-ci était une rivière, s'écoulant depuis un passé infiniment lointain, vers un avenir tout aussi infiniment éloigné. L'énergie issue du globe décrivait toutefois comme un arc, quittant le cours temporel pour être absorbée par son propre corps.\n\nSi ce contact a été mesuré précisément par les autres [Root.Owner.GetScientistPlural] comme ayant duré moins d'une seconde, [Root.GetLeaderName] est quant à [Root.Leader.GetLuiElleLead] persuadé[Root.Leader.GetXELead] que l'incident a duré plus d'une heure.\n\nEt, une fois sa vision terminée, nous avons su que le temps ne l'affecterait plus désormais. Ayant maintenant une vie infinie à vivre, nous pourrions donc faire usage de cette éternité pour explorer la galaxie à travers [Root.Leader.GetLuiElleLead]."
+### Empire is devouring swarm
+ anomaly.7115.desc.devouring:0 "[Root.GetLeaderName] a avalé le globe bleu de §Y[From.From.GetName]§!.\n\n[Root.Leader.GetSheHeCap] a alors eu une vision du temps comme si celui-ci était une rivière, s'écoulant depuis un passé infiniment lointain, vers un avenir tout aussi infiniment éloigné. L'énergie du globe décrivait toutefois comme un arc, quittant le cours temporel pour être absorbée par son propre corps.\n\nSi son absence a été mesurée précisément par les autres [Root.Owner.GetScientistPlural] comme ayant duré moins d'une seconde, [Root.GetLeaderName] est quant à [Root.Leader.GetLuiElleLead] persuadé[Root.Leader.GetXELead] que l'incident a duré plus d'une heure.\n\nEt, une fois sa vision terminée, nous avons su que le temps ne l'affecterait plus désormais. Ayant une vie infinie à vivre, nous pourrions donc faire usage de cette éternité pour explorer la galaxie à travers [Root.Leader.GetLuiElleLead]."
+
+ anomaly.7115.a:0 "Souhaitons-lui bon voyage !"
+ anomaly.7115.a.regular.tt:0 "§Y[intemporal_leader.GetName]§! va recevoir un petit vaisseau pour parcourir seul[intemporal_leader.GetXELead] la galaxie.\nUn nouveau £scientist£§Yscientifique§! va devoir être nommé pour commander le §Y[Root.GetName]§!."
+ anomaly.7115.a.immortal.tt:0 "§Y[intemporal_leader.GetName]§! va recevoir un petit vaisseau pour parcourir seul[intemporal_leader.GetXELead] la galaxie."
+ anomaly.7115.b.regular:0 "Non, [intemporal_leader.GetSheHe] restera à son poste"
+ anomaly.7115.b.immortal:0 "Non, [intemporal_leader.GetSheHe] sera promu[intemporal_leader.GetXELead]"
+ anomaly.7115.b.regular.tt:0 "§Y[intemporal_leader.GetName]§! va rester au service de la §Y[Root.Owner.GetName]§!."
+ anomaly.7115.b.immortal.tt:0 "§Y[intemporal_leader.GetName]§! va pouvoir être recruté[intemporal_leader.GetXELead] en tant que £scientist£§Yscientifique§!."
+
+## Event: The Return
+ anomaly.7120.name:0 "Le retour"
+ anomaly.7120.desc.regular:0 "Les capteurs à longue portée ont relevé un vaisseau en approche de §Y[Root.capital_scope.GetName]§!. Il est vite devenu évident que ce modèle avait été fabriqué par la [Root.GetName] il y a près d'un siècle. Une fois les communications établies, il s'est avéré qu'il était piloté par [intemporal_explorer.GetName], [intemporal_explorer.GetCeluiCelleLead]-là même qui s'était trouvé[intemporal_explorer.GetXELead] détaché[intemporal_explorer.GetXELead] du cours du temps par un globe d'énergie bleu.\n\nAprès avoir bougonné pour être entré[intemporal_explorer.GetXELead] en collision avec une étoile à neutrons et à propos de puits gravitationnels où l'espace-temps serait inversé, [intemporal_explorer.GetSheHe] est aussitôt reparti[intemporal_explorer.GetXELead] dans l'obscurité de l'espace... Or, de manière remarquable, les physiciens ont confirmé qu'une grande partie de ces informations ne sont pas seulement vérifiables, mais en fait proprement révolutionnaires.\n\n[intemporal_explorer.GetName] [intemporal_explorer.GetLuiElleLead]-même paraît avoir été parfaitement épargné[intemporal_explorer.GetXELead] par le passage du temps, mais même notre technologie actuelle ne peut expliquer le fonctionnement de ce globe. [intemporal_explorer.GetSilSielleLeadCap] ne se détruit pas [intemporal_explorer.GetLuiElleLead]-même, [intemporal_explorer.GetName] va donc continuer d'explorer la galaxie jusqu'à la fin des temps..."
+
+ anomaly.7120.desc.hive:0 "Les capteurs à longue portée ont relevé un vaisseau en approche de §Y[Root.capital_scope.GetName]§!. Il est vite devenu évident que ce modèle avait été fabriqué par la [Root.GetName] il y a près d'un siècle. Nous avons vite découvert que [intemporal_explorer.GetLeLaLead] pilote en était [intemporal_explorer.GetName], [intemporal_explorer.GetCeluiCelleLead]-là même qui s'était trouvé[intemporal_explorer.GetXELead] détaché[intemporal_explorer.GetXELead] du cours du temps par un globe d'énergie bleu.\n\nRevenu[intemporal_explorer.GetXELead] parmi nous, son savoir a pénétré la Conscience : des impressions sensitives de collision avec des étoiles à neutrons et de puits de gravité où l'espace-temps est inversé. Et, aussitôt le transfert effectué, le vaisseau est reparti dans l'obscurité de l'espace... Or, de manière remarquable, les physiciens ont confirmé qu'une grande partie de ces informations ne sont pas seulement vérifiables, mais en fait proprement révolutionnaires.\n\n[intemporal_explorer.GetName] [intemporal_explorer.GetLuiElleLead]-même paraît avoir été parfaitement épargné[intemporal_explorer.GetXELead] par le passage du temps, mais même notre technologie actuelle ne peut expliquer le fonctionnement de ce globe. [intemporal_explorer.GetSilSielleLeadCap] ne se détruit pas [intemporal_explorer.GetLuiElleLead]-même, [intemporal_explorer.GetName] va donc continuer d'explorer la galaxie jusqu'à la fin des temps..."
+
+ DATA_DIAMOND_CAT:0 "Glace fine"
+ DATA_DIAMOND_CAT_DESC:0 "La fine couche de glace à la surface de [Root.GetName] couvre un gisement de cristaux anormalement étendu. Et on peut aussi y détecter la présence d'un faible signal..."
+ DATA_DIAMOND_PROJECT:0 "Étude du gisement de cristal"
+ DATA_DIAMOND_PROJECT_DESC:0 "Les hallucinations provoquées par le gisement de cristal de [From.GetName] sont une véritable curiosité. Une enquête doit être menée à ce propos."
+ anomaly.3145.name:0 "Forage hallucinant"
+ anomaly.3145.desc:0 "Après avoir commencé à forer la couche de glace couvrant la surface de §Y[From.GetName]§!, [Root.GetLeaderName] a éprouvé des sensations intenses. Sans être blessé[Root.GetXELead] physiquement, [Root.Leader.GetSheHe] a rapporté s'être trouvé[Root.Leader.GetXELead] submergé[Root.Leader.GetXELead] par des hallucinations visuelles et olfactives disjointes, représentant une espèce alien inconnue.\n\nUn projet spécial a été préparé pour enquêter davantage sur cet étrange gisement de cristaux."
+ anomaly.3145.a:0 "C'est pour le moins déconcertant..."
+ anomaly.3150.name:0 "Cristal de données"
+ anomaly.3150.desc:0 "Sous la glace de §Y[From.From.From.GetName]§!, le cristal constitue la majorité de la masse de la [From.From.From.GetPlanetMoon]. Des échantillons suggèrent par ailleurs que sa structure inhabituellement dense sert pour contenir des données. Les estimations indiquent que leur volume est des millions de fois plus vaste que tout ce que nous possédons dans nos propres bases collectives.\n\nIl est probable que ceux qui ont construit ce cristal ont recouru à un système de résonance psionique pour l'imprimer. [Root.GetLeaderName] est si intrigué[Root.GetXELead] par tout cela qu'[Root.Leader.GetSheHe] a demandé la permission de superviser la construction d'une station de recherche automatisée à la surface de la [From.From.From.GetPlanetMoon]."
+ anomaly.3150.a:0 "Mieux vaut l'étudier depuis l'orbite"
+ anomaly.3150.b:0 "Espérons qu'[Root.Leader.GetSheHe] se montrera prudent[Root.Leader.GetXELead] là-bas..."
+ anomaly.3150.c:0 "Minons ce cristal pour ses ressources"
+ anomaly.3165.name:0 "Terrible gâchis"
+ anomaly.3165.desc:0 "Alors que la station de recherche automatisée de §Y[From.From.From.From.GetName]§! était quasiment achevée, un pic d'activité s'est produit soudainement dans le cristal, laissant [Root.GetLeaderName] mort[Root.GetXELead]. Mais, peu après, nous avons reçu une transmission autonome prétendant venir [Root.Leader.GetDeluiDelleLead].\n\nSi le système nerveux de son corps ne peut être soigné en aucune manière, son esprit s'est lui trouvé enfermé au sein du cristal. Faisant le choix de tirer le meilleur parti de sa situation, [Root.Leader.GetSheHe] a donc proposé de nous assister pour toute future recherche sur la base de données cristalline."
+ anomaly.3165.a:0 "C'est une issue quelque peu mitigée..."
+ anomaly.3150.a.tooltip:0 "Un petit gisement de recherche va être ajouté à §Y[From.From.From.GetName]§!."
+ anomaly.3150.b.tooltip:0 "Un important gisement de recherche va être ajouté §Y[From.From.From.GetName]§!, mais cela pourrait être dangereux pour §Y[Root.GetLeaderName]§!."
+ anomaly.3150.c.tooltip:0 "Un gisement de cristaux rares va être ajouté à §Y[From.From.From.GetName]§!, que nous pourrons exploiter si nous disposons de la technologie appropriée."
+
+
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  NAME_Eldritch_Horror_adj:0 "fantasmagorique"
  NAME_Central_Crystal_Country_adj:0 "cristalline"
@@ -1428,7 +1490,21 @@
  NAME_B_Planet_debugged:0 "[Root.Capital.GetName] Bêta"
  NAME_Portal_Invaders_adj:0 "envahisseuse"
  NAME_Dominated_Drones_adj:0 "dronique"
- trait_robot_notofthisworld:0 "$trait_notofthisworld_robot$"
- trait_robot_notofthisworld_desc:0 "$trait_notofthisworld_robot_desc$"
- job_puddle_technician_plural:0 "$job_puddle_technician$"
- job_puddle_technician_drone_plural:0 "$job_puddle_technician_drone$"
+ robot_caretaker_ms_FR:0 "gardien du robot"
+ robot_caretaker_fs_FR:0 "gardienne du robot"
+ turtle_miner_ms_FR:0 "mineur de nemmas"
+ turtle_miner_fs_FR:0 "mineuse de nemmas"
+ turtle_miner_gestalt_ms_FR:0 "un des drones miniers de nemmas"
+ turtle_miner_gestalt_fs_FR:0 "une des drones miniers de nemmas"
+ puddle_technician_ms_FR:0 "flaquiste"
+ puddle_technician_fs_FR:0 "$puddle_technician_ms_FR$"
+ puddle_technician_drone_ms_FR:0 "un des drones flaquistes"
+ puddle_technician_drone_fs_FR:0 "une des drones flaquistes"
+ manufactorium_specialist_ms_FR:0 "opérateur de la fonderie"
+ manufactorium_specialist_fs_FR:0 "opératrice de la fonderie"
+ manufactorium_complex_drone_ms_FR:0 "un des drones opérateurs de la fonderie"
+ manufactorium_complex_drone_fs_FR:0 "une des drones opérateurs de la fonderie"
+ manufactorium_scraper_ms_FR:0 "démolisseur de la fonderie"
+ manufactorium_scraper_fs_FR:0 "démolisseuse de la fonderie"
+ manufactorium_scraper_drone_ms_FR:0 "un des drones démolisseurs de la fonderie"
+ manufactorium_scraper_drone_fs_FR:0 "une des drones démolisseurs de la fonderie"

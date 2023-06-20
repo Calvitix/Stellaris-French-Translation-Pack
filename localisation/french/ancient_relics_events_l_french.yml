@@ -1,7 +1,7 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.6.1 Check OK, 29/11/2022
+# Calvitix 3.8.4 Check OK, 17/06/2023
 #
 
  shard_wants_to_burn_this_planet_tooltip:0 "Les colons se trouvant sur §H[From.From.From.Planet.GetName]§! sont en péril."
@@ -603,7 +603,7 @@
  ancrel.4035.a:0 "Communiquons donc"
  ancrel.4035.b:0 "Débranchons tout ça"
  ancrel.4036.name:0 "L'Oracle"
- ancrel.4036.desc:1 "\n\n§HL'Oracle se manifeste sous la forme d'un hologramme 3D élaboré, prenant l'apparence d'une grande femelle arthropoïde vêtue de longues robes flottantes. Elle courbe la tête pour saluer, puis regarde fixement devant elle avec ses centaines de grands yeux aveugles et globuleux, qui luisent faiblement dans la pénombre lorsqu'elle se met à parler.§!\n\n«Bienvenue dans la station Divinité, mes amis. Je ne puis m'empêcher de remarquer que vous avez désactivé mes systèmes de sécurité. Puis-je vous prier de les restaurer immédiatement ? Je puis vous assurer qu'il en va de votre protection.»"
+ ancrel.4036.desc:1 "\n\n§HL'Oracle se manifeste sous la forme d'un hologramme 3D élaboré, prenant l'apparence d'une grande femelle arthropoïde, dont les ailes disposées autour de son corps donnent l'impression qu'elle est vêtue de longues robes flottantes. Elle courbe la tête pour saluer, puis regarde fixement devant elle avec ses centaines de grands yeux aveugles et globuleux, qui luisent faiblement dans la pénombre lorsqu'elle se met à parler.§!\n\n«Bienvenue dans la station Divinité, mes amis. Je ne puis m'empêcher de remarquer que vous avez désactivé mes systèmes de sécurité. Puis-je vous prier de les restaurer immédiatement ? Je puis vous assurer qu'il en va de votre protection.»"
  ancrel.4036.a:0 "Qu'est-il arrivé aux habitants de cette station ?"
 
  rubricator_planet_found:0 "Coordonnées explorées "
@@ -959,10 +959,15 @@
  ancrel.4036.b:0 "Qu'êtes-vous, exactement ?"
  ancrel.4036.b.response:0 "Je suis l'Oracle, une intelligence artificielle douée de la «vision». Ma programmation me permet de prédire votre avenir avec une précision divine de 74,99999%. Je perçois de nombreux doutes en vous. De grands dangers vous attendent. Votre société est en proie au crime et à la dissidence. Je peux quant à moi faire disparaître ces tourments."
  ancrel.4036.c:0 "Ça serait pas un processeur quantique multicoeur, ça ?"
- ancrel.4036.d:1 "Nous avons effectivement quelques dissidents sur [Root.Capital.GetName]..."
+ ancrel.4036.dismiss:0 "À la casse !"
+ ancrel.4036.d:2 "Votre vision nous serait fort utile..."
  ancrel.4036.d.tooltip:0 "Une gouverneure d'une compétence de §G5§!, douée de la vision, rejoint '§Y[Root.GetName]§!'."
  ancrel.4036.e:0 "Intégration du noyau confirmée"
- ancrel.4036.e.tooltip:1 "Permet la décision §Y$decision_machine_oracle$§! :\n $MOD_PLANET_CRIME_NO_HAPPINESS_ADD$: §G-15§!\n $MOD_PLANET_STABILITY_ADD$: §G+10§!"
+ #ancrel.4036.e.tooltip:1 "§G+1§! §Y$decision_machine_oracle$§! Decision giving the following effects:\n£crime£ $MOD_PLANET_CRIME_NO_HAPPINESS_ADD$ §G-15§!\n£stability£ $MOD_PLANET_STABILITY_ADD$ §G+10§!"
+ oracle_leader_desc:0 "Une I.A. avancée, spécialisée dans l'optimisation de la production des colonies. Elle dispose d'une méthode proprement unique, basée sur la réduction de l'individualisme."
+ oracle_leader_catch_phrase:0 "§L« En premier lieu, veillons à ce qu'il n'y ait aucune pensée divergente. »§!"
+ WELCOME_ABOARD:0 "Bienvenue !"
+
  ancrel.4037.name:0 "$ancrel.4036.name$"
  ancrel.4037.desc:0 "Je dispose d'une sécurité intégrée destinée à mettre un terme à toute menace en cas de déviation du code 034N. La recherche est devenue une menace pour la République."
  ancrel.4037.a:0 "Une déviation du code 034N ?"
@@ -974,11 +979,15 @@
  ancrel.4037.d:0 "Revenons-en à nos autres questions..."
  ancrel.4038.name:0 "$ancrel.4036.name$"
  ancrel.4038.desc:0 "Attendez... Non, n'allez pas... Mes modèles prédictifs montrent que sans mon aide votre civilisation va incessamment s'effondrer, au plus tard dans 5348 ans et 297 jours. Quant à moi, je peux prendre soin de vous, ma programmation le garantit."
- ancrel.4038.a:0 "Entendu, mais vos systèmes de sécurité restent désactivés"
+ ancrel.4038.a:1 "Désactivez d'abord vos sécurités"
  ancrel.4038.b:1 "Nos modèles vous prédisent un brillant avenir comme... grille-pain"
  ancrel.4038.c:0 "Requête refusée, lancement du désassemblage des structures"
  ancrel.4038.d:0 "Vous ne ferez jamais une avec la conscience, machine"
- ancrel.4038.e:0 "Pourquoi ne pas nous aider à administrer l'empire ?"
+ #ancrel.4038.d:0 "You will never become one with the hive, machine."
+ ancrel.4038.e:1 "Aidez-nous pour l'administration"
+ ancrel.4038.dismiss:0 "Arrêtez de papoter !"
+
+ ancrel.4039.desc:0 "Je serais ravie de pouvoir contribuer à optimiser vos colonies. Je suis restée affreusement seule ces derniers millénaires..."
  ### Church of the Endless Expanse
  # Archaeological Site 1
  endless_expanse_digsite:0 "Étendues infinies"
@@ -1184,7 +1193,7 @@
  ancient_glassed_planet_desc:0 "Dans un lointain passé, la biosphère de [Root.GetName] a été entièrement annihilée, et toute forme de vie y a été détruite."
 
  killer_librarian_organism:0 "Micro-organisme tueur"
- killer_librarian_organism_desc:0 "Nos armées vont au combat armées d'un micro-organisme capable de dévorer les tissus vivants de tout être à une vitesse incroyable. Évidemment, nous ne pouvons garantir qu'il n'y aura pas de victimes innocentes ou les effets ultimes du recours à cette arme..."
+ killer_librarian_organism_desc:1 "Nos armées vont au combat armées d'un micro-organisme capable de dévorer les tissus vivants de tout être à une vitesse incroyable. Évidemment, nous ne pouvons garantir qu'il n'y aura pas de victimes innocentes ou les effets ultimes du recours à cette arme..."
 
  find_the_curators_title:0 "Vestiges des vestiges"
  find_the_curators_desc:0 "Nos investigations suggèrent que les derniers survivants d'une civilisation dédiée à l'accumulation du savoir ont cherché refuge dans le système de §H[curator_poi.GetName]§!."
@@ -1348,6 +1357,7 @@
  ancrel.13130.b:0 "Mieux vaut nous montrer prudents"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ ancrel.4038.d:0 "Vous ne ferez jamais une avec la conscience, machine"
  NAME_Nu_Baol_adj:0 "néobaol"
  NAME_planetary_mechanocalibrator_adj:0 "du S.O.I.N."
  NAME_planetary_mechanocalibrator_species_adj:0 "gardienne du $NAME_planetary_mechanocalibrator$"

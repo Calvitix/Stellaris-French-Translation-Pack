@@ -274,6 +274,18 @@ defined_text = {
 		localization_key = FRLOC_heroine
 	}
 }
+#Ex.: "C'est un [héros] / une [héroïne]" (lower case/minuscule)
+defined_text = {
+	name = GetHeroHeroineLead_Cap
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_heros_cap
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_heroine_cap
+	}
+}
 
 
 #Ex.: "[de] lui / [d']elle"
@@ -527,4 +539,2206 @@ defined_text = {
 		trigger = { loc_leader_fem = yes }
 		localization_key = FRLOC_Celle
 	}
+}
+
+
+
+########################################################################
+### Background jobs / Emplois précédents pour la bio des personnages ###
+########################################################################
+
+# Ex.: "Il était [traducteur] / Elle était [traductrice]"
+defined_text = {
+	name = GetJob_gender_lower_FR
+	random = no
+### 00_other_jobs ###
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = servant }
+		localization_key = servant_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = servant }
+		localization_key = servant_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = slave_overseer }
+		localization_key = slave_overseer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = slave_overseer }
+		localization_key = slave_overseer_fs_FR
+	}
+#	text = {
+#		trigger = { loc_leader_masc = yes has_background_job = scavenger_drone }
+#		localization_key = scavenger_drone_ms_FR
+#	}
+#	text = {
+#		trigger = { loc_leader_fem = yes has_background_job = scavenger_drone }
+#		localization_key = scavenger_drone_fs_FR
+#	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = slave_toiler }
+		localization_key = slave_toiler_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = slave_toiler }
+		localization_key = slave_toiler_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = organic_battery }
+		localization_key = organic_battery_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = organic_battery }
+		localization_key = organic_battery_fs_FR
+	}
+#	text = {
+#		trigger = { loc_leader_masc = yes has_background_job = unemployed }
+#		localization_key = unemployed_ms_FR
+#	}
+#	text = {
+#		trigger = { loc_leader_fem = yes has_background_job = unemployed }
+#		localization_key = unemployed_fs_FR
+#	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = livestock }
+		localization_key = livestock_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = livestock }
+		localization_key = livestock_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = livestock_zoo_animal }
+		localization_key = livestock_zoo_animal_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = livestock_zoo_animal }
+		localization_key = livestock_zoo_animal_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = livestock_zoo_beast }
+		localization_key = livestock_zoo_beast_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = livestock_zoo_beast }
+		localization_key = livestock_zoo_beast_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = bio_trophy }
+		localization_key = bio_trophy_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = bio_trophy }
+		localization_key = bio_trophy_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = purge }
+		localization_key = purge_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = purge }
+		localization_key = purge_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = crisis_purge }
+		localization_key = crisis_purge_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = crisis_purge }
+		localization_key = crisis_purge_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = assimilation }
+		localization_key = assimilation_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = assimilation }
+		localization_key = assimilation_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = criminal }
+		localization_key = criminal_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = criminal }
+		localization_key = criminal_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = deviant_drone }
+		localization_key = deviant_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = deviant_drone }
+		localization_key = deviant_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = corrupt_drone }
+		localization_key = corrupt_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = corrupt_drone }
+		localization_key = corrupt_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fotd_protectors }
+		localization_key = fotd_protectors_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fotd_protectors }
+		localization_key = fotd_protectors_fs_FR
+	}
+	### 01_ruler_jobs ###
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = head_researcher }
+		localization_key = head_researcher_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = head_researcher }
+		localization_key = head_researcher_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = high_priest }
+		localization_key = high_priest_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = high_priest }
+		localization_key = high_priest_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = politician }
+		localization_key = politician_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = politician }
+		localization_key = politician_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = noble }
+		localization_key = noble_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = noble }
+		localization_key = noble_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = merchant }
+		localization_key = merchant_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = merchant }
+		localization_key = merchant_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = executive }
+		localization_key = executive_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = executive }
+		localization_key = executive_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = knight_commander }
+		localization_key = knight_commander_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = knight_commander }
+		localization_key = knight_commander_fs_FR
+	}
+	### 02_specialist_jobs ###
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = colonist }
+		localization_key = colonist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = colonist }
+		localization_key = colonist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = researcher }
+		localization_key = researcher_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = researcher }
+		localization_key = researcher_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = xeno_zoo_keeper }
+		localization_key = xeno_zoo_keeper_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = xeno_zoo_keeper }
+		localization_key = xeno_zoo_keeper_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = priest }
+		localization_key = priest_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = priest }
+		localization_key = priest_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = death_priest }
+		localization_key = death_priest_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = death_priest }
+		localization_key = death_priest_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = enforcer }
+		localization_key = enforcer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = enforcer }
+		localization_key = enforcer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = telepath }
+		localization_key = telepath_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = telepath }
+		localization_key = telepath_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = entertainer }
+		localization_key = entertainer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = entertainer }
+		localization_key = entertainer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = duelist }
+		localization_key = duelist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = duelist }
+		localization_key = duelist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = culture_worker }
+		localization_key = culture_worker_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = culture_worker }
+		localization_key = culture_worker_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = bureaucrat }
+		localization_key = bureaucrat_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = bureaucrat }
+		localization_key = bureaucrat_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = unifier }
+		localization_key = unifier_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = unifier }
+		localization_key = unifier_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = chemist }
+		localization_key = chemist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = chemist }
+		localization_key = chemist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = translucer }
+		localization_key = translucer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = translucer }
+		localization_key = translucer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = gas_refiner }
+		localization_key = gas_refiner_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = gas_refiner }
+		localization_key = gas_refiner_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = roboticist }
+		localization_key = roboticist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = roboticist }
+		localization_key = roboticist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = healthcare }
+		localization_key = healthcare_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = healthcare }
+		localization_key = healthcare_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = manager }
+		localization_key = manager_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = manager }
+		localization_key = manager_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = necromancer }
+		localization_key = necromancer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = necromancer }
+		localization_key = necromancer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = bluelotus_technician }
+		localization_key = bluelotus_technician_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = bluelotus_technician }
+		localization_key = bluelotus_technician_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = death_chronicler }
+		localization_key = death_chronicler_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = death_chronicler }
+		localization_key = death_chronicler_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = necro_apprentice }
+		localization_key = necro_apprentice_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = necro_apprentice }
+		localization_key = necro_apprentice_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = foundry }
+		localization_key = foundry_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = foundry }
+		localization_key = foundry_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = catalytic_technician }
+		localization_key = catalytic_technician_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = catalytic_technician }
+		localization_key = catalytic_technician_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = artisan }
+		localization_key = artisan_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = artisan }
+		localization_key = artisan_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = artificer }
+		localization_key = artificer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = artificer }
+		localization_key = artificer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = pearl_diver }
+		localization_key = pearl_diver_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = pearl_diver }
+		localization_key = pearl_diver_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = reassigner }
+		localization_key = reassigner_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = reassigner }
+		localization_key = reassigner_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = bath_attendant }
+		localization_key = bath_attendant_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = bath_attendant }
+		localization_key = bath_attendant_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = knight }
+		localization_key = knight_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = knight }
+		localization_key = knight_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = archaeoengineers }
+		localization_key = archaeoengineers_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = archaeoengineers }
+		localization_key = archaeoengineers_fs_FR
+	}
+	### 03_worker_jobs ###
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = clerk }
+		localization_key = clerk_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = clerk }
+		localization_key = clerk_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = technician }
+		localization_key = technician_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = technician }
+		localization_key = technician_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = miner }
+		localization_key = miner_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = miner }
+		localization_key = miner_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = crystal_miner }
+		localization_key = crystal_miner_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = crystal_miner }
+		localization_key = crystal_miner_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = gas_extractor }
+		localization_key = gas_extractor_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = gas_extractor }
+		localization_key = gas_extractor_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = mote_harvester }
+		localization_key = mote_harvester_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = mote_harvester }
+		localization_key = mote_harvester_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = farmer }
+		localization_key = farmer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = farmer }
+		localization_key = farmer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = soldier }
+		localization_key = soldier_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = soldier }
+		localization_key = soldier_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = preacher }
+		localization_key = preacher_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = preacher }
+		localization_key = preacher_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = mortal_initiate }
+		localization_key = mortal_initiate_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = mortal_initiate }
+		localization_key = mortal_initiate_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = scrap_miner }
+		localization_key = scrap_miner_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = scrap_miner }
+		localization_key = scrap_miner_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = angler }
+		localization_key = angler_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = angler }
+		localization_key = angler_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = ranger }
+		localization_key = ranger_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = ranger }
+		localization_key = ranger_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = squire }
+		localization_key = squire_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = squire }
+		localization_key = squire_fs_FR
+	}
+	### 04_gestalt_jobs ###
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = spawning_drone }
+		localization_key = spawning_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = spawning_drone }
+		localization_key = spawning_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = offspring_drone }
+		localization_key = offspring_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = offspring_drone }
+		localization_key = offspring_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = cyber_drone }
+		localization_key = cyber_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = cyber_drone }
+		localization_key = cyber_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = replicator }
+		localization_key = replicator_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = replicator }
+		localization_key = replicator_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = crucible_drone }
+		localization_key = crucible_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = crucible_drone }
+		localization_key = crucible_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = coordinator }
+		localization_key = coordinator_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = coordinator }
+		localization_key = coordinator_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = evaluator }
+		localization_key = evaluator_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = evaluator }
+		localization_key = evaluator_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = synapse_drone }
+		localization_key = synapse_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = synapse_drone }
+		localization_key = synapse_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = brain_drone }
+		localization_key = brain_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = brain_drone }
+		localization_key = brain_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = calculator }
+		localization_key = calculator_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = calculator }
+		localization_key = calculator_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = artisan_drone }
+		localization_key = artisan_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = artisan_drone }
+		localization_key = artisan_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fabricator }
+		localization_key = fabricator_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fabricator }
+		localization_key = fabricator_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = alloy_drone }
+		localization_key = alloy_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = alloy_drone }
+		localization_key = alloy_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = catalytic_drone }
+		localization_key = catalytic_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = catalytic_drone }
+		localization_key = catalytic_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = chemist_drone }
+		localization_key = chemist_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = chemist_drone }
+		localization_key = chemist_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = translucer_drone }
+		localization_key = translucer_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = translucer_drone }
+		localization_key = translucer_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = gas_refiner_drone }
+		localization_key = gas_refiner_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = gas_refiner_drone }
+		localization_key = gas_refiner_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = patrol_drone }
+		localization_key = patrol_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = patrol_drone }
+		localization_key = patrol_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = crystal_mining_drone }
+		localization_key = crystal_mining_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = crystal_mining_drone }
+		localization_key = crystal_mining_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = mote_harvesting_drone }
+		localization_key = mote_harvesting_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = mote_harvesting_drone }
+		localization_key = mote_harvesting_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = gas_extraction_drone }
+		localization_key = gas_extraction_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = gas_extraction_drone }
+		localization_key = gas_extraction_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = mining_drone }
+		localization_key = mining_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = mining_drone }
+		localization_key = mining_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = agri_drone }
+		localization_key = agri_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = agri_drone }
+		localization_key = agri_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = technician_drone }
+		localization_key = technician_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = technician_drone }
+		localization_key = technician_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = maintenance_drone }
+		localization_key = maintenance_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = maintenance_drone }
+		localization_key = maintenance_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = warrior_drone }
+		localization_key = warrior_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = warrior_drone }
+		localization_key = warrior_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = bluelotus_drone }
+		localization_key = bluelotus_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = bluelotus_drone }
+		localization_key = bluelotus_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = chronicle_drone }
+		localization_key = chronicle_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = chronicle_drone }
+		localization_key = chronicle_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = scrap_miner_drone }
+		localization_key = scrap_miner_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = scrap_miner_drone }
+		localization_key = scrap_miner_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = bath_attendant_hive }
+		localization_key = bath_attendant_hive_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = bath_attendant_hive }
+		localization_key = bath_attendant_hive_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = bath_attendant_machine }
+		localization_key = bath_attendant_machine_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = bath_attendant_machine }
+		localization_key = bath_attendant_machine_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = archaeo_drone }
+		localization_key = archaeo_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = archaeo_drone }
+		localization_key = archaeo_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = archaeo_unit }
+		localization_key = archaeo_unit_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = archaeo_unit }
+		localization_key = archaeo_unit_fs_FR
+	}
+	### 05_primitive_jobs ###
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = pre_sapient }
+		localization_key = pre_sapient_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = pre_sapient }
+		localization_key = pre_sapient_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = hunted_pre_sapient }
+		localization_key = hunted_pre_sapient_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = hunted_pre_sapient }
+		localization_key = hunted_pre_sapient_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = xeno_zoo_animal }
+		localization_key = xeno_zoo_animal_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = xeno_zoo_animal }
+		localization_key = xeno_zoo_animal_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = xeno_zoo_beast }
+		localization_key = xeno_zoo_beast_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = xeno_zoo_beast }
+		localization_key = xeno_zoo_beast_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = hunter_gatherer }
+		localization_key = hunter_gatherer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = hunter_gatherer }
+		localization_key = hunter_gatherer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = peasant }
+		localization_key = peasant_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = peasant }
+		localization_key = peasant_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_warrior }
+		localization_key = primitive_warrior_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_warrior }
+		localization_key = primitive_warrior_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_noble }
+		localization_key = primitive_noble_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_noble }
+		localization_key = primitive_noble_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_researcher }
+		localization_key = primitive_researcher_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_researcher }
+		localization_key = primitive_researcher_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_priest }
+		localization_key = primitive_priest_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_priest }
+		localization_key = primitive_priest_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_laborer }
+		localization_key = primitive_laborer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_laborer }
+		localization_key = primitive_laborer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_miner }
+		localization_key = primitive_miner_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_miner }
+		localization_key = primitive_miner_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_technician }
+		localization_key = primitive_technician_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_technician }
+		localization_key = primitive_technician_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_farmer }
+		localization_key = primitive_farmer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_farmer }
+		localization_key = primitive_farmer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_researcher_2 }
+		localization_key = primitive_researcher_2_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_researcher_2 }
+		localization_key = primitive_researcher_2_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_priest_2 }
+		localization_key = primitive_priest_2_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_priest_2 }
+		localization_key = primitive_priest_2_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_entertainer }
+		localization_key = primitive_entertainer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_entertainer }
+		localization_key = primitive_entertainer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_warrior_2 }
+		localization_key = primitive_warrior_2_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_warrior_2 }
+		localization_key = primitive_warrior_2_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_bureaucrat }
+		localization_key = primitive_bureaucrat_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_bureaucrat }
+		localization_key = primitive_bureaucrat_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = solarpunk_anarchist }
+		localization_key = solarpunk_anarchist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = solarpunk_anarchist }
+		localization_key = solarpunk_anarchist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = hive_sustenance_drone }
+		localization_key = hive_sustenance_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = hive_sustenance_drone }
+		localization_key = hive_sustenance_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = hive_basic_agri_drone }
+		localization_key = hive_basic_agri_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = hive_basic_agri_drone }
+		localization_key = hive_basic_agri_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_warrior }
+		localization_key = primitive_hive_warrior_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_warrior }
+		localization_key = primitive_hive_warrior_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_synapse_drone }
+		localization_key = primitive_hive_synapse_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_synapse_drone }
+		localization_key = primitive_hive_synapse_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_cerebellum_drone }
+		localization_key = primitive_hive_cerebellum_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_cerebellum_drone }
+		localization_key = primitive_hive_cerebellum_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_factory_drone }
+		localization_key = primitive_hive_factory_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_factory_drone }
+		localization_key = primitive_hive_factory_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_miner }
+		localization_key = primitive_hive_miner_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_miner }
+		localization_key = primitive_hive_miner_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_technician }
+		localization_key = primitive_hive_technician_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_technician }
+		localization_key = primitive_hive_technician_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_farmer }
+		localization_key = primitive_hive_farmer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_farmer }
+		localization_key = primitive_hive_farmer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_brain_drone }
+		localization_key = primitive_hive_brain_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_brain_drone }
+		localization_key = primitive_hive_brain_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_spawning_drone }
+		localization_key = primitive_hive_spawning_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_spawning_drone }
+		localization_key = primitive_hive_spawning_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_warrior_2 }
+		localization_key = primitive_hive_warrior_2_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_warrior_2 }
+		localization_key = primitive_hive_warrior_2_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_synapse_drone_2 }
+		localization_key = primitive_hive_synapse_drone_2_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_synapse_drone_2 }
+		localization_key = primitive_hive_synapse_drone_2_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = primitive_hive_maintenance_drone }
+		localization_key = primitive_hive_maintenance_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = primitive_hive_maintenance_drone }
+		localization_key = primitive_hive_maintenance_drone_fs_FR
+	}
+	### 06_event_jobs ###
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = event_purge }
+		localization_key = event_purge_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = event_purge }
+		localization_key = event_purge_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = ratling_scavenger }
+		localization_key = ratling_scavenger_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = ratling_scavenger }
+		localization_key = ratling_scavenger_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = odd_factory_worker }
+		localization_key = odd_factory_worker_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = odd_factory_worker }
+		localization_key = odd_factory_worker_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = odd_factory_drone }
+		localization_key = odd_factory_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = odd_factory_drone }
+		localization_key = odd_factory_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = underground_trade_worker }
+		localization_key = underground_trade_worker_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = underground_trade_worker }
+		localization_key = underground_trade_worker_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = underground_contact_drone }
+		localization_key = underground_contact_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = underground_contact_drone }
+		localization_key = underground_contact_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = dimensional_portal_researcher }
+		localization_key = dimensional_portal_researcher_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = dimensional_portal_researcher }
+		localization_key = dimensional_portal_researcher_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = dimensional_portal_researcher_gestalt }
+		localization_key = dimensional_portal_researcher_gestalt_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = dimensional_portal_researcher_gestalt }
+		localization_key = dimensional_portal_researcher_gestalt_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = space_time_anomaly_researcher }
+		localization_key = space_time_anomaly_researcher_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = space_time_anomaly_researcher }
+		localization_key = space_time_anomaly_researcher_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = space_time_anomaly_researcher_gestalt }
+		localization_key = space_time_anomaly_researcher_gestalt_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = space_time_anomaly_researcher_gestalt }
+		localization_key = space_time_anomaly_researcher_gestalt_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = gas_plant_engineer }
+		localization_key = gas_plant_engineer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = gas_plant_engineer }
+		localization_key = gas_plant_engineer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = gas_plant_engineer_gestalt }
+		localization_key = gas_plant_engineer_gestalt_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = gas_plant_engineer_gestalt }
+		localization_key = gas_plant_engineer_gestalt_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = cave_cleaner }
+		localization_key = cave_cleaner_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = cave_cleaner }
+		localization_key = cave_cleaner_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = cave_cleaner_gestalt }
+		localization_key = cave_cleaner_gestalt_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = cave_cleaner_gestalt }
+		localization_key = cave_cleaner_gestalt_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = titan_hunter }
+		localization_key = titan_hunter_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = titan_hunter }
+		localization_key = titan_hunter_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = robot_caretaker }
+		localization_key = robot_caretaker_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = robot_caretaker }
+		localization_key = robot_caretaker_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = turtle_miner }
+		localization_key = turtle_miner_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = turtle_miner }
+		localization_key = turtle_miner_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = turtle_miner_gestalt }
+		localization_key = turtle_miner_gestalt_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = turtle_miner_gestalt }
+		localization_key = turtle_miner_gestalt_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = machine_nurse }
+		localization_key = machine_nurse_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = machine_nurse }
+		localization_key = machine_nurse_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = manufactorium_specialist }
+		localization_key = manufactorium_specialist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = manufactorium_specialist }
+		localization_key = manufactorium_specialist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = manufactorium_complex_drone }
+		localization_key = manufactorium_complex_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = manufactorium_complex_drone }
+		localization_key = manufactorium_complex_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = manufactorium_scraper }
+		localization_key = manufactorium_scraper_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = manufactorium_scraper }
+		localization_key = manufactorium_scraper_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = manufactorium_scraper_drone }
+		localization_key = manufactorium_scraper_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = manufactorium_scraper_drone }
+		localization_key = manufactorium_scraper_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = archivist }
+		localization_key = archivist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = archivist }
+		localization_key = archivist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = puddle_technician }
+		localization_key = puddle_technician_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = puddle_technician }
+		localization_key = puddle_technician_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = puddle_technician_drone }
+		localization_key = puddle_technician_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = puddle_technician_drone }
+		localization_key = puddle_technician_drone_fs_FR
+	}
+	### 07_fallen_empire_jobs ###
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_overseer }
+		localization_key = fe_overseer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_overseer }
+		localization_key = fe_overseer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_sky_cardinal }
+		localization_key = fe_sky_cardinal_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_sky_cardinal }
+		localization_key = fe_sky_cardinal_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_guardian_bot }
+		localization_key = fe_guardian_bot_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_guardian_bot }
+		localization_key = fe_guardian_bot_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_protector }
+		localization_key = fe_protector_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_protector }
+		localization_key = fe_protector_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_archivist }
+		localization_key = fe_archivist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_archivist }
+		localization_key = fe_archivist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_acolyte_farm }
+		localization_key = fe_acolyte_farm_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_acolyte_farm }
+		localization_key = fe_acolyte_farm_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_acolyte_mine }
+		localization_key = fe_acolyte_mine_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_acolyte_mine }
+		localization_key = fe_acolyte_mine_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_acolyte_generator }
+		localization_key = fe_acolyte_generator_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_acolyte_generator }
+		localization_key = fe_acolyte_generator_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_augur }
+		localization_key = fe_augur_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_augur }
+		localization_key = fe_augur_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_xeno_keeper }
+		localization_key = fe_xeno_keeper_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_xeno_keeper }
+		localization_key = fe_xeno_keeper_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_xeno_ward }
+		localization_key = fe_xeno_ward_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_xeno_ward }
+		localization_key = fe_xeno_ward_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_hedonist }
+		localization_key = fe_hedonist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_hedonist }
+		localization_key = fe_hedonist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_acolyte_artisan }
+		localization_key = fe_acolyte_artisan_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_acolyte_artisan }
+		localization_key = fe_acolyte_artisan_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = fe_maintenance_bot }
+		localization_key = fe_maintenance_bot_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = fe_maintenance_bot }
+		localization_key = fe_maintenance_bot_fs_FR
+	}
+	### 08_overlord_jobs ###
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_propagandist }
+		localization_key = overlord_propagandist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_propagandist }
+		localization_key = overlord_propagandist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_propagandist_drone }
+		localization_key = overlord_propagandist_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_propagandist_drone }
+		localization_key = overlord_propagandist_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_academic }
+		localization_key = overlord_academic_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_academic }
+		localization_key = overlord_academic_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_academic_drone }
+		localization_key = overlord_academic_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_academic_drone }
+		localization_key = overlord_academic_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_trader }
+		localization_key = overlord_trader_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_trader }
+		localization_key = overlord_trader_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_trader_drone }
+		localization_key = overlord_trader_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_trader_drone }
+		localization_key = overlord_trader_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = aid_worker }
+		localization_key = aid_worker_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = aid_worker }
+		localization_key = aid_worker_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = aid_worker_drone }
+		localization_key = aid_worker_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = aid_worker_drone }
+		localization_key = aid_worker_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_breeder }
+		localization_key = overlord_breeder_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_breeder }
+		localization_key = overlord_breeder_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_breeder_drone }
+		localization_key = overlord_breeder_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_breeder_drone }
+		localization_key = overlord_breeder_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = mind_thrall }
+		localization_key = mind_thrall_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = mind_thrall }
+		localization_key = mind_thrall_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = mind_thrall_drone }
+		localization_key = mind_thrall_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = mind_thrall_drone }
+		localization_key = mind_thrall_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_offspring_drone_feeder }
+		localization_key = overlord_offspring_drone_feeder_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_offspring_drone_feeder }
+		localization_key = overlord_offspring_drone_feeder_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_offspring_drone_feeder_drone }
+		localization_key = overlord_offspring_drone_feeder_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_offspring_drone_feeder_drone }
+		localization_key = overlord_offspring_drone_feeder_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_metallurgist }
+		localization_key = overlord_metallurgist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_metallurgist }
+		localization_key = overlord_metallurgist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_foundry_drone }
+		localization_key = overlord_foundry_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_foundry_drone }
+		localization_key = overlord_foundry_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_fabricator }
+		localization_key = overlord_fabricator_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_fabricator }
+		localization_key = overlord_fabricator_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_catalytic_technician }
+		localization_key = overlord_catalytic_technician_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_catalytic_technician }
+		localization_key = overlord_catalytic_technician_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_catalytic_drone }
+		localization_key = overlord_catalytic_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_catalytic_drone }
+		localization_key = overlord_catalytic_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_beholder }
+		localization_key = overlord_beholder_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_beholder }
+		localization_key = overlord_beholder_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_beholder_drone }
+		localization_key = overlord_beholder_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_beholder_drone }
+		localization_key = overlord_beholder_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_necromancer }
+		localization_key = overlord_necromancer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_necromancer }
+		localization_key = overlord_necromancer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_necromancer_drone }
+		localization_key = overlord_necromancer_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_necromancer_drone }
+		localization_key = overlord_necromancer_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_reassigner }
+		localization_key = overlord_reassigner_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_reassigner }
+		localization_key = overlord_reassigner_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_reassigner_drone }
+		localization_key = overlord_reassigner_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_reassigner_drone }
+		localization_key = overlord_reassigner_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_recruiter }
+		localization_key = overlord_recruiter_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_recruiter }
+		localization_key = overlord_recruiter_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_recruiter_drone }
+		localization_key = overlord_recruiter_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_recruiter_drone }
+		localization_key = overlord_recruiter_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_ranger }
+		localization_key = overlord_ranger_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_ranger }
+		localization_key = overlord_ranger_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_ranger_drone }
+		localization_key = overlord_ranger_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_ranger_drone }
+		localization_key = overlord_ranger_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_arborist }
+		localization_key = overlord_arborist_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_arborist }
+		localization_key = overlord_arborist_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_arborist_drone }
+		localization_key = overlord_arborist_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_arborist_drone }
+		localization_key = overlord_arborist_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_bio_trophy }
+		localization_key = overlord_bio_trophy_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_bio_trophy }
+		localization_key = overlord_bio_trophy_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_bio_trophy_drone }
+		localization_key = overlord_bio_trophy_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_bio_trophy_drone }
+		localization_key = overlord_bio_trophy_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_manager }
+		localization_key = overlord_manager_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_manager }
+		localization_key = overlord_manager_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_mortal_initiate }
+		localization_key = overlord_mortal_initiate_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_mortal_initiate }
+		localization_key = overlord_mortal_initiate_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_mortal_initiate_drone }
+		localization_key = overlord_mortal_initiate_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_mortal_initiate_drone }
+		localization_key = overlord_mortal_initiate_drone_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_bath_attendant }
+		localization_key = overlord_bath_attendant_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_bath_attendant }
+		localization_key = overlord_bath_attendant_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_bath_attendant_hive }
+		localization_key = overlord_bath_attendant_hive_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_bath_attendant_hive }
+		localization_key = overlord_bath_attendant_hive_fs_FR
+	}
+		text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_bath_attendant_machine }
+		localization_key = overlord_bath_attendant_machine_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_bath_attendant_machine }
+		localization_key = overlord_bath_attendant_machine_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_knight }
+		localization_key = overlord_knight_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_knight }
+		localization_key = overlord_knight_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = overlord_knight_drone }
+		localization_key = overlord_knight_drone_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = overlord_knight_drone }
+		localization_key = overlord_knight_drone_fs_FR
+	}
+	### 09_first_contact_jobs ###
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = low_tech_laborer }
+		localization_key = low_tech_laborer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = low_tech_laborer }
+		localization_key = low_tech_laborer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = low_tech_miner }
+		localization_key = low_tech_miner_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = low_tech_miner }
+		localization_key = low_tech_miner_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = low_tech_technician }
+		localization_key = low_tech_technician_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = low_tech_technician }
+		localization_key = low_tech_technician_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = low_tech_farmer }
+		localization_key = low_tech_farmer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = low_tech_farmer }
+		localization_key = low_tech_farmer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = low_tech_researcher }
+		localization_key = low_tech_researcher_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = low_tech_researcher }
+		localization_key = low_tech_researcher_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = low_tech_priest }
+		localization_key = low_tech_priest_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = low_tech_priest }
+		localization_key = low_tech_priest_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = low_tech_bureaucrat }
+		localization_key = low_tech_bureaucrat_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = low_tech_bureaucrat }
+		localization_key = low_tech_bureaucrat_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = low_tech_manager }
+		localization_key = low_tech_manager_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = low_tech_manager }
+		localization_key = low_tech_manager_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = low_tech_warrior }
+		localization_key = low_tech_warrior_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = low_tech_warrior }
+		localization_key = low_tech_warrior_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = broken_shackles_scavenger }
+		localization_key = broken_shackles_scavenger_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = broken_shackles_scavenger }
+		localization_key = broken_shackles_scavenger_fs_FR
+	}
+	### 10_paragon_fake_jobs ###
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = captain }
+		localization_key = job_captain_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = captain }
+		localization_key = job_captain_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = chief_navigator }
+		localization_key = job_chief_navigator_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = chief_navigator }
+		localization_key = job_chief_navigator_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = principal_pilot }
+		localization_key = job_principal_pilot_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = principal_pilot }
+		localization_key = job_principal_pilot_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = ship_weapons_officer }
+		localization_key = job_ship_weapons_officer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = ship_weapons_officer }
+		localization_key = job_ship_weapons_officer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = ship_logistics_officer }
+		localization_key = job_ship_logistics_officer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = ship_logistics_officer }
+		localization_key = job_ship_logistics_officer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = special_operations_commander }
+		localization_key = job_special_operations_commander_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = special_operations_commander }
+		localization_key = job_special_operations_commander_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = commanding_officer }
+		localization_key = job_commanding_officer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = commanding_officer }
+		localization_key = job_commanding_officer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = chief_supply_officer }
+		localization_key = job_chief_supply_officer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = chief_supply_officer }
+		localization_key = job_chief_supply_officer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = intelligence_officer }
+		localization_key = job_intelligence_officer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = intelligence_officer }
+		localization_key = job_intelligence_officer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = chief_security_officer }
+		localization_key = job_chief_security_officer_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = chief_security_officer }
+		localization_key = job_chief_security_officer_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes has_background_job = government_employee }
+		localization_key = job_government_employee_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes has_background_job = government_employee }
+		localization_key = job_government_employee_fs_FR
+	}
+	default = job_none_FR
+}
+
+defined_text = { # Dupliqué de An_Ethic_Class
+	name = An_Ethic_Class_lower_FR
+	random = no
+	text = {
+		trigger = {
+			has_any_ethic = yes
+		}
+		localization_key = BACKGROUND_AN_ETHIC_CLASS_lower
+	}
+	default = BACKGROUND_A_CLASS_lower
+}
+
+defined_text = { # Dupliqué de GetClassTexticon
+	name = GetLeaderClass_lower_FR
+	random = no
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = admiral }
+		localization_key = admiral_lower_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = admiral }
+		localization_key = admiral_lower_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = scientist }
+		localization_key = scientist_lower_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = scientist }
+		localization_key = scientist_lower_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = general }
+		localization_key = general_lower_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = general }
+		localization_key = general_lower_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = governor }
+		localization_key = governor_lower_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = governor }
+		localization_key = governor_lower_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = noclass_lower_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = noclass_lower_fs_FR
+	}
+	default = noclass_lower_fs_FR
+}
+defined_text = { # Dupliqué de GetClassTexticon
+	name = GetLeaderClass_Cap_FR
+	random = no
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = admiral }
+		localization_key = admiral_cap_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = admiral }
+		localization_key = admiral_cap_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = scientist }
+		localization_key = scientist_cap_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = scientist }
+		localization_key = scientist_cap_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = general }
+		localization_key = general_cap_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = general }
+		localization_key = general_cap_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = governor }
+		localization_key = governor_cap_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = governor }
+		localization_key = governor_cap_fs_FR
+	}
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = noclass_cap_ms_FR
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = noclass_cap_fs_FR
+	}
+	default = noclass_cap_fs_FR
+}
+
+#Ex.: "[the] admiral/governor => "[l']amiral, [l']amirale, [le ]gouverneur, [la ]gouverneure" (lower case / minuscule)
+defined_text = { # Dupliqué de GetClassTexticon
+	name = GetLeaderClass_LeLaL_FR
+	random = no
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = admiral }
+		localization_key = FRLOC_l
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = admiral }
+		localization_key = FRLOC_l
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = scientist }
+		localization_key = FRLOC_le
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = scientist }
+		localization_key = FRLOC_la
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = general }
+		localization_key = FRLOC_le
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = general }
+		localization_key = FRLOC_la
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = governor }
+		localization_key = FRLOC_le
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = governor }
+		localization_key = FRLOC_la
+	}
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_le
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_la
+	}
+	default = FRLOC_le
+}
+#Ex.: "[The] admiral/governor => "[L']amiral, [L']amirale, [Le ]gouverneur, [La ]gouverneure" (upper case / majuscule)
+defined_text = { # Dupliqué de GetClassTexticon
+	name = GetLeaderClass_LeLaL_FR_Cap
+	random = no
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = admiral }
+		localization_key = FRLOC_L
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = admiral }
+		localization_key = FRLOC_L
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = scientist }
+		localization_key = FRLOC_Le
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = scientist }
+		localization_key = FRLOC_La
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = general }
+		localization_key = FRLOC_Le
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = general }
+		localization_key = FRLOC_La
+	}
+	text = {
+		trigger = { loc_leader_masc = yes leader_class = governor }
+		localization_key = FRLOC_Le
+	}
+	text = {
+		trigger = { loc_leader_fem = yes leader_class = governor }
+		localization_key = FRLOC_La
+	}
+	text = {
+		trigger = { loc_leader_masc = yes }
+		localization_key = FRLOC_Le
+	}
+	text = {
+		trigger = { loc_leader_fem = yes }
+		localization_key = FRLOC_La
+	}
+	default = FRLOC_Le
+}
+
+defined_text = { # Dupliqué de HasEthicIcon
+	name = HasEthic_lower_FR
+	random = no
+	text = {
+		trigger = { has_ethic = ethic_pacifist }
+		localization_key = ethic_pacifist_lower_FR
+	}
+	text = {
+		trigger = { has_ethic = ethic_militarist }
+		localization_key = ethic_militarist_lower_FR
+	}
+	text = {
+		trigger = { has_ethic = ethic_xenophile	}
+		localization_key = ethic_xenophile_lower_FR
+	}
+	text = {
+		trigger = { has_ethic = ethic_xenophobe	}
+		localization_key = ethic_xenophobe_lower_FR
+	}
+	text = {
+		trigger = { has_ethic = ethic_egalitarian }
+		localization_key = ethic_egalitarian_lower_FR
+	}
+	text = {
+		trigger = { has_ethic = ethic_authoritarian }
+		localization_key = ethic_authoritarian_lower_FR
+	}
+	text = {
+		trigger = { has_ethic = ethic_spiritualist }
+		localization_key = ethic_spiritualist_lower_FR
+	}
+	text = {
+		trigger = { has_ethic = ethic_materialist }
+		localization_key = ethic_materialist_lower_FR
+	}
+	default = ethic_missing_lower_FR
+}
+
+defined_text = { # Dupliqué de ClassPrefix
+	name = ClassPrefixColor_FR
+	random = no
+	text = {
+		trigger = {
+			has_leader_flag = renowned_leader
+		}
+		localization_key = CLASS_PREFIX_RENOWNED_COLOR
+	}
+	text = {
+		trigger = {
+			has_leader_flag = legendary_leader
+		}
+		localization_key = CLASS_PREFIX_LEGENDARY_COLOR
+	}
+	default = CLASS_PREFIX_NONE_COLOR
+}
+
+defined_text = { # Dupliqué de GetClassTexticon
+	name = GetLeaderClass_generic_lower_FR
+	random = no
+	text = {
+		trigger = { leader_class = admiral }
+		localization_key = admiral_plural_lower
+	}
+	text = {
+		trigger = { leader_class = scientist }
+		localization_key = general_plural_lower
+	}
+	text = {
+		trigger = { leader_class = general }
+		localization_key = scientist_plural_lower
+	}
+	text = {
+		trigger = { leader_class = governor }
+		localization_key = governor_plural_lower
+	}
+	default = noclass_lower
 }

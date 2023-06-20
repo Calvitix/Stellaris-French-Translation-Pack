@@ -3,7 +3,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.6.0 : 30.11.2022
+ # Update check for 3.8.4 : 18.06.2023
  ####################################
  
  ####################################
@@ -245,6 +245,7 @@
  tradition_synchronicity:0 "Synchronicité"
  tradition_synchronicity_desc:0 "§LL'unité de l'esprit engendre l'unité de l'objectif. Nous devons tout faire pour atteindre la pleine synchronicité dans toutes nos entreprises.§!"
  tr_synchronicity_adopt:0 "Traditions de synchronicité"
+ tr_synchronicity_adopt_desc:0 "$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_governor_name$\n$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_scientist_name$\n$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_general_name$\n$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_admiral_name$\n$mod_planet_pops_upkeep_mult$: §G-10%§!"
  tr_synchronicity_cloned_organs:1 "Organes clonés"
  tr_synchronicity_cloned_organs_delayed:1 "§LLes cuves de clonage produisent en masse les organes les plus fréquemment consommés, tels que le coeur ou les poumons, ce qui permet de prolonger la durée de vie utile des drones prioritaires.§!"
  tr_synchronicity_kinship_gestalt:0 "Agents synchronisés"
@@ -339,7 +340,7 @@
  tr_supremacy_master_shipwrights_machine_delayed:0 "§LAvec un inventaire fourni de sections de coques préfabriquées, conçues pour être interchangeables, la construction de nos flottes sera rationalisée.§!"
 
  tr_supremacy_war_games:0 "Manoeuvres militaires"
- tr_supremacy_war_games_desc:3 "$MOD_COUNTRY_COMMAND_LIMIT_ADD$ : §G+20§!\n$MOD_LEADER_ADMIRAL_SKILL_LEVELS$ : §Y+2§!"
+ tr_supremacy_war_games_desc:4 "$MOD_COMMAND_LIMIT_ADD$ : §G+20§!\n$MOD_LEADER_ADMIRAL_SKILL_LEVELS$ : §Y+2§!"
  tr_supremacy_war_games_delayed:0 "§LUne forte tradition de manoeuvres et de simulations a pris corps au sein des hauts commandants de la flotte, que cela passe par des simulations virtuelles ou par de véritables exercices dans l'espace. Cela a encouragé nos amiraux à sortir des chemins battus, permettant la mise au point de nombreuses innovations tactiques et de stratégies nouvelles.§!"
  tr_supremacy_war_games_machine_desc:0 "$tr_supremacy_war_games_desc$"
  tr_supremacy_war_games_machine:0 "Réduction des variables au combat"
@@ -653,8 +654,12 @@
  tradition_subterfuge:0 "Subterfuge"
  tradition_subterfuge_desc:0 "Assurer sa sécurité, c'est découvrir les secrets des autres tout en dissimulant les siens."
  tr_subterfuge_adopt:0 "Traditions de subterfuge"
+ tr_subterfuge_adopt_desc:0 "Les technologies liées au §Ysubterfuge§! apparaissent désormais §Y5§! fois plus."
  tr_subterfuge_finish:0 "Traditions de subterfuge toutes adoptées"
- tr_subterfuge_finish_desc:0 "Remboursement de §G50%§! du coût du niveau d'infiltration pour toute §Yopération§! débouchant sur un succès.\nDébloque §G1§! atout de l'ascension."
+ tr_subterfuge_finish_effect:0 "Remboursement de §G50%§! du coût du niveau d'infiltration pour toute §Yopération§! débouchant sur un succès."
+ tr_subterfuge_finish_desc:1 "$tr_subterfuge_finish_effect$\n$TRADITIONS_FINISH_AP$"
+ tr_subterfuge_cloaking_finish:0 "$tr_subterfuge_finish$"
+ tr_subterfuge_cloaking_finish_desc:0 "$tr_subterfuge_finish_effect$\n$MOD_SHIP_CLOAKING_STRENGTH_ADD$: §G+1§!\n$TRADITIONS_FINISH_AP$"
 
  tr_subterfuge_information_security:0 "Sécurité de l'information"
  tr_subterfuge_information_security_delayed:0 "§LCe n'est qu'en adoptant une tradition du secret qu'il est possible de protéger les informations vitales d'une trop grande curiosité. Contre-mesures et systèmes de sécurité doivent à tout prix être renforcés pour ne donner aucun avantage à nos ennemis§!"
@@ -886,7 +891,7 @@
  tr_synthetics_adopt_machine_desc:0 "Permet l'assimilation d'autres machines au sein de l'espèce primaire."
  tr_synthetics_finish:0 "Traditions synthétiques toutes adoptées"
  tr_synthetics_finish_desc:0 "£building£Capitoles : §G+1§! emploi de £job_roboticist£§Yroboticiens§!\n$mod_ROBOT_species_trait_picks_add$: §G+1§!\n$TRADITIONS_FINISH_AP$"
- tr_synthetics_finish_machine_desc:0 "Toutes les personnalités ayant le trait §Y$trait_machine_unit$§! reçoivent le trait §Y$leader_trait_ruler_synthetic$§!.\n£building£§YCapitoles§! : §G+1§! emploi de £job_replicator£§Yréplicateur§!\n$TRADITIONS_FINISH_AP$"
+ tr_synthetics_finish_machine_desc:1 "Toutes les personnalités ayant le trait §Y$trait_machine_unit$§! reçoivent le trait §Y$leader_trait_synthetic$§!.\n£building£§YCapitoles§! : §G+1§! emploi de £job_replicator£§Yréplicateur§!\n$TRADITIONS_FINISH_AP$"
 
  tr_synthetics_maintenance_protocols:0 "Protocoles de maintenance"
  tr_synthetics_maintenance_protocols_delayed:0 "Les routines préventives de maintenance permettront de réduire les dysfonctionnements de toutes les unités robotiques."
@@ -914,7 +919,92 @@
  requires_tradition_tr_synthetics_adopt:0 "$TRIGGER_FAIL$ §RLes traditions §Ysynthétiques§! doivent avoir été adoptées.§!"
 
 ################################################################
-# Politics #
+# Aptitude
+################################################################
+
+ tradition_aptitude:0 "Aptitude"
+ tradition_aptitude_desc:0 "L'empire ne peut réellement prospérer que sous la direction de personnalités fortes."
+ tradition_aptitude_hive_desc:0 "La Conscience ne peut prospérer que grâce à ses éléments les plus forts."
+ tradition_aptitude_machine_desc:0 "Une haute efficience de commandement accroît le potentiel à la grandeur de l'empire."
+ tr_aptitude_adopt:0 "Traditions d'aptitude"
+ tr_aptitude_finish:0 "Traditions d'aptitude toutes adoptées"
+ tr_aptitude_adopt_desc:0 "Traits de départ des personnalités : §G+1§!"
+ tr_aptitude_the_empire_needs_you:0 "L'empire a besoin de vous"
+ tr_aptitude_the_empire_needs_you_delayed:0 "Nombreux sont les jeunes qui aspirent à devenir l'un des dirigeants révérés de l'empire."
+ tr_aptitude_the_empire_needs_you_hive:0 "Sortis du rang"
+ tr_aptitude_the_empire_needs_you_hive_delayed:0 "Permettre à des éléments pleins de talent de révéler tout leur potentiel est essentiel pour notre grandeur."
+ tr_aptitude_the_empire_needs_you_machine:0 "Sortis du rang"
+ tr_aptitude_the_empire_needs_you_machine_delayed:0 "Nous ne pourrons atteindre tout notre potentiel qu'en fabriquant davantage de personnalités ultra compétentes pour diriger l'empire."
+ tr_aptitude_specialist_training:0 "Formations spécialisées"
+ tr_aptitude_specialist_training_delayed:0 "Des programmes de formation rigoureux permettent d'assurer que les personnalités disposent de tous les outils indispensables pour donner le meilleur d'elles-mêmes."
+ tr_aptitude_specialist_training_hive:0 "$tr_aptitude_specialist_training$"
+ tr_aptitude_specialist_training_hive_delayed:0 "Un conditionnement rigoureux permet d'assurer le succès des drones spécialisés de la Conscience."
+ tr_aptitude_specialist_training_machine:0 "Mises à jour des utilitaires"
+ tr_aptitude_specialist_training_machine_delayed:0 "Des utilitaires novateurs et toujours plus perfectionnés assurent que nos personnalités disposent de tous les outils nécessaires pour atteindre les performances attendues d'elles."
+ tr_aptitude_psychological_profiling:0 "Profilage psychologique"
+ tr_aptitude_psychological_profiling_delayed:0 "Connaître les peurs et les faiblesses des personnalités permet de prendre toutes les mesures préventives afin d'en éviter les effets les plus délétères."
+ tr_aptitude_psychological_profiling_hive:0 "Diagnostics comportementaux"
+ tr_aptitude_psychological_profiling_hive_delayed:0 "Identifier les faiblesses menant à la déviation permet de prendre toutes les mesures préventives nécessaires pour les éviter."
+ tr_aptitude_psychological_profiling_machine:0 "Diagnostics mémoires"
+ tr_aptitude_psychological_profiling_machine_delayed:0 "Des surveillances en profondeur permettent de prendre toutes les mesures préventives nécessaires pour éviter les dysfonctionnements avant qu'ils surviennent."
+ tr_aptitude_healthcare_program:0 "Programmes de soin"
+ tr_aptitude_healthcare_program_delayed:0 "Par une surveillance constante de la santé, tout peut être prévu, des exercices quotidiens jusqu'au régime alimentaire, en passant par des procédures chirurgicales invasives, pour tirer le meilleur profit des personnalités."
+ tr_aptitude_healthcare_program_hive:0 "Maintenance physiologique"
+ tr_aptitude_healthcare_program_hive_delayed:0 "Les drones spécialisés jugés les plus utiles doivent user de toutes leurs fonctions pour veiller sur leurs organismes, et être autorisés à consommer davantage d'aliments hautement nutritifs."
+ tr_aptitude_healthcare_program_machine:0 "Maintenances préventives"
+ tr_aptitude_healthcare_program_machine_delayed:0 "Par une surveillance constante de leurs systèmes, il est possible de s'assurer que tout permette, depuis la fréquence de diagnostics jusqu'à des procédures de réparation intensives, de tirer le meilleur parti de nos personnalités."
+ tr_aptitude_champions_of_the_empire:0 "Champions de l'empire"
+ tr_aptitude_champions_of_the_empire_delayed:0 "Nous avons toute confiance dans les personnalités qui dirigent l'empire, et leur conférons le pouvoir absolu pour décider la façon dont l'empire est gouverné."
+ tr_aptitude_champions_of_the_empire_hive:0 "Autonomie mesurée"
+ tr_aptitude_champions_of_the_empire_hive_delayed:0 "Pour le bien du collectif, la Conscience est prête à autoriser un niveau d'autonomie minimal à ses éléments les plus cruciaux."
+ tr_aptitude_champions_of_the_empire_machine:0 "Droits administrateurs"
+ tr_aptitude_champions_of_the_empire_machine_delayed:0 "Le collectif a toute confiance dans les sous-routines uniques de personnalités et leur accorde donc la permission d'influer sur la façon dont l'empire est dirigé."
+ tr_aptitude_champions_of_the_empire_desc:1 "Pour chaque niveau d'£admiral£amiral et de £general£général :\n$t$$MOD_COUNTRY_NAVAL_CAP_ADD$: §G+2§!\nPour chaque niveau de £governor£gouverneur :\n$t$$MOD_EMPIRE_SIZE_MULT$: §G-2§!\nPour chaque niveau de £scientist£scientifique :\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$: §G+0.5%§!"
+
+################################################################
+# Statecraft
+################################################################
+
+ tradition_statecraft:0 "Gouvernance"
+# tradition_statecraft_hive: "Council of Voices"
+# tradition_statecraft_machine: "Assembly of Conciousness"
+ tradition_statecraft_desc:0 "Un Conseil puissant permet à l'empire de réagir mieux et plus rapidement face à toute situation."
+ tradition_statecraft_hive_desc:0 "Notre empire est défini par le Conseil des voix."
+ tradition_statecraft_machine_desc:0 "Notre empire est défini par l'Assemblée de la conscience."
+ tr_statecraft_adopt:0 "Traditions de gouvernance"
+ tr_statecraft_finish:0 "Traditions de gouvernance toutes adoptées"
+ tr_statecraft_constitutional_focus:0 "Priorisations constitutionnalisées"
+ tr_statecraft_constitutional_focus_hive:0 "Priorisations stratégiques"
+ tr_statecraft_constitutional_focus_machine:0 "$tr_statecraft_constitutional_focus_hive$"
+ tr_statecraft_constitutional_focus_delayed:0 "Grâce à une conscience claire des besoins de l'empire, il est bien plus aisé de l'administrer sans surcharger inutilement les membres du Conseil."
+ tr_statecraft_constitutional_focus_hive_delayed:0 "La priorisation stratégique permet de prendre des décisions de manière plus décisive, permettant à toutes les voix de s'aligner bien plus rapidement."
+ tr_statecraft_constitutional_focus_machine_delayed:0 "En portant l'accent sur la priorité actuelle, il est possible d'améliorer considérablement les capacités de calcul de l'intelligence centrale."
+ tr_statecraft_inspiring_agendas:0 "Priorités inspirantes"
+ tr_statecraft_inspiring_agendas_hive:0 "Priorités flexibles"
+ tr_statecraft_inspiring_agendas_machine:0 "$tr_statecraft_inspiring_agendas_hive$"
+ tr_statecraft_inspiring_agendas_delayed:0 "L'empire n'a jamais manqué d'idées sur la façon de s'assurer d'un avenir radieux."
+ tr_statecraft_inspiring_agendas_hive_delayed:0 "La polyvalence de la Conscience est cruciale pour lui permettre de décider de son avenir."
+ tr_statecraft_inspiring_agendas_machine_delayed:0 "Dans une galaxie où les choix sont innombrables, il est vital de trouver un sous-ensemble de possibilités dont l'empire tirera profit."
+ tr_statecraft_inspiring_agendas_desc:0 "$UNLOCKS_AGENDA$ $council_agenda_agenda_rightful_claims_name$\n$UNLOCKS_AGENDA$ $council_agenda_agenda_oppose_the_fallen_name$"
+ tr_statecraft_immutable_directives:0 "Directives immuables"
+ tr_statecraft_immutable_directives_delayed:0 "La compréhension fondamentale de l'objectif et du dessein doit toujours être évidente afin de permettre de se concentrer sur l'essentiel sans perdre les avancées déjà réalisées."
+ tr_statecraft_amongst_peers:0 "Entre pairs"
+ tr_statecraft_amongst_peers_hive:0 "Diffusion des informations"
+ tr_statecraft_amongst_peers_machine:0 "$tr_statecraft_amongst_peers_hive$"
+ tr_statecraft_amongst_peers_delayed:0 "Confiance, respect et retour des expériences apprises des erreurs passées doivent faire partie de la norme jusque dans les cercles dirigeants de l'empire."
+ tr_statecraft_amongst_peers_hive_delayed:0 "Les aspects multiples de la Conscience ne devraient jamais commettre les mêmes erreurs."
+ tr_statecraft_amongst_peers_machine_delayed:0 "$tr_statecraft_amongst_peers_hive_delayed$"
+ tr_statecraft_shared_benefits:0 "Bénéfices partagés"
+ tr_statecraft_shared_benefits_hive:0 "Déductions partagées"
+ tr_statecraft_shared_benefits_machine:0 "Calculs partagés"
+ tr_statecraft_shared_benefits_delayed:0 "En impliquant l'ensemble des personnalités dans l'élaboration des priorités de l'empire, chacun peut aboutir à une compréhension plus claire de son rôle et de son objet propre."
+ tr_statecraft_shared_benefits_hive_delayed:0 "En s'appuyant sur l'ensemble des noeuds et des éléments pour implémenter les priorités de la Conscience, toute spécialisation utile se propage beaucoup plus rapidement au sein du collectif."
+ tr_statecraft_shared_benefits_machine_delayed:0 "$tr_statecraft_shared_benefits_hive_delayed$"
+ tr_statecraft_shared_benefits_desc:0 "Dès le lancement d'une §Ypriorité§! :\n$t$$tr_statecraft_shared_benefits_effect_desc$"
+ tr_statecraft_shared_benefits_effect_desc:0 "Pour toutes les personnalités : $@statecraft_amongst_peers_exp_reward|G0$ en expérience"
+ 
+################################################################
+# Politics
 ################################################################
 
  tradition_politics:0 "Politique"
@@ -1087,6 +1177,8 @@
  ap_colossus_desc:0 "§LC'est le croisement du cauchemar le plus terrible et du rêve de dissuasion le plus fou : un vaisseau gigantesque doté d'une arme capable de dévaster intégralement des mondes.§!"
  ap_enigmatic_engineering:0 "Ingénierie énigmatique"
  ap_enigmatic_engineering_desc:0 "§LLa technologie n'est pas que le moyen de résoudre un problème, c'est aussi une langue offrant l'accès au-delà de la normalité. Mais les esprits simples ne peuvent le comprendre.§!"
+ ap_enigmatic_engineering_cloaking:0 "$ap_enigmatic_engineering$"
+ ap_enigmatic_engineering_cloaking_desc:0 "$ap_enigmatic_engineering_desc$"
  ap_nihilistic_acquisition:0 "Acquisition nihiliste"
  ap_nihilistic_acquisition_desc:0 "§LLa notion d'autodétermination ne peut en aucun cas être un absolu moral. Les objectifs holistiques dépassent clairement les questions individuelles.§!"
  ap_transcendent_learning:0 "Apprentissage transcendantal"
@@ -1124,3 +1216,6 @@
  ap_evolutionary_mastery_desc:1 "L'évolution naturelle n'a toujours été façonnée que par une seule chose, aussi unique que primitive : l'échec. Ce n'est qu'à partir de maintenant que nous pouvons définir ce qu'est une victoire en termes d'évolution."
  ap_transcendence_desc:0 "Nous sommes à la veille d'accéder à la véritable puissance psionique de notre espèce. Nos esprits sont prêts, entendant déjà les murmures sur un plan psychique au-delà du nôtre..."
  persistent_petitioners_desc:0 "Nos délégués auprès de la Communauté galactique savent se montrer tout à fait opiniâtres. Ils ne prennent jamais un « non » comme une réponse acceptable. Quoi que nous voulions, qu'importe le temps que cela prend, ils finissent toujours par l'obtenir."
+ tr_statecraft_finish_desc:0 "Technologie découverte : £society£§Y$tech_galactic_administration$§!."
+ tr_aptitude_psychological_profiling_desc:0 "$chance_for_negative_traits$: §G-25%§!"
+ tr_aptitude_finish_desc:0 "Traits de départ des personnalités : §G+1§!"

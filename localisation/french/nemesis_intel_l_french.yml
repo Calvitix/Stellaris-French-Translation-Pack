@@ -1,7 +1,7 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.6.0 Check OK, 30.11.2022
+# Calvitix 3.8.4 Check OK, 18.06.2023
 #
 
  FIRST_CONTACT:0 "Premier contact avec les $NAME|Y$"
@@ -44,7 +44,7 @@
  TRIGGER_INTEL_STALE_NOT:0 "Renseignements en $INTEL|Y$ sur '$COUNTRY|Y$' pas périmés"
  INTEL_DETAILS:1 "Renseignements actuels : $CURRENT_INTEL|Y$/$TARGET_INTEL|Y$"
  INTEL_TARGET_BREAKDOWN:1 "Nos renseignements sur la $TARGET_EMPIRE|Y$ évoluent vers la valeur la plus élevée parmi :"
- INTEL_TARGET_BREAKDOWN_CONTENT:2 "Renseignements de base : $FROM_MODIFIER|Y$\nAccords diplomatiques : $FROM_DIPLO_PACTS|Y$\nConfiance : $FROM_TRUST|Y$\nInfiltration : $FROM_SPY_NETWORK|Y$"
+ INTEL_TARGET_BREAKDOWN_CONTENT:3 "Renseignements de base : $FROM_MODIFIER|Y$\nAccords diplomatiques : $FROM_DIPLO_PACTS|Y$\nConfiance : $FROM_TRUST|Y$\nInfiltration : $FROM_SPY_NETWORK|Y$\nReconnaissance clandestine : $FROM_ACTIVE_RECONNAISSANCE|Y$"
  INTEL_CATEGORY_LEVEL:0 "$CATEGORY$ : $LEVEL$"
  INTEL_LEVEL_0:0 "§Rnéant§!"
  INTEL_LEVEL_1:0 "§Rbas§!"
@@ -97,6 +97,7 @@
  INTEL_INFO_intel_military_fleets:0 "Localisation des flottes militaires"
  INTEL_INFO_intel_military_fleet_details:1 "Détails sur les vaisseaux"
  INTEL_INFO_intel_military_fleet_orders:0 "Missions actuelles des flottes militaires"
+ INTEL_INFO_intel_military_cloaked_fleets:0 "Flottes occultées"
  INTEL_INFO_intel_military_generals:0 "Généraux employés"
  INTEL_INFO_intel_military_starbases:0 "Localisation des bases stellaires"
  INTEL_INFO_galactic_community_vote_breakdown:0 "Motivations du vote à la Communauté galactique"
@@ -170,7 +171,7 @@
 
  # System and UI stuff
  FIRST_CONTACT_ROLL_CHANCE_TT:0 "Il y a §Y$CHANCE|0$%§! de chances que la phase actuelle débouche sur un §Gsuccès§!.\n\nIl y a $INSIGHT_CHANCE|%0Y$ de chance que cette phase nous offre des §Yinformations§!, ce qui permettra d'accroître les chances de succès des phases futures."
- FIRST_CONTACT_INSIGHTS_NEEDED_TT:0 "Il nous faut au moins $INSIGHTS|0Y$ §Yinformations§! ou §Ypoints de compétences§! de l'émissaire avant d'avoir une chance que cette phase de l'investigation débouche sur un succès."
+ FIRST_CONTACT_INSIGHTS_NEEDED_TT:1 "Il nous faut au moins $INSIGHTS|0Y$ §Yinformations§! supplémentaires avant d'avoir une chance que cette phase de l'investigation débouche sur un succès."
  FIRST_CONTACT_CURRENT_SCORE_AND_HEADER:0 "Le résultat actuel, avant le lancer du dé, est de $SCORE|0Y$.\n\n§ESelon le total :§!"
  FIRST_CONTACT_ON_ROLL_FAILED_RANGE:0 "$MIN|0Y$ à $MAX|0Y$ ($CHANCE|%0Y$ de chances) : §Y+$CLUES|0$ informations."
  FIRST_CONTACT_ON_ROLL_FAILED_GREATER_THAN_EQ:1 "Au moins $MIN|0Y$ (§Y$CHANCE|0$%§! de chances) : chapitre terminé."
@@ -222,7 +223,9 @@
  seek_enemies_tt_short:0 "Nous devons nous préparer aux hostilités à venir avec '§Y[contact_empire.GetName]§!'."
  seek_isolation_tt:1 "Nous allons tenir nos distances avec '§Y[contact_empire.GetName]§!', réduisant le développement de son réseau d'espionnage dans notre espace de §R-33%§!."
  seek_isolation_tt_short:0 "Nous allons devoir tenir nos distances avec '§Y[contact_empire.GetName]§!'."
- friendship_already_precluded:2 "Ayant déjà fait preuve d'hostilité à l'encontre de '§Y[contact_empire.GetName]§!', nous pouvons maintenant nous passer de civilités."
+ friendship_already_precluded:3 "[contact_empire.GetPrecludedFriendshipCause]"
+ friendship_already_precluded_hostile:0 "Ayant déjà fait preuve d'hostilité à l'encontre de la §Y[contact_empire.GetName]§!, nous pouvons maintenant nous passer de civilités."
+ friendship_already_precluded_slave_origins:0 "Nulle amitié n'est possible avec nos anciens maîtres."
  action.1.fe_option:0 "'§Y[contact_empire.GetName]§!' se moque bien de nos manoeuvres diplomatiques."
  hostile_first_contact_tt:0 "Cela va être interprété comme une action §Rhostile§!."
 
@@ -294,7 +297,7 @@
  first_contact.50.B.machine:0 "Résultat des protocoles d'évaluation : trop risqué"
  first_contact.50.C:0 "L'ignorance est plus dangereuse encore"
  first_contact.50.C1:0 "Nous devons percer tous leurs secrets"
- first_contact.50.C.machine:0 "Lancement des protocoles de subversion"
+ first_contact.50.C.machine:1 "Lancement des protocoles de subversion"
  first_contact.50.C.tooltip:0 "§RNous allons tenter de pirater les bases de données de cette civilisation pour tenter d'en apprendre davantage sur elle. Si elle détecte nos tentatives, elle risque toutefois de mal le prendre.§!"
 
  first_contact.60.name:0 "Communications reçues"
@@ -905,6 +908,7 @@
  fcsum_drones_2:0 "Nous avons identifié les §H[This.ContactCountry.GetName]§! comme des drones miniers dont les possesseurs ont depuis longtemps disparu."
  fcsum_marauders_1:0 "Les §H[This.ContactCountry.GetName]§! se sont révélés appartenir à une civilisation, certes consciente mais extrêmement agressive."
  fcsum_pirates_1:0 "$fcsum_marauders_1$"
+ fcsum_neutrals_1:0 "Ce que nous appelons les §H[This.ContactCountry.GetName]§! ne semble pas appartenir aux civilisations spatiales classiques." # country tag returns a country code name, e.g. 'Zayin Aliens'
  fcsum_caravaneers_1:0 "Les §H[This.ContactCountry.GetName]§! ont été détectés dans une sorte de caravane parcourant le moindre recoin de la galaxie."
  fcsum_void_clouds_1:0 "$fcsum_critters_1$"
  fcsum_void_clouds_2:0 "Les §H[This.ContactCountry.GetName]§! ont été identifiés comme une forme de nuages de débris spatiaux, hostiles et probablement semi-conscients."
@@ -915,9 +919,13 @@
  #Misc
  first_contact.1060.name:0 "Protocoles de premier contact"
  first_contact.1060.desc.base:0 "La rencontre récente avec des formes de vie aliens a relancé, en le rendant soudain plus urgent, ce vieux débat sur la façon d'approcher toute civilisation potentiellement intelligente que nous pourrions rencontrer."
+ first_contact.1060.desc.payback.base:0 "Notre première rencontre avec des formes de vie aliens nous a rendus méfiants des autres. Il existe une vie, là-bas, et en explorant la galaxie nous rencontrerons de nouveau, à coup sûr, une vie intelligente. Mais le débat fait rage sur la façon de la saluer ou de nous présenter à elle..."
  first_contact.1060.desc:0 "$first_contact.1060.desc.base$\n\nCertains sont d'avis que nous devrions tout faire pour établir des relations amicales aussi rapidement que possible, en contactant ces aliens avec un message porteur de paix ; mais d'autres conseillent la plus grande prudence, du fait que nous ne pouvons savoir s'ils peuvent être animés d'intentions malveillantes à notre égard, et qu'il serait donc malavisé de leur faire savoir trop tôt, trop de choses sur nous.\n\nUn troisième courant de pensée, plus radical, est persuadé que nous devrions mener des actions préventives contre eux. Selon eux, «c'est la sécurité de l'ensemble des [This.GetSpeciesNamePlural] qui est menacée, aussi ne devons-nous pas hésiter à prendre toutes les mesures nécessaires pour avoir d'emblée l'avantage face à toute xénomenace potentielle.»"
+ first_contact.1060.desc.payback:0 "$first_contact.1060.desc.payback.base$\n\nCertains sont d'avis que nous devrions tout faire pour établir des relations amicales aussi rapidement que possible ; mais d'autres conseillent la plus grande prudence, mettant en avant le fait que c'est justement notre nature amicale qui a permis que nous soyons trahis et asservis.\n\nUn troisième courant de pensée, plus radical, est persuadé que nous devrions mener des actions préventives : « La meilleure manière d'éviter une nouvelle invasion est de frapper les premiers, disent-ils. C'est à nous de nous assurer que jamais plus nous ne serons asservis par des xénos ! »"
  first_contact.1060.desc.xenophile:0 "$first_contact.1060.desc.base$\n\nCertains sont d'avis que nous devrions tout faire pour établir des relations amicales aussi rapidement que possible, en contactant ces aliens avec un message porteur de paix ; mais d'autres conseillent la plus grande prudence, du fait que nous ne pouvons savoir s'ils peuvent être animés d'intentions malveillantes à notre égard, et qu'il serait donc malavisé de leur faire savoir trop tôt, trop de choses sur nous."
+ first_contact.1060.desc.payback.xenophile:0 "$first_contact.1060.desc.payback.base$\n\nSi la plupart d'entre nous veulent croire qu'il existe des civilisations tout à fait amicales dans la galaxie, d'autres conseillent la plus grande prudence, mettant en avant le fait que c'est justement notre nature amicale qui a permis que nous soyons trahis et asservis."
  first_contact.1060.desc.xenophobe:0 "$first_contact.1060.desc.base$\n\nCertains sont persuadés que nous devrions mener des actions préventives contre elles, tandis que d'autres, au contraire, incitent à la prudence, au motif qu'il serait avisé d'en apprendre davantage sur leurs capacités avant de risquer de nous en faire des ennemis."
+ first_contact.1060.desc.payback.xenophobe:0 "$first_contact.1060.desc.payback.base$\n\nMais un consensus assez général se dégage : la meilleure manière d'éviter une seconde invasion est encore d'imposer notre domination aux autres, avant qu'ils ne nous causent le moindre mal. Après tout, n'est-ce pas à nous de nous assurer que jamais plus nous ne serons asservis par des xénos ?"
  first_contact.1060.desc.gestalt:0 "La rencontre récente avec des formes de vie aliens a rappelé la nécessité où nous nous trouvons de prendre une décision quant à l'approche à adopter face à toute civilisation alien potentiellement intelligente que nous pourrions rencontrer.\n\nUne possibilité consiste à établir des relations pacifiques avec eux, aussitôt que possible, en leur envoyant toutes les informations nécessaires pour traduire nos communications. Cela pourrait, malgré tout, s'avérer imprudent s'ils sont animés d'intentions malveillantes à notre égard.\n\nLe choix le plus sûr serait donc de nous montrer prudents, en tentant de communiquer avec eux sans leur livrer trop de détails sur nous. Enfin, rien n'empêche d'adopter une approche plus agressive, pour en apprendre davantage sur eux et les tenir éloignés de notre espace. Mais cela se traduirait assurément par une dégradation de nos relations."
  first_contact.1060.A:0 "Accueillons ces xénos de manière amicale"
  first_contact.1060.A.machine:0 "$first_contact.1060.A$"
@@ -1078,6 +1086,10 @@
  first_contact_critters.90.desc:0 "Les vaisseaux détectés dans le système de [This.System.GetName] semblent appartenir à une sorte d'expédition parcourant la galaxie, dont les desseins sont inconnus. Ils ne se sont montrés aucunement hostiles, et aucun armement lourd n'a pu être détecté à leur bord. Par contre, ils semblent assez peu bavards, et nous n'avons guère capté de signaux émanant d'eux. Les [This.Owner.GetLinguists] semblent malgré tout persuadés de pouvoir traduire leur langue à partir des quelques échantillons que nous possédons, même si cela risque de prendre un peu de temps."
  first_contact_critters.95.name:0 "Les nomades"
  first_contact_critters.95.desc:0 "Nous sommes parvenus à déchiffrer la langue des mystérieux §H[This.ContactCountry.GetName]§!. Les [This.Owner.GetLinguists] ont été incapables de la moindre avancée durant un temps, avant qu'une avancée cruciale soit faite une fois qu'a été diffusé à notre attention ce qui s'est avéré être un message de bienvenue les identifiant comme les §HNamariens§!. Ils semblent désormais prêts à discuter avec nous."
+ first_contact_critters.100.desc:0 "La flotte rencontrée dans le système de §Y[This.System.GetName]§! ne ressemble à rien de ce que nous avons pu voir jusqu'à présent dans cette région de la galaxie. Cela ne paraît pas agressif, mais nous en sommes pour l'essentiel réduits à spéculer sur ses origines ou les raisons de sa présence ici. La théorie la plus plausible est qu'elle représente une entité sans liens officiels avec la moindre autorité ou civilisation."
+ first_contact_critters.100.a:0 "Mieux vaut qu'ils soient prudents"
+ first_contact_critters.105.name:0 "Flotte neutre"
+ first_contact_critters.105.desc:0 "Nous sommes dans une impasse avec cette flotte qui se fait identifier sous le nom de §H[This.ContactCountry.GetRealName]§!. Elle ignore la plupart de nos ouvertures diplomatiques, mais le plus vraisemblable est qu'elle représente une entité neutre, rattachée à aucune civilisation galactique.\n\nSi cette flotte possède des propriétaires, au sens conventionnel du terme, il faudrait sans doute recourir à des mesures hors du commun pour entrer en contact avec eux. En attendant l'occasion que cela se présente naturellement, si cela arrive jamais, toutes les observations faites ont été rassemblées à l'usage d'autres [This.Owner.GetScientistPlural] qui se trouveraient travailler sur le sujet." # though we use a country tag here, the value it returns could be e.g. 'Unscrupulous Salvagers' OR 'Modified Probe', i.e. not a true country
 
  further_fc_tiyanki_completed:0 "Les [This.ContactCountry.GetName] semblant appartenir à la même espèce de baleine spatiale, l'investigation liée à ce premier contact a été déclarée terminée.\n"
  further_fc_amoebas_completed:0 "Les [This.ContactCountry.GetName] semblant appartenir à la même espèce de faune spatiale, l'investigation liée à ce premier contact a été déclarée terminée.\n"

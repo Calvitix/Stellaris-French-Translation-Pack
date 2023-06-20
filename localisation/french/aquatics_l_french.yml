@@ -1,13 +1,13 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.6 Check OK, 30/11/2022
+# Calvitix 3.8.4 Check OK, 17/06/2023
 #
 
  vo_aquatics_voice:0 "Aquatique"
 
  trait_aquatic:0 "Aquatique"
- trait_aquatic_desc:0 "§LCette espèce est parfaitement adaptée à la vie au plus profond des océans. Mais, sur la terre ferme, ses membres sont comme un poisson sorti de l'eau...§!\n"
+ trait_aquatic_desc:1 "§LCette espèce est parfaitement adaptée à la vie au plus profond des océans. Mais, sur la terre ferme, ses membres sont comme un poisson sorti de l'eau...§!\n\n§RNécessite un monde natal §Yocéanique§!.§!"
  trait_aquatic_tooltip:2 "Sur les mondes §Yocéaniques§! et les §Yhabitats inondés§! :\n  £housing£Logements nécessaires : §G-10%§!\n Prod. de £food£nourriture, £energy£énergie et £minerals£minéraux : §G+10%§!\nSur les mondes §Ynon humides§! :\n  £housing£Logements nécessaires : §R+30%§!\n  Habitabilité : §R-20%§!\n\nL'atout de l'ascension §H$ap_hydrocentric$§! renforce les effets de ce trait."
  trait_aquatic_remove_evolutionary_mastery:1 "§RNécessite la tradition §Y$tr_genetics_resequencing$§! pour être retiré.§!"
  trait_aquatic_remove_hydrocentric:0 "§RLe trait §Y$trait_aquatic$§! ne peut être retiré après avoir choisi l'atout de l'ascension §Y$ap_hydrocentric$§!.§!"
@@ -124,6 +124,7 @@
  aquatics.215.desc:0 "Lorsque la sonde l'approcha, le dragon poussa un hurlement de colère, sans pouvoir l'empêcher pour autant de localiser une écaille dessertie pour s'enfoncer dans sa carapace. Le [Root.GetName] a été contraint d'engager un bond PRL d'urgence pour se mettre à l'abri de son courroux, mais la sonde a pu envoyer des relevés intrigants. De ce que nous pouvons en dire, la résistance des écailles est le résultat d'un cocktail complexe d'enzymes qui déclenchent une réaction chimique unique lorsque la créature entre dans l'atmosphère de §Y[dragon_colony.GetName]§! à grande vitesse.\n\nS'il reste encore beaucoup à découvrir sur le sujet, les [Root.Owner.GetResearchers] sont au moins certains d'une chose : étant donné la complexité de la biologie du dragon, si nous voulons avoir accès au matériau dont sont faites ses écailles nous devrons le tuer d'abord. Malgré tout, ils sont persuadés que les connaissances acquises grâce à cette sonde seront fort utiles."
 
  first_contact_dragon:0 "Communications avec le dragon"
+ aquatic_events.250.name:0 "$first_contact_dragon$"
  aquatic_events.250.desc:0 "Maintenant que la [This.Owner.GetName] est parvenue à entrer en communication avec un certain nombre de xéno-espèces, [needed_name.GetName], qui compte parmi nos [This.Owner.GetLinguists] les plus éminents, vient de faire une proposition radicale. Si jusqu'à présent les tentatives pour communiquer avec le dragon céleste se sont toujours soldées par des échecs retentissants, [needed_name.GetSheHe] pense que le moment est venu de faire un nouvel essai.\n\nSelon les traditions les plus anciennes, un Accord avec le dragon aurait été passé jadis entre la créature et les [This.Owner.GetSpeciesNamePlural], qui aurait mis fin aux conflits entre eux. Ce serait donc la preuve qu'une compréhension mutuelle était possible, et il lui paraît donc certain que nos expériences récentes avec des formes de vie aliens nous ont mieux que jamais préparés à comprendre cet animal."
  aquatic_events.250.desc.hive:0 "Maintenant que la [This.Owner.GetName] est entrée en communication avec un certain nombre de xéno-espèces, les [This.Owner.GetLinguists] sont arrivés à la conclusion que l'heure est venue de faire une nouvelle tentative pour communiquer avec le dragon céleste. Si toutes les tentatives récentes se sont soldées par des échecs retentissants, nous avons encore vaguement conscience que, au terme de conflits, la paix a jadis pu être conclue avec la créature.\n\nOr, maintenant que nous avons acquis une grande expérience dans les relations avec les formes de vie aliens, nous sommes bien davantage en mesure de comprendre cet animal."
  aquatic_events.250.desc.machine:0 "Maintenant que la [This.Owner.GetName] est entrée en communication avec un certain nombre de xéno-espèces, les [This.Owner.GetLinguists] ont atteint un consensus : l'heure est venue de tenter à nouveau de communiquer avec le dragon céleste. Si toutes nos tentatives passées réunissent les critères pour être qualifiées d'échecs, les archives de nos créateurs suggèrent qu'il est au moins en partie possible de le comprendre. Après tout, même si leurs motifs demeurent inconnus, ils sont supposés l'avoir combattu avant de faire la paix avec lui.\n\nOr, grâce à l'expérience acquise récemment dans les relations avec des formes de vie totalement aliens, nous sommes désormais bien davantage en mesure de comprendre cet organique gigantesque."
@@ -152,6 +153,7 @@
 
  aquatics.305.name:0 "$aquatics.180.name$"
  aquatics.305.desc:0 "Le [This.GetName] vient de rapporter la présence d'un terrifiant dragon spatial dans le système de §Y[From.GetName]§!.\n\nCelui-ci semble être l'un des coeurs de la [From.Owner.GetName], et l'un de ses mondes porte les preuves d'une population particulièrement nombreuse.\n\nJusqu'à présent, le dragon n'a pas réagi à notre présence, et il n'y a aucun signe montrant le moindre conflit entre lui et les habitants. Peut-être vaudrait-il mieux laisser la créature en paix." #this event happens during first contact, so [From.Owner.GetName] is 'alpha menace'
+ aquatics.305.desc.pre-ftl:0 "Le [This.GetName] vient de rapporter la présence d'un terrifiant dragon spatial dans le système de §Y[From.GetName]§!.\n\nCelui-ci semble abriter une civilisation pré-PRL : l'un de ses mondes montre des signes de vie.\n\nJusqu'à présent, le dragon n'a pas réagi à notre présence, et il n'y a aucun signe montrant le moindre conflit entre lui et les habitants du système. Peut-être vaudrait-il mieux laisser la créature en paix." # e.g. 'home to an unsophisticated civilization' or 'home to a pre-FTL civilization'
 
  space_dragon_origin:0 "Dragon céleste"
  space_dragon_origin_plural:0 "Dragons célestes"
@@ -180,6 +182,9 @@
  aquatics.1.name:0 "Évolution aquatique"
  aquatics.1.desc:0 "Les [Root.GetSpeciesNamePlural] sont issus des océans, et ont su évoluer pour s'adapter de manière idéale à la vie dans les profondeurs abyssales. Et, au moment même où nous nous apprêtons à prendre la route des étoiles, nous n'avons pas renoncé à nos eaux primordiales : cette eau est et sera toujours notre foyer.\n\nNotre évolution est désormais achevée. Jamais plus nous ne nous adapterons à la vie dans un autre environnement, mais au contraire refaçonnerons nos mondes pour qu'ils répondent à nos besoins. Et alors que nous sommes à l'aube d'une ère nouvelle, nous savons que rien ne nous séparera jamais de nos chers océans."
  aquatic.1.A:0 "Cela sera un foyer à nul autre pareil"
+
+ MESSAGE_FROZEN_TERRAFORM_FOUND_TITLE:0 "$aquatics.5.name$"
+ MESSAGE_FROZEN_TERRAFORM_FOUND_DESC:0 "Il s'est avéré que le monde glacé §Y[From.GetName]§! pourrait devenir un superbe monde océanique."
 
  aquatics.5.name:0 "Terraformation envisageable d'un monde glacé"
  aquatics.5.desc.intro:0 "Les enquêtes détaillées menées sur §Y[From.GetName]§! ont révélé qu'elle dispose d'une couche de glace suffisamment épaisse pour en faire un agréable monde océanique. Il suffirait pour cela de la rendre plus chaude et de la doter d'une atmosphère respirable."
@@ -239,7 +244,7 @@
  # Anglers Civic
  civic_anglers:0 "Pêcheurs"
  civic_anglers_desc:0 "Toujours très adroite à tirer le plus grand parti des bienfaits de la nature, cette société s'assure de toujours disposer d'un apport stable en nourriture et de ressources économiques."
- civic_corporate_anglers:0 "$civic_anglers$"
+ civic_corporate_anglers:1 "Chalutage"
  civic_corporate_anglers_desc:0 "$civic_anglers_desc$"
  civic_tooltip_anglers_effects:3 "Sur les mondes §Hocéaniques§!, le nombre de £district£§Hdistricts agricoles§! n'est pas limité.\nSur les mondes §Yhumides§!, les £job_farmer£§Yfermiers§! sont remplacés par des £job_angler£§Ypêcheurs§! et des £job_pearl_diver£§Ypêcheurs de perles§!.\nLes §Ypêcheurs§! produisent §Y8§! de £food£§Ynourriture§! et §Y2§! de £trade_value£§Yvaleur commerciale§!, et les §Ypêcheurs de perles§! produisent §Y6§! de £consumer_goods£§Ybiens de consommation§! et §Y2§! de £trade_value£§Yvaleur commerciale§!.\nConfère le trait §H$trait_aquatic$§!."
  job_aqu_angler_effect_desc:1 "(les £job_angler£pêcheurs produisent de la £food£§Ynourriture§! et de la £trade_value£§Yvaleur commerciale§!)"
@@ -258,3 +263,7 @@
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  aquatics.115.desc:0 "Fidèles à leurs promesses, les nécromanciens ont ramené le dragon céleste du système de [dragon_system.GetName] à la vie. S'il paraît quelque peu étrange ainsi (mais à quoi s'attendre d'autre avec une telle créature ramenée de la mort ?) il attend désormais nos ordres."
+ angler_ms_FR:0 "pêcheur"
+ angler_fs_FR:0 "pêcheuse"
+ pearl_diver_ms_FR:0 "pêcheur de perles"
+ pearl_diver_fs_FR:0 "pêcheuse de perles"

@@ -5625,6 +5625,7 @@ empire_name_parts_list = {
 	key = "primitive_names"
 	parts = {
 		primitive_names_Civilization = 1
+		primitive_names_Society_Name = 1
 	}
 }
 
@@ -5633,22 +5634,38 @@ empire_name_format = {
 		factor = 0
 		modifier = {
 			add = 10000
-			OR = {
-				has_government = "gov_tribal_society"
-				has_government = "gov_feudal_realms"
-				has_government = "gov_fragmented_nation_states"
-			}
+			is_primitive = yes
+			is_hive_empire = no
 		}
 	}
 	format = "{1_2{<primitive_names> [This.GetSpeciesName]}}"
 	adjective = "{[This.GetSpeciesName]}"
-#	lookups = "[This.GetSpeciesName] <primitive_names>"
-#	format = fr_format.primitive.1 # [This.GetSpeciesName] <primitive_names>
-#	noun = format.species # [This.GetSpeciesName]
 	# Human Civilization
 }
 
+# Placeholder for pre-ftl hive-minds
+empire_name_parts_list = {
+	key = "primitive_names_hive" # Correction de bug
+	parts = {
+		primitive_names_Collective = 1
+		primitive_names_Swarm = 1
+		primitive_names_Colony_Name = 1
+	}
+}
 
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			is_primitive = yes
+			is_hive_empire = yes
+		}
+	}
+	format = "{1_2{<primitive_names_hive> [This.GetSpeciesName]}}"
+	adjective = "{[This.GetSpeciesName]}"
+	# Human Collective
+}
 
 
 ### PIRATE NAMES

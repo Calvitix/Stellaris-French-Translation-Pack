@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Original Stellaris File Overwritten by FrenchTranslationPack (Adaptation by Calvitix)
- # Update check for 3.5.0 : 21.09.2022
+ # Update check for 3.8.4 : 19.06.2023
  # Translation check : 23.09.2022
  ####################################
  
@@ -404,7 +404,7 @@
  utopia.3181.desc:0 "Une connexion précognitive limitée au Suaire peut être maintenue sans risquer de sombrer dans la folie, mais le flot massif de données de probabilités est trop écrasant pour être du moindre usage.\n\nMalgré tout, si une interface digitale pouvait être conçue pour interpréter ces données, elle permettrait potentiellement d'améliorer les performances des ordinateurs de combat de nos vaisseaux spatiaux..."
  utopia.3181.name:0 "§GInterface précognitive§!"
  utopia.3182.desc:0 "Comme nous le craignions, la folie s'est emparée des télépathes. Tous en même temps, leurs esprits se sont ouverts à la multitude inconcevable d'options et de possibilités existantes, à la fois dans le passé et dans l'avenir.\n\nLa plus petite variation, le moindre scénario, aussi importantes ou infimes que soient les différences entre chacun d'eux, est inlassablement répété à l'intérieur de leurs cerveaux. Ils ont sombré dans une catatonie permanente.\n\nIl va falloir un moment au Conclave des télépathes pour pouvoir rassembler la puissance psionique nécessaire pour atteindre de nouveau le Suaire."
- utopia.3190.desc:0 "Nous avons découvert un endroit réduit, au sein du Suaire, qui dispose d'une concentration d'énergie psionique d'une magnitude encore jamais vue. Tout psychique qui parviendrait à puiser dans cette poche d'énergie brute deviendrait immensément puissant... mais il n'y en a que pour une seule personne, et cela comprend des risques.\n\nSeuls trois individus, dans toute la [Root.GetName], possèdent la force psionique nécessaire pour y puiser en ayant le moindre espoir de survivre. Qui doit-on y envoyer ?"
+ utopia.3190.desc:1 "Nous avons découvert un endroit réduit, au sein du Suaire, qui dispose d'une concentration d'énergie psionique d'une magnitude encore jamais vue. Tout psychique qui parviendrait à puiser dans cette poche d'énergie brute deviendrait immensément puissant... mais il n'y en a que pour une seule personne, et cela comprend des risques.\n\nSeuls quelques individus, dans toute la [Root.GetName], possèdent la force psionique nécessaire pour y puiser en ayant le moindre espoir de survivre. Qui doit-on y envoyer ?"
  utopia.3190.1.a:1 "§G[leader_1.GetLeLaLeadCap] [leader_1.GetTitle] [leader_1.GetName]§!"
  utopia.3190.2.a:1 "§Y[leader_1.GetLeLaLeadCap] [leader_1.GetTitle] [leader_1.GetName]§!"
  utopia.3190.3.a:1 "§R[leader_1.GetLeLaLeadCap] [leader_1.GetTitle] [leader_1.GetName]§!"
@@ -414,6 +414,9 @@
  utopia.3190.1.c:1 "§G[leader_3.GetLeLaLeadCap] [leader_3.GetTitle] [leader_3.GetName]§!"
  utopia.3190.2.c:1 "§Y[leader_3.GetLeLaLeadCap] [leader_3.GetTitle] [leader_3.GetName]§!"
  utopia.3190.3.c:1 "§R[leader_3.GetLeLaLeadCap] [leader_3.GetTitle] [leader_3.GetName]§!"
+ utopia.3190.1.d:1 "§G[leader_4.GetLeLaLeadCap] [leader_4.GetTitle] [leader_4.GetName]§!"
+ utopia.3190.2.d:1 "§Y[leader_4.GetLeLaLeadCap] [leader_4.GetTitle] [leader_4.GetName]§!"
+ utopia.3190.3.d:1 "§R[leader_4.GetLeLaLeadCap] [leader_4.GetTitle] [leader_4.GetName]§!"
  utopia.3191.desc:0 "C'est... C'est fait. Alors que [chosen_leader.GetName] y puise l'énergie pour la capter, le Suaire tout entier semble frémir.\n\nSeule une poignée d'individus, dans l'histoire de la galaxie, ont disposé d'une telle puissance psionique. Puissent les esprits prendre pitié de nos âmes."
  utopia.3192.desc:0 "Alors que [chosen_leader.GetName] y puise l'énergie, le Suaire tout entier semble frémir.\n\nMalheureusement, son esprit est incapable de supporter le stress enduré. Peut-être aucun être vivant ne peut-il entrer en possession d'une telle puissance. [chosen_leader.GetName] est mort, dans une énorme explosion d'énergie psionique qui a aussi tué tous ceux qui se trouvaient à proximité."
  utopia.3193.desc:0 "Alors que l'immense énergie psionique contenue dans la poche est transférée à [chosen_leader.GetName], le Suaire tout entier semble frémir.\n\nSi le transfert s'est bien déroulé, [chosen_leader.GetName] en a été... changé... En une sorte d'être d'énergie pure.\n\n§P«... QU... QUE... M'AV... QUE M'AVEZ-VOUS... FAIT ?»§!\n\n§P«VOUS ALLEZ... LE... PAYER... !»§!"
@@ -430,6 +433,8 @@
 
  terraforming_candidate_category:0 "Anciens signes de vie"
  terraforming_candidate_category_desc:0 "Certains signes semblent montrer que ce monde, aujourd'hui désolé et dénué de vie, a autrefois abrité une biosphère."
+ MESSAGE_TERRAFORM_FOUND_TITLE:0 "$anomaly.2575.name$"
+ MESSAGE_TERRAFORM_FOUND_DESC:0 "§Y[From.GetName]§! a été identifiée comme une [From.GetPlanetMoon] pouvant être terraformée, et sera conservée en tant que telle dans les archives pour les projets de colonisation futurs."
  anomaly.2575.name:0 "Terraformation envisageable"
  anomaly.2575.desc.intro:0 "Les enquêtes détaillées menées sur §Y[From.GetName]§! ont révélé qu'elle a, dans un passé lointain, abrité la vie. Il y a des gisements d'eau glacée, aussi bien dans les calottes glaciaires des pôles que sous la surface de la [From.GetPlanetMoon] ; mais surtout l'existence de réseaux de vallées suggère que l'eau s'y écoulait autrefois librement."
  anomaly.2575.desc.1:0 "$anomaly.2575.desc.intro$\n\nTerraformer la [From.GetPlanetMoon] est en théorie possible, mais nous ne maîtrisons pas encore la technologie qui permettrait de mener à bien cette entreprise monumentale en un temps qui ne dépasse pas l'entendement."
@@ -581,6 +586,8 @@
  covenant_whisperers_in_the_void_0:0 "$covenant_whisperers_in_the_void$"
  covenant_whisperers_in_the_void_desc:0 "Nous avons conclu un accord avec une puissante créature du Suaire et bénéficions maintenant de son patronage.\n\n§YIl y aura un prix à payer.§!"
  covenant_whisperers_in_the_void_0_desc:0 "$covenant_whisperers_in_the_void_desc$"
+ covenant_whisperers_in_the_void_0_fircon:0 "Manteau des Murmureurs"
+ covenant_whisperers_in_the_void_fircon:0 "$covenant_whisperers_in_the_void_0_fircon$"
  covenant_composer_of_strands:0 "Accord avec le Composeur de brins"
  covenant_composer_of_strands_0:0 "$covenant_composer_of_strands$"
  covenant_composer_of_strands_desc:0 "Nous avons conclu un accord avec une puissante créature du Suaire et bénéficions maintenant de son patronage.\n\n§YIl y aura un prix à payer.§!"
@@ -632,7 +639,7 @@
  utopia.2681.a:0 "Notre [leader_1.GetTitle] [leader_1.GetName]"
  utopia.2681.b:0 "Notre [leader_2.GetTitle] [leader_2.GetName]"
  utopia.2681.c:0 "Notre [leader_3.GetTitle] [leader_3.GetName]"
- utopia.2681.d:0 "[leader_4.GetTitle] [leader_4.GetName]"
+ utopia.2681.d:0 "Notre [leader_4.GetTitle] [leader_4.GetName]"
 
  utopia.2682.name:0 "L'ascension de [chosen_leader.GetName]"
  utopia.2682.desc:0 "C'est fait. Alors que l'énergie [Root.GetShroudPatron_FR_dudeldes] pénétrait en [chosen_leader.GetName], tous ceux qui l'entouraient ont pu sentir le poids de [Root.GetShroudPatron_FR_saleur] puissance psionique. Elle est immense, et commande le respect. Désormais, [chosen_leader.GetSheHe] sera [chosen_leader.GetLeLaLead] champion[chosen_leader.GetXNeLead] immort[chosen_leader.GetElElleLead] [Root.GetShroudPatron_FR_dudeldes]."
@@ -653,12 +660,33 @@
  building_instrument_sanctum_desc:0 "Ce sanctuaire est dédié à la communion avec l'Instrument du désir. Là, les trésors sont conservés avant d'être échangés avec une frénésie qui nous rapproche de la satisfaction."
  building_whisperers_sanctum:0 "Sanctuaire des Murmureurs du néant"
  building_whisperers_sanctum_desc:0 "Ce sanctuaire est dédié à la communion avec les Murmureurs du néant. Là, des secrets sont susurrés, de nouvelles connaissances amenées pour être scellées, et nos murmures participent au choeur."
+ covenant_detection_first_contact:0 "$building_whisperers_sanctum$"
+ covenant_detection_first_contact_effect:0 "Pour notre §Ybase stellaire§! dans ce système : §G+5§! en £ship_stats_cloaking_detection£capacité de détection.\n\n"
 
  whisperers_chosen:0 "Élu des Murmureurs du néant"
  eater_chosen:0 "Élu du Mangeur de mondes"
  composer_chosen:0 "Élu du Composeur de brins"
  instrument_chosen:0 "Élu de l'Instrument du désir"
 
+ COMPOSER_MARK:0 "Toucher du Composeur de brins"
+ COMPOSER_MARK_DESC:0 "Le toucher du Composeur de brins amplifie les capacités psioniques et permet d'influer sur des vaisseaux complets."
+ EATER_MARK:0 "Toucher du Mangeur de mondes"
+ EATER_MARK_DESC:0 "Le toucher du Mangeur de mondes amplifie les capacités psioniques et permet d'influer sur des vaisseaux complets."
+ INSTRUMENT_MARK:0 "Toucher de l'Instrument du désir"
+ INSTRUMENT_MARK_DESC:0 "Le toucher de l'Instrument du désir amplifie les capacités psioniques et permet d'influer sur des vaisseaux complets."
+ WHISPERERS_MARK:0 "Toucher des Murmureurs du néant"
+ WHISPERERS_MARK_DESC:0 "Le toucher des Murmureurs du néant amplifie les capacités psioniques et permet d'influer sur des vaisseaux complets."
+
+ tech_covenant_composer:0 "$COMPOSER_MARK$"
+ tech_covenant_composer_desc:0 "Nous avons découvert comment permettre à l'énergie psionique de s'écouler à travers des vaisseaux entiers. Grâce à ce savoir, nous pouvons désormais imprégner chacun d'entre eux de la puissance du Composeur de brins."
+ tech_covenant_eater:0 "$EATER_MARK$"
+ tech_covenant_eater_desc:0 "Nous avons découvert comment permettre à l'énergie psionique de s'écouler à travers des vaisseaux entiers. Grâce à ce savoir, nous pouvons désormais imprégner chacun d'entre eux de la puissance du Mangeur de mondes."
+ tech_covenant_instrument:0 "$INSTRUMENT_MARK$"
+ tech_covenant_instrument_desc:0 "Nous avons découvert comment permettre à l'énergie psionique de s'écouler à travers des vaisseaux entiers. Grâce à ce savoir, nous pouvons désormais imprégner chacun d'entre eux de la puissance de l'Instrument du désir."
+ tech_covenant_whisperers:0 "$WHISPERERS_MARK$"
+ tech_covenant_whisperers_desc:0 "Nous avons découvert comment permettre à l'énergie psionique de s'écouler à travers des vaisseaux entiers. Grâce à ce savoir, nous pouvons désormais imprégner chacun d'entre eux de la puissance des Murmureurs du néant."
+
+ utopia.3400.name:0 "Divinisation du pouvoir"
  leader_trait_scientist_composer_chosen:0 "$composer_chosen$"
  leader_trait_scientist_composer_chosen_desc:0 "Cette personnalité a été élue pour maîtriser la puissance de cette entité insondable du Suaire qu'est le Composeur de brins. Soutenue par des énergies fantasmagoriques, la mort ne peut plus l'atteindre désormais."
  composer_chosen_sr_tooltip:0 "$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$: §G+15%§!\n$MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+25%§!\nChaque mois, cette personnalité produit §G2§!£volatile_motes£, §G2§!£exotic_gases£ et §G2§!£rare_crystals£."

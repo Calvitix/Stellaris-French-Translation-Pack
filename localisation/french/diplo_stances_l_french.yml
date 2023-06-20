@@ -4,7 +4,7 @@
  ####################################
  
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.1.1. Check OK, 15/09/2021
+# Calvitix 3.8.4. Check OK, 15/06/2023
 #
  DIPLOMACY_STANCE:0 "§HPosture diplomatique§!"
  diplo_stance_belligerent:0 "Agressive"
@@ -47,12 +47,31 @@
  diplo_stance_isolationist_fallen_empire:0 "Dormante"
  diplo_stance_isolationist_fallen_empire_name:0 "$diplo_stance_isolationist_fallen_empire$"
  diplo_stance_isolationist_fallen_empire_desc:0 "Cet empire a sombré dans un âge sombre il y a fort longtemps, et reste depuis lors largement isolé du reste de la galaxie."
- diplo_stance_primitive:0 "Ignorante"
- diplo_stance_primitive_name:0 "$diplo_stance_primitive$"
- diplo_stance_primitive_desc:0 "Cette civilisation ignore tout de ce qui est extérieur à son puits de gravité."
-
+ diplo_stance_ignorant:0 "Ignorante"
+ diplo_stance_ignorant_name:0 "$diplo_stance_ignorant$"
+ diplo_stance_ignorant_desc:1 "Cette civilisation pré-PRL ignore tout de ce qui est extérieur à son puits de gravité."
+ diplo_stance_questioning:0 "Intriguée"
+ diplo_stance_questioning_name:0 "$diplo_stance_questioning$"
+ diplo_stance_questioning_desc:0 "Cette civilisation pré-PRL commence à s'interroger sur ce qui peut se trouver au-delà de son système stellaire natal."
+ diplo_stance_eager:0 "Impatiente"
+ diplo_stance_eager_name:0 "$diplo_stance_eager$"
+ diplo_stance_eager_desc:0 "Cette civilisation pré-PRL est impatiente de pouvoir parcourir les étoiles et de découvrir la galaxie."
+ diplo_stance_fearful:0 "Effrayée"
+ diplo_stance_fearful_name:0 "$diplo_stance_fearful$"
+ diplo_stance_fearful_desc:0 "Cette civilisation pré-PRL est effrayée par les menaces aliens que peut receler la galaxie."
+ diplo_stance_uncertain:0 "Indécise"
+ diplo_stance_uncertain_name:0 "$diplo_stance_uncertain$"
+ diplo_stance_uncertain_desc:0 "Cette civilisation pré-PRL s'interroge sur la manière d'approcher les sociétés aliens."
+ diplo_stance_culture_shock:0 "$culture_shock_diplomacy$"
+ diplo_stance_culture_shock_name:0 "$diplo_stance_culture_shock$"
+ diplo_stance_culture_shock_desc:0 "$culture_shock_diplomacy_desc$"
 
  policy_diplomatic_stance:0 "Posture diplomatique"
  policy_diplomatic_stance_desc:0 "Nous pouvons établir une posture diplomatique afin de définir précisément les relations que nous souhaitons entretenir avec le reste de la galaxie.\n"
 
  requires_supremacy_traditions:0 "$TRIGGER_FAIL$ Requiert que les §Ytraditions de suprématie§! aient toutes été adoptées."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ diplo_stance_primitive:0 "Ignorante"
+ diplo_stance_primitive_name:0 "$diplo_stance_primitive$"
+ diplo_stance_primitive_desc:0 "Cette civilisation ignore tout de ce qui est extérieur à son puits de gravité."

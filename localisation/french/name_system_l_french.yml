@@ -10,7 +10,7 @@
  REGNAL_NAME_FORMAT_NUMBERED:0 "$NAME$ $NUMBER$" # E.g. 'Igvi-Inor IX'
  TWO_NAMES_FORMAT:1 "$1$ $2$" # E.g. 'John Doe'
  NAME_WITH_TITLE_FORMAT:0 "$TITLE$ $NAME$" # E.g. 'Emperor Augustus'
- PREFIX_NAME_FORMAT:0 "$PREFIX$ $NAME$" # Used for ships' prefixes, e.g. 'UNS Excelsior'
+ PREFIX_NAME_FORMAT:0 "$NAME$ $PREFIX$" # Used for ships' prefixes, e.g. 'UNS Excelsior'
  SUFFIX_NAME_FORMAT:0 "$NAME$ $SUFFIX$" # Used for ships with numbers where applicable, e.g. 'UNS Excelsior II'
  ASTEROID_NAME_FORMAT:0 "$prefix$$suffix$"
  AofB:0 "$1$ de $2$" # Used in empire names like 'Empire of Sol'.
@@ -53,10 +53,11 @@
 
  # Patterns for turning nouns into adjectives
  # NOTE: Languages can have more or fewer entries here than English has.
+ # NOTE 2: Removing the '*' symbol will result in the noun being left out completely.
  # Example: 
  # adj_NNid: '*an $1$' 
  # means: 'A noun that ends in 'id' will have 'id' replaced by 'an', 
- # followed by whatever it's attributing: e.g. 'Jhabbanid'->'Jhabbanan Confederacy'
+ # and the remainder of the word it's attributing will replace the '*': e.g. 'Jhabbanid'->'Jhabbanan Confederacy'
  # Patterns can be 2 last letters (adj_NNid), 1 last letter (adj_NNd) or 0 last letters
  # (i.e. default, adj_NN). If you need more, contact dev.
  adj_NNi:0 "$1$ *i"

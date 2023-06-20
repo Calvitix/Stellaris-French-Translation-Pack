@@ -41,6 +41,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_l
 	}
+	default = FRLOC_le
 }
 #Ex.: "[X ]King/Queen/Emperor/Empress Someone XIV is our ruler." => « [Le ]roi Machin XIV est notre dirigeant. / [La ]reine Machine XIV est notre dirigeante. / [L']empereur Machin XIV est notre dirigeant. / [L']imépratrice Machine XIV est notre dirigeante. » (upper case / majuscule)
 defined_text = {
@@ -74,6 +75,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_L
 	}
+	default = FRLOC_Le
 }
 
 
@@ -103,6 +105,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_la_x
 	}
+	default = FRLOC_le_x
 }
 #Ex.: "[The] ruler of this empire is Someone XIV." => « [Le] dirigeant de cet empire c'est Machin XIV. / [La] dirigeante de cet empire c'est Machine XIV. » (upper case / majuscule)
 defined_text = {
@@ -129,6 +132,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_La_x
 	}
+	default = FRLOC_Le_x
 }
 
 
@@ -165,6 +169,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_del
 	}
+	default = FRLOC_du
 }
 #Ex.: "[From] King/Emperor/Queen/Empress Someone XIV came the best news." => « [Du ]roi Machin XIV / [De l']empereur Machin XIV / [De la ]reine Machine XIV / [De l']impératrice Machine XIV est venue la bonne nouvelle. » (upper case / majuscule)
 defined_text = {
@@ -198,6 +203,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_Del
 	}
+	default = FRLOC_Du
 }
 
 
@@ -227,6 +233,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_dela_x
 	}
+	default = FRLOC_du_x
 }
 #Ex.: "[From] King Someone XIV came the best news." => « [Du] roi Machin XIV / [De la] reine Machine XIV est venue la bonne nouvelle. » (upper case / majuscule)
 defined_text = {
@@ -253,6 +260,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_Dela_x
 	}
+	default = FRLOC_Du_x
 }
 
 
@@ -289,6 +297,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_al
 	}
+	default = FRLOC_au
 }
 #Ex.: "Deliverance belongs [to ]King/Queen Someone XIV." => « [Au ]roi Machin XIV / [À l']empereur Machin XIV / [À la ]reine Machine XIV / [À l']impératrice Machine XIV appartient le salut. » (upper case / majuscule)
 defined_text = {
@@ -322,6 +331,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_Al
 	}
+	default = FRLOC_Au
 }
 
 
@@ -351,6 +361,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_ala_x
 	}
+	default = FRLOC_au_x
 }
 #Ex.: "Deliverance belongs [to] the wise King/Queen Someone XIV." => « [Au] sage roi Machin XIV / [Au] sage empereur Machin XIV / [À la] sage reine Machine XIV / [À la] sage impératrice Machine XIV appartient le salut. » (upper case / majuscule)
 defined_text = {
@@ -377,11 +388,12 @@ defined_text = {
 		}
 		localization_key = FRLOC_Ala_x
 	}
+	default = FRLOC_Au_x
 }
 
 
 
-#Ex.: "It falls to you [as] ruler..." => « C'est à vous, en tant [que] roi/reine... / C'est à vous, en tant [qu'empereur/impératrice]... » (lower case / minuscule)
+#Ex.: "It falls to you [as ]ruler..." => « C'est à vous, en tant [que ]roi/reine... / C'est à vous, en tant [qu']empereur/impératrice... » (lower case / minuscule)
 defined_text = {
 	name = GetQueQuDir
 	text = {
@@ -406,8 +418,9 @@ defined_text = {
 		}
 		localization_key = FRLOC_qu
 	}
+	default = FRLOC_que
 }
-#Ex.: "It falls to you [as] ruler..." => « C'est à vous, en tant [que] roi/reine... / C'est à vous, en tant [qu'empereur/impératrice]... » (lower case / minuscule)
+#Ex.: "[As] ruler it falls to you..." => « C'est à vous, en tant [que ]roi/reine... / C'est à vous, en tant [qu']empereur/impératrice... » (lower case / minuscule)
 defined_text = {
 	name = GetQueQuDirCap
 	text = {
@@ -432,6 +445,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_Qu
 	}
+	default = FRLOC_Que
 }
 
 
@@ -461,6 +475,64 @@ defined_text = {
 		}
 		localization_key = FRLOC_e
 	}
+	default = FRLOC_XX
+}
+
+
+
+#Ex.: "[this one] (= the ruler)" => « [celui/celle]-ci » (= le/la dirigeant(e)]
+defined_text = {
+	name = GetCeluiCelleDir
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_masc_cons = yes
+				frloc_rulers_strange_angloalien_masc_cons = yes
+				frloc_rulers_masc_vow = yes
+				frloc_rulers_strange_angloalien_masc_vow = yes
+			}
+		}
+		localization_key = FRLOC_celui
+	}
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_fem_cons = yes
+				frloc_rulers_strange_angloalien_fem_cons = yes
+				frloc_rulers_fem_vow = yes
+				frloc_rulers_strange_angloalien_fem_vow = yes
+			}
+		}
+		localization_key = FRLOC_celle
+	}
+	default = FRLOC_celui
+}
+#Ex.: "[This one] (= the ruler)" => « [Celui/Celle]-ci » (= le/la dirigeant(e)]
+defined_text = {
+	name = GetCeluiCelleDirCap
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_masc_cons = yes
+				frloc_rulers_strange_angloalien_masc_cons = yes
+				frloc_rulers_masc_vow = yes
+				frloc_rulers_strange_angloalien_masc_vow = yes
+			}
+		}
+		localization_key = FRLOC_Celui
+	}
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_fem_cons = yes
+				frloc_rulers_strange_angloalien_fem_cons = yes
+				frloc_rulers_fem_vow = yes
+				frloc_rulers_strange_angloalien_fem_vow = yes
+			}
+		}
+		localization_key = FRLOC_Celle
+	}
+	default = FRLOC_Celui
 }
 
 
@@ -490,6 +562,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_elle
 	}
+	default = FRLOC_el
 }
 
 
@@ -519,6 +592,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_ere
 	}
+	default = FRLOC_er
 }
 
 
@@ -548,6 +622,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_sse
 	}
+	default = FRLOC_XX
 }
 
 
@@ -577,6 +652,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_servante
 	}
+	default = FRLOC_serviteur
 }
 
 
@@ -606,11 +682,12 @@ defined_text = {
 		}
 		localization_key = FRLOC_madame
 	}
+	default = FRLOC_monsieur
 }
 
 
 
-#Ex.: "The empire and [their] King Someone XIV..." => « L'empire et [son] roi Machin XIV... / L'empire et [sa] reine Machine XIV... » (lower case / minuscule)
+#Ex.: "The empire and [their] king/emperor/queen/empress..." => « L'empire et [son] roi/empereur... / L'empire et [sa] reine/[son] impératrice... » (lower case / minuscule)
 defined_text = {
 	name = GetSonSaDir
 	text = {
@@ -635,8 +712,9 @@ defined_text = {
 		}
 		localization_key = FRLOC_sa
 	}
+	default = FRLOC_son
 }
-#Ex.: "[Their] King Someone XIV led the empire to defeat." => « [Son] roi Machin XIV / [Sa] reine Machine XIV a mené l'empire à la défaite. » (upper case / majuscule)
+#Ex.: "[Their] king/emperor/queen/empress" => « [Son] roi/empereur // [Sa] reine / [Son] impératrice » (upper case / majuscule)
 defined_text = {
 	name = GetSonSaDirCap
 	text = {
@@ -661,6 +739,64 @@ defined_text = {
 		}
 		localization_key = FRLOC_Sa
 	}
+	default = FRLOC_Son
+}
+
+
+
+#Ex.: "The empire and [their] new king/emperor/queen/empress..." => « L'empire et [son] nouveau roi/empereur... // L'empire et [sa] nouvelle reine/impératrice Machine XIV... » (lower case / minuscule)
+defined_text = {
+	name = GetSonSaFDir
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_masc_cons = yes
+				frloc_rulers_strange_angloalien_masc_cons = yes
+				frloc_rulers_masc_vow = yes
+				frloc_rulers_strange_angloalien_masc_vow = yes
+				frloc_rulers_fem_vow = yes
+				frloc_rulers_strange_angloalien_fem_vow = yes
+			}
+		}
+		localization_key = FRLOC_son
+	}
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_fem_cons = yes
+				frloc_rulers_strange_angloalien_fem_cons = yes
+			}
+		}
+		localization_key = FRLOC_sa
+	}
+	default = FRLOC_son
+}
+#Ex.: "[Their] new king Someone XIV led the empire to defeat." => « [Son] roi Machin XIV / [Sa] reine Machine XIV a mené l'empire à la défaite. » (upper case / majuscule)
+defined_text = {
+	name = GetSonSaFDirCap
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_masc_cons = yes
+				frloc_rulers_strange_angloalien_masc_cons = yes
+				frloc_rulers_masc_vow = yes
+				frloc_rulers_strange_angloalien_masc_vow = yes
+				frloc_rulers_fem_vow = yes
+				frloc_rulers_strange_angloalien_fem_vow = yes
+			}
+		}
+		localization_key = FRLOC_Son
+	}
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_fem_cons = yes
+				frloc_rulers_strange_angloalien_fem_cons = yes
+			}
+		}
+		localization_key = FRLOC_Sa
+	}
+	default = FRLOC_Son
 }
 
 
@@ -690,6 +826,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_elle
 	}
+	default = FRLOC_il
 }
 #Ex.: "[He]/[She] decided it. (= King/Queen Someone XIV)" => « [Il]/[Elle] en a décidé ainsi. (= le roi Machin XIV / la reine Machine XIV) » (upper case / majuscule)
 defined_text = {
@@ -716,6 +853,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_Elle
 	}
+	default = FRLOC_Il
 }
 
 
@@ -745,6 +883,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_sielle
 	}
+	default = FRLOC_sil
 }
 #Ex.: "[If he/she] wishes so, the empire would support him/her. (= King/Queen Someone XIV)" => « [S'il]/[Si elle] le veut, l'empire le soutiendra. (= le roi Machin XIV / la reine Machine XIV) » (upper case / majuscule)
 defined_text = {
@@ -771,6 +910,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_Sielle
 	}
+	default = FRLOC_Sil
 }
 
 
@@ -800,6 +940,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_elle
 	}
+	default = FRLOC_lui
 }
 #Ex.: "[Him]/[Her] who decided it, may he/she...? (= King/Queen Someone XIV)" => « [Lui]/[Elle] qui en a décidé ainsi, est-il/elle même capable de... ? (= le roi Machin XIV / la reine Machine XIV) » (upper case / majuscule)
 defined_text = {
@@ -826,6 +967,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_Elle
 	}
+	default = FRLOC_Lui
 }
 
 
@@ -855,6 +997,7 @@ defined_text = {
 		}
 		localization_key = FRLOC_quelle
 	}
+	default = FRLOC_quelui
 }
 #Ex.: "[Let him]/[Let her] do so... (= King/Queen Someone XIV)" => « [Que lui]/[Qu'elle] fasse ainsi (= le roi Machin XIV / la reine Machine XIV) » (upper case / majuscule)
 defined_text = {
@@ -881,6 +1024,37 @@ defined_text = {
 		}
 		localization_key = FRLOC_Quelle
 	}
+	default = FRLOC_Quelui
+}
+
+
+
+#Ex.: "The ruler is [silent]. (= King/Queen Someone XIV)" => « Le roi est silenci[eux] / La reine est silenci[euse] » (lower case / minuscule)
+defined_text = {
+	name = GetEuxEuseDir
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_masc_cons = yes
+				frloc_rulers_strange_angloalien_masc_cons = yes
+				frloc_rulers_masc_vow = yes
+				frloc_rulers_strange_angloalien_masc_vow = yes
+			}
+		}
+		localization_key = FRLOC_eux
+	}
+	text = {
+		trigger = {
+			OR = {
+				frloc_rulers_fem_cons = yes
+				frloc_rulers_strange_angloalien_fem_cons = yes
+				frloc_rulers_fem_vow = yes
+				frloc_rulers_strange_angloalien_fem_vow = yes
+			}
+		}
+		localization_key = FRLOC_euse
+	}
+	default = FRLOC_eux
 }
 
 
@@ -1112,7 +1286,7 @@ defined_text = {
 		}
 		localization_key = pop_cat_simple_drone_plural_lower
 	}
-	default = pop_cat_worker_plural
+	default = pop_cat_worker_plural_lower
 }
 
 # Specialist / Complex Drone # Dupliqué de GetSpecialist
@@ -1429,6 +1603,86 @@ defined_text = {
 		localization_key = job_chemist_drone_plural_lower
 	}
 	default = job_chemist_plural_lower
+}
+
+# Refiners / Refiners Drones # Dupliqué de GetRefinerPlural
+defined_text = {
+	name = GetRefiner_lower
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_regular_empire = yes
+		}
+		localization_key = job_gas_refiner_lower
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_gestalt = yes
+		}
+		localization_key = job_gas_refiner_drone_lower
+	}
+	default = job_gas_refiner_lower
+}
+
+# Refiners / Refiners Drones # Dupliqué de GetRefinerPlural
+defined_text = {
+	name = GetRefinerPlural_lower
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_regular_empire = yes
+		}
+		localization_key = job_gas_refiner_plural_lower
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_gestalt = yes
+		}
+		localization_key = job_gas_refiner_drone_plural_lower
+	}
+	default = job_gas_refiner_plural_lower
+}
+
+# Translucers / Translucers Drones # Dupliqué de GetTranslucerPlural
+defined_text = {
+	name = GetTranslucer_lower
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_regular_empire = yes
+		}
+		localization_key = job_translucer_lower
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_gestalt = yes
+		}
+		localization_key = job_translucer_drone_lower
+	}
+	default = job_translucer_lower
+}
+
+# Translucers / Translucers Drones # Dupliqué de GetTranslucerPlural
+defined_text = {
+	name = GetTranslucerPlural_lower
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_regular_empire = yes
+		}
+		localization_key = job_translucer_plural_lower
+	}
+	text = {
+		trigger = {
+			is_scope_valid = yes
+			is_gestalt = yes
+		}
+		localization_key = job_translucer_drone_plural_lower
+	}
+	default = job_translucer_plural_lower
 }
 
 defined_text = { # Dupliqué de FoodProducer
@@ -3078,6 +3332,225 @@ defined_text = { # Dupliqué de GetShroudPatron
 				has_modifier = covenant_whisperers_in_the_void
 			}
 		}
+	}
+}
+
+defined_text = { # Dupliqué de GetSeperatistAid
+	name = GetSeperatistAid_FR_en
+	random = no
+	text = {
+		trigger = {
+			has_country_flag = energy_seperatist_deficit
+		}
+		localization_key = fotdEnergyAid_FR_en
+	}
+	text = {
+		trigger = {
+			has_country_flag = food_seperatist_deficit
+		}
+		localization_key = fotdFoodAid_FR_en
+	}
+	text = {
+		trigger = {
+			has_country_flag = alloy_seperatist_deficit
+		}
+		localization_key = fotdAlloyAid_FR_en
+	}
+	text = {
+		trigger = {
+			has_country_flag = mineral_seperatist_deficit
+		}
+		localization_key = fotdMineralAid_FR_en
+	}
+	text = {
+		trigger = {
+			has_country_flag = consumer_goods_seperatist_deficit
+		}
+		localization_key = fotdConsumerGoodsAid_FR_en
+	}
+}
+
+defined_text = { # Dupliqué de GetScientist
+	name = GetScientist_FR_XE
+	text = {
+		trigger = {
+			has_authority = auth_machine_intelligence
+		}
+		localization_key = FRLOC_e
+	}
+	text = {
+		trigger = {
+			has_authority = auth_hive_mind
+		}
+		localization_key = FRLOC_XX
+	}
+	text = {
+		trigger = {
+			NOT = { has_ethic = ethic_gestalt_consciousness }
+		}
+		localization_key = FRLOC_XX
+	}
+}
+
+defined_text = { # Dupliqué de GetScientist
+	name = GetScientist_FR_ilelle
+	text = {
+		trigger = {
+			has_authority = auth_machine_intelligence
+		}
+		localization_key = FRLOC_elle
+	}
+	text = {
+		trigger = {
+			has_authority = auth_hive_mind
+		}
+		localization_key = FRLOC_il
+	}
+	text = {
+		trigger = {
+			NOT = { has_ethic = ethic_gestalt_consciousness }
+		}
+		localization_key = FRLOC_il
+	}
+}
+defined_text = { # Dupliqué de GetScientist
+	name = GetScientist_FR_IlElle
+	text = {
+		trigger = {
+			has_authority = auth_machine_intelligence
+		}
+		localization_key = FRLOC_Elle
+	}
+	text = {
+		trigger = {
+			has_authority = auth_hive_mind
+		}
+		localization_key = FRLOC_Il
+	}
+	text = {
+		trigger = {
+			NOT = { has_ethic = ethic_gestalt_consciousness }
+		}
+		localization_key = FRLOC_Il
+	}
+}
+defined_text = { # Dupliqué de GetScientist
+	name = GetScientist_FR_ilselles
+	text = {
+		trigger = {
+			has_authority = auth_machine_intelligence
+		}
+		localization_key = FRLOC_elles
+	}
+	text = {
+		trigger = {
+			has_authority = auth_hive_mind
+		}
+		localization_key = FRLOC_ils
+	}
+	text = {
+		trigger = {
+			NOT = { has_ethic = ethic_gestalt_consciousness }
+		}
+		localization_key = FRLOC_ils
+	}
+}
+defined_text = { # Dupliqué de GetScientist
+	name = GetScientist_FR_IlsElles
+	text = {
+		trigger = {
+			has_authority = auth_machine_intelligence
+		}
+		localization_key = FRLOC_Elles
+	}
+	text = {
+		trigger = {
+			has_authority = auth_hive_mind
+		}
+		localization_key = FRLOC_Ils
+	}
+	text = {
+		trigger = {
+			NOT = { has_ethic = ethic_gestalt_consciousness }
+		}
+		localization_key = FRLOC_Ils
+	}
+}
+defined_text = { # Dupliqué de GetScientist
+	name = GetScientist_FR_euxelles
+	text = {
+		trigger = {
+			has_authority = auth_machine_intelligence
+		}
+		localization_key = FRLOC_elles
+	}
+	text = {
+		trigger = {
+			has_authority = auth_hive_mind
+		}
+		localization_key = FRLOC_eux
+	}
+	text = {
+		trigger = {
+			NOT = { has_ethic = ethic_gestalt_consciousness }
+		}
+		localization_key = FRLOC_eux
+	}
+}
+defined_text = { # Dupliqué de GetScientist
+	name = GetScientist_FR_EuxElles
+	text = {
+		trigger = {
+			has_authority = auth_machine_intelligence
+		}
+		localization_key = FRLOC_Elles
+	}
+	text = {
+		trigger = {
+			has_authority = auth_hive_mind
+		}
+		localization_key = FRLOC_Eux
+	}
+	text = {
+		trigger = {
+			NOT = { has_ethic = ethic_gestalt_consciousness }
+		}
+		localization_key = FRLOC_Eux
+	}
+}
+
+
+defined_text = { # Dupliqué de GetStartingDrivePlural
+	name = GetStartingDriveSingular
+	random = no
+	text = {
+		trigger = {
+			is_eager_explorer_empire = no
+		}
+		localization_key = hyper_drive_singular
+	}
+	text = {
+		trigger = {
+			is_eager_explorer_empire = yes
+		}
+		localization_key = subspace_drive_singular
+	}
+}
+
+defined_text = { # Dupliqué de GetStartingDrivePlural
+	name = GetStartingDriveSingular_DuDel_FR
+	random = no
+	text = {
+		trigger = {
+			is_eager_explorer_empire = no
+		}
+		localization_key = hyper_drive_singular_DuDel_FR
+	}
+	text = {
+		trigger = {
+			is_eager_explorer_empire = yes
+		}
+		localization_key = subspace_drive_singular_DuDel_FR
 	}
 }
 

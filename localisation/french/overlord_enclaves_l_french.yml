@@ -1,6 +1,6 @@
 ﻿l_french:
 
- #Calvitix check 3.5.3
+ #Calvitix check 3.8.4
 
 
  # Governments
@@ -38,6 +38,7 @@
  enclave.2.desc:2 "De nombreux débats ont lieu sur l'utilité ou non de faire de la §Y[fleet.GetName]§! une §Henclave indépendante de Mercenaires§!. La proposition, avancée par les officiers de la flotte eux-mêmes, nous ferait perdre le contrôle sur ces vaisseaux et leurs équipages, et nous devrions investir des quantités non négligeables de §Hcrédits énergétiques§! et d'§Halliages§!. En revanche, nous disposerions d'une bonne part des actions de leur compagnie. Nous en toucherions donc périodiquement des dividendes et pourrions bénéficier de privilèges particuliers.\n\nLes commandants nous ont aussi assuré que, en cas de besoin, ils se tiendraient toujours prêts à combattre pour nous. Et notre argent."
  enclave.2.tooltip.a:0 "La flotte a besoin d'un amiral."
  enclave.2.tooltip.aa:0 "La flotte a un amiral."
+ enclave.2.tooltip.cloak:0 "Aucun vaisseau de cette flotte ne doit être capable de s'occulter."
  enclave.2.tooltip.b:1 "Il y a déjà une enclave dans le système."
  enclave.2.tooltip.bb:1 "Aucune enclave dans le système."
  enclave.2.tooltip.c:0 "Le système doit être sous contrôle."
@@ -226,6 +227,13 @@
  merc_enclave_grants_ships:0 "'§Y[mercenary_enclave_country.GetName]§!' va aussi nous donner une §Gpetite flotte militaire§!."
 
 
+ enclave.2050.name:0 "Un contrat qui ne se refuse pas"
+ enclave.2050.desc:0 "La §H[mercenary_enclave_country.GetName]§! nous a fait parvenir une transmission urgente : la [khan_country.GetName] vient de lui proposer un contrat qu'elle ne peut refuser. La seule manière pour elle de pouvoir décemment refuser serait donc d'être employée ailleurs dans les deux mois à venir. En un kilobit comme en cent : si la [Root.GetName] ne la recrute pas, elle se trouvera contrainte d'entrer au service du Khan et de combattre contre nous..."
+ enclave.2050.a:0 "Contactons-la immédiatement"
+ enclave.2050.a.tt:0 "Nous disposons de §Y60 jours§! pour décider si nous devons ou non recruter la §Y[mercenary_enclave_country.GetName]§!."
+ enclave.2050.b:0 "Impossible dans l'immédiat, nous verrons plus tard"
+ enclave.2050.b.tt:0 "Nous disposons de §Y7 jours§! pour décider si nous devons ou non recruter la §Y[mercenary_enclave_country.GetName]§!."
+ enclave.2050.c:0 "Sales traîtres, leur avarice les perdra !"
 
  # Salvager Enclaves
  enclave.305.name:0 "La [salvager_enclave_country.GetName]"
@@ -362,6 +370,9 @@
  enclave.405.c.tt.2:0 "Nous devons disposer d'au moins un réseau d'espionnage en activité pour pouvoir demander à la §Y[shroudwalker_enclave_country.GetName]§! de guider nos entreprises clandestines."
  enclave.405.d:1 "Parlez-nous des §Yvoyages par le Suaire§!"
  enclave.405.d.tt:1 "Pour en apprendre davantage sur le §YFlambeau du Suaire§!, l'opinion de la §Y[shroudwalker_enclave_country.GetName]§! à notre égard doit être d'au moins §Y30§!£opinion£"
+ enclave.405.e:0 "Pourriez-vous nous apprendre à récolter le §Yzro§! ?"
+ enclave.405.e.tt:0 "Pour demander des informations sur la manière de récolter le £sr_zro£zro à la §Y[shroudwalker_enclave_country.GetName]§!, son opinion à notre égard doit être d'au moins §Y50§!£opinion£."
+ enclave.405.f:0 "Nous avons rencontré une §YParcoureuse du Voile§!..."
 
  enclave.410.desc:1 "Ah, la question capitale. Que tant d'autres nous l'aient posée avant vous ne la rend pas moins poignante... Une telle question implique de payer un lourd prix, mais nous pouvons vous fournir des réponses.\n\nSachez ceci, cependant : le Suaire nous permet de percevoir des événements qui ne sont pas encore survenus, et ce savoir guidera votre avenir. Mais il est au-delà du pouvoir de n'importe quel événement d'altérer le cours de l'histoire de la galaxie.\n\nSi vous êtes prêts à conclure cet accord, sachez que vos aspirations ne pourront s'étendre au-delà de ce à quoi vous vous seriez préparés. Mais, voyons, quels grands desseins peuvent être bâtis même sur le plus faible reflet de ce qu'il adviendra ?"
  enclave.410.a:0 "Nous allons envisager autre chose..."
@@ -835,9 +846,9 @@
  leader_trait_general_mind_wipe_01_desc:0 "$shroud_touched_intro$ et l'esprit de ce général bouillonne désormais d'idées nouvelles pour accroître la puissance des armées."
  leader_trait_general_mind_wipe_02:0 "$leader_trait_general_mind_wipe_01$"
  leader_trait_general_mind_wipe_02_desc:0 "$shroud_touched_intro$ et l'esprit de ce général bouillonne désormais d'idées nouvelles pour accroître l'efficacité des armées."
- leader_trait_ruler_mind_wipe_01:0 "Dirigeant touché par le Suaire"
+ leader_trait_ruler_mind_wipe_01:1 "Architecte touché par le Suaire"
  leader_trait_ruler_mind_wipe_01_desc:0 "$shroud_touched_intro$ et l'esprit de ce dirigeant bouillonne désormais d'idées nouvelles pour améliorer les travaux de construction."
- leader_trait_ruler_mind_wipe_02:0 "$leader_trait_ruler_mind_wipe_01$"
+ leader_trait_ruler_mind_wipe_02:1 "Logisticien touché par le Suaire"
  leader_trait_ruler_mind_wipe_02_desc:0 "$shroud_touched_intro$ et l'esprit de ce dirigeant bouillonne désormais d'idées nouvelles pour améliorer les performances militaires."
 
  #Gestalt Traits
@@ -941,7 +952,16 @@
 
  shroudwalker_teacher_explanation:1 "\nDonne accès à la §Ydécision planétaire§! §H$decision_shroudwalker_teacher$§! :\n$MOD_PLANET_AMENITIES_MULT$: §G+5%§!\n$mod_planet_jobs_unity_produces_mult$: §G+10%§!\n$mod_planet_telepaths_unity_produces_add$: §G+3§!"
 
+ enclave.7250.desc:0 "Le zro revêt un intérêt tout particulier pour nous. Nous pourrions vous enseigner la manière de le récolter et de le conserver, mais à une condition, toutefois : si vous acceptez de nous remettre une part de votre production. À perpétuité."
+ enclave.7250.a:0 "Entendu, vous aurez votre part"
+ enclave.7255.desc:0 "En vérité je vous le dis, le zro est une substance aussi merveilleuse que tragique. Et s'il a de très nombreuses applications, il ne devrait au grand jamais être utilisé de façon irréfléchie. Car il s'agit là des derniers vestiges d'une espèce ô combien vénérable. Récoltez-le, chérissez-le, mais quoi qu'il en soit n'oubliez pas de nous reverser ce à quoi vous vous êtes engagés."
+
+ shroudwalker_zro_tithe:0 "Don gratuit de zro aux Pérégrins du Suaire"
+ shroudwalker_zro_tithe_desc:0 "Les Pérégrins du Suaire nous ont enseigné comment récolter le zro. En retour, nous avons juré de leur reverser un dixième de toute notre production."
+
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ enclave.23.desc:0 "Thanks for founding us! TODO_CD"
  enclave.375:0 "Enclave de Récupérateurs détruite"
  enclave.435:0 "Enclave de Pérégrins détruite"
+ MOD_COUNTRY_MIA_TIME_MULT:2 "Réduc. de la durée de disparition en action"

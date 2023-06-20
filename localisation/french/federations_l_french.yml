@@ -2,7 +2,7 @@
 
  ####################################
  # Warning : Copie of Original Stellaris File
- # Update check : 3.6 30.11.2022
+ # Update check : 3.8.4 15.06.2023
  # Translation check OK : 23.09.2022
  ####################################
 
@@ -77,7 +77,8 @@
  origin_tooltip_shattered_ring_effects_lithoid:0 "§RATTENTION ! Origine difficile pour les lithoïdes à cause du manque de minéraux !§!\n$origin_tooltip_shattered_ring_effects$"
  origin_remnants:0 "Vestiges"
  origin_remnants_desc:1 "Cette civilisation franchissait autrefois le vide et contrôlait une vaste portion de la galaxie. Et si elle fut en fin de compte vaincue et quasiment détruite, après une longue période de difficultés elle est de retour dans les étoiles."
- origin_tooltip_remnants_effects:3 "- Lance la partie avec comme monde natal un §Hmonde relique§! d'une taille de 22£planetsize£."
+ origin_tooltip_remnants_effects:4 "- Lance la partie avec comme monde natal un §Hmonde relique§! d'une taille de 22£planetsize£.[GetRemnantAncientRelicEffect]"
+ RemnantAncientRelicEffect:0 "\n- Lance la partie avec la technologie £society£§H$archaeostudies$§! et le bâtiment £building£§H$building_archaeostudies_faculty$§!."
  origin_tree_of_life:0 "Arbre de vie"
  origin_tree_of_life_desc:0 "Cette Conscience a évolué dans une relation symbiotique avec un arbre gigantesque. Celui-ci lui garantit de nombreux avantages, mais s'il venait à périr elle serait gravement handicapée."
  origin_tooltip_tree_effects:3 "- La Conscience bénéficie de nombreux avantages à vivre sur un monde où se trouve l'§HArbre de vie§!, mais de lourdes pénalités s'il ne s'y trouve pas ;\n- les §Hvaisseaux coloniaux§! sont plus coûteux, mais peuvent en emporter des boutures sur les mondes nouvellement colonisés.\n- Donne accès à la possession £building£§H$holding_tree_of_life_sapling$§!."
@@ -1006,16 +1007,16 @@
  federation_acceptance_corporate:0 "$gov_megacorporation$"
 
  #Ruler specific
- federation_acceptance_ruler_cyborg:0 "Dirigeant cyborg"
- federation_acceptance_ruler_synthetic:0 "Dirigeant synthétique"
- federation_acceptance_ruler_psionic:0 "Dirigeant psychiste"
+ federation_acceptance_ruler_cyborg:1 "Dirigeant cyborg"
+ federation_acceptance_ruler_synthetic:1 "Dirigeant synthétique"
+ federation_acceptance_ruler_psionic:1 "Dirigeant psychiste"
  federation_acceptance_ruler_very_strong:0 "Dirigeant très fort"
- federation_acceptance_ruler_chosen:0 "Dirigeant Élu"
- #federation_acceptance_ruler_cyborg: "$ruler$ is $leader_trait_ruler_cyborg$"
- #federation_acceptance_ruler_synthetic: "$ruler$ is $leader_trait_ruler_synthetic$"
- #federation_acceptance_ruler_psionic: "$ruler$ is $leader_trait_ruler_psionic$"
+ federation_acceptance_ruler_chosen:1 "Dirigeant Élu"
+ #federation_acceptance_ruler_cyborg: "$ruler$ is $leader_trait_cyborg$"
+ #federation_acceptance_ruler_synthetic: "$ruler$ is $leader_trait_synthetic$"
+ #federation_acceptance_ruler_psionic: "$ruler$ is $leader_trait_psionic$"
  #federation_acceptance_ruler_very_strong: "$ruler$ is $trait_very_strong$"
- #federation_acceptance_ruler_chosen: "$ruler$ is $leader_trait_ruler_chosen$"
+ #federation_acceptance_ruler_chosen: "$ruler$ is $leader_trait_chosen$"
 
 
  ####################
@@ -1041,6 +1042,7 @@
  ####################
 
  resolution_already_active:0 "£trigger_no£ Cette résolution a déjà été votée."
+ exclusive_resolution_already_active:0 "£trigger_no£ Une autre résolution a déjà été votée."
 
  environment_technology:0 "Environnement & technologie"
  commerce_industry:0 "Commerce & industrie"
@@ -1134,7 +1136,7 @@
 
  resolution_galacticstudies_advanced_xenostudies:0 "Xéno-études avancées"
  resolution_galacticstudies_advanced_xenostudies_desc:1 "Il y a beaucoup à apprendre de toutes les cultures présentes dans l'univers. Nous devrions donc ajouter des instruments de collecte de données supplémentaires à toutes les bases stellaires tout en travaillant de façon plus étroite avec les enclaves."
- resolution_galacticstudies_advanced_xenostudies_tooltip:2 "Les postes d'observation fournissent de la £society£§Hrecherche sociétale§! lors des missions d'§Yobservation§! et d'§Yinfiltration§! des civilisations primitives.\n\nAccroît l'efficacité du §YCollège des arts§!, du §YLaboratoire d'idées des Conservateurs§!, de l'§YAtelier de réparation§! et de la §YGarnison mercenaire§! des bases stellaires.\n\nLes politiques de §Yproscription de l'intelligence artificielle§! et d'§Yétude passive des indigènes§! sont §Rprohibées§!."
+ resolution_galacticstudies_advanced_xenostudies_tooltip:3 "Les postes d'observation fournissent de la £society£§Hrecherche sociétale§! lors de l'observation des civilisations pré-PRL.\n\nAccroît l'efficacité du §YCollège des arts§!, du §YLaboratoire d'idées des Conservateurs§!, de l'§YAtelier de réparation§! et de la §YGarnison mercenaire§! des bases stellaires.\n\nLes politiques de §Yproscription de l'intelligence artificielle§! et de §Ynon-interférence avec les pré-PRL§! sont §Rprohibées§!."
 
  resolution_galacticstudies_ethical_guideline_refactoring:0 "Reformulation du cadre éthique"
  resolution_galacticstudies_ethical_guideline_refactoring_desc:0 "Posséder les capacités de faire progresser les sciences oblige à des impératifs moraux, débarrassés de tout concept éthique dépassé qui pourrait nous freiner. Nous faisons ce que nous avons à faire, parce que nous le pouvons."
@@ -1236,7 +1238,7 @@
 
  resolution_commerce_underdeveloped_system_utilization:0 "Valorisation maximalisée des systèmes"
  resolution_commerce_underdeveloped_system_utilization_desc:0 "L'impossibilité de tirer toute leur valeur des systèmes au sein des diverses sphères d'influence de la galaxie est un gâchis criminel. Nous devons proposer que cela soit acté par [global_event_country.GetLeLaLCommGalEmpGal][global_event_country.GetCommunityOrImperium] galactique et puni en conséquence."
- resolution_commerce_underdeveloped_system_utilization_tooltip:0 "Les §Ypostes d'observation§! fournissent des £consumer_goods£biens de consommation lors des missions d'§Yobservation§! et d'§Yinfiltration§! des civilisations primitives."
+ resolution_commerce_underdeveloped_system_utilization_tooltip:1 "Les postes d'observation fournissent des £consumer_goods£biens de consommation lors de l'observation des civilisations pré-PRL."
 
  resolution_commerce_holistic_asset_coordination:0 "Coordination holistique des avoirs"
  resolution_commerce_holistic_asset_coordination_desc:0 "Afin de promouvoir et faciliter une productivité logistique optimisée, nous devons oeuvrer de concert à stimuler une infrastructure galactique rationalisée pour les marchés et le partage des connaissances."
@@ -1598,6 +1600,10 @@
  #POLITICS TRADITIONS RESOLUTIONS
 
  resolution_category_politics_tradition:0 "Traditions politiques"
+ resolution_category_politics_tradition_1:0 "$resolution_community_champions$"
+ resolution_category_politics_tradition_2:0 "$resolution_constitutional_immunity$"
+ resolution_category_politics_tradition_3:0 "$resolution_development_aides$"
+ resolution_category_politics_tradition_4:0 "$resolution_galactic_threats_committee$"
 
  resolution_community_champions:0 "Champions de la Communauté"
  resolution_community_champions_desc:0 "Ceux qui se voient confier la direction de la Communauté ont aussi toutes les chances de devenir ses meilleurs défenseurs. Leur donner davantage de pouvoirs et de ressources, c'est leur permettre de mieux assurer la protection de tous."
@@ -1615,14 +1621,14 @@
  resolution_galactic_threats_committee:0 "Comité des menaces galactiques"
  resolution_galactic_threats_committee_desc:0 "Qu'est-ce qui se tapit dans les ombres de la galaxie, juste hors de portée de nos capteurs ? La formation d'un comité spécifique dédié à l'étude des menaces d'ordre galactique nous permettrait de nous préparer à faire face à tout."
  resolution_galactic_threats_committee_modifier_desc:0 "Dégâts infligés aux factions des crises de fin de partie : §G+20%§!\nEntretien des chercheurs : §R+10%§!\n§RLes expérimentations dangereuses peuvent avoir des conséquences très graves.§!"
- resolution_community_champions_repeal:0 "Abrogation des champions de la communauté"
- resolution_community_champions_repeal_desc:0 "Abroge la résolution §Y$community_champions$§!"
+ resolution_community_champions_repeal:1 "Abrogation des champions de la communauté"
+ resolution_community_champions_repeal_desc:1 "Abroge la résolution §Y$resolution_community_champions$§!"
  resolution_constitutional_immunity_repeal:0 "Abrogation de l'immunité constitutionnelle"
  resolution_constitutional_immunity_repeal_desc:0 "Abroge la résolution §Y$resolution_constitutional_immunity$§!. L'empire en bénéficiant pourra de nouveau être considéré comme violant les lois galactiques."
- resolution_development_aides_repeal:0 "Abrogation des aides au développement"
- resolution_development_aides_repeal_desc:0 "Abroge la résolution §Y$resolution_development_aides$§!."
- resolution_galactic_threats_committee_repeal:0 "Abrogation du Comité des menaces galactiques"
- resolution_galactic_threats_committee_repeal_desc:0 "Abroge la résolution §Y$resolution_galactic_threats_committee$§!."
+ resolution_development_aides_repeal:1 "Abrogation des aides au développement"
+ resolution_development_aides_repeal_desc:1 "Abroge la résolution §Y$resolution_development_aides$§!."
+ resolution_galactic_threats_committee_repeal:1 "Abrogation du Comité des menaces galactiques"
+ resolution_galactic_threats_committee_repeal_desc:1 "Abroge la résolution §Y$resolution_galactic_threats_committee$§!."
  community_champion_counselor:0 "$resolution_community_champions$"
  community_champion_custodian:0 "$resolution_community_champions$"
  community_champion_emperor:0 "$resolution_community_champions$"
@@ -1631,7 +1637,9 @@
 
 
  FACTION_OUTRAGED_GC:0 "Parti scandalisé (-20/0)"
- FACTION_OUTRAGED_GC_DESC:0 "Ce parti est §Rscandalisé§! à cause d'une résolution que nous avons récemment proposée et fait voter au Sénat [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]."
+ FACTION_OUTRAGED_GC_DESC:0 "La faction '§Y[Root.GetName]§!' est §Rscandalisée§! à cause d'une résolution que nous avons récemment proposée et fait voter au Sénat [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]."
+ FACTION_PLEASED_GC:0 "Parti satisfait"
+ FACTION_PLEASED_GC_DESC:0 "La faction '§Y[Root.GetName]§!' est §Gsatisfaite§! d'une résolution que nous avons récemment proposée et fait voter au Sénat [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium]."
 
  DIPLOMATIC_SUPPORT_VALUE:0 "$VALUE|Y$"
  SUPPORTERS:0 "Partisans"
@@ -2331,13 +2339,13 @@
  origin.1310.desc:1 "§Y[Leader.GetName]§! a réussi à restaurer l'enregistrement alien :\n\n§Y«En remontant le chemin parcouru par nos ancêtres afin d'acheter notre rédemption, nous sommes parvenus jusqu'à ce système. Là, ils avaient annihilé la race des $NAME_ThwaaPhyr$. Nous ne savions pas alors que ces mêmes $NAME_ThwaaPhyr$ avaient dissimulé une autre espèce, les [Root.Owner.GetSpeciesNamePlural], en usant d'une procédure qui les avait rendus mentalement primitifs, afin qu'ils ne présentent plus aucun danger à nos yeux. Ils étaient donc purement insignifiants.\n\nLes effets de l'opération sont irréversibles. Les [Root.Owner.GetSpeciesNamePlural] sont toujours des sauvages aujourd'hui. Mais nous espérons qu'un jour ils pourront de nouveau voler parmi les étoiles, et qu'ils trouveront ce que nous leur avons laissé pour les aider à pardonner nos fautes.»§!\n\nEt la voilà enfin, notre histoire, entièrement expliquée. Maintenant, l'heure est venue pour nous de nous forger un nouveau destin."
  origin.1310.a:0 "Nous devons maintenant accepter et songer à l'avenir"
  origin.1315.name:0 "Coup monté"
- origin.1315.desc:1 "Derrière un faux mur de la grotte, les archéologues ont retrouvé des extraits de données archivées. En les parcourant, un thème récurrent a commencé à pouvoir y être discerné.\n\nIl y a des éternités de cela, les Bienfaiteurs étaient dans une impasse. Deux factions étaient alors en guerre ouverte pour le pouvoir. Afin de prendre l'avantage, l'un des camps a lancé une opération secrète : se faisant passer pour l'ennemi, des unités ont attaqué une espèce inférieure. Nos ancêtres.\n\nUne «bombe synaptoréductrice» fut déclenchée sur notre monde. Notre environnement ne fut aucunement affecté, mais ses effets ont affecté le cerveau de nos ancêtres, les réduisant à l'état de primitifs.\n\nLes pistes qu'ils nous ont laissées depuis et que nous avons ensuite remontées indiquent toutefois que les Bienfaiteurs ont par la suite été pris de regrets."
+ origin.1315.desc:2 "Derrière un faux mur de la grotte, les archéologues ont retrouvé des extraits de données archivées. En les parcourant, un thème récurrent a commencé à pouvoir y être discerné.\n\nIl y a des éternités de cela, les Bienfaiteurs étaient dans une impasse. Deux factions étaient alors en guerre ouverte pour le pouvoir. Afin de prendre l'avantage, l'un des camps a lancé une opération secrète : se faisant passer pour l'ennemi, des unités ont attaqué une espèce inférieure. Nos ancêtres.\n\nUne « bombe synaptoréductrice » fut déclenchée sur notre monde. Notre environnement ne fut aucunement affecté, mais ses effets ont affecté le cerveau de nos ancêtres, les faisant gravement régresser.\n\nLes pistes qu'ils nous ont laissées depuis et que nous avons ensuite remontées indiquent toutefois que les Bienfaiteurs ont par la suite été pris de regrets."
  origin.1315.a:0 "Nous avons été utilisés comme des pions, jusqu'à la fin !"
  origin.1320.name:0 "Bienfraudeurs"
  origin.1320.desc:1 "Derrière un faux mur de la grotte, l'équipe de fouilles a trouvé un simple enregistreur, contenant les confessions de l'un des Bienfaiteurs.\n\nIl y a des éternités de cela, par le moyen de la technologie, notre espèce a été «simplifiée» afin d'être préservée d'une menace galactique de plus en plus pressante et dangereuse. Mais, aussi bienveillants qu'ils aient pu paraître alors, une fois le danger passé les Bienfaiteurs n'ont absolument rien fait pour restaurer les facultés de nos ancêtres. Ils se sont contentés de nous abandonner là, à notre sort.\n\nLes sites et la technologie découverts dans notre système ne sont que des récompenses laissées par un groupe réduit, qui avait pris en pitié nos aïeux laissés sans défense."
  origin.1320.a:0 "Nous n'avons pas besoin de votre pitié !"
  origin.1325.name:0 "Adieux"
- origin.1325.desc:1 "Derrière un faux mur de la grotte, l'équipe de fouilles a retrouvé un enregistreur contenant un message laissé par les mystérieux Bienfaiteurs.\n\nIls livraient une guerre désespérée contre une race alien belliqueuse et malveillante, pour laquelle aucun nom n'est donné. Afin de nous dissimuler malgré l'avancée de l'ennemi, ils ont usé d'une technologie permettant d'effacer les facultés intellectuelles de nos ancêtres, dans l'espoir que l'ennemi ne se soucierait pas d'une quelconque espèce primitive représentée sur un seul monde isolé.\n\nCela a fonctionné pour nous, mais le sort des Bienfaiteurs était quant à lui scellé. Ces caches de ressources et de technologies ont été laissées à notre intention, dans l'espoir que nous pourrions un jour les retrouver."
+ origin.1325.desc:2 "Derrière un faux mur de la grotte, l'équipe de fouilles a retrouvé un enregistreur contenant un message laissé par les mystérieux Bienfaiteurs.\n\nIls livraient une guerre désespérée contre une race alien belliqueuse et malveillante, pour laquelle aucun nom n'est donné. Afin de nous dissimuler malgré l'avancée de l'ennemi, ils ont usé d'une technologie permettant d'effacer les facultés intellectuelles de nos ancêtres, dans l'espoir que l'ennemi ne se soucierait pas d'une quelconque espèce pré-PRL représentée sur un seul monde isolé.\n\nCela a fonctionné pour nous, mais le sort des Bienfaiteurs était quant à lui scellé. Ces caches de ressources et de technologies ont été laissées à notre intention, dans l'espoir que nous pourrions un jour les retrouver."
  origin.1325.a:0 "Quel destin tragique..."
  origin.1330.name:0 "La prochaine étape"
  origin.1330.desc:1 "Enfin, les lacunes dans notre histoire ont été expliquées par les dernières recherches sur notre passé véritable. Nous pensions autrefois que les progrès de notre civilisation n'étaient dus qu'à nous-mêmes, agissant en toute indépendance et uniquement de notre fait. Mais nous savons maintenant que tout du long nous nous étions tenus §Lsur les épaules de géants§!.\n\nNous ne pouvons changer le passé. Nous devrons nous y faire, et songer désormais à l'avenir ; ne pas rejeter notre histoire comme un fardeau, mais comme une simple étape sur ce long chemin qui nous porte vers l'avenir.\n\n§YLe moment est venu de devenir nous-mêmes des géants.§!"
@@ -2364,7 +2372,7 @@
  origin.1351.name:0 "Fin de la piste"
  origin.1351.desc:1 "C'est dans ce système inexploré que s'arrête la trace des Bienfaiteurs. Les capteurs longue portée n'ont rien relevé d'inhabituel, mais nous devrions mener des reconnaissances approfondies pour voir ce qui se trouve ici."
  origin.1355.name:0 "Repos ultime"
- origin.1355.desc:0 "L'espèce primitive retrouvée dans ce système n'est autre que les §Y$NAME_ThwaaPhyr$§!, plus communément appelés les §LBienfaiteurs§! parmi nous.\n\nLes xénologistes ne sont pas certains d'en comprendre tous les détails, mais tout semble indiquer qu'ils ont eux-mêmes été victimes de leur technologie d'estompage cérébral, et qu'ils ont été abandonnés à leur sort sur ce monde. Personne ne sait mieux que nous ce que réserve un tel sort.\n\nNous devrions donc nous montrer prudents au moment de prendre les décisions qui s'imposent."
+ origin.1355.desc:1 "L'espèce pré-PRL retrouvée dans ce système n'est autre que les §Y$NAME_ThwaaPhyr$§!, plus communément appelés les §LBienfaiteurs§! parmi nous.\n\nLes xénologues ne sont pas certains d'en comprendre tous les détails, mais tout semble indiquer qu'ils ont eux-mêmes été victimes de leur technologie d'estompage cérébral, et qu'ils ont été abandonnés à leur sort sur ce monde. Personne ne sait mieux que nous ce que réserve un tel sort.\n\nNous devrions donc nous montrer prudents au moment de prendre les décisions qui s'imposent."
  origin.1360.name:0 "Fermeture"
  origin.1360.desc:1 "Parfois, les événements se produisent dans l'univers de la plus poétique des manières. Autrefois maîtres incontestables de nos ancêtres, les $NAME_ThwaaPhyr$ se sont à leur tour trouvés la proie de ce même destin tragique qu'ont connu nos aïeux.\n\nQuelles qu'aient pu être leurs intentions, il convient toutefois de reconnaître qu'ils ont, de manière limitée, tenté de racheter leurs actes désespérés et excessifs.\n\nDes éternités se sont depuis écoulées, les positions sont inversées, et nous leur avons retourné leur politesse.\n\nTout comme les [Root.Owner.GetSpeciesNamePlural] autrefois, c'est désormais aux $NAME_ThwaaPhyr$ d'expérimenter le fait de se tenir tels des nains juchés sur les épaules de géants."
  origin.1360.a:0 "Bonne chance à eux !"
@@ -2517,11 +2525,20 @@
  galcom.63.desc:0 "La [From.GetName] ayant choisi de sortir [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium], un obscur article de la Charte [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] a dû être appliqué. Celui-ci prévoyait que seul un membre [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] pouvait abriter le Marché galactique. La station du système de §H[galactic_market_station_system.GetName]§! a donc été démantelée, et les derniers marchands ont abandonné avec quelque réticence leurs bureaux et lieux de rencontre, en se plaignant de la gêne occasionnée pour le commerce galactique par cette procédure qu'ils jugent d'un dramatisme et d'une futilité confondants. La désignation d'un nouveau lieu pour le Marché a d'ores et déjà été lancée : le Comité du commerce [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetCommunityOrImperium] vient de faire une annonce publique pour regretter que la situation l'ait contraint à une telle mesure et promettre que le Marché trouverait incessamment un nouveau système d'accueil."
  galcom.63.A:0 "C'est là une magnifique occasion qui se présente..."
  galcom.63.B:0 "Quelle folie que tout cela..."
+ galcom.64.name:0 "$galcom.63.name$"
+ galcom.64.desc:2 "[global_event_country.GetLeLaLCommGalEmpGalCap][global_event_country.GetGalCommunityOrGalImperium] a décidé de lancer une nouvelle procédure de localisation du Marché galactique. La station centrale, dans le système de §Y[market_founder_planet.solar_system.GetName]§!, est d'ores et déjà en cours de démantèlement. Les marchands n'ont plus pour seule idée que dénicher les dernières prévisions économiques pour les années à venir. Ils ne cessent par ailleurs de se plaindre de la gêne occasionnée pour le commerce galactique par cette procédure de longue haleine, « aussi absurde qu'improductive » selon eux.\n\nLes candidatures pour abriter la prochaine station peuvent dès à présent être déposées. Le Comité du commerce [global_event_country.GetDuDelaDelCommGalEmpGal][global_event_country.GetCommunityOrImperium] a quant à lui publié une déclaration regrettant ces contretemps, et promis qu'une nouvelle station serait désignée incessamment sous peu."
+ galcom.69.name:0 "Non relocalisation du Marché galactique"
+ galcom.69.desc:0 "La tentative pour relocaliser le Marché galactique n'a malheureusement débouché sur rien de concret. Si la [Root.GetName] a pu réunir d'importants soutiens en faveur du projet, cela ne s'est pas traduit par suffisamment de candidatures éligibles pour un nouveau site.\n\nL'idée reste toutefois valide dans son principe, et [global_event_country.GetLeLaLCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] pourra de nouveau proposer une relocalisation à l'avenir, si telle est sa volonté. Pour l'heure, toutefois, l'institution restera localisée dans le système de §Y[galactic_market_station.solar_system.GetName]§!, sous la surveillance fort lucrative de la [market_founder.GetName]."
+ galcom.70.desc:0 "Lorsque la nouvelle s'est diffusée que les tentatives de relocalisation du Marché galactique avaient échoué, le commerce galactique a vécu une période d'emballement aussi brève que confuse. En dépit de la volonté affichée par [global_event_country.GetLeLaLCommGalEmpGal][global_event_country.GetGalCommunityOrGalImperium] de relocaliser l'institution, aucune candidature valide n'a pu être retenue pour définir un nouveau lieu d'implantation de la station centrale. Par conséquent, celle-ci restera établie dans le système de §Y[galactic_market_station.solar_system.GetName]§!, dans l'espace de la [market_founder.GetName], jusqu'à ce que les vicissitudes politiques permettent de définir un site de remplacement."
+ galcom.70.desc.founder:0 "[global_event_country.GetLeLaLCommGalEmpGalCap][global_event_country.GetGalCommunityOrGalImperium] ne dispose visiblement pas des moyens qui lui permettraient d'appliquer sa volonté politique. Après avoir causé une crise financière générale, les tentatives visant à relocaliser la station centrale du Marché galactique hors de notre espace ont échoué, aucun autre empire ne pouvant proposer un système considéré comme éligible pour implanter une nouvelle station.\n\nLes partisans de cette relocalisation restent malgré tout imperturbables, affirmant que le Marché galactique pourra être relocalisé au moment et au lieu qui répondra le mieux aux besoins de toutes les parties impliquées. Pour l'heure toutefois, et en dépit de toute cette agitation bien inutile, il apparaît que les marchands les plus éminents de la galaxie n'aspirent qu'à continuer de fréquenter le système de §Y[galactic_market_station.solar_system.GetName]§!. Ce n'est certes pas la [Root.GetName] qui s'y opposera..."
 
  origin_fallen_empire:0 "Race antique"
  origin_fallen_empire_desc:0 "Cette civilisation remonte à bien longtemps, avant la génération actuelle des puissances galactiques. Toutefois, une longue stagnation a progressivement réduit cet empire à l'ombre de ce qu'il était autrefois."
  origin_enlightened:0 "Illumination"
  origin_enlightened_desc:0 "Le développement naturel de cette civilisation a été grandement accéléré par l'intervention d'une tierce partie en lui permettant d'acquérir la culture indispensable au voyage spatial."
+
+ origin_default_pre_ftl:0 "Civilisation en cours de développement"
+ origin_default_pre_ftl_desc:0 "Cette civilisation ne maîtrise pas encore le voyage spatial, mais avec quelques encouragements ou au prix d'une longue attente elle pourra sans doute devenir une actrice de la scène galactique."
 
  origin_void_dwellers:0 "Habitants du vide"
  origin_void_dwellers_desc:0 "Cette civilisation a fait de l'espace son foyer, à une époque plus ancienne que ses premières archives. Pour elle, la vie dans l'environnement d'un monde est une transgression. Ses membres vivent sur trois habitats orbitaux qui n'ont été unifiés que récemment."
@@ -3203,10 +3220,10 @@
  CORP_ASK_TO_LEAVE_REFUSE:0 "«Le membre présidant aux destinées de la fédération '§Y[Root.GetAllianceName]§!' (c'est à dire nous) pourra s'opposer à la sortie de tout membre affilié (c'est vous) de manière unilatérale et à sa seule discrétion.» Désolés, chers partenaires, mais vous auriez dû lire les petites lignes."
 
  planet_destruction.1000.name:0 "Fin des observations sur §Y[From.GetName]§!"
- planet_destruction.1000.desc.self:0 "Utiliser nos armes lourdes contre une civilisation primitive est certes amusant, mais cela signifie aussi qu'il n'y a désormais plus rien à observer sur §Y[From.GetName]§!..."
- planet_destruction.1000.desc.shatter:0 "Les forces de '§Y[From.From.Owner.GetName]§!' ont détruit la [From.GetPlanetMoon] §Y[From.GetName]§!, y annihilant la civilisation primitive qui prospérait à sa surface. Par conséquent, il n'y a désormais plus rien à y observer..."
- planet_destruction.1000.desc.shield:0 "Les forces de '§Y[From.From.Owner.GetName]§!' ont enveloppé §Y[From.GetName]§! derrière une barrière énergétique impénétrable, nous empêchant désormais d'observer la civilisation primitive prospérant à sa surface..."
- planet_destruction.1000.desc.neutron:0 "Les forces de '§Y[From.From.Owner.GetName]§!' ont annihilé la civilisation primitive qui prospérait à la surface de §Y[From.GetName]§!. Par conséquent, il n'y a désormais plus rien à y observer..."
+ planet_destruction.1000.desc.self:1 "Utiliser nos armes lourdes contre une civilisation pré-PRL est certes amusant, mais cela signifie aussi qu'il n'y a désormais plus rien à observer sur §Y[From.GetName]§!..."
+ planet_destruction.1000.desc.shatter:0 "Les forces de '§Y[From.From.Owner.GetName]§!' ont détruit la [From.GetPlanetMoon] §Y[From.GetName]§!, y annihilant la civilisation pré-PRL qui prospérait à sa surface. Par conséquent, il n'y a désormais plus rien à y observer..."
+ planet_destruction.1000.desc.shield:0 "Les forces de '§Y[From.From.Owner.GetName]§!' ont enveloppé §Y[From.GetName]§! derrière une barrière énergétique impénétrable, nous empêchant désormais d'observer la civilisation pré-PRL prospérant à sa surface..."
+ planet_destruction.1000.desc.neutron:0 "Les forces de '§Y[From.From.Owner.GetName]§!' ont annihilé la civilisation pré-PRL qui prospérait à la surface de §Y[From.GetName]§!. Par conséquent, il n'y a désormais plus rien à y observer..."
  planet_destruction.1000.A:0 "Ainsi soit-il"
  planet_destruction.1000.B:0 "Ils bougent beaucoup malgré qu'ils aient été changés en plasma"
 
@@ -3250,7 +3267,7 @@
  BUILD_PLAN_DETAILS:0 "Sauvegarde des détails du plan de construction : $BOOL|Y$"
 
  action.123.name:0 "Derniers [From.GetSpeciesNamePlural] enlevés"
- action.123.desc:0 "Les derniers §H[From.GetSpeciesNamePlural]§! primitifs qui se trouvaient encore sur §Y[From.From.GetName]§!, leur monde natal, ont été enlevés et asservis. Sans doute quelques membres de l'espèce s'y trouvent-ils encore, à parcourir les régions les plus sauvages de la [From.From.GetPlanetMoon], mais ils seraient de toute façon trop peu nombreux pour préserver la moindre civilisation."
+ action.123.desc:0 "Les derniers §H[From.GetSpeciesNamePlural]§! primitifs qui se trouvaient encore sur §Y[From.From.GetName]§!, leur monde natal, ont été enlevés et asservis. Sans doute quelques membres de cette espèce pré-PRL s'y trouvent-ils encore, à parcourir les régions les plus sauvages de la [From.From.GetPlanetMoon], mais ils seraient de toute façon trop peu nombreux pour préserver la moindre civilisation."
  action.123.a:0 "Ces [From.GetSpeciesNamePlural] nous seront fort utiles"
  pc_shattered_2:0 "$pc_shattered$"
  pc_shattered_2_desc:0 "$pc_shattered_desc$"
@@ -3262,6 +3279,9 @@
  galcom_2_nay:0 "Nous n'allons pas appuyer la formation [global_event_country.GetDuDelaDelCommGalEmpGal] [global_event_country.GetGalCommunityOrGalImperium]."
  action.1.desc_89:0 "Vous êtes... Vous êtes des [From.GetSpeciesNamePlural] ? C'est incroyable ! Vous devez être des survivants de l'§YInitiative Ulysse§! ! Tout le monde sur Terra pensait que les vaisseaux-arches avaient été perdus, mais au moins l'un d'entre eux a survécu ! Vous dites que vos ancêtres étaient sur le Chrysanthème ?\n\nCela n'a sans doute pas été facile, mais vous avez tout l'air de vous en être bien sortis. Au nom des habitants de Terra et des membres de l'Assemblée générale des Nations unies, j'aimerais tendre une main confraternelle à mes frères et soeurs de '§Y[Root.GetName]§!'.\n\nDésormais, faisons tout pour oeuvrer de concert à la prospérité future de l'ensemble de l'humanité !"
  action.1.desc_90:0 "La [From.GetName]... Ainsi donc, l'ONU est parvenue à se maintenir au pouvoir, même après toutes ces années ? Veuillez nous pardonner, les choses étaient quelque peu... chaotiques sur Terra lorsque nos ancêtres l'ont quittée sur les vaisseaux-arches de l'§YInitiative Ulysse§!. Nous étions nombreux à penser que vous vous étiez détruits lors d'une nouvelle guerre mondiale, ou aviez été victimes d'une invasion alien.\n\nMalgré tout, vous avez l'air plus forts et plus compétents que les autorités corrompues de Terra lorsque nos ancêtres en sont partis. Ce sont eux qui ont fondé '§Y[contact_empire.GetName]§!', à partir de rien, et nous la défendrons jusqu'au dernier. Quant à vous, nous verrons bien si vous méritez notre respect."
+ action.1.desc_91:0 "Ah, la marche de la galaxie ne recèle-t-elle pas sa part d'ironie ? Nous retrouver en contact à nouveau, vous et nous, après tous les événements passés... Mais ne craignez rien : le Conseil d'administration de la $NAME_MSI_country$ se montre tout à fait favorable à assister de nouveau la [Root.GetName].\n\nNaturellement, cela implique aussi une juste réparation pour les dégâts infligés à nos actifs. Nos agents de recouvrement entreront très prochainement en contact avec vous, s'ils ne l'ont déjà fait. Nous espérons bien évidemment qu'un accord à l'amiable pourra être trouvé.\n\nQuelle période intéressante que la nôtre, ne pensez-vous pas ? Permettez-moi donc de vous féliciter pour les incroyables progrès que vous avez réalisés. Nous sommes d'ailleurs impatients de contribuer à tester la solidité de toutes ces superbes avancées."
+ action.1.desc_92:0 "Tiens tiens, nos actifs nous reviennent ? Vous n'avez pas idée du plaisir qu'a la $NAME_MSI_country$ de vous retrouver enfin. Au nom du Conseil d'administration de la $NAME_MSI_country_initials$, permettez-moi de commencer par vous féliciter pour tous les progrès qu'a faits votre... peuple. Ce n'est certes pas rien d'avoir su accomplir de si grandes choses en partant d'absolument rien.\n\nSi vous avez le moindre besoin, évidemment, n'hésitez pas à entrer en contact avec nous. Ne vous inquiétez pas, nous ne sommes pas rancuniers. Après tout, les sociétés sous-développées ne sauraient être réellement tenues pour responsables de leurs actions. C'est évident, vous en conviendrez. Et la [Root.GetName] est encore si jeune..."
+ action.1.desc_93:0 "Au nom du Conseil d'administration de la $NAME_MSI_country$, veuillez accepter nos salutations les plus chaleureuses. Chez $NAME_MSI_country_initials$, nous n'avons d'autre désir que d'ouvrir les autres civilisations à la technologie et aux échanges lucratifs. Après tout, toute forme de vie consciente a le droit de vivre ses rêves, n'est-ce pas ?\n\nPour l'heure, nous avons déjà communiqué des informations à des dizaines de mondes pré-PRL, et visons à améliorer encore ce bilan de 40% au cours de la décennie à venir. Nous soutenons aussi les empires spatiaux de la galaxie en leur fournissant une assistance financière et tous les services fournis par notre main-d'oeuvre contractuelle hautement spécialisée.\n\nSi vous avez le moindre besoin, donc, n'hésitez surtout pas à nous contacter. Nous sommes impatients de pouvoir faire affaire avec la [Root.GetName] !"
  starbase_citadel_trigger:0 "£trigger_no£ La base stellaire doit être au moins une §Ycitadelle§!."
  starbase_titan_yards_trigger:0 "£trigger_no£ La base stellaire doit disposer d'un chantier d'§Yassemblage titanesque§!."
  starbase_colossal_yards_trigger:0 "£trigger_no£ La base stellaire doit disposer d'un §Ychantier d'assemblage colossal§!."
@@ -3668,7 +3688,7 @@
  FED_WE_WILL_NOT_SUBMIT:0 "Nous ne pouvons l'accepter !"
  FED_WE_WILL_BE_IN_BREACH:0 "Nous serons désormais en §Rinfraction§! avec les lois galactiques."
 
- federations.10100.desc:0 "[global_event_country.GetLeLaLCommGalEmpGalCap] [global_event_country.GetGalCommunityOrGalImperium] a adopté la résolution portant sur les §Yxéno-études avancées§!, interdisant à ses membres de §Yprohiber l'I.A.§! ou de pratiquer des §Ypolitiques de non-ingérence§! avec les primitifs.\n\n'§Y[Root.GetName]§!' se trouve donc en infraction avec cette résolution, et doit décider dès à présent si elle doit procéder aux changements pour se mettre en conformité."
+ federations.10100.desc:0 "[global_event_country.GetLeLaLCommGalEmpGalCap] [global_event_country.GetGalCommunityOrGalImperium] a adopté la résolution portant sur les §Yxéno-études avancées§!, interdisant à ses membres de §Yprohiber l'I.A.§! ou de pratiquer des §Ypolitiques de non-ingérence§! avec les pré-PRLs.\n\n'§Y[Root.GetName]§!' se trouve donc en infraction avec cette résolution, et doit décider dès à présent si elle doit procéder aux changements pour se mettre en conformité."
  federations.10100.change_ai:0 "Notre nouvelle politique sur l'§Yintelligence artificielle§! sera désormais celle de l'§YI.A. asservie§!."
  federations.10100.change_interference:0 "Notre nouvelle politique sur les §Yinterférences avec les indigènes§! sera désormais celle de l'§Yétude active§!."
 
@@ -3750,3 +3770,17 @@
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  NAME_ThwaaPhyr_singular_adj:0 "thwâ'phyre"
  NAME_Vemetosha_singular_adj:0 "vémétocha"
+ gas_plant_engineer_ms_FR:0 "ingénieur gazier"
+ gas_plant_engineer_fs_FR:0 "ingénieure gazière"
+ gas_plant_engineer_gestalt_ms_FR:0 "un des drones gaziers"
+ gas_plant_engineer_gestalt_fs_FR:0 "une des drones gaziers"
+ cave_cleaner_ms_FR:0 "nettoyeur de grottes"
+ cave_cleaner_fs_FR:0 "nettoyeuse de grottes"
+ cave_cleaner_gestalt_ms_FR:0 "un des drones nettoyeurs de grottes"
+ cave_cleaner_gestalt_fs_FR:0 "une des drones nettoyeurs de grottes"
+ titan_hunter_ms_FR:0 "chasseur de titans"
+ titan_hunter_fs_FR:0 "chasseuse de titans"
+ bluelotus_technician_ms_FR:0 "transmuteur"
+ bluelotus_technician_fs_FR:0 "transmuteuse"
+ bluelotus_drone_ms_FR:0 "un des drones transmuteurs"
+ bluelotus_drone_fs_FR:0 "une des drones transmuteurs"

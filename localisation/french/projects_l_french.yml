@@ -1,7 +1,7 @@
 ﻿l_french:
 
 # Original File, Overwritten by FrenchTranslationPack
-# Calvitix 3.3b Check OK, 22/01/2022
+# Calvitix 3.7.0 Check OK, 15/03/2023
 #
 
  ####################################
@@ -226,10 +226,10 @@
  SMUGGLER_RAID_PROJECT_DESC:0 "Des contrebandiers ont établi un avant-poste illégal à la surface de §Y[From.GetName]§!, un monde primitif placé sous notre protection. Ils doivent en être délogés avant de provoquer des dommages irréparables sur la civilisation indigène de la [From.GetPlanetMoon]."
  ROGUE_BOMBARDMENT_PROJECT:0 "Éliminer un agent rebelle"
  ROGUE_BOMBARDMENT_PROJECT_DESC:0 "Notre agent secret rebelle de §H[From.GetName]§! a été localisé dans une cache, en banlieue d'une grande ville. Nous devons disposer une flotte sur place pour bombarder ce lieu depuis l'espace."
- AVERT_PRIMITIVE_WAR_PROJECT:0 "Empêcher la guerre sur §Y[From.GetName]§!"
- AVERT_PRIMITIVE_WAR_PROJECT_DESC:0 "Notre programme d'infiltration sur §Y[From.GetName]§! a déclenché un incident, et les [From.Owner.GetSpeciesNamePlural] sont au bord de la guerre nucléaire. Nos cellules d'infiltration ont besoin d'un vaisseau scientifique en orbite de la [From.GetPlanetMoon] pour apaiser les tensions."
- FALLEN_SHIELD_PROJECT:0 "Neutralisation du bouclier de §H[From.GetName]§!"
- FALLEN_SHIELD_PROJECT_DESC:1 "Pour une raison inconnue, quelqu'un ou quelque chose a enfermé §H[shielded_planet.GetName]§! dans un bouclier énergétique impénétrable. Les niveaux d'énergie en sont très fluctuants, suggérant que ce bouclier est actif depuis plusieurs milliers d'années. Nous devons trouver le moyen d'abaisser cette barrière pour découvrir ce qui se trouve à l'intérieur."
+ AVERT_PRIMITIVE_WAR_PROJECT:1 "Empêcher la guerre sur [prelude_to_war_planet.GetName]"
+ AVERT_PRIMITIVE_WAR_PROJECT_DESC:1 "Le programme d'infiltration sur [prelude_to_war_planet.GetName] a déclenché un incident international, et les [prelude_to_war_country.GetSpeciesNamePlural] sont au bord de la guerre nucléaire. Nos cellules d'infiltration ont besoin d'un vaisseau scientifique en orbite de la [prelude_to_war_planet.GetPlanetMoon] pour apaiser les tensions."
+ FALLEN_SHIELD_PROJECT:0 "Neutraliser le bouclier sur [shielded_planet.GetName]"
+ FALLEN_SHIELD_PROJECT_DESC:1 "Pour une raison inconnue, quelqu'un ou quelque chose a enfermé [shielded_planet.GetName] dans un bouclier énergétique impénétrable. Les niveaux d'énergie en sont très fluctuants, suggérant que ce bouclier est actif depuis plusieurs milliers d'années. Nous devons trouver le moyen d'abaisser cette barrière pour découvrir ce qui se trouve à l'intérieur."
  BOARD_HYACINTH:0 "Arraisonner le Jacinthe"
  BOARD_HYACINTH_DESC:0 "Le Jacinthe a été localisé au-dessus de [hyacinth_planet.GetName] et sa structure semble intacte. Nous allons devoir former une équipe d'abordage pour découvrir ce qu'il est arrivé au vaisseau-arche."
  ABDUCT_SCIENTIST_PROJECT:0 "Enlèvement d'un scientifique"
@@ -259,3 +259,10 @@
  INVESTIGATE_PIRATES_DESC:0 "$ESTABLISH_COMMUNICATIONS_DESC$"
  INVESTIGATE_MARAUDERS:0 "$ESTABLISH_COMMUNICATIONS$"
  INVESTIGATE_MARAUDERS_DESC:0 "$ESTABLISH_COMMUNICATIONS_DESC$"
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ PRIMITIVE_SHUTTLE_CRASH:0 "Sauver les survivants de la navette"
+ PRIMITIVE_SHUTTLE_CRASH_DESC:0 "Une de nos navettes a été abattue par les forces locales de [From.GetName]. Nous devons aller porter secours aux survivants avant qu'ils ne se fassent capturer par les autochtones."
+ EXTRACT_ROGUE_SCIENTIST:0 "Extraire le scientifique rebelle"
+ EXTRACT_ROGUE_SCIENTIST_DESC:0 "Un de nos scientifiques s'est rebellé et est désormais vénéré comme un dieu par la population de [From.GetName]. Nous devons à tout prix le récupérer... y compris par la force."
+ PROBE_ALIENS:0 "Examiner des aliens"
+ PROBE_ALIENS_DESC:0 "Nos scientifiques aimeraient prélever quelques sujets de la civilisation locale de [From.GetName] pour leur faire subir des tests. Ces sujets seront ensuite renvoyés à la surface de la [From.GetPlanetMoon] et ne garderont aucun souvenir de leur expérience."
